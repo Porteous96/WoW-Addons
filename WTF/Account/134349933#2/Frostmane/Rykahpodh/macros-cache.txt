@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "eye brrr" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast eye beam
+/s funny eye beam go brrrrrrr
+END

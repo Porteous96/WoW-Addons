@@ -1,0 +1,3444 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 18,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003079,
+							["spec"] = 253,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Goblin Assassin"] = 103,
+							},
+							["pets"] = {
+								"Wolf <Deletemelool>", -- [1]
+							},
+							["colocacao"] = 1,
+							["end_time"] = 1572981728,
+							["classe"] = "HUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 85.003079,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 103.003079,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Deletemelool",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[75] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16,
+										["targets"] = {
+											["Goblin Assassin"] = 46,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 46,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 46,
+										["c_max"] = 0,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[193455] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10,
+										["targets"] = {
+											["Goblin Assassin"] = 39,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 39,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 39,
+										["c_max"] = 0,
+										["id"] = 193455,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1300-0AB0135A",
+							["last_dps"] = 11.93408399953659,
+							["custom"] = 0,
+							["last_event"] = 1572981727,
+							["damage_taken"] = 0.003079,
+							["start_time"] = 1572981720,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.008495,
+							["serial"] = "Pet-0-1467-0-10990-42717-0202BC6206",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Goblin Assassin"] = 18,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 18.008495,
+							["dps_started"] = false,
+							["total"] = 18.008495,
+							["classe"] = "PET",
+							["ownerName"] = "Deletemelool",
+							["nome"] = "Wolf <Deletemelool>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 12,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Goblin Assassin"] = 18,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 18,
+										["c_max"] = 12,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 12,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1572981728,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008495,
+							["start_time"] = 1572981722,
+							["delay"] = 0,
+							["last_event"] = 1572981724,
+						}, -- [2]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.006487,
+							["damage_from"] = {
+								["Deletemelool"] = true,
+								["Wolf <Deletemelool>"] = true,
+							},
+							["targets"] = {
+							},
+							["end_time"] = 1572981728,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006487,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 0.006487,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-1467-0-10990-50039-000041C9B4",
+							["nome"] = "Goblin Assassin",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 103.006487,
+							["start_time"] = 1572981728,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 18,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorb"] = 0.003235,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+								["Deletemelool"] = 29,
+							},
+							["targets"] = {
+								["Wolf <Deletemelool>"] = 6,
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deletemelool"] = 29,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Deletemelool"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 4,
+										["overheal"] = 29,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["pets"] = {
+								"Wolf <Deletemelool>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+							},
+							["classe"] = "HUNTER",
+							["totalover"] = 29.003235,
+							["total_without_pet"] = 0.003235,
+							["heal_enemy_amt"] = 0,
+							["totalover_without_pet"] = 0.003235,
+							["healing_taken"] = 0.003235,
+							["total"] = 6.003235,
+							["end_time"] = 1572981728,
+							["start_time"] = 1572981726,
+							["nome"] = "Deletemelool",
+							["targets_absorbs"] = {
+							},
+							["grupo"] = true,
+							["spec"] = 253,
+							["heal_enemy"] = {
+							},
+							["serial"] = "Player-1300-0AB0135A",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.003235,
+							["delay"] = 0,
+							["last_event"] = 1572981727,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.008752,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Wolf <Deletemelool>"] = true,
+							},
+							["targets"] = {
+								["Wolf <Deletemelool>"] = 6,
+							},
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.008752,
+							["end_time"] = 1572981728,
+							["classe"] = "PET",
+							["totalover"] = 0.008752,
+							["total_without_pet"] = 6.008752,
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["fight_component"] = true,
+							["total"] = 6.008752,
+							["healing_taken"] = 6.008752,
+							["ownerName"] = "Deletemelool",
+							["nome"] = "Wolf <Deletemelool>",
+							["targets_absorbs"] = {
+							},
+							["start_time"] = 1572981726,
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 6,
+										["targets"] = {
+											["Wolf <Deletemelool>"] = 6,
+										},
+										["n_min"] = 6,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 6,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 6,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["heal_enemy"] = {
+							},
+							["serial"] = "Pet-0-1467-0-10990-42717-0202BC6206",
+							["custom"] = 0,
+							["last_event"] = 1572981726,
+							["on_hold"] = false,
+							["totaldenied"] = 0.008752,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 18,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 18,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime"] = 2,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[5116] = {
+										["activedamt"] = 0,
+										["id"] = 5116,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["nome"] = "Deletemelool",
+							["spec"] = 253,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193455] = 4,
+								[5116] = 1,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["classe"] = "HUNTER",
+							["serial"] = "Player-1300-0AB0135A",
+							["last_event"] = 1572981726,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 18,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deletemelool"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["overall_added"] = true,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["tempo_start"] = 1572981720,
+				["enemy"] = "Goblin Assassin",
+				["combat_counter"] = 29,
+				["playing_solo"] = true,
+				["totals"] = {
+					102.996213, -- [1]
+					6, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatEndedAt"] = 838.231,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "19:22:01",
+				["end_time"] = 838.231,
+				["totals_grupo"] = {
+					85, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["combat_id"] = 18,
+				["TotalElapsedCombatTime"] = 838.231,
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deletemelool"] = 6.003235,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Deletemelool"] = 103.003079,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+					["Goblin Assassin"] = 2,
+				},
+				["data_fim"] = "19:22:09",
+				["instance_type"] = "none",
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 829.6,
+				["TimeData"] = {
+				},
+				["pvp"] = true,
+			}, -- [1]
+			{
+				{
+					["combatId"] = 17,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004081,
+							["total"] = 50.004081,
+							["damage_from"] = {
+								["Goblin Assassin"] = true,
+							},
+							["targets"] = {
+								["Goblin Assassin"] = 50,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "HUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 50.004081,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1572981697,
+							["on_hold"] = false,
+							["spec"] = 253,
+							["nome"] = "Deletemelool",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[193455] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10,
+										["targets"] = {
+											["Goblin Assassin"] = 20,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 20,
+										["c_max"] = 0,
+										["id"] = 193455,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[75] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 30,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Goblin Assassin"] = 30,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 30,
+										["c_max"] = 30,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 30,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1300-0AB0135A",
+							["last_dps"] = 21.95086962247566,
+							["custom"] = 0,
+							["last_event"] = 1572981697,
+							["damage_taken"] = 8.004081,
+							["start_time"] = 1572981695,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.00484,
+							["damage_from"] = {
+								["Deletemelool"] = true,
+							},
+							["targets"] = {
+								["Deletemelool"] = 8,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 8.00484,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 8.00484,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-1467-0-10990-50039-000041CBB7",
+							["nome"] = "Goblin Assassin",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Deletemelool"] = 8,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 8,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1572981697,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 50.00484,
+							["start_time"] = 1572981695,
+							["delay"] = 0,
+							["last_event"] = 1572981696,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 17,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deletemelool"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "HUNTER",
+							["totalover"] = 10.006414,
+							["total_without_pet"] = 8.006414,
+							["total"] = 8.006414,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1300-0AB0135A",
+							["totalabsorb"] = 0.006414,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Deletemelool"] = 10,
+							},
+							["totalover_without_pet"] = 0.006414,
+							["healing_taken"] = 8.006414,
+							["fight_component"] = true,
+							["end_time"] = 1572981697,
+							["targets_overheal"] = {
+								["Deletemelool"] = 10,
+							},
+							["nome"] = "Deletemelool",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 3,
+										["targets"] = {
+											["Deletemelool"] = 3,
+										},
+										["n_min"] = 3,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 3,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 3,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deletemelool"] = 10,
+										},
+										["n_max"] = 5,
+										["targets"] = {
+											["Deletemelool"] = 5,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 10,
+										["total"] = 5,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 5,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1572981696,
+							["custom"] = 0,
+							["last_event"] = 1572981697,
+							["spec"] = 253,
+							["totaldenied"] = 0.006414,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 17,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 17,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["nome"] = "Deletemelool",
+							["spec"] = 253,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193455] = 1,
+							},
+							["flag_original"] = 1297,
+							["last_event"] = 0,
+							["classe"] = "HUNTER",
+							["pets"] = {
+							},
+							["serial"] = "Player-1300-0AB0135A",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 17,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deletemelool"] = true,
+				},
+				["CombatStartedAt"] = 828.914,
+				["tempo_start"] = 1572981695,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 28,
+				["playing_solo"] = true,
+				["totals"] = {
+					57.98558700000001, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					50, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:21:38",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Goblin Assassin",
+				["TotalElapsedCombatTime"] = 807.053,
+				["CombatEndedAt"] = 807.053,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deletemelool"] = 8.006414,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Deletemelool"] = 50.004081,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 807.053,
+				["combat_id"] = 17,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["overall_added"] = true,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "19:21:36",
+				["start_time"] = 804.775,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Goblin Assassin"] = 1,
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 16,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004379,
+							["total"] = 48.004379,
+							["damage_from"] = {
+								["Goblin Assassin"] = true,
+							},
+							["targets"] = {
+								["Goblin Assassin"] = 48,
+							},
+							["pets"] = {
+								"Wolf <Deletemelool>", -- [1]
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "HUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 36.004379,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1572981694,
+							["on_hold"] = false,
+							["spec"] = 253,
+							["nome"] = "Deletemelool",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[193455] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10,
+										["targets"] = {
+											["Goblin Assassin"] = 20,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 20,
+										["c_max"] = 0,
+										["id"] = 193455,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[75] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16,
+										["targets"] = {
+											["Goblin Assassin"] = 16,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 16,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 16,
+										["c_max"] = 0,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1300-0AB0135A",
+							["last_dps"] = 11.89110205598206,
+							["custom"] = 0,
+							["last_event"] = 1572981693,
+							["damage_taken"] = 4.004379,
+							["start_time"] = 1572981690,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001395,
+							["serial"] = "Pet-0-1467-0-10990-42717-0202BC6206",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Goblin Assassin"] = 12,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 12.001395,
+							["dps_started"] = false,
+							["total"] = 12.001395,
+							["classe"] = "PET",
+							["ownerName"] = "Deletemelool",
+							["nome"] = "Wolf <Deletemelool>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 12,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Goblin Assassin"] = 12,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 12,
+										["c_max"] = 12,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 12,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1572981694,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001395,
+							["start_time"] = 1572981693,
+							["delay"] = 0,
+							["last_event"] = 1572981693,
+						}, -- [2]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.005561,
+							["damage_from"] = {
+								["Deletemelool"] = true,
+								["Wolf <Deletemelool>"] = true,
+							},
+							["targets"] = {
+								["Deletemelool"] = 4,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4.005561,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 4.005561,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-1467-0-10990-50039-000041CB2E",
+							["nome"] = "Goblin Assassin",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4,
+										["targets"] = {
+											["Deletemelool"] = 4,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4,
+										["n_min"] = 4,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 4,
+										["c_max"] = 0,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1572981694,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 48.005561,
+							["start_time"] = 1572981693,
+							["delay"] = 0,
+							["last_event"] = 1572981693,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 16,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deletemelool"] = true,
+							},
+							["pets"] = {
+								"Wolf <Deletemelool>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "HUNTER",
+							["totalover"] = 10.004566,
+							["total_without_pet"] = 4.004566,
+							["total"] = 7.004566,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1300-0AB0135A",
+							["totalabsorb"] = 0.004566,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Deletemelool"] = 7,
+								["Wolf <Deletemelool>"] = 3,
+							},
+							["totalover_without_pet"] = 0.004566,
+							["healing_taken"] = 4.004566,
+							["fight_component"] = true,
+							["end_time"] = 1572981694,
+							["targets_overheal"] = {
+								["Deletemelool"] = 10,
+							},
+							["nome"] = "Deletemelool",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deletemelool"] = 10,
+										},
+										["n_max"] = 4,
+										["targets"] = {
+											["Deletemelool"] = 4,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 10,
+										["total"] = 4,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 4,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1572981693,
+							["custom"] = 0,
+							["last_event"] = 1572981694,
+							["spec"] = 253,
+							["totaldenied"] = 0.004566,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["healing_from"] = {
+								["Wolf <Deletemelool>"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PET",
+							["totalover"] = 0.008273,
+							["total_without_pet"] = 3.008273,
+							["total"] = 3.008273,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-1467-0-10990-42717-0202BC6206",
+							["totalabsorb"] = 0.008273,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Wolf <Deletemelool>"] = 3,
+							},
+							["totalover_without_pet"] = 0.008273,
+							["healing_taken"] = 3.008273,
+							["fight_component"] = true,
+							["end_time"] = 1572981694,
+							["ownerName"] = "Deletemelool",
+							["nome"] = "Wolf <Deletemelool>",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 3,
+										["targets"] = {
+											["Wolf <Deletemelool>"] = 3,
+										},
+										["n_min"] = 3,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 3,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 3,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["targets_overheal"] = {
+							},
+							["start_time"] = 1572981694,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1572981694,
+							["totaldenied"] = 0.008273,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 16,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 16,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["nome"] = "Deletemelool",
+							["spec"] = 253,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193455] = 1,
+							},
+							["flag_original"] = 1297,
+							["last_event"] = 0,
+							["classe"] = "HUNTER",
+							["pets"] = {
+							},
+							["serial"] = "Player-1300-0AB0135A",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 16,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deletemelool"] = true,
+				},
+				["CombatStartedAt"] = 804.533,
+				["tempo_start"] = 1572981690,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 27,
+				["playing_solo"] = true,
+				["totals"] = {
+					51.984064, -- [1]
+					6.986525, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					36, -- [1]
+					4, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:21:35",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Goblin Assassin",
+				["TotalElapsedCombatTime"] = 804.2230000000001,
+				["CombatEndedAt"] = 804.2230000000001,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deletemelool"] = 7.004566,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Deletemelool"] = 48.004379,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 804.2230000000001,
+				["combat_id"] = 16,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["overall_added"] = true,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "19:21:31",
+				["start_time"] = 800.186,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Goblin Assassin"] = 1,
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 15,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00173,
+							["total"] = 50.00173,
+							["damage_from"] = {
+								["Goblin Assassin"] = true,
+							},
+							["targets"] = {
+								["Goblin Assassin"] = 50,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "HUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 50.00173,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1572981689,
+							["on_hold"] = false,
+							["spec"] = 253,
+							["nome"] = "Deletemelool",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[193455] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10,
+										["targets"] = {
+											["Goblin Assassin"] = 19,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 19,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 19,
+										["c_max"] = 0,
+										["id"] = 193455,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[75] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16,
+										["targets"] = {
+											["Goblin Assassin"] = 31,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 31,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 31,
+										["c_max"] = 0,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1300-0AB0135A",
+							["last_dps"] = 13.70285831734722,
+							["custom"] = 0,
+							["last_event"] = 1572981689,
+							["damage_taken"] = 6.00173,
+							["start_time"] = 1572981686,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.008723,
+							["damage_from"] = {
+								["Deletemelool"] = true,
+							},
+							["targets"] = {
+								["Deletemelool"] = 6,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6.008723,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 6.008723,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-1467-0-10990-50039-0000C1C9C0",
+							["nome"] = "Goblin Assassin",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Deletemelool"] = 6,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 6,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1572981689,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 50.008723,
+							["start_time"] = 1572981688,
+							["delay"] = 0,
+							["last_event"] = 1572981688,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 15,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deletemelool"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "HUNTER",
+							["totalover"] = 15.008628,
+							["total_without_pet"] = 1.008628,
+							["total"] = 1.008628,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1300-0AB0135A",
+							["totalabsorb"] = 0.008628,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Deletemelool"] = 1,
+							},
+							["totalover_without_pet"] = 0.008628,
+							["healing_taken"] = 1.008628,
+							["fight_component"] = true,
+							["end_time"] = 1572981689,
+							["targets_overheal"] = {
+								["Deletemelool"] = 15,
+							},
+							["nome"] = "Deletemelool",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1,
+										["targets"] = {
+											["Deletemelool"] = 1,
+										},
+										["n_min"] = 1,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deletemelool"] = 15,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Deletemelool"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 15,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1572981689,
+							["custom"] = 0,
+							["last_event"] = 1572981689,
+							["spec"] = 253,
+							["totaldenied"] = 0.008628,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 15,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 15,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["nome"] = "Deletemelool",
+							["spec"] = 253,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193455] = 1,
+							},
+							["flag_original"] = 1297,
+							["last_event"] = 0,
+							["classe"] = "HUNTER",
+							["pets"] = {
+							},
+							["serial"] = "Player-1300-0AB0135A",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 15,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deletemelool"] = true,
+				},
+				["CombatStartedAt"] = 800.061,
+				["tempo_start"] = 1572981686,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 26,
+				["playing_solo"] = true,
+				["totals"] = {
+					55.992973, -- [1]
+					1, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					50, -- [1]
+					1, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:21:30",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Goblin Assassin",
+				["TotalElapsedCombatTime"] = 798.981,
+				["CombatEndedAt"] = 798.981,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deletemelool"] = 1.008628,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Deletemelool"] = 50.00173,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 798.981,
+				["combat_id"] = 15,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["overall_added"] = true,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "19:21:26",
+				["start_time"] = 795.332,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Goblin Assassin"] = 1,
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 14,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003285,
+							["damage_from"] = {
+								["Goblin Assassin"] = true,
+							},
+							["targets"] = {
+								["Goblin Assassin"] = 92,
+							},
+							["total"] = 92.003285,
+							["pets"] = {
+								"Wolf <Deletemelool>", -- [1]
+							},
+							["on_hold"] = false,
+							["classe"] = "HUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 63.003285,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1572981684,
+							["friendlyfire_total"] = 0,
+							["spec"] = 253,
+							["nome"] = "Deletemelool",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[75] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Goblin Assassin"] = 43,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 43,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 43,
+										["c_max"] = 0,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[193455] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10,
+										["targets"] = {
+											["Goblin Assassin"] = 20,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 20,
+										["c_max"] = 0,
+										["id"] = 193455,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1300-0AB0135A",
+							["last_dps"] = 11.16680240320423,
+							["custom"] = 0,
+							["last_event"] = 1572981684,
+							["damage_taken"] = 8.003285,
+							["start_time"] = 1572981676,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.003657,
+							["serial"] = "Pet-0-1467-0-10990-42717-0202BC6206",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Goblin Assassin"] = 29,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 29.003657,
+							["dps_started"] = false,
+							["total"] = 29.003657,
+							["classe"] = "PET",
+							["ownerName"] = "Deletemelool",
+							["nome"] = "Wolf <Deletemelool>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 11,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Goblin Assassin"] = 29,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 29,
+										["c_max"] = 11,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 11,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1572981684,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.003657,
+							["start_time"] = 1572981678,
+							["delay"] = 0,
+							["last_event"] = 1572981684,
+						}, -- [2]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.008619,
+							["damage_from"] = {
+								["Deletemelool"] = true,
+								["Wolf <Deletemelool>"] = true,
+							},
+							["targets"] = {
+								["Deletemelool"] = 8,
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 8.008619,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 8.008619,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-1467-0-10990-50039-000041C657",
+							["nome"] = "Goblin Assassin",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5,
+										["targets"] = {
+											["Deletemelool"] = 8,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8,
+										["n_min"] = 3,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 8,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1572981684,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 92.008619,
+							["start_time"] = 1572981681,
+							["delay"] = 0,
+							["last_event"] = 1572981682,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 14,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Deletemelool"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "HUNTER",
+							["totalover"] = 21.003034,
+							["total_without_pet"] = 8.003034,
+							["total"] = 8.003034,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1300-0AB0135A",
+							["totalabsorb"] = 0.003034,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Deletemelool"] = 8,
+							},
+							["totalover_without_pet"] = 0.003034,
+							["healing_taken"] = 8.003034,
+							["fight_component"] = true,
+							["end_time"] = 1572981684,
+							["targets_overheal"] = {
+								["Deletemelool"] = 21,
+							},
+							["nome"] = "Deletemelool",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Deletemelool"] = 21,
+										},
+										["n_max"] = 8,
+										["targets"] = {
+											["Deletemelool"] = 8,
+										},
+										["n_min"] = 0,
+										["counter"] = 4,
+										["overheal"] = 21,
+										["total"] = 8,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 8,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1572981682,
+							["custom"] = 0,
+							["last_event"] = 1572981684,
+							["spec"] = 253,
+							["totaldenied"] = 0.003034,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 14,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 14,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["nome"] = "Deletemelool",
+							["spec"] = 253,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193455] = 2,
+							},
+							["flag_original"] = 1297,
+							["last_event"] = 0,
+							["classe"] = "HUNTER",
+							["pets"] = {
+							},
+							["serial"] = "Player-1300-0AB0135A",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 14,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Deletemelool"] = true,
+				},
+				["CombatStartedAt"] = 794.915,
+				["tempo_start"] = 1572981676,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 25,
+				["playing_solo"] = true,
+				["totals"] = {
+					100, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					63, -- [1]
+					8, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:21:25",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Goblin Assassin",
+				["TotalElapsedCombatTime"] = 793.714,
+				["CombatEndedAt"] = 793.714,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Deletemelool"] = 8.003034,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Deletemelool"] = 92.003285,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 793.714,
+				["combat_id"] = 14,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["overall_added"] = true,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "19:21:16",
+				["start_time"] = 785.475,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Goblin Assassin"] = 2,
+				},
+			}, -- [5]
+		},
+	},
+	["last_version"] = "v8.2.5.7225",
+	["character_data"] = {
+		["logons"] = 3,
+	},
+	["tabela_instancias"] = {
+	},
+	["on_death_menu"] = true,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1574195352,
+		["last_version"] = 11,
+	},
+	["last_instance_id"] = 0,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["last_instance_time"] = 0,
+	["active_profile"] = "Swobuswagins-Tarren Mill",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["showamount"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["useclasscolors"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				288.999938964844, -- [1]
+				320.999969482422, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = true,
+			},
+			["arrow_anchor_x"] = 0,
+			["row_texture"] = "Details Serenity",
+			["scale"] = 1,
+			["row_height"] = 20,
+			["main_frame_strata"] = "LOW",
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["point"] = "TOPLEFT",
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 0.00115966796875,
+				["x"] = 3.0517578125e-05,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["font_size"] = 10,
+			["x"] = 11.0000076293945,
+			["font_face"] = "Friz Quadrata TT",
+			["y"] = -74.9996948242188,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = true,
+			["use_spark"] = true,
+		},
+	},
+	["last_realversion"] = 140,
+	["ignore_nicktag"] = false,
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["force_font_outline"] = "",
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["combat_id"] = 18,
+	["savedStyles"] = {
+	},
+	["combat_counter"] = 29,
+	["last_day"] = "05",
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.08219599999999999,
+					["damage_from"] = {
+						["Goblin Assassin"] = true,
+						["Blackrock Spy"] = true,
+						["Blackrock Worg"] = true,
+					},
+					["targets"] = {
+						["Goblin Assassin"] = 389,
+						["Blackrock Spy"] = 342,
+						["Blackrock Worg"] = 177,
+					},
+					["pets"] = {
+						"Wolf <Deletemelool>", -- [1]
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 781.082196,
+					["classe"] = "HUNTER",
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1572981400,
+					["friendlyfire"] = {
+					},
+					["total"] = 908.0821959999998,
+					["nome"] = "Deletemelool",
+					["spec"] = 253,
+					["grupo"] = true,
+					["on_hold"] = false,
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[75] = {
+								["c_amt"] = 6,
+								["b_amt"] = 0,
+								["c_dmg"] = 159,
+								["g_amt"] = 0,
+								["n_max"] = 16,
+								["targets"] = {
+									["Goblin Assassin"] = 196,
+									["Blackrock Spy"] = 178,
+									["Blackrock Worg"] = 92,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 307,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 29,
+								["total"] = 466,
+								["c_max"] = 31,
+								["id"] = 75,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 23,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[193455] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 86,
+								["g_amt"] = 0,
+								["n_max"] = 10,
+								["targets"] = {
+									["Goblin Assassin"] = 128,
+									["Blackrock Spy"] = 132,
+									["Blackrock Worg"] = 55,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 229,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 31,
+								["total"] = 315,
+								["c_max"] = 19,
+								["id"] = 193455,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 26,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-1300-0AB0135A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 48.082196,
+					["start_time"] = 1572981329,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.04586899999999999,
+					["damage_from"] = {
+						["Wolf <Deletemelool>"] = true,
+						["Gìlnas-Sylvanas"] = true,
+						["Thotpatrole-Ravencrest"] = true,
+						["Deletemelool"] = true,
+						["Wolf"] = true,
+						["Stormwind Infantry"] = true,
+						["Thaehunt-Outland"] = true,
+					},
+					["targets"] = {
+						["Deletemelool"] = 15,
+						["Thaehunt-Outland"] = 2,
+						["Stormwind Infantry"] = 12,
+						["Gìlnas-Sylvanas"] = 19,
+					},
+					["pets"] = {
+					},
+					["end_time"] = 1572981400,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 48.045869,
+					["fight_component"] = true,
+					["dps_started"] = false,
+					["total"] = 48.045869,
+					["on_hold"] = false,
+					["classe"] = "UNKNOW",
+					["nome"] = "Blackrock Worg",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 5,
+								["targets"] = {
+									["Deletemelool"] = 15,
+									["Thaehunt-Outland"] = 2,
+									["Stormwind Infantry"] = 12,
+									["Gìlnas-Sylvanas"] = 19,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 48,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 21,
+								["DODGE"] = 2,
+								["total"] = 48,
+								["c_max"] = 0,
+								["MISS"] = 2,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 4,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 13,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
+					["serial"] = "Creature-0-1467-0-10990-49871-000041C98A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1572981388,
+					["delay"] = 0,
+					["damage_taken"] = 280.045869,
+				}, -- [2]
+				{
+					["flag_original"] = 4369,
+					["totalabsorbed"] = 0.067291,
+					["friendlyfire"] = {
+					},
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Goblin Assassin"] = 65,
+						["Blackrock Spy"] = 32,
+						["Blackrock Worg"] = 30,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 127.067291,
+					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["total"] = 127.067291,
+					["end_time"] = 1572981400,
+					["ownerName"] = "Deletemelool",
+					["nome"] = "Wolf <Deletemelool>",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 45,
+								["g_amt"] = 0,
+								["n_max"] = 6,
+								["targets"] = {
+									["Goblin Assassin"] = 65,
+									["Blackrock Spy"] = 32,
+									["Blackrock Worg"] = 30,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 82,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 20,
+								["total"] = 127,
+								["c_max"] = 12,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 16,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+					},
+					["last_event"] = 0,
+					["serial"] = "Pet-0-1467-0-10990-42717-0202BC6206",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.067291,
+					["start_time"] = 1572981361,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.051912,
+					["damage_from"] = {
+						["Deletemelool"] = true,
+						["Wolf <Deletemelool>"] = true,
+						["Leiaran-Ravencrest"] = true,
+						["Tankyspanky-Ravencrest"] = true,
+					},
+					["targets"] = {
+						["Deletemelool"] = 7,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 7.051912000000001,
+					["fight_component"] = true,
+					["dps_started"] = false,
+					["end_time"] = 1572981520,
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
+					["nome"] = "Blackrock Spy",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 5,
+								["targets"] = {
+									["Deletemelool"] = 7,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 7,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 7,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+					},
+					["friendlyfire_total"] = 0,
+					["total"] = 7.051912000000001,
+					["serial"] = "Creature-0-1467-0-10990-49874-0000C1C943",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 382.051912,
+					["start_time"] = 1572981515,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [4]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.040637,
+					["fight_component"] = true,
+					["damage_from"] = {
+						["Deletemelool"] = true,
+						["Wolf <Deletemelool>"] = true,
+					},
+					["targets"] = {
+						["Deletemelool"] = 26,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 26.040637,
+					["friendlyfire"] = {
+					},
+					["dps_started"] = false,
+					["end_time"] = 1572981672,
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
+					["nome"] = "Goblin Assassin",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 6,
+								["targets"] = {
+									["Deletemelool"] = 26,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 26,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 26,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 3,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 6,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+					},
+					["total"] = 26.040637,
+					["serial"] = "Creature-0-1467-0-10990-50039-000041CA45",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 389.040637,
+					["start_time"] = 1572981662,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [5]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+						["Deletemelool"] = 244,
+					},
+					["pets"] = {
+						"Wolf <Deletemelool>", -- [1]
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 244.072679,
+					["total_without_pet"] = 43.072679,
+					["total"] = 61.07267899999999,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1300-0AB0135A",
+					["totalabsorb"] = 0.07267900000000001,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Deletemelool"] = 57,
+						["Wolf <Deletemelool>"] = 18,
+					},
+					["totalover_without_pet"] = 0.07267900000000001,
+					["healing_taken"] = 43.072679,
+					["fight_component"] = true,
+					["end_time"] = 1572981520,
+					["healing_from"] = {
+						["Deletemelool"] = true,
+					},
+					["nome"] = "Deletemelool",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[143924] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 3,
+								["targets"] = {
+									["Deletemelool"] = 7,
+								},
+								["n_min"] = 0,
+								["counter"] = 5,
+								["overheal"] = 0,
+								["total"] = 7,
+								["c_max"] = 0,
+								["id"] = 143924,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 7,
+								["n_amt"] = 5,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Deletemelool"] = 244,
+								},
+								["n_max"] = 8,
+								["targets"] = {
+									["Deletemelool"] = 36,
+								},
+								["n_min"] = 0,
+								["counter"] = 42,
+								["overheal"] = 244,
+								["total"] = 36,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 36,
+								["n_amt"] = 42,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1572981491,
+					["classe"] = "HUNTER",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 253,
+					["totaldenied"] = 0.07267900000000001,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 4369,
+					["healing_from"] = {
+						["Wolf <Deletemelool>"] = true,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "PET",
+					["totalover"] = 0.03865100000000001,
+					["total_without_pet"] = 18.038651,
+					["total"] = 18.038651,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Pet-0-1467-0-10990-42717-0202BC6206",
+					["totalabsorb"] = 0.03865100000000001,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Wolf <Deletemelool>"] = 18,
+					},
+					["totalover_without_pet"] = 0.03865100000000001,
+					["healing_taken"] = 18.038651,
+					["targets_overheal"] = {
+					},
+					["fight_component"] = true,
+					["end_time"] = 1572981520,
+					["ownerName"] = "Deletemelool",
+					["nome"] = "Wolf <Deletemelool>",
+					["heal_enemy_amt"] = 0,
+					["last_event"] = 0,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["start_time"] = 1572981507,
+					["totaldenied"] = 0.03865100000000001,
+					["delay"] = 0,
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[143924] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 6,
+								["targets"] = {
+									["Wolf <Deletemelool>"] = 18,
+								},
+								["n_min"] = 0,
+								["counter"] = 6,
+								["overheal"] = 0,
+								["total"] = 18,
+								["c_max"] = 0,
+								["id"] = 143924,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 18,
+								["n_amt"] = 6,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+				}, -- [2]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["debuff_uptime"] = 2,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[5116] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 5116,
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["spec"] = 253,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[193455] = 18,
+						[5116] = 1,
+					},
+					["fight_component"] = true,
+					["pets"] = {
+					},
+					["classe"] = "HUNTER",
+					["nome"] = "Deletemelool",
+					["last_event"] = 0,
+					["serial"] = "Player-1300-0AB0135A",
+					["tipo"] = 4,
+				}, -- [1]
+				{
+					["fight_component"] = true,
+					["nome"] = "Blackrock Spy",
+					["tipo"] = 4,
+					["pets"] = {
+					},
+					["flag_original"] = 2600,
+					["classe"] = "UNKNOW",
+					["spell_cast"] = {
+						[92857] = 1,
+						[80676] = 1,
+					},
+					["serial"] = "Creature-0-1467-0-10990-49874-000041CB0F",
+					["last_event"] = 0,
+				}, -- [2]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["tempo_start"] = 1572981396,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 13,
+		["totals"] = {
+			1259.319062, -- [1]
+			86.114194, -- [2]
+			{
+				0, -- [1]
+				[0] = 0.005356,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["spells_cast_timeline"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "19:16:36",
+		["end_time"] = 838.231,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 8.630999999999972,
+				["type"] = 0,
+				["name"] = "Goblin Assassin",
+				["clock"] = "19:22:01",
+			}, -- [1]
+			{
+				["elapsed"] = 2.27800000000002,
+				["type"] = 0,
+				["name"] = "Goblin Assassin",
+				["clock"] = "19:21:36",
+			}, -- [2]
+			{
+				["elapsed"] = 4.037000000000035,
+				["type"] = 0,
+				["name"] = "Goblin Assassin",
+				["clock"] = "19:21:31",
+			}, -- [3]
+			{
+				["elapsed"] = 3.649000000000001,
+				["type"] = 0,
+				["name"] = "Goblin Assassin",
+				["clock"] = "19:21:26",
+			}, -- [4]
+			{
+				["elapsed"] = 8.239000000000033,
+				["type"] = 0,
+				["name"] = "Goblin Assassin",
+				["clock"] = "19:21:16",
+			}, -- [5]
+			{
+				["elapsed"] = 3.486999999999966,
+				["type"] = 0,
+				["name"] = "Goblin Assassin",
+				["clock"] = "19:21:09",
+			}, -- [6]
+			{
+				["elapsed"] = 0.7970000000000255,
+				["type"] = 0,
+				["name"] = "Blackrock Spy",
+				["clock"] = "19:19:51",
+			}, -- [7]
+			{
+				["elapsed"] = 2.821000000000026,
+				["type"] = 0,
+				["name"] = "Blackrock Spy",
+				["clock"] = "19:19:40",
+			}, -- [8]
+			{
+				["elapsed"] = 2.839999999999918,
+				["type"] = 0,
+				["name"] = "Blackrock Spy",
+				["clock"] = "19:19:30",
+			}, -- [9]
+			{
+				["elapsed"] = 3.548000000000002,
+				["type"] = 0,
+				["name"] = "Blackrock Spy",
+				["clock"] = "19:19:24",
+			}, -- [10]
+			{
+				["elapsed"] = 1.132000000000062,
+				["type"] = 0,
+				["name"] = "Blackrock Spy",
+				["clock"] = "19:19:20",
+			}, -- [11]
+			{
+				["elapsed"] = 6.15300000000002,
+				["type"] = 0,
+				["name"] = "Blackrock Spy",
+				["clock"] = "19:19:10",
+			}, -- [12]
+			{
+				["elapsed"] = 3.326000000000022,
+				["type"] = 0,
+				["name"] = "Blackrock Spy",
+				["clock"] = "19:19:04",
+			}, -- [13]
+			{
+				["elapsed"] = 6.655999999999949,
+				["type"] = 0,
+				["name"] = "Blackrock Worg",
+				["clock"] = "19:18:42",
+			}, -- [14]
+			{
+				["elapsed"] = 7.155999999999949,
+				["type"] = 0,
+				["name"] = "Blackrock Worg",
+				["clock"] = "19:18:33",
+			}, -- [15]
+			{
+				["elapsed"] = 3.869000000000028,
+				["type"] = 0,
+				["name"] = "Blackrock Worg",
+				["clock"] = "19:16:36",
+			}, -- [16]
+		},
+		["totals_grupo"] = {
+			908.0783339999999, -- [1]
+			61.06657299999999, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = "19:22:09",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 769.612,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_talents"] = {
+	},
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -424.0005111694336,
+					["x"] = 743.5001220703125,
+					["w"] = 432.9998168945313,
+					["h"] = 190.0000915527344,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-1329-06D377D7"] = 71,
+		["Player-1301-0AB0A7CC"] = 253,
+		["Player-1329-06D12411"] = 64,
+		["Player-1329-06CD3294"] = 71,
+		["Player-1300-0AB0135A"] = 253,
+		["Player-1305-0AB0B36F"] = 71,
+	},
+}

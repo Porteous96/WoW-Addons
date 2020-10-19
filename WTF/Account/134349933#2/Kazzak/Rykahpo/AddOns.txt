@@ -1,0 +1,15 @@
+OPie_Classic: disabled
+Auctionator: disabled
+CrucibleWeight: disabled
+ComboPointsRedux: disabled
+ComboPointsRedux_Options: disabled
+DugisGuideViewerZ: disabled
+OPie: disabled
+RCLootCouncil: disabled
+NOP: disabled
+AAP-Core: enabled
+Azeroth Auto Pilot: enabled
+MethodAltManager: disabled
+WorldQuestGroupFinder: disabled
+WorldQuestParty: disabled
+WorldQuestsList: enabled

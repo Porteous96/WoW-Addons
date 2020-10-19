@@ -1,0 +1,109 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		" thinking about it", -- [1]
+		" im coming back on my mage now though", -- [2]
+		"/reload", -- [3]
+		"/elvui", -- [4]
+		"/tmw options", -- [5]
+		"im coming back on my mage now though", -- [6]
+		"/simc minimap", -- [7]
+		"thinking about it", -- [8]
+		"/tmw", -- [9]
+		"/bigwigs", -- [10]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"Yay! I thought you left me :')", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			864, -- [11]
+			false, -- [12]
+			155, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLizzie|r",
+			[51] = 1587415728,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Lizzie",
+		}, -- [1]
+		{
+			"Leveling a warrior? :o", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			865, -- [11]
+			false, -- [12]
+			155, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLizzie|r",
+			[51] = 1587415732,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Lizzie",
+		}, -- [2]
+		{
+			"thinking about it", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			866, -- [11]
+			false, -- [12]
+			155, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLizzie|r",
+			[51] = 1587415741,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Lizzie",
+		}, -- [3]
+		{
+			"im coming back on my mage now though", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			868, -- [11]
+			false, -- [12]
+			155, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLizzie|r",
+			[51] = 1587415746,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Lizzie",
+		}, -- [4]
+	},
+}

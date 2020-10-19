@@ -1,0 +1,12 @@
+VER 3 0100000000000003 "Heals" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Chain Heal; Healing Surge
+END
+VER 3 0100000000000001 "Lightning" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Chain Lightning; Lightning Bolt
+END
+VER 3 0100000000000002 "Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Flame Shock; Frost Shock
+END

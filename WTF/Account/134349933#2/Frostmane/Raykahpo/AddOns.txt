@@ -1,0 +1,24 @@
+AngryAssignments: enabled
+Auctionator: enabled
+CrucibleWeight: disabled
+ComboPointsRedux: disabled
+ComboPointsRedux_Options: disabled
+GarrisonMissionManager: enabled
+Pawn: enabled
+RCLootCouncil: disabled
+Simulationcraft: enabled
+WeakAuras: disabled
+WeakAurasModelPaths: enabled
+WeakAurasOptions: enabled
+WorldQuestGroupFinder: disabled
+WorldQuestsList: enabled
+NOP: enabled
+MethodAltManager: disabled
+Grid: enabled
+GridIndicatorCornerIcons: enabled
+AngryWorldQuests: disabled
+WorldQuestParty: enabled
+Azeroth Auto Pilot: disabled
+OPie: disabled
+ElvUI_EverySecondCounts: disabled
+AdventureGuideSavedInstances: enabled

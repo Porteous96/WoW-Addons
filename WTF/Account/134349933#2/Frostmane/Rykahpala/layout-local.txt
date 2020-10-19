@@ -1,0 +1,15 @@
+Version: 1
+Frame: AAPQOrderList
+FrameLevel: 1
+Anchor: CENTER
+X: 279
+Y: 18
+W: 231
+H: 440
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 200

@@ -1,0 +1,97 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0323,
+	["LastPlayerFullName"] = "Rykahmonk-Kazzak",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 122248,
+			["Level"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122248::::::::9:269:::1:3592:::|h[Stained Shadowcraft Cap]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 122666,
+			["Level"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122666::::::::9:269:::1:3592:::|h[Eternal Woven Ivy Necklace]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122358,
+			["Level"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122358::::::::9:269:::1:3592:::|h[Stained Shadowcraft Spaulders]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 122383,
+			["Level"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122383::::::::9:269:::1:3592:::|h[Stained Shadowcraft Tunic]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 53359,
+			["Level"] = 2,
+			["Link"] = "|cffffffff|Hitem:53359::::::::3:269::11::::|h[Boar Hide Belt]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 122254,
+			["Level"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122254::::::::9:269:::1:3592:::|h[Stained Shadowcraft Pants]|h|r",
+		}, -- [7]
+		nil, -- [8]
+		{
+			["ID"] = 53367,
+			["Level"] = 5,
+			["Link"] = "|cffffffff|Hitem:53367::::::::9:269::11::::|h[Fargaze Armbands]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 53371,
+			["Level"] = 5,
+			["Link"] = "|cffffffff|Hitem:53371::::::::7:269::11::::|h[Gloves of the Helping Hand]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 128173,
+			["Level"] = 13,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff00ccff|Hitem:128173::::::::9:269:::1:3592:::|h[Admiral Taylor's Loyalty Ring]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 128173,
+			["Level"] = 12,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff00ccff|Hitem:128173::::::::8:269:::1:3592:::|h[Admiral Taylor's Loyalty Ring]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 122361,
+			["Level"] = 13,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::9:269:::1:3592:::|h[Swift Hand of Justice]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122361,
+			["Level"] = 12,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::8:269:::1:3592:::|h[Swift Hand of Justice]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 122261,
+			["Level"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122261::::::::9:269:::1:3592:::|h[Inherited Cape of the Black Baron]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 122396,
+			["Level"] = 13,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff00ccff|Hitem:122396::::::::9:269:::1:3592:::|h[Brawler's Razor Claws]|h|r",
+		}, -- [16]
+		{
+			["ID"] = 122396,
+			["Level"] = 12,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff00ccff|Hitem:122396::::::::8:269:::1:3592:::|h[Brawler's Razor Claws]|h|r",
+		}, -- [17]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "MONK",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

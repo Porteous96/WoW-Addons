@@ -1,0 +1,3 @@
+VER 3 0100000000000001 "Bones" "INV_Misc_Bone_01."
+/2 WTS 9999x 
+END

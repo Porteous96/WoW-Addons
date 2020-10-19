@@ -1,0 +1,94 @@
+VER 3 0100000000000025 "Arcane Power" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Arcane Power
+/use 13
+END
+VER 3 010000000000001C "Blizzard" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Blizzard
+/stopspelltarget
+END
+VER 3 0100000000000021 "Buff" "135932"
+#showtooltip
+/cast Arcane Intellect
+/use Lightning-Forged Augment Rune
+END
+VER 3 010000000000001F "Combust+ Trinket" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Combustion
+/use 13
+END
+VER 3 010000000000001D "Comet Deeps" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Comet Storm
+/cast [@cursor] Freeze
+END
+VER 3 0100000000000013 "CS" "SPELL_FROST_ICESHOCK"
+#showtooltip
+/stopcasting
+/cast counterspell
+END
+VER 3 010000000000001E "Flamestrike" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Flamestrike
+/stopspelltarget
+END
+VER 3 010000000000000D "Frostbolt" "SPELL_FROST_FROSTBOLT02"
+#showtooltip
+/cast Frostbolt
+/petattack
+/petassist
+END
+VER 3 0100000000000007 "IcyVeins" "SPELL_FROST_COLDHEARTED"
+#showtooltip Icy Veins
+/use 13
+/cast Icy Veins
+/petattack
+/petassist
+END
+VER 3 010000000000001A "lvl100" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Ray of Frost; [talent:7/3] Glacial Spike
+END
+VER 3 0100000000000006 "MacBlock" "SPELL_FROST_FROST"
+#showtooltip Ice Block
+/stopcasting
+/cancelaura Ice Block
+/cast Ice Block
+END
+VER 3 0100000000000003 "MacOrb" "SPELL_FROST_FROZENORB"
+#showtooltip Frozen Orb
+/use 13
+/cast Frozen Orb
+/petattack
+/petassist
+END
+VER 3 0100000000000026 "Mana Gem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Mana Gem
+/cast Conjure Mana Gem
+END
+VER 3 0100000000000020 "Meteor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Meteor
+/stopspelltarget
+END
+VER 3 0100000000000008 "NovaOrb" "SPELL_FROST_FROSTNOVA"
+/cast [@cursor] Freeze
+/petattack
+/petassist
+/stopspelltarget
+END
+VER 3 010000000000000B "Polymorph" "SPELL_NATURE_POLYMORPH"
+#showtooltip
+/cast Polymorph(Bumblebee)
+/petpassive
+/petfollow
+END
+VER 3 010000000000001B "Slow Fall" "INV_MISC_QUESTIONMARK"
+/cast [modifier:shift, target=player] Slow Fall; [help, target=mouseover, exists] Slow Fall; Slow Fall;
+END
+VER 3 0100000000000022 "Trinket 2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+END

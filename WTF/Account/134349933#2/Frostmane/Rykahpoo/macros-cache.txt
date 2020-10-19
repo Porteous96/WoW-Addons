@@ -1,0 +1,48 @@
+VER 3 010000000000000E "BigDPS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Lunar Strike; Solar Wrath
+END
+VER 3 010000000000000F "boomdps" "INV_MISC_QUESTIONMARK"
+/cast Moonkin Form
+/cast Starsurge
+END
+VER 3 0100000000000003 "DPS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Sunfire; Moonfire
+END
+VER 3 0100000000000006 "Fast" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Darkflight; Displacer Beast
+END
+VER 3 0100000000000008 "Healing Touch" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Healing Touch
+END
+VER 3 0100000000000009 "Lifebloom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Lifebloom
+END
+VER 3 010000000000000D "Nature's Cure" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Nature's Cure
+END
+VER 3 0100000000000004 "Pace" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Stampeding Roar; Dash
+END
+VER 3 010000000000000A "Regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Regrowth
+END
+VER 3 0100000000000007 "Rejuv/Gen" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Genesis; Rejuvenation
+END
+VER 3 010000000000000B "Swiftmend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Swiftmend
+END
+VER 3 010000000000000C "Wild Growth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Wild Growth
+END

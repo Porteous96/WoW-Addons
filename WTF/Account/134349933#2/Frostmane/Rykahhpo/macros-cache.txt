@@ -1,0 +1,13 @@
+VER 3 0100000000000001 "AS/Steady" "INV_MISC_QUESTIONMARK"
+#showtooltipassist
+/cast [mod:shift] Steady Shot; Arcane Shot
+END
+VER 3 0100000000000005 "Roar" "INV_MISC_QUESTIONMARK"
+/target Rykahhpo
+/cast Roar of Sacrifice
+/target lasttarget
+END
+VER 3 0100000000000004 "Traps" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Ice Trap; Freezing Trap
+END

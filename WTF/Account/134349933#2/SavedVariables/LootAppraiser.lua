@@ -1,0 +1,62 @@
+
+LootAppraiserDB = {
+	["profileKeys"] = {
+		["Rykaahpo - Frostmane"] = "Default",
+		["Rykahboost - Aggramar"] = "Default",
+		["Advboi - Frostmane"] = "Default",
+		["Rykahdruid - Frostmane"] = "Default",
+		["Rykahtony - Frostmane"] = "Default",
+		["Rykahpala - Frostmane"] = "Default",
+		["Rykahpow - Frostmane"] = "Default",
+		["Rykahpodh - Frostmane"] = "Default",
+		["Rykahpoh - Frostmane"] = "Default",
+		["Rykahpodh - Kazzak"] = "Default",
+		["Bankypo - Frostmane"] = "Default",
+		["Rykahpo - Doomhammer"] = "Default",
+		["Blissard - Frostmane"] = "Default",
+		["Rykahpriest - Frostmane"] = "Default",
+		["Rykahshaman - Frostmane"] = "Default",
+		["Rykahhpo - Frostmane"] = "Default",
+		["Rykahpo - Frostmane"] = "Default",
+		["Rcumplus - Aggramar"] = "Default",
+		["Rykahbolt - Frostmane"] = "Default",
+		["Rykkahpo - Frostmane"] = "Default",
+		["Mechaboost - Defias Brotherhood"] = "Default",
+		["Rykahthree - Frostmane"] = "Default",
+		["Rykahpoa - Frostmane"] = "Default",
+		["Rÿkah - Frostmane"] = "Default",
+		["Ryykahpo - Frostmane"] = "Default",
+		["Mechaboost - Sylvanas"] = "Default",
+		["Rykah - Frostmane"] = "Default",
+		["Rykahpoo - Frostmane"] = "Default",
+		["Advboi - Grim Batol"] = "Default",
+		["Rykahtwo - Frostmane"] = "Default",
+		["Mechaboost - Silvermoon"] = "Default",
+		["Rykahboost - Turalyon"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 217.3180410206461,
+				["hide"] = true,
+			},
+			["general"] = {
+				["qualityFilter"] = "1",
+			},
+			["pricesource"] = {
+				["source"] = "DBMarket",
+				["useDisenchantValue"] = true,
+			},
+			["mainUI"] = {
+				["top"] = 608.8889770507812,
+				["height"] = 303.1111450195313,
+				["left"] = 7.777762889862061,
+				["width"] = 410.0000305175781,
+			},
+			["display"] = {
+				["showResetInstanceButton"] = true,
+				["showXXXLootedItemValuePerHour"] = true,
+			},
+		},
+	},
+}

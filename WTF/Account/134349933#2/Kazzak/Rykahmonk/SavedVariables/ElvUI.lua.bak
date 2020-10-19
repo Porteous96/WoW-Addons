@@ -1,0 +1,39 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/tmw ", -- [1]
+		"/tmw help", -- [2]
+		"/tmw", -- [3]
+		"/simc minimap", -- [4]
+		"/elvui", -- [5]
+		"/wave", -- [6]
+		"/s no thanks", -- [7]
+		"/played", -- [8]
+		"/aap", -- [9]
+		"/reload", -- [10]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"no thanks", -- [1]
+			"Rykahmonk-Kazzak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Rykahmonk-Kazzak", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			146, -- [11]
+			"Player-1305-0B0C362E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe95Rykahmonk|r",
+			[51] = 1587207346,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [1]
+	},
+}

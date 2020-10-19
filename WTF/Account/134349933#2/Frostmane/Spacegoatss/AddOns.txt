@@ -1,0 +1,16 @@
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+ElvUI_EverySecondCounts: disabled
+Pawn: enabled
+Azeroth Auto Pilot: disabled
+OPie: disabled
+AdventureGuideSavedInstances: enabled
+Simulationcraft: enabled
+AAP-Core: disabled
+DugisGuideViewerZ: disabled
+Auctionator: disabled
+AzeriteTooltip: enabled
+WorldQuestParty: disabled
+NOP: disabled
+WeakAuras: enabled

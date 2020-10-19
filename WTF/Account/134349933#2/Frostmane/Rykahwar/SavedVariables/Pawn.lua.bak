@@ -1,0 +1,84 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0324,
+	["LastPlayerFullName"] = "Rykahwar-Frostmane",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		{
+			["ID"] = 122245,
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122245::::::::20:72:::1:582:::|h[Polished Helm of Valor]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 122667,
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122667::::::::20:72::::::|h[Eternal Emberfury Talisman]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122355,
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122355::::::::20:72:::1:582:::|h[Polished Spaulders of Valor]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 157738,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:157738::::::::20:71::::::|h[Warsinger's Breastplate]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 157744,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:157744::::::::20:71::::::|h[Warsinger's Girdle]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 157742,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:157742::::::::20:71::::::|h[Warsinger's Legplates]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 157739,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:157739::::::::20:71::::::|h[Warsinger's Sabatons]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 157745,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:157745::::::::20:71::::::|h[Warsinger's Vambraces]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 157740,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:157740::::::::20:71::::::|h[Warsinger's Gauntlets]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 128172,
+			["Level"] = 24,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff00ccff|Hitem:128172::::::::20:72::::::|h[Captain Sander's Returned Band]|h|r",
+		}, -- [11]
+		nil, -- [12]
+		{
+			["ID"] = 122361,
+			["Level"] = 24,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122361::::::::20:72:::1:3592:::|h[Swift Hand of Justice]|h|r",
+		}, -- [13]
+		nil, -- [14]
+		{
+			["ID"] = 122260,
+			["Level"] = 24,
+			["Link"] = "|cff00ccff|Hitem:122260::::::::20:72:::1:582:::|h[Worn Stoneskin Gargoyle Cape]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 157643,
+			["Level"] = 25,
+			["Link"] = "|cff1eff00|Hitem:157643::::::::20:71::::::|h[Helm-Hewer Greataxe]|h|r",
+		}, -- [16]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "WARRIOR",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

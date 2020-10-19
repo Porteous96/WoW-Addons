@@ -1,0 +1,8 @@
+VER 3 0100000000000001 "Primary" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Hammer of the Righteous; Crusader Strike
+END
+VER 3 0100000000000002 "SotR/WoG" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Word of Glory; Shield of the Righteous
+END

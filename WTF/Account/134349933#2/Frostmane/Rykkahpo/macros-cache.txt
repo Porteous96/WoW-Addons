@@ -1,0 +1,28 @@
+VER 3 0100000000000004 "Evisc" "ABILITY_ROGUE_EVISCERATE"
+#showtooltip Eviscerate
+/use Grievous Gladiator's Leather Gloves
+/use Prideful Gladiator's Badge of Conquest
+/cast Eviscerate
+END
+VER 3 0100000000000006 "Sap" "ABILITY_SAP"
+#showtooltip
+/cleartarget [nomod]
+/targetenemyplayer [nomod[
+/cast Sap
+END
+VER 3 0100000000000008 "saps" "ABILITY_SAP"
+#showtooltip Sap
+/cleartarget
+/targetenemyplayer
+/cast sap
+END
+VER 3 0100000000000003 "Stealth" "ABILITY_STEALTH"
+#showtooltip Stealth
+/cast [nostealth] Stealth
+END
+VER 3 0100000000000005 "tricks" "ABILITY_ROGUE_TRICKSOFTHETRADE"
+#showtooltip Tricks of the Trade
+/target Gwendar
+/cast Tricks of the Trade
+/targetlasttarget
+END
