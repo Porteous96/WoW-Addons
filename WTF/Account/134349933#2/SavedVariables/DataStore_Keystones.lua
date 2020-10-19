@@ -4,20 +4,20 @@ DataStore_KeystonesDB = {
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
+		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
-		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1602973346,
 				["currentKeystone"] = {
 					["keystoneLevel"] = 16,
 					["name"] = "Kings' Rest",
 					["texture"] = 2178730,
 				},
+				["lastUpdate"] = 1602973346,
 			},
 		},
 		["Options"] = {
@@ -32,9 +32,9 @@ DataStore_KeystonesRefDB = {
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
+		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
-		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 	},
 }
