@@ -4,9 +4,9 @@ DataStore_KeystonesDB = {
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
+		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
-		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 	},
 	["global"] = {
@@ -17,7 +17,7 @@ DataStore_KeystonesDB = {
 					["name"] = "Kings' Rest",
 					["texture"] = 2178730,
 				},
-				["lastUpdate"] = 1602973346,
+				["lastUpdate"] = 1603142942,
 			},
 		},
 		["Options"] = {
@@ -32,9 +32,9 @@ DataStore_KeystonesRefDB = {
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
+		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
-		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 	},
 }

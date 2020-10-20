@@ -5,7 +5,40 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Vexiona",
 		["id"] = 2370,
-		["diff"] = 15,
+		["player_db"] = {
+			["Devilmáster-Madmortem"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Devilmáster-Madmortem",
+				["overall"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Azráel-Madmortem",
+				["overall"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Iamnotjamie-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Trunkenbolt-Madmortem",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 9,
@@ -15,51 +48,99 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Vexiona",
 			["diff"] = 15,
-			["id"] = 2336,
 			["ej_instance_id"] = 1180,
+			["id"] = 2336,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Devilmáster-Madmortem"] = {
-				["name"] = "Devilmáster-Madmortem",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["name"] = "Trunkenbolt-Madmortem",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["name"] = "Iamnotjamie-Silvermoon",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Azráel-Madmortem"] = {
-				["name"] = "Azráel-Madmortem",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
+		["diff"] = 15,
 	},
 	["237715"] = {
 		["hash"] = "237715",
 		["type"] = "deaths",
 		["name"] = "Dark Inquisitor Xanesh",
 		["id"] = 2377,
-		["diff"] = 15,
+		["player_db"] = {
+			["Alithor-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Alithor-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Mésa-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Lixariah-Aegwynn",
+				["overall"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Mærine-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Autori"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Autori",
+				["overall"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Rykahpo",
+				["overall"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Bloodseize-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Iamnotjamie-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Ipeed-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Hexeins-Sen'jin"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Hexeins-Sen'jin",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 4,
@@ -68,405 +149,19 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "Dark Inquisitor Xanesh",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
 			["encounter"] = "Dark Inquisitor Xanesh",
-			["ej_instance_id"] = 1180,
-			["diff"] = 15,
 		},
-		["player_db"] = {
-			["Alithor-Silvermoon"] = {
-				["name"] = "Alithor-Silvermoon",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["name"] = "Mésa-Silvermoon",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lixariah-Aegwynn"] = {
-				["name"] = "Lixariah-Aegwynn",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["name"] = "Mærine-Silvermoon",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["name"] = "Autori",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["name"] = "Rykahpo",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["name"] = "Bloodseize-Silvermoon",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["name"] = "Iamnotjamie-Silvermoon",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Hexeins-Sen'jin"] = {
-				["name"] = "Hexeins-Sen'jin",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["name"] = "Ipeed-Silvermoon",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
-	},
-	["237215"] = {
-		["hash"] = "237215",
-		["type"] = "deaths",
-		["name"] = "The Hivemind",
-		["id"] = 2372,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2333,
-			["mapid"] = 2217,
-			["name"] = "The Hivemind",
-			["ej_instance_id"] = 1180,
-			["encounter"] = "The Hivemind",
-			["diff"] = 15,
-		},
-		["player_db"] = {
-			["Autori"] = {
-				["name"] = "Autori",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
-	},
-	["236815"] = {
-		["hash"] = "236815",
-		["type"] = "deaths",
-		["name"] = "Wrathion",
-		["id"] = 2368,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Wrathion",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["diff"] = 15,
-			["id"] = 2329,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
-		["player_db"] = {
-		},
-	},
-	["236816"] = {
-		["hash"] = "236816",
-		["type"] = "deaths",
-		["name"] = "Wrathion",
-		["id"] = 2368,
-		["diff"] = 16,
-		["player_db"] = {
-			["Kejha-Pozzodell'Eternità"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kejha-Pozzodell'Eternità",
-				["class"] = "ROGUE",
-			},
-			["Aeternatus-ChamberofAspects"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Aeternatus-ChamberofAspects",
-				["class"] = "DRUID",
-			},
-			["Hottex-Pozzodell'Eternità"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Hottex-Pozzodell'Eternità",
-				["class"] = "PRIEST",
-			},
-			["Ликке-Гордунни"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ликке-Гордунни",
-				["class"] = "HUNTER",
-			},
-			["Senyera-Silvermoon"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Senyera-Silvermoon",
-				["class"] = "DRUID",
-			},
-			["Elenadi-Doomhammer"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Elenadi-Doomhammer",
-				["class"] = "HUNTER",
-			},
-			["Ainsopha-Nemesis"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ainsopha-Nemesis",
-				["class"] = "PRIEST",
-			},
-			["Janashin-Silvermoon"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Janashin-Silvermoon",
-				["class"] = "PRIEST",
-			},
-			["Figaru-Sylvanas"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Figaru-Sylvanas",
-				["class"] = "DRUID",
-			},
-			["Waskcol-DunModr"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Waskcol-DunModr",
-				["class"] = "WARRIOR",
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2329,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["encounter"] = "Wrathion",
-			["ej_instance_id"] = 1180,
-			["diff"] = 16,
-		},
-	},
-	["236615"] = {
-		["hash"] = "236615",
-		["type"] = "deaths",
-		["name"] = "Carapace of N'Zoth",
-		["id"] = 2366,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 11,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2337,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Carapace of N'Zoth",
-			["encounter"] = "Carapace of N'Zoth",
-			["ej_instance_id"] = 1180,
-			["diff"] = 15,
-		},
-		["player_db"] = {
-			["Hexeins-Sen'jin"] = {
-				["name"] = "Hexeins-Sen'jin",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["name"] = "Mésa-Silvermoon",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Devilmáster-Madmortem"] = {
-				["name"] = "Devilmáster-Madmortem",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["name"] = "Ipeed-Silvermoon",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["name"] = "Bloodseize-Silvermoon",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["name"] = "Iamnotjamie-Silvermoon",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["name"] = "Autori",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["name"] = "Trunkenbolt-Madmortem",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Queroth-Silvermoon"] = {
-				["name"] = "Queroth-Silvermoon",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
-	},
-	["236415"] = {
-		["hash"] = "236415",
-		["type"] = "deaths",
-		["name"] = "Ra-den the Despoiled",
-		["id"] = 2364,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Ra-den the Despoiled",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Ra-den the Despoiled",
-			["diff"] = 15,
-			["id"] = 2331,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
-		["player_db"] = {
-			["Ipeed-Silvermoon"] = {
-				["name"] = "Ipeed-Silvermoon",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["name"] = "Mésa-Silvermoon",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Azráel-Madmortem"] = {
-				["name"] = "Azráel-Madmortem",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["name"] = "Autori",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Queroth-Silvermoon"] = {
-				["name"] = "Queroth-Silvermoon",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["236915"] = {
 		["hash"] = "236915",
 		["type"] = "deaths",
 		["name"] = "Prophet Skitra",
 		["id"] = 2369,
-		["diff"] = 15,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -476,19 +171,333 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Prophet Skitra",
 			["diff"] = 15,
-			["id"] = 2334,
 			["ej_instance_id"] = 1180,
+			["id"] = 2334,
 			["killed"] = true,
 		},
+		["diff"] = 15,
+	},
+	["236815"] = {
+		["hash"] = "236815",
+		["type"] = "deaths",
+		["name"] = "Wrathion",
+		["id"] = 2368,
 		["player_db"] = {
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Wrathion",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2329,
+			["killed"] = true,
+		},
+		["diff"] = 15,
+	},
+	["236816"] = {
+		["hash"] = "236816",
+		["type"] = "deaths",
+		["name"] = "Wrathion",
+		["id"] = 2368,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2329,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 16,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Wrathion",
+		},
+		["player_db"] = {
+			["Kejha-Pozzodell'Eternità"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kejha-Pozzodell'Eternità",
+			},
+			["Aeternatus-ChamberofAspects"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Aeternatus-ChamberofAspects",
+			},
+			["Hottex-Pozzodell'Eternità"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Hottex-Pozzodell'Eternità",
+			},
+			["Ликке-Гордунни"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ликке-Гордунни",
+			},
+			["Senyera-Silvermoon"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Senyera-Silvermoon",
+			},
+			["Elenadi-Doomhammer"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Elenadi-Doomhammer",
+			},
+			["Waskcol-DunModr"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Waskcol-DunModr",
+			},
+			["Janashin-Silvermoon"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Janashin-Silvermoon",
+			},
+			["Figaru-Sylvanas"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Figaru-Sylvanas",
+			},
+			["Ainsopha-Nemesis"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ainsopha-Nemesis",
+			},
+		},
+		["diff"] = 16,
+	},
+	["236615"] = {
+		["hash"] = "236615",
+		["type"] = "deaths",
+		["name"] = "Carapace of N'Zoth",
+		["id"] = 2366,
+		["player_db"] = {
+			["Hexeins-Sen'jin"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Hexeins-Sen'jin",
+				["overall"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Mésa-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Devilmáster-Madmortem",
+				["overall"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Ipeed-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Bloodseize-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Iamnotjamie-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Autori"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Autori",
+				["overall"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Trunkenbolt-Madmortem",
+				["overall"] = {
+				},
+			},
+			["Queroth-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Queroth-Silvermoon",
+				["overall"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 11,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2337,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Carapace of N'Zoth",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Carapace of N'Zoth",
+		},
+		["diff"] = 15,
+	},
+	["237215"] = {
+		["hash"] = "237215",
+		["type"] = "deaths",
+		["name"] = "The Hivemind",
+		["id"] = 2372,
+		["player_db"] = {
+			["Autori"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Autori",
+				["overall"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2333,
+			["mapid"] = 2217,
+			["name"] = "The Hivemind",
+			["diff"] = 15,
+			["encounter"] = "The Hivemind",
+			["ej_instance_id"] = 1180,
+		},
+		["diff"] = 15,
+	},
+	["236415"] = {
+		["hash"] = "236415",
+		["type"] = "deaths",
+		["name"] = "Ra-den the Despoiled",
+		["id"] = 2364,
+		["player_db"] = {
+			["Ipeed-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Ipeed-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Mésa-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Queroth-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Queroth-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Autori"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Autori",
+				["overall"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Azráel-Madmortem",
+				["overall"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Ra-den the Despoiled",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Ra-den the Despoiled",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2331,
+			["killed"] = true,
+		},
+		["diff"] = 15,
 	},
 	["236515"] = {
 		["hash"] = "236515",
 		["type"] = "deaths",
 		["name"] = "Maut",
 		["id"] = 2365,
-		["diff"] = 15,
+		["player_db"] = {
+			["Devilmáster-Madmortem"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Devilmáster-Madmortem",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -497,20 +506,11 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "Maut",
-			["encounter"] = "Maut",
-			["ej_instance_id"] = 1180,
 			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Maut",
 		},
-		["player_db"] = {
-			["Devilmáster-Madmortem"] = {
-				["name"] = "Devilmáster-Madmortem",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
+		["diff"] = 15,
 	},
 }
 DeathGraphsDBEndurance = {
@@ -519,7 +519,121 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Vexiona",
 		["id"] = 2370,
-		["diff"] = 15,
+		["player_db"] = {
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						95.97999999999956, -- [2]
+						"Twilight Decimator |cFFFF333332,134|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						95.61599999999999, -- [2]
+						"Twilight Decimator |cFFFF333332,656|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						96.29600000000028, -- [2]
+						"Twilight Decimator |cFFFF333329,233|r", -- [3]
+					}, -- [1]
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 9,
@@ -529,132 +643,139 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "Vexiona",
 			["diff"] = 15,
-			["id"] = 2336,
 			["ej_instance_id"] = 1180,
+			["id"] = 2336,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						95.97999999999956, -- [2]
-						"Twilight Decimator |cFFFF333332,134|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MONK",
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						95.61599999999999, -- [2]
-						"Twilight Decimator |cFFFF333332,656|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						96.29600000000028, -- [2]
-						"Twilight Decimator |cFFFF333329,233|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-		},
+		["diff"] = 15,
 	},
 	["237715"] = {
 		["hash"] = "237715",
 		["type"] = "endurance",
 		["name"] = "Dark Inquisitor Xanesh",
 		["id"] = 2377,
-		["diff"] = 15,
+		["player_db"] = {
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						162.9400000000001, -- [2]
+						"Void Ritual |cFFFF333340,067|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						2, -- [1]
+						162.9400000000001, -- [2]
+						"Void Ritual |cFFFF333329,681|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						162.9400000000001, -- [2]
+						"Void Ritual |cFFFF333337,470|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Habnixmehr-Madmortem"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 4,
@@ -663,855 +784,131 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "Dark Inquisitor Xanesh",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
 			["encounter"] = "Dark Inquisitor Xanesh",
-			["ej_instance_id"] = 1180,
-			["diff"] = 15,
 		},
-		["player_db"] = {
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						162.9400000000001, -- [2]
-						"Void Ritual |cFFFF333340,067|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Habnixmehr-Madmortem"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Autori"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						162.9400000000001, -- [2]
-						"Void Ritual |cFFFF333337,470|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Rykahpo"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						162.9400000000001, -- [2]
-						"Void Ritual |cFFFF333329,681|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-		},
-	},
-	["237215"] = {
-		["hash"] = "237215",
-		["type"] = "endurance",
-		["name"] = "The Hivemind",
-		["id"] = 2372,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2333,
-			["mapid"] = 2217,
-			["name"] = "The Hivemind",
-			["ej_instance_id"] = 1180,
-			["encounter"] = "The Hivemind",
-			["diff"] = 15,
-		},
-		["player_db"] = {
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						130.3890000000001, -- [2]
-						"Volatile Eruption |cFFFF333312,534|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-		},
-	},
-	["236815"] = {
-		["hash"] = "236815",
-		["type"] = "endurance",
-		["name"] = "Wrathion",
-		["id"] = 2368,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Wrathion",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["diff"] = 15,
-			["id"] = 2329,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
-		["player_db"] = {
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Habnixmehr-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Namindra-Bloodhoof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-		},
-	},
-	["236816"] = {
-		["hash"] = "236816",
-		["type"] = "endurance",
-		["name"] = "Wrathion",
-		["id"] = 2368,
-		["diff"] = 16,
-		["player_db"] = {
-			["Lolitaria-Area52"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Hottex-Pozzodell'Eternità"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Лоролин-Борейскаятундра"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Senyera-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Søøm-Blackhand"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Elenadi-Doomhammer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Figaru-Sylvanas"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						86.529, -- [2]
-						"Creeping Madness |cFFFF333310,390|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DRUID",
-			},
-			["Ainsopha-Nemesis"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						86.529, -- [2]
-						"Creeping Madness |cFFFF333310,160|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PRIEST",
-			},
-			["Kejha-Pozzodell'Eternità"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Aeternatus-ChamberofAspects"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Ликке-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Gìòrgino-Pozzodell'Eternità"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Lesee-Ragnaros"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Блидинграйс-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Нервмарса-Дракономор"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Silverfangg-Ragnaros"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Janashin-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						37.26099999999997, -- [2]
-						"Incineration |cFFFF333311,165|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PRIEST",
-			},
-			["Umbreon-ChamberofAspects"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Waskcol-DunModr"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2329,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["encounter"] = "Wrathion",
-			["ej_instance_id"] = 1180,
-			["diff"] = 16,
-		},
-	},
-	["236615"] = {
-		["hash"] = "236615",
-		["type"] = "endurance",
-		["name"] = "Carapace of N'Zoth",
-		["id"] = 2366,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 11,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2337,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Carapace of N'Zoth",
-			["encounter"] = "Carapace of N'Zoth",
-			["ej_instance_id"] = 1180,
-			["diff"] = 15,
-		},
-		["player_db"] = {
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						97.07400000000052, -- [2]
-						"Growth-Covered Tentacle |cFFFF333340,870|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "ROGUE",
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						37.14900000000034, -- [2]
-						"Growth-Covered Tentacle |cFFFF333342,623|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						145.0010000000002, -- [2]
-						"Breed Madness |cFFFF33333,856|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "SHAMAN",
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Queroth-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-		},
-	},
-	["236415"] = {
-		["hash"] = "236415",
-		["type"] = "endurance",
-		["name"] = "Ra-den the Despoiled",
-		["id"] = 2364,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Ra-den the Despoiled",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Ra-den the Despoiled",
-			["diff"] = 15,
-			["id"] = 2331,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
-		["player_db"] = {
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						40.60499999999956, -- [2]
-						"Void Collapse |cFFFF333335,959|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						110.0249999999996, -- [2]
-						"Unstable Vita |cFFFF333325,301|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Queroth-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						138.2049999999999, -- [2]
-						"Charged Bonds (DoT) |cFFFF33333,235|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARRIOR",
-			},
-		},
 	},
 	["236915"] = {
 		["hash"] = "236915",
 		["type"] = "endurance",
 		["name"] = "Prophet Skitra",
 		["id"] = 2369,
-		["diff"] = 15,
+		["player_db"] = {
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Habnixmehr-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Namindra-Bloodhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -1521,131 +918,852 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "Prophet Skitra",
 			["diff"] = 15,
-			["id"] = 2334,
 			["ej_instance_id"] = 1180,
+			["id"] = 2334,
 			["killed"] = true,
 		},
+		["diff"] = 15,
+	},
+	["236815"] = {
+		["hash"] = "236815",
+		["type"] = "endurance",
+		["name"] = "Wrathion",
+		["id"] = 2368,
 		["player_db"] = {
-			["Azráel-Madmortem"] = {
+			["Alithor-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Hexeins-Sen'jin"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "WARLOCK",
-			},
-			["Habnixmehr-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Namindra-Bloodhoof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
 			},
 			["Mésa-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
+			["Habnixmehr-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Namindra-Bloodhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Wrathion",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2329,
+			["killed"] = true,
+		},
+		["diff"] = 15,
+	},
+	["236816"] = {
+		["hash"] = "236816",
+		["type"] = "endurance",
+		["name"] = "Wrathion",
+		["id"] = 2368,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2329,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 16,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Wrathion",
+		},
+		["player_db"] = {
+			["Lolitaria-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Hottex-Pozzodell'Eternità"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Лоролин-Борейскаятундра"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Senyera-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Søøm-Blackhand"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Elenadi-Doomhammer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Figaru-Sylvanas"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						86.529, -- [2]
+						"Creeping Madness |cFFFF333310,390|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ainsopha-Nemesis"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						1, -- [1]
+						86.529, -- [2]
+						"Creeping Madness |cFFFF333310,160|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kejha-Pozzodell'Eternità"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Aeternatus-ChamberofAspects"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Ликке-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Gìòrgino-Pozzodell'Eternità"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Lesee-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Блидинграйс-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Нервмарса-Дракономор"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Silverfangg-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Janashin-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						1, -- [1]
+						37.26099999999997, -- [2]
+						"Incineration |cFFFF333311,165|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Umbreon-ChamberofAspects"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Waskcol-DunModr"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 16,
+	},
+	["236615"] = {
+		["hash"] = "236615",
+		["type"] = "endurance",
+		["name"] = "Carapace of N'Zoth",
+		["id"] = 2366,
+		["player_db"] = {
 			["Alithor-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "ROGUE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						97.07400000000052, -- [2]
+						"Growth-Covered Tentacle |cFFFF333340,870|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						37.14900000000034, -- [2]
+						"Growth-Covered Tentacle |cFFFF333342,623|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						145.0010000000002, -- [2]
+						"Breed Madness |cFFFF33333,856|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Queroth-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 11,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2337,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Carapace of N'Zoth",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Carapace of N'Zoth",
+		},
+		["diff"] = 15,
+	},
+	["237215"] = {
+		["hash"] = "237215",
+		["type"] = "endurance",
+		["name"] = "The Hivemind",
+		["id"] = 2372,
+		["player_db"] = {
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						130.3890000000001, -- [2]
+						"Volatile Eruption |cFFFF333312,534|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2333,
+			["mapid"] = 2217,
+			["name"] = "The Hivemind",
+			["diff"] = 15,
+			["encounter"] = "The Hivemind",
+			["ej_instance_id"] = 1180,
+		},
+		["diff"] = 15,
+	},
+	["236415"] = {
+		["hash"] = "236415",
+		["type"] = "endurance",
+		["name"] = "Ra-den the Despoiled",
+		["id"] = 2364,
+		["player_db"] = {
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						110.0249999999996, -- [2]
+						"Unstable Vita |cFFFF333325,301|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						40.60499999999956, -- [2]
+						"Void Collapse |cFFFF333335,959|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Queroth-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						138.2049999999999, -- [2]
+						"Charged Bonds (DoT) |cFFFF33333,235|r", -- [3]
+					}, -- [1]
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Ra-den the Despoiled",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Ra-den the Despoiled",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2331,
+			["killed"] = true,
+		},
+		["diff"] = 15,
 	},
 	["236515"] = {
 		["hash"] = "236515",
 		["type"] = "endurance",
 		["name"] = "Maut",
 		["id"] = 2365,
-		["diff"] = 15,
+		["player_db"] = {
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Habnixmehr-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						44.92599999999993, -- [2]
+						"Stygian Annihilation |cFFFF333365,310|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Namindra-Bloodhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -1654,129 +1772,11 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "Maut",
-			["encounter"] = "Maut",
-			["ej_instance_id"] = 1180,
 			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Maut",
 		},
-		["player_db"] = {
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Habnixmehr-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						2, -- [1]
-						44.92599999999993, -- [2]
-						"Stygian Annihilation |cFFFF333365,310|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Namindra-Bloodhoof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-		},
+		["diff"] = 15,
 	},
 }
 DeathGraphsDBCurrent = {
@@ -1786,9 +1786,6 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 19320,
 				["timeofdeath"] = 37.14900000000034,
 				["name"] = "Devilmáster-Madmortem",
-				["time"] = 1602966802.54,
-				["class"] = "WARLOCK",
-				["timestring"] = "0m 37s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2131,14 +2128,14 @@ DeathGraphsDBCurrent = {
 						"Devilmáster-Madmortem", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "0m 37s",
+				["time"] = 1602966802.54,
 			}, -- [1]
 			{
 				["maxhealth"] = 19600,
 				["timeofdeath"] = 97.07400000000052,
 				["name"] = "Mésa-Silvermoon",
-				["time"] = 1602966862.465,
-				["class"] = "ROGUE",
-				["timestring"] = "1m 37s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2533,14 +2530,14 @@ DeathGraphsDBCurrent = {
 						"Mésa-Silvermoon", -- [6]
 					}, -- [33]
 				},
+				["class"] = "ROGUE",
+				["timestring"] = "1m 37s",
+				["time"] = 1602966862.465,
 			}, -- [2]
 			{
 				["maxhealth"] = 16080,
 				["timeofdeath"] = 145.0010000000002,
 				["name"] = "Iamnotjamie-Silvermoon",
-				["time"] = 1602966910.392,
-				["class"] = "SHAMAN",
-				["timestring"] = "2m 25s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2925,14 +2922,14 @@ DeathGraphsDBCurrent = {
 						"Iamnotjamie-Silvermoon", -- [6]
 					}, -- [33]
 				},
+				["class"] = "SHAMAN",
+				["timestring"] = "2m 25s",
+				["time"] = 1602966910.392,
 			}, -- [3]
 			{
 				["maxhealth"] = 16080,
 				["timeofdeath"] = 217.21,
 				["name"] = "Iamnotjamie-Silvermoon",
-				["time"] = 1602966982.601,
-				["class"] = "SHAMAN",
-				["timestring"] = "3m 37s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3293,14 +3290,14 @@ DeathGraphsDBCurrent = {
 						"Iamnotjamie-Silvermoon", -- [6]
 					}, -- [33]
 				},
+				["class"] = "SHAMAN",
+				["timestring"] = "3m 37s",
+				["time"] = 1602966982.601,
 			}, -- [4]
 			{
 				["maxhealth"] = 21260,
 				["timeofdeath"] = 217.21,
 				["name"] = "Queroth-Silvermoon",
-				["time"] = 1602966982.601,
-				["class"] = "WARRIOR",
-				["timestring"] = "3m 37s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3695,14 +3692,14 @@ DeathGraphsDBCurrent = {
 						"Queroth-Silvermoon", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "3m 37s",
+				["time"] = 1602966982.601,
 			}, -- [5]
 			{
 				["maxhealth"] = 18940,
 				["timeofdeath"] = 217.21,
 				["name"] = "Ipeed-Silvermoon",
-				["time"] = 1602966982.601,
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 37s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4097,14 +4094,14 @@ DeathGraphsDBCurrent = {
 						"Ipeed-Silvermoon", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "3m 37s",
+				["time"] = 1602966982.601,
 			}, -- [6]
 			{
 				["maxhealth"] = 29080,
 				["timeofdeath"] = 217.21,
 				["name"] = "Bloodseize-Silvermoon",
-				["time"] = 1602966982.601,
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "3m 37s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4499,14 +4496,14 @@ DeathGraphsDBCurrent = {
 						"Bloodseize-Silvermoon", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "3m 37s",
+				["time"] = 1602966982.601,
 			}, -- [7]
 			{
 				["maxhealth"] = 20160,
 				["timeofdeath"] = 217.21,
 				["name"] = "Trunkenbolt-Madmortem",
-				["time"] = 1602966982.601,
-				["class"] = "MONK",
-				["timestring"] = "3m 37s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4901,14 +4898,14 @@ DeathGraphsDBCurrent = {
 						"Trunkenbolt-Madmortem", -- [6]
 					}, -- [33]
 				},
+				["class"] = "MONK",
+				["timestring"] = "3m 37s",
+				["time"] = 1602966982.601,
 			}, -- [8]
 			{
 				["maxhealth"] = 22080,
 				["timeofdeath"] = 217.21,
 				["name"] = "Hexeins-Sen'jin",
-				["time"] = 1602966982.601,
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 37s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -5299,14 +5296,14 @@ DeathGraphsDBCurrent = {
 						"Hexeins-Sen'jin", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "3m 37s",
+				["time"] = 1602966982.601,
 			}, -- [9]
 			{
 				["maxhealth"] = 13860,
 				["timeofdeath"] = 217.21,
 				["name"] = "Autori",
-				["time"] = 1602966982.601,
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 37s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -5701,6 +5698,9 @@ DeathGraphsDBCurrent = {
 						"Autori", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "3m 37s",
+				["time"] = 1602966982.601,
 			}, -- [10]
 		},
 		["bossname"] = "Carapace of N'Zoth",
@@ -5720,9 +5720,6 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 19660,
 				["timeofdeath"] = 40.60499999999956,
 				["name"] = "Azráel-Madmortem",
-				["time"] = 1602966006.343,
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "0m 40s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -6059,14 +6056,14 @@ DeathGraphsDBCurrent = {
 						"Azráel-Madmortem", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "0m 40s",
+				["time"] = 1602966006.343,
 			}, -- [1]
 			{
 				["maxhealth"] = 18940,
 				["timeofdeath"] = 110.0249999999996,
 				["name"] = "Ipeed-Silvermoon",
-				["time"] = 1602966075.763,
-				["class"] = "WARLOCK",
-				["timestring"] = "1m 50s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -6415,14 +6412,14 @@ DeathGraphsDBCurrent = {
 						"Ipeed-Silvermoon", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "1m 50s",
+				["time"] = 1602966075.763,
 			}, -- [2]
 			{
 				["maxhealth"] = 21260,
 				["timeofdeath"] = 138.2049999999999,
 				["name"] = "Queroth-Silvermoon",
-				["time"] = 1602966103.943,
-				["class"] = "WARRIOR",
-				["timestring"] = "2m 18s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -6807,14 +6804,14 @@ DeathGraphsDBCurrent = {
 						"Queroth-Silvermoon", -- [6]
 					}, -- [34]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "2m 18s",
+				["time"] = 1602966103.943,
 			}, -- [3]
 			{
 				["maxhealth"] = 20580,
 				["timeofdeath"] = 140.9690000000001,
 				["name"] = "Autori",
-				["time"] = 1602966106.707,
-				["class"] = "WARLOCK",
-				["timestring"] = "2m 20s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -7203,14 +7200,14 @@ DeathGraphsDBCurrent = {
 						"Autori", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "2m 20s",
+				["time"] = 1602966106.707,
 			}, -- [4]
 			{
 				["maxhealth"] = 19600,
 				["timeofdeath"] = 188.5279999999993,
 				["name"] = "Mésa-Silvermoon",
-				["time"] = 1602966154.266,
-				["class"] = "ROGUE",
-				["timestring"] = "3m 8s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -7593,6 +7590,9 @@ DeathGraphsDBCurrent = {
 						"Mésa-Silvermoon", -- [6]
 					}, -- [33]
 				},
+				["class"] = "ROGUE",
+				["timestring"] = "3m 8s",
+				["time"] = 1602966154.266,
 			}, -- [5]
 		},
 		["bossname"] = "Ra-den the Despoiled",
@@ -7629,10 +7629,22 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["237215"] = {
+	["236415"] = {
 		["deaths"] = {
-			[130] = {
-				1602965198, -- [1]
+			[140] = {
+				1602966165, -- [1]
+			},
+			[110] = {
+				1602966165, -- [1]
+			},
+			[138] = {
+				1602966165, -- [1]
+			},
+			[40] = {
+				1602966165, -- [1]
+			},
+			[188] = {
+				1602966165, -- [1]
 			},
 		},
 		["spells"] = {
@@ -7666,14 +7678,14 @@ DeathGraphsDBGraph = {
 			[97] = {
 				1602966984, -- [1]
 			},
-			[37] = {
+			[145] = {
 				1602966984, -- [1]
 			},
 			[217] = {
 				1602966984, -- [1]
 				1602966984, -- [2]
 			},
-			[145] = {
+			[37] = {
 				1602966984, -- [1]
 			},
 		},
@@ -7682,22 +7694,10 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["236415"] = {
+	["237215"] = {
 		["deaths"] = {
-			[140] = {
-				1602966165, -- [1]
-			},
-			[110] = {
-				1602966165, -- [1]
-			},
-			[138] = {
-				1602966165, -- [1]
-			},
-			[40] = {
-				1602966165, -- [1]
-			},
-			[188] = {
-				1602966165, -- [1]
+			[130] = {
+				1602965198, -- [1]
 			},
 		},
 		["spells"] = {

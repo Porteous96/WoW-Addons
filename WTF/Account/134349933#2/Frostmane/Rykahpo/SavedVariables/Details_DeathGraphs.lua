@@ -5,38 +5,39 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Vexiona",
 		["id"] = 2370,
+		["diff"] = 15,
 		["player_db"] = {
 			["Devilmáster-Madmortem"] = {
+				["overall"] = {
+				},
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 				["name"] = "Devilmáster-Madmortem",
-				["overall"] = {
-				},
-			},
-			["Azráel-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Azráel-Madmortem",
-				["overall"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Iamnotjamie-Silvermoon",
-				["overall"] = {
-				},
+				["class"] = "WARLOCK",
 			},
 			["Trunkenbolt-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Trunkenbolt-Madmortem",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Trunkenbolt-Madmortem",
+				["class"] = "MONK",
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Iamnotjamie-Silvermoon",
+				["class"] = "SHAMAN",
+			},
+			["Azráel-Madmortem"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Azráel-Madmortem",
+				["class"] = "DEMONHUNTER",
 			},
 		},
 		["boss_table"] = {
@@ -48,97 +49,376 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Vexiona",
 			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["id"] = 2336,
+			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
+	},
+	["236916"] = {
+		["hash"] = "236916",
+		["type"] = "deaths",
+		["name"] = "Prophet Skitra",
+		["id"] = 2369,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 3,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Prophet Skitra",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Prophet Skitra",
+			["diff"] = 16,
+			["ej_instance_id"] = 1180,
+			["id"] = 2334,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Nåjd-Ravencrest"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nåjd-Ravencrest",
+			},
+			["Suuntó-Ravencrest"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Suuntó-Ravencrest",
+			},
+			["Jisho-Ravencrest"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jisho-Ravencrest",
+			},
+			["Thimble-Ravencrest"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Thimble-Ravencrest",
+			},
+			["Suddenee-Ravencrest"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Suddenee-Ravencrest",
+			},
+			["Silithan-Ravencrest"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Silithan-Ravencrest",
+			},
+		},
+		["diff"] = 16,
+	},
+	["237515"] = {
+		["hash"] = "237515",
+		["type"] = "deaths",
+		["name"] = "N'Zoth the Corruptor",
+		["id"] = 2375,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 12,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2344,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "N'Zoth the Corruptor",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "N'Zoth the Corruptor",
+		},
+		["player_db"] = {
+			["Grollash-ArgentDawn"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Grollash-ArgentDawn",
+			},
+			["Eltric-ArgentDawn"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Eltric-ArgentDawn",
+			},
+			["Аримдо-Гордунни"] = {
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Аримдо-Гордунни",
+			},
+			["Darkwah-ArgentDawn"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Darkwah-ArgentDawn",
+			},
+			["Vyollet-ArgentDawn"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vyollet-ArgentDawn",
+			},
+			["Rykahpo"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rykahpo",
+			},
+			["Lith"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lith",
+			},
+			["Okalani-DunMorogh"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Okalani-DunMorogh",
+			},
+			["Ниэтта-Гордунни"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ниэтта-Гордунни",
+			},
+			["Secaná-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Secaná-ArgentDawn",
+			},
+			["Nadaluxe-Ragnaros"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nadaluxe-Ragnaros",
+			},
+		},
 		["diff"] = 15,
+	},
+	["236516"] = {
+		["hash"] = "236516",
+		["type"] = "deaths",
+		["name"] = "Maut",
+		["id"] = 2365,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 2,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2327,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Maut",
+			["diff"] = 16,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Maut",
+		},
+		["player_db"] = {
+			["Doopy-Aggramar"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Doopy-Aggramar",
+			},
+			["Scootter-Ravencrest"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Scootter-Ravencrest",
+			},
+			["Gruselfussel-Alleria"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gruselfussel-Alleria",
+			},
+			["Thimble-Ravencrest"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Thimble-Ravencrest",
+			},
+			["Suuntó-Ravencrest"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Suuntó-Ravencrest",
+			},
+			["Maverick-Darkspear"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Maverick-Darkspear",
+			},
+			["Fillan-Elune"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Fillan-Elune",
+			},
+			["Alseydes-DunModr"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Alseydes-DunModr",
+			},
+			["Suddenee-Ravencrest"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Suddenee-Ravencrest",
+			},
+			["Zadidaddy-Ravencrest"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Zadidaddy-Ravencrest",
+			},
+		},
+		["diff"] = 16,
 	},
 	["237715"] = {
 		["hash"] = "237715",
 		["type"] = "deaths",
 		["name"] = "Dark Inquisitor Xanesh",
 		["id"] = 2377,
+		["diff"] = 15,
 		["player_db"] = {
 			["Alithor-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Alithor-Silvermoon",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Alithor-Silvermoon",
+				["class"] = "MAGE",
 			},
 			["Mésa-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Mésa-Silvermoon",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Mésa-Silvermoon",
+				["class"] = "ROGUE",
 			},
 			["Lixariah-Aegwynn"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Lixariah-Aegwynn",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Lixariah-Aegwynn",
+				["class"] = "PRIEST",
 			},
 			["Mærine-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Mærine-Silvermoon",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Mærine-Silvermoon",
+				["class"] = "DRUID",
 			},
 			["Autori"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Autori",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Autori",
+				["class"] = "WARLOCK",
 			},
 			["Rykahpo"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Rykahpo",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Rykahpo",
+				["class"] = "MAGE",
 			},
 			["Bloodseize-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Bloodseize-Silvermoon",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Bloodseize-Silvermoon",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Iamnotjamie-Silvermoon"] = {
+				["overall"] = {
+				},
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
 				["name"] = "Iamnotjamie-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Ipeed-Silvermoon",
-				["overall"] = {
-				},
+				["class"] = "SHAMAN",
 			},
 			["Hexeins-Sen'jin"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Hexeins-Sen'jin",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Hexeins-Sen'jin",
+				["class"] = "WARLOCK",
+			},
+			["Ipeed-Silvermoon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ipeed-Silvermoon",
+				["class"] = "WARLOCK",
 			},
 		},
 		["boss_table"] = {
@@ -149,323 +429,57 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "Dark Inquisitor Xanesh",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["encounter"] = "Dark Inquisitor Xanesh",
-		},
-		["diff"] = 15,
-	},
-	["236915"] = {
-		["hash"] = "236915",
-		["type"] = "deaths",
-		["name"] = "Prophet Skitra",
-		["id"] = 2369,
-		["player_db"] = {
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
+			["ej_instance_id"] = 1180,
 			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2334,
-			["killed"] = true,
 		},
-		["diff"] = 15,
-	},
-	["236815"] = {
-		["hash"] = "236815",
-		["type"] = "deaths",
-		["name"] = "Wrathion",
-		["id"] = 2368,
-		["player_db"] = {
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Wrathion",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2329,
-			["killed"] = true,
-		},
-		["diff"] = 15,
-	},
-	["236816"] = {
-		["hash"] = "236816",
-		["type"] = "deaths",
-		["name"] = "Wrathion",
-		["id"] = 2368,
-		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2329,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["diff"] = 16,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Wrathion",
-		},
-		["player_db"] = {
-			["Kejha-Pozzodell'Eternità"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kejha-Pozzodell'Eternità",
-			},
-			["Aeternatus-ChamberofAspects"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Aeternatus-ChamberofAspects",
-			},
-			["Hottex-Pozzodell'Eternità"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Hottex-Pozzodell'Eternità",
-			},
-			["Ликке-Гордунни"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Ликке-Гордунни",
-			},
-			["Senyera-Silvermoon"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Senyera-Silvermoon",
-			},
-			["Elenadi-Doomhammer"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Elenadi-Doomhammer",
-			},
-			["Waskcol-DunModr"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Waskcol-DunModr",
-			},
-			["Janashin-Silvermoon"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Janashin-Silvermoon",
-			},
-			["Figaru-Sylvanas"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Figaru-Sylvanas",
-			},
-			["Ainsopha-Nemesis"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Ainsopha-Nemesis",
-			},
-		},
-		["diff"] = 16,
-	},
-	["236615"] = {
-		["hash"] = "236615",
-		["type"] = "deaths",
-		["name"] = "Carapace of N'Zoth",
-		["id"] = 2366,
-		["player_db"] = {
-			["Hexeins-Sen'jin"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Hexeins-Sen'jin",
-				["overall"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Mésa-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Devilmáster-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Devilmáster-Madmortem",
-				["overall"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Ipeed-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Bloodseize-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Iamnotjamie-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Autori"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Autori",
-				["overall"] = {
-				},
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Trunkenbolt-Madmortem",
-				["overall"] = {
-				},
-			},
-			["Queroth-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Queroth-Silvermoon",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 11,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2337,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Carapace of N'Zoth",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Carapace of N'Zoth",
-		},
-		["diff"] = 15,
-	},
-	["237215"] = {
-		["hash"] = "237215",
-		["type"] = "deaths",
-		["name"] = "The Hivemind",
-		["id"] = 2372,
-		["player_db"] = {
-			["Autori"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Autori",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2333,
-			["mapid"] = 2217,
-			["name"] = "The Hivemind",
-			["diff"] = 15,
-			["encounter"] = "The Hivemind",
-			["ej_instance_id"] = 1180,
-		},
-		["diff"] = 15,
 	},
 	["236415"] = {
 		["hash"] = "236415",
 		["type"] = "deaths",
 		["name"] = "Ra-den the Despoiled",
 		["id"] = 2364,
+		["diff"] = 15,
 		["player_db"] = {
 			["Ipeed-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Ipeed-Silvermoon",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Ipeed-Silvermoon",
+				["class"] = "WARLOCK",
 			},
 			["Mésa-Silvermoon"] = {
+				["overall"] = {
+				},
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 				["name"] = "Mésa-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Queroth-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Queroth-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Autori"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Autori",
-				["overall"] = {
-				},
+				["class"] = "ROGUE",
 			},
 			["Azráel-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Azráel-Madmortem",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Azráel-Madmortem",
+				["class"] = "DEMONHUNTER",
+			},
+			["Autori"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Autori",
+				["class"] = "WARLOCK",
+			},
+			["Queroth-Silvermoon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Queroth-Silvermoon",
+				["class"] = "WARRIOR",
 			},
 		},
 		["boss_table"] = {
@@ -477,25 +491,323 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Ra-den the Despoiled",
 			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["id"] = 2331,
+			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
+	},
+	["236815"] = {
+		["hash"] = "236815",
+		["type"] = "deaths",
+		["name"] = "Wrathion",
+		["id"] = 2368,
 		["diff"] = 15,
+		["player_db"] = {
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Wrathion",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 15,
+			["id"] = 2329,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
+	},
+	["236816"] = {
+		["hash"] = "236816",
+		["type"] = "deaths",
+		["name"] = "Wrathion",
+		["id"] = 2368,
+		["diff"] = 16,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2329,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["encounter"] = "Wrathion",
+			["ej_instance_id"] = 1180,
+			["diff"] = 16,
+		},
+		["player_db"] = {
+			["Kejha-Pozzodell'Eternità"] = {
+				["name"] = "Kejha-Pozzodell'Eternità",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Aeternatus-ChamberofAspects"] = {
+				["name"] = "Aeternatus-ChamberofAspects",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Hottex-Pozzodell'Eternità"] = {
+				["name"] = "Hottex-Pozzodell'Eternità",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Ликке-Гордунни"] = {
+				["name"] = "Ликке-Гордунни",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Senyera-Silvermoon"] = {
+				["name"] = "Senyera-Silvermoon",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Elenadi-Doomhammer"] = {
+				["name"] = "Elenadi-Doomhammer",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Ainsopha-Nemesis"] = {
+				["name"] = "Ainsopha-Nemesis",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Janashin-Silvermoon"] = {
+				["name"] = "Janashin-Silvermoon",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Figaru-Sylvanas"] = {
+				["name"] = "Figaru-Sylvanas",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Waskcol-DunModr"] = {
+				["name"] = "Waskcol-DunModr",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
+	},
+	["236615"] = {
+		["hash"] = "236615",
+		["type"] = "deaths",
+		["name"] = "Carapace of N'Zoth",
+		["id"] = 2366,
+		["diff"] = 15,
+		["player_db"] = {
+			["Hexeins-Sen'jin"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Hexeins-Sen'jin",
+				["class"] = "WARLOCK",
+			},
+			["Mésa-Silvermoon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Mésa-Silvermoon",
+				["class"] = "ROGUE",
+			},
+			["Devilmáster-Madmortem"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Devilmáster-Madmortem",
+				["class"] = "WARLOCK",
+			},
+			["Eltric-ArgentDawn"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Eltric-ArgentDawn",
+			},
+			["Okalani-DunMorogh"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Okalani-DunMorogh",
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Trunkenbolt-Madmortem",
+				["class"] = "MONK",
+			},
+			["Ipeed-Silvermoon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ipeed-Silvermoon",
+				["class"] = "WARLOCK",
+			},
+			["Rykahpo"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rykahpo",
+			},
+			["Bloodseize-Silvermoon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Bloodseize-Silvermoon",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Iamnotjamie-Silvermoon",
+				["class"] = "SHAMAN",
+			},
+			["Autori"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Autori",
+				["class"] = "WARLOCK",
+			},
+			["Secaná-ArgentDawn"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Secaná-ArgentDawn",
+			},
+			["Queroth-Silvermoon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Queroth-Silvermoon",
+				["class"] = "WARRIOR",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 11,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2337,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Carapace of N'Zoth",
+			["encounter"] = "Carapace of N'Zoth",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
+		},
+	},
+	["236915"] = {
+		["hash"] = "236915",
+		["type"] = "deaths",
+		["name"] = "Prophet Skitra",
+		["id"] = 2369,
+		["diff"] = 15,
+		["player_db"] = {
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Prophet Skitra",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Prophet Skitra",
+			["diff"] = 15,
+			["id"] = 2334,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
+	},
+	["237215"] = {
+		["hash"] = "237215",
+		["type"] = "deaths",
+		["name"] = "The Hivemind",
+		["id"] = 2372,
+		["diff"] = 15,
+		["player_db"] = {
+			["Autori"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Autori",
+				["class"] = "WARLOCK",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2333,
+			["mapid"] = 2217,
+			["name"] = "The Hivemind",
+			["ej_instance_id"] = 1180,
+			["encounter"] = "The Hivemind",
+			["diff"] = 15,
+		},
 	},
 	["236515"] = {
 		["hash"] = "236515",
 		["type"] = "deaths",
 		["name"] = "Maut",
 		["id"] = 2365,
+		["diff"] = 15,
 		["player_db"] = {
 			["Devilmáster-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Devilmáster-Madmortem",
 				["overall"] = {
 				},
+				["deaths"] = {
+				},
+				["name"] = "Devilmáster-Madmortem",
+				["class"] = "WARLOCK",
 			},
 		},
 		["boss_table"] = {
@@ -506,11 +818,10 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "Maut",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["encounter"] = "Maut",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
 		},
-		["diff"] = 15,
 	},
 }
 DeathGraphsDBEndurance = {
@@ -519,18 +830,18 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Vexiona",
 		["id"] = 2370,
+		["diff"] = 15,
 		["player_db"] = {
 			["Alithor-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Trunkenbolt-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "MONK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -538,11 +849,11 @@ DeathGraphsDBEndurance = {
 						"Twilight Decimator |cFFFF333332,134|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "MONK",
 			},
 			["Devilmáster-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -550,81 +861,11 @@ DeathGraphsDBEndurance = {
 						"Twilight Decimator |cFFFF333332,656|r", -- [3]
 					}, -- [1]
 				},
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
 			},
 			["Azráel-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -632,6 +873,77 @@ DeathGraphsDBEndurance = {
 						"Twilight Decimator |cFFFF333329,233|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 		},
 		["boss_table"] = {
@@ -643,22 +955,516 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "Vexiona",
 			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["id"] = 2336,
+			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
+	},
+	["236916"] = {
+		["hash"] = "236916",
+		["type"] = "endurance",
+		["name"] = "Prophet Skitra",
+		["id"] = 2369,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 3,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Prophet Skitra",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Prophet Skitra",
+			["diff"] = 16,
+			["ej_instance_id"] = 1180,
+			["id"] = 2334,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Crazypoepo-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Neonblood-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Silithan-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						163.8760000000002, -- [2]
+						"Surging Images (DoT) |cFFFF333310,261|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Maverick-Darkspear"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Alseydes-DunModr"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Soulrevenger-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Fillan-Elune"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Scootter-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Doopy-Aggramar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Thimble-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Nåjd-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Waaxi-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Gruselfussel-Alleria"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Suuntó-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Zadidaddy-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Daveour-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Tathi-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Suddenee-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						127.0610000000002, -- [2]
+						"Psychic Outburst |cFFFF333317,672|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Jisho-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						164.4679999999999, -- [2]
+						"Surging Images (DoT) |cFFFF33339,447|r", -- [3]
+					}, -- [1]
+				},
+			},
+		},
+		["diff"] = 16,
+	},
+	["237515"] = {
+		["hash"] = "237515",
+		["type"] = "endurance",
+		["name"] = "N'Zoth the Corruptor",
+		["id"] = 2375,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 12,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2344,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "N'Zoth the Corruptor",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "N'Zoth the Corruptor",
+		},
+		["player_db"] = {
+			["Grollash-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Eltric-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Аримдо-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						3, -- [1]
+						198.268, -- [2]
+						"Anguish (DoT) |cFFFF33336,749|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lith"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Darkwah-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 4,
+				["points"] = 350,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						403.9719999999998, -- [2]
+						"Melee |cFFFF33338,589|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						54.45700000000034, -- [2]
+						"Anguish (DoT) |cFFFF33336,404|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						57.42399999999907, -- [2]
+						"Anguish (DoT) |cFFFF33336,534|r", -- [3]
+					}, -- [3]
+					{
+						3, -- [1]
+						258.0429999999997, -- [2]
+						"Paranoia |cFFFF33337,533|r", -- [3]
+					}, -- [4]
+				},
+			},
+			["Okalani-DunMorogh"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Vyollet-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						2, -- [1]
+						216.7110000000012, -- [2]
+						"Melee |cFFFF33331,946|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ниэтта-Гордунни"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						416.0319999999992, -- [2]
+						"Melee |cFFFF33336,601|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Secaná-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Nadaluxe-Ragnaros"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						278.021999999999, -- [2]
+						"Eviscerate |cFFFF33331,312|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						230.8549999999996, -- [2]
+						"Anguish (DoT) |cFFFF33336,366|r", -- [3]
+					}, -- [2]
+				},
+			},
+		},
 		["diff"] = 15,
+	},
+	["236516"] = {
+		["hash"] = "236516",
+		["type"] = "endurance",
+		["name"] = "Maut",
+		["id"] = 2365,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 2,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2327,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Maut",
+			["diff"] = 16,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Maut",
+		},
+		["player_db"] = {
+			["Crazypoepo-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Gruselfussel-Alleria"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						81.8789999999999, -- [2]
+						"Ancient Curse |cFFFF33331,114|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Silithan-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Maverick-Darkspear"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Alseydes-DunModr"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Soulrevenger-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Fillan-Elune"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						2, -- [1]
+						79.65700000000015, -- [2]
+						"Devoured Abyss |cFFFF333312,961|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Scootter-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						2, -- [1]
+						44.85000000000036, -- [2]
+						"Stygian Annihilation |cFFFF333391,839|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Doopy-Aggramar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Thimble-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Nåjd-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Asuunaa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Tathi-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Suuntó-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Zadidaddy-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Daveour-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Jisho-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Suddenee-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Neonblood-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 16,
 	},
 	["237715"] = {
 		["hash"] = "237715",
 		["type"] = "endurance",
 		["name"] = "Dark Inquisitor Xanesh",
 		["id"] = 2377,
+		["diff"] = 15,
 		["player_db"] = {
 			["Hexeins-Sen'jin"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -666,93 +1472,53 @@ DeathGraphsDBEndurance = {
 						"Void Ritual |cFFFF333340,067|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARLOCK",
+			},
+			["Habnixmehr-Madmortem"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
 			},
 			["Trunkenbolt-Madmortem"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["deaths"] = {
+				},
 				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
 			},
 			["Devilmáster-Madmortem"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
-			["Sitré-Silvermoon"] = {
+			["Lixariah-Aegwynn"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["Mærine-Silvermoon"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["deaths"] = {
+				},
 				["class"] = "DRUID",
-				["deaths"] = {
-				},
 			},
-			["Azráel-Madmortem"] = {
+			["Sitré-Silvermoon"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["deaths"] = {
+				},
 				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "MAGE",
-				["deaths"] = {
-					{
-						2, -- [1]
-						162.9400000000001, -- [2]
-						"Void Ritual |cFFFF333329,681|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
 			},
 			["Autori"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -760,20 +1526,61 @@ DeathGraphsDBEndurance = {
 						"Void Ritual |cFFFF333337,470|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARLOCK",
 			},
-			["Lixariah-Aegwynn"] = {
+			["Ipeed-Silvermoon"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
-			["Habnixmehr-Madmortem"] = {
+			["Rykahpo"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						162.9400000000001, -- [2]
+						"Void Ritual |cFFFF333329,681|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MAGE",
+			},
+			["Bloodseize-Silvermoon"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
 			},
 		},
 		["boss_table"] = {
@@ -784,263 +1591,271 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "Dark Inquisitor Xanesh",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["encounter"] = "Dark Inquisitor Xanesh",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
 		},
-		["diff"] = 15,
 	},
-	["236915"] = {
-		["hash"] = "236915",
+	["236415"] = {
+		["hash"] = "236415",
 		["type"] = "endurance",
-		["name"] = "Prophet Skitra",
-		["id"] = 2369,
+		["name"] = "Ra-den the Despoiled",
+		["id"] = 2364,
+		["diff"] = 15,
 		["player_db"] = {
 			["Alithor-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Habnixmehr-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
 			},
 			["Devilmáster-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
 			},
 			["Lixariah-Aegwynn"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						40.60499999999956, -- [2]
+						"Void Collapse |cFFFF333335,959|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Mærine-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Namindra-Bloodhoof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 			},
 			["Sitré-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Trunkenbolt-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						110.0249999999996, -- [2]
+						"Unstable Vita |cFFFF333325,301|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARLOCK",
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Queroth-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						138.2049999999999, -- [2]
+						"Charged Bonds (DoT) |cFFFF33333,235|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARRIOR",
 			},
 		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
-			["index"] = 3,
+			["index"] = 10,
 			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
+			["encounter"] = "Ra-den the Despoiled",
 			["mapid"] = 2217,
 			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
+			["name"] = "Ra-den the Despoiled",
 			["diff"] = 15,
+			["id"] = 2331,
 			["ej_instance_id"] = 1180,
-			["id"] = 2334,
 			["killed"] = true,
 		},
-		["diff"] = 15,
 	},
 	["236815"] = {
 		["hash"] = "236815",
 		["type"] = "endurance",
 		["name"] = "Wrathion",
 		["id"] = 2368,
+		["diff"] = 15,
 		["player_db"] = {
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
 			["Alithor-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Habnixmehr-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Namindra-Bloodhoof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 			},
 			["Sitré-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
-			["Trunkenbolt-Madmortem"] = {
+			["Mésa-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Namindra-Bloodhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Habnixmehr-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
 			},
 		},
 		["boss_table"] = {
@@ -1052,17 +1867,17 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "Wrathion",
 			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["id"] = 2329,
+			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["diff"] = 15,
 	},
 	["236816"] = {
 		["hash"] = "236816",
 		["type"] = "endurance",
 		["name"] = "Wrathion",
 		["id"] = 2368,
+		["diff"] = 16,
 		["boss_table"] = {
 			["diff_string"] = "Mythic",
 			["index"] = 1,
@@ -1071,57 +1886,56 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "Wrathion",
-			["diff"] = 16,
-			["ej_instance_id"] = 1180,
 			["encounter"] = "Wrathion",
+			["ej_instance_id"] = 1180,
+			["diff"] = 16,
 		},
 		["player_db"] = {
 			["Lolitaria-Area52"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
 			},
 			["Hottex-Pozzodell'Eternità"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["Лоролин-Борейскаятундра"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Senyera-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
 			["Søøm-Blackhand"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Elenadi-Doomhammer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Figaru-Sylvanas"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1129,11 +1943,11 @@ DeathGraphsDBEndurance = {
 						"Creeping Madness |cFFFF333310,390|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DRUID",
 			},
 			["Ainsopha-Nemesis"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1141,74 +1955,74 @@ DeathGraphsDBEndurance = {
 						"Creeping Madness |cFFFF333310,160|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PRIEST",
 			},
 			["Kejha-Pozzodell'Eternità"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
 			},
 			["Aeternatus-ChamberofAspects"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
 			["Ликке-Гордунни"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Gìòrgino-Pozzodell'Eternità"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Lesee-Ragnaros"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Блидинграйс-Гордунни"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Rykahpo"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Нервмарса-Дракономор"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["Silverfangg-Ragnaros"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Janashin-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1216,60 +2030,151 @@ DeathGraphsDBEndurance = {
 						"Incineration |cFFFF333311,165|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PRIEST",
 			},
 			["Umbreon-ChamberofAspects"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
 			["Waskcol-DunModr"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 		},
-		["diff"] = 16,
 	},
 	["236615"] = {
 		["hash"] = "236615",
 		["type"] = "endurance",
 		["name"] = "Carapace of N'Zoth",
 		["id"] = 2366,
+		["diff"] = 15,
 		["player_db"] = {
-			["Alithor-Silvermoon"] = {
+			["Hexeins-Sen'jin"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
 			["Trunkenbolt-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
-			["Mésa-Silvermoon"] = {
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Eltric-ArgentDawn"] = {
 				["encounters"] = 1,
 				["points"] = 90,
 				["class"] = "ROGUE",
 				["deaths"] = {
 					{
 						1, -- [1]
-						97.07400000000052, -- [2]
-						"Growth-Covered Tentacle |cFFFF333340,870|r", -- [3]
+						394.1290000000008, -- [2]
+						"Divine Storm |cFFFF3333371|r", -- [3]
 					}, -- [1]
 				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Vyollet-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Queroth-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Grollash-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Ниэтта-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Nadaluxe-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Devilmáster-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1277,60 +2182,37 @@ DeathGraphsDBEndurance = {
 						"Growth-Covered Tentacle |cFFFF333342,623|r", -- [3]
 					}, -- [1]
 				},
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "WARLOCK",
+			},
+			["Okalani-DunMorogh"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PALADIN",
 				["deaths"] = {
+					{
+						1, -- [1]
+						37.10200000000077, -- [2]
+						"Growth-Covered Tentacle |cFFFF333339,822|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
-			["Bloodseize-Silvermoon"] = {
+			["Lith"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
 			["Iamnotjamie-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1338,25 +2220,36 @@ DeathGraphsDBEndurance = {
 						"Breed Madness |cFFFF33333,856|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "SHAMAN",
 			},
-			["Ipeed-Silvermoon"] = {
+			["Mésa-Silvermoon"] = {
 				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
+				["points"] = 90,
 				["deaths"] = {
+					{
+						1, -- [1]
+						97.07400000000052, -- [2]
+						"Growth-Covered Tentacle |cFFFF333340,870|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "ROGUE",
+			},
+			["Secaná-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						440.0920000000006, -- [2]
+						"Mandible Slam |cFFFF33335,958|r", -- [3]
+					}, -- [1]
 				},
 			},
-			["Hexeins-Sen'jin"] = {
+			["Darkwah-ArgentDawn"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Queroth-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
@@ -1369,71 +2262,204 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "Carapace of N'Zoth",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["encounter"] = "Carapace of N'Zoth",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
 		},
+	},
+	["236915"] = {
+		["hash"] = "236915",
+		["type"] = "endurance",
+		["name"] = "Prophet Skitra",
+		["id"] = 2369,
 		["diff"] = 15,
+		["player_db"] = {
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Namindra-Bloodhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Habnixmehr-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Prophet Skitra",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Prophet Skitra",
+			["diff"] = 15,
+			["id"] = 2334,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["237215"] = {
 		["hash"] = "237215",
 		["type"] = "endurance",
 		["name"] = "The Hivemind",
 		["id"] = 2372,
+		["diff"] = 15,
 		["player_db"] = {
 			["Alithor-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Mésa-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
 			},
 			["Devilmáster-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
-			["Sitré-Silvermoon"] = {
+			["Trunkenbolt-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["Mærine-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "DRUID",
-				["deaths"] = {
-				},
 			},
-			["Azráel-Madmortem"] = {
+			["Sitré-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
 			},
-			["Lixariah-Aegwynn"] = {
+			["Ipeed-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
 			["Autori"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1441,48 +2467,49 @@ DeathGraphsDBEndurance = {
 						"Volatile Eruption |cFFFF333312,534|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARLOCK",
 			},
 			["Rykahpo"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Bloodseize-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Iamnotjamie-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
+				["class"] = "SHAMAN",
 			},
 			["Hexeins-Sen'jin"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
 			},
-			["Ipeed-Silvermoon"] = {
+			["Lixariah-Aegwynn"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
-			["Trunkenbolt-Madmortem"] = {
+			["Azráel-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 		},
 		["boss_table"] = {
@@ -1492,192 +2519,49 @@ DeathGraphsDBEndurance = {
 			["id"] = 2333,
 			["mapid"] = 2217,
 			["name"] = "The Hivemind",
-			["diff"] = 15,
+			["ej_instance_id"] = 1180,
 			["encounter"] = "The Hivemind",
-			["ej_instance_id"] = 1180,
-		},
-		["diff"] = 15,
-	},
-	["236415"] = {
-		["hash"] = "236415",
-		["type"] = "endurance",
-		["name"] = "Ra-den the Despoiled",
-		["id"] = 2364,
-		["player_db"] = {
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						110.0249999999996, -- [2]
-						"Unstable Vita |cFFFF333325,301|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						40.60499999999956, -- [2]
-						"Void Collapse |cFFFF333335,959|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Queroth-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						1, -- [1]
-						138.2049999999999, -- [2]
-						"Charged Bonds (DoT) |cFFFF33333,235|r", -- [3]
-					}, -- [1]
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Ra-den the Despoiled",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Ra-den the Despoiled",
 			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2331,
-			["killed"] = true,
 		},
-		["diff"] = 15,
 	},
 	["236515"] = {
 		["hash"] = "236515",
 		["type"] = "endurance",
 		["name"] = "Maut",
 		["id"] = 2365,
+		["diff"] = 15,
 		["player_db"] = {
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
 			["Alithor-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
-			["Hexeins-Sen'jin"] = {
+			["Sitré-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Mésa-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Habnixmehr-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
 			},
 			["Devilmáster-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -1685,83 +2569,84 @@ DeathGraphsDBEndurance = {
 						"Stygian Annihilation |cFFFF333365,310|r", -- [3]
 					}, -- [1]
 				},
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Namindra-Bloodhoof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
 			},
 			["Ipeed-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 			},
-			["Sitré-Silvermoon"] = {
+			["Mærine-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
 			},
-			["Trunkenbolt-Madmortem"] = {
+			["Namindra-Bloodhoof"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Habnixmehr-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
 			},
 		},
 		["boss_table"] = {
@@ -1772,438 +2657,467 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "Maut",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["encounter"] = "Maut",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
 		},
-		["diff"] = 15,
 	},
 }
 DeathGraphsDBCurrent = {
 	{
 		["deaths"] = {
 			{
-				["maxhealth"] = 19320,
-				["timeofdeath"] = 37.14900000000034,
-				["name"] = "Devilmáster-Madmortem",
+				["maxhealth"] = 20200,
+				["timeofdeath"] = 57.42399999999907,
+				["name"] = "Rykahpo",
 				["events"] = {
 					{
-						false, -- [1]
-						205179, -- [2]
-						138, -- [3]
-						1602966786.033, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						2, -- [1]
+						61999, -- [2]
+						1, -- [3]
+						1603142652.064, -- [4]
+						0, -- [5]
+						"Grollash-ArgentDawn", -- [6]
 					}, -- [1]
 					{
 						false, -- [1]
-						157982, -- [2]
-						7, -- [3]
-						1602966786.55, -- [4]
-						20300, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						183811, -- [2]
+						58, -- [3]
+						1603142616.998, -- [4]
+						20249, -- [5]
+						"Secaná-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [2]
 					{
 						false, -- [1]
-						311201, -- [2]
-						579, -- [3]
-						1602966786.744, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						183811, -- [2]
+						62, -- [3]
+						1603142616.998, -- [4]
+						20311, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [3]
 					{
 						false, -- [1]
-						205179, -- [2]
-						69, -- [3]
-						1602966787.163, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						183811, -- [2]
+						57, -- [3]
+						1603142617.227, -- [4]
+						20368, -- [5]
+						"Secaná-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [4]
 					{
 						false, -- [1]
-						205179, -- [2]
-						89, -- [3]
-						1602966788.33, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						183811, -- [2]
+						63, -- [3]
+						1603142617.227, -- [4]
+						20431, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [5]
 					{
 						false, -- [1]
-						311201, -- [2]
-						638, -- [3]
-						1602966790.084, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						183811, -- [2]
+						57, -- [3]
+						1603142617.434, -- [4]
+						20488, -- [5]
+						"Secaná-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [6]
 					{
 						false, -- [1]
-						269279, -- [2]
-						1243, -- [3]
-						1602966791.356, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
-						true, -- [7]
+						183811, -- [2]
+						64, -- [3]
+						1603142617.434, -- [4]
+						20552, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [7]
 					{
 						false, -- [1]
-						108366, -- [2]
-						1407, -- [3]
-						1602966791.356, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
-						true, -- [7]
+						183811, -- [2]
+						57, -- [3]
+						1603142617.701, -- [4]
+						20609, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
 						0, -- [8]
 					}, -- [8]
 					{
-						true, -- [1]
-						316307, -- [2]
-						2650, -- [3]
-						1602966791.356, -- [4]
-						20300, -- [5]
-						"Gaze of Madness", -- [6]
+						false, -- [1]
+						183811, -- [2]
+						63, -- [3]
+						1603142617.701, -- [4]
+						20672, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						0, -- [8]
 					}, -- [9]
 					{
 						false, -- [1]
-						287608, -- [2]
-						58, -- [3]
-						1602966792.073, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						183811, -- [2]
+						57, -- [3]
+						1603142618.058, -- [4]
+						20729, -- [5]
+						"Secaná-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [10]
 					{
 						false, -- [1]
-						287608, -- [2]
-						57, -- [3]
-						1602966792.544, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						183811, -- [2]
+						127, -- [3]
+						1603142618.058, -- [4]
+						20856, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [11]
 					{
-						false, -- [1]
-						287608, -- [2]
-						58, -- [3]
-						1602966793.05, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						true, -- [1]
+						310333, -- [2]
+						1312, -- [3]
+						1603142618.101, -- [4]
+						19544, -- [5]
+						"Mind's Eye", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [12]
 					{
 						false, -- [1]
-						287608, -- [2]
+						183811, -- [2]
 						58, -- [3]
-						1602966793.541, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						1603142618.544, -- [4]
+						19602, -- [5]
+						"Secaná-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [13]
 					{
 						false, -- [1]
-						114942, -- [2]
-						245, -- [3]
-						1602966794.456, -- [4]
-						20300, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
+						183811, -- [2]
+						124, -- [3]
+						1603142618.544, -- [4]
+						19726, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [14]
 					{
 						false, -- [1]
-						287608, -- [2]
-						57, -- [3]
-						1602966794.519, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						183811, -- [2]
+						117, -- [3]
+						1603142619.024, -- [4]
+						19843, -- [5]
+						"Secaná-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [15]
 					{
 						false, -- [1]
-						287608, -- [2]
-						57, -- [3]
-						1602966795.013, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						183811, -- [2]
+						64, -- [3]
+						1603142619.024, -- [4]
+						19907, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [16]
 					{
-						false, -- [1]
-						287608, -- [2]
-						114, -- [3]
-						1602966795.509, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						true, -- [1]
+						310333, -- [2]
+						1312, -- [3]
+						1603142619.082, -- [4]
+						18595, -- [5]
+						"Mind's Eye", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [17]
 					{
 						false, -- [1]
-						114942, -- [2]
-						158, -- [3]
-						1602966795.616, -- [4]
-						20300, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
+						183811, -- [2]
+						56, -- [3]
+						1603142619.539, -- [4]
+						18651, -- [5]
+						"Secaná-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [18]
 					{
 						false, -- [1]
-						287608, -- [2]
-						57, -- [3]
-						1602966796.158, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						183811, -- [2]
+						63, -- [3]
+						1603142619.539, -- [4]
+						18714, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [19]
 					{
 						false, -- [1]
-						287608, -- [2]
-						58, -- [3]
-						1602966799.153, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
-						nil, -- [7]
+						235450, -- [2]
+						1050, -- [3]
+						1603142620.079, -- [4]
+						18714, -- [5]
+						"Rykahpo", -- [6]
+						true, -- [7]
 						0, -- [8]
 					}, -- [20]
 					{
+						true, -- [1]
+						310333, -- [2]
+						1050, -- [3]
+						1603142620.079, -- [4]
+						18714, -- [5]
+						"Mind's Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
 						4, -- [1]
-						313364, -- [2]
+						309991, -- [2]
 						1, -- [3]
-						1602966800.22, -- [4]
-						20300, -- [5]
-						"Fury of N'Zoth", -- [6]
+						1603142621.003, -- [4]
+						18714, -- [5]
+						"Psychus", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						269279, -- [2]
-						861, -- [3]
-						1602966800.22, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
-						true, -- [7]
-						0, -- [8]
 					}, -- [22]
 					{
-						true, -- [1]
-						313364, -- [2]
-						861, -- [3]
-						1602966800.22, -- [4]
-						20300, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
+						false, -- [1]
+						235450, -- [2]
+						3781, -- [3]
+						1603142621.003, -- [4]
+						18714, -- [5]
+						"Rykahpo", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [23]
 					{
-						false, -- [1]
-						303380, -- [2]
-						408, -- [3]
-						1602966801.159, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						309991, -- [2]
+						5251, -- [3]
+						1603142621.003, -- [4]
+						17244, -- [5]
+						"Psychus", -- [6]
+						3781, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [24]
+					{
+						true, -- [1]
+						310333, -- [2]
+						1306, -- [3]
+						1603142621.074, -- [4]
+						15938, -- [5]
+						"Mind's Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6534, -- [3]
+						1603142621.996, -- [4]
+						9404, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
 					{
 						false, -- [1]
 						269279, -- [2]
-						433, -- [3]
-						1602966801.21, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						1513, -- [3]
+						1603142623.003, -- [4]
+						9404, -- [5]
+						"Rykahpo", -- [6]
 						true, -- [7]
 						0, -- [8]
-					}, -- [25]
-					{
-						false, -- [1]
-						108366, -- [2]
-						428, -- [3]
-						1602966801.21, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						true, -- [1]
-						313364, -- [2]
-						861, -- [3]
-						1602966801.21, -- [4]
-						20300, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [27]
 					{
-						false, -- [1]
-						108366, -- [2]
-						881, -- [3]
-						1602966802.215, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
 						true, -- [1]
-						313364, -- [2]
-						881, -- [3]
-						1602966802.215, -- [4]
-						20300, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
+						309991, -- [2]
+						6535, -- [3]
+						1603142623.003, -- [4]
+						4382, -- [5]
+						"Psychus", -- [6]
+						1513, -- [7]
 						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [28]
+					{
+						1, -- [1]
+						45438, -- [2]
+						1, -- [3]
+						1603142623.212, -- [4]
+						4382, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [29]
 					{
 						false, -- [1]
-						287608, -- [2]
-						57, -- [3]
-						1602966802.377, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						269238, -- [2]
+						736, -- [3]
+						1603142623.337, -- [4]
+						5118, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [30]
 					{
 						false, -- [1]
-						108366, -- [2]
-						1975, -- [3]
-						1602966802.505, -- [4]
-						20300, -- [5]
-						"Devilmáster-Madmortem", -- [6]
-						true, -- [7]
+						325983, -- [2]
+						718, -- [3]
+						1603142623.991, -- [4]
+						5836, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
 						0, -- [8]
 					}, -- [31]
 					{
-						true, -- [1]
-						313564, -- [2]
-						42623, -- [3]
-						1602966802.524, -- [4]
-						1, -- [5]
-						"Growth-Covered Tentacle", -- [6]
-						1975, -- [7]
-						8, -- [8]
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142624.123, -- [4]
+						5836, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
-						20348, -- [10]
+						false, -- [10]
 					}, -- [32]
 					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Devilmáster-Madmortem", -- [6]
+						true, -- [1]
+						309991, -- [2]
+						6534, -- [3]
+						1603142624.148, -- [4]
+						1, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						698, -- [10]
 					}, -- [33]
+					{
+						3, -- [1]
+						45438, -- [2]
+						1, -- [3]
+						1603142623.212, -- [4]
+						0, -- [5]
+						"Rykahpo", -- [6]
+					}, -- [34]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "0m 37s",
-				["time"] = 1602966802.54,
+				["class"] = "MAGE",
+				["timestring"] = "0m 57s",
+				["time"] = 1603142624.148,
 			}, -- [1]
 			{
-				["maxhealth"] = 19600,
-				["timeofdeath"] = 97.07400000000052,
-				["name"] = "Mésa-Silvermoon",
+				["maxhealth"] = 21300,
+				["timeofdeath"] = 198.268,
+				["name"] = "Аримдо-Гордунни",
 				["events"] = {
 					{
 						false, -- [1]
-						143924, -- [2]
-						102, -- [3]
-						1602966853.409, -- [4]
-						19827, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						33110, -- [2]
+						592, -- [3]
+						1603142754.676, -- [4]
+						22006, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [1]
 					{
 						false, -- [1]
-						157503, -- [2]
-						210, -- [3]
-						1602966853.431, -- [4]
-						20037, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
+						143924, -- [2]
+						230, -- [3]
+						1603142754.901, -- [4]
+						22236, -- [5]
+						"Аримдо-Гордунни", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [2]
 					{
-						false, -- [1]
-						269238, -- [2]
-						1407, -- [3]
-						1602966853.538, -- [4]
-						20580, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						true, -- [1]
+						314889, -- [2]
+						2433, -- [3]
+						1603142755.413, -- [4]
+						19803, -- [5]
+						"Exposed Synapse", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [3]
 					{
 						true, -- [1]
-						316307, -- [2]
-						2633, -- [3]
-						1602966854.309, -- [4]
-						17947, -- [5]
-						"Gaze of Madness", -- [6]
+						314889, -- [2]
+						2432, -- [3]
+						1603142755.413, -- [4]
+						17371, -- [5]
+						"Exposed Synapse", -- [6]
 						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [4]
 					{
-						false, -- [1]
-						143924, -- [2]
-						99, -- [3]
-						1602966854.615, -- [4]
-						18046, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						true, -- [1]
+						312873, -- [2]
+						1080, -- [3]
+						1603142755.643, -- [4]
+						16291, -- [5]
+						"Deathwing", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						4, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [5]
 					{
 						false, -- [1]
-						269238, -- [2]
-						1407, -- [3]
-						1602966855.281, -- [4]
-						19453, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						143924, -- [2]
+						106, -- [3]
+						1603142756.13, -- [4]
+						16397, -- [5]
+						"Аримдо-Гордунни", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -2211,59 +3125,59 @@ DeathGraphsDBCurrent = {
 					}, -- [6]
 					{
 						false, -- [1]
-						269238, -- [2]
-						2814, -- [3]
-						1602966855.314, -- [4]
-						20580, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						77489, -- [2]
+						321, -- [3]
+						1603142756.625, -- [4]
+						16718, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [7]
 					{
-						false, -- [1]
-						157982, -- [2]
-						513, -- [3]
-						1602966855.956, -- [4]
-						20580, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						true, -- [1]
+						312873, -- [2]
+						1081, -- [3]
+						1603142756.636, -- [4]
+						15637, -- [5]
+						"Deathwing", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						4, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [8]
 					{
 						false, -- [1]
-						269238, -- [2]
-						2814, -- [3]
-						1602966856.763, -- [4]
-						20580, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						143924, -- [2]
+						60, -- [3]
+						1603142757.331, -- [4]
+						15697, -- [5]
+						"Аримдо-Гордунни", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
 					{
-						false, -- [1]
-						269238, -- [2]
-						2813, -- [3]
-						1602966857.058, -- [4]
-						20580, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						true, -- [1]
+						312873, -- [2]
+						1080, -- [3]
+						1603142757.656, -- [4]
+						14617, -- [5]
+						"Deathwing", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						4, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [10]
 					{
 						false, -- [1]
-						269238, -- [2]
-						2814, -- [3]
-						1602966857.359, -- [4]
-						20580, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						33110, -- [2]
+						1193, -- [3]
+						1603142757.674, -- [4]
+						15810, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -2271,2271 +3185,303 @@ DeathGraphsDBCurrent = {
 					}, -- [11]
 					{
 						false, -- [1]
-						157982, -- [2]
-						576, -- [3]
-						1602966857.442, -- [4]
-						20580, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						143924, -- [2]
+						138, -- [3]
+						1603142758.535, -- [4]
+						15948, -- [5]
+						"Аримдо-Гордунни", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [12]
 					{
-						false, -- [1]
-						269238, -- [2]
-						2814, -- [3]
-						1602966857.654, -- [4]
-						20580, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						true, -- [1]
+						312873, -- [2]
+						1081, -- [3]
+						1603142758.641, -- [4]
+						14867, -- [5]
+						"Deathwing", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						4, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [13]
 					{
-						false, -- [1]
-						157982, -- [2]
-						34, -- [3]
-						1602966857.975, -- [4]
-						20580, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						269238, -- [2]
-						2814, -- [3]
-						1602966858.099, -- [4]
-						20580, -- [5]
-						"Mésa-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						4, -- [1]
-						307011, -- [2]
-						1, -- [3]
-						1602966858.876, -- [4]
-						20580, -- [5]
-						"Gaze of Madness", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
 						true, -- [1]
-						307012, -- [2]
-						347, -- [3]
-						1602966858.876, -- [4]
-						20233, -- [5]
-						"Gaze of Madness", -- [6]
+						314889, -- [2]
+						2433, -- [3]
+						1603142759.029, -- [4]
+						12434, -- [5]
+						"Exposed Synapse", -- [6]
 						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [17]
+					}, -- [14]
 					{
-						false, -- [1]
-						270117, -- [2]
-						1030, -- [3]
-						1602966858.91, -- [4]
-						20580, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						true, -- [1]
+						314889, -- [2]
+						2433, -- [3]
+						1603142759.543, -- [4]
+						10001, -- [5]
+						"Exposed Synapse", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
-						false, -- [10]
-					}, -- [18]
+						-1, -- [10]
+					}, -- [15]
 					{
 						false, -- [1]
-						157982, -- [2]
-						578, -- [3]
-						1602966858.939, -- [4]
-						20580, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						77489, -- [2]
+						473, -- [3]
+						1603142759.619, -- [4]
+						10474, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [19]
+					}, -- [16]
+					{
+						false, -- [1]
+						143924, -- [2]
+						48, -- [3]
+						1603142759.77, -- [4]
+						10522, -- [5]
+						"Аримдо-Гордунни", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
 					{
 						false, -- [1]
 						298318, -- [2]
-						1344, -- [3]
-						1602966859.328, -- [4]
-						20580, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						983, -- [3]
+						1603142759.784, -- [4]
+						11505, -- [5]
+						"Аримдо-Гордунни", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						73, -- [3]
+						1603142760.986, -- [4]
+						11578, -- [5]
+						"Аримдо-Гордунни", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						143924, -- [2]
+						113, -- [3]
+						1603142762.216, -- [4]
+						11691, -- [5]
+						"Аримдо-Гордунни", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
-						true, -- [1]
-						307012, -- [2]
-						693, -- [3]
-						1602966859.866, -- [4]
-						19887, -- [5]
-						"Gaze of Madness", -- [6]
+						false, -- [1]
+						77489, -- [2]
+						472, -- [3]
+						1603142762.643, -- [4]
+						12163, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
-						false, -- [1]
-						157982, -- [2]
-						51, -- [3]
-						1602966859.961, -- [4]
-						19938, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						true, -- [1]
+						314889, -- [2]
+						2433, -- [3]
+						1603142762.683, -- [4]
+						9730, -- [5]
+						"Exposed Synapse", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
-						false, -- [1]
-						157982, -- [2]
-						611, -- [3]
-						1602966860.444, -- [4]
-						20549, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						true, -- [1]
+						314889, -- [2]
+						2432, -- [3]
+						1603142762.683, -- [4]
+						7298, -- [5]
+						"Exposed Synapse", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [23]
 					{
 						false, -- [1]
-						114942, -- [2]
-						260, -- [3]
-						1602966860.509, -- [4]
-						20580, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
+						34861, -- [2]
+						2679, -- [3]
+						1603142762.817, -- [4]
+						9977, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [24]
 					{
-						true, -- [1]
-						307012, -- [2]
-						1037, -- [3]
-						1602966860.872, -- [4]
-						19543, -- [5]
-						"Gaze of Madness", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						172, -- [3]
+						1603142763.43, -- [4]
+						10149, -- [5]
+						"Аримдо-Гордунни", -- [6]
 						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						0, -- [8]
 					}, -- [25]
 					{
 						false, -- [1]
-						311201, -- [2]
-						1151, -- [3]
-						1602966861.52, -- [4]
-						20580, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						139, -- [2]
+						708, -- [3]
+						1603142764.117, -- [4]
+						10857, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [26]
 					{
-						true, -- [1]
-						307012, -- [2]
-						1384, -- [3]
-						1602966861.896, -- [4]
-						19196, -- [5]
-						"Gaze of Madness", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						107, -- [3]
+						1603142764.647, -- [4]
+						10964, -- [5]
+						"Аримдо-Гордунни", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [27]
 					{
-						false, -- [1]
-						157982, -- [2]
-						617, -- [3]
-						1602966861.922, -- [4]
-						19813, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						143924, -- [2]
-						154, -- [3]
-						1602966861.922, -- [4]
-						19967, -- [5]
-						"Mésa-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						157982, -- [2]
-						176, -- [3]
-						1602966861.995, -- [4]
-						20143, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						114942, -- [2]
-						263, -- [3]
-						1602966862.26, -- [4]
-						20406, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						313564, -- [2]
-						40870, -- [3]
-						1602966862.465, -- [4]
-						1, -- [5]
-						"Growth-Covered Tentacle", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						20464, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						5277, -- [2]
+						4, -- [1]
+						309991, -- [2]
 						1, -- [3]
-						1602966825.281, -- [4]
-						0, -- [5]
-						"Mésa-Silvermoon", -- [6]
-					}, -- [33]
-				},
-				["class"] = "ROGUE",
-				["timestring"] = "1m 37s",
-				["time"] = 1602966862.465,
-			}, -- [2]
-			{
-				["maxhealth"] = 16080,
-				["timeofdeath"] = 145.0010000000002,
-				["name"] = "Iamnotjamie-Silvermoon",
-				["events"] = {
-					{
-						false, -- [1]
-						269238, -- [2]
-						528, -- [3]
-						1602966903.556, -- [4]
-						14699, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						269238, -- [2]
-						528, -- [3]
-						1602966903.854, -- [4]
-						15227, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						143924, -- [2]
-						42, -- [3]
-						1602966904.133, -- [4]
-						15269, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						true, -- [1]
-						307012, -- [2]
-						1929, -- [3]
-						1602966904.358, -- [4]
-						13340, -- [5]
-						"Gaze of Madness", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						270661, -- [2]
-						91, -- [3]
-						1602966904.789, -- [4]
-						13431, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						373, -- [3]
-						1602966905.351, -- [4]
-						13804, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						true, -- [1]
-						307012, -- [2]
-						2251, -- [3]
-						1602966905.369, -- [4]
-						11553, -- [5]
-						"Gaze of Madness", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						291843, -- [2]
-						61, -- [3]
-						1602966905.392, -- [4]
-						11614, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						1603142764.739, -- [4]
+						10964, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						269238, -- [2]
-						1056, -- [3]
-						1602966905.889, -- [4]
-						12670, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						269238, -- [2]
-						528, -- [3]
-						1602966906.08, -- [4]
-						13198, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						307012, -- [2]
-						2571, -- [3]
-						1602966906.406, -- [4]
-						10627, -- [5]
-						"Gaze of Madness", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						143924, -- [2]
-						253, -- [3]
-						1602966906.562, -- [4]
-						10880, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						48438, -- [2]
-						415, -- [3]
-						1602966906.718, -- [4]
-						11295, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						307012, -- [2]
-						2892, -- [3]
-						1602966907.379, -- [4]
-						8403, -- [5]
-						"Gaze of Madness", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						291843, -- [2]
-						68, -- [3]
-						1602966907.403, -- [4]
-						8471, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [15]
-					{
-						false, -- [1]
-						280052, -- [2]
-						570, -- [3]
-						1602966907.403, -- [4]
-						9041, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						48438, -- [2]
-						198, -- [3]
-						1602966907.434, -- [4]
-						9239, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						143924, -- [2]
-						86, -- [3]
-						1602966907.779, -- [4]
-						9325, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						270661, -- [2]
-						182, -- [3]
-						1602966907.805, -- [4]
-						9507, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						269238, -- [2]
-						528, -- [3]
-						1602966907.831, -- [4]
-						10035, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						48438, -- [2]
-						380, -- [3]
-						1602966908.144, -- [4]
-						10415, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						307012, -- [2]
-						3213, -- [3]
-						1602966908.384, -- [4]
-						7202, -- [5]
-						"Gaze of Madness", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						48438, -- [2]
-						181, -- [3]
-						1602966908.857, -- [4]
-						7383, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						143924, -- [2]
-						56, -- [3]
-						1602966908.982, -- [4]
-						7439, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						269238, -- [2]
-						527, -- [3]
-						1602966909.284, -- [4]
-						7966, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						307012, -- [2]
-						3535, -- [3]
-						1602966909.374, -- [4]
-						4431, -- [5]
-						"Gaze of Madness", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						291843, -- [2]
-						82, -- [3]
-						1602966909.374, -- [4]
-						4513, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						48438, -- [2]
-						171, -- [3]
-						1602966909.595, -- [4]
-						4684, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [28]
-					{
-						false, -- [1]
-						143924, -- [2]
-						122, -- [3]
-						1602966910.203, -- [4]
-						4806, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						false, -- [1]
-						269238, -- [2]
-						1055, -- [3]
-						1602966910.269, -- [4]
-						5861, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						48438, -- [2]
-						163, -- [3]
-						1602966910.366, -- [4]
-						3489, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						307012, -- [2]
-						3856, -- [3]
-						1602966910.366, -- [4]
-						1, -- [5]
-						"Gaze of Madness", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						367, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-					}, -- [33]
-				},
-				["class"] = "SHAMAN",
-				["timestring"] = "2m 25s",
-				["time"] = 1602966910.392,
-			}, -- [3]
-			{
-				["maxhealth"] = 16080,
-				["timeofdeath"] = 217.21,
-				["name"] = "Iamnotjamie-Silvermoon",
-				["events"] = {
-					{
-						false, -- [1]
-						191840, -- [2]
-						88, -- [3]
-						1602966972.21, -- [4]
-						16080, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						48438, -- [2]
-						293, -- [3]
-						1602966972.655, -- [4]
-						16080, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						269238, -- [2]
-						1046, -- [3]
-						1602966972.76, -- [4]
-						16080, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						48438, -- [2]
-						280, -- [3]
-						1602966973.388, -- [4]
-						16080, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						false, -- [1]
-						291843, -- [2]
-						34, -- [3]
-						1602966973.898, -- [4]
-						16080, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						191840, -- [2]
-						89, -- [3]
-						1602966973.929, -- [4]
-						16080, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						272260, -- [2]
-						112, -- [3]
-						1602966973.946, -- [4]
-						16080, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						48438, -- [2]
-						133, -- [3]
-						1602966974.154, -- [4]
-						16080, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						48438, -- [2]
-						252, -- [3]
-						1602966974.89, -- [4]
-						16080, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						191840, -- [2]
-						35, -- [3]
-						1602966975.633, -- [4]
-						16080, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						48438, -- [2]
-						119, -- [3]
-						1602966975.653, -- [4]
-						16080, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						272260, -- [2]
-						112, -- [3]
-						1602966975.935, -- [4]
-						16080, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						296330, -- [2]
-						804, -- [3]
-						1602966975.935, -- [4]
-						16080, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						false, -- [1]
-						114942, -- [2]
-						250, -- [3]
-						1602966975.96, -- [4]
-						16080, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						false, -- [1]
-						48438, -- [2]
-						224, -- [3]
-						1602966976.393, -- [4]
-						16080, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [15]
-					{
-						false, -- [1]
-						48438, -- [2]
-						106, -- [3]
-						1602966977.142, -- [4]
-						16080, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						191840, -- [2]
-						35, -- [3]
-						1602966977.336, -- [4]
-						16080, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						114942, -- [2]
-						252, -- [3]
-						1602966977.701, -- [4]
-						16080, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [18]
-					{
-						false, -- [1]
-						48438, -- [2]
-						99, -- [3]
-						1602966977.875, -- [4]
-						16080, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						272260, -- [2]
-						224, -- [3]
-						1602966977.928, -- [4]
-						16080, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						48438, -- [2]
-						69, -- [3]
-						1602966978.158, -- [4]
-						16080, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						191840, -- [2]
-						35, -- [3]
-						1602966979.04, -- [4]
-						16080, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						false, -- [1]
-						114942, -- [2]
-						248, -- [3]
-						1602966979.475, -- [4]
-						16080, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						269238, -- [2]
-						522, -- [3]
-						1602966979.564, -- [4]
-						16080, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [24]
 					{
 						false, -- [1]
 						296003, -- [2]
-						98, -- [3]
-						1602966980.075, -- [4]
-						16080, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						103, -- [3]
+						1603142764.739, -- [4]
+						10964, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						true, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						true, -- [1]
-						307048, -- [2]
-						3590, -- [3]
-						1602966980.075, -- [4]
-						12588, -- [5]
-						"Fury of N'Zoth", -- [6]
-						98, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						191840, -- [2]
-						37, -- [3]
-						1602966980.761, -- [4]
-						12625, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						143924, -- [2]
-						122, -- [3]
-						1602966981.169, -- [4]
-						12747, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						false, -- [1]
-						291843, -- [2]
-						36, -- [3]
-						1602966982.089, -- [4]
-						12783, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						true, -- [1]
-						317915, -- [2]
-						12408, -- [3]
-						1602966982.457, -- [4]
-						375, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						269238, -- [2]
-						523, -- [3]
-						1602966982.484, -- [4]
-						898, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						317915, -- [2]
-						12247, -- [3]
-						1602966982.527, -- [4]
-						1, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						11349, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-					}, -- [33]
-				},
-				["class"] = "SHAMAN",
-				["timestring"] = "3m 37s",
-				["time"] = 1602966982.601,
-			}, -- [4]
-			{
-				["maxhealth"] = 21260,
-				["timeofdeath"] = 217.21,
-				["name"] = "Queroth-Silvermoon",
-				["events"] = {
-					{
-						false, -- [1]
-						191840, -- [2]
-						89, -- [3]
-						1602966972.865, -- [4]
-						22340, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						4, -- [1]
-						307061, -- [2]
-						1, -- [3]
-						1602966974.171, -- [4]
-						22340, -- [5]
-						"Fury of N'Zoth", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						296003, -- [2]
-						98, -- [3]
-						1602966974.171, -- [4]
-						22340, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						307061, -- [2]
-						653, -- [3]
-						1602966974.171, -- [4]
-						21785, -- [5]
-						"Fury of N'Zoth", -- [6]
-						98, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						4, -- [1]
-						307061, -- [2]
-						1, -- [3]
-						1602966974.193, -- [4]
-						21785, -- [5]
-						"Fury of N'Zoth", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						307061, -- [2]
-						673, -- [3]
-						1602966974.193, -- [4]
-						21112, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						191840, -- [2]
-						35, -- [3]
-						1602966974.586, -- [4]
-						21147, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						61295, -- [2]
-						163, -- [3]
-						1602966975.241, -- [4]
-						21310, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						114942, -- [2]
-						252, -- [3]
-						1602966975.96, -- [4]
-						21562, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						191840, -- [2]
-						71, -- [3]
-						1602966976.287, -- [4]
-						21633, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						157503, -- [2]
-						775, -- [3]
-						1602966976.705, -- [4]
-						22340, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						4, -- [1]
-						307061, -- [2]
-						1, -- [3]
-						1602966976.98, -- [4]
-						22340, -- [5]
-						"Fury of N'Zoth", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						307061, -- [2]
-						673, -- [3]
-						1602966976.98, -- [4]
-						21667, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						114942, -- [2]
-						256, -- [3]
-						1602966977.701, -- [4]
-						21923, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						61295, -- [2]
-						158, -- [3]
-						1602966977.909, -- [4]
-						22081, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						191840, -- [2]
-						35, -- [3]
-						1602966978.006, -- [4]
-						22116, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						307061, -- [2]
-						673, -- [3]
-						1602966978.006, -- [4]
-						21443, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						1, -- [2]
-						361, -- [3]
-						1602966978.057, -- [4]
-						21443, -- [5]
-						"Nightmare Antigen", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						307044, -- [2]
-						1536, -- [3]
-						1602966978.123, -- [4]
-						19546, -- [5]
-						"Nightmare Antigen", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						4, -- [1]
-						307044, -- [2]
-						1, -- [3]
-						1602966978.123, -- [4]
-						19546, -- [5]
-						"Nightmare Antigen", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						307061, -- [2]
-						673, -- [3]
-						1602966979.009, -- [4]
-						18873, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						114942, -- [2]
-						550, -- [3]
-						1602966979.475, -- [4]
-						19423, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						191840, -- [2]
-						71, -- [3]
-						1602966979.72, -- [4]
-						19494, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						307061, -- [2]
-						661, -- [3]
-						1602966980.021, -- [4]
-						18833, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						307048, -- [2]
-						3767, -- [3]
-						1602966980.075, -- [4]
-						15066, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						61295, -- [2]
-						200, -- [3]
-						1602966980.546, -- [4]
-						15266, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						61295, -- [2]
-						2, -- [3]
-						1602966980.602, -- [4]
-						15268, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						307061, -- [2]
-						661, -- [3]
-						1602966981.023, -- [4]
-						14607, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						191840, -- [2]
-						73, -- [3]
-						1602966981.399, -- [4]
-						14680, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [29]
 					{
 						true, -- [1]
-						307061, -- [2]
-						661, -- [3]
-						1602966982.004, -- [4]
-						14019, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
+						309991, -- [2]
+						6546, -- [3]
+						1603142764.739, -- [4]
+						4521, -- [5]
+						"Psychus", -- [6]
+						103, -- [7]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
-						true, -- [1]
-						317915, -- [2]
-						13423, -- [3]
-						1602966982.457, -- [4]
-						596, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						317915, -- [2]
-						13017, -- [3]
-						1602966982.582, -- [4]
-						1, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						12421, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						184364, -- [2]
-						1, -- [3]
-						1602966854.945, -- [4]
-						0, -- [5]
-						"Queroth-Silvermoon", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARRIOR",
-				["timestring"] = "3m 37s",
-				["time"] = 1602966982.601,
-			}, -- [5]
-			{
-				["maxhealth"] = 18940,
-				["timeofdeath"] = 217.21,
-				["name"] = "Ipeed-Silvermoon",
-				["events"] = {
-					{
-						false, -- [1]
-						108366, -- [2]
-						72, -- [3]
-						1602966976.649, -- [4]
-						19154, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						313364, -- [2]
-						864, -- [3]
-						1602966976.649, -- [4]
-						18362, -- [5]
-						"Fury of N'Zoth", -- [6]
-						72, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966976.649, -- [4]
-						18362, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						157503, -- [2]
-						775, -- [3]
-						1602966976.705, -- [4]
-						19137, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						311201, -- [2]
-						518, -- [3]
-						1602966977.453, -- [4]
-						19655, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						191840, -- [2]
-						36, -- [3]
-						1602966977.492, -- [4]
-						19691, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						108366, -- [2]
-						114, -- [3]
-						1602966977.646, -- [4]
-						19691, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						313364, -- [2]
-						864, -- [3]
-						1602966977.646, -- [4]
-						18941, -- [5]
-						"Fury of N'Zoth", -- [6]
-						114, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966977.646, -- [4]
-						18941, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						114942, -- [2]
-						513, -- [3]
-						1602966977.701, -- [4]
-						19454, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						108366, -- [2]
-						69, -- [3]
-						1602966978.664, -- [4]
-						19454, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						313364, -- [2]
-						864, -- [3]
-						1602966978.664, -- [4]
-						18659, -- [5]
-						"Fury of N'Zoth", -- [6]
-						69, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966978.664, -- [4]
-						18659, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						191840, -- [2]
-						70, -- [3]
-						1602966979.203, -- [4]
-						18729, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
 						4, -- [1]
-						307061, -- [2]
+						309991, -- [2]
 						1, -- [3]
-						1602966979.391, -- [4]
-						18729, -- [5]
-						"Fury of N'Zoth", -- [6]
+						1603142764.956, -- [4]
+						4521, -- [5]
+						"Psychus", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						307061, -- [2]
-						665, -- [3]
-						1602966979.391, -- [4]
-						18064, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						114942, -- [2]
-						260, -- [3]
-						1602966979.475, -- [4]
-						18324, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						108366, -- [2]
-						67, -- [3]
-						1602966979.673, -- [4]
-						18324, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						313364, -- [2]
-						864, -- [3]
-						1602966979.673, -- [4]
-						17527, -- [5]
-						"Fury of N'Zoth", -- [6]
-						67, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966979.673, -- [4]
-						17527, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						307048, -- [2]
-						3860, -- [3]
-						1602966980.075, -- [4]
-						13667, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						307061, -- [2]
-						664, -- [3]
-						1602966980.398, -- [4]
-						13003, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						108366, -- [2]
-						129, -- [3]
-						1602966980.639, -- [4]
-						13003, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						313364, -- [2]
-						864, -- [3]
-						1602966980.639, -- [4]
-						12268, -- [5]
-						"Fury of N'Zoth", -- [6]
-						129, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966980.664, -- [4]
-						12268, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						191840, -- [2]
-						36, -- [3]
-						1602966980.912, -- [4]
-						12304, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						307061, -- [2]
-						664, -- [3]
-						1602966981.399, -- [4]
-						11640, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						270117, -- [2]
-						386, -- [3]
-						1602966981.418, -- [4]
-						12026, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						313364, -- [2]
-						864, -- [3]
-						1602966981.638, -- [4]
-						11162, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						108366, -- [2]
-						89, -- [3]
-						1602966982.435, -- [4]
-						11162, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966982.457, -- [4]
-						11162, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						317915, -- [2]
-						13319, -- [3]
-						1602966982.457, -- [4]
+						309991, -- [2]
+						6749, -- [3]
+						1603142764.969, -- [4]
 						1, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						89, -- [7]
-						32, -- [8]
-						false, -- [9]
-						2068, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 37s",
-				["time"] = 1602966982.601,
-			}, -- [6]
-			{
-				["maxhealth"] = 29080,
-				["timeofdeath"] = 217.21,
-				["name"] = "Bloodseize-Silvermoon",
-				["events"] = {
-					{
-						false, -- [1]
-						157503, -- [2]
-						775, -- [3]
-						1602966976.705, -- [4]
-						31456, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						774, -- [2]
-						291, -- [3]
-						1602966977.103, -- [4]
-						31456, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						48438, -- [2]
-						240, -- [3]
-						1602966977.142, -- [4]
-						31456, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						307061, -- [2]
-						661, -- [3]
-						1602966977.317, -- [4]
-						30795, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						114942, -- [2]
-						250, -- [3]
-						1602966977.701, -- [4]
-						31045, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						191840, -- [2]
-						71, -- [3]
-						1602966977.753, -- [4]
-						31116, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						48438, -- [2]
-						112, -- [3]
-						1602966977.892, -- [4]
-						31228, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						53365, -- [2]
-						1887, -- [3]
-						1602966977.981, -- [4]
-						31456, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						77535, -- [2]
-						0, -- [3]
-						1602966978.09, -- [4]
-						31456, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						48438, -- [2]
-						40, -- [3]
-						1602966978.158, -- [4]
-						31456, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						307061, -- [2]
-						661, -- [3]
-						1602966978.317, -- [4]
-						30795, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						774, -- [2]
-						256, -- [3]
-						1602966979.316, -- [4]
-						31051, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						295842, -- [2]
-						661, -- [3]
-						1602966979.336, -- [4]
-						31051, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						307061, -- [2]
-						661, -- [3]
-						1602966979.336, -- [4]
-						31051, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						191840, -- [2]
-						71, -- [3]
-						1602966979.475, -- [4]
-						31122, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						295842, -- [2]
-						1241, -- [3]
-						1602966980.075, -- [4]
-						31120, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						307048, -- [2]
-						4006, -- [3]
-						1602966980.075, -- [4]
-						28355, -- [5]
-						"Fury of N'Zoth", -- [6]
-						1241, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						307061, -- [2]
-						661, -- [3]
-						1602966980.332, -- [4]
-						27694, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						270117, -- [2]
-						455, -- [3]
-						1602966980.375, -- [4]
-						28149, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						774, -- [2]
-						196, -- [3]
-						1602966980.929, -- [4]
-						28345, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						191840, -- [2]
-						73, -- [3]
-						1602966981.193, -- [4]
-						28418, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						307061, -- [2]
-						661, -- [3]
-						1602966981.332, -- [4]
-						27757, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						55078, -- [2]
-						184, -- [3]
-						1602966981.597, -- [4]
-						27941, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						45470, -- [2]
-						2872, -- [3]
-						1602966982.004, -- [4]
-						30813, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						53365, -- [2]
-						1888, -- [3]
-						1602966982.3, -- [4]
-						31456, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						307061, -- [2]
-						661, -- [3]
-						1602966982.357, -- [4]
-						30795, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						317915, -- [2]
-						12472, -- [3]
-						1602966982.457, -- [4]
-						18323, -- [5]
-						"Horrific Hemorrhage", -- [6]
+						"Psychus", -- [6]
 						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						206967, -- [2]
-						1057, -- [3]
-						1602966982.527, -- [4]
-						18323, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						317915, -- [2]
-						12410, -- [3]
-						1602966982.527, -- [4]
-						6970, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						1057, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						206967, -- [2]
-						3734, -- [3]
-						1602966982.601, -- [4]
-						6970, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						77535, -- [2]
-						0, -- [3]
-						1602966982.601, -- [4]
-						6970, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						317915, -- [2]
-						12448, -- [3]
-						1602966982.601, -- [4]
-						1, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						3734, -- [7]
-						32, -- [8]
-						false, -- [9]
-						1744, -- [10]
+						2228, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
 						48707, -- [2]
 						1, -- [3]
-						1602966952.848, -- [4]
+						1603142691.172, -- [4]
 						0, -- [5]
-						"Bloodseize-Silvermoon", -- [6]
+						"Аримдо-Гордунни", -- [6]
 					}, -- [33]
 				},
 				["class"] = "DEATHKNIGHT",
-				["timestring"] = "3m 37s",
-				["time"] = 1602966982.601,
-			}, -- [7]
+				["timestring"] = "3m 18s",
+				["time"] = 1603142764.992,
+			}, -- [2]
 			{
-				["maxhealth"] = 20160,
-				["timeofdeath"] = 217.21,
-				["name"] = "Trunkenbolt-Madmortem",
+				["maxhealth"] = 20200,
+				["timeofdeath"] = 258.0429999999997,
+				["name"] = "Rykahpo",
 				["events"] = {
 					{
-						false, -- [1]
-						119611, -- [2]
-						238, -- [3]
-						1602966972.798, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						true, -- [1]
+						318451, -- [2]
+						2445, -- [3]
+						1603142799.794, -- [4]
+						16103, -- [5]
+						"N'Zoth the Corruptor", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [1]
 					{
-						false, -- [1]
-						48438, -- [2]
-						280, -- [3]
-						1602966973.388, -- [4]
-						21180, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						true, -- [1]
+						318451, -- [2]
+						2445, -- [3]
+						1603142800.79, -- [4]
+						13658, -- [5]
+						"N'Zoth the Corruptor", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [2]
 					{
 						false, -- [1]
-						48438, -- [2]
-						266, -- [3]
-						1602966974.154, -- [4]
-						21180, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						296330, -- [2]
+						1060, -- [3]
+						1603142801.468, -- [4]
+						14718, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -4543,47 +3489,47 @@ DeathGraphsDBCurrent = {
 					}, -- [3]
 					{
 						false, -- [1]
-						191840, -- [2]
-						35, -- [3]
-						1602966974.193, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
+						269279, -- [2]
+						632, -- [3]
+						1603142804.025, -- [4]
+						14718, -- [5]
+						"Rykahpo", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [4]
 					{
-						false, -- [1]
-						119611, -- [2]
-						379, -- [3]
-						1602966974.49, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						true, -- [1]
+						319346, -- [2]
+						632, -- [3]
+						1603142804.025, -- [4]
+						14718, -- [5]
+						"[*] Infinity's Toll", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [5]
 					{
 						false, -- [1]
-						48438, -- [2]
-						126, -- [3]
-						1602966974.89, -- [4]
-						21180, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						269238, -- [2]
+						740, -- [3]
+						1603142805.763, -- [4]
+						15458, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [6]
 					{
 						false, -- [1]
-						48438, -- [2]
-						120, -- [3]
-						1602966975.653, -- [4]
-						21180, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						269238, -- [2]
+						740, -- [3]
+						1603142807.801, -- [4]
+						16198, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -4591,1027 +3537,225 @@ DeathGraphsDBCurrent = {
 					}, -- [7]
 					{
 						false, -- [1]
-						191840, -- [2]
-						35, -- [3]
-						1602966975.908, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
+						269279, -- [2]
+						630, -- [3]
+						1603142809.045, -- [4]
+						16198, -- [5]
+						"Rykahpo", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [8]
 					{
-						false, -- [1]
-						114942, -- [2]
-						498, -- [3]
-						1602966975.96, -- [4]
-						21180, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
+						true, -- [1]
+						319346, -- [2]
+						630, -- [3]
+						1603142809.045, -- [4]
+						16198, -- [5]
+						"[*] Infinity's Toll", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
 					{
 						false, -- [1]
-						119611, -- [2]
-						190, -- [3]
-						1602966976.206, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						296330, -- [2]
+						1060, -- [3]
+						1603142809.2, -- [4]
+						17258, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [10]
-					{
-						false, -- [1]
-						48438, -- [2]
-						113, -- [3]
-						1602966976.415, -- [4]
-						21180, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						48438, -- [2]
-						211, -- [3]
-						1602966977.159, -- [4]
-						21180, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						191840, -- [2]
-						71, -- [3]
-						1602966977.612, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						114942, -- [2]
-						248, -- [3]
-						1602966977.701, -- [4]
-						21180, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						48438, -- [2]
-						197, -- [3]
-						1602966977.892, -- [4]
-						21180, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						119611, -- [2]
-						190, -- [3]
-						1602966977.909, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						48438, -- [2]
-						35, -- [3]
-						1602966978.158, -- [4]
-						21180, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						191840, -- [2]
-						71, -- [3]
-						1602966979.336, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						114942, -- [2]
-						492, -- [3]
-						1602966979.475, -- [4]
-						21180, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						269238, -- [2]
-						2995, -- [3]
-						1602966979.564, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						119611, -- [2]
-						190, -- [3]
-						1602966979.613, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						296003, -- [2]
-						98, -- [3]
-						1602966980.075, -- [4]
-						21180, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						307048, -- [2]
-						3913, -- [3]
-						1602966980.075, -- [4]
-						17365, -- [5]
-						"Fury of N'Zoth", -- [6]
-						98, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						270117, -- [2]
-						1030, -- [3]
-						1602966980.123, -- [4]
-						18395, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						116670, -- [2]
-						2196, -- [3]
-						1602966980.123, -- [4]
-						20591, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						191840, -- [2]
-						36, -- [3]
-						1602966981.038, -- [4]
-						20627, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						119611, -- [2]
-						194, -- [3]
-						1602966981.332, -- [4]
-						20821, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						298318, -- [2]
-						1040, -- [3]
-						1602966982.26, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						116670, -- [2]
-						1178, -- [3]
-						1602966982.357, -- [4]
-						21180, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						317915, -- [2]
-						12728, -- [3]
-						1602966982.435, -- [4]
-						8452, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						269238, -- [2]
-						3235, -- [3]
-						1602966982.484, -- [4]
-						11687, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						317915, -- [2]
-						12488, -- [3]
-						1602966982.508, -- [4]
-						1, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						801, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						122783, -- [2]
-						1, -- [3]
-						1602966918.033, -- [4]
-						0, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-					}, -- [33]
-				},
-				["class"] = "MONK",
-				["timestring"] = "3m 37s",
-				["time"] = 1602966982.601,
-			}, -- [8]
-			{
-				["maxhealth"] = 22080,
-				["timeofdeath"] = 217.21,
-				["name"] = "Hexeins-Sen'jin",
-				["events"] = {
-					{
-						false, -- [1]
-						269238, -- [2]
-						700, -- [3]
-						1602966954.104, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						269238, -- [2]
-						700, -- [3]
-						1602966955.661, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						269238, -- [2]
-						1399, -- [3]
-						1602966956.045, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						269238, -- [2]
-						700, -- [3]
-						1602966957.799, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						false, -- [1]
-						108366, -- [2]
-						2318, -- [3]
-						1602966957.836, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						307048, -- [2]
-						3742, -- [3]
-						1602966957.836, -- [4]
-						21756, -- [5]
-						"Fury of N'Zoth", -- [6]
-						2318, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						270117, -- [2]
-						977, -- [3]
-						1602966957.954, -- [4]
-						22733, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						143924, -- [2]
-						16, -- [3]
-						1602966958.018, -- [4]
-						22749, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						63106, -- [2]
-						96, -- [3]
-						1602966958.071, -- [4]
-						22845, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						311201, -- [2]
-						567, -- [3]
-						1602966959.021, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						269238, -- [2]
-						700, -- [3]
-						1602966959.18, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						311201, -- [2]
-						1133, -- [3]
-						1602966961.225, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						269238, -- [2]
-						700, -- [3]
-						1602966961.367, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						269238, -- [2]
-						1400, -- [3]
-						1602966961.713, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						269238, -- [2]
-						700, -- [3]
-						1602966962.177, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						269238, -- [2]
-						699, -- [3]
-						1602966962.233, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						311201, -- [2]
-						567, -- [3]
-						1602966965.593, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						269238, -- [2]
-						1399, -- [3]
-						1602966970.045, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						269238, -- [2]
-						700, -- [3]
-						1602966972.76, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						311201, -- [2]
-						567, -- [3]
-						1602966977.103, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						269238, -- [2]
-						1399, -- [3]
-						1602966979.564, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						108366, -- [2]
-						1319, -- [3]
-						1602966980.075, -- [4]
-						23180, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						307048, -- [2]
-						3937, -- [3]
-						1602966980.075, -- [4]
-						20562, -- [5]
-						"Fury of N'Zoth", -- [6]
-						1319, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						270117, -- [2]
-						978, -- [3]
-						1602966980.123, -- [4]
-						21540, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						143924, -- [2]
-						3, -- [3]
-						1602966980.761, -- [4]
-						21543, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
 					{
 						4, -- [1]
-						313364, -- [2]
+						316541, -- [2]
 						1, -- [3]
-						1602966982.3, -- [4]
-						21543, -- [5]
-						"Fury of N'Zoth", -- [6]
+						1603142809.718, -- [4]
+						17258, -- [5]
+						"[*] Paranoia", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [26]
+					}, -- [11]
 					{
 						false, -- [1]
-						108366, -- [2]
-						9, -- [3]
-						1602966982.3, -- [4]
-						21543, -- [5]
-						"Hexeins-Sen'jin", -- [6]
+						269279, -- [2]
+						251, -- [3]
+						1603142810.717, -- [4]
+						17258, -- [5]
+						"Rykahpo", -- [6]
 						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [27]
+					}, -- [12]
 					{
 						true, -- [1]
-						313364, -- [2]
-						875, -- [3]
-						1602966982.3, -- [4]
-						20677, -- [5]
-						"Fury of N'Zoth", -- [6]
-						9, -- [7]
+						309978, -- [2]
+						508, -- [3]
+						1603142810.717, -- [4]
+						17001, -- [5]
+						"[*] Paranoia", -- [6]
+						251, -- [7]
 						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966982.3, -- [4]
-						20677, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						317915, -- [2]
-						13018, -- [3]
-						1602966982.484, -- [4]
-						7659, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
+					}, -- [13]
 					{
 						false, -- [1]
 						269238, -- [2]
-						1400, -- [3]
-						1602966982.484, -- [4]
-						9059, -- [5]
-						"Hexeins-Sen'jin", -- [6]
+						745, -- [3]
+						1603142813.098, -- [4]
+						17746, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						317915, -- [2]
-						13102, -- [3]
-						1602966982.601, -- [4]
-						1, -- [5]
-						"Horrific Hemorrhage", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						4043, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Hexeins-Sen'jin", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 37s",
-				["time"] = 1602966982.601,
-			}, -- [9]
-			{
-				["maxhealth"] = 13860,
-				["timeofdeath"] = 217.21,
-				["name"] = "Autori",
-				["events"] = {
-					{
-						true, -- [1]
-						111400, -- [2]
-						740, -- [3]
-						1602966978.588, -- [4]
-						16479, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						108366, -- [2]
-						60, -- [3]
-						1602966978.664, -- [4]
-						16479, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						313364, -- [2]
-						841, -- [3]
-						1602966978.664, -- [4]
-						15698, -- [5]
-						"Fury of N'Zoth", -- [6]
-						60, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966978.664, -- [4]
-						15698, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						303380, -- [2]
-						836, -- [3]
-						1602966978.826, -- [4]
-						16534, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						774, -- [2]
-						514, -- [3]
-						1602966979.241, -- [4]
-						17048, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						307061, -- [2]
-						646, -- [3]
-						1602966979.256, -- [4]
-						16402, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						114942, -- [2]
-						303, -- [3]
-						1602966979.475, -- [4]
-						16705, -- [5]
-						"Healing Tide Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						111400, -- [2]
-						740, -- [3]
-						1602966979.591, -- [4]
-						15965, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						108366, -- [2]
-						44, -- [3]
-						1602966979.673, -- [4]
-						15965, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						313364, -- [2]
-						840, -- [3]
-						1602966979.673, -- [4]
-						15169, -- [5]
-						"Fury of N'Zoth", -- [6]
-						44, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966979.673, -- [4]
-						15169, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						191840, -- [2]
-						36, -- [3]
-						1602966979.832, -- [4]
-						15205, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						307048, -- [2]
-						3734, -- [3]
-						1602966980.075, -- [4]
-						11471, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [14]
 					{
 						false, -- [1]
-						61295, -- [2]
-						297, -- [3]
-						1602966980.123, -- [4]
-						11768, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
+						235450, -- [2]
+						502, -- [3]
+						1603142814.052, -- [4]
+						17746, -- [5]
+						"Rykahpo", -- [6]
+						true, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
-						false, -- [1]
-						119611, -- [2]
-						390, -- [3]
-						1602966980.165, -- [4]
-						12158, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						true, -- [1]
+						319346, -- [2]
+						502, -- [3]
+						1603142814.052, -- [4]
+						17746, -- [5]
+						"[*] Infinity's Toll", -- [6]
 						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
+						32, -- [8]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [16]
 					{
 						false, -- [1]
-						119611, -- [2]
-						16, -- [3]
-						1602966980.231, -- [4]
-						12174, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						296330, -- [2]
+						1060, -- [3]
+						1603142816.141, -- [4]
+						18806, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [17]
 					{
-						true, -- [1]
-						307061, -- [2]
-						646, -- [3]
-						1602966980.284, -- [4]
-						11528, -- [5]
-						"Fury of N'Zoth", -- [6]
+						false, -- [1]
+						303380, -- [2]
+						446, -- [3]
+						1603142818.147, -- [4]
+						19252, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [18]
 					{
-						true, -- [1]
-						111400, -- [2]
-						740, -- [3]
-						1602966980.602, -- [4]
-						10788, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
 						false, -- [1]
-						108366, -- [2]
-						20, -- [3]
-						1602966980.664, -- [4]
-						10788, -- [5]
-						"Autori", -- [6]
+						235450, -- [2]
+						499, -- [3]
+						1603142819.043, -- [4]
+						19252, -- [5]
+						"Rykahpo", -- [6]
 						true, -- [7]
 						0, -- [8]
+					}, -- [19]
+					{
+						true, -- [1]
+						319346, -- [2]
+						499, -- [3]
+						1603142819.043, -- [4]
+						19252, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
-						true, -- [1]
-						313364, -- [2]
-						840, -- [3]
-						1602966980.664, -- [4]
-						9968, -- [5]
-						"Fury of N'Zoth", -- [6]
-						20, -- [7]
-						32, -- [8]
+						false, -- [1]
+						303380, -- [2]
+						445, -- [3]
+						1603142820.151, -- [4]
+						19697, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
 						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966980.664, -- [4]
-						9968, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
+						269238, -- [2]
+						754, -- [3]
+						1603142820.662, -- [4]
+						20451, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
 						false, -- [1]
-						18562, -- [2]
-						3405, -- [3]
-						1602966980.664, -- [4]
-						13373, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						296330, -- [2]
+						1060, -- [3]
+						1603142821.624, -- [4]
+						21200, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [23]
 					{
 						false, -- [1]
-						303380, -- [2]
-						419, -- [3]
-						1602966980.825, -- [4]
-						13792, -- [5]
-						"Iamnotjamie-Silvermoon", -- [6]
-						nil, -- [7]
+						235450, -- [2]
+						3927, -- [3]
+						1603142821.73, -- [4]
+						21200, -- [5]
+						"Rykahpo", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [24]
 					{
 						true, -- [1]
-						307061, -- [2]
-						647, -- [3]
-						1602966981.278, -- [4]
-						13145, -- [5]
-						"Fury of N'Zoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
+						309978, -- [2]
+						4822, -- [3]
+						1603142821.73, -- [4]
+						20305, -- [5]
+						"[*] Paranoia", -- [6]
+						3927, -- [7]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [25]
 					{
 						false, -- [1]
-						191840, -- [2]
-						73, -- [3]
-						1602966981.544, -- [4]
-						13218, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						303380, -- [2]
+						446, -- [3]
+						1603142822.155, -- [4]
+						20751, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -5619,935 +3763,231 @@ DeathGraphsDBCurrent = {
 					}, -- [26]
 					{
 						true, -- [1]
-						111400, -- [2]
-						740, -- [3]
-						1602966981.597, -- [4]
-						12478, -- [5]
-						"Autori", -- [6]
+						309978, -- [2]
+						6529, -- [3]
+						1603142822.725, -- [4]
+						14222, -- [5]
+						"[*] Paranoia", -- [6]
 						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
+						32, -- [8]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [27]
 					{
-						false, -- [1]
-						108366, -- [2]
-						100, -- [3]
-						1602966981.638, -- [4]
-						12478, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
+						true, -- [1]
+						309978, -- [2]
+						7031, -- [3]
+						1603142823.717, -- [4]
+						7191, -- [5]
+						"[*] Paranoia", -- [6]
+						nil, -- [7]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [28]
 					{
-						true, -- [1]
-						313364, -- [2]
-						840, -- [3]
-						1602966981.638, -- [4]
-						11738, -- [5]
-						"Fury of N'Zoth", -- [6]
-						100, -- [7]
-						32, -- [8]
+						false, -- [1]
+						183811, -- [2]
+						81, -- [3]
+						1603142824.027, -- [4]
+						7272, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [29]
 					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966981.669, -- [4]
-						11738, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
+						true, -- [1]
+						319346, -- [2]
+						622, -- [3]
+						1603142824.044, -- [4]
+						6650, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
-						true, -- [1]
-						307061, -- [2]
-						647, -- [3]
-						1602966982.282, -- [4]
-						11091, -- [5]
-						"Fury of N'Zoth", -- [6]
+						false, -- [1]
+						303380, -- [2]
+						446, -- [3]
+						1603142824.151, -- [4]
+						7096, -- [5]
+						"Rykahpo", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						317915, -- [2]
-						12747, -- [3]
-						1602966982.484, -- [4]
+						309978, -- [2]
+						7533, -- [3]
+						1603142824.734, -- [4]
 						1, -- [5]
-						"Horrific Hemorrhage", -- [6]
+						"[*] Paranoia", -- [6]
 						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
-						1656, -- [10]
+						437, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
+						45438, -- [2]
+						1, -- [3]
+						1603142623.212, -- [4]
 						0, -- [5]
-						"Autori", -- [6]
+						"Rykahpo", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 37s",
-				["time"] = 1602966982.601,
-			}, -- [10]
-		},
-		["bossname"] = "Carapace of N'Zoth",
-		["bossicon"] = {
-			0.5, -- [1]
-			0.75, -- [2]
-			0.5, -- [3]
-			0.75, -- [4]
-			"Interface\\AddOns\\Details\\images\\raid\\NyalothaRaid_BossFaces", -- [5]
-		},
-		["date"] = 7472.563,
-		["timeelapsed"] = 218.0060000000003,
-	}, -- [1]
-	{
-		["deaths"] = {
+				["class"] = "MAGE",
+				["timestring"] = "4m 18s",
+				["time"] = 1603142824.767,
+			}, -- [3]
 			{
-				["maxhealth"] = 19660,
-				["timeofdeath"] = 40.60499999999956,
-				["name"] = "Azráel-Madmortem",
+				["maxhealth"] = 19100,
+				["timeofdeath"] = 272.0820000000003,
+				["name"] = "Eltric-ArgentDawn",
 				["events"] = {
 					{
 						false, -- [1]
-						157982, -- [2]
-						91, -- [3]
-						1602965995.957, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						204883, -- [2]
+						1253, -- [3]
+						1603142814.142, -- [4]
+						19728, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [1]
 					{
 						false, -- [1]
-						119611, -- [2]
-						240, -- [3]
-						1602965996.402, -- [4]
-						20660, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						288146, -- [2]
+						144, -- [3]
+						1603142814.194, -- [4]
+						19872, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [2]
 					{
-						false, -- [1]
-						157982, -- [2]
-						774, -- [3]
-						1602965996.693, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						4, -- [1]
+						319346, -- [2]
+						1, -- [3]
+						1603142814.843, -- [4]
+						19872, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [3]
 					{
-						1, -- [1]
-						198589, -- [2]
-						1, -- [3]
-						1602965996.859, -- [4]
-						20660, -- [5]
-						"Azráel-Madmortem", -- [6]
+						false, -- [1]
+						288146, -- [2]
+						144, -- [3]
+						1603142815.185, -- [4]
+						20016, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [4]
 					{
 						false, -- [1]
-						157982, -- [2]
-						217, -- [3]
-						1602965997.952, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						77489, -- [2]
+						1064, -- [3]
+						1603142815.253, -- [4]
+						20060, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [5]
 					{
 						false, -- [1]
-						116670, -- [2]
-						3480, -- [3]
-						1602965998.516, -- [4]
-						20660, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						77489, -- [2]
+						1064, -- [3]
+						1603142818.249, -- [4]
+						20060, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [6]
-					{
-						false, -- [1]
-						191894, -- [2]
-						875, -- [3]
-						1602965998.539, -- [4]
-						20660, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						false, -- [1]
-						228532, -- [2]
-						2066, -- [3]
-						1602965999.342, -- [4]
-						20660, -- [5]
-						"Azráel-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
 					{
 						false, -- [1]
 						298318, -- [2]
-						1062, -- [3]
-						1602965999.451, -- [4]
-						20660, -- [5]
-						"Azráel-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						false, -- [1]
-						157982, -- [2]
-						106, -- [3]
-						1602965999.961, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						157982, -- [2]
-						177, -- [3]
-						1602966001.939, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						48438, -- [2]
-						182, -- [3]
-						1602966003.08, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						157982, -- [2]
-						100, -- [3]
-						1602966003.281, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						false, -- [1]
-						48438, -- [2]
-						184, -- [3]
-						1602966003.359, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						false, -- [1]
-						48438, -- [2]
-						183, -- [3]
-						1602966003.734, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [15]
-					{
-						true, -- [1]
-						306634, -- [2]
-						4951, -- [3]
-						1602966003.832, -- [4]
-						15709, -- [5]
-						"[*] Unstable Void", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						143924, -- [2]
-						785, -- [3]
-						1602966003.877, -- [4]
-						16494, -- [5]
-						"Azráel-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						270117, -- [2]
-						1133, -- [3]
-						1602966003.877, -- [4]
-						17627, -- [5]
-						"Azráel-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [18]
-					{
-						false, -- [1]
-						48438, -- [2]
-						363, -- [3]
-						1602966003.97, -- [4]
-						17990, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						157982, -- [2]
-						100, -- [3]
-						1602966004.251, -- [4]
-						18090, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						false, -- [1]
-						48438, -- [2]
-						360, -- [3]
-						1602966004.251, -- [4]
-						18450, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [21]
-					{
-						false, -- [1]
-						228532, -- [2]
-						2066, -- [3]
-						1602966004.463, -- [4]
-						20516, -- [5]
-						"Azráel-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						48438, -- [2]
-						357, -- [3]
-						1602966004.573, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						48438, -- [2]
-						177, -- [3]
-						1602966004.849, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						970, -- [3]
+						1603142818.483, -- [4]
+						20060, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						48438, -- [2]
-						351, -- [3]
-						1602966005.148, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						false, -- [1]
-						157982, -- [2]
-						100, -- [3]
-						1602966005.241, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						false, -- [1]
-						48438, -- [2]
-						348, -- [3]
-						1602966005.444, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [27]
-					{
-						false, -- [1]
-						48438, -- [2]
-						173, -- [3]
-						1602966005.748, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						false, -- [1]
-						48438, -- [2]
-						342, -- [3]
-						1602966006.012, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						false, -- [1]
-						157982, -- [2]
-						100, -- [3]
-						1602966006.229, -- [4]
-						20660, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [30]
-					{
-						false, -- [1]
-						274346, -- [2]
-						354, -- [3]
-						1602966006.287, -- [4]
-						20660, -- [5]
-						"Azráel-Madmortem", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [31]
-					{
-						true, -- [1]
-						306881, -- [2]
-						35959, -- [3]
-						1602966006.309, -- [4]
-						1, -- [5]
-						"Void Hunter <Ra-den>", -- [6]
-						354, -- [7]
-						32, -- [8]
-						false, -- [9]
-						14945, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						198589, -- [2]
-						1, -- [3]
-						1602965996.859, -- [4]
-						0, -- [5]
-						"Azráel-Madmortem", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "0m 40s",
-				["time"] = 1602966006.343,
-			}, -- [1]
-			{
-				["maxhealth"] = 18940,
-				["timeofdeath"] = 110.0249999999996,
-				["name"] = "Ipeed-Silvermoon",
-				["events"] = {
-					{
-						false, -- [1]
-						270117, -- [2]
-						772, -- [3]
-						1602966068.762, -- [4]
-						18231, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						false, -- [1]
-						343737, -- [2]
-						768, -- [3]
-						1602966069.024, -- [4]
-						18999, -- [5]
-						"Yu'lon <Trunkenbolt-Madmortem>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						63106, -- [2]
-						61, -- [3]
-						1602966069.6, -- [4]
-						19060, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						205179, -- [2]
-						152, -- [3]
-						1602966069.868, -- [4]
-						19212, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						false, -- [1]
-						205246, -- [2]
-						168, -- [3]
-						1602966069.906, -- [4]
-						19380, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						343737, -- [2]
-						385, -- [3]
-						1602966070.266, -- [4]
-						19765, -- [5]
-						"Yu'lon <Trunkenbolt-Madmortem>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						191840, -- [2]
-						1083, -- [3]
-						1602966070.894, -- [4]
-						19880, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
 					}, -- [7]
-					{
-						false, -- [1]
-						205179, -- [2]
-						177, -- [3]
-						1602966071.274, -- [4]
-						19880, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						205246, -- [2]
-						195, -- [3]
-						1602966071.31, -- [4]
-						19880, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						343737, -- [2]
-						371, -- [3]
-						1602966071.495, -- [4]
-						19880, -- [5]
-						"Yu'lon <Trunkenbolt-Madmortem>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						48438, -- [2]
-						168, -- [3]
-						1602966071.636, -- [4]
-						19880, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						119611, -- [2]
-						237, -- [3]
-						1602966072.402, -- [4]
-						19880, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						191840, -- [2]
-						44, -- [3]
-						1602966072.402, -- [4]
-						19880, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						false, -- [1]
-						48438, -- [2]
-						319, -- [3]
-						1602966072.402, -- [4]
-						19880, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						false, -- [1]
-						205179, -- [2]
-						88, -- [3]
-						1602966072.696, -- [4]
-						19880, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [15]
-					{
-						false, -- [1]
-						205246, -- [2]
-						194, -- [3]
-						1602966072.712, -- [4]
-						19880, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						48438, -- [2]
-						305, -- [3]
-						1602966073.172, -- [4]
-						19880, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						48438, -- [2]
-						145, -- [3]
-						1602966073.901, -- [4]
-						19880, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [18]
-					{
-						false, -- [1]
-						119611, -- [2]
-						236, -- [3]
-						1602966073.926, -- [4]
-						19880, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						191840, -- [2]
-						45, -- [3]
-						1602966073.926, -- [4]
-						19880, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						false, -- [1]
-						205179, -- [2]
-						84, -- [3]
-						1602966074.106, -- [4]
-						19880, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						205246, -- [2]
-						186, -- [3]
-						1602966074.106, -- [4]
-						19880, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						false, -- [1]
-						48438, -- [2]
-						137, -- [3]
-						1602966074.654, -- [4]
-						19880, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						157982, -- [2]
-						800, -- [3]
-						1602966074.998, -- [4]
-						19880, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						311201, -- [2]
-						543, -- [3]
-						1602966075.314, -- [4]
-						19880, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						false, -- [1]
-						48438, -- [2]
-						168, -- [3]
-						1602966075.392, -- [4]
-						19880, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						false, -- [1]
-						191840, -- [2]
-						88, -- [3]
-						1602966075.438, -- [4]
-						19880, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						205179, -- [2]
-						84, -- [3]
-						1602966075.51, -- [4]
-						19880, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						false, -- [1]
-						205246, -- [2]
-						186, -- [3]
-						1602966075.528, -- [4]
-						19880, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						false, -- [1]
-						108366, -- [2]
-						692, -- [3]
-						1602966075.74, -- [4]
-						19880, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [30]
 					{
 						false, -- [1]
 						296003, -- [2]
 						103, -- [3]
-						1602966075.74, -- [4]
-						19880, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						1603142819.837, -- [4]
+						20060, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						true, -- [7]
 						0, -- [8]
-					}, -- [31]
-					{
-						true, -- [1]
-						306257, -- [2]
-						25301, -- [3]
-						1602966075.763, -- [4]
-						1, -- [5]
-						"[*] Unstable Vita", -- [6]
-						795, -- [7]
-						8, -- [8]
-						false, -- [9]
-						4626, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Ipeed-Silvermoon", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "1m 50s",
-				["time"] = 1602966075.763,
-			}, -- [2]
-			{
-				["maxhealth"] = 21260,
-				["timeofdeath"] = 138.2049999999999,
-				["name"] = "Queroth-Silvermoon",
-				["events"] = {
-					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1602966112.465, -- [4]
-						0, -- [5]
-						"Mærine-Silvermoon", -- [6]
-					}, -- [1]
-					{
-						false, -- [1]
-						207386, -- [2]
-						182, -- [3]
-						1602966096.507, -- [4]
-						14011, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						117313, -- [2]
-						670, -- [3]
-						1602966096.84, -- [4]
-						14681, -- [5]
-						"Queroth-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						310022, -- [2]
-						1666, -- [3]
-						1602966096.878, -- [4]
-						13015, -- [5]
-						"[*] Charged Bonds", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						81269, -- [2]
-						195, -- [3]
-						1602966097.274, -- [4]
-						13210, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						48438, -- [2]
-						447, -- [3]
-						1602966097.604, -- [4]
-						13657, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						true, -- [1]
-						309854, -- [2]
-						1463, -- [3]
-						1602966097.747, -- [4]
-						12194, -- [5]
-						"Ra-den", -- [6]
-						nil, -- [7]
-						40, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						310022, -- [2]
-						1833, -- [3]
-						1602966097.878, -- [4]
-						10361, -- [5]
-						"[*] Charged Bonds", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [8]
 					{
-						false, -- [1]
-						48438, -- [2]
-						214, -- [3]
-						1602966098.325, -- [4]
-						10575, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						319346, -- [2]
+						587, -- [3]
+						1603142819.837, -- [4]
+						19576, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						103, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [9]
 					{
 						false, -- [1]
-						207386, -- [2]
-						217, -- [3]
-						1602966098.51, -- [4]
-						10792, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						270117, -- [2]
+						585, -- [3]
+						1603142819.849, -- [4]
+						20060, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [10]
 					{
-						true, -- [1]
-						310022, -- [2]
-						1999, -- [3]
-						1602966098.888, -- [4]
-						8793, -- [5]
-						"[*] Charged Bonds", -- [6]
+						false, -- [1]
+						77489, -- [2]
+						1064, -- [3]
+						1603142821.242, -- [4]
+						20060, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [11]
 					{
 						false, -- [1]
-						48438, -- [2]
-						215, -- [3]
-						1602966099.039, -- [4]
-						9008, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						281265, -- [2]
+						443, -- [3]
+						1603142822.551, -- [4]
+						20060, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6555,55 +3995,59 @@ DeathGraphsDBCurrent = {
 					}, -- [12]
 					{
 						false, -- [1]
-						48438, -- [2]
-						205, -- [3]
-						1602966099.778, -- [4]
-						12564, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						298318, -- [2]
+						1145, -- [3]
+						1603142824.653, -- [4]
+						20060, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [13]
 					{
 						true, -- [1]
-						309854, -- [2]
-						1435, -- [3]
-						1602966099.831, -- [4]
-						11129, -- [5]
-						"Ra-den", -- [6]
+						319346, -- [2]
+						586, -- [3]
+						1603142824.848, -- [4]
+						19474, -- [5]
+						"[*] Infinity's Toll", -- [6]
 						nil, -- [7]
-						40, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [14]
 					{
-						true, -- [1]
-						310022, -- [2]
-						2166, -- [3]
-						1602966099.903, -- [4]
-						8963, -- [5]
-						"[*] Charged Bonds", -- [6]
+						false, -- [1]
+						183811, -- [2]
+						140, -- [3]
+						1603142824.937, -- [4]
+						19614, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
 						false, -- [1]
-						48438, -- [2]
-						195, -- [3]
-						1602966100.475, -- [4]
-						9158, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						183811, -- [2]
+						71, -- [3]
+						1603142825.077, -- [4]
+						19685, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [16]
 					{
 						false, -- [1]
-						207386, -- [2]
-						109, -- [3]
-						1602966100.522, -- [4]
-						9267, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						288146, -- [2]
+						162, -- [3]
+						1603142825.219, -- [4]
+						19847, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6611,585 +4055,181 @@ DeathGraphsDBCurrent = {
 					}, -- [17]
 					{
 						false, -- [1]
-						117313, -- [2]
-						771, -- [3]
-						1602966100.631, -- [4]
-						10038, -- [5]
-						"Queroth-Silvermoon", -- [6]
+						77489, -- [2]
+						133, -- [3]
+						1603142825.572, -- [4]
+						19980, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [18]
 					{
-						true, -- [1]
-						310022, -- [2]
-						2592, -- [3]
-						1602966100.886, -- [4]
-						7446, -- [5]
-						"[*] Charged Bonds", -- [6]
+						false, -- [1]
+						183811, -- [2]
+						72, -- [3]
+						1603142825.709, -- [4]
+						20052, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [19]
 					{
 						false, -- [1]
-						48438, -- [2]
-						184, -- [3]
-						1602966101.204, -- [4]
-						7630, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						183811, -- [2]
+						144, -- [3]
+						1603142825.88, -- [4]
+						20060, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [20]
 					{
-						true, -- [1]
-						309854, -- [2]
-						1560, -- [3]
-						1602966101.781, -- [4]
-						6070, -- [5]
-						"Ra-den", -- [6]
+						false, -- [1]
+						77489, -- [2]
+						132, -- [3]
+						1603142828.565, -- [4]
+						20060, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
-						40, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
 						true, -- [1]
-						310022, -- [2]
-						2777, -- [3]
-						1602966101.958, -- [4]
-						3293, -- [5]
-						"[*] Charged Bonds", -- [6]
+						319346, -- [2]
+						587, -- [3]
+						1603142829.844, -- [4]
+						19473, -- [5]
+						"[*] Infinity's Toll", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
 						false, -- [1]
-						48438, -- [2]
-						141, -- [3]
-						1602966101.988, -- [4]
-						3434, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						52042, -- [2]
-						666, -- [3]
-						1602966102.47, -- [4]
-						4100, -- [5]
-						"Healing Stream Totem <Iamnotjamie-Silvermoon>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						207386, -- [2]
-						88, -- [3]
-						1602966102.521, -- [4]
-						4188, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						48438, -- [2]
-						133, -- [3]
-						1602966102.689, -- [4]
-						4321, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						288091, -- [2]
-						639, -- [3]
-						1602966102.732, -- [4]
-						4960, -- [5]
-						"Queroth-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [27]
-					{
-						true, -- [1]
-						310022, -- [2]
-						2962, -- [3]
-						1602966102.901, -- [4]
-						1998, -- [5]
-						"[*] Charged Bonds", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						48438, -- [2]
-						154, -- [3]
-						1602966103.412, -- [4]
-						2152, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						309854, -- [2]
-						1617, -- [3]
-						1602966103.812, -- [4]
-						535, -- [5]
-						"Ra-den", -- [6]
-						nil, -- [7]
-						40, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						48438, -- [2]
-						93, -- [3]
-						1602966103.892, -- [4]
-						628, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						270117, -- [2]
+						585, -- [3]
+						1603142829.864, -- [4]
+						20058, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [31]
-					{
-						false, -- [1]
-						287255, -- [2]
-						144, -- [3]
-						1602966103.892, -- [4]
-						772, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						true, -- [1]
-						310022, -- [2]
-						3235, -- [3]
-						1602966103.922, -- [4]
-						1, -- [5]
-						"[*] Charged Bonds", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						2463, -- [10]
-					}, -- [33]
-					{
-						3, -- [1]
-						184364, -- [2]
-						1, -- [3]
-						1602966027.297, -- [4]
-						0, -- [5]
-						"Queroth-Silvermoon", -- [6]
-					}, -- [34]
-				},
-				["class"] = "WARRIOR",
-				["timestring"] = "2m 18s",
-				["time"] = 1602966103.943,
-			}, -- [3]
-			{
-				["maxhealth"] = 20580,
-				["timeofdeath"] = 140.9690000000001,
-				["name"] = "Autori",
-				["events"] = {
-					{
-						false, -- [1]
-						8936, -- [2]
-						2066, -- [3]
-						1602966103.394, -- [4]
-						12329, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						false, -- [1]
-						48438, -- [2]
-						172, -- [3]
-						1602966103.412, -- [4]
-						12501, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						33763, -- [2]
-						439, -- [3]
-						1602966103.463, -- [4]
-						12940, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						108366, -- [2]
-						128, -- [3]
-						1602966103.664, -- [4]
-						12940, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						true, -- [1]
-						310019, -- [2]
-						3080, -- [3]
-						1602966103.664, -- [4]
-						9988, -- [5]
-						"[*] Charged Bonds", -- [6]
-						128, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966103.664, -- [4]
-						9988, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						309854, -- [2]
-						1467, -- [3]
-						1602966103.812, -- [4]
-						8521, -- [5]
-						"Ra-den", -- [6]
-						nil, -- [7]
-						40, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						48438, -- [2]
-						104, -- [3]
-						1602966103.892, -- [4]
-						8625, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						287255, -- [2]
-						164, -- [3]
-						1602966103.892, -- [4]
-						8789, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						269238, -- [2]
-						688, -- [3]
-						1602966103.943, -- [4]
-						9477, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						198533, -- [2]
-						238, -- [3]
-						1602966103.943, -- [4]
-						9715, -- [5]
-						"Jade Serpent Statue <Trunkenbolt-Madmortem>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						124682, -- [2]
-						1043, -- [3]
-						1602966104.145, -- [4]
-						10758, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						33763, -- [2]
-						393, -- [3]
-						1602966104.193, -- [4]
-						11151, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						111400, -- [2]
-						851, -- [3]
-						1602966104.208, -- [4]
-						10300, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						124682, -- [2]
-						282, -- [3]
-						1602966104.382, -- [4]
-						10582, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						108366, -- [2]
-						76, -- [3]
-						1602966104.667, -- [4]
-						10582, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						310019, -- [2]
-						3260, -- [3]
-						1602966104.667, -- [4]
-						7398, -- [5]
-						"[*] Charged Bonds", -- [6]
-						76, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966104.667, -- [4]
-						7398, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						8936, -- [2]
-						145, -- [3]
-						1602966104.881, -- [4]
-						7543, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						33763, -- [2]
-						393, -- [3]
-						1602966104.94, -- [4]
-						7936, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						774, -- [2]
-						440, -- [3]
-						1602966105.207, -- [4]
-						8376, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						111400, -- [2]
-						851, -- [3]
-						1602966105.207, -- [4]
-						7525, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						108366, -- [2]
-						77, -- [3]
-						1602966105.673, -- [4]
-						7525, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
 					}, -- [23]
 					{
-						true, -- [1]
-						310019, -- [2]
-						3786, -- [3]
-						1602966105.673, -- [4]
-						3816, -- [5]
-						"[*] Charged Bonds", -- [6]
-						77, -- [7]
-						8, -- [8]
+						false, -- [1]
+						288146, -- [2]
+						162, -- [3]
+						1603142830.258, -- [4]
+						20060, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [24]
 					{
-						false, -- [1]
-						33763, -- [2]
-						243, -- [3]
-						1602966105.673, -- [4]
-						4059, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						true, -- [1]
+						319346, -- [2]
+						604, -- [3]
+						1603142834.861, -- [4]
+						19456, -- [5]
+						"[*] Infinity's Toll", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [25]
 					{
 						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1602966105.673, -- [4]
-						4059, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
+						288146, -- [2]
+						156, -- [3]
+						1603142835.275, -- [4]
+						19612, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [26]
 					{
-						true, -- [1]
-						309854, -- [2]
-						1688, -- [3]
-						1602966105.813, -- [4]
-						2371, -- [5]
-						"Ra-den", -- [6]
+						false, -- [1]
+						288146, -- [2]
+						155, -- [3]
+						1603142836.269, -- [4]
+						19767, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
-						40, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [27]
 					{
-						true, -- [1]
-						111400, -- [2]
-						851, -- [3]
-						1602966106.227, -- [4]
-						1520, -- [5]
-						"Autori", -- [6]
+						false, -- [1]
+						288146, -- [2]
+						156, -- [3]
+						1603142837.278, -- [4]
+						19923, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
+						0, -- [8]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [28]
 					{
 						false, -- [1]
-						8936, -- [2]
-						359, -- [3]
-						1602966106.334, -- [4]
-						1879, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						288146, -- [2]
+						155, -- [3]
+						1603142838.287, -- [4]
+						20060, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [29]
 					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142838.639, -- [4]
+						20060, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6237, -- [3]
+						1603142838.639, -- [4]
+						13823, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
 						false, -- [1]
-						33763, -- [2]
-						231, -- [3]
-						1602966106.43, -- [4]
-						2110, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						270117, -- [2]
+						1122, -- [3]
+						1603142838.659, -- [4]
+						14945, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						108366, -- [2]
-						94, -- [3]
-						1602966106.688, -- [4]
-						2110, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						310019, -- [2]
-						3985, -- [3]
-						1602966106.707, -- [4]
-						1, -- [5]
-						"[*] Charged Bonds", -- [6]
-						94, -- [7]
-						8, -- [8]
-						false, -- [9]
-						1781, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
@@ -7197,162 +4237,569 @@ DeathGraphsDBCurrent = {
 						0, -- [3]
 						0, -- [4]
 						0, -- [5]
-						"Autori", -- [6]
+						"Eltric-ArgentDawn", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "2m 20s",
-				["time"] = 1602966106.707,
+				["class"] = "ROGUE",
+				["timestring"] = "4m 32s",
+				["time"] = 1603142838.806,
 			}, -- [4]
 			{
-				["maxhealth"] = 19600,
-				["timeofdeath"] = 188.5279999999993,
-				["name"] = "Mésa-Silvermoon",
+				["maxhealth"] = 21240,
+				["timeofdeath"] = 273.4159999999993,
+				["name"] = "Grollash-ArgentDawn",
+				["events"] = {
+					{
+						true, -- [1]
+						309991, -- [2]
+						6746, -- [3]
+						1603142817.16, -- [4]
+						7730, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						4, -- [1]
+						319346, -- [2]
+						1, -- [3]
+						1603142817.647, -- [4]
+						7730, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						139, -- [2]
+						380, -- [3]
+						1603142817.839, -- [4]
+						8110, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						77489, -- [2]
+						650, -- [3]
+						1603142818.566, -- [4]
+						8760, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						90361, -- [2]
+						529, -- [3]
+						1603142818.759, -- [4]
+						9289, -- [5]
+						"Mikkelernoob <Nadaluxe-Ragnaros>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						2050, -- [2]
+						8215, -- [3]
+						1603142818.938, -- [4]
+						17504, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						139, -- [2]
+						362, -- [3]
+						1603142820.33, -- [4]
+						17866, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1811, -- [3]
+						1603142821.568, -- [4]
+						19677, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						281265, -- [2]
+						224, -- [3]
+						1603142822.551, -- [4]
+						19901, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						319346, -- [2]
+						673, -- [3]
+						1603142822.652, -- [4]
+						19228, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						45470, -- [2]
+						2425, -- [3]
+						1603142822.774, -- [4]
+						21653, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						183811, -- [2]
+						69, -- [3]
+						1603142823.062, -- [4]
+						21722, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						183811, -- [2]
+						70, -- [3]
+						1603142823.749, -- [4]
+						21792, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1253, -- [3]
+						1603142824.562, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						298318, -- [2]
+						983, -- [3]
+						1603142826.125, -- [4]
+						22300, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1252, -- [3]
+						1603142827.552, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						319346, -- [2]
+						653, -- [3]
+						1603142827.642, -- [4]
+						21647, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						183811, -- [2]
+						65, -- [3]
+						1603142829.047, -- [4]
+						21712, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						183811, -- [2]
+						129, -- [3]
+						1603142829.047, -- [4]
+						21841, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [19]
+					{
+						false, -- [1]
+						183811, -- [2]
+						127, -- [3]
+						1603142829.143, -- [4]
+						21968, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						183811, -- [2]
+						63, -- [3]
+						1603142829.143, -- [4]
+						22031, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						183811, -- [2]
+						66, -- [3]
+						1603142830.248, -- [4]
+						22097, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						183811, -- [2]
+						65, -- [3]
+						1603142830.248, -- [4]
+						22162, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						183811, -- [2]
+						66, -- [3]
+						1603142830.521, -- [4]
+						22228, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						183811, -- [2]
+						68, -- [3]
+						1603142830.521, -- [4]
+						22296, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1253, -- [3]
+						1603142830.561, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						53365, -- [2]
+						1338, -- [3]
+						1603142831.535, -- [4]
+						22300, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						319346, -- [2]
+						653, -- [3]
+						1603142832.661, -- [4]
+						21647, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						183811, -- [2]
+						65, -- [3]
+						1603142832.975, -- [4]
+						21712, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						319346, -- [2]
+						653, -- [3]
+						1603142837.659, -- [4]
+						21059, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142839.889, -- [4]
+						21059, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6543, -- [3]
+						1603142839.889, -- [4]
+						14516, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						48707, -- [2]
+						1, -- [3]
+						1603142781.691, -- [4]
+						0, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "4m 33s",
+				["time"] = 1603142840.14,
+			}, -- [5]
+			{
+				["maxhealth"] = 19860,
+				["timeofdeath"] = 274.3729999999996,
+				["name"] = "Darkwah-ArgentDawn",
 				["events"] = {
 					{
 						false, -- [1]
-						119611, -- [2]
-						392, -- [3]
-						1602966147.38, -- [4]
-						13311, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						270117, -- [2]
+						2079, -- [3]
+						1603142819.608, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [1]
 					{
-						true, -- [1]
-						310022, -- [2]
-						2682, -- [3]
-						1602966147.549, -- [4]
-						10629, -- [5]
-						"[*] Charged Bonds", -- [6]
+						false, -- [1]
+						296211, -- [2]
+						40, -- [3]
+						1603142820.491, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [2]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142821.359, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						77489, -- [2]
+						889, -- [3]
+						1603142821.466, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142822.231, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						281265, -- [2]
+						436, -- [3]
+						1603142822.538, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142823.092, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142823.966, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						77489, -- [2]
+						680, -- [3]
+						1603142824.465, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						296003, -- [2]
+						103, -- [3]
+						1603142824.604, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						319346, -- [2]
+						608, -- [3]
+						1603142824.604, -- [4]
+						20355, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						103, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
 					{
 						false, -- [1]
 						296212, -- [2]
-						797, -- [3]
-						1602966147.549, -- [4]
-						11426, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-					}, -- [3]
-					{
-						true, -- [1]
-						309854, -- [2]
-						1935, -- [3]
-						1602966147.977, -- [4]
-						9491, -- [5]
-						"Ra-den", -- [6]
-						nil, -- [7]
-						40, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						280052, -- [2]
-						1524, -- [3]
-						1602966147.977, -- [4]
-						11015, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						399, -- [3]
+						1603142824.604, -- [4]
+						20754, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						207386, -- [2]
-						117, -- [3]
-						1602966148.339, -- [4]
-						11132, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						true, -- [1]
-						310022, -- [2]
-						2906, -- [3]
-						1602966148.54, -- [4]
-						8226, -- [5]
-						"[*] Charged Bonds", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						143924, -- [2]
-						98, -- [3]
-						1602966148.567, -- [4]
-						8324, -- [5]
-						"Mésa-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						157982, -- [2]
-						117, -- [3]
-						1602966148.645, -- [4]
-						8441, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						119611, -- [2]
-						391, -- [3]
-						1602966148.78, -- [4]
-						8832, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						116670, -- [2]
-						1579, -- [3]
-						1602966148.829, -- [4]
-						10411, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						116670, -- [2]
-						2315, -- [3]
-						1602966148.829, -- [4]
-						12726, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
 					}, -- [12]
 					{
 						false, -- [1]
-						191894, -- [2]
-						678, -- [3]
-						1602966148.853, -- [4]
-						13404, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						183811, -- [2]
+						77, -- [3]
+						1603142825.199, -- [4]
+						20831, -- [5]
+						"Lith", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -7361,34 +4808,3016 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						143924, -- [2]
-						95, -- [3]
-						1602966149.775, -- [4]
-						13499, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						137, -- [3]
+						1603142825.761, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						false, -- [1]
+						77489, -- [2]
+						533, -- [3]
+						1603142827.471, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						319346, -- [2]
+						627, -- [3]
+						1603142829.62, -- [4]
+						20233, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						270117, -- [2]
+						1040, -- [3]
+						1603142829.62, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						77489, -- [2]
+						564, -- [3]
+						1603142830.461, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						77489, -- [2]
+						563, -- [3]
+						1603142833.532, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						296212, -- [2]
+						799, -- [3]
+						1603142833.978, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						296003, -- [2]
+						103, -- [3]
+						1603142834.608, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						319346, -- [2]
+						609, -- [3]
+						1603142834.608, -- [4]
+						20354, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						103, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						143924, -- [2]
+						5, -- [3]
+						1603142835.465, -- [4]
+						20359, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						77489, -- [2]
+						348, -- [3]
+						1603142836.465, -- [4]
+						20707, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						143924, -- [2]
+						83, -- [3]
+						1603142836.685, -- [4]
+						20790, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						143924, -- [2]
+						7, -- [3]
+						1603142837.902, -- [4]
+						20797, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						143924, -- [2]
+						4, -- [3]
+						1603142839.109, -- [4]
+						20801, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						77489, -- [2]
+						348, -- [3]
+						1603142839.469, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						319346, -- [2]
+						627, -- [3]
+						1603142839.609, -- [4]
+						20233, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						270117, -- [2]
+						1040, -- [3]
+						1603142839.619, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142840.942, -- [4]
+						20860, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6290, -- [3]
+						1603142840.942, -- [4]
+						14570, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PRIEST",
+				["timestring"] = "4m 34s",
+				["time"] = 1603142841.097,
+			}, -- [6]
+		},
+		["bossname"] = "N'Zoth the Corruptor",
+		["bossicon"] = {
+			0.75, -- [1]
+			1, -- [2]
+			0.5, -- [3]
+			0.75, -- [4]
+			"Interface\\AddOns\\Details\\images\\raid\\NyalothaRaid_BossFaces", -- [5]
+		},
+		["date"] = 11286.579,
+		["timeelapsed"] = 275.003999999999,
+	}, -- [1]
+	{
+		["deaths"] = {
+			{
+				["maxhealth"] = 20200,
+				["timeofdeath"] = 54.45700000000034,
+				["name"] = "Rykahpo",
+				["events"] = {
+					{
+						2, -- [1]
+						61999, -- [2]
+						1, -- [3]
+						1603142140.754, -- [4]
+						0, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+					}, -- [1]
+					{
+						false, -- [1]
+						19750, -- [2]
+						2926, -- [3]
+						1603142038.506, -- [4]
+						20325, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						false, -- [1]
+						204883, -- [2]
+						2016, -- [3]
+						1603142039.47, -- [4]
+						21200, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						77489, -- [2]
+						587, -- [3]
+						1603142042.498, -- [4]
+						21200, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						false, -- [1]
+						77489, -- [2]
+						587, -- [3]
+						1603142045.484, -- [4]
+						21200, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						269238, -- [2]
+						736, -- [3]
+						1603142045.932, -- [4]
+						21200, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						false, -- [1]
+						269238, -- [2]
+						735, -- [3]
+						1603142052.305, -- [4]
+						21200, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						269279, -- [2]
+						1513, -- [3]
+						1603142052.346, -- [4]
+						21200, -- [5]
+						"Rykahpo", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2355, -- [3]
+						1603142052.346, -- [4]
+						20358, -- [5]
+						"Exposed Synapse", -- [6]
+						1513, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						296330, -- [2]
+						1060, -- [3]
+						1603142052.571, -- [4]
+						21200, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2346, -- [3]
+						1603142055.987, -- [4]
+						18854, -- [5]
+						"Exposed Synapse", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2346, -- [3]
+						1603142055.987, -- [4]
+						16508, -- [5]
+						"Exposed Synapse", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2336, -- [3]
+						1603142058.43, -- [4]
+						14172, -- [5]
+						"Exposed Synapse", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						269238, -- [2]
+						745, -- [3]
+						1603142060.256, -- [4]
+						14917, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						false, -- [1]
+						25914, -- [2]
+						3411, -- [3]
+						1603142061.13, -- [4]
+						18328, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [15]
+					{
+						false, -- [1]
+						269238, -- [2]
+						745, -- [3]
+						1603142064.96, -- [4]
+						19073, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [16]
+					{
+						false, -- [1]
+						325983, -- [2]
+						1195, -- [3]
+						1603142065.287, -- [4]
+						20268, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [17]
+					{
+						true, -- [1]
+						310333, -- [2]
+						1291, -- [3]
+						1603142068.041, -- [4]
+						18977, -- [5]
+						"Mind's Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142068.236, -- [4]
+						18977, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6456, -- [3]
+						1603142068.236, -- [4]
+						12521, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						310333, -- [2]
+						1285, -- [3]
+						1603142069.025, -- [4]
+						11236, -- [5]
+						"Mind's Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142069.177, -- [4]
+						11236, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6430, -- [3]
+						1603142069.177, -- [4]
+						4806, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						325983, -- [2]
+						2353, -- [3]
+						1603142069.799, -- [4]
+						7159, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						310333, -- [2]
+						1280, -- [3]
+						1603142070.015, -- [4]
+						5879, -- [5]
+						"Mind's Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6404, -- [3]
+						1603142070.204, -- [4]
+						1, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						525, -- [10]
+					}, -- [26]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Rykahpo", -- [6]
+					}, -- [27]
+				},
+				["class"] = "MAGE",
+				["timestring"] = "0m 54s",
+				["time"] = 1603142070.204,
+			}, -- [1]
+			{
+				["maxhealth"] = 35040,
+				["timeofdeath"] = 216.7110000000012,
+				["name"] = "Vyollet-ArgentDawn",
+				["events"] = {
+					{
+						true, -- [1]
+						1, -- [2]
+						3404, -- [3]
+						1603142222.274, -- [4]
+						24883, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						143924, -- [2]
+						88, -- [3]
+						1603142222.324, -- [4]
+						21567, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						55, -- [3]
+						1603142223.549, -- [4]
+						21622, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						295842, -- [2]
+						640, -- [3]
+						1603142224.176, -- [4]
+						21622, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						312873, -- [2]
+						640, -- [3]
+						1603142224.176, -- [4]
+						21622, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						2061, -- [2]
+						1914, -- [3]
+						1603142224.36, -- [4]
+						23536, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						143924, -- [2]
+						9, -- [3]
+						1603142224.752, -- [4]
+						23545, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						139, -- [2]
+						302, -- [3]
+						1603142224.844, -- [4]
+						23847, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						295842, -- [2]
+						29, -- [3]
+						1603142225.174, -- [4]
+						23847, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						312873, -- [2]
+						639, -- [3]
+						1603142225.174, -- [4]
+						23237, -- [5]
+						"Deathwing", -- [6]
+						29, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1708, -- [3]
+						1603142225.223, -- [4]
+						24945, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						143924, -- [2]
+						243, -- [3]
+						1603142225.971, -- [4]
+						25188, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						312873, -- [2]
+						639, -- [3]
+						1603142226.163, -- [4]
+						24549, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						228477, -- [2]
+						532, -- [3]
+						1603142226.612, -- [4]
+						25081, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [14]
 					{
-						true, -- [1]
-						309854, -- [2]
-						1961, -- [3]
-						1602966149.961, -- [4]
-						11538, -- [5]
-						"Ra-den", -- [6]
+						false, -- [1]
+						228477, -- [2]
+						1051, -- [3]
+						1603142226.612, -- [4]
+						26132, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
 						nil, -- [7]
-						40, -- [8]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						203794, -- [2]
+						492, -- [3]
+						1603142227.08, -- [4]
+						26624, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						312873, -- [2]
+						639, -- [3]
+						1603142227.172, -- [4]
+						25985, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						143924, -- [2]
+						83, -- [3]
+						1603142227.186, -- [4]
+						26068, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						139, -- [2]
+						303, -- [3]
+						1603142227.457, -- [4]
+						26371, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						312873, -- [2]
+						639, -- [3]
+						1603142228.172, -- [4]
+						25732, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1708, -- [3]
+						1603142228.219, -- [4]
+						27440, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						143924, -- [2]
+						20, -- [3]
+						1603142228.406, -- [4]
+						27460, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						310604, -- [2]
+						3055, -- [3]
+						1603142228.75, -- [4]
+						30515, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						228477, -- [2]
+						527, -- [3]
+						1603142229.012, -- [4]
+						31042, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						228477, -- [2]
+						531, -- [3]
+						1603142229.012, -- [4]
+						31573, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						143924, -- [2]
+						29, -- [3]
+						1603142229.624, -- [4]
+						31602, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						203794, -- [2]
+						493, -- [3]
+						1603142229.686, -- [4]
+						32095, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						139, -- [2]
+						379, -- [3]
+						1603142229.971, -- [4]
+						32474, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						310604, -- [2]
+						235, -- [3]
+						1603142230.253, -- [4]
+						32709, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1708, -- [3]
+						1603142231.22, -- [4]
+						34417, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						1, -- [2]
+						1946, -- [3]
+						1603142231.695, -- [4]
+						34417, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						139, -- [2]
+						617, -- [3]
+						1603142232.006, -- [4]
+						33088, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Vyollet-ArgentDawn", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "3m 36s",
+				["time"] = 1603142232.458,
+			}, -- [2]
+			{
+				["maxhealth"] = 19020,
+				["timeofdeath"] = 230.8549999999996,
+				["name"] = "Nadaluxe-Ragnaros",
+				["events"] = {
+					{
+						false, -- [1]
+						269279, -- [2]
+						950, -- [3]
+						1603142224.176, -- [4]
+						21478, -- [5]
+						"Nadaluxe-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						312873, -- [2]
+						950, -- [3]
+						1603142224.176, -- [4]
+						21478, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						269279, -- [2]
+						950, -- [3]
+						1603142225.174, -- [4]
+						21478, -- [5]
+						"Nadaluxe-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						312873, -- [2]
+						950, -- [3]
+						1603142225.174, -- [4]
+						21478, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						77489, -- [2]
+						486, -- [3]
+						1603142225.645, -- [4]
+						21478, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						269279, -- [2]
+						871, -- [3]
+						1603142226.163, -- [4]
+						21478, -- [5]
+						"Nadaluxe-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						296003, -- [2]
+						79, -- [3]
+						1603142226.163, -- [4]
+						21478, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						312873, -- [2]
+						950, -- [3]
+						1603142226.163, -- [4]
+						21478, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						311201, -- [2]
+						2730, -- [3]
+						1603142227.02, -- [4]
+						21478, -- [5]
+						"Nadaluxe-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						296003, -- [2]
+						24, -- [3]
+						1603142227.172, -- [4]
+						21478, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						312873, -- [2]
+						950, -- [3]
+						1603142227.172, -- [4]
+						20552, -- [5]
+						"Deathwing", -- [6]
+						24, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						270117, -- [2]
+						452, -- [3]
+						1603142227.2, -- [4]
+						21004, -- [5]
+						"Nadaluxe-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						204883, -- [2]
+						981, -- [3]
+						1603142227.551, -- [4]
+						21478, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						true, -- [1]
+						312873, -- [2]
+						979, -- [3]
+						1603142228.172, -- [4]
+						20499, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77489, -- [2]
+						352, -- [3]
+						1603142228.649, -- [4]
+						20851, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2295, -- [3]
+						1603142228.894, -- [4]
+						18556, -- [5]
+						"Exposed Synapse", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						77489, -- [2]
+						352, -- [3]
+						1603142231.641, -- [4]
+						18908, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						596, -- [2]
+						2041, -- [3]
+						1603142233.929, -- [4]
+						20949, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						77489, -- [2]
+						547, -- [3]
+						1603142234.648, -- [4]
+						21478, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						77489, -- [2]
+						547, -- [3]
+						1603142237.646, -- [4]
+						21478, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						77489, -- [2]
+						547, -- [3]
+						1603142240.642, -- [4]
+						21478, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						311201, -- [2]
+						1637, -- [3]
+						1603142241.03, -- [4]
+						21478, -- [5]
+						"Nadaluxe-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142243.738, -- [4]
+						21478, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						296003, -- [2]
+						103, -- [3]
+						1603142243.765, -- [4]
+						21478, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6175, -- [3]
+						1603142243.765, -- [4]
+						15406, -- [5]
+						"Psychus", -- [6]
+						103, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						270117, -- [2]
+						453, -- [3]
+						1603142243.78, -- [4]
+						15859, -- [5]
+						"Nadaluxe-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6367, -- [3]
+						1603142244.767, -- [4]
+						9492, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						90361, -- [2]
+						657, -- [3]
+						1603142245.048, -- [4]
+						10149, -- [5]
+						"Mikkelergrim <Nadaluxe-Ragnaros>", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6366, -- [3]
+						1603142245.815, -- [4]
+						3783, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						312873, -- [2]
+						979, -- [3]
+						1603142246.432, -- [4]
+						2804, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142246.565, -- [4]
+						2804, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6366, -- [3]
+						1603142246.565, -- [4]
+						1, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						3562, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Nadaluxe-Ragnaros", -- [6]
+					}, -- [33]
+				},
+				["class"] = "HUNTER",
+				["timestring"] = "3m 50s",
+				["time"] = 1603142246.602,
+			}, -- [3]
+			{
+				["maxhealth"] = 21240,
+				["timeofdeath"] = 233.241,
+				["name"] = "Grollash-ArgentDawn",
+				["events"] = {
+					{
+						false, -- [1]
+						596, -- [2]
+						1018, -- [3]
+						1603142233.929, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						77489, -- [2]
+						415, -- [3]
+						1603142234.104, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142234.487, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142235.306, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						48707, -- [2]
+						0, -- [3]
+						1603142235.716, -- [4]
+						22300, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						311201, -- [2]
+						534, -- [3]
+						1603142235.857, -- [4]
+						22300, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						296211, -- [2]
+						19, -- [3]
+						1603142236.157, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142236.993, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						77489, -- [2]
+						414, -- [3]
+						1603142237.095, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						53365, -- [2]
+						1338, -- [3]
+						1603142237.39, -- [4]
+						22300, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142237.83, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142238.666, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [12]
+					{
+						false, -- [1]
+						45470, -- [2]
+						4851, -- [3]
+						1603142239.254, -- [4]
+						22300, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142239.515, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77489, -- [2]
+						414, -- [3]
+						1603142240.096, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						296211, -- [2]
+						40, -- [3]
+						1603142240.375, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						311201, -- [2]
+						3368, -- [3]
+						1603142241.15, -- [4]
+						22300, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						296211, -- [2]
+						79, -- [3]
+						1603142241.252, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						281713, -- [2]
+						2991, -- [3]
+						1603142242.053, -- [4]
+						22300, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						296211, -- [2]
+						79, -- [3]
+						1603142242.111, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						296211, -- [2]
+						40, -- [3]
+						1603142243, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [21]
+					{
+						false, -- [1]
+						296211, -- [2]
+						40, -- [3]
+						1603142243.863, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						296211, -- [2]
+						39, -- [3]
+						1603142244.734, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [23]
+					{
+						false, -- [1]
+						296211, -- [2]
+						40, -- [3]
+						1603142245.592, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						296003, -- [2]
+						103, -- [3]
+						1603142246.432, -- [4]
+						22300, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						true, -- [1]
+						312873, -- [2]
+						1016, -- [3]
+						1603142246.432, -- [4]
+						21387, -- [5]
+						"Deathwing", -- [6]
+						103, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						296211, -- [2]
+						19, -- [3]
+						1603142246.479, -- [4]
+						21406, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						296212, -- [2]
+						399, -- [3]
+						1603142246.479, -- [4]
+						21805, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						296211, -- [2]
+						40, -- [3]
+						1603142247.331, -- [4]
+						21845, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						312873, -- [2]
+						1048, -- [3]
+						1603142247.442, -- [4]
+						20797, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						296212, -- [2]
+						799, -- [3]
+						1603142247.472, -- [4]
+						21596, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						312873, -- [2]
+						1080, -- [3]
+						1603142248.44, -- [4]
+						20516, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						48707, -- [2]
+						1, -- [3]
+						1603142229.717, -- [4]
+						0, -- [5]
+						"Grollash-ArgentDawn", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "3m 53s",
+				["time"] = 1603142248.988,
+			}, -- [4]
+			{
+				["maxhealth"] = 19860,
+				["timeofdeath"] = 234.7849999999999,
+				["name"] = "Darkwah-ArgentDawn",
+				["events"] = {
+					{
+						true, -- [1]
+						314889, -- [2]
+						2267, -- [3]
+						1603142231.895, -- [4]
+						12771, -- [5]
+						"Exposed Synapse", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						270117, -- [2]
+						2079, -- [3]
+						1603142231.915, -- [4]
+						14850, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						77489, -- [2]
+						926, -- [3]
+						1603142232.057, -- [4]
+						15776, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						143924, -- [2]
+						47, -- [3]
+						1603142232.905, -- [4]
+						15823, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						139, -- [2]
+						379, -- [3]
+						1603142233.856, -- [4]
+						16202, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						596, -- [2]
+						3681, -- [3]
+						1603142233.917, -- [4]
+						19883, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						143924, -- [2]
+						253, -- [3]
+						1603142234.127, -- [4]
+						20136, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						296211, -- [2]
+						20, -- [3]
+						1603142234.699, -- [4]
+						20156, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						296003, -- [2]
+						103, -- [3]
+						1603142235.006, -- [4]
+						20156, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2200, -- [3]
+						1603142235.006, -- [4]
+						18059, -- [5]
+						"Exposed Synapse", -- [6]
+						103, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						296212, -- [2]
+						799, -- [3]
+						1603142235.018, -- [4]
+						18858, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1500, -- [3]
+						1603142235.06, -- [4]
+						20358, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						143924, -- [2]
+						84, -- [3]
+						1603142235.336, -- [4]
+						20442, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						139, -- [2]
+						759, -- [3]
+						1603142236.4, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1500, -- [3]
+						1603142238.077, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						139, -- [2]
+						380, -- [3]
+						1603142238.891, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						77489, -- [2]
+						1500, -- [3]
+						1603142241.064, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						139, -- [2]
+						784, -- [3]
+						1603142241.416, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						139, -- [2]
+						629, -- [3]
+						1603142244.024, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						139, -- [2]
+						559, -- [3]
+						1603142246.332, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						296003, -- [2]
+						103, -- [3]
+						1603142246.432, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						312873, -- [2]
+						977, -- [3]
+						1603142246.432, -- [4]
+						19986, -- [5]
+						"Deathwing", -- [6]
+						103, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						270117, -- [2]
+						2079, -- [3]
+						1603142246.479, -- [4]
+						20860, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						312873, -- [2]
+						1007, -- [3]
+						1603142247.442, -- [4]
+						19853, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						143924, -- [2]
+						21, -- [3]
+						1603142247.472, -- [4]
+						19874, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						312873, -- [2]
+						1007, -- [3]
+						1603142248.44, -- [4]
+						18867, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						143924, -- [2]
+						36, -- [3]
+						1603142248.696, -- [4]
+						18903, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						312873, -- [2]
+						1007, -- [3]
+						1603142249.434, -- [4]
+						17896, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						77489, -- [2]
+						624, -- [3]
+						1603142249.477, -- [4]
+						18520, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						296211, -- [2]
+						19, -- [3]
+						1603142250.348, -- [4]
+						18539, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						312873, -- [2]
+						1007, -- [3]
+						1603142250.432, -- [4]
+						17532, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						296212, -- [2]
+						400, -- [3]
+						1603142250.456, -- [4]
+						17932, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PRIEST",
+				["timestring"] = "3m 54s",
+				["time"] = 1603142250.532,
+			}, -- [5]
+			{
+				["maxhealth"] = 20020,
+				["timeofdeath"] = 240.6370000000006,
+				["name"] = "Lith",
+				["events"] = {
+					{
+						true, -- [1]
+						318451, -- [2]
+						2384, -- [3]
+						1603142226.949, -- [4]
+						17837, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						319346, -- [2]
+						617, -- [3]
+						1603142227.595, -- [4]
+						17220, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						318451, -- [2]
+						2385, -- [3]
+						1603142227.939, -- [4]
+						14835, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						318451, -- [2]
+						2384, -- [3]
+						1603142228.954, -- [4]
+						12451, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						325983, -- [2]
+						2512, -- [3]
+						1603142231.165, -- [4]
+						14963, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						143924, -- [2]
+						79, -- [3]
+						1603142231.261, -- [4]
+						15042, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						319346, -- [2]
+						632, -- [3]
+						1603142232.598, -- [4]
+						14410, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						143924, -- [2]
+						179, -- [3]
+						1603142234.127, -- [4]
+						14589, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						19750, -- [2]
+						7346, -- [3]
+						1603142235.306, -- [4]
+						21020, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						false, -- [1]
+						325983, -- [2]
+						1243, -- [3]
+						1603142235.968, -- [4]
+						21020, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						269279, -- [2]
+						629, -- [3]
+						1603142237.606, -- [4]
+						21020, -- [5]
+						"Lith", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						319346, -- [2]
+						629, -- [3]
+						1603142237.606, -- [4]
+						21020, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						269279, -- [2]
+						630, -- [3]
+						1603142242.609, -- [4]
+						21020, -- [5]
+						"Lith", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						319346, -- [2]
+						630, -- [3]
+						1603142242.609, -- [4]
+						21020, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						325983, -- [2]
+						954, -- [3]
+						1603142243.185, -- [4]
+						21020, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						269279, -- [2]
+						627, -- [3]
+						1603142247.607, -- [4]
+						21020, -- [5]
+						"Lith", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						319346, -- [2]
+						627, -- [3]
+						1603142247.607, -- [4]
+						21020, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						269279, -- [2]
+						627, -- [3]
+						1603142252.615, -- [4]
+						21020, -- [5]
+						"Lith", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						319346, -- [2]
+						627, -- [3]
+						1603142252.615, -- [4]
+						21020, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142256.119, -- [4]
+						21020, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						269279, -- [2]
+						441, -- [3]
+						1603142256.119, -- [4]
+						21020, -- [5]
+						"Lith", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6285, -- [3]
+						1603142256.119, -- [4]
+						15176, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						441, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Lith", -- [6]
+					}, -- [23]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "4m 0s",
+				["time"] = 1603142256.384,
+			}, -- [6]
+			{
+				["maxhealth"] = 20200,
+				["timeofdeath"] = 242.5760000000009,
+				["name"] = "Rykahpo",
+				["events"] = {
+					{
+						true, -- [1]
+						319346, -- [2]
+						638, -- [3]
+						1603142230.878, -- [4]
+						16101, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						183811, -- [2]
+						55, -- [3]
+						1603142233.679, -- [4]
+						16156, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						25914, -- [2]
+						4102, -- [3]
+						1603142235.643, -- [4]
+						20200, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						269279, -- [2]
+						640, -- [3]
+						1603142235.871, -- [4]
+						20200, -- [5]
+						"Rykahpo", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						true, -- [1]
+						319346, -- [2]
+						640, -- [3]
+						1603142235.871, -- [4]
+						20200, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						269279, -- [2]
+						853, -- [3]
+						1603142235.871, -- [4]
+						20200, -- [5]
+						"Rykahpo", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						312078, -- [2]
+						1926, -- [3]
+						1603142235.871, -- [4]
+						19127, -- [5]
+						"Spike Tentacle", -- [6]
+						853, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						183811, -- [2]
+						54, -- [3]
+						1603142237.45, -- [4]
+						19181, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						false, -- [1]
+						183811, -- [2]
+						55, -- [3]
+						1603142238.813, -- [4]
+						19236, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						false, -- [1]
+						183811, -- [2]
+						108, -- [3]
+						1603142239.371, -- [4]
+						19344, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						false, -- [1]
+						183811, -- [2]
+						54, -- [3]
+						1603142239.793, -- [4]
+						19398, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						183811, -- [2]
+						55, -- [3]
+						1603142240.322, -- [4]
+						19453, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						183811, -- [2]
+						53, -- [3]
+						1603142240.831, -- [4]
+						19506, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						319346, -- [2]
+						637, -- [3]
+						1603142240.882, -- [4]
+						18869, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						183811, -- [2]
+						54, -- [3]
+						1603142241.357, -- [4]
+						18923, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						183811, -- [2]
+						53, -- [3]
+						1603142241.61, -- [4]
+						18976, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						183811, -- [2]
+						109, -- [3]
+						1603142242.008, -- [4]
+						19085, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						183811, -- [2]
+						54, -- [3]
+						1603142242.514, -- [4]
+						19139, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						183811, -- [2]
+						54, -- [3]
+						1603142243.06, -- [4]
+						19193, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						325983, -- [2]
+						927, -- [3]
+						1603142243.185, -- [4]
+						20120, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						183811, -- [2]
+						110, -- [3]
+						1603142243.539, -- [4]
+						20200, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						319346, -- [2]
+						635, -- [3]
+						1603142245.892, -- [4]
+						19565, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						183811, -- [2]
+						54, -- [3]
+						1603142246.373, -- [4]
+						19619, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [23]
+					{
+						false, -- [1]
+						269238, -- [2]
+						736, -- [3]
+						1603142250.506, -- [4]
+						20200, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						319346, -- [2]
+						633, -- [3]
+						1603142250.889, -- [4]
+						19567, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						269238, -- [2]
+						736, -- [3]
+						1603142251.52, -- [4]
+						20200, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						318688, -- [2]
+						3649, -- [3]
+						1603142252.762, -- [4]
+						16551, -- [5]
+						"Basher Tentacle", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						319346, -- [2]
+						630, -- [3]
+						1603142255.888, -- [4]
+						15921, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						269238, -- [2]
+						740, -- [3]
+						1603142256.171, -- [4]
+						16661, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						269238, -- [2]
+						745, -- [3]
+						1603142256.373, -- [4]
+						17406, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142258.06, -- [4]
+						17406, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6288, -- [3]
+						1603142258.06, -- [4]
+						11118, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Rykahpo", -- [6]
+					}, -- [33]
+				},
+				["class"] = "MAGE",
+				["timestring"] = "4m 2s",
+				["time"] = 1603142258.323,
+			}, -- [7]
+			{
+				["maxhealth"] = 25760,
+				["timeofdeath"] = 244.7980000000007,
+				["name"] = "Secaná-ArgentDawn",
+				["events"] = {
+					{
+						false, -- [1]
+						82326, -- [2]
+						2759, -- [3]
+						1603142240.928, -- [4]
+						19637, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						1, -- [2]
+						2812, -- [3]
+						1603142240.95, -- [4]
+						19637, -- [5]
+						"Basher Tentacle", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						270117, -- [2]
+						373, -- [3]
+						1603142240.973, -- [4]
+						20010, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						183811, -- [2]
+						55, -- [3]
+						1603142241.72, -- [4]
+						17253, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						183811, -- [2]
+						54, -- [3]
+						1603142242.45, -- [4]
+						17307, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						82326, -- [2]
+						2676, -- [3]
+						1603142242.85, -- [4]
+						19983, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						25914, -- [2]
+						2918, -- [3]
+						1603142242.85, -- [4]
+						22901, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						183811, -- [2]
+						111, -- [3]
+						1603142242.875, -- [4]
+						23012, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						183811, -- [2]
+						54, -- [3]
+						1603142242.922, -- [4]
+						23066, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						183811, -- [2]
+						54, -- [3]
+						1603142244.382, -- [4]
+						23120, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						183811, -- [2]
+						55, -- [3]
+						1603142244.933, -- [4]
+						23175, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						319346, -- [2]
+						653, -- [3]
+						1603142245.428, -- [4]
+						22522, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						85673, -- [2]
+						3025, -- [3]
+						1603142246.052, -- [4]
+						25547, -- [5]
+						"Lith", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						295842, -- [2]
+						651, -- [3]
+						1603142250.432, -- [4]
+						25547, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						319346, -- [2]
+						651, -- [3]
+						1603142250.432, -- [4]
+						25547, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
 						4, -- [1]
-						310019, -- [2]
+						309991, -- [2]
 						1, -- [3]
-						1602966150.181, -- [4]
-						11538, -- [5]
-						"[*] Charged Bonds", -- [6]
+						1603142253.266, -- [4]
+						25547, -- [5]
+						"N'Zoth the Corruptor", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
@@ -7396,58 +7825,457 @@ DeathGraphsDBCurrent = {
 					}, -- [16]
 					{
 						false, -- [1]
-						119611, -- [2]
-						391, -- [3]
-						1602966150.261, -- [4]
-						11929, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
-						nil, -- [7]
+						152261, -- [2]
+						2089, -- [3]
+						1603142253.266, -- [4]
+						25547, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						true, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [17]
 					{
 						false, -- [1]
-						157982, -- [2]
-						117, -- [3]
-						1602966150.645, -- [4]
-						12046, -- [5]
-						"Mærine-Silvermoon", -- [6]
-						nil, -- [7]
+						295842, -- [2]
+						1188, -- [3]
+						1603142253.266, -- [4]
+						25547, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [18]
 					{
-						false, -- [1]
-						143924, -- [2]
-						29, -- [3]
-						1602966150.99, -- [4]
-						12075, -- [5]
-						"Mésa-Silvermoon", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						309991, -- [2]
+						6495, -- [3]
+						1603142253.266, -- [4]
+						22329, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						3277, -- [7]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [19]
 					{
-						true, -- [1]
-						310019, -- [2]
-						3129, -- [3]
-						1602966151.195, -- [4]
-						8946, -- [5]
-						"[*] Charged Bonds", -- [6]
+						false, -- [1]
+						270117, -- [2]
+						383, -- [3]
+						1603142253.302, -- [4]
+						22712, -- [5]
+						"Secaná-ArgentDawn", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142254.137, -- [4]
+						22712, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6471, -- [3]
+						1603142254.137, -- [4]
+						16241, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						152261, -- [2]
+						2081, -- [3]
+						1603142255.141, -- [4]
+						16241, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6470, -- [3]
+						1603142255.141, -- [4]
+						11852, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						2081, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						269279, -- [2]
+						646, -- [3]
+						1603142255.423, -- [4]
+						11852, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						319346, -- [2]
+						646, -- [3]
+						1603142255.423, -- [4]
+						11852, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142260.13, -- [4]
+						11852, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						269279, -- [2]
+						450, -- [3]
+						1603142260.13, -- [4]
+						11852, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6457, -- [3]
+						1603142260.13, -- [4]
+						5845, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						450, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						270117, -- [2]
+						385, -- [3]
+						1603142260.16, -- [4]
+						6230, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						152261, -- [2]
+						212, -- [3]
+						1603142260.425, -- [4]
+						6230, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						319346, -- [2]
+						644, -- [3]
+						1603142260.425, -- [4]
+						5798, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						212, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Secaná-ArgentDawn", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "4m 4s",
+				["time"] = 1603142260.545,
+			}, -- [8]
+			{
+				["maxhealth"] = 19100,
+				["timeofdeath"] = 246.6239999999998,
+				["name"] = "Eltric-ArgentDawn",
+				["events"] = {
+					{
+						false, -- [1]
+						77489, -- [2]
+						520, -- [3]
+						1603142237.111, -- [4]
+						20060, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						77489, -- [2]
+						520, -- [3]
+						1603142240.108, -- [4]
+						20060, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						298318, -- [2]
+						1941, -- [3]
+						1603142240.148, -- [4]
+						20060, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						311201, -- [2]
+						3485, -- [3]
+						1603142241.538, -- [4]
+						20060, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						296003, -- [2]
+						103, -- [3]
+						1603142246.432, -- [4]
+						20060, -- [5]
+						"Darkwah-ArgentDawn", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						312873, -- [2]
+						997, -- [3]
+						1603142246.432, -- [4]
+						19166, -- [5]
+						"Deathwing", -- [6]
+						103, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						270117, -- [2]
+						1040, -- [3]
+						1603142246.479, -- [4]
+						20060, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						312873, -- [2]
+						1028, -- [3]
+						1603142247.442, -- [4]
+						19032, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						288146, -- [2]
+						138, -- [3]
+						1603142248.368, -- [4]
+						19170, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						true, -- [1]
+						312873, -- [2]
+						1056, -- [3]
+						1603142248.44, -- [4]
+						18114, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						288146, -- [2]
+						137, -- [3]
+						1603142249.364, -- [4]
+						18251, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						312873, -- [2]
+						1056, -- [3]
+						1603142249.434, -- [4]
+						17195, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2353, -- [3]
+						1603142249.57, -- [4]
+						14842, -- [5]
+						"Exposed Synapse", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						313793, -- [2]
+						3708, -- [3]
+						1603142250.053, -- [4]
+						11134, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						4, -- [1]
+						313793, -- [2]
+						1, -- [3]
+						1603142250.053, -- [4]
+						11134, -- [5]
+						"Deathwing", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						288146, -- [2]
+						137, -- [3]
+						1603142250.369, -- [4]
+						11271, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						312873, -- [2]
+						989, -- [3]
+						1603142250.432, -- [4]
+						10282, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						288146, -- [2]
+						138, -- [3]
+						1603142251.387, -- [4]
+						10420, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						true, -- [1]
+						313793, -- [2]
+						1632, -- [3]
+						1603142252.056, -- [4]
+						8788, -- [5]
+						"Deathwing", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						288146, -- [2]
+						137, -- [3]
+						1603142252.374, -- [4]
+						8925, -- [5]
+						"Eltric-ArgentDawn", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
 						false, -- [1]
-						119611, -- [2]
-						197, -- [3]
-						1602966151.906, -- [4]
-						9143, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						288146, -- [2]
+						138, -- [3]
+						1603142253.381, -- [4]
+						9063, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -7455,23 +8283,23 @@ DeathGraphsDBCurrent = {
 					}, -- [21]
 					{
 						true, -- [1]
-						309854, -- [2]
-						1949, -- [3]
-						1602966151.966, -- [4]
-						7194, -- [5]
-						"Ra-den", -- [6]
+						313793, -- [2]
+						1632, -- [3]
+						1603142254.047, -- [4]
+						7431, -- [5]
+						"Deathwing", -- [6]
 						nil, -- [7]
-						40, -- [8]
+						4, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
 						false, -- [1]
 						270117, -- [2]
-						515, -- [3]
-						1602966152.008, -- [4]
-						7709, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						992, -- [3]
+						1603142254.067, -- [4]
+						8423, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -7479,11 +8307,11 @@ DeathGraphsDBCurrent = {
 					}, -- [23]
 					{
 						false, -- [1]
-						116670, -- [2]
-						1149, -- [3]
-						1602966152.091, -- [4]
-						8858, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						288146, -- [2]
+						137, -- [3]
+						1603142254.386, -- [4]
+						8560, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -7491,55 +8319,59 @@ DeathGraphsDBCurrent = {
 					}, -- [24]
 					{
 						false, -- [1]
-						143924, -- [2]
-						68, -- [3]
-						1602966152.224, -- [4]
-						8926, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						288146, -- [2]
+						138, -- [3]
+						1603142255.393, -- [4]
+						8698, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [25]
 					{
 						true, -- [1]
-						310019, -- [2]
-						3353, -- [3]
-						1602966152.224, -- [4]
-						5573, -- [5]
-						"[*] Charged Bonds", -- [6]
+						313793, -- [2]
+						1632, -- [3]
+						1603142256.049, -- [4]
+						7066, -- [5]
+						"Deathwing", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						4, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [26]
 					{
 						false, -- [1]
-						157982, -- [2]
-						234, -- [3]
-						1602966152.645, -- [4]
-						5807, -- [5]
-						"Mærine-Silvermoon", -- [6]
+						288146, -- [2]
+						137, -- [3]
+						1603142256.409, -- [4]
+						7203, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [27]
 					{
-						true, -- [1]
-						310019, -- [2]
-						3576, -- [3]
-						1602966153.21, -- [4]
-						2231, -- [5]
-						"[*] Charged Bonds", -- [6]
+						false, -- [1]
+						288146, -- [2]
+						137, -- [3]
+						1603142257.397, -- [4]
+						7340, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [28]
 					{
 						false, -- [1]
-						143924, -- [2]
-						36, -- [3]
-						1602966153.428, -- [4]
-						2267, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						288146, -- [2]
+						137, -- [3]
+						1603142258.412, -- [4]
+						7477, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -7547,67 +8379,386 @@ DeathGraphsDBCurrent = {
 					}, -- [29]
 					{
 						false, -- [1]
-						119611, -- [2]
-						198, -- [3]
-						1602966153.555, -- [4]
-						2465, -- [5]
-						"Trunkenbolt-Madmortem", -- [6]
+						288146, -- [2]
+						137, -- [3]
+						1603142259.419, -- [4]
+						7614, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
-						true, -- [1]
-						309854, -- [2]
-						1957, -- [3]
-						1602966153.973, -- [4]
-						508, -- [5]
-						"Ra-den", -- [6]
+						false, -- [1]
+						288146, -- [2]
+						138, -- [3]
+						1603142260.415, -- [4]
+						7752, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
-						40, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
-						true, -- [1]
-						310019, -- [2]
-						3800, -- [3]
-						1602966154.238, -- [4]
-						1, -- [5]
-						"[*] Charged Bonds", -- [6]
+						false, -- [1]
+						288146, -- [2]
+						137, -- [3]
+						1603142261.439, -- [4]
+						7889, -- [5]
+						"Eltric-ArgentDawn", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
-						3292, -- [10]
+						-1, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						1856, -- [2]
-						1, -- [3]
-						1602966116.709, -- [4]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
 						0, -- [5]
-						"Mésa-Silvermoon", -- [6]
+						"Eltric-ArgentDawn", -- [6]
 					}, -- [33]
 				},
 				["class"] = "ROGUE",
-				["timestring"] = "3m 8s",
-				["time"] = 1602966154.266,
-			}, -- [5]
+				["timestring"] = "4m 6s",
+				["time"] = 1603142262.371,
+			}, -- [9]
+			{
+				["maxhealth"] = 19140,
+				["timeofdeath"] = 264.1350000000002,
+				["name"] = "Okalani-DunMorogh",
+				["events"] = {
+					{
+						false, -- [1]
+						311201, -- [2]
+						499, -- [3]
+						1603142249.642, -- [4]
+						21480, -- [5]
+						"Okalani-DunMorogh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						269279, -- [2]
+						657, -- [3]
+						1603142250.094, -- [4]
+						21480, -- [5]
+						"Okalani-DunMorogh", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						319346, -- [2]
+						657, -- [3]
+						1603142250.094, -- [4]
+						21480, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						311201, -- [2]
+						499, -- [3]
+						1603142250.432, -- [4]
+						21480, -- [5]
+						"Okalani-DunMorogh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						269279, -- [2]
+						104, -- [3]
+						1603142253.776, -- [4]
+						21480, -- [5]
+						"Okalani-DunMorogh", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						315763, -- [2]
+						3049, -- [3]
+						1603142253.776, -- [4]
+						21480, -- [5]
+						"Okalani-DunMorogh", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						true, -- [1]
+						318688, -- [2]
+						3944, -- [3]
+						1603142253.776, -- [4]
+						20689, -- [5]
+						"Corruptor Tentacle", -- [6]
+						3153, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						319346, -- [2]
+						657, -- [3]
+						1603142255.101, -- [4]
+						20032, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						319346, -- [2]
+						678, -- [3]
+						1603142260.11, -- [4]
+						19354, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						319346, -- [2]
+						678, -- [3]
+						1603142265.136, -- [4]
+						17433, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						311201, -- [2]
+						524, -- [3]
+						1603142267.205, -- [4]
+						17957, -- [5]
+						"Okalani-DunMorogh", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						319346, -- [2]
+						657, -- [3]
+						1603142270.126, -- [4]
+						17300, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						269279, -- [2]
+						678, -- [3]
+						1603142275.128, -- [4]
+						17300, -- [5]
+						"Okalani-DunMorogh", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						319346, -- [2]
+						678, -- [3]
+						1603142275.128, -- [4]
+						17300, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						269279, -- [2]
+						740, -- [3]
+						1603142279.596, -- [4]
+						17300, -- [5]
+						"Okalani-DunMorogh", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						312078, -- [2]
+						1976, -- [3]
+						1603142279.596, -- [4]
+						16064, -- [5]
+						"Spike Tentacle", -- [6]
+						740, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603142279.716, -- [4]
+						16064, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6585, -- [3]
+						1603142279.716, -- [4]
+						9479, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Okalani-DunMorogh", -- [6]
+					}, -- [19]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "4m 24s",
+				["time"] = 1603142279.882,
+			}, -- [10]
 		},
-		["bossname"] = "Ra-den the Despoiled",
+		["bossname"] = "N'Zoth the Corruptor",
 		["bossicon"] = {
-			0.25, -- [1]
-			0.5, -- [2]
+			0.75, -- [1]
+			1, -- [2]
 			0.5, -- [3]
 			0.75, -- [4]
 			"Interface\\AddOns\\Details\\images\\raid\\NyalothaRaid_BossFaces", -- [5]
 		},
-		["date"] = 6653.351000000001,
-		["timeelapsed"] = 198.8380000000007,
+		["date"] = 10731.476,
+		["timeelapsed"] = 271.3720000000012,
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
+	["237715"] = {
+		["deaths"] = {
+			[162] = {
+				1602963635, -- [1]
+				1602963635, -- [2]
+				1602963635, -- [3]
+				1602963635, -- [4]
+				1602963635, -- [5]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["236916"] = {
+		["deaths"] = {
+			[127] = {
+				1603134828, -- [1]
+			},
+			[164] = {
+				1603134828, -- [1]
+				1603134828, -- [2]
+			},
+			[163] = {
+				1603134828, -- [1]
+			},
+			[166] = {
+				1603134828, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["237515"] = {
+		["deaths"] = {
+			[198] = {
+				1603142842, -- [1]
+			},
+			[273] = {
+				1603142842, -- [1]
+			},
+			[428] = {
+				1603141923, -- [1]
+			},
+			[54] = {
+				1603142287, -- [1]
+			},
+			[430] = {
+				1603141923, -- [1]
+			},
+			[216] = {
+				1603142287, -- [1]
+			},
+			[272] = {
+				1603142842, -- [1]
+			},
+			[403] = {
+				1603141923, -- [1]
+			},
+			[258] = {
+				1603142842, -- [1]
+			},
+			[233] = {
+				1603142287, -- [1]
+			},
+			[416] = {
+				1603141923, -- [1]
+			},
+			[234] = {
+				1603142287, -- [1]
+			},
+			[57] = {
+				1603142842, -- [1]
+			},
+			[278] = {
+				1603141923, -- [1]
+			},
+			[230] = {
+				1603142287, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
 	["237015"] = {
 		["deaths"] = {
 			[219] = {
@@ -7629,22 +8780,20 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
-	["236415"] = {
+	["236516"] = {
 		["deaths"] = {
-			[140] = {
-				1602966165, -- [1]
+			[79] = {
+				1603135815, -- [1]
 			},
-			[110] = {
-				1602966165, -- [1]
+			[91] = {
+				1603135815, -- [1]
+				1603135815, -- [2]
 			},
-			[138] = {
-				1602966165, -- [1]
+			[44] = {
+				1603135815, -- [1]
 			},
-			[40] = {
-				1602966165, -- [1]
-			},
-			[188] = {
-				1602966165, -- [1]
+			[81] = {
+				1603135815, -- [1]
 			},
 		},
 		["spells"] = {
@@ -7675,18 +8824,51 @@ DeathGraphsDBGraph = {
 	},
 	["236615"] = {
 		["deaths"] = {
-			[97] = {
-				1602966984, -- [1]
-			},
-			[145] = {
-				1602966984, -- [1]
-			},
 			[217] = {
 				1602966984, -- [1]
 				1602966984, -- [2]
 			},
 			[37] = {
 				1602966984, -- [1]
+				1603141336, -- [2]
+			},
+			[145] = {
+				1602966984, -- [1]
+			},
+			[457] = {
+				1603141336, -- [1]
+			},
+			[440] = {
+				1603141336, -- [1]
+			},
+			[97] = {
+				1602966984, -- [1]
+			},
+			[394] = {
+				1603141336, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["236415"] = {
+		["deaths"] = {
+			[140] = {
+				1602966165, -- [1]
+			},
+			[110] = {
+				1602966165, -- [1]
+			},
+			[138] = {
+				1602966165, -- [1]
+			},
+			[40] = {
+				1602966165, -- [1]
+			},
+			[188] = {
+				1602966165, -- [1]
 			},
 		},
 		["spells"] = {
@@ -7698,21 +8880,6 @@ DeathGraphsDBGraph = {
 		["deaths"] = {
 			[130] = {
 				1602965198, -- [1]
-			},
-		},
-		["spells"] = {
-		},
-		["ids"] = {
-		},
-	},
-	["237715"] = {
-		["deaths"] = {
-			[162] = {
-				1602963635, -- [1]
-				1602963635, -- [2]
-				1602963635, -- [3]
-				1602963635, -- [4]
-				1602963635, -- [5]
 			},
 		},
 		["spells"] = {

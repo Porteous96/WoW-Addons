@@ -1,12 +1,12 @@
 
 DraenorTreasuresDB = {
 	["char"] = {
+		["Préach - Tarren Mill"] = {
+			["950000"] = true,
+		},
 		["Meticulous - Tarren Mill"] = {
 			["33648"] = true,
 			["34727"] = true,
-		},
-		["Préach - Tarren Mill"] = {
-			["950000"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -47,9 +47,9 @@ DraenorTreasuresDB = {
 		["Preacherino - Tarren Mill"] = "Default",
 		["Preách - Tarren Mill"] = "Default",
 		["Rykahboost - Turalyon"] = "Default",
-		["Rykahtwo - Frostmane"] = "Default",
-		["Rykahboost - Aggramar"] = "Default",
-		["Xpreach - Tarren Mill"] = "Default",
+		["Mastarace - Kazzak"] = "Default",
+		["Rykahtony - Frostmane"] = "Default",
+		["Rykahpoh - Frostmane"] = "Default",
 		["Hordepali - Lightbringer"] = "Default",
 		["Dlory - Tarren Mill"] = "Default",
 		["Rÿkah - Frostmane"] = "Default",
@@ -57,10 +57,10 @@ DraenorTreasuresDB = {
 		["Chuggernuts - Tarren Mill"] = "Default",
 		["Chatmademe - Kazzak"] = "Default",
 		["Mechaboost - Sylvanas"] = "Default",
-		["Advboi - Grim Batol"] = "Default",
 		["Préach - Tarren Mill"] = "Default",
+		["Advboi - Grim Batol"] = "Default",
 		["Preachez - Tarren Mill"] = "Default",
-		["Rykahpo - Doomhammer"] = "Default",
+		["Fergfr - Sylvanas"] = "Default",
 		["Rykahhpo - Frostmane"] = "Default",
 		["Rcumplus - Aggramar"] = "Default",
 		["Preech - Tarren Mill"] = "Default",
@@ -68,15 +68,15 @@ DraenorTreasuresDB = {
 		["Mechaboost - Defias Brotherhood"] = "Default",
 		["Rykahpo - Frostmane"] = "Default",
 		["Sulivan - Tarren Mill"] = "Default",
-		["Fergfr - Sylvanas"] = "Default",
+		["Rykahpo - Doomhammer"] = "Default",
 		["Swobuswagins - Tarren Mill"] = "Default",
 		["Bertybots - Kazzak"] = "Default",
 		["Rykah - Frostmane"] = "Default",
 		["Meticulous - Tarren Mill"] = "Default",
 		["Dlorange - Tarren Mill"] = "Default",
-		["Rykahpoh - Frostmane"] = "Default",
-		["Rykahtony - Frostmane"] = "Default",
-		["Mastarace - Kazzak"] = "Default",
+		["Xpreach - Tarren Mill"] = "Default",
+		["Rykahboost - Aggramar"] = "Default",
+		["Rykahtwo - Frostmane"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -262,7 +262,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1603131773,
+				["lastUpdate"] = 1603195173,
 				["Conquest"] = 0,
 			},
 			["Default.Frostmane.Rykahdruid"] = {
@@ -303,7 +303,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1603060786,
+				["lastUpdate"] = 1603195072,
 				["Conquest"] = 0,
 			},
 			["Default.Frostmane.Rykahbolt"] = {
@@ -388,21 +388,21 @@ DataStore_CurrenciesDB = {
 					[1149] = "1793-0-0-5000",
 					[1342] = "608-0-0-1000",
 					[1220] = "24689-0-0-0",
-					[1803] = "26762-0-0-0",
+					[1803] = "27592-0-0-0",
 					[823] = "22130-0-0-0",
 					[1508] = "558-0-0-2000",
 					[1268] = "2-0-0-1000",
 					[1717] = "55-0-0-0",
-					[1721] = "54-0-0-0",
+					[1721] = "60-0-0-0",
 					[776] = "7-0-0-20",
 					[1166] = "12518-0-0-0",
 					[1275] = "45-0-0-0",
-					[1560] = "3456-0-0-0",
+					[1560] = "3836-0-0-0",
 					[614] = "89-0-0-0",
 					[416] = "0-0-0-0",
 					[615] = "11-0-0-0",
 					[402] = "12-0-0-0",
-					[1580] = "4-0-0-5",
+					[1580] = "3-0-0-5",
 					[1710] = "49-0-0-0",
 					[1273] = "0-0-0-6",
 					[1718] = "616-0-0-0",
@@ -446,12 +446,12 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 6,
-						["count"] = 26762,
+						["count"] = 27592,
 					}, -- [6]
 					{
 						["isHeader"] = false,
 						["index"] = 7,
-						["count"] = 54,
+						["count"] = 60,
 					}, -- [7]
 					{
 						["isHeader"] = false,
@@ -461,7 +461,7 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 9,
-						["count"] = 4,
+						["count"] = 3,
 					}, -- [9]
 					{
 						["isHeader"] = false,
@@ -471,7 +471,7 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 11,
-						["count"] = 3456,
+						["count"] = 3836,
 					}, -- [11]
 					{
 						["isHeader"] = true,
@@ -670,7 +670,7 @@ DataStore_CurrenciesDB = {
 					}, -- [50]
 				},
 				["Conquest"] = 60,
-				["lastUpdate"] = 1602973345,
+				["lastUpdate"] = 1603142941,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]

@@ -4,9 +4,9 @@ DataStore_RaresDB = {
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
+		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
-		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 	},
 	["global"] = {
@@ -15,13 +15,13 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1602890157,
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1602973346,
+				["lastUpdate"] = 1603142943,
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1603131780,
+				["lastUpdate"] = 1603195179,
 			},
 			["Default.Frostmane.Rykahdruid"] = {
-				["lastUpdate"] = 1603061890,
+				["lastUpdate"] = 1603195073,
 			},
 			["Default.Frostmane.Rykahbolt"] = {
 				["lastUpdate"] = 1602982075,

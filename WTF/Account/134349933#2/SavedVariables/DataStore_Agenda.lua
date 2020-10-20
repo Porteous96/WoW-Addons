@@ -61,8 +61,9 @@ DataStore_AgendaDB = {
 			},
 			["Default.Frostmane.Rykahpo"] = {
 				["DungeonIDs"] = {
-					["Battle of Dazar'alor Mythic|1463301230"] = "290253|1602973346|0|1|9|1",
-					["Ny'alotha, the Waking City Heroic|1029666961"] = "290253|1602973346|0|1|12|7",
+					["Battle of Dazar'alor Mythic|1463301230"] = "120658|1603142943|0|1|9|1",
+					["Ny'alotha, the Waking City Heroic|1029666961"] = "120658|1603142943|0|1|12|8",
+					["Ny'alotha, the Waking City Mythic|356181079"] = "120658|1603142943|0|1|12|2",
 				},
 				["DungeonBosses"] = {
 					["Battle of Dazar'alor Mythic|1463301230"] = {
@@ -70,10 +71,10 @@ DataStore_AgendaDB = {
 						["Lady Jaina Proudmoore"] = true,
 						["Jadefire Masters"] = false,
 						["Conclave of the Chosen"] = false,
-						["Grong the Revenant"] = false,
+						["Champion of the Light"] = false,
 						["Stormwall Blockade"] = false,
 						["Mekkatorque"] = false,
-						["Champion of the Light"] = false,
+						["Grong the Revenant"] = false,
 						["Opulence"] = false,
 					},
 					["Ny'alotha, the Waking City Heroic|1029666961"] = {
@@ -81,17 +82,31 @@ DataStore_AgendaDB = {
 						["The Hivemind"] = true,
 						["Shad'har the Insatiable"] = false,
 						["Maut"] = true,
-						["N'Zoth the Corruptor"] = false,
-						["Vexiona"] = true,
-						["Drest'agath"] = false,
-						["Wrathion"] = true,
-						["Il'gynoth, Corruption Reborn"] = false,
-						["Carapace of N'Zoth"] = false,
-						["Ra-den the Despoiled"] = true,
 						["Dark Inquisitor Xanesh"] = true,
+						["Vexiona"] = true,
+						["Il'gynoth, Corruption Reborn"] = false,
+						["Wrathion"] = true,
+						["Ra-den the Despoiled"] = true,
+						["Carapace of N'Zoth"] = true,
+						["Drest'agath"] = false,
+						["N'Zoth the Corruptor"] = false,
+					},
+					["Ny'alotha, the Waking City Mythic|356181079"] = {
+						["Prophet Skitra"] = true,
+						["The Hivemind"] = false,
+						["Shad'har the Insatiable"] = false,
+						["Maut"] = false,
+						["Dark Inquisitor Xanesh"] = false,
+						["Vexiona"] = false,
+						["Il'gynoth, Corruption Reborn"] = false,
+						["Wrathion"] = true,
+						["Ra-den the Despoiled"] = false,
+						["Carapace of N'Zoth"] = false,
+						["Drest'agath"] = false,
+						["N'Zoth the Corruptor"] = false,
 					},
 				},
-				["lastUpdate"] = 1602973345,
+				["lastUpdate"] = 1603142941,
 			},
 			["Default.Frostmane.Blissard"] = {
 				["lastUpdate"] = 1600977659,
@@ -106,7 +121,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1602982075,
 			},
 			["Default.Frostmane.Rykahdruid"] = {
-				["lastUpdate"] = 1603060788,
+				["lastUpdate"] = 1603195072,
 			},
 			["Default.Frostmane.Rykkahpo"] = {
 				["lastUpdate"] = 1602616467,
@@ -178,7 +193,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1599957778,
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1603131776,
+				["lastUpdate"] = 1603195624,
 			},
 			["Default.Aggramar.Rcumplus"] = {
 				["lastUpdate"] = 1602273008,

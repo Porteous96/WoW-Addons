@@ -1,26 +1,26 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"at least for me", -- [1]
-		"and a lot of their stuff just feels like you push it cause you have spare time", -- [2]
-		"ok they dont have all that", -- [3]
-		"still stagger and brew", -- [4]
-		"and maybe shuffle", -- [5]
-		"yeah the healing orbs are now irrelevant", -- [6]
-		"they're just there", -- [7]
-		"but yeh thats way too much", -- [8]
-		"need a phd just to understand it", -- [9]
-		"/lol", -- [10]
-		"/sad", -- [11]
-		"is druid travel form the same as ground speed?", -- [12]
-		"like upgraded ground i mean", -- [13]
-		"yote", -- [14]
-		"/tsm", -- [15]
-		"imagine dying cause you pulled too many murlocs", -- [16]
-		"wow", -- [17]
-		"apparently", -- [18]
-		"apparenyly", -- [19]
-		"/played", -- [20]
+		"ok they dont have all that", -- [1]
+		"still stagger and brew", -- [2]
+		"and maybe shuffle", -- [3]
+		"yeah the healing orbs are now irrelevant", -- [4]
+		"they're just there", -- [5]
+		"but yeh thats way too much", -- [6]
+		"need a phd just to understand it", -- [7]
+		"/lol", -- [8]
+		"/sad", -- [9]
+		"is druid travel form the same as ground speed?", -- [10]
+		"like upgraded ground i mean", -- [11]
+		"yote", -- [12]
+		"imagine dying cause you pulled too many murlocs", -- [13]
+		"wow", -- [14]
+		"apparently", -- [15]
+		"apparenyly", -- [16]
+		"/aap", -- [17]
+		"oh thats goood", -- [18]
+		"/played", -- [19]
+		"/tsm", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -1981,5 +1981,74 @@ ElvCharacterDB = {
 			[51] = 1603060586,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [89]
+		{
+			"I just released i was been a comleted fucktard yesterday when we were in the raid .......... I forgot to change my azerite tallents...... just did a 10 and my dps is alot better", -- [1]
+			"|Kq50|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			172, -- [11]
+			false, -- [12]
+			22, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNapsterz|r",
+			[51] = 1603061533,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Napsterz",
+		}, -- [90]
+		{
+			"oh thats goood", -- [1]
+			"|Kq50|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			192, -- [11]
+			false, -- [12]
+			22, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNapsterz|r",
+			[51] = 1603061569,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Napsterz",
+		}, -- [91]
+		{
+			"also for raiding i had 1-2 tallents wrong for a more focused single target after chatting to that lock who was topping the meters.", -- [1]
+			"|Kq50|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			211, -- [11]
+			false, -- [12]
+			22, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNapsterz|r",
+			[51] = 1603061653,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Napsterz",
+		}, -- [92]
 	},
 }

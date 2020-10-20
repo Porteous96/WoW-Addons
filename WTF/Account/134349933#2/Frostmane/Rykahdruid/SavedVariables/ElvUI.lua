@@ -2050,5 +2050,93 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Napsterz",
 		}, -- [92]
+		{
+			"Horseman rise...", -- [1]
+			"Rykahdruid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahdruid-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			352, -- [11]
+			"Player-1303-0B929C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Rykahdruid|r",
+			[51] = 1603194943,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"Your time is nigh...", -- [1]
+			"Rykahdruid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahdruid-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			353, -- [11]
+			"Player-1303-0B929C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Rykahdruid|r",
+			[51] = 1603194945,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [94]
+		{
+			"You felt death once...", -- [1]
+			"Rykahdruid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahdruid-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			354, -- [11]
+			"Player-1303-0B929C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Rykahdruid|r",
+			[51] = 1603194947,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [95]
+		{
+			"Now, know demise!", -- [1]
+			"Rykahdruid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahdruid-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			356, -- [11]
+			"Player-1303-0B929C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Rykahdruid|r",
+			[51] = 1603194950,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
 	},
 }

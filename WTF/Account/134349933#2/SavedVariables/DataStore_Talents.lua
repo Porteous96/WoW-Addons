@@ -56,9 +56,9 @@ DataStore_TalentsDB = {
 				["Class"] = "MAGE",
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1602973345,
+				["lastUpdate"] = 1603142941,
 				["Specializations"] = {
-					7097, -- [1]
+					6585, -- [1]
 					14715, -- [2]
 					6554, -- [3]
 				},
@@ -67,125 +67,123 @@ DataStore_TalentsDB = {
 						["valid"] = true,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["icon"] = 2967103,
 						["unlocked"] = true,
+						["icon"] = 2967103,
 						["rank"] = 3,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["icon"] = 1830317,
 						["unlocked"] = true,
+						["icon"] = 1830317,
 						["rank"] = 4,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["icon"] = 3015740,
 						["unlocked"] = true,
+						["icon"] = 3015740,
 						["rank"] = 4,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
-						["icon"] = 2967109,
 						["unlocked"] = true,
+						["icon"] = 2967109,
 						["rank"] = 3,
 					},
 					["Memory of Lucid Dreams"] = {
 						["valid"] = true,
 						["name"] = "Memory of Lucid Dreams",
 						["ID"] = 27,
-						["icon"] = 2967104,
 						["unlocked"] = true,
+						["icon"] = 2967104,
 						["rank"] = 3,
 					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
-						["icon"] = 3193845,
 						["unlocked"] = true,
+						["icon"] = 3193845,
 						["rank"] = 3,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["icon"] = 3015743,
 						["unlocked"] = true,
+						["icon"] = 3015743,
 						["rank"] = 4,
 					},
 					["Blood of the Enemy"] = {
 						["valid"] = true,
 						["name"] = "Blood of the Enemy",
 						["ID"] = 23,
-						["icon"] = 2032580,
 						["unlocked"] = true,
+						["icon"] = 2032580,
 						["rank"] = 3,
 					},
 					["Condensed Life-Force"] = {
 						["valid"] = true,
 						["name"] = "Condensed Life-Force",
 						["ID"] = 14,
-						["icon"] = 2967113,
 						["unlocked"] = true,
+						["icon"] = 2967113,
 						["rank"] = 3,
 					},
 					["Conflict and Strife"] = {
 						["valid"] = true,
 						["name"] = "Conflict and Strife",
 						["ID"] = 32,
-						["icon"] = 3015742,
 						["unlocked"] = true,
+						["icon"] = 3015742,
 						["rank"] = 3,
 					},
 					["Essence of the Focusing Iris"] = {
 						["valid"] = true,
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
-						["icon"] = 2967111,
 						["unlocked"] = true,
+						["icon"] = 2967111,
 						["rank"] = 4,
 					},
 					["Breath of the Dying"] = {
 						["valid"] = true,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
-						["icon"] = 3193844,
 						["unlocked"] = true,
+						["icon"] = 3193844,
 						["rank"] = 3,
 					},
 					["Spark of Inspiration"] = {
 						["valid"] = true,
 						["name"] = "Spark of Inspiration",
 						["ID"] = 36,
-						["icon"] = 3193843,
 						["unlocked"] = true,
+						["icon"] = 3193843,
 						["rank"] = 4,
 					},
 					["The Unbound Force"] = {
 						["valid"] = true,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["icon"] = 2967102,
 						["unlocked"] = true,
+						["icon"] = 2967102,
 						["rank"] = 3,
 					},
 				},
 				["Class"] = "MAGE",
 			},
-			["Default.Frostmane.Rykahshaman"] = {
-				["lastUpdate"] = 1601669626,
+			["Default.Silvermoon.Mechaboost"] = {
+				["lastUpdate"] = 1594901077,
 				["Specializations"] = {
-					86, -- [1]
-					230, -- [2]
-					89, -- [3]
+					0, -- [1]
 				},
-				["Class"] = "SHAMAN",
+				["Class"] = "PRIEST",
 			},
 			["Default.Frostmane.Rykahhpo"] = {
 				["lastUpdate"] = 1602616505,
@@ -195,17 +193,17 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "HUNTER",
 			},
-			["Default.Silvermoon.Mechaboost"] = {
-				["lastUpdate"] = 1594901077,
+			["Default.Defias Brotherhood.Mechaboost"] = {
+				["lastUpdate"] = 1594773075,
 				["Specializations"] = {
 					0, -- [1]
 				},
 				["Class"] = "PRIEST",
 			},
 			["Default.Frostmane.Rykahdruid"] = {
-				["lastUpdate"] = 1603061711,
+				["lastUpdate"] = 1603195072,
 				["Specializations"] = {
-					[3] = 2,
+					[3] = 14,
 				},
 				["Class"] = "DRUID",
 			},
@@ -402,12 +400,14 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "DEMONHUNTER",
 			},
-			["Default.Defias Brotherhood.Mechaboost"] = {
-				["lastUpdate"] = 1594773075,
+			["Default.Frostmane.Rykahshaman"] = {
+				["lastUpdate"] = 1601669626,
 				["Specializations"] = {
-					0, -- [1]
+					86, -- [1]
+					230, -- [2]
+					89, -- [3]
 				},
-				["Class"] = "PRIEST",
+				["Class"] = "SHAMAN",
 			},
 			["Default.Frostmane.Rykahpriest"] = {
 				["lastUpdate"] = 1599957778,
@@ -1081,6 +1081,12 @@ DataStore_TalentsRefDB = {
 						22419, -- [1]
 						22418, -- [2]
 						22420, -- [3]
+						19283, -- [4]
+						18570, -- [5]
+						18571, -- [6]
+						22163, -- [7]
+						22156, -- [8]
+						22159, -- [9]
 					},
 				}, -- [3]
 				{

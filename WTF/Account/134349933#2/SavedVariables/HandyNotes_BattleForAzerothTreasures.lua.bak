@@ -22,24 +22,24 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
-		["Advboi - Frostmane"] = "Advboi - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
 		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
-		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
+		["Spacegoatss - Frostmane"] = "Spacegoatss - Frostmane",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
-		["Spacegoatss - Frostmane"] = "Spacegoatss - Frostmane",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
+		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Advboi - Frostmane"] = "Advboi - Frostmane",
 	},
 	["profiles"] = {
 		["Rykaahpo - Frostmane"] = {
@@ -84,7 +84,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Advboi - Grim Batol"] = {
 		},
-		["Advboi - Frostmane"] = {
+		["Rykahboost - Aggramar"] = {
 		},
 		["Rykahbolt - Frostmane"] = {
 		},
@@ -92,7 +92,7 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Rcumplus - Aggramar"] = {
 		},
-		["Blissard - Frostmane"] = {
+		["Rykahpow - Frostmane"] = {
 		},
 		["Rykkahpo - Frostmane"] = {
 		},
@@ -100,9 +100,9 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Rykahthree - Frostmane"] = {
 		},
-		["Mechaboost - Sylvanas"] = {
+		["Rykahpo - Frostmane"] = {
 		},
-		["Rykahpo - Doomhammer"] = {
+		["Spacegoatss - Frostmane"] = {
 		},
 		["Rÿkah - Frostmane"] = {
 		},
@@ -110,15 +110,15 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Rykah - Frostmane"] = {
 		},
-		["Spacegoatss - Frostmane"] = {
+		["Rykahpo - Doomhammer"] = {
 		},
-		["Rykahpo - Frostmane"] = {
+		["Mechaboost - Sylvanas"] = {
 		},
-		["Rykahpow - Frostmane"] = {
+		["Blissard - Frostmane"] = {
 		},
 		["Mechaboost - Silvermoon"] = {
 		},
-		["Rykahboost - Aggramar"] = {
+		["Advboi - Frostmane"] = {
 		},
 	},
 }

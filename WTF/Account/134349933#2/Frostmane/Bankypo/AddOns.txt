@@ -130,3 +130,4 @@ WorldQuestParty: disabled
 WorldQuestGroupFinder: disabled
 AAP-EasternKingdoms: enabled
 AAP-Shadowlands: enabled
+ElvUI_QuestXP: disabled

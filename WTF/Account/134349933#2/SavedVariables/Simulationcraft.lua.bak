@@ -21,23 +21,23 @@ SimulationCraftDB = {
 		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Morallygrey - Frostmane"] = "Morallygrey - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
-		["Advboi - Frostmane"] = "Advboi - Frostmane",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
-		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Morallygrey - Frostmane"] = "Morallygrey - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 	},
 	["profiles"] = {
 		["Rykaahpo - Frostmane"] = {
@@ -117,7 +117,7 @@ SimulationCraftDB = {
 		},
 		["Advboi - Grim Batol"] = {
 		},
-		["Rykahboost - Aggramar"] = {
+		["Morallygrey - Frostmane"] = {
 		},
 		["Rykahpo - Frostmane"] = {
 			["minimap"] = {
@@ -135,9 +135,12 @@ SimulationCraftDB = {
 		},
 		["Rykahthree - Frostmane"] = {
 		},
-		["Advboi - Frostmane"] = {
+		["Rykahhpo - Frostmane"] = {
 		},
-		["Blissard - Frostmane"] = {
+		["Rykahpow - Frostmane"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Rÿkah - Frostmane"] = {
 			["minimap"] = {
@@ -153,19 +156,16 @@ SimulationCraftDB = {
 		},
 		["Rykahpo - Doomhammer"] = {
 		},
-		["Rykahpow - Frostmane"] = {
-			["minimap"] = {
-				["hide"] = true,
-			},
+		["Blissard - Frostmane"] = {
 		},
-		["Rykahhpo - Frostmane"] = {
+		["Advboi - Frostmane"] = {
 		},
 		["Mechaboost - Silvermoon"] = {
 			["minimap"] = {
 				["hide"] = true,
 			},
 		},
-		["Morallygrey - Frostmane"] = {
+		["Rykahboost - Aggramar"] = {
 		},
 	},
 }

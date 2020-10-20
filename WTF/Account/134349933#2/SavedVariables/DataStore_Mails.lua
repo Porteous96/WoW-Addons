@@ -39,7 +39,7 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2020/10/08 18:17",
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1602944621,
+				["lastUpdate"] = 1603137641,
 				["Mails"] = {
 					{
 						["icon"] = 134327,
@@ -48,8 +48,8 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Payment of 57944 Gold paid to Rykahpo-Frostmane for weekly boosting activities in Ravencrest Union",
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 4.031863212585449,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 1.797847270965576,
 					}, -- [1]
 					{
 						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
@@ -58,8 +58,8 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["icon"] = 1387622,
 						["count"] = 1,
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 8.848958015441895,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 6.614942073822022,
 					}, -- [2]
 					{
 						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
@@ -68,8 +68,8 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["icon"] = 1387622,
 						["count"] = 1,
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 8.848958015441895,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 6.614942073822022,
 					}, -- [3]
 					{
 						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
@@ -78,8 +78,8 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["icon"] = 1387622,
 						["count"] = 1,
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 8.848958015441895,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 6.614942073822022,
 					}, -- [4]
 					{
 						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
@@ -88,8 +88,8 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["icon"] = 1387622,
 						["count"] = 1,
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 8.848958015441895,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 6.614942073822022,
 					}, -- [5]
 					{
 						["icon"] = 134327,
@@ -98,8 +98,8 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 8.848958015441895,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 6.614942073822022,
 					}, -- [6]
 					{
 						["icon"] = 134327,
@@ -108,8 +108,8 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Payment of 172631 Gold paid to Rykahpo-Frostmane for weekly boosting activities in Ravencrest Union",
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 10.97847175598145,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 8.74445629119873,
 					}, -- [7]
 					{
 						["icon"] = 134327,
@@ -118,8 +118,8 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Hello Rykahpo,\n\n   Our brew this month is a celebration of autumn.  We think this brew captures just some of the essence of this season.  But you don't have to take our word for it, give it a try.\n\n   If you enjoyed this sample, you can purchase more from our vendors.\n\nEnjoy!\n\n- Brew of the Month Club",
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 14.20356464385986,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 11.96954822540283,
 					}, -- [8]
 					{
 						["link"] = "|cffffffff|Hitem:37907::::::::50:62:::::::|h[Autumnal Acorn Ale]|h|r",
@@ -128,8 +128,8 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["icon"] = 132797,
 						["count"] = 1,
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 14.20356464385986,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 11.96954822540283,
 					}, -- [9]
 					{
 						["icon"] = 134327,
@@ -138,8 +138,8 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Payment of 60278 Gold paid to Rykahpo-Frostmane for weekly boosting activities in Ravencrest Union",
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 20.23159790039063,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 17.99758148193359,
 					}, -- [10]
 					{
 						["icon"] = 134327,
@@ -148,18 +148,18 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Payment of 60278 Gold paid to Rykahpo-Frostmane for weekly boosting activities in Ravencrest Union",
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 29.9284839630127,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 27.69446754455566,
 					}, -- [11]
 					{
-						["icon"] = 135724,
-						["sender"] = "Customer Support",
-						["subject"] = "Your Item Restoration",
-						["returned"] = true,
+						["icon"] = 134327,
+						["sender"] = "Thaumaturge Vashreen",
+						["subject"] = "Lost Currency",
+						["returned"] = false,
 						["money"] = 0,
-						["text"] = "Greetings,\r\n\r\nThank you for using the Item Restoration System.\r\n\r\nItems that were available for immediate restoration are attached to this message. Certain restorations may require assistance from our Customer Support team and can take some additional time to process. Additional information will be provided after we have had the opportunity to review your request.\r\n\r\nPlease contact us if you require additional assistance. Support tickets can be submitted through the Customer Support menu (the red ? on your action bar) or the Battle.net Support Site at http://www.battle.net/support.\r\n\r\nRegards,\r\nBlizzard Entertainment Customer Support",
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 46.30278778076172,
+						["text"] = "We discovered some lost currency from Ny'alotha, the Waking City in our ledgers, and it apparently belongs to you. 200 Corrupted Mementos have been added. If this caused you to go over your currency limit, we adjusted the amount to bring you to the limit and not go over!",
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 27.97961807250977,
 					}, -- [12]
 					{
 						["icon"] = 135724,
@@ -168,8 +168,8 @@ DataStore_MailsDB = {
 						["returned"] = true,
 						["money"] = 0,
 						["text"] = "Greetings,\r\n\r\nThank you for using the Item Restoration System.\r\n\r\nItems that were available for immediate restoration are attached to this message. Certain restorations may require assistance from our Customer Support team and can take some additional time to process. Additional information will be provided after we have had the opportunity to review your request.\r\n\r\nPlease contact us if you require additional assistance. Support tickets can be submitted through the Customer Support menu (the red ? on your action bar) or the Battle.net Support Site at http://www.battle.net/support.\r\n\r\nRegards,\r\nBlizzard Entertainment Customer Support",
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 190.3473815917969,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 44.06877136230469,
 					}, -- [13]
 					{
 						["icon"] = 135724,
@@ -178,15 +178,25 @@ DataStore_MailsDB = {
 						["returned"] = true,
 						["money"] = 0,
 						["text"] = "Greetings,\r\n\r\nThank you for using the Item Restoration System.\r\n\r\nItems that were available for immediate restoration are attached to this message. Certain restorations may require assistance from our Customer Support team and can take some additional time to process. Additional information will be provided after we have had the opportunity to review your request.\r\n\r\nPlease contact us if you require additional assistance. Support tickets can be submitted through the Customer Support menu (the red ? on your action bar) or the Battle.net Support Site at http://www.battle.net/support.\r\n\r\nRegards,\r\nBlizzard Entertainment Customer Support",
-						["lastCheck"] = 1602944621,
-						["daysLeft"] = 232.4324340820313,
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 188.1133728027344,
 					}, -- [14]
+					{
+						["icon"] = 135724,
+						["sender"] = "Customer Support",
+						["subject"] = "Your Item Restoration",
+						["returned"] = true,
+						["money"] = 0,
+						["text"] = "Greetings,\r\n\r\nThank you for using the Item Restoration System.\r\n\r\nItems that were available for immediate restoration are attached to this message. Certain restorations may require assistance from our Customer Support team and can take some additional time to process. Additional information will be provided after we have had the opportunity to review your request.\r\n\r\nPlease contact us if you require additional assistance. Support tickets can be submitted through the Customer Support menu (the red ? on your action bar) or the Battle.net Support Site at http://www.battle.net/support.\r\n\r\nRegards,\r\nBlizzard Entertainment Customer Support",
+						["lastCheck"] = 1603137641,
+						["daysLeft"] = 230.1984100341797,
+					}, -- [15]
 				},
-				["lastVisitDate"] = "2020/10/17 15:23",
+				["lastVisitDate"] = "2020/10/19 21:00",
 			},
 			["Default.Frostmane.Rykahdruid"] = {
-				["lastUpdate"] = 1603061816,
-				["lastVisitDate"] = "2020/10/18 23:56",
+				["lastUpdate"] = 1603195128,
+				["lastVisitDate"] = "2020/10/20 12:58",
 			},
 			["Default.Frostmane.Rykahpoo"] = {
 				["lastUpdate"] = 1601823277,
@@ -251,20 +261,29 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2020/10/18 00:35",
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1603131887,
+				["lastUpdate"] = 1603195323,
 				["Mails"] = {
 					{
-						["lastCheck"] = 1603131887,
+						["lastCheck"] = 1603195323,
 						["sender"] = "Medívh",
 						["subject"] = "Mechagon run",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "had to go in and work evening today so i wont be able to be on tonight \n",
 						["icon"] = 134327,
-						["daysLeft"] = 11.68370342254639,
+						["daysLeft"] = 10.94959449768066,
 					}, -- [1]
+					{
+						["lastCheck"] = 1603195323,
+						["sender"] = "Auction House",
+						["subject"] = "Auction successful: Vantus Rune: Ny'alotha, the Waking City",
+						["returned"] = false,
+						["money"] = 8161250,
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["daysLeft"] = 29.9985294342041,
+					}, -- [2]
 				},
-				["lastVisitDate"] = "2020/10/19 19:24",
+				["lastVisitDate"] = "2020/10/20 13:02",
 			},
 			["Default.Aggramar.Rcumplus"] = {
 				["lastUpdate"] = 1602187101,
