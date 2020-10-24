@@ -2,6 +2,7 @@
 DataStore_KeystonesDB = {
 	["profileKeys"] = {
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
+		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
@@ -12,24 +13,25 @@ DataStore_KeystonesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1603142942,
 				["currentKeystone"] = {
-					["keystoneLevel"] = 16,
-					["name"] = "Kings' Rest",
-					["texture"] = 2178730,
+					["keystoneLevel"] = 14,
+					["name"] = "Shrine of the Storm",
+					["texture"] = 2178732,
 				},
+				["lastUpdate"] = 1603398109,
 			},
 		},
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 3,
-			["NextWeeklyReset"] = "2020-10-21",
+			["NextWeeklyReset"] = "2020-10-28",
 		},
 	},
 }
 DataStore_KeystonesRefDB = {
 	["profileKeys"] = {
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
+		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",

@@ -1,163 +1,383 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/g welcome", -- [1]
-		"/raid brb", -- [2]
-		"/raid sorry im back", -- [3]
-		"/cw Autori but this was good fun, cheers for coming", -- [4]
-		"/raid I'm gonna leave here boys, cheers for the run", -- [5]
-		"/cw Slyxhamsterz summ", -- [6]
-		"/elvui", -- [7]
-		"/reload", -- [8]
-		"/p why do we party sync for this?", -- [9]
-		"/p and why do we need chromie time>", -- [10]
-		"/p interesting", -- [11]
-		"/p i wonder if void talon will be easier", -- [12]
-		"/p i dont think its 10%", -- [13]
-		"/p i used to kill these constantly in wod", -- [14]
-		"/p gz", -- [15]
-		"/p ye", -- [16]
-		"/p ty", -- [17]
-		"/cw Slyxhamsterz yah and i got one", -- [18]
-		"/cw Slyxhamsterz none*", -- [19]
-		"/cw Slyxhamsterz and wasted time", -- [20]
+		"/p i thought you were already in", -- [1]
+		"/p yeah", -- [2]
+		"/p is it normal?", -- [3]
+		"/p join", -- [4]
+		"/i heyo", -- [5]
+		"/i :)", -- [6]
+		"/i just pull boss with trash", -- [7]
+		"/i ow", -- [8]
+		"/i yeh apparently", -- [9]
+		"/i tepartoos", -- [10]
+		"/i i love your name", -- [11]
+		"/i i forgot about that guy", -- [12]
+		"/i what is he from again?", -- [13]
+		"/i starting zone?", -- [14]
+		"/i who tf is this", -- [15]
+		"/i ty everyone", -- [16]
+		"that was real fast", -- [17]
+		"alright i really need to sleep now", -- [18]
+		"gn", -- [19]
+		"/g gn", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10678:Player-1303-0B564BCE:1:10:17:20:4294967295:4294967295:4294967295:4294967295|h[Cage Rematch]|h|r!", -- [1]
-			"Morgoran-Frostmane", -- [2]
+			"me neither", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Morgoran-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1629, -- [11]
-			"Player-1303-0B564BCE", -- [12]
+			3245, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Morgoran|r",
-			[51] = 1602967697,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603322801,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [1]
 		{
-			"i only now find that that leveling isnt scaling anymore?", -- [1]
-			"Healurselves-Frostmane", -- [2]
+			"store mounts :(", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1630, -- [11]
-			"Player-1303-0B64449F", -- [12]
+			3246, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeHealurselves|r",
-			[51] = 1602967783,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603322804,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [2]
 		{
-			"it is?", -- [1]
-			"Uthersun-Frostmane", -- [2]
+			"oh wait actually", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1633, -- [11]
-			"Player-1303-0B603F93", -- [12]
+			3247, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Uthersun|r",
-			[51] = 1602967846,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603322813,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [3]
 		{
-			"but till a certan lvl i think", -- [1]
-			"Uthersun-Frostmane", -- [2]
+			"ayyyyyyyy", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1634, -- [11]
-			"Player-1303-0B603F93", -- [12]
+			3248, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Uthersun|r",
-			[51] = 1602967856,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603322840,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [4]
 		{
-			"yeah", -- [1]
-			"Healurselves-Frostmane", -- [2]
+			"i do lol", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1635, -- [11]
-			"Player-1303-0B64449F", -- [12]
+			3249, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeHealurselves|r",
-			[51] = 1602967860,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603322840,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [5]
 		{
-			"eastern kingdoms seems to 35", -- [1]
-			"Healurselves-Frostmane", -- [2]
+			"perfect", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1636, -- [11]
-			"Player-1303-0B64449F", -- [12]
+			3250, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeHealurselves|r",
-			[51] = 1602967872,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603322842,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [6]
 		{
-			"how is arcane today?", -- [1]
-			"|Kq118|k", -- [2]
+			"I spend too much money on games", -- [1]
+			"Huntizzy-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntizzy-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3251, -- [11]
+			"Player-1303-0B68903B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603322859,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [7]
+		{
+			"same", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3252, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603322864,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [8]
+		{
+			"wtf is this", -- [1]
+			"Huntizzy-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntizzy-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3255, -- [11]
+			"Player-1303-0B68903B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603322889,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [9]
+		{
+			"no idea", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3256, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603322921,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [10]
+		{
+			"ooooh shiny", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3257, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603322927,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [11]
+		{
+			"i cant do it lol", -- [1]
+			"Huntizzy-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntizzy-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3258, -- [11]
+			"Player-1303-0B68903B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603322986,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [12]
+		{
+			"lol", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3259, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603322990,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [13]
+		{
+			"i'll leave you alone then", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3260, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603322995,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [14]
+		{
+			"have fun", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3261, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603323001,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [15]
+		{
+			"haha thanks", -- [1]
+			"Huntizzy-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntizzy-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3262, -- [11]
+			"Player-1303-0B68903B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603323005,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [16]
+		{
+			"i mean", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -166,833 +386,572 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1638, -- [11]
-			false, -- [12]
-			19, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1602967967,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [7]
-		{
-			"WTS |cffa335ee|Hitem:163573::::::::50:70::::1:28:188:::|h[Goldenmane's Reins]|h|r cheaper than AH", -- [1]
-			"Virllon-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Virllon-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1641, -- [11]
-			"Player-1303-0B699937", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Virllon|r",
-			[51] = 1602968099,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6109:Player-1303-0B815C5D:1:10:17:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Morchok]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1644, -- [11]
-			"Player-1303-0B815C5D", -- [12]
+			3556, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602968161,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [9]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6174:Player-1303-0B815C5D:1:10:17:20:4294967295:4294967295:4294967295:4294967295|h[Don't Stand So Close to Me]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1645, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602968161,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [10]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10844:Player-1303-0B564BCE:1:10:17:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Spellblade Aluriel]|h|r!", -- [1]
-			"Morgoran-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Morgoran-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1646, -- [11]
-			"Player-1303-0B564BCE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Morgoran|r",
-			[51] = 1602968181,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [11]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6110:Player-1303-0B815C5D:1:10:17:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Warlord Zon'ozz]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1648, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602968223,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [12]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6111:Player-1303-0B815C5D:1:10:17:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Yor'sahj the Unsleeping]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1650, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602968293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
-		{
-			"how much? /w me, maybe i have", -- [1]
-			"Angelspawn-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Angelspawn-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1653, -- [11]
-			"Player-1303-0A15E1C1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeAngelspawn-GrimBatol|r",
-			[51] = 1602968310,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"WTS |cffa335ee|Hitem:44413::::::::50:72:::::::|h[Mekgineer's Chopper]|h|r 30K gold and |cff0070dd|Hitem:87250::::::::50:72:::::::|h[Depleted-Kyparium Rocket]|h|r 82k gold", -- [1]
-			"Stalcker-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Stalcker-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1694, -- [11]
-			"Player-1303-05952395", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cStalcker-Aggra(Português)|r",
-			[51] = 1602968468,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6106:Player-1303-0B815C5D:1:10:17:20:4294967295:4294967295:4294967295:4294967295|h[Siege of Wyrmrest Temple]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1699, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602968533,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [16]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6112:Player-1303-0B815C5D:1:10:17:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Hagara the Stormbinder]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1700, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602968533,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325170,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [17]
 		{
-			"wm on", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"help me", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2210, -- [11]
-			"Player-1303-0B698344", -- [12]
+			3557, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602972746,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325171,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [18]
 		{
-			"then we sum u", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"i'll do this one ", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2211, -- [11]
-			"Player-1303-0B698344", -- [12]
-			0, -- [13]
+			3558, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602972746,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603325175,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Lizzie",
 		}, -- [19]
 		{
-			"summ", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"then go slep", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2216, -- [11]
-			"Player-1303-0B698344", -- [12]
-			0, -- [13]
+			3559, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602972766,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603325179,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Lizzie",
 		}, -- [20]
 		{
-			"just", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"kk", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2219, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3560, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972811,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325182,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [21]
 		{
-			"someone here", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"wc", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2220, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3561, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972817,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325183,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [22]
 		{
-			"dudu", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"aight", -- [1]
+			"Mozakî-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2221, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3562, -- [11]
+			"Player-1303-0B62DC95", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972818,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Mozakî|r",
+			[51] = 1603325184,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [23]
 		{
-			"uh nvm", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"kk", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2222, -- [11]
-			"Player-1596-0BE924FF", -- [12]
-			0, -- [13]
+			3563, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972823,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603325185,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Lizzie",
 		}, -- [24]
 		{
-			"sync", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"gI with that i guess o.O", -- [1]
+			"Mozakî-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2223, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3566, -- [11]
+			"Player-1303-0B62DC95", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972824,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Mozakî|r",
+			[51] = 1603325193,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [25]
 		{
-			"yea", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"trying to solo WM but i cant cause of mechanics", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2224, -- [11]
-			"Player-1303-0B698344", -- [12]
+			3567, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602972827,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325195,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [26]
 		{
-			"sum him", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"im not going to molester you", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2225, -- [11]
-			"Player-1303-0B698344", -- [12]
+			3568, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602972829,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325208,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [27]
 		{
-			"how does this work? why do we party sync?", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"...much", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2226, -- [11]
-			"Player-1303-0B698344", -- [12]
+			3569, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602972838,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325212,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [28]
 		{
-			"so we all get chromie time", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"lmao", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2227, -- [11]
-			"Player-1303-0B698344", -- [12]
+			3570, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602972846,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325215,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [29]
 		{
-			"this boss fucked up", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"that would help lol", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2230, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3575, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972884,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325274,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [30]
 		{
-			"changes aggro", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"true", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2231, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3576, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972890,
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325281,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [31]
 		{
-			"non stop", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"I will wait for you at the start", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2233, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3577, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972893,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325287,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [32]
 		{
-			"not possible tanking him", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"lol uhm", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2234, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3580, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972904,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325306,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [33]
 		{
-			"sec flying backl", -- [1]
-			"Necromas-Blade'sEdge", -- [2]
+			"did you get that?", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necromas-Blade'sEdge", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2235, -- [11]
-			"Player-1416-09DA5D98", -- [12]
+			3581, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecromas-Blade'sEdge|r",
-			[51] = 1602972911,
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325310,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [34]
 		{
-			"dead", -- [1]
-			"Necromas-Blade'sEdge", -- [2]
+			"i thought you were already in ", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necromas-Blade'sEdge", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2236, -- [11]
-			"Player-1416-09DA5D98", -- [12]
+			3582, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecromas-Blade'sEdge|r",
-			[51] = 1602972915,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325310,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [35]
 		{
-			"np", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"yeah", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2237, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3583, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972923,
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325312,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [36]
 		{
-			"i see", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"I was soloing it waiting for the queue", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2238, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3584, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972926,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325322,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [37]
 		{
-			"STOPD DPS", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"Common", -- [3]
+			"is it normal?", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2239, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3585, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972938,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325322,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [38]
 		{
-			"STOP", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"Common", -- [3]
+			"yea", -- [1]
+			"Huntizzy-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2240, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3586, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972940,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325325,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [39]
 		{
-			"here", -- [1]
-			"Necromas-Blade'sEdge", -- [2]
+			"join", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necromas-Blade'sEdge", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2241, -- [11]
-			"Player-1416-09DA5D98", -- [12]
+			3587, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecromas-Blade'sEdge|r",
-			[51] = 1602972944,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325328,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [40]
 		{
-			"Gratz", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"Common", -- [3]
+			"hi guys", -- [1]
+			"Tepartoos-Nemesis", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Tepartoos-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2245, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3591, -- [11]
+			"Player-1316-0B94F061", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972959,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff38bb9Tepartoos-Nemesis|r",
+			[51] = 1603325340,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [41]
 		{
-			"gz", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"hey", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2246, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3593, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1602972967,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325343,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [42]
 		{
-			"got a mount i had ;(", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2247, -- [11]
-			"Player-1303-0B698344", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602972970,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [43]
-		{
-			"need 1 more mount only", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2248, -- [11]
-			"Player-1596-0BE924FF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972973,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [44]
-		{
-			"why do we party sync for this?", -- [1]
+			"heyo", -- [1]
 			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1002,7 +961,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2249, -- [11]
+			3594, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1010,123 +969,167 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1602972974,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1603325344,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [43]
+		{
+			"hey", -- [1]
+			"Huntizzy-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Huntizzy-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3595, -- [11]
+			"Player-1303-0B68903B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325345,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [44]
+		{
+			":)", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3613, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325433,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [45]
 		{
-			"need that mount", -- [1]
-			"Necromas-Blade'sEdge", -- [2]
+			"bis healer", -- [1]
+			"Shockïra-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necromas-Blade'sEdge", -- [5]
+			"Shockïra-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2250, -- [11]
-			"Player-1416-09DA5D98", -- [12]
+			3621, -- [11]
+			"Player-3391-0B94C643", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecromas-Blade'sEdge|r",
-			[51] = 1602972982,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff006fdcShockïra-Silvermoon|r",
+			[51] = 1603325441,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [46]
 		{
-			"so everyone gets in chromie time instantly", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"all good", -- [1]
+			"Shockïra-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"Shockïra-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2251, -- [11]
-			"Player-1303-0B698344", -- [12]
+			3624, -- [11]
+			"Player-3391-0B94C643", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602972983,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff006fdcShockïra-Silvermoon|r",
+			[51] = 1603325443,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [47]
 		{
-			"Timewalking", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"just pull boss with trash", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2252, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3625, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602972984,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325447,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [48]
 		{
-			"chromie time", -- [1]
-			"Necromas-Blade'sEdge", -- [2]
+			"my objective is right below here", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Necromas-Blade'sEdge", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2253, -- [11]
-			"Player-1416-09DA5D98", -- [12]
+			3642, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecromas-Blade'sEdge|r",
-			[51] = 1602972995,
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325503,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [49]
 		{
-			"instead of everyone having to go stormwind to turn it on", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"lol", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2255, -- [11]
-			"Player-1303-0B698344", -- [12]
+			3643, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602972999,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325504,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [50]
 		{
-			"and why do we need chromie time>", -- [1]
+			"Uproot on Rykahpo", -- [1]
 			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
@@ -1134,7 +1137,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2256, -- [11]
+			3644, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1142,297 +1145,297 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1602973003,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1603325517,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [51]
 		{
-			"its like a new time", -- [1]
-			"Theworldo-Hyjal", -- [2]
-			"", -- [3]
+			"Soul Thorns on Rykahpo", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Theworldo-Hyjal", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2257, -- [11]
-			"Player-1390-091FF782", -- [12]
+			3652, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Theworldo-Hyjal|r",
-			[51] = 1602973017,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325545,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [52]
 		{
-			"cause in normal time people camp and oneshots these", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"ow", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2258, -- [11]
-			"Player-1303-0B698344", -- [12]
+			3663, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602973020,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325588,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [53]
 		{
-			"so there is less ppl in", -- [1]
-			"Theworldo-Hyjal", -- [2]
+			"ouch charlie that hurt", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Theworldo-Hyjal", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2259, -- [11]
-			"Player-1390-091FF782", -- [12]
+			3664, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Theworldo-Hyjal|r",
-			[51] = 1602973024,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325598,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [54]
 		{
-			"interesting", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"that ib cancel", -- [1]
+			"Shockïra-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Shockïra-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2263, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3665, -- [11]
+			"Player-3391-0B94C643", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1602973068,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff006fdcShockïra-Silvermoon|r",
+			[51] = 1603325598,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [55]
 		{
-			"u can farm tlpd", -- [1]
-			"Theworldo-Hyjal", -- [2]
+			"was 2 fast xD", -- [1]
+			"Shockïra-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Theworldo-Hyjal", -- [5]
+			"Shockïra-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2264, -- [11]
-			"Player-1390-091FF782", -- [12]
+			3666, -- [11]
+			"Player-3391-0B94C643", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Theworldo-Hyjal|r",
-			[51] = 1602973077,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff006fdcShockïra-Silvermoon|r",
+			[51] = 1603325600,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [56]
 		{
-			"aeonaxx", -- [1]
-			"Theworldo-Hyjal", -- [2]
+			"yeh apparently", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Theworldo-Hyjal", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2265, -- [11]
-			"Player-1390-091FF782", -- [12]
+			3667, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Theworldo-Hyjal|r",
-			[51] = 1602973079,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325605,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [57]
 		{
-			"i wonder if void talon will be easier", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"u were los", -- [1]
+			"Shockïra-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Shockïra-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2266, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3668, -- [11]
+			"Player-3391-0B94C643", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1602973080,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff006fdcShockïra-Silvermoon|r",
+			[51] = 1603325610,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [58]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12844:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[The MOTHERLODE!!]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
+			"shit mage", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2288, -- [11]
-			"Player-1303-0B815C5D", -- [12]
+			3670, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602973111,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325615,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [59]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12845:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The MOTHERLODE!!]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
+			"tepartoos", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2289, -- [11]
-			"Player-1303-0B815C5D", -- [12]
+			3675, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602973111,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325659,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [60]
 		{
-			"is this really 10%?", -- [1]
-			"Theworldo-Hyjal", -- [2]
+			"i love your name", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Theworldo-Hyjal", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2290, -- [11]
-			"Player-1390-091FF782", -- [12]
+			3676, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Theworldo-Hyjal|r",
-			[51] = 1602973115,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325661,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [61]
 		{
-			"ye", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"xDD", -- [1]
+			"Tepartoos-Nemesis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Tepartoos-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2291, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3677, -- [11]
+			"Player-1316-0B94F061", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973117,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Tepartoos-Nemesis|r",
+			[51] = 1603325669,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [62]
 		{
-			"damn i dont get this toy", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"i forgot about that guy", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2302, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3678, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973125,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325672,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [63]
 		{
-			"never xd", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"\"T'partoos\" TM", -- [1]
+			"Tepartoos-Nemesis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Tepartoos-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2303, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3681, -- [11]
+			"Player-1316-0B94F061", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973126,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Tepartoos-Nemesis|r",
+			[51] = 1603325689,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [64]
 		{
-			"i dont think its 10%", -- [1]
+			"what is he from again?", -- [1]
 			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1442,7 +1445,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2305, -- [11]
+			3685, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1450,615 +1453,644 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1602973135,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1603325702,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [65]
 		{
-			"Its 10%", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"a lightforged dranei", -- [1]
+			"Tepartoos-Nemesis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Tepartoos-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2306, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3691, -- [11]
+			"Player-1316-0B94F061", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973143,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Tepartoos-Nemesis|r",
+			[51] = 1603325715,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [66]
 		{
-			"i used to kill these constantly in wod", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"lol", -- [1]
+			"Tepartoos-Nemesis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Tepartoos-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2307, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3697, -- [11]
+			"Player-1316-0B94F061", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1602973143,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Tepartoos-Nemesis|r",
+			[51] = 1603325729,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [67]
 		{
-			"it is", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"starting zone?", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2308, -- [11]
-			"Player-1303-0B698344", -- [12]
+			3698, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602973147,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325733,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [68]
 		{
-			"i have like 60 kill", -- [1]
-			"Theworldo-Hyjal", -- [2]
-			"", -- [3]
+			":o", -- [1]
+			"Emmagema-Nemesis", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Theworldo-Hyjal", -- [5]
+			"Emmagema-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2309, -- [11]
-			"Player-1390-091FF782", -- [12]
+			3699, -- [11]
+			"Player-1316-0B92A1C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Theworldo-Hyjal|r",
-			[51] = 1602973153,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edEmmagema-Nemesis|r",
+			[51] = 1603325733,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [69]
 		{
-			"1 mount", -- [1]
-			"Theworldo-Hyjal", -- [2]
+			"that dmg", -- [1]
+			"Tepartoos-Nemesis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Theworldo-Hyjal", -- [5]
+			"Tepartoos-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2310, -- [11]
-			"Player-1390-091FF782", -- [12]
+			3702, -- [11]
+			"Player-1316-0B94F061", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Theworldo-Hyjal|r",
-			[51] = 1602973162,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Tepartoos-Nemesis|r",
+			[51] = 1603325735,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [70]
 		{
-			"i have 80", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"no, the one you help in order to unlock the race :)", -- [1]
+			"Tepartoos-Nemesis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Tepartoos-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2311, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3712, -- [11]
+			"Player-1316-0B94F061", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973165,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Tepartoos-Nemesis|r",
+			[51] = 1603325754,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [71]
 		{
-			"2 mounts", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"", -- [3]
+			"Runic Mark on Rykahpo", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2312, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3716, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973166,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325769,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [72]
 		{
-			"Terrorfist been killed?", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"", -- [3]
+			"3", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2314, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3717, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973203,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325772,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [73]
 		{
-			"was down when i got here", -- [1]
-			"Necromas-Blade'sEdge", -- [2]
-			"", -- [3]
+			"2", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Necromas-Blade'sEdge", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2315, -- [11]
-			"Player-1416-09DA5D98", -- [12]
+			3718, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecromas-Blade'sEdge|r",
-			[51] = 1602973220,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325773,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [74]
 		{
-			"uh", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"", -- [3]
+			"1", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2316, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3719, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973224,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325774,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [75]
 		{
-			"you saw it dead?", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"who tf is this", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2317, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3727, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973227,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325806,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [76]
 		{
-			"no just not up", -- [1]
-			"Necromas-Blade'sEdge", -- [2]
-			"", -- [3]
+			"Runic Mark on Rykahpo", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Necromas-Blade'sEdge", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2318, -- [11]
-			"Player-1416-09DA5D98", -- [12]
+			3729, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNecromas-Blade'sEdge|r",
-			[51] = 1602973237,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325807,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [77]
 		{
-			"uh", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"", -- [3]
+			"3", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2319, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3730, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973240,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325810,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [78]
 		{
-			"so should be up", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"", -- [3]
+			"2", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2320, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3731, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973242,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325811,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [79]
 		{
-			"any momment", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"", -- [3]
+			"1", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2321, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3732, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973245,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325812,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [80]
 		{
-			"ye", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
-			"", -- [3]
+			"Patogeno Virulento", -- [1]
+			"Emmagema-Nemesis", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Emmagema-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2326, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3742, -- [11]
+			"Player-1316-0B92A1C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973259,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edEmmagema-Nemesis|r",
+			[51] = 1603325845,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [81]
 		{
-			"jesus", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"ty <3", -- [1]
+			"Shockïra-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Shockïra-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2333, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3769, -- [11]
+			"Player-3391-0B94C643", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973263,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff006fdcShockïra-Silvermoon|r",
+			[51] = 1603325924,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [82]
 		{
-			"again", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"ty u2 guys", -- [1]
+			"Tepartoos-Nemesis", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Tepartoos-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2334, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3770, -- [11]
+			"Player-1316-0B94F061", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973267,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff38bb9Tepartoos-Nemesis|r",
+			[51] = 1603325928,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [83]
 		{
-			"3 time already", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"ty everyone", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2335, -- [11]
-			"Player-1596-0BE924FF", -- [12]
+			3772, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973270,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603325930,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [84]
 		{
-			"xd", -- [1]
-			"Theworldo-Hyjal", -- [2]
+			"cheers guys :D", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Theworldo-Hyjal", -- [5]
+			"Huntizzy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2336, -- [11]
-			"Player-1390-091FF782", -- [12]
+			3773, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Theworldo-Hyjal|r",
-			[51] = 1602973272,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603325933,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [85]
 		{
-			"gz", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
+			":o", -- [1]
+			"Emmagema-Nemesis", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Emmagema-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2337, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3775, -- [11]
+			"Player-1316-0B92A1C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1602973274,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8687edEmmagema-Nemesis|r",
+			[51] = 1603325937,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [86]
 		{
-			"i get som,ething i don';t fucking need", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"that was real fast", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2338, -- [11]
-			"Player-1596-0BE924FF", -- [12]
-			0, -- [13]
+			3776, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973275,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603325938,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Lizzie",
 		}, -- [87]
 		{
-			"that was all right?", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"yea lol", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2339, -- [11]
-			"Player-1303-0B698344", -- [12]
-			0, -- [13]
+			3778, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602973291,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603325943,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Lizzie",
 		}, -- [88]
 		{
-			"yes", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"i didnt even get time to molest yo", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2340, -- [11]
-			"Player-1596-0BE924FF", -- [12]
-			0, -- [13]
+			3784, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973294,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603325963,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Lizzie",
 		}, -- [89]
 		{
-			"thanks", -- [1]
-			"Extazi-TheMaelstrom", -- [2]
+			"feels bad man", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Extazi-TheMaelstrom", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2341, -- [11]
-			"Player-1596-0BE924FF", -- [12]
-			0, -- [13]
+			3790, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cExtazi-TheMaelstrom|r",
-			[51] = 1602973304,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603325979,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Lizzie",
 		}, -- [90]
 		{
-			"well thanks for inv then", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"alright i really need to sleep now", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2342, -- [11]
-			"Player-1303-0B698344", -- [12]
-			0, -- [13]
+			3799, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602973305,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603326006,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Lizzie",
 		}, -- [91]
 		{
-			"ye", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"gn", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2343, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
+			3800, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1602973309,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603326010,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Lizzie",
 		}, -- [92]
 		{
-			"ty", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"gnight", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2344, -- [11]
+			3801, -- [11]
+			false, -- [12]
+			26, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603326013,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Lizzie",
+		}, -- [93]
+		{
+			"gn", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3802, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2066,140 +2098,120 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1602973309,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [93]
-		{
-			"++", -- [1]
-			"Theworldo-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Theworldo-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2346, -- [11]
-			"Player-1390-091FF782", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Theworldo-Hyjal|r",
-			[51] = 1602973314,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1603326017,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [94]
 		{
-			"but u see", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"thanks for the help! :D", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2347, -- [11]
-			"Player-1303-0B698344", -- [12]
-			0, -- [13]
+			3803, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602973314,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603326017,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Lizzie",
 		}, -- [95]
 		{
-			"2 people got drop", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"gn :d", -- [1]
+			"Huntizzy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2348, -- [11]
-			"Player-1303-0B698344", -- [12]
+			3805, -- [11]
+			"Player-1303-0B68903B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602973317,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffa9d271Huntizzy|r",
+			[51] = 1603326021,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [96]
 		{
-			"yah and i got one", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"you're welcome", -- [1]
+			"|Kq55|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2351, -- [11]
-			"Player-1303-0B698344", -- [12]
-			0, -- [13]
+			3806, -- [11]
+			false, -- [12]
+			26, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602973334,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffa9d271Lizzie|r",
+			[51] = 1603326024,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Lizzie",
 		}, -- [97]
 		{
-			"none*", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
-			"", -- [3]
+			"Quite the |cff71d5ff|Hspell:19236:0|h[Desperate Prayer]|h|r you got there", -- [1]
+			"Lohs-Frostmane", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"Lohs-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2354, -- [11]
-			"Player-1303-0B698344", -- [12]
+			112, -- [11]
+			"Player-1303-0B95B093", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602973336,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffefefeLohs|r",
+			[51] = 1603394300,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [98]
 		{
-			"and wasted time", -- [1]
-			"Slyxhamsterz-Frostmane", -- [2]
+			"< NOVA > is OFFERING Nyalotha HC 12/12 for 140k! VIP Traders 60k! Nyalotha Mythic 12/12 + 3Trader 3.5M / Nzoth MYTHIC+Mount for 2M / Jaina mount 350k / M+15=90k Discount for multiple runs + Selling all M+10-23 + FH boosts", -- [1]
+			"Novataïr-Frostmane", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Slyxhamsterz-Frostmane", -- [5]
+			"2. Trade - City", -- [4]
+			"Novataïr-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2356, -- [11]
-			"Player-1303-0B698344", -- [12]
+			118, -- [11]
+			"Player-1303-0B7F839E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Slyxhamsterz|r",
-			[51] = 1602973338,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			true, -- [17]
+			[52] = "|cff00fe97Novataïr|r",
+			[51] = 1603394356,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 }

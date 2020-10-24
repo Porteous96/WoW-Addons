@@ -53,9 +53,9 @@ HandyNotes_LegionTreasuresDB = {
 		["Swobuswagins - Tarren Mill"] = "Swobuswagins - Tarren Mill",
 		["Iujahwdihaip - Frostmane"] = "Iujahwdihaip - Frostmane",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Dlorange - Tarren Mill"] = "Dlorange - Tarren Mill",
 		["Spacegoatss - Frostmane"] = "Spacegoatss - Frostmane",
+		["Dlorange - Tarren Mill"] = "Dlorange - Tarren Mill",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
 		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 	},
@@ -164,11 +164,11 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Rykah - Frostmane"] = {
 		},
-		["Rykahpo - Doomhammer"] = {
+		["Spacegoatss - Frostmane"] = {
 		},
 		["Dlorange - Tarren Mill"] = {
 		},
-		["Spacegoatss - Frostmane"] = {
+		["Rykahpo - Doomhammer"] = {
 		},
 		["Mechaboost - Silvermoon"] = {
 		},

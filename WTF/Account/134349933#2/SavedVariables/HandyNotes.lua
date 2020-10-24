@@ -51,8 +51,8 @@ HandyNotesDB = {
 		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Preech - Tarren Mill"] = "Preech - Tarren Mill",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
@@ -170,9 +170,9 @@ HandyNotesDB = {
 		},
 		["Preachez - Tarren Mill"] = {
 		},
-		["Rykahpo - Frostmane"] = {
-		},
 		["Rykahhpo - Frostmane"] = {
+		},
+		["Rykahpo - Frostmane"] = {
 		},
 		["Rcumplus - Aggramar"] = {
 		},
@@ -268,8 +268,8 @@ HandyNotes_HandyNotesDB = {
 		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Preech - Tarren Mill"] = "Preech - Tarren Mill",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
@@ -387,9 +387,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Preachez - Tarren Mill"] = {
 		},
-		["Rykahpo - Frostmane"] = {
-		},
 		["Rykahhpo - Frostmane"] = {
+		},
+		["Rykahpo - Frostmane"] = {
 		},
 		["Rcumplus - Aggramar"] = {
 		},

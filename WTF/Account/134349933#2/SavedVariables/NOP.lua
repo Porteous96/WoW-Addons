@@ -19,8 +19,8 @@ NewOpenablesProfile = {
 		["Swobuswagins - Tarren Mill"] = {
 			["itemID"] = 147721,
 		},
-		["Préach - Tarren Mill"] = {
-			["itemID"] = 139670,
+		["Preachx - Tarren Mill"] = {
+			["itemID"] = 152097,
 		},
 		["Rykahpoo - Frostmane"] = {
 			["itemID"] = 147221,
@@ -28,18 +28,15 @@ NewOpenablesProfile = {
 		["Preacho - Tarren Mill"] = {
 			["itemID"] = 147721,
 		},
-		["Chuggernuts - Tarren Mill"] = {
-			["itemID"] = 147721,
+		["Préach - Tarren Mill"] = {
+			["itemID"] = 139670,
 		},
 		["Preachez - Tarren Mill"] = {
 			["itemID"] = 147721,
 		},
-		["Preachx - Tarren Mill"] = {
-			["itemID"] = 152097,
+		["Chuggernuts - Tarren Mill"] = {
+			["itemID"] = 147721,
 		},
-	},
-	["global"] = {
-		["version"] = "|cFFFFFFFF09.16 16.12.2018 use |cFFFF00FF/nop|cFFFFFFFF",
 	},
 	["profileKeys"] = {
 		["Xpreach - Tarren Mill"] = "Default",
@@ -58,12 +55,12 @@ NewOpenablesProfile = {
 		["Rykahboost - Turalyon"] = "Default",
 		["Toutsweet - Tarren Mill"] = "Default",
 		["Dlory - Tarren Mill"] = "Default",
-		["Mechaboost - Sylvanas"] = "Default",
-		["Préach - Tarren Mill"] = "Default",
-		["Preacho - Tarren Mill"] = "Default",
+		["Preachx - Tarren Mill"] = "Default",
 		["Advboi - Grim Batol"] = "Default",
+		["Preacho - Tarren Mill"] = "Default",
+		["Préach - Tarren Mill"] = "Default",
 		["Preachez - Tarren Mill"] = "Default",
-		["Rÿkah - Frostmane"] = "Default",
+		["Rykahhpo - Frostmane"] = "Default",
 		["Rykahpo - Frostmane"] = "Default",
 		["Rcumplus - Aggramar"] = "Default",
 		["Preech - Tarren Mill"] = "Default",
@@ -71,35 +68,38 @@ NewOpenablesProfile = {
 		["Mechaboost - Defias Brotherhood"] = "Default",
 		["Rykahpoa - Frostmane"] = "Default",
 		["Sulivan - Tarren Mill"] = "Default",
-		["Meticulous - Tarren Mill"] = "Default",
+		["Rykahpo - Doomhammer"] = "Default",
 		["Swobuswagins - Tarren Mill"] = "Default",
 		["Iujahwdihaip - Frostmane"] = "Default",
 		["Spacegoatss - Frostmane"] = "Default",
-		["Rykahpo - Doomhammer"] = "Default",
+		["Meticulous - Tarren Mill"] = "Default",
 		["Dlorange - Tarren Mill"] = "Default",
-		["Rykahhpo - Frostmane"] = "Default",
+		["Rÿkah - Frostmane"] = "Default",
 		["Mechaboost - Silvermoon"] = "Default",
-		["Preachx - Tarren Mill"] = "Default",
+		["Mechaboost - Sylvanas"] = "Default",
+	},
+	["global"] = {
+		["version"] = "|cFFFFFFFF09.16 16.12.2018 use |cFFFF00FF/nop|cFFFFFFFF",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["T_BLACKLIST"] = {
 				[0] = true,
-				[140760] = true,
-				[140749] = true,
+				[154783] = true,
+				[160680] = true,
 				[138883] = true,
-				[154785] = true,
-				[147348] = true,
-				[152734] = true,
+				[140760] = true,
+				[139428] = true,
+				[140749] = true,
 				[159636] = true,
 				[139418] = true,
 				[139420] = true,
 				[147349] = true,
 				[152095] = true,
 				[154801] = true,
-				[139428] = true,
-				[160680] = true,
-				[154783] = true,
+				[147348] = true,
+				[152734] = true,
+				[154785] = true,
 			},
 			["qb"] = {
 				"TOPLEFT", -- [1]

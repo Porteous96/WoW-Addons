@@ -15,9 +15,9 @@ HandyNotes_LegionTreasuresDB = {
 		["Rykahdk - Kazzak"] = "Rykahdk - Kazzak",
 		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
 		["Spacegoatss - Frostmane"] = "Spacegoatss - Frostmane",
+		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
@@ -88,11 +88,11 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Advboi - Frostmane"] = {
 		},
-		["Rykahpo - Doomhammer"] = {
+		["Spacegoatss - Frostmane"] = {
 		},
 		["Rykahpoo - Frostmane"] = {
 		},
-		["Spacegoatss - Frostmane"] = {
+		["Rykahpo - Doomhammer"] = {
 		},
 		["Ryykahpo - Frostmane"] = {
 		},

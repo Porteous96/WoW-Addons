@@ -44,7 +44,7 @@ RaiderIO_DB_TW_A_R: disabled
 RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_KR_A_R: disabled
 BigWigs_BurningCrusade: enabled
-AAP-Core: enabled
+AAP-Core: disabled
 DugisGuideViewerZ: disabled
 BigWigs_BattleOfDazaralor: enabled
 AzeriteTooltip: enabled
@@ -140,3 +140,4 @@ ElvUI_ProgressionInTooltip: enabled
 ElvUI_SLE: enabled
 AAP-EasternKingdoms: enabled
 AAP-Shadowlands: enabled
+ElvUI_QuestXP: disabled

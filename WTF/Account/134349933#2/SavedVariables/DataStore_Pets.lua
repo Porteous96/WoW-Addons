@@ -327,7 +327,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1603142941,
+				["lastUpdate"] = 1603394489,
 				["CRITTER"] = {
 					179831, -- [1]
 					248240, -- [2]
@@ -585,7 +585,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1602982075,
 			},
 			["Default.Frostmane.Rykahdruid"] = {
-				["lastUpdate"] = 1603195072,
+				["lastUpdate"] = 1603405457,
 				["CRITTER"] = {
 					285843, -- [1]
 				},
@@ -669,10 +669,10 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1602709343,
 			},
 			["Default.Frostmane.Rykahpriest"] = {
-				["lastUpdate"] = 1599957778,
+				["lastUpdate"] = 1603409485,
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1603195174,
+				["lastUpdate"] = 1603393485,
 			},
 			["Default.Aggramar.Rcumplus"] = {
 				["lastUpdate"] = 1602273005,

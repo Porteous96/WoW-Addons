@@ -3,37 +3,54 @@ RoutesDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Default",
 		["Rykahdruid - Frostmane"] = "Default",
-		["Rykahboost - Aggramar"] = "Default",
+		["Advboi - Frostmane"] = "Default",
 		["Rykahpala - Frostmane"] = "Default",
 		["Rykahpoa - Frostmane"] = "Default",
 		["Rykahpodh - Frostmane"] = "Default",
-		["Advboi - Frostmane"] = "Default",
+		["Rykahpoh - Frostmane"] = "Default",
 		["Rykahpodh - Kazzak"] = "Default",
-		["Mechaboost - Sylvanas"] = "Default",
-		["Rykahpriest - Frostmane"] = "Default",
 		["Blissard - Frostmane"] = "Default",
 		["Bankypo - Frostmane"] = "Default",
-		["Advboi - Grim Batol"] = "Default",
-		["Rykahpo - Doomhammer"] = "Default",
+		["Mechaboost - Sylvanas"] = "Default",
+		["Rykahpriest - Frostmane"] = "Default",
+		["Rykahpow - Frostmane"] = "Default",
+		["Rykahpoo - Frostmane"] = "Default",
 		["Rykahhpo - Frostmane"] = "Default",
 		["Rcumplus - Aggramar"] = "Default",
-		["Rykah - Frostmane"] = "Default",
+		["Rykahshaman - Frostmane"] = "Default",
 		["Rykkahpo - Frostmane"] = "Default",
 		["Mechaboost - Defias Brotherhood"] = "Default",
 		["Rykahthree - Frostmane"] = "Default",
-		["Rykahbolt - Frostmane"] = "Default",
+		["Rykahpo - Frostmane"] = "Default",
 		["Rÿkah - Frostmane"] = "Default",
 		["Ryykahpo - Frostmane"] = "Default",
-		["Rykahpo - Frostmane"] = "Default",
-		["Rykahshaman - Frostmane"] = "Default",
-		["Rykahpoo - Frostmane"] = "Default",
-		["Rykahpow - Frostmane"] = "Default",
+		["Rykahbolt - Frostmane"] = "Default",
+		["Rykah - Frostmane"] = "Default",
+		["Rykahpo - Doomhammer"] = "Default",
+		["Advboi - Grim Batol"] = "Default",
 		["Rykahtwo - Frostmane"] = "Default",
 		["Mechaboost - Silvermoon"] = "Default",
-		["Rykahpoh - Frostmane"] = "Default",
+		["Rykahboost - Aggramar"] = "Default",
 	},
 	["global"] = {
 		["routes"] = {
+			[896] = {
+				["WIT - Coarse Leather"] = {
+					["route"] = {
+						64373915, -- [1]
+						71374121, -- [2]
+						67544576, -- [3]
+						63704278, -- [4]
+					},
+					["color"] = {
+						0, -- [1]
+						0.1254901960784314, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["length"] = 10077.94026674555,
+				},
+			},
 			[376] = {
 				["Ghost Iron Ore"] = {
 					["route"] = {
@@ -65,23 +82,6 @@ RoutesDB = {
 						1, -- [4]
 					},
 					["length"] = 6894.270955408399,
-				},
-			},
-			[896] = {
-				["WIT - Coarse Leather"] = {
-					["route"] = {
-						64373915, -- [1]
-						71374121, -- [2]
-						67544576, -- [3]
-						63704278, -- [4]
-					},
-					["color"] = {
-						0, -- [1]
-						0.1254901960784314, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["length"] = 10077.94026674555,
 				},
 			},
 		},

@@ -7,214 +7,120 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 17,
+					["combatId"] = 57,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 0.001904,
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005038,
+							["spec"] = 256,
 							["damage_from"] = {
-								["Walking Bomb"] = true,
+								["Quakefist"] = true,
+								["[*] Shadow Word: Death"] = true,
 							},
 							["targets"] = {
-								["Mekgineer Thermaplugg"] = 8536,
-								["Walking Bomb"] = 127,
+								["Quakefist"] = 3386,
 							},
 							["pets"] = {
-								"Treant <Juraak-Silvermoon>", -- [1]
+								"Shadowfiend <Rykahpriest>", -- [1]
 							},
-							["spec"] = 102,
-							["colocacao"] = 1,
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["end_time"] = 1603409377,
+							["classe"] = "PRIEST",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 8143.001904,
-							["boss_fight_component"] = true,
-							["end_time"] = 1599957753,
-							["dps_started"] = false,
-							["total"] = 8663.001904,
-							["classe"] = "DRUID",
+							["total_without_pet"] = 2446.005038,
+							["colocacao"] = 1,
 							["friendlyfire"] = {
 							},
-							["nome"] = "Juraak-Silvermoon",
+							["dps_started"] = false,
+							["total"] = 3386.005038,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									[190984] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 634,
-										["g_amt"] = 0,
-										["n_max"] = 106,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 2001,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1367,
-										["n_min"] = 105,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 2001,
-										["c_max"] = 212,
-										["spellschool"] = 8,
-										["id"] = 190984,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["r_amt"] = 0,
-										["c_min"] = 210,
-									},
-									[164812] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 211,
-										["g_amt"] = 0,
-										["n_max"] = 22,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 863,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 652,
-										["n_min"] = 20,
-										["g_dmg"] = 0,
-										["counter"] = 36,
-										["total"] = 863,
-										["c_max"] = 43,
-										["spellschool"] = 64,
-										["id"] = 164812,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 31,
-										["r_amt"] = 0,
-										["c_min"] = 41,
-									},
-									[78674] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 811,
-										["g_amt"] = 0,
-										["n_max"] = 405,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 2835,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2024,
-										["n_min"] = 404,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 2835,
-										["c_max"] = 811,
-										["spellschool"] = 72,
-										["id"] = 78674,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 811,
-									},
-									[164815] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 333,
-										["g_amt"] = 0,
-										["n_max"] = 32,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 1003,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 670,
-										["n_min"] = 22,
-										["g_dmg"] = 0,
-										["counter"] = 36,
-										["total"] = 1003,
-										["c_max"] = 63,
-										["spellschool"] = 8,
-										["id"] = 164815,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 29,
-										["r_amt"] = 0,
-										["c_min"] = 45,
-									},
-									[194153] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 430,
-										["g_amt"] = 0,
-										["n_max"] = 162,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 1128,
-											["Walking Bomb"] = 106,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 804,
-										["n_min"] = 160,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 1234,
-										["c_max"] = 324,
-										["spellschool"] = 64,
-										["id"] = 194153,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 106,
-									},
-									[279729] = {
+									{
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 43,
+										["n_max"] = 5,
 										["targets"] = {
-											["Mekgineer Thermaplugg"] = 186,
-											["Walking Bomb"] = 21,
+											["Quakefist"] = 5,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 207,
-										["n_min"] = 20,
+										["n_dmg"] = 5,
+										["n_min"] = 5,
 										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 207,
+										["counter"] = 1,
+										["total"] = 5,
 										["c_max"] = 0,
-										["spellschool"] = 8,
-										["id"] = 279729,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[47666] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 365,
+										["g_amt"] = 0,
+										["n_max"] = 62,
+										["targets"] = {
+											["Quakefist"] = 733,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 368,
+										["n_min"] = 59,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 733,
+										["c_max"] = 124,
+										["spellschool"] = 2,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 120,
+									},
+									[585] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 162,
+										["g_amt"] = 0,
+										["n_max"] = 82,
+										["targets"] = {
+											["Quakefist"] = 726,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 564,
+										["n_min"] = 79,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 726,
+										["c_max"] = 162,
+										["spellschool"] = 2,
+										["id"] = 585,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -226,129 +132,26 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
 										["r_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 162,
 									},
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0B77CF83",
-							["last_dps"] = 142.3407749461956,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 299.001904,
-							["start_time"] = 1599957693,
-							["delay"] = 0,
-							["last_event"] = 1599957753,
-						}, -- [1]
-						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 0.008892,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Mekgineer Thermaplugg"] = 8178,
-							},
-							["pets"] = {
-								"Unknown <Zanm-Silvermoon>", -- [1]
-							},
-							["friendlyfire"] = {
-							},
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6861.008892,
-							["end_time"] = 1599957753,
-							["colocacao"] = 2,
-							["dps_started"] = false,
-							["total"] = 8178.008892,
-							["classe"] = "WARLOCK",
-							["on_hold"] = false,
-							["nome"] = "Zanm-Silvermoon",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[17962] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 329,
-										["g_amt"] = 0,
-										["n_max"] = 181,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 1019,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 690,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 1019,
-										["c_max"] = 329,
-										["spellschool"] = 4,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 329,
-									},
-									[116858] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 2328,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 2328,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 2328,
-										["c_max"] = 466,
-										["spellschool"] = 124,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 465,
-									},
-									[348] = {
+									[32379] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 73,
+										["n_max"] = 128,
 										["targets"] = {
-											["Mekgineer Thermaplugg"] = 210,
+											["Quakefist"] = 128,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 210,
-										["n_min"] = 66,
+										["n_dmg"] = 128,
+										["n_min"] = 128,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 210,
+										["counter"] = 1,
+										["total"] = 128,
 										["c_max"] = 0,
-										["spellschool"] = 4,
-										["id"] = 348,
+										["spellschool"] = 32,
+										["id"] = 32379,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -358,56 +161,25 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 3,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
 										["c_min"] = 0,
-									},
-									[157736] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 172,
-										["g_amt"] = 0,
-										["n_max"] = 45,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 764,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 592,
-										["n_min"] = 5,
-										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 764,
-										["c_max"] = 90,
-										["spellschool"] = 4,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["r_amt"] = 0,
-										["c_min"] = 82,
 									},
 									[259756] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 24,
+										["n_max"] = 8,
 										["targets"] = {
-											["Mekgineer Thermaplugg"] = 80,
+											["Quakefist"] = 39,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 80,
+										["n_dmg"] = 39,
 										["n_min"] = 1,
 										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 80,
+										["counter"] = 10,
+										["total"] = 39,
 										["c_max"] = 0,
 										["spellschool"] = 48,
 										["id"] = 259756,
@@ -420,28 +192,28 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 11,
+										["n_amt"] = 10,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									[17877] = {
+									[8092] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 219,
+										["c_dmg"] = 244,
 										["g_amt"] = 0,
-										["n_max"] = 109,
+										["n_max"] = 120,
 										["targets"] = {
-											["Mekgineer Thermaplugg"] = 742,
+											["Quakefist"] = 364,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 523,
-										["n_min"] = 98,
+										["n_dmg"] = 120,
+										["n_min"] = 120,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 742,
-										["c_max"] = 219,
-										["spellschool"] = 36,
-										["id"] = 17877,
+										["counter"] = 2,
+										["total"] = 364,
+										["c_max"] = 244,
+										["spellschool"] = 32,
+										["id"] = 8092,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -451,359 +223,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 5,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
-										["c_min"] = 219,
-									},
-									[29722] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 464,
-										["g_amt"] = 0,
-										["n_max"] = 116,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 1718,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1254,
-										["n_min"] = 105,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 1718,
-										["c_max"] = 232,
-										["spellschool"] = 4,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 11,
-										["r_amt"] = 0,
-										["c_min"] = 232,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 267,
-							["serial"] = "Player-3391-0B71A39B",
-							["last_dps"] = 134.3719112732355,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.008892,
-							["start_time"] = 1599957697,
-							["delay"] = 0,
-							["last_event"] = 1599957752,
-						}, -- [2]
-						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 0.006804,
-							["damage_from"] = {
-								["Walking Bomb"] = true,
-							},
-							["targets"] = {
-								["Mekgineer Thermaplugg"] = 7805,
-								["Walking Bomb"] = 45,
-							},
-							["pets"] = {
-								"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
-							},
-							["friendlyfire"] = {
-							},
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6493.006804000001,
-							["end_time"] = 1599957753,
-							["colocacao"] = 3,
-							["dps_started"] = false,
-							["total"] = 7850.006804000001,
-							["classe"] = "HUNTER",
-							["on_hold"] = false,
-							["nome"] = "Worgylegoshi-Thunderhorn",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[75] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 241,
-										["g_amt"] = 0,
-										["n_max"] = 64,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 1157,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 916,
-										["n_min"] = 56,
-										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 1157,
-										["c_max"] = 121,
-										["spellschool"] = 1,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["r_amt"] = 0,
-										["c_min"] = 120,
-									},
-									[257045] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 253,
-										["g_amt"] = 0,
-										["n_max"] = 32,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 920,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 667,
-										["n_min"] = 31,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["total"] = 920,
-										["c_max"] = 64,
-										["spellschool"] = 1,
-										["id"] = 257045,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 21,
-										["r_amt"] = 0,
-										["c_min"] = 63,
-									},
-									[257620] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 45,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 135,
-											["Walking Bomb"] = 45,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 180,
-										["n_min"] = 45,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 180,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 257620,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[185358] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 269,
-										["g_amt"] = 0,
-										["n_max"] = 135,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 1204,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 935,
-										["n_min"] = 133,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 1204,
-										["c_max"] = 269,
-										["spellschool"] = 64,
-										["id"] = 185358,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 269,
-									},
-									[56641] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 74,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 440,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 440,
-										["n_min"] = 73,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 440,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 56641,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[19434] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 611,
-										["g_amt"] = 0,
-										["n_max"] = 458,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 2592,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1981,
-										["n_min"] = 304,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 2592,
-										["c_max"] = 611,
-										["spellschool"] = 1,
-										["id"] = 19434,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 611,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 254,
-							["serial"] = "Player-1313-0B7742DA",
-							["last_dps"] = 128.982547181288,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 308.006804,
-							["start_time"] = 1599957693,
-							["delay"] = 0,
-							["last_event"] = 1599957753,
-						}, -- [3]
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.00156,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Mekgineer Thermaplugg"] = 5559,
-							},
-							["pets"] = {
-								"Void Tendril <Rykahpriest>", -- [1]
-							},
-							["spec"] = 256,
-							["colocacao"] = 4,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 5161.001560000001,
-							["boss_fight_component"] = true,
-							["end_time"] = 1599957753,
-							["dps_started"] = false,
-							["total"] = 5559.001560000001,
-							["classe"] = "PRIEST",
-							["friendlyfire"] = {
-							},
-							["nome"] = "Rykahpriest",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[47666] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 372,
-										["g_amt"] = 0,
-										["n_max"] = 93,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 1209,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 837,
-										["n_min"] = 93,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 1209,
-										["c_max"] = 186,
-										["spellschool"] = 2,
-										["id"] = 47666,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["r_amt"] = 0,
-										["c_min"] = 186,
+										["c_min"] = 244,
 									},
 									[589] = {
-										["c_amt"] = 8,
+										["c_amt"] = 5,
 										["b_amt"] = 0,
-										["c_dmg"] = 502,
+										["c_dmg"] = 170,
 										["g_amt"] = 0,
-										["n_max"] = 37,
+										["n_max"] = 23,
 										["targets"] = {
-											["Mekgineer Thermaplugg"] = 1252,
+											["Quakefist"] = 451,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 750,
-										["n_min"] = 24,
+										["n_dmg"] = 281,
+										["n_min"] = 8,
 										["g_dmg"] = 0,
-										["counter"] = 34,
-										["total"] = 1252,
-										["c_max"] = 77,
+										["counter"] = 21,
+										["total"] = 451,
+										["c_max"] = 34,
 										["spellschool"] = 32,
 										["id"] = 589,
 										["r_dmg"] = 0,
@@ -815,202 +254,177 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 26,
+										["n_amt"] = 16,
 										["r_amt"] = 0,
-										["c_min"] = 58,
+										["c_min"] = 34,
 									},
-									[585] = {
-										["c_amt"] = 3,
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 92.50621637570904,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 189.005038,
+							["start_time"] = 1603409340,
+							["delay"] = 0,
+							["last_event"] = 1603409375,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.006732,
+							["classe"] = "PET",
+							["damage_from"] = {
+								["Quakefist"] = true,
+							},
+							["targets"] = {
+								["Quakefist"] = 940,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["end_time"] = 1603409377,
+							["aID"] = "19668",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 940.006732,
+							["serial"] = "Creature-0-3771-1116-307-19668-00001215C3",
+							["dps_started"] = false,
+							["total"] = 940.006732,
+							["ownerName"] = "Rykahpriest",
+							["nome"] = "Shadowfiend <Rykahpriest>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 799,
+										["c_dmg"] = 270,
 										["g_amt"] = 0,
-										["n_max"] = 133,
+										["n_max"] = 67,
 										["targets"] = {
-											["Mekgineer Thermaplugg"] = 2659,
+											["Quakefist"] = 940,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1860,
-										["n_min"] = 132,
+										["n_dmg"] = 670,
+										["n_min"] = 67,
 										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 2659,
-										["c_max"] = 267,
-										["spellschool"] = 2,
-										["id"] = 585,
+										["counter"] = 12,
+										["total"] = 940,
+										["c_max"] = 135,
+										["spellschool"] = 1,
+										["id"] = 1,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["r_amt"] = 0,
+										["c_min"] = 135,
+									}, -- [1]
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603409360,
+							["damage_taken"] = 9.006732,
+							["start_time"] = 1603409361,
+							["delay"] = 1603409360,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 434.00852,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+								["Shadowfiend <Rykahpriest>"] = true,
+								["Thaelinar-Wildhammer"] = true,
+								["Trevvpal-Sylvanas"] = true,
+								["Swinkapeppa-Silvermoon"] = true,
+								["Rykahpriest"] = true,
+							},
+							["targets"] = {
+								["Shadowfiend <Rykahpriest>"] = 9,
+								["Trevvpal-Sylvanas"] = 824,
+								["Rykahpriest"] = 60,
+							},
+							["pets"] = {
+							},
+							["end_time"] = 1603409377,
+							["fight_component"] = true,
+							["aID"] = "81360",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 893.00852,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 893.00852,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Quakefist",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 60,
+										["targets"] = {
+											["Rykahpriest"] = 60,
+											["Trevvpal-Sylvanas"] = 530,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 590,
+										["n_min"] = 24,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["a_amt"] = 0,
+										["total"] = 590,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 14,
 										["r_amt"] = 0,
-										["c_min"] = 266,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 6,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 41,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 41,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 41,
-										["c_max"] = 0,
-										["spellschool"] = 48,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 12,
-										["r_amt"] = 0,
 										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-1303-0B65E197",
-							["last_dps"] = 91.33930694533873,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00156,
-							["start_time"] = 1599957696,
-							["delay"] = 0,
-							["last_event"] = 1599957753,
-						}, -- [4]
-						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 748.003833,
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 367,
-										["g_amt"] = 0,
-										["n_max"] = 67,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 1183,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 816,
-										["n_min"] = 59,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 1183,
-										["c_max"] = 125,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["r_amt"] = 0,
-										["c_min"] = 118,
 									}, -- [1]
-									[205523] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 556,
-										["g_amt"] = 0,
-										["n_max"] = 70,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 832,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 276,
-										["n_min"] = 68,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 832,
-										["c_max"] = 139,
-										["spellschool"] = 1,
-										["id"] = 205523,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 139,
-									},
-									[100780] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 275,
-										["g_amt"] = 0,
-										["n_max"] = 28,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 688,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 413,
-										["n_min"] = 27,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 688,
-										["c_max"] = 55,
-										["spellschool"] = 1,
-										["id"] = 100780,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["r_amt"] = 0,
-										["c_min"] = 55,
-									},
-									[121253] = {
+									[161781] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 98,
+										["n_max"] = 107,
 										["targets"] = {
-											["Mekgineer Thermaplugg"] = 191,
+											["Trevvpal-Sylvanas"] = 294,
+											["Shadowfiend <Rykahpriest>"] = 9,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 191,
-										["n_min"] = 93,
+										["n_dmg"] = 303,
+										["n_min"] = 9,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 191,
+										["counter"] = 4,
+										["total"] = 303,
 										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 121253,
+										["id"] = 161781,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -1018,555 +432,68 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[117952] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 90,
-										["g_amt"] = 0,
-										["n_max"] = 12,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 138,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 48,
-										["n_min"] = 12,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 138,
-										["c_max"] = 24,
-										["spellschool"] = 8,
-										["id"] = 117952,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
+										["successful_casted"] = 3,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
 										["r_amt"] = 0,
-										["c_min"] = 22,
+										["c_min"] = 0,
 									},
 								},
 							},
-							["damage_from"] = {
-								["Mekgineer Thermaplugg"] = true,
-								["Sberla-Silvermoon"] = true,
-							},
-							["targets"] = {
-								["Mekgineer Thermaplugg"] = 3032,
-							},
-							["isTank"] = true,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["end_time"] = 1599957753,
-							["friendlyfire_total"] = 2865,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3032.003833,
-							["colocacao"] = 5,
-							["classe"] = "MONK",
-							["dps_started"] = false,
-							["total"] = 3032.003833,
-							["avoidance"] = {
-								["Mekgineer Thermaplugg"] = {
-									["DODGE"] = 2,
-									["FULL_ABSORB_AMT"] = 1527,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 4,
-									["ALL"] = 29,
-									["PARTIAL_ABSORBED"] = 21,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 2328,
-									["ABSORB"] = 25,
-									["ABSORB_AMT"] = 3855,
-									["FULL_HIT"] = 4,
-									["HITS"] = 19,
-									["FULL_HIT_AMT"] = 1527,
-								},
-								["overall"] = {
-									["DODGE"] = 2,
-									["FULL_ABSORB_AMT"] = 2275,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 40,
-									["ALL"] = 185,
-									["PARTIAL_ABSORBED"] = 23,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 2367,
-									["ABSORB"] = 63,
-									["ABSORB_AMT"] = 4642,
-									["FULL_HIT"] = 122,
-									["HITS"] = 19,
-									["FULL_HIT_AMT"] = 4108,
-								},
-								["Sberla-Silvermoon"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 748,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 36,
-									["ALL"] = 156,
-									["PARTIAL_ABSORBED"] = 2,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 39,
-									["ABSORB"] = 38,
-									["ABSORB_AMT"] = 787,
-									["FULL_HIT"] = 118,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 2581,
-								},
-							},
-							["friendlyfire"] = {
-								["Sberla-Silvermoon"] = {
-									["spells"] = {
-										[124255] = 2600,
-										[186439] = 265,
-									},
-									["total"] = 2865,
-								},
-							},
-							["nome"] = "Sberla-Silvermoon",
-							["spec"] = 268,
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0B77C625",
-							["last_dps"] = 49.81850171702966,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3771-1116-307-81360-00001215BC",
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 7805.003833,
-							["start_time"] = 1599957693,
+							["last_event"] = 1603409375,
+							["damage_taken"] = 11858.00852,
+							["start_time"] = 1603409341,
 							["delay"] = 0,
-							["last_event"] = 1599957756,
-						}, -- [5]
+							["tipo"] = 1,
+						}, -- [3]
 						{
 							["flag_original"] = 2632,
-							["totalabsorbed"] = 1527.00659,
+							["totalabsorbed"] = 129.001624,
 							["damage_from"] = {
-								["Void Tendril <Rykahpriest>"] = true,
-								["Sberla-Silvermoon"] = true,
-								["Rykahpriest"] = true,
-								["Unknown <Zanm-Silvermoon>"] = true,
-								["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-								["Treant <Juraak-Silvermoon>"] = true,
-								["Juraak-Silvermoon"] = true,
-								["Zanm-Silvermoon"] = true,
-								["Worgylegoshi-Thunderhorn"] = true,
 							},
 							["targets"] = {
-								["Treant <Juraak-Silvermoon>"] = 562,
-								["Sberla-Silvermoon"] = 4966,
+								["Rykahpriest"] = 129,
 							},
+							["spellicon"] = 136149,
+							["serial"] = "",
 							["pets"] = {
 							},
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 5528.00659,
-							["monster"] = true,
-							["boss_fight_component"] = true,
+							["total_without_pet"] = 129.001624,
+							["fight_component"] = true,
+							["end_time"] = 1603409377,
 							["dps_started"] = false,
-							["total"] = 5528.00659,
-							["end_time"] = 1599957753,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Mekgineer Thermaplugg",
+							["total"] = 129.001624,
+							["aID"] = "",
+							["monster"] = true,
+							["nome"] = "[*] Shadow Word: Death",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									{
+									[32409] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 414,
+										["n_max"] = 129,
 										["targets"] = {
-											["Treant <Juraak-Silvermoon>"] = 426,
-											["Sberla-Silvermoon"] = 4530,
+											["Rykahpriest"] = 129,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 4956,
-										["n_min"] = 63,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["DODGE"] = 2,
-										["total"] = 4956,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 3003,
-										["m_crit"] = 0,
-										["a_amt"] = 15,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 23,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									}, -- [1]
-									[52778] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 68,
-										["targets"] = {
-											["Treant <Juraak-Silvermoon>"] = 136,
-											["Sberla-Silvermoon"] = 174,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 310,
-										["n_min"] = 55,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 310,
-										["c_max"] = 0,
-										["id"] = 52778,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 174,
-										["m_crit"] = 0,
-										["a_amt"] = 3,
-										["m_amt"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[93655] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 39,
-										["targets"] = {
-											["Sberla-Silvermoon"] = 75,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 75,
-										["n_min"] = 36,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 75,
-										["c_max"] = 0,
-										["id"] = 93655,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 75,
-										["m_crit"] = 0,
-										["a_amt"] = 2,
-										["m_amt"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[74720] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 187,
-										["targets"] = {
-											["Sberla-Silvermoon"] = 187,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 187,
-										["n_min"] = 187,
+										["n_dmg"] = 129,
+										["n_min"] = 129,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 187,
+										["total"] = 129,
 										["c_max"] = 0,
-										["id"] = 74720,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 187,
-										["m_crit"] = 0,
-										["a_amt"] = 1,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["on_hold"] = false,
-							["serial"] = "Creature-0-3891-90-14342-7800-00005D67AA",
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1599957753,
-							["damage_taken"] = 33110.00659000001,
-							["start_time"] = 1599957694,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [6]
-						{
-							["flag_original"] = 4370,
-							["totalabsorbed"] = 0.004422,
-							["serial"] = "Pet-0-3891-90-14342-17199-0102FF025C",
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Mekgineer Thermaplugg"] = 1357,
-							},
-							["boss_fight_component"] = true,
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1357.004422,
-							["dps_started"] = false,
-							["total"] = 1357.004422,
-							["classe"] = "PET",
-							["ownerName"] = "Worgylegoshi-Thunderhorn",
-							["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 196,
-										["g_amt"] = 0,
-										["n_max"] = 25,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 852,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 656,
-										["n_min"] = 24,
-										["g_dmg"] = 0,
-										["counter"] = 31,
-										["total"] = 852,
-										["c_max"] = 50,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 27,
-										["r_amt"] = 0,
-										["c_min"] = 48,
-									}, -- [1]
-									[17253] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 253,
-										["g_amt"] = 0,
-										["n_max"] = 32,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 505,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 252,
-										["n_min"] = 31,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 505,
-										["c_max"] = 127,
-										["spellschool"] = 1,
-										["id"] = 17253,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 63,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1599957753,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.004422,
-							["start_time"] = 1599957695,
-							["delay"] = 0,
-							["last_event"] = 1599957753,
-						}, -- [7]
-						{
-							["flag_original"] = 4370,
-							["totalabsorbed"] = 0.006728,
-							["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Mekgineer Thermaplugg"] = 1317,
-							},
-							["boss_fight_component"] = true,
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1317.006728,
-							["dps_started"] = false,
-							["total"] = 1317.006728,
-							["classe"] = "PET",
-							["ownerName"] = "Zanm-Silvermoon",
-							["nome"] = "Unknown <Zanm-Silvermoon>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 216,
-										["g_amt"] = 0,
-										["n_max"] = 27,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 644,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 428,
-										["n_min"] = 25,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 644,
-										["c_max"] = 54,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 16,
-										["r_amt"] = 0,
-										["c_min"] = 54,
-									}, -- [1]
-									[7814] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 113,
-										["g_amt"] = 0,
-										["n_max"] = 56,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 673,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 560,
-										["n_min"] = 56,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 673,
-										["c_max"] = 113,
 										["spellschool"] = 32,
-										["id"] = 7814,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 113,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1599957753,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.006728,
-							["start_time"] = 1599957700,
-							["delay"] = 0,
-							["last_event"] = 1599957752,
-						}, -- [8]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.004259,
-							["monster"] = true,
-							["damage_from"] = {
-								["Juraak-Silvermoon"] = true,
-								["Worgylegoshi-Thunderhorn"] = true,
-							},
-							["targets"] = {
-								["Worgylegoshi-Thunderhorn"] = 308,
-								["Juraak-Silvermoon"] = 299,
-							},
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 607.004259,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 607.004259,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3891-90-14342-7915-00005D6ABD",
-							["nome"] = "Walking Bomb",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 43,
-										["targets"] = {
-											["Juraak-Silvermoon"] = 43,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 43,
-										["n_min"] = 43,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 43,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 1,
+										["id"] = 32409,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -1579,288 +506,111 @@ _detalhes_database = {
 										["n_amt"] = 1,
 										["r_amt"] = 0,
 										["c_min"] = 0,
-									}, -- [1]
-									[11504] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 308,
-										["targets"] = {
-											["Worgylegoshi-Thunderhorn"] = 308,
-											["Juraak-Silvermoon"] = 256,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 564,
-										["n_min"] = 256,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 564,
-										["c_max"] = 0,
-										["spellschool"] = 4,
-										["id"] = 11504,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
 							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1599957753,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 172.004259,
-							["start_time"] = 1599957752,
-							["delay"] = 1599957703,
-							["last_event"] = 1599957703,
-						}, -- [9]
-						{
-							["flag_original"] = 8466,
-							["totalabsorbed"] = 0.005348,
-							["serial"] = "Creature-0-3891-90-14342-103822-00005D6ACE",
-							["damage_from"] = {
-								["Mekgineer Thermaplugg"] = true,
-							},
-							["targets"] = {
-								["Mekgineer Thermaplugg"] = 520,
-							},
-							["boss_fight_component"] = true,
-							["pets"] = {
-							},
-							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 520.005348,
-							["dps_started"] = false,
-							["total"] = 520.005348,
-							["classe"] = "PET",
-							["ownerName"] = "Juraak-Silvermoon",
-							["nome"] = "Treant <Juraak-Silvermoon>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 150,
-										["g_amt"] = 0,
-										["n_max"] = 25,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 520,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 370,
-										["n_min"] = 24,
-										["g_dmg"] = 0,
-										["counter"] = 18,
-										["total"] = 520,
-										["c_max"] = 50,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["r_amt"] = 0,
-										["c_min"] = 50,
-									}, -- [1]
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1599957753,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 562.005348,
-							["start_time"] = 1599957742,
-							["delay"] = 1599957719,
-							["last_event"] = 1599957719,
-						}, -- [10]
-						{
-							["flag_original"] = 8465,
-							["totalabsorbed"] = 0.008903,
-							["serial"] = "Creature-0-3891-90-14342-95577-00005D6AD6",
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Mekgineer Thermaplugg"] = 398,
-							},
-							["boss_fight_component"] = true,
-							["pets"] = {
-							},
 							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 398.008903,
-							["dps_started"] = false,
-							["total"] = 398.008903,
-							["classe"] = "PET",
-							["ownerName"] = "Rykahpriest",
-							["nome"] = "Void Tendril <Rykahpriest>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 45,
-										["g_amt"] = 0,
-										["n_max"] = 13,
-										["targets"] = {
-											["Mekgineer Thermaplugg"] = 398,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 353,
-										["n_min"] = 8,
-										["g_dmg"] = 0,
-										["counter"] = 37,
-										["total"] = 398,
-										["c_max"] = 24,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 35,
-										["r_amt"] = 0,
-										["c_min"] = 21,
-									}, -- [1]
-								},
-							},
 							["friendlyfire"] = {
 							},
-							["end_time"] = 1599957753,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.008903,
-							["start_time"] = 1599957732,
-							["delay"] = 1599957740,
-							["last_event"] = 1599957740,
-						}, -- [11]
+							["damage_taken"] = 0.001624,
+							["start_time"] = 1603409376,
+							["delay"] = 1603409349,
+							["last_event"] = 1603409349,
+						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 17,
+					["combatId"] = 57,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
+							["targets_overheal"] = {
+								["Rykahpriest"] = 982,
 							},
 							["pets"] = {
+								"Shadowfiend <Rykahpriest>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PRIEST",
-							["totalover"] = 2444.001476,
-							["total_without_pet"] = 7181.001476,
-							["total"] = 7181.001476,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 982.002284,
+							["total_without_pet"] = 1262.002284,
+							["total"] = 1262.002284,
 							["targets_absorbs"] = {
-								["Sberla-Silvermoon"] = 1971,
+								["Shadowfiend <Rykahpriest>"] = 9,
+								["Rykahpriest"] = 129,
+								["Trevvpal-Sylvanas"] = 777,
 							},
 							["heal_enemy"] = {
 							},
-							["colocacao"] = 1,
 							["on_hold"] = false,
 							["serial"] = "Player-1303-0B65E197",
-							["totalabsorb"] = 1971.001476,
-							["last_hps"] = 117.9901985836634,
+							["totalabsorb"] = 915.002284,
+							["last_hps"] = 0,
 							["targets"] = {
-								["Juraak-Silvermoon"] = 296,
-								["Worgylegoshi-Thunderhorn"] = 186,
-								["Sberla-Silvermoon"] = 6699,
+								["Shadowfiend <Rykahpriest>"] = 9,
+								["Trevvpal-Sylvanas"] = 993,
+								["Rykahpriest"] = 260,
 							},
-							["totalover_without_pet"] = 0.001476,
-							["healing_taken"] = 0.001476,
-							["end_time"] = 1599957753,
-							["boss_fight_component"] = true,
-							["targets_overheal"] = {
-								["Worgylegoshi-Thunderhorn"] = 648,
-								["Juraak-Silvermoon"] = 613,
-								["Rykahpriest"] = 361,
-								["Sberla-Silvermoon"] = 822,
+							["totalover_without_pet"] = 0.002284,
+							["healing_taken"] = 260.002284,
+							["fight_component"] = true,
+							["end_time"] = 1603409377,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
 							},
+							["heal_enemy_amt"] = 0,
 							["nome"] = "Rykahpriest",
 							["spells"] = {
 								["tipo"] = 3,
 								["_ActorTable"] = {
-									[17] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 1971,
+									[94472] = {
+										["c_amt"] = 9,
+										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Juraak-Silvermoon"] = 361,
-											["Rykahpriest"] = 361,
-											["Worgylegoshi-Thunderhorn"] = 361,
+											["Rykahpriest"] = 260,
 										},
-										["n_max"] = 330,
+										["n_max"] = 0,
 										["targets"] = {
-											["Worgylegoshi-Thunderhorn"] = 0,
-											["Juraak-Silvermoon"] = 0,
-											["Rykahpriest"] = 0,
-											["Sberla-Silvermoon"] = 1971,
+											["Rykahpriest"] = 19,
+											["Trevvpal-Sylvanas"] = 174,
 										},
-										["n_min"] = 20,
-										["counter"] = 47,
-										["overheal"] = 1083,
-										["total"] = 1971,
-										["c_max"] = 0,
-										["id"] = 17,
+										["n_min"] = 0,
+										["counter"] = 9,
+										["overheal"] = 260,
+										["total"] = 193,
+										["c_max"] = 69,
+										["id"] = 94472,
 										["targets_absorbs"] = {
-											["Worgylegoshi-Thunderhorn"] = 0,
-											["Juraak-Silvermoon"] = 0,
-											["Rykahpriest"] = 0,
-											["Sberla-Silvermoon"] = 1971,
 										},
-										["m_healed"] = 0,
-										["c_curado"] = 0,
+										["c_curado"] = 193,
 										["m_crit"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 19,
 										["m_amt"] = 0,
-										["n_curado"] = 1971,
-										["n_amt"] = 47,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
 										["totaldenied"] = 0,
-										["is_shield"] = true,
+										["m_healed"] = 0,
 										["absorbed"] = 0,
 									},
 									[259760] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
+											["Rykahpriest"] = 46,
 										},
 										["n_max"] = 2,
 										["targets"] = {
-											["Sberla-Silvermoon"] = 8,
+											["Rykahpriest"] = 4,
 										},
-										["n_min"] = 2,
-										["counter"] = 4,
-										["overheal"] = 0,
-										["total"] = 8,
+										["n_min"] = 0,
+										["counter"] = 24,
+										["overheal"] = 46,
+										["total"] = 4,
 										["c_max"] = 0,
 										["id"] = 259760,
 										["targets_absorbs"] = {
@@ -1869,8 +619,8 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 8,
-										["n_amt"] = 4,
+										["n_curado"] = 4,
+										["n_amt"] = 24,
 										["totaldenied"] = 0,
 										["m_healed"] = 0,
 										["absorbed"] = 0,
@@ -1879,20 +629,17 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Juraak-Silvermoon"] = 92,
-											["Worgylegoshi-Thunderhorn"] = 24,
-											["Sberla-Silvermoon"] = 36,
+											["Rykahpriest"] = 528,
 										},
-										["n_max"] = 66,
+										["n_max"] = 38,
 										["targets"] = {
-											["Juraak-Silvermoon"] = 129,
-											["Worgylegoshi-Thunderhorn"] = 124,
-											["Sberla-Silvermoon"] = 1367,
+											["Rykahpriest"] = 108,
+											["Trevvpal-Sylvanas"] = 42,
 										},
-										["n_min"] = 12,
-										["counter"] = 60,
-										["overheal"] = 152,
-										["total"] = 1620,
+										["n_min"] = 8,
+										["counter"] = 24,
+										["overheal"] = 528,
+										["total"] = 150,
 										["c_max"] = 0,
 										["id"] = 81751,
 										["targets_absorbs"] = {
@@ -1901,463 +648,211 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 1620,
-										["n_amt"] = 60,
+										["n_curado"] = 150,
+										["n_amt"] = 24,
 										["totaldenied"] = 0,
 										["m_healed"] = 0,
 										["absorbed"] = 0,
 									},
-									[186263] = {
-										["c_amt"] = 2,
-										["totalabsorb"] = 0,
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 129,
 										["targets_overheal"] = {
-											["Sberla-Silvermoon"] = 654,
+											["Rykahpriest"] = 148,
 										},
-										["n_max"] = 0,
+										["n_max"] = 129,
 										["targets"] = {
-											["Sberla-Silvermoon"] = 1700,
+											["Rykahpriest"] = 129,
 										},
 										["n_min"] = 0,
 										["counter"] = 2,
-										["overheal"] = 654,
-										["total"] = 1700,
-										["c_max"] = 1177,
-										["id"] = 186263,
+										["overheal"] = 148,
+										["total"] = 129,
+										["c_max"] = 0,
+										["id"] = 17,
 										["targets_absorbs"] = {
+											["Rykahpriest"] = 129,
 										},
-										["c_curado"] = 1700,
-										["m_crit"] = 0,
-										["c_min"] = 523,
-										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 0,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[47750] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 267,
-										["targets"] = {
-											["Sberla-Silvermoon"] = 1070,
-										},
-										["n_min"] = 267,
-										["counter"] = 3,
-										["overheal"] = 0,
-										["total"] = 1070,
-										["c_max"] = 536,
-										["id"] = 47750,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 536,
+										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 536,
+										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 534,
+										["n_curado"] = 129,
 										["n_amt"] = 2,
 										["totaldenied"] = 0,
-										["m_healed"] = 0,
+										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
-									[94472] = {
-										["c_amt"] = 20,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Juraak-Silvermoon"] = 160,
-											["Worgylegoshi-Thunderhorn"] = 263,
-											["Sberla-Silvermoon"] = 132,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Juraak-Silvermoon"] = 167,
-											["Worgylegoshi-Thunderhorn"] = 62,
-											["Sberla-Silvermoon"] = 583,
-										},
-										["n_min"] = 0,
-										["counter"] = 20,
-										["overheal"] = 555,
-										["total"] = 812,
-										["c_max"] = 131,
-										["id"] = 94472,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 812,
-										["m_crit"] = 0,
-										["c_min"] = 26,
-										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 0,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957695,
-							["custom"] = 0,
-							["last_event"] = 1599957753,
-							["spec"] = 256,
-							["totaldenied"] = 0.001476,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [1]
-						{
-							["flag_original"] = 66834,
-							["healing_from"] = {
-								["Rykahpriest"] = true,
-								["Sberla-Silvermoon"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "MONK",
-							["totalover"] = 0.005773,
-							["total_without_pet"] = 303.005773,
-							["total"] = 303.005773,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 2,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0B77C625",
-							["totalabsorb"] = 0.005773,
-							["last_hps"] = 4.978652552537983,
-							["targets"] = {
-								["Sberla-Silvermoon"] = 303,
-							},
-							["totalover_without_pet"] = 0.005773,
-							["healing_taken"] = 7002.005773,
-							["boss_fight_component"] = true,
-							["end_time"] = 1599957753,
-							["targets_overheal"] = {
-							},
-							["nome"] = "Sberla-Silvermoon",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[178173] = {
+									[208771] = {
 										["c_amt"] = 0,
-										["totalabsorb"] = 0,
+										["totalabsorb"] = 786,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 303,
+										["n_max"] = 152,
 										["targets"] = {
-											["Sberla-Silvermoon"] = 303,
+											["Trevvpal-Sylvanas"] = 777,
+											["Shadowfiend <Rykahpriest>"] = 9,
 										},
-										["n_min"] = 303,
-										["counter"] = 1,
+										["n_min"] = 9,
+										["counter"] = 11,
 										["overheal"] = 0,
-										["total"] = 303,
+										["total"] = 786,
 										["c_max"] = 0,
-										["id"] = 178173,
+										["id"] = 208771,
 										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 303,
-										["n_amt"] = 1,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957752,
-							["custom"] = 0,
-							["last_event"] = 1599957730,
-							["spec"] = 268,
-							["totaldenied"] = 0.005773,
-							["delay"] = 1599957730,
-							["tipo"] = 2,
-						}, -- [2]
-						{
-							["flag_original"] = 1298,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "HUNTER",
-							["totalover"] = 0.008042,
-							["total_without_pet"] = 113.008042,
-							["total"] = 113.008042,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 3,
-							["on_hold"] = false,
-							["serial"] = "Player-1313-0B7742DA",
-							["totalabsorb"] = 0.008042,
-							["last_hps"] = 1.856821971377488,
-							["targets"] = {
-								["Worgylegoshi-Thunderhorn"] = 113,
-							},
-							["totalover_without_pet"] = 0.008042,
-							["healing_taken"] = 299.008042,
-							["end_time"] = 1599957753,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-								["Rykahpriest"] = true,
-								["Worgylegoshi-Thunderhorn"] = true,
-							},
-							["nome"] = "Worgylegoshi-Thunderhorn",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[143924] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 27,
-										["targets"] = {
-											["Worgylegoshi-Thunderhorn"] = 113,
-										},
-										["n_min"] = 5,
-										["counter"] = 10,
-										["overheal"] = 0,
-										["total"] = 113,
-										["c_max"] = 0,
-										["id"] = 143924,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 113,
-										["n_amt"] = 10,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957738,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["spec"] = 254,
-							["totaldenied"] = 0.008042,
-							["delay"] = 1599957718,
-							["last_event"] = 1599957718,
-						}, -- [3]
-						{
-							["flag_original"] = 1298,
-							["totalabsorb"] = 0.007025,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Rykahpriest"] = true,
-							},
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.007025,
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.007025,
-							["total_without_pet"] = 0.007025,
-							["end_time"] = 1599957753,
-							["healing_taken"] = 296.007025,
-							["classe"] = "DRUID",
-							["total"] = 0.007025,
-							["boss_fight_component"] = true,
-							["start_time"] = 1599957753,
-							["nome"] = "Juraak-Silvermoon",
-							["spec"] = 102,
-							["grupo"] = true,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["serial"] = "Player-3391-0B77CF83",
-							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["totaldenied"] = 0.007025,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [4]
-						{
-							["flag_original"] = 1298,
-							["totalabsorb"] = 0.005595,
-							["last_hps"] = 0,
-							["healing_from"] = {
-							},
-							["targets_overheal"] = {
-								["Unknown <Zanm-Silvermoon>"] = 14,
-								["Zanm-Silvermoon"] = 9,
-							},
-							["targets"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Unknown <Zanm-Silvermoon>"] = 14,
-											["Zanm-Silvermoon"] = 9,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Unknown <Zanm-Silvermoon>"] = 0,
-											["Zanm-Silvermoon"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 2,
-										["overheal"] = 23,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Unknown <Zanm-Silvermoon>"] = 0,
-											["Zanm-Silvermoon"] = 0,
+											["Trevvpal-Sylvanas"] = 777,
+											["Shadowfiend <Rykahpriest>"] = 9,
 										},
 										["m_healed"] = 0,
 										["c_curado"] = 0,
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 2,
+										["n_curado"] = 786,
+										["n_amt"] = 11,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
 							},
-							["pets"] = {
-								"Unknown <Zanm-Silvermoon>", -- [1]
-							},
-							["totalover_without_pet"] = 0.005595,
-							["iniciar_hps"] = false,
-							["healing_taken"] = 0.005595,
-							["totalover"] = 23.005595,
-							["total_without_pet"] = 0.005595,
-							["end_time"] = 1599957753,
-							["heal_enemy_amt"] = 0,
-							["classe"] = "WARLOCK",
-							["total"] = 0.005595,
-							["boss_fight_component"] = true,
-							["start_time"] = 1599957752,
-							["nome"] = "Zanm-Silvermoon",
-							["spec"] = 267,
 							["grupo"] = true,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["serial"] = "Player-3391-0B71A39B",
+							["start_time"] = 1603409344,
+							["spec"] = 256,
 							["custom"] = 0,
-							["last_event"] = 1599957695,
-							["on_hold"] = false,
-							["totaldenied"] = 0.005595,
-							["delay"] = 1599957695,
 							["tipo"] = 2,
-						}, -- [5]
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.002284,
+							["delay"] = 0,
+							["last_event"] = 1603409375,
+						}, -- [1]
 						{
-							["flag_original"] = 4370,
-							["totalabsorb"] = 0.001227,
+							["flag_original"] = 1304,
+							["totalabsorb"] = 0.008785,
 							["last_hps"] = 0,
 							["targets_overheal"] = {
 							},
-							["targets_absorbs"] = {
+							["healing_from"] = {
+								["Rykahpriest"] = true,
 							},
 							["targets"] = {
 							},
-							["healing_from"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["end_time"] = 1599957753,
-							["classe"] = "PET",
-							["totalover"] = 0.001227,
-							["total_without_pet"] = 0.001227,
-							["totalover_without_pet"] = 0.001227,
-							["heal_enemy_amt"] = 0,
-							["boss_fight_component"] = true,
-							["total"] = 0.001227,
-							["healing_taken"] = 0.001227,
-							["ownerName"] = "Zanm-Silvermoon",
-							["nome"] = "Unknown <Zanm-Silvermoon>",
 							["spells"] = {
 								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
 							},
-							["start_time"] = 1599957753,
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.008785,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.008785,
+							["total_without_pet"] = 0.008785,
+							["end_time"] = 1603409377,
+							["classe"] = "PALADIN",
+							["fight_component"] = true,
+							["total"] = 0.008785,
+							["aID"] = "1597-0D08B302",
+							["healing_taken"] = 993.008785,
+							["nome"] = "Trevvpal-Sylvanas",
+							["spec"] = 66,
+							["targets_absorbs"] = {
+							},
+							["start_time"] = 1603409377,
 							["heal_enemy"] = {
 							},
-							["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
+							["serial"] = "Player-1597-0D08B302",
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
-							["totaldenied"] = 0.001227,
+							["totaldenied"] = 0.008785,
 							["delay"] = 0,
 							["last_event"] = 0,
-						}, -- [6]
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.003648,
+							["total_without_pet"] = 0.003648,
+							["total"] = 0.003648,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3771-1116-307-19668-00001215C3",
+							["totalabsorb"] = 0.003648,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.003648,
+							["healing_taken"] = 9.003648,
+							["fight_component"] = true,
+							["end_time"] = 1603409377,
+							["targets_overheal"] = {
+							},
+							["ownerName"] = "Rykahpriest",
+							["nome"] = "Shadowfiend <Rykahpriest>",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["start_time"] = 1603409377,
+							["aID"] = "19668",
+							["custom"] = 0,
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["totaldenied"] = 0.003648,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [3]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 17,
+					["combatId"] = 57,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 						{
-							["received"] = 0.003,
-							["resource"] = 244.003,
+							["received"] = 0.002829,
+							["resource"] = 14.002829,
 							["targets"] = {
 							},
 							["pets"] = {
 							},
 							["powertype"] = 0,
-							["classe"] = "DRUID",
-							["passiveover"] = 0.003,
-							["total"] = 0.003,
-							["boss_fight_component"] = true,
-							["nome"] = "Juraak-Silvermoon",
+							["aID"] = "1597-0D08B302",
+							["passiveover"] = 0.002829,
+							["fight_component"] = true,
+							["total"] = 0.002829,
+							["nome"] = "Trevvpal-Sylvanas",
 							["spells"] = {
 								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
 							},
-							["grupo"] = true,
-							["resource_type"] = 8,
-							["flag_original"] = 1298,
-							["alternatepower"] = 0.003,
-							["last_event"] = 1599957751,
-							["spec"] = 102,
+							["spec"] = 66,
+							["resource_type"] = 9,
+							["flag_original"] = 1304,
+							["alternatepower"] = 0.002829,
+							["last_event"] = 1603409372,
+							["classe"] = "PALADIN",
 							["tipo"] = 3,
-							["serial"] = "Player-3391-0B77CF83",
-							["totalover"] = 0.003,
+							["serial"] = "Player-1597-0D08B302",
+							["totalover"] = 0.002829,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 17,
+					["combatId"] = 57,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
@@ -2365,3393 +860,23 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									[164812] = {
+									[6788] = {
 										["activedamt"] = 0,
-										["id"] = 164812,
-										["targets"] = {
-										},
-										["uptime"] = 60,
-										["appliedamt"] = 1,
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[164815] = {
-										["activedamt"] = 0,
-										["id"] = 164815,
-										["targets"] = {
-										},
-										["uptime"] = 59,
-										["appliedamt"] = 1,
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 111,
-							["classe"] = "DRUID",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[164545] = {
-										["activedamt"] = 6,
-										["id"] = 164545,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[164547] = {
-										["activedamt"] = 6,
-										["id"] = 164547,
-										["targets"] = {
-										},
-										["uptime"] = 27,
-										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[24858] = {
-										["activedamt"] = 1,
-										["id"] = 24858,
-										["targets"] = {
-										},
-										["uptime"] = 60,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 119,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 102,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[190984] = 16,
-								[8921] = 4,
-								[78674] = 6,
-								[205636] = 1,
-								[194153] = 6,
-								[93402] = 4,
-							},
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957753,
-							["nome"] = "Juraak-Silvermoon",
-							["pets"] = {
-							},
-							["serial"] = "Player-3391-0B77CF83",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[257044] = {
-										["activedamt"] = 0,
-										["id"] = 257044,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 18,
-							["classe"] = "HUNTER",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[68992] = {
-										["activedamt"] = 1,
-										["id"] = 68992,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[269576] = {
-										["activedamt"] = 6,
-										["id"] = 269576,
+										["id"] = 6788,
 										["targets"] = {
 										},
 										["uptime"] = 14,
-										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 8,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 254,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[257044] = 3,
-								[185358] = 8,
-								[257620] = 3,
-								[56641] = 6,
-								[19434] = 6,
-							},
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957753,
-							["nome"] = "Worgylegoshi-Thunderhorn",
-							["pets"] = {
-								"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
-							},
-							["serial"] = "Player-1313-0B7742DA",
-							["tipo"] = 4,
-						}, -- [2]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[196414] = {
-										["activedamt"] = 0,
-										["id"] = 196414,
-										["targets"] = {
-										},
-										["uptime"] = 35,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[17877] = {
-										["activedamt"] = 0,
-										["id"] = 17877,
-										["targets"] = {
-										},
-										["uptime"] = 29,
-										["appliedamt"] = 5,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[157736] = {
-										["activedamt"] = 0,
-										["id"] = 157736,
-										["targets"] = {
-										},
-										["uptime"] = 43,
-										["appliedamt"] = 2,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 86,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[117828] = {
-										["activedamt"] = 5,
-										["id"] = 117828,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[256374] = {
-										["activedamt"] = 1,
-										["id"] = 256374,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[108366] = {
-										["activedamt"] = 2,
-										["id"] = 108366,
-										["targets"] = {
-										},
-										["uptime"] = 58,
 										["appliedamt"] = 2,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-								},
-							},
-							["debuff_uptime"] = 107,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17962] = 5,
-								[116858] = 5,
-								[348] = 3,
-								[17877] = 6,
-								[29722] = 13,
-							},
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957753,
-							["nome"] = "Zanm-Silvermoon",
-							["pets"] = {
-								"Unknown <Zanm-Silvermoon>", -- [1]
-							},
-							["serial"] = "Player-3391-0B71A39B",
-							["tipo"] = 4,
-						}, -- [3]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[6788] = {
+									[208772] = {
 										["activedamt"] = 0,
-										["id"] = 6788,
+										["id"] = 208772,
 										["targets"] = {
 										},
-										["uptime"] = 28,
-										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[187464] = {
-										["activedamt"] = 0,
-										["id"] = 187464,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[589] = {
-										["activedamt"] = 0,
-										["id"] = 589,
-										["targets"] = {
-										},
-										["uptime"] = 54,
-										["appliedamt"] = 2,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["dispell"] = 1.008459,
-							["buff_uptime"] = 196,
-							["classe"] = "PRIEST",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[17] = {
-										["activedamt"] = 1,
-										["id"] = 17,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[21562] = {
-										["activedamt"] = 1,
-										["id"] = 21562,
-										["targets"] = {
-										},
-										["uptime"] = 60,
-										["appliedamt"] = 1,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[326419] = {
-										["activedamt"] = 1,
-										["id"] = 326419,
-										["targets"] = {
-										},
-										["uptime"] = 60,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[256374] = {
-										["activedamt"] = 1,
-										["id"] = 256374,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[93795] = {
-										["activedamt"] = 1,
-										["id"] = 93795,
-										["targets"] = {
-										},
-										["uptime"] = 60,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[194384] = {
-										["activedamt"] = 1,
-										["id"] = 194384,
-										["targets"] = {
-										},
-										["uptime"] = 2,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["dispell_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[527] = {
-										["dispell"] = 1,
-										["id"] = 527,
-										["dispell_oque"] = {
-											[52778] = 1,
-										},
-										["targets"] = {
-											["Sberla-Silvermoon"] = 1,
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 87,
-							["boss_fight_component"] = true,
-							["dispell_oque"] = {
-								[52778] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 256,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17] = 6,
-								[47540] = 5,
-								[585] = 17,
-								[21562] = 1,
-								[589] = 4,
-								[186263] = 2,
-								[527] = 1,
-							},
-							["dispell_targets"] = {
-								["Sberla-Silvermoon"] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957753,
-							["nome"] = "Rykahpriest",
-							["pets"] = {
-							},
-							["serial"] = "Player-1303-0B65E197",
-							["tipo"] = 4,
-						}, -- [4]
-						{
-							["flag_original"] = 1298,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[124275] = {
-										["activedamt"] = 1,
-										["id"] = 124275,
-										["targets"] = {
-										},
-										["uptime"] = 57,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[113746] = {
-										["activedamt"] = 0,
-										["id"] = 113746,
-										["targets"] = {
-										},
-										["uptime"] = 60,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[121253] = {
-										["activedamt"] = 0,
-										["id"] = 121253,
-										["targets"] = {
-										},
-										["uptime"] = 30,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[117952] = {
-										["activedamt"] = 0,
-										["id"] = 117952,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["pets"] = {
-							},
-							["classe"] = "MONK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[215479] = {
-										["activedamt"] = 4,
-										["id"] = 215479,
-										["targets"] = {
-										},
-										["uptime"] = 28,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 153,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["spec"] = 268,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[124506] = 1,
-								[205523] = 8,
-								[115308] = 4,
-								[124503] = 2,
-								[119582] = 1,
-								[117952] = 2,
-								[121253] = 1,
-								[100780] = 20,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["buff_uptime"] = 28,
-							["last_event"] = 1599957753,
-							["nome"] = "Sberla-Silvermoon",
-							["isTank"] = true,
-							["serial"] = "Player-3391-0B77C625",
-							["tipo"] = 4,
-						}, -- [5]
-						{
-							["flag_original"] = 4370,
-							["ownerName"] = "Worgylegoshi-Thunderhorn",
-							["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["boss_fight_component"] = true,
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[263857] = 9,
-								[17253] = 11,
-								[61684] = 1,
-							},
-							["serial"] = "Pet-0-3891-90-14342-17199-0102FF025C",
-							["last_event"] = 0,
-						}, -- [6]
-						{
-							["flag_original"] = 4370,
-							["ownerName"] = "Zanm-Silvermoon",
-							["nome"] = "Unknown <Zanm-Silvermoon>",
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["boss_fight_component"] = true,
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[7814] = 11,
-							},
-							["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
-							["last_event"] = 0,
-						}, -- [7]
-						{
-							["flag_original"] = 68168,
-							["nome"] = "Mekgineer Thermaplugg",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["spell_cast"] = {
-								[52778] = 2,
-								[93655] = 2,
-								[74720] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-3891-90-14342-7800-00005D67AA",
-							["classe"] = "UNKNOW",
-						}, -- [8]
-						{
-							["flag_original"] = 68168,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-								},
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 2,
-							["spellschool"] = 1,
-							["debuff_uptime_targets"] = {
-								["Sberla-Silvermoon"] = {
-									["uptime"] = 2,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["boss_fight_component"] = true,
-							["nome"] = "Pound",
-							["tipo"] = 4,
-							["damage_twin"] = "Mekgineer Thermaplugg",
-							["damage_spellid"] = 74720,
-							["serial"] = "Creature-0-3891-90-14342-7800-00005D67AA",
-							["last_event"] = 1599957722,
-						}, -- [9]
-						{
-							["flag_original"] = 68168,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-								},
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 4,
-							["spellschool"] = 8,
-							["debuff_uptime_targets"] = {
-								["Sberla-Silvermoon"] = {
-									["uptime"] = 4,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["boss_fight_component"] = true,
-							["nome"] = "Welding Beam",
-							["tipo"] = 4,
-							["damage_twin"] = "Mekgineer Thermaplugg",
-							["damage_spellid"] = 52778,
-							["serial"] = "Creature-0-3891-90-14342-7800-00005D67AA",
-							["last_event"] = 1599957746,
-						}, -- [10]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 17,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Sberla-Silvermoon"] = true,
-					["Zanm-Silvermoon"] = true,
-					["Juraak-Silvermoon"] = true,
-					["Rykahpriest"] = true,
-					["Worgylegoshi-Thunderhorn"] = true,
-				},
-				["CombatStartedAt"] = 41378.891,
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 244,
-				["totals"] = {
-					39417, -- [1]
-					7597, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 1,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					29955, -- [1]
-					7597, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 1,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "party",
-				["data_fim"] = "01:42:34",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Mekgineer Thermaplugg",
-				["TotalElapsedCombatTime"] = 59.52899999999499,
-				["CombatEndedAt"] = 41438.42,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zanm-Silvermoon"] = 0.005595,
-							["Sberla-Silvermoon"] = 303.005773,
-							["Juraak-Silvermoon"] = 0.007025,
-							["Rykahpriest"] = 7181.001476,
-							["Worgylegoshi-Thunderhorn"] = 113.008042,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Zanm-Silvermoon"] = 8178.008892,
-							["Sberla-Silvermoon"] = 3032.003833,
-							["Juraak-Silvermoon"] = 8663.001904,
-							["Rykahpriest"] = 5559.001560000001,
-							["Worgylegoshi-Thunderhorn"] = 7850.006804000001,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 41437.312,
-				["combat_id"] = 17,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["tempo_start"] = 1599957693,
-				["player_last_events"] = {
-					["Sberla-Silvermoon"] = {
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1599957754.656, -- [4]
-							3310, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1599957755.074, -- [4]
-							3287, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1599957755.549, -- [4]
-							3264, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [3]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1599957756.064, -- [4]
-							3241, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [4]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1599957756.566, -- [4]
-							3218, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [5]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1599957757.053, -- [4]
-							3229, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [6]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1599957757.551, -- [4]
-							3206, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 8,
-					},
-				},
-				["spells_cast_timeline"] = {
-				},
-				["is_boss"] = {
-					["diff_string"] = "Normal",
-					["index"] = 1,
-					["zone"] = "Gnomeregan",
-					["encounter"] = "Mekgineer Thermaplugg",
-					["mapid"] = 90,
-					["try_number"] = 1,
-					["name"] = "Mekgineer Thermaplugg",
-					["diff"] = 1,
-					["id"] = 382,
-					["ej_instance_id"] = 231,
-					["killed"] = true,
-				},
-				["data_inicio"] = "01:41:33",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Walking Bomb"] = 1,
-					["Mekgineer Thermaplugg"] = 1,
-				},
-				["start_time"] = 41376.451,
-				["TimeData"] = {
-				},
-				["contra"] = "Mekgineer Thermaplugg",
-			}, -- [1]
-			{
-				{
-					["combatId"] = 11,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.003287,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Electrocutioner 6000"] = 4401,
-							},
-							["pets"] = {
-							},
-							["total"] = 4401.003287,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 4401.003287,
-							["boss_fight_component"] = true,
-							["colocacao"] = 4,
-							["dps_started"] = false,
-							["end_time"] = 1599957359,
-							["classe"] = "PRIEST",
-							["on_hold"] = false,
-							["nome"] = "Rykahpriest",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[47666] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 372,
-										["g_amt"] = 0,
-										["n_max"] = 93,
-										["targets"] = {
-											["Electrocutioner 6000"] = 744,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 372,
-										["n_min"] = 93,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 744,
-										["c_max"] = 186,
-										["spellschool"] = 2,
-										["id"] = 47666,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 186,
-									},
-									[589] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 346,
-										["g_amt"] = 0,
-										["n_max"] = 39,
-										["targets"] = {
-											["Electrocutioner 6000"] = 938,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 592,
-										["n_min"] = 20,
-										["g_dmg"] = 0,
-										["counter"] = 26,
-										["total"] = 938,
-										["c_max"] = 58,
-										["spellschool"] = 32,
-										["id"] = 589,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 20,
-										["r_amt"] = 0,
-										["c_min"] = 56,
-									},
-									[585] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 533,
-										["g_amt"] = 0,
-										["n_max"] = 133,
-										["targets"] = {
-											["Electrocutioner 6000"] = 2654,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2121,
-										["n_min"] = 132,
-										["g_dmg"] = 0,
-										["counter"] = 18,
-										["total"] = 2654,
-										["c_max"] = 267,
-										["spellschool"] = 2,
-										["id"] = 585,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 16,
-										["r_amt"] = 0,
-										["c_min"] = 266,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 13,
-										["targets"] = {
-											["Electrocutioner 6000"] = 65,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 65,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 65,
-										["c_max"] = 0,
-										["spellschool"] = 48,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 16,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 256,
-							["serial"] = "Player-1303-0B65E197",
-							["last_dps"] = 95.49544952913502,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.003287,
-							["start_time"] = 1599957313,
-							["delay"] = 0,
-							["last_event"] = 1599957358,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 1641.003016,
-							["damage_from"] = {
-								["Zanm-Silvermoon"] = true,
-								["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-								["Unknown <Zanm-Silvermoon>"] = true,
-								["Sberla-Silvermoon"] = true,
-								["Treant <Juraak-Silvermoon>"] = true,
-								["Juraak-Silvermoon"] = true,
-								["Rykahpriest"] = true,
-								["Worgylegoshi-Thunderhorn"] = true,
-							},
-							["targets"] = {
-								["Treant <Juraak-Silvermoon>"] = 748,
-								["Ravager <Worgylegoshi-Thunderhorn>"] = 262,
-								["Unknown <Zanm-Silvermoon>"] = 238,
-								["Sberla-Silvermoon"] = 3720,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 4968.003016000001,
-							["monster"] = true,
-							["boss_fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1599957359,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Electrocutioner 6000",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 417,
-										["targets"] = {
-											["Treant <Juraak-Silvermoon>"] = 404,
-											["Sberla-Silvermoon"] = 3012,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3416,
-										["n_min"] = 57,
-										["g_dmg"] = 0,
-										["counter"] = 17,
-										["DODGE"] = 1,
-										["total"] = 3416,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 1561,
-										["m_crit"] = 0,
-										["a_amt"] = 8,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 16,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									}, -- [1]
-									[11082] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 99,
-										["targets"] = {
-											["Treant <Juraak-Silvermoon>"] = 4,
-											["Sberla-Silvermoon"] = 190,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 194,
-										["n_min"] = 4,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 194,
-										["c_max"] = 0,
-										["id"] = 11082,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[11084] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 340,
-										["targets"] = {
-											["Treant <Juraak-Silvermoon>"] = 340,
-											["Sberla-Silvermoon"] = 275,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 615,
-										["n_min"] = 275,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 615,
-										["c_max"] = 0,
-										["id"] = 11084,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 275,
-										["m_crit"] = 0,
-										["a_amt"] = 1,
-										["m_amt"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[11085] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 262,
-										["targets"] = {
-											["Ravager <Worgylegoshi-Thunderhorn>"] = 262,
-											["Unknown <Zanm-Silvermoon>"] = 238,
-											["Sberla-Silvermoon"] = 243,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 743,
-										["n_min"] = 238,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 743,
-										["c_max"] = 0,
-										["id"] = 11085,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 481,
-										["m_crit"] = 0,
-										["a_amt"] = 2,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["total"] = 4968.003016000001,
-							["serial"] = "Creature-0-3891-90-14342-6235-00005D67AA",
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1599957358,
-							["damage_taken"] = 27407.003016,
-							["start_time"] = 1599957316,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 0.001139,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Electrocutioner 6000"] = 6755,
-							},
-							["pets"] = {
-								"Treant <Juraak-Silvermoon>", -- [1]
-							},
-							["total"] = 6755.001139,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6176.001139,
-							["boss_fight_component"] = true,
-							["colocacao"] = 2,
-							["dps_started"] = false,
-							["end_time"] = 1599957359,
-							["classe"] = "DRUID",
-							["on_hold"] = false,
-							["nome"] = "Juraak-Silvermoon",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[190984] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 412,
-										["g_amt"] = 0,
-										["n_max"] = 104,
-										["targets"] = {
-											["Electrocutioner 6000"] = 1338,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 926,
-										["n_min"] = 102,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 1338,
-										["c_max"] = 206,
-										["spellschool"] = 8,
-										["id"] = 190984,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["r_amt"] = 0,
-										["c_min"] = 206,
-									},
-									[164812] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 125,
-										["g_amt"] = 0,
-										["n_max"] = 22,
-										["targets"] = {
-											["Electrocutioner 6000"] = 497,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 372,
-										["n_min"] = 20,
-										["g_dmg"] = 0,
-										["counter"] = 21,
-										["total"] = 497,
-										["c_max"] = 43,
-										["spellschool"] = 64,
-										["id"] = 164812,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 18,
-										["r_amt"] = 0,
-										["c_min"] = 41,
-									},
-									[279729] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 21,
-										["targets"] = {
-											["Electrocutioner 6000"] = 121,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 121,
-										["n_min"] = 20,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 121,
-										["c_max"] = 0,
-										["spellschool"] = 8,
-										["id"] = 279729,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[164815] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 45,
-										["g_amt"] = 0,
-										["n_max"] = 31,
-										["targets"] = {
-											["Electrocutioner 6000"] = 470,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 425,
-										["n_min"] = 17,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 470,
-										["c_max"] = 45,
-										["spellschool"] = 8,
-										["id"] = 164815,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 19,
-										["r_amt"] = 0,
-										["c_min"] = 45,
-									},
-									[194153] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 895,
-										["g_amt"] = 0,
-										["n_max"] = 158,
-										["targets"] = {
-											["Electrocutioner 6000"] = 1369,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 474,
-										["n_min"] = 158,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 1369,
-										["c_max"] = 316,
-										["spellschool"] = 64,
-										["id"] = 194153,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 263,
-									},
-									[78674] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 794,
-										["g_amt"] = 0,
-										["n_max"] = 397,
-										["targets"] = {
-											["Electrocutioner 6000"] = 2381,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1587,
-										["n_min"] = 396,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 2381,
-										["c_max"] = 794,
-										["spellschool"] = 72,
-										["id"] = 78674,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 794,
-									},
-								},
-							},
-							["grupo"] = true,
-							["spec"] = 102,
-							["serial"] = "Player-3391-0B77CF83",
-							["last_dps"] = 146.1181516946484,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.001139,
-							["start_time"] = 1599957314,
-							["delay"] = 0,
-							["last_event"] = 1599957359,
-						}, -- [3]
-						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 618.0077220000001,
-							["pets"] = {
-							},
-							["classe"] = "MONK",
-							["total_without_pet"] = 2930.007722,
-							["dps_started"] = false,
-							["total"] = 2930.007722,
-							["spec"] = 268,
-							["colocacao"] = 5,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0B77C625",
-							["damage_from"] = {
-								["Electrocutioner 6000"] = true,
-								["Sberla-Silvermoon"] = true,
-							},
-							["targets"] = {
-								["Electrocutioner 6000"] = 2930,
-							},
-							["friendlyfire_total"] = 1192,
-							["raid_targets"] = {
-							},
-							["end_time"] = 1599957359,
-							["boss_fight_component"] = true,
-							["avoidance"] = {
-								["Electrocutioner 6000"] = {
-									["DODGE"] = 1,
-									["FULL_ABSORB_AMT"] = 1641,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 6,
-									["ALL"] = 22,
-									["PARTIAL_ABSORBED"] = 10,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 1261,
-									["ABSORB"] = 16,
-									["ABSORB_AMT"] = 2902,
-									["FULL_HIT"] = 6,
-									["HITS"] = 12,
-									["FULL_HIT_AMT"] = 1641,
-								},
-								["overall"] = {
-									["DODGE"] = 1,
-									["FULL_ABSORB_AMT"] = 2214,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 57,
-									["ALL"] = 165,
-									["PARTIAL_ABSORBED"] = 12,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 1265,
-									["ABSORB"] = 69,
-									["ABSORB_AMT"] = 3479,
-									["FULL_HIT"] = 96,
-									["HITS"] = 12,
-									["FULL_HIT_AMT"] = 2808,
-								},
-								["Sberla-Silvermoon"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 573,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 51,
-									["ALL"] = 143,
-									["PARTIAL_ABSORBED"] = 2,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 4,
-									["ABSORB"] = 53,
-									["ABSORB_AMT"] = 577,
-									["FULL_HIT"] = 90,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 1167,
-								},
-							},
-							["nome"] = "Sberla-Silvermoon",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 609,
-										["g_amt"] = 0,
-										["n_max"] = 81,
-										["targets"] = {
-											["Electrocutioner 6000"] = 1366,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 757,
-										["n_min"] = 71,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 1366,
-										["c_max"] = 162,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 144,
-									}, -- [1]
-									[100780] = {
-										["c_amt"] = 9,
-										["b_amt"] = 0,
-										["c_dmg"] = 596,
-										["g_amt"] = 0,
-										["n_max"] = 33,
-										["targets"] = {
-											["Electrocutioner 6000"] = 922,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 326,
-										["n_min"] = 32,
-										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 922,
-										["c_max"] = 67,
-										["spellschool"] = 1,
-										["id"] = 100780,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 66,
-									},
-									[121253] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 225,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Electrocutioner 6000"] = 225,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 225,
-										["c_max"] = 225,
-										["spellschool"] = 1,
-										["id"] = 121253,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 225,
-									},
-									[205523] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 168,
-										["g_amt"] = 0,
-										["n_max"] = 83,
-										["targets"] = {
-											["Electrocutioner 6000"] = 417,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 249,
-										["n_min"] = 83,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 417,
-										["c_max"] = 168,
-										["spellschool"] = 1,
-										["id"] = 205523,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 168,
-									},
-								},
-							},
-							["grupo"] = true,
-							["friendlyfire"] = {
-								["Sberla-Silvermoon"] = {
-									["spells"] = {
-										[124255] = 1192,
-									},
-									["total"] = 1192,
-								},
-							},
-							["last_dps"] = 61.86277225187295,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 4912.007722,
-							["start_time"] = 1599957315,
-							["delay"] = 0,
-							["last_event"] = 1599957363,
-						}, -- [4]
-						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 0.007915,
-							["spec"] = 254,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Electrocutioner 6000"] = 6791,
-							},
-							["pets"] = {
-								"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
-							},
-							["friendlyfire_total"] = 0,
-							["boss_fight_component"] = true,
-							["classe"] = "HUNTER",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 5691.007915,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 6791.007915,
-							["on_hold"] = false,
-							["end_time"] = 1599957359,
-							["nome"] = "Worgylegoshi-Thunderhorn",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[75] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 288,
-										["g_amt"] = 0,
-										["n_max"] = 75,
-										["targets"] = {
-											["Electrocutioner 6000"] = 1089,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 801,
-										["n_min"] = 68,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 1089,
-										["c_max"] = 151,
-										["spellschool"] = 1,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 11,
-										["r_amt"] = 0,
-										["c_min"] = 137,
-									},
-									[257045] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 370,
-										["g_amt"] = 0,
-										["n_max"] = 37,
-										["targets"] = {
-											["Electrocutioner 6000"] = 844,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 474,
-										["n_min"] = 36,
-										["g_dmg"] = 0,
-										["counter"] = 18,
-										["total"] = 844,
-										["c_max"] = 74,
-										["spellschool"] = 1,
-										["id"] = 257045,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["r_amt"] = 0,
-										["c_min"] = 74,
-									},
-									[257620] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 54,
-										["targets"] = {
-											["Electrocutioner 6000"] = 160,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 160,
-										["n_min"] = 52,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 160,
-										["c_max"] = 0,
-										["spellschool"] = 1,
-										["id"] = 257620,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[185358] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 273,
-										["g_amt"] = 0,
-										["n_max"] = 136,
-										["targets"] = {
-											["Electrocutioner 6000"] = 680,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 407,
-										["n_min"] = 135,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 680,
-										["c_max"] = 273,
-										["spellschool"] = 64,
-										["id"] = 185358,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 273,
-									},
-									[56641] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 342,
-										["g_amt"] = 0,
-										["n_max"] = 86,
-										["targets"] = {
-											["Electrocutioner 6000"] = 428,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 86,
-										["n_min"] = 86,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 428,
-										["c_max"] = 171,
-										["spellschool"] = 1,
-										["id"] = 56641,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 171,
-									},
-									[19434] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 711,
-										["g_amt"] = 0,
-										["n_max"] = 534,
-										["targets"] = {
-											["Electrocutioner 6000"] = 2490,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1779,
-										["n_min"] = 355,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 2490,
-										["c_max"] = 711,
-										["spellschool"] = 1,
-										["id"] = 19434,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 711,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-1313-0B7742DA",
-							["last_dps"] = 147.3551168467553,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.007915,
-							["start_time"] = 1599957315,
-							["delay"] = 0,
-							["last_event"] = 1599957358,
-						}, -- [5]
-						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 0.00695,
-							["spec"] = 267,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Electrocutioner 6000"] = 6530,
-							},
-							["pets"] = {
-								"Unknown <Zanm-Silvermoon>", -- [1]
-							},
-							["friendlyfire_total"] = 0,
-							["boss_fight_component"] = true,
-							["classe"] = "WARLOCK",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 5367.00695,
-							["colocacao"] = 3,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 6530.00695,
-							["on_hold"] = false,
-							["end_time"] = 1599957359,
-							["nome"] = "Zanm-Silvermoon",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[17962] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 329,
-										["g_amt"] = 0,
-										["n_max"] = 181,
-										["targets"] = {
-											["Electrocutioner 6000"] = 855,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 526,
-										["n_min"] = 164,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 855,
-										["c_max"] = 329,
-										["spellschool"] = 4,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 329,
-									},
-									[116858] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 1908,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Electrocutioner 6000"] = 1908,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 1908,
-										["c_max"] = 512,
-										["spellschool"] = 124,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 465,
-									},
-									[348] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 132,
-										["g_amt"] = 0,
-										["n_max"] = 73,
-										["targets"] = {
-											["Electrocutioner 6000"] = 271,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 139,
-										["n_min"] = 66,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 271,
-										["c_max"] = 132,
-										["spellschool"] = 4,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 132,
-									},
-									[157736] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 90,
-										["g_amt"] = 0,
-										["n_max"] = 45,
-										["targets"] = {
-											["Electrocutioner 6000"] = 623,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 533,
-										["n_min"] = 25,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 623,
-										["c_max"] = 90,
-										["spellschool"] = 4,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["r_amt"] = 0,
-										["c_min"] = 90,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 22,
-										["targets"] = {
-											["Electrocutioner 6000"] = 54,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 54,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 54,
-										["c_max"] = 0,
-										["spellschool"] = 48,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[17877] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 217,
-										["g_amt"] = 0,
-										["n_max"] = 109,
-										["targets"] = {
-											["Electrocutioner 6000"] = 434,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 217,
-										["n_min"] = 108,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 434,
-										["c_max"] = 217,
-										["spellschool"] = 36,
-										["id"] = 17877,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 217,
-									},
-									[29722] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 442,
-										["g_amt"] = 0,
-										["n_max"] = 116,
-										["targets"] = {
-											["Electrocutioner 6000"] = 1222,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 780,
-										["n_min"] = 105,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 1222,
-										["c_max"] = 232,
-										["spellschool"] = 4,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 210,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-3391-0B71A39B",
-							["last_dps"] = 141.6917708197626,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00695,
-							["start_time"] = 1599957316,
-							["delay"] = 0,
-							["last_event"] = 1599957359,
-						}, -- [6]
-						{
-							["flag_original"] = 8466,
-							["totalabsorbed"] = 0.001714,
-							["damage_from"] = {
-								["Electrocutioner 6000"] = true,
-							},
-							["targets"] = {
-								["Electrocutioner 6000"] = 579,
-							},
-							["total"] = 579.001714,
-							["pets"] = {
-							},
-							["serial"] = "Creature-0-3891-90-14342-103822-00005D6948",
-							["classe"] = "PET",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 579.001714,
-							["boss_fight_component"] = true,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1599957359,
-							["friendlyfire_total"] = 0,
-							["ownerName"] = "Juraak-Silvermoon",
-							["nome"] = "Treant <Juraak-Silvermoon>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 166,
-										["g_amt"] = 0,
-										["n_max"] = 28,
-										["targets"] = {
-											["Electrocutioner 6000"] = 579,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 413,
-										["n_min"] = 27,
-										["g_dmg"] = 0,
-										["counter"] = 18,
-										["total"] = 579,
-										["c_max"] = 56,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["r_amt"] = 0,
-										["c_min"] = 55,
-									}, -- [1]
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1599957329,
-							["damage_taken"] = 748.001714,
-							["start_time"] = 1599957348,
-							["delay"] = 1599957329,
-							["tipo"] = 1,
-						}, -- [7]
-						{
-							["flag_original"] = 4370,
-							["totalabsorbed"] = 0.008524,
-							["damage_from"] = {
-								["Electrocutioner 6000"] = true,
-							},
-							["targets"] = {
-								["Electrocutioner 6000"] = 1100,
-							},
-							["total"] = 1100.008524,
-							["pets"] = {
-							},
-							["serial"] = "Pet-0-3896-530-43-17199-0202FF025C",
-							["classe"] = "PET",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1100.008524,
-							["boss_fight_component"] = true,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1599957359,
-							["friendlyfire_total"] = 0,
-							["ownerName"] = "Worgylegoshi-Thunderhorn",
-							["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 284,
-										["g_amt"] = 0,
-										["n_max"] = 29,
-										["targets"] = {
-											["Electrocutioner 6000"] = 736,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 452,
-										["n_min"] = 28,
-										["g_dmg"] = 0,
-										["counter"] = 21,
-										["total"] = 736,
-										["c_max"] = 58,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 16,
-										["r_amt"] = 0,
-										["c_min"] = 56,
-									}, -- [1]
-									[17253] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 146,
-										["g_amt"] = 0,
-										["n_max"] = 73,
-										["targets"] = {
-											["Electrocutioner 6000"] = 364,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 218,
-										["n_min"] = 36,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 364,
-										["c_max"] = 73,
-										["spellschool"] = 1,
-										["id"] = 17253,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 73,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1599957358,
-							["damage_taken"] = 262.008524,
-							["start_time"] = 1599957319,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [8]
-						{
-							["flag_original"] = 4370,
-							["totalabsorbed"] = 0.008267,
-							["damage_from"] = {
-								["Electrocutioner 6000"] = true,
-							},
-							["targets"] = {
-								["Electrocutioner 6000"] = 1163,
-							},
-							["total"] = 1163.008267,
-							["pets"] = {
-							},
-							["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
-							["classe"] = "PET",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1163.008267,
-							["boss_fight_component"] = true,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1599957359,
-							["friendlyfire_total"] = 0,
-							["ownerName"] = "Zanm-Silvermoon",
-							["nome"] = "Unknown <Zanm-Silvermoon>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 299,
-										["g_amt"] = 0,
-										["n_max"] = 31,
-										["targets"] = {
-											["Electrocutioner 6000"] = 601,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 302,
-										["n_min"] = 29,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 601,
-										["c_max"] = 60,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 59,
-									}, -- [1]
-									[7814] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 226,
-										["g_amt"] = 0,
-										["n_max"] = 56,
-										["targets"] = {
-											["Electrocutioner 6000"] = 562,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 336,
-										["n_min"] = 56,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 562,
-										["c_max"] = 113,
-										["spellschool"] = 32,
-										["id"] = 7814,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["r_amt"] = 0,
-										["c_min"] = 113,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1599957358,
-							["damage_taken"] = 238.008267,
-							["start_time"] = 1599957320,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [9]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.008758,
-							["damage_from"] = {
-							},
-							["targets"] = {
-							},
-							["monster"] = true,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.008758,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 0.008758,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3891-90-14342-6222-00035D67AA",
-							["nome"] = "Leprous Technician",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[10348] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 10348,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1599957359,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.008758,
-							["start_time"] = 1599957359,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [10]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.00623,
-							["damage_from"] = {
-							},
-							["targets"] = {
-							},
-							["monster"] = true,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.00623,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 0.00623,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-3891-90-14342-6224-00015D67AB",
-							["nome"] = "Leprous Machinesmith",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[10348] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 10348,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1599957359,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00623,
-							["start_time"] = 1599957359,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [11]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 11,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "PRIEST",
-							["totalover"] = 2637.007358,
-							["total_without_pet"] = 4774.007358,
-							["total"] = 4774.007358,
-							["targets_absorbs"] = {
-								["Sberla-Silvermoon"] = 2152,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-1303-0B65E197",
-							["totalabsorb"] = 2152.007358,
-							["last_hps"] = 103.0524404869815,
-							["targets"] = {
-								["Sberla-Silvermoon"] = 4774,
-							},
-							["totalover_without_pet"] = 0.007358,
-							["healing_taken"] = 0.007358,
-							["end_time"] = 1599957359,
-							["boss_fight_component"] = true,
-							["targets_overheal"] = {
-								["Rykahpriest"] = 1238,
-								["Sberla-Silvermoon"] = 1399,
-							},
-							["nome"] = "Rykahpriest",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[17] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 2152,
-										["targets_overheal"] = {
-											["Rykahpriest"] = 361,
-											["Sberla-Silvermoon"] = 19,
-										},
-										["n_max"] = 328,
-										["targets"] = {
-											["Rykahpriest"] = 0,
-											["Sberla-Silvermoon"] = 2133,
-										},
-										["n_min"] = 2,
-										["counter"] = 60,
-										["overheal"] = 380,
-										["total"] = 2133,
-										["c_max"] = 0,
-										["id"] = 17,
-										["targets_absorbs"] = {
-											["Rykahpriest"] = 0,
-											["Sberla-Silvermoon"] = 2152,
-										},
-										["m_healed"] = 0,
-										["c_curado"] = -19,
-										["m_crit"] = 0,
-										["c_min"] = -19,
-										["m_amt"] = 0,
-										["n_curado"] = 2152,
-										["n_amt"] = 59,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[259760] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Rykahpriest"] = 31,
-											["Sberla-Silvermoon"] = 26,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Rykahpriest"] = 0,
-											["Sberla-Silvermoon"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 21,
-										["overheal"] = 57,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 259760,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 21,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[81751] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Rykahpriest"] = 502,
-											["Sberla-Silvermoon"] = 719,
-										},
-										["n_max"] = 65,
-										["targets"] = {
-											["Rykahpriest"] = 0,
-											["Sberla-Silvermoon"] = 705,
-										},
-										["n_min"] = 9,
-										["counter"] = 53,
-										["overheal"] = 1221,
-										["total"] = 705,
-										["c_max"] = 0,
-										["id"] = 81751,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 705,
-										["n_amt"] = 53,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[186263] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 589,
-										["targets"] = {
-											["Sberla-Silvermoon"] = 1177,
-										},
-										["n_min"] = 588,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 1177,
-										["c_max"] = 0,
-										["id"] = 186263,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 1177,
-										["n_amt"] = 2,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[47750] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Sberla-Silvermoon"] = 283,
-										},
-										["n_max"] = 267,
-										["targets"] = {
-											["Sberla-Silvermoon"] = 518,
-										},
-										["n_min"] = 9,
-										["counter"] = 3,
-										["overheal"] = 283,
-										["total"] = 518,
-										["c_max"] = 0,
-										["id"] = 47750,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 518,
-										["n_amt"] = 3,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[94472] = {
-										["c_amt"] = 13,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Rykahpriest"] = 344,
-											["Sberla-Silvermoon"] = 352,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Rykahpriest"] = 0,
-											["Sberla-Silvermoon"] = 222,
-										},
-										["n_min"] = 0,
-										["counter"] = 13,
-										["overheal"] = 696,
-										["total"] = 222,
-										["c_max"] = 131,
-										["id"] = 94472,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 222,
-										["m_crit"] = 0,
-										["c_min"] = 13,
-										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 0,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957313,
-							["custom"] = 0,
-							["last_event"] = 1599957359,
-							["spec"] = 256,
-							["totaldenied"] = 0.007358,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [1]
-						{
-							["flag_original"] = 1300,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-								"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "HUNTER",
-							["totalover"] = 0.007893,
-							["total_without_pet"] = 0.007893,
-							["total"] = 147.007893,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 2,
-							["on_hold"] = false,
-							["serial"] = "Player-1313-0B7742DA",
-							["totalabsorb"] = 0.007893,
-							["last_hps"] = 3.173334477399237,
-							["targets"] = {
-								["Ravager <Worgylegoshi-Thunderhorn>"] = 147,
-							},
-							["totalover_without_pet"] = 0.007893,
-							["healing_taken"] = 0.007893,
-							["end_time"] = 1599957359,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-							},
-							["nome"] = "Worgylegoshi-Thunderhorn",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957340,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["spec"] = 254,
-							["totaldenied"] = 0.007893,
-							["delay"] = 0,
-							["last_event"] = 1599957356,
-						}, -- [2]
-						{
-							["flag_original"] = 1298,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-								"Unknown <Zanm-Silvermoon>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["totalover"] = 0.008495,
-							["total_without_pet"] = 121.008495,
-							["total"] = 121.008495,
-							["targets_absorbs"] = {
-								["Unknown <Zanm-Silvermoon>"] = 121,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 3,
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0B71A39B",
-							["totalabsorb"] = 121.008495,
-							["last_hps"] = 2.612107563787022,
-							["targets"] = {
-								["Unknown <Zanm-Silvermoon>"] = 121,
-							},
-							["totalover_without_pet"] = 0.008495,
-							["healing_taken"] = 0.008495,
-							["end_time"] = 1599957359,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-							},
-							["nome"] = "Zanm-Silvermoon",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 121,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 121,
-										["targets"] = {
-											["Unknown <Zanm-Silvermoon>"] = 121,
-										},
-										["n_min"] = 121,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 121,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Unknown <Zanm-Silvermoon>"] = 121,
-										},
-										["m_healed"] = 0,
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 121,
-										["n_amt"] = 1,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957358,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["spec"] = 267,
-							["totaldenied"] = 0.008495,
-							["delay"] = 1599957340,
-							["last_event"] = 1599957340,
-						}, -- [3]
-						{
-							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Sberla-Silvermoon"] = 607,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "MONK",
-							["totalover"] = 607.003235,
-							["total_without_pet"] = 0.003235,
-							["total"] = 0.003235,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0B77C625",
-							["totalabsorb"] = 0.003235,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.003235,
-							["healing_taken"] = 4774.003235,
-							["boss_fight_component"] = true,
-							["end_time"] = 1599957359,
-							["healing_from"] = {
-								["Rykahpriest"] = true,
-							},
-							["nome"] = "Sberla-Silvermoon",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[178173] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Sberla-Silvermoon"] = 607,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Sberla-Silvermoon"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 1,
-										["overheal"] = 607,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 178173,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 0,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957358,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["spec"] = 268,
-							["totaldenied"] = 0.003235,
-							["delay"] = 1599957320,
-							["last_event"] = 1599957320,
-						}, -- [4]
-						{
-							["flag_original"] = 4370,
-							["healing_from"] = {
-								["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "PET",
-							["totalover"] = 0.004236,
-							["total_without_pet"] = 147.004236,
-							["total"] = 147.004236,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3896-530-43-17199-0202FF025C",
-							["totalabsorb"] = 0.004236,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Ravager <Worgylegoshi-Thunderhorn>"] = 147,
-							},
-							["totalover_without_pet"] = 0.004236,
-							["healing_taken"] = 147.004236,
-							["end_time"] = 1599957359,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Worgylegoshi-Thunderhorn",
-							["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[143924] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 41,
-										["targets"] = {
-											["Ravager <Worgylegoshi-Thunderhorn>"] = 147,
-										},
-										["n_min"] = 28,
-										["counter"] = 4,
-										["overheal"] = 0,
-										["total"] = 147,
-										["c_max"] = 0,
-										["id"] = 143924,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 147,
-										["n_amt"] = 4,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["targets_overheal"] = {
-							},
-							["start_time"] = 1599957340,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1599957356,
-							["totaldenied"] = 0.004236,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [5]
-						{
-							["flag_original"] = 4370,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.005494,
-							["total_without_pet"] = 0.005494,
-							["total"] = 0.005494,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
-							["totalabsorb"] = 0.005494,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.005494,
-							["healing_taken"] = 121.005494,
-							["end_time"] = 1599957359,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Zanm-Silvermoon",
-							["nome"] = "Unknown <Zanm-Silvermoon>",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["healing_from"] = {
-								["Zanm-Silvermoon"] = true,
-							},
-							["start_time"] = 1599957359,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "PET",
-							["totaldenied"] = 0.005494,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [6]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 11,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.006371,
-							["resource"] = 192.006371,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "DRUID",
-							["passiveover"] = 0.006371,
-							["total"] = 0.006371,
-							["boss_fight_component"] = true,
-							["nome"] = "Juraak-Silvermoon",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
-							["resource_type"] = 8,
-							["flag_original"] = 1298,
-							["alternatepower"] = 0.006371,
-							["last_event"] = 1599957358,
-							["spec"] = 102,
-							["tipo"] = 3,
-							["serial"] = "Player-3391-0B77CF83",
-							["totalover"] = 0.006371,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 11,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[164815] = {
-										["activedamt"] = 0,
-										["id"] = 164815,
-										["targets"] = {
-										},
-										["uptime"] = 32,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[164812] = {
-										["activedamt"] = 0,
-										["id"] = 164812,
-										["targets"] = {
-										},
-										["uptime"] = 35,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 86,
-							["classe"] = "DRUID",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[164545] = {
-										["activedamt"] = 6,
-										["id"] = 164545,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[24858] = {
-										["activedamt"] = 1,
-										["id"] = 24858,
-										["targets"] = {
-										},
-										["uptime"] = 46,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[164547] = {
-										["activedamt"] = 5,
-										["id"] = 164547,
-										["targets"] = {
-										},
-										["uptime"] = 16,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 67,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 102,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[190984] = 11,
-								[205636] = 1,
-								[93402] = 2,
-								[78674] = 5,
-								[194153] = 6,
-								[8921] = 2,
-							},
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957359,
-							["nome"] = "Juraak-Silvermoon",
-							["pets"] = {
-							},
-							["serial"] = "Player-3391-0B77CF83",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[196414] = {
-										["activedamt"] = 0,
-										["id"] = 196414,
-										["targets"] = {
-										},
-										["uptime"] = 21,
-										["appliedamt"] = 3,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[17877] = {
-										["activedamt"] = 0,
-										["id"] = 17877,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 2,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[157736] = {
-										["activedamt"] = 0,
-										["id"] = 157736,
-										["targets"] = {
-										},
-										["uptime"] = 37,
-										["appliedamt"] = 2,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 66,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[117828] = {
-										["activedamt"] = 4,
-										["id"] = 117828,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[256374] = {
-										["activedamt"] = 1,
-										["id"] = 256374,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[108366] = {
-										["activedamt"] = 1,
-										["id"] = 108366,
-										["targets"] = {
-										},
-										["uptime"] = 46,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 70,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17962] = 4,
-								[116858] = 4,
-								[348] = 3,
-								[17877] = 3,
-								[29722] = 9,
-							},
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957359,
-							["nome"] = "Zanm-Silvermoon",
-							["pets"] = {
-								"Unknown <Zanm-Silvermoon>", -- [1]
-							},
-							["serial"] = "Player-3391-0B71A39B",
-							["tipo"] = 4,
-						}, -- [2]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[6788] = {
-										["activedamt"] = -1,
-										["id"] = 6788,
-										["targets"] = {
-										},
-										["uptime"] = 41,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[187464] = {
-										["activedamt"] = 1,
-										["id"] = 187464,
-										["targets"] = {
-										},
-										["uptime"] = 1,
+										["uptime"] = 18,
 										["appliedamt"] = 2,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -5762,7 +887,7 @@ _detalhes_database = {
 										["id"] = 589,
 										["targets"] = {
 										},
-										["uptime"] = 42,
+										["uptime"] = 34,
 										["appliedamt"] = 2,
 										["refreshamt"] = 1,
 										["actived"] = false,
@@ -5770,7 +895,7 @@ _detalhes_database = {
 									},
 								},
 							},
-							["buff_uptime"] = 176,
+							["buff_uptime"] = 153,
 							["classe"] = "PRIEST",
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
@@ -5778,123 +903,6 @@ _detalhes_database = {
 									[17] = {
 										["activedamt"] = 1,
 										["id"] = 17,
-										["targets"] = {
-										},
-										["uptime"] = 13,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[21562] = {
-										["activedamt"] = 1,
-										["id"] = 21562,
-										["targets"] = {
-										},
-										["uptime"] = 46,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[326419] = {
-										["activedamt"] = 1,
-										["id"] = 326419,
-										["targets"] = {
-										},
-										["uptime"] = 46,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[256374] = {
-										["activedamt"] = 1,
-										["id"] = 256374,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[93795] = {
-										["activedamt"] = 1,
-										["id"] = 93795,
-										["targets"] = {
-										},
-										["uptime"] = 46,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[194384] = {
-										["activedamt"] = 1,
-										["id"] = 194384,
-										["targets"] = {
-										},
-										["uptime"] = 13,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 84,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 256,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17] = 3,
-								[47540] = 3,
-								[585] = 18,
-								[589] = 2,
-								[186263] = 2,
-							},
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957359,
-							["nome"] = "Rykahpriest",
-							["pets"] = {
-							},
-							["serial"] = "Player-1303-0B65E197",
-							["tipo"] = 4,
-						}, -- [3]
-						{
-							["flag_original"] = 1298,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[124275] = {
-										["activedamt"] = 1,
-										["id"] = 124275,
-										["targets"] = {
-										},
-										["uptime"] = 43,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[113746] = {
-										["activedamt"] = 0,
-										["id"] = 113746,
-										["targets"] = {
-										},
-										["uptime"] = 44,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[121253] = {
-										["activedamt"] = 0,
-										["id"] = 121253,
 										["targets"] = {
 										},
 										["uptime"] = 15,
@@ -5903,20 +911,56 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-								},
-							},
-							["pets"] = {
-							},
-							["classe"] = "MONK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[215479] = {
+									[21562] = {
 										["activedamt"] = 1,
-										["id"] = 215479,
+										["id"] = 21562,
 										["targets"] = {
 										},
-										["uptime"] = 7,
+										["uptime"] = 37,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 37,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 37,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 1,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 12,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -5924,209 +968,221 @@ _detalhes_database = {
 									},
 								},
 							},
-							["debuff_uptime"] = 102,
-							["boss_fight_component"] = true,
-							["nome"] = "Sberla-Silvermoon",
-							["spec"] = 268,
+							["fight_component"] = true,
+							["debuff_uptime"] = 66,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[205523] = 4,
-								[115308] = 1,
-								[100780] = 19,
-								[124506] = 1,
-								[121253] = 1,
-								[124503] = 1,
+								[17] = 2,
+								[47540] = 3,
+								[585] = 8,
+								[34433] = 1,
+								[589] = 3,
+								[8092] = 2,
+								[32379] = 1,
+							},
+							["debuff_uptime_targets"] = {
 							},
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 7,
-							["tipo"] = 4,
-							["debuff_uptime_targets"] = {
-							},
-							["isTank"] = true,
-							["serial"] = "Player-3391-0B77C625",
-							["last_event"] = 1599957359,
-						}, -- [4]
-						{
-							["flag_original"] = 1298,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[5116] = {
-										["activedamt"] = 0,
-										["id"] = 5116,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[257044] = {
-										["activedamt"] = 0,
-										["id"] = 257044,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 10,
-							["classe"] = "HUNTER",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[269576] = {
-										["activedamt"] = 4,
-										["id"] = 269576,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 4,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 12,
-							["debuff_uptime_targets"] = {
-							},
-							["spec"] = 254,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[257044] = 2,
-								[185358] = 5,
-								[257620] = 3,
-								[5116] = 1,
-								[56641] = 3,
-								[19434] = 5,
-							},
-							["boss_fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957359,
-							["nome"] = "Worgylegoshi-Thunderhorn",
-							["pets"] = {
-								"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
-							},
-							["serial"] = "Player-1313-0B7742DA",
-							["tipo"] = 4,
-						}, -- [5]
-						{
-							["flag_original"] = 4370,
-							["ownerName"] = "Worgylegoshi-Thunderhorn",
-							["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
+							["last_event"] = 1603409377,
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["boss_fight_component"] = true,
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
 							["tipo"] = 4,
+						}, -- [1]
+						{
+							["fight_component"] = true,
+							["nome"] = "Trevvpal-Sylvanas",
+							["spec"] = 66,
 							["spell_cast"] = {
-								[263857] = 7,
-								[61684] = 1,
-								[17253] = 7,
+								[26573] = 4,
+								[53595] = 5,
+								[53600] = 4,
+								[275779] = 6,
+								[31935] = 3,
 							},
-							["serial"] = "Pet-0-3896-530-43-17199-0202FF025C",
+							["flag_original"] = 1304,
+							["aID"] = "1597-0D08B302",
 							["last_event"] = 0,
-						}, -- [6]
-						{
-							["flag_original"] = 4370,
-							["ownerName"] = "Zanm-Silvermoon",
-							["nome"] = "Unknown <Zanm-Silvermoon>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["boss_fight_component"] = true,
 							["tipo"] = 4,
-							["spell_cast"] = {
-								[6360] = 4,
-								[7814] = 8,
-							},
-							["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
-							["last_event"] = 0,
-						}, -- [7]
+							["serial"] = "Player-1597-0D08B302",
+							["classe"] = "PALADIN",
+						}, -- [2]
 						{
-							["flag_original"] = 2632,
-							["nome"] = "Electrocutioner 6000",
+							["flag_original"] = 68168,
 							["tipo"] = 4,
+							["nome"] = "Quakefist",
+							["fight_component"] = true,
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
 							["spell_cast"] = {
-								[11082] = 2,
-								[11084] = 2,
-								[11085] = 1,
+								[161781] = 3,
 							},
-							["last_event"] = 0,
 							["monster"] = true,
-							["serial"] = "Creature-0-3891-90-14342-6235-00005D67AA",
-							["classe"] = "UNKNOW",
-						}, -- [8]
-						{
-							["flag_original"] = 2632,
-							["nome"] = "Leprous Technician",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["spell_cast"] = {
-								[10348] = 1,
-							},
 							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-3891-90-14342-6222-00035D67AA",
 							["classe"] = "UNKNOW",
-						}, -- [9]
-						{
-							["flag_original"] = 2632,
-							["nome"] = "Leprous Machinesmith",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["spell_cast"] = {
-								[10348] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-3891-90-14342-6224-00015D67AB",
-							["classe"] = "UNKNOW",
-						}, -- [10]
+							["serial"] = "Creature-0-3771-1116-307-81360-00001215BC",
+							["aID"] = "81360",
+						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 11,
+					["combatId"] = 57,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
-					["Sberla-Silvermoon"] = true,
-					["Zanm-Silvermoon"] = true,
-					["Juraak-Silvermoon"] = true,
 					["Rykahpriest"] = true,
-					["Worgylegoshi-Thunderhorn"] = true,
 				},
-				["CombatStartedAt"] = 41056.883,
-				["tempo_start"] = 1599957313,
+				["last_events_tables"] = {
+				},
+				["overall_added"] = true,
 				["cleu_timeline"] = {
 				},
 				["alternate_power"] = {
 				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Electrocutioner 6000",
-				["combat_counter"] = 237,
-				["overall_added"] = true,
+				["tempo_start"] = 1603409340,
+				["enemy"] = "Quakefist",
+				["combat_counter"] = 293,
+				["playing_solo"] = true,
 				["totals"] = {
-					32375, -- [1]
-					5042, -- [2]
+					4407.956166999999, -- [1]
+					1261.993806, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.01192299999999591,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = -0.006364000000004921,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatEndedAt"] = 16678.94,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 16671.648,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									16645.366, -- [1]
+									16660.332, -- [2]
+								}, -- [1]
+								{
+									16671.648, -- [1]
+									16678.94, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[208772] = {
+							["enabled"] = false,
+							["appliedAt"] = 16668.397,
+							["spellId"] = 208772,
+							["data"] = {
+								{
+									16649.672, -- [1]
+									16658.19, -- [2]
+								}, -- [1]
+								{
+									16668.397, -- [1]
+									16678.19, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 16647.723,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									16647.723, -- [1]
+									16659.743, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 16656.159,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									16643.935, -- [1]
+									16655.951, -- [2]
+								}, -- [1]
+								{
+									16656.159, -- [1]
+									16678.19, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 16671.745,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									16645.366, -- [1]
+									16660.332, -- [2]
+								}, -- [1]
+								{
+									16671.745, -- [1]
+									16678.94, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 16671.648,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									16645.366, -- [1]
+									16652.297, -- [2]
+								}, -- [1]
+								{
+									16671.648, -- [1]
+									16678.648, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "00:29:00",
+				["end_time"] = 16678.94,
+				["totals_grupo"] = {
+					2446, -- [1]
+					1262, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -6144,69 +1200,899 @@ _detalhes_database = {
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
+				},
+				["combat_id"] = 57,
+				["TotalElapsedCombatTime"] = 16678.94,
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 1262.002284,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 3386.005038,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+					["Moonlight Squirrel"] = 1,
+					["Quakefist"] = 1,
+				},
+				["data_fim"] = "00:29:37",
+				["instance_type"] = "none",
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							16643.935, -- [1]
+							589, -- [2]
+							"Quakefist", -- [3]
+						}, -- [1]
+						{
+							16645.366, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [2]
+						{
+							16646.796, -- [1]
+							34433, -- [2]
+							"Quakefist", -- [3]
+						}, -- [3]
+						{
+							16649.672, -- [1]
+							8092, -- [2]
+							"Quakefist", -- [3]
+						}, -- [4]
+						{
+							16649.672, -- [1]
+							32379, -- [2]
+							"Quakefist", -- [3]
+						}, -- [5]
+						{
+							16652.471, -- [1]
+							585, -- [2]
+							"Quakefist", -- [3]
+						}, -- [6]
+						{
+							16652.471, -- [1]
+							47540, -- [2]
+							"Quakefist", -- [3]
+						}, -- [7]
+						{
+							16655.951, -- [1]
+							585, -- [2]
+							"Quakefist", -- [3]
+						}, -- [8]
+						{
+							16656.159, -- [1]
+							589, -- [2]
+							"Quakefist", -- [3]
+						}, -- [9]
+						{
+							16659.062, -- [1]
+							585, -- [2]
+							"Quakefist", -- [3]
+						}, -- [10]
+						{
+							16660.435, -- [1]
+							585, -- [2]
+							"Quakefist", -- [3]
+						}, -- [11]
+						{
+							16661.92, -- [1]
+							585, -- [2]
+							"Quakefist", -- [3]
+						}, -- [12]
+						{
+							16663.383, -- [1]
+							585, -- [2]
+							"Quakefist", -- [3]
+						}, -- [13]
+						{
+							16663.383, -- [1]
+							47540, -- [2]
+							"Quakefist", -- [3]
+						}, -- [14]
+						{
+							16665.535, -- [1]
+							589, -- [2]
+							"Quakefist", -- [3]
+						}, -- [15]
+						{
+							16668.397, -- [1]
+							8092, -- [2]
+							"Quakefist", -- [3]
+						}, -- [16]
+						{
+							16669.73, -- [1]
+							585, -- [2]
+							"Quakefist", -- [3]
+						}, -- [17]
+						{
+							16671.231, -- [1]
+							585, -- [2]
+							"Quakefist", -- [3]
+						}, -- [18]
+						{
+							16671.648, -- [1]
+							17, -- [2]
+							"Trevvpal-Sylvanas", -- [3]
+						}, -- [19]
+						{
+							16674.529, -- [1]
+							47540, -- [2]
+							"Quakefist", -- [3]
+						}, -- [20]
+					},
+				},
+				["start_time"] = 16642.337,
+				["contra"] = "Quakefist",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 54,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007221,
+							["spec"] = 256,
+							["damage_from"] = {
+								["Lunarfall Raven"] = true,
+							},
+							["targets"] = {
+								["Lunarfall Raven"] = 481,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["end_time"] = 1603409072,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 481.007221,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 481.007221,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[589] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 150,
+										["g_amt"] = 0,
+										["n_max"] = 23,
+										["targets"] = {
+											["Lunarfall Raven"] = 476,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 326,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 24,
+										["total"] = 476,
+										["c_max"] = 46,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 19,
+										["r_amt"] = 0,
+										["c_min"] = 17,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Lunarfall Raven"] = 5,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 5,
+										["c_max"] = 0,
+										["spellschool"] = 48,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 7.529266979729176,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 778.0072210000001,
+							["start_time"] = 1603409042,
+							["delay"] = 1603409060,
+							["last_event"] = 1603409060,
+						}, -- [1]
+						{
+							["flag_original"] = 1298,
+							["totalabsorbed"] = 0.005028,
+							["damage_from"] = {
+								["Shattered Hand Sadist"] = true,
+							},
+							["targets"] = {
+							},
+							["total"] = 0.005028,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["aID"] = "3391-0B921E00",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005028,
+							["spec"] = 262,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1603409166,
+							["friendlyfire_total"] = 0,
+							["classe"] = "SHAMAN",
+							["nome"] = "Larriianna-Silvermoon",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-3391-0B921E00",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 58.005028,
+							["start_time"] = 1603409166,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 711.003159,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+								["Nullific-Silvermoon"] = true,
+								["Bananshaman-Outland"] = true,
+								["Atuin-Sylvanas"] = true,
+								["Karabor Peacekeeper"] = true,
+								["Rykahpriest"] = true,
+							},
+							["targets"] = {
+								["Öc-Stormscale"] = 34,
+								["Nullific-Silvermoon"] = 554,
+								["Bananshaman-Outland"] = 429,
+								["Rykahpriest"] = 778,
+								["Karabor Peacekeeper"] = 309,
+							},
+							["end_time"] = 1603409166,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["aID"] = "82037",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2104.003159,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 2104.003159,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Lunarfall Raven",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 109,
+										["g_amt"] = 0,
+										["n_max"] = 40,
+										["targets"] = {
+											["Öc-Stormscale"] = 34,
+											["Nullific-Silvermoon"] = 497,
+											["Bananshaman-Outland"] = 429,
+											["Rykahpriest"] = 778,
+											["Karabor Peacekeeper"] = 309,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1938,
+										["MISS"] = 2,
+										["n_min"] = 24,
+										["g_dmg"] = 0,
+										["counter"] = 68,
+										["DODGE"] = 2,
+										["total"] = 2047,
+										["c_max"] = 64,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 61,
+										["m_crit"] = 0,
+										["a_amt"] = 2,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 62,
+										["r_amt"] = 0,
+										["c_min"] = 45,
+									}, -- [1]
+									[158549] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 158549,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 11,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[158558] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 57,
+										["targets"] = {
+											["Nullific-Silvermoon"] = 57,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 57,
+										["n_min"] = 57,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 57,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 158558,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3771-1116-307-82037-000112144D",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603409155,
+							["damage_taken"] = 6738.003159,
+							["start_time"] = 1603409028,
+							["delay"] = 1603409155,
+							["tipo"] = 1,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 54,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 306,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 306.005044,
+							["total_without_pet"] = 817.005044,
+							["total"] = 817.005044,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 561,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 561.005044,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 817,
+							},
+							["totalover_without_pet"] = 0.005044,
+							["healing_taken"] = 817.005044,
+							["fight_component"] = true,
+							["end_time"] = 1603409072,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[94472] = {
+										["c_amt"] = 5,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Rykahpriest"] = 81,
+										},
+										["n_min"] = 0,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 81,
+										["c_max"] = 26,
+										["id"] = 94472,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 81,
+										["m_crit"] = 0,
+										["c_min"] = 8,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 13,
+										["targets"] = {
+											["Rykahpriest"] = 168,
+										},
+										["n_min"] = 5,
+										["counter"] = 18,
+										["overheal"] = 0,
+										["total"] = 168,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 168,
+										["n_amt"] = 18,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 561,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 306,
+										},
+										["n_max"] = 38,
+										["targets"] = {
+											["Rykahpriest"] = 561,
+										},
+										["n_min"] = 0,
+										["counter"] = 21,
+										["overheal"] = 306,
+										["total"] = 561,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 561,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 561,
+										["n_amt"] = 21,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[259760] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1,
+										["targets"] = {
+											["Rykahpriest"] = 7,
+										},
+										["n_min"] = 1,
+										["counter"] = 7,
+										["overheal"] = 0,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = 259760,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 7,
+										["n_amt"] = 7,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603409032,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.005044,
+							["delay"] = 1603409061,
+							["last_event"] = 1603409061,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 54,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 54,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[8122] = {
+										["activedamt"] = 0,
+										["id"] = 8122,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6788] = {
+										["activedamt"] = 0,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 27,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 293,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[8122] = {
+										["id"] = 8122,
+										["targets"] = {
+											["Lunarfall Raven"] = 2,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[17] = {
+										["activedamt"] = 3,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 43,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 64,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 64,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 64,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 2,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 43,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[111759] = {
+										["activedamt"] = 1,
+										["id"] = 111759,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 56,
+							["debuff_uptime_targets"] = {
+							},
+							["cc_done"] = 2.007197,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[8122] = 1,
+								[589] = 3,
+								[17] = 3,
+								[1706] = 1,
+							},
+							["cc_done_targets"] = {
+								["Lunarfall Raven"] = 2,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603409072,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Lunarfall Raven",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[158549] = 11,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3771-1116-307-82037-0000121465",
+							["aID"] = "82037",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 54,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["overall_added"] = true,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["tempo_start"] = 1603409008,
+				["enemy"] = "Lunarfall Raven",
+				["combat_counter"] = 289,
+				["playing_solo"] = true,
+				["totals"] = {
+					2584.953897999999, -- [1]
+					816.9806929999999, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.01379399999999996,
+						["alternatepower"] = 0,
+						[3] = -0.005351000000004547,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
-					["Sberla-Silvermoon"] = {
+					["Larriianna-Silvermoon"] = {
 						{
 							true, -- [1]
-							124255, -- [2]
-							25, -- [3]
-							1599957360.975, -- [4]
-							3210, -- [5]
-							"Sberla-Silvermoon", -- [6]
+							175461, -- [2]
+							20, -- [3]
+							1603409156.927, -- [4]
+							5326, -- [5]
+							"Shattered Hand Sadist", -- [6]
 							nil, -- [7]
 							1, -- [8]
-							true, -- [9]
+							false, -- [9]
 							-1, -- [10]
 						}, -- [1]
 						{
 							true, -- [1]
-							124255, -- [2]
-							20, -- [3]
-							1599957362.463, -- [4]
-							3243, -- [5]
-							"Sberla-Silvermoon", -- [6]
+							175461, -- [2]
+							16, -- [3]
+							1603409158.941, -- [4]
+							5361, -- [5]
+							"Shattered Hand Sadist", -- [6]
 							nil, -- [7]
 							1, -- [8]
-							true, -- [9]
+							false, -- [9]
 							-1, -- [10]
 						}, -- [2]
 						{
 							true, -- [1]
-							124255, -- [2]
-							16, -- [3]
-							1599957362.975, -- [4]
-							3225, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							3, -- [7]
+							175461, -- [2]
+							12, -- [3]
+							1603409160.928, -- [4]
+							5406, -- [5]
+							"Shattered Hand Sadist", -- [6]
+							nil, -- [7]
 							1, -- [8]
-							true, -- [9]
+							false, -- [9]
 							-1, -- [10]
 						}, -- [3]
 						{
 							true, -- [1]
-							124255, -- [2]
-							20, -- [3]
-							1599957363.477, -- [4]
-							3203, -- [5]
-							"Sberla-Silvermoon", -- [6]
+							175461, -- [2]
+							7, -- [3]
+							1603409162.942, -- [4]
+							5482, -- [5]
+							"Shattered Hand Sadist", -- [6]
 							nil, -- [7]
 							1, -- [8]
-							true, -- [9]
+							false, -- [9]
 							-1, -- [10]
 						}, -- [4]
 						{
 							true, -- [1]
-							124255, -- [2]
-							20, -- [3]
-							1599957363.972, -- [4]
-							3181, -- [5]
-							"Sberla-Silvermoon", -- [6]
+							175461, -- [2]
+							3, -- [3]
+							1603409164.942, -- [4]
+							5558, -- [5]
+							"Shattered Hand Sadist", -- [6]
 							nil, -- [7]
 							1, -- [8]
-							true, -- [9]
+							false, -- [9]
 							-1, -- [10]
 						}, -- [5]
 						{
@@ -6269,16 +2155,126 @@ _detalhes_database = {
 				["cleu_events"] = {
 					["n"] = 1,
 				},
-				["frags_need_refresh"] = false,
+				["CombatEndedAt"] = 16374.375,
 				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[8122] = {
+							["enabled"] = false,
+							["appliedAt"] = 16314.908,
+							["spellId"] = 8122,
+							["data"] = {
+								{
+									16314.908, -- [1]
+									16322.93, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 16348.642,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									16318.262, -- [1]
+									16333.286, -- [2]
+								}, -- [1]
+								{
+									16335.182, -- [1]
+									16348.059, -- [2]
+								}, -- [2]
+								{
+									16348.642, -- [1]
+									16363.749, -- [2]
+								}, -- [3]
+							},
+							["amountUp"] = 0,
+						},
+						[111759] = {
+							["enabled"] = false,
+							["appliedAt"] = 16322.326,
+							["spellId"] = 111759,
+							["data"] = {
+								{
+									16322.326, -- [1]
+									16324.639, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 16342.96,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									16342.96, -- [1]
+									16355.143, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 16348.642,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									16318.262, -- [1]
+									16325.201, -- [2]
+								}, -- [1]
+								{
+									16335.182, -- [1]
+									16342.183, -- [2]
+								}, -- [2]
+								{
+									16348.642, -- [1]
+									16355.56, -- [2]
+								}, -- [3]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 16335.286,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									16318.262, -- [1]
+									16333.286, -- [2]
+								}, -- [1]
+								{
+									16335.286, -- [1]
+									16363.749, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 16347.288,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									16333.786, -- [1]
+									16345.787, -- [2]
+								}, -- [1]
+								{
+									16347.288, -- [1]
+									16362.081, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+					},
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "01:35:14",
-				["end_time"] = 41043.491,
+				["data_inicio"] = "00:23:29",
+				["end_time"] = 16374.375,
 				["totals_grupo"] = {
-					24565, -- [1]
-					4876, -- [2]
+					481, -- [1]
+					817, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -6297,7 +2293,9 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["instance_type"] = "party",
+				["combat_id"] = 54,
+				["TotalElapsedCombatTime"] = 16374.375,
+				["frags_need_refresh"] = true,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -6307,83 +2305,119 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["Worgylegoshi-Thunderhorn"] = 162.010833,
-							["Zanm-Silvermoon"] = 121.008495,
-							["Rykahpriest"] = 4818.011431,
-							["Sberla-Silvermoon"] = 0.009555000000000001,
+							["Rykahpriest"] = 817.005044,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Zanm-Silvermoon"] = 6530.00695,
-							["Sberla-Silvermoon"] = 2930.010447,
-							["Juraak-Silvermoon"] = 6755.001139,
-							["Rykahpriest"] = 4401.003287,
-							["Worgylegoshi-Thunderhorn"] = 6791.007915,
+							["Rykahpriest"] = 481.007221,
 						}, -- [1]
 					},
 				},
-				["resincked"] = true,
-				["combat_id"] = 11,
 				["frags"] = {
+					["Moonlight Squirrel"] = 1,
+					["Lunarfall Raven"] = 8,
 				},
-				["data_fim"] = "01:36:00",
-				["is_boss"] = {
-					["diff_string"] = "Normal",
-					["index"] = 1,
-					["zone"] = "Gnomeregan",
-					["encounter"] = "Electrocutioner 6000",
-					["mapid"] = 90,
-					["try_number"] = 1,
-					["name"] = "Electrocutioner 6000",
-					["diff"] = 1,
-					["id"] = 380,
-					["ej_instance_id"] = 231,
-					["killed"] = true,
-				},
+				["data_fim"] = "00:24:32",
+				["instance_type"] = "none",
 				["CombatSkillCache"] = {
 				},
 				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							16309.991, -- [1]
+							3365, -- [2]
+							"Tree Marking", -- [3]
+						}, -- [1]
+						{
+							16314.783, -- [1]
+							8122, -- [2]
+							"", -- [3]
+						}, -- [2]
+						{
+							16318.262, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [3]
+						{
+							16322.326, -- [1]
+							1706, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [4]
+						{
+							16326.535, -- [1]
+							3365, -- [2]
+							"Tree Marking", -- [3]
+						}, -- [5]
+						{
+							16333.786, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [6]
+						{
+							16335.182, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [7]
+						{
+							16343.871, -- [1]
+							3365, -- [2]
+							"Tree Marking", -- [3]
+						}, -- [8]
+						{
+							16347.288, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [9]
+						{
+							16348.642, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [10]
+						{
+							16349.997, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [11]
+					},
 				},
-				["start_time"] = 40997.165,
-				["contra"] = "Electrocutioner 6000",
+				["start_time"] = 16310.49,
+				["contra"] = "Lunarfall Raven",
 				["TimeData"] = {
 				},
 			}, -- [2]
 			{
 				{
-					["combatId"] = 3,
+					["combatId"] = 53,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.007638,
+							["totalabsorbed"] = 0.00531,
+							["spec"] = 256,
 							["damage_from"] = {
-								["Viscous Fallout"] = true,
-								["Irradiated Slime"] = true,
+								["Lunarfall Raven"] = true,
 							},
 							["targets"] = {
-								["Irradiated Slime"] = 77,
-								["Irradiated Horror"] = 26,
-								["Viscous Fallout"] = 4234,
+								["Lunarfall Raven"] = 3438,
 							},
 							["pets"] = {
 							},
-							["total"] = 4337.007638,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["end_time"] = 1603409003,
+							["classe"] = "PRIEST",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 4337.007638,
-							["boss_fight_component"] = true,
-							["colocacao"] = 4,
+							["total_without_pet"] = 3438.00531,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
-							["end_time"] = 1599957071,
-							["classe"] = "PRIEST",
-							["on_hold"] = false,
+							["total"] = 3438.00531,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
 							["nome"] = "Rykahpriest",
 							["spells"] = {
 								["tipo"] = 2,
@@ -6393,17 +2427,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 13,
+										["n_max"] = 3,
 										["targets"] = {
-											["Irradiated Horror"] = 1,
-											["Viscous Fallout"] = 41,
+											["Lunarfall Raven"] = 59,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 42,
+										["n_dmg"] = 59,
 										["n_min"] = 1,
 										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 42,
+										["counter"] = 45,
+										["total"] = 59,
 										["c_max"] = 0,
 										["spellschool"] = 48,
 										["id"] = 259756,
@@ -6416,28 +2449,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 13,
+										["n_amt"] = 45,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
 									[589] = {
-										["c_amt"] = 4,
+										["c_amt"] = 24,
 										["b_amt"] = 0,
-										["c_dmg"] = 249,
+										["c_dmg"] = 1032,
 										["g_amt"] = 0,
-										["n_max"] = 39,
+										["n_max"] = 28,
 										["targets"] = {
-											["Irradiated Slime"] = 77,
-											["Irradiated Horror"] = 25,
-											["Viscous Fallout"] = 1036,
+											["Lunarfall Raven"] = 3166,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 889,
-										["n_min"] = 25,
+										["n_dmg"] = 2134,
+										["n_min"] = 6,
 										["g_dmg"] = 0,
-										["counter"] = 34,
-										["total"] = 1138,
-										["c_max"] = 77,
+										["counter"] = 126,
+										["total"] = 3166,
+										["c_max"] = 56,
 										["spellschool"] = 32,
 										["id"] = 589,
 										["r_dmg"] = 0,
@@ -6449,57 +2480,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 30,
+										["n_amt"] = 102,
 										["r_amt"] = 0,
-										["c_min"] = 56,
-									},
-									[585] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 1068,
-										["g_amt"] = 0,
-										["n_max"] = 133,
-										["targets"] = {
-											["Viscous Fallout"] = 2132,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1064,
-										["n_min"] = 133,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 2132,
-										["c_max"] = 267,
-										["spellschool"] = 2,
-										["id"] = 585,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 267,
+										["c_min"] = 40,
 									},
 									[47666] = {
-										["c_amt"] = 2,
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 374,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 93,
+										["n_max"] = 73,
 										["targets"] = {
-											["Viscous Fallout"] = 1025,
+											["Lunarfall Raven"] = 213,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 651,
-										["n_min"] = 93,
+										["n_dmg"] = 213,
+										["n_min"] = 70,
 										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 1025,
-										["c_max"] = 187,
+										["counter"] = 3,
+										["total"] = 213,
+										["c_max"] = 0,
 										["spellschool"] = 2,
 										["id"] = 47666,
 										["r_dmg"] = 0,
@@ -6511,253 +2511,151 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 7,
+										["n_amt"] = 3,
 										["r_amt"] = 0,
-										["c_min"] = 187,
+										["c_min"] = 0,
 									},
 								},
 							},
 							["grupo"] = true,
-							["spec"] = 256,
 							["serial"] = "Player-1303-0B65E197",
-							["last_dps"] = 81.86182743711915,
+							["last_dps"] = 40.26380256947749,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 485.007638,
-							["start_time"] = 1599957010,
+							["damage_taken"] = 2867.00531,
+							["start_time"] = 1603408918,
 							["delay"] = 0,
-							["last_event"] = 1599957070,
+							["last_event"] = 1603409001,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["totalabsorbed"] = 1345.003451,
+							["totalabsorbed"] = 1413.005124,
+							["friendlyfire"] = {
+							},
 							["damage_from"] = {
-								["Zanm-Silvermoon"] = true,
-								["Unknown <Zanm-Silvermoon>"] = true,
-								["Sberla-Silvermoon"] = true,
-								["Juraak-Silvermoon"] = true,
-								["Ravager <Worgylegoshi-Thunderhorn>"] = true,
+								["Viableiswear-Silvermoon"] = true,
+								["Nullific-Silvermoon"] = true,
+								["Bananshaman-Outland"] = true,
+								["Atuin-Sylvanas"] = true,
+								["Karabor Peacekeeper"] = true,
+								["Lililak-Outland"] = true,
 								["Rykahpriest"] = true,
-								["Worgylegoshi-Thunderhorn"] = true,
+								["Karloz"] = true,
 							},
 							["targets"] = {
-								["Juraak-Silvermoon"] = 222,
-								["Unknown <Zanm-Silvermoon>"] = 92,
-								["Sberla-Silvermoon"] = 5373,
-								["Zanm-Silvermoon"] = 236,
-								["Ravager <Worgylegoshi-Thunderhorn>"] = 93,
-								["Rykahpriest"] = 236,
-								["Worgylegoshi-Thunderhorn"] = 241,
+								["Karloz"] = 24,
+								["Nullific-Silvermoon"] = 244,
+								["Bananshaman-Outland"] = 505,
+								["Atuin-Sylvanas"] = 24,
+								["Lililak-Outland"] = 157,
+								["Rykahpriest"] = 2867,
+								["Karabor Peacekeeper"] = 274,
 							},
+							["end_time"] = 1603409008,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["aID"] = "82037",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 6493.003451000001,
+							["total_without_pet"] = 4095.005124,
 							["monster"] = true,
-							["boss_fight_component"] = true,
 							["dps_started"] = false,
-							["end_time"] = 1599957062,
-							["friendlyfire_total"] = 0,
+							["total"] = 4095.005124,
 							["on_hold"] = false,
-							["nome"] = "Viscous Fallout",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Lunarfall Raven",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 0,
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 59,
 										["g_amt"] = 0,
-										["n_max"] = 344,
+										["n_max"] = 67,
 										["targets"] = {
-											["Sberla-Silvermoon"] = 5196,
+											["Viableiswear-Silvermoon"] = 0,
+											["Nullific-Silvermoon"] = 244,
+											["Bananshaman-Outland"] = 450,
+											["Atuin-Sylvanas"] = 24,
+											["Karabor Peacekeeper"] = 274,
+											["Lililak-Outland"] = 157,
+											["Rykahpriest"] = 2644,
+											["Karloz"] = 24,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 5196,
-										["n_min"] = 2,
+										["n_dmg"] = 3758,
+										["DODGE"] = 4,
+										["n_min"] = 23,
 										["g_dmg"] = 0,
-										["counter"] = 25,
-										["DODGE"] = 3,
-										["total"] = 5196,
-										["c_max"] = 0,
+										["counter"] = 125,
+										["MISS"] = 3,
+										["total"] = 3817,
+										["c_max"] = 59,
 										["spellschool"] = 1,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 4272,
-										["m_crit"] = 0,
-										["a_amt"] = 19,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 22,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									}, -- [1]
-									[21687] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 80,
-										["targets"] = {
-											["Juraak-Silvermoon"] = 222,
-											["Unknown <Zanm-Silvermoon>"] = 92,
-											["Sberla-Silvermoon"] = 177,
-											["Zanm-Silvermoon"] = 236,
-											["Ravager <Worgylegoshi-Thunderhorn>"] = 93,
-											["Rykahpriest"] = 236,
-											["Worgylegoshi-Thunderhorn"] = 241,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1297,
-										["n_min"] = 3,
-										["g_dmg"] = 0,
-										["counter"] = 84,
-										["total"] = 1297,
-										["c_max"] = 0,
-										["id"] = 21687,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 97,
+										["a_dmg"] = 106,
 										["m_crit"] = 0,
 										["a_amt"] = 3,
 										["m_amt"] = 0,
-										["successful_casted"] = 4,
-										["b_dmg"] = 0,
-										["n_amt"] = 84,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["total"] = 6493.003451000001,
-							["serial"] = "Creature-0-3891-90-14342-7079-00005D67AA",
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1599957061,
-							["damage_taken"] = 27425.003451,
-							["start_time"] = 1599957015,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 0.002029,
-							["damage_from"] = {
-								["Viscous Fallout"] = true,
-								["Irradiated Slime"] = true,
-							},
-							["targets"] = {
-								["Irradiated Horror"] = 126,
-								["Viscous Fallout"] = 5386,
-							},
-							["pets"] = {
-							},
-							["total"] = 5512.002029,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 5512.002029,
-							["boss_fight_component"] = true,
-							["colocacao"] = 3,
-							["dps_started"] = false,
-							["end_time"] = 1599957062,
-							["classe"] = "DRUID",
-							["on_hold"] = false,
-							["nome"] = "Juraak-Silvermoon",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[190984] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 206,
-										["g_amt"] = 0,
-										["n_max"] = 104,
-										["targets"] = {
-											["Viscous Fallout"] = 826,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 620,
-										["n_min"] = 102,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 826,
-										["c_max"] = 206,
-										["spellschool"] = 8,
-										["id"] = 190984,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 6,
+										["n_amt"] = 117,
 										["r_amt"] = 0,
-										["c_min"] = 206,
-									},
-									[164812] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 246,
-										["g_amt"] = 0,
-										["n_max"] = 22,
-										["targets"] = {
-											["Irradiated Horror"] = 82,
-											["Viscous Fallout"] = 581,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 417,
-										["n_min"] = 20,
-										["g_dmg"] = 0,
-										["counter"] = 26,
-										["total"] = 663,
-										["c_max"] = 41,
-										["spellschool"] = 64,
-										["id"] = 164812,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 20,
-										["r_amt"] = 0,
-										["c_min"] = 41,
-									},
-									[279729] = {
+										["c_min"] = 59,
+									}, -- [1]
+									[158549] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 41,
+										["n_max"] = 0,
 										["targets"] = {
-											["Viscous Fallout"] = 122,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 122,
-										["n_min"] = 20,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 158549,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 22,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[158558] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 56,
+										["targets"] = {
+											["Rykahpriest"] = 223,
+											["Bananshaman-Outland"] = 55,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 278,
+										["n_min"] = 55,
 										["g_dmg"] = 0,
 										["counter"] = 5,
-										["total"] = 122,
+										["total"] = 278,
 										["c_max"] = 0,
-										["spellschool"] = 8,
-										["id"] = 279729,
+										["spellschool"] = 1,
+										["id"] = 158558,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -6771,87 +2669,906 @@ _detalhes_database = {
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									[164815] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 326,
-										["g_amt"] = 0,
-										["n_max"] = 31,
+								},
+							},
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3771-1116-307-82037-000192140A",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603409006,
+							["damage_taken"] = 10410.005124,
+							["start_time"] = 1603408919,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 53,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 883,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 883.005235,
+							["total_without_pet"] = 2488.005235,
+							["total"] = 2488.005235,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 1464,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 1464.005235,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 2488,
+							},
+							["totalover_without_pet"] = 0.005235,
+							["healing_taken"] = 2488.005235,
+							["fight_component"] = true,
+							["end_time"] = 1603409003,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[17] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 1464,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 548,
+										},
+										["n_max"] = 67,
 										["targets"] = {
-											["Irradiated Horror"] = 44,
-											["Viscous Fallout"] = 685,
+											["Rykahpriest"] = 1444,
 										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 403,
-										["n_min"] = 17,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["total"] = 729,
-										["c_max"] = 62,
-										["spellschool"] = 8,
-										["id"] = 164815,
-										["r_dmg"] = 0,
-										["extra"] = {
+										["n_min"] = 0,
+										["counter"] = 50,
+										["overheal"] = 548,
+										["total"] = 1444,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 1464,
 										},
-										["a_dmg"] = 0,
+										["m_healed"] = 0,
+										["c_curado"] = -20,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = -20,
 										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 18,
-										["r_amt"] = 0,
-										["c_min"] = 44,
+										["n_curado"] = 1464,
+										["n_amt"] = 49,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
 									},
-									[194153] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 528,
-										["g_amt"] = 0,
-										["n_max"] = 159,
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 169,
+										},
+										["n_max"] = 41,
 										["targets"] = {
-											["Viscous Fallout"] = 1585,
+											["Rykahpriest"] = 718,
 										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1057,
-										["n_min"] = 132,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 1585,
-										["c_max"] = 264,
-										["spellschool"] = 64,
-										["id"] = 194153,
-										["r_dmg"] = 0,
-										["extra"] = {
+										["n_min"] = 3,
+										["counter"] = 68,
+										["overheal"] = 169,
+										["total"] = 718,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
 										},
-										["a_dmg"] = 0,
+										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 264,
+										["n_curado"] = 718,
+										["n_amt"] = 68,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
 									},
-									[78674] = {
+									[259760] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 16,
+										},
+										["n_max"] = 2,
+										["targets"] = {
+											["Rykahpriest"] = 18,
+										},
+										["n_min"] = 1,
+										["counter"] = 30,
+										["overheal"] = 16,
+										["total"] = 18,
+										["c_max"] = 0,
+										["id"] = 259760,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 18,
+										["n_amt"] = 30,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[94472] = {
+										["c_amt"] = 18,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 150,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Rykahpriest"] = 288,
+										},
+										["n_min"] = 0,
+										["counter"] = 18,
+										["overheal"] = 150,
+										["total"] = 288,
+										["c_max"] = 32,
+										["id"] = 94472,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 288,
+										["m_crit"] = 0,
+										["c_min"] = 22,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603408940,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.005235,
+							["delay"] = 1603408930,
+							["last_event"] = 1603409001,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 53,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 216.001633,
+							["resource"] = 0.001633,
+							["targets"] = {
+								["Rykahpriest"] = 216,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "1303-0B65E197",
+							["passiveover"] = 0.001633,
+							["fight_component"] = true,
+							["total"] = 216.001633,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[59914] = {
+										["total"] = 216,
+										["id"] = 59914,
+										["totalover"] = 57,
+										["targets"] = {
+											["Rykahpriest"] = 216,
+										},
+										["counter"] = 8,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.001633,
+							["last_event"] = 1603408998,
+							["classe"] = "PRIEST",
+							["tipo"] = 3,
+							["serial"] = "Player-1303-0B65E197",
+							["totalover"] = 57.001633,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 53,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[8122] = {
+										["activedamt"] = 0,
+										["id"] = 8122,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6788] = {
+										["activedamt"] = -1,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 81,
+										["appliedamt"] = 4,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 77,
+										["appliedamt"] = 18,
+										["refreshamt"] = 9,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["cc_break_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[589] = {
+										["cc_break_oque"] = {
+											[8122] = 1,
+										},
+										["id"] = 589,
+										["cc_break"] = 1,
+										["targets"] = {
+											["Lunarfall Raven"] = 1,
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 469,
+							["cc_break"] = 1.004921,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[8122] = {
+										["id"] = 8122,
+										["targets"] = {
+											["Lunarfall Raven"] = 3,
+										},
+										["counter"] = 3,
+									},
+								},
+							},
+							["classe"] = "PRIEST",
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 85,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 4,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 44,
+										["appliedamt"] = 4,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 85,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 85,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 85,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 3,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 61,
+										["appliedamt"] = 3,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 2,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["aID"] = "1303-0B65E197",
+							["fight_component"] = true,
+							["debuff_uptime"] = 166,
+							["cc_done_targets"] = {
+								["Lunarfall Raven"] = 3,
+							},
+							["cc_done"] = 3.003787,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[8122] = 1,
+								[589] = 26,
+								[17] = 4,
+								[47540] = 1,
+							},
+							["cc_break_oque"] = {
+								[8122] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603409003,
+							["pets"] = {
+							},
+							["cc_break_targets"] = {
+								["Lunarfall Raven"] = 1,
+							},
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Lunarfall Raven",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[158549] = 22,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3771-1116-307-82037-00031213EA",
+							["aID"] = "82037",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 53,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["CombatStartedAt"] = 16309.136,
+				["tempo_start"] = 1603408918,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 288,
+				["playing_solo"] = true,
+				["totals"] = {
+					7532.969456000001, -- [1]
+					2487.96654, -- [2]
+					{
+						0, -- [1]
+						[0] = 215.975696,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 1,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					3438, -- [1]
+					2468, -- [2]
+					{
+						0, -- [1]
+						[0] = 216,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 1,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "00:23:24",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Lunarfall Raven",
+				["TotalElapsedCombatTime"] = 85.38700000000063,
+				["CombatEndedAt"] = 16305.594,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[8122] = {
+							["enabled"] = false,
+							["appliedAt"] = 16243.419,
+							["spellId"] = 8122,
+							["data"] = {
+								{
+									16243.419, -- [1]
+									16251.565, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 16279.355,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									16254.816, -- [1]
+									16261.317, -- [2]
+								}, -- [1]
+								{
+									16270.631, -- [1]
+									16274.443, -- [2]
+								}, -- [2]
+								{
+									16279.355, -- [1]
+									16300.718, -- [2]
+								}, -- [3]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 16281.695,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									16221.686, -- [1]
+									16233.625, -- [2]
+								}, -- [1]
+								{
+									16281.695, -- [1]
+									16293.738, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 16298.76,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									16220.207, -- [1]
+									16271.839, -- [2]
+								}, -- [1]
+								{
+									16277.986, -- [1]
+									16297.551, -- [2]
+								}, -- [2]
+								{
+									16298.76, -- [1]
+									16304.448, -- [2]
+								}, -- [3]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 16270.631,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									16254.816, -- [1]
+									16269.88, -- [2]
+								}, -- [1]
+								{
+									16270.631, -- [1]
+									16304.281, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 16289.37,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									16254.816, -- [1]
+									16261.733, -- [2]
+								}, -- [1]
+								{
+									16270.631, -- [1]
+									16277.569, -- [2]
+								}, -- [2]
+								{
+									16279.355, -- [1]
+									16286.341, -- [2]
+								}, -- [3]
+								{
+									16289.37, -- [1]
+									16296.259, -- [2]
+								}, -- [4]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 2488.005235,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 3438.00531,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 16305.594,
+				["combat_id"] = 53,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							16220.207, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [1]
+						{
+							16221.582, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [2]
+						{
+							16223.103, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [3]
+						{
+							16226.103, -- [1]
+							3365, -- [2]
+							"Tree Marking", -- [3]
+						}, -- [4]
+						{
+							16226.978, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [5]
+						{
+							16228.749, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [6]
+						{
+							16230.23, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [7]
+						{
+							16232.229, -- [1]
+							3365, -- [2]
+							"Tree Marking", -- [3]
+						}, -- [8]
+						{
+							16233.042, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [9]
+						{
+							16235.563, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [10]
+						{
+							16238.167, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [11]
+						{
+							16240.751, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [12]
+						{
+							16243.419, -- [1]
+							8122, -- [2]
+							"", -- [3]
+						}, -- [13]
+						{
+							16245.106, -- [1]
+							3365, -- [2]
+							"Tree Marking", -- [3]
+						}, -- [14]
+						{
+							16245.919, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [15]
+						{
+							16247.586, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [16]
+						{
+							16248.919, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [17]
+						{
+							16252.586, -- [1]
+							3365, -- [2]
+							"Tree Marking", -- [3]
+						}, -- [18]
+						{
+							16253.461, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [19]
+						{
+							16254.816, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [20]
+						{
+							16256.149, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [21]
+						{
+							16270.631, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [22]
+						{
+							16277.986, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [23]
+						{
+							16279.355, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [24]
+						{
+							16280.736, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [25]
+						{
+							16282.195, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [26]
+						{
+							16283.653, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [27]
+						{
+							16285.07, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [28]
+						{
+							16286.446, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [29]
+						{
+							16287.904, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [30]
+						{
+							16289.37, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [31]
+						{
+							16290.842, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [32]
+						{
+							16292.28, -- [1]
+							47540, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [33]
+						{
+							16295.87, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [34]
+						{
+							16297.343, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [35]
+						{
+							16298.76, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [36]
+						{
+							16300.136, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [37]
+						{
+							16302.865, -- [1]
+							3365, -- [2]
+							"Tree Marking", -- [3]
+						}, -- [38]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "00:21:58",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Lunarfall Raven"] = 19,
+				},
+				["start_time"] = 16220.207,
+				["TimeData"] = {
+				},
+				["contra"] = "Lunarfall Raven",
+			}, -- [3]
+			{
+				{
+					["combatId"] = 52,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002241,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+							},
+							["targets"] = {
+								["Lunarfall Raven"] = 27,
+							},
+							["pets"] = {
+							},
+							["total"] = 27.002241,
+							["on_hold"] = false,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 27.002241,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1603408917,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[589] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 397,
+										["n_max"] = 27,
 										["targets"] = {
-											["Viscous Fallout"] = 1587,
+											["Lunarfall Raven"] = 27,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1587,
-										["n_min"] = 396,
+										["n_dmg"] = 27,
+										["n_min"] = 27,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 1587,
+										["counter"] = 1,
+										["total"] = 27,
 										["c_max"] = 0,
-										["spellschool"] = 72,
-										["id"] = 78674,
+										["spellschool"] = 32,
+										["id"] = 589,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -6861,49 +3578,118 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
 								},
 							},
 							["grupo"] = true,
-							["spec"] = 102,
-							["serial"] = "Player-3391-0B77CF83",
-							["last_dps"] = 105.9205985703091,
+							["spec"] = 256,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 25.42583898305329,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 253.002029,
-							["start_time"] = 1599957010,
+							["damage_taken"] = 28.002241,
+							["start_time"] = 1603408916,
 							["delay"] = 0,
-							["last_event"] = 1599957062,
-						}, -- [3]
+							["last_event"] = 1603408916,
+						}, -- [1]
 						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.005054,
+							["flag_original"] = -2147483648,
+							["totalabsorbed"] = 0.004287,
 							["damage_from"] = {
-								["Sberla-Silvermoon"] = true,
-								["Zanm-Silvermoon"] = true,
-								["Juraak-Silvermoon"] = true,
-								["Rykahpriest"] = true,
-								["Ravager <Worgylegoshi-Thunderhorn>"] = true,
 							},
 							["targets"] = {
-								["Sberla-Silvermoon"] = 72,
+								["Rykahpriest"] = 28,
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 72.005054,
-							["monster"] = true,
-							["boss_fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1599957062,
-							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 28.004287,
 							["on_hold"] = false,
-							["nome"] = "Irradiated Horror",
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1603408917,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Environment (Falling)",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[3] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 28,
+										["targets"] = {
+											["Rykahpriest"] = 28,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 28,
+										["n_min"] = 28,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 28,
+										["c_max"] = 0,
+										["spellschool"] = 3,
+										["id"] = 3,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 28.004287,
+							["serial"] = "",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408917,
+							["damage_taken"] = 0.004287,
+							["start_time"] = 1603408917,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.003147,
+							["total"] = 26.003147,
+							["damage_from"] = {
+								["Viableiswear-Silvermoon"] = true,
+								["Rykahpriest"] = true,
+								["Bananshaman-Outland"] = true,
+							},
+							["targets"] = {
+								["Bananshaman-Outland"] = 26,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "82037",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 26.003147,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603408917,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Lunarfall Raven",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
@@ -6912,25 +3698,25 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 72,
+										["n_max"] = 26,
 										["targets"] = {
-											["Sberla-Silvermoon"] = 72,
+											["Bananshaman-Outland"] = 26,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 72,
-										["n_min"] = 72,
+										["n_dmg"] = 26,
+										["n_min"] = 26,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 72,
+										["total"] = 26,
 										["c_max"] = 0,
 										["spellschool"] = 1,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 72,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 1,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -6940,149 +3726,1297 @@ _detalhes_database = {
 									}, -- [1]
 								},
 							},
-							["total"] = 72.005054,
-							["serial"] = "Creature-0-3891-90-14342-6220-00035D67AA",
 							["friendlyfire"] = {
 							},
+							["serial"] = "Creature-0-3771-1116-307-82037-00019213D5",
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1599957011,
-							["damage_taken"] = 333.005054,
-							["start_time"] = 1599957061,
-							["delay"] = 1599957011,
+							["last_event"] = 1603408917,
+							["damage_taken"] = 898.003147,
+							["start_time"] = 1603408917,
+							["delay"] = 0,
 							["tipo"] = 1,
-						}, -- [4]
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 52,
+					["tipo"] = 3,
+					["_ActorTable"] = {
 						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 452.006812,
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 15,
+							},
 							["pets"] = {
 							},
-							["classe"] = "MONK",
-							["total_without_pet"] = 3611.006812,
-							["dps_started"] = false,
-							["total"] = 3611.006812,
-							["spec"] = 268,
-							["colocacao"] = 5,
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 15.004222,
+							["total_without_pet"] = 0.004222,
+							["total"] = 0.004222,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
 							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0B77C625",
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 0.004222,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.004222,
+							["healing_taken"] = 0.004222,
+							["end_time"] = 1603408917,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 15,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Rykahpriest"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 15,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603408916,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.004222,
+							["delay"] = 0,
+							["last_event"] = 1603408916,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 52,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 52,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 6,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 1,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 1,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 1,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603408917,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 52,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["CombatStartedAt"] = 16218.79,
+				["tempo_start"] = 1603408916,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 287,
+				["playing_solo"] = true,
+				["totals"] = {
+					80.98954599999999, -- [1]
+					-0.005718, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					27, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "00:21:58",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Lunarfall Raven",
+				["TotalElapsedCombatTime"] = 1.061999999999898,
+				["CombatEndedAt"] = 16219.852,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 16218.79,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									16218.79, -- [1]
+									16219.414, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 0.004222,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 27.002241,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 16219.852,
+				["combat_id"] = 52,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							16217.331, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [1]
+						{
+							16218.79, -- [1]
+							589, -- [2]
+							"Lunarfall Raven", -- [3]
+						}, -- [2]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "00:21:57",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Lunarfall Raven"] = 1,
+				},
+				["start_time"] = 16218.79,
+				["TimeData"] = {
+				},
+				["contra"] = "Lunarfall Raven",
+			}, -- [4]
+			{
+				{
+					["combatId"] = 51,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004247,
 							["damage_from"] = {
-								["Viscous Fallout"] = true,
-								["Irradiated Slime"] = true,
-								["Irradiated Horror"] = true,
-								["Sberla-Silvermoon"] = true,
+								["Iron Grunt"] = true,
 							},
 							["targets"] = {
-								["Irradiated Horror"] = 38,
-								["Viscous Fallout"] = 3573,
 							},
-							["friendlyfire_total"] = 2567,
+							["classe"] = "PRIEST",
+							["pets"] = {
+							},
+							["spec"] = 256,
+							["aID"] = "1303-0B65E197",
 							["raid_targets"] = {
 							},
-							["end_time"] = 1599957062,
-							["boss_fight_component"] = true,
-							["avoidance"] = {
-								["overall"] = {
-									["DODGE"] = 3,
-									["FULL_ABSORB_AMT"] = 1459,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 34,
-									["ALL"] = 190,
-									["PARTIAL_ABSORBED"] = 27,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 2840,
-									["ABSORB"] = 61,
-									["ABSORB_AMT"] = 4299,
-									["FULL_HIT"] = 129,
-									["HITS"] = 23,
-									["FULL_HIT_AMT"] = 3447,
-								},
-								["Sberla-Silvermoon"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 451,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 26,
-									["ALL"] = 137,
-									["PARTIAL_ABSORBED"] = 0,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 0,
-									["ABSORB"] = 26,
-									["ABSORB_AMT"] = 451,
-									["FULL_HIT"] = 111,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 2360,
-								},
-								["Irradiated Slime"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 66,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 3,
-									["ALL"] = 13,
-									["PARTIAL_ABSORBED"] = 4,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 35,
-									["ABSORB"] = 7,
-									["ABSORB_AMT"] = 101,
-									["FULL_HIT"] = 6,
-									["HITS"] = 0,
-									["FULL_HIT_AMT"] = 83,
-								},
-								["Irradiated Horror"] = {
-									["DODGE"] = 0,
-									["FULL_ABSORB_AMT"] = 0,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 0,
-									["ALL"] = 1,
-									["PARTIAL_ABSORBED"] = 1,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 77,
-									["ABSORB"] = 1,
-									["ABSORB_AMT"] = 77,
-									["FULL_HIT"] = 0,
-									["HITS"] = 1,
-									["FULL_HIT_AMT"] = 0,
-								},
-								["Viscous Fallout"] = {
-									["DODGE"] = 3,
-									["FULL_ABSORB_AMT"] = 942,
-									["BLOCKED_AMT"] = 0,
-									["BLOCKED_HITS"] = 0,
-									["FULL_ABSORBED"] = 5,
-									["ALL"] = 39,
-									["PARTIAL_ABSORBED"] = 22,
-									["PARRY"] = 0,
-									["PARTIAL_ABSORB_AMT"] = 2728,
-									["ABSORB"] = 27,
-									["ABSORB_AMT"] = 3670,
-									["FULL_HIT"] = 12,
-									["HITS"] = 22,
-									["FULL_HIT_AMT"] = 1004,
+							["total_without_pet"] = 0.004247,
+							["end_time"] = 1603408808,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 0.004247,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
 								},
 							},
-							["nome"] = "Sberla-Silvermoon",
+							["grupo"] = true,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 324.004247,
+							["start_time"] = 1603408808,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 123.004449,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+								["Liberated Karabor Prisoner"] = true,
+							},
+							["targets"] = {
+								["Rykahpriest"] = 324,
+								["Liberated Karabor Prisoner"] = 2986,
+							},
+							["end_time"] = 1603408808,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["aID"] = "81014",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3310.004449,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 3310.004449,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Iron Grunt",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 4,
+										["c_amt"] = 6,
 										["b_amt"] = 0,
-										["c_dmg"] = 689,
+										["c_dmg"] = 435,
 										["g_amt"] = 0,
-										["n_max"] = 87,
+										["n_max"] = 58,
 										["targets"] = {
-											["Viscous Fallout"] = 1608,
+											["Rykahpriest"] = 269,
+											["Liberated Karabor Prisoner"] = 2934,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 919,
-										["n_min"] = 81,
+										["n_dmg"] = 2768,
+										["a_amt"] = 0,
+										["MISS"] = 2,
+										["n_min"] = 27,
 										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 1608,
-										["c_max"] = 178,
+										["counter"] = 85,
+										["DODGE"] = 2,
+										["total"] = 3203,
+										["c_max"] = 92,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 74,
+										["r_amt"] = 0,
+										["c_min"] = 58,
+									}, -- [1]
+									[157843] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 55,
+										["targets"] = {
+											["Rykahpriest"] = 55,
+											["Liberated Karabor Prisoner"] = 52,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 107,
+										["n_min"] = 52,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 107,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 157843,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81014-000012112A",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408804,
+							["damage_taken"] = 2866.004449,
+							["start_time"] = 1603408776,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 51,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 144,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 144.001326,
+							["total_without_pet"] = 123.001326,
+							["total"] = 123.001326,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 123,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 123.001326,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 123,
+							},
+							["totalover_without_pet"] = 0.001326,
+							["healing_taken"] = 123.001326,
+							["fight_component"] = true,
+							["end_time"] = 1603408808,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 123,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 144,
+										},
+										["n_max"] = 53,
+										["targets"] = {
+											["Rykahpriest"] = 123,
+										},
+										["n_min"] = 0,
+										["counter"] = 4,
+										["overheal"] = 144,
+										["total"] = 123,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 123,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 123,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603408807,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.001326,
+							["delay"] = 1603408795,
+							["last_event"] = 1603408795,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 51,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 51,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[6788] = {
+										["activedamt"] = 0,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[8122] = {
+										["activedamt"] = 0,
+										["id"] = 8122,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 184,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[8122] = {
+										["id"] = 8122,
+										["targets"] = {
+											["Iron Grunt"] = 3,
+										},
+										["counter"] = 3,
+									},
+								},
+							},
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[586] = {
+										["activedamt"] = 1,
+										["id"] = 586,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 2,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 23,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 32,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 32,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 32,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 32,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 2,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 23,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 22,
+							["cc_done_targets"] = {
+								["Iron Grunt"] = 3,
+							},
+							["cc_done"] = 3.001192,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[8122] = 1,
+								[586] = 1,
+								[17] = 2,
+								[21562] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603408808,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Iron Grunt",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[157843] = 3,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81014-000012112A",
+							["aID"] = "81014",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 51,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["overall_added"] = true,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["tempo_start"] = 1603408776,
+				["enemy"] = "Iron Grunt",
+				["combat_counter"] = 286,
+				["playing_solo"] = true,
+				["totals"] = {
+					3309.948034000001, -- [1]
+					123, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatEndedAt"] = 16110.399,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[8122] = {
+							["enabled"] = false,
+							["appliedAt"] = 16084.228,
+							["spellId"] = 8122,
+							["data"] = {
+								{
+									16084.228, -- [1]
+									16092.251, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 16102.44,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									16082.686, -- [1]
+									16097.689, -- [2]
+								}, -- [1]
+								{
+									16102.44, -- [1]
+									16110.399, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 16102.44,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									16082.686, -- [1]
+									16089.522, -- [2]
+								}, -- [1]
+								{
+									16102.44, -- [1]
+									16109.378, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 16102.44,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									16082.686, -- [1]
+									16097.689, -- [2]
+								}, -- [1]
+								{
+									16102.44, -- [1]
+									16110.399, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[586] = {
+							["enabled"] = false,
+							["appliedAt"] = 16085.457,
+							["spellId"] = 586,
+							["data"] = {
+								{
+									16085.457, -- [1]
+									16095.521, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "00:19:37",
+				["end_time"] = 16110.399,
+				["totals_grupo"] = {
+					0, -- [1]
+					123, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["combat_id"] = 51,
+				["TotalElapsedCombatTime"] = 16110.399,
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 123.001326,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 0.004247,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+					["Iron Grunt"] = 4,
+				},
+				["data_fim"] = "00:20:08",
+				["instance_type"] = "none",
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							16082.686, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [1]
+						{
+							16084.228, -- [1]
+							8122, -- [2]
+							"", -- [3]
+						}, -- [2]
+						{
+							16085.457, -- [1]
+							586, -- [2]
+							"", -- [3]
+						}, -- [3]
+						{
+							16102.44, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [4]
+						{
+							16103.877, -- [1]
+							21562, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [5]
+					},
+				},
+				["start_time"] = 16078.915,
+				["contra"] = "Iron Grunt",
+				["TimeData"] = {
+				},
+			}, -- [5]
+			{
+				{
+					["combatId"] = 50,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008233,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["[*] Shadow Word: Death"] = true,
+								["Cannon Turret"] = true,
+								["Gun Turret"] = true,
+								["Gogluk"] = true,
+							},
+							["targets"] = {
+								["Gogluk"] = 2896,
+							},
+							["pets"] = {
+								"Shadowfiend <Rykahpriest>", -- [1]
+								"Thaelin Darkanvil <Rykahpriest>", -- [2]
+							},
+							["spec"] = 256,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1749.008233,
+							["end_time"] = 1603408549,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 2896.008233,
+							["classe"] = "PRIEST",
+							["aID"] = "1303-0B65E197",
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5,
+										["targets"] = {
+											["Gogluk"] = 5,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 5,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[47666] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 115,
+										["g_amt"] = 0,
+										["n_max"] = 60,
+										["targets"] = {
+											["Gogluk"] = 409,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 294,
+										["n_min"] = 57,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 409,
+										["c_max"] = 115,
+										["spellschool"] = 2,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 115,
+									},
+									[585] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 157,
+										["g_amt"] = 0,
+										["n_max"] = 79,
+										["targets"] = {
+											["Gogluk"] = 547,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 390,
+										["n_min"] = 77,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 547,
+										["c_max"] = 157,
+										["spellschool"] = 2,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 157,
+									},
+									[32379] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 127,
+										["targets"] = {
+											["Gogluk"] = 127,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 127,
+										["n_min"] = 127,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 127,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32379,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[589] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 79,
+										["g_amt"] = 0,
+										["n_max"] = 26,
+										["targets"] = {
+											["Gogluk"] = 277,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 198,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 277,
+										["c_max"] = 46,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["r_amt"] = 0,
+										["c_min"] = 33,
+									},
+									[8092] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 238,
+										["g_amt"] = 0,
+										["n_max"] = 117,
+										["targets"] = {
+											["Gogluk"] = 355,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 117,
+										["n_min"] = 117,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 355,
+										["c_max"] = 238,
+										["spellschool"] = 32,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 238,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 12,
+										["targets"] = {
+											["Gogluk"] = 29,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 29,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 29,
+										["c_max"] = 0,
+										["spellschool"] = 48,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 114.8753761602496,
+							["custom"] = 0,
+							["last_event"] = 1603408549,
+							["damage_taken"] = 1539.008233,
+							["start_time"] = 1603408524,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.006153,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Gogluk"] = 737,
+							},
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-19668-0000121292",
+							["on_hold"] = false,
+							["aID"] = "19668",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 737.006153,
+							["dps_started"] = false,
+							["end_time"] = 1603408549,
+							["friendlyfire_total"] = 0,
+							["ownerName"] = "Rykahpriest",
+							["nome"] = "Shadowfiend <Rykahpriest>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 76,
+										["targets"] = {
+											["Gogluk"] = 737,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 737,
+										["n_min"] = 65,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 737,
+										["c_max"] = 0,
 										["spellschool"] = 1,
 										["id"] = 1,
 										["r_dmg"] = 0,
@@ -7096,259 +5030,140 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 11,
 										["r_amt"] = 0,
-										["c_min"] = 166,
+										["c_min"] = 0,
 									}, -- [1]
-									[100780] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 225,
-										["g_amt"] = 0,
-										["n_max"] = 38,
-										["targets"] = {
-											["Irradiated Horror"] = 38,
-											["Viscous Fallout"] = 927,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 740,
-										["n_min"] = 36,
-										["g_dmg"] = 0,
-										["counter"] = 23,
-										["total"] = 965,
-										["c_max"] = 75,
-										["spellschool"] = 1,
-										["id"] = 100780,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 20,
-										["r_amt"] = 0,
-										["c_min"] = 75,
-									},
-									[205523] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 567,
-										["g_amt"] = 0,
-										["n_max"] = 95,
-										["targets"] = {
-											["Viscous Fallout"] = 1038,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 471,
-										["n_min"] = 94,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 1038,
-										["c_max"] = 189,
-										["spellschool"] = 1,
-										["id"] = 205523,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 189,
-									},
 								},
 							},
-							["grupo"] = true,
-							["friendlyfire"] = {
-								["Sberla-Silvermoon"] = {
-									["spells"] = {
-										[124255] = 2360,
-										[186439] = 207,
-									},
-									["total"] = 2567,
-								},
-							},
-							["last_dps"] = 69.39039589539011,
+							["classe"] = "PET",
+							["total"] = 737.006153,
+							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 8254.006812,
-							["start_time"] = 1599957011,
+							["last_event"] = 1603408541,
+							["damage_taken"] = 0.006153,
+							["start_time"] = 1603408527,
 							["delay"] = 0,
-							["last_event"] = 1599957065,
-						}, -- [5]
+							["tipo"] = 1,
+						}, -- [2]
 						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 382.0059,
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 429.006322,
 							["damage_from"] = {
+								["Shadowfiend <Rykahpriest>"] = true,
+								["Thaelinar-Wildhammer"] = true,
+								["Thaelin Darkanvil <Rykahpriest>"] = true,
+								["Manatsuki-Arathor"] = true,
 								["Rykahpriest"] = true,
+								["Liberated Frostwolf Prisoner"] = true,
 							},
 							["targets"] = {
-								["Ravager <Worgylegoshi-Thunderhorn>"] = 48,
-								["Unknown <Zanm-Silvermoon>"] = 1,
-								["Zanm-Silvermoon"] = 298,
-								["Sberla-Silvermoon"] = 260,
-								["Juraak-Silvermoon"] = 31,
-								["Rykahpriest"] = 249,
-								["Worgylegoshi-Thunderhorn"] = 287,
+								["Rykahpriest"] = 523,
 							},
+							["serial"] = "Vehicle-0-3891-1265-4-86039-0000121284",
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["on_hold"] = false,
+							["aID"] = "",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 1174.0059,
+							["total_without_pet"] = 523.006322,
+							["fight_component"] = true,
 							["monster"] = true,
-							["boss_fight_component"] = true,
 							["dps_started"] = false,
-							["end_time"] = 1599957062,
+							["end_time"] = 1603408549,
 							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Irradiated Slime",
+							["classe"] = "UNKNOW",
+							["nome"] = "Gogluk",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									[81039] = {
+									{
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 7,
+										["n_max"] = 51,
 										["targets"] = {
-											["Ravager <Worgylegoshi-Thunderhorn>"] = 35,
-											["Zanm-Silvermoon"] = 29,
-											["Sberla-Silvermoon"] = 29,
-											["Juraak-Silvermoon"] = 31,
-											["Rykahpriest"] = 33,
-											["Worgylegoshi-Thunderhorn"] = 35,
+											["Rykahpriest"] = 523,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 192,
-										["n_min"] = 5,
+										["n_dmg"] = 523,
+										["n_min"] = 35,
 										["g_dmg"] = 0,
-										["counter"] = 30,
-										["total"] = 192,
+										["counter"] = 12,
+										["total"] = 523,
 										["c_max"] = 0,
-										["spellschool"] = 8,
-										["id"] = 81039,
+										["spellschool"] = 1,
+										["id"] = 1,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
-										["a_dmg"] = 5,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 1,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 30,
+										["n_amt"] = 12,
 										["r_amt"] = 0,
 										["c_min"] = 0,
-									},
-									[10341] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 54,
-										["targets"] = {
-											["Unknown <Zanm-Silvermoon>"] = 1,
-											["Zanm-Silvermoon"] = 269,
-											["Sberla-Silvermoon"] = 231,
-											["Ravager <Worgylegoshi-Thunderhorn>"] = 13,
-											["Rykahpriest"] = 216,
-											["Worgylegoshi-Thunderhorn"] = 252,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 982,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["total"] = 982,
-										["c_max"] = 0,
-										["spellschool"] = 8,
-										["id"] = 10341,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 392,
-										["m_crit"] = 0,
-										["a_amt"] = 8,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 25,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
+									}, -- [1]
 								},
 							},
-							["total"] = 1174.0059,
-							["serial"] = "Creature-0-3891-90-14342-6218-00015D67AA",
+							["total"] = 523.006322,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1599957024,
-							["damage_taken"] = 77.0059,
-							["start_time"] = 1599957048,
-							["delay"] = 1599957024,
+							["last_event"] = 1603408548,
+							["damage_taken"] = 3726.006322,
+							["start_time"] = 1603408525,
+							["delay"] = 0,
 							["tipo"] = 1,
-						}, -- [6]
+						}, -- [3]
 						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 0.002897,
-							["spec"] = 267,
-							["damage_from"] = {
-								["Viscous Fallout"] = true,
-								["Irradiated Slime"] = true,
-							},
-							["targets"] = {
-								["Irradiated Horror"] = 110,
-								["Viscous Fallout"] = 6310,
-							},
-							["pets"] = {
-								"Unknown <Zanm-Silvermoon>", -- [1]
-							},
-							["friendlyfire_total"] = 0,
-							["boss_fight_component"] = true,
-							["classe"] = "WARLOCK",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 5085.002897,
-							["colocacao"] = 2,
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.004405,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 6420.002897,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Gogluk"] = 410,
+							},
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-80886-000012126F",
 							["on_hold"] = false,
-							["end_time"] = 1599957062,
-							["nome"] = "Zanm-Silvermoon",
+							["aID"] = "80886",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 410.004405,
+							["dps_started"] = false,
+							["end_time"] = 1603408549,
+							["friendlyfire_total"] = 0,
+							["ownerName"] = "Rykahpriest",
+							["nome"] = "Thaelin Darkanvil <Rykahpriest>",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									[29722] = {
-										["c_amt"] = 1,
+									{
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 246,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 123,
+										["n_max"] = 38,
 										["targets"] = {
-											["Irradiated Horror"] = 110,
-											["Viscous Fallout"] = 936,
+											["Gogluk"] = 272,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 800,
-										["n_min"] = 110,
+										["n_dmg"] = 272,
+										["n_min"] = 30,
 										["g_dmg"] = 0,
 										["counter"] = 8,
-										["total"] = 1046,
-										["c_max"] = 246,
-										["spellschool"] = 4,
-										["id"] = 29722,
+										["total"] = 272,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -7358,59 +5173,28 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 7,
+										["n_amt"] = 8,
 										["r_amt"] = 0,
-										["c_min"] = 246,
-									},
-									[116858] = {
-										["c_amt"] = 4,
+										["c_min"] = 0,
+									}, -- [1]
+									[38557] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 1964,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 47,
 										["targets"] = {
-											["Viscous Fallout"] = 1964,
+											["Gogluk"] = 138,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 138,
+										["n_min"] = 45,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 1964,
-										["c_max"] = 492,
-										["spellschool"] = 124,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 490,
-									},
-									[348] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 139,
-										["g_amt"] = 0,
-										["n_max"] = 70,
-										["targets"] = {
-											["Viscous Fallout"] = 345,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 206,
-										["n_min"] = 68,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 345,
-										["c_max"] = 139,
-										["spellschool"] = 4,
-										["id"] = 348,
+										["counter"] = 3,
+										["total"] = 138,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 38557,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -7422,88 +5206,64 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
 										["r_amt"] = 0,
-										["c_min"] = 139,
-									},
-									[157736] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 276,
-										["g_amt"] = 0,
-										["n_max"] = 48,
-										["targets"] = {
-											["Viscous Fallout"] = 849,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 573,
-										["n_min"] = 31,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 849,
-										["c_max"] = 95,
-										["spellschool"] = 4,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["r_amt"] = 0,
-										["c_min"] = 86,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 24,
-										["targets"] = {
-											["Viscous Fallout"] = 64,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 64,
-										["n_min"] = 2,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 64,
-										["c_max"] = 0,
-										["spellschool"] = 48,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									[17877] = {
+								},
+							},
+							["classe"] = "PET",
+							["total"] = 410.004405,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408547,
+							["damage_taken"] = 0.004405,
+							["start_time"] = 1603408528,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 127.002044,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Rykahpriest"] = 127,
+							},
+							["pets"] = {
+							},
+							["serial"] = "",
+							["monster"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 127.002044,
+							["spellicon"] = 136149,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 127.002044,
+							["aID"] = "",
+							["friendlyfire_total"] = 0,
+							["nome"] = "[*] Shadow Word: Death",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[32409] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 104,
+										["n_max"] = 127,
 										["targets"] = {
-											["Viscous Fallout"] = 104,
+											["Rykahpriest"] = 127,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 104,
-										["n_min"] = 104,
+										["n_dmg"] = 127,
+										["n_min"] = 127,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 104,
+										["total"] = 127,
 										["c_max"] = 0,
-										["spellschool"] = 36,
-										["id"] = 17877,
+										["spellschool"] = 32,
+										["id"] = 32409,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -7517,192 +5277,63 @@ _detalhes_database = {
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									[17962] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 348,
-										["g_amt"] = 0,
-										["n_max"] = 191,
-										["targets"] = {
-											["Viscous Fallout"] = 713,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 365,
-										["n_min"] = 174,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 713,
-										["c_max"] = 348,
-										["spellschool"] = 4,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 348,
-									},
 								},
 							},
-							["grupo"] = true,
-							["serial"] = "Player-3391-0B71A39B",
-							["last_dps"] = 122.2353023117347,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 534.002897,
-							["start_time"] = 1599957013,
-							["delay"] = 0,
-							["last_event"] = 1599957062,
-						}, -- [7]
-						{
-							["flag_original"] = 1298,
-							["totalabsorbed"] = 0.008727,
-							["spec"] = 254,
-							["damage_from"] = {
-								["Viscous Fallout"] = true,
-								["Irradiated Slime"] = true,
-							},
-							["targets"] = {
-								["Irradiated Horror"] = 33,
-								["Viscous Fallout"] = 7922,
-							},
-							["pets"] = {
-								"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
-							},
-							["friendlyfire_total"] = 0,
-							["boss_fight_component"] = true,
-							["classe"] = "HUNTER",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6416.008727,
-							["colocacao"] = 1,
+							["end_time"] = 1603408549,
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 7955.008727,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.002044,
+							["start_time"] = 1603408548,
+							["delay"] = 1603408531,
+							["last_event"] = 1603408531,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 31.002681,
+							["total"] = 62.002681,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Rykahpriest"] = 31,
+								["Thaelinar-Wildhammer"] = 31,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "86690",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 62.002681,
 							["on_hold"] = false,
-							["end_time"] = 1599957062,
-							["nome"] = "Worgylegoshi-Thunderhorn",
+							["dps_started"] = false,
+							["end_time"] = 1603408549,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Cannon Turret",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									[75] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 349,
-										["g_amt"] = 0,
-										["n_max"] = 86,
-										["targets"] = {
-											["Viscous Fallout"] = 1174,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 825,
-										["n_min"] = 79,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 1174,
-										["c_max"] = 175,
-										["spellschool"] = 1,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 174,
-									},
-									[257045] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 86,
-										["g_amt"] = 0,
-										["n_max"] = 43,
-										["targets"] = {
-											["Viscous Fallout"] = 1276,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1190,
-										["n_min"] = 41,
-										["g_dmg"] = 0,
-										["counter"] = 29,
-										["total"] = 1276,
-										["c_max"] = 86,
-										["spellschool"] = 1,
-										["id"] = 257045,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 28,
-										["r_amt"] = 0,
-										["c_min"] = 86,
-									},
-									[257620] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 124,
-										["g_amt"] = 0,
-										["n_max"] = 62,
-										["targets"] = {
-											["Viscous Fallout"] = 306,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 182,
-										["n_min"] = 58,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 306,
-										["c_max"] = 124,
-										["spellschool"] = 1,
-										["id"] = 257620,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 124,
-									},
-									[185358] = {
+									[173479] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 136,
+										["n_max"] = 0,
 										["targets"] = {
-											["Viscous Fallout"] = 813,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 813,
-										["n_min"] = 135,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 813,
+										["counter"] = 0,
+										["total"] = 0,
 										["c_max"] = 0,
-										["spellschool"] = 64,
-										["id"] = 185358,
+										["id"] = 173479,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -7710,30 +5341,31 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["successful_casted"] = 0,
+										["successful_casted"] = 3,
 										["b_dmg"] = 0,
-										["n_amt"] = 6,
+										["n_amt"] = 0,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									[56641] = {
-										["c_amt"] = 2,
+									[173481] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 395,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 98,
+										["n_max"] = 31,
 										["targets"] = {
-											["Viscous Fallout"] = 591,
+											["Rykahpriest"] = 31,
+											["Thaelinar-Wildhammer"] = 31,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 196,
-										["n_min"] = 98,
+										["n_dmg"] = 62,
+										["n_min"] = 31,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 591,
-										["c_max"] = 198,
-										["spellschool"] = 1,
-										["id"] = 56641,
+										["counter"] = 2,
+										["total"] = 62,
+										["c_max"] = 0,
+										["spellschool"] = 4,
+										["id"] = 173481,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -7745,201 +5377,96 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
 										["r_amt"] = 0,
-										["c_min"] = 197,
-									},
-									[19434] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 821,
-										["g_amt"] = 0,
-										["n_max"] = 616,
-										["targets"] = {
-											["Viscous Fallout"] = 2256,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1435,
-										["n_min"] = 409,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 2256,
-										["c_max"] = 821,
-										["spellschool"] = 1,
-										["id"] = 19434,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 821,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-1313-0B7742DA",
-							["last_dps"] = 152.8662873421944,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 528.008727,
-							["start_time"] = 1599957011,
-							["delay"] = 0,
-							["last_event"] = 1599957061,
-						}, -- [8]
-						{
-							["flag_original"] = 4370,
-							["totalabsorbed"] = 0.003259,
-							["damage_from"] = {
-								["Viscous Fallout"] = true,
-								["Irradiated Slime"] = true,
-							},
-							["targets"] = {
-								["Irradiated Horror"] = 33,
-								["Viscous Fallout"] = 1506,
-							},
-							["total"] = 1539.003259,
-							["pets"] = {
-							},
-							["serial"] = "Pet-0-3896-530-43-17199-0202FF025C",
-							["classe"] = "PET",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1539.003259,
-							["boss_fight_component"] = true,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["end_time"] = 1599957062,
-							["friendlyfire_total"] = 0,
-							["ownerName"] = "Worgylegoshi-Thunderhorn",
-							["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 8,
-										["b_amt"] = 0,
-										["c_dmg"] = 529,
-										["g_amt"] = 0,
-										["n_max"] = 33,
-										["targets"] = {
-											["Irradiated Horror"] = 33,
-											["Viscous Fallout"] = 1086,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 590,
-										["n_min"] = 32,
-										["g_dmg"] = 0,
-										["counter"] = 26,
-										["total"] = 1119,
-										["c_max"] = 67,
-										["spellschool"] = 1,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 18,
-										["r_amt"] = 0,
-										["c_min"] = 66,
-									}, -- [1]
-									[17253] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 168,
-										["g_amt"] = 0,
-										["n_max"] = 43,
-										["targets"] = {
-											["Viscous Fallout"] = 420,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 252,
-										["n_min"] = 41,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 420,
-										["c_max"] = 85,
-										["spellschool"] = 1,
-										["id"] = 17253,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["r_amt"] = 0,
-										["c_min"] = 83,
+										["c_min"] = 0,
 									},
 								},
 							},
 							["friendlyfire"] = {
 							},
+							["serial"] = "Creature-0-3891-1265-4-86690-0000121284",
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1599957061,
-							["damage_taken"] = 141.003259,
-							["start_time"] = 1599957011,
+							["last_event"] = 1603408542,
+							["damage_taken"] = 0.002681,
+							["start_time"] = 1603408533,
 							["delay"] = 0,
 							["tipo"] = 1,
-						}, -- [9]
+						}, -- [6]
 						{
-							["flag_original"] = 4370,
-							["totalabsorbed"] = 0.004411,
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 14.001787,
+							["total"] = 26.001787,
 							["damage_from"] = {
-								["Irradiated Slime"] = true,
-								["Viscous Fallout"] = true,
 							},
 							["targets"] = {
-								["Viscous Fallout"] = 1335,
+								["Rykahpriest"] = 14,
+								["Thaelinar-Wildhammer"] = 12,
 							},
-							["total"] = 1335.004411,
 							["pets"] = {
 							},
-							["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
-							["classe"] = "PET",
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "86691",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 1335.004411,
-							["boss_fight_component"] = true,
+							["total_without_pet"] = 26.001787,
 							["on_hold"] = false,
 							["dps_started"] = false,
-							["end_time"] = 1599957062,
+							["end_time"] = 1603408549,
 							["friendlyfire_total"] = 0,
-							["ownerName"] = "Zanm-Silvermoon",
-							["nome"] = "Unknown <Zanm-Silvermoon>",
+							["classe"] = "UNKNOW",
+							["nome"] = "Gun Turret",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
+									[173502] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 147,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 37,
+										["n_max"] = 0,
 										["targets"] = {
-											["Viscous Fallout"] = 619,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 472,
-										["n_min"] = 36,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 619,
-										["c_max"] = 74,
-										["spellschool"] = 1,
-										["id"] = 1,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 173502,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[173501] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Rykahpriest"] = 14,
+											["Thaelinar-Wildhammer"] = 12,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 26,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 24,
+										["total"] = 26,
+										["c_max"] = 0,
+										["spellschool"] = 4,
+										["id"] = 173501,
 										["r_dmg"] = 0,
 										["extra"] = {
 										},
@@ -7949,143 +5476,91 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 13,
+										["n_amt"] = 24,
 										["r_amt"] = 0,
-										["c_min"] = 73,
-									}, -- [1]
-									[7814] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 360,
-										["g_amt"] = 0,
-										["n_max"] = 60,
-										["targets"] = {
-											["Viscous Fallout"] = 716,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 356,
-										["n_min"] = 59,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 716,
-										["c_max"] = 120,
-										["spellschool"] = 32,
-										["id"] = 7814,
-										["r_dmg"] = 0,
-										["extra"] = {
-										},
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["r_amt"] = 0,
-										["c_min"] = 120,
+										["c_min"] = 0,
 									},
 								},
 							},
 							["friendlyfire"] = {
 							},
+							["serial"] = "Creature-0-3891-1265-4-86691-0000121284",
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1599957062,
-							["damage_taken"] = 93.004411,
-							["start_time"] = 1599957021,
-							["delay"] = 0,
+							["last_event"] = 1603408547,
+							["damage_taken"] = 0.001787,
+							["start_time"] = 1603408541,
+							["delay"] = 1603408531,
 							["tipo"] = 1,
-						}, -- [10]
+						}, -- [7]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 3,
+					["combatId"] = 50,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Rykahpriest"] = true,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 915,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PRIEST",
-							["totalover"] = 2941.00507,
-							["total_without_pet"] = 9096.00507,
-							["total"] = 9096.00507,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 915.0085,
+							["total_without_pet"] = 652.0085,
+							["total"] = 652.0085,
 							["targets_absorbs"] = {
-								["Worgylegoshi-Thunderhorn"] = 71,
-								["Juraak-Silvermoon"] = 50,
-								["Rykahpriest"] = 323,
-								["Sberla-Silvermoon"] = 1935,
+								["Rykahpriest"] = 601,
 							},
 							["heal_enemy"] = {
 							},
-							["colocacao"] = 1,
 							["on_hold"] = false,
 							["serial"] = "Player-1303-0B65E197",
-							["totalabsorb"] = 2379.00507,
-							["last_hps"] = 174.0229403661818,
+							["totalabsorb"] = 601.0085,
+							["last_hps"] = 0,
 							["targets"] = {
-								["Sberla-Silvermoon"] = 7915,
-								["Zanm-Silvermoon"] = 354,
-								["Juraak-Silvermoon"] = 297,
-								["Rykahpriest"] = 323,
-								["Worgylegoshi-Thunderhorn"] = 207,
+								["Rykahpriest"] = 652,
 							},
-							["totalover_without_pet"] = 0.00507,
-							["healing_taken"] = 323.00507,
-							["end_time"] = 1599957062,
-							["boss_fight_component"] = true,
-							["targets_overheal"] = {
-								["Zanm-Silvermoon"] = 656,
-								["Sberla-Silvermoon"] = 58,
-								["Juraak-Silvermoon"] = 868,
-								["Rykahpriest"] = 607,
-								["Worgylegoshi-Thunderhorn"] = 752,
+							["totalover_without_pet"] = 0.0085,
+							["healing_taken"] = 652.0085,
+							["fight_component"] = true,
+							["end_time"] = 1603408549,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
 							},
+							["heal_enemy_amt"] = 0,
 							["nome"] = "Rykahpriest",
 							["spells"] = {
 								["tipo"] = 3,
 								["_ActorTable"] = {
 									[17] = {
 										["c_amt"] = 0,
-										["totalabsorb"] = 2379,
+										["totalabsorb"] = 250,
 										["targets_overheal"] = {
-											["Zanm-Silvermoon"] = 361,
-											["Juraak-Silvermoon"] = 671,
-											["Rykahpriest"] = 38,
-											["Worgylegoshi-Thunderhorn"] = 290,
+											["Rykahpriest"] = 61,
 										},
-										["n_max"] = 272,
+										["n_max"] = 127,
 										["targets"] = {
-											["Sberla-Silvermoon"] = 1935,
-											["Zanm-Silvermoon"] = 0,
-											["Juraak-Silvermoon"] = 50,
-											["Rykahpriest"] = 323,
-											["Worgylegoshi-Thunderhorn"] = 71,
+											["Rykahpriest"] = 250,
 										},
-										["n_min"] = 10,
-										["counter"] = 66,
-										["overheal"] = 1360,
-										["total"] = 2379,
+										["n_min"] = 0,
+										["counter"] = 17,
+										["overheal"] = 61,
+										["total"] = 250,
 										["c_max"] = 0,
 										["id"] = 17,
 										["targets_absorbs"] = {
-											["Sberla-Silvermoon"] = 1935,
-											["Zanm-Silvermoon"] = 0,
-											["Juraak-Silvermoon"] = 50,
-											["Rykahpriest"] = 323,
-											["Worgylegoshi-Thunderhorn"] = 71,
+											["Rykahpriest"] = 250,
 										},
 										["m_healed"] = 0,
 										["c_curado"] = 0,
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 2379,
-										["n_amt"] = 66,
+										["n_curado"] = 250,
+										["n_amt"] = 17,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
@@ -8094,17 +5569,16 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Rykahpriest"] = 22,
+											["Rykahpriest"] = 36,
 										},
-										["n_max"] = 6,
+										["n_max"] = 0,
 										["targets"] = {
 											["Rykahpriest"] = 0,
-											["Sberla-Silvermoon"] = 12,
 										},
-										["n_min"] = 6,
-										["counter"] = 16,
-										["overheal"] = 22,
-										["total"] = 12,
+										["n_min"] = 0,
+										["counter"] = 15,
+										["overheal"] = 36,
+										["total"] = 0,
 										["c_max"] = 0,
 										["id"] = 259760,
 										["targets_absorbs"] = {
@@ -8113,8 +5587,8 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 12,
-										["n_amt"] = 16,
+										["n_curado"] = 0,
+										["n_amt"] = 15,
 										["totaldenied"] = 0,
 										["m_healed"] = 0,
 										["absorbed"] = 0,
@@ -8123,23 +5597,16 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Zanm-Silvermoon"] = 204,
-											["Juraak-Silvermoon"] = 77,
-											["Rykahpriest"] = 415,
-											["Worgylegoshi-Thunderhorn"] = 240,
+											["Rykahpriest"] = 576,
 										},
-										["n_max"] = 66,
+										["n_max"] = 40,
 										["targets"] = {
-											["Sberla-Silvermoon"] = 1228,
-											["Zanm-Silvermoon"] = 222,
-											["Juraak-Silvermoon"] = 235,
-											["Rykahpriest"] = 0,
-											["Worgylegoshi-Thunderhorn"] = 136,
+											["Rykahpriest"] = 51,
 										},
-										["n_min"] = 12,
-										["counter"] = 99,
-										["overheal"] = 936,
-										["total"] = 1821,
+										["n_min"] = 0,
+										["counter"] = 21,
+										["overheal"] = 576,
+										["total"] = 51,
 										["c_max"] = 0,
 										["id"] = 81751,
 										["targets_absorbs"] = {
@@ -8148,586 +5615,91 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 1821,
-										["n_amt"] = 99,
+										["n_curado"] = 51,
+										["n_amt"] = 21,
 										["totaldenied"] = 0,
 										["m_healed"] = 0,
 										["absorbed"] = 0,
 									},
-									[186263] = {
-										["c_amt"] = 2,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Sberla-Silvermoon"] = 58,
-										},
-										["n_max"] = 588,
-										["targets"] = {
-											["Sberla-Silvermoon"] = 2884,
-										},
-										["n_min"] = 588,
-										["counter"] = 3,
-										["overheal"] = 58,
-										["total"] = 2884,
-										["c_max"] = 1177,
-										["id"] = 186263,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 2296,
-										["m_crit"] = 0,
-										["c_min"] = 1119,
-										["m_amt"] = 0,
-										["n_curado"] = 588,
-										["n_amt"] = 1,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[47750] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 268,
-										["targets"] = {
-											["Sberla-Silvermoon"] = 1072,
-										},
-										["n_min"] = 268,
-										["counter"] = 3,
-										["overheal"] = 0,
-										["total"] = 1072,
-										["c_max"] = 536,
-										["id"] = 47750,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 536,
-										["m_crit"] = 0,
-										["c_min"] = 536,
-										["m_amt"] = 0,
-										["n_curado"] = 536,
-										["n_amt"] = 2,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[94472] = {
-										["c_amt"] = 15,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Zanm-Silvermoon"] = 91,
-											["Juraak-Silvermoon"] = 120,
-											["Rykahpriest"] = 132,
-											["Worgylegoshi-Thunderhorn"] = 222,
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Sberla-Silvermoon"] = 784,
-											["Zanm-Silvermoon"] = 132,
-											["Juraak-Silvermoon"] = 12,
-											["Rykahpriest"] = 0,
-											["Worgylegoshi-Thunderhorn"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 15,
-										["overheal"] = 565,
-										["total"] = 928,
-										["c_max"] = 132,
-										["id"] = 94472,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 928,
-										["m_crit"] = 0,
-										["c_min"] = 26,
-										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 0,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957010,
-							["custom"] = 0,
-							["last_event"] = 1599957060,
-							["spec"] = 256,
-							["totaldenied"] = 0.00507,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [1]
-						{
-							["flag_original"] = 1298,
-							["healing_from"] = {
-								["Rykahpriest"] = true,
-								["Sberla-Silvermoon"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "MONK",
-							["totalover"] = 0.006987,
-							["total_without_pet"] = 624.006987,
-							["total"] = 624.006987,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 2,
-							["on_hold"] = false,
-							["isTank"] = true,
-							["serial"] = "Player-3391-0B77C625",
-							["totalabsorb"] = 0.006987,
-							["last_hps"] = 11.93837622682656,
-							["targets"] = {
-								["Sberla-Silvermoon"] = 624,
-							},
-							["totalover_without_pet"] = 0.006987,
-							["healing_taken"] = 8539.006987,
-							["boss_fight_component"] = true,
-							["end_time"] = 1599957062,
-							["targets_overheal"] = {
-							},
-							["nome"] = "Sberla-Silvermoon",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[178173] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Sberla-Silvermoon"] = 624,
-										},
-										["n_min"] = 0,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 624,
-										["c_max"] = 624,
-										["id"] = 178173,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 624,
-										["m_crit"] = 0,
-										["c_min"] = 624,
-										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 0,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957061,
-							["custom"] = 0,
-							["last_event"] = 1599957047,
-							["spec"] = 268,
-							["totaldenied"] = 0.006987,
-							["delay"] = 1599957047,
-							["tipo"] = 2,
-						}, -- [2]
-						{
-							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Worgylegoshi-Thunderhorn"] = 43,
-							},
-							["pets"] = {
-								"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "HUNTER",
-							["totalover"] = 183.003442,
-							["total_without_pet"] = 354.003442,
-							["total"] = 480.003442,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 3,
-							["on_hold"] = false,
-							["serial"] = "Player-1313-0B7742DA",
-							["totalabsorb"] = 0.003442,
-							["last_hps"] = 9.183329353919108,
-							["targets"] = {
-								["Ravager <Worgylegoshi-Thunderhorn>"] = 126,
-								["Worgylegoshi-Thunderhorn"] = 354,
-							},
-							["totalover_without_pet"] = 0.003442,
-							["healing_taken"] = 561.003442,
-							["end_time"] = 1599957062,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-								["Rykahpriest"] = true,
-								["Worgylegoshi-Thunderhorn"] = true,
-							},
-							["nome"] = "Worgylegoshi-Thunderhorn",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[143924] = {
+									[208771] = {
 										["c_amt"] = 0,
-										["totalabsorb"] = 0,
+										["totalabsorb"] = 351,
 										["targets_overheal"] = {
-											["Worgylegoshi-Thunderhorn"] = 43,
 										},
-										["n_max"] = 68,
+										["n_max"] = 50,
 										["targets"] = {
-											["Worgylegoshi-Thunderhorn"] = 354,
+											["Rykahpriest"] = 351,
 										},
-										["n_min"] = 3,
-										["counter"] = 22,
-										["overheal"] = 43,
-										["total"] = 354,
+										["n_min"] = 36,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 351,
 										["c_max"] = 0,
-										["id"] = 143924,
+										["id"] = 208771,
 										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 354,
-										["n_amt"] = 22,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957010,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["spec"] = 254,
-							["totaldenied"] = 0.003442,
-							["delay"] = 0,
-							["last_event"] = 1599957061,
-						}, -- [3]
-						{
-							["flag_original"] = 1298,
-							["targets_overheal"] = {
-								["Zanm-Silvermoon"] = 1,
-							},
-							["pets"] = {
-								"Unknown <Zanm-Silvermoon>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["totalover"] = 1.005869,
-							["total_without_pet"] = 380.005869,
-							["total"] = 380.005869,
-							["targets_absorbs"] = {
-								["Unknown <Zanm-Silvermoon>"] = 106,
-								["Zanm-Silvermoon"] = 274,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 4,
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0B71A39B",
-							["totalabsorb"] = 380.005869,
-							["last_hps"] = 7.270195890489551,
-							["targets"] = {
-								["Unknown <Zanm-Silvermoon>"] = 106,
-								["Zanm-Silvermoon"] = 274,
-							},
-							["totalover_without_pet"] = 0.005869,
-							["healing_taken"] = 628.0058690000001,
-							["end_time"] = 1599957062,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-								["Rykahpriest"] = true,
-								["Zanm-Silvermoon"] = true,
-							},
-							["nome"] = "Zanm-Silvermoon",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 380,
-										["targets_overheal"] = {
-											["Zanm-Silvermoon"] = 1,
-										},
-										["n_max"] = 82,
-										["targets"] = {
-											["Unknown <Zanm-Silvermoon>"] = 106,
-											["Zanm-Silvermoon"] = 274,
-										},
-										["n_min"] = 2,
-										["counter"] = 33,
-										["overheal"] = 1,
-										["total"] = 380,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Unknown <Zanm-Silvermoon>"] = 106,
-											["Zanm-Silvermoon"] = 274,
+											["Rykahpriest"] = 351,
 										},
 										["m_healed"] = 0,
 										["c_curado"] = 0,
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 380,
-										["n_amt"] = 33,
+										["n_curado"] = 351,
+										["n_amt"] = 8,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957011,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["spec"] = 267,
-							["totaldenied"] = 0.005869,
-							["delay"] = 0,
-							["last_event"] = 1599957057,
-						}, -- [4]
-						{
-							["flag_original"] = 1298,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "DRUID",
-							["totalover"] = 0.0031,
-							["total_without_pet"] = 0.0031,
-							["total"] = 0.0031,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-3391-0B77CF83",
-							["totalabsorb"] = 0.0031,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.0031,
-							["healing_taken"] = 297.0031,
-							["end_time"] = 1599957062,
-							["boss_fight_component"] = true,
-							["healing_from"] = {
-								["Rykahpriest"] = true,
-							},
-							["nome"] = "Juraak-Silvermoon",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1599957062,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["spec"] = 102,
-							["totaldenied"] = 0.0031,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [5]
-						{
-							["flag_original"] = 4370,
-							["healing_from"] = {
-								["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "PET",
-							["totalover"] = 140.007059,
-							["total_without_pet"] = 126.007059,
-							["total"] = 126.007059,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3896-530-43-17199-0202FF025C",
-							["totalabsorb"] = 0.007059,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Ravager <Worgylegoshi-Thunderhorn>"] = 126,
-							},
-							["totalover_without_pet"] = 0.007059,
-							["healing_taken"] = 126.007059,
-							["end_time"] = 1599957062,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Worgylegoshi-Thunderhorn",
-							["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[143924] = {
-										["c_amt"] = 0,
+									[94472] = {
+										["c_amt"] = 4,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Ravager <Worgylegoshi-Thunderhorn>"] = 140,
+											["Rykahpriest"] = 242,
 										},
-										["n_max"] = 28,
+										["n_max"] = 0,
 										["targets"] = {
-											["Ravager <Worgylegoshi-Thunderhorn>"] = 126,
+											["Rykahpriest"] = 0,
 										},
-										["n_min"] = 7,
-										["counter"] = 10,
-										["overheal"] = 140,
-										["total"] = 126,
+										["n_min"] = 0,
+										["counter"] = 4,
+										["overheal"] = 242,
+										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = 143924,
+										["id"] = 94472,
 										["targets_absorbs"] = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 126,
-										["n_amt"] = 10,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
 										["totaldenied"] = 0,
 										["m_healed"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 							},
-							["targets_overheal"] = {
-								["Ravager <Worgylegoshi-Thunderhorn>"] = 140,
-							},
-							["start_time"] = 1599957014,
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1599957061,
-							["totaldenied"] = 0.007059,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [6]
-						{
-							["flag_original"] = 4370,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.002072,
-							["total_without_pet"] = 0.002072,
-							["total"] = 0.002072,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
-							["totalabsorb"] = 0.002072,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.002072,
-							["healing_taken"] = 106.002072,
-							["end_time"] = 1599957062,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Zanm-Silvermoon",
-							["nome"] = "Unknown <Zanm-Silvermoon>",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["healing_from"] = {
-								["Zanm-Silvermoon"] = true,
-							},
-							["start_time"] = 1599957062,
+							["grupo"] = true,
+							["start_time"] = 1603408526,
+							["spec"] = 256,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PET",
-							["totaldenied"] = 0.002072,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.0085,
 							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [7]
+							["last_event"] = 1603408548,
+						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 3,
+					["combatId"] = 50,
 					["tipo"] = 7,
 					["_ActorTable"] = {
-						{
-							["received"] = 33.007441,
-							["resource"] = 0.007441,
-							["targets"] = {
-								["Zanm-Silvermoon"] = 33,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["passiveover"] = 0.007441,
-							["total"] = 33.007441,
-							["nome"] = "Zanm-Silvermoon",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-									[59914] = {
-										["total"] = 33,
-										["id"] = 59914,
-										["totalover"] = 69,
-										["targets"] = {
-											["Zanm-Silvermoon"] = 33,
-										},
-										["counter"] = 2,
-									},
-								},
-							},
-							["grupo"] = true,
-							["boss_fight_component"] = true,
-							["flag_original"] = 1298,
-							["alternatepower"] = 0.007441,
-							["last_event"] = 1599957062,
-							["spec"] = 267,
-							["tipo"] = 3,
-							["serial"] = "Player-3391-0B71A39B",
-							["totalover"] = 69.007441,
-						}, -- [1]
-						{
-							["received"] = 0.008294,
-							["resource"] = 182.008294,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "DRUID",
-							["passiveover"] = 0.008294,
-							["total"] = 0.008294,
-							["boss_fight_component"] = true,
-							["nome"] = "Juraak-Silvermoon",
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
-							["resource_type"] = 8,
-							["flag_original"] = 1298,
-							["alternatepower"] = 0.008294,
-							["last_event"] = 1599957059,
-							["spec"] = 102,
-							["tipo"] = 3,
-							["serial"] = "Player-3391-0B77CF83",
-							["totalover"] = 0.008294,
-						}, -- [2]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 3,
+					["combatId"] = 50,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
@@ -8735,337 +5707,63 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									[164815] = {
-										["activedamt"] = -1,
-										["id"] = 164815,
-										["targets"] = {
-										},
-										["uptime"] = 49,
-										["appliedamt"] = 2,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[164812] = {
-										["activedamt"] = -1,
-										["id"] = 164812,
-										["targets"] = {
-										},
-										["uptime"] = 49,
-										["appliedamt"] = 2,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["cooldowns_defensive"] = 1.004877,
-							["buff_uptime"] = 109,
-							["last_cooldown"] = {
-								1599957020.385, -- [1]
-								22812, -- [2]
-							},
-							["classe"] = "DRUID",
-							["cooldowns_defensive_targets"] = {
-								["Juraak-Silvermoon"] = 1,
-							},
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[164545] = {
-										["activedamt"] = 5,
-										["id"] = 164545,
-										["targets"] = {
-										},
-										["uptime"] = 23,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[24858] = {
-										["activedamt"] = 1,
-										["id"] = 24858,
-										["targets"] = {
-										},
-										["uptime"] = 52,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[22812] = {
-										["activedamt"] = 1,
-										["id"] = 22812,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[164547] = {
-										["activedamt"] = 5,
-										["id"] = 164547,
-										["targets"] = {
-										},
-										["uptime"] = 22,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 98,
-							["boss_fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 102,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[190984] = 7,
-								[8921] = 3,
-								[93402] = 3,
-								[78674] = 4,
-								[194153] = 9,
-								[22812] = 1,
-							},
-							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[22812] = {
-										["id"] = 22812,
-										["targets"] = {
-											["Juraak-Silvermoon"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957062,
-							["nome"] = "Juraak-Silvermoon",
-							["pets"] = {
-							},
-							["serial"] = "Player-3391-0B77CF83",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[257044] = {
-										["activedamt"] = 0,
-										["id"] = 257044,
-										["targets"] = {
-										},
-										["uptime"] = 9,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 14,
-							["classe"] = "HUNTER",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[269576] = {
-										["activedamt"] = 5,
-										["id"] = 269576,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 9,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 254,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[19434] = 4,
-								[185358] = 6,
-								[257620] = 4,
-								[56641] = 4,
-								[257044] = 3,
-							},
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957058,
-							["nome"] = "Worgylegoshi-Thunderhorn",
-							["pets"] = {
-								"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
-							},
-							["serial"] = "Player-1313-0B7742DA",
-							["tipo"] = 4,
-						}, -- [2]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[196414] = {
-										["activedamt"] = 0,
-										["id"] = 196414,
-										["targets"] = {
-										},
-										["uptime"] = 22,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[17877] = {
-										["activedamt"] = 0,
-										["id"] = 17877,
-										["targets"] = {
-										},
-										["uptime"] = 5,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[157736] = {
-										["activedamt"] = 0,
-										["id"] = 157736,
-										["targets"] = {
-										},
-										["uptime"] = 45,
-										["appliedamt"] = 2,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 69,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[117828] = {
-										["activedamt"] = 4,
-										["id"] = 117828,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[256374] = {
-										["activedamt"] = 1,
-										["id"] = 256374,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[108366] = {
-										["activedamt"] = 6,
-										["id"] = 108366,
-										["targets"] = {
-										},
-										["uptime"] = 47,
-										["appliedamt"] = 6,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 72,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[29722] = 8,
-								[116858] = 4,
-								[348] = 4,
-								[17877] = 1,
-								[17962] = 3,
-							},
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957062,
-							["nome"] = "Zanm-Silvermoon",
-							["pets"] = {
-								"Unknown <Zanm-Silvermoon>", -- [1]
-							},
-							["serial"] = "Player-3391-0B71A39B",
-							["tipo"] = 4,
-						}, -- [3]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
 									[6788] = {
-										["activedamt"] = -1,
+										["activedamt"] = 0,
 										["id"] = 6788,
 										["targets"] = {
 										},
-										["uptime"] = 43,
-										["appliedamt"] = 7,
+										["uptime"] = 7,
+										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[187464] = {
+									[208772] = {
 										["activedamt"] = 0,
-										["id"] = 187464,
+										["id"] = 208772,
 										["targets"] = {
 										},
-										["uptime"] = 5,
+										["uptime"] = 18,
 										["appliedamt"] = 2,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 									[589] = {
-										["activedamt"] = -1,
+										["activedamt"] = 0,
 										["id"] = 589,
 										["targets"] = {
 										},
-										["uptime"] = 50,
-										["appliedamt"] = 1,
-										["refreshamt"] = 2,
+										["uptime"] = 22,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
-							["buff_uptime"] = 192,
+							["buff_uptime"] = 146,
 							["classe"] = "PRIEST",
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
 									[17] = {
 										["activedamt"] = 1,
 										["id"] = 17,
 										["targets"] = {
 										},
-										["uptime"] = 13,
+										["uptime"] = 15,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -9076,29 +5774,29 @@ _detalhes_database = {
 										["id"] = 21562,
 										["targets"] = {
 										},
-										["uptime"] = 52,
+										["uptime"] = 25,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[326419] = {
+									[167410] = {
 										["activedamt"] = 1,
-										["id"] = 326419,
+										["id"] = 167410,
 										["targets"] = {
 										},
-										["uptime"] = 52,
+										["uptime"] = 25,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[256374] = {
+									[328136] = {
 										["activedamt"] = 1,
-										["id"] = 256374,
+										["id"] = 328136,
 										["targets"] = {
 										},
-										["uptime"] = 10,
+										["uptime"] = 25,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -9109,7 +5807,7 @@ _detalhes_database = {
 										["id"] = 93795,
 										["targets"] = {
 										},
-										["uptime"] = 52,
+										["uptime"] = 25,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -9120,7 +5818,18 @@ _detalhes_database = {
 										["id"] = 194384,
 										["targets"] = {
 										},
-										["uptime"] = 13,
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 12,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -9128,373 +5837,104 @@ _detalhes_database = {
 									},
 								},
 							},
-							["debuff_uptime"] = 98,
-							["buff_uptime_targets"] = {
-							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 47,
+							["nome"] = "Rykahpriest",
 							["spec"] = 256,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[17] = 7,
-								[47540] = 4,
-								[585] = 12,
-								[589] = 3,
-								[186263] = 3,
+								[17] = 1,
+								[47540] = 2,
+								[585] = 6,
+								[32379] = 1,
+								[589] = 1,
+								[8092] = 2,
+								[34433] = 1,
 							},
-							["boss_fight_component"] = true,
 							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1599957062,
-							["nome"] = "Rykahpriest",
-							["pets"] = {
-							},
-							["serial"] = "Player-1303-0B65E197",
-							["tipo"] = 4,
-						}, -- [4]
-						{
-							["flag_original"] = 1298,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[113746] = {
-										["activedamt"] = -1,
-										["id"] = 113746,
-										["targets"] = {
-										},
-										["uptime"] = 49,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[121253] = {
-										["activedamt"] = -1,
-										["id"] = 121253,
-										["targets"] = {
-										},
-										["actived_at"] = 1599957013,
-										["uptime"] = 0,
-										["appliedamt"] = 0,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[116189] = {
-										["activedamt"] = 0,
-										["id"] = 116189,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["pets"] = {
-							},
-							["classe"] = "MONK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[215479] = {
-										["activedamt"] = 1,
-										["id"] = 215479,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 52,
-							["boss_fight_component"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["spec"] = 268,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[205523] = 8,
-								[115308] = 1,
-								[100780] = 23,
-								[124506] = 1,
-								[119582] = 1,
-								[124503] = 2,
-								[115546] = 1,
 							},
 							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 7,
-							["last_event"] = 1599957062,
-							["nome"] = "Sberla-Silvermoon",
-							["isTank"] = true,
-							["serial"] = "Player-3391-0B77C625",
+							["last_event"] = 1603408549,
+							["pets"] = {
+								"Thaelin Darkanvil <Rykahpriest>", -- [1]
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
 							["tipo"] = 4,
-						}, -- [5]
+						}, -- [1]
 						{
-							["flag_original"] = 4370,
-							["ownerName"] = "Worgylegoshi-Thunderhorn",
-							["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
+							["flag_original"] = 8465,
+							["ownerName"] = "Rykahpriest",
+							["nome"] = "Thaelin Darkanvil <Rykahpriest>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["boss_fight_component"] = true,
 							["tipo"] = 4,
 							["spell_cast"] = {
-								[263857] = 8,
-								[17253] = 8,
+								[38557] = 3,
 							},
-							["serial"] = "Pet-0-3896-530-43-17199-0202FF025C",
 							["last_event"] = 0,
-						}, -- [6]
+							["classe"] = "PET",
+							["serial"] = "Creature-0-3891-1265-4-80886-000012126F",
+							["aID"] = "80886",
+						}, -- [2]
 						{
 							["flag_original"] = 2632,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-								},
-							},
+							["tipo"] = 4,
+							["nome"] = "Gun Turret",
+							["fight_component"] = true,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 0,
-							["spellschool"] = 8,
-							["debuff_uptime_targets"] = {
-								["Zanm-Silvermoon"] = {
-									["uptime"] = 0,
-									["actived_at"] = 1599957023,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Sberla-Silvermoon"] = {
-									["uptime"] = 0,
-									["actived_at"] = 1599957023,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Juraak-Silvermoon"] = {
-									["uptime"] = 0,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Rykahpriest"] = {
-									["uptime"] = 0,
-									["actived_at"] = 1599957023,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Worgylegoshi-Thunderhorn"] = {
-									["uptime"] = 0,
-									["actived_at"] = 1599957023,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["boss_fight_component"] = true,
-							["nome"] = "Radiation Cloud",
-							["tipo"] = 4,
-							["damage_twin"] = "Irradiated Slime",
-							["damage_spellid"] = 10341,
-							["serial"] = "Creature-0-3891-90-14342-6218-00015D67AA",
-							["last_event"] = 1599957023,
-						}, -- [7]
-						{
-							["flag_original"] = 68168,
-							["nome"] = "Viscous Fallout",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
 							["spell_cast"] = {
-								[21687] = 4,
+								[173502] = 2,
 							},
-							["last_event"] = 0,
 							["monster"] = true,
-							["serial"] = "Creature-0-3891-90-14342-7079-00005D67AA",
-							["classe"] = "UNKNOW",
-						}, -- [8]
-						{
-							["flag_original"] = 68168,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-								},
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 150,
-							["spellschool"] = 8,
-							["debuff_uptime_targets"] = {
-								["Sberla-Silvermoon"] = {
-									["uptime"] = 30,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Zanm-Silvermoon"] = {
-									["uptime"] = 30,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Juraak-Silvermoon"] = {
-									["uptime"] = 30,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Rykahpriest"] = {
-									["uptime"] = 30,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Worgylegoshi-Thunderhorn"] = {
-									["uptime"] = 30,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["boss_fight_component"] = true,
-							["nome"] = "Toxic Volley",
-							["tipo"] = 4,
-							["damage_twin"] = "Viscous Fallout",
-							["damage_spellid"] = 21687,
-							["serial"] = "Creature-0-3891-90-14342-7079-00005D67AA",
-							["last_event"] = 1599957058,
-						}, -- [9]
-						{
-							["flag_original"] = 4370,
-							["ownerName"] = "Zanm-Silvermoon",
-							["nome"] = "Unknown <Zanm-Silvermoon>",
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["boss_fight_component"] = true,
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[6360] = 4,
-								[7814] = 9,
-							},
-							["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
 							["last_event"] = 0,
-						}, -- [10]
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-86691-0000121284",
+							["aID"] = "86691",
+						}, -- [3]
 						{
 							["flag_original"] = 2632,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-								},
-							},
+							["tipo"] = 4,
+							["nome"] = "Cannon Turret",
+							["fight_component"] = true,
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 0,
-							["spellschool"] = 8,
-							["debuff_uptime_targets"] = {
-								["Zanm-Silvermoon"] = {
-									["uptime"] = 0,
-									["actived_at"] = 1599957023,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Sberla-Silvermoon"] = {
-									["uptime"] = 0,
-									["actived_at"] = 1599957023,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Juraak-Silvermoon"] = {
-									["uptime"] = 0,
-									["actived_at"] = 1599957023,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Rykahpriest"] = {
-									["uptime"] = 0,
-									["actived_at"] = 1599957023,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-								["Worgylegoshi-Thunderhorn"] = {
-									["uptime"] = 0,
-									["actived_at"] = 1599957023,
-									["appliedamt"] = 0,
-									["activedamt"] = -1,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
+							["spell_cast"] = {
+								[173479] = 3,
 							},
-							["boss_fight_component"] = true,
-							["nome"] = "Toxic Nova",
-							["tipo"] = 4,
-							["damage_twin"] = "Irradiated Slime",
-							["damage_spellid"] = 81039,
-							["serial"] = "Creature-0-3891-90-14342-6218-00015D67AA",
-							["last_event"] = 1599957023,
-						}, -- [11]
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-86690-0000121284",
+							["aID"] = "86690",
+						}, -- [4]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 3,
+					["combatId"] = 50,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
-					["Sberla-Silvermoon"] = true,
-					["Zanm-Silvermoon"] = true,
-					["Juraak-Silvermoon"] = true,
 					["Rykahpriest"] = true,
-					["Worgylegoshi-Thunderhorn"] = true,
 				},
-				["CombatStartedAt"] = 40753.653,
-				["overall_added"] = true,
+				["CombatStartedAt"] = 16077.29,
+				["tempo_start"] = 1603408524,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 229,
+				["combat_counter"] = 285,
+				["playing_solo"] = true,
 				["totals"] = {
-					35574, -- [1]
-					10580, -- [2]
+					3633.953466000002, -- [1]
+					651.996311, -- [2]
 					{
 						0, -- [1]
-						[0] = 33,
+						[0] = -0.008822,
 						["alternatepower"] = 0,
 						[3] = 0,
 						[6] = 0,
@@ -9503,7 +5943,7 @@ _detalhes_database = {
 						["buff_uptime"] = 0,
 						["ress"] = 0,
 						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
+						["cooldowns_defensive"] = 0,
 						["interrupt"] = 0,
 						["dispell"] = 0,
 						["cc_break"] = 0,
@@ -9513,11 +5953,11 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
-					25168, -- [1]
-					10454, -- [2]
+					1749, -- [1]
+					652, -- [2]
 					{
 						0, -- [1]
-						[0] = 33,
+						[0] = 0,
 						["alternatepower"] = 0,
 						[3] = 0,
 						[6] = 0,
@@ -9526,7 +5966,7 @@ _detalhes_database = {
 						["buff_uptime"] = 0,
 						["ress"] = 0,
 						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 1,
+						["cooldowns_defensive"] = 0,
 						["interrupt"] = 0,
 						["dispell"] = 0,
 						["cc_break"] = 0,
@@ -9534,14 +5974,96 @@ _detalhes_database = {
 					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
-				["instance_type"] = "party",
-				["data_fim"] = "01:31:03",
+				["instance_type"] = "none",
+				["data_fim"] = "00:15:50",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Viscous Fallout",
-				["TotalElapsedCombatTime"] = 40747.009,
-				["CombatEndedAt"] = 40747.009,
+				["enemy"] = "Gogluk",
+				["TotalElapsedCombatTime"] = 25.21000000000095,
+				["CombatEndedAt"] = 15852.208,
 				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 15828.398,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									15828.398, -- [1]
+									15843.456, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[208772] = {
+							["enabled"] = false,
+							["appliedAt"] = 15848.387,
+							["spellId"] = 208772,
+							["data"] = {
+								{
+									15832.538, -- [1]
+									15847.542, -- [2]
+								}, -- [1]
+								{
+									15848.387, -- [1]
+									15852.055, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 15826.998,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									15826.998, -- [1]
+									15839.077, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15842.186,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15826.998, -- [1]
+									15839.077, -- [2]
+								}, -- [1]
+								{
+									15842.186, -- [1]
+									15852.055, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 15828.398,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									15828.398, -- [1]
+									15843.456, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 15828.398,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									15828.398, -- [1]
+									15835.359, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+					},
 				},
 				["__call"] = {
 				},
@@ -9554,116 +6076,127 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["Sberla-Silvermoon"] = 624.006987,
-							["Zanm-Silvermoon"] = 380.005869,
-							["Juraak-Silvermoon"] = 0.0031,
-							["Rykahpriest"] = 9096.00507,
-							["Worgylegoshi-Thunderhorn"] = 480.003442,
+							["Rykahpriest"] = 652.0085,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Zanm-Silvermoon"] = 6420.002897,
-							["Sberla-Silvermoon"] = 3611.006812,
-							["Juraak-Silvermoon"] = 5512.002029,
-							["Rykahpriest"] = 4260.007638,
-							["Worgylegoshi-Thunderhorn"] = 7955.008727,
+							["Rykahpriest"] = 2896.008233,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 40746.179,
-				["combat_id"] = 3,
+				["end_time"] = 15852.208,
+				["combat_id"] = 50,
 				["cleu_events"] = {
 					["n"] = 1,
 				},
-				["tempo_start"] = 1599957010,
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15826.998, -- [1]
+							589, -- [2]
+							"Gogluk", -- [3]
+						}, -- [1]
+						{
+							15828.398, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [2]
+						{
+							15829.801, -- [1]
+							34433, -- [2]
+							"Gogluk", -- [3]
+						}, -- [3]
+						{
+							15832.538, -- [1]
+							8092, -- [2]
+							"Gogluk", -- [3]
+						}, -- [4]
+						{
+							15832.899, -- [1]
+							32379, -- [2]
+							"Gogluk", -- [3]
+						}, -- [5]
+						{
+							15834.282, -- [1]
+							47540, -- [2]
+							"Gogluk", -- [3]
+						}, -- [6]
+						{
+							15839.458, -- [1]
+							585, -- [2]
+							"Gogluk", -- [3]
+						}, -- [7]
+						{
+							15840.789, -- [1]
+							585, -- [2]
+							"Gogluk", -- [3]
+						}, -- [8]
+						{
+							15842.186, -- [1]
+							585, -- [2]
+							"Gogluk", -- [3]
+						}, -- [9]
+						{
+							15842.186, -- [1]
+							589, -- [2]
+							"Gogluk", -- [3]
+						}, -- [10]
+						{
+							15843.609, -- [1]
+							47540, -- [2]
+							"Gogluk", -- [3]
+						}, -- [11]
+						{
+							15846.948, -- [1]
+							585, -- [2]
+							"Gogluk", -- [3]
+						}, -- [12]
+						{
+							15848.387, -- [1]
+							8092, -- [2]
+							"Gogluk", -- [3]
+						}, -- [13]
+						{
+							15849.796, -- [1]
+							585, -- [2]
+							"Gogluk", -- [3]
+						}, -- [14]
+						{
+							15851.277, -- [1]
+							585, -- [2]
+							"Gogluk", -- [3]
+						}, -- [15]
+					},
+				},
 				["player_last_events"] = {
-					["Sberla-Silvermoon"] = {
+					["Rykahpriest"] = {
 						{
 							true, -- [1]
-							124255, -- [2]
-							25, -- [3]
-							1599957063.405, -- [4]
-							2497, -- [5]
-							"Sberla-Silvermoon", -- [6]
+							3, -- [2]
+							844, -- [3]
+							1603408744.977, -- [4]
+							652, -- [5]
+							"Environment (Falling)", -- [6]
 							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
+							3, -- [8]
+							false, -- [9]
 							-1, -- [10]
 						}, -- [1]
 						{
-							true, -- [1]
-							124255, -- [2]
-							25, -- [3]
-							1599957063.899, -- [4]
-							2470, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
 						}, -- [2]
 						{
-							true, -- [1]
-							124255, -- [2]
-							25, -- [3]
-							1599957064.408, -- [4]
-							2910, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
 						}, -- [3]
 						{
-							true, -- [1]
-							124255, -- [2]
-							25, -- [3]
-							1599957064.928, -- [4]
-							2883, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
 						}, -- [4]
 						{
-							true, -- [1]
-							124255, -- [2]
-							25, -- [3]
-							1599957065.408, -- [4]
-							2886, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
 						}, -- [5]
 						{
-							true, -- [1]
-							124255, -- [2]
-							25, -- [3]
-							1599957065.907, -- [4]
-							2859, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
 						}, -- [6]
 						{
-							true, -- [1]
-							124255, -- [2]
-							25, -- [3]
-							1599957066.403, -- [4]
-							2910, -- [5]
-							"Sberla-Silvermoon", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
 						}, -- [7]
 						{
 						}, -- [8]
@@ -9715,38 +6248,12188 @@ _detalhes_database = {
 						}, -- [31]
 						{
 						}, -- [32]
-						["n"] = 8,
+						["n"] = 2,
 					},
 				},
-				["spells_cast_timeline"] = {
-				},
-				["is_boss"] = {
-					["diff_string"] = "Normal",
-					["index"] = 1,
-					["zone"] = "Gnomeregan",
-					["encounter"] = "Viscous Fallout",
-					["mapid"] = 90,
-					["try_number"] = 1,
-					["name"] = "Viscous Fallout",
-					["diff"] = 1,
-					["id"] = 378,
-					["ej_instance_id"] = 231,
-					["killed"] = true,
-				},
-				["data_inicio"] = "01:30:11",
+				["data_inicio"] = "00:15:25",
 				["CombatSkillCache"] = {
 				},
 				["frags"] = {
-					["Irradiated Horror"] = 1,
+					["Gogluk"] = 1,
 				},
-				["start_time"] = 40693.91,
+				["start_time"] = 15826.998,
 				["TimeData"] = {
 				},
-				["contra"] = "Viscous Fallout",
-			}, -- [3]
+				["contra"] = "Gogluk",
+			}, -- [6]
+			{
+				{
+					["combatId"] = 49,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005642,
+							["damage_from"] = {
+								["[*] Cluster Bomb"] = true,
+								["Blackrock Machinist"] = true,
+							},
+							["targets"] = {
+								["Blackrock Machinist"] = 199,
+							},
+							["pets"] = {
+							},
+							["total"] = 199.005642,
+							["on_hold"] = false,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 199.005642,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1603408422,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[589] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 42,
+										["g_amt"] = 0,
+										["n_max"] = 21,
+										["targets"] = {
+											["Blackrock Machinist"] = 197,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 155,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 197,
+										["c_max"] = 42,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 42,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Blackrock Machinist"] = 2,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2,
+										["c_max"] = 0,
+										["spellschool"] = 48,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 8.169025984154738,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 171.005642,
+							["start_time"] = 1603408405,
+							["delay"] = 0,
+							["last_event"] = 1603408414,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.004287,
+							["total"] = 504.004287,
+							["damage_from"] = {
+								["Manatsuki-Arathor"] = true,
+								["Asaag-Sylvanas"] = true,
+								["Thokphog"] = true,
+								["Rhamanthes-Ravencrest"] = true,
+								["Rykahpriest"] = true,
+								["Sarvic-Silvermoon"] = true,
+							},
+							["targets"] = {
+								["Manatsuki-Arathor"] = 40,
+								["Asaag-Sylvanas"] = 238,
+								["Thokphog"] = 80,
+								["Sarvic-Silvermoon"] = 41,
+								["Rykahpriest"] = 71,
+								["Rhamanthes-Ravencrest"] = 34,
+							},
+							["monster"] = true,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["aID"] = "80468",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 504.004287,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603408524,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Machinist",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 77,
+										["g_amt"] = 0,
+										["n_max"] = 41,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 40,
+											["Asaag-Sylvanas"] = 238,
+											["Thokphog"] = 80,
+											["Sarvic-Silvermoon"] = 41,
+											["Rykahpriest"] = 71,
+											["Rhamanthes-Ravencrest"] = 34,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 427,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["MISS"] = 2,
+										["total"] = 504,
+										["c_max"] = 77,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 77,
+									}, -- [1]
+									[166077] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 166077,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 4,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[1604] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Asaag-Sylvanas"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["IMMUNE"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1604,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-80468-0001121208",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408512,
+							["damage_taken"] = 2203.004287,
+							["start_time"] = 1603408419,
+							["delay"] = 1603408512,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 49,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 49,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 49,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 146,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[162676] = {
+										["activedamt"] = 1,
+										["id"] = 162676,
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[290718] = {
+										["activedamt"] = 1,
+										["id"] = 290718,
+										["targets"] = {
+										},
+										["actived_at"] = 1603408398,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 9,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[589] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603408422,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Blackrock Machinist",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[166077] = 4,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-80468-0000121208",
+							["aID"] = "80468",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 49,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["overall_added"] = true,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["tempo_start"] = 1603408398,
+				["enemy"] = "Blackrock Machinist",
+				["combat_counter"] = 284,
+				["playing_solo"] = true,
+				["totals"] = {
+					702.891807, -- [1]
+					-0.01237700000001496, -- [2]
+					{
+						-0.004986, -- [1]
+						[0] = -0.007379999999998324,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Rykahpriest"] = {
+						{
+							true, -- [1]
+							166079, -- [2]
+							100, -- [3]
+							1603408446.008, -- [4]
+							1396, -- [5]
+							"[*] Cluster Bomb", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatEndedAt"] = 15725.074,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[341260] = {
+							["enabled"] = false,
+							["appliedAt"] = 15710.315,
+							["spellId"] = 341260,
+							["data"] = {
+								{
+									15710.315, -- [1]
+									15725.074, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 15709.095,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									15709.095, -- [1]
+									15721.086, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15707.694,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15707.694, -- [1]
+									15716.894, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "00:13:19",
+				["end_time"] = 15725.074,
+				["totals_grupo"] = {
+					199, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["combat_id"] = 49,
+				["TotalElapsedCombatTime"] = 15725.074,
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 199.005642,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+					["Overseer Gotrigg"] = 1,
+					["Blackrock Laborer"] = 1,
+					["Blackrock Machinist"] = 2,
+					["Blackrock Grunt"] = 2,
+				},
+				["data_fim"] = "00:13:43",
+				["instance_type"] = "none",
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15707.694, -- [1]
+							589, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [1]
+						{
+							15709.095, -- [1]
+							589, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [2]
+						{
+							15711.438, -- [1]
+							6477, -- [2]
+							"Makeshift Plunger", -- [3]
+						}, -- [3]
+					},
+				},
+				["start_time"] = 15700.713,
+				["contra"] = "Blackrock Machinist",
+				["TimeData"] = {
+				},
+			}, -- [7]
+			{
+				{
+					["combatId"] = 48,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007906,
+							["damage_from"] = {
+								["Overseer Gotrigg"] = true,
+								["[*] Shadow Word: Death"] = true,
+							},
+							["targets"] = {
+								["Overseer Gotrigg"] = 1910,
+							},
+							["pets"] = {
+							},
+							["spec"] = 256,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1910.007906,
+							["end_time"] = 1603408346,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 1910.007906,
+							["classe"] = "PRIEST",
+							["aID"] = "1303-0B65E197",
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[47666] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 446,
+										["g_amt"] = 0,
+										["n_max"] = 56,
+										["targets"] = {
+											["Overseer Gotrigg"] = 557,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 111,
+										["n_min"] = 55,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 557,
+										["c_max"] = 113,
+										["spellschool"] = 2,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 110,
+									},
+									[585] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 149,
+										["g_amt"] = 0,
+										["n_max"] = 75,
+										["targets"] = {
+											["Overseer Gotrigg"] = 664,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 515,
+										["n_min"] = 72,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 664,
+										["c_max"] = 149,
+										["spellschool"] = 2,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 149,
+									},
+									[32379] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 116,
+										["targets"] = {
+											["Overseer Gotrigg"] = 116,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 116,
+										["n_min"] = 116,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 116,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32379,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[589] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 64,
+										["g_amt"] = 0,
+										["n_max"] = 21,
+										["targets"] = {
+											["Overseer Gotrigg"] = 355,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 291,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 355,
+										["c_max"] = 32,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 18,
+										["r_amt"] = 0,
+										["c_min"] = 32,
+									},
+									[8092] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 110,
+										["targets"] = {
+											["Overseer Gotrigg"] = 218,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 218,
+										["n_min"] = 108,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 218,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 56.07938888399659,
+							["custom"] = 0,
+							["last_event"] = 1603408344,
+							["damage_taken"] = 323.007906,
+							["start_time"] = 1603408312,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 181.008769,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+								["Viableiswear-Silvermoon"] = true,
+								["Asaag-Sylvanas"] = true,
+								["Cantuccio-Pozzodell'Eternità"] = true,
+								["Feleoner-Outland"] = true,
+								["Quinzdps-Ravencrest"] = true,
+								["Rykahpriest"] = true,
+							},
+							["targets"] = {
+								["Viableiswear-Silvermoon"] = 99,
+								["Asaag-Sylvanas"] = 199,
+								["Cantuccio-Pozzodell'Eternità"] = 464,
+								["Feleoner-Outland"] = 1098,
+								["Quinzdps-Ravencrest"] = 71,
+								["Rykahpriest"] = 207,
+							},
+							["end_time"] = 1603408398,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["aID"] = "80574",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2138.008769,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 2138.008769,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Overseer Gotrigg",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 92,
+										["g_amt"] = 0,
+										["n_max"] = 49,
+										["targets"] = {
+											["Feleoner-Outland"] = 867,
+											["Cantuccio-Pozzodell'Eternità"] = 364,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1139,
+										["a_amt"] = 0,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 32,
+										["DODGE"] = 1,
+										["total"] = 1231,
+										["c_max"] = 92,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 2,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 28,
+										["r_amt"] = 0,
+										["c_min"] = 92,
+									}, -- [1]
+									[166405] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16,
+										["targets"] = {
+											["Viableiswear-Silvermoon"] = 99,
+											["Asaag-Sylvanas"] = 181,
+											["Cantuccio-Pozzodell'Eternità"] = 100,
+											["Feleoner-Outland"] = 207,
+											["Quinzdps-Ravencrest"] = 59,
+											["Rykahpriest"] = 207,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 853,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 60,
+										["total"] = 853,
+										["c_max"] = 0,
+										["spellschool"] = 4,
+										["id"] = 166405,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 25,
+										["m_crit"] = 0,
+										["a_amt"] = 2,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 60,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[166401] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4,
+										["targets"] = {
+											["Feleoner-Outland"] = 24,
+											["Asaag-Sylvanas"] = 18,
+											["Quinzdps-Ravencrest"] = 12,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 54,
+										["n_min"] = 3,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 54,
+										["c_max"] = 0,
+										["id"] = 166401,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-80574-000012113C",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408397,
+							["damage_taken"] = 7985.008769,
+							["start_time"] = 1603408353,
+							["delay"] = 1603408346,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 116.003721,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Rykahpriest"] = 116,
+							},
+							["spellicon"] = 136149,
+							["serial"] = "",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 116.003721,
+							["fight_component"] = true,
+							["end_time"] = 1603408346,
+							["dps_started"] = false,
+							["total"] = 116.003721,
+							["aID"] = "",
+							["monster"] = true,
+							["nome"] = "[*] Shadow Word: Death",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[32409] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 116,
+										["targets"] = {
+											["Rykahpriest"] = 116,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 116,
+										["n_min"] = 116,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 116,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32409,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.003721,
+							["start_time"] = 1603408345,
+							["delay"] = 1603408325,
+							["last_event"] = 1603408325,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 48,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1304,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.001785,
+							["total_without_pet"] = 889.0017849999999,
+							["total"] = 889.0017849999999,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1597-0CF2C431",
+							["totalabsorb"] = 0.001785,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Asaag-Sylvanas"] = 889,
+							},
+							["totalover_without_pet"] = 0.001785,
+							["healing_taken"] = 1638.001785,
+							["need_refresh"] = true,
+							["fight_component"] = true,
+							["end_time"] = 1603408346,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+								["Asaag-Sylvanas"] = true,
+							},
+							["nome"] = "Asaag-Sylvanas",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 77,
+										["targets"] = {
+											["Asaag-Sylvanas"] = 678,
+										},
+										["n_min"] = 2,
+										["counter"] = 26,
+										["overheal"] = 0,
+										["total"] = 678,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 678,
+										["n_amt"] = 26,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[178963] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 211,
+										["targets"] = {
+											["Asaag-Sylvanas"] = 211,
+										},
+										["n_min"] = 211,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 211,
+										["c_max"] = 0,
+										["id"] = 178963,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 211,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["start_time"] = 1603408314,
+							["spec"] = 577,
+							["classe"] = "DEMONHUNTER",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1597-0CF2C431",
+							["totaldenied"] = 0.001785,
+							["delay"] = 0,
+							["last_event"] = 1603408345,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 440,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 440.004116,
+							["total_without_pet"] = 1264.004116,
+							["total"] = 1264.004116,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 219,
+								["Asaag-Sylvanas"] = 749,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 968.0041160000001,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 515,
+								["Asaag-Sylvanas"] = 749,
+							},
+							["totalover_without_pet"] = 0.004116,
+							["healing_taken"] = 515.0041160000001,
+							["fight_component"] = true,
+							["end_time"] = 1603408346,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[208771] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 838,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 101,
+										["targets"] = {
+											["Rykahpriest"] = 89,
+											["Asaag-Sylvanas"] = 749,
+										},
+										["n_min"] = 14,
+										["counter"] = 14,
+										["overheal"] = 0,
+										["total"] = 838,
+										["c_max"] = 0,
+										["id"] = 208771,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 89,
+											["Asaag-Sylvanas"] = 749,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 838,
+										["n_amt"] = 14,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 129,
+										},
+										["n_max"] = 42,
+										["targets"] = {
+											["Rykahpriest"] = 118,
+										},
+										["n_min"] = 0,
+										["counter"] = 12,
+										["overheal"] = 129,
+										["total"] = 118,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 118,
+										["n_amt"] = 12,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 130,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 122,
+										},
+										["n_max"] = 116,
+										["targets"] = {
+											["Rykahpriest"] = 130,
+										},
+										["n_min"] = 0,
+										["counter"] = 3,
+										["overheal"] = 122,
+										["total"] = 130,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 130,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 130,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[94472] = {
+										["c_amt"] = 7,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 189,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Rykahpriest"] = 178,
+										},
+										["n_min"] = 0,
+										["counter"] = 7,
+										["overheal"] = 189,
+										["total"] = 178,
+										["c_max"] = 63,
+										["id"] = 94472,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 178,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603408315,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.004116,
+							["delay"] = 0,
+							["last_event"] = 1603408339,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 48,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.003257,
+							["resource"] = 305.003257,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["aID"] = "1597-0CF2C431",
+							["passiveover"] = 0.003257,
+							["fight_component"] = true,
+							["total"] = 0.003257,
+							["need_refresh"] = true,
+							["nome"] = "Asaag-Sylvanas",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["resource_type"] = 17,
+							["spec"] = 577,
+							["flag_original"] = 1304,
+							["alternatepower"] = 0.003257,
+							["last_event"] = 1603408352,
+							["classe"] = "DEMONHUNTER",
+							["tipo"] = 3,
+							["serial"] = "Player-1597-0CF2C431",
+							["totalover"] = 0.003257,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 48,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 1,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208772] = {
+										["activedamt"] = 0,
+										["id"] = 208772,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6788] = {
+										["activedamt"] = 0,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 200,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[162676] = {
+										["activedamt"] = 1,
+										["id"] = 162676,
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 1,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 1,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 50,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17] = 1,
+								[47540] = 2,
+								[585] = 8,
+								[32379] = 1,
+								[589] = 2,
+								[8092] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603408346,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 1304,
+							["nome"] = "Asaag-Sylvanas",
+							["spec"] = 577,
+							["need_refresh"] = true,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["tipo"] = 4,
+							["classe"] = "DEMONHUNTER",
+							["spell_cast"] = {
+								[162794] = 8,
+								[188499] = 4,
+								[162243] = 7,
+								[258920] = 1,
+								[209693] = 1,
+								[198013] = 1,
+							},
+							["aID"] = "1597-0CF2C431",
+							["serial"] = "Player-1597-0CF2C431",
+							["last_event"] = 0,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Overseer Gotrigg",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[166401] = 2,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-80574-000012113C",
+							["aID"] = "80574",
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 48,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["CombatStartedAt"] = 15696.714,
+				["tempo_start"] = 1603408312,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 283,
+				["playing_solo"] = true,
+				["totals"] = {
+					4163.938136999997, -- [1]
+					2152.991058, -- [2]
+					{
+						-0.003406999999995719, -- [1]
+						[0] = -0.009658,
+						["alternatepower"] = 0,
+						[3] = -0.008969000000000449,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					1910, -- [1]
+					1264, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "00:12:27",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Overseer Gotrigg",
+				["TotalElapsedCombatTime"] = 34.05899999999929,
+				["CombatEndedAt"] = 15648.553,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 15623.979,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									15623.979, -- [1]
+									15639.014, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[208772] = {
+							["enabled"] = false,
+							["appliedAt"] = 15635.957,
+							["spellId"] = 208772,
+							["data"] = {
+								{
+									15617.295, -- [1]
+									15621.75, -- [2]
+								}, -- [1]
+								{
+									15635.957, -- [1]
+									15642.177, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 15623.979,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									15623.979, -- [1]
+									15630.874, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 15624.085,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									15624.085, -- [1]
+									15639.014, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15614.494,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15614.494, -- [1]
+									15647.466, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 1264.004116,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 1910.007906,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 15648.553,
+				["combat_id"] = 48,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15614.494, -- [1]
+							589, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [1]
+						{
+							15617.295, -- [1]
+							8092, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [2]
+						{
+							15623.979, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [3]
+						{
+							15625.533, -- [1]
+							589, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [4]
+						{
+							15626.995, -- [1]
+							32379, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [5]
+						{
+							15628.291, -- [1]
+							47540, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [6]
+						{
+							15631.634, -- [1]
+							585, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [7]
+						{
+							15633.203, -- [1]
+							585, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [8]
+						{
+							15634.587, -- [1]
+							585, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [9]
+						{
+							15635.957, -- [1]
+							8092, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [10]
+						{
+							15636.063, -- [1]
+							589, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [11]
+						{
+							15637.425, -- [1]
+							47540, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [12]
+						{
+							15640.782, -- [1]
+							585, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [13]
+						{
+							15642.177, -- [1]
+							585, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [14]
+						{
+							15643.566, -- [1]
+							585, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [15]
+						{
+							15644.872, -- [1]
+							585, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [16]
+						{
+							15646.33, -- [1]
+							585, -- [2]
+							"Overseer Gotrigg", -- [3]
+						}, -- [17]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "00:11:52",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Overseer Gotrigg"] = 1,
+					["Burning Blade Saberguard"] = 1,
+				},
+				["start_time"] = 15614.494,
+				["TimeData"] = {
+				},
+				["contra"] = "Overseer Gotrigg",
+			}, -- [8]
+			{
+				{
+					["combatId"] = 47,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001609,
+							["damage_from"] = {
+								["Blackrock Laborer"] = true,
+								["Burning Blade Saberguard"] = true,
+								["[*] Shadow Word: Death"] = true,
+								["Blackrock Machinist"] = true,
+							},
+							["targets"] = {
+								["Blackrock Laborer"] = 799,
+								["Burning Blade Saberguard"] = 289,
+								["Blackrock Machinist"] = 711,
+							},
+							["pets"] = {
+							},
+							["total"] = 1799.001609,
+							["on_hold"] = false,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1799.001609,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1603408293,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5,
+										["targets"] = {
+											["Blackrock Machinist"] = 5,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 5,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[47666] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 56,
+										["targets"] = {
+											["Blackrock Machinist"] = 275,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 275,
+										["n_min"] = 54,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 275,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[585] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 74,
+										["targets"] = {
+											["Blackrock Laborer"] = 74,
+											["Burning Blade Saberguard"] = 289,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 363,
+										["n_min"] = 72,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 363,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[32379] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 119,
+										["targets"] = {
+											["Blackrock Machinist"] = 119,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 119,
+										["n_min"] = 119,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 119,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32379,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[589] = {
+										["c_amt"] = 9,
+										["b_amt"] = 0,
+										["c_dmg"] = 328,
+										["g_amt"] = 0,
+										["n_max"] = 21,
+										["targets"] = {
+											["Blackrock Laborer"] = 612,
+											["Blackrock Machinist"] = 312,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 596,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 49,
+										["total"] = 924,
+										["c_max"] = 44,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 40,
+										["r_amt"] = 0,
+										["c_min"] = 31,
+									},
+									[8092] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 113,
+										["targets"] = {
+											["Blackrock Laborer"] = 113,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 113,
+										["n_min"] = 113,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 113,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 37.2494949685272,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2153.001609,
+							["start_time"] = 1603408244,
+							["delay"] = 0,
+							["last_event"] = 1603408292,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 609.004904,
+							["total"] = 1271.004904,
+							["damage_from"] = {
+								["Feleoner-Outland"] = true,
+								["Asaag-Sylvanas"] = true,
+								["Cantuccio-Pozzodell'Eternità"] = true,
+								["Rykahpriest"] = true,
+							},
+							["targets"] = {
+								["Feleoner-Outland"] = 123,
+								["Asaag-Sylvanas"] = 129,
+								["Cantuccio-Pozzodell'Eternità"] = 102,
+								["Rykahpriest"] = 917,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "81063",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1271.004904,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603408293,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Laborer",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 61,
+										["g_amt"] = 0,
+										["n_max"] = 40,
+										["targets"] = {
+											["Feleoner-Outland"] = 76,
+											["Asaag-Sylvanas"] = 99,
+											["Cantuccio-Pozzodell'Eternità"] = 67,
+											["Rykahpriest"] = 590,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 771,
+										["DODGE"] = 1,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 27,
+										["MISS"] = 2,
+										["total"] = 832,
+										["c_max"] = 61,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 61,
+										["m_crit"] = 0,
+										["a_amt"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 23,
+										["r_amt"] = 0,
+										["c_min"] = 61,
+									}, -- [1]
+									[166081] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 47,
+										["targets"] = {
+											["Feleoner-Outland"] = 47,
+											["Rykahpriest"] = 119,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 166,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 166,
+										["c_max"] = 0,
+										["id"] = 166081,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 4,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[166082] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 41,
+										["targets"] = {
+											["Feleoner-Outland"] = 0,
+											["Asaag-Sylvanas"] = 30,
+											["Cantuccio-Pozzodell'Eternità"] = 35,
+											["Rykahpriest"] = 208,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 273,
+										["n_min"] = 30,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 273,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = 166082,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 9,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[163691] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 163691,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 4,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-81063-000012116C",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408291,
+							["damage_taken"] = 2578.004904,
+							["start_time"] = 1603408261,
+							["delay"] = 1603408254,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 305.002152,
+							["total"] = 698.002152,
+							["damage_from"] = {
+								["Feleoner-Outland"] = true,
+								["Asaag-Sylvanas"] = true,
+								["Cantuccio-Pozzodell'Eternità"] = true,
+								["Rykahpriest"] = true,
+							},
+							["targets"] = {
+								["Asaag-Sylvanas"] = 27,
+								["Rykahpriest"] = 617,
+								["Cantuccio-Pozzodell'Eternità"] = 54,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "80468",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 698.002152,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603408293,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Machinist",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 73,
+										["targets"] = {
+											["Asaag-Sylvanas"] = 27,
+											["Rykahpriest"] = 617,
+											["Cantuccio-Pozzodell'Eternità"] = 54,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 698,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["a_amt"] = 0,
+										["total"] = 698,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 19,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[166077] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 166077,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 4,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-80468-0000121058",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408291,
+							["damage_taken"] = 1654.002152,
+							["start_time"] = 1603408253,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 212.003391,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+								["Rykahpriest"] = true,
+								["Asaag-Sylvanas"] = true,
+							},
+							["targets"] = {
+								["Rykahpriest"] = 499,
+								["Asaag-Sylvanas"] = 98,
+							},
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["end_time"] = 1603408312,
+							["aID"] = "81129",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 597.003391,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 597.003391,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Burning Blade Saberguard",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 25,
+										["targets"] = {
+											["Rykahpriest"] = 429,
+											["Asaag-Sylvanas"] = 35,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 464,
+										["n_min"] = 16,
+										["g_dmg"] = 0,
+										["counter"] = 23,
+										["DODGE"] = 1,
+										["total"] = 464,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 43,
+										["m_crit"] = 0,
+										["a_amt"] = 2,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 22,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[166085] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 70,
+										["targets"] = {
+											["Rykahpriest"] = 70,
+											["Asaag-Sylvanas"] = 63,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 133,
+										["n_min"] = 63,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 133,
+										["c_max"] = 0,
+										["id"] = 166085,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81129-0000121010",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408308,
+							["damage_taken"] = 743.003391,
+							["start_time"] = 1603408260,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.005421,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Rykahpriest"] = 120,
+							},
+							["pets"] = {
+							},
+							["serial"] = "",
+							["monster"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 120.005421,
+							["spellicon"] = 136149,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 120.005421,
+							["aID"] = "",
+							["friendlyfire_total"] = 0,
+							["nome"] = "[*] Shadow Word: Death",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[32409] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 120,
+										["targets"] = {
+											["Rykahpriest"] = 120,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 120,
+										["n_min"] = 120,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 120,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32409,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["end_time"] = 1603408293,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005421,
+							["start_time"] = 1603408289,
+							["delay"] = 0,
+							["last_event"] = 1603408289,
+						}, -- [5]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 47,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 3,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 3.003882,
+							["total_without_pet"] = 1915.003882,
+							["total"] = 1915.003882,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 1189,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 1189.003882,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 1915,
+							},
+							["totalover_without_pet"] = 0.003882,
+							["healing_taken"] = 1915.003882,
+							["fight_component"] = true,
+							["end_time"] = 1603408293,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[208771] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 372,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 40,
+										["targets"] = {
+											["Rykahpriest"] = 372,
+										},
+										["n_min"] = 29,
+										["counter"] = 11,
+										["overheal"] = 0,
+										["total"] = 372,
+										["c_max"] = 0,
+										["id"] = 208771,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 372,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 372,
+										["n_amt"] = 11,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 64,
+										["targets"] = {
+											["Rykahpriest"] = 595,
+										},
+										["n_min"] = 4,
+										["counter"] = 33,
+										["overheal"] = 0,
+										["total"] = 595,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 595,
+										["n_amt"] = 33,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 817,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 3,
+										},
+										["n_max"] = 73,
+										["targets"] = {
+											["Rykahpriest"] = 817,
+										},
+										["n_min"] = 0,
+										["counter"] = 28,
+										["overheal"] = 3,
+										["total"] = 817,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 817,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 817,
+										["n_amt"] = 28,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[94472] = {
+										["c_amt"] = 7,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Rykahpriest"] = 131,
+										},
+										["n_min"] = 0,
+										["counter"] = 7,
+										["overheal"] = 0,
+										["total"] = 131,
+										["c_max"] = 24,
+										["id"] = 94472,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 131,
+										["m_crit"] = 0,
+										["c_min"] = 16,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603408267,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.003882,
+							["delay"] = 0,
+							["last_event"] = 1603408289,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 47,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 47,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[6788] = {
+										["activedamt"] = 0,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208772] = {
+										["activedamt"] = 0,
+										["id"] = 208772,
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 8,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 290,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[162676] = {
+										["activedamt"] = 1,
+										["id"] = 162676,
+										["targets"] = {
+										},
+										["uptime"] = 49,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 49,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 49,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 49,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 49,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 1,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 27,
+										["appliedamt"] = 1,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 3,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 77,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17] = 3,
+								[47540] = 2,
+								[585] = 5,
+								[32379] = 1,
+								[589] = 7,
+								[8092] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603408293,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Blackrock Laborer",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[166081] = 4,
+								[166082] = 9,
+								[163691] = 4,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81063-0000121174",
+							["aID"] = "81063",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Blackrock Machinist",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[166077] = 4,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-80468-0000121058",
+							["aID"] = "80468",
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Burning Blade Saberguard",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[166085] = 2,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81129-0000121010",
+							["aID"] = "81129",
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 47,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["overall_added"] = true,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["tempo_start"] = 1603408244,
+				["enemy"] = "Blackrock Laborer",
+				["combat_counter"] = 282,
+				["playing_solo"] = true,
+				["totals"] = {
+					4484.957528, -- [1]
+					1914.98781, -- [2]
+					{
+						-0.009738999999999456, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = -0.007004,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatEndedAt"] = 15595.508,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 15585.333,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									15569.1, -- [1]
+									15574.675, -- [2]
+								}, -- [1]
+								{
+									15578.098, -- [1]
+									15581.807, -- [2]
+								}, -- [2]
+								{
+									15585.333, -- [1]
+									15590.208, -- [2]
+								}, -- [3]
+							},
+							["amountUp"] = 0,
+						},
+						[208772] = {
+							["enabled"] = false,
+							["appliedAt"] = 15575.278,
+							["spellId"] = 208772,
+							["data"] = {
+								{
+									15575.278, -- [1]
+									15590.322, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 15592.212,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									15592.212, -- [1]
+									15595.508, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15589.773,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15547.212, -- [1]
+									15561.701, -- [2]
+								}, -- [1]
+								{
+									15563.008, -- [1]
+									15583.853, -- [2]
+								}, -- [2]
+								{
+									15589.773, -- [1]
+									15593.475, -- [2]
+								}, -- [3]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 15569.1,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									15569.1, -- [1]
+									15595.508, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 15585.333,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									15569.1, -- [1]
+									15575.945, -- [2]
+								}, -- [1]
+								{
+									15578.098, -- [1]
+									15585.061, -- [2]
+								}, -- [2]
+								{
+									15585.333, -- [1]
+									15592.315, -- [2]
+								}, -- [3]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "00:10:45",
+				["end_time"] = 15595.508,
+				["totals_grupo"] = {
+					1799, -- [1]
+					1915, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["combat_id"] = 47,
+				["TotalElapsedCombatTime"] = 15595.508,
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 1915.003882,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 1799.001609,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+					["Blackrock Laborer"] = 5,
+					["Burning Blade Saberguard"] = 1,
+					["Blackrock Machinist"] = 3,
+					["Blackrock Grunt"] = 1,
+				},
+				["data_fim"] = "00:11:34",
+				["instance_type"] = "none",
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15547.212, -- [1]
+							589, -- [2]
+							"Blackrock Laborer", -- [3]
+						}, -- [1]
+						{
+							15548.497, -- [1]
+							589, -- [2]
+							"Blackrock Laborer", -- [3]
+						}, -- [2]
+						{
+							15550.928, -- [1]
+							589, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [3]
+						{
+							15563.008, -- [1]
+							589, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [4]
+						{
+							15567.713, -- [1]
+							589, -- [2]
+							"Blackrock Laborer", -- [3]
+						}, -- [5]
+						{
+							15569.1, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [6]
+						{
+							15570.495, -- [1]
+							589, -- [2]
+							"Blackrock Laborer", -- [3]
+						}, -- [7]
+						{
+							15571.822, -- [1]
+							589, -- [2]
+							"Blackrock Laborer", -- [3]
+						}, -- [8]
+						{
+							15575.278, -- [1]
+							8092, -- [2]
+							"Blackrock Laborer", -- [3]
+						}, -- [9]
+						{
+							15575.278, -- [1]
+							47540, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [10]
+						{
+							15578.098, -- [1]
+							585, -- [2]
+							"Blackrock Laborer", -- [3]
+						}, -- [11]
+						{
+							15578.098, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [12]
+						{
+							15580.882, -- [1]
+							585, -- [2]
+							"Burning Blade Saberguard", -- [3]
+						}, -- [13]
+						{
+							15582.669, -- [1]
+							585, -- [2]
+							"Burning Blade Saberguard", -- [3]
+						}, -- [14]
+						{
+							15583.955, -- [1]
+							585, -- [2]
+							"Burning Blade Saberguard", -- [3]
+						}, -- [15]
+						{
+							15585.333, -- [1]
+							585, -- [2]
+							"Burning Blade Saberguard", -- [3]
+						}, -- [16]
+						{
+							15585.333, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [17]
+						{
+							15587.809, -- [1]
+							47540, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [18]
+						{
+							15589.773, -- [1]
+							589, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [19]
+						{
+							15591.198, -- [1]
+							32379, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [20]
+					},
+				},
+				["start_time"] = 15547.212,
+				["contra"] = "Blackrock Laborer",
+				["TimeData"] = {
+				},
+			}, -- [9]
+			{
+				{
+					["combatId"] = 46,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003306,
+							["damage_from"] = {
+								["Blackrock Machinist"] = true,
+							},
+							["targets"] = {
+								["Blackrock Machinist"] = 666,
+							},
+							["pets"] = {
+							},
+							["total"] = 666.0033060000001,
+							["on_hold"] = false,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 666.0033060000001,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1603408230,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[47666] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 222,
+										["g_amt"] = 0,
+										["n_max"] = 56,
+										["targets"] = {
+											["Blackrock Machinist"] = 278,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 56,
+										["n_min"] = 56,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 278,
+										["c_max"] = 113,
+										["spellschool"] = 2,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 109,
+									},
+									[589] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 42,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Blackrock Machinist"] = 87,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 45,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 87,
+										["c_max"] = 42,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 42,
+									},
+									[32379] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 301,
+										["targets"] = {
+											["Blackrock Machinist"] = 301,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 301,
+										["n_min"] = 301,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 301,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32379,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 112.0840299562607,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 31.003306,
+							["start_time"] = 1603408224,
+							["delay"] = 0,
+							["last_event"] = 1603408229,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007148,
+							["total"] = 88.007148,
+							["damage_from"] = {
+								["Feleoner-Outland"] = true,
+								["Cantuccio-Pozzodell'Eternità"] = true,
+								["Rykahpriest"] = true,
+							},
+							["targets"] = {
+								["Rykahpriest"] = 31,
+								["Feleoner-Outland"] = 57,
+							},
+							["monster"] = true,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["aID"] = "80468",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 88.007148,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603408244,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Machinist",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 31,
+										["targets"] = {
+											["Rykahpriest"] = 31,
+											["Feleoner-Outland"] = 57,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 88,
+										["n_min"] = 27,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["DODGE"] = 1,
+										["total"] = 88,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-80468-000012109C",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408237,
+							["damage_taken"] = 1333.007148,
+							["start_time"] = 1603408227,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 46,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 46,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 22.003352,
+							["resource"] = 0.003352,
+							["targets"] = {
+								["Rykahpriest"] = 22,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "1303-0B65E197",
+							["passiveover"] = 0.003352,
+							["total"] = 22.003352,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[59914] = {
+										["total"] = 22,
+										["id"] = 59914,
+										["totalover"] = 32,
+										["targets"] = {
+											["Rykahpriest"] = 22,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.003352,
+							["last_event"] = 1603408229,
+							["classe"] = "PRIEST",
+							["tipo"] = 3,
+							["serial"] = "Player-1303-0B65E197",
+							["totalover"] = 32.003352,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 46,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 27,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 5,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[47540] = 1,
+								[32379] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603408230,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 46,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["CombatStartedAt"] = 15541.781,
+				["tempo_start"] = 1603408224,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 281,
+				["playing_solo"] = true,
+				["totals"] = {
+					753.952555, -- [1]
+					-0.006721, -- [2]
+					{
+						-0.008063999999997407, -- [1]
+						[0] = 22,
+						["alternatepower"] = 0,
+						[3] = -0.004136,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					666, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 22,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "00:10:30",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Blackrock Machinist",
+				["TotalElapsedCombatTime"] = 15532.382,
+				["CombatEndedAt"] = 15532.382,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15526.44,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15526.44, -- [1]
+									15532.058, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 15530.196,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									15530.196, -- [1]
+									15532.382, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 666.0033060000001,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 15532.382,
+				["combat_id"] = 46,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15526.44, -- [1]
+							589, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [1]
+						{
+							15527.883, -- [1]
+							47540, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [2]
+						{
+							15532.058, -- [1]
+							32379, -- [2]
+							"Blackrock Machinist", -- [3]
+						}, -- [3]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "00:10:24",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Blackrock Machinist"] = 1,
+					["Blackrock Grunt"] = 1,
+				},
+				["start_time"] = 15526.44,
+				["TimeData"] = {
+				},
+				["contra"] = "Blackrock Machinist",
+			}, -- [10]
+			{
+				{
+					["combatId"] = 45,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 86.00538,
+							["damage_from"] = {
+								["[*] Shadow Word: Death"] = true,
+								["Ogron Warcrusher"] = true,
+								["Rykahpriest"] = true,
+								["Blackrock Grunt"] = true,
+							},
+							["targets"] = {
+								["Ogron Warcrusher"] = 4053,
+								["Blackrock Grunt"] = 4206,
+							},
+							["spec"] = 256,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+								["Rykahpriest"] = {
+									["spells"] = {
+										[186439] = 115,
+									},
+									["total"] = 115,
+								},
+							},
+							["fight_component"] = true,
+							["friendlyfire_total"] = 115,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 8259.00538,
+							["end_time"] = 1603408206,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 8259.00538,
+							["classe"] = "PRIEST",
+							["aID"] = "1303-0B65E197",
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Ogron Warcrusher"] = 7,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[8122] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ogron Warcrusher"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["IMMUNE"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 8122,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[47666] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 482,
+										["g_amt"] = 0,
+										["n_max"] = 66,
+										["targets"] = {
+											["Ogron Warcrusher"] = 1132,
+											["Blackrock Grunt"] = 131,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 781,
+										["n_min"] = 54,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 1263,
+										["c_max"] = 131,
+										["spellschool"] = 2,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 110,
+									},
+									[585] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 315,
+										["g_amt"] = 0,
+										["n_max"] = 87,
+										["targets"] = {
+											["Ogron Warcrusher"] = 1160,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 845,
+										["n_min"] = 72,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 1160,
+										["c_max"] = 170,
+										["spellschool"] = 2,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["r_amt"] = 0,
+										["c_min"] = 145,
+									},
+									[32379] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 282,
+										["g_amt"] = 0,
+										["n_max"] = 137,
+										["targets"] = {
+											["Blackrock Grunt"] = 419,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 137,
+										["n_min"] = 137,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 419,
+										["c_max"] = 282,
+										["spellschool"] = 32,
+										["id"] = 32379,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 282,
+									},
+									[589] = {
+										["c_amt"] = 36,
+										["b_amt"] = 0,
+										["c_dmg"] = 1352,
+										["g_amt"] = 0,
+										["n_max"] = 25,
+										["targets"] = {
+											["Ogron Warcrusher"] = 1398,
+											["Blackrock Grunt"] = 3644,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3690,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 239,
+										["total"] = 5042,
+										["c_max"] = 51,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 203,
+										["r_amt"] = 0,
+										["c_min"] = 19,
+									},
+									[8092] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 218,
+										["g_amt"] = 0,
+										["n_max"] = 126,
+										["targets"] = {
+											["Ogron Warcrusher"] = 344,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 126,
+										["n_min"] = 126,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 344,
+										["c_max"] = 218,
+										["spellschool"] = 32,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 218,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Ogron Warcrusher"] = 12,
+											["Blackrock Grunt"] = 12,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 24,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 21,
+										["total"] = 24,
+										["c_max"] = 0,
+										["spellschool"] = 48,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 21,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 59.32682082004445,
+							["custom"] = 0,
+							["last_event"] = 1603408203,
+							["damage_taken"] = 5576.005380000001,
+							["start_time"] = 1603408067,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 1563.006437,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+								["Manatsuki-Arathor"] = true,
+								["Vindicator Maraad"] = true,
+								["Rykahpriest"] = true,
+								["Sarvic-Silvermoon"] = true,
+								["Thrall"] = true,
+								["Farseer Drek'Thar"] = true,
+								["Feleoner-Outland"] = true,
+								["Asaag-Sylvanas"] = true,
+								["Liberated Karabor Prisoner"] = true,
+								["Exarch Maladaar"] = true,
+							},
+							["targets"] = {
+								["Manatsuki-Arathor"] = 663,
+								["Liberated Karabor Prisoner"] = 22253,
+								["Farseer Drek'Thar"] = 932,
+								["Thrall"] = 297,
+								["Feleoner-Outland"] = 407,
+								["Vindicator Maraad"] = 232,
+								["Rykahpriest"] = 4505,
+								["Exarch Maladaar"] = 307,
+							},
+							["end_time"] = 1603408224,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["aID"] = "80786",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 29596.006437,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 29596.006437,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Blackrock Grunt",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 60,
+										["b_amt"] = 0,
+										["c_dmg"] = 3861,
+										["g_amt"] = 0,
+										["n_max"] = 101,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 550,
+											["Liberated Karabor Prisoner"] = 20924,
+											["Farseer Drek'Thar"] = 932,
+											["Thrall"] = 269,
+											["Feleoner-Outland"] = 393,
+											["Vindicator Maraad"] = 232,
+											["Rykahpriest"] = 4265,
+											["Exarch Maladaar"] = 307,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 24011,
+										["MISS"] = 23,
+										["DODGE"] = 23,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 849,
+										["a_amt"] = 4,
+										["total"] = 27872,
+										["c_max"] = 105,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 183,
+										["m_crit"] = 0,
+										["PARRY"] = 19,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 724,
+										["r_amt"] = 0,
+										["c_min"] = 48,
+									}, -- [1]
+									[158158] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Feleoner-Outland"] = 14,
+											["Liberated Karabor Prisoner"] = 190,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 204,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 204,
+										["c_max"] = 0,
+										["DEFLECT"] = 2,
+										["id"] = 158158,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 17,
+										["b_dmg"] = 0,
+										["n_amt"] = 14,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[158193] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 50,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 32,
+											["Liberated Karabor Prisoner"] = 1053,
+											["Rykahpriest"] = 132,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1217,
+										["a_amt"] = 0,
+										["n_min"] = 32,
+										["g_dmg"] = 0,
+										["counter"] = 30,
+										["DODGE"] = 1,
+										["total"] = 1217,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 158193,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 28,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[157843] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 42,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 81,
+											["Liberated Karabor Prisoner"] = 86,
+											["Rykahpriest"] = 108,
+											["Thrall"] = 28,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 303,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 303,
+										["c_max"] = 0,
+										["id"] = 157843,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 9,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-80786-0002121093",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408221,
+							["damage_taken"] = 43888.006437,
+							["start_time"] = 1603408067,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 377.001393,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+								["Viableiswear-Silvermoon"] = true,
+								["Liberated Karabor Prisoner"] = true,
+								["Quinzdps-Ravencrest"] = true,
+								["Rykahpriest"] = true,
+								["Rhamanthes-Ravencrest"] = true,
+								["Asaag-Sylvanas"] = true,
+								["Feleoner-Outland"] = true,
+								["Thaelinar-Wildhammer"] = true,
+								["Manatsuki-Arathor"] = true,
+							},
+							["targets"] = {
+								["Manatsuki-Arathor"] = 526,
+								["Liberated Karabor Prisoner"] = 5045,
+								["Feleoner-Outland"] = 1005,
+								["Viableiswear-Silvermoon"] = 338,
+								["Rykahpriest"] = 820,
+								["Asaag-Sylvanas"] = 418,
+							},
+							["end_time"] = 1603408206,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["aID"] = "80775",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 8152.001393000001,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 8152.001393000001,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Ogron Warcrusher",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 14,
+										["b_amt"] = 0,
+										["c_dmg"] = 876,
+										["g_amt"] = 0,
+										["n_max"] = 42,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 373,
+											["Liberated Karabor Prisoner"] = 5045,
+											["Feleoner-Outland"] = 101,
+											["Viableiswear-Silvermoon"] = 338,
+											["Rykahpriest"] = 545,
+											["Asaag-Sylvanas"] = 418,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5944,
+										["MISS"] = 3,
+										["DODGE"] = 11,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 228,
+										["a_amt"] = 0,
+										["total"] = 6820,
+										["c_max"] = 70,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 2,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 198,
+										["r_amt"] = 0,
+										["c_min"] = 50,
+									}, -- [1]
+									[166032] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 166032,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 28,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[166031] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 41,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 153,
+											["Rykahpriest"] = 275,
+											["Feleoner-Outland"] = 904,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1332,
+										["n_min"] = 38,
+										["g_dmg"] = 0,
+										["counter"] = 34,
+										["total"] = 1332,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 166031,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 34,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-80775-0000121053",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408205,
+							["damage_taken"] = 24191.001393,
+							["start_time"] = 1603408068,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.004768,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Rykahpriest"] = 138,
+							},
+							["pets"] = {
+							},
+							["serial"] = "",
+							["monster"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 138.004768,
+							["spellicon"] = 136149,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 138.004768,
+							["aID"] = "",
+							["friendlyfire_total"] = 0,
+							["nome"] = "[*] Shadow Word: Death",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[32409] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 138,
+										["targets"] = {
+											["Rykahpriest"] = 138,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 138,
+										["n_min"] = 138,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 138,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32409,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["end_time"] = 1603408206,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.004768,
+							["start_time"] = 1603408205,
+							["delay"] = 1603408159,
+							["last_event"] = 1603408159,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 45,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 2584,
+							["totalabsorb"] = 0.007483,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Lady Liadrin <Rykahpriest>"] = true,
+								["Liberated Frostwolf Prisoner"] = true,
+							},
+							["targets"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.007483,
+							["targets_overheal"] = {
+							},
+							["classe"] = "UNKNOW",
+							["totalover"] = 0.007483,
+							["total_without_pet"] = 0.007483,
+							["iniciar_hps"] = false,
+							["healing_taken"] = 921.007483,
+							["fight_component"] = true,
+							["end_time"] = 1603408206,
+							["serial"] = "Creature-0-3891-1265-4-81017-00001210BA",
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Liberated Karabor Prisoner",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["total"] = 0.007483,
+							["aID"] = "81017",
+							["heal_enemy"] = {
+							},
+							["start_time"] = 1603408206,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["totaldenied"] = 0.007483,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+						{
+							["flag_original"] = 1304,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "MAGE",
+							["totalover"] = 0.003311,
+							["total_without_pet"] = 1059.003311,
+							["total"] = 1059.003311,
+							["targets_absorbs"] = {
+								["Manatsuki-Arathor"] = 967,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1587-0E6FDBD5",
+							["totalabsorb"] = 967.0033109999999,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Manatsuki-Arathor"] = 1059,
+							},
+							["totalover_without_pet"] = 0.003311,
+							["healing_taken"] = 1763.003311,
+							["fight_component"] = true,
+							["end_time"] = 1603408206,
+							["spec"] = 62,
+							["nome"] = "Manatsuki-Arathor",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 23,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 92,
+										},
+										["n_min"] = 23,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 92,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 92,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[235450] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 967,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 273,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 967,
+										},
+										["n_min"] = 82,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 967,
+										["c_max"] = 0,
+										["id"] = 235450,
+										["targets_absorbs"] = {
+											["Manatsuki-Arathor"] = 967,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 967,
+										["n_amt"] = 5,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["healing_from"] = {
+								["Liberated Frostwolf Prisoner"] = true,
+								["Rykahpriest"] = true,
+								["Manatsuki-Arathor"] = true,
+							},
+							["aID"] = "1587-0E6FDBD5",
+							["start_time"] = 1603408187,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
+							["totaldenied"] = 0.003311,
+							["delay"] = 1603408194,
+							["last_event"] = 1603408194,
+						}, -- [2]
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 1437,
+							},
+							["pets"] = {
+								"Lady Liadrin <Rykahpriest>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 3937.001109,
+							["total_without_pet"] = 4715.001109,
+							["total"] = 5346.001109,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 1855,
+								["Manatsuki-Arathor"] = 189,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 2044.001109,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Manatsuki-Arathor"] = 189,
+								["Liberated Karabor Prisoner"] = 498,
+								["Rykahpriest"] = 4659,
+							},
+							["totalover_without_pet"] = 0.001109,
+							["healing_taken"] = 4659.001109,
+							["fight_component"] = true,
+							["end_time"] = 1603408206,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+								["Lady Liadrin <Rykahpriest>"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1624,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 261,
+										},
+										["n_max"] = 101,
+										["targets"] = {
+											["Rykahpriest"] = 1624,
+										},
+										["n_min"] = 40,
+										["counter"] = 46,
+										["overheal"] = 261,
+										["total"] = 1624,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 1624,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1624,
+										["n_amt"] = 46,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[259760] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 1,
+										["targets"] = {
+											["Rykahpriest"] = 19,
+										},
+										["n_min"] = 1,
+										["counter"] = 19,
+										["overheal"] = 0,
+										["total"] = 19,
+										["c_max"] = 0,
+										["id"] = 259760,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 19,
+										["n_amt"] = 19,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 341,
+										},
+										["n_max"] = 48,
+										["targets"] = {
+											["Rykahpriest"] = 1324,
+										},
+										["n_min"] = 5,
+										["counter"] = 132,
+										["overheal"] = 341,
+										["total"] = 1324,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1324,
+										["n_amt"] = 132,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[186263] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 595,
+										},
+										["n_max"] = 574,
+										["targets"] = {
+											["Rykahpriest"] = 574,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 595,
+										["total"] = 574,
+										["c_max"] = 0,
+										["id"] = 186263,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 574,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[208771] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 420,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 189,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 189,
+											["Rykahpriest"] = 231,
+										},
+										["n_min"] = 30,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 420,
+										["c_max"] = 0,
+										["id"] = 208771,
+										["targets_absorbs"] = {
+											["Manatsuki-Arathor"] = 189,
+											["Rykahpriest"] = 231,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 420,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[94472] = {
+										["c_amt"] = 32,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 240,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Rykahpriest"] = 754,
+										},
+										["n_min"] = 0,
+										["counter"] = 32,
+										["overheal"] = 240,
+										["total"] = 754,
+										["c_max"] = 123,
+										["id"] = 94472,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 754,
+										["m_crit"] = 0,
+										["c_min"] = 17,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603408092,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.001109,
+							["delay"] = 1603408190,
+							["last_event"] = 1603408205,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 2500.006375,
+							["total_without_pet"] = 631.0063749999999,
+							["total"] = 631.0063749999999,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Creature-0-3891-1265-4-79823-00001210BE",
+							["totalabsorb"] = 0.006375,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 133,
+								["Liberated Karabor Prisoner"] = 498,
+							},
+							["totalover_without_pet"] = 0.006375,
+							["healing_taken"] = 0.006375,
+							["fight_component"] = true,
+							["end_time"] = 1603408206,
+							["targets_overheal"] = {
+								["Lady Liadrin <Rykahpriest>"] = 1504,
+								["Liberated Karabor Prisoner"] = 996,
+							},
+							["ownerName"] = "Rykahpriest",
+							["nome"] = "Lady Liadrin <Rykahpriest>",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[166939] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Lady Liadrin <Rykahpriest>"] = 1504,
+											["Liberated Karabor Prisoner"] = 996,
+										},
+										["n_max"] = 251,
+										["targets"] = {
+											["Lady Liadrin <Rykahpriest>"] = 0,
+											["Liberated Karabor Prisoner"] = 498,
+										},
+										["n_min"] = 251,
+										["counter"] = 12,
+										["overheal"] = 2500,
+										["total"] = 498,
+										["c_max"] = 0,
+										["id"] = 166939,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 498,
+										["n_amt"] = 12,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[167420] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 133,
+										["targets"] = {
+											["Rykahpriest"] = 133,
+										},
+										["n_min"] = 133,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 133,
+										["c_max"] = 0,
+										["id"] = 167420,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 133,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["start_time"] = 1603408200,
+							["aID"] = "79823",
+							["custom"] = 0,
+							["last_event"] = 1603408200,
+							["classe"] = "PET",
+							["totaldenied"] = 0.006375,
+							["delay"] = 1603408190,
+							["tipo"] = 2,
+						}, -- [4]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 45,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 1112.004896,
+							["resource"] = 7.004896000000001,
+							["targets"] = {
+								["Manatsuki-Arathor"] = 1112,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "1587-0E6FDBD5",
+							["passiveover"] = 0.004896,
+							["fight_component"] = true,
+							["total"] = 1112.004896,
+							["nome"] = "Manatsuki-Arathor",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[59914] = {
+										["total"] = 494,
+										["id"] = 59914,
+										["totalover"] = 0,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 494,
+										},
+										["counter"] = 4,
+									},
+									[5405] = {
+										["total"] = 618,
+										["id"] = 5405,
+										["totalover"] = 0,
+										["targets"] = {
+											["Manatsuki-Arathor"] = 618,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["resource_type"] = 16,
+							["spec"] = 62,
+							["flag_original"] = 1304,
+							["alternatepower"] = 0.004896,
+							["last_event"] = 1603408202,
+							["classe"] = "MAGE",
+							["tipo"] = 3,
+							["serial"] = "Player-1587-0E6FDBD5",
+							["totalover"] = 0.004896,
+						}, -- [1]
+						{
+							["received"] = 339.006825,
+							["resource"] = 0.006825,
+							["targets"] = {
+								["Rykahpriest"] = 339,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "1303-0B65E197",
+							["passiveover"] = 0.006825,
+							["fight_component"] = true,
+							["total"] = 339.006825,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[59914] = {
+										["total"] = 339,
+										["id"] = 59914,
+										["totalover"] = 39,
+										["targets"] = {
+											["Rykahpriest"] = 339,
+										},
+										["counter"] = 14,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.006825,
+							["last_event"] = 1603408163,
+							["classe"] = "PRIEST",
+							["tipo"] = 3,
+							["serial"] = "Player-1303-0B65E197",
+							["totalover"] = 39.006825,
+						}, -- [2]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 45,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[8122] = {
+										["activedamt"] = 1,
+										["id"] = 8122,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208772] = {
+										["activedamt"] = 0,
+										["id"] = 208772,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 116,
+										["appliedamt"] = 34,
+										["refreshamt"] = 6,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[187464] = {
+										["activedamt"] = 0,
+										["id"] = 187464,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6788] = {
+										["activedamt"] = 1,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 6,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 800,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[8122] = {
+										["id"] = 8122,
+										["targets"] = {
+											["Blackrock Grunt"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 104,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 6,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 44,
+										["appliedamt"] = 6,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 139,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 139,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 139,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 139,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 4,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 72,
+										["appliedamt"] = 4,
+										["refreshamt"] = 4,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 2,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 175,
+							["cc_done_targets"] = {
+								["Blackrock Grunt"] = 1,
+							},
+							["cc_done"] = 1.008799,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[8122] = 1,
+								[17] = 6,
+								[47540] = 6,
+								[585] = 13,
+								[32379] = 2,
+								[186263] = 2,
+								[8092] = 2,
+								[589] = 39,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603408206,
+							["pets"] = {
+								"Cordana Felsong <Rykahpriest>", -- [1]
+								"Lady Liadrin <Rykahpriest>", -- [2]
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["fight_component"] = true,
+							["cc_done"] = 4.002735,
+							["nome"] = "Manatsuki-Arathor",
+							["spec"] = 62,
+							["flag_original"] = 1304,
+							["last_event"] = 1603408197,
+							["pets"] = {
+							},
+							["classe"] = "MAGE",
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[122] = {
+										["id"] = 122,
+										["targets"] = {
+											["Blackrock Grunt"] = 4,
+										},
+										["counter"] = 4,
+									},
+								},
+							},
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[122] = 1,
+								[212653] = 2,
+								[5405] = 1,
+								[255647] = 1,
+								[44425] = 12,
+								[321507] = 2,
+								[235450] = 1,
+								[31589] = 4,
+								[1449] = 7,
+								[319836] = 2,
+								[5143] = 22,
+							},
+							["cc_done_targets"] = {
+								["Blackrock Grunt"] = 4,
+							},
+							["serial"] = "Player-1587-0E6FDBD5",
+							["aID"] = "1587-0E6FDBD5",
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Ogron Warcrusher",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[166032] = 28,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-80775-0000120FC8",
+							["aID"] = "80775",
+						}, -- [3]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Blackrock Grunt",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[157843] = 9,
+								[158158] = 17,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-80786-00011210B1",
+							["aID"] = "80786",
+						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Rykahpriest",
+							["nome"] = "Cordana Felsong <Rykahpriest>",
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[167422] = 6,
+								[166911] = 8,
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["serial"] = "Creature-0-3891-1265-4-79783-00001210BE",
+							["aID"] = "79783",
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Rykahpriest",
+							["nome"] = "Lady Liadrin <Rykahpriest>",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[166933] = 7,
+								[167420] = 1,
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["serial"] = "Creature-0-3891-1265-4-79823-00001210BE",
+							["aID"] = "79823",
+						}, -- [6]
+						{
+							["flag_original"] = 8472,
+							["nome"] = "Liberated Karabor Prisoner",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[167422] = 8,
+								[166911] = 9,
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["serial"] = "Creature-0-3891-1265-4-79783-0000121084",
+							["aID"] = "79783",
+						}, -- [7]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 45,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["CombatStartedAt"] = 15526.44,
+				["tempo_start"] = 1603408067,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 280,
+				["playing_solo"] = true,
+				["totals"] = {
+					46144.934656, -- [1]
+					6404.987681, -- [2]
+					{
+						-0.0104689999999934, -- [1]
+						[0] = 1451,
+						["alternatepower"] = 0,
+						[3] = -0.00563,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					8374, -- [1]
+					4715, -- [2]
+					{
+						0, -- [1]
+						[0] = 339,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "00:10:07",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Blackrock Grunt",
+				["TotalElapsedCombatTime"] = 15509.224,
+				["CombatEndedAt"] = 15509.224,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[8122] = {
+							["enabled"] = false,
+							["appliedAt"] = 15506.074,
+							["spellId"] = 8122,
+							["data"] = {
+								{
+									15506.074, -- [1]
+									15509.224, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 15507.445,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									15388.334, -- [1]
+									15394.933, -- [2]
+								}, -- [1]
+								{
+									15411.219, -- [1]
+									15417.971, -- [2]
+								}, -- [2]
+								{
+									15429.693, -- [1]
+									15434.049, -- [2]
+								}, -- [3]
+								{
+									15436.652, -- [1]
+									15447.412, -- [2]
+								}, -- [4]
+								{
+									15467.318, -- [1]
+									15482.32, -- [2]
+								}, -- [5]
+								{
+									15507.445, -- [1]
+									15509.224, -- [2]
+								}, -- [6]
+							},
+							["amountUp"] = 0,
+						},
+						[187464] = {
+							["enabled"] = false,
+							["appliedAt"] = 15414.029,
+							["spellId"] = 187464,
+							["data"] = {
+								{
+									15414.029, -- [1]
+									15418.085, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[208772] = {
+							["enabled"] = false,
+							["appliedAt"] = 15477.653,
+							["spellId"] = 208772,
+							["data"] = {
+								{
+									15443.122, -- [1]
+									15445.812, -- [2]
+								}, -- [1]
+								{
+									15477.653, -- [1]
+									15492.704, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 15463.025,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									15395.76, -- [1]
+									15407.719, -- [2]
+								}, -- [1]
+								{
+									15463.025, -- [1]
+									15475.101, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15477.986,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15370.012, -- [1]
+									15450.163, -- [2]
+								}, -- [1]
+								{
+									15459.359, -- [1]
+									15471.33, -- [2]
+								}, -- [2]
+								{
+									15477.986, -- [1]
+									15501.982, -- [2]
+								}, -- [3]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 15507.445,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									15388.334, -- [1]
+									15403.364, -- [2]
+								}, -- [1]
+								{
+									15411.219, -- [1]
+									15451.593, -- [2]
+								}, -- [2]
+								{
+									15467.318, -- [1]
+									15482.32, -- [2]
+								}, -- [3]
+								{
+									15507.445, -- [1]
+									15509.224, -- [2]
+								}, -- [4]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 15507.445,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									15388.334, -- [1]
+									15395.224, -- [2]
+								}, -- [1]
+								{
+									15411.219, -- [1]
+									15418.085, -- [2]
+								}, -- [2]
+								{
+									15429.693, -- [1]
+									15436.547, -- [2]
+								}, -- [3]
+								{
+									15436.652, -- [1]
+									15443.456, -- [2]
+								}, -- [4]
+								{
+									15467.318, -- [1]
+									15474.221, -- [2]
+								}, -- [5]
+								{
+									15507.445, -- [1]
+									15509.224, -- [2]
+								}, -- [6]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 5346.001109,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 8259.00538,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 15509.224,
+				["combat_id"] = 45,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15370.012, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [1]
+						{
+							15371.346, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [2]
+						{
+							15377.208, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [3]
+						{
+							15379.625, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [4]
+						{
+							15382.442, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [5]
+						{
+							15383.882, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [6]
+						{
+							15385.584, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [7]
+						{
+							15386.944, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [8]
+						{
+							15388.334, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [9]
+						{
+							15389.774, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [10]
+						{
+							15391.126, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [11]
+						{
+							15392.532, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [12]
+						{
+							15393.863, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [13]
+						{
+							15395.224, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [14]
+						{
+							15396.655, -- [1]
+							589, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [15]
+						{
+							15398.574, -- [1]
+							589, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [16]
+						{
+							15401.031, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [17]
+						{
+							15402.443, -- [1]
+							589, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [18]
+						{
+							15404.059, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [19]
+						{
+							15405.49, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [20]
+						{
+							15407.003, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [21]
+						{
+							15408.348, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [22]
+						{
+							15409.865, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [23]
+						{
+							15411.219, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [24]
+						{
+							15414.029, -- [1]
+							186263, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [25]
+						{
+							15415.408, -- [1]
+							186263, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [26]
+						{
+							15415.81, -- [1]
+							589, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [27]
+						{
+							15417.186, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [28]
+						{
+							15418.533, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [29]
+						{
+							15419.867, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [30]
+						{
+							15421.442, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [31]
+						{
+							15422.803, -- [1]
+							32379, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [32]
+						{
+							15424.18, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [33]
+						{
+							15425.571, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [34]
+						{
+							15426.919, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [35]
+						{
+							15428.256, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [36]
+						{
+							15429.693, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [37]
+						{
+							15431.063, -- [1]
+							589, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [38]
+						{
+							15432.484, -- [1]
+							589, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [39]
+						{
+							15433.827, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [40]
+						{
+							15435.258, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [41]
+						{
+							15436.652, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [42]
+						{
+							15438.219, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [43]
+						{
+							15439.883, -- [1]
+							589, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [44]
+						{
+							15443.122, -- [1]
+							8092, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [45]
+						{
+							15443.661, -- [1]
+							47540, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [46]
+						{
+							15446.995, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [47]
+						{
+							15448.371, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [48]
+						{
+							15450.041, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [49]
+						{
+							15451.399, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [50]
+						{
+							15452.703, -- [1]
+							47540, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [51]
+						{
+							15459.359, -- [1]
+							589, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [52]
+						{
+							15460.743, -- [1]
+							32379, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [53]
+						{
+							15464.548, -- [1]
+							47540, -- [2]
+							"Blackrock Grunt", -- [3]
+						}, -- [54]
+						{
+							15467.318, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [55]
+						{
+							15474.311, -- [1]
+							47540, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [56]
+						{
+							15477.653, -- [1]
+							8092, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [57]
+						{
+							15477.986, -- [1]
+							589, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [58]
+						{
+							15480.723, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [59]
+						{
+							15482.091, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [60]
+						{
+							15483.515, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [61]
+						{
+							15485.456, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [62]
+						{
+							15485.456, -- [1]
+							47540, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [63]
+						{
+							15488.299, -- [1]
+							589, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [64]
+						{
+							15491.479, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [65]
+						{
+							15492.858, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [66]
+						{
+							15494.193, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [67]
+						{
+							15495.989, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [68]
+						{
+							15497.364, -- [1]
+							585, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [69]
+						{
+							15503.569, -- [1]
+							47540, -- [2]
+							"Ogron Warcrusher", -- [3]
+						}, -- [70]
+						{
+							15506.074, -- [1]
+							8122, -- [2]
+							"", -- [3]
+						}, -- [71]
+						{
+							15507.445, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [72]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "00:07:48",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Liberated Karabor Prisoner"] = 26,
+					["Ogron Warcrusher"] = 5,
+					["Blackrock Grunt"] = 51,
+				},
+				["start_time"] = 15370.012,
+				["TimeData"] = {
+				},
+				["contra"] = "Blackrock Grunt",
+			}, -- [11]
+			{
+				{
+					["combatId"] = 44,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002927,
+							["damage_from"] = {
+								["[*] Shadow Word: Death"] = true,
+								["Blackrock Slaghauler"] = true,
+								["Blackrock Forgeworker"] = true,
+							},
+							["targets"] = {
+								["Blackrock Slaghauler"] = 587,
+								["Blackrock Forgeworker"] = 1481,
+							},
+							["pets"] = {
+							},
+							["total"] = 2068.002927,
+							["on_hold"] = false,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2068.002927,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1603408042,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[47666] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 127,
+										["g_amt"] = 0,
+										["n_max"] = 66,
+										["targets"] = {
+											["Blackrock Forgeworker"] = 455,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 328,
+										["n_min"] = 65,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 455,
+										["c_max"] = 127,
+										["spellschool"] = 2,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 127,
+									},
+									[585] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 169,
+										["g_amt"] = 0,
+										["n_max"] = 85,
+										["targets"] = {
+											["Blackrock Slaghauler"] = 169,
+											["Blackrock Forgeworker"] = 85,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 85,
+										["n_min"] = 85,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 254,
+										["c_max"] = 169,
+										["spellschool"] = 2,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 169,
+									},
+									[32379] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 135,
+										["targets"] = {
+											["Blackrock Slaghauler"] = 135,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 135,
+										["n_min"] = 135,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 135,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32379,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[589] = {
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 396,
+										["g_amt"] = 0,
+										["n_max"] = 25,
+										["targets"] = {
+											["Blackrock Slaghauler"] = 277,
+											["Blackrock Forgeworker"] = 799,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 680,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 46,
+										["total"] = 1076,
+										["c_max"] = 50,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 36,
+										["r_amt"] = 0,
+										["c_min"] = 37,
+									},
+									[8092] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 130,
+										["targets"] = {
+											["Blackrock Forgeworker"] = 130,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 130,
+										["n_min"] = 130,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 130,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Blackrock Slaghauler"] = 6,
+											["Blackrock Forgeworker"] = 12,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 18,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 18,
+										["c_max"] = 0,
+										["spellschool"] = 48,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 80.7687442196552,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 900.002927,
+							["start_time"] = 1603408016,
+							["delay"] = 0,
+							["last_event"] = 1603408042,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 528.0084019999999,
+							["total"] = 1380.008402,
+							["damage_from"] = {
+								["Asaag-Sylvanas"] = true,
+								["Thokphog"] = true,
+								["Thaelinar-Wildhammer"] = true,
+								["Weebohunter-Ravencrest"] = true,
+								["Rhamanthes-Ravencrest"] = true,
+								["Rykahpriest"] = true,
+								["Sarvic-Silvermoon"] = true,
+							},
+							["targets"] = {
+								["Asaag-Sylvanas"] = 145,
+								["Thokphog"] = 38,
+								["Weebohunter-Ravencrest"] = 198,
+								["Thaelinar-Wildhammer"] = 23,
+								["Rykahpriest"] = 570,
+								["Sarvic-Silvermoon"] = 406,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "81367",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1380.008402,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603408067,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Forgeworker",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 137,
+										["g_amt"] = 0,
+										["n_max"] = 31,
+										["targets"] = {
+											["Asaag-Sylvanas"] = 92,
+											["Thokphog"] = 37,
+											["Weebohunter-Ravencrest"] = 167,
+											["Thaelinar-Wildhammer"] = 23,
+											["Rykahpriest"] = 432,
+											["Sarvic-Silvermoon"] = 288,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 902,
+										["DODGE"] = 1,
+										["a_amt"] = 3,
+										["n_min"] = 11,
+										["g_dmg"] = 0,
+										["counter"] = 44,
+										["MISS"] = 1,
+										["total"] = 1039,
+										["c_max"] = 49,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 71,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 38,
+										["r_amt"] = 0,
+										["c_min"] = 42,
+									}, -- [1]
+									[158193] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 37,
+										["targets"] = {
+											["Asaag-Sylvanas"] = 53,
+											["Thokphog"] = 1,
+											["Weebohunter-Ravencrest"] = 31,
+											["Rykahpriest"] = 138,
+											["Sarvic-Silvermoon"] = 118,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 341,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 341,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 158193,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[164137] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 164137,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-81367-000092108D",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408058,
+							["damage_taken"] = 6516.008402,
+							["start_time"] = 1603408017,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 154.001593,
+							["total"] = 244.001593,
+							["damage_from"] = {
+								["Asaag-Sylvanas"] = true,
+								["Thokphog"] = true,
+								["Thaelinar-Wildhammer"] = true,
+								["Rykahpriest"] = true,
+								["Rhamanthes-Ravencrest"] = true,
+							},
+							["targets"] = {
+								["Rykahpriest"] = 195,
+								["Thokphog"] = 49,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "81357",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 244.001593,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603408067,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Slaghauler",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 18,
+										["targets"] = {
+											["Rykahpriest"] = 143,
+											["Thokphog"] = 24,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 167,
+										["n_min"] = 3,
+										["g_dmg"] = 0,
+										["counter"] = 21,
+										["MISS"] = 4,
+										["total"] = 167,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 17,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[166013] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 26,
+										["targets"] = {
+											["Rykahpriest"] = 52,
+											["Thokphog"] = 25,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 77,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 77,
+										["c_max"] = 0,
+										["spellschool"] = 4,
+										["id"] = 166013,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-81357-000012108A",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408054,
+							["damage_taken"] = 1636.001593,
+							["start_time"] = 1603408032,
+							["delay"] = 1603408054,
+							["tipo"] = 1,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 135.001334,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Rykahpriest"] = 135,
+							},
+							["pets"] = {
+							},
+							["serial"] = "",
+							["monster"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 135.001334,
+							["spellicon"] = 136149,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 135.001334,
+							["aID"] = "",
+							["friendlyfire_total"] = 0,
+							["nome"] = "[*] Shadow Word: Death",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[32409] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 135,
+										["targets"] = {
+											["Rykahpriest"] = 135,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 135,
+										["n_min"] = 135,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 135,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32409,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["end_time"] = 1603408042,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001334,
+							["start_time"] = 1603408036,
+							["delay"] = 0,
+							["last_event"] = 1603408036,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 44,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 384,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 384.00339,
+							["total_without_pet"] = 1238.00339,
+							["total"] = 1238.00339,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 652,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 652.00339,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 1238,
+							},
+							["totalover_without_pet"] = 0.00339,
+							["healing_taken"] = 1238.00339,
+							["fight_component"] = true,
+							["end_time"] = 1603408042,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 626,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 2,
+										},
+										["n_max"] = 135,
+										["targets"] = {
+											["Rykahpriest"] = 626,
+										},
+										["n_min"] = 0,
+										["counter"] = 29,
+										["overheal"] = 2,
+										["total"] = 626,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 626,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 626,
+										["n_amt"] = 29,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[259760] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 20,
+										},
+										["n_max"] = 2,
+										["targets"] = {
+											["Rykahpriest"] = 6,
+										},
+										["n_min"] = 2,
+										["counter"] = 13,
+										["overheal"] = 20,
+										["total"] = 6,
+										["c_max"] = 0,
+										["id"] = 259760,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 6,
+										["n_amt"] = 13,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 184,
+										},
+										["n_max"] = 73,
+										["targets"] = {
+											["Rykahpriest"] = 395,
+										},
+										["n_min"] = 0,
+										["counter"] = 34,
+										["overheal"] = 184,
+										["total"] = 395,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 395,
+										["n_amt"] = 34,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[208771] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 26,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 26,
+										["targets"] = {
+											["Rykahpriest"] = 26,
+										},
+										["n_min"] = 26,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 26,
+										["c_max"] = 0,
+										["id"] = 208771,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 26,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 26,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[94472] = {
+										["c_amt"] = 11,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 178,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Rykahpriest"] = 185,
+										},
+										["n_min"] = 0,
+										["counter"] = 11,
+										["overheal"] = 178,
+										["total"] = 185,
+										["c_max"] = 72,
+										["id"] = 94472,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 185,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603408023,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.00339,
+							["delay"] = 0,
+							["last_event"] = 1603408042,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 44,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 133.002674,
+							["resource"] = 0.002674,
+							["targets"] = {
+								["Rykahpriest"] = 133,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "1303-0B65E197",
+							["passiveover"] = 0.002674,
+							["fight_component"] = true,
+							["total"] = 133.002674,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[59914] = {
+										["total"] = 133,
+										["id"] = 59914,
+										["totalover"] = 83,
+										["targets"] = {
+											["Rykahpriest"] = 133,
+										},
+										["counter"] = 8,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.002674,
+							["last_event"] = 1603408042,
+							["classe"] = "PRIEST",
+							["tipo"] = 3,
+							["serial"] = "Player-1303-0B65E197",
+							["totalover"] = 83.002674,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 44,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[6788] = {
+										["activedamt"] = 0,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208772] = {
+										["activedamt"] = 0,
+										["id"] = 208772,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 26,
+										["appliedamt"] = 5,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 171,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 26,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 2,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 26,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 26,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 26,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 26,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 1,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 41,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17] = 2,
+								[47540] = 2,
+								[585] = 2,
+								[32379] = 1,
+								[589] = 7,
+								[8092] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603408042,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Blackrock Forgeworker",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[164137] = 1,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81367-0000121098",
+							["aID"] = "81367",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 44,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["CombatStartedAt"] = 15370.012,
+				["tempo_start"] = 1603408016,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 279,
+				["playing_solo"] = true,
+				["totals"] = {
+					3826.958533, -- [1]
+					1237.981944, -- [2]
+					{
+						-0.01067, -- [1]
+						[0] = 132.974168,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					2068, -- [1]
+					1238, -- [2]
+					{
+						0, -- [1]
+						[0] = 133,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "00:07:23",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Blackrock Slaghauler",
+				["TotalElapsedCombatTime"] = 15344.814,
+				["CombatEndedAt"] = 15344.814,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 15335.327,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									15325.07, -- [1]
+									15332.036, -- [2]
+								}, -- [1]
+								{
+									15335.327, -- [1]
+									15340.981, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[208772] = {
+							["enabled"] = false,
+							["appliedAt"] = 15327.94,
+							["spellId"] = 208772,
+							["data"] = {
+								{
+									15327.94, -- [1]
+									15329.951, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 15335.327,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									15335.327, -- [1]
+									15344.814, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15319.21,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15319.21, -- [1]
+									15344.536, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 15325.07,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									15325.07, -- [1]
+									15344.814, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 15335.327,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									15325.07, -- [1]
+									15332.036, -- [2]
+								}, -- [1]
+								{
+									15335.327, -- [1]
+									15342.172, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 1238.00339,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 2068.002927,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 15344.814,
+				["combat_id"] = 44,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15316.326, -- [1]
+							299159, -- [2]
+							"", -- [3]
+						}, -- [1]
+						{
+							15317.622, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [2]
+						{
+							15319.21, -- [1]
+							589, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [3]
+						{
+							15320.616, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [4]
+						{
+							15322.002, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [5]
+						{
+							15323.717, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [6]
+						{
+							15325.07, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [7]
+						{
+							15327.94, -- [1]
+							8092, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [8]
+						{
+							15328.045, -- [1]
+							47540, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [9]
+						{
+							15330.687, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [10]
+						{
+							15332.036, -- [1]
+							589, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [11]
+						{
+							15333.438, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [12]
+						{
+							15335.327, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [13]
+						{
+							15337.431, -- [1]
+							32379, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [14]
+						{
+							15340.272, -- [1]
+							585, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [15]
+						{
+							15341.661, -- [1]
+							585, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [16]
+						{
+							15341.661, -- [1]
+							47540, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [17]
+						{
+							15344.105, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [18]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "00:06:57",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Blackrock Slaghauler"] = 2,
+					["Blackrock Forgeworker"] = 9,
+				},
+				["start_time"] = 15319.21,
+				["TimeData"] = {
+				},
+				["contra"] = "Blackrock Slaghauler",
+			}, -- [12]
+			{
+				{
+					["combatId"] = 43,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003906,
+							["spec"] = 256,
+							["damage_from"] = {
+								["[*] Shadow Word: Death"] = true,
+								["Blackrock Forgeworker"] = true,
+							},
+							["targets"] = {
+								["Blackrock Forgeworker"] = 552,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["end_time"] = 1603408011,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 552.003906,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 552.003906,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[8092] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 127,
+										["targets"] = {
+											["Blackrock Forgeworker"] = 127,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 127,
+										["n_min"] = 127,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 127,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[589] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 37,
+										["g_amt"] = 0,
+										["n_max"] = 24,
+										["targets"] = {
+											["Blackrock Forgeworker"] = 115,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 78,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["EVADE"] = 1,
+										["total"] = 115,
+										["c_max"] = 37,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 37,
+									},
+									[585] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 86,
+										["targets"] = {
+											["Blackrock Forgeworker"] = 172,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 172,
+										["n_min"] = 86,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 172,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[32379] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 138,
+										["targets"] = {
+											["Blackrock Forgeworker"] = 138,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 138,
+										["n_min"] = 138,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 138,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32379,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 67.15375985400509,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 266.003906,
+							["start_time"] = 1603408003,
+							["delay"] = 0,
+							["last_event"] = 1603408015,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 96.006572,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+								["Asaag-Sylvanas"] = true,
+								["Thokphog"] = true,
+								["Weebohunter-Ravencrest"] = true,
+								["Rhamanthes-Ravencrest"] = true,
+								["Rykahpriest"] = true,
+								["Sarvic-Silvermoon"] = true,
+							},
+							["targets"] = {
+								["Asaag-Sylvanas"] = 24,
+								["Thokphog"] = 12,
+								["Weebohunter-Ravencrest"] = 46,
+								["Rykahpriest"] = 127,
+								["Rhamanthes-Ravencrest"] = 26,
+							},
+							["end_time"] = 1603408016,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["aID"] = "81367",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 235.006572,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 235.006572,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Blackrock Forgeworker",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 27,
+										["targets"] = {
+											["Asaag-Sylvanas"] = 24,
+											["Thokphog"] = 12,
+											["Weebohunter-Ravencrest"] = 46,
+											["Rykahpriest"] = 0,
+											["Rhamanthes-Ravencrest"] = 26,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 108,
+										["DODGE"] = 1,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["a_amt"] = 0,
+										["total"] = 108,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[167404] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 32,
+										["targets"] = {
+											["Rykahpriest"] = 127,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 127,
+										["n_min"] = 31,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 127,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 167404,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81367-000092107B",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408015,
+							["damage_taken"] = 941.006572,
+							["start_time"] = 1603408003,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.007763,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Rykahpriest"] = 139,
+							},
+							["pets"] = {
+							},
+							["serial"] = "",
+							["monster"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 139.007763,
+							["spellicon"] = 136149,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 139.007763,
+							["aID"] = "",
+							["friendlyfire_total"] = 0,
+							["nome"] = "[*] Shadow Word: Death",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[32409] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 139,
+										["targets"] = {
+											["Rykahpriest"] = 139,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 139,
+										["n_min"] = 139,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 139,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32409,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["end_time"] = 1603408011,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.007763,
+							["start_time"] = 1603408008,
+							["delay"] = 0,
+							["last_event"] = 1603408008,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 43,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 0.001926,
+							["total_without_pet"] = 96.001926,
+							["total"] = 96.001926,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 96,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 96.001926,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 96,
+							},
+							["totalover_without_pet"] = 0.001926,
+							["healing_taken"] = 96.001926,
+							["fight_component"] = true,
+							["end_time"] = 1603408011,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[208771] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 96,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 32,
+										["targets"] = {
+											["Rykahpriest"] = 96,
+										},
+										["n_min"] = 32,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 96,
+										["c_max"] = 0,
+										["id"] = 208771,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 96,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 96,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603408005,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.001926,
+							["delay"] = 0,
+							["last_event"] = 1603408009,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 43,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 10.004875,
+							["resource"] = 0.004875,
+							["targets"] = {
+								["Rykahpriest"] = 10,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "1303-0B65E197",
+							["passiveover"] = 0.004875,
+							["fight_component"] = true,
+							["total"] = 10.004875,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[59914] = {
+										["total"] = 10,
+										["id"] = 59914,
+										["totalover"] = 44,
+										["targets"] = {
+											["Rykahpriest"] = 10,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.004875,
+							["last_event"] = 1603408010,
+							["classe"] = "PRIEST",
+							["tipo"] = 3,
+							["serial"] = "Player-1303-0B65E197",
+							["totalover"] = 44.004875,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 43,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208772] = {
+										["activedamt"] = 0,
+										["id"] = 208772,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 40,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 12,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[8092] = 1,
+								[32379] = 1,
+								[585] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603408011,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 43,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["CombatStartedAt"] = 15317.622,
+				["tempo_start"] = 1603408003,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 278,
+				["playing_solo"] = true,
+				["totals"] = {
+					925.9721019999998, -- [1]
+					95.98514999999998, -- [2]
+					{
+						-0.007873, -- [1]
+						[0] = 10,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					552, -- [1]
+					96, -- [2]
+					{
+						0, -- [1]
+						[0] = 10,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "00:06:52",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Blackrock Forgeworker",
+				["TotalElapsedCombatTime"] = 8.220000000001164,
+				["CombatEndedAt"] = 15313.541,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15305.321,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15305.321, -- [1]
+									15313.154, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[208772] = {
+							["enabled"] = false,
+							["appliedAt"] = 15308.107,
+							["spellId"] = 208772,
+							["data"] = {
+								{
+									15308.107, -- [1]
+									15313.154, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 96.001926,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 552.003906,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 15313.541,
+				["combat_id"] = 43,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15305.321, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [1]
+						{
+							15308.107, -- [1]
+							8092, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [2]
+						{
+							15309.512, -- [1]
+							585, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [3]
+						{
+							15309.752, -- [1]
+							32379, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [4]
+						{
+							15313.154, -- [1]
+							585, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [5]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "00:06:43",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Blackrock Forgeworker"] = 2,
+				},
+				["start_time"] = 15305.321,
+				["TimeData"] = {
+				},
+				["contra"] = "Blackrock Forgeworker",
+			}, -- [13]
+			{
+				{
+					["combatId"] = 42,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001282,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Blackrock Forgeworker"] = 62,
+							},
+							["pets"] = {
+							},
+							["total"] = 62.001282,
+							["on_hold"] = false,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 62.001282,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1603408001,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[589] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 37,
+										["g_amt"] = 0,
+										["n_max"] = 25,
+										["targets"] = {
+											["Blackrock Forgeworker"] = 62,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 25,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 62,
+										["c_max"] = 37,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 37,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 20.401869693986,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001282,
+							["start_time"] = 1603407998,
+							["delay"] = 0,
+							["last_event"] = 1603407999,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.006853,
+							["total"] = 72.006853,
+							["damage_from"] = {
+								["Weebohunter-Ravencrest"] = true,
+								["Rykahpriest"] = true,
+								["Sarvic-Silvermoon"] = true,
+							},
+							["targets"] = {
+								["Weebohunter-Ravencrest"] = 72,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "81367",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 72.006853,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603408003,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Forgeworker",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 25,
+										["targets"] = {
+											["Weebohunter-Ravencrest"] = 48,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 48,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 48,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[158193] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 24,
+										["targets"] = {
+											["Weebohunter-Ravencrest"] = 24,
+											["Sarvic-Silvermoon"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 24,
+										["n_min"] = 24,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["MISS"] = 1,
+										["total"] = 24,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 158193,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-81367-000112107B",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603408002,
+							["damage_taken"] = 651.006853,
+							["start_time"] = 1603407998,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 42,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 42,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 42,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 15,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 2,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603408001,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 42,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["overall_added"] = true,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["tempo_start"] = 1603407998,
+				["enemy"] = "Blackrock Forgeworker",
+				["combat_counter"] = 277,
+				["playing_solo"] = true,
+				["totals"] = {
+					133.991516, -- [1]
+					-0.01194199999999057, -- [2]
+					{
+						-0.003221, -- [1]
+						[0] = -0.001737999999999573,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatEndedAt"] = 15303.436,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15300.397,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15300.397, -- [1]
+									15302.724, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "00:06:38",
+				["end_time"] = 15303.436,
+				["totals_grupo"] = {
+					62, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["combat_id"] = 42,
+				["TotalElapsedCombatTime"] = 15303.436,
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 62.001282,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+					["Blackrock Forgeworker"] = 2,
+				},
+				["data_fim"] = "00:06:41",
+				["instance_type"] = "none",
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15300.397, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [1]
+					},
+				},
+				["start_time"] = 15300.397,
+				["contra"] = "Blackrock Forgeworker",
+				["TimeData"] = {
+				},
+			}, -- [14]
+			{
+				{
+					["combatId"] = 41,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002954,
+							["damage_from"] = {
+								["Blackrock Slaghauler"] = true,
+								["Blackrock Forgeworker"] = true,
+							},
+							["targets"] = {
+								["Blackrock Slaghauler"] = 476,
+								["Blackrock Forgeworker"] = 1040,
+							},
+							["pets"] = {
+							},
+							["total"] = 1516.002954,
+							["on_hold"] = false,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1516.002954,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1603407995,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[47666] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 66,
+										["targets"] = {
+											["Blackrock Forgeworker"] = 195,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 195,
+										["n_min"] = 64,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 195,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[589] = {
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 397,
+										["g_amt"] = 0,
+										["n_max"] = 25,
+										["targets"] = {
+											["Blackrock Slaghauler"] = 475,
+											["Blackrock Forgeworker"] = 842,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 920,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 62,
+										["EVADE"] = 2,
+										["total"] = 1317,
+										["c_max"] = 51,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 50,
+										["r_amt"] = 0,
+										["c_min"] = 37,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Blackrock Slaghauler"] = 1,
+											["Blackrock Forgeworker"] = 3,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 4,
+										["c_max"] = 0,
+										["spellschool"] = 48,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 36.05581872235148,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1097.002954,
+							["start_time"] = 1603407952,
+							["delay"] = 0,
+							["last_event"] = 1603407994,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 186.005429,
+							["total"] = 1784.005429,
+							["damage_from"] = {
+								["Weebohunter-Ravencrest"] = true,
+								["Feleoner-Outland"] = true,
+								["Rykahpriest"] = true,
+								["Sarvic-Silvermoon"] = true,
+							},
+							["targets"] = {
+								["Weebohunter-Ravencrest"] = 552,
+								["Feleoner-Outland"] = 329,
+								["Rykahpriest"] = 661,
+								["Sarvic-Silvermoon"] = 242,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "81367",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1784.005429,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603407998,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Forgeworker",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 88,
+										["g_amt"] = 0,
+										["n_max"] = 47,
+										["targets"] = {
+											["Weebohunter-Ravencrest"] = 507,
+											["Feleoner-Outland"] = 89,
+											["Rykahpriest"] = 543,
+											["Sarvic-Silvermoon"] = 184,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1235,
+										["DODGE"] = 2,
+										["n_min"] = 19,
+										["g_dmg"] = 0,
+										["counter"] = 57,
+										["MISS"] = 4,
+										["total"] = 1323,
+										["c_max"] = 44,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 49,
+										["r_amt"] = 0,
+										["c_min"] = 44,
+									}, -- [1]
+									[167404] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 32,
+										["targets"] = {
+											["Feleoner-Outland"] = 207,
+											["Sarvic-Silvermoon"] = 32,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 239,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 239,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 167404,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[164100] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 164100,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[164137] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 164137,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[158193] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Weebohunter-Ravencrest"] = 45,
+											["Feleoner-Outland"] = 33,
+											["Rykahpriest"] = 118,
+											["Sarvic-Silvermoon"] = 26,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 222,
+										["MISS"] = 1,
+										["n_min"] = 22,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["DODGE"] = 1,
+										["total"] = 222,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 158193,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 27,
+										["m_crit"] = 0,
+										["a_amt"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-81367-000112104C",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603407997,
+							["damage_taken"] = 5017.005429,
+							["start_time"] = 1603407953,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 120.001666,
+							["total"] = 436.001666,
+							["damage_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["targets"] = {
+								["Rykahpriest"] = 436,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "81357",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 436.001666,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603407995,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Slaghauler",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Rykahpriest"] = 307,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 307,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 33,
+										["MISS"] = 8,
+										["total"] = 307,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 25,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[166013] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 26,
+										["targets"] = {
+											["Rykahpriest"] = 129,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 129,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 129,
+										["c_max"] = 0,
+										["spellschool"] = 4,
+										["id"] = 166013,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[164100] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 164100,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-81357-000012104C",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603407991,
+							["damage_taken"] = 476.001666,
+							["start_time"] = 1603407957,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 41,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 34,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 34.001321,
+							["total_without_pet"] = 634.001321,
+							["total"] = 634.001321,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 294,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 294.001321,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 634,
+							},
+							["totalover_without_pet"] = 0.001321,
+							["healing_taken"] = 634.001321,
+							["fight_component"] = true,
+							["end_time"] = 1603407995,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[259760] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 2,
+										},
+										["n_max"] = 1,
+										["targets"] = {
+											["Rykahpriest"] = 5,
+										},
+										["n_min"] = 1,
+										["counter"] = 7,
+										["overheal"] = 2,
+										["total"] = 5,
+										["c_max"] = 0,
+										["id"] = 259760,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 5,
+										["n_amt"] = 7,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 31,
+										},
+										["n_max"] = 37,
+										["targets"] = {
+											["Rykahpriest"] = 275,
+										},
+										["n_min"] = 10,
+										["counter"] = 23,
+										["overheal"] = 31,
+										["total"] = 275,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 275,
+										["n_amt"] = 23,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[94472] = {
+										["c_amt"] = 3,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Rykahpriest"] = 60,
+										},
+										["n_min"] = 0,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 60,
+										["c_max"] = 20,
+										["id"] = 94472,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 60,
+										["m_crit"] = 0,
+										["c_min"] = 20,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 294,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 1,
+										},
+										["n_max"] = 47,
+										["targets"] = {
+											["Rykahpriest"] = 294,
+										},
+										["n_min"] = 0,
+										["counter"] = 15,
+										["overheal"] = 1,
+										["total"] = 294,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 294,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 294,
+										["n_amt"] = 15,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603407979,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.001321,
+							["delay"] = 1603407979,
+							["last_event"] = 1603407979,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 41,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.006017,
+							["resource"] = 0.006017,
+							["targets"] = {
+								["Rykahpriest"] = 0,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "1303-0B65E197",
+							["passiveover"] = 0.006017,
+							["fight_component"] = true,
+							["total"] = 0.006017,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[59914] = {
+										["total"] = 0,
+										["id"] = 59914,
+										["totalover"] = 162,
+										["targets"] = {
+											["Rykahpriest"] = 0,
+										},
+										["counter"] = 6,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.006017,
+							["last_event"] = 1603407994,
+							["classe"] = "PRIEST",
+							["tipo"] = 3,
+							["serial"] = "Player-1303-0B65E197",
+							["totalover"] = 162.006017,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 41,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 42,
+										["appliedamt"] = 8,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6788] = {
+										["activedamt"] = 0,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 251,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 43,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 1,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 43,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 43,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 43,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 43,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 1,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 49,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[47540] = 1,
+								[589] = 11,
+								[17] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603407995,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Blackrock Forgeworker",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[164100] = 2,
+								[164137] = 1,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81367-000012104C",
+							["aID"] = "81367",
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Blackrock Slaghauler",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[164100] = 2,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81357-000092104C",
+							["aID"] = "81357",
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 41,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["CombatStartedAt"] = 15300.397,
+				["tempo_start"] = 1603407952,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 276,
+				["playing_solo"] = true,
+				["totals"] = {
+					3735.9857, -- [1]
+					633.9850670000001, -- [2]
+					{
+						-0.008405, -- [1]
+						[0] = -0.008167999999997733,
+						["alternatepower"] = 0,
+						[3] = -0.00853,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					1516, -- [1]
+					634, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "00:06:35",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Blackrock Forgeworker",
+				["TotalElapsedCombatTime"] = 42.04600000000028,
+				["CombatEndedAt"] = 15297.314,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 15266.803,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									15266.803, -- [1]
+									15275.787, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 15274.239,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									15274.239, -- [1]
+									15286.223, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15284.292,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15255.268, -- [1]
+									15283.368, -- [2]
+								}, -- [1]
+								{
+									15284.292, -- [1]
+									15297.111, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 15266.803,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									15266.803, -- [1]
+									15281.805, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 15266.803,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									15266.803, -- [1]
+									15273.692, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 634.001321,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 1516.002954,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 15297.314,
+				["combat_id"] = 41,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15255.268, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [1]
+						{
+							15256.674, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [2]
+						{
+							15258.094, -- [1]
+							589, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [3]
+						{
+							15259.497, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [4]
+						{
+							15260.835, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [5]
+						{
+							15265.331, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [6]
+						{
+							15266.803, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [7]
+						{
+							15268.092, -- [1]
+							47540, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [8]
+						{
+							15270.945, -- [1]
+							589, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [9]
+						{
+							15272.346, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [10]
+						{
+							15284.292, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [11]
+						{
+							15287.445, -- [1]
+							589, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [12]
+						{
+							15290.196, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [13]
+						{
+							15294.197, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [14]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "00:05:53",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Blackrock Slaghauler"] = 1,
+					["Blackrock Forgeworker"] = 10,
+				},
+				["start_time"] = 15255.268,
+				["TimeData"] = {
+				},
+				["contra"] = "Blackrock Forgeworker",
+			}, -- [15]
+			{
+				{
+					["combatId"] = 40,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008617,
+							["damage_from"] = {
+								["Blackrock Slaghauler"] = true,
+								["Blackrock Forgeworker"] = true,
+							},
+							["targets"] = {
+								["Blackrock Slaghauler"] = 1272,
+								["Blackrock Forgeworker"] = 3363,
+							},
+							["pets"] = {
+							},
+							["total"] = 4635.008617,
+							["on_hold"] = false,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4635.008617,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1603407936,
+							["aID"] = "1303-0B65E197",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[47666] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 108,
+										["g_amt"] = 0,
+										["n_max"] = 53,
+										["targets"] = {
+											["Blackrock Forgeworker"] = 212,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 104,
+										["n_min"] = 51,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 212,
+										["c_max"] = 108,
+										["spellschool"] = 2,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 108,
+									},
+									[341296] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 363,
+										["targets"] = {
+											["Blackrock Slaghauler"] = 726,
+											["Blackrock Forgeworker"] = 2178,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2904,
+										["n_min"] = 363,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 2904,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 341296,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Blackrock Slaghauler"] = 3,
+											["Blackrock Forgeworker"] = 5,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 8,
+										["c_max"] = 0,
+										["spellschool"] = 48,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[8092] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 104,
+										["targets"] = {
+											["Blackrock Forgeworker"] = 104,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 104,
+										["n_min"] = 104,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 104,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[589] = {
+										["c_amt"] = 12,
+										["b_amt"] = 0,
+										["c_dmg"] = 381,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Blackrock Slaghauler"] = 543,
+											["Blackrock Forgeworker"] = 864,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1026,
+										["n_min"] = 3,
+										["g_dmg"] = 0,
+										["counter"] = 80,
+										["total"] = 1407,
+										["c_max"] = 41,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 68,
+										["r_amt"] = 0,
+										["c_min"] = 30,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 161.0384482315378,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1330.008617,
+							["start_time"] = 1603407907,
+							["delay"] = 0,
+							["last_event"] = 1603407936,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 614.005829,
+							["total"] = 1801.005829,
+							["damage_from"] = {
+								["Manatsuki-Arathor"] = true,
+								["Weebohunter-Ravencrest"] = true,
+								["Feleoner-Outland"] = true,
+								["Rykahpriest"] = true,
+								["Sarvic-Silvermoon"] = true,
+							},
+							["targets"] = {
+								["Weebohunter-Ravencrest"] = 442,
+								["Manatsuki-Arathor"] = 179,
+								["Rykahpriest"] = 932,
+								["Feleoner-Outland"] = 248,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "81367",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1801.005829,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603407952,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Forgeworker",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 132,
+										["g_amt"] = 0,
+										["n_max"] = 30,
+										["targets"] = {
+											["Weebohunter-Ravencrest"] = 342,
+											["Manatsuki-Arathor"] = 147,
+											["Rykahpriest"] = 535,
+											["Feleoner-Outland"] = 163,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1055,
+										["n_min"] = 18,
+										["g_dmg"] = 0,
+										["counter"] = 54,
+										["DODGE"] = 8,
+										["total"] = 1187,
+										["c_max"] = 48,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 30,
+										["m_crit"] = 0,
+										["a_amt"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 43,
+										["r_amt"] = 0,
+										["c_min"] = 39,
+									}, -- [1]
+									[167404] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Rykahpriest"] = 254,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 254,
+										["n_min"] = 31,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["MISS"] = 2,
+										["total"] = 254,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 167404,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[164100] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 164100,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[158193] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 32,
+										["targets"] = {
+											["Weebohunter-Ravencrest"] = 100,
+											["Manatsuki-Arathor"] = 32,
+											["Rykahpriest"] = 143,
+											["Feleoner-Outland"] = 85,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 360,
+										["n_min"] = 19,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 360,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 158193,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 28,
+										["m_crit"] = 0,
+										["a_amt"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-81367-0000920F5E",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603407951,
+							["damage_taken"] = 5438.005829,
+							["start_time"] = 1603407908,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 282.003738,
+							["total"] = 558.003738,
+							["damage_from"] = {
+								["Weebohunter-Ravencrest"] = true,
+								["Rykahpriest"] = true,
+								["Feleoner-Outland"] = true,
+							},
+							["targets"] = {
+								["Weebohunter-Ravencrest"] = 160,
+								["Rykahpriest"] = 398,
+							},
+							["pets"] = {
+							},
+							["monster"] = true,
+							["fight_component"] = true,
+							["aID"] = "81357",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 558.003738,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1603407936,
+							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
+							["nome"] = "Blackrock Slaghauler",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 30,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Rykahpriest"] = 241,
+											["Weebohunter-Ravencrest"] = 91,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 302,
+										["DODGE"] = 2,
+										["a_amt"] = 0,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 44,
+										["MISS"] = 13,
+										["total"] = 332,
+										["c_max"] = 17,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 26,
+										["r_amt"] = 0,
+										["c_min"] = 13,
+									}, -- [1]
+									[164100] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 164100,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[166013] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 27,
+										["targets"] = {
+											["Rykahpriest"] = 157,
+											["Weebohunter-Ravencrest"] = 69,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 226,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 226,
+										["c_max"] = 0,
+										["spellschool"] = 4,
+										["id"] = 166013,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3891-1265-4-81357-0000120FEB",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603407935,
+							["damage_taken"] = 2103.003738,
+							["start_time"] = 1603407919,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 40,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 582,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 582.005177,
+							["total_without_pet"] = 1295.005177,
+							["total"] = 1295.005177,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 931,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 931.005177,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 1295,
+							},
+							["totalover_without_pet"] = 0.005177,
+							["healing_taken"] = 1295.005177,
+							["fight_component"] = true,
+							["end_time"] = 1603407936,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[94472] = {
+										["c_amt"] = 10,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 88,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Rykahpriest"] = 90,
+										},
+										["n_min"] = 0,
+										["counter"] = 10,
+										["overheal"] = 88,
+										["total"] = 90,
+										["c_max"] = 23,
+										["id"] = 94472,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 90,
+										["m_crit"] = 0,
+										["c_min"] = 16,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[259760] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 7,
+										},
+										["n_max"] = 1,
+										["targets"] = {
+											["Rykahpriest"] = 1,
+										},
+										["n_min"] = 0,
+										["counter"] = 8,
+										["overheal"] = 7,
+										["total"] = 1,
+										["c_max"] = 0,
+										["id"] = 259760,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 318,
+										},
+										["n_max"] = 59,
+										["targets"] = {
+											["Rykahpriest"] = 273,
+										},
+										["n_min"] = 2,
+										["counter"] = 64,
+										["overheal"] = 318,
+										["total"] = 273,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 273,
+										["n_amt"] = 64,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[208771] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 51,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 28,
+										["targets"] = {
+											["Rykahpriest"] = 51,
+										},
+										["n_min"] = 23,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 51,
+										["c_max"] = 0,
+										["id"] = 208771,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 51,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 51,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[17] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 880,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 169,
+										},
+										["n_max"] = 33,
+										["targets"] = {
+											["Rykahpriest"] = 713,
+										},
+										["n_min"] = 0,
+										["counter"] = 44,
+										["overheal"] = 169,
+										["total"] = 713,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 880,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = -167,
+										["m_crit"] = 0,
+										["c_min"] = -167,
+										["m_amt"] = 0,
+										["n_curado"] = 880,
+										["n_amt"] = 43,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603407914,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.005177,
+							["delay"] = 0,
+							["last_event"] = 1603407936,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 40,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 30.002224,
+							["resource"] = 0.002224,
+							["targets"] = {
+								["Rykahpriest"] = 30,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["aID"] = "1303-0B65E197",
+							["passiveover"] = 0.002224,
+							["fight_component"] = true,
+							["total"] = 30.002224,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[59914] = {
+										["total"] = 30,
+										["id"] = 59914,
+										["totalover"] = 450,
+										["targets"] = {
+											["Rykahpriest"] = 30,
+										},
+										["counter"] = 18,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 256,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.002224,
+							["last_event"] = 1603407936,
+							["classe"] = "PRIEST",
+							["tipo"] = 3,
+							["serial"] = "Player-1303-0B65E197",
+							["totalover"] = 450.002224,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 40,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[6788] = {
+										["activedamt"] = 1,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 19,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208772] = {
+										["activedamt"] = 0,
+										["id"] = 208772,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 29,
+										["appliedamt"] = 12,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 169,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 2,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 29,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 29,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 29,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 29,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 1,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 23,
+										["appliedamt"] = 1,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 53,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[47540] = 1,
+								[589] = 13,
+								[17] = 3,
+								[8092] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603407936,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Blackrock Slaghauler",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[164100] = 2,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81357-0000120FEB",
+							["aID"] = "81357",
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["tipo"] = 4,
+							["nome"] = "Blackrock Forgeworker",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[164100] = 1,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-81367-0000920FCE",
+							["aID"] = "81367",
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 40,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["CombatStartedAt"] = 15209.845,
+				["tempo_start"] = 1603407907,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 275,
+				["playing_solo"] = true,
+				["totals"] = {
+					6993.975131000002, -- [1]
+					1294.991983, -- [2]
+					{
+						-0.003246, -- [1]
+						[0] = 29.993353,
+						["alternatepower"] = 0,
+						[3] = -0.002308,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					4635, -- [1]
+					1128, -- [2]
+					{
+						0, -- [1]
+						[0] = 30,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "00:05:37",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Blackrock Forgeworker",
+				["TotalElapsedCombatTime"] = 28.78199999999924,
+				["CombatEndedAt"] = 15238.627,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[341260] = {
+							["enabled"] = false,
+							["appliedAt"] = 15238.525,
+							["spellId"] = 341260,
+							["data"] = {
+								{
+									15238.525, -- [1]
+									15238.627, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 15233.746,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									15215.378, -- [1]
+									15231.283, -- [2]
+								}, -- [1]
+								{
+									15233.746, -- [1]
+									15236.867, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[208772] = {
+							["enabled"] = false,
+							["appliedAt"] = 15233.746,
+							["spellId"] = 208772,
+							["data"] = {
+								{
+									15233.746, -- [1]
+									15238.627, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[256374] = {
+							["enabled"] = false,
+							["appliedAt"] = 15212.904,
+							["spellId"] = 256374,
+							["data"] = {
+								{
+									15212.904, -- [1]
+									15224.921, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15209.845,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15209.845, -- [1]
+									15238.627, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 15215.378,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									15215.378, -- [1]
+									15238.627, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 15233.746,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									15215.378, -- [1]
+									15222.338, -- [2]
+								}, -- [1]
+								{
+									15224.172, -- [1]
+									15231.145, -- [2]
+								}, -- [2]
+								{
+									15233.746, -- [1]
+									15238.627, -- [2]
+								}, -- [3]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 1295.005177,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 4635.008617,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 15238.627,
+				["combat_id"] = 40,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15209.845, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [1]
+						{
+							15211.381, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [2]
+						{
+							15212.771, -- [1]
+							47540, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [3]
+						{
+							15215.378, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [4]
+						{
+							15217.226, -- [1]
+							589, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [5]
+						{
+							15218.696, -- [1]
+							589, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [6]
+						{
+							15220.046, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [7]
+						{
+							15221.462, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [8]
+						{
+							15222.838, -- [1]
+							589, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [9]
+						{
+							15224.172, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [10]
+						{
+							15225.546, -- [1]
+							589, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [11]
+						{
+							15227.246, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [12]
+						{
+							15229.129, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [13]
+						{
+							15230.575, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [14]
+						{
+							15233.746, -- [1]
+							8092, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [15]
+						{
+							15233.746, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [16]
+						{
+							15235.114, -- [1]
+							589, -- [2]
+							"Blackrock Slaghauler", -- [3]
+						}, -- [17]
+						{
+							15236.52, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [18]
+						{
+							15237.945, -- [1]
+							589, -- [2]
+							"Blackrock Forgeworker", -- [3]
+						}, -- [19]
+					},
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "00:05:08",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Blackrock Slaghauler"] = 4,
+					["Blackrock Forgeworker"] = 10,
+				},
+				["start_time"] = 15209.845,
+				["TimeData"] = {
+				},
+				["contra"] = "Blackrock Forgeworker",
+			}, -- [16]
+			{
+				{
+					["combatId"] = 39,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004052,
+							["damage_from"] = {
+								["[*] Voidbolt"] = true,
+								["[*] Shadow Word: Death"] = true,
+								["Keli'dan the Breaker"] = true,
+							},
+							["targets"] = {
+								["Keli'dan the Breaker"] = 1742,
+							},
+							["pets"] = {
+							},
+							["spec"] = 256,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1742.004052,
+							["end_time"] = 1603407863,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 1742.004052,
+							["classe"] = "PRIEST",
+							["aID"] = "1303-0B65E197",
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[47666] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 212,
+										["g_amt"] = 0,
+										["n_max"] = 53,
+										["targets"] = {
+											["Keli'dan the Breaker"] = 422,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 210,
+										["n_min"] = 52,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 422,
+										["c_max"] = 108,
+										["spellschool"] = 2,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 104,
+									},
+									[585] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 71,
+										["targets"] = {
+											["Keli'dan the Breaker"] = 560,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 560,
+										["n_min"] = 69,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 560,
+										["c_max"] = 0,
+										["spellschool"] = 2,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[32379] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 112,
+										["targets"] = {
+											["Keli'dan the Breaker"] = 112,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 112,
+										["n_min"] = 112,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 112,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32379,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[589] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 99,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Keli'dan the Breaker"] = 337,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 238,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 337,
+										["c_max"] = 39,
+										["spellschool"] = 32,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 16,
+										["r_amt"] = 0,
+										["c_min"] = 30,
+									},
+									[8092] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 209,
+										["g_amt"] = 0,
+										["n_max"] = 102,
+										["targets"] = {
+											["Keli'dan the Breaker"] = 311,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 102,
+										["n_min"] = 102,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 311,
+										["c_max"] = 209,
+										["spellschool"] = 32,
+										["id"] = 8092,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 209,
+									},
+								},
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["last_dps"] = 58.29805066764595,
+							["custom"] = 0,
+							["last_event"] = 1603407862,
+							["damage_taken"] = 491.004052,
+							["start_time"] = 1603407833,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 134.002206,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+								["Feleoner-Outland"] = true,
+								["Rykahpriest"] = true,
+								["Sarvic-Silvermoon"] = true,
+							},
+							["targets"] = {
+								["Feleoner-Outland"] = 169,
+								["Rykahpriest"] = 168,
+								["Sarvic-Silvermoon"] = 67,
+							},
+							["end_time"] = 1603407863,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["aID"] = "79702",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 404.002206,
+							["monster"] = true,
+							["dps_started"] = false,
+							["total"] = 404.002206,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Keli'dan the Breaker",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[165875] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 34,
+										["targets"] = {
+											["Feleoner-Outland"] = 169,
+											["Rykahpriest"] = 168,
+											["Sarvic-Silvermoon"] = 67,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 404,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 404,
+										["c_max"] = 0,
+										["id"] = 165875,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 5,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[165871] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 165871,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-79702-0000120FB4",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1603407855,
+							["damage_taken"] = 4131.002206,
+							["start_time"] = 1603407844,
+							["delay"] = 1603407841,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 193.008812,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Feleoner-Outland"] = 136,
+								["Rykahpriest"] = 211,
+							},
+							["pets"] = {
+							},
+							["serial"] = "",
+							["monster"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 347.008812,
+							["spellicon"] = 631519,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 347.008812,
+							["aID"] = "",
+							["friendlyfire_total"] = 0,
+							["nome"] = "[*] Voidbolt",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[165847] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Feleoner-Outland"] = 136,
+											["Rykahpriest"] = 211,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 347,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 104,
+										["total"] = 347,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 165847,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 104,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["end_time"] = 1603407863,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.008812,
+							["start_time"] = 1603407854,
+							["delay"] = 1603407848,
+							["last_event"] = 1603407861,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.007269,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Rykahpriest"] = 112,
+							},
+							["spellicon"] = 136149,
+							["serial"] = "",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 112.007269,
+							["fight_component"] = true,
+							["end_time"] = 1603407863,
+							["dps_started"] = false,
+							["total"] = 112.007269,
+							["aID"] = "",
+							["monster"] = true,
+							["nome"] = "[*] Shadow Word: Death",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[32409] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 112,
+										["targets"] = {
+											["Rykahpriest"] = 112,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 112,
+										["n_min"] = 112,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 112,
+										["c_max"] = 0,
+										["spellschool"] = 32,
+										["id"] = 32409,
+										["r_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.007269,
+							["start_time"] = 1603407862,
+							["delay"] = 1603407835,
+							["last_event"] = 1603407835,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 39,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rykahpriest"] = 322,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "1303-0B65E197",
+							["totalover"] = 322.004122,
+							["total_without_pet"] = 473.004122,
+							["total"] = 473.004122,
+							["targets_absorbs"] = {
+								["Rykahpriest"] = 294,
+								["Sarvic-Silvermoon"] = 33,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1303-0B65E197",
+							["totalabsorb"] = 327.004122,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Rykahpriest"] = 440,
+								["Sarvic-Silvermoon"] = 33,
+							},
+							["totalover_without_pet"] = 0.004122,
+							["healing_taken"] = 440.004122,
+							["fight_component"] = true,
+							["end_time"] = 1603407863,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Rykahpriest",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[208771] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 100,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 34,
+										["targets"] = {
+											["Rykahpriest"] = 67,
+											["Sarvic-Silvermoon"] = 33,
+										},
+										["n_min"] = 33,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 100,
+										["c_max"] = 0,
+										["id"] = 208771,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 67,
+											["Sarvic-Silvermoon"] = 33,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 100,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 252,
+										},
+										["n_max"] = 57,
+										["targets"] = {
+											["Rykahpriest"] = 146,
+										},
+										["n_min"] = 0,
+										["counter"] = 18,
+										["overheal"] = 252,
+										["total"] = 146,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 146,
+										["n_amt"] = 18,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 227,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 12,
+										},
+										["n_max"] = 34,
+										["targets"] = {
+											["Rykahpriest"] = 227,
+										},
+										["n_min"] = 0,
+										["counter"] = 35,
+										["overheal"] = 12,
+										["total"] = 227,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Rykahpriest"] = 227,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 227,
+										["n_amt"] = 35,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[94472] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rykahpriest"] = 58,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Rykahpriest"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 58,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 94472,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1603407847,
+							["spec"] = 256,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.004122,
+							["delay"] = 1603407851,
+							["last_event"] = 1603407851,
+						}, -- [1]
+						{
+							["flag_original"] = 1304,
+							["healing_from"] = {
+								["Rykahpriest"] = true,
+								["Sarvic-Silvermoon"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["aID"] = "3391-0B7C73BA",
+							["totalover"] = 145.005376,
+							["total_without_pet"] = 34.005376,
+							["total"] = 34.005376,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3391-0B7C73BA",
+							["totalabsorb"] = 0.005376,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Sarvic-Silvermoon"] = 34,
+							},
+							["totalover_without_pet"] = 0.005376,
+							["healing_taken"] = 67.005376,
+							["fight_component"] = true,
+							["end_time"] = 1603407863,
+							["targets_overheal"] = {
+								["Sarvic-Silvermoon"] = 145,
+							},
+							["need_refresh"] = true,
+							["nome"] = "Sarvic-Silvermoon",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[81751] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Sarvic-Silvermoon"] = 83,
+										},
+										["n_max"] = 34,
+										["targets"] = {
+											["Sarvic-Silvermoon"] = 34,
+										},
+										["n_min"] = 0,
+										["counter"] = 4,
+										["overheal"] = 83,
+										["total"] = 34,
+										["c_max"] = 0,
+										["id"] = 81751,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 34,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[94472] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Sarvic-Silvermoon"] = 62,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Sarvic-Silvermoon"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 62,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 94472,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 0,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["start_time"] = 1603407857,
+							["heal_enemy_amt"] = 0,
+							["spec"] = 256,
+							["custom"] = 0,
+							["last_event"] = 1603407860,
+							["classe"] = "PRIEST",
+							["totaldenied"] = 0.005376,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 39,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 39,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[6788] = {
+										["activedamt"] = 0,
+										["id"] = 6788,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208772] = {
+										["activedamt"] = 1,
+										["id"] = 208772,
+										["targets"] = {
+										},
+										["uptime"] = 23,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[589] = {
+										["activedamt"] = 1,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 150,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[17] = {
+										["activedamt"] = 1,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[21562] = {
+										["activedamt"] = 1,
+										["id"] = 21562,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[167410] = {
+										["activedamt"] = 1,
+										["id"] = 167410,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[328136] = {
+										["activedamt"] = 1,
+										["id"] = 328136,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[93795] = {
+										["activedamt"] = 1,
+										["id"] = 93795,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194384] = {
+										["activedamt"] = 1,
+										["id"] = 194384,
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 60,
+							["nome"] = "Rykahpriest",
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17] = 1,
+								[47540] = 2,
+								[585] = 8,
+								[32379] = 1,
+								[589] = 2,
+								[8092] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1603407863,
+							["pets"] = {
+							},
+							["aID"] = "1303-0B65E197",
+							["serial"] = "Player-1303-0B65E197",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["tipo"] = 4,
+							["nome"] = "Keli'dan the Breaker",
+							["fight_component"] = true,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[165875] = 5,
+								[165871] = 1,
+							},
+							["monster"] = true,
+							["last_event"] = 0,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-3891-1265-4-79702-0000120FB4",
+							["aID"] = "79702",
+						}, -- [2]
+						{
+							["flag_original"] = 1304,
+							["nome"] = "Sarvic-Silvermoon",
+							["spec"] = 256,
+							["need_refresh"] = true,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["tipo"] = 4,
+							["classe"] = "PRIEST",
+							["spell_cast"] = {
+								[17] = 1,
+								[47540] = 2,
+								[585] = 4,
+								[589] = 1,
+								[214621] = 1,
+							},
+							["aID"] = "3391-0B7C73BA",
+							["serial"] = "Player-3391-0B7C73BA",
+							["last_event"] = 0,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 39,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rykahpriest"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["overall_added"] = true,
+				["cleu_timeline"] = {
+				},
+				["alternate_power"] = {
+				},
+				["tempo_start"] = 1603407833,
+				["enemy"] = "Keli'dan the Breaker",
+				["combat_counter"] = 274,
+				["playing_solo"] = true,
+				["totals"] = {
+					2604.945107000001, -- [1]
+					506.99459, -- [2]
+					{
+						-0.008168, -- [1]
+						[0] = -0.007042,
+						["alternatepower"] = 0,
+						[3] = -0.005115,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatEndedAt"] = 15165.345,
+				["aura_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						[17] = {
+							["enabled"] = false,
+							["appliedAt"] = 15138.589,
+							["spellId"] = 17,
+							["data"] = {
+								{
+									15138.589, -- [1]
+									15153.592, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[208772] = {
+							["enabled"] = false,
+							["appliedAt"] = 15157.717,
+							["spellId"] = 208772,
+							["data"] = {
+								{
+									15141.479, -- [1]
+									15156.467, -- [2]
+								}, -- [1]
+								{
+									15157.717, -- [1]
+									15165.345, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[589] = {
+							["enabled"] = false,
+							["appliedAt"] = 15147.966,
+							["spellId"] = 589,
+							["data"] = {
+								{
+									15135.464, -- [1]
+									15147.466, -- [2]
+								}, -- [1]
+								{
+									15147.966, -- [1]
+									15165.345, -- [2]
+								}, -- [2]
+							},
+							["amountUp"] = 0,
+						},
+						[194384] = {
+							["enabled"] = false,
+							["appliedAt"] = 15138.694,
+							["spellId"] = 194384,
+							["data"] = {
+								{
+									15138.694, -- [1]
+									15153.592, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+						[6788] = {
+							["enabled"] = false,
+							["appliedAt"] = 15138.589,
+							["spellId"] = 6788,
+							["data"] = {
+								{
+									15138.589, -- [1]
+									15145.493, -- [2]
+								}, -- [1]
+							},
+							["amountUp"] = 0,
+						},
+					},
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "00:03:53",
+				["end_time"] = 15165.345,
+				["totals_grupo"] = {
+					1742, -- [1]
+					473, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["combat_id"] = 39,
+				["TotalElapsedCombatTime"] = 15165.345,
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rykahpriest"] = 473.004122,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rykahpriest"] = 1742.004052,
+						}, -- [1]
+					},
+				},
+				["frags"] = {
+					["Shadowmoon Voidaxe"] = 1,
+				},
+				["data_fim"] = "00:04:23",
+				["instance_type"] = "none",
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+					["Player-1303-0B65E197"] = {
+						{
+							15135.464, -- [1]
+							589, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [1]
+						{
+							15137.277, -- [1]
+							32379, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [2]
+						{
+							15138.589, -- [1]
+							17, -- [2]
+							"Rykahpriest", -- [3]
+						}, -- [3]
+						{
+							15141.368, -- [1]
+							8092, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [4]
+						{
+							15143.021, -- [1]
+							585, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [5]
+						{
+							15144.396, -- [1]
+							585, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [6]
+						{
+							15144.507, -- [1]
+							47540, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [7]
+						{
+							15147.966, -- [1]
+							585, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [8]
+						{
+							15147.966, -- [1]
+							589, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [9]
+						{
+							15150.779, -- [1]
+							585, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [10]
+						{
+							15152.363, -- [1]
+							585, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [11]
+						{
+							15154.384, -- [1]
+							585, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [12]
+						{
+							15156.363, -- [1]
+							585, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [13]
+						{
+							15157.717, -- [1]
+							8092, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [14]
+						{
+							15158.03, -- [1]
+							589, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [15]
+						{
+							15161.072, -- [1]
+							585, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [16]
+						{
+							15161.177, -- [1]
+							47540, -- [2]
+							"Keli'dan the Breaker", -- [3]
+						}, -- [17]
+					},
+				},
+				["start_time"] = 15135.464,
+				["contra"] = "Keli'dan the Breaker",
+				["TimeData"] = {
+				},
+			}, -- [17]
 		},
 	},
-	["last_version"] = "v8.3.0.7356",
+	["last_version"] = "v9.0.1.7930",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -9754,10 +18437,10 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1601252562,
+		["nextreset"] = 1604701732,
 		["last_version"] = 12,
 	},
-	["last_instance_id"] = 90,
+	["last_instance_id"] = 1175,
 	["announce_interrupts"] = {
 		["enabled"] = false,
 		["whisper"] = "",
@@ -9765,8 +18448,8 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
-	["last_instance_time"] = 1599956925,
-	["active_profile"] = "Swobuswagins-Tarren Mill",
+	["last_instance_time"] = 1603409156,
+	["active_profile"] = "Rykahpo-Frostmane",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -9780,50 +18463,39 @@ _detalhes_database = {
 	},
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
-		["DETAILS_PLUGIN_TINY_THREAT"] = {
-			["updatespeed"] = 1,
-			["enabled"] = true,
-			["animate"] = false,
-			["useplayercolor"] = false,
-			["author"] = "Details! Team",
-			["useclasscolors"] = false,
-			["playercolor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
+			["last_boss"] = false,
+			["v1"] = true,
+			["captures"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
 			},
-			["showamount"] = false,
-		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
-			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
+			["first_run"] = true,
+			["endurance_threshold"] = 3,
+			["max_deaths_for_timeline"] = 5,
+			["deaths_threshold"] = 10,
+			["show_icon"] = 1,
+			["max_segments_for_current"] = 2,
+			["max_deaths_for_current"] = 20,
+			["last_player"] = false,
 			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
-		},
-		["DETAILS_PLUGIN_VANGUARD"] = {
+			["last_encounter_hash"] = false,
 			["enabled"] = true,
-			["tank_block_color"] = {
-				0.24705882, -- [1]
-				0.0039215, -- [2]
-				0, -- [3]
-				0.8, -- [4]
-			},
-			["tank_block_texture"] = "Details Serenity",
-			["show_inc_bars"] = false,
-			["author"] = "Details! Team",
-			["first_run"] = false,
-			["tank_block_size"] = 150,
+			["timeline_cutoff_time"] = 3,
+			["last_segment"] = false,
+			["last_combat_id"] = 0,
+			["timeline_cutoff_delete_time"] = 3,
+			["showing_type"] = 4,
+			["InstalledAt"] = 1603405746,
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
 			["encounter_timers_bw"] = {
 			},
 			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
 			["encounter_timers_dbm"] = {
@@ -9831,6 +18503,40 @@ _detalhes_database = {
 			["show_icon"] = 5,
 			["opened"] = 0,
 			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_CAST_HISTORY"] = {
+			["enabled"] = true,
+			["author"] = "Terciob",
+			["merged_spells"] = {
+			},
+			["ignored_spells"] = {
+				[184367] = 201363,
+				[185313] = 185422,
+				[316531] = 3411,
+				[228597] = true,
+				[148187] = 116847,
+				[184709] = 201363,
+				[201453] = 191427,
+				[33076] = 41635,
+				[126664] = 100,
+				[324988] = true,
+				[146739] = 172,
+				[7268] = 5143,
+				[52174] = 6544,
+				[324183] = true,
+				[196711] = true,
+				[317488] = 317485,
+				[75] = true,
+				[227847] = 50622,
+				[199672] = 1943,
+				[227518] = true,
+				[222031] = 199547,
+				[85739] = 44949,
+				[190411] = 44949,
+				[201428] = true,
+				[147833] = 3411,
+				[199667] = 44949,
+			},
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -9859,19 +18565,9 @@ _detalhes_database = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = -74.9996948242188,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -9883,19 +18579,174 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["font_size"] = 10,
-			["x"] = 11.0000076293945,
-			["font_face"] = "Friz Quadrata TT",
-			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["use_spark"] = true,
+			["x"] = 11.0000076293945,
+			["font_face"] = "Friz Quadrata TT",
+			["y"] = -74.9996948242188,
+			["main_frame_strata"] = "LOW",
 			["point"] = "TOPLEFT",
 			["row_height"] = 20,
 			["scale"] = 1,
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["enabled"] = true,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["author"] = "Details! Team",
+			["useclasscolors"] = false,
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["animate"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_height"] = 40,
+		},
+		["DETAILS_PLUGIN_RAID_POWER_BARS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_CHART_VIEWER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["tabs"] = {
+				{
+					["name"] = "Your Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Player Damage Done",
+					["texture"] = "line",
+				}, -- [1]
+				{
+					["name"] = "Class Damage",
+					["iType"] = "raid-DAMAGER",
+					["segment_type"] = 1,
+					["version"] = "v2.0",
+					["data"] = "PRESET_DAMAGE_SAME_CLASS",
+					["texture"] = "line",
+				}, -- [2]
+				{
+					["name"] = "Raid Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Raid Damage Done",
+					["texture"] = "line",
+				}, -- [3]
+				["last_selected"] = 1,
+			},
+			["options"] = {
+				["show_method"] = 4,
+				["auto_create"] = true,
+				["window_scale"] = 1,
+			},
+		},
+		["DETAILS_PLUGIN_TARGET_CALLER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+	},
+	["last_day"] = "23",
+	["cached_talents"] = {
+		["Player-3702-09D9D5D2"] = {
+			22364, -- [1]
+		},
+		["Player-1402-07799E74"] = {
+			22590, -- [1]
+			22592, -- [2]
+			22179, -- [3]
+			22434, -- [4]
+			17597, -- [5]
+			23086, -- [6]
+			23456, -- [7]
+		},
+		["Player-1402-054CD355"] = {
+			22120, -- [1]
+			19238, -- [2]
+			19239, -- [3]
+			22121, -- [4]
+			22114, -- [5]
+			23128, -- [6]
+			23175, -- [7]
+		},
+		["Player-3702-09D9A6C1"] = {
+			22558, -- [1]
+			22604, -- [2]
+		},
+		["Player-3391-089B4DF0"] = {
+			22493, -- [1]
+			22765, -- [2]
+			22494, -- [3]
+			21863, -- [4]
+			21866, -- [5]
+			21869, -- [6]
+			21900, -- [7]
+		},
+		["Player-3391-0B921E00"] = {
+			22357, -- [1]
+			23108, -- [2]
+			23162, -- [3]
+			19272, -- [4]
+			22144, -- [5]
+			19266, -- [6]
+		},
+		["Player-1301-07A0817D"] = {
+			19233, -- [1]
+			22332, -- [2]
+		},
+		["Player-1307-08D3868A"] = {
+			22328, -- [1]
+			22315, -- [2]
+			23125, -- [3]
+			23137, -- [4]
+			22310, -- [5]
+			21718, -- [6]
+			21978, -- [7]
 		},
 	},
 	["announce_prepots"] = {
@@ -9903,43 +18754,24 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "13",
-	["cached_talents"] = {
-		["Player-3391-0B77CF83"] = {
-			22363, -- [1]
-			18571, -- [2]
-		},
-		["Player-1303-0B65E197"] = {
-			22313, -- [1]
-			19758, -- [2]
-		},
-		["Player-1313-0B7742DA"] = {
-			22279, -- [1]
-			22495, -- [2]
-		},
-		["Player-3391-0B71A39B"] = {
-			22090, -- [1]
-			23157, -- [2]
-		},
-	},
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 6,
+		["logons"] = 8,
 	},
-	["combat_id"] = 17,
+	["combat_id"] = 57,
 	["savedStyles"] = {
 	},
 	["local_instances_config"] = {
 		{
-			["segment"] = 0,
+			["modo"] = 2,
 			["sub_attribute"] = 1,
 			["horizontalSnap"] = false,
 			["verticalSnap"] = false,
-			["is_open"] = true,
 			["isLocked"] = true,
+			["is_open"] = true,
 			["sub_atributo_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -9949,14 +18781,15 @@ _detalhes_database = {
 			},
 			["snap"] = {
 			},
+			["segment"] = 0,
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -483.3335113525391,
-					["x"] = 850.166259765625,
-					["w"] = 428.5558166503906,
-					["h"] = 191.1114501953125,
+					["y"] = -482.2353059800612,
+					["x"] = 850.0245806957347,
+					["w"] = 433.3336181640625,
+					["h"] = 193.5554046630859,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -9979,472 +18812,85 @@ _detalhes_database = {
 			["tipo"] = 2,
 			["_ActorTable"] = {
 				{
-					["flag_original"] = 1298,
-					["totalabsorbed"] = 0.09055900000000001,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Leprous Assistant"] = true,
-						["Irradiated Slime"] = true,
-						["Caverndeep Burrower"] = true,
-						["Viscous Fallout"] = true,
-						["Mechanized Sentry"] = true,
-						["Walking Bomb"] = true,
-						["Leprous Defender"] = true,
-						["Dark Iron Agent"] = true,
-						["Leprous Technician"] = true,
-					},
-					["targets"] = {
-						["Peacekeeper Security Suit"] = 2881,
-						["Dark Iron Land Mine <Dark Iron Agent>"] = 114,
-						["Caverndeep Burrower"] = 3692,
-						["Mekgineer Thermaplugg"] = 7805,
-						["Mechanized Sentry"] = 14709,
-						["Mechano-Tank"] = 140,
-						["Leprous Technician"] = 1466,
-						["Electrocutioner 6000"] = 6791,
-						["Leprous Assistant"] = 5028,
-						["Arcane Nullifier X-21"] = 5229,
-						["Irradiated Horror"] = 311,
-						["Mechanized Guardian"] = 4754,
-						["Dark Iron Agent"] = 11488,
-						["Irradiated Slime"] = 3980,
-						["Walking Bomb"] = 45,
-						["Leprous Defender"] = 4975,
-						["Viscous Fallout"] = 7922,
-						["Caverndeep Ambusher"] = 61,
-					},
-					["pets"] = {
-						"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
-					},
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 68691.090559,
-					["classe"] = "HUNTER",
-					["dps_started"] = false,
-					["total"] = 81391.09055900002,
-					["friendlyfire"] = {
-					},
-					["end_time"] = 1599956959,
-					["nome"] = "Worgylegoshi-Thunderhorn",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							[75] = {
-								["c_amt"] = 17,
-								["b_amt"] = 0,
-								["c_dmg"] = 2605,
-								["g_amt"] = 0,
-								["n_max"] = 89,
-								["targets"] = {
-									["Electrocutioner 6000"] = 1089,
-									["Leprous Assistant"] = 566,
-									["Peacekeeper Security Suit"] = 421,
-									["Dark Iron Agent"] = 1502,
-									["Irradiated Slime"] = 501,
-									["Irradiated Horror"] = 83,
-									["Viscous Fallout"] = 1174,
-									["Mekgineer Thermaplugg"] = 1157,
-									["Mechanized Sentry"] = 1964,
-									["Mechano-Tank"] = 78,
-									["Arcane Nullifier X-21"] = 872,
-									["Mechanized Guardian"] = 1178,
-									["Leprous Defender"] = 829,
-									["Leprous Technician"] = 473,
-									["Caverndeep Burrower"] = 680,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 9962,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 149,
-								["total"] = 12567,
-								["c_max"] = 178,
-								["id"] = 75,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 132,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[257045] = {
-								["c_amt"] = 32,
-								["b_amt"] = 0,
-								["c_dmg"] = 2507,
-								["g_amt"] = 0,
-								["n_max"] = 44,
-								["targets"] = {
-									["Electrocutioner 6000"] = 844,
-									["Peacekeeper Security Suit"] = 301,
-									["Irradiated Slime"] = 989,
-									["Caverndeep Burrower"] = 440,
-									["Viscous Fallout"] = 1276,
-									["Mekgineer Thermaplugg"] = 920,
-									["Dark Iron Agent"] = 1579,
-									["Mechanized Guardian"] = 332,
-									["Leprous Defender"] = 981,
-									["Mechanized Sentry"] = 1710,
-									["Arcane Nullifier X-21"] = 574,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 7439,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 221,
-								["total"] = 9946,
-								["c_max"] = 88,
-								["id"] = 257045,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 189,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[257620] = {
-								["c_amt"] = 20,
-								["b_amt"] = 0,
-								["c_dmg"] = 2342,
-								["g_amt"] = 0,
-								["n_max"] = 64,
-								["targets"] = {
-									["Peacekeeper Security Suit"] = 62,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 114,
-									["Caverndeep Burrower"] = 189,
-									["Mekgineer Thermaplugg"] = 135,
-									["Mechanized Sentry"] = 1696,
-									["Mechano-Tank"] = 62,
-									["Leprous Technician"] = 874,
-									["Electrocutioner 6000"] = 160,
-									["Leprous Assistant"] = 3588,
-									["Arcane Nullifier X-21"] = 58,
-									["Irradiated Horror"] = 120,
-									["Mechanized Guardian"] = 411,
-									["Dark Iron Agent"] = 1343,
-									["Irradiated Slime"] = 62,
-									["Walking Bomb"] = 45,
-									["Leprous Defender"] = 483,
-									["Viscous Fallout"] = 306,
-									["Caverndeep Ambusher"] = 61,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 7427,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 151,
-								["total"] = 9769,
-								["c_max"] = 126,
-								["id"] = 257620,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 131,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[19434] = {
-								["c_amt"] = 8,
-								["b_amt"] = 0,
-								["c_dmg"] = 6888,
-								["g_amt"] = 0,
-								["n_max"] = 627,
-								["targets"] = {
-									["Electrocutioner 6000"] = 2490,
-									["Peacekeeper Security Suit"] = 1655,
-									["Irradiated Slime"] = 1461,
-									["Caverndeep Burrower"] = 1264,
-									["Viscous Fallout"] = 2256,
-									["Mekgineer Thermaplugg"] = 2592,
-									["Dark Iron Agent"] = 4321,
-									["Arcane Nullifier X-21"] = 2353,
-									["Leprous Defender"] = 1217,
-									["Mechanized Guardian"] = 1386,
-									["Mechanized Sentry"] = 5023,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 19130,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 52,
-								["total"] = 26018,
-								["c_max"] = 1242,
-								["id"] = 19434,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 44,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[56641] = {
-								["c_amt"] = 8,
-								["b_amt"] = 0,
-								["c_dmg"] = 1461,
-								["g_amt"] = 0,
-								["n_max"] = 101,
-								["targets"] = {
-									["Electrocutioner 6000"] = 428,
-									["Peacekeeper Security Suit"] = 199,
-									["Irradiated Slime"] = 101,
-									["Mechanized Guardian"] = 332,
-									["Viscous Fallout"] = 591,
-									["Mekgineer Thermaplugg"] = 440,
-									["Dark Iron Agent"] = 562,
-									["Leprous Defender"] = 299,
-									["Arcane Nullifier X-21"] = 284,
-									["Mechanized Sentry"] = 859,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2634,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 38,
-								["total"] = 4095,
-								["c_max"] = 199,
-								["id"] = 56641,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 30,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[185358] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 1070,
-								["g_amt"] = 0,
-								["n_max"] = 137,
-								["targets"] = {
-									["Electrocutioner 6000"] = 680,
-									["Leprous Assistant"] = 136,
-									["Peacekeeper Security Suit"] = 135,
-									["Irradiated Slime"] = 137,
-									["Caverndeep Burrower"] = 410,
-									["Viscous Fallout"] = 813,
-									["Mekgineer Thermaplugg"] = 1204,
-									["Mechanized Sentry"] = 1333,
-									["Dark Iron Agent"] = 521,
-									["Leprous Defender"] = 271,
-									["Mechanized Guardian"] = 262,
-									["Arcane Nullifier X-21"] = 394,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 5226,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 43,
-								["total"] = 6296,
-								["c_max"] = 273,
-								["id"] = 185358,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 39,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["grupo"] = true,
-					["spec"] = 254,
-					["serial"] = "Player-1313-0B7742DA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1599956367,
-					["delay"] = 0,
-					["damage_taken"] = 4085.090559,
-				}, -- [1]
-				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 181.012474,
-					["on_hold"] = false,
+					["totalabsorbed"] = 1231.011603,
 					["damage_from"] = {
-						["Zanm-Silvermoon"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Juraak-Silvermoon"] = true,
+						["Allegoria-Outland"] = true,
+						["Larriianna-Silvermoon"] = true,
+						["Garrithas-ArgentDawn"] = true,
 						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
+						["Raydruid-ArgentDawn"] = true,
 					},
 					["targets"] = {
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 133,
-						["Sberla-Silvermoon"] = 545,
-						["Worgylegoshi-Thunderhorn"] = 142,
+						["Garrithas-ArgentDawn"] = 6834,
+						["Larriianna-Silvermoon"] = 80,
+						["Rykahpriest"] = 107,
 					},
+					["on_hold"] = false,
 					["pets"] = {
-					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 820.012474,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599956959,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Caverndeep Burrower",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 181,
-								["targets"] = {
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 133,
-									["Sberla-Silvermoon"] = 484,
-									["Worgylegoshi-Thunderhorn"] = 142,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 759,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 9,
-								["a_amt"] = 3,
-								["total"] = 759,
-								["c_max"] = 0,
-								["DODGE"] = 1,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 303,
-								["m_crit"] = 0,
-								["PARRY"] = 2,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 6,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[87081] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 61,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 61,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 61,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 61,
-								["c_max"] = 0,
-								["id"] = 87081,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 61,
-								["m_crit"] = 0,
-								["a_amt"] = 1,
-								["m_amt"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
 					},
 					["monster"] = true,
-					["total"] = 820.012474,
-					["serial"] = "Creature-0-3891-90-14342-6206-0001DD67AB",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 8630.012474,
-					["start_time"] = 1599956936,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [2]
-				{
-					["flag_original"] = 1298,
-					["totalabsorbed"] = 5193.086275,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 7021.011603,
+					["classe"] = "UNKNOW",
+					["end_time"] = 1603409219,
+					["dps_started"] = false,
+					["total"] = 7021.011603,
+					["fight_component"] = true,
+					["aID"] = "84978",
+					["nome"] = "Bloodmaul Enforcer",
 					["spells"] = {
 						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 45,
-								["b_amt"] = 0,
-								["c_dmg"] = 7153,
+								["c_amt"] = 0,
+								["b_amt"] = 4,
+								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 94,
+								["n_max"] = 270,
 								["targets"] = {
-									["Peacekeeper Security Suit"] = 682,
-									["Irradiated Slime"] = 527,
-									["Caverndeep Burrower"] = 580,
-									["Mekgineer Thermaplugg"] = 1183,
-									["Dark Iron Agent"] = 2485,
-									["Mechano-Tank"] = 332,
-									["Electrocutioner 6000"] = 1366,
-									["Leprous Assistant"] = 1212,
-									["Viscous Fallout"] = 1608,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 84,
-									["Arcane Nullifier X-21"] = 992,
-									["Irradiated Horror"] = 523,
-									["Mechanized Guardian"] = 1705,
-									["Mechanized Sentry"] = 2729,
-									["Leprous Defender"] = 1149,
-									["Mobile Alert System"] = 62,
-									["Caverndeep Ambusher"] = 84,
+									["Garrithas-ArgentDawn"] = 6168,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 10150,
+								["n_dmg"] = 6168,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 174,
-								["total"] = 17303,
-								["c_max"] = 182,
+								["counter"] = 36,
+								["total"] = 6168,
+								["c_max"] = 0,
+								["a_amt"] = 6,
 								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 1354,
+								["m_crit"] = 0,
+								["PARRY"] = 3,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 507,
+								["n_amt"] = 33,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[151447] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 151447,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -10452,29 +18898,30 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 0,
+								["successful_casted"] = 5,
 								["b_dmg"] = 0,
-								["n_amt"] = 129,
+								["n_amt"] = 0,
 								["r_amt"] = 0,
 								["c_min"] = 0,
-							}, -- [1]
-							[117952] = {
-								["c_amt"] = 4,
+							},
+							[151541] = {
+								["c_amt"] = 0,
 								["b_amt"] = 0,
-								["c_dmg"] = 90,
+								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 12,
+								["n_max"] = 56,
 								["targets"] = {
-									["Mekgineer Thermaplugg"] = 138,
+									["Larriianna-Silvermoon"] = 80,
+									["Rykahpriest"] = 107,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 48,
+								["n_dmg"] = 187,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 8,
-								["total"] = 138,
-								["c_max"] = 24,
-								["id"] = 117952,
+								["counter"] = 4,
+								["total"] = 187,
+								["c_max"] = 0,
+								["id"] = 151541,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -10488,38 +18935,134 @@ _detalhes_database = {
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
-							[100780] = {
-								["c_amt"] = 49,
+							[151542] = {
+								["c_amt"] = 0,
 								["b_amt"] = 0,
-								["c_dmg"] = 3370,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 151542,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[151446] = {
+								["c_amt"] = 0,
+								["b_amt"] = 1,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 119,
+								["targets"] = {
+									["Garrithas-ArgentDawn"] = 384,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 384,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 384,
+								["c_max"] = 0,
+								["a_amt"] = 1,
+								["id"] = 151446,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 90,
+								["m_crit"] = 0,
+								["PARRY"] = 1,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 86,
+								["n_amt"] = 4,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[151415] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 58,
+								["targets"] = {
+									["Garrithas-ArgentDawn"] = 282,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 282,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 282,
+								["c_max"] = 0,
+								["id"] = 151415,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 6,
+								["b_dmg"] = 0,
+								["n_amt"] = 6,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["serial"] = "Creature-0-3770-1175-20951-84978-00029214DE",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1603409163,
+					["delay"] = 0,
+					["damage_taken"] = 19243.011603,
+				}, -- [1]
+				{
+					["flag_original"] = 1298,
+					["totalabsorbed"] = 188.017056,
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 222,
 								["g_amt"] = 0,
 								["n_max"] = 40,
 								["targets"] = {
-									["Electrocutioner 6000"] = 922,
-									["Arcane Nullifier X-21"] = 620,
-									["Leprous Assistant"] = 606,
-									["Peacekeeper Security Suit"] = 301,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 68,
-									["Irradiated Slime"] = 303,
-									["Irradiated Horror"] = 304,
-									["Viscous Fallout"] = 927,
-									["Mekgineer Thermaplugg"] = 688,
-									["Mechanized Sentry"] = 1319,
-									["Mechano-Tank"] = 107,
-									["Mechanized Guardian"] = 837,
-									["Dark Iron Agent"] = 861,
-									["Caverndeep Ambusher"] = 38,
-									["Leprous Defender"] = 837,
-									["Caverndeep Burrower"] = 382,
+									["Bloodmaul Slaver"] = 308,
+									["Bloodmaul Overseer"] = 527,
+									["Bloodmaul Enforcer"] = 738,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 5750,
+								["n_dmg"] = 1351,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 215,
-								["total"] = 9120,
+								["counter"] = 41,
+								["total"] = 1573,
 								["c_max"] = 77,
-								["id"] = 100780,
+								["id"] = 1,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -10529,40 +19072,60 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 166,
+								["n_amt"] = 38,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[88263] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 65,
+								["g_amt"] = 0,
+								["n_max"] = 12,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 130,
+									["Bloodmaul Enforcer"] = 63,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 128,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 15,
+								["total"] = 193,
+								["c_max"] = 23,
+								["id"] = 88263,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 12,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
-							[121253] = {
-								["c_amt"] = 30,
+							[275779] = {
+								["c_amt"] = 2,
 								["b_amt"] = 0,
-								["c_dmg"] = 7430,
+								["c_dmg"] = 571,
 								["g_amt"] = 0,
-								["n_max"] = 139,
+								["n_max"] = 164,
 								["targets"] = {
-									["Electrocutioner 6000"] = 225,
-									["Leprous Assistant"] = 5424,
-									["Peacekeeper Security Suit"] = 389,
-									["Irradiated Slime"] = 528,
-									["Caverndeep Burrower"] = 266,
-									["Arcane Nullifier X-21"] = 374,
-									["Mekgineer Thermaplugg"] = 191,
-									["Mechanized Sentry"] = 3780,
-									["Mechanized Guardian"] = 1539,
-									["Dark Iron Agent"] = 3182,
-									["Leprous Technician"] = 1008,
-									["Caverndeep Ambusher"] = 128,
-									["Leprous Defender"] = 1315,
-									["Irradiated Horror"] = 404,
+									["Bloodmaul Slaver"] = 578,
+									["Bloodmaul Overseer"] = 940,
+									["Bloodmaul Enforcer"] = 1630,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 11323,
+								["n_dmg"] = 2577,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 122,
-								["total"] = 18753,
-								["c_max"] = 274,
-								["id"] = 121253,
+								["counter"] = 19,
+								["total"] = 3148,
+								["c_max"] = 294,
+								["id"] = 275779,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -10572,41 +19135,29 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 92,
+								["n_amt"] = 17,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
-							[205523] = {
-								["c_amt"] = 21,
+							[53595] = {
+								["c_amt"] = 0,
 								["b_amt"] = 0,
-								["c_dmg"] = 3537,
+								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 99,
+								["n_max"] = 26,
 								["targets"] = {
-									["Electrocutioner 6000"] = 417,
-									["Leprous Assistant"] = 391,
-									["Peacekeeper Security Suit"] = 188,
-									["Arcane Nullifier X-21"] = 367,
-									["Irradiated Slime"] = 96,
-									["Caverndeep Burrower"] = 288,
-									["Viscous Fallout"] = 1038,
-									["Mekgineer Thermaplugg"] = 832,
-									["Mechanized Sentry"] = 1583,
-									["Mechano-Tank"] = 185,
-									["Mechanized Guardian"] = 877,
-									["Dark Iron Agent"] = 920,
-									["Caverndeep Ambusher"] = 96,
-									["Leprous Defender"] = 679,
-									["Irradiated Horror"] = 192,
+									["Bloodmaul Slaver"] = 44,
+									["Bloodmaul Overseer"] = 98,
+									["Bloodmaul Enforcer"] = 136,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 4612,
+								["n_dmg"] = 278,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 73,
-								["total"] = 8149,
-								["c_max"] = 196,
-								["id"] = 205523,
+								["counter"] = 12,
+								["total"] = 278,
+								["c_max"] = 0,
+								["id"] = 53595,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -10616,66 +19167,121 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 52,
+								["n_amt"] = 12,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[31935] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 282,
+								["g_amt"] = 0,
+								["n_max"] = 72,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 586,
+									["Bloodmaul Overseer"] = 131,
+									["Bloodmaul Enforcer"] = 603,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1038,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 1320,
+								["c_max"] = 141,
+								["id"] = 31935,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 16,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[81297] = {
+								["c_amt"] = 38,
+								["b_amt"] = 0,
+								["c_dmg"] = 457,
+								["g_amt"] = 0,
+								["n_max"] = 7,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 778,
+									["Bloodmaul Overseer"] = 223,
+									["Cinderling"] = 125,
+									["Bloodmaul Enforcer"] = 571,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1240,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 252,
+								["total"] = 1697,
+								["c_max"] = 13,
+								["id"] = 81297,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 214,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[53600] = {
+								["c_amt"] = 8,
+								["b_amt"] = 0,
+								["c_dmg"] = 1104,
+								["g_amt"] = 0,
+								["n_max"] = 87,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 1250,
+									["Bloodmaul Overseer"] = 418,
+									["Bloodmaul Enforcer"] = 743,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1307,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 27,
+								["total"] = 2411,
+								["c_max"] = 172,
+								["id"] = 53600,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 19,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
 						},
 					},
 					["damage_from"] = {
-						["Peacekeeper Security Suit"] = true,
-						["Irradiated Slime"] = true,
-						["Irradiated Horror"] = true,
-						["Mekgineer Thermaplugg"] = true,
-						["Mechanized Sentry"] = true,
-						["Mechano-Tank"] = true,
-						["Leprous Technician"] = true,
-						["Electrocutioner 6000"] = true,
-						["Leprous Assistant"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Viscous Fallout"] = true,
-						["Environment (Falling)"] = true,
-						["Dark Iron Agent"] = true,
-						["Mechanized Guardian"] = true,
-						["Arcane Nullifier X-21"] = true,
-						["Leprous Defender"] = true,
-						["Caverndeep Burrower"] = true,
-						["Caverndeep Ambusher"] = true,
+						["Garrithas-ArgentDawn"] = true,
+						["Bloodmaul Slaver"] = true,
+						["Bloodmaul Overseer"] = true,
+						["Bloodmaul Enforcer"] = true,
 					},
 					["targets"] = {
-						["Peacekeeper Security Suit"] = 1560,
-						["Irradiated Slime"] = 1454,
-						["Caverndeep Burrower"] = 1516,
-						["Mekgineer Thermaplugg"] = 3032,
-						["Mechanized Sentry"] = 9411,
-						["Mechano-Tank"] = 624,
-						["Leprous Technician"] = 1008,
-						["Electrocutioner 6000"] = 2930,
-						["Leprous Assistant"] = 7633,
-						["Arcane Nullifier X-21"] = 2353,
-						["Dark Iron Land Mine <Dark Iron Agent>"] = 152,
-						["Mechanized Guardian"] = 4958,
-						["Dark Iron Agent"] = 7448,
-						["Irradiated Horror"] = 1423,
-						["Viscous Fallout"] = 3573,
-						["Leprous Defender"] = 3980,
-						["Mobile Alert System"] = 62,
-						["Caverndeep Ambusher"] = 346,
+						["Bloodmaul Slaver"] = 3674,
+						["Bloodmaul Overseer"] = 2337,
+						["Cinderling"] = 125,
+						["Bloodmaul Enforcer"] = 4484,
 					},
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["boss_fight_component"] = true,
-					["end_time"] = 1599956959,
-					["classe"] = "MONK",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 53463.08627499999,
-					["fight_component"] = true,
-					["friendlyfire_total"] = 22736,
-					["dps_started"] = false,
-					["total"] = 53463.08627499999,
-					["isTank"] = true,
 					["avoidance"] = {
 						["overall"] = {
 							["DODGE"] = 0,
@@ -10694,102 +19300,391 @@ _detalhes_database = {
 							["FULL_HIT_AMT"] = 0,
 						},
 					},
-					["nome"] = "Sberla-Silvermoon",
-					["spec"] = 268,
-					["grupo"] = true,
+					["pets"] = {
+					},
+					["end_time"] = 1603409219,
+					["fight_component"] = true,
+					["friendlyfire_total"] = 510,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 10620.017056,
 					["friendlyfire"] = {
-						["Sberla-Silvermoon"] = {
+						["Garrithas-ArgentDawn"] = {
 							["spells"] = {
-								[124255] = 21141,
-								[186439] = 1595,
+								[186439] = 510,
 							},
-							["total"] = 22736,
+							["total"] = 510,
 						},
 					},
+					["classe"] = "PALADIN",
+					["dps_started"] = false,
+					["total"] = 10620.017056,
+					["last_event"] = 0,
+					["aID"] = "3702-09D9A6C1",
+					["nome"] = "Garrithas-ArgentDawn",
+					["spec"] = 66,
+					["grupo"] = true,
+					["isTank"] = true,
 					["on_hold"] = false,
-					["serial"] = "Player-3391-0B77C625",
+					["serial"] = "Player-3702-09D9A6C1",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 74130.08627499998,
-					["start_time"] = 1599956337,
+					["last_dps"] = 0,
+					["start_time"] = 1603409116,
+					["delay"] = 0,
+					["damage_taken"] = 12088.017056,
+				}, -- [2]
+				{
+					["flag_original"] = 66834,
+					["totalabsorbed"] = 160.016541,
+					["damage_from"] = {
+						["Bloodmaul Slaver"] = true,
+						["Larriianna-Silvermoon"] = true,
+						["Bloodmaul Enforcer"] = true,
+					},
+					["targets"] = {
+						["Bloodmaul Slaver"] = 2544,
+						["Bloodmaul Overseer"] = 1444,
+						["Bloodmaul Enforcer"] = 3769,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 160,
+					["friendlyfire"] = {
+						["Larriianna-Silvermoon"] = {
+							["spells"] = {
+								[186439] = 160,
+							},
+							["total"] = 160,
+						},
+					},
+					["aID"] = "3391-0B921E00",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 7757.016541,
+					["end_time"] = 1603409219,
+					["fight_component"] = true,
+					["dps_started"] = false,
+					["total"] = 7757.016541,
+					["classe"] = "SHAMAN",
+					["last_event"] = 0,
+					["nome"] = "Larriianna-Silvermoon",
+					["spec"] = 262,
+					["grupo"] = true,
+					["on_hold"] = false,
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[77478] = {
+								["c_amt"] = 7,
+								["b_amt"] = 0,
+								["c_dmg"] = 301,
+								["g_amt"] = 0,
+								["n_max"] = 17,
+								["targets"] = {
+									["Bloodmaul Overseer"] = 393,
+									["Bloodmaul Slaver"] = 690,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 782,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 53,
+								["total"] = 1083,
+								["c_max"] = 43,
+								["id"] = 77478,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 46,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[188443] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 444,
+								["g_amt"] = 0,
+								["n_max"] = 36,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 1249,
+									["Bloodmaul Overseer"] = 314,
+									["Bloodmaul Enforcer"] = 559,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1678,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 53,
+								["total"] = 2122,
+								["c_max"] = 90,
+								["id"] = 188443,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 48,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[8042] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 396,
+								["g_amt"] = 0,
+								["n_max"] = 161,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 161,
+									["Bloodmaul Enforcer"] = 868,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 633,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 1029,
+								["c_max"] = 396,
+								["id"] = 8042,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[188389] = {
+								["c_amt"] = 9,
+								["b_amt"] = 0,
+								["c_dmg"] = 189,
+								["g_amt"] = 0,
+								["n_max"] = 14,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 122,
+									["Bloodmaul Overseer"] = 95,
+									["Bloodmaul Enforcer"] = 256,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 284,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 44,
+								["total"] = 473,
+								["c_max"] = 37,
+								["id"] = 188389,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 35,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[45297] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 30,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 117,
+									["Bloodmaul Overseer"] = 60,
+									["Bloodmaul Enforcer"] = 58,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 235,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 235,
+								["c_max"] = 0,
+								["id"] = 45297,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 8,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[285452] = {
+								["c_amt"] = 10,
+								["b_amt"] = 0,
+								["c_dmg"] = 2025,
+								["g_amt"] = 0,
+								["n_max"] = 80,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 205,
+									["Bloodmaul Overseer"] = 407,
+									["Bloodmaul Enforcer"] = 1572,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 159,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 2184,
+								["c_max"] = 208,
+								["id"] = 285452,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[188196] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 72,
+								["targets"] = {
+									["Bloodmaul Enforcer"] = 285,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 285,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 285,
+								["c_max"] = 0,
+								["id"] = 188196,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[285466] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 346,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Bloodmaul Overseer"] = 175,
+									["Bloodmaul Enforcer"] = 171,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 346,
+								["c_max"] = 175,
+								["id"] = 285466,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-3391-0B921E00",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 391.016541,
+					["start_time"] = 1603409116,
 					["delay"] = 0,
 					["last_dps"] = 0,
 				}, -- [3]
 				{
-					["flag_original"] = 4370,
-					["totalabsorbed"] = 0.08055099999999998,
+					["flag_original"] = 1298,
+					["totalabsorbed"] = 0.007761000000000001,
+					["friendlyfire_total"] = 0,
 					["damage_from"] = {
-						["Electrocutioner 6000"] = true,
-						["Leprous Assistant"] = true,
-						["Leprous Technician"] = true,
-						["Irradiated Slime"] = true,
-						["Caverndeep Burrower"] = true,
-						["Viscous Fallout"] = true,
+						["Bloodmaul Slaver"] = true,
 					},
 					["targets"] = {
-						["Electrocutioner 6000"] = 1100,
-						["Leprous Assistant"] = 738,
-						["Peacekeeper Security Suit"] = 108,
-						["Irradiated Slime"] = 729,
-						["Irradiated Horror"] = 108,
-						["Viscous Fallout"] = 1506,
-						["Mekgineer Thermaplugg"] = 1357,
-						["Mechanized Sentry"] = 2124,
-						["Arcane Nullifier X-21"] = 694,
-						["Dark Iron Agent"] = 1660,
-						["Mechanized Guardian"] = 853,
-						["Leprous Defender"] = 895,
-						["Leprous Technician"] = 119,
-						["Caverndeep Burrower"] = 709,
-					},
-					["friendlyfire"] = {
+						["Bloodmaul Slaver"] = 1211,
+						["Bloodmaul Overseer"] = 2289,
+						["Bloodmaul Enforcer"] = 4406,
 					},
 					["pets"] = {
 					},
-					["end_time"] = 1599956959,
-					["classe"] = "PET",
+					["friendlyfire"] = {
+					},
+					["end_time"] = 1603409219,
+					["classe"] = "ROGUE",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 12700.080551,
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["total_without_pet"] = 7906.007761000001,
+					["aID"] = "1301-07A0817D",
 					["dps_started"] = false,
-					["total"] = 12700.080551,
-					["friendlyfire_total"] = 0,
-					["ownerName"] = "Worgylegoshi-Thunderhorn",
-					["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
+					["total"] = 7906.007761000001,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Allegoria-Outland",
 					["spells"] = {
 						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 41,
+								["c_amt"] = 35,
 								["b_amt"] = 0,
-								["c_dmg"] = 2492,
+								["c_dmg"] = 1222,
 								["g_amt"] = 0,
-								["n_max"] = 34,
+								["n_max"] = 23,
 								["targets"] = {
-									["Electrocutioner 6000"] = 736,
-									["Leprous Assistant"] = 326,
-									["Peacekeeper Security Suit"] = 66,
-									["Irradiated Slime"] = 430,
-									["Irradiated Horror"] = 66,
-									["Viscous Fallout"] = 1086,
-									["Mekgineer Thermaplugg"] = 852,
-									["Mechanized Sentry"] = 1321,
-									["Arcane Nullifier X-21"] = 359,
-									["Dark Iron Agent"] = 1043,
-									["Mechanized Guardian"] = 497,
-									["Leprous Defender"] = 563,
-									["Leprous Technician"] = 34,
-									["Caverndeep Burrower"] = 365,
+									["Bloodmaul Slaver"] = 564,
+									["Bloodmaul Overseer"] = 852,
+									["Bloodmaul Enforcer"] = 1554,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 5252,
+								["n_dmg"] = 1748,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 217,
-								["total"] = 7744,
-								["c_max"] = 68,
+								["counter"] = 177,
+								["total"] = 2970,
+								["c_max"] = 45,
+								["MISS"] = 33,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -10800,40 +19695,29 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 176,
+								["n_amt"] = 109,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							}, -- [1]
-							[17253] = {
-								["c_amt"] = 16,
+							[116616] = {
+								["c_amt"] = 8,
 								["b_amt"] = 0,
-								["c_dmg"] = 1524,
+								["c_dmg"] = 442,
 								["g_amt"] = 0,
-								["n_max"] = 86,
+								["n_max"] = 30,
 								["targets"] = {
-									["Electrocutioner 6000"] = 364,
-									["Leprous Assistant"] = 412,
-									["Peacekeeper Security Suit"] = 42,
-									["Irradiated Slime"] = 299,
-									["Irradiated Horror"] = 42,
-									["Viscous Fallout"] = 420,
-									["Mekgineer Thermaplugg"] = 505,
-									["Mechanized Sentry"] = 803,
-									["Arcane Nullifier X-21"] = 335,
-									["Dark Iron Agent"] = 617,
-									["Mechanized Guardian"] = 356,
-									["Leprous Defender"] = 332,
-									["Leprous Technician"] = 85,
-									["Caverndeep Burrower"] = 344,
+									["Bloodmaul Slaver"] = 300,
+									["Bloodmaul Overseer"] = 284,
+									["Bloodmaul Enforcer"] = 715,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 3432,
+								["n_dmg"] = 857,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 85,
-								["total"] = 4956,
-								["c_max"] = 168,
-								["id"] = 17253,
+								["counter"] = 39,
+								["total"] = 1299,
+								["c_max"] = 58,
+								["id"] = 116616,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -10843,102 +19727,239 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 69,
+								["n_amt"] = 31,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[53] = {
+								["c_amt"] = 6,
+								["b_amt"] = 0,
+								["c_dmg"] = 527,
+								["g_amt"] = 0,
+								["n_max"] = 44,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 259,
+									["Bloodmaul Overseer"] = 522,
+									["Bloodmaul Enforcer"] = 944,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1198,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 34,
+								["total"] = 1725,
+								["c_max"] = 89,
+								["id"] = 53,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 28,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[315585] = {
+								["c_amt"] = 9,
+								["b_amt"] = 0,
+								["c_dmg"] = 144,
+								["g_amt"] = 0,
+								["n_max"] = 8,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 88,
+									["Bloodmaul Overseer"] = 175,
+									["Bloodmaul Enforcer"] = 230,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 349,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 53,
+								["total"] = 493,
+								["c_max"] = 16,
+								["id"] = 315585,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 44,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[185438] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 155,
+								["g_amt"] = 0,
+								["n_max"] = 99,
+								["targets"] = {
+									["Bloodmaul Overseer"] = 172,
+									["Bloodmaul Enforcer"] = 331,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 348,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 503,
+								["c_max"] = 155,
+								["id"] = 185438,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[1943] = {
+								["c_amt"] = 8,
+								["b_amt"] = 0,
+								["c_dmg"] = 312,
+								["g_amt"] = 0,
+								["n_max"] = 19,
+								["targets"] = {
+									["Bloodmaul Overseer"] = 284,
+									["Bloodmaul Enforcer"] = 632,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 604,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 40,
+								["total"] = 916,
+								["c_max"] = 39,
+								["id"] = 1943,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 32,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
 						},
 					},
-					["last_event"] = 0,
-					["serial"] = "Pet-0-3896-530-43-17199-0202FF025C",
+					["grupo"] = true,
+					["spec"] = 261,
+					["serial"] = "Player-1301-07A0817D",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 1841.080551,
-					["start_time"] = 1599956505,
-					["delay"] = 0,
 					["last_dps"] = 0,
+					["start_time"] = 1603409116,
+					["delay"] = 0,
+					["damage_taken"] = 403.007761,
 				}, -- [4]
 				{
-					["flag_original"] = 1298,
-					["totalabsorbed"] = 612.0845049999999,
-					["on_hold"] = false,
+					["flag_original"] = 2600,
+					["totalabsorbed"] = 0.011212,
+					["friendlyfire"] = {
+					},
 					["damage_from"] = {
-						["Environment (Falling)"] = true,
-						["Mechanized Sentry"] = true,
-						["Leprous Assistant"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Leprous Technician"] = true,
-						["Irradiated Slime"] = true,
-						["Mechano-Tank"] = true,
-						["Viscous Fallout"] = true,
+						["Garrithas-ArgentDawn"] = true,
 					},
 					["targets"] = {
-						["Peacekeeper Security Suit"] = 2267,
-						["Dark Iron Land Mine <Dark Iron Agent>"] = 306,
-						["Caverndeep Burrower"] = 2220,
-						["Mekgineer Thermaplugg"] = 8178,
-						["Mechanized Sentry"] = 11225,
-						["Mechano-Tank"] = 301,
-						["Leprous Technician"] = 1975,
-						["Electrocutioner 6000"] = 6530,
-						["Leprous Assistant"] = 3921,
-						["Arcane Nullifier X-21"] = 2949,
-						["Mechanized Guardian"] = 7664,
-						["Dark Iron Agent"] = 4170,
-						["Irradiated Slime"] = 2261,
-						["Irradiated Horror"] = 284,
-						["Leprous Defender"] = 4799,
-						["Viscous Fallout"] = 6310,
-						["Caverndeep Ambusher"] = 247,
 					},
 					["pets"] = {
-						"Unknown <Zanm-Silvermoon>", -- [1]
-					},
-					["friendlyfire"] = {
-						["Zanm-Silvermoon"] = {
-							["spells"] = {
-								[29722] = 121,
-								[116858] = 366,
-								[348] = 104,
-								[157736] = 160,
-								[259756] = 1,
-								[186439] = 482,
-							},
-							["total"] = 1234,
-						},
 					},
 					["fight_component"] = true,
-					["friendlyfire_total"] = 1234,
+					["aID"] = "75754",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 54283.084505,
-					["boss_fight_component"] = true,
+					["total_without_pet"] = 0.011212,
 					["last_event"] = 0,
 					["dps_started"] = false,
-					["total"] = 65607.084505,
-					["classe"] = "WARLOCK",
-					["end_time"] = 1599956959,
-					["nome"] = "Zanm-Silvermoon",
+					["end_time"] = 1603409219,
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["nome"] = "Cinderling",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["classe"] = "UNKNOW",
+					["total"] = 0.011212,
+					["serial"] = "Creature-0-3770-1175-20951-75754-00009214DE",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 125.011212,
+					["start_time"] = 1603409216,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.02434,
+					["damage_from"] = {
+						["Quakefist"] = true,
+						["Bloodmaul Slaver"] = true,
+						["[*] Shadow Word: Death"] = true,
+						["Bloodmaul Enforcer"] = true,
+					},
+					["targets"] = {
+						["Quakefist"] = 3386,
+						["Bloodmaul Slaver"] = 1683,
+						["Bloodmaul Overseer"] = 391,
+						["Bloodmaul Enforcer"] = 2746,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+						"Shadowfiend <Rykahpriest>", -- [1]
+					},
+					["aID"] = "1303-0B65E197",
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 7266.024340000001,
+					["end_time"] = 1603409219,
+					["friendlyfire"] = {
+					},
+					["dps_started"] = false,
+					["total"] = 8206.02434,
+					["classe"] = "PRIEST",
+					["last_event"] = 0,
+					["nome"] = "Rykahpriest",
+					["spec"] = 256,
+					["grupo"] = true,
 					["spells"] = {
 						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 1,
+								["c_amt"] = 0,
 								["b_amt"] = 0,
-								["c_dmg"] = 10,
+								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 7,
+								["n_max"] = 5,
 								["targets"] = {
-									["Mechanized Sentry"] = 10,
-									["Irradiated Slime"] = 7,
+									["Quakefist"] = 5,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 7,
+								["n_dmg"] = 5,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 17,
-								["c_max"] = 10,
+								["counter"] = 1,
+								["total"] = 5,
+								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -10953,694 +19974,25 @@ _detalhes_database = {
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							}, -- [1]
-							[29722] = {
-								["c_amt"] = 16,
-								["b_amt"] = 0,
-								["c_dmg"] = 3496,
-								["g_amt"] = 0,
-								["n_max"] = 123,
-								["targets"] = {
-									["Electrocutioner 6000"] = 1222,
-									["Arcane Nullifier X-21"] = 961,
-									["Leprous Assistant"] = 316,
-									["Peacekeeper Security Suit"] = 527,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 105,
-									["Irradiated Slime"] = 813,
-									["Caverndeep Burrower"] = 344,
-									["Viscous Fallout"] = 936,
-									["Mekgineer Thermaplugg"] = 1718,
-									["Mechanized Sentry"] = 2656,
-									["Mechano-Tank"] = 105,
-									["Mechanized Guardian"] = 1181,
-									["Dark Iron Agent"] = 738,
-									["Leprous Defender"] = 761,
-									["Leprous Technician"] = 423,
-									["Irradiated Horror"] = 110,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 9420,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 103,
-								["total"] = 12916,
-								["c_max"] = 246,
-								["REFLECT"] = 1,
-								["id"] = 29722,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 86,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[116858] = {
-								["c_amt"] = 26,
-								["b_amt"] = 0,
-								["c_dmg"] = 12348,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Electrocutioner 6000"] = 1908,
-									["Irradiated Slime"] = 491,
-									["Caverndeep Burrower"] = 490,
-									["Viscous Fallout"] = 1964,
-									["Mekgineer Thermaplugg"] = 2328,
-									["Mechanized Sentry"] = 1396,
-									["Leprous Defender"] = 1396,
-									["Arcane Nullifier X-21"] = 466,
-									["Mechanized Guardian"] = 1909,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 27,
-								["total"] = 12348,
-								["c_max"] = 512,
-								["REFLECT"] = 1,
-								["id"] = 116858,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[348] = {
+							[47666] = {
 								["c_amt"] = 5,
 								["b_amt"] = 0,
-								["c_dmg"] = 665,
+								["c_dmg"] = 644,
 								["g_amt"] = 0,
-								["n_max"] = 77,
+								["n_max"] = 72,
 								["targets"] = {
-									["Electrocutioner 6000"] = 271,
-									["Leprous Assistant"] = 196,
-									["Peacekeeper Security Suit"] = 197,
-									["Irradiated Slime"] = 76,
-									["Caverndeep Burrower"] = 77,
-									["Viscous Fallout"] = 345,
-									["Mekgineer Thermaplugg"] = 210,
-									["Mechanized Sentry"] = 596,
-									["Arcane Nullifier X-21"] = 131,
-									["Mechanized Guardian"] = 336,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 65,
-									["Leprous Defender"] = 197,
-									["Dark Iron Agent"] = 197,
-									["Leprous Technician"] = 133,
+									["Quakefist"] = 733,
+									["Bloodmaul Slaver"] = 419,
+									["Bloodmaul Overseer"] = 208,
+									["Bloodmaul Enforcer"] = 491,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 2362,
+								["n_dmg"] = 1207,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 41,
-								["total"] = 3027,
-								["c_max"] = 139,
-								["REFLECT"] = 1,
-								["id"] = 348,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 35,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[157736] = {
-								["c_amt"] = 13,
-								["b_amt"] = 0,
-								["c_dmg"] = 1114,
-								["g_amt"] = 0,
-								["n_max"] = 48,
-								["targets"] = {
-									["Electrocutioner 6000"] = 623,
-									["Leprous Assistant"] = 82,
-									["Peacekeeper Security Suit"] = 285,
-									["Irradiated Slime"] = 183,
-									["Caverndeep Burrower"] = 48,
-									["Viscous Fallout"] = 849,
-									["Mekgineer Thermaplugg"] = 764,
-									["Mechanized Sentry"] = 533,
-									["Arcane Nullifier X-21"] = 336,
-									["Mechanized Guardian"] = 546,
-									["Leprous Defender"] = 205,
-									["Dark Iron Agent"] = 123,
-									["Leprous Technician"] = 124,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 3587,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 100,
-								["total"] = 4701,
-								["c_max"] = 95,
-								["REFLECT"] = 1,
-								["id"] = 157736,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 86,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[42223] = {
-								["c_amt"] = 23,
-								["b_amt"] = 0,
-								["c_dmg"] = 1020,
-								["g_amt"] = 0,
-								["n_max"] = 24,
-								["targets"] = {
-									["Leprous Defender"] = 65,
-									["Mechanized Sentry"] = 1109,
-									["Leprous Assistant"] = 2065,
-									["Peacekeeper Security Suit"] = 375,
-									["Mechano-Tank"] = 88,
-									["Leprous Technician"] = 651,
-									["Mechanized Guardian"] = 430,
-									["Dark Iron Agent"] = 822,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 4585,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 233,
-								["total"] = 5605,
-								["c_max"] = 49,
-								["id"] = 42223,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 210,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[259756] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 24,
-								["targets"] = {
-									["Electrocutioner 6000"] = 54,
-									["Leprous Assistant"] = 17,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 2,
-									["Mechanized Guardian"] = 34,
-									["Viscous Fallout"] = 64,
-									["Mekgineer Thermaplugg"] = 80,
-									["Dark Iron Agent"] = 12,
-									["Mechano-Tank"] = 10,
-									["Arcane Nullifier X-21"] = 51,
-									["Leprous Defender"] = 11,
-									["Leprous Technician"] = 2,
-									["Mechanized Sentry"] = 46,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 383,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 70,
-								["total"] = 383,
-								["c_max"] = 0,
-								["REFLECT"] = 1,
-								["id"] = 259756,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 69,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[17877] = {
-								["c_amt"] = 10,
-								["b_amt"] = 0,
-								["c_dmg"] = 2044,
-								["g_amt"] = 0,
-								["n_max"] = 115,
-								["targets"] = {
-									["Electrocutioner 6000"] = 434,
-									["Arcane Nullifier X-21"] = 98,
-									["Leprous Assistant"] = 295,
-									["Peacekeeper Security Suit"] = 395,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 100,
-									["Irradiated Slime"] = 114,
-									["Caverndeep Burrower"] = 218,
-									["Viscous Fallout"] = 104,
-									["Mekgineer Thermaplugg"] = 742,
-									["Mechanized Sentry"] = 788,
-									["Mechano-Tank"] = 98,
-									["Mechanized Guardian"] = 828,
-									["Leprous Technician"] = 99,
-									["Caverndeep Ambusher"] = 209,
-									["Dark Iron Agent"] = 592,
-									["Leprous Defender"] = 603,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 3673,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 46,
-								["total"] = 5717,
-								["c_max"] = 219,
-								["id"] = 17877,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 36,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[17962] = {
-								["c_amt"] = 7,
-								["b_amt"] = 0,
-								["c_dmg"] = 2343,
-								["g_amt"] = 0,
-								["n_max"] = 191,
-								["targets"] = {
-									["Electrocutioner 6000"] = 855,
-									["Leprous Assistant"] = 494,
-									["Peacekeeper Security Suit"] = 328,
-									["Irradiated Slime"] = 346,
-									["Irradiated Horror"] = 174,
-									["Viscous Fallout"] = 713,
-									["Mekgineer Thermaplugg"] = 1019,
-									["Mechanized Sentry"] = 1647,
-									["Arcane Nullifier X-21"] = 345,
-									["Mechanized Guardian"] = 1152,
-									["Leprous Technician"] = 328,
-									["Leprous Defender"] = 661,
-									["Dark Iron Agent"] = 986,
-									["Caverndeep Burrower"] = 521,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 7226,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 50,
-								["total"] = 9569,
-								["c_max"] = 348,
-								["id"] = 17962,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 43,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["grupo"] = true,
-					["spec"] = 267,
-					["serial"] = "Player-3391-0B71A39B",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1599956393,
-					["delay"] = 0,
-					["damage_taken"] = 6029.084505,
-				}, -- [5]
-				{
-					["flag_original"] = 4370,
-					["totalabsorbed"] = 0.08644099999999999,
-					["damage_from"] = {
-						["Electrocutioner 6000"] = true,
-						["Irradiated Slime"] = true,
-						["Leprous Defender"] = true,
-						["Viscous Fallout"] = true,
-					},
-					["targets"] = {
-						["Electrocutioner 6000"] = 1163,
-						["Leprous Assistant"] = 456,
-						["Peacekeeper Security Suit"] = 160,
-						["Arcane Nullifier X-21"] = 561,
-						["Irradiated Slime"] = 231,
-						["Caverndeep Burrower"] = 522,
-						["Viscous Fallout"] = 1335,
-						["Mekgineer Thermaplugg"] = 1317,
-						["Mechanized Sentry"] = 2444,
-						["Mechanized Guardian"] = 1248,
-						["Dark Iron Land Mine <Dark Iron Agent>"] = 34,
-						["Dark Iron Agent"] = 700,
-						["Caverndeep Ambusher"] = 38,
-						["Leprous Technician"] = 215,
-						["Leprous Defender"] = 900,
-					},
-					["friendlyfire"] = {
-					},
-					["pets"] = {
-					},
-					["end_time"] = 1599956959,
-					["classe"] = "PET",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 11324.086441,
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
-					["dps_started"] = false,
-					["total"] = 11324.086441,
-					["friendlyfire_total"] = 0,
-					["ownerName"] = "Zanm-Silvermoon",
-					["nome"] = "Unknown <Zanm-Silvermoon>",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 30,
-								["b_amt"] = 0,
-								["c_dmg"] = 1893,
-								["g_amt"] = 0,
-								["n_max"] = 38,
-								["targets"] = {
-									["Electrocutioner 6000"] = 601,
-									["Leprous Assistant"] = 171,
-									["Peacekeeper Security Suit"] = 104,
-									["Arcane Nullifier X-21"] = 278,
-									["Irradiated Slime"] = 112,
-									["Caverndeep Burrower"] = 225,
-									["Viscous Fallout"] = 619,
-									["Mekgineer Thermaplugg"] = 644,
-									["Mechanized Sentry"] = 1148,
-									["Mechanized Guardian"] = 630,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 34,
-									["Dark Iron Agent"] = 418,
-									["Caverndeep Ambusher"] = 38,
-									["Leprous Technician"] = 103,
-									["Leprous Defender"] = 452,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 3684,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 145,
-								["total"] = 5577,
-								["c_max"] = 75,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 115,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[7814] = {
-								["c_amt"] = 13,
-								["b_amt"] = 0,
-								["c_dmg"] = 1496,
-								["g_amt"] = 0,
-								["n_max"] = 60,
-								["targets"] = {
-									["Electrocutioner 6000"] = 562,
-									["Leprous Assistant"] = 285,
-									["Peacekeeper Security Suit"] = 56,
-									["Irradiated Slime"] = 119,
-									["Caverndeep Burrower"] = 297,
-									["Viscous Fallout"] = 716,
-									["Mekgineer Thermaplugg"] = 673,
-									["Mechanized Sentry"] = 1296,
-									["Arcane Nullifier X-21"] = 283,
-									["Mechanized Guardian"] = 618,
-									["Leprous Defender"] = 448,
-									["Dark Iron Agent"] = 282,
-									["Leprous Technician"] = 112,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 4251,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 88,
-								["total"] = 5747,
-								["c_max"] = 120,
-								["id"] = 7814,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 75,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[6360] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Mechanized Guardian"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["REFLECT"] = 1,
-								["id"] = 6360,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["last_event"] = 0,
-					["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 342.086441,
-					["start_time"] = 1599956523,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [6]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.009114,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Rykahpriest"] = 66,
-						["Sberla-Silvermoon"] = 54,
-					},
-					["pets"] = {
-					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 120.009114,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599956959,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Caverndeep Ambusher",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 66,
-								["targets"] = {
-									["Rykahpriest"] = 66,
-									["Sberla-Silvermoon"] = 54,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 120,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 120,
-								["c_max"] = 0,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 54,
-								["m_crit"] = 0,
-								["a_amt"] = 2,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-						},
-					},
-					["monster"] = true,
-					["total"] = 120.009114,
-					["serial"] = "Creature-0-3891-90-14342-6207-00005D67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 833.0091140000001,
-					["start_time"] = 1599956941,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [7]
-				{
-					["flag_original"] = 1297,
-					["totalabsorbed"] = 295.087284,
-					["damage_from"] = {
-						["Leprous Assistant"] = true,
-						["Peacekeeper Security Suit"] = true,
-						["Irradiated Slime"] = true,
-						["Irradiated Horror"] = true,
-						["Viscous Fallout"] = true,
-						["Mechanized Guardian"] = true,
-						["Mechanized Sentry"] = true,
-						["Mechano-Tank"] = true,
-						["Dark Iron Agent"] = true,
-						["Leprous Technician"] = true,
-						["Caverndeep Ambusher"] = true,
-						["Rykahpriest"] = true,
-						["Leprous Defender"] = true,
-					},
-					["targets"] = {
-						["Peacekeeper Security Suit"] = 2110,
-						["Dark Iron Land Mine <Dark Iron Agent>"] = 267,
-						["Caverndeep Burrower"] = 870,
-						["Mekgineer Thermaplugg"] = 5559,
-						["Mechanized Sentry"] = 11587,
-						["Mechano-Tank"] = 2378,
-						["Leprous Technician"] = 2067,
-						["Electrocutioner 6000"] = 4401,
-						["Leprous Assistant"] = 6309,
-						["Viscous Fallout"] = 4234,
-						["Dark Iron Agent"] = 6999,
-						["Arcane Nullifier X-21"] = 1413,
-						["Irradiated Slime"] = 1027,
-						["Irradiated Horror"] = 578,
-						["Mechanized Guardian"] = 5770,
-						["Leprous Defender"] = 3731,
-						["Mobile Alert System"] = 77,
-						["Caverndeep Ambusher"] = 179,
-					},
-					["pets"] = {
-						"Void Tendril <Rykahpriest>", -- [1]
-					},
-					["friendlyfire"] = {
-						["Rykahpriest"] = {
-							["spells"] = {
-								[186439] = 295,
-								[585] = 323,
-							},
-							["total"] = 618,
-						},
-					},
-					["boss_fight_component"] = true,
-					["friendlyfire_total"] = 618,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 58459.08728399999,
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["total"] = 59556.08728399999,
-					["classe"] = "PRIEST",
-					["end_time"] = 1599956959,
-					["nome"] = "Rykahpriest",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							[47666] = {
-								["c_amt"] = 11,
-								["b_amt"] = 0,
-								["c_dmg"] = 2050,
-								["g_amt"] = 0,
-								["n_max"] = 112,
-								["targets"] = {
-									["Electrocutioner 6000"] = 744,
-									["Leprous Assistant"] = 277,
-									["Irradiated Slime"] = 558,
-									["Mechanized Guardian"] = 1022,
-									["Viscous Fallout"] = 1025,
-									["Mekgineer Thermaplugg"] = 1209,
-									["Dark Iron Agent"] = 930,
-									["Mechano-Tank"] = 334,
-									["Mechanized Sentry"] = 2142,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 6191,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 77,
-								["total"] = 8241,
-								["c_max"] = 187,
+								["counter"] = 23,
+								["total"] = 1851,
+								["c_max"] = 140,
 								["id"] = 47666,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -11651,38 +20003,28 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 66,
+								["n_amt"] = 18,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
 							[585] = {
-								["c_amt"] = 19,
+								["c_amt"] = 2,
 								["b_amt"] = 0,
-								["c_dmg"] = 5176,
+								["c_dmg"] = 351,
 								["g_amt"] = 0,
-								["n_max"] = 160,
+								["n_max"] = 95,
 								["targets"] = {
-									["Electrocutioner 6000"] = 2654,
-									["Peacekeeper Security Suit"] = 718,
-									["Irradiated Horror"] = 133,
-									["Viscous Fallout"] = 2132,
-									["Mekgineer Thermaplugg"] = 2659,
-									["Dark Iron Agent"] = 1490,
-									["Mechano-Tank"] = 640,
-									["Mechanized Guardian"] = 1865,
-									["Arcane Nullifier X-21"] = 771,
-									["Leprous Defender"] = 797,
-									["Mechanized Sentry"] = 1625,
-									["Caverndeep Burrower"] = 532,
+									["Bloodmaul Slaver"] = 278,
+									["Quakefist"] = 726,
+									["Bloodmaul Enforcer"] = 659,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 10840,
+								["n_dmg"] = 1312,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 101,
-								["total"] = 16016,
-								["c_max"] = 320,
-								["REFLECT"] = 2,
+								["counter"] = 17,
+								["total"] = 1663,
+								["c_max"] = 189,
 								["id"] = 585,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -11693,42 +20035,61 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 80,
+								["n_amt"] = 15,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[32379] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 150,
+								["targets"] = {
+									["Bloodmaul Slaver"] = 150,
+									["Quakefist"] = 128,
+									["Bloodmaul Enforcer"] = 148,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 426,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 426,
+								["c_max"] = 0,
+								["id"] = 32379,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
 							[589] = {
-								["c_amt"] = 100,
+								["c_amt"] = 17,
 								["b_amt"] = 0,
-								["c_dmg"] = 6133,
+								["c_dmg"] = 658,
 								["g_amt"] = 0,
-								["n_max"] = 46,
+								["n_max"] = 27,
 								["targets"] = {
-									["Peacekeeper Security Suit"] = 739,
-									["Irradiated Slime"] = 392,
-									["Caverndeep Burrower"] = 307,
-									["Mekgineer Thermaplugg"] = 1252,
-									["Mechanized Sentry"] = 3531,
-									["Mechano-Tank"] = 658,
-									["Leprous Technician"] = 1118,
-									["Electrocutioner 6000"] = 938,
-									["Leprous Assistant"] = 3148,
-									["Viscous Fallout"] = 1036,
-									["Arcane Nullifier X-21"] = 596,
-									["Mechanized Guardian"] = 1992,
-									["Irradiated Horror"] = 382,
-									["Dark Iron Agent"] = 2726,
-									["Leprous Defender"] = 1756,
-									["Mobile Alert System"] = 77,
-									["Caverndeep Ambusher"] = 173,
+									["Quakefist"] = 451,
+									["Bloodmaul Slaver"] = 687,
+									["Bloodmaul Overseer"] = 175,
+									["Bloodmaul Enforcer"] = 1148,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 14688,
+								["n_dmg"] = 1803,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 585,
-								["total"] = 20821,
-								["c_max"] = 77,
+								["counter"] = 108,
+								["total"] = 2461,
+								["c_max"] = 55,
 								["id"] = 589,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -11739,37 +20100,29 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 485,
+								["n_amt"] = 91,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
-							[132157] = {
-								["c_amt"] = 39,
+							[8092] = {
+								["c_amt"] = 1,
 								["b_amt"] = 0,
-								["c_dmg"] = 4679,
+								["c_dmg"] = 244,
 								["g_amt"] = 0,
-								["n_max"] = 68,
+								["n_max"] = 143,
 								["targets"] = {
-									["Leprous Assistant"] = 2828,
-									["Peacekeeper Security Suit"] = 643,
-									["Irradiated Slime"] = 56,
-									["Irradiated Horror"] = 56,
-									["Mechanized Sentry"] = 3485,
-									["Mechano-Tank"] = 728,
-									["Mechanized Guardian"] = 851,
-									["Dark Iron Agent"] = 1797,
-									["Leprous Defender"] = 1124,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 267,
-									["Leprous Technician"] = 928,
+									["Bloodmaul Slaver"] = 143,
+									["Quakefist"] = 364,
+									["Bloodmaul Enforcer"] = 286,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 8084,
+								["n_dmg"] = 549,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 177,
-								["total"] = 12763,
-								["c_max"] = 135,
-								["id"] = 132157,
+								["counter"] = 5,
+								["total"] = 793,
+								["c_max"] = 244,
+								["id"] = 8092,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -11779,7 +20132,7 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 138,
+								["n_amt"] = 4,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
@@ -11788,31 +20141,19 @@ _detalhes_database = {
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 13,
+								["n_max"] = 8,
 								["targets"] = {
-									["Electrocutioner 6000"] = 65,
-									["Arcane Nullifier X-21"] = 46,
-									["Leprous Assistant"] = 56,
-									["Peacekeeper Security Suit"] = 10,
-									["Mechanized Guardian"] = 40,
-									["Irradiated Slime"] = 21,
-									["Caverndeep Burrower"] = 31,
-									["Viscous Fallout"] = 41,
-									["Mekgineer Thermaplugg"] = 41,
-									["Mechanized Sentry"] = 105,
-									["Mechano-Tank"] = 18,
-									["Dark Iron Agent"] = 56,
-									["Leprous Technician"] = 21,
-									["Caverndeep Ambusher"] = 6,
-									["Leprous Defender"] = 54,
-									["Irradiated Horror"] = 7,
+									["Quakefist"] = 39,
+									["Bloodmaul Slaver"] = 6,
+									["Bloodmaul Overseer"] = 8,
+									["Bloodmaul Enforcer"] = 14,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 618,
+								["n_dmg"] = 67,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 218,
-								["total"] = 618,
+								["counter"] = 27,
+								["total"] = 67,
 								["c_max"] = 0,
 								["id"] = 259756,
 								["r_dmg"] = 0,
@@ -11824,101 +20165,68 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 218,
+								["n_amt"] = 27,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
 						},
 					},
-					["grupo"] = true,
-					["on_hold"] = false,
-					["spec"] = 256,
 					["serial"] = "Player-1303-0B65E197",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1599956364,
+					["damage_taken"] = 775.0243399999999,
+					["start_time"] = 1603409098,
 					["delay"] = 0,
-					["damage_taken"] = 11662.087284,
-				}, -- [8]
+					["last_dps"] = 0,
+				}, -- [6]
 				{
 					["flag_original"] = 1298,
-					["totalabsorbed"] = 50.060954,
+					["totalabsorbed"] = 0.009134999999999999,
 					["damage_from"] = {
-						["Leprous Assistant"] = true,
-						["Irradiated Slime"] = true,
-						["Mechanized Guardian"] = true,
-						["Viscous Fallout"] = true,
-						["Environment (Falling)"] = true,
-						["Dark Iron Agent"] = true,
-						["Walking Bomb"] = true,
-						["Leprous Defender"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Leprous Technician"] = true,
+						["Bloodmaul Slaver"] = true,
 					},
 					["targets"] = {
-						["Peacekeeper Security Suit"] = 1030,
-						["Dark Iron Land Mine <Dark Iron Agent>"] = 200,
-						["Caverndeep Burrower"] = 332,
-						["Mekgineer Thermaplugg"] = 8536,
-						["Mechanized Sentry"] = 11855,
-						["Mechano-Tank"] = 1036,
-						["Leprous Technician"] = 841,
-						["Electrocutioner 6000"] = 6755,
-						["Leprous Assistant"] = 3559,
-						["Viscous Fallout"] = 5386,
-						["Irradiated Slime"] = 525,
-						["Dark Iron Agent"] = 7564,
-						["Arcane Nullifier X-21"] = 2713,
-						["Walking Bomb"] = 127,
-						["Leprous Defender"] = 5394,
-						["Irradiated Horror"] = 1881,
-						["Mechanized Guardian"] = 9118,
+						["Bloodmaul Slaver"] = 3525,
+						["Bloodmaul Overseer"] = 1423,
+						["Bloodmaul Enforcer"] = 3838,
 					},
+					["friendlyfire_total"] = 0,
 					["pets"] = {
-						"Treant <Juraak-Silvermoon>", -- [1]
 					},
-					["friendlyfire"] = {
-						["Juraak-Silvermoon"] = {
-							["spells"] = {
-								[190984] = 206,
-								[78674] = 402,
-								[186439] = 250,
-							},
-							["total"] = 858,
-						},
-					},
-					["boss_fight_component"] = true,
-					["friendlyfire_total"] = 858,
+					["last_event"] = 0,
+					["classe"] = "DRUID",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 62071.06095399999,
-					["fight_component"] = true,
-					["last_event"] = 0,
+					["total_without_pet"] = 8786.009135,
+					["end_time"] = 1603409219,
+					["friendlyfire"] = {
+					},
 					["dps_started"] = false,
-					["total"] = 66852.060954,
-					["classe"] = "DRUID",
-					["end_time"] = 1599956959,
-					["nome"] = "Juraak-Silvermoon",
+					["total"] = 8786.009135,
+					["aID"] = "3702-09D9D5D2",
+					["on_hold"] = false,
+					["nome"] = "Raydruid-ArgentDawn",
 					["spells"] = {
 						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 1,
+								["c_amt"] = 21,
 								["b_amt"] = 0,
-								["c_dmg"] = 73,
+								["c_dmg"] = 968,
 								["g_amt"] = 0,
-								["n_max"] = 92,
+								["n_max"] = 27,
 								["targets"] = {
-									["Leprous Assistant"] = 165,
+									["Bloodmaul Slaver"] = 1127,
+									["Bloodmaul Overseer"] = 250,
+									["Bloodmaul Enforcer"] = 1235,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 92,
+								["n_dmg"] = 1644,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 165,
-								["c_max"] = 73,
+								["counter"] = 92,
+								["total"] = 2612,
+								["c_max"] = 54,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -11929,197 +20237,29 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 1,
+								["n_amt"] = 71,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							}, -- [1]
-							[8921] = {
-								["c_amt"] = 0,
+							[1079] = {
+								["c_amt"] = 8,
 								["b_amt"] = 0,
-								["c_dmg"] = 0,
+								["c_dmg"] = 458,
 								["g_amt"] = 0,
-								["n_max"] = 0,
+								["n_max"] = 31,
 								["targets"] = {
-									["Mechanized Guardian"] = 0,
+									["Bloodmaul Slaver"] = 297,
+									["Bloodmaul Overseer"] = 378,
+									["Bloodmaul Enforcer"] = 591,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 0,
+								["n_dmg"] = 808,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 0,
-								["c_max"] = 0,
-								["REFLECT"] = 1,
-								["id"] = 8921,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[190984] = {
-								["c_amt"] = 7,
-								["b_amt"] = 0,
-								["c_dmg"] = 1463,
-								["g_amt"] = 0,
-								["n_max"] = 106,
-								["targets"] = {
-									["Electrocutioner 6000"] = 1338,
-									["Leprous Assistant"] = 105,
-									["Peacekeeper Security Suit"] = 103,
-									["Irradiated Slime"] = 206,
-									["Irradiated Horror"] = 103,
-									["Viscous Fallout"] = 826,
-									["Mekgineer Thermaplugg"] = 2001,
-									["Dark Iron Agent"] = 634,
-									["Mechano-Tank"] = 316,
-									["Mechanized Guardian"] = 1266,
-									["Leprous Defender"] = 521,
-									["Arcane Nullifier X-21"] = 737,
-									["Mechanized Sentry"] = 1342,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 8035,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 86,
-								["total"] = 9498,
-								["c_max"] = 212,
-								["REFLECT"] = 2,
-								["id"] = 190984,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 77,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[164812] = {
-								["c_amt"] = 36,
-								["b_amt"] = 0,
-								["c_dmg"] = 1507,
-								["g_amt"] = 0,
-								["n_max"] = 24,
-								["targets"] = {
-									["Electrocutioner 6000"] = 497,
-									["Leprous Assistant"] = 86,
-									["Peacekeeper Security Suit"] = 172,
-									["Irradiated Slime"] = 104,
-									["Irradiated Horror"] = 250,
-									["Viscous Fallout"] = 581,
-									["Mekgineer Thermaplugg"] = 863,
-									["Mechanized Sentry"] = 892,
-									["Mechanized Guardian"] = 1016,
-									["Arcane Nullifier X-21"] = 310,
-									["Leprous Defender"] = 379,
-									["Dark Iron Agent"] = 449,
-									["Caverndeep Burrower"] = 84,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 4176,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 235,
-								["total"] = 5683,
-								["c_max"] = 45,
-								["id"] = 164812,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 199,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[78674] = {
-								["c_amt"] = 5,
-								["b_amt"] = 0,
-								["c_dmg"] = 4019,
-								["g_amt"] = 0,
-								["n_max"] = 406,
-								["targets"] = {
-									["Electrocutioner 6000"] = 2381,
-									["Leprous Assistant"] = 405,
-									["Irradiated Horror"] = 396,
-									["Viscous Fallout"] = 1587,
-									["Mekgineer Thermaplugg"] = 2835,
-									["Dark Iron Agent"] = 1215,
-									["Mechano-Tank"] = 405,
-									["Arcane Nullifier X-21"] = 810,
-									["Leprous Defender"] = 2010,
-									["Mechanized Guardian"] = 3238,
-									["Mechanized Sentry"] = 2779,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 14042,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 41,
-								["total"] = 18061,
-								["c_max"] = 811,
-								["REFLECT"] = 1,
-								["id"] = 78674,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 35,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[164815] = {
-								["c_amt"] = 83,
-								["b_amt"] = 0,
-								["c_dmg"] = 3832,
-								["g_amt"] = 0,
-								["n_max"] = 32,
-								["targets"] = {
-									["Electrocutioner 6000"] = 470,
-									["Leprous Assistant"] = 1389,
-									["Peacekeeper Security Suit"] = 377,
-									["Irradiated Slime"] = 172,
-									["Irradiated Horror"] = 258,
-									["Viscous Fallout"] = 685,
-									["Mekgineer Thermaplugg"] = 1003,
-									["Mechanized Sentry"] = 3004,
-									["Arcane Nullifier X-21"] = 472,
-									["Mechanized Guardian"] = 1635,
-									["Dark Iron Agent"] = 2445,
-									["Leprous Defender"] = 1022,
-									["Leprous Technician"] = 518,
-									["Caverndeep Burrower"] = 117,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 9735,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 507,
-								["total"] = 13567,
+								["counter"] = 36,
+								["total"] = 1266,
 								["c_max"] = 63,
-								["id"] = 164815,
+								["id"] = 1079,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -12129,423 +20269,60 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 424,
+								["n_amt"] = 28,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
-							[194153] = {
-								["c_amt"] = 23,
+							[5221] = {
+								["c_amt"] = 2,
 								["b_amt"] = 0,
-								["c_dmg"] = 4970,
+								["c_dmg"] = 229,
 								["g_amt"] = 0,
-								["n_max"] = 162,
+								["n_max"] = 63,
 								["targets"] = {
-									["Peacekeeper Security Suit"] = 211,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 158,
-									["Caverndeep Burrower"] = 131,
-									["Mekgineer Thermaplugg"] = 1128,
-									["Mechanized Sentry"] = 2677,
-									["Mechano-Tank"] = 294,
-									["Leprous Technician"] = 104,
-									["Electrocutioner 6000"] = 1369,
-									["Leprous Assistant"] = 782,
-									["Arcane Nullifier X-21"] = 322,
-									["Irradiated Horror"] = 133,
-									["Dark Iron Agent"] = 1829,
-									["Irradiated Slime"] = 43,
-									["Walking Bomb"] = 106,
-									["Leprous Defender"] = 1073,
-									["Viscous Fallout"] = 1585,
-									["Mechanized Guardian"] = 1690,
+									["Bloodmaul Slaver"] = 223,
+									["Bloodmaul Enforcer"] = 515,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 8665,
+								["n_dmg"] = 509,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 107,
-								["total"] = 13635,
-								["c_max"] = 324,
-								["id"] = 194153,
+								["counter"] = 11,
+								["total"] = 738,
+								["c_max"] = 120,
+								["id"] = 5221,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 84,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[279729] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 43,
-								["targets"] = {
-									["Electrocutioner 6000"] = 121,
-									["Leprous Assistant"] = 19,
-									["Peacekeeper Security Suit"] = 40,
-									["Dark Iron Land Mine <Dark Iron Agent>"] = 42,
-									["Mechanized Guardian"] = 188,
-									["Viscous Fallout"] = 122,
-									["Mekgineer Thermaplugg"] = 186,
-									["Dark Iron Agent"] = 274,
-									["Mechano-Tank"] = 21,
-									["Walking Bomb"] = 21,
-									["Leprous Defender"] = 101,
-									["Arcane Nullifier X-21"] = 62,
-									["Mechanized Sentry"] = 265,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1462,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 65,
-								["total"] = 1462,
-								["c_max"] = 0,
-								["id"] = 279729,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 65,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["grupo"] = true,
-					["on_hold"] = false,
-					["spec"] = 102,
-					["serial"] = "Player-3391-0B77CF83",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1599956386,
-					["delay"] = 0,
-					["damage_taken"] = 5337.060954000001,
-				}, -- [9]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 1029.027343,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Zanm-Silvermoon"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Juraak-Silvermoon"] = 330,
-						["Sberla-Silvermoon"] = 1415,
-						["Unknown <Zanm-Silvermoon>"] = 3,
-						["Zanm-Silvermoon"] = 469,
-						["Treant <Juraak-Silvermoon>"] = 64,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 63,
-						["Rykahpriest"] = 465,
-						["Worgylegoshi-Thunderhorn"] = 630,
-					},
-					["boss_fight_component"] = true,
-					["pets"] = {
-					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 3439.027343,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957011,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Irradiated Slime",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 178,
-								["targets"] = {
-									["Treant"] = 0,
-									["Treant <Juraak-Silvermoon>"] = 40,
-									["Sberla-Silvermoon"] = 984,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1024,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 10,
-								["total"] = 1024,
-								["c_max"] = 0,
-								["MISS"] = 1,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 672,
-								["m_crit"] = 0,
-								["a_amt"] = 6,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 9,
 								["r_amt"] = 0,
 								["c_min"] = 0,
-							}, -- [1]
-							[81039] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 172,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 200,
-									["Juraak-Silvermoon"] = 194,
-									["Zanm-Silvermoon"] = 200,
-									["Treant <Juraak-Silvermoon>"] = 24,
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 43,
-									["Rykahpriest"] = 195,
-									["Worgylegoshi-Thunderhorn"] = 207,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1063,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 39,
-								["total"] = 1063,
-								["c_max"] = 0,
-								["id"] = 81039,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 176,
-								["m_crit"] = 0,
-								["a_amt"] = 2,
-								["m_amt"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 39,
-								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
-							[10341] = {
-								["c_amt"] = 0,
+							[155722] = {
+								["c_amt"] = 21,
 								["b_amt"] = 0,
-								["c_dmg"] = 0,
+								["c_dmg"] = 1314,
 								["g_amt"] = 0,
-								["n_max"] = 54,
+								["n_max"] = 35,
 								["targets"] = {
-									["Juraak-Silvermoon"] = 136,
-									["Unknown <Zanm-Silvermoon>"] = 3,
-									["Zanm-Silvermoon"] = 269,
-									["Sberla-Silvermoon"] = 231,
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 20,
-									["Rykahpriest"] = 270,
-									["Worgylegoshi-Thunderhorn"] = 423,
+									["Bloodmaul Slaver"] = 1289,
+									["Bloodmaul Overseer"] = 459,
+									["Bloodmaul Enforcer"] = 955,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 1352,
+								["n_dmg"] = 1389,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 37,
-								["total"] = 1352,
-								["c_max"] = 0,
-								["id"] = 10341,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 392,
-								["m_crit"] = 0,
-								["a_amt"] = 8,
-								["m_amt"] = 0,
-								["successful_casted"] = 2,
-								["b_dmg"] = 0,
-								["n_amt"] = 37,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["monster"] = true,
-					["total"] = 3439.027343,
-					["serial"] = "Creature-0-3891-90-14342-6218-00015D67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 9247.027343000002,
-					["start_time"] = 1599956946,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [10]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.014199,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Sberla-Silvermoon"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Treant <Juraak-Silvermoon>"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Treant <Juraak-Silvermoon>"] = 220,
-						["Rykahpriest"] = 173,
-						["Sberla-Silvermoon"] = 198,
-					},
-					["boss_fight_component"] = true,
-					["pets"] = {
-					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 591.014199,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957011,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Irradiated Horror",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 173,
-								["targets"] = {
-									["Treant <Juraak-Silvermoon>"] = 220,
-									["Rykahpriest"] = 173,
-									["Sberla-Silvermoon"] = 198,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 591,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 8,
-								["total"] = 591,
-								["c_max"] = 0,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 198,
-								["m_crit"] = 0,
-								["a_amt"] = 2,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 8,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-						},
-					},
-					["monster"] = true,
-					["total"] = 591.014199,
-					["serial"] = "Creature-0-3891-90-14342-6220-00035D67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 4477.014199,
-					["start_time"] = 1599956994,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [11]
-				{
-					["flag_original"] = 8466,
-					["totalabsorbed"] = 0.038139,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Electrocutioner 6000"] = true,
-						["Leprous Assistant"] = true,
-						["Peacekeeper Security Suit"] = true,
-						["Irradiated Slime"] = true,
-						["Irradiated Horror"] = true,
-						["Mekgineer Thermaplugg"] = true,
-						["Mechanized Sentry"] = true,
-						["Mechanized Guardian"] = true,
-						["Leprous Defender"] = true,
-						["Dark Iron Agent"] = true,
-						["Leprous Technician"] = true,
-					},
-					["targets"] = {
-						["Electrocutioner 6000"] = 579,
-						["Leprous Assistant"] = 608,
-						["Peacekeeper Security Suit"] = 127,
-						["Irradiated Horror"] = 741,
-						["Mekgineer Thermaplugg"] = 520,
-						["Dark Iron Agent"] = 718,
-						["Mechanized Guardian"] = 85,
-						["Leprous Technician"] = 219,
-						["Mechanized Sentry"] = 896,
-						["Leprous Defender"] = 288,
-					},
-					["boss_fight_component"] = true,
-					["pets"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["classe"] = "PET",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 4781.038139,
-					["end_time"] = 1599957011,
-					["dps_started"] = false,
-					["total"] = 4781.038139,
-					["last_event"] = 0,
-					["ownerName"] = "Juraak-Silvermoon",
-					["nome"] = "Treant <Juraak-Silvermoon>",
-					["friendlyfire"] = {
-					},
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 24,
-								["b_amt"] = 0,
-								["c_dmg"] = 1460,
-								["g_amt"] = 0,
-								["n_max"] = 33,
-								["targets"] = {
-									["Electrocutioner 6000"] = 579,
-									["Leprous Assistant"] = 608,
-									["Peacekeeper Security Suit"] = 127,
-									["Irradiated Horror"] = 741,
-									["Mekgineer Thermaplugg"] = 520,
-									["Dark Iron Agent"] = 718,
-									["Mechanized Guardian"] = 85,
-									["Leprous Technician"] = 219,
-									["Mechanized Sentry"] = 896,
-									["Leprous Defender"] = 288,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 3321,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 137,
-								["total"] = 4781,
-								["c_max"] = 66,
-								["id"] = 1,
+								["counter"] = 66,
+								["total"] = 2703,
+								["c_max"] = 69,
+								["id"] = 155722,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -12555,353 +20332,129 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 113,
+								["n_amt"] = 45,
 								["r_amt"] = 0,
 								["c_min"] = 0,
-							}, -- [1]
-						},
-					},
-					["serial"] = "Creature-0-3891-90-14342-103822-00005D6808",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1599956922,
-					["delay"] = 0,
-					["damage_taken"] = 4433.038138999999,
-				}, -- [12]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 1345.004896,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Sberla-Silvermoon"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Zanm-Silvermoon"] = 236,
-						["Unknown <Zanm-Silvermoon>"] = 92,
-						["Sberla-Silvermoon"] = 5373,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 93,
-						["Juraak-Silvermoon"] = 222,
-						["Rykahpriest"] = 236,
-						["Worgylegoshi-Thunderhorn"] = 241,
-					},
-					["pets"] = {
-					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 6493.004896,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957063,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Viscous Fallout",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
+							},
+							[1822] = {
+								["c_amt"] = 6,
 								["b_amt"] = 0,
-								["c_dmg"] = 0,
+								["c_dmg"] = 434,
 								["g_amt"] = 0,
-								["n_max"] = 344,
+								["n_max"] = 41,
 								["targets"] = {
-									["Sberla-Silvermoon"] = 5196,
+									["Bloodmaul Slaver"] = 404,
+									["Bloodmaul Overseer"] = 181,
+									["Bloodmaul Enforcer"] = 252,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 5196,
+								["n_dmg"] = 403,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 25,
-								["total"] = 5196,
-								["c_max"] = 0,
-								["DODGE"] = 3,
-								["id"] = 1,
+								["counter"] = 17,
+								["total"] = 837,
+								["c_max"] = 82,
+								["id"] = 1822,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 4272,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 19,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 22,
+								["n_amt"] = 11,
 								["r_amt"] = 0,
 								["c_min"] = 0,
-							}, -- [1]
-							[21687] = {
+							},
+							[22568] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 80,
+								["n_max"] = 185,
 								["targets"] = {
-									["Zanm-Silvermoon"] = 236,
-									["Unknown <Zanm-Silvermoon>"] = 92,
-									["Sberla-Silvermoon"] = 177,
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 93,
-									["Juraak-Silvermoon"] = 222,
-									["Rykahpriest"] = 236,
-									["Worgylegoshi-Thunderhorn"] = 241,
+									["Bloodmaul Slaver"] = 185,
+									["Bloodmaul Overseer"] = 155,
+									["Bloodmaul Enforcer"] = 290,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 1297,
+								["n_dmg"] = 630,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 84,
-								["total"] = 1297,
+								["counter"] = 4,
+								["total"] = 630,
 								["c_max"] = 0,
-								["id"] = 21687,
+								["id"] = 22568,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 97,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 3,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 4,
+								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 84,
+								["n_amt"] = 4,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
 						},
 					},
-					["monster"] = true,
-					["total"] = 6493.004896,
-					["serial"] = "Creature-0-3891-90-14342-7079-00005D67AA",
+					["grupo"] = true,
+					["spec"] = 103,
+					["serial"] = "Player-3702-09D9D5D2",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 27425.004896,
-					["start_time"] = 1599957013,
-					["delay"] = 0,
 					["last_dps"] = 0,
-				}, -- [13]
+					["start_time"] = 1603409128,
+					["delay"] = 0,
+					["damage_taken"] = 74.009135,
+				}, -- [7]
 				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 5132.03587,
-					["damage_from"] = {
-						["Void Tendril <Rykahpriest>"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Rykahpriest"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Treant <Juraak-Silvermoon>"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Zanm-Silvermoon"] = 2071,
-						["Treant <Juraak-Silvermoon>"] = 1082,
-						["Sberla-Silvermoon"] = 9441,
-						["Rykahpriest"] = 2345,
-						["Worgylegoshi-Thunderhorn"] = 507,
-					},
-					["pets"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 15446.03587,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["monster"] = true,
-					["total"] = 15446.03587,
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Mechanized Sentry",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 3,
-								["b_amt"] = 0,
-								["c_dmg"] = 1106,
-								["g_amt"] = 0,
-								["n_max"] = 215,
-								["targets"] = {
-									["Treant <Juraak-Silvermoon>"] = 1082,
-									["Zanm-Silvermoon"] = 2071,
-									["Treant"] = 0,
-									["Sberla-Silvermoon"] = 9441,
-									["Rykahpriest"] = 2345,
-									["Worgylegoshi-Thunderhorn"] = 507,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 14340,
-								["a_amt"] = 65,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 148,
-								["DODGE"] = 8,
-								["total"] = 15446,
-								["c_max"] = 404,
-								["MISS"] = 5,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 6760,
-								["m_crit"] = 0,
-								["PARRY"] = 3,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 129,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-						},
-					},
-					["friendlyfire"] = {
-					},
+					["flag_original"] = 2632,
+					["totalabsorbed"] = 428.02412,
 					["dps_started"] = false,
-					["end_time"] = 1599957104,
-					["serial"] = "Creature-0-3891-90-14342-6233-00025D67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1599956894,
-					["delay"] = 0,
-					["damage_taken"] = 58787.03587,
-				}, -- [14]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 1389.01165,
 					["damage_from"] = {
-						["Sberla-Silvermoon"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Treant <Juraak-Silvermoon>"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
 					},
 					["targets"] = {
-						["Unknown <Zanm-Silvermoon>"] = 9,
-						["Sberla-Silvermoon"] = 3205,
-						["Treant <Juraak-Silvermoon>"] = 84,
-						["Juraak-Silvermoon"] = 197,
-						["Rykahpriest"] = 1643,
-						["Worgylegoshi-Thunderhorn"] = 44,
+						["Rykahpriest"] = 428,
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
+					["end_time"] = 1603409219,
+					["on_hold"] = false,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 5182.01165,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["monster"] = true,
-					["total"] = 5182.01165,
+					["total_without_pet"] = 428.02412,
 					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Leprous Defender",
+					["monster"] = true,
+					["total"] = 428.02412,
+					["aID"] = "",
+					["last_event"] = 0,
+					["nome"] = "[*] Shadow Word: Death",
 					["spells"] = {
 						["tipo"] = 2,
 						["_ActorTable"] = {
-							{
+							[32409] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 207,
+								["n_max"] = 151,
 								["targets"] = {
-									["Treant"] = 0,
-									["Treant <Juraak-Silvermoon>"] = 84,
-									["Rykahpriest"] = 773,
-									["Sberla-Silvermoon"] = 2786,
+									["Rykahpriest"] = 428,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 3643,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 36,
-								["total"] = 3643,
-								["c_max"] = 0,
-								["DODGE"] = 2,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 1902,
-								["m_crit"] = 0,
-								["a_amt"] = 23,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 34,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[6660] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 48,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 263,
-									["Juraak-Silvermoon"] = 197,
-									["Rykahpriest"] = 870,
-									["Worgylegoshi-Thunderhorn"] = 44,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1374,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 39,
-								["MISS"] = 2,
-								["total"] = 1374,
-								["c_max"] = 0,
-								["DODGE"] = 1,
-								["id"] = 6660,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 310,
-								["m_crit"] = 0,
-								["a_amt"] = 10,
-								["m_amt"] = 0,
-								["successful_casted"] = 35,
-								["b_dmg"] = 0,
-								["n_amt"] = 36,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[14443] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 156,
-								["targets"] = {
-									["Juraak-Silvermoon"] = 0,
-									["Unknown <Zanm-Silvermoon>"] = 9,
-									["Sberla-Silvermoon"] = 156,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 165,
+								["n_dmg"] = 428,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 3,
-								["total"] = 165,
+								["total"] = 428,
 								["c_max"] = 0,
-								["DODGE"] = 1,
-								["id"] = 14443,
+								["id"] = 32409,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -12909,9 +20462,9 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 2,
+								["n_amt"] = 3,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
@@ -12919,131 +20472,74 @@ _detalhes_database = {
 					},
 					["friendlyfire"] = {
 					},
-					["dps_started"] = false,
-					["end_time"] = 1599957157,
-					["serial"] = "Creature-0-3891-90-14342-6223-00025D67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1599957043,
-					["delay"] = 0,
-					["damage_taken"] = 22879.01165,
-				}, -- [15]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.010166,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Rykahpriest"] = true,
-						["Sberla-Silvermoon"] = true,
-					},
-					["targets"] = {
-					},
-					["pets"] = {
-					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.010166,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957205,
-					["friendlyfire"] = {
-					},
 					["friendlyfire_total"] = 0,
-					["nome"] = "Mobile Alert System",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-						},
-					},
-					["monster"] = true,
-					["total"] = 0.010166,
-					["serial"] = "Creature-0-3891-90-14342-7849-00005D67AA",
+					["serial"] = "",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 139.010166,
-					["start_time"] = 1599957202,
-					["delay"] = 0,
 					["last_dps"] = 0,
-				}, -- [16]
+					["start_time"] = 1603409213,
+					["delay"] = 0,
+					["damage_taken"] = 0.02412,
+				}, -- [8]
 				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 1985.029348,
+					["totalabsorbed"] = 114.014783,
 					["damage_from"] = {
-						["Sberla-Silvermoon"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Treant <Juraak-Silvermoon>"] = true,
-						["Juraak-Silvermoon"] = true,
+						["Allegoria-Outland"] = true,
+						["Larriianna-Silvermoon"] = true,
+						["Garrithas-ArgentDawn"] = true,
 						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
+						["Raydruid-ArgentDawn"] = true,
 					},
 					["targets"] = {
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 1001,
-						["Zanm-Silvermoon"] = 56,
-						["Sberla-Silvermoon"] = 2777,
-						["Treant <Juraak-Silvermoon>"] = 362,
-						["Juraak-Silvermoon"] = 275,
-						["Rykahpriest"] = 2089,
-						["Worgylegoshi-Thunderhorn"] = 784,
+						["Garrithas-ArgentDawn"] = 950,
 					},
+					["dps_started"] = false,
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
+					["last_event"] = 0,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 7344.029348,
-					["last_event"] = 0,
+					["total_without_pet"] = 950.0147830000001,
 					["on_hold"] = false,
+					["end_time"] = 1603409285,
 					["monster"] = true,
-					["total"] = 7344.029348,
+					["total"] = 950.0147830000001,
 					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Leprous Assistant",
+					["aID"] = "",
+					["nome"] = "Bloodmaul Overseer",
 					["spells"] = {
 						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 114,
+								["c_amt"] = 0,
+								["b_amt"] = 4,
+								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 73,
+								["n_max"] = 214,
 								["targets"] = {
-									["Sberla-Silvermoon"] = 2777,
-									["Rykahpriest"] = 2089,
-									["Ravager"] = 0,
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 1001,
-									["Treant"] = 0,
-									["Treant <Juraak-Silvermoon>"] = 362,
-									["Juraak-Silvermoon"] = 275,
-									["Zanm-Silvermoon"] = 56,
-									["Worgylegoshi-Thunderhorn"] = 784,
+									["Garrithas-ArgentDawn"] = 950,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 7230,
-								["MISS"] = 3,
+								["n_dmg"] = 950,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 180,
-								["a_amt"] = 35,
-								["total"] = 7344,
-								["c_max"] = 114,
-								["DODGE"] = 9,
+								["counter"] = 8,
+								["total"] = 950,
+								["c_max"] = 0,
+								["a_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 1137,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["PARRY"] = 3,
+								["PARRY"] = 1,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 164,
+								["b_dmg"] = 489,
+								["n_amt"] = 7,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							}, -- [1]
@@ -13051,133 +20547,83 @@ _detalhes_database = {
 					},
 					["friendlyfire"] = {
 					},
-					["dps_started"] = false,
-					["end_time"] = 1599957247,
-					["serial"] = "Creature-0-3891-90-14342-7603-000FDD67AA",
+					["friendlyfire_total"] = 0,
+					["serial"] = "Vehicle-0-3770-1175-20951-75426-00001214DE",
 					["custom"] = 0,
 					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1599957122,
+					["start_time"] = 1603409255,
 					["delay"] = 0,
-					["damage_taken"] = 26450.029348,
-				}, -- [17]
+					["damage_taken"] = 7884.014783,
+				}, -- [9]
 				{
 					["flag_original"] = 2632,
-					["totalabsorbed"] = 384.033579,
-					["on_hold"] = false,
+					["totalabsorbed"] = 994.0078579999999,
 					["damage_from"] = {
-						["Zanm-Silvermoon"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Treant <Juraak-Silvermoon>"] = true,
-						["Juraak-Silvermoon"] = true,
+						["Allegoria-Outland"] = true,
+						["Larriianna-Silvermoon"] = true,
+						["Garrithas-ArgentDawn"] = true,
 						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
+						["Raydruid-ArgentDawn"] = true,
 					},
 					["targets"] = {
-						["Zanm-Silvermoon"] = 254,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 289,
-						["Sberla-Silvermoon"] = 473,
-						["Treant <Juraak-Silvermoon>"] = 202,
-						["Juraak-Silvermoon"] = 146,
-						["Rykahpriest"] = 731,
-						["Worgylegoshi-Thunderhorn"] = 176,
+						["Allegoria-Outland"] = 403,
+						["Larriianna-Silvermoon"] = 151,
+						["Garrithas-ArgentDawn"] = 3794,
+						["Rykahpriest"] = 180,
+						["Raydruid-ArgentDawn"] = 74,
 					},
-					["boss_fight_component"] = true,
+					["on_hold"] = false,
 					["pets"] = {
 					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 2271.033579,
-					["last_event"] = 0,
+					["total_without_pet"] = 4602.007858,
+					["classe"] = "UNKNOW",
+					["end_time"] = 1603409285,
 					["dps_started"] = false,
-					["end_time"] = 1599957247,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Leprous Technician",
+					["total"] = 4602.007858,
+					["fight_component"] = true,
+					["aID"] = "75191",
+					["nome"] = "Bloodmaul Slaver",
 					["spells"] = {
 						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
-								["b_amt"] = 0,
+								["b_amt"] = 5,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 63,
+								["n_max"] = 214,
 								["targets"] = {
-									["Zanm-Silvermoon"] = 125,
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 142,
-									["Sberla-Silvermoon"] = 344,
-									["Treant <Juraak-Silvermoon>"] = 173,
-									["Juraak-Silvermoon"] = 47,
-									["Rykahpriest"] = 150,
-									["Worgylegoshi-Thunderhorn"] = 54,
+									["Garrithas-ArgentDawn"] = 3794,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 1035,
+								["n_dmg"] = 3794,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 31,
-								["total"] = 1035,
-								["c_max"] = 0,
-								["DODGE"] = 1,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 188,
-								["m_crit"] = 0,
-								["a_amt"] = 5,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 30,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[13398] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 47,
-								["targets"] = {
-									["Zanm-Silvermoon"] = 129,
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 147,
-									["Sberla-Silvermoon"] = 129,
-									["Treant <Juraak-Silvermoon>"] = 29,
-									["Juraak-Silvermoon"] = 99,
-									["Rykahpriest"] = 581,
-									["Worgylegoshi-Thunderhorn"] = 122,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1236,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 37,
-								["DODGE"] = 1,
-								["total"] = 1236,
-								["c_max"] = 0,
-								["MISS"] = 3,
-								["id"] = 13398,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 128,
-								["m_crit"] = 0,
+								["counter"] = 32,
 								["a_amt"] = 4,
+								["total"] = 3794,
+								["c_max"] = 0,
+								["MISS"] = 1,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 615,
+								["m_crit"] = 0,
+								["PARRY"] = 4,
 								["m_amt"] = 0,
-								["successful_casted"] = 36,
-								["b_dmg"] = 0,
-								["n_amt"] = 33,
+								["successful_casted"] = 0,
+								["b_dmg"] = 440,
+								["n_amt"] = 27,
 								["r_amt"] = 0,
 								["c_min"] = 0,
-							},
-							[10348] = {
+							}, -- [1]
+							[151965] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
@@ -13192,7 +20638,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 10348,
+								["id"] = 151965,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -13200,13 +20646,44 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 6,
+								["successful_casted"] = 7,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
-							[10732] = {
+							[152043] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 116,
+								["targets"] = {
+									["Allegoria-Outland"] = 320,
+									["Larriianna-Silvermoon"] = 151,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 471,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 471,
+								["c_max"] = 0,
+								["id"] = 152043,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 114,
+								["m_crit"] = 0,
+								["a_amt"] = 1,
+								["m_amt"] = 0,
+								["successful_casted"] = 5,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[152073] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
@@ -13221,7 +20698,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 10732,
+								["id"] = 152073,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -13229,48 +20706,13 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 1,
+								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
-						},
-					},
-					["monster"] = true,
-					["total"] = 2271.033579,
-					["serial"] = "Creature-0-3891-90-14342-6222-00035D67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 7357.033579000001,
-					["start_time"] = 1599957171,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [18]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.02475,
-					["damage_from"] = {
-					},
-					["targets"] = {
-					},
-					["pets"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.02475,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["monster"] = true,
-					["total"] = 0.02475,
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["nome"] = "Leprous Machinesmith",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							[10348] = {
+							[151990] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
@@ -13285,7 +20727,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 10348,
+								["id"] = 151990,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -13299,51 +20741,81 @@ _detalhes_database = {
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
+							[152089] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 11,
+								["targets"] = {
+									["Allegoria-Outland"] = 83,
+									["Rykahpriest"] = 180,
+									["Raydruid-ArgentDawn"] = 74,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 337,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 38,
+								["total"] = 337,
+								["c_max"] = 0,
+								["id"] = 152089,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 38,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
 						},
 					},
+					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
-					["dps_started"] = false,
-					["end_time"] = 1599957247,
-					["serial"] = "Creature-0-3891-90-14342-6224-00015D67AB",
+					["serial"] = "Creature-0-3770-1175-20951-75191-00011214DE",
 					["custom"] = 0,
 					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1599957244,
+					["start_time"] = 1603409235,
 					["delay"] = 0,
-					["damage_taken"] = 0.02475,
-				}, -- [19]
+					["damage_taken"] = 12637.007858,
+				}, -- [10]
 				{
 					["flag_original"] = 68168,
-					["totalabsorbed"] = 0.018995,
+					["totalabsorbed"] = 434.010241,
 					["damage_from"] = {
-						["Juraak-Silvermoon"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Treant <Juraak-Silvermoon>"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
+						["Shadowfiend <Rykahpriest>"] = true,
+						["Thaelinar-Wildhammer"] = true,
+						["Trevvpal-Sylvanas"] = true,
+						["Swinkapeppa-Silvermoon"] = true,
 						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
 					},
 					["targets"] = {
-						["Treant <Juraak-Silvermoon>"] = 228,
-						["Rykahpriest"] = 1394,
-						["Sberla-Silvermoon"] = 739,
+						["Shadowfiend <Rykahpriest>"] = 9,
+						["Trevvpal-Sylvanas"] = 824,
+						["Rykahpriest"] = 60,
 					},
+					["on_hold"] = false,
 					["pets"] = {
 					},
+					["monster"] = true,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 2361.018995,
-					["last_event"] = 0,
-					["on_hold"] = false,
-					["monster"] = true,
-					["total"] = 2361.018995,
-					["fight_component"] = true,
+					["total_without_pet"] = 893.010241,
 					["classe"] = "UNKNOW",
-					["nome"] = "Peacekeeper Security Suit",
+					["end_time"] = 1603409377,
+					["dps_started"] = false,
+					["total"] = 893.010241,
+					["fight_component"] = true,
+					["aID"] = "81360",
+					["nome"] = "Quakefist",
 					["spells"] = {
 						["tipo"] = 2,
 						["_ActorTable"] = {
@@ -13352,50 +20824,51 @@ _detalhes_database = {
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 205,
+								["n_max"] = 60,
 								["targets"] = {
-									["Treant <Juraak-Silvermoon>"] = 228,
-									["Rykahpriest"] = 1394,
-									["Sberla-Silvermoon"] = 739,
+									["Rykahpriest"] = 60,
+									["Trevvpal-Sylvanas"] = 530,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 2361,
+								["n_dmg"] = 590,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 22,
-								["total"] = 2361,
+								["counter"] = 15,
+								["total"] = 590,
 								["c_max"] = 0,
-								["MISS"] = 1,
+								["a_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
-								["a_dmg"] = 739,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 8,
+								["PARRY"] = 1,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 21,
+								["n_amt"] = 14,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							}, -- [1]
-							[6533] = {
+							[161781] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 0,
+								["n_max"] = 107,
 								["targets"] = {
+									["Trevvpal-Sylvanas"] = 294,
+									["Shadowfiend <Rykahpriest>"] = 9,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 0,
+								["n_dmg"] = 303,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
+								["counter"] = 4,
+								["total"] = 303,
 								["c_max"] = 0,
-								["id"] = 6533,
+								["id"] = 161781,
 								["r_dmg"] = 0,
 								["extra"] = {
 								},
@@ -13405,98 +20878,66 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[10730] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 10730,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
+								["n_amt"] = 4,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							},
 						},
 					},
+					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
-					["dps_started"] = false,
-					["end_time"] = 1599957247,
-					["serial"] = "Creature-0-3891-90-14342-6230-00015D67AA",
+					["serial"] = "Creature-0-3771-1116-307-81360-00001215BC",
 					["custom"] = 0,
 					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1599957201,
+					["start_time"] = 1603409338,
 					["delay"] = 0,
-					["damage_taken"] = 9848.018995,
-				}, -- [20]
+					["damage_taken"] = 11858.010241,
+				}, -- [11]
 				{
 					["flag_original"] = 8465,
-					["totalabsorbed"] = 0.020962,
+					["totalabsorbed"] = 0.011044,
+					["serial"] = "Creature-0-3771-1116-307-19668-00001215C3",
 					["damage_from"] = {
+						["Quakefist"] = true,
 					},
 					["targets"] = {
-						["Mekgineer Thermaplugg"] = 398,
-						["Mechanized Sentry"] = 699,
+						["Quakefist"] = 940,
 					},
-					["friendlyfire"] = {
-					},
+					["end_time"] = 1603409377,
 					["pets"] = {
 					},
-					["end_time"] = 1599957275,
+					["friendlyfire_total"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 1097.020962,
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["total_without_pet"] = 940.0110440000001,
+					["last_event"] = 0,
 					["dps_started"] = false,
-					["total"] = 1097.020962,
-					["friendlyfire_total"] = 0,
+					["total"] = 940.0110440000001,
+					["aID"] = "19668",
 					["ownerName"] = "Rykahpriest",
-					["nome"] = "Void Tendril <Rykahpriest>",
+					["nome"] = "Shadowfiend <Rykahpriest>",
 					["spells"] = {
 						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 6,
+								["c_amt"] = 2,
 								["b_amt"] = 0,
-								["c_dmg"] = 128,
+								["c_dmg"] = 270,
 								["g_amt"] = 0,
-								["n_max"] = 13,
+								["n_max"] = 67,
 								["targets"] = {
-									["Mekgineer Thermaplugg"] = 398,
-									["Mechanized Sentry"] = 699,
+									["Quakefist"] = 940,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 969,
+								["n_dmg"] = 670,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 98,
-								["total"] = 1097,
-								["c_max"] = 24,
+								["counter"] = 12,
+								["total"] = 940,
+								["c_max"] = 135,
 								["id"] = 1,
 								["r_dmg"] = 0,
 								["extra"] = {
@@ -13507,1265 +20948,70 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 92,
+								["n_amt"] = 10,
 								["r_amt"] = 0,
 								["c_min"] = 0,
 							}, -- [1]
 						},
 					},
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3891-90-14342-95577-00005D690D",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 0.020962,
-					["start_time"] = 1599957214,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [21]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 1641.008819,
 					["on_hold"] = false,
-					["damage_from"] = {
-						["Sberla-Silvermoon"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Treant <Juraak-Silvermoon>"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Treant <Juraak-Silvermoon>"] = 748,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 262,
-						["Unknown <Zanm-Silvermoon>"] = 238,
-						["Sberla-Silvermoon"] = 3720,
-					},
-					["pets"] = {
-					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 4968.008819000001,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957360,
 					["friendlyfire"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Electrocutioner 6000",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 417,
-								["targets"] = {
-									["Treant <Juraak-Silvermoon>"] = 404,
-									["Sberla-Silvermoon"] = 3012,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 3416,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 17,
-								["total"] = 3416,
-								["c_max"] = 0,
-								["DODGE"] = 1,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 1561,
-								["m_crit"] = 0,
-								["a_amt"] = 8,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 16,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[11082] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 99,
-								["targets"] = {
-									["Treant <Juraak-Silvermoon>"] = 4,
-									["Sberla-Silvermoon"] = 190,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 194,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 194,
-								["c_max"] = 0,
-								["id"] = 11082,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 2,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[11084] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 340,
-								["targets"] = {
-									["Treant <Juraak-Silvermoon>"] = 340,
-									["Sberla-Silvermoon"] = 275,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 615,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 615,
-								["c_max"] = 0,
-								["id"] = 11084,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 275,
-								["m_crit"] = 0,
-								["a_amt"] = 1,
-								["m_amt"] = 0,
-								["successful_casted"] = 2,
-								["b_dmg"] = 0,
-								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[11085] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 262,
-								["targets"] = {
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 262,
-									["Unknown <Zanm-Silvermoon>"] = 238,
-									["Sberla-Silvermoon"] = 243,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 743,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 743,
-								["c_max"] = 0,
-								["id"] = 11085,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 481,
-								["m_crit"] = 0,
-								["a_amt"] = 2,
-								["m_amt"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["monster"] = true,
-					["total"] = 4968.008819000001,
-					["serial"] = "Creature-0-3891-90-14342-6235-00005D67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 27407.008819,
-					["start_time"] = 1599957314,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [22]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 655.013686,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Zanm-Silvermoon"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Sberla-Silvermoon"] = 457,
-						["Rykahpriest"] = 754,
-						["Zanm-Silvermoon"] = 17,
-					},
-					["pets"] = {
-					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 1228.013686,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957526,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Mechano-Tank",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 198,
-								["targets"] = {
-									["Rykahpriest"] = 198,
-									["Sberla-Silvermoon"] = 436,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 634,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 4,
-								["total"] = 634,
-								["c_max"] = 0,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 302,
-								["m_crit"] = 0,
-								["a_amt"] = 2,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 4,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[10346] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 82,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 21,
-									["Rykahpriest"] = 556,
-									["Zanm-Silvermoon"] = 17,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 594,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 20,
-								["total"] = 594,
-								["c_max"] = 0,
-								["DODGE"] = 1,
-								["id"] = 10346,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 36,
-								["m_crit"] = 0,
-								["a_amt"] = 3,
-								["m_amt"] = 0,
-								["successful_casted"] = 20,
-								["b_dmg"] = 0,
-								["n_amt"] = 19,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["monster"] = true,
-					["total"] = 1228.013686,
-					["serial"] = "Creature-0-3891-90-14342-6225-0000DD67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 4479.013686,
-					["start_time"] = 1599957477,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [23]
-				{
-					["flag_original"] = -2147483648,
-					["totalabsorbed"] = 0.0112,
-					["damage_from"] = {
-					},
-					["targets"] = {
-						["Juraak-Silvermoon"] = 2013,
-						["Sberla-Silvermoon"] = 1651,
-						["Zanm-Silvermoon"] = 1791,
-					},
-					["pets"] = {
-					},
-					["on_hold"] = false,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 5455.0112,
-					["fight_component"] = true,
-					["dps_started"] = false,
-					["end_time"] = 1599957526,
-					["friendlyfire"] = {
-					},
-					["last_event"] = 0,
-					["nome"] = "Environment (Falling)",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							[3] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 2013,
-								["targets"] = {
-									["Juraak-Silvermoon"] = 2013,
-									["Sberla-Silvermoon"] = 1651,
-									["Zanm-Silvermoon"] = 1791,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 5455,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 4,
-								["total"] = 5455,
-								["c_max"] = 0,
-								["id"] = 3,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 4,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["friendlyfire_total"] = 0,
-					["total"] = 5455.0112,
-					["serial"] = "",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 0.0112,
-					["start_time"] = 1599957518,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [24]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 3539.025049,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Treant <Juraak-Silvermoon>"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Sberla-Silvermoon"] = 7969,
-						["Treant <Juraak-Silvermoon>"] = 828,
-						["Juraak-Silvermoon"] = 387,
-						["Rykahpriest"] = 738,
-						["Worgylegoshi-Thunderhorn"] = 1253,
-					},
-					["pets"] = {
-						"Dark Iron Land Mine <Dark Iron Agent>", -- [1]
-					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 11175.025049,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957526,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Dark Iron Agent",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 356,
-								["g_amt"] = 0,
-								["n_max"] = 321,
-								["targets"] = {
-									["Treant"] = 0,
-									["Sberla-Silvermoon"] = 7969,
-									["Treant <Juraak-Silvermoon>"] = 828,
-									["Juraak-Silvermoon"] = 387,
-									["Rykahpriest"] = 738,
-									["Worgylegoshi-Thunderhorn"] = 1253,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 10819,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 105,
-								["DODGE"] = 4,
-								["total"] = 11175,
-								["c_max"] = 356,
-								["MISS"] = 1,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 5703,
-								["m_crit"] = 0,
-								["a_amt"] = 57,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 99,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[11802] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 11802,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 5,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["monster"] = true,
-					["total"] = 11175.025049,
-					["serial"] = "Creature-0-3891-90-14342-6212-00035D67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 37669.025049,
-					["start_time"] = 1599957338,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [25]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 407.014967,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Sberla-Silvermoon"] = 2554,
-					},
-					["pets"] = {
-					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 2554.014967,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957526,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Arcane Nullifier X-21",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 226,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 2554,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2554,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 19,
-								["total"] = 2554,
-								["c_max"] = 0,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 2147,
-								["m_crit"] = 0,
-								["a_amt"] = 17,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 19,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[10831] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 10831,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["monster"] = true,
-					["total"] = 2554.014967,
-					["serial"] = "Creature-0-3891-90-14342-6232-00005D67AB",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 14657.014967,
-					["start_time"] = 1599957487,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [26]
-				{
-					["flag_original"] = 68168,
-					["totalabsorbed"] = 1325.030655,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Treant <Juraak-Silvermoon>"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Treant <Juraak-Silvermoon>"] = 53,
-						["Juraak-Silvermoon"] = 610,
-						["Rykahpriest"] = 410,
-						["Sberla-Silvermoon"] = 6068,
-					},
-					["pets"] = {
-					},
-					["fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 7141.030655000001,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957526,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Mechanized Guardian",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 286,
-								["g_amt"] = 0,
-								["n_max"] = 199,
-								["targets"] = {
-									["Treant <Juraak-Silvermoon>"] = 53,
-									["Juraak-Silvermoon"] = 558,
-									["Rykahpriest"] = 362,
-									["Sberla-Silvermoon"] = 5749,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 6436,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 56,
-								["MISS"] = 2,
-								["total"] = 6722,
-								["c_max"] = 286,
-								["a_amt"] = 39,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 4472,
-								["m_crit"] = 0,
-								["PARRY"] = 2,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 51,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[11820] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 11820,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 9,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[11825] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 52,
-								["targets"] = {
-									["Juraak-Silvermoon"] = 52,
-									["Rykahpriest"] = 48,
-									["Sberla-Silvermoon"] = 319,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 419,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 9,
-								["total"] = 419,
-								["c_max"] = 0,
-								["id"] = 11825,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 271,
-								["m_crit"] = 0,
-								["a_amt"] = 6,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 9,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["monster"] = true,
-					["total"] = 7141.030655000001,
-					["serial"] = "Creature-0-3891-90-14342-6234-0000DD67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 32264.030655,
-					["start_time"] = 1599957413,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [27]
-				{
-					["flag_original"] = 8776,
-					["totalabsorbed"] = 0.023425,
-					["damage_from"] = {
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-					},
-					["on_hold"] = false,
-					["pets"] = {
-					},
-					["last_event"] = 0,
-					["classe"] = "PET",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.023425,
-					["friendlyfire_total"] = 0,
-					["end_time"] = 1599957526,
-					["dps_started"] = false,
-					["total"] = 0.023425,
-					["fight_component"] = true,
-					["ownerName"] = "Dark Iron Agent",
-					["nome"] = "Dark Iron Land Mine <Dark Iron Agent>",
-					["friendlyfire"] = {
-					},
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-						},
-					},
-					["serial"] = "Creature-0-3891-90-14342-8035-00005D69E2",
 					["custom"] = 0,
 					["tipo"] = 1,
 					["last_dps"] = 0,
-					["start_time"] = 1599957523,
+					["start_time"] = 1603409358,
 					["delay"] = 0,
-					["damage_taken"] = 1039.023425,
-				}, -- [28]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 1527.014936,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Void Tendril <Rykahpriest>"] = true,
-						["Sberla-Silvermoon"] = true,
-						["Rykahpriest"] = true,
-						["Unknown <Zanm-Silvermoon>"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-						["Treant <Juraak-Silvermoon>"] = true,
-						["Juraak-Silvermoon"] = true,
-						["Zanm-Silvermoon"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["targets"] = {
-						["Treant <Juraak-Silvermoon>"] = 562,
-						["Sberla-Silvermoon"] = 4966,
-					},
-					["pets"] = {
-					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 5528.014936,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957754,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Mekgineer Thermaplugg",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 414,
-								["targets"] = {
-									["Treant <Juraak-Silvermoon>"] = 426,
-									["Sberla-Silvermoon"] = 4530,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 4956,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 25,
-								["total"] = 4956,
-								["c_max"] = 0,
-								["DODGE"] = 2,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 3003,
-								["m_crit"] = 0,
-								["a_amt"] = 15,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 23,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[52778] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 68,
-								["targets"] = {
-									["Treant <Juraak-Silvermoon>"] = 136,
-									["Sberla-Silvermoon"] = 174,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 310,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 5,
-								["total"] = 310,
-								["c_max"] = 0,
-								["id"] = 52778,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 174,
-								["m_crit"] = 0,
-								["a_amt"] = 3,
-								["m_amt"] = 0,
-								["successful_casted"] = 2,
-								["b_dmg"] = 0,
-								["n_amt"] = 5,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[93655] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 39,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 75,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 75,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 75,
-								["c_max"] = 0,
-								["id"] = 93655,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 75,
-								["m_crit"] = 0,
-								["a_amt"] = 2,
-								["m_amt"] = 0,
-								["successful_casted"] = 2,
-								["b_dmg"] = 0,
-								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[74720] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 187,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 187,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 187,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 187,
-								["c_max"] = 0,
-								["id"] = 74720,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 187,
-								["m_crit"] = 0,
-								["a_amt"] = 1,
-								["m_amt"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["monster"] = true,
-					["total"] = 5528.014936,
-					["serial"] = "Creature-0-3891-90-14342-7800-00005D67AA",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 33110.01493600001,
-					["start_time"] = 1599957692,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [29]
-				{
-					["flag_original"] = 2632,
-					["totalabsorbed"] = 0.008536,
-					["on_hold"] = false,
-					["damage_from"] = {
-						["Worgylegoshi-Thunderhorn"] = true,
-						["Juraak-Silvermoon"] = true,
-					},
-					["targets"] = {
-						["Juraak-Silvermoon"] = 299,
-						["Worgylegoshi-Thunderhorn"] = 308,
-					},
-					["pets"] = {
-					},
-					["boss_fight_component"] = true,
-					["classe"] = "UNKNOW",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 607.008536,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1599957754,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Walking Bomb",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 43,
-								["targets"] = {
-									["Juraak-Silvermoon"] = 43,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 43,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 43,
-								["c_max"] = 0,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[11504] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 308,
-								["targets"] = {
-									["Juraak-Silvermoon"] = 256,
-									["Worgylegoshi-Thunderhorn"] = 308,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 564,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 564,
-								["c_max"] = 0,
-								["id"] = 11504,
-								["r_dmg"] = 0,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["monster"] = true,
-					["total"] = 607.008536,
-					["serial"] = "Creature-0-3891-90-14342-7915-00005D6ABD",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 172.008536,
-					["start_time"] = 1599957750,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [30]
+					["damage_taken"] = 9.011044,
+				}, -- [12]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
 				{
-					["flag_original"] = 1300,
-					["targets_overheal"] = {
-						["Worgylegoshi-Thunderhorn"] = 71,
-					},
-					["pets"] = {
-						"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
-					},
-					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 241.084636,
-					["total_without_pet"] = 1393.084636,
-					["total"] = 1886.084636,
-					["targets_absorbs"] = {
-					},
-					["heal_enemy"] = {
-					},
-					["on_hold"] = false,
-					["serial"] = "Player-1313-0B7742DA",
-					["totalabsorb"] = 0.08463599999999999,
-					["last_hps"] = 0,
-					["targets"] = {
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 493,
-						["Worgylegoshi-Thunderhorn"] = 1393,
-					},
-					["totalover_without_pet"] = 0.08463599999999999,
-					["healing_taken"] = 3596.084636,
-					["boss_fight_component"] = true,
-					["fight_component"] = true,
-					["end_time"] = 1599956959,
-					["healing_from"] = {
-						["Rykahpriest"] = true,
-						["Worgylegoshi-Thunderhorn"] = true,
-					},
-					["nome"] = "Worgylegoshi-Thunderhorn",
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-							[143924] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Worgylegoshi-Thunderhorn"] = 71,
-								},
-								["n_max"] = 68,
-								["targets"] = {
-									["Worgylegoshi-Thunderhorn"] = 1393,
-								},
-								["n_min"] = 0,
-								["counter"] = 83,
-								["overheal"] = 71,
-								["total"] = 1393,
-								["c_max"] = 0,
-								["id"] = 143924,
-								["targets_absorbs"] = {
-								},
-								["c_curado"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 1393,
-								["n_amt"] = 83,
-								["totaldenied"] = 0,
-								["m_healed"] = 0,
-								["absorbed"] = 0,
-							},
-						},
-					},
-					["grupo"] = true,
-					["start_time"] = 1599956757,
-					["classe"] = "HUNTER",
-					["custom"] = 0,
-					["tipo"] = 2,
-					["spec"] = 254,
-					["totaldenied"] = 0.08463599999999999,
-					["delay"] = 0,
-					["last_event"] = 0,
-				}, -- [1]
-				{
-					["flag_original"] = 4370,
-					["healing_from"] = {
-						["Rykahpriest"] = true,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = true,
-					},
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["classe"] = "PET",
-					["totalover"] = 170.056114,
-					["total_without_pet"] = 493.056114,
-					["total"] = 493.056114,
-					["targets_absorbs"] = {
-					},
-					["heal_enemy"] = {
-					},
-					["on_hold"] = false,
-					["serial"] = "Pet-0-3896-530-43-17199-0202FF025C",
-					["totalabsorb"] = 0.056114,
-					["last_hps"] = 0,
-					["targets"] = {
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 493,
-					},
-					["totalover_without_pet"] = 0.056114,
-					["healing_taken"] = 540.056114,
-					["boss_fight_component"] = true,
-					["targets_overheal"] = {
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 170,
-					},
-					["fight_component"] = true,
-					["end_time"] = 1599956959,
-					["ownerName"] = "Worgylegoshi-Thunderhorn",
-					["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
-					["heal_enemy_amt"] = 0,
-					["last_event"] = 0,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["start_time"] = 1599956861,
-					["totaldenied"] = 0.056114,
-					["delay"] = 0,
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-							[143924] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 170,
-								},
-								["n_max"] = 41,
-								["targets"] = {
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 493,
-								},
-								["n_min"] = 0,
-								["counter"] = 24,
-								["overheal"] = 170,
-								["total"] = 493,
-								["c_max"] = 0,
-								["id"] = 143924,
-								["targets_absorbs"] = {
-								},
-								["c_curado"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 493,
-								["n_amt"] = 24,
-								["totaldenied"] = 0,
-								["m_healed"] = 0,
-								["absorbed"] = 0,
-							},
-						},
-					},
-				}, -- [2]
-				{
 					["flag_original"] = 1297,
 					["targets_overheal"] = {
-						["Void Tendril <Rykahpriest>"] = 1303,
-						["Zanm-Silvermoon"] = 3591,
-						["Rykahpriest"] = 9511,
-						["Unknown <Zanm-Silvermoon>"] = 972,
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 913,
-						["Treant <Juraak-Silvermoon>"] = 833,
-						["Juraak-Silvermoon"] = 4034,
-						["Sberla-Silvermoon"] = 6111,
-						["Worgylegoshi-Thunderhorn"] = 3465,
+						["Garrithas-ArgentDawn"] = 959,
+						["Allegoria-Outland"] = 434,
+						["Rykahpriest"] = 2762,
+						["Larriianna-Silvermoon"] = 2796,
 					},
 					["pets"] = {
-						"Void Tendril <Rykahpriest>", -- [1]
+						"Shadowfiend <Rykahpriest>", -- [1]
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 30733.083369,
-					["total_without_pet"] = 83777.083369,
-					["total"] = 83777.083369,
+					["classe"] = "PRIEST",
+					["totalover"] = 6951.019009,
+					["total_without_pet"] = 18423.019009,
+					["total"] = 18423.019009,
 					["targets_absorbs"] = {
-						["Sberla-Silvermoon"] = 20104,
-						["Zanm-Silvermoon"] = 495,
-						["Juraak-Silvermoon"] = 104,
-						["Rykahpriest"] = 2946,
-						["Worgylegoshi-Thunderhorn"] = 684,
+						["Allegoria-Outland"] = 144,
+						["Larriianna-Silvermoon"] = 1685,
+						["Garrithas-ArgentDawn"] = 6358,
+						["Trevvpal-Sylvanas"] = 777,
+						["Rykahpriest"] = 608,
+						["Shadowfiend <Rykahpriest>"] = 9,
 					},
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
 					["serial"] = "Player-1303-0B65E197",
-					["totalabsorb"] = 24333.083369,
+					["totalabsorb"] = 9581.019009000001,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Ravager <Worgylegoshi-Thunderhorn>"] = 47,
-						["Zanm-Silvermoon"] = 3845,
-						["Unknown <Zanm-Silvermoon>"] = 79,
-						["Sberla-Silvermoon"] = 63623,
-						["Treant <Juraak-Silvermoon>"] = 470,
-						["Juraak-Silvermoon"] = 2495,
-						["Rykahpriest"] = 11015,
-						["Worgylegoshi-Thunderhorn"] = 2203,
+						["Allegoria-Outland"] = 260,
+						["Larriianna-Silvermoon"] = 2146,
+						["Garrithas-ArgentDawn"] = 14169,
+						["Trevvpal-Sylvanas"] = 993,
+						["Rykahpriest"] = 846,
+						["Shadowfiend <Rykahpriest>"] = 9,
 					},
-					["totalover_without_pet"] = 0.08336900000000001,
-					["healing_taken"] = 11015.083369,
-					["boss_fight_component"] = true,
+					["totalover_without_pet"] = 0.019009,
+					["healing_taken"] = 846.019009,
 					["fight_component"] = true,
-					["end_time"] = 1599956959,
+					["end_time"] = 1603409219,
+					["start_time"] = 1603409084,
 					["healing_from"] = {
 						["Rykahpriest"] = true,
 					},
@@ -14773,65 +21019,39 @@ _detalhes_database = {
 					["spells"] = {
 						["tipo"] = 3,
 						["_ActorTable"] = {
-							[19236] = {
+							[17] = {
 								["c_amt"] = 0,
-								["totalabsorb"] = 0,
+								["totalabsorb"] = 7415,
 								["targets_overheal"] = {
+									["Allegoria-Outland"] = 183,
+									["Rykahpriest"] = 541,
+									["Larriianna-Silvermoon"] = 97,
 								},
-								["n_max"] = 649,
+								["n_max"] = 492,
 								["targets"] = {
-									["Rykahpriest"] = 649,
+									["Garrithas-ArgentDawn"] = 5069,
+									["Allegoria-Outland"] = 94,
+									["Larriianna-Silvermoon"] = 1685,
+									["Rykahpriest"] = 567,
 								},
 								["n_min"] = 0,
-								["counter"] = 1,
-								["overheal"] = 0,
-								["total"] = 649,
+								["counter"] = 66,
+								["overheal"] = 821,
+								["total"] = 7415,
 								["c_max"] = 0,
-								["id"] = 19236,
+								["id"] = 17,
 								["targets_absorbs"] = {
+									["Garrithas-ArgentDawn"] = 5069,
+									["Allegoria-Outland"] = 94,
+									["Larriianna-Silvermoon"] = 1685,
+									["Rykahpriest"] = 567,
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["n_curado"] = 649,
-								["n_amt"] = 1,
-								["totaldenied"] = 0,
-								["m_healed"] = 0,
-								["absorbed"] = 0,
-							},
-							[94472] = {
-								["c_amt"] = 208,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Zanm-Silvermoon"] = 271,
-									["Sberla-Silvermoon"] = 1081,
-									["Juraak-Silvermoon"] = 307,
-									["Rykahpriest"] = 1207,
-									["Worgylegoshi-Thunderhorn"] = 485,
-								},
-								["n_max"] = 0,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 4566,
-									["Zanm-Silvermoon"] = 576,
-									["Juraak-Silvermoon"] = 629,
-									["Rykahpriest"] = 1364,
-									["Worgylegoshi-Thunderhorn"] = 508,
-								},
-								["n_min"] = 0,
-								["counter"] = 208,
-								["overheal"] = 3351,
-								["total"] = 7643,
-								["c_max"] = 159,
-								["id"] = 94472,
-								["targets_absorbs"] = {
-								},
-								["c_curado"] = 7643,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 0,
-								["n_amt"] = 0,
+								["n_curado"] = 7415,
+								["n_amt"] = 66,
 								["totaldenied"] = 0,
 								["m_healed"] = 0,
 								["absorbed"] = 0,
@@ -14840,22 +21060,17 @@ _detalhes_database = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Zanm-Silvermoon"] = 6,
-									["Rykahpriest"] = 95,
-									["Sberla-Silvermoon"] = 48,
+									["Rykahpriest"] = 55,
 								},
-								["n_max"] = 34,
+								["n_max"] = 31,
 								["targets"] = {
-									["Sberla-Silvermoon"] = 233,
-									["Zanm-Silvermoon"] = 51,
-									["Juraak-Silvermoon"] = 2,
-									["Rykahpriest"] = 116,
-									["Worgylegoshi-Thunderhorn"] = 7,
+									["Garrithas-ArgentDawn"] = 33,
+									["Rykahpriest"] = 17,
 								},
 								["n_min"] = 0,
-								["counter"] = 178,
-								["overheal"] = 149,
-								["total"] = 409,
+								["counter"] = 41,
+								["overheal"] = 55,
+								["total"] = 50,
 								["c_max"] = 0,
 								["id"] = 259760,
 								["targets_absorbs"] = {
@@ -14864,38 +21079,8 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["n_curado"] = 409,
-								["n_amt"] = 178,
-								["totaldenied"] = 0,
-								["m_healed"] = 0,
-								["absorbed"] = 0,
-							},
-							[47750] = {
-								["c_amt"] = 6,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Rykahpriest"] = 621,
-									["Sberla-Silvermoon"] = 518,
-								},
-								["n_max"] = 321,
-								["targets"] = {
-									["Rykahpriest"] = 453,
-									["Sberla-Silvermoon"] = 7510,
-								},
-								["n_min"] = 0,
-								["counter"] = 26,
-								["overheal"] = 1139,
-								["total"] = 7963,
-								["c_max"] = 643,
-								["id"] = 47750,
-								["targets_absorbs"] = {
-								},
-								["c_curado"] = 3347,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 4616,
-								["n_amt"] = 20,
+								["n_curado"] = 50,
+								["n_amt"] = 41,
 								["totaldenied"] = 0,
 								["m_healed"] = 0,
 								["absorbed"] = 0,
@@ -14904,24 +21089,23 @@ _detalhes_database = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Zanm-Silvermoon"] = 830,
-									["Sberla-Silvermoon"] = 1801,
-									["Juraak-Silvermoon"] = 399,
-									["Rykahpriest"] = 2707,
-									["Worgylegoshi-Thunderhorn"] = 264,
+									["Garrithas-ArgentDawn"] = 71,
+									["Allegoria-Outland"] = 251,
+									["Rykahpriest"] = 1517,
+									["Larriianna-Silvermoon"] = 413,
 								},
 								["n_max"] = 80,
 								["targets"] = {
-									["Sberla-Silvermoon"] = 11485,
-									["Zanm-Silvermoon"] = 1459,
-									["Juraak-Silvermoon"] = 1196,
-									["Rykahpriest"] = 4020,
-									["Worgylegoshi-Thunderhorn"] = 727,
+									["Allegoria-Outland"] = 85,
+									["Larriianna-Silvermoon"] = 47,
+									["Garrithas-ArgentDawn"] = 1833,
+									["Rykahpriest"] = 164,
+									["Trevvpal-Sylvanas"] = 42,
 								},
 								["n_min"] = 0,
-								["counter"] = 1004,
-								["overheal"] = 6001,
-								["total"] = 18887,
+								["counter"] = 218,
+								["overheal"] = 2252,
+								["total"] = 2171,
 								["c_max"] = 0,
 								["id"] = 81751,
 								["targets_absorbs"] = {
@@ -14930,337 +21114,173 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["n_curado"] = 18887,
-								["n_amt"] = 1004,
+								["n_curado"] = 2171,
+								["n_amt"] = 218,
 								["totaldenied"] = 0,
 								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[186263] = {
-								["c_amt"] = 7,
+								["c_amt"] = 2,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Zanm-Silvermoon"] = 139,
-									["Juraak-Silvermoon"] = 89,
-									["Rykahpriest"] = 707,
-									["Sberla-Silvermoon"] = 2064,
+									["Larriianna-Silvermoon"] = 2172,
+									["Garrithas-ArgentDawn"] = 888,
 								},
-								["n_max"] = 706,
+								["n_max"] = 652,
 								["targets"] = {
-									["Zanm-Silvermoon"] = 1156,
-									["Juraak-Silvermoon"] = 499,
-									["Rykahpriest"] = 590,
-									["Sberla-Silvermoon"] = 18412,
+									["Larriianna-Silvermoon"] = 382,
+									["Garrithas-ArgentDawn"] = 5421,
 								},
 								["n_min"] = 0,
-								["counter"] = 31,
-								["overheal"] = 2999,
-								["total"] = 20657,
-								["c_max"] = 1413,
+								["counter"] = 12,
+								["overheal"] = 3060,
+								["total"] = 5803,
+								["c_max"] = 1066,
 								["id"] = 186263,
 								["targets_absorbs"] = {
 								},
-								["c_curado"] = 7764,
+								["c_curado"] = 1066,
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["n_curado"] = 12893,
-								["n_amt"] = 24,
+								["n_curado"] = 4737,
+								["n_amt"] = 10,
 								["totaldenied"] = 0,
 								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
-							[281265] = {
-								["c_amt"] = 39,
+							[94472] = {
+								["c_amt"] = 43,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Void Tendril <Rykahpriest>"] = 1303,
-									["Zanm-Silvermoon"] = 541,
-									["Rykahpriest"] = 931,
-									["Unknown <Zanm-Silvermoon>"] = 972,
-									["Juraak-Silvermoon"] = 96,
-									["Treant <Juraak-Silvermoon>"] = 833,
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 913,
-									["Sberla-Silvermoon"] = 271,
-									["Worgylegoshi-Thunderhorn"] = 514,
+									["Larriianna-Silvermoon"] = 114,
+									["Rykahpriest"] = 649,
 								},
-								["n_max"] = 40,
+								["n_max"] = 0,
 								["targets"] = {
-									["Void Tendril <Rykahpriest>"] = 0,
-									["Zanm-Silvermoon"] = 108,
-									["Rykahpriest"] = 877,
-									["Unknown <Zanm-Silvermoon>"] = 79,
-									["Sberla-Silvermoon"] = 1313,
-									["Treant <Juraak-Silvermoon>"] = 470,
-									["Juraak-Silvermoon"] = 65,
-									["Ravager <Worgylegoshi-Thunderhorn>"] = 47,
-									["Worgylegoshi-Thunderhorn"] = 277,
+									["Allegoria-Outland"] = 31,
+									["Larriianna-Silvermoon"] = 32,
+									["Garrithas-ArgentDawn"] = 524,
+									["Rykahpriest"] = 57,
+									["Trevvpal-Sylvanas"] = 174,
 								},
 								["n_min"] = 0,
-								["counter"] = 240,
-								["overheal"] = 6374,
-								["total"] = 3236,
-								["c_max"] = 78,
-								["id"] = 281265,
+								["counter"] = 43,
+								["overheal"] = 763,
+								["total"] = 818,
+								["c_max"] = 106,
+								["id"] = 94472,
 								["targets_absorbs"] = {
 								},
-								["c_curado"] = 849,
+								["c_curado"] = 818,
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["n_curado"] = 2387,
-								["n_amt"] = 201,
+								["n_curado"] = 0,
+								["n_amt"] = 0,
 								["totaldenied"] = 0,
 								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
-							[17] = {
-								["c_amt"] = 7,
-								["totalabsorb"] = 24333,
-								["targets_overheal"] = {
-									["Zanm-Silvermoon"] = 1804,
-									["Sberla-Silvermoon"] = 328,
-									["Juraak-Silvermoon"] = 3143,
-									["Rykahpriest"] = 3243,
-									["Worgylegoshi-Thunderhorn"] = 2202,
-								},
-								["n_max"] = 330,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 19776,
-									["Zanm-Silvermoon"] = 495,
-									["Juraak-Silvermoon"] = -257,
-									["Rykahpriest"] = 2364,
-									["Worgylegoshi-Thunderhorn"] = -37,
-								},
-								["n_min"] = 0,
-								["counter"] = 630,
-								["overheal"] = 10720,
-								["total"] = 22341,
-								["c_max"] = 0,
-								["id"] = 17,
-								["targets_absorbs"] = {
-									["Sberla-Silvermoon"] = 20104,
-									["Zanm-Silvermoon"] = 495,
-									["Juraak-Silvermoon"] = 104,
-									["Rykahpriest"] = 2946,
-									["Worgylegoshi-Thunderhorn"] = 684,
-								},
-								["c_curado"] = -1992,
-								["m_crit"] = 0,
-								["c_min"] = -721,
-								["m_amt"] = 0,
-								["n_curado"] = 24333,
-								["n_amt"] = 623,
-								["totaldenied"] = 0,
-								["m_healed"] = 0,
-								["absorbed"] = 0,
-							},
-						},
-					},
-					["grupo"] = true,
-					["start_time"] = 1599956341,
-					["classe"] = "PRIEST",
-					["custom"] = 0,
-					["tipo"] = 2,
-					["spec"] = 256,
-					["totaldenied"] = 0.08336900000000001,
-					["delay"] = 0,
-					["last_event"] = 0,
-				}, -- [3]
-				{
-					["flag_original"] = 66834,
-					["healing_from"] = {
-						["Rykahpriest"] = true,
-						["Sberla-Silvermoon"] = true,
-					},
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["classe"] = "MONK",
-					["totalover"] = 1961.095542,
-					["total_without_pet"] = 5951.095541999999,
-					["total"] = 5951.095541999999,
-					["targets_absorbs"] = {
-					},
-					["heal_enemy"] = {
-					},
-					["on_hold"] = false,
-					["isTank"] = true,
-					["serial"] = "Player-3391-0B77C625",
-					["totalabsorb"] = 0.09554200000000002,
-					["last_hps"] = 0,
-					["targets"] = {
-						["Sberla-Silvermoon"] = 5951,
-					},
-					["totalover_without_pet"] = 0.09554200000000002,
-					["healing_taken"] = 69574.095542,
-					["boss_fight_component"] = true,
-					["fight_component"] = true,
-					["end_time"] = 1599956959,
-					["start_time"] = 1599956905,
-					["nome"] = "Sberla-Silvermoon",
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-							[178173] = {
-								["c_amt"] = 3,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Sberla-Silvermoon"] = 1837,
-								},
-								["n_max"] = 303,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 3344,
-								},
-								["n_min"] = 0,
-								["counter"] = 14,
-								["overheal"] = 1837,
-								["total"] = 3344,
-								["c_max"] = 624,
-								["id"] = 178173,
-								["targets_absorbs"] = {
-								},
-								["c_curado"] = 1144,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 2200,
-								["n_amt"] = 11,
-								["totaldenied"] = 0,
-								["m_healed"] = 0,
-								["absorbed"] = 0,
-							},
-							[124507] = {
-								["c_amt"] = 1,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Sberla-Silvermoon"] = 124,
-								},
-								["n_max"] = 304,
-								["targets"] = {
-									["Sberla-Silvermoon"] = 2607,
-								},
-								["n_min"] = 0,
-								["counter"] = 8,
-								["overheal"] = 124,
-								["total"] = 2607,
-								["c_max"] = 566,
-								["id"] = 124507,
-								["targets_absorbs"] = {
-								},
-								["c_curado"] = 566,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 2041,
-								["n_amt"] = 7,
-								["totaldenied"] = 0,
-								["m_healed"] = 0,
-								["absorbed"] = 0,
-							},
-						},
-					},
-					["grupo"] = true,
-					["targets_overheal"] = {
-						["Sberla-Silvermoon"] = 1961,
-					},
-					["heal_enemy_amt"] = 0,
-					["custom"] = 0,
-					["last_event"] = 0,
-					["spec"] = 268,
-					["totaldenied"] = 0.09554200000000002,
-					["delay"] = 0,
-					["tipo"] = 2,
-				}, -- [4]
-				{
-					["flag_original"] = 1298,
-					["targets_overheal"] = {
-						["Unknown <Zanm-Silvermoon>"] = 70,
-						["Zanm-Silvermoon"] = 51,
-					},
-					["pets"] = {
-						"Unknown <Zanm-Silvermoon>", -- [1]
-					},
-					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 121.077178,
-					["total_without_pet"] = 2027.077178,
-					["total"] = 2027.077178,
-					["targets_absorbs"] = {
-						["Unknown <Zanm-Silvermoon>"] = 241,
-						["Zanm-Silvermoon"] = 1786,
-					},
-					["heal_enemy"] = {
-					},
-					["on_hold"] = false,
-					["serial"] = "Player-3391-0B71A39B",
-					["totalabsorb"] = 2027.077178,
-					["last_hps"] = 0,
-					["targets"] = {
-						["Unknown <Zanm-Silvermoon>"] = 241,
-						["Zanm-Silvermoon"] = 1786,
-					},
-					["totalover_without_pet"] = 0.07717800000000001,
-					["healing_taken"] = 5631.077178,
-					["fight_component"] = true,
-					["end_time"] = 1599957011,
-					["boss_fight_component"] = true,
-					["healing_from"] = {
-						["Rykahpriest"] = true,
-						["Zanm-Silvermoon"] = true,
-					},
-					["nome"] = "Zanm-Silvermoon",
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-							[108366] = {
+							[208771] = {
 								["c_amt"] = 0,
-								["totalabsorb"] = 2027,
+								["totalabsorb"] = 2166,
 								["targets_overheal"] = {
-									["Unknown <Zanm-Silvermoon>"] = 70,
-									["Zanm-Silvermoon"] = 46,
 								},
-								["n_max"] = 238,
+								["n_max"] = 460,
 								["targets"] = {
-									["Unknown <Zanm-Silvermoon>"] = 241,
-									["Zanm-Silvermoon"] = 1786,
+									["Allegoria-Outland"] = 50,
+									["Trevvpal-Sylvanas"] = 777,
+									["Garrithas-ArgentDawn"] = 1289,
+									["Rykahpriest"] = 41,
+									["Shadowfiend <Rykahpriest>"] = 9,
 								},
 								["n_min"] = 0,
-								["counter"] = 89,
-								["overheal"] = 116,
-								["total"] = 2027,
+								["counter"] = 21,
+								["overheal"] = 0,
+								["total"] = 2166,
 								["c_max"] = 0,
-								["id"] = 108366,
+								["id"] = 208771,
 								["targets_absorbs"] = {
-									["Unknown <Zanm-Silvermoon>"] = 241,
-									["Zanm-Silvermoon"] = 1786,
+									["Allegoria-Outland"] = 50,
+									["Trevvpal-Sylvanas"] = 777,
+									["Garrithas-ArgentDawn"] = 1289,
+									["Rykahpriest"] = 41,
+									["Shadowfiend <Rykahpriest>"] = 9,
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["n_curado"] = 2027,
-								["n_amt"] = 89,
+								["n_curado"] = 2166,
+								["n_amt"] = 21,
 								["totaldenied"] = 0,
 								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
-							[259760] = {
+						},
+					},
+					["grupo"] = true,
+					["heal_enemy_amt"] = 0,
+					["aID"] = "1303-0B65E197",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 256,
+					["totaldenied"] = 0.019009,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 66834,
+					["targets_overheal"] = {
+						["Larriianna-Silvermoon"] = 37,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "SHAMAN",
+					["totalover"] = 37.01958,
+					["total_without_pet"] = 0.01958,
+					["total"] = 0.01958,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-3391-0B921E00",
+					["totalabsorb"] = 0.01958,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.01958,
+					["healing_taken"] = 2146.01958,
+					["fight_component"] = true,
+					["end_time"] = 1603409219,
+					["start_time"] = 1603409213,
+					["healing_from"] = {
+						["Rykahpriest"] = true,
+					},
+					["nome"] = "Larriianna-Silvermoon",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[59913] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Zanm-Silvermoon"] = 5,
+									["Larriianna-Silvermoon"] = 37,
 								},
 								["n_max"] = 0,
 								["targets"] = {
-									["Zanm-Silvermoon"] = 0,
+									["Larriianna-Silvermoon"] = 0,
 								},
 								["n_min"] = 0,
 								["counter"] = 1,
-								["overheal"] = 5,
+								["overheal"] = 37,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 259760,
+								["id"] = 59913,
 								["targets_absorbs"] = {
 								},
 								["c_curado"] = 0,
@@ -15276,76 +21296,150 @@ _detalhes_database = {
 						},
 					},
 					["grupo"] = true,
-					["start_time"] = 1599956878,
-					["classe"] = "WARLOCK",
+					["heal_enemy_amt"] = 0,
+					["aID"] = "3391-0B921E00",
 					["custom"] = 0,
 					["tipo"] = 2,
-					["spec"] = 267,
-					["totaldenied"] = 0.07717800000000001,
+					["spec"] = 262,
+					["totaldenied"] = 0.01958,
 					["delay"] = 0,
 					["last_event"] = 0,
-				}, -- [5]
+				}, -- [2]
 				{
-					["flag_original"] = 1047,
-					["healing_from"] = {
-						["Rykahpriest"] = true,
-						["Juraak-Silvermoon"] = true,
+					["flag_original"] = 66834,
+					["targets_overheal"] = {
+						["Garrithas-ArgentDawn"] = 389,
 					},
 					["pets"] = {
-						"Treant <Juraak-Silvermoon>", -- [1]
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "DRUID",
-					["totalover"] = 49.05975099999999,
-					["total_without_pet"] = 1010.059751,
-					["total"] = 1010.059751,
+					["aID"] = "3702-09D9A6C1",
+					["totalover"] = 389.01185,
+					["total_without_pet"] = 0.01185,
+					["total"] = 0.01185,
 					["targets_absorbs"] = {
 					},
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
-					["serial"] = "Player-3391-0B77CF83",
-					["totalabsorb"] = 0.059751,
+					["isTank"] = true,
+					["serial"] = "Player-3702-09D9A6C1",
+					["totalabsorb"] = 0.01185,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Juraak-Silvermoon"] = 1010,
 					},
-					["totalover_without_pet"] = 0.059751,
-					["healing_taken"] = 3505.059751,
+					["totalover_without_pet"] = 0.01185,
+					["healing_taken"] = 14169.01185,
 					["fight_component"] = true,
-					["end_time"] = 1599957011,
-					["boss_fight_component"] = true,
-					["targets_overheal"] = {
-						["Juraak-Silvermoon"] = 49,
+					["end_time"] = 1603409219,
+					["healing_from"] = {
+						["Rykahpriest"] = true,
 					},
-					["nome"] = "Juraak-Silvermoon",
+					["heal_enemy_amt"] = 0,
+					["nome"] = "Garrithas-ArgentDawn",
 					["spells"] = {
 						["tipo"] = 3,
 						["_ActorTable"] = {
-							[8936] = {
-								["c_amt"] = 1,
+							[85673] = {
+								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Juraak-Silvermoon"] = 49,
+									["Garrithas-ArgentDawn"] = 389,
 								},
-								["n_max"] = 436,
+								["n_max"] = 0,
 								["targets"] = {
-									["Juraak-Silvermoon"] = 1010,
+									["Garrithas-ArgentDawn"] = 0,
 								},
 								["n_min"] = 0,
-								["counter"] = 12,
-								["overheal"] = 49,
-								["total"] = 1010,
-								["c_max"] = 30,
-								["id"] = 8936,
+								["counter"] = 1,
+								["overheal"] = 389,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 85673,
 								["targets_absorbs"] = {
 								},
-								["c_curado"] = 30,
+								["c_curado"] = 0,
 								["m_crit"] = 0,
 								["c_min"] = 0,
 								["m_amt"] = 0,
-								["n_curado"] = 980,
-								["n_amt"] = 11,
+								["n_curado"] = 0,
+								["n_amt"] = 1,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1603409215,
+					["spec"] = 66,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["classe"] = "PALADIN",
+					["totaldenied"] = 0.01185,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 66834,
+					["targets_overheal"] = {
+						["Allegoria-Outland"] = 70,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "ROGUE",
+					["totalover"] = 70.008997,
+					["total_without_pet"] = 70.008997,
+					["total"] = 70.008997,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1301-07A0817D",
+					["totalabsorb"] = 0.008997,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Allegoria-Outland"] = 70,
+					},
+					["totalover_without_pet"] = 0.008997,
+					["healing_taken"] = 330.008997,
+					["fight_component"] = true,
+					["end_time"] = 1603409285,
+					["start_time"] = 1603409281,
+					["healing_from"] = {
+						["Rykahpriest"] = true,
+						["Allegoria-Outland"] = true,
+					},
+					["nome"] = "Allegoria-Outland",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Allegoria-Outland"] = 70,
+								},
+								["n_max"] = 35,
+								["targets"] = {
+									["Allegoria-Outland"] = 70,
+								},
+								["n_min"] = 0,
+								["counter"] = 4,
+								["overheal"] = 70,
+								["total"] = 70,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 70,
+								["n_amt"] = 4,
 								["totaldenied"] = 0,
 								["m_healed"] = 0,
 								["absorbed"] = 0,
@@ -15354,252 +21448,309 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["heal_enemy_amt"] = 0,
-					["start_time"] = 1599956990,
+					["aID"] = "1301-07A0817D",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["spec"] = 102,
-					["totaldenied"] = 0.059751,
-					["delay"] = 0,
 					["tipo"] = 2,
-				}, -- [6]
+					["spec"] = 261,
+					["totaldenied"] = 0.008997,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [4]
 				{
-					["flag_original"] = 8466,
+					["flag_original"] = 1304,
 					["healing_from"] = {
 						["Rykahpriest"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "PET",
-					["totalover"] = 0.023931,
-					["total_without_pet"] = 0.023931,
-					["total"] = 0.023931,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.012335,
+					["total_without_pet"] = 0.012335,
+					["total"] = 0.012335,
 					["targets_absorbs"] = {
 					},
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
-					["serial"] = "Creature-0-3891-90-14342-103822-00015D6808",
-					["totalabsorb"] = 0.023931,
+					["serial"] = "Player-1597-0D08B302",
+					["totalabsorb"] = 0.012335,
 					["last_hps"] = 0,
 					["targets"] = {
 					},
-					["totalover_without_pet"] = 0.023931,
-					["healing_taken"] = 470.023931,
+					["totalover_without_pet"] = 0.012335,
+					["healing_taken"] = 993.012335,
+					["start_time"] = 1603409374,
+					["fight_component"] = true,
+					["end_time"] = 1603409377,
 					["targets_overheal"] = {
 					},
-					["fight_component"] = true,
-					["end_time"] = 1599957011,
-					["ownerName"] = "Juraak-Silvermoon",
-					["nome"] = "Treant <Juraak-Silvermoon>",
-					["heal_enemy_amt"] = 0,
-					["last_event"] = 0,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["start_time"] = 1599957008,
-					["totaldenied"] = 0.023931,
-					["delay"] = 0,
+					["nome"] = "Trevvpal-Sylvanas",
 					["spells"] = {
 						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
 					},
-				}, -- [7]
-				{
-					["flag_original"] = 4370,
-					["targets_overheal"] = {
-					},
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["classe"] = "PET",
-					["totalover"] = 0.04754199999999999,
-					["total_without_pet"] = 0.04754199999999999,
-					["total"] = 0.04754199999999999,
-					["targets_absorbs"] = {
-					},
-					["heal_enemy"] = {
-					},
-					["on_hold"] = false,
-					["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
-					["totalabsorb"] = 0.04754199999999999,
-					["last_hps"] = 0,
-					["targets"] = {
-					},
-					["totalover_without_pet"] = 0.04754199999999999,
-					["healing_taken"] = 320.047542,
-					["heal_enemy_amt"] = 0,
-					["fight_component"] = true,
-					["end_time"] = 1599957063,
-					["healing_from"] = {
-						["Rykahpriest"] = true,
-						["Zanm-Silvermoon"] = true,
-					},
-					["ownerName"] = "Zanm-Silvermoon",
-					["nome"] = "Unknown <Zanm-Silvermoon>",
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
+					["classe"] = "PALADIN",
+					["aID"] = "1597-0D08B302",
 					["custom"] = 0,
-					["tipo"] = 2,
-					["start_time"] = 1599957060,
-					["totaldenied"] = 0.04754199999999999,
+					["last_event"] = 0,
+					["spec"] = 66,
+					["totaldenied"] = 0.012335,
 					["delay"] = 0,
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-						},
-					},
-				}, -- [8]
+					["tipo"] = 2,
+				}, -- [5]
 				{
 					["flag_original"] = 8465,
-					["totalabsorb"] = 0.005954,
-					["last_hps"] = 0,
-					["targets_overheal"] = {
-					},
-					["targets"] = {
-					},
-					["targets_absorbs"] = {
+					["healing_from"] = {
+						["Rykahpriest"] = true,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["healing_from"] = {
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.011507,
+					["total_without_pet"] = 0.011507,
+					["total"] = 0.011507,
+					["targets_absorbs"] = {
 					},
-					["healing_taken"] = 0.005954,
-					["totalover"] = 0.005954,
-					["total_without_pet"] = 0.005954,
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Creature-0-3771-1116-307-19668-00001215C3",
+					["totalabsorb"] = 0.011507,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.011507,
+					["healing_taken"] = 9.011507,
 					["last_event"] = 0,
-					["totalover_without_pet"] = 0.005954,
-					["classe"] = "PET",
-					["end_time"] = 1599957526,
+					["fight_component"] = true,
+					["end_time"] = 1603409377,
+					["targets_overheal"] = {
+					},
 					["ownerName"] = "Rykahpriest",
-					["nome"] = "Void Tendril <Rykahpriest>",
+					["nome"] = "Shadowfiend <Rykahpriest>",
 					["spells"] = {
 						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
 					},
-					["heal_enemy_amt"] = 0,
-					["total"] = 0.005954,
-					["heal_enemy"] = {
-					},
-					["start_time"] = 1599957523,
+					["aID"] = "19668",
+					["classe"] = "PET",
 					["custom"] = 0,
 					["tipo"] = 2,
-					["on_hold"] = false,
-					["totaldenied"] = 0.005954,
-					["serial"] = "Creature-0-3891-90-14342-95577-00005D69FB",
+					["start_time"] = 1603409374,
+					["totaldenied"] = 0.011507,
 					["delay"] = 0,
-				}, -- [9]
+				}, -- [6]
 			},
 		}, -- [2]
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
 				{
-					["received"] = 0.08086200000000002,
-					["resource"] = 1781.080862,
+					["received"] = 0.016564,
+					["resource"] = 39.016564,
 					["targets"] = {
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
-					["boss_fight_component"] = true,
-					["classe"] = "DRUID",
-					["passiveover"] = 0.001735,
-					["resource_type"] = 8,
+					["aID"] = "3702-09D9A6C1",
+					["passiveover"] = 0.004658,
+					["resource_type"] = 9,
 					["fight_component"] = true,
-					["total"] = 0.08086200000000002,
+					["total"] = 0.016564,
+					["totalover"] = 0.004658,
 					["tipo"] = 3,
-					["nome"] = "Juraak-Silvermoon",
+					["nome"] = "Garrithas-ArgentDawn",
 					["spells"] = {
 						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
 					},
 					["grupo"] = true,
-					["totalover"] = 0.001735,
+					["spec"] = 66,
 					["flag_original"] = 1298,
-					["alternatepower"] = 0.08086200000000002,
+					["alternatepower"] = 0.016564,
 					["last_event"] = 0,
-					["spec"] = 102,
-					["serial"] = "Player-3391-0B77CF83",
+					["classe"] = "PALADIN",
+					["isTank"] = true,
+					["serial"] = "Player-3702-09D9A6C1",
 				}, -- [1]
 				{
-					["received"] = 425.05328,
-					["resource"] = 0.05328,
+					["received"] = 228.015358,
+					["resource"] = 41.015358,
 					["targets"] = {
-						["Zanm-Silvermoon"] = 425,
+						["Allegoria-Outland"] = 228,
 					},
 					["pets"] = {
 					},
-					["powertype"] = 0,
-					["classe"] = "WARLOCK",
-					["passiveover"] = 0.005659,
+					["powertype"] = 3,
+					["aID"] = "1301-07A0817D",
+					["passiveover"] = 0.004298,
+					["resource_type"] = 4,
 					["fight_component"] = true,
-					["total"] = 425.05328,
-					["boss_fight_component"] = true,
+					["total"] = 228.015358,
 					["tipo"] = 3,
-					["nome"] = "Zanm-Silvermoon",
+					["totalover"] = 0.004298,
+					["nome"] = "Allegoria-Outland",
 					["spells"] = {
 						["tipo"] = 7,
 						["_ActorTable"] = {
-							[59914] = {
-								["total"] = 425,
-								["id"] = 59914,
+							[98440] = {
+								["total"] = 228,
+								["id"] = 98440,
 								["totalover"] = 0,
 								["targets"] = {
-									["Zanm-Silvermoon"] = 425,
+									["Allegoria-Outland"] = 228,
 								},
-								["counter"] = 17,
+								["counter"] = 8,
 							},
 						},
 					},
 					["grupo"] = true,
-					["totalover"] = 0.005659,
+					["spec"] = 261,
 					["flag_original"] = 1298,
-					["alternatepower"] = 0.05328,
+					["alternatepower"] = 0.015358,
 					["last_event"] = 0,
-					["spec"] = 267,
-					["serial"] = "Player-3391-0B71A39B",
+					["classe"] = "ROGUE",
+					["serial"] = "Player-1301-07A0817D",
 				}, -- [2]
 				{
-					["received"] = 536.02887,
-					["resource"] = 0.02887,
+					["received"] = 0.015535,
+					["resource"] = 449.015535,
 					["targets"] = {
-						["Rykahpriest"] = 536,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
-					["classe"] = "PRIEST",
-					["passiveover"] = 0.007251,
+					["aID"] = "3391-0B921E00",
+					["passiveover"] = 0.003527,
+					["resource_type"] = 11,
 					["fight_component"] = true,
-					["total"] = 536.02887,
+					["total"] = 0.015535,
 					["tipo"] = 3,
+					["totalover"] = 0.003527,
+					["nome"] = "Larriianna-Silvermoon",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 262,
+					["flag_original"] = 66834,
+					["alternatepower"] = 0.015535,
+					["last_event"] = 0,
+					["classe"] = "SHAMAN",
+					["serial"] = "Player-3391-0B921E00",
+				}, -- [3]
+				{
+					["received"] = 60.009652,
+					["resource"] = 28.009652,
+					["targets"] = {
+						["Raydruid-ArgentDawn"] = 60,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 3,
+					["aID"] = "3702-09D9D5D2",
+					["passiveover"] = 0.004454,
+					["resource_type"] = 4,
+					["total"] = 60.009652,
+					["tipo"] = 3,
+					["totalover"] = 0.004454,
+					["nome"] = "Raydruid-ArgentDawn",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[5217] = {
+								["total"] = 60,
+								["id"] = 5217,
+								["totalover"] = 0,
+								["targets"] = {
+									["Raydruid-ArgentDawn"] = 60,
+								},
+								["counter"] = 3,
+							},
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 103,
+					["flag_original"] = 1298,
+					["alternatepower"] = 0.009651999999999999,
+					["last_event"] = 0,
+					["classe"] = "DRUID",
+					["serial"] = "Player-3702-09D9D5D2",
+				}, -- [4]
+				{
+					["received"] = 68.00596900000001,
+					["resource"] = 0.005969,
+					["targets"] = {
+						["Rykahpriest"] = 68,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["aID"] = "1303-0B65E197",
+					["passiveover"] = 0.003394,
+					["fight_component"] = true,
+					["total"] = 68.00596900000001,
+					["tipo"] = 3,
+					["totalover"] = 0.003394,
 					["nome"] = "Rykahpriest",
 					["spells"] = {
 						["tipo"] = 7,
 						["_ActorTable"] = {
 							[59914] = {
-								["total"] = 536,
+								["total"] = 68,
 								["id"] = 59914,
 								["totalover"] = 0,
 								["targets"] = {
-									["Rykahpriest"] = 536,
+									["Rykahpriest"] = 68,
 								},
-								["counter"] = 11,
+								["counter"] = 2,
 							},
 						},
 					},
 					["grupo"] = true,
-					["totalover"] = 0.007251,
-					["flag_original"] = 1297,
-					["alternatepower"] = 0.02887,
-					["last_event"] = 0,
 					["spec"] = 256,
+					["flag_original"] = 1297,
+					["alternatepower"] = 0.005969,
+					["last_event"] = 0,
+					["classe"] = "PRIEST",
 					["serial"] = "Player-1303-0B65E197",
-				}, -- [3]
+				}, -- [5]
+				{
+					["received"] = 0.009222000000000001,
+					["resource"] = 14.009222,
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["aID"] = "1597-0D08B302",
+					["passiveover"] = 0.006393,
+					["resource_type"] = 9,
+					["fight_component"] = true,
+					["total"] = 0.009222000000000001,
+					["tipo"] = 3,
+					["totalover"] = 0.006393,
+					["nome"] = "Trevvpal-Sylvanas",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+						},
+					},
+					["spec"] = 66,
+					["flag_original"] = 1304,
+					["alternatepower"] = 0.009222000000000001,
+					["last_event"] = 0,
+					["classe"] = "PALADIN",
+					["serial"] = "Player-1597-0D08B302",
+				}, -- [6]
 			},
 		}, -- [3]
 		{
@@ -15610,90 +21761,125 @@ _detalhes_database = {
 					["debuff_uptime_spells"] = {
 						["tipo"] = 9,
 						["_ActorTable"] = {
-							[116189] = {
-								["refreshamt"] = 0,
+							[197277] = {
+								["refreshamt"] = 7,
 								["activedamt"] = 0,
-								["appliedamt"] = 14,
-								["id"] = 116189,
-								["uptime"] = 34,
+								["appliedamt"] = 11,
+								["id"] = 197277,
+								["uptime"] = 53,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[124275] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 12,
-								["appliedamt"] = 23,
-								["id"] = 124275,
-								["uptime"] = 430,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[124274] = {
-								["refreshamt"] = 0,
+							[204242] = {
+								["refreshamt"] = 1,
 								["activedamt"] = 0,
-								["appliedamt"] = 4,
-								["id"] = 124274,
-								["uptime"] = 8,
+								["appliedamt"] = 36,
+								["id"] = 204242,
+								["uptime"] = 80,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[117952] = {
+							[62124] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 2,
-								["id"] = 117952,
-								["uptime"] = 6,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[121253] = {
-								["actived_at"] = 6399829064,
-								["refreshamt"] = 36,
-								["activedamt"] = -6,
-								["appliedamt"] = 75,
-								["id"] = 121253,
-								["uptime"] = 400,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[113746] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 77,
-								["id"] = 113746,
-								["uptime"] = 578,
+								["appliedamt"] = 0,
+								["activedamt"] = -1,
+								["uptime"] = 0,
+								["id"] = 62124,
+								["actived_at"] = 1603409168,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
 					},
-					["buff_uptime"] = 196,
-					["classe"] = "MONK",
+					["cooldowns_defensive"] = 1.007695,
+					["pets"] = {
+					},
+					["aID"] = "3702-09D9A6C1",
+					["cooldowns_defensive_targets"] = {
+						["Garrithas-ArgentDawn"] = 1,
+					},
 					["buff_uptime_spells"] = {
 						["tipo"] = 9,
 						["_ActorTable"] = {
+							[465] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 465,
+								["uptime"] = 100,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[188370] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 15,
+								["appliedamt"] = 15,
+								["id"] = 188370,
+								["uptime"] = 82,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[498] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 498,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[132403] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 12,
+								["appliedamt"] = 12,
+								["id"] = 132403,
+								["uptime"] = 47,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[280375] = {
+								["refreshamt"] = 4,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 280375,
+								["uptime"] = 78,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[72221] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 72221,
+								["uptime"] = 100,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[126582] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 126582,
+								["uptime"] = 40,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 							[228128] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 228128,
-								["uptime"] = 21,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[215479] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 24,
-								["appliedamt"] = 24,
-								["id"] = 215479,
-								["uptime"] = 175,
+								["uptime"] = 50,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -15701,96 +21887,99 @@ _detalhes_database = {
 						},
 					},
 					["fight_component"] = true,
-					["debuff_uptime"] = 1456,
-					["boss_fight_component"] = true,
-					["nome"] = "Sberla-Silvermoon",
-					["spec"] = 268,
-					["grupo"] = true,
-					["spell_cast"] = {
-						[115546] = 14,
-						[119582] = 7,
-						[124503] = 14,
-						[205523] = 73,
-						[124506] = 13,
-						[109132] = 4,
-						[121253] = 38,
-						[100780] = 215,
-						[117952] = 2,
-						[115308] = 27,
-					},
+					["debuff_uptime"] = 133,
 					["debuff_uptime_targets"] = {
 					},
-					["tipo"] = 4,
-					["last_event"] = 0,
+					["nome"] = "Garrithas-ArgentDawn",
+					["spec"] = 66,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[53595] = 12,
+						[53600] = 12,
+						[275779] = 19,
+						[26573] = 15,
+						[498] = 1,
+						[96231] = 2,
+						[31935] = 8,
+						[85673] = 1,
+					},
 					["buff_uptime_targets"] = {
 					},
-					["serial"] = "Player-3391-0B77C625",
-					["pets"] = {
+					["buff_uptime"] = 505,
+					["tipo"] = 4,
+					["cooldowns_defensive_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[498] = {
+								["id"] = 498,
+								["targets"] = {
+									["Garrithas-ArgentDawn"] = 1,
+								},
+								["counter"] = 1,
+							},
+						},
 					},
+					["last_event"] = 0,
+					["serial"] = "Player-3702-09D9A6C1",
+					["classe"] = "PALADIN",
 				}, -- [1]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
 						["tipo"] = 9,
 						["_ActorTable"] = {
-							[164815] = {
-								["refreshamt"] = 22,
+							[188389] = {
+								["refreshamt"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 76,
-								["id"] = 164815,
-								["uptime"] = 482,
+								["appliedamt"] = 4,
+								["id"] = 188389,
+								["uptime"] = 67,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[164812] = {
-								["refreshamt"] = 5,
+							[77505] = {
+								["refreshamt"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 35,
-								["id"] = 164812,
-								["uptime"] = 374,
+								["appliedamt"] = 2,
+								["id"] = 77505,
+								["uptime"] = 2,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
 					},
-					["cooldowns_defensive"] = 3.017883,
 					["pets"] = {
 					},
-					["classe"] = "DRUID",
-					["cooldowns_defensive_targets"] = {
-						["Juraak-Silvermoon"] = 3,
+					["interrupt_targets"] = {
+						["Bloodmaul Overseer"] = 1,
+					},
+					["aID"] = "3391-0B921E00",
+					["interrupt_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[57994] = {
+								["id"] = 57994,
+								["interrompeu_oque"] = {
+									[151581] = 1,
+								},
+								["targets"] = {
+									["Bloodmaul Overseer"] = 1,
+								},
+								["counter"] = 1,
+							},
+						},
 					},
 					["buff_uptime_spells"] = {
 						["tipo"] = 9,
 						["_ActorTable"] = {
-							[768] = {
+							[289982] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 768,
-								["uptime"] = 10,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[24858] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 18,
-								["appliedamt"] = 18,
-								["id"] = 24858,
-								["uptime"] = 646,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[8936] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 8936,
-								["uptime"] = 17,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 289982,
+								["uptime"] = 100,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -15800,182 +21989,150 @@ _detalhes_database = {
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 228128,
-								["uptime"] = 21,
+								["uptime"] = 49,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[252216] = {
+							[72221] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 252216,
-								["uptime"] = 18,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 72221,
+								["uptime"] = 100,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[164547] = {
+							[77762] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 44,
-								["appliedamt"] = 44,
-								["id"] = 164547,
-								["uptime"] = 205,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 77762,
+								["uptime"] = 14,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[22812] = {
+							[192106] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 3,
-								["appliedamt"] = 3,
-								["id"] = 22812,
-								["uptime"] = 35,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[164545] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 43,
-								["appliedamt"] = 43,
-								["id"] = 164545,
-								["uptime"] = 191,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 192106,
+								["uptime"] = 100,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
 					},
+					["interrompeu_oque"] = {
+						[151581] = 1,
+					},
 					["fight_component"] = true,
-					["debuff_uptime"] = 856,
-					["boss_fight_component"] = true,
-					["nome"] = "Juraak-Silvermoon",
-					["spec"] = 102,
+					["debuff_uptime"] = 69,
+					["interrupt"] = 1.004671,
+					["nome"] = "Larriianna-Silvermoon",
+					["spec"] = 262,
 					["grupo"] = true,
 					["spell_cast"] = {
-						[93402] = 44,
-						[78674] = 42,
-						[22812] = 3,
-						[190984] = 96,
-						[252216] = 2,
-						[194153] = 56,
-						[205636] = 8,
-						[8921] = 41,
-						[8936] = 2,
-						[24858] = 5,
+						[51505] = 12,
+						[188443] = 22,
+						[8042] = 5,
+						[188389] = 4,
+						[61882] = 3,
+						[188196] = 4,
+						[57994] = 1,
 					},
 					["debuff_uptime_targets"] = {
 					},
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
-					["tipo"] = 4,
-					["buff_uptime"] = 1143,
-					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[22812] = {
-								["id"] = 22812,
-								["targets"] = {
-									["Juraak-Silvermoon"] = 3,
-								},
-								["counter"] = 3,
-							},
-						},
-					},
-					["serial"] = "Player-3391-0B77CF83",
-					["last_event"] = 0,
+					["buff_uptime"] = 363,
+					["serial"] = "Player-3391-0B921E00",
+					["classe"] = "SHAMAN",
 				}, -- [2]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
 						["tipo"] = 9,
 						["_ActorTable"] = {
-							[5116] = {
+							[1943] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 11,
-								["id"] = 5116,
-								["uptime"] = 56,
+								["appliedamt"] = 3,
+								["id"] = 1943,
+								["uptime"] = 58,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[3355] = {
+							[408] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
-								["id"] = 3355,
-								["uptime"] = 1,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[257044] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 29,
-								["id"] = 257044,
-								["uptime"] = 71,
+								["id"] = 408,
+								["uptime"] = 5,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
 					},
-					["cc_break"] = 1.002728,
-					["buff_uptime"] = 231,
-					["cc_break_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[75] = {
-								["cc_break_oque"] = {
-									[3355] = 1,
-								},
-								["id"] = 75,
-								["cc_break"] = 1,
-								["targets"] = {
-									["Leprous Technician"] = 1,
-								},
-								["counter"] = 0,
-							},
-						},
+					["interrupt_targets"] = {
+						["Bloodmaul Overseer"] = 1,
 					},
+					["buff_uptime"] = 349,
+					["interrupt"] = 1.007831,
 					["cc_done_spells"] = {
 						["tipo"] = 9,
 						["_ActorTable"] = {
-							[3355] = {
-								["id"] = 3355,
+							[408] = {
+								["id"] = 408,
 								["targets"] = {
-									["Leprous Technician"] = 1,
+									["Bloodmaul Overseer"] = 1,
 								},
 								["counter"] = 1,
 							},
 						},
 					},
-					["classe"] = "HUNTER",
-					["pets"] = {
-						"Ravager <Worgylegoshi-Thunderhorn>", -- [1]
+					["aID"] = "1301-07A0817D",
+					["interrupt_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[1766] = {
+								["id"] = 1766,
+								["interrompeu_oque"] = {
+									[151697] = 1,
+								},
+								["targets"] = {
+									["Bloodmaul Overseer"] = 1,
+								},
+								["counter"] = 1,
+							},
+						},
 					},
 					["buff_uptime_spells"] = {
 						["tipo"] = 9,
 						["_ActorTable"] = {
-							[68992] = {
+							[315584] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 4,
-								["appliedamt"] = 4,
-								["id"] = 68992,
-								["uptime"] = 26,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 315584,
+								["uptime"] = 100,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[982] = {
+							[115192] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 982,
-								["uptime"] = 3,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 115192,
+								["uptime"] = 6,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -15985,127 +22142,123 @@ _detalhes_database = {
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 228128,
-								["uptime"] = 21,
+								["uptime"] = 48,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[269576] = {
-								["refreshamt"] = 7,
-								["activedamt"] = 48,
-								["appliedamt"] = 48,
-								["id"] = 269576,
-								["uptime"] = 172,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[12438] = {
+							[36554] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
-								["id"] = 12438,
-								["uptime"] = 9,
+								["id"] = 36554,
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[72221] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 72221,
+								["uptime"] = 100,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[115191] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 115191,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[315496] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 315496,
+								["uptime"] = 93,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
 					},
-					["cc_done_targets"] = {
-						["Leprous Technician"] = 1,
+					["interrompeu_oque"] = {
+						[151697] = 1,
 					},
 					["fight_component"] = true,
-					["debuff_uptime"] = 128,
-					["boss_fight_component"] = true,
-					["cc_done"] = 1.010991,
-					["nome"] = "Worgylegoshi-Thunderhorn",
-					["spec"] = 254,
+					["debuff_uptime"] = 63,
+					["cc_done_targets"] = {
+						["Bloodmaul Overseer"] = 1,
+					},
+					["cc_done"] = 1.009969,
+					["nome"] = "Allegoria-Outland",
+					["spec"] = 261,
 					["grupo"] = true,
 					["spell_cast"] = {
-						[5116] = 9,
-						[56641] = 38,
-						[257044] = 29,
-						[19434] = 52,
-						[257620] = 49,
-						[68992] = 1,
-						[12438] = 1,
-						[185358] = 45,
-						[187650] = 1,
-						[982] = 1,
-					},
-					["cc_break_oque"] = {
-						[3355] = 1,
+						[408] = 1,
+						[1766] = 1,
+						[53] = 31,
+						[36554] = 1,
+						[315496] = 4,
+						[185438] = 4,
+						[1943] = 3,
 					},
 					["debuff_uptime_targets"] = {
 					},
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
-					["cc_break_targets"] = {
-						["Leprous Technician"] = 1,
+					["pets"] = {
 					},
-					["serial"] = "Player-1313-0B7742DA",
-					["last_event"] = 0,
+					["serial"] = "Player-1301-07A0817D",
+					["classe"] = "ROGUE",
 				}, -- [3]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
 						["tipo"] = 9,
 						["_ActorTable"] = {
-							[196414] = {
-								["refreshamt"] = 2,
+							[155722] = {
+								["refreshamt"] = 12,
 								["activedamt"] = 0,
-								["appliedamt"] = 24,
-								["id"] = 196414,
-								["uptime"] = 139,
+								["appliedamt"] = 5,
+								["id"] = 155722,
+								["uptime"] = 84,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[17877] = {
-								["refreshamt"] = 5,
+							[1079] = {
+								["refreshamt"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 38,
-								["id"] = 17877,
-								["uptime"] = 141,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[157736] = {
-								["refreshamt"] = 4,
-								["activedamt"] = 0,
-								["appliedamt"] = 37,
-								["id"] = 157736,
-								["uptime"] = 302,
+								["appliedamt"] = 3,
+								["id"] = 1079,
+								["uptime"] = 67,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
 					},
-					["buff_uptime"] = 943,
-					["classe"] = "WARLOCK",
+					["buff_uptime"] = 376,
+					["aID"] = "3702-09D9D5D2",
 					["buff_uptime_spells"] = {
 						["tipo"] = 9,
 						["_ActorTable"] = {
-							[117828] = {
+							[768] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 52,
-								["appliedamt"] = 52,
-								["id"] = 117828,
-								["uptime"] = 206,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[256374] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 13,
-								["appliedamt"] = 13,
-								["id"] = 256374,
-								["uptime"] = 116,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 768,
+								["uptime"] = 100,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -16115,162 +22268,154 @@ _detalhes_database = {
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 228128,
-								["uptime"] = 21,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[108366] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 46,
-								["appliedamt"] = 46,
-								["id"] = 108366,
-								["uptime"] = 600,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-						},
-					},
-					["fight_component"] = true,
-					["debuff_uptime"] = 582,
-					["boss_fight_component"] = true,
-					["buff_uptime_targets"] = {
-					},
-					["spec"] = 267,
-					["grupo"] = true,
-					["spell_cast"] = {
-						[17962] = 50,
-						[116858] = 28,
-						[348] = 41,
-						[58168] = 1,
-						[5740] = 8,
-						[17877] = 46,
-						[29722] = 107,
-					},
-					["debuff_uptime_targets"] = {
-					},
-					["tipo"] = 4,
-					["nome"] = "Zanm-Silvermoon",
-					["pets"] = {
-						"Unknown <Zanm-Silvermoon>", -- [1]
-					},
-					["serial"] = "Player-3391-0B71A39B",
-					["last_event"] = 0,
-				}, -- [4]
-				{
-					["flag_original"] = 1047,
-					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[8122] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 5,
-								["id"] = 8122,
-								["uptime"] = 8,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[6788] = {
-								["actived_at"] = 1599957145,
-								["refreshamt"] = 0,
-								["activedamt"] = 4,
-								["appliedamt"] = 74,
-								["id"] = 6788,
-								["uptime"] = 395,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[187464] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 23,
-								["id"] = 187464,
-								["uptime"] = 69,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[589] = {
-								["actived_at"] = 1599957102,
-								["refreshamt"] = 14,
-								["activedamt"] = -1,
-								["appliedamt"] = 69,
-								["id"] = 589,
-								["uptime"] = 483,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-						},
-					},
-					["dispell"] = 2.014846,
-					["buff_uptime"] = 2684,
-					["dispell_oque"] = {
-						[157736] = 1,
-						[52778] = 1,
-					},
-					["cc_done_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[8122] = {
-								["id"] = 8122,
-								["targets"] = {
-									["Leprous Technician"] = 1,
-									["Leprous Assistant"] = 3,
-									["Peacekeeper Security Suit"] = 1,
-								},
-								["counter"] = 5,
-							},
-						},
-					},
-					["classe"] = "PRIEST",
-					["dispell_targets"] = {
-						["Sberla-Silvermoon"] = 1,
-						["Zanm-Silvermoon"] = 1,
-					},
-					["buff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[121557] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 5,
-								["appliedamt"] = 5,
-								["id"] = 121557,
-								["uptime"] = 16,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[256374] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 14,
-								["appliedamt"] = 14,
-								["id"] = 256374,
-								["uptime"] = 156,
+								["uptime"] = 51,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[93795] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 16,
-								["appliedamt"] = 16,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
 								["id"] = 93795,
-								["uptime"] = 661,
+								["uptime"] = 100,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[326419] = {
+							[72221] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 16,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 72221,
+								["uptime"] = 100,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[5215] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 5215,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[5217] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 5217,
+								["uptime"] = 25,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["debuff_uptime"] = 151,
+					["nome"] = "Raydruid-ArgentDawn",
+					["spec"] = 103,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[1079] = 3,
+						[5221] = 11,
+						[5217] = 3,
+						[22568] = 4,
+						[1822] = 17,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["pets"] = {
+					},
+					["serial"] = "Player-3702-09D9D5D2",
+					["classe"] = "DRUID",
+				}, -- [4]
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[187464] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 9,
+								["id"] = 187464,
+								["uptime"] = 25,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[6788] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
 								["appliedamt"] = 16,
-								["id"] = 326419,
-								["uptime"] = 661,
+								["id"] = 6788,
+								["uptime"] = 89,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[208772] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 5,
+								["id"] = 208772,
+								["uptime"] = 32,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[589] = {
+								["refreshamt"] = 6,
+								["activedamt"] = 0,
+								["appliedamt"] = 11,
+								["id"] = 589,
+								["uptime"] = 109,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["pets"] = {
+					},
+					["aID"] = "1303-0B65E197",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[93795] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 93795,
+								["uptime"] = 137,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[17] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 17,
+								["uptime"] = 65,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[21562] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 21562,
+								["uptime"] = 137,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -16280,616 +22425,151 @@ _detalhes_database = {
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 228128,
-								["uptime"] = 21,
+								["uptime"] = 49,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[12438] = {
+							[256374] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 12438,
-								["uptime"] = 1,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 256374,
+								["uptime"] = 36,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[19236] = {
+							[72221] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 19236,
-								["uptime"] = 10,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 72221,
+								["uptime"] = 100,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[194384] = {
-								["refreshamt"] = 4,
-								["activedamt"] = 18,
-								["appliedamt"] = 18,
-								["id"] = 194384,
-								["uptime"] = 224,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[111759] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 111759,
-								["uptime"] = 10,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 194384,
+								["uptime"] = 65,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[265258] = {
-								["refreshamt"] = 41,
-								["activedamt"] = 6,
-								["appliedamt"] = 6,
-								["id"] = 265258,
-								["uptime"] = 78,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[21562] = {
-								["refreshamt"] = 3,
-								["activedamt"] = 16,
-								["appliedamt"] = 16,
-								["id"] = 21562,
-								["uptime"] = 661,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[17] = {
-								["refreshamt"] = 3,
-								["activedamt"] = 17,
-								["appliedamt"] = 17,
-								["id"] = 17,
-								["uptime"] = 185,
+							[328136] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 328136,
+								["uptime"] = 137,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
-					},
-					["dispell_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[527] = {
-								["dispell"] = 2,
-								["id"] = 527,
-								["dispell_oque"] = {
-									[157736] = 1,
-									[52778] = 1,
-								},
-								["targets"] = {
-									["Sberla-Silvermoon"] = 1,
-									["Zanm-Silvermoon"] = 1,
-								},
-								["counter"] = 0,
-							},
-						},
-					},
-					["cc_done_targets"] = {
-						["Leprous Technician"] = 1,
-						["Leprous Assistant"] = 3,
-						["Peacekeeper Security Suit"] = 1,
 					},
 					["fight_component"] = true,
-					["debuff_uptime"] = 955,
-					["boss_fight_component"] = true,
-					["cc_done"] = 5.014038,
+					["debuff_uptime"] = 255,
 					["nome"] = "Rykahpriest",
 					["spec"] = 256,
 					["grupo"] = true,
 					["spell_cast"] = {
-						[132157] = 45,
-						[8122] = 1,
-						[527] = 2,
-						[186263] = 31,
-						[121536] = 2,
-						[19236] = 1,
-						[585] = 101,
-						[47540] = 39,
-						[589] = 83,
-						[21562] = 3,
-						[17] = 74,
+						[34433] = 1,
+						[17] = 16,
+						[47540] = 8,
+						[585] = 17,
+						[32379] = 3,
+						[186263] = 12,
+						[8092] = 5,
+						[589] = 17,
 					},
 					["debuff_uptime_targets"] = {
 					},
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
-					["pets"] = {
-					},
+					["buff_uptime"] = 726,
 					["serial"] = "Player-1303-0B65E197",
-					["last_event"] = 0,
+					["classe"] = "PRIEST",
 				}, -- [5]
-				{
-					["fight_component"] = true,
-					["ownerName"] = "Worgylegoshi-Thunderhorn",
-					["nome"] = "Ravager <Worgylegoshi-Thunderhorn>",
-					["pets"] = {
-					},
-					["spell_cast"] = {
-						[263857] = 69,
-						[17253] = 85,
-						[61684] = 11,
-					},
-					["flag_original"] = 4370,
-					["classe"] = "PET",
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["serial"] = "Pet-0-3896-530-43-17199-0202FF025C",
-					["tipo"] = 4,
-				}, -- [6]
-				{
-					["fight_component"] = true,
-					["tipo"] = 4,
-					["ownerName"] = "Zanm-Silvermoon",
-					["nome"] = "Unknown <Zanm-Silvermoon>",
-					["spell_cast"] = {
-						[7870] = 4,
-						[7814] = 89,
-						[6360] = 50,
-					},
-					["flag_original"] = 4370,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["pets"] = {
-					},
-					["serial"] = "Pet-0-3892-0-49-1863-0102FF0110",
-					["classe"] = "PET",
-				}, -- [7]
 				{
 					["monster"] = true,
 					["tipo"] = 4,
-					["nome"] = "Caverndeep Burrower",
+					["spell_cast"] = {
+						[151447] = 5,
+						[151542] = 2,
+						[151415] = 6,
+					},
+					["nome"] = "Bloodmaul Enforcer",
 					["pets"] = {
 					},
-					["spell_cast"] = {
-						[87081] = 1,
-					},
-					["flag_original"] = 2632,
-					["last_event"] = 0,
 					["fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-6206-00025D67AA",
+					["flag_original"] = 2632,
 					["classe"] = "UNKNOW",
+					["aID"] = "84978",
+					["serial"] = "Creature-0-3770-1175-20951-84978-00021214DE",
+					["last_event"] = 0,
+				}, -- [6]
+				{
+					["monster"] = true,
+					["tipo"] = 4,
+					["spell_cast"] = {
+						[151990] = 5,
+						[151965] = 7,
+						[152073] = 4,
+						[152043] = 5,
+					},
+					["nome"] = "Bloodmaul Slaver",
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["flag_original"] = 2632,
+					["classe"] = "UNKNOW",
+					["aID"] = "75191",
+					["serial"] = "Creature-0-3770-1175-20951-75191-00019214DE",
+					["last_event"] = 0,
+				}, -- [7]
+				{
+					["flag_original"] = 1304,
+					["nome"] = "Trevvpal-Sylvanas",
+					["spec"] = 66,
+					["spell_cast"] = {
+						[53600] = 4,
+						[53595] = 5,
+						[31935] = 3,
+						[26573] = 4,
+						[275779] = 6,
+					},
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["pets"] = {
+					},
+					["classe"] = "PALADIN",
+					["serial"] = "Player-1597-0D08B302",
+					["aID"] = "1597-0D08B302",
 				}, -- [8]
 				{
 					["monster"] = true,
 					["tipo"] = 4,
-					["nome"] = "Irradiated Slime",
+					["spell_cast"] = {
+						[161781] = 3,
+					},
+					["nome"] = "Quakefist",
 					["pets"] = {
 					},
-					["spell_cast"] = {
-						[81039] = 1,
-						[10341] = 2,
-					},
-					["flag_original"] = 2632,
-					["last_event"] = 0,
 					["fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-6218-00015D67AA",
+					["flag_original"] = 68168,
 					["classe"] = "UNKNOW",
+					["aID"] = "81360",
+					["serial"] = "Creature-0-3771-1116-307-81360-00001215BC",
+					["last_event"] = 0,
 				}, -- [9]
-				{
-					["flag_original"] = 2632,
-					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-						},
-					},
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["boss_debuff"] = true,
-					["monster"] = true,
-					["debuff_uptime"] = 0,
-					["spellschool"] = 8,
-					["debuff_uptime_targets"] = {
-						["Zanm-Silvermoon"] = {
-							["uptime"] = 0,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Sberla-Silvermoon"] = {
-							["uptime"] = 0,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Juraak-Silvermoon"] = {
-							["uptime"] = 0,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Rykahpriest"] = {
-							["uptime"] = 0,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Worgylegoshi-Thunderhorn"] = {
-							["uptime"] = 0,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-					},
-					["boss_fight_component"] = true,
-					["nome"] = "Toxic Nova",
-					["tipo"] = 4,
-					["damage_twin"] = "Irradiated Slime",
-					["damage_spellid"] = 81039,
-					["serial"] = "Creature-0-3891-90-14342-6218-00015D67AA",
-					["last_event"] = 0,
-				}, -- [10]
-				{
-					["flag_original"] = 2632,
-					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-						},
-					},
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["boss_debuff"] = true,
-					["monster"] = true,
-					["debuff_uptime"] = 40,
-					["spellschool"] = 8,
-					["debuff_uptime_targets"] = {
-						["Sberla-Silvermoon"] = {
-							["uptime"] = 2,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Zanm-Silvermoon"] = {
-							["uptime"] = 2,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Juraak-Silvermoon"] = {
-							["uptime"] = 12,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Rykahpriest"] = {
-							["uptime"] = 9,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Worgylegoshi-Thunderhorn"] = {
-							["uptime"] = 15,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-					},
-					["boss_fight_component"] = true,
-					["nome"] = "Radiation Cloud",
-					["tipo"] = 4,
-					["damage_twin"] = "Irradiated Slime",
-					["damage_spellid"] = 10341,
-					["serial"] = "Creature-0-3891-90-14342-6218-00015D67AA",
-					["last_event"] = 0,
-				}, -- [11]
-				{
-					["monster"] = true,
-					["tipo"] = 4,
-					["nome"] = "Viscous Fallout",
-					["pets"] = {
-					},
-					["spell_cast"] = {
-						[21687] = 4,
-					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-7079-00005D67AA",
-					["classe"] = "UNKNOW",
-				}, -- [12]
-				{
-					["flag_original"] = 68168,
-					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-						},
-					},
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["boss_debuff"] = true,
-					["monster"] = true,
-					["debuff_uptime"] = 150,
-					["spellschool"] = 8,
-					["debuff_uptime_targets"] = {
-						["Sberla-Silvermoon"] = {
-							["uptime"] = 30,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Zanm-Silvermoon"] = {
-							["uptime"] = 30,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Juraak-Silvermoon"] = {
-							["uptime"] = 30,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Rykahpriest"] = {
-							["uptime"] = 30,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-						["Worgylegoshi-Thunderhorn"] = {
-							["uptime"] = 30,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-					},
-					["damage_spellid"] = 21687,
-					["nome"] = "Toxic Volley",
-					["tipo"] = 4,
-					["damage_twin"] = "Viscous Fallout",
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-7079-00005D67AA",
-					["last_event"] = 0,
-				}, -- [13]
-				{
-					["monster"] = true,
-					["tipo"] = 4,
-					["nome"] = "Leprous Defender",
-					["pets"] = {
-					},
-					["spell_cast"] = {
-						[6660] = 35,
-						[14443] = 1,
-					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-6223-00025D67AA",
-					["classe"] = "UNKNOW",
-				}, -- [14]
-				{
-					["flag_original"] = 2632,
-					["boss_fight_component"] = true,
-					["monster"] = true,
-					["spell_cast"] = {
-						[13398] = 36,
-						[10348] = 6,
-						[10732] = 1,
-					},
-					["tipo"] = 4,
-					["nome"] = "Leprous Technician",
-					["classe"] = "UNKNOW",
-					["fight_component"] = true,
-					["pets"] = {
-					},
-					["serial"] = "Creature-0-3891-90-14342-6222-00035D67AA",
-					["last_event"] = 0,
-				}, -- [15]
-				{
-					["monster"] = true,
-					["tipo"] = 4,
-					["nome"] = "Leprous Machinesmith",
-					["pets"] = {
-					},
-					["boss_fight_component"] = true,
-					["spell_cast"] = {
-						[10348] = 5,
-					},
-					["last_event"] = 0,
-					["flag_original"] = 2632,
-					["serial"] = "Creature-0-3891-90-14342-6224-00015D67AB",
-					["classe"] = "UNKNOW",
-				}, -- [16]
-				{
-					["monster"] = true,
-					["tipo"] = 4,
-					["nome"] = "Peacekeeper Security Suit",
-					["pets"] = {
-					},
-					["spell_cast"] = {
-						[6533] = 3,
-						[10730] = 1,
-					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-6230-00015D67AA",
-					["classe"] = "UNKNOW",
-				}, -- [17]
-				{
-					["monster"] = true,
-					["tipo"] = 4,
-					["nome"] = "Electrocutioner 6000",
-					["pets"] = {
-					},
-					["spell_cast"] = {
-						[11082] = 2,
-						[11084] = 2,
-						[11085] = 1,
-					},
-					["flag_original"] = 2632,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-6235-00005D67AA",
-					["classe"] = "UNKNOW",
-				}, -- [18]
-				{
-					["monster"] = true,
-					["tipo"] = 4,
-					["nome"] = "Mechano-Tank",
-					["pets"] = {
-					},
-					["spell_cast"] = {
-						[10346] = 20,
-					},
-					["flag_original"] = 2632,
-					["last_event"] = 0,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-6225-0000DD67AA",
-					["classe"] = "UNKNOW",
-				}, -- [19]
-				{
-					["monster"] = true,
-					["tipo"] = 4,
-					["nome"] = "Mechanized Guardian",
-					["pets"] = {
-					},
-					["spell_cast"] = {
-						[11820] = 9,
-					},
-					["flag_original"] = 2632,
-					["last_event"] = 0,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-6234-0000DD67AA",
-					["classe"] = "UNKNOW",
-				}, -- [20]
-				{
-					["monster"] = true,
-					["tipo"] = 4,
-					["nome"] = "Dark Iron Agent",
-					["pets"] = {
-					},
-					["spell_cast"] = {
-						[11802] = 5,
-					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-6212-0005DD67AA",
-					["classe"] = "UNKNOW",
-				}, -- [21]
-				{
-					["monster"] = true,
-					["tipo"] = 4,
-					["nome"] = "Arcane Nullifier X-21",
-					["pets"] = {
-					},
-					["spell_cast"] = {
-						[10831] = 1,
-					},
-					["flag_original"] = 2632,
-					["last_event"] = 0,
-					["fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-6232-00005D67AA",
-					["classe"] = "UNKNOW",
-				}, -- [22]
-				{
-					["monster"] = true,
-					["tipo"] = 4,
-					["nome"] = "Mekgineer Thermaplugg",
-					["pets"] = {
-					},
-					["spell_cast"] = {
-						[52778] = 2,
-						[93655] = 2,
-						[74720] = 1,
-					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-7800-00005D67AA",
-					["classe"] = "UNKNOW",
-				}, -- [23]
-				{
-					["flag_original"] = 68168,
-					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-						},
-					},
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["boss_debuff"] = true,
-					["monster"] = true,
-					["debuff_uptime"] = 2,
-					["spellschool"] = 1,
-					["debuff_uptime_targets"] = {
-						["Sberla-Silvermoon"] = {
-							["uptime"] = 2,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-					},
-					["damage_spellid"] = 74720,
-					["nome"] = "Pound",
-					["tipo"] = 4,
-					["damage_twin"] = "Mekgineer Thermaplugg",
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-7800-00005D67AA",
-					["last_event"] = 0,
-				}, -- [24]
-				{
-					["flag_original"] = 68168,
-					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-						},
-					},
-					["pets"] = {
-					},
-					["classe"] = "UNKNOW",
-					["boss_debuff"] = true,
-					["monster"] = true,
-					["debuff_uptime"] = 4,
-					["spellschool"] = 8,
-					["debuff_uptime_targets"] = {
-						["Sberla-Silvermoon"] = {
-							["uptime"] = 4,
-							["appliedamt"] = 0,
-							["activedamt"] = 0,
-							["actived"] = false,
-							["refreshamt"] = 0,
-						},
-					},
-					["damage_spellid"] = 52778,
-					["nome"] = "Welding Beam",
-					["tipo"] = 4,
-					["damage_twin"] = "Mekgineer Thermaplugg",
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3891-90-14342-7800-00005D67AA",
-					["last_event"] = 0,
-				}, -- [25]
 			},
 		}, -- [4]
 		{
@@ -16899,30 +22579,30 @@ _detalhes_database = {
 		}, -- [5]
 		["raid_roster"] = {
 		},
-		["tempo_start"] = 1599956938,
+		["tempo_start"] = 1603409155,
 		["last_events_tables"] = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 226,
+		["combat_counter"] = 290,
 		["totals"] = {
-			439494.8797500001, -- [1]
-			95144.48974900001, -- [2]
+			66633.12788500001, -- [1]
+			18493.05648500001, -- [2]
 			{
 				0, -- [1]
-				[0] = 961.148367,
+				[0] = 68.03986100000002,
 				["alternatepower"] = 0,
-				[3] = 0,
+				[3] = 288.016258,
 				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
 				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 3.016865,
-				["interrupt"] = 0,
-				["dispell"] = 2.014846,
-				["cc_break"] = 1.002728,
+				["cooldowns_defensive"] = 1.002029,
+				["interrupt"] = 2.012502,
+				["dispell"] = 0,
+				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 			["frags_total"] = 0,
@@ -16937,140 +22617,64 @@ _detalhes_database = {
 		},
 		["__call"] = {
 		},
-		["data_inicio"] = "01:28:58",
-		["end_time"] = 41437.312,
+		["data_inicio"] = "00:26:06",
+		["end_time"] = 16678.94,
 		["cleu_events"] = {
 			["n"] = 1,
 		},
 		["segments_added"] = {
 			{
-				["elapsed"] = 60.86099999999715,
-				["type"] = 6,
-				["name"] = "Mekgineer Thermaplugg",
-				["clock"] = "01:41:33",
+				["elapsed"] = 36.60299999999916,
+				["type"] = 0,
+				["name"] = "Quakefist",
+				["clock"] = "00:29:00",
 			}, -- [1]
 			{
-				["elapsed"] = 29.00300000000425,
+				["elapsed"] = 47,
 				["type"] = 5,
 				["name"] = "Trash Cleanup",
-				["clock"] = "01:40:52",
+				["clock"] = "00:27:18",
 			}, -- [2]
 			{
-				["elapsed"] = 27.00399999999354,
+				["elapsed"] = 53.00699999999779,
 				["type"] = 5,
 				["name"] = "Trash Cleanup",
-				["clock"] = "01:40:20",
+				["clock"] = "00:26:06",
 			}, -- [3]
-			{
-				["elapsed"] = 28.00300000000425,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:39:39",
-			}, -- [4]
-			{
-				["elapsed"] = 38.00499999999738,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:38:56",
-			}, -- [5]
-			{
-				["elapsed"] = 151.9990000000034,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:36:14",
-			}, -- [6]
-			{
-				["elapsed"] = 46.32600000000093,
-				["type"] = 6,
-				["name"] = "Electrocutioner 6000",
-				["clock"] = "01:35:14",
-			}, -- [7]
-			{
-				["elapsed"] = 15.00499999999738,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:34:38",
-			}, -- [8]
-			{
-				["elapsed"] = 20,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:34:15",
-			}, -- [9]
-			{
-				["elapsed"] = 36.00100000000384,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:33:31",
-			}, -- [10]
-			{
-				["elapsed"] = 42.00500000000466,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:32:43",
-			}, -- [11]
-			{
-				["elapsed"] = 47.00599999999395,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:31:50",
-			}, -- [12]
-			{
-				["elapsed"] = 32.00699999999779,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:31:12",
-			}, -- [13]
-			{
-				["elapsed"] = 52.26900000000023,
-				["type"] = 6,
-				["name"] = "Viscous Fallout",
-				["clock"] = "01:30:11",
-			}, -- [14]
-			{
-				["elapsed"] = 15.64500000000408,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:29:55",
-			}, -- [15]
-			{
-				["elapsed"] = 21,
-				["type"] = 5,
-				["name"] = "Trash Cleanup",
-				["clock"] = "01:28:58",
-			}, -- [16]
 		},
 		["totals_grupo"] = {
-			326869.385246, -- [1]
-			94651.37079300001, -- [2]
+			43275.0496, -- [1]
+			18493.037858, -- [2]
 			{
 				0, -- [1]
-				[0] = 961.148367,
+				[0] = 68.02648900000001,
 				["alternatepower"] = 0,
-				[3] = 0,
+				[3] = 288.016258,
 				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
 				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 3.016865,
-				["interrupt"] = 0,
-				["dispell"] = 2.014846,
-				["cc_break"] = 1.002728,
+				["cooldowns_defensive"] = 1.002029,
+				["interrupt"] = 2.012502,
+				["dispell"] = 0,
+				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 		},
 		["frags"] = {
 		},
-		["data_fim"] = "01:42:34",
+		["data_fim"] = "00:29:37",
 		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
 		},
 		["cleu_timeline"] = {
 		},
-		["start_time"] = 40775.173,
+		["start_time"] = 16542.33,
 		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
 			["Raid Damage Done"] = {
 			},
 		},
@@ -17089,12 +22693,12 @@ _detalhes_database = {
 			},
 		},
 	},
-	["combat_counter"] = 244,
+	["combat_counter"] = 293,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["last_realversion"] = 141,
+	["last_realversion"] = 143,
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -17111,10 +22715,17 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-1313-0B7742DA"] = 254,
-		["Player-3391-0B71A39B"] = 267,
-		["Player-3391-0B77CF83"] = 103,
+		["Player-1301-02225AF8"] = 251,
 		["Player-1303-0B65E197"] = 256,
-		["Player-3391-0B77C625"] = 268,
+		["Player-3391-0B90C3A8"] = 258,
+		["Player-3391-0B919214"] = 261,
+		["Player-1587-0E6FDBD5"] = 62,
+		["Player-1301-07A0817D"] = 261,
+		["Player-3702-09D9D5D2"] = 103,
+		["Player-1597-0D08B302"] = 66,
+		["Player-3702-09D9A6C1"] = 66,
+		["Player-3391-0B921E00"] = 262,
+		["Player-1313-0B8C1EFC"] = 258,
+		["Player-3391-0B7C73BA"] = 256,
 	},
 }

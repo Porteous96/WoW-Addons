@@ -1,6 +1,6 @@
 VER 3 000000000000001F "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use Bravo Company Field Kit
+/use Frostflurry Focus
 END
 VER 3 0000000000000031 "abyssal fragment" "136197"
 /2 WTS 20x |cffffffff|Hitem:161344::::::::20:265::::::|h[Abyssal Fragment]|h|r - Rewards |cffa335ee|Hitem:161479::::::::20:265::::::|h[Nazjatar Blood Serpent]|h|r - 20k cheaper than AH

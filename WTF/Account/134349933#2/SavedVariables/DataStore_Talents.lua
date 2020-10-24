@@ -56,7 +56,7 @@ DataStore_TalentsDB = {
 				["Class"] = "MAGE",
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1603142941,
+				["lastUpdate"] = 1603394297,
 				["Specializations"] = {
 					6585, -- [1]
 					14715, -- [2]
@@ -67,112 +67,112 @@ DataStore_TalentsDB = {
 						["valid"] = true,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["unlocked"] = true,
 						["icon"] = 2967103,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["unlocked"] = true,
 						["icon"] = 1830317,
+						["unlocked"] = true,
 						["rank"] = 4,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["unlocked"] = true,
 						["icon"] = 3015740,
+						["unlocked"] = true,
 						["rank"] = 4,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
-						["unlocked"] = true,
 						["icon"] = 2967109,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Memory of Lucid Dreams"] = {
 						["valid"] = true,
 						["name"] = "Memory of Lucid Dreams",
 						["ID"] = 27,
-						["unlocked"] = true,
 						["icon"] = 2967104,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
-						["unlocked"] = true,
 						["icon"] = 3193845,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["unlocked"] = true,
 						["icon"] = 3015743,
+						["unlocked"] = true,
 						["rank"] = 4,
 					},
 					["Blood of the Enemy"] = {
 						["valid"] = true,
 						["name"] = "Blood of the Enemy",
 						["ID"] = 23,
-						["unlocked"] = true,
 						["icon"] = 2032580,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Condensed Life-Force"] = {
 						["valid"] = true,
 						["name"] = "Condensed Life-Force",
 						["ID"] = 14,
-						["unlocked"] = true,
 						["icon"] = 2967113,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Conflict and Strife"] = {
 						["valid"] = true,
 						["name"] = "Conflict and Strife",
 						["ID"] = 32,
-						["unlocked"] = true,
 						["icon"] = 3015742,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Essence of the Focusing Iris"] = {
 						["valid"] = true,
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
-						["unlocked"] = true,
 						["icon"] = 2967111,
+						["unlocked"] = true,
 						["rank"] = 4,
 					},
 					["Breath of the Dying"] = {
 						["valid"] = true,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
-						["unlocked"] = true,
 						["icon"] = 3193844,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Spark of Inspiration"] = {
 						["valid"] = true,
 						["name"] = "Spark of Inspiration",
 						["ID"] = 36,
-						["unlocked"] = true,
 						["icon"] = 3193843,
+						["unlocked"] = true,
 						["rank"] = 4,
 					},
 					["The Unbound Force"] = {
 						["valid"] = true,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["unlocked"] = true,
 						["icon"] = 2967102,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 				},
@@ -201,9 +201,9 @@ DataStore_TalentsDB = {
 				["Class"] = "PRIEST",
 			},
 			["Default.Frostmane.Rykahdruid"] = {
-				["lastUpdate"] = 1603195072,
+				["lastUpdate"] = 1603405457,
 				["Specializations"] = {
-					[3] = 14,
+					[3] = 5822,
 				},
 				["Class"] = "DRUID",
 			},
@@ -410,9 +410,10 @@ DataStore_TalentsDB = {
 				["Class"] = "SHAMAN",
 			},
 			["Default.Frostmane.Rykahpriest"] = {
-				["lastUpdate"] = 1599957778,
+				["lastUpdate"] = 1603409485,
 				["Specializations"] = {
-					14, -- [1]
+					2, -- [1]
+					[3] = 2,
 				},
 				["Class"] = "PRIEST",
 			},
@@ -815,7 +816,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 36272,
+			["Version"] = 36322,
 		},
 		["PRIEST"] = {
 			["Locale"] = "enUS",
@@ -828,8 +829,16 @@ DataStore_TalentsRefDB = {
 						22329, -- [3]
 					},
 				}, -- [1]
+				[3] = {
+					["id"] = 258,
+					["talents"] = {
+						22328, -- [1]
+						22136, -- [2]
+						22314, -- [3]
+					},
+				},
 			},
-			["Version"] = 35662,
+			["Version"] = 36322,
 		},
 		["PALADIN"] = {
 			["Locale"] = "enUS",
@@ -1087,6 +1096,18 @@ DataStore_TalentsRefDB = {
 						22163, -- [7]
 						22156, -- [8]
 						22159, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						21709, -- [13]
+						21707, -- [14]
+						22388, -- [15]
+						22423, -- [16]
+						21713, -- [17]
+						22390, -- [18]
+						22426, -- [19]
+						22427, -- [20]
+						22425, -- [21]
 					},
 				}, -- [3]
 				{
@@ -1116,7 +1137,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [4]
 			},
-			["Version"] = 36272,
+			["Version"] = 36322,
 		},
 		["MONK"] = {
 			["Locale"] = "enUS",

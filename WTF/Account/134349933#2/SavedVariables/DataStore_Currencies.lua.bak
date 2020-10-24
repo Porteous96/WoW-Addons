@@ -64,7 +64,7 @@ DataStore_CurrenciesDB = {
 				["CurrencyInfo"] = {
 					[824] = "933-0-0-10000",
 					[515] = "527-0-0-0",
-					[1719] = "2243-0-0-0",
+					[1719] = "2443-0-0-0",
 					[777] = "30738-0-0-0",
 					[1101] = "30895-0-0-100000",
 					[789] = "15-0-0-0",
@@ -75,7 +75,7 @@ DataStore_CurrenciesDB = {
 					[1149] = "1793-0-0-5000",
 					[1342] = "608-0-0-1000",
 					[1220] = "24689-0-0-0",
-					[1803] = "27592-0-0-0",
+					[1803] = "29932-0-0-0",
 					[823] = "22130-0-0-0",
 					[1508] = "558-0-0-2000",
 					[1268] = "2-0-0-1000",
@@ -84,10 +84,10 @@ DataStore_CurrenciesDB = {
 					[776] = "7-0-0-20",
 					[1166] = "12518-0-0-0",
 					[1314] = "0-0-20-40",
-					[1560] = "3836-0-0-0",
+					[1560] = "4001-0-0-0",
 					[614] = "89-0-0-0",
 					[994] = "5-0-0-20",
-					[1718] = "616-0-0-0",
+					[1718] = "2806-0-0-0",
 					[402] = "12-0-0-0",
 					[1580] = "3-0-0-5",
 					[1710] = "49-0-0-0",
@@ -128,12 +128,12 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 5,
-						["count"] = 2243,
+						["count"] = 2443,
 					}, -- [5]
 					{
 						["isHeader"] = false,
 						["index"] = 6,
-						["count"] = 27592,
+						["count"] = 29932,
 					}, -- [6]
 					{
 						["isHeader"] = false,
@@ -153,12 +153,12 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 10,
-						["count"] = 616,
+						["count"] = 2806,
 					}, -- [10]
 					{
 						["isHeader"] = false,
 						["index"] = 11,
-						["count"] = 3836,
+						["count"] = 4001,
 					}, -- [11]
 					{
 						["isHeader"] = true,
@@ -379,11 +379,11 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					23, -- [20]
 				},
-				["lastUpdate"] = 1603142941,
+				["lastUpdate"] = 1603398107,
 			},
 			["Default.Frostmane.Bankypo"] = {
 				["Conquest"] = 0,
-				["lastUpdate"] = 1603131773,
+				["lastUpdate"] = 1603393484,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -409,7 +409,8 @@ DataStore_CurrenciesDB = {
 			},
 			["Default.Frostmane.Rykahdruid"] = {
 				["CurrencyInfo"] = {
-					[824] = "309-0-0-10000",
+					[824] = "1080-0-0-10000",
+					[1792] = "52-0-0-0",
 				},
 				["Currencies"] = {
 					{
@@ -420,8 +421,18 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 32,
-						["count"] = 309,
+						["count"] = 1080,
 					}, -- [2]
+					{
+						["isHeader"] = true,
+						["index"] = 52,
+						["count"] = 0,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 53,
+						["count"] = 52,
+					}, -- [4]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -446,7 +457,7 @@ DataStore_CurrenciesDB = {
 					0, -- [20]
 				},
 				["Conquest"] = 0,
-				["lastUpdate"] = 1603195072,
+				["lastUpdate"] = 1603405457,
 			},
 			["Default.Frostmane.Rykahthree"] = {
 				["Archeology"] = {
@@ -748,6 +759,8 @@ DataStore_CurrenciesDB = {
 				"Burning Crusade|", -- [49]
 				"Spirit Shard|133286", -- [50]
 				"Honorbound Service Medal|2565244", -- [51]
+				"Player vs. Player|", -- [52]
+				"Honor|1455894", -- [53]
 			},
 			["CurrencyTextRev"] = {
 				["Ancient Mana"] = 18,
@@ -764,41 +777,43 @@ DataStore_CurrenciesDB = {
 				["Sightless Eye"] = 25,
 				["Coalescing Visions"] = 4,
 				["Essence of Corrupted Deathwing"] = 44,
+				["Mogu Rune of Fate"] = 40,
+				["Seal of Tempered Fate"] = 35,
 				["Cataclysm"] = 43,
-				["Spirit Shard"] = 50,
-				["Burning Crusade"] = 49,
+				["Timeless Coin"] = 41,
+				["Elder Charm of Good Fortune"] = 38,
 				["Lingering Soul Fragment"] = 21,
 				["Ironpaw Token"] = 16,
 				["Battle for Azeroth"] = 1,
 				["Corrupted Mementos"] = 5,
-				["Timeless Coin"] = 41,
-				["Elder Charm of Good Fortune"] = 38,
-				["Seal of Inevitable Fate"] = 34,
-				["Seal of Broken Fate"] = 24,
+				["Mote of Darkness"] = 46,
 				["Legion"] = 17,
+				["Wrath of the Lich King"] = 47,
+				["Seal of Broken Fate"] = 24,
+				["Miscellaneous"] = 14,
 				["Lesser Charm of Good Fortune"] = 39,
 				["Curious Coin"] = 19,
 				["Seal of Wartorn Fate"] = 9,
 				["Artifact Fragment"] = 31,
-				["Wrath of the Lich King"] = 47,
-				["Mists of Pandaria"] = 36,
-				["Miscellaneous"] = 14,
 				["Timewarped Badge"] = 13,
-				["7th Legion Service Medal"] = 2,
+				["Mists of Pandaria"] = 36,
 				["Timeworn Artifact"] = 26,
+				["Player vs. Player"] = 52,
+				["7th Legion Service Medal"] = 2,
 				["Titan Residuum"] = 10,
-				["Mogu Rune of Fate"] = 40,
-				["Garrison Resources"] = 32,
 				["Oil"] = 33,
-				["Echoes of Ny'alotha"] = 6,
-				["Seal of Tempered Fate"] = 35,
+				["Garrison Resources"] = 32,
+				["Honor"] = 53,
 				["Warlords of Draenor"] = 29,
+				["Echoes of Ny'alotha"] = 6,
+				["Mark of the World Tree"] = 45,
 				["Wakening Essence"] = 28,
+				["Seal of Inevitable Fate"] = 34,
 				["Apexis Crystal"] = 30,
 				["Darkmoon Prize Ticket"] = 15,
-				["Mark of the World Tree"] = 45,
-				["Mote of Darkness"] = 46,
 				["Prismatic Manapearl"] = 7,
+				["Burning Crusade"] = 49,
+				["Spirit Shard"] = 50,
 				["Champion's Seal"] = 48,
 				["Legionfall War Supplies"] = 20,
 			},

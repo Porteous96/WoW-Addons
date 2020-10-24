@@ -39,164 +39,154 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2020/10/08 18:17",
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1603137641,
+				["lastUpdate"] = 1603310638,
 				["Mails"] = {
 					{
-						["lastCheck"] = 1603137641,
-						["sender"] = "Wadnrcua",
-						["subject"] = "RCU Payouts || 30.08-10.09",
 						["returned"] = false,
-						["money"] = 0,
-						["text"] = "Payment of 57944 Gold paid to Rykahpo-Frostmane for weekly boosting activities in Ravencrest Union",
-						["icon"] = 134327,
-						["daysLeft"] = 1.797847270965576,
+						["sender"] = "The Postmaster",
+						["itemID"] = 170211,
+						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
+						["lastCheck"] = 1603310638,
+						["count"] = 1,
+						["icon"] = 1387622,
+						["daysLeft"] = 4.612581253051758,
 					}, -- [1]
 					{
-						["returned"] = false,
-						["sender"] = "The Postmaster",
-						["itemID"] = 170211,
-						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
-						["lastCheck"] = 1603137641,
-						["count"] = 1,
-						["icon"] = 1387622,
-						["daysLeft"] = 6.614942073822022,
-					}, -- [2]
-					{
-						["returned"] = false,
-						["sender"] = "The Postmaster",
-						["itemID"] = 170211,
-						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
-						["lastCheck"] = 1603137641,
-						["count"] = 1,
-						["icon"] = 1387622,
-						["daysLeft"] = 6.614942073822022,
-					}, -- [3]
-					{
-						["returned"] = false,
-						["sender"] = "The Postmaster",
-						["itemID"] = 170211,
-						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
-						["lastCheck"] = 1603137641,
-						["count"] = 1,
-						["icon"] = 1387622,
-						["daysLeft"] = 6.614942073822022,
-					}, -- [4]
-					{
-						["returned"] = false,
-						["sender"] = "The Postmaster",
-						["itemID"] = 170211,
-						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
-						["lastCheck"] = 1603137641,
-						["count"] = 1,
-						["icon"] = 1387622,
-						["daysLeft"] = 6.614942073822022,
-					}, -- [5]
-					{
-						["lastCheck"] = 1603137641,
+						["lastCheck"] = 1603310638,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = 134327,
-						["daysLeft"] = 6.614942073822022,
-					}, -- [6]
+						["daysLeft"] = 4.612581253051758,
+					}, -- [2]
 					{
-						["lastCheck"] = 1603137641,
+						["returned"] = false,
+						["sender"] = "The Postmaster",
+						["itemID"] = 170211,
+						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
+						["lastCheck"] = 1603310638,
+						["count"] = 1,
+						["icon"] = 1387622,
+						["daysLeft"] = 4.612581253051758,
+					}, -- [3]
+					{
+						["returned"] = false,
+						["sender"] = "The Postmaster",
+						["itemID"] = 170211,
+						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
+						["lastCheck"] = 1603310638,
+						["count"] = 1,
+						["icon"] = 1387622,
+						["daysLeft"] = 4.612581253051758,
+					}, -- [4]
+					{
+						["returned"] = false,
+						["sender"] = "The Postmaster",
+						["itemID"] = 170211,
+						["link"] = "|cff1eff00|Hitem:170211::::::::50:62::23:::::|h[Recipe: Famine Evaluator And Snack Table]|h|r",
+						["lastCheck"] = 1603310638,
+						["count"] = 1,
+						["icon"] = 1387622,
+						["daysLeft"] = 4.612581253051758,
+					}, -- [5]
+					{
+						["lastCheck"] = 1603310638,
 						["sender"] = "Wadnrcua",
 						["subject"] = "Ravencrest Union Payouts",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Payment of 172631 Gold paid to Rykahpo-Frostmane for weekly boosting activities in Ravencrest Union",
 						["icon"] = 134327,
-						["daysLeft"] = 8.74445629119873,
+						["daysLeft"] = 6.742094993591309,
+					}, -- [6]
+					{
+						["returned"] = false,
+						["sender"] = "Brew of the Month Club",
+						["itemID"] = 37907,
+						["link"] = "|cffffffff|Hitem:37907::::::::50:62:::::::|h[Autumnal Acorn Ale]|h|r",
+						["lastCheck"] = 1603310638,
+						["count"] = 1,
+						["icon"] = 132797,
+						["daysLeft"] = 9.967187881469727,
 					}, -- [7]
 					{
-						["lastCheck"] = 1603137641,
+						["lastCheck"] = 1603310638,
 						["sender"] = "Brew of the Month Club",
 						["subject"] = "A Festive Fall",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Hello Rykahpo,\n\n   Our brew this month is a celebration of autumn.  We think this brew captures just some of the essence of this season.  But you don't have to take our word for it, give it a try.\n\n   If you enjoyed this sample, you can purchase more from our vendors.\n\nEnjoy!\n\n- Brew of the Month Club",
 						["icon"] = 134327,
-						["daysLeft"] = 11.96954822540283,
+						["daysLeft"] = 9.967187881469727,
 					}, -- [8]
 					{
-						["returned"] = false,
-						["sender"] = "Brew of the Month Club",
-						["itemID"] = 37907,
-						["link"] = "|cffffffff|Hitem:37907::::::::50:62:::::::|h[Autumnal Acorn Ale]|h|r",
-						["lastCheck"] = 1603137641,
-						["count"] = 1,
-						["icon"] = 132797,
-						["daysLeft"] = 11.96954822540283,
-					}, -- [9]
-					{
-						["lastCheck"] = 1603137641,
+						["lastCheck"] = 1603310638,
 						["sender"] = "Wadnrcua",
 						["subject"] = "RCU Payouts || 20.09-26.09.2020",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Payment of 60278 Gold paid to Rykahpo-Frostmane for weekly boosting activities in Ravencrest Union",
 						["icon"] = 134327,
-						["daysLeft"] = 17.99758148193359,
-					}, -- [10]
+						["daysLeft"] = 15.99522018432617,
+					}, -- [9]
 					{
-						["lastCheck"] = 1603137641,
+						["lastCheck"] = 1603310638,
 						["sender"] = "Wadnrcua",
 						["subject"] = "RCU Payday || 27.09-04.10",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Payment of 60278 Gold paid to Rykahpo-Frostmane for weekly boosting activities in Ravencrest Union",
 						["icon"] = 134327,
-						["daysLeft"] = 27.69446754455566,
-					}, -- [11]
+						["daysLeft"] = 25.69210624694824,
+					}, -- [10]
 					{
-						["lastCheck"] = 1603137641,
+						["lastCheck"] = 1603310638,
 						["sender"] = "Thaumaturge Vashreen",
 						["subject"] = "Lost Currency",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "We discovered some lost currency from Ny'alotha, the Waking City in our ledgers, and it apparently belongs to you. 200 Corrupted Mementos have been added. If this caused you to go over your currency limit, we adjusted the amount to bring you to the limit and not go over!",
 						["icon"] = 134327,
-						["daysLeft"] = 27.97961807250977,
+						["daysLeft"] = 25.97725677490234,
+					}, -- [11]
+					{
+						["lastCheck"] = 1603310638,
+						["sender"] = "Customer Support",
+						["subject"] = "Your Item Restoration",
+						["returned"] = true,
+						["money"] = 0,
+						["text"] = "Greetings,\r\n\r\nThank you for using the Item Restoration System.\r\n\r\nItems that were available for immediate restoration are attached to this message. Certain restorations may require assistance from our Customer Support team and can take some additional time to process. Additional information will be provided after we have had the opportunity to review your request.\r\n\r\nPlease contact us if you require additional assistance. Support tickets can be submitted through the Customer Support menu (the red ? on your action bar) or the Battle.net Support Site at http://www.battle.net/support.\r\n\r\nRegards,\r\nBlizzard Entertainment Customer Support",
+						["icon"] = 135724,
+						["daysLeft"] = 42.06641387939453,
 					}, -- [12]
 					{
-						["lastCheck"] = 1603137641,
+						["lastCheck"] = 1603310638,
 						["sender"] = "Customer Support",
 						["subject"] = "Your Item Restoration",
 						["returned"] = true,
 						["money"] = 0,
 						["text"] = "Greetings,\r\n\r\nThank you for using the Item Restoration System.\r\n\r\nItems that were available for immediate restoration are attached to this message. Certain restorations may require assistance from our Customer Support team and can take some additional time to process. Additional information will be provided after we have had the opportunity to review your request.\r\n\r\nPlease contact us if you require additional assistance. Support tickets can be submitted through the Customer Support menu (the red ? on your action bar) or the Battle.net Support Site at http://www.battle.net/support.\r\n\r\nRegards,\r\nBlizzard Entertainment Customer Support",
 						["icon"] = 135724,
-						["daysLeft"] = 44.06877136230469,
+						["daysLeft"] = 186.1110076904297,
 					}, -- [13]
 					{
-						["lastCheck"] = 1603137641,
+						["lastCheck"] = 1603310638,
 						["sender"] = "Customer Support",
 						["subject"] = "Your Item Restoration",
 						["returned"] = true,
 						["money"] = 0,
 						["text"] = "Greetings,\r\n\r\nThank you for using the Item Restoration System.\r\n\r\nItems that were available for immediate restoration are attached to this message. Certain restorations may require assistance from our Customer Support team and can take some additional time to process. Additional information will be provided after we have had the opportunity to review your request.\r\n\r\nPlease contact us if you require additional assistance. Support tickets can be submitted through the Customer Support menu (the red ? on your action bar) or the Battle.net Support Site at http://www.battle.net/support.\r\n\r\nRegards,\r\nBlizzard Entertainment Customer Support",
 						["icon"] = 135724,
-						["daysLeft"] = 188.1133728027344,
+						["daysLeft"] = 228.1960601806641,
 					}, -- [14]
-					{
-						["lastCheck"] = 1603137641,
-						["sender"] = "Customer Support",
-						["subject"] = "Your Item Restoration",
-						["returned"] = true,
-						["money"] = 0,
-						["text"] = "Greetings,\r\n\r\nThank you for using the Item Restoration System.\r\n\r\nItems that were available for immediate restoration are attached to this message. Certain restorations may require assistance from our Customer Support team and can take some additional time to process. Additional information will be provided after we have had the opportunity to review your request.\r\n\r\nPlease contact us if you require additional assistance. Support tickets can be submitted through the Customer Support menu (the red ? on your action bar) or the Battle.net Support Site at http://www.battle.net/support.\r\n\r\nRegards,\r\nBlizzard Entertainment Customer Support",
-						["icon"] = 135724,
-						["daysLeft"] = 230.1984100341797,
-					}, -- [15]
 				},
-				["lastVisitDate"] = "2020/10/19 21:00",
+				["lastVisitDate"] = "2020/10/21 21:03",
 			},
 			["Default.Frostmane.Rykahdruid"] = {
-				["lastUpdate"] = 1603195128,
-				["lastVisitDate"] = "2020/10/20 12:58",
+				["lastUpdate"] = 1603222075,
+				["lastVisitDate"] = "2020/10/20 20:27",
 			},
 			["Default.Frostmane.Rykahpoo"] = {
 				["lastUpdate"] = 1601823277,
@@ -390,263 +380,20 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2020/09/29 20:54",
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1603131887,
+				["lastUpdate"] = 1603394011,
 				["Mails"] = {
 					{
-						["icon"] = 134327,
+						["lastCheck"] = 1603394011,
 						["sender"] = "Medívh",
 						["subject"] = "Mechagon run",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "had to go in and work evening today so i wont be able to be on tonight \n",
-						["lastCheck"] = 1603131887,
-						["daysLeft"] = 11.68370342254639,
+						["icon"] = 134327,
+						["daysLeft"] = 8.649861335754395,
 					}, -- [1]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 167738,
-						["link"] = "|cff1eff00|Hitem:167738::::::::50:62:::::::|h[Gilded Seaweave]|h|r",
-						["count"] = 12,
-						["lastCheck"] = 1603137636,
-						["icon"] = 2821693,
-						["daysLeft"] = 30,
-					}, -- [2]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 154897,
-						["link"] = "|cffffffff|Hitem:154897::::::::50:62:::::::|h[Stringy Loins]|h|r",
-						["count"] = 10,
-						["lastCheck"] = 1603137636,
-						["icon"] = 2066020,
-						["daysLeft"] = 30,
-					}, -- [3]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 7069,
-						["link"] = "|cffffffff|Hitem:7069::::::::50:62:::::::|h[Elemental Air]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603132468,
-						["icon"] = 136107,
-						["daysLeft"] = 30,
-					}, -- [4]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 152513,
-						["link"] = "|cff1eff00|Hitem:152513::::::::50:62:::::::|h[Platinum Ore]|h|r",
-						["count"] = 4,
-						["lastCheck"] = 1603137636,
-						["icon"] = 2037639,
-						["daysLeft"] = 30,
-					}, -- [5]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 160298,
-						["link"] = "|cffffffff|Hitem:160298::::::::50:62:::::::|h[Durable Flux]|h|r",
-						["count"] = 5,
-						["lastCheck"] = 1603137636,
-						["icon"] = 134387,
-						["daysLeft"] = 30,
-					}, -- [6]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 154898,
-						["link"] = "|cffffffff|Hitem:154898::::::::50:62:::::::|h[Meaty Haunch]|h|r",
-						["count"] = 4,
-						["lastCheck"] = 1603137636,
-						["icon"] = 2066012,
-						["daysLeft"] = 30,
-					}, -- [7]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 168185,
-						["link"] = "|cffffffff|Hitem:168185::::::::50:62:::::::|h[Osmenite Ore]|h|r",
-						["count"] = 2,
-						["lastCheck"] = 1603137636,
-						["icon"] = 2543233,
-						["daysLeft"] = 30,
-					}, -- [8]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 152579,
-						["link"] = "|cffffffff|Hitem:152579::::::::50:62:::::::|h[Storm Silver Ore]|h|r",
-						["count"] = 3,
-						["lastCheck"] = 1603137636,
-						["icon"] = 2037640,
-						["daysLeft"] = 30,
-					}, -- [9]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 22644,
-						["link"] = "|cffffffff|Hitem:22644::::::::31:104:::::::|h[Crunchy Spider Leg]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603195126,
-						["icon"] = 133571,
-						["daysLeft"] = 30,
-					}, -- [10]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 160053,
-						["link"] = "|cff0070dd|Hitem:160053::::::::50:62:::::::|h[Battle-Scarred Augment Rune]|h|r",
-						["count"] = 7,
-						["lastCheck"] = 1603137636,
-						["icon"] = 840006,
-						["daysLeft"] = 30,
-					}, -- [11]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 118414,
-						["link"] = "|cffffffff|Hitem:118414::::::::31:104:::::::|h[Awesomefish]|h|r",
-						["count"] = 10,
-						["lastCheck"] = 1603195126,
-						["icon"] = 237309,
-						["daysLeft"] = 30,
-					}, -- [12]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 2592,
-						["link"] = "|cffffffff|Hitem:2592::::::::31:104:::::::|h[Wool Cloth]|h|r",
-						["count"] = 16,
-						["lastCheck"] = 1603195116,
-						["icon"] = 132911,
-						["daysLeft"] = 30,
-					}, -- [13]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 5212,
-						["link"] = "|cff1eff00|Hitem:5212::::::::31:104:::1:6655:2:28:1797:9:28:::|h[Blazing Wand]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603195126,
-						["icon"] = 135139,
-						["daysLeft"] = 30,
-					}, -- [14]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 128315,
-						["link"] = "|cff0070dd|Hitem:128315::::::::50:62:::::::|h[Medallion of the Legion]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603132461,
-						["icon"] = 237560,
-						["daysLeft"] = 30,
-					}, -- [15]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 3211,
-						["link"] = "|cff1eff00|Hitem:3211::::::::31:104:::1:6654:2:9:25:28:1797:::|h[Burnished Bracers]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603195116,
-						["icon"] = 132600,
-						["daysLeft"] = 30,
-					}, -- [16]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 6585,
-						["link"] = "|cff1eff00|Hitem:6585::::::::31:104:::2:6654:1680:2:9:27:28:1797:::|h[Scouting Cloak of the Quickblade]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603195116,
-						["icon"] = 133754,
-						["daysLeft"] = 30,
-					}, -- [17]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 111557,
-						["link"] = "|cffffffff|Hitem:111557::::::::31:104:::::::|h[Sumptuous Fur]|h|r",
-						["count"] = 5,
-						["lastCheck"] = 1603195116,
-						["icon"] = 1029741,
-						["daysLeft"] = 30,
-					}, -- [18]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 1080,
-						["link"] = "|cffffffff|Hitem:1080::::::::31:104:::::::|h[Tough Condor Meat]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603195116,
-						["icon"] = 134343,
-						["daysLeft"] = 30,
-					}, -- [19]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 6889,
-						["link"] = "|cffffffff|Hitem:6889::::::::31:104:::::::|h[Small Egg]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603195116,
-						["icon"] = 132832,
-						["daysLeft"] = 30,
-					}, -- [20]
-					{
-						["sender"] = "Rykahpo",
-						["itemID"] = 152512,
-						["link"] = "|cffffffff|Hitem:152512::::::::50:62:::::::|h[Monelite Ore]|h|r",
-						["count"] = 2,
-						["lastCheck"] = 1603137636,
-						["icon"] = 2037638,
-						["daysLeft"] = 30,
-					}, -- [21]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 3770,
-						["link"] = "|cffffffff|Hitem:3770::::::::31:104:::::::|h[Mutton Chop]|h|r",
-						["count"] = 4,
-						["lastCheck"] = 1603195116,
-						["icon"] = 133970,
-						["daysLeft"] = 30,
-					}, -- [22]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 769,
-						["link"] = "|cffffffff|Hitem:769::::::::31:104:::::::|h[Chunk of Boar Meat]|h|r",
-						["count"] = 2,
-						["lastCheck"] = 1603195116,
-						["icon"] = 133970,
-						["daysLeft"] = 30,
-					}, -- [23]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 1210,
-						["link"] = "|cff1eff00|Hitem:1210::::::::31:104:::::::|h[Shadowgem]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603195116,
-						["icon"] = 134074,
-						["daysLeft"] = 30,
-					}, -- [24]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 1288,
-						["link"] = "|cffffffff|Hitem:1288::::::::31:104:::::::|h[Large Venom Sac]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603195116,
-						["icon"] = 134338,
-						["daysLeft"] = 30,
-					}, -- [25]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 2589,
-						["link"] = "|cffffffff|Hitem:2589::::::::31:104:::::::|h[Linen Cloth]|h|r",
-						["count"] = 43,
-						["lastCheck"] = 1603195116,
-						["icon"] = 132889,
-						["daysLeft"] = 30,
-					}, -- [26]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 3610,
-						["link"] = "|cff1eff00|Hitem:3610::::::::31:104::::1:28:1797:::|h[Plans: Gemmed Copper Gauntlets]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603195116,
-						["icon"] = 134942,
-						["daysLeft"] = 30,
-					}, -- [27]
-					{
-						["sender"] = "Rykahdruid",
-						["itemID"] = 9788,
-						["link"] = "|cff1eff00|Hitem:9788::::::::31:104:::2:6654:1681:2:28:1797:9:30:::|h[Raider's Belt of the Quickblade]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1603195126,
-						["icon"] = 132500,
-						["daysLeft"] = 30,
-					}, -- [28]
 				},
-				["lastVisitDate"] = "2020/10/19 19:24",
+				["lastVisitDate"] = "2020/10/22 20:13",
 			},
 			["Default.Frostmane.Rykahbolt"] = {
 				["lastUpdate"] = 1602977725,

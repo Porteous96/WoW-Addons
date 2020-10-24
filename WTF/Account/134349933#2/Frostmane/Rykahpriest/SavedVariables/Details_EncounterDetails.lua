@@ -550,22 +550,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Shaman Koranthal",
 		},
-		[151681] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ghamoo-Ra",
-		},
-		[111218] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Armsmaster Harlan",
-		},
 		[150543] = {
 			["school"] = 32,
 			["token"] = {
@@ -575,23 +559,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight Tormentor",
 		},
-		[88300] = {
+		[111218] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lumbering Oaf",
-		},
-		[149869] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ghamoo-Ra",
+			["source"] = "Armsmaster Harlan",
 		},
 		[90047] = {
 			["school"] = 1,
@@ -601,6 +574,30 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Defias Envoker",
+		},
+		[88300] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lumbering Oaf",
+		},
+		[7965] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lord Cobrahn",
+		},
+		[119433] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Slagmaw",
 		},
 		[87861] = {
 			["school"] = 16,
@@ -621,14 +618,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thalnos the Soulrender",
 		},
-		[7965] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[93655] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Cobrahn",
+			["source"] = "Mekgineer Thermaplugg",
 		},
 		[113641] = {
 			["school"] = 4,
@@ -640,14 +637,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flameweaver Koegler",
 		},
-		[20295] = {
-			["school"] = 8,
+		[74720] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lady Anacondra",
+			["source"] = "Mekgineer Thermaplugg",
 		},
 		[88173] = {
 			["school"] = 4,
@@ -656,12 +654,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Glubtok",
 		},
-		[119433] = {
-			["school"] = 4,
+		[149869] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Slagmaw",
+			["source"] = "Ghamoo-Ra",
 		},
 		[149888] = {
 			["school"] = 32,
@@ -670,14 +671,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Domina",
 		},
-		[93655] = {
-			["school"] = 4,
+		[11085] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mekgineer Thermaplugg",
+			["source"] = "Electrocutioner 6000",
 		},
 		[120112] = {
 			["school"] = 4,
@@ -695,15 +696,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wild Imp",
 		},
-		[74720] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[110954] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mekgineer Thermaplugg",
+			["source"] = "Scarlet Fanatic",
 		},
 		[151813] = {
 			["school"] = 1,
@@ -729,15 +730,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Neadai-Silvermoon",
 		},
-		[115297] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[11504] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Thalnos the Soulrender",
+			["source"] = "Walking Bomb",
 		},
 		[88737] = {
 			["school"] = 1,
@@ -747,15 +745,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Admiral Ripsnarl",
 		},
-		[8150] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[113970] = {
+			["school"] = 0,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mutanus the Devourer",
+			["source"] = "Scarlet Defender",
 		},
 		[113626] = {
 			["school"] = 1,
@@ -764,21 +760,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flameweaver Koegler",
 		},
-		[11085] = {
-			["school"] = 8,
+		[113959] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Unknown",
+		},
+		[111216] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Electrocutioner 6000",
-		},
-		[87874] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Glubtok",
+			["source"] = "Armsmaster Harlan",
 		},
 		[15547] = {
 			["school"] = 1,
@@ -797,75 +793,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corrupted Flamecaller",
 		},
-		[11504] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Walking Bomb",
-		},
-		[90680] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "\"Captain\" Cookie",
-		},
-		[9532] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Druid of the Fang",
-		},
-		[113970] = {
-			["school"] = 0,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Scarlet Defender",
-		},
-		[88481] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Foe Reaper 5000",
-		},
-		[35346] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Acechador deformado",
-		},
-		[113959] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Unknown",
-		},
-		[20805] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lord Pythas",
-		},
 		[111217] = {
 			["school"] = 1,
 			["token"] = {
@@ -880,6 +807,74 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Rotten Corn",
+		},
+		[9532] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Druid of the Fang",
+		},
+		[20295] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lady Anacondra",
+		},
+		[150442] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Razorshell Snapjaw",
+		},
+		[35346] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Acechador deformado",
+		},
+		[150035] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Restorative Waters",
+		},
+		[20805] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lord Pythas",
+		},
+		[116140] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Houndmaster Braun",
+		},
+		[6254] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skum",
 		},
 		[149955] = {
 			["school"] = 32,
@@ -936,38 +931,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flameweaver Koegler",
 		},
-		[9734] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Scarlet Evangelist",
-		},
-		[150442] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Razorshell Snapjaw",
-		},
-		[115524] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Frenzied Spirit",
-		},
-		[151269] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Aku'mai the Venomous",
-		},
 		[111221] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -977,68 +940,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Armsmaster Harlan",
 		},
-		[114807] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Brother Korloff",
-		},
-		[86814] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Riverpaw Basher",
-		},
-		[114004] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Houndmaster Braun",
-		},
-		[10341] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Irradiated Slime",
-		},
-		[119971] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Dark Shaman Koranthal",
-		},
-		[6254] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Skum",
-		},
-		[150035] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Restorative Waters",
-		},
 		[89734] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -1047,6 +948,40 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Rotten Corn",
+		},
+		[89769] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mining Powder",
+		},
+		[151269] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Aku'mai the Venomous",
+		},
+		[150020] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Twilight Lord Bathiel",
+		},
+		[114807] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Brother Korloff",
 		},
 		[52778] = {
 			["school"] = 8,
@@ -1058,6 +993,35 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mekgineer Thermaplugg",
 		},
+		[88481] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Foe Reaper 5000",
+		},
+		[149893] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Domina",
+		},
+		[119971] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dark Shaman Koranthal",
+		},
 		[119300] = {
 			["school"] = 32,
 			["token"] = {
@@ -1066,13 +1030,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Dark Shaman Koranthal",
-		},
-		[120322] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Flame Spout",
 		},
 		[11431] = {
 			["school"] = 8,
@@ -1083,13 +1040,53 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Pythas",
 		},
-		[150660] = {
-			["school"] = 1,
+		[88321] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sticky Bomb",
+		},
+		[119420] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Adarogg",
+		},
+		[114808] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Brother Korloff",
+		},
+		[120322] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Deep Terror",
+			["source"] = "Flame Spout",
+		},
+		[90680] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "\"Captain\" Cookie",
+		},
+		[90606] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "\"Captain\" Cookie",
 		},
 		[88495] = {
 			["school"] = 1,
@@ -1108,44 +1105,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Randolph Moloch",
 		},
-		[88321] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Sticky Bomb",
-		},
-		[114808] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Brother Korloff",
-		},
-		[119420] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Adarogg",
-		},
-		[88129] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Glubtok",
-		},
-		[115876] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Commander Durand",
-		},
 		[113690] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -1158,6 +1117,51 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flameweaver Koegler",
 		},
+		[88288] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lumbering Oaf",
+		},
+		[127399] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "High Inquisitor Whitemane",
+		},
+		[8150] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mutanus the Devourer",
+		},
+		[115876] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Commander Durand",
+		},
+		[89739] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "\"Captain\" Cookie",
+		},
 		[8142] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1169,14 +1173,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Verdan the Everliving",
 		},
-		[127399] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[88129] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "High Inquisitor Whitemane",
+			["source"] = "Glubtok",
 		},
 		[114410] = {
 			["school"] = 1,
@@ -1187,14 +1189,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Brother Korloff",
 		},
-		[89739] = {
+		[151681] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "\"Captain\" Cookie",
+			["source"] = "Ghamoo-Ra",
 		},
 		[88177] = {
 			["school"] = 16,
@@ -1268,14 +1270,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Anacondra",
 		},
-		[88522] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[87874] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Foe Reaper 5000",
+			["source"] = "Glubtok",
 		},
 		[149865] = {
 			["school"] = 1,
@@ -1287,21 +1287,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ghamoo-Ra",
 		},
-		[90606] = {
+		[88522] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "\"Captain\" Cookie",
+			["source"] = "Foe Reaper 5000",
 		},
-		[1079] = {
+		[150660] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Neadai-Silvermoon",
+			["source"] = "Deep Terror",
 		},
 		[87859] = {
 			["school"] = 4,
@@ -1328,14 +1329,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Restorative Waters",
 		},
-		[88288] = {
+		[1079] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Lumbering Oaf",
+			["source"] = "Neadai-Silvermoon",
 		},
 		[90559] = {
 			["school"] = 1,
@@ -1369,12 +1368,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Admiral Ripsnarl",
 		},
-		[114020] = {
-			["school"] = 1,
+		[10341] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Houndmaster Braun",
+			["source"] = "Irradiated Slime",
 		},
 		[110953] = {
 			["school"] = 4,
@@ -1383,12 +1385,10 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Scarlet Fanatic",
 		},
-		[116140] = {
+		[114020] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Houndmaster Braun",
 		},
@@ -1401,15 +1401,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deviate Dreadfang",
 		},
-		[149893] = {
+		[115524] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Domina",
+			["source"] = "Frenzied Spirit",
 		},
 		[152417] = {
 			["school"] = 1,
@@ -1427,13 +1425,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ghamoo-Ra",
 		},
-		[150020] = {
-			["school"] = 16,
+		[114004] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Twilight Lord Bathiel",
+			["source"] = "Houndmaster Braun",
 		},
 		[1604] = {
 			["school"] = 1,
@@ -1443,21 +1441,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Obedient Hound",
 		},
-		[89769] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mining Powder",
-		},
-		[111216] = {
+		[86814] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Riverpaw Basher",
+		},
+		[9734] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Armsmaster Harlan",
+			["source"] = "Scarlet Evangelist",
 		},
 		[86633] = {
 			["school"] = 4,
@@ -1515,15 +1515,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "\"Captain\" Cookie",
 		},
-		[110954] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[115289] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Scarlet Fanatic",
+			["source"] = "Thalnos the Soulrender",
 		},
 		[151303] = {
 			["school"] = 32,
@@ -1563,11 +1561,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Subjugator Kor'ul",
 		},
-		[115289] = {
+		[115297] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Thalnos the Soulrender",
 		},

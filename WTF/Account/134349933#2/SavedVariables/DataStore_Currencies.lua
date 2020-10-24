@@ -60,6 +60,47 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1602890125,
 				["Conquest"] = 0,
 			},
+			["Default.Frostmane.Rykahpriest"] = {
+				["CurrencyInfo"] = {
+					[824] = "105-0-0-10000",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 29,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 32,
+						["count"] = 105,
+					}, -- [2]
+				},
+				["Conquest"] = 0,
+				["lastUpdate"] = 1603409485,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+			},
 			["Default.Frostmane.Rykahpodh"] = {
 				["CurrencyInfo"] = {
 					[1580] = "0-0-0-5",
@@ -262,12 +303,13 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1603195173,
+				["lastUpdate"] = 1603393484,
 				["Conquest"] = 0,
 			},
 			["Default.Frostmane.Rykahdruid"] = {
 				["CurrencyInfo"] = {
-					[824] = "309-0-0-10000",
+					[824] = "1080-0-0-10000",
+					[1792] = "52-0-0-0",
 				},
 				["Currencies"] = {
 					{
@@ -278,8 +320,18 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 32,
-						["count"] = 309,
+						["count"] = 1080,
 					}, -- [2]
+					{
+						["isHeader"] = true,
+						["index"] = 52,
+						["count"] = 0,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 53,
+						["count"] = 52,
+					}, -- [4]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -303,7 +355,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1603195072,
+				["lastUpdate"] = 1603405457,
 				["Conquest"] = 0,
 			},
 			["Default.Frostmane.Rykahbolt"] = {
@@ -377,7 +429,7 @@ DataStore_CurrenciesDB = {
 				["CurrencyInfo"] = {
 					[824] = "933-0-0-10000",
 					[515] = "527-0-0-0",
-					[1719] = "2243-0-0-0",
+					[1719] = "2443-0-0-0",
 					[777] = "30738-0-0-0",
 					[1101] = "30895-0-0-100000",
 					[789] = "15-0-0-0",
@@ -388,7 +440,7 @@ DataStore_CurrenciesDB = {
 					[1149] = "1793-0-0-5000",
 					[1342] = "608-0-0-1000",
 					[1220] = "24689-0-0-0",
-					[1803] = "27592-0-0-0",
+					[1803] = "29932-0-0-0",
 					[823] = "22130-0-0-0",
 					[1508] = "558-0-0-2000",
 					[1268] = "2-0-0-1000",
@@ -397,7 +449,7 @@ DataStore_CurrenciesDB = {
 					[776] = "7-0-0-20",
 					[1166] = "12518-0-0-0",
 					[1275] = "45-0-0-0",
-					[1560] = "3836-0-0-0",
+					[1560] = "4001-0-0-0",
 					[614] = "89-0-0-0",
 					[416] = "0-0-0-0",
 					[615] = "11-0-0-0",
@@ -405,7 +457,7 @@ DataStore_CurrenciesDB = {
 					[1580] = "3-0-0-5",
 					[1710] = "49-0-0-0",
 					[1273] = "0-0-0-6",
-					[1718] = "616-0-0-0",
+					[1718] = "2806-0-0-0",
 					[1155] = "1031-0-0-2000",
 					[752] = "0-0-0-20",
 					[1226] = "11717-0-0-0",
@@ -441,12 +493,12 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 5,
-						["count"] = 2243,
+						["count"] = 2443,
 					}, -- [5]
 					{
 						["isHeader"] = false,
 						["index"] = 6,
-						["count"] = 27592,
+						["count"] = 29932,
 					}, -- [6]
 					{
 						["isHeader"] = false,
@@ -466,12 +518,12 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 10,
-						["count"] = 616,
+						["count"] = 2806,
 					}, -- [10]
 					{
 						["isHeader"] = false,
 						["index"] = 11,
-						["count"] = 3836,
+						["count"] = 4001,
 					}, -- [11]
 					{
 						["isHeader"] = true,
@@ -670,7 +722,7 @@ DataStore_CurrenciesDB = {
 					}, -- [50]
 				},
 				["Conquest"] = 60,
-				["lastUpdate"] = 1603142941,
+				["lastUpdate"] = 1603398107,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -748,6 +800,8 @@ DataStore_CurrenciesDB = {
 				"Burning Crusade|", -- [49]
 				"Spirit Shard|133286", -- [50]
 				"Honorbound Service Medal|2565244", -- [51]
+				"Player vs. Player|", -- [52]
+				"Honor|1455894", -- [53]
 			},
 			["CurrencyTextRev"] = {
 				["Ancient Mana"] = 18,
@@ -764,6 +818,8 @@ DataStore_CurrenciesDB = {
 				["Sightless Eye"] = 25,
 				["Coalescing Visions"] = 4,
 				["Essence of Corrupted Deathwing"] = 44,
+				["Mogu Rune of Fate"] = 40,
+				["Seal of Tempered Fate"] = 35,
 				["Cataclysm"] = 43,
 				["Spirit Shard"] = 50,
 				["Burning Crusade"] = 49,
@@ -772,23 +828,23 @@ DataStore_CurrenciesDB = {
 				["Battle for Azeroth"] = 1,
 				["Ironpaw Token"] = 16,
 				["Mote of Darkness"] = 46,
-				["Mark of the World Tree"] = 45,
+				["Apexis Crystal"] = 30,
 				["Seal of Inevitable Fate"] = 34,
 				["Seal of Broken Fate"] = 24,
-				["Apexis Crystal"] = 30,
+				["Wakening Essence"] = 28,
 				["Lesser Charm of Good Fortune"] = 39,
 				["Curious Coin"] = 19,
 				["Seal of Wartorn Fate"] = 9,
 				["Artifact Fragment"] = 31,
-				["Wakening Essence"] = 28,
+				["Mark of the World Tree"] = 45,
 				["Wrath of the Lich King"] = 47,
-				["Warlords of Draenor"] = 29,
-				["Seal of Tempered Fate"] = 35,
-				["Timewarped Badge"] = 13,
 				["Echoes of Ny'alotha"] = 6,
+				["Player vs. Player"] = 52,
+				["Timewarped Badge"] = 13,
+				["Warlords of Draenor"] = 29,
 				["Oil"] = 33,
 				["Garrison Resources"] = 32,
-				["Mogu Rune of Fate"] = 40,
+				["Honor"] = 53,
 				["Titan Residuum"] = 10,
 				["Timeworn Artifact"] = 26,
 				["7th Legion Service Medal"] = 2,
@@ -796,9 +852,9 @@ DataStore_CurrenciesDB = {
 				["Mists of Pandaria"] = 36,
 				["Legion"] = 17,
 				["Darkmoon Prize Ticket"] = 15,
+				["Corrupted Mementos"] = 5,
 				["Elder Charm of Good Fortune"] = 38,
 				["Timeless Coin"] = 41,
-				["Corrupted Mementos"] = 5,
 				["Champion's Seal"] = 48,
 				["Legionfall War Supplies"] = 20,
 			},

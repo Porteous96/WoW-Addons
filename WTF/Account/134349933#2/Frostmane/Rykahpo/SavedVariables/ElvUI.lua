@@ -1,1065 +1,53 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/raid are we going right side this time?", -- [1]
-		"/raid i mean thats true", -- [2]
-		"/raid but i prepositioned", -- [3]
-		"/raid cause moving is bad as a caster, ya know", -- [4]
-		"/raid I'm quite aware how this fight works tyvm", -- [5]
-		"/raid Cause one pull you went one way and next pull I expected the same way", -- [6]
-		"/raid Its ok", -- [7]
-		"/raid I will follow you this time", -- [8]
-		"/raid Im just defending myself from lith flaming me", -- [9]
-		"/raid true that", -- [10]
-		"/raid will do captain", -- [11]
-		"/raid I don't understand what has happened here", -- [12]
-		"/raid I wasnt being toxic", -- [13]
-		"/raid why am I getting toxicity back?", -- [14]
-		"/raid I was explaining why I died", -- [15]
-		"/raid probs is", -- [16]
-		"/raid why is anguish there", -- [17]
-		"/raid i dont understand", -- [18]
-		"/raid why you have dropped anguish on the path", -- [19]
-		"/raid i wish", -- [20]
+		"/cw Ignar just make zethak change his life", -- [1]
+		"/cw Ignar pls", -- [2]
+		"/g i like limp bizkit but fred durst is a cunt", -- [3]
+		"/g \"look at me, I have a red hat!\"", -- [4]
+		"/g you've already lost", -- [5]
+		"/g my first gig was paramore", -- [6]
+		"/g and I wanted nothing more than hailey williams", -- [7]
+		"/cw Stimul myself and ignar joined the officer team to try get a better organised for mythic", -- [8]
+		"/cw Stimul our GM raided in our guild and theirs", -- [9]
+		"/cw Stimul yeah they are too casual for us to make the main team", -- [10]
+		"/cw Stimul it would be great if you could come along, even if you out gear it", -- [11]
+		"/cw Ignar-Frostmane I dont remember him at all though", -- [12]
+		"/cw Stimul any idea of what spec you'll be playing? or do you just play whatever does most dps?", -- [13]
+		"/g omg", -- [14]
+		"/g he's alive", -- [15]
+		"/cw Ignar-Frostmane he said probably", -- [16]
+		"/cw Ignar-Frostmane i asked him if he knew his class or role", -- [17]
+		"/cw Ignar-Frostmane he logged off", -- [18]
+		"/g welcome", -- [19]
+		"/cw Ignar god I hate the little shit", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"are we going right side this time?", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"it would be great if you could come along, even if you out gear it", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1906, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			485, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142389,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396275,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [1]
 		{
-			"We are always going right side", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1907, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142395,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [2]
-		{
-			"just follow tank?", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1908, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142396,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [3]
-		{
-			"its not hard", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1909, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142397,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [4]
-		{
-			"When we get the pull right :P", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1910, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142401,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [5]
-		{
-			"i mean thats true", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1911, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142403,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [6]
-		{
-			"u can even stay in melee, there no worries in there", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1912, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142404,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [7]
-		{
-			"but i prepositioned", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1913, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142407,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [8]
-		{
-			"Clearly nobody was paying attention then hm?", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1914, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142409,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [9]
-		{
-			"No surprise", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1915, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142415,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [10]
-		{
-			"Can we plz use Clockwise and anti clockwise", -- [1]
-			"Darkwah-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Darkwah-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1916, -- [11]
-			"Player-3702-09CF1E64", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeDarkwah-ArgentDawn|r",
-			[51] = 1603142415,
-			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [11]
-		{
-			"cause moving is bad as a caster, ya know", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1917, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142416,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [12]
-		{
-			"get on that lucid", -- [1]
-			"Nadaluxe-Ragnaros", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nadaluxe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1918, -- [11]
-			"Player-3682-05CA81D4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Nadaluxe-Ragnaros|r",
-			[51] = 1603142419,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"we dont need you to top meters in p1, we need you alive.. ya know", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1919, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142434,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [14]
-		{
-			"Nobody but me noticed we started about 45 degrees to the right of N'Zoth's front?", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1920, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142438,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [15]
-		{
-			"You realise Psychus spawns right where we start?", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1921, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142447,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [16]
-		{
-			"am i the only bruce fan?", -- [1]
-			"Nadaluxe-Ragnaros", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Nadaluxe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1922, -- [11]
-			"Player-3682-05CA81D4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Nadaluxe-Ragnaros|r",
-			[51] = 1603142448,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
-		{
-			"its a mechanical fight, not a \"omfg i must have 3.3k dps\"", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1923, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142449,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [18]
-		{
-			"At which point, Psychus will cast darkness on our corposes", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1924, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142457,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [19]
-		{
-			"I'm quite aware how this fight works tyvm", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1925, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142461,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [20]
-		{
-			"Really", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1927, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142467,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [21]
-		{
-			"Yeah? so why are you questioning which direction I went then?", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1928, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142470,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [22]
-		{
-			"If you know it so well", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1929, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142473,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [23]
-		{
-			"Cause one pull you went one way and next pull I expected the same way ", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1930, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142484,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [24]
-		{
-			"Its ok ", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1931, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142488,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [25]
-		{
-			"I will follow you this time", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1932, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142493,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [26]
-		{
-			"Well you're an idiot for expecting that, especially if you knew the fucking reason", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1933, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142497,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [27]
-		{
-			"on cara you died to a freaking tentacle arm too", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1934, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142498,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [28]
-		{
-			"Im just defending myself from lith flaming me", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1935, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142500,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [29]
-		{
-			"true that", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1936, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142507,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [30]
-		{
-			"why are you making us so aware of you?", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1937, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142512,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [31]
-		{
-			"just shut it and play", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1938, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142515,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [32]
-		{
-			"will do captain", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1939, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142519,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [33]
-		{
-			"How about you just pull your finger out of your rectum and do as you're fucking told by people who clearly know better.", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1940, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142519,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [34]
-		{
-			"We'll all get it done quicker then hm?", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1941, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142529,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [35]
-		{
-			"Die on phase 1 again, and you're kicked too", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1942, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142535,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [36]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10456:Player-1303-0B65F877:1:10:19:20:4294967295:4294967295:4294967295:4294967295|h[But You Say He's Just a Friend]|h|r!", -- [1]
-			"Quoll-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Quoll-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1943, -- [11]
-			"Player-1303-0B65F877", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeQuoll|r",
-			[51] = 1603142536,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [37]
-		{
-			"if you put the same focus into your play as your vocal, man you would be so freaking good", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1944, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142540,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [38]
-		{
-			"I don't understand what has happened here", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1945, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142540,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [39]
-		{
-			"I wasnt being toxic", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1946, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142544,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [40]
-		{
-			"why am I getting toxicity back?", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1948, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142549,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [41]
-		{
-			"I was explaining why I died", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1949, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142554,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [42]
-		{
-			"You can call it what you want, i really don't care. Fact is fact. Take your dick out of your hand, mine's bigger trus tme", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1951, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142567,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [43]
-		{
-			"probs is", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1952, -- [11]
-			"Player-1303-0B699A5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142578,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [44]
-		{
-			"Interrupted Psychus's |cff71d5ff|Hspell:316711:0|h[Mindwrack]|h|r!", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1956, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142590,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [45]
-		{
-			"Прерван Эгос. Сбито |cff71d5ff|Hspell:316711:0|h[Насилие над разумом]|h|r!", -- [1]
-			"Аримдо-Гордунни", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Аримдо-Гордунни", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1957, -- [11]
-			"Player-1602-08D035F9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Аримдо-Гордунни|r",
-			[51] = 1603142602,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
-		{
-			"Interrupted Psychus's |cff71d5ff|Hspell:316711:0|h[Mindwrack]|h|r!", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1958, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142607,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [47]
-		{
-			"Gn", -- [1]
-			"Professore-Frostmane", -- [2]
+			"saw Manson aswell in that year", -- [1]
+			"Bloodshock-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1068,7 +56,1063 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1966, -- [11]
+			486, -- [11]
+			"Player-1303-0B93DDA2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcBloodshock|r",
+			[51] = 1603396277,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [2]
+		{
+			"i remember all the warriors being average to poor except callum", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			487, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396282,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [3]
+		{
+			"here in the Netherlands on Fields of Rock", -- [1]
+			"Bloodshock-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			488, -- [11]
+			"Player-1303-0B93DDA2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcBloodshock|r",
+			[51] = 1603396287,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [4]
+		{
+			"yeah same", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			489, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396289,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [5]
+		{
+			"I dont remember him at all though", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			491, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396297,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [6]
+		{
+			"had best gear except 2 last mythic bosses and full corruptions", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			492, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396298,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [7]
+		{
+			"thats why heroic was not fun anymore", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			493, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396303,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [8]
+		{
+			"did you raid mythic with us? I cant remember you being in the roster at all (no offence)", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			494, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396315,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [9]
+		{
+			"Kimmy prolly thinks Manson is a cunt", -- [1]
+			"Bloodshock-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			495, -- [11]
+			"Player-1303-0B93DDA2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcBloodshock|r",
+			[51] = 1603396319,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [10]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12527:Player-1303-0B685838:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Zek'voz]|h|r!", -- [1]
+			"Nallid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nallid-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			496, -- [11]
+			"Player-1303-0B685838", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cNallid|r",
+			[51] = 1603396322,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [11]
+		{
+			"it was mainly sabchev right?", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			497, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396328,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [12]
+		{
+			"sabchev replaced callum", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			498, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396338,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [13]
+		{
+			"they were never here in the same raid", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			499, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396349,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [14]
+		{
+			"I think we did first 5", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			500, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396357,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [15]
+		{
+			"stimul said he did first 5 with us", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			501, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396364,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [16]
+		{
+			"then stopped because didnt need gear and thought you will not go for last 2 ;D", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			502, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396367,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [17]
+		{
+			"alright I see", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			503, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396372,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [18]
+		{
+			"sorry was lazy because didnt need gear:D", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			504, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396374,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [19]
+		{
+			"raiding isn't about gear though ", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			505, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396385,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [20]
+		{
+			"wait was he the one who would flit in and out of arms?", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			506, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396393,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [21]
+		{
+			"possibly", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			507, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396399,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [22]
+		{
+			"he says he stopped raiding with us after first 5 cause he didnt think we could kill last 2 and he only needed items from those", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			509, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396416,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [23]
+		{
+			"sure gear keeps you motivated but its all about the end goal", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			510, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396432,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [24]
+		{
+			"Yeah thats truth", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			511, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396438,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [25]
+		{
+			"accurate but not a great attitude", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			512, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396442,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [26]
+		{
+			"anyway if you're happy to join us for shadowlands, I'll put you down in our raid sheet", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			513, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396448,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [27]
+		{
+			"Still I wwould motivated till we kill last mythic boss then i would stop :D", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			514, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396451,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [28]
+		{
+			"this doesnt guarantee you a spot, this is more to see what classes we need to recruit", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			515, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396468,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [29]
+		{
+			"Yeah I would join, have brains :) Most important", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			516, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396480,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [30]
+		{
+			"yeah shit attitude is the words you were looking fo", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			517, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396488,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [31]
+		{
+			"yeah exactly", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			518, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396509,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [32]
+		{
+			"any idea of what spec you'll be playing? or do you just play whatever does most dps?", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			519, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396526,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [33]
+		{
+			"definitely the kinda guy who would get salty after wipes on bosses like xanesh that basically require wipes", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			520, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396529,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [34]
+		{
+			"Exactly", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			521, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396535,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [35]
+		{
+			"that's what I like to hear haha", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			525, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396545,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [36]
+		{
+			"nudge him towards the bench me thinks", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			526, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396547,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [37]
+		{
+			"alright i'll note you down", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			527, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396550,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [38]
+		{
+			"yeah and hes yet another warrior", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ignar-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			528, -- [11]
+			"Player-1303-0B6988BA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396557,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [39]
+		{
+			"Prefer ARMS because Fury is terrible I am breaking my keyboard pressing all buttons", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			529, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396558,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [40]
+		{
+			"but if Fury is more dps then fury", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			530, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396566,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [41]
+		{
+			"alright i'll just put you down as bis", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			531, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396594,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [42]
+		{
+			"Yes :) thank you", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			532, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396604,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [43]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8462:Player-1303-0B69728B:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[Downfall]|h|r!", -- [1]
+			"Kuntrum-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kuntrum-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			535, -- [11]
+			"Player-1303-0B69728B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Kuntrum|r",
+			[51] = 1603396624,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [44]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8679:Player-1303-0B69728B:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[Conqueror of Orgrimmar]|h|r!", -- [1]
+			"Kuntrum-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kuntrum-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			536, -- [11]
+			"Player-1303-0B69728B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Kuntrum|r",
+			[51] = 1603396624,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [45]
+		{
+			"what about covenant? you got any preference for what you're picking?", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			537, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396624,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [46]
+		{
+			"omg", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			538, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603396628,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [47]
+		{
+			"he's alive", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			539, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1603396629,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [48]
+		{
+			"Not yet", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			540, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396631,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [49]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14150:Player-1303-0B862CD7:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: War for the Shore]|h|r!", -- [1]
+			"Professore-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Professore-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			541, -- [11]
 			"Player-1303-0B862CD7", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1076,857 +1120,813 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffef367Professore|r",
-			[51] = 1603142627,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
-		{
-			"...", -- [1]
-			"Lith-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lith-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1968, -- [11]
-			"Player-1303-0B6942CE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142629,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [49]
-		{
-			"...", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1969, -- [11]
-			"Player-3702-09819A09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142631,
-			[50] = "CHAT_MSG_RAID",
+			[51] = 1603396637,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [50]
 		{
-			"why is anguish there ", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13297:Player-1303-0B862CD7:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[War for the Shore]|h|r!", -- [1]
+			"Professore-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Professore-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1970, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			542, -- [11]
+			"Player-1303-0B862CD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142637,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffef367Professore|r",
+			[51] = 1603396638,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [51]
 		{
-			"i dont understand ", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"still watching asmongold streams, he will choose whats the best for warrior ;D", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1971, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			543, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142641,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396642,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [52]
 		{
-			"Kick this asshole please", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
+			"He will know", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1972, -- [11]
-			"Player-3702-09819A09", -- [12]
+			544, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142644,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396652,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [53]
 		{
-			"why you have dropped anguish on the path", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"alright but you'll be picking whats best yeah?", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1973, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			545, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142648,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396652,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [54]
 		{
-			"you are trolling right", -- [1]
-			"Lith-Frostmane", -- [2]
+			":O", -- [1]
+			"Bloodshock-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lith-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1976, -- [11]
-			"Player-1303-0B6942CE", -- [12]
+			546, -- [11]
+			"Player-1303-0B93DDA2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142668,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff006fdcBloodshock|r",
+			[51] = 1603396667,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [55]
 		{
-			"i wish", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"Yes", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1977, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			547, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142673,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396668,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [56]
 		{
-			"you are proper thick then", -- [1]
-			"Lith-Frostmane", -- [2]
+			"perfect", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lith-Frostmane", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1982, -- [11]
-			"Player-1303-0B6942CE", -- [12]
+			548, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142680,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396671,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [57]
 		{
-			"There are people in this group who do not have the luxury of blink, not even a fucking JUMP, how the FUCK do you die!?", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
+			"he said he doesnt care for covenants ", -- [1]
+			"Ignar-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1983, -- [11]
-			"Player-3702-09819A09", -- [12]
+			552, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142685,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396694,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [58]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"and will just pick most dps", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1988, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			553, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142705,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396698,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [59]
 		{
-			"{rt2}", -- [1]
-			"Nadaluxe-Ragnaros", -- [2]
-			"Common", -- [3]
+			"hes in", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Nadaluxe-Ragnaros", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1989, -- [11]
-			"Player-3682-05CA81D4", -- [12]
+			554, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Nadaluxe-Ragnaros|r",
-			[51] = 1603142705,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396701,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [60]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"i take it all back", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1990, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			555, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142706,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396718,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [61]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"make him an officer", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1992, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			557, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142708,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396722,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [62]
 		{
-			"Were you dropped on your head at birth!?", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
+			"hey mate, are you still planning on raiding with us in shadowlands?", -- [1]
+			"Bkhawk-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
+			"Bkhawk-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1993, -- [11]
-			"Player-3702-09819A09", -- [12]
+			558, -- [11]
+			"Player-1303-0B698F63", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142709,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff38bb9Bkhawk|r",
+			[51] = 1603396749,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [63]
 		{
-			"{rt1}", -- [1]
-			"Darkwah-ArgentDawn", -- [2]
-			"Common", -- [3]
+			"well thanks for your time mate, it would be great if you could join some of the raids we're doing atm but they are just hc", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Darkwah-ArgentDawn", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1994, -- [11]
-			"Player-3702-09CF1E64", -- [12]
+			560, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDarkwah-ArgentDawn|r",
-			[51] = 1603142709,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396771,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [64]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"we're hoping to get into mythic again if more people start showing up", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1996, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			562, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142709,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396781,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [65]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"Yeah would be nice", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1998, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			563, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142711,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603396793,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [66]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"gonna message magina", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2000, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			564, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142712,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396807,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [67]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"hey mate", -- [1]
+			"Bkhawk-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Bkhawk-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2003, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			565, -- [11]
+			"Player-1303-0B698F63", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142714,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Bkhawk|r",
+			[51] = 1603396810,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [68]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"wish me luck", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2006, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			566, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142715,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396811,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [69]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"yep probably", -- [1]
+			"Bkhawk-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Bkhawk-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2008, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			567, -- [11]
+			"Player-1303-0B698F63", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142717,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Bkhawk|r",
+			[51] = 1603396815,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [70]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"%s has earned the achievement |cffffff00|Hachievement:974:Player-1303-0B5FD712:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[50 Daily Quests Completed]|h|r!", -- [1]
+			"Wuckinfarloc-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Wuckinfarloc-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2010, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			568, -- [11]
+			"Player-1303-0B5FD712", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142718,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff8687edWuckinfarloc|r",
+			[51] = 1603396833,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [71]
 		{
-			"DK group 2", -- [1]
-			"Darkwah-ArgentDawn", -- [2]
+			"alright good to hear, any idea of class and role? You were in yaki's sheet as rogue", -- [1]
+			"Bkhawk-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Darkwah", -- [5]
+			"Bkhawk-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2015, -- [11]
-			"Player-3702-09CF1E64", -- [12]
+			570, -- [11]
+			"Player-1303-0B698F63", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDarkwah-ArgentDawn|r",
-			[51] = 1603142722,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cfff38bb9Bkhawk|r",
+			[51] = 1603396846,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [72]
 		{
-			"Interrupted Psychus's |cff71d5ff|Hspell:316711:0|h[Mindwrack]|h|r!", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
+			"dont mention walls and priority damage", -- [1]
+			"Ignar-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2018, -- [11]
-			"Player-3702-09819A09", -- [12]
+			571, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142746,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396858,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [73]
 		{
-			"ups", -- [1]
-			"Аримдо-Гордунни", -- [2]
+			"you might confuse him", -- [1]
+			"Ignar-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Аримдо-Гордунни", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2019, -- [11]
-			"Player-1602-08D035F9", -- [12]
+			572, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Аримдо-Гордунни|r",
-			[51] = 1603142749,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603396863,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [74]
 		{
-			"{rt1}", -- [1]
-			"Okalani-DunMorogh", -- [2]
-			"Common", -- [3]
+			"gn all", -- [1]
+			"Kuntrum-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Okalani-DunMorogh", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2020, -- [11]
-			"Player-1408-04A6CA72", -- [12]
+			575, -- [11]
+			"Player-1303-0B69728B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Okalani-DunMorogh|r",
-			[51] = 1603142762,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa9d271Kuntrum|r",
+			[51] = 1603396934,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [75]
 		{
-			"dont res dk", -- [1]
-			"Lith-Frostmane", -- [2]
+			"i asked him if he was raiding ", -- [1]
+			"Ignar-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lith-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2030, -- [11]
-			"Player-1303-0B6942CE", -- [12]
+			588, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142782,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603397221,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [76]
 		{
-			"he went down anyway", -- [1]
-			"Lith-Frostmane", -- [2]
+			"he said probably", -- [1]
+			"Ignar-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lith-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2033, -- [11]
-			"Player-1303-0B6942CE", -- [12]
+			590, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142787,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603397228,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [77]
 		{
-			"yep, sry", -- [1]
-			"Аримдо-Гордунни", -- [2]
+			"i asked him if he knew his class or role", -- [1]
+			"Ignar-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Аримдо-Гордунни", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2035, -- [11]
-			"Player-1602-08D035F9", -- [12]
+			592, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Аримдо-Гордунни|r",
-			[51] = 1603142797,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603397236,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [78]
 		{
-			"Interrupted Psychus's |cff71d5ff|Hspell:316711:0|h[Mindwrack]|h|r!", -- [1]
-			"Vyollet-ArgentDawn", -- [2]
+			"he logged off", -- [1]
+			"Ignar-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vyollet-ArgentDawn", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2036, -- [11]
-			"Player-3702-09819A09", -- [12]
+			594, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Vyollet-ArgentDawn|r",
-			[51] = 1603142799,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603397240,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [79]
 		{
-			"got confused", -- [1]
-			"Аримдо-Гордунни", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12529:Player-1303-0B685838:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Vectis]|h|r!", -- [1]
+			"Nallid-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Аримдо-Гордунни", -- [5]
+			"Nallid-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2037, -- [11]
-			"Player-1602-08D035F9", -- [12]
+			605, -- [11]
+			"Player-1303-0B685838", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Аримдо-Гордунни|r",
-			[51] = 1603142802,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc59a6cNallid|r",
+			[51] = 1603397252,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [80]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"Can u invite my alt to guild?", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2040, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			607, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142810,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603397265,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [81]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"yeah of course, just whisper me", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Stimul-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2041, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			608, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142812,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1603397274,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [82]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"yeah that sounds about right actually", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2042, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			610, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142814,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603397321,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [83]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"i think he is aware we need him more than he needs us", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2045, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			613, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142815,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603397338,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [84]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"for a lot of 8.3 at least", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2046, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			614, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142817,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603397346,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [85]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"Hey invite", -- [1]
+			"Stimol-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Stimol-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2047, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			616, -- [11]
+			"Player-1303-0B7F027C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142818,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff8687edStimol|r",
+			[51] = 1603397423,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [86]
 		{
-			"Paranoia", -- [1]
+			"welcome", -- [1]
 			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2048, -- [11]
+			620, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1934,271 +1934,271 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142820,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1603397483,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [87]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"yeah", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2049, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			622, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142821,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603397545,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [88]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"Yo ", -- [1]
+			"Stimol-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2050, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			623, -- [11]
+			"Player-1303-0B7F027C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142822,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff8687edStimol|r",
+			[51] = 1603397553,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [89]
 		{
-			"Paranoia", -- [1]
-			"Rykahpo-Frostmane", -- [2]
-			"Common", -- [3]
+			"god I hate the little shit", -- [1]
+			"Ignar-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Ignar-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2051, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			624, -- [11]
+			"Player-1303-0B6988BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1603142824,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcIgnar|r",
+			[51] = 1603397554,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [90]
 		{
-			"wipe", -- [1]
-			"Darkwah-ArgentDawn", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:972:Player-1303-0B7F027C:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[Trick or Treat!]|h|r!", -- [1]
+			"Stimol-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Darkwah", -- [5]
+			"Stimol-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2054, -- [11]
-			"Player-3702-09CF1E64", -- [12]
+			625, -- [11]
+			"Player-1303-0B7F027C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDarkwah-ArgentDawn|r",
-			[51] = 1603142834,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cff8687edStimol|r",
+			[51] = 1603397555,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [91]
 		{
-			"You topped it bruh", -- [1]
-			"Lith-Frostmane", -- [2]
+			"WELCOME!", -- [1]
+			"Bloodshock-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lith-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2062, -- [11]
-			"Player-1303-0B6942CE", -- [12]
+			626, -- [11]
+			"Player-1303-0B93DDA2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Lith|r",
-			[51] = 1603142925,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff006fdcBloodshock|r",
+			[51] = 1603397561,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [92]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10458:Player-1303-0B65F877:1:10:19:20:4294967295:4294967295:4294967295:4294967295|h[Ready for Raiding V]|h|r!", -- [1]
-			"Quoll-Frostmane", -- [2]
+			"Love david shittin hes pants on horror games ", -- [1]
+			"Markless-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Quoll-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2066, -- [11]
-			"Player-1303-0B65F877", -- [12]
+			630, -- [11]
+			"Player-1303-0B8E51D6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeQuoll|r",
-			[51] = 1603142935,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffef367Markless|r",
+			[51] = 1603397628,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [93]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10780:Player-1303-0B65F877:1:10:19:20:4294967295:4294967295:4294967295:4294967295|h[Eye of Azshara]|h|r!", -- [1]
-			"Quoll-Frostmane", -- [2]
+			"only 2 levels to go", -- [1]
+			"Bloodshock-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Quoll-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2067, -- [11]
-			"Player-1303-0B65F877", -- [12]
+			632, -- [11]
+			"Player-1303-0B93DDA2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeQuoll|r",
-			[51] = 1603142935,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcBloodshock|r",
+			[51] = 1603397645,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [94]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10781:Player-1303-0B65F877:1:10:19:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Eye of Azshara]|h|r!", -- [1]
-			"Quoll-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:289:Player-1303-0B7F027C:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[The Savior of Hallow's End]|h|r!", -- [1]
+			"Stimol-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Quoll-Frostmane", -- [5]
+			"Stimol-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2068, -- [11]
-			"Player-1303-0B65F877", -- [12]
+			640, -- [11]
+			"Player-1303-0B7F027C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeQuoll|r",
-			[51] = 1603142935,
+			[52] = "|cff8687edStimol|r",
+			[51] = 1603397724,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [95]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10782:Player-1303-0B65F877:1:10:19:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Eye of Azshara]|h|r!", -- [1]
-			"Quoll-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10027:Player-1303-0B868EFF:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hellfire Assault]|h|r!", -- [1]
+			"Nikxes-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Quoll-Frostmane", -- [5]
+			"Nikxes-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2069, -- [11]
-			"Player-1303-0B65F877", -- [12]
+			669, -- [11]
+			"Player-1303-0B868EFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeQuoll|r",
-			[51] = 1603142935,
+			[52] = "|cffc31d39Nikxes|r",
+			[51] = 1603398124,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [96]
 		{
-			"Anal |cff0070dd|Hbattlepet:323:1:3:152:12:12:BattlePet-0-00000C5E0C8E:38693|h[Nuts]|h|r", -- [1]
-			"Evainè-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10026:Player-1303-0B73BB1F:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[Nearly Indestructible]|h|r!", -- [1]
+			"Zaxa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Evainè-Frostmane", -- [5]
+			"", -- [4]
+			"Zaxa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2073, -- [11]
-			"Player-1303-0B699DCD", -- [12]
+			670, -- [11]
+			"Player-1303-0B73BB1F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Evainè|r",
-			[51] = 1603142943,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffa22fc8Zaxa|r",
+			[51] = 1603398124,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [97]
 		{
-			"anal |cffffff00|Hachievement:4888:Player-1303-0B61FEDD:0:0:0:-1:0:0:0:0|h[One Hump or Two?]|h|r", -- [1]
-			"Feltails-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10026:Player-1303-0B868EFF:1:10:22:20:4294967295:4294967295:4294967295:4294967295|h[Nearly Indestructible]|h|r!", -- [1]
+			"Nikxes-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Feltails-Frostmane", -- [5]
+			"", -- [4]
+			"Nikxes-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2074, -- [11]
-			"Player-1303-0B61FEDD", -- [12]
+			671, -- [11]
+			"Player-1303-0B868EFF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Feltails|r",
-			[51] = 1603142944,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc31d39Nikxes|r",
+			[51] = 1603398124,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [98]
 		{
-			"|cff0070dd|Hbattlepet:1532:25:3:1319:322:273:BattlePet-0-00000A48F902:59602|h[Ikky]|h|r anal", -- [1]
-			"Kelaundril-Frostmane", -- [2]
+			"WTS Nyalotha HC-Mythic + we can stack armors; Horrific Visions with masks;  Mythic+ 15-22 in time and 465+ items; Glacial Tidestorm mount", -- [1]
+			"Puolak-Frostmane", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Kelaundril-Frostmane", -- [5]
-			"", -- [6]
+			"Puolak-Frostmane", -- [5]
+			"DND", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			2075, -- [11]
-			"Player-1303-0B69971C", -- [12]
+			674, -- [11]
+			"Player-1303-0B963D82", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Kelaundril|r",
-			[51] = 1603142948,
+			[52] = "|cffa9d271Puolak|r",
+			[51] = 1603398144,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
