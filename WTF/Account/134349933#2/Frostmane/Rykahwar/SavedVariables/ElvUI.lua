@@ -3,19 +3,21 @@ ElvCharacterDB = {
 	["ChatEditHistory"] = {
 		" thinking about it", -- [1]
 		" im coming back on my mage now though", -- [2]
-		"/reload", -- [3]
-		"/elvui", -- [4]
-		"/tmw options", -- [5]
-		"im coming back on my mage now though", -- [6]
-		"/simc minimap", -- [7]
-		"thinking about it", -- [8]
-		"/tmw", -- [9]
-		"/bigwigs", -- [10]
-		"/1 always noobs to kill", -- [11]
-		"/1 i really want to get my main ", -- [12]
-		"/1 and spawn camp these dumb fucks", -- [13]
-		"/aap skip", -- [14]
-		"/played", -- [15]
+		"/1 i really want to get my main ", -- [3]
+		"/played", -- [4]
+		"/1 always noobs to kill", -- [5]
+		"/tmw", -- [6]
+		"/tmw options", -- [7]
+		"/aap skip", -- [8]
+		"im coming back on my mage now though", -- [9]
+		"/simc minimap", -- [10]
+		"/bigwigs", -- [11]
+		"/1 and spawn camp these dumb fucks", -- [12]
+		"/1 i really want to get my main", -- [13]
+		"/elvui", -- [14]
+		"/reload", -- [15]
+		"thinking about it", -- [16]
+		"/aap", -- [17]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -220,5 +222,93 @@ ElvCharacterDB = {
 			[51] = 1587417765,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [9]
+		{
+			"Horseman rise...", -- [1]
+			"Niettezien-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Niettezien-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			575, -- [11]
+			"Player-1303-0B697231", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Niettezien|r",
+			[51] = 1603557489,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [10]
+		{
+			"Your time is nigh...", -- [1]
+			"Niettezien-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Niettezien-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			576, -- [11]
+			"Player-1303-0B697231", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Niettezien|r",
+			[51] = 1603557491,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [11]
+		{
+			"You felt death once...", -- [1]
+			"Niettezien-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Niettezien-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			577, -- [11]
+			"Player-1303-0B697231", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Niettezien|r",
+			[51] = 1603557493,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [12]
+		{
+			"Now, know demise!", -- [1]
+			"Niettezien-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Niettezien-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			579, -- [11]
+			"Player-1303-0B697231", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Niettezien|r",
+			[51] = 1603557496,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [13]
 	},
 }

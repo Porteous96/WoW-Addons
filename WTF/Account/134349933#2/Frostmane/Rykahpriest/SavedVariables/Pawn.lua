@@ -6,24 +6,24 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122250,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122250::::::::21:256:::1:582::::|h[Tattered Dreadmist Mask]|h|r",
+			["Level"] = 26,
+			["Link"] = "|cff00ccff|Hitem:122250::::::::22:256:::1:582::::|h[Tattered Dreadmist Mask]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 122663,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122663::::::::21:256:::1:582::::|h[Eternal Amulet of the Redeemed]|h|r",
+			["Level"] = 26,
+			["Link"] = "|cff00ccff|Hitem:122663::::::::22:256:::1:582::::|h[Eternal Amulet of the Redeemed]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122360,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122360::::::::21:256:::1:582::::|h[Tattered Dreadmist Mantle]|h|r",
+			["Level"] = 26,
+			["Link"] = "|cff00ccff|Hitem:122360::::::::22:256:::1:582::::|h[Tattered Dreadmist Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122384,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122384::::::::21:256:::1:582::::|h[Tattered Dreadmist Robe]|h|r",
+			["Level"] = 26,
+			["Link"] = "|cff00ccff|Hitem:122384::::::::22:256:::1:582::::|h[Tattered Dreadmist Robe]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 6908,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122256,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122256::::::::21:256:::1:582::::|h[Tattered Dreadmist Leggings]|h|r",
+			["Level"] = 26,
+			["Link"] = "|cff00ccff|Hitem:122256::::::::22:256:::1:582::::|h[Tattered Dreadmist Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 51967,
@@ -52,37 +52,37 @@ PawnOptions = {
 		}, -- [10]
 		{
 			["ID"] = 128169,
-			["Level"] = 25,
+			["Level"] = 26,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff00ccff|Hitem:128169::::::::21:256:::1:582::::|h[Signet of the Third Fleet]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128169::::::::22:256:::1:582::::|h[Signet of the Third Fleet]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 128169,
-			["Level"] = 24,
+			["Level"] = 25,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff00ccff|Hitem:128169::::::::20:256:::1:582::::|h[Signet of the Third Fleet]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128169::::::::21:256:::1:582::::|h[Signet of the Third Fleet]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122362,
-			["Level"] = 25,
+			["Level"] = 26,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122362::::::::21:256:::1:582::::|h[Discerning Eye of the Beast]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::22:256:::1:582::::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122362,
-			["Level"] = 25,
+			["Level"] = 26,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122362::::::::21:256:::1:582:1:28:2052:::|h[Discerning Eye of the Beast]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::22:256:::1:582:1:28:2052:::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 25,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::21:256:::1:583::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 26,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::22:256:::1:583::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 104406,
-			["Level"] = 27,
-			["Link"] = "|cff00ccff|Hitem:104406::::::::21:256:::::::|h[Hellscream's War Staff]|h|r",
+			["Level"] = 28,
+			["Link"] = "|cff00ccff|Hitem:104406::::::::22:256:::::::|h[Hellscream's War Staff]|h|r",
 		}, -- [16]
 	},
 	["LastKeybindingsSet"] = 1,

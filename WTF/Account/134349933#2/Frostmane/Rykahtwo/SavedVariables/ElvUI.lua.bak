@@ -1,11 +1,16 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/bigwigs", -- [1]
-		"/elvui", -- [2]
-		"/reload", -- [3]
-		"/tmw options", -- [4]
-		"/m", -- [5]
+		"/2 there's being sarcastic and just being a dick tho", -- [1]
+		"/bigwigs", -- [2]
+		"/m", -- [3]
+		"/elvui", -- [4]
+		"/tmw options", -- [5]
+		"/2 no need to be mean", -- [6]
+		"/aap", -- [7]
+		"/reload", -- [8]
+		"/2 he was trying to help you", -- [9]
+		"/played", -- [10]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -184,5 +189,357 @@ ElvCharacterDB = {
 			[51] = 1602705054,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [8]
+		{
+			"its on AH for 10k", -- [1]
+			"Alynie-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alynie-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3286, -- [11]
+			"Player-1303-0B68DEB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAlynie|r",
+			[51] = 1602890135,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [9]
+		{
+			"Really? :O I never thought to check out the hub where ppl sell almost all their items before posting WTB in trade", -- [1]
+			"Immortale-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Immortale-Frostmane", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3316, -- [11]
+			"Player-1303-0B698EEE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Immortale|r",
+			[51] = 1602890176,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [10]
+		{
+			"Thank you SO MUCH for that useful info...WTB |cffa335ee|Hitem:67151::::::::50:70:::::::|h[Reins of Poseidus]|h|r", -- [1]
+			"Immortale-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Immortale-Frostmane", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3346, -- [11]
+			"Player-1303-0B698EEE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Immortale|r",
+			[51] = 1602890195,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [11]
+		{
+			"no need to be mean", -- [1]
+			"Rykahtwo-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rykahtwo-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3355, -- [11]
+			"Player-1303-0B8B8D95", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaRykahtwo|r",
+			[51] = 1602890204,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [12]
+		{
+			"he was trying to help you", -- [1]
+			"Rykahtwo-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rykahtwo-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3359, -- [11]
+			"Player-1303-0B8B8D95", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaRykahtwo|r",
+			[51] = 1602890209,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [13]
+		{
+			"wow what a dbag", -- [1]
+			"Malchelo-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Malchelo-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3365, -- [11]
+			"Player-1303-0B8D8D7B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaMalchelo-Aggra(Português)|r",
+			[51] = 1602890216,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [14]
+		{
+			"|cffffff00Cathedral Square is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			3367, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1602890219,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [15]
+		{
+			"Being sarcastic isnt being mean :) but take it as you will snowflakes ♥", -- [1]
+			"Immortale-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Immortale-Frostmane", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3381, -- [11]
+			"Player-1303-0B698EEE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Immortale|r",
+			[51] = 1602890240,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [16]
+		{
+			"there's being sarcastic and just being a dick tho", -- [1]
+			"Rykahtwo-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rykahtwo-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3385, -- [11]
+			"Player-1303-0B8B8D95", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaRykahtwo|r",
+			[51] = 1602890261,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [17]
+		{
+			"WTS Nyalotha HC-Mythic + we can stack armors; Horrific Visions with masks;  Mythic+ 15-22 in time and 465+ items; Glacial Tidestorm mount", -- [1]
+			"Puolak-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Puolak-Frostmane", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			636, -- [11]
+			"Player-1303-0B963D82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Puolak|r",
+			[51] = 1603558102,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [18]
+		{
+			"anyone else lagging?", -- [1]
+			"Äelin-Ravencrest", -- [2]
+			"", -- [3]
+			"1. General - Tanaan Invasion", -- [4]
+			"Äelin-Ravencrest", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Tanaan Invasion", -- [9]
+			0, -- [10]
+			1096, -- [11]
+			"Player-1329-093E4C97", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcÄelin-Ravencrest|r",
+			[51] = 1603559846,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [19]
+		{
+			"nope", -- [1]
+			"Rhynosaur-Outland", -- [2]
+			"", -- [3]
+			"1. General - Tanaan Invasion", -- [4]
+			"Rhynosaur-Outland", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Tanaan Invasion", -- [9]
+			0, -- [10]
+			1098, -- [11]
+			"Player-1301-0B982898", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Rhynosaur-Outland|r",
+			[51] = 1603559854,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [20]
+		{
+			"Horseman rise...", -- [1]
+			"Hummple-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hummple-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1127, -- [11]
+			"Player-1303-0B54EB4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hummple|r",
+			[51] = 1603559948,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [21]
+		{
+			"Your time is nigh...", -- [1]
+			"Hummple-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hummple-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1128, -- [11]
+			"Player-1303-0B54EB4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hummple|r",
+			[51] = 1603559950,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [22]
+		{
+			"You felt death once...", -- [1]
+			"Hummple-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hummple-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1129, -- [11]
+			"Player-1303-0B54EB4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hummple|r",
+			[51] = 1603559952,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [23]
+		{
+			"Now, know demise!", -- [1]
+			"Hummple-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hummple-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1131, -- [11]
+			"Player-1303-0B54EB4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Hummple|r",
+			[51] = 1603559955,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [24]
 	},
 }

@@ -2,15 +2,16 @@
 DataStoreDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
 		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
+		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
 		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
-		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
 		["Blissard - Frostmane"] = "Blissard - Frostmane",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
@@ -68,13 +69,20 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Kivis Hörna",
 			},
-			["Default.Doomhammer.Rykahpo"] = {
-				["faction"] = "Alliance",
-			},
 			["Default.Frostmane.Rykahshaman"] = {
 				["faction"] = "Alliance",
 			},
+			["Default.Doomhammer.Rykahpo"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Defias Brotherhood.Mechaboost"] = {
+				["faction"] = "Alliance",
+			},
 			["Default.Frostmane.Rykahpo"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Velvet",
+			},
+			["Default.Frostmane.Rykkahpo"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Velvet",
 			},
@@ -82,11 +90,7 @@ DataStoreDB = {
 				["guildName"] = "Velvet",
 				["faction"] = "Alliance",
 			},
-			["Default.Frostmane.Rykkahpo"] = {
-				["faction"] = "Alliance",
-				["guildName"] = "Velvet",
-			},
-			["Default.Frostmane.Blissard"] = {
+			["Default.Frostmane.Rykahwar"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Bankypo"] = {
@@ -107,7 +111,7 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Velvet",
 			},
-			["Default.Defias Brotherhood.Mechaboost"] = {
+			["Default.Frostmane.Blissard"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Rykahpriest"] = {

@@ -40,7 +40,7 @@ WorldQuestParty: disabled
 WIT: disabled
 EasyScrap: disabled
 ExRT: disabled
-FasterLoot: disabled
+FasterLoot: enabled
 GarrisonMissionManager: disabled
 ComboPointsRedux: disabled
 ComboPointsRedux_Options: disabled
@@ -48,3 +48,5 @@ Altoholic: disabled
 AAP-Core: enabled
 AAP-EasternKingdoms: enabled
 AAP-Shadowlands: enabled
+ElvUI_QuestXP: disabled
+LittleWigs: enabled

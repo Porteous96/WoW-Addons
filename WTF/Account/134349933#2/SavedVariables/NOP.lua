@@ -19,23 +19,23 @@ NewOpenablesProfile = {
 		["Swobuswagins - Tarren Mill"] = {
 			["itemID"] = 147721,
 		},
-		["Preachx - Tarren Mill"] = {
-			["itemID"] = 152097,
-		},
 		["Rykahpoo - Frostmane"] = {
 			["itemID"] = 147221,
+		},
+		["Preachx - Tarren Mill"] = {
+			["itemID"] = 152097,
 		},
 		["Preacho - Tarren Mill"] = {
 			["itemID"] = 147721,
 		},
-		["Préach - Tarren Mill"] = {
-			["itemID"] = 139670,
+		["Chuggernuts - Tarren Mill"] = {
+			["itemID"] = 147721,
 		},
 		["Preachez - Tarren Mill"] = {
 			["itemID"] = 147721,
 		},
-		["Chuggernuts - Tarren Mill"] = {
-			["itemID"] = 147721,
+		["Préach - Tarren Mill"] = {
+			["itemID"] = 139670,
 		},
 	},
 	["profileKeys"] = {
@@ -60,8 +60,8 @@ NewOpenablesProfile = {
 		["Preacho - Tarren Mill"] = "Default",
 		["Préach - Tarren Mill"] = "Default",
 		["Preachez - Tarren Mill"] = "Default",
-		["Rykahhpo - Frostmane"] = "Default",
 		["Rykahpo - Frostmane"] = "Default",
+		["Rykahhpo - Frostmane"] = "Default",
 		["Rcumplus - Aggramar"] = "Default",
 		["Preech - Tarren Mill"] = "Default",
 		["Rykkahpo - Frostmane"] = "Default",
@@ -85,12 +85,12 @@ NewOpenablesProfile = {
 		["Default"] = {
 			["T_BLACKLIST"] = {
 				[0] = true,
-				[154783] = true,
-				[160680] = true,
 				[138883] = true,
 				[140760] = true,
+				[154783] = true,
+				[154785] = true,
 				[139428] = true,
-				[140749] = true,
+				[152734] = true,
 				[159636] = true,
 				[139418] = true,
 				[139420] = true,
@@ -98,8 +98,8 @@ NewOpenablesProfile = {
 				[152095] = true,
 				[154801] = true,
 				[147348] = true,
-				[152734] = true,
-				[154785] = true,
+				[140749] = true,
+				[160680] = true,
 			},
 			["qb"] = {
 				"TOPLEFT", -- [1]

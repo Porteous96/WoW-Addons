@@ -5,160 +5,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Vexiona",
 		["id"] = 2370,
-		["player_db"] = {
-			["Trunkenbolt-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Trunkenbolt-Madmortem",
-				["overall"] = {
-				},
-			},
-			["Devilmáster-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Devilmáster-Madmortem",
-				["overall"] = {
-				},
-			},
-			["Lízzie"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lízzie",
-			},
-			["Azráel-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Azráel-Madmortem",
-				["overall"] = {
-				},
-			},
-			["Alenpfhon"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Alenpfhon",
-			},
-			["Totemdalle"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Totemdalle",
-			},
-			["Orfein-Aegwynn"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Orfein-Aegwynn",
-			},
-			["Narulya"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Narulya",
-			},
-			["Bacard"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Bacard",
-			},
-			["Altairx"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Altairx",
-			},
-			["Merren"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Merren",
-			},
-			["Twistedshape"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Twistedshape",
-			},
-			["Autori"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Autori",
-			},
-			["Rykahpo"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Rykahpo",
-			},
-			["Zethak"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Zethak",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Iamnotjamie-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Alloe"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Alloe",
-			},
-			["Wuckinfarloc"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Wuckinfarloc",
-			},
-			["Markless"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Markless",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 9,
@@ -172,6 +18,323 @@ DeathGraphsDBDeaths = {
 			["id"] = 2336,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Trunkenbolt-Madmortem"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Trunkenbolt-Madmortem",
+			},
+			["Devilmáster-Madmortem"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Devilmáster-Madmortem",
+			},
+			["Lízzie"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Lízzie",
+				["overall"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Azráel-Madmortem",
+			},
+			["Alenpfhon"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Alenpfhon",
+				["overall"] = {
+				},
+			},
+			["Totemdalle"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Totemdalle",
+				["overall"] = {
+				},
+			},
+			["Orfein-Aegwynn"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Orfein-Aegwynn",
+				["overall"] = {
+				},
+			},
+			["Narulya"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Narulya",
+				["overall"] = {
+				},
+			},
+			["Bacard"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Bacard",
+				["overall"] = {
+				},
+			},
+			["Altairx"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Altairx",
+				["overall"] = {
+				},
+			},
+			["Merren"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Merren",
+				["overall"] = {
+				},
+			},
+			["Twistedshape"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Twistedshape",
+				["overall"] = {
+				},
+			},
+			["Autori"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Autori",
+				["overall"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Rykahpo",
+				["overall"] = {
+				},
+			},
+			["Zethak"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Zethak",
+				["overall"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Iamnotjamie-Silvermoon",
+			},
+			["Alloe"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Alloe",
+				["overall"] = {
+				},
+			},
+			["Wuckinfarloc"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Wuckinfarloc",
+				["overall"] = {
+				},
+			},
+			["Markless"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Markless",
+				["overall"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["237415"] = {
+		["hash"] = "237415",
+		["type"] = "deaths",
+		["name"] = "Il'gynoth, Corruption Reborn",
+		["id"] = 2374,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 8,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2345,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Il'gynoth, Corruption Reborn",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Il'gynoth, Corruption Reborn",
+		},
+		["player_db"] = {
+			["Shaan"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Shaan",
+			},
+			["Devereux"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Devereux",
+			},
+			["Rykahpo"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Rykahpo",
+			},
+			["Stimul"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Stimul",
+			},
+		},
+		["diff"] = 15,
+	},
+	["236915"] = {
+		["hash"] = "236915",
+		["type"] = "deaths",
+		["name"] = "Prophet Skitra",
+		["id"] = 2369,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Prophet Skitra",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Prophet Skitra",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2334,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Thanilia"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Thanilia",
+				["overall"] = {
+				},
+			},
+			["Lízzie"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Lízzie",
+				["overall"] = {
+				},
+			},
+			["Twistedshape"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Twistedshape",
+				["overall"] = {
+				},
+			},
+			["Alenpfhon"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Alenpfhon",
+				["overall"] = {
+				},
+			},
+			["Autori"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Autori",
+				["overall"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Rykahpo",
+				["overall"] = {
+				},
+			},
+			["Orfein-Aegwynn"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Orfein-Aegwynn",
+				["overall"] = {
+				},
+			},
+			["Primavera-Un'Goro"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Primavera-Un'Goro",
+				["overall"] = {
+				},
+			},
+			["Merren"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Merren",
+				["overall"] = {
+				},
+			},
+			["Wuckinfarloc"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Wuckinfarloc",
+				["overall"] = {
+				},
+			},
+			["Markless"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Markless",
+				["overall"] = {
+				},
+			},
+		},
 		["diff"] = 15,
 	},
 	["236916"] = {
@@ -180,56 +343,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Prophet Skitra",
 		["id"] = 2369,
 		["diff"] = 16,
-		["player_db"] = {
-			["Jisho-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Jisho-Ravencrest",
-				["class"] = "DRUID",
-			},
-			["Suuntó-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Suuntó-Ravencrest",
-				["class"] = "PRIEST",
-			},
-			["Suddenee-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Suddenee-Ravencrest",
-				["class"] = "HUNTER",
-			},
-			["Thimble-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Thimble-Ravencrest",
-				["class"] = "ROGUE",
-			},
-			["Nåjd-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nåjd-Ravencrest",
-				["class"] = "SHAMAN",
-			},
-			["Silithan-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Silithan-Ravencrest",
-				["class"] = "WARRIOR",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Mythic",
 			["index"] = 3,
@@ -243,6 +356,78 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Nåjd-Ravencrest"] = {
+				["name"] = "Nåjd-Ravencrest",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Suuntó-Ravencrest"] = {
+				["name"] = "Suuntó-Ravencrest",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Jisho-Ravencrest"] = {
+				["name"] = "Jisho-Ravencrest",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Thimble-Ravencrest"] = {
+				["name"] = "Thimble-Ravencrest",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Suddenee-Ravencrest"] = {
+				["name"] = "Suddenee-Ravencrest",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Silithan-Ravencrest"] = {
+				["name"] = "Silithan-Ravencrest",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
+	},
+	["237315"] = {
+		["hash"] = "237315",
+		["type"] = "deaths",
+		["name"] = "Drest'agath",
+		["id"] = 2373,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Drest'agath",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Drest'agath",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2343,
+			["killed"] = true,
+		},
+		["player_db"] = {
+		},
+		["diff"] = 15,
 	},
 	["237515"] = {
 		["hash"] = "237515",
@@ -250,95 +435,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "N'Zoth the Corruptor",
 		["id"] = 2375,
 		["diff"] = 15,
-		["player_db"] = {
-			["Grollash-ArgentDawn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Grollash-ArgentDawn",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Eltric-ArgentDawn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Eltric-ArgentDawn",
-				["class"] = "ROGUE",
-			},
-			["Nadaluxe-Ragnaros"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nadaluxe-Ragnaros",
-				["class"] = "HUNTER",
-			},
-			["Rykahpo"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Rykahpo",
-				["class"] = "MAGE",
-			},
-			["Ниэтта-Гордунни"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ниэтта-Гордунни",
-				["class"] = "PALADIN",
-			},
-			["Аримдо-Гордунни"] = {
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Аримдо-Гордунни",
-			},
-			["Lith"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Lith",
-				["class"] = "PALADIN",
-			},
-			["Okalani-DunMorogh"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Okalani-DunMorogh",
-				["class"] = "PALADIN",
-			},
-			["Vyollet-ArgentDawn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Vyollet-ArgentDawn",
-				["class"] = "DEMONHUNTER",
-			},
-			["Secaná-ArgentDawn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Secaná-ArgentDawn",
-				["class"] = "PALADIN",
-			},
-			["Darkwah-ArgentDawn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Darkwah-ArgentDawn",
-				["class"] = "PRIEST",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 12,
@@ -351,36 +447,78 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 15,
 		},
-	},
-	["237715"] = {
-		["hash"] = "237715",
-		["type"] = "deaths",
-		["name"] = "Dark Inquisitor Xanesh",
-		["id"] = 2377,
 		["player_db"] = {
-			["Alithor-Silvermoon"] = {
+			["Thanilia"] = {
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
-				["name"] = "Alithor-Silvermoon",
 				["overall"] = {
 				},
+				["name"] = "Thanilia",
 			},
-			["Mésa-Silvermoon"] = {
-				["deaths"] = {
-				},
+			["Eltric-ArgentDawn"] = {
+				["name"] = "Eltric-ArgentDawn",
 				["class"] = "ROGUE",
-				["name"] = "Mésa-Silvermoon",
 				["overall"] = {
 				},
-			},
-			["Lixariah-Aegwynn"] = {
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
-				["name"] = "Lixariah-Aegwynn",
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
 				["overall"] = {
 				},
+				["name"] = "Slyxhmsterez-Sylvanas",
+			},
+			["Okalani-DunMorogh"] = {
+				["name"] = "Okalani-DunMorogh",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Eddey"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Eddey",
+			},
+			["Vyollet-ArgentDawn"] = {
+				["name"] = "Vyollet-ArgentDawn",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Stimul"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Stimul",
+			},
+			["Vønhelsing-KhazModan"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vønhelsing-KhazModan",
+			},
+			["Shaan"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Shaan",
 			},
 			["Lízzie"] = {
 				["class"] = "WARRIOR",
@@ -390,71 +528,124 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Lízzie",
 			},
-			["Mærine-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Mærine-Silvermoon",
+			["Grollash-ArgentDawn"] = {
+				["name"] = "Grollash-ArgentDawn",
+				["class"] = "DEATHKNIGHT",
 				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
-			["Autori"] = {
+			["Vaffa-Antonidas"] = {
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
-				["name"] = "Autori",
 				["overall"] = {
+				},
+				["name"] = "Vaffa-Antonidas",
+			},
+			["Coldaras"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Coldaras",
+			},
+			["Devereux"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Devereux",
+			},
+			["Xycon"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Xycon",
+			},
+			["Sheylora-Thrall"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Sheylora-Thrall",
+			},
+			["Talrog-Antonidas"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Talrog-Antonidas",
+			},
+			["Nadaluxe-Ragnaros"] = {
+				["name"] = "Nadaluxe-Ragnaros",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Аримдо-Гордунни"] = {
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Аримдо-Гордунни",
+			},
+			["Lith"] = {
+				["name"] = "Lith",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
 				},
 			},
 			["Rykahpo"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
 				["name"] = "Rykahpo",
+				["class"] = "MAGE",
 				["overall"] = {
 				},
-			},
-			["Bloodseize-Silvermoon"] = {
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Bloodseize-Silvermoon",
+			},
+			["Ниэтта-Гордунни"] = {
+				["name"] = "Ниэтта-Гордунни",
+				["class"] = "PALADIN",
 				["overall"] = {
 				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
-				["name"] = "Iamnotjamie-Silvermoon",
+			},
+			["Secaná-ArgentDawn"] = {
+				["name"] = "Secaná-ArgentDawn",
+				["class"] = "PALADIN",
 				["overall"] = {
 				},
-			},
-			["Ipeed-Silvermoon"] = {
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
-				["name"] = "Ipeed-Silvermoon",
-				["overall"] = {
-				},
 			},
-			["Wuckinfarloc"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
+			["Darkwah-ArgentDawn"] = {
+				["name"] = "Darkwah-ArgentDawn",
+				["class"] = "PRIEST",
 				["overall"] = {
 				},
-				["name"] = "Wuckinfarloc",
-			},
-			["Hexeins-Sen'jin"] = {
 				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Hexeins-Sen'jin",
-				["overall"] = {
 				},
 			},
 		},
+	},
+	["237715"] = {
+		["hash"] = "237715",
+		["type"] = "deaths",
+		["name"] = "Dark Inquisitor Xanesh",
+		["id"] = 2377,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 4,
@@ -467,45 +658,46 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Dark Inquisitor Xanesh",
 		},
-		["diff"] = 15,
-	},
-	["236915"] = {
-		["hash"] = "236915",
-		["type"] = "deaths",
-		["name"] = "Prophet Skitra",
-		["id"] = 2369,
 		["player_db"] = {
-			["Thanilia"] = {
-				["class"] = "DRUID",
+			["Alithor-Silvermoon"] = {
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Thanilia",
+				["name"] = "Alithor-Silvermoon",
+			},
+			["Mésa-Silvermoon"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mésa-Silvermoon",
+			},
+			["Lixariah-Aegwynn"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lixariah-Aegwynn",
 			},
 			["Lízzie"] = {
+				["deaths"] = {
+				},
 				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
 				["name"] = "Lízzie",
+				["overall"] = {
+				},
 			},
-			["Twistedshape"] = {
+			["Mærine-Silvermoon"] = {
 				["class"] = "DRUID",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Twistedshape",
-			},
-			["Alenpfhon"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Alenpfhon",
+				["name"] = "Mærine-Silvermoon",
 			},
 			["Autori"] = {
 				["class"] = "WARLOCK",
@@ -523,59 +715,46 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Rykahpo",
 			},
-			["Orfein-Aegwynn"] = {
-				["class"] = "HUNTER",
+			["Bloodseize-Silvermoon"] = {
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Orfein-Aegwynn",
+				["name"] = "Bloodseize-Silvermoon",
 			},
-			["Primavera-Un'Goro"] = {
-				["class"] = "DRUID",
+			["Iamnotjamie-Silvermoon"] = {
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Primavera-Un'Goro",
+				["name"] = "Iamnotjamie-Silvermoon",
 			},
-			["Merren"] = {
+			["Ipeed-Silvermoon"] = {
 				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Merren",
+				["name"] = "Ipeed-Silvermoon",
 			},
 			["Wuckinfarloc"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Wuckinfarloc",
+				["overall"] = {
+				},
+			},
+			["Hexeins-Sen'jin"] = {
 				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Wuckinfarloc",
+				["name"] = "Hexeins-Sen'jin",
 			},
-			["Markless"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Markless",
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2334,
-			["killed"] = true,
 		},
 		["diff"] = 15,
 	},
@@ -584,16 +763,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "The Hivemind",
 		["id"] = 2372,
-		["player_db"] = {
-			["Autori"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Autori",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 5,
@@ -605,43 +774,244 @@ DeathGraphsDBDeaths = {
 			["encounter"] = "The Hivemind",
 			["ej_instance_id"] = 1180,
 		},
-		["diff"] = 15,
-	},
-	["236815"] = {
-		["hash"] = "236815",
-		["type"] = "deaths",
-		["name"] = "Wrathion",
-		["id"] = 2368,
 		["player_db"] = {
-			["Wuckinfarloc"] = {
+			["Autori"] = {
 				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Wuckinfarloc",
+				["name"] = "Autori",
 			},
 		},
+		["diff"] = 15,
+	},
+	["236715"] = {
+		["hash"] = "236715",
+		["type"] = "deaths",
+		["name"] = "Shad'har the Insatiable",
+		["id"] = 2367,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
-			["index"] = 1,
+			["index"] = 6,
 			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Wrathion",
+			["encounter"] = "Shad'har the Insatiable",
 			["mapid"] = 2217,
 			["try_number"] = 1,
-			["name"] = "Wrathion",
+			["name"] = "Shad'har the Insatiable",
 			["diff"] = 15,
 			["ej_instance_id"] = 1180,
-			["id"] = 2329,
+			["id"] = 2335,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Lízzie"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lízzie",
+			},
+			["Fraank"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Fraank",
+			},
+		},
 		["diff"] = 15,
+	},
+	["236516"] = {
+		["hash"] = "236516",
+		["type"] = "deaths",
+		["name"] = "Maut",
+		["id"] = 2365,
+		["diff"] = 16,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 2,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2327,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Maut",
+			["encounter"] = "Maut",
+			["ej_instance_id"] = 1180,
+			["diff"] = 16,
+		},
+		["player_db"] = {
+			["Doopy-Aggramar"] = {
+				["name"] = "Doopy-Aggramar",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Scootter-Ravencrest"] = {
+				["name"] = "Scootter-Ravencrest",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Gruselfussel-Alleria"] = {
+				["name"] = "Gruselfussel-Alleria",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Thimble-Ravencrest"] = {
+				["name"] = "Thimble-Ravencrest",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Fillan-Elune"] = {
+				["name"] = "Fillan-Elune",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Maverick-Darkspear"] = {
+				["name"] = "Maverick-Darkspear",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Zadidaddy-Ravencrest"] = {
+				["name"] = "Zadidaddy-Ravencrest",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Alseydes-DunModr"] = {
+				["name"] = "Alseydes-DunModr",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Suddenee-Ravencrest"] = {
+				["name"] = "Suddenee-Ravencrest",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Suuntó-Ravencrest"] = {
+				["name"] = "Suuntó-Ravencrest",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 	["236816"] = {
 		["hash"] = "236816",
 		["type"] = "deaths",
 		["name"] = "Wrathion",
 		["id"] = 2368,
+		["player_db"] = {
+			["Kejha-Pozzodell'Eternità"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Kejha-Pozzodell'Eternità",
+				["overall"] = {
+				},
+			},
+			["Aeternatus-ChamberofAspects"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Aeternatus-ChamberofAspects",
+				["overall"] = {
+				},
+			},
+			["Hottex-Pozzodell'Eternità"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Hottex-Pozzodell'Eternità",
+				["overall"] = {
+				},
+			},
+			["Ликке-Гордунни"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Ликке-Гордунни",
+				["overall"] = {
+				},
+			},
+			["Senyera-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Senyera-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Elenadi-Doomhammer"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Elenadi-Doomhammer",
+				["overall"] = {
+				},
+			},
+			["Waskcol-DunModr"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Waskcol-DunModr",
+				["overall"] = {
+				},
+			},
+			["Janashin-Silvermoon"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Janashin-Silvermoon",
+				["overall"] = {
+				},
+			},
+			["Figaru-Sylvanas"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Figaru-Sylvanas",
+				["overall"] = {
+				},
+			},
+			["Ainsopha-Nemesis"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Ainsopha-Nemesis",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Mythic",
 			["index"] = 1,
@@ -654,88 +1024,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Wrathion",
 		},
-		["player_db"] = {
-			["Kejha-Pozzodell'Eternità"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Kejha-Pozzodell'Eternità",
-			},
-			["Aeternatus-ChamberofAspects"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Aeternatus-ChamberofAspects",
-			},
-			["Hottex-Pozzodell'Eternità"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Hottex-Pozzodell'Eternità",
-			},
-			["Ликке-Гордунни"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Ликке-Гордунни",
-			},
-			["Senyera-Silvermoon"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Senyera-Silvermoon",
-			},
-			["Elenadi-Doomhammer"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Elenadi-Doomhammer",
-			},
-			["Waskcol-DunModr"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Waskcol-DunModr",
-			},
-			["Janashin-Silvermoon"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Janashin-Silvermoon",
-			},
-			["Figaru-Sylvanas"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Figaru-Sylvanas",
-			},
-			["Ainsopha-Nemesis"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Ainsopha-Nemesis",
-			},
-		},
 		["diff"] = 16,
 	},
 	["236615"] = {
@@ -743,112 +1031,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Carapace of N'Zoth",
 		["id"] = 2366,
-		["player_db"] = {
-			["Hexeins-Sen'jin"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Hexeins-Sen'jin",
-				["overall"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Mésa-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Devilmáster-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Devilmáster-Madmortem",
-				["overall"] = {
-				},
-			},
-			["Eltric-ArgentDawn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Eltric-ArgentDawn",
-				["class"] = "ROGUE",
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Trunkenbolt-Madmortem",
-				["overall"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Bloodseize-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Ipeed-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Rykahpo",
-				["class"] = "MAGE",
-			},
-			["Okalani-DunMorogh"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Okalani-DunMorogh",
-				["class"] = "PALADIN",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Iamnotjamie-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Autori"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Autori",
-				["overall"] = {
-				},
-			},
-			["Secaná-ArgentDawn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Secaná-ArgentDawn",
-				["class"] = "PALADIN",
-			},
-			["Queroth-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Queroth-Silvermoon",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 11,
@@ -861,6 +1043,144 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Carapace of N'Zoth",
 		},
+		["player_db"] = {
+			["Hexeins-Sen'jin"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Hexeins-Sen'jin",
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Trunkenbolt-Madmortem",
+			},
+			["Devilmáster-Madmortem"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Devilmáster-Madmortem",
+			},
+			["Eltric-ArgentDawn"] = {
+				["name"] = "Eltric-ArgentDawn",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ipeed-Silvermoon",
+			},
+			["Okalani-DunMorogh"] = {
+				["name"] = "Okalani-DunMorogh",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Queroth-Silvermoon"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Queroth-Silvermoon",
+			},
+			["Vaffa-Antonidas"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Vaffa-Antonidas",
+			},
+			["Lízzie"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lízzie",
+			},
+			["Talrog-Antonidas"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Talrog-Antonidas",
+			},
+			["Mésa-Silvermoon"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Mésa-Silvermoon",
+			},
+			["Rykahpo"] = {
+				["name"] = "Rykahpo",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Autori",
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Iamnotjamie-Silvermoon",
+			},
+			["Fraank"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Fraank",
+			},
+			["Secaná-ArgentDawn"] = {
+				["name"] = "Secaná-ArgentDawn",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bloodseize-Silvermoon",
+			},
+		},
 		["diff"] = 15,
 	},
 	["236415"] = {
@@ -868,48 +1188,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Ra-den the Despoiled",
 		["id"] = 2364,
-		["player_db"] = {
-			["Ipeed-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Ipeed-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Mésa-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Queroth-Silvermoon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Queroth-Silvermoon",
-				["overall"] = {
-				},
-			},
-			["Autori"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Autori",
-				["overall"] = {
-				},
-			},
-			["Azráel-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Azráel-Madmortem",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 10,
@@ -923,122 +1201,30 @@ DeathGraphsDBDeaths = {
 			["id"] = 2331,
 			["killed"] = true,
 		},
-		["diff"] = 15,
-	},
-	["236516"] = {
-		["hash"] = "236516",
-		["type"] = "deaths",
-		["name"] = "Maut",
-		["id"] = 2365,
-		["diff"] = 16,
 		["player_db"] = {
-			["Doopy-Aggramar"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Doopy-Aggramar",
-				["class"] = "HUNTER",
-			},
-			["Scootter-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Scootter-Ravencrest",
-				["class"] = "WARRIOR",
-			},
-			["Gruselfussel-Alleria"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Gruselfussel-Alleria",
+			["Ipeed-Silvermoon"] = {
 				["class"] = "WARLOCK",
-			},
-			["Thimble-Ravencrest"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Thimble-Ravencrest",
+				["overall"] = {
+				},
+				["name"] = "Ipeed-Silvermoon",
+			},
+			["Mésa-Silvermoon"] = {
 				["class"] = "ROGUE",
-			},
-			["Fillan-Elune"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Fillan-Elune",
-				["class"] = "HUNTER",
-			},
-			["Maverick-Darkspear"] = {
 				["overall"] = {
 				},
+				["name"] = "Mésa-Silvermoon",
+			},
+			["Queroth-Silvermoon"] = {
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["name"] = "Maverick-Darkspear",
-				["class"] = "DRUID",
-			},
-			["Zadidaddy-Ravencrest"] = {
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-				["name"] = "Zadidaddy-Ravencrest",
-				["class"] = "HUNTER",
-			},
-			["Alseydes-DunModr"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Alseydes-DunModr",
-				["class"] = "PRIEST",
-			},
-			["Suddenee-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Suddenee-Ravencrest",
-				["class"] = "HUNTER",
-			},
-			["Suuntó-Ravencrest"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Suuntó-Ravencrest",
-				["class"] = "PRIEST",
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 2,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2327,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Maut",
-			["encounter"] = "Maut",
-			["ej_instance_id"] = 1180,
-			["diff"] = 16,
-		},
-	},
-	["236515"] = {
-		["hash"] = "236515",
-		["type"] = "deaths",
-		["name"] = "Maut",
-		["id"] = 2365,
-		["player_db"] = {
-			["Devilmáster-Madmortem"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Devilmáster-Madmortem",
-				["overall"] = {
-				},
+				["name"] = "Queroth-Silvermoon",
 			},
 			["Lízzie"] = {
 				["class"] = "WARRIOR",
@@ -1048,30 +1234,6 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Lízzie",
 			},
-			["Primavera-Un'Goro"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Primavera-Un'Goro",
-			},
-			["Totemdalle"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Totemdalle",
-			},
-			["Alloe"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Alloe",
-			},
 			["Autori"] = {
 				["class"] = "WARLOCK",
 				["deaths"] = {
@@ -1080,55 +1242,52 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Autori",
 			},
-			["Rykahpo"] = {
-				["class"] = "MAGE",
+			["Azráel-Madmortem"] = {
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Rykahpo",
-			},
-			["Orfein-Aegwynn"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Orfein-Aegwynn",
-			},
-			["Merren"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Merren",
-			},
-			["Bacard"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Bacard",
-			},
-			["Wuckinfarloc"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Wuckinfarloc",
-			},
-			["Markless"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Markless",
+				["name"] = "Azráel-Madmortem",
 			},
 		},
+		["diff"] = 15,
+	},
+	["236815"] = {
+		["hash"] = "236815",
+		["type"] = "deaths",
+		["name"] = "Wrathion",
+		["id"] = 2368,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Wrathion",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2329,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Wuckinfarloc"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Wuckinfarloc",
+				["overall"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["236515"] = {
+		["hash"] = "236515",
+		["type"] = "deaths",
+		["name"] = "Maut",
+		["id"] = 2365,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -1141,6 +1300,104 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Maut",
 		},
+		["player_db"] = {
+			["Devilmáster-Madmortem"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Devilmáster-Madmortem",
+			},
+			["Lízzie"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Lízzie",
+				["overall"] = {
+				},
+			},
+			["Primavera-Un'Goro"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Primavera-Un'Goro",
+				["overall"] = {
+				},
+			},
+			["Totemdalle"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Totemdalle",
+				["overall"] = {
+				},
+			},
+			["Alloe"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Alloe",
+				["overall"] = {
+				},
+			},
+			["Autori"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Autori",
+				["overall"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Rykahpo",
+				["overall"] = {
+				},
+			},
+			["Orfein-Aegwynn"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Orfein-Aegwynn",
+				["overall"] = {
+				},
+			},
+			["Merren"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Merren",
+				["overall"] = {
+				},
+			},
+			["Bacard"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Bacard",
+				["overall"] = {
+				},
+			},
+			["Wuckinfarloc"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Wuckinfarloc",
+				["overall"] = {
+				},
+			},
+			["Markless"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Markless",
+				["overall"] = {
+				},
+			},
+		},
 		["diff"] = 15,
 	},
 }
@@ -1150,6 +1407,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Vexiona",
 		["id"] = 2370,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 9,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Vexiona",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Vexiona",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2336,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Hexeins-Sen'jin"] = {
 				["encounters"] = 1,
@@ -1422,18 +1692,394 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
+		["diff"] = 15,
+	},
+	["237415"] = {
+		["hash"] = "237415",
+		["type"] = "endurance",
+		["name"] = "Il'gynoth, Corruption Reborn",
+		["id"] = 2374,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
-			["index"] = 9,
+			["index"] = 8,
 			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Vexiona",
+			["id"] = 2345,
 			["mapid"] = 2217,
 			["try_number"] = 1,
-			["name"] = "Vexiona",
+			["name"] = "Il'gynoth, Corruption Reborn",
 			["diff"] = 15,
 			["ej_instance_id"] = 1180,
-			["id"] = 2336,
+			["encounter"] = "Il'gynoth, Corruption Reborn",
+		},
+		["player_db"] = {
+			["Shaan"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						168.4149999999991, -- [2]
+						"Recurring Nightmare (DoT) |cFFFF33331,182|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Coldaras"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Lízzie"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Xycon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Thanilia"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Eddey"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Vaffa-Antonidas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						265.7939999999999, -- [2]
+						"Morass of Corruption (DoT) |cFFFF33333,202|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Talrog-Antonidas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Devereux"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Fraank"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Stimul"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						272.1829999999991, -- [2]
+						"Living Chamber |cFFFF33332,795|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["236915"] = {
+		["hash"] = "236915",
+		["type"] = "endurance",
+		["name"] = "Prophet Skitra",
+		["id"] = 2369,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Prophet Skitra",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Prophet Skitra",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2334,
 			["killed"] = true,
+		},
+		["player_db"] = {
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Lízzie"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						174.4049999999998, -- [2]
+						"Surging Images (DoT) |cFFFF333316,966|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Twistedshape"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Alenpfhon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						2, -- [1]
+						111.6350000000002, -- [2]
+						"Psychic Outburst |cFFFF333320,432|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Rebel-Un'Goro"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Namindra-Bloodhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Alloe"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Bacard"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Zethak"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Thanilia"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Primavera-Un'Goro"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						2, -- [1]
+						149.5299999999998, -- [2]
+						"Psychic Outburst |cFFFF333317,757|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Habnixmehr-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Merren"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Slyxhamstrez"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Orfein-Aegwynn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Wuckinfarloc"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						62.10799999999972, -- [2]
+						"Psychic Outburst |cFFFF333316,956|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						111.6350000000002, -- [2]
+						"Psychic Outburst |cFFFF333314,465|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Markless"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "ROGUE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						146.5679999999998, -- [2]
+						"Psychic Outburst |cFFFF333311,231|r", -- [3]
+					}, -- [1]
+				},
+			},
 		},
 		["diff"] = 15,
 	},
@@ -1443,6 +2089,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Prophet Skitra",
 		["id"] = 2369,
 		["diff"] = 16,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 3,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Prophet Skitra",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Prophet Skitra",
+			["diff"] = 16,
+			["id"] = 2334,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Crazypoepo-Ravencrest"] = {
 				["encounters"] = 1,
@@ -1505,17 +2164,17 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARRIOR",
 			},
-			["Suddenee-Ravencrest"] = {
+			["Jisho-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 90,
 				["deaths"] = {
 					{
 						1, -- [1]
-						127.0610000000002, -- [2]
-						"Psychic Outburst |cFFFF333317,672|r", -- [3]
+						164.4679999999999, -- [2]
+						"Surging Images (DoT) |cFFFF33339,447|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "HUNTER",
+				["class"] = "DRUID",
 			},
 			["Thimble-Ravencrest"] = {
 				["encounters"] = 1,
@@ -1538,17 +2197,17 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
-			["Jisho-Ravencrest"] = {
+			["Suddenee-Ravencrest"] = {
 				["encounters"] = 1,
 				["points"] = 90,
 				["deaths"] = {
 					{
 						1, -- [1]
-						164.4679999999999, -- [2]
-						"Surging Images (DoT) |cFFFF33339,447|r", -- [3]
+						127.0610000000002, -- [2]
+						"Psychic Outburst |cFFFF333317,672|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DRUID",
+				["class"] = "HUNTER",
 			},
 			["Tathi-Ravencrest"] = {
 				["encounters"] = 1,
@@ -1600,19 +2259,119 @@ DeathGraphsDBEndurance = {
 				["class"] = "HUNTER",
 			},
 		},
+	},
+	["237315"] = {
+		["hash"] = "237315",
+		["type"] = "endurance",
+		["name"] = "Drest'agath",
+		["id"] = 2373,
 		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 3,
+			["diff_string"] = "Heroic",
+			["index"] = 7,
 			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
+			["encounter"] = "Drest'agath",
 			["mapid"] = 2217,
 			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
-			["diff"] = 16,
-			["id"] = 2334,
+			["name"] = "Drest'agath",
+			["diff"] = 15,
 			["ej_instance_id"] = 1180,
+			["id"] = 2343,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Shaan"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Coldaras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Lízzie"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Xycon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Thanilia"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Stimul"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Eddey"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Vaffa-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Devereux"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Fraank"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Talrog-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
 	},
 	["237515"] = {
 		["hash"] = "237515",
@@ -1620,13 +2379,25 @@ DeathGraphsDBEndurance = {
 		["name"] = "N'Zoth the Corruptor",
 		["id"] = 2375,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 12,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2344,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "N'Zoth the Corruptor",
+			["encounter"] = "N'Zoth the Corruptor",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
+		},
 		["player_db"] = {
-			["Grollash-ArgentDawn"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Thanilia"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Eltric-ArgentDawn"] = {
 				["encounters"] = 2,
@@ -1634,6 +2405,18 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 				["class"] = "ROGUE",
+			},
+			["Ниэтта-Гордунни"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						416.0319999999992, -- [2]
+						"Melee |cFFFF33336,601|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PALADIN",
 			},
 			["Nadaluxe-Ragnaros"] = {
 				["encounters"] = 2,
@@ -1652,9 +2435,189 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "HUNTER",
 			},
+			["Slyxhmsterez-Sylvanas"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Okalani-DunMorogh"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Vønhelsing-KhazModan"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						3, -- [1]
+						256.5720000000001, -- [2]
+						"Drain Soul (DoT) |cFFFF3333595|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Vyollet-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						216.7110000000012, -- [2]
+						"Melee |cFFFF33331,946|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Eddey"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						1, -- [1]
+						284.6980000000003, -- [2]
+						"Chain Lightning Overload |cFFFF3333221|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Vaffa-Antonidas"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["class"] = "ROGUE",
+				["deaths"] = {
+					{
+						2, -- [1]
+						288.8069999999989, -- [2]
+						"Ancient Flame (DoT) |cFFFF3333817|r", -- [3]
+					}, -- [1]
+					{
+						3, -- [1]
+						386.0830000000005, -- [2]
+						"Anguish (DoT) |cFFFF33336,488|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Shaan"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						253.3230000000003, -- [2]
+						"Anguish (DoT) |cFFFF33336,061|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Stimul"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Grollash-ArgentDawn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Devereux"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Coldaras"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						2, -- [1]
+						52.11699999999837, -- [2]
+						"Anguish (DoT) |cFFFF33336,847|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lízzie"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Xycon"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Sheylora-Thrall"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Talrog-Antonidas"] = {
+				["encounters"] = 3,
+				["points"] = 270,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						33.1810000000005, -- [2]
+						"Anguish (DoT) |cFFFF33335,608|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						385.0759999999991, -- [2]
+						"Anguish (DoT) |cFFFF33336,598|r", -- [3]
+					}, -- [2]
+					{
+						3, -- [1]
+						466.2860000000001, -- [2]
+						"Anguish (DoT) |cFFFF33336,400|r", -- [3]
+					}, -- [3]
+				},
+			},
+			["Yarilol-Ravencrest"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Аримдо-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						3, -- [1]
+						198.268, -- [2]
+						"Anguish (DoT) |cFFFF33336,749|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Lith"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
 			["Rykahpo"] = {
-				["encounters"] = 4,
-				["points"] = 350,
+				["encounters"] = 7,
+				["points"] = 650,
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1679,54 +2642,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Ниэтта-Гордунни"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						416.0319999999992, -- [2]
-						"Melee |cFFFF33336,601|r", -- [3]
-					}, -- [1]
-				},
+			["Fraank"] = {
+				["encounters"] = 3,
+				["points"] = 300,
 				["class"] = "PALADIN",
-			},
-			["Аримдо-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						3, -- [1]
-						198.268, -- [2]
-						"Anguish (DoT) |cFFFF33336,749|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Lith"] = {
-				["encounters"] = 2,
-				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
-			},
-			["Okalani-DunMorogh"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Vyollet-ArgentDawn"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						216.7110000000012, -- [2]
-						"Melee |cFFFF33331,946|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Secaná-ArgentDawn"] = {
 				["encounters"] = 2,
@@ -1743,24 +2664,24 @@ DeathGraphsDBEndurance = {
 				["class"] = "PRIEST",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 12,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2344,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "N'Zoth the Corruptor",
-			["encounter"] = "N'Zoth the Corruptor",
-			["ej_instance_id"] = 1180,
-			["diff"] = 15,
-		},
 	},
 	["237715"] = {
 		["hash"] = "237715",
 		["type"] = "endurance",
 		["name"] = "Dark Inquisitor Xanesh",
 		["id"] = 2377,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2328,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Dark Inquisitor Xanesh",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Dark Inquisitor Xanesh",
+		},
 		["player_db"] = {
 			["Alithor-Silvermoon"] = {
 				["encounters"] = 2,
@@ -1891,10 +2812,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Slyxhmsterez"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -1905,10 +2826,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEMONHUNTER",
+			["Slyxhmsterez"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
 			},
@@ -1984,30 +2905,29 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 4,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2328,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Dark Inquisitor Xanesh",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Dark Inquisitor Xanesh",
-		},
 		["diff"] = 15,
 	},
-	["236915"] = {
-		["hash"] = "236915",
+	["237215"] = {
+		["hash"] = "237215",
 		["type"] = "endurance",
-		["name"] = "Prophet Skitra",
-		["id"] = 2369,
+		["name"] = "The Hivemind",
+		["id"] = 2372,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2333,
+			["mapid"] = 2217,
+			["name"] = "The Hivemind",
+			["diff"] = 15,
+			["encounter"] = "The Hivemind",
+			["ej_instance_id"] = 1180,
+		},
 		["player_db"] = {
-			["Hexeins-Sen'jin"] = {
+			["Alithor-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -2018,29 +2938,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Lixariah-Aegwynn"] = {
+			["Devilmáster-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Lízzie"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						1, -- [1]
-						174.4049999999998, -- [2]
-						"Surging Images (DoT) |cFFFF333316,966|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Twistedshape"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
@@ -2051,64 +2952,24 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Devilmáster-Madmortem"] = {
+			["Mærine-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Alenpfhon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
 				["class"] = "DRUID",
 				["deaths"] = {
-					{
-						2, -- [1]
-						111.6350000000002, -- [2]
-						"Psychic Outburst |cFFFF333320,432|r", -- [3]
-					}, -- [1]
 				},
 			},
-			["Rebel-Un'Goro"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
-			["Orfein-Aegwynn"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Alloe"] = {
+			["Lixariah-Aegwynn"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Bacard"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Zethak"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -2119,57 +2980,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Thanilia"] = {
+			["Rykahpo"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Primavera-Un'Goro"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						2, -- [1]
-						149.5299999999998, -- [2]
-						"Psychic Outburst |cFFFF333317,757|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Habnixmehr-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Merren"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -2180,27 +2994,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Slyxhamstrez"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
 			["Iamnotjamie-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
@@ -2208,110 +3001,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Namindra-Bloodhoof"] = {
+			["Hexeins-Sen'jin"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Wuckinfarloc"] = {
-				["encounters"] = 2,
-				["points"] = 180,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						62.10799999999972, -- [2]
-						"Psychic Outburst |cFFFF333316,956|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						111.6350000000002, -- [2]
-						"Psychic Outburst |cFFFF333314,465|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Markless"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "ROGUE",
-				["deaths"] = {
-					{
-						1, -- [1]
-						146.5679999999998, -- [2]
-						"Psychic Outburst |cFFFF333311,231|r", -- [3]
-					}, -- [1]
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2334,
-			["killed"] = true,
-		},
-		["diff"] = 15,
-	},
-	["237215"] = {
-		["hash"] = "237215",
-		["type"] = "endurance",
-		["name"] = "The Hivemind",
-		["id"] = 2372,
-		["player_db"] = {
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
@@ -2327,184 +3020,65 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Rykahpo"] = {
+			["Trunkenbolt-Madmortem"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
-			["Bloodseize-Silvermoon"] = {
+		},
+		["diff"] = 15,
+	},
+	["236715"] = {
+		["hash"] = "236715",
+		["type"] = "endurance",
+		["name"] = "Shad'har the Insatiable",
+		["id"] = 2367,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Shad'har the Insatiable",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Shad'har the Insatiable",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2335,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Shaan"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Coldaras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
 			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2333,
-			["mapid"] = 2217,
-			["name"] = "The Hivemind",
-			["diff"] = 15,
-			["encounter"] = "The Hivemind",
-			["ej_instance_id"] = 1180,
-		},
-		["diff"] = 15,
-	},
-	["236815"] = {
-		["hash"] = "236815",
-		["type"] = "endurance",
-		["name"] = "Wrathion",
-		["id"] = 2368,
-		["player_db"] = {
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
 			["Lízzie"] = {
 				["encounters"] = 1,
-				["points"] = 100,
+				["points"] = 90,
 				["class"] = "WARRIOR",
 				["deaths"] = {
+					{
+						1, -- [1]
+						121.0799999999999, -- [2]
+						"Dissolve |cFFFF33336,333|r", -- [3]
+					}, -- [1]
 				},
 			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Markless"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Orfein-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Rebel-Un'Goro"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Bacard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Trunkenbolt-Madmortem"] = {
+			["Xycon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Zethak"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Namindra-Bloodhoof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Primavera-Un'Goro"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Habnixmehr-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Merren"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
@@ -2515,636 +3089,72 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Mærine-Silvermoon"] = {
+			["Stimul"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
 			},
-			["Sitré-Silvermoon"] = {
+			["Eddey"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
-			["Bloodseize-Silvermoon"] = {
+			["Slyxhmsterez-Sylvanas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
 			},
-			["Alithor-Silvermoon"] = {
+			["Vaffa-Antonidas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
 			},
-			["Rykahpo"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Slyxhamstrez"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Devilmáster-Madmortem"] = {
+			["Devereux"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
-			["Wuckinfarloc"] = {
+			["Fraank"] = {
 				["encounters"] = 2,
 				["points"] = 170,
-				["class"] = "WARLOCK",
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
-						70.26000000000022, -- [2]
-						"Burning Cataclysm |cFFFF3333828|r", -- [3]
+						49.14599999999973, -- [2]
+						"Dissolve |cFFFF333315,371|r", -- [3]
 					}, -- [1]
 					{
 						1, -- [1]
-						146.1300000000001, -- [2]
-						"Scorching Blister (DoT) |cFFFF33334,845|r", -- [3]
+						192.2460000000001, -- [2]
+						"Dissolve |cFFFF333318,481|r", -- [3]
 					}, -- [2]
 				},
 			},
-			["Twistedshape"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Wrathion",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2329,
-			["killed"] = true,
-		},
-		["diff"] = 15,
-	},
-	["236816"] = {
-		["hash"] = "236816",
-		["type"] = "endurance",
-		["name"] = "Wrathion",
-		["id"] = 2368,
-		["boss_table"] = {
-			["diff_string"] = "Mythic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2329,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["diff"] = 16,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Wrathion",
-		},
-		["player_db"] = {
-			["Lolitaria-Area52"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Hottex-Pozzodell'Eternità"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Лоролин-Борейскаятундра"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Senyera-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Søøm-Blackhand"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Elenadi-Doomhammer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Figaru-Sylvanas"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						1, -- [1]
-						86.529, -- [2]
-						"Creeping Madness |cFFFF333310,390|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Ainsopha-Nemesis"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						1, -- [1]
-						86.529, -- [2]
-						"Creeping Madness |cFFFF333310,160|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Kejha-Pozzodell'Eternità"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Aeternatus-ChamberofAspects"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Ликке-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Gìòrgino-Pozzodell'Eternità"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Lesee-Ragnaros"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Блидинграйс-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Нервмарса-Дракономор"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Silverfangg-Ragnaros"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Janashin-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						1, -- [1]
-						37.26099999999997, -- [2]
-						"Incineration |cFFFF333311,165|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Umbreon-ChamberofAspects"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Waskcol-DunModr"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-		},
-		["diff"] = 16,
-	},
-	["236615"] = {
-		["hash"] = "236615",
-		["type"] = "endurance",
-		["name"] = "Carapace of N'Zoth",
-		["id"] = 2366,
-		["player_db"] = {
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Eltric-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						394.1290000000008, -- [2]
-						"Divine Storm |cFFFF3333371|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "ROGUE",
-			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Vyollet-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Queroth-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Darkwah-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Grollash-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Ниэтта-Гордунни"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "ROGUE",
-				["deaths"] = {
-					{
-						1, -- [1]
-						97.07400000000052, -- [2]
-						"Growth-Covered Tentacle |cFFFF333340,870|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						37.14900000000034, -- [2]
-						"Growth-Covered Tentacle |cFFFF333342,623|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Okalani-DunMorogh"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						37.10200000000077, -- [2]
-						"Growth-Covered Tentacle |cFFFF333339,822|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Rykahpo"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Lith"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Iamnotjamie-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						145.0010000000002, -- [2]
-						"Breed Madness |cFFFF33333,856|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Secaná-ArgentDawn"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						440.0920000000006, -- [2]
-						"Mandible Slam |cFFFF33335,958|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Nadaluxe-Ragnaros"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 11,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2337,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Carapace of N'Zoth",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Carapace of N'Zoth",
-		},
-		["diff"] = 15,
-	},
-	["236415"] = {
-		["hash"] = "236415",
-		["type"] = "endurance",
-		["name"] = "Ra-den the Despoiled",
-		["id"] = 2364,
-		["player_db"] = {
-			["Alithor-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Lixariah-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Mésa-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Devilmáster-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Hexeins-Sen'jin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Sitré-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Ipeed-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						110.0249999999996, -- [2]
-						"Unstable Vita |cFFFF333325,301|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Autori"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Rykahpo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Bloodseize-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Iamnotjamie-Silvermoon"] = {
+			["Talrog-Antonidas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
 			},
-			["Trunkenbolt-Madmortem"] = {
+			["Rykahpo"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
-			["Azráel-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						40.60499999999956, -- [2]
-						"Void Collapse |cFFFF333335,959|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Queroth-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						1, -- [1]
-						138.2049999999999, -- [2]
-						"Charged Bonds (DoT) |cFFFF33333,235|r", -- [3]
-					}, -- [1]
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Ra-den the Despoiled",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Ra-den the Despoiled",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2331,
-			["killed"] = true,
 		},
 		["diff"] = 15,
 	},
@@ -3154,6 +3164,18 @@ DeathGraphsDBEndurance = {
 		["name"] = "Maut",
 		["id"] = 2365,
 		["diff"] = 16,
+		["boss_table"] = {
+			["diff_string"] = "Mythic",
+			["index"] = 2,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2327,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Maut",
+			["encounter"] = "Maut",
+			["ej_instance_id"] = 1180,
+			["diff"] = 16,
+		},
 		["player_db"] = {
 			["Crazypoepo-Ravencrest"] = {
 				["encounters"] = 1,
@@ -3311,24 +3333,982 @@ DeathGraphsDBEndurance = {
 				["class"] = "HUNTER",
 			},
 		},
+	},
+	["236816"] = {
+		["hash"] = "236816",
+		["type"] = "endurance",
+		["name"] = "Wrathion",
+		["id"] = 2368,
+		["player_db"] = {
+			["Lolitaria-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Hottex-Pozzodell'Eternità"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Лоролин-Борейскаятундра"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Senyera-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Søøm-Blackhand"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Elenadi-Doomhammer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Figaru-Sylvanas"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						86.529, -- [2]
+						"Creeping Madness |cFFFF333310,390|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ainsopha-Nemesis"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						1, -- [1]
+						86.529, -- [2]
+						"Creeping Madness |cFFFF333310,160|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kejha-Pozzodell'Eternità"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Aeternatus-ChamberofAspects"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Ликке-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Gìòrgino-Pozzodell'Eternità"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Lesee-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Блидинграйс-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Нервмарса-Дракономор"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Silverfangg-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Janashin-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						1, -- [1]
+						37.26099999999997, -- [2]
+						"Incineration |cFFFF333311,165|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Umbreon-ChamberofAspects"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Waskcol-DunModr"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Mythic",
-			["index"] = 2,
+			["index"] = 1,
 			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2327,
+			["id"] = 2329,
 			["mapid"] = 2217,
 			["try_number"] = 1,
-			["name"] = "Maut",
-			["encounter"] = "Maut",
-			["ej_instance_id"] = 1180,
+			["name"] = "Wrathion",
 			["diff"] = 16,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Wrathion",
 		},
+		["diff"] = 16,
+	},
+	["236615"] = {
+		["hash"] = "236615",
+		["type"] = "endurance",
+		["name"] = "Carapace of N'Zoth",
+		["id"] = 2366,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 11,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2337,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Carapace of N'Zoth",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Carapace of N'Zoth",
+		},
+		["player_db"] = {
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "ROGUE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						97.07400000000052, -- [2]
+						"Growth-Covered Tentacle |cFFFF333340,870|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						37.14900000000034, -- [2]
+						"Growth-Covered Tentacle |cFFFF333342,623|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Eltric-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						394.1290000000008, -- [2]
+						"Divine Storm |cFFFF3333371|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "ROGUE",
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Okalani-DunMorogh"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						37.10200000000077, -- [2]
+						"Growth-Covered Tentacle |cFFFF333339,822|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PALADIN",
+			},
+			["Ниэтта-Гордунни"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Eddey"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Shaan"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Grollash-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Vaffa-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "ROGUE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						357.5519999999997, -- [2]
+						"Lethal Strikes |cFFFF33332,009|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Lith"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Fraank"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						68.73899999999958, -- [2]
+						"Mandible Slam |cFFFF33331,707|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Secaná-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						440.0920000000006, -- [2]
+						"Mandible Slam |cFFFF33335,958|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PALADIN",
+			},
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Thanilia"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Lízzie"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Vyollet-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Queroth-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Stimul"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Devereux"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Coldaras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Xycon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						145.0010000000002, -- [2]
+						"Breed Madness |cFFFF33333,856|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Talrog-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						375.6740000000009, -- [2]
+						"Insanity Bomb |cFFFF33335,356|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Darkwah-ArgentDawn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Nadaluxe-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+		},
+		["diff"] = 15,
+	},
+	["236415"] = {
+		["hash"] = "236415",
+		["type"] = "endurance",
+		["name"] = "Ra-den the Despoiled",
+		["id"] = 2364,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Ra-den the Despoiled",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Ra-den the Despoiled",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2331,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Lízzie"] = {
+				["encounters"] = 2,
+				["points"] = 170,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						178.3730000000005, -- [2]
+						"Decaying Wound (DoT) |cFFFF333312,080|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						246.1300000000001, -- [2]
+						"Decaying Wound (DoT) |cFFFF333311,250|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						40.60499999999956, -- [2]
+						"Void Collapse |cFFFF333335,959|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						110.0249999999996, -- [2]
+						"Unstable Vita |cFFFF333325,301|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Thanilia"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Eddey"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Queroth-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+					{
+						1, -- [1]
+						138.2049999999999, -- [2]
+						"Charged Bonds (DoT) |cFFFF33333,235|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Shaan"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Stimul"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Vaffa-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Coldaras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Devereux"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Xycon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Fraank"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Talrog-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["236815"] = {
+		["hash"] = "236815",
+		["type"] = "endurance",
+		["name"] = "Wrathion",
+		["id"] = 2368,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Wrathion",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2329,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Hexeins-Sen'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mésa-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Lixariah-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Lízzie"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Azráel-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Ipeed-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Markless"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Orfein-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Rebel-Un'Goro"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Bacard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Zethak"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Namindra-Bloodhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Autori"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Merren"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Habnixmehr-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Primavera-Un'Goro"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Thanilia"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Sitré-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Bloodseize-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Alithor-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Rykahpo"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Slyxhamstrez"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Iamnotjamie-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Devilmáster-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Wuckinfarloc"] = {
+				["encounters"] = 2,
+				["points"] = 170,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						70.26000000000022, -- [2]
+						"Burning Cataclysm |cFFFF3333828|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						146.1300000000001, -- [2]
+						"Scorching Blister (DoT) |cFFFF33334,845|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Twistedshape"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
 	},
 	["236515"] = {
 		["hash"] = "236515",
 		["type"] = "endurance",
 		["name"] = "Maut",
 		["id"] = 2365,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2327,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Maut",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Maut",
+		},
 		["player_db"] = {
 			["Hexeins-Sen'jin"] = {
 				["encounters"] = 1,
@@ -3420,10 +4400,10 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Orfein-Aegwynn"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
+			["Namindra-Bloodhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
@@ -3467,10 +4447,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Primavera-Un'Goro"] = {
+			["Merren"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "DRUID",
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 			},
@@ -3488,10 +4468,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Merren"] = {
+			["Primavera-Un'Goro"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "WARLOCK",
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
@@ -3551,10 +4531,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Namindra-Bloodhoof"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
+			["Orfein-Aegwynn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -3583,18 +4563,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2327,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Maut",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Maut",
-		},
 		["diff"] = 15,
 	},
 }
@@ -3602,153 +4570,157 @@ DeathGraphsDBCurrent = {
 	{
 		["deaths"] = {
 			{
-				["maxhealth"] = 12860,
-				["timeofdeath"] = 197.7569999999996,
-				["name"] = "Wuckinfarloc",
+				["maxhealth"] = 18680,
+				["timeofdeath"] = 256.5720000000001,
+				["name"] = "Vønhelsing-KhazModan",
 				["events"] = {
 					{
-						4, -- [1]
-						307019, -- [2]
-						5, -- [3]
-						1603310426.162, -- [4]
-						13500, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
+						false, -- [1]
+						81751, -- [2]
+						420, -- [3]
+						1603664087.213, -- [4]
+						19920, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [1]
 					{
 						false, -- [1]
-						108366, -- [2]
-						156, -- [3]
-						1603310426.162, -- [4]
-						13500, -- [5]
-						"Wuckinfarloc", -- [6]
-						true, -- [7]
+						191840, -- [2]
+						1126, -- [3]
+						1603664087.322, -- [4]
+						19920, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [2]
 					{
-						true, -- [1]
-						307317, -- [2]
-						2705, -- [3]
-						1603310426.162, -- [4]
-						10951, -- [5]
-						"Orfein-Aegwynn", -- [6]
-						156, -- [7]
-						32, -- [8]
-						true, -- [9]
+						false, -- [1]
+						162530, -- [2]
+						107, -- [3]
+						1603664087.649, -- [4]
+						19920, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [3]
 					{
-						4, -- [1]
-						307019, -- [2]
-						6, -- [3]
-						1603310426.162, -- [4]
-						10951, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						81751, -- [2]
+						75, -- [3]
+						1603664087.731, -- [4]
+						19920, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [4]
-					{
-						true, -- [1]
-						307317, -- [2]
-						2705, -- [3]
-						1603310426.162, -- [4]
-						8246, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						296212, -- [2]
-						711, -- [3]
-						1603310426.212, -- [4]
-						8957, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						63106, -- [2]
-						91, -- [3]
-						1603310426.564, -- [4]
-						9048, -- [5]
-						"Wuckinfarloc", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [7]
 					{
 						false, -- [1]
 						296003, -- [2]
-						92, -- [3]
-						1603310426.729, -- [4]
-						9048, -- [5]
-						"Alloe", -- [6]
+						90, -- [3]
+						1603664087.761, -- [4]
+						19920, -- [5]
+						"Eddey", -- [6]
 						true, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
-					}, -- [8]
+					}, -- [5]
 					{
 						true, -- [1]
-						313283, -- [2]
-						982, -- [3]
-						1603310426.729, -- [4]
-						8158, -- [5]
-						"Vexiona", -- [6]
-						92, -- [7]
+						314889, -- [2]
+						2278, -- [3]
+						1603664087.761, -- [4]
+						17732, -- [5]
+						"Exposed Synapse", -- [6]
+						90, -- [7]
 						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						81751, -- [2]
+						130, -- [3]
+						1603664087.939, -- [4]
+						17862, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						183811, -- [2]
+						113, -- [3]
+						1603664088.174, -- [4]
+						17975, -- [5]
+						"Fraank", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						191840, -- [2]
+						1128, -- [3]
+						1603664088.215, -- [4]
+						19103, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [9]
 					{
 						false, -- [1]
-						48438, -- [2]
-						117, -- [3]
-						1603310426.761, -- [4]
-						8275, -- [5]
-						"Twistedshape", -- [6]
+						162530, -- [2]
+						107, -- [3]
+						1603664088.326, -- [4]
+						19210, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [10]
 					{
 						false, -- [1]
-						296211, -- [2]
-						35, -- [3]
-						1603310426.793, -- [4]
-						8310, -- [5]
-						"Altairx", -- [6]
+						191840, -- [2]
+						40, -- [3]
+						1603664088.371, -- [4]
+						19250, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [11]
 					{
 						false, -- [1]
-						296212, -- [2]
-						355, -- [3]
-						1603310426.793, -- [4]
-						8665, -- [5]
-						"Altairx", -- [6]
+						143924, -- [2]
+						535, -- [3]
+						1603664088.495, -- [4]
+						19785, -- [5]
+						"Vønhelsing-KhazModan", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [12]
 					{
 						false, -- [1]
-						77489, -- [2]
-						227, -- [3]
-						1603310427.19, -- [4]
-						8892, -- [5]
-						"Alloe", -- [6]
+						162530, -- [2]
+						112, -- [3]
+						1603664088.99, -- [4]
+						19897, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -3756,11 +4728,11 @@ DeathGraphsDBCurrent = {
 					}, -- [13]
 					{
 						false, -- [1]
-						48438, -- [2]
-						110, -- [3]
-						1603310427.386, -- [4]
-						9002, -- [5]
-						"Twistedshape", -- [6]
+						183811, -- [2]
+						229, -- [3]
+						1603664089.258, -- [4]
+						19920, -- [5]
+						"Fraank", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -3769,10 +4741,10 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						191840, -- [2]
-						41, -- [3]
-						1603310427.614, -- [4]
-						9043, -- [5]
-						"Altairx", -- [6]
+						557, -- [3]
+						1603664089.258, -- [4]
+						19920, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -3780,11 +4752,11 @@ DeathGraphsDBCurrent = {
 					}, -- [15]
 					{
 						false, -- [1]
-						296211, -- [2]
-						17, -- [3]
-						1603310427.642, -- [4]
-						9060, -- [5]
-						"Altairx", -- [6]
+						269238, -- [2]
+						2677, -- [3]
+						1603664089.351, -- [4]
+						19920, -- [5]
+						"Vønhelsing-KhazModan", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -3792,1245 +4764,45 @@ DeathGraphsDBCurrent = {
 					}, -- [16]
 					{
 						false, -- [1]
-						48438, -- [2]
-						104, -- [3]
-						1603310428.022, -- [4]
-						9164, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						48438, -- [2]
-						14, -- [3]
-						1603310428.096, -- [4]
-						9178, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [18]
-					{
-						false, -- [1]
-						287255, -- [2]
-						188, -- [3]
-						1603310428.096, -- [4]
-						9366, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						204883, -- [2]
-						1917, -- [3]
-						1603310428.293, -- [4]
-						11283, -- [5]
-						"Alloe", -- [6]
+						81751, -- [2]
+						72, -- [3]
+						1603664089.568, -- [4]
+						19920, -- [5]
+						"Eddey", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						4, -- [1]
+						319346, -- [2]
+						1, -- [3]
+						1603664089.761, -- [4]
+						19920, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
 						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						296211, -- [2]
-						35, -- [3]
-						1603310428.525, -- [4]
-						11318, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [21]
-					{
-						false, -- [1]
-						63106, -- [2]
-						91, -- [3]
-						1603310428.768, -- [4]
-						11409, -- [5]
-						"Wuckinfarloc", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
+					}, -- [18]
 					{
 						false, -- [1]
 						191840, -- [2]
-						82, -- [3]
-						1603310429.369, -- [4]
-						11491, -- [5]
-						"Altairx", -- [6]
+						40, -- [3]
+						1603664089.903, -- [4]
+						19920, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						296211, -- [2]
-						35, -- [3]
-						1603310429.399, -- [4]
-						11526, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						108366, -- [2]
-						357, -- [3]
-						1603310429.752, -- [4]
-						11526, -- [5]
-						"Wuckinfarloc", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						313283, -- [2]
-						1012, -- [3]
-						1603310429.752, -- [4]
-						10871, -- [5]
-						"Vexiona", -- [6]
-						357, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						296212, -- [2]
-						355, -- [3]
-						1603310429.822, -- [4]
-						11226, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						63106, -- [2]
-						42, -- [3]
-						1603310430.945, -- [4]
-						11268, -- [5]
-						"Wuckinfarloc", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
+					}, -- [19]
 					{
 						false, -- [1]
 						191840, -- [2]
-						41, -- [3]
-						1603310431.13, -- [4]
-						11309, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						4, -- [1]
-						307019, -- [2]
-						7, -- [3]
-						1603310431.32, -- [4]
-						11309, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						108366, -- [2]
-						325, -- [3]
-						1603310431.364, -- [4]
-						11309, -- [5]
-						"Wuckinfarloc", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						307639, -- [2]
-						12961, -- [3]
-						1603310431.364, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
-						325, -- [7]
-						32, -- [8]
-						false, -- [9]
-						1327, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						104773, -- [2]
-						1, -- [3]
-						1603310272.34, -- [4]
-						0, -- [5]
-						"Wuckinfarloc", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 17s",
-				["time"] = 1603310431.364,
-			}, -- [1]
-			{
-				["maxhealth"] = 20220,
-				["timeofdeath"] = 235.2249999999985,
-				["name"] = "Altairx",
-				["events"] = {
-					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1603310474.33, -- [4]
-						0, -- [5]
-						"Twistedshape", -- [6]
-					}, -- [1]
-					{
-						false, -- [1]
-						303380, -- [2]
-						323, -- [3]
-						1603310461.497, -- [4]
-						15346, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						143924, -- [2]
-						53, -- [3]
-						1603310461.527, -- [4]
-						15399, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						143924, -- [2]
-						17, -- [3]
-						1603310462.727, -- [4]
-						15416, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						1, -- [1]
-						243435, -- [2]
-						1, -- [3]
-						1603310462.773, -- [4]
-						15416, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						313283, -- [2]
-						1887, -- [3]
-						1603310462.788, -- [4]
-						15841, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						4, -- [1]
-						307019, -- [2]
-						15, -- [3]
-						1603310463.084, -- [4]
-						15841, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						296003, -- [2]
-						95, -- [3]
-						1603310463.105, -- [4]
-						15841, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						307639, -- [2]
-						12657, -- [3]
-						1603310463.105, -- [4]
-						3279, -- [5]
-						"Vexiona", -- [6]
-						95, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						4, -- [1]
-						307284, -- [2]
-						1, -- [3]
-						1603310463.32, -- [4]
-						3279, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						143924, -- [2]
-						230, -- [3]
-						1603310463.978, -- [4]
-						3509, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						191894, -- [2]
-						942, -- [3]
-						1603310465.074, -- [4]
-						4451, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						143924, -- [2]
-						9, -- [3]
-						1603310465.185, -- [4]
-						4460, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						4, -- [1]
-						307284, -- [2]
-						1, -- [3]
-						1603310465.391, -- [4]
-						4460, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						269279, -- [2]
-						1436, -- [3]
-						1603310465.791, -- [4]
-						4460, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						313283, -- [2]
-						2080, -- [3]
-						1603310465.791, -- [4]
-						3816, -- [5]
-						"Vexiona", -- [6]
-						1436, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						270117, -- [2]
-						504, -- [3]
-						1603310465.833, -- [4]
-						4320, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						4, -- [1]
-						307019, -- [2]
-						16, -- [3]
-						1603310465.878, -- [4]
-						4320, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						307317, -- [2]
-						2223, -- [3]
-						1603310465.878, -- [4]
-						2097, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603310465.916, -- [4]
-						2097, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						143924, -- [2]
-						17, -- [3]
-						1603310466.413, -- [4]
-						2114, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						119611, -- [2]
-						186, -- [3]
-						1603310466.805, -- [4]
-						2300, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						139, -- [2]
-						369, -- [3]
-						1603310466.805, -- [4]
-						2669, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						296184, -- [2]
-						408, -- [3]
-						1603310466.825, -- [4]
-						3077, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						307343, -- [2]
-						2223, -- [3]
-						1603310466.934, -- [4]
-						854, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						4, -- [1]
-						307019, -- [2]
-						17, -- [3]
-						1603310466.934, -- [4]
-						854, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						774, -- [2]
-						211, -- [3]
-						1603310467.055, -- [4]
-						1065, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						274436, -- [2]
-						17, -- [3]
-						1603310467.073, -- [4]
-						1082, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						143924, -- [2]
-						16, -- [3]
-						1603310467.641, -- [4]
-						1098, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						115310, -- [2]
-						2631, -- [3]
-						1603310467.86, -- [4]
-						3729, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [30]
-					{
-						true, -- [1]
-						307343, -- [2]
-						2222, -- [3]
-						1603310467.936, -- [4]
-						1507, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						4, -- [1]
-						307019, -- [2]
-						18, -- [3]
-						1603310467.936, -- [4]
-						1507, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [32]
-					{
-						true, -- [1]
-						313283, -- [2]
-						2495, -- [3]
-						1603310468.832, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						988, -- [10]
-					}, -- [33]
-					{
-						3, -- [1]
-						243435, -- [2]
-						1, -- [3]
-						1603310462.773, -- [4]
-						0, -- [5]
-						"Altairx", -- [6]
-					}, -- [34]
-				},
-				["class"] = "MONK",
-				["timestring"] = "3m 55s",
-				["time"] = 1603310468.832,
-			}, -- [2]
-			{
-				["maxhealth"] = 30160,
-				["timeofdeath"] = 248.3429999999989,
-				["name"] = "Narulya",
-				["events"] = {
-					{
-						false, -- [1]
-						310604, -- [2]
-						4083, -- [3]
-						1603310474.082, -- [4]
-						17528, -- [5]
-						"Narulya", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						143924, -- [2]
-						13, -- [3]
-						1603310474.958, -- [4]
-						17541, -- [5]
-						"Narulya", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						139, -- [2]
-						369, -- [3]
-						1603310475.339, -- [4]
-						17910, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						1, -- [2]
-						533, -- [3]
-						1603310475.537, -- [4]
-						17910, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						278642, -- [2]
-						262, -- [3]
-						1603310475.552, -- [4]
-						17910, -- [5]
-						"Narulya", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						327225, -- [2]
-						271, -- [3]
-						1603310475.552, -- [4]
-						17910, -- [5]
-						"Narulya", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						77489, -- [2]
-						328, -- [3]
-						1603310475.837, -- [4]
-						18238, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						327225, -- [2]
-						401, -- [3]
-						1603310475.924, -- [4]
-						18238, -- [5]
-						"Narulya", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						313283, -- [2]
-						1692, -- [3]
-						1603310475.924, -- [4]
-						16947, -- [5]
-						"Vexiona", -- [6]
-						401, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						143924, -- [2]
-						53, -- [3]
-						1603310476.177, -- [4]
-						17000, -- [5]
-						"Narulya", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						1, -- [2]
-						3076, -- [3]
-						1603310477.061, -- [4]
-						17234, -- [5]
-						"Vexiona", -- [6]
-						262, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						278642, -- [2]
-						262, -- [3]
-						1603310477.061, -- [4]
-						17234, -- [5]
-						"Narulya", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						139, -- [2]
-						546, -- [3]
-						1603310477.255, -- [4]
-						14966, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						296184, -- [2]
-						408, -- [3]
-						1603310477.279, -- [4]
-						15374, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						143924, -- [2]
-						5, -- [3]
-						1603310477.398, -- [4]
-						15379, -- [5]
-						"Narulya", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						314074, -- [2]
-						157, -- [3]
-						1603310478.211, -- [4]
-						15536, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						1, -- [2]
-						4744, -- [3]
-						1603310478.569, -- [4]
-						15536, -- [5]
-						"Vexiona", -- [6]
-						262, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						278642, -- [2]
-						262, -- [3]
-						1603310478.569, -- [4]
-						15536, -- [5]
-						"Narulya", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						314074, -- [2]
-						157, -- [3]
-						1603310478.593, -- [4]
-						11211, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						4, -- [1]
-						310323, -- [2]
-						1, -- [3]
-						1603310478.611, -- [4]
-						11211, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						143924, -- [2]
-						27, -- [3]
-						1603310478.629, -- [4]
-						11238, -- [5]
-						"Narulya", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						77489, -- [2]
-						294, -- [3]
-						1603310478.791, -- [4]
-						11532, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						296184, -- [2]
-						408, -- [3]
-						1603310478.806, -- [4]
-						11940, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						313283, -- [2]
-						9521, -- [3]
-						1603310478.924, -- [4]
-						2419, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						143924, -- [2]
-						21, -- [3]
-						1603310479.813, -- [4]
-						2440, -- [5]
-						"Narulya", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						314074, -- [2]
-						158, -- [3]
-						1603310480.085, -- [4]
-						2598, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						143924, -- [2]
-						27, -- [3]
-						1603310481.038, -- [4]
-						2625, -- [5]
-						"Narulya", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						77489, -- [2]
-						272, -- [3]
-						1603310481.788, -- [4]
-						2897, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						296184, -- [2]
-						408, -- [3]
-						1603310481.805, -- [4]
-						3305, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						152261, -- [2]
-						3442, -- [3]
-						1603310481.931, -- [4]
-						3305, -- [5]
-						"Narulya", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						327225, -- [2]
-						876, -- [3]
-						1603310481.931, -- [4]
-						3305, -- [5]
-						"Narulya", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						313283, -- [2]
-						9520, -- [3]
-						1603310481.95, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
-						4318, -- [7]
-						32, -- [8]
-						false, -- [9]
-						1897, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						1022, -- [2]
-						1, -- [3]
-						1603310450.823, -- [4]
-						0, -- [5]
-						"Narulya", -- [6]
-					}, -- [33]
-				},
-				["class"] = "PALADIN",
-				["timestring"] = "4m 8s",
-				["time"] = 1603310481.95,
-			}, -- [3]
-			{
-				["maxhealth"] = 19040,
-				["timeofdeath"] = 258.6859999999997,
-				["name"] = "Orfein-Aegwynn",
-				["events"] = {
-					{
-						false, -- [1]
-						274357, -- [2]
-						216, -- [3]
-						1603310480.918, -- [4]
-						10746, -- [5]
-						"Orfein-Aegwynn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						77489, -- [2]
-						345, -- [3]
-						1603310481.038, -- [4]
-						11091, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						48438, -- [2]
-						97, -- [3]
-						1603310481.403, -- [4]
-						11188, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						48438, -- [2]
-						92, -- [3]
-						1603310482.067, -- [4]
-						11280, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						303380, -- [2]
-						322, -- [3]
-						1603310482.114, -- [4]
-						11602, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						274357, -- [2]
-						432, -- [3]
-						1603310482.498, -- [4]
-						12034, -- [5]
-						"Orfein-Aegwynn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						48438, -- [2]
-						82, -- [3]
-						1603310483.386, -- [4]
-						12116, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						48438, -- [2]
-						27, -- [3]
-						1603310483.861, -- [4]
-						12143, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						287255, -- [2]
-						188, -- [3]
-						1603310483.861, -- [4]
-						12331, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						false, -- [1]
-						274357, -- [2]
-						216, -- [3]
-						1603310484.034, -- [4]
-						12547, -- [5]
-						"Orfein-Aegwynn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						77489, -- [2]
-						346, -- [3]
-						1603310484.053, -- [4]
-						12893, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						303380, -- [2]
-						322, -- [3]
-						1603310484.119, -- [4]
-						13215, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						274357, -- [2]
-						216, -- [3]
-						1603310485.569, -- [4]
-						13431, -- [5]
-						"Orfein-Aegwynn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						303380, -- [2]
-						323, -- [3]
-						1603310486.138, -- [4]
-						13754, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						77489, -- [2]
-						346, -- [3]
-						1603310487.048, -- [4]
-						14100, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						4, -- [1]
-						307019, -- [2]
-						27, -- [3]
-						1603310487.271, -- [4]
-						14100, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						310325, -- [2]
-						6675, -- [3]
-						1603310487.271, -- [4]
-						7425, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						270117, -- [2]
-						899, -- [3]
-						1603310487.341, -- [4]
-						8324, -- [5]
-						"Orfein-Aegwynn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						303380, -- [2]
-						322, -- [3]
-						1603310488.113, -- [4]
-						8646, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						81269, -- [2]
-						217, -- [3]
-						1603310488.278, -- [4]
-						8863, -- [5]
-						"Twistedshape", -- [6]
+						79, -- [3]
+						1603664091.427, -- [4]
+						19920, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -5038,233 +4810,231 @@ DeathGraphsDBCurrent = {
 					}, -- [20]
 					{
 						false, -- [1]
-						143924, -- [2]
-						88, -- [3]
-						1603310488.328, -- [4]
-						8951, -- [5]
-						"Orfein-Aegwynn", -- [6]
+						191840, -- [2]
+						39, -- [3]
+						1603664092.964, -- [4]
+						19920, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
-						true, -- [1]
-						313283, -- [2]
-						4305, -- [3]
-						1603310489.263, -- [4]
-						4646, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						191840, -- [2]
+						47, -- [3]
+						1603664094.531, -- [4]
+						19920, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
-						false, -- [1]
-						143924, -- [2]
-						56, -- [3]
-						1603310489.549, -- [4]
-						4702, -- [5]
-						"Orfein-Aegwynn", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						319346, -- [2]
+						668, -- [3]
+						1603664094.747, -- [4]
+						19586, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						334, -- [7]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [23]
 					{
-						false, -- [1]
-						303380, -- [2]
-						323, -- [3]
-						1603310490.129, -- [4]
-						5025, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						4, -- [1]
+						308996, -- [2]
+						1, -- [3]
+						1603664095.961, -- [4]
+						19586, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [24]
 					{
 						false, -- [1]
-						143924, -- [2]
-						29, -- [3]
-						1603310490.747, -- [4]
-						5054, -- [5]
-						"Orfein-Aegwynn", -- [6]
+						308996, -- [2]
+						19920, -- [3]
+						1603664095.961, -- [4]
+						19920, -- [5]
+						"N'Zoth the Corruptor", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [25]
 					{
-						4, -- [1]
-						307314, -- [2]
-						1, -- [3]
-						1603310490.97, -- [4]
-						5054, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						319346, -- [2]
+						668, -- [3]
+						1603664109.765, -- [4]
+						39840, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [26]
 					{
-						4, -- [1]
-						307019, -- [2]
-						28, -- [3]
-						1603310491.039, -- [4]
-						5054, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						205231, -- [2]
+						936, -- [3]
+						1603664112.94, -- [4]
+						38237, -- [5]
+						"Darkglare <Devereux>", -- [6]
+						nil, -- [7]
+						32, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [27]
 					{
 						true, -- [1]
-						307317, -- [2]
-						2557, -- [3]
-						1603310491.039, -- [4]
-						2497, -- [5]
-						"Vexiona", -- [6]
+						205231, -- [2]
+						908, -- [3]
+						1603664113.997, -- [4]
+						36702, -- [5]
+						"Darkglare <Devereux>", -- [6]
 						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [28]
 					{
-						false, -- [1]
-						48438, -- [2]
-						159, -- [3]
-						1603310491.812, -- [4]
-						2656, -- [5]
-						"Twistedshape", -- [6]
+						true, -- [1]
+						205231, -- [2]
+						511, -- [3]
+						1603664115.072, -- [4]
+						25383, -- [5]
+						"Darkglare <Devereux>", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [29]
 					{
-						false, -- [1]
-						143924, -- [2]
-						251, -- [3]
-						1603310491.966, -- [4]
-						2907, -- [5]
-						"Orfein-Aegwynn", -- [6]
+						true, -- [1]
+						205231, -- [2]
+						522, -- [3]
+						1603664116.143, -- [4]
+						16020, -- [5]
+						"Darkglare <Devereux>", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
-						false, -- [1]
-						303380, -- [2]
-						323, -- [3]
-						1603310492.111, -- [4]
-						3230, -- [5]
-						"Twistedshape", -- [6]
+						true, -- [1]
+						205231, -- [2]
+						534, -- [3]
+						1603664117.214, -- [4]
+						4718, -- [5]
+						"Darkglare <Devereux>", -- [6]
 						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
+						32, -- [8]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						313283, -- [2]
-						4465, -- [3]
-						1603310492.276, -- [4]
+						198590, -- [2]
+						595, -- [3]
+						1603664118.294, -- [4]
 						1, -- [5]
-						"Vexiona", -- [6]
+						"Devereux", -- [6]
 						nil, -- [7]
 						32, -- [8]
-						false, -- [9]
-						1235, -- [10]
+						true, -- [9]
+						240, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						186265, -- [2]
-						1, -- [3]
-						1603310479.355, -- [4]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
 						0, -- [5]
-						"Orfein-Aegwynn", -- [6]
+						"Vønhelsing-KhazModan", -- [6]
 					}, -- [33]
 				},
 				["class"] = "HUNTER",
-				["timestring"] = "4m 18s",
-				["time"] = 1603310492.293,
-			}, -- [4]
+				["timestring"] = "4m 16s",
+				["time"] = 1603664118.327,
+			}, -- [1]
 			{
-				["maxhealth"] = 20560,
-				["timeofdeath"] = 263.8760000000002,
-				["name"] = "Merren",
+				["maxhealth"] = 19340,
+				["timeofdeath"] = 386.0830000000005,
+				["name"] = "Vaffa-Antonidas",
 				["events"] = {
 					{
-						true, -- [1]
-						307343, -- [2]
-						2531, -- [3]
-						1603310493.376, -- [4]
-						11036, -- [5]
-						"Vexiona", -- [6]
-						511, -- [7]
-						32, -- [8]
+						false, -- [1]
+						8936, -- [2]
+						81, -- [3]
+						1603664239.437, -- [4]
+						17597, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [1]
 					{
-						4, -- [1]
-						307019, -- [2]
-						32, -- [3]
-						1603310493.376, -- [4]
-						11036, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						303380, -- [2]
+						437, -- [3]
+						1603664239.84, -- [4]
+						18034, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [2]
 					{
 						false, -- [1]
-						191840, -- [2]
-						761, -- [3]
-						1603310493.684, -- [4]
-						11797, -- [5]
-						"Altairx", -- [6]
+						8936, -- [2]
+						82, -- [3]
+						1603664240.223, -- [4]
+						18116, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [3]
 					{
 						false, -- [1]
-						77489, -- [2]
-						849, -- [3]
-						1603310493.844, -- [4]
-						12646, -- [5]
-						"Alloe", -- [6]
+						143924, -- [2]
+						24, -- [3]
+						1603664240.51, -- [4]
+						18140, -- [5]
+						"Vaffa-Antonidas", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [4]
 					{
-						false, -- [1]
-						63106, -- [2]
-						82, -- [3]
-						1603310493.891, -- [4]
-						12728, -- [5]
-						"Merren", -- [6]
+						true, -- [1]
+						315715, -- [2]
+						505, -- [3]
+						1603664240.957, -- [4]
+						17635, -- [5]
+						"[*] Contempt", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						16, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [5]
 					{
 						false, -- [1]
-						48438, -- [2]
-						155, -- [3]
-						1603310494.095, -- [4]
-						12883, -- [5]
-						"Twistedshape", -- [6]
+						8936, -- [2]
+						81, -- [3]
+						1603664241.012, -- [4]
+						17716, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -5273,10 +5043,10 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						143924, -- [2]
-						351, -- [3]
-						1603310494.392, -- [4]
-						13234, -- [5]
-						"Merren", -- [6]
+						128, -- [3]
+						1603664241.736, -- [4]
+						17844, -- [5]
+						"Vaffa-Antonidas", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -5284,47 +5054,47 @@ DeathGraphsDBCurrent = {
 					}, -- [7]
 					{
 						false, -- [1]
-						108366, -- [2]
-						311, -- [3]
-						1603310494.426, -- [4]
-						13234, -- [5]
-						"Merren", -- [6]
-						true, -- [7]
+						8936, -- [2]
+						81, -- [3]
+						1603664241.785, -- [4]
+						17925, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [8]
 					{
-						true, -- [1]
-						313283, -- [2]
-						5207, -- [3]
-						1603310494.426, -- [4]
-						8338, -- [5]
-						"Vexiona", -- [6]
-						311, -- [7]
-						32, -- [8]
+						false, -- [1]
+						8936, -- [2]
+						81, -- [3]
+						1603664242.571, -- [4]
+						18006, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
 					{
 						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1603310494.426, -- [4]
-						8338, -- [5]
-						"Merren", -- [6]
-						true, -- [7]
+						269238, -- [2]
+						815, -- [3]
+						1603664242.625, -- [4]
+						18821, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [10]
 					{
 						false, -- [1]
-						774, -- [2]
-						240, -- [3]
-						1603310494.513, -- [4]
-						8578, -- [5]
-						"Twistedshape", -- [6]
+						311201, -- [2]
+						1789, -- [3]
+						1603664242.945, -- [4]
+						20300, -- [5]
+						"Vaffa-Antonidas", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -5332,433 +5102,827 @@ DeathGraphsDBCurrent = {
 					}, -- [11]
 					{
 						false, -- [1]
-						311201, -- [2]
-						586, -- [3]
-						1603310494.727, -- [4]
-						9164, -- [5]
-						"Merren", -- [6]
+						8936, -- [2]
+						81, -- [3]
+						1603664243.356, -- [4]
+						20300, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						315715, -- [2]
+						505, -- [3]
+						1603664243.738, -- [4]
+						19795, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						143924, -- [2]
+						245, -- [3]
+						1603664244.183, -- [4]
+						20040, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						8936, -- [2]
+						81, -- [3]
+						1603664244.183, -- [4]
+						20121, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603664244.791, -- [4]
+						20121, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6302, -- [3]
+						1603664244.791, -- [4]
+						13819, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						8936, -- [2]
+						81, -- [3]
+						1603664245.015, -- [4]
+						13900, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						114, -- [3]
+						1603664245.379, -- [4]
+						14014, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6488, -- [3]
+						1603664245.808, -- [4]
+						7526, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						8936, -- [2]
+						99, -- [3]
+						1603664245.808, -- [4]
+						7625, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						270117, -- [2]
+						536, -- [3]
+						1603664245.808, -- [4]
+						8161, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						313955, -- [2]
+						259, -- [3]
+						1603664245.822, -- [4]
+						7902, -- [5]
+						"Sylvanas Windrunner", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						143924, -- [2]
+						125, -- [3]
+						1603664246.602, -- [4]
+						8027, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						8936, -- [2]
+						200, -- [3]
+						1603664246.623, -- [4]
+						8227, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						315715, -- [2]
+						520, -- [3]
+						1603664246.801, -- [4]
+						7707, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6488, -- [3]
+						1603664246.801, -- [4]
+						1219, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						313955, -- [2]
+						260, -- [3]
+						1603664246.881, -- [4]
+						959, -- [5]
+						"Sylvanas Windrunner", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						8936, -- [2]
+						100, -- [3]
+						1603664247.405, -- [4]
+						1059, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						315715, -- [2]
+						519, -- [3]
+						1603664247.807, -- [4]
+						540, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						143924, -- [2]
+						70, -- [3]
+						1603664247.807, -- [4]
+						610, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6488, -- [3]
+						1603664247.838, -- [4]
+						1, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						5878, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						31224, -- [2]
+						1, -- [3]
+						1603664227.655, -- [4]
+						0, -- [5]
+						"Vaffa-Antonidas", -- [6]
+					}, -- [33]
+				},
+				["class"] = "ROGUE",
+				["timestring"] = "6m 26s",
+				["time"] = 1603664247.838,
+			}, -- [2]
+			{
+				["maxhealth"] = 18880,
+				["timeofdeath"] = 466.2860000000001,
+				["name"] = "Talrog-Antonidas",
+				["events"] = {
+					{
+						false, -- [1]
+						81751, -- [2]
+						76, -- [3]
+						1603664322.442, -- [4]
+						11838, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						119611, -- [2]
+						266, -- [3]
+						1603664322.612, -- [4]
+						12104, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						319346, -- [2]
+						383, -- [3]
+						1603664322.814, -- [4]
+						11721, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						48438, -- [2]
+						144, -- [3]
+						1603664322.997, -- [4]
+						11865, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						81751, -- [2]
+						816, -- [3]
+						1603664323.129, -- [4]
+						12681, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						94472, -- [2]
+						152, -- [3]
+						1603664323.612, -- [4]
+						12833, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						48438, -- [2]
+						276, -- [3]
+						1603664323.612, -- [4]
+						13109, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						81751, -- [2]
+						95, -- [3]
+						1603664323.706, -- [4]
+						13204, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						true, -- [1]
+						317112, -- [2]
+						1152, -- [3]
+						1603664323.815, -- [4]
+						12052, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						119611, -- [2]
+						212, -- [3]
+						1603664323.946, -- [4]
+						12264, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						48438, -- [2]
+						131, -- [3]
+						1603664324.238, -- [4]
+						12395, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						81751, -- [2]
+						175, -- [3]
+						1603664324.524, -- [4]
+						12570, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [12]
 					{
 						false, -- [1]
 						48438, -- [2]
-						132, -- [3]
-						1603310494.754, -- [4]
-						9296, -- [5]
-						"Twistedshape", -- [6]
+						124, -- [3]
+						1603664324.866, -- [4]
+						12694, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						81751, -- [2]
+						76, -- [3]
+						1603664324.914, -- [4]
+						12770, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						81751, -- [2]
+						95, -- [3]
+						1603664325.01, -- [4]
+						12865, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						119611, -- [2]
+						212, -- [3]
+						1603664325.113, -- [4]
+						13077, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [13]
+					}, -- [16]
+					{
+						false, -- [1]
+						48438, -- [2]
+						113, -- [3]
+						1603664325.5, -- [4]
+						13190, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						48438, -- [2]
+						24, -- [3]
+						1603664325.616, -- [4]
+						13214, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						287255, -- [2]
+						268, -- [3]
+						1603664325.633, -- [4]
+						13482, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603664325.983, -- [4]
+						13482, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						309991, -- [2]
+						3840, -- [3]
+						1603664325.999, -- [4]
+						9642, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						94472, -- [2]
+						336, -- [3]
+						1603664326.161, -- [4]
+						9978, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						81751, -- [2]
+						76, -- [3]
+						1603664326.197, -- [4]
+						10054, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						94472, -- [2]
+						190, -- [3]
+						1603664326.248, -- [4]
+						10244, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						119611, -- [2]
+						424, -- [3]
+						1603664326.291, -- [4]
+						10668, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						119611, -- [2]
+						94, -- [3]
+						1603664326.811, -- [4]
+						10762, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6399, -- [3]
+						1603664326.99, -- [4]
+						4363, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						81751, -- [2]
+						76, -- [3]
+						1603664327.421, -- [4]
+						4439, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						94472, -- [2]
+						190, -- [3]
+						1603664327.443, -- [4]
+						4629, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						296003, -- [2]
+						90, -- [3]
+						1603664327.821, -- [4]
+						4629, -- [5]
+						"Eddey", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						319346, -- [2]
+						638, -- [3]
+						1603664327.821, -- [4]
+						4081, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						90, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6400, -- [3]
+						1603664328.041, -- [4]
+						1, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						2319, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						108271, -- [2]
+						1, -- [3]
+						1603664318.879, -- [4]
+						0, -- [5]
+						"Talrog-Antonidas", -- [6]
+					}, -- [33]
+				},
+				["class"] = "SHAMAN",
+				["timestring"] = "7m 46s",
+				["time"] = 1603664328.041,
+			}, -- [3]
+			{
+				["maxhealth"] = 19740,
+				["timeofdeath"] = 514.5249999999996,
+				["name"] = "Sheylora-Thrall",
+				["events"] = {
+					{
+						true, -- [1]
+						317112, -- [2]
+						2067, -- [3]
+						1603664366.758, -- [4]
+						18653, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						34914, -- [2]
+						312, -- [3]
+						1603664367.036, -- [4]
+						18965, -- [5]
+						"Sheylora-Thrall", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						197, -- [3]
+						1603664367.228, -- [4]
+						19162, -- [5]
+						"Sheylora-Thrall", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						335467, -- [2]
+						2114, -- [3]
+						1603664367.976, -- [4]
+						20720, -- [5]
+						"Sheylora-Thrall", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						191840, -- [2]
+						100, -- [3]
+						1603664368.111, -- [4]
+						20720, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						17, -- [2]
+						1477, -- [3]
+						1603664368.784, -- [4]
+						20720, -- [5]
+						"Sheylora-Thrall", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						317112, -- [2]
+						2068, -- [3]
+						1603664368.784, -- [4]
+						20129, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						1477, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						17, -- [2]
+						0, -- [3]
+						1603664368.784, -- [4]
+						20129, -- [5]
+						"Sheylora-Thrall", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						270117, -- [2]
+						888, -- [3]
+						1603664368.829, -- [4]
+						20720, -- [5]
+						"Sheylora-Thrall", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						319346, -- [2]
+						688, -- [3]
+						1603664369.301, -- [4]
+						20032, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						143924, -- [2]
+						134, -- [3]
+						1603664369.663, -- [4]
+						20166, -- [5]
+						"Sheylora-Thrall", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
 					{
 						false, -- [1]
 						191840, -- [2]
 						49, -- [3]
-						1603310495.094, -- [4]
-						9345, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						48438, -- [2]
-						126, -- [3]
-						1603310495.417, -- [4]
-						9471, -- [5]
-						"Twistedshape", -- [6]
+						1603664369.807, -- [4]
+						20215, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						143924, -- [2]
-						594, -- [3]
-						1603310495.614, -- [4]
-						10065, -- [5]
-						"Merren", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						4, -- [1]
-						307019, -- [2]
-						33, -- [3]
-						1603310496.001, -- [4]
-						10065, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						108366, -- [2]
-						238, -- [3]
-						1603310496.001, -- [4]
-						10065, -- [5]
-						"Merren", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						307639, -- [2]
-						9202, -- [3]
-						1603310496.001, -- [4]
-						1101, -- [5]
-						"Vexiona", -- [6]
-						238, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1603310496.001, -- [4]
-						1101, -- [5]
-						"Merren", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						48438, -- [2]
-						120, -- [3]
-						1603310496.077, -- [4]
-						1221, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						63106, -- [2]
-						175, -- [3]
-						1603310496.109, -- [4]
-						1396, -- [5]
-						"Merren", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						311201, -- [2]
-						590, -- [3]
-						1603310496.157, -- [4]
-						1986, -- [5]
-						"Merren", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						191840, -- [2]
-						24, -- [3]
-						1603310496.528, -- [4]
-						2010, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						48438, -- [2]
-						114, -- [3]
-						1603310496.735, -- [4]
-						2124, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						143924, -- [2]
-						192, -- [3]
-						1603310496.853, -- [4]
-						2316, -- [5]
-						"Merren", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						77489, -- [2]
-						849, -- [3]
-						1603310496.853, -- [4]
-						3165, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						296184, -- [2]
-						408, -- [3]
-						1603310496.874, -- [4]
-						3573, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						48438, -- [2]
-						108, -- [3]
-						1603310497.407, -- [4]
-						3681, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						108366, -- [2]
-						399, -- [3]
-						1603310497.421, -- [4]
-						3681, -- [5]
-						"Merren", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603310497.421, -- [4]
-						3681, -- [5]
-						"Alloe", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						313283, -- [2]
-						5189, -- [3]
-						1603310497.452, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
-						491, -- [7]
-						32, -- [8]
-						false, -- [9]
-						1017, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Merren", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "4m 23s",
-				["time"] = 1603310497.483,
-			}, -- [5]
-		},
-		["bossname"] = "Vexiona",
-		["bossicon"] = {
-			0, -- [1]
-			0.25, -- [2]
-			0.5, -- [3]
-			0.75, -- [4]
-			"Interface\\AddOns\\Details\\images\\raid\\NyalothaRaid_BossFaces", -- [5]
-		},
-		["date"] = 9581.535,
-		["timeelapsed"] = 264.619999999999,
-	}, -- [1]
-	{
-		["deaths"] = {
-			{
-				["maxhealth"] = 18960,
-				["timeofdeath"] = 108.0389999999989,
-				["name"] = "Alenpfhon",
-				["events"] = {
-					{
-						4, -- [1]
-						307314, -- [2]
-						1, -- [3]
-						1603309253.735, -- [4]
-						18960, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603309253.754, -- [4]
-						18960, -- [5]
-						"Twistedshape", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						296003, -- [2]
-						95, -- [3]
-						1603309253.754, -- [4]
-						18960, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						true, -- [1]
-						307317, -- [2]
-						2485, -- [3]
-						1603309253.754, -- [4]
-						16662, -- [5]
-						"Vexiona", -- [6]
-						187, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						296212, -- [2]
-						359, -- [3]
-						1603309253.802, -- [4]
-						17021, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						139, -- [2]
-						284, -- [3]
-						1603309253.876, -- [4]
-						17305, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						191840, -- [2]
-						27, -- [3]
-						1603309254.382, -- [4]
-						17332, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						145109, -- [2]
-						569, -- [3]
-						1603309254.851, -- [4]
-						17901, -- [5]
-						"Alenpfhon", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						191840, -- [2]
-						54, -- [3]
-						1603309256.16, -- [4]
-						17955, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						77489, -- [2]
-						100, -- [3]
-						1603309256.83, -- [4]
-						18055, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						191840, -- [2]
-						26, -- [3]
-						1603309257.898, -- [4]
-						18081, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						191840, -- [2]
-						27, -- [3]
-						1603309259.653, -- [4]
-						18108, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
 					}, -- [12]
 					{
 						false, -- [1]
-						77489, -- [2]
-						100, -- [3]
-						1603309259.82, -- [4]
-						18208, -- [5]
-						"Alloe", -- [6]
+						335467, -- [2]
+						2114, -- [3]
+						1603664369.817, -- [4]
+						20720, -- [5]
+						"Sheylora-Thrall", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -5766,11 +5930,11 @@ DeathGraphsDBCurrent = {
 					}, -- [13]
 					{
 						false, -- [1]
-						145109, -- [2]
-						569, -- [3]
-						1603309259.849, -- [4]
-						18777, -- [5]
-						"Alenpfhon", -- [6]
+						335467, -- [2]
+						1082, -- [3]
+						1603664370.18, -- [4]
+						20720, -- [5]
+						"Sheylora-Thrall", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -5779,10 +5943,10 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						191840, -- [2]
-						26, -- [3]
-						1603309261.399, -- [4]
-						18803, -- [5]
-						"Altairx", -- [6]
+						100, -- [3]
+						1603664371.501, -- [4]
+						20720, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -5790,187 +5954,207 @@ DeathGraphsDBCurrent = {
 					}, -- [15]
 					{
 						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603309261.728, -- [4]
-						18803, -- [5]
-						"Alloe", -- [6]
-						true, -- [7]
+						335467, -- [2]
+						1891, -- [3]
+						1603664371.667, -- [4]
+						20720, -- [5]
+						"Sheylora-Thrall", -- [6]
+						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [16]
 					{
-						true, -- [1]
-						307317, -- [2]
-						2486, -- [3]
-						1603309261.728, -- [4]
-						16409, -- [5]
-						"Vexiona", -- [6]
-						92, -- [7]
-						32, -- [8]
+						false, -- [1]
+						191840, -- [2]
+						50, -- [3]
+						1603664373.182, -- [4]
+						20720, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [17]
 					{
+						false, -- [1]
+						335467, -- [2]
+						945, -- [3]
+						1603664373.51, -- [4]
+						20720, -- [5]
+						"Sheylora-Thrall", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
 						4, -- [1]
-						307343, -- [2]
+						309991, -- [2]
 						1, -- [3]
-						1603309261.839, -- [4]
-						16409, -- [5]
-						"Vexiona", -- [6]
+						1603664374.133, -- [4]
+						20720, -- [5]
+						"N'Zoth the Corruptor", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						191840, -- [2]
-						26, -- [3]
-						1603309263.17, -- [4]
-						16435, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
 					}, -- [19]
 					{
 						false, -- [1]
-						191840, -- [2]
-						1, -- [3]
-						1603309263.17, -- [4]
-						16436, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
+						17, -- [2]
+						2955, -- [3]
+						1603664374.133, -- [4]
+						20720, -- [5]
+						"Sheylora-Thrall", -- [6]
+						true, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [20]
 					{
-						4, -- [1]
-						310224, -- [2]
-						1, -- [3]
-						1603309263.861, -- [4]
-						16435, -- [5]
-						"Void Ascendant", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						309991, -- [2]
+						6893, -- [3]
+						1603664374.133, -- [4]
+						16782, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						2955, -- [7]
+						32, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [21]
 					{
-						true, -- [1]
-						307421, -- [2]
-						618, -- [3]
-						1603309263.861, -- [4]
-						15817, -- [5]
-						"Void Ascendant", -- [6]
-						nil, -- [7]
-						32, -- [8]
+						false, -- [1]
+						17, -- [2]
+						0, -- [3]
+						1603664374.133, -- [4]
+						16782, -- [5]
+						"Sheylora-Thrall", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
-						false, -- [1]
-						145109, -- [2]
-						569, -- [3]
-						1603309264.86, -- [4]
-						16386, -- [5]
-						"Alenpfhon", -- [6]
+						true, -- [1]
+						319346, -- [2]
+						688, -- [3]
+						1603664374.318, -- [4]
+						16094, -- [5]
+						"[*] Infinity's Toll", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [23]
 					{
 						false, -- [1]
-						269238, -- [2]
-						665, -- [3]
-						1603309265.954, -- [4]
-						17051, -- [5]
-						"Alenpfhon", -- [6]
+						34914, -- [2]
+						312, -- [3]
+						1603664374.434, -- [4]
+						16406, -- [5]
+						"Sheylora-Thrall", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [24]
 					{
 						false, -- [1]
-						271682, -- [2]
-						1122, -- [3]
-						1603309266.581, -- [4]
-						18173, -- [5]
-						"Altairx", -- [6]
+						143924, -- [2]
+						184, -- [3]
+						1603664374.501, -- [4]
+						16590, -- [5]
+						"Sheylora-Thrall", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [25]
 					{
 						false, -- [1]
-						269238, -- [2]
-						1331, -- [3]
-						1603309266.943, -- [4]
-						18960, -- [5]
-						"Alenpfhon", -- [6]
+						191840, -- [2]
+						50, -- [3]
+						1603664374.885, -- [4]
+						16640, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [26]
 					{
-						false, -- [1]
-						269238, -- [2]
-						1331, -- [3]
-						1603309267.62, -- [4]
-						18960, -- [5]
-						"Alenpfhon", -- [6]
+						true, -- [1]
+						309991, -- [2]
+						6893, -- [3]
+						1603664375.135, -- [4]
+						9747, -- [5]
+						"N'Zoth the Corruptor", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [27]
 					{
 						false, -- [1]
-						311201, -- [2]
-						1164, -- [3]
-						1603309267.804, -- [4]
-						18960, -- [5]
-						"Alenpfhon", -- [6]
+						270117, -- [2]
+						1778, -- [3]
+						1603664375.161, -- [4]
+						11525, -- [5]
+						"Sheylora-Thrall", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [28]
 					{
 						false, -- [1]
-						269238, -- [2]
-						666, -- [3]
-						1603309268.651, -- [4]
-						18960, -- [5]
-						"Alenpfhon", -- [6]
+						335467, -- [2]
+						973, -- [3]
+						1603664375.401, -- [4]
+						12498, -- [5]
+						"Sheylora-Thrall", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [29]
 					{
 						false, -- [1]
-						269238, -- [2]
-						1331, -- [3]
-						1603309270.118, -- [4]
-						18960, -- [5]
-						"Alenpfhon", -- [6]
+						143924, -- [2]
+						76, -- [3]
+						1603664375.722, -- [4]
+						12574, -- [5]
+						"Sheylora-Thrall", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [30]
 					{
 						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603309272.393, -- [4]
-						18960, -- [5]
-						"Alloe", -- [6]
-						true, -- [7]
+						335467, -- [2]
+						474, -- [3]
+						1603664375.83, -- [4]
+						13048, -- [5]
+						"Sheylora-Thrall", -- [6]
+						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						307218, -- [2]
-						31065, -- [3]
-						1603309272.422, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
-						92, -- [7]
+						309991, -- [2]
+						6893, -- [3]
+						1603664376.153, -- [4]
+						6155, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
-						12013, -- [10]
+						-1, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
@@ -5978,37 +6162,37 @@ DeathGraphsDBCurrent = {
 						0, -- [3]
 						0, -- [4]
 						0, -- [5]
-						"Alenpfhon", -- [6]
+						"Sheylora-Thrall", -- [6]
 					}, -- [33]
 				},
-				["class"] = "DRUID",
-				["timestring"] = "1m 48s",
-				["time"] = 1603309272.422,
-			}, -- [1]
+				["class"] = "PRIEST",
+				["timestring"] = "8m 34s",
+				["time"] = 1603664376.28,
+			}, -- [4]
 			{
-				["maxhealth"] = 19460,
-				["timeofdeath"] = 252.137999999999,
-				["name"] = "Bacard",
+				["maxhealth"] = 20320,
+				["timeofdeath"] = 539.509,
+				["name"] = "Slyxhmsterez-Sylvanas",
 				["events"] = {
 					{
-						true, -- [1]
-						313283, -- [2]
-						165, -- [3]
-						1603309411.44, -- [4]
-						19295, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						311201, -- [2]
+						1165, -- [3]
+						1603664391.576, -- [4]
+						21320, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [1]
 					{
 						false, -- [1]
-						8936, -- [2]
-						308, -- [3]
-						1603309411.635, -- [4]
-						19460, -- [5]
-						"Twistedshape", -- [6]
+						296211, -- [2]
+						19, -- [3]
+						1603664391.893, -- [4]
+						21320, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6017,10 +6201,10 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						191840, -- [2]
-						481, -- [3]
-						1603309411.651, -- [4]
-						19460, -- [5]
-						"Altairx", -- [6]
+						18, -- [3]
+						1603664391.915, -- [4]
+						21320, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6028,11 +6212,1307 @@ DeathGraphsDBCurrent = {
 					}, -- [3]
 					{
 						false, -- [1]
-						77489, -- [2]
-						491, -- [3]
-						1603309412.164, -- [4]
-						19460, -- [5]
-						"Alloe", -- [6]
+						94472, -- [2]
+						154, -- [3]
+						1603664392.128, -- [4]
+						21320, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						17, -- [2]
+						3056, -- [3]
+						1603664392.32, -- [4]
+						21320, -- [5]
+						"Eddey", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						296003, -- [2]
+						180, -- [3]
+						1603664392.32, -- [4]
+						21320, -- [5]
+						"Eddey", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						true, -- [1]
+						317112, -- [2]
+						6596, -- [3]
+						1603664392.32, -- [4]
+						17960, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						3236, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						4, -- [1]
+						317112, -- [2]
+						1, -- [3]
+						1603664392.32, -- [4]
+						17960, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						17, -- [2]
+						0, -- [3]
+						1603664392.32, -- [4]
+						17960, -- [5]
+						"Eddey", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						296212, -- [2]
+						784, -- [3]
+						1603664392.368, -- [4]
+						18744, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						270117, -- [2]
+						987, -- [3]
+						1603664392.368, -- [4]
+						19731, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						81751, -- [2]
+						223, -- [3]
+						1603664393.019, -- [4]
+						19954, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						94472, -- [2]
+						151, -- [3]
+						1603664393.125, -- [4]
+						20105, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						143924, -- [2]
+						77, -- [3]
+						1603664393.162, -- [4]
+						20182, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						81751, -- [2]
+						79, -- [3]
+						1603664393.808, -- [4]
+						20261, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						94472, -- [2]
+						447, -- [3]
+						1603664393.832, -- [4]
+						20708, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						317112, -- [2]
+						2044, -- [3]
+						1603664394.337, -- [4]
+						18664, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						319346, -- [2]
+						679, -- [3]
+						1603664394.337, -- [4]
+						17985, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						69, -- [3]
+						1603664394.361, -- [4]
+						18054, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603664395.207, -- [4]
+						18054, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6812, -- [3]
+						1603664395.207, -- [4]
+						11242, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						4, -- [1]
+						308996, -- [2]
+						1, -- [3]
+						1603664395.303, -- [4]
+						11242, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						308996, -- [2]
+						21320, -- [3]
+						1603664395.303, -- [4]
+						21320, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6812, -- [3]
+						1603664396.213, -- [4]
+						35828, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						317112, -- [2]
+						2043, -- [3]
+						1603664396.318, -- [4]
+						33785, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6812, -- [3]
+						1603664397.226, -- [4]
+						26973, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6812, -- [3]
+						1603664398.219, -- [4]
+						20659, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						317112, -- [2]
+						2044, -- [3]
+						1603664398.343, -- [4]
+						18615, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6812, -- [3]
+						1603664399.236, -- [4]
+						11803, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6812, -- [3]
+						1603664400.24, -- [4]
+						5287, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						317112, -- [2]
+						2043, -- [3]
+						1603664400.356, -- [4]
+						3244, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6812, -- [3]
+						1603664401.254, -- [4]
+						1, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						3568, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						1856, -- [2]
+						1, -- [3]
+						1603664096.655, -- [4]
+						0, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+					}, -- [33]
+				},
+				["class"] = "ROGUE",
+				["timestring"] = "8m 59s",
+				["time"] = 1603664401.264,
+			}, -- [5]
+			{
+				["maxhealth"] = 16220,
+				["timeofdeath"] = 547.1820000000007,
+				["name"] = "Shaan",
+				["events"] = {
+					{
+						false, -- [1]
+						191840, -- [2]
+						39, -- [3]
+						1603664400.475, -- [4]
+						14105, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						162530, -- [2]
+						109, -- [3]
+						1603664400.848, -- [4]
+						14214, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						144, -- [3]
+						1603664400.862, -- [4]
+						14358, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						317066, -- [2]
+						4682, -- [3]
+						1603664400.993, -- [4]
+						9676, -- [5]
+						"Thought Harvester", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						true, -- [1]
+						319346, -- [2]
+						605, -- [3]
+						1603664401.382, -- [4]
+						9071, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						162530, -- [2]
+						111, -- [3]
+						1603664401.519, -- [4]
+						9182, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						143924, -- [2]
+						73, -- [3]
+						1603664402.069, -- [4]
+						9255, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						162530, -- [2]
+						224, -- [3]
+						1603664402.171, -- [4]
+						9479, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						191840, -- [2]
+						79, -- [3]
+						1603664402.25, -- [4]
+						9558, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603664402.569, -- [4]
+						9558, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						315763, -- [2]
+						3049, -- [3]
+						1603664402.569, -- [4]
+						9558, -- [5]
+						"Shaan", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6061, -- [3]
+						1603664402.569, -- [4]
+						6546, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						3049, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						280052, -- [2]
+						822, -- [3]
+						1603664402.586, -- [4]
+						7368, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						143924, -- [2]
+						123, -- [3]
+						1603664403.298, -- [4]
+						7491, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6060, -- [3]
+						1603664403.573, -- [4]
+						1431, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						191840, -- [2]
+						39, -- [3]
+						1603664404.022, -- [4]
+						1470, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						143924, -- [2]
+						120, -- [3]
+						1603664404.518, -- [4]
+						1590, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						183811, -- [2]
+						88, -- [3]
+						1603664405.166, -- [4]
+						1678, -- [5]
+						"Fraank", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						162530, -- [2]
+						111, -- [3]
+						1603664405.28, -- [4]
+						1789, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						143924, -- [2]
+						198, -- [3]
+						1603664405.733, -- [4]
+						1987, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						191840, -- [2]
+						39, -- [3]
+						1603664405.78, -- [4]
+						2026, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						162530, -- [2]
+						107, -- [3]
+						1603664405.973, -- [4]
+						2133, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						319346, -- [2]
+						605, -- [3]
+						1603664406.393, -- [4]
+						1528, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						270117, -- [2]
+						755, -- [3]
+						1603664406.417, -- [4]
+						2283, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						143924, -- [2]
+						696, -- [3]
+						1603664406.937, -- [4]
+						2979, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						162530, -- [2]
+						111, -- [3]
+						1603664407.275, -- [4]
+						3090, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						191840, -- [2]
+						39, -- [3]
+						1603664407.564, -- [4]
+						3129, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						183811, -- [2]
+						82, -- [3]
+						1603664407.63, -- [4]
+						3211, -- [5]
+						"Fraank", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						183811, -- [2]
+						82, -- [3]
+						1603664407.883, -- [4]
+						3293, -- [5]
+						"Fraank", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						318451, -- [2]
+						2344, -- [3]
+						1603664407.923, -- [4]
+						949, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						143924, -- [2]
+						737, -- [3]
+						1603664408.158, -- [4]
+						1686, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						318451, -- [2]
+						2343, -- [3]
+						1603664408.937, -- [4]
+						1, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						657, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Shaan", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "9m 7s",
+				["time"] = 1603664408.937,
+			}, -- [6]
+			{
+				["maxhealth"] = 18880,
+				["timeofdeath"] = 554.1769999999997,
+				["name"] = "Talrog-Antonidas",
+				["events"] = {
+					{
+						4, -- [1]
+						319346, -- [2]
+						1, -- [3]
+						1603664413.868, -- [4]
+						7551, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603664413.891, -- [4]
+						7551, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6598, -- [3]
+						1603664413.891, -- [4]
+						953, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						31616, -- [2]
+						3776, -- [3]
+						1603664413.907, -- [4]
+						4729, -- [5]
+						"Talrog-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						false, -- [1]
+						270117, -- [2]
+						514, -- [3]
+						1603664413.923, -- [4]
+						5243, -- [5]
+						"Talrog-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						6262, -- [2]
+						5243, -- [3]
+						1603664414.302, -- [4]
+						10486, -- [5]
+						"Talrog-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6598, -- [3]
+						1603664414.901, -- [4]
+						3888, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						311201, -- [2]
+						574, -- [3]
+						1603664415.179, -- [4]
+						4462, -- [5]
+						"Talrog-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6597, -- [3]
+						1603664415.915, -- [4]
+						1, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						2135, -- [10]
+					}, -- [9]
+					{
+						3, -- [1]
+						108271, -- [2]
+						1, -- [3]
+						1603664318.879, -- [4]
+						0, -- [5]
+						"Talrog-Antonidas", -- [6]
+					}, -- [10]
+				},
+				["class"] = "SHAMAN",
+				["timestring"] = "9m 14s",
+				["time"] = 1603664415.932,
+			}, -- [7]
+		},
+		["bossname"] = "N'Zoth the Corruptor",
+		["bossicon"] = {
+			0.75, -- [1]
+			1, -- [2]
+			0.5, -- [3]
+			0.75, -- [4]
+			"Interface\\AddOns\\Details\\images\\raid\\NyalothaRaid_BossFaces", -- [5]
+		},
+		["date"] = 12968.689,
+		["timeelapsed"] = 557.8230000000003,
+	}, -- [1]
+	{
+		["deaths"] = {
+			{
+				["maxhealth"] = 20880,
+				["timeofdeath"] = 52.11699999999837,
+				["name"] = "Coldaras",
+				["events"] = {
+					{
+						false, -- [1]
+						130654, -- [2]
+						909, -- [3]
+						1603662710.682, -- [4]
+						21920, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [1]
+					{
+						false, -- [1]
+						191840, -- [2]
+						38, -- [3]
+						1603662710.682, -- [4]
+						21920, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						false, -- [1]
+						48438, -- [2]
+						152, -- [3]
+						1603662710.863, -- [4]
+						21920, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						298318, -- [2]
+						958, -- [3]
+						1603662710.943, -- [4]
+						21920, -- [5]
+						"Coldaras", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						false, -- [1]
+						774, -- [2]
+						297, -- [3]
+						1603662711.864, -- [4]
+						21920, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						191840, -- [2]
+						39, -- [3]
+						1603662712.413, -- [4]
+						21920, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						false, -- [1]
+						311201, -- [2]
+						2012, -- [3]
+						1603662712.693, -- [4]
+						21920, -- [5]
+						"Coldaras", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						296003, -- [2]
+						180, -- [3]
+						1603662713.922, -- [4]
+						21920, -- [5]
+						"Eddey", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2398, -- [3]
+						1603662713.922, -- [4]
+						19702, -- [5]
+						"Exposed Synapse", -- [6]
+						180, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						774, -- [2]
+						297, -- [3]
+						1603662714.004, -- [4]
+						19999, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						false, -- [1]
+						191840, -- [2]
+						46, -- [3]
+						1603662714.126, -- [4]
+						20045, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						false, -- [1]
+						774, -- [2]
+						38, -- [3]
+						1603662714.238, -- [4]
+						20083, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						143924, -- [2]
+						83, -- [3]
+						1603662715.082, -- [4]
+						20166, -- [5]
+						"Coldaras", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						false, -- [1]
+						191840, -- [2]
+						42, -- [3]
+						1603662715.66, -- [4]
+						20208, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						false, -- [1]
+						191894, -- [2]
+						1198, -- [3]
+						1603662715.965, -- [4]
+						21406, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [15]
+					{
+						false, -- [1]
+						143924, -- [2]
+						57, -- [3]
+						1603662716.284, -- [4]
+						21463, -- [5]
+						"Coldaras", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603662717.327, -- [4]
+						21463, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						269279, -- [2]
+						1285, -- [3]
+						1603662717.327, -- [4]
+						21463, -- [5]
+						"Coldaras", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						false, -- [1]
+						296003, -- [2]
+						90, -- [3]
+						1603662717.327, -- [4]
+						21463, -- [5]
+						"Eddey", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6652, -- [3]
+						1603662717.327, -- [4]
+						16186, -- [5]
+						"Psychus", -- [6]
+						1375, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						143924, -- [2]
+						44, -- [3]
+						1603662717.528, -- [4]
+						16230, -- [5]
+						"Coldaras", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [21]
+					{
+						false, -- [1]
+						119611, -- [2]
+						493, -- [3]
+						1603662717.669, -- [4]
+						16723, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						183811, -- [2]
+						133, -- [3]
+						1603662718.235, -- [4]
+						16856, -- [5]
+						"Fraank", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [23]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6653, -- [3]
+						1603662718.326, -- [4]
+						10203, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						280052, -- [2]
+						1644, -- [3]
+						1603662718.351, -- [4]
+						11847, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						false, -- [1]
+						143924, -- [2]
+						206, -- [3]
+						1603662718.734, -- [4]
+						12053, -- [5]
+						"Coldaras", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						false, -- [1]
+						116670, -- [2]
+						1145, -- [3]
+						1603662719.18, -- [4]
+						13198, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [27]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6847, -- [3]
+						1603662719.33, -- [4]
+						6351, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						119611, -- [2]
+						249, -- [3]
+						1603662719.361, -- [4]
+						6600, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [29]
+					{
+						false, -- [1]
+						269108, -- [2]
+						572, -- [3]
+						1603662719.374, -- [4]
+						7172, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [30]
+					{
+						true, -- [1]
+						310333, -- [2]
+						1369, -- [3]
+						1603662720.302, -- [4]
+						5803, -- [5]
+						"Mind's Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6847, -- [3]
+						1603662720.369, -- [4]
+						1, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						1044, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Coldaras", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "0m 52s",
+				["time"] = 1603662720.386,
+			}, -- [1]
+			{
+				["maxhealth"] = 19340,
+				["timeofdeath"] = 288.8069999999989,
+				["name"] = "Vaffa-Antonidas",
+				["events"] = {
+					{
+						false, -- [1]
+						270117, -- [2]
+						1121, -- [3]
+						1603662928.536, -- [4]
+						20300, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						191840, -- [2]
+						47, -- [3]
+						1603662928.763, -- [4]
+						20300, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						303380, -- [2]
+						915, -- [3]
+						1603662929.179, -- [4]
+						20300, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						191840, -- [2]
+						47, -- [3]
+						1603662930.478, -- [4]
+						20300, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6040,11 +7520,1211 @@ DeathGraphsDBCurrent = {
 					}, -- [4]
 					{
 						false, -- [1]
+						303380, -- [2]
+						807, -- [3]
+						1603662930.947, -- [4]
+						20300, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						191840, -- [2]
+						47, -- [3]
+						1603662932.177, -- [4]
+						20300, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						311201, -- [2]
+						2504, -- [3]
+						1603662932.793, -- [4]
+						20300, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						319346, -- [2]
+						629, -- [3]
+						1603662933.53, -- [4]
+						19671, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						143924, -- [2]
+						383, -- [3]
+						1603662933.557, -- [4]
+						20054, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						false, -- [1]
+						183811, -- [2]
+						177, -- [3]
+						1603662933.691, -- [4]
+						20231, -- [5]
+						"Fraank", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						183811, -- [2]
+						85, -- [3]
+						1603662933.691, -- [4]
+						20300, -- [5]
+						"Fraank", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						183811, -- [2]
+						86, -- [3]
+						1603662933.707, -- [4]
+						20300, -- [5]
+						"Fraank", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						191840, -- [2]
+						47, -- [3]
+						1603662933.889, -- [4]
+						20300, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						298318, -- [2]
+						4390, -- [3]
+						1603662934.655, -- [4]
+						20300, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						311201, -- [2]
+						1252, -- [3]
+						1603662935.455, -- [4]
+						20300, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						191840, -- [2]
+						47, -- [3]
+						1603662935.511, -- [4]
+						20300, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						298318, -- [2]
+						2195, -- [3]
+						1603662936.674, -- [4]
+						20300, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						296003, -- [2]
+						90, -- [3]
+						1603662938.529, -- [4]
+						20300, -- [5]
+						"Eddey", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						319346, -- [2]
+						629, -- [3]
+						1603662938.529, -- [4]
+						19761, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						90, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						270117, -- [2]
+						1121, -- [3]
+						1603662938.546, -- [4]
+						20300, -- [5]
+						"Vaffa-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						162530, -- [2]
+						158, -- [3]
+						1603662939.921, -- [4]
+						20300, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						319346, -- [2]
+						629, -- [3]
+						1603662943.55, -- [4]
+						19671, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						774, -- [2]
+						326, -- [3]
+						1603662943.659, -- [4]
+						19997, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						183811, -- [2]
+						141, -- [3]
+						1603662943.887, -- [4]
+						20138, -- [5]
+						"Fraank", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						4, -- [1]
+						308996, -- [2]
+						1, -- [3]
+						1603662944.12, -- [4]
+						20138, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						308996, -- [2]
+						20300, -- [3]
+						1603662944.12, -- [4]
+						20300, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						1, -- [2]
+						106, -- [3]
+						1603662951.4, -- [4]
+						11551, -- [5]
+						"Greater Earth Elemental <Talrog-Antonidas>", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						3110, -- [2]
+						1130, -- [3]
+						1603662952.421, -- [4]
+						6721, -- [5]
+						"Jakkin <Devereux>", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						1, -- [2]
+						106, -- [3]
+						1603662953.001, -- [4]
+						5751, -- [5]
+						"Greater Earth Elemental <Talrog-Antonidas>", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						3110, -- [2]
+						64, -- [3]
+						1603662955.694, -- [4]
+						1243, -- [5]
+						"Jakkin <Devereux>", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						1, -- [2]
+						8, -- [3]
+						1603662956.235, -- [4]
+						1237, -- [5]
+						"Greater Earth Elemental <Talrog-Antonidas>", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						295367, -- [2]
+						817, -- [3]
+						1603662957.041, -- [4]
+						1, -- [5]
+						"Talrog-Antonidas", -- [6]
+						nil, -- [7]
+						4, -- [8]
+						true, -- [9]
+						65, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						5277, -- [2]
+						1, -- [3]
+						1603662888.815, -- [4]
+						0, -- [5]
+						"Vaffa-Antonidas", -- [6]
+					}, -- [33]
+				},
+				["class"] = "ROGUE",
+				["timestring"] = "4m 48s",
+				["time"] = 1603662957.076,
+			}, -- [2]
+			{
+				["maxhealth"] = 18880,
+				["timeofdeath"] = 385.0759999999991,
+				["name"] = "Talrog-Antonidas",
+				["events"] = {
+					{
+						true, -- [1]
+						315715, -- [2]
+						518, -- [3]
+						1603663025.56, -- [4]
+						19302, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						191840, -- [2]
+						48, -- [3]
+						1603663025.828, -- [4]
+						19350, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
 						48438, -- [2]
+						163, -- [3]
+						1603663026.065, -- [4]
+						19513, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						48438, -- [2]
+						300, -- [3]
+						1603663026.781, -- [4]
+						19813, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						191840, -- [2]
+						38, -- [3]
+						1603663027.411, -- [4]
+						19820, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						48438, -- [2]
+						143, -- [3]
+						1603663027.493, -- [4]
+						19820, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						311201, -- [2]
+						2183, -- [3]
+						1603663027.723, -- [4]
+						19820, -- [5]
+						"Talrog-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						48438, -- [2]
+						136, -- [3]
+						1603663028.16, -- [4]
+						19820, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						48438, -- [2]
+						129, -- [3]
+						1603663028.851, -- [4]
+						19820, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						191840, -- [2]
+						39, -- [3]
+						1603663028.995, -- [4]
+						19820, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						false, -- [1]
+						48438, -- [2]
+						121, -- [3]
+						1603663029.615, -- [4]
+						19820, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						315715, -- [2]
+						534, -- [3]
+						1603663029.665, -- [4]
+						19286, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						48438, -- [2]
+						227, -- [3]
+						1603663030.371, -- [4]
+						19513, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2378, -- [3]
+						1603663030.391, -- [4]
+						17135, -- [5]
+						"Exposed Synapse", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						270117, -- [2]
+						1027, -- [3]
+						1603663030.424, -- [4]
+						18162, -- [5]
+						"Talrog-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						191840, -- [2]
+						46, -- [3]
+						1603663030.771, -- [4]
+						18208, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						48438, -- [2]
+						163, -- [3]
+						1603663030.949, -- [4]
+						18371, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						287255, -- [2]
+						128, -- [3]
+						1603663030.949, -- [4]
+						18499, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						191840, -- [2]
+						30, -- [3]
+						1603663031.729, -- [4]
+						18529, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						315715, -- [2]
+						534, -- [3]
+						1603663031.729, -- [4]
+						17995, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						269238, -- [2]
+						5247, -- [3]
+						1603663031.744, -- [4]
+						19820, -- [5]
+						"Talrog-Antonidas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						4, -- [1]
+						308996, -- [2]
+						1, -- [3]
+						1603663032.267, -- [4]
+						19820, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						308996, -- [2]
+						19820, -- [3]
+						1603663032.267, -- [4]
+						19820, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603663046.277, -- [4]
+						39640, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6598, -- [3]
+						1603663046.277, -- [4]
+						33042, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6598, -- [3]
+						1603663047.297, -- [4]
+						26957, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6598, -- [3]
+						1603663048.284, -- [4]
+						20359, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6598, -- [3]
+						1603663049.293, -- [4]
+						21689, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6598, -- [3]
+						1603663050.301, -- [4]
+						15091, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6598, -- [3]
+						1603663051.31, -- [4]
+						8493, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6598, -- [3]
+						1603663052.313, -- [4]
+						1895, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6598, -- [3]
+						1603663053.345, -- [4]
+						1, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						4190, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						108271, -- [2]
+						1, -- [3]
+						1603662898.843, -- [4]
+						0, -- [5]
+						"Talrog-Antonidas", -- [6]
+					}, -- [33]
+				},
+				["class"] = "SHAMAN",
+				["timestring"] = "6m 25s",
+				["time"] = 1603663053.345,
+			}, -- [3]
+			{
+				["maxhealth"] = 20200,
+				["timeofdeath"] = 410.0159999999996,
+				["name"] = "Rykahpo",
+				["events"] = {
+					{
+						true, -- [1]
+						315715, -- [2]
+						519, -- [3]
+						1603663070.982, -- [4]
+						13774, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						145110, -- [2]
+						744, -- [3]
+						1603663071.946, -- [4]
+						14518, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						269238, -- [2]
+						1490, -- [3]
+						1603663072.274, -- [4]
+						16008, -- [5]
+						"Rykahpo", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						8936, -- [2]
+						190, -- [3]
+						1603663072.351, -- [4]
+						16198, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						774, -- [2]
 						343, -- [3]
-						1603309412.185, -- [4]
-						19460, -- [5]
-						"Twistedshape", -- [6]
+						1603663072.351, -- [4]
+						16541, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						315715, -- [2]
+						517, -- [3]
+						1603663073, -- [4]
+						16024, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						48438, -- [2]
+						230, -- [3]
+						1603663073.418, -- [4]
+						16254, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						8936, -- [2]
+						5465, -- [3]
+						1603663073.844, -- [4]
+						21200, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						774, -- [2]
+						387, -- [3]
+						1603663073.844, -- [4]
+						21200, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						8936, -- [2]
+						108, -- [3]
+						1603663073.998, -- [4]
+						21200, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						48438, -- [2]
+						219, -- [3]
+						1603663074.244, -- [4]
+						21200, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						315715, -- [2]
+						517, -- [3]
+						1603663074.531, -- [4]
+						20683, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2327, -- [3]
+						1603663074.592, -- [4]
+						18356, -- [5]
+						"Exposed Synapse", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						774, -- [2]
+						387, -- [3]
+						1603663074.815, -- [4]
+						18743, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						48438, -- [2]
+						208, -- [3]
+						1603663075.044, -- [4]
+						18951, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603663075.216, -- [4]
+						18951, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6456, -- [3]
+						1603663075.216, -- [4]
+						12495, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						8936, -- [2]
+						214, -- [3]
+						1603663075.561, -- [4]
+						12709, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						48438, -- [2]
+						394, -- [3]
+						1603663075.811, -- [4]
+						13103, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						145110, -- [2]
+						707, -- [3]
+						1603663075.959, -- [4]
+						13810, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6404, -- [3]
+						1603663076.206, -- [4]
+						7406, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						48438, -- [2]
+						372, -- [3]
+						1603663076.615, -- [4]
+						7778, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						315715, -- [2]
+						513, -- [3]
+						1603663077.062, -- [4]
+						7265, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						774, -- [2]
+						387, -- [3]
+						1603663077.062, -- [4]
+						7652, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						8936, -- [2]
+						108, -- [3]
+						1603663077.148, -- [4]
+						7760, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						774, -- [2]
+						386, -- [3]
+						1603663077.166, -- [4]
+						8146, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6405, -- [3]
+						1603663077.214, -- [4]
+						1741, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						280052, -- [2]
+						822, -- [3]
+						1603663077.265, -- [4]
+						2563, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						48438, -- [2]
+						175, -- [3]
+						1603663077.395, -- [4]
+						2738, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2309, -- [3]
+						1603663077.759, -- [4]
+						429, -- [5]
+						"Exposed Synapse", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						48438, -- [2]
+						165, -- [3]
+						1603663078.168, -- [4]
+						594, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						309991, -- [2]
+						6405, -- [3]
+						1603663078.269, -- [4]
+						1, -- [5]
+						"Psychus", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						5811, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Rykahpo", -- [6]
+					}, -- [33]
+				},
+				["class"] = "MAGE",
+				["timestring"] = "6m 50s",
+				["time"] = 1603663078.285,
+			}, -- [4]
+			{
+				["maxhealth"] = 20100,
+				["timeofdeath"] = 415.0429999999997,
+				["name"] = "Thanilia",
+				["events"] = {
+					{
+						false, -- [1]
+						313162, -- [2]
+						675, -- [3]
+						1603663070.446, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						true, -- [1]
+						315715, -- [2]
+						527, -- [3]
+						1603663070.478, -- [4]
+						20573, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						143924, -- [2]
+						169, -- [3]
+						1603663071.193, -- [4]
+						20742, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						313162, -- [2]
+						1349, -- [3]
+						1603663071.268, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						313162, -- [2]
+						675, -- [3]
+						1603663072.083, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6053,10 +8733,10 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						774, -- [2]
-						450, -- [3]
-						1603309412.295, -- [4]
-						19460, -- [5]
-						"Twistedshape", -- [6]
+						299, -- [3]
+						1603663072.379, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6064,23 +8744,23 @@ DeathGraphsDBCurrent = {
 					}, -- [6]
 					{
 						false, -- [1]
-						191840, -- [2]
-						32, -- [3]
-						1603309412.559, -- [4]
-						19460, -- [5]
-						"Altairx", -- [6]
+						313162, -- [2]
+						675, -- [3]
+						1603663072.918, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [7]
 					{
 						false, -- [1]
 						48438, -- [2]
-						163, -- [3]
-						1603309412.931, -- [4]
-						19460, -- [5]
-						"Twistedshape", -- [6]
+						204, -- [3]
+						1603663073.418, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6088,11 +8768,11 @@ DeathGraphsDBCurrent = {
 					}, -- [8]
 					{
 						false, -- [1]
-						8936, -- [2]
-						154, -- [3]
-						1603309413.169, -- [4]
-						19460, -- [5]
-						"Twistedshape", -- [6]
+						313162, -- [2]
+						675, -- [3]
+						1603663073.733, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6100,145 +8780,145 @@ DeathGraphsDBCurrent = {
 					}, -- [9]
 					{
 						false, -- [1]
-						139, -- [2]
-						369, -- [3]
-						1603309413.641, -- [4]
-						19460, -- [5]
-						"Alloe", -- [6]
+						313162, -- [2]
+						674, -- [3]
+						1603663073.977, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [10]
 					{
-						4, -- [1]
-						310224, -- [2]
-						1, -- [3]
-						1603309413.66, -- [4]
-						19460, -- [5]
-						"Void Ascendant", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
 						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603309413.66, -- [4]
-						19460, -- [5]
-						"Twistedshape", -- [6]
+						269279, -- [2]
+						528, -- [3]
+						1603663074.037, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [12]
+					}, -- [11]
 					{
 						true, -- [1]
-						307421, -- [2]
-						661, -- [3]
-						1603309413.66, -- [4]
-						18891, -- [5]
-						"Void Ascendant", -- [6]
-						92, -- [7]
-						32, -- [8]
+						315715, -- [2]
+						528, -- [3]
+						1603663074.037, -- [4]
+						21100, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						48438, -- [2]
+						194, -- [3]
+						1603663074.244, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [13]
 					{
 						false, -- [1]
-						48438, -- [2]
-						155, -- [3]
-						1603309413.702, -- [4]
-						19046, -- [5]
-						"Twistedshape", -- [6]
+						774, -- [2]
+						685, -- [3]
+						1603663074.859, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [14]
 					{
-						4, -- [1]
-						310224, -- [2]
-						2, -- [3]
-						1603309413.907, -- [4]
-						19046, -- [5]
-						"Void Ascendant", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						48438, -- [2]
+						184, -- [3]
+						1603663075.02, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [15]
 					{
-						true, -- [1]
-						307421, -- [2]
-						826, -- [3]
-						1603309413.907, -- [4]
-						18220, -- [5]
-						"Void Ascendant", -- [6]
+						false, -- [1]
+						48438, -- [2]
+						175, -- [3]
+						1603663075.811, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [16]
 					{
-						4, -- [1]
-						310224, -- [2]
-						3, -- [3]
-						1603309414.153, -- [4]
-						18220, -- [5]
-						"Void Ascendant", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						48438, -- [2]
+						165, -- [3]
+						1603663076.593, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [17]
 					{
-						true, -- [1]
-						307421, -- [2]
-						990, -- [3]
-						1603309414.153, -- [4]
-						17230, -- [5]
-						"Void Ascendant", -- [6]
-						nil, -- [7]
-						32, -- [8]
+						false, -- [1]
+						269279, -- [2]
+						528, -- [3]
+						1603663076.615, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [18]
 					{
-						false, -- [1]
-						143924, -- [2]
-						84, -- [3]
-						1603309414.153, -- [4]
-						17314, -- [5]
-						"Bacard", -- [6]
+						true, -- [1]
+						315715, -- [2]
+						528, -- [3]
+						1603663076.615, -- [4]
+						21100, -- [5]
+						"[*] Contempt", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						16, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [19]
 					{
 						false, -- [1]
-						191840, -- [2]
-						33, -- [3]
-						1603309414.307, -- [4]
-						17347, -- [5]
-						"Altairx", -- [6]
+						774, -- [2]
+						343, -- [3]
+						1603663077.214, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
-						true, -- [1]
-						313283, -- [2]
-						165, -- [3]
-						1603309414.44, -- [4]
-						17182, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						48438, -- [2]
+						311, -- [3]
+						1603663077.371, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
@@ -6246,93 +8926,93 @@ DeathGraphsDBCurrent = {
 						false, -- [1]
 						48438, -- [2]
 						146, -- [3]
-						1603309414.453, -- [4]
-						17328, -- [5]
-						"Twistedshape", -- [6]
+						1603663078.155, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [22]
+					{
+						false, -- [1]
+						269279, -- [2]
+						437, -- [3]
+						1603663078.672, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						315715, -- [2]
+						528, -- [3]
+						1603663078.672, -- [4]
+						21009, -- [5]
+						"[*] Contempt", -- [6]
+						437, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						48438, -- [2]
+						273, -- [3]
+						1603663078.952, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
 					{
 						false, -- [1]
 						774, -- [2]
-						449, -- [3]
-						1603309414.587, -- [4]
-						17777, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						8936, -- [2]
-						154, -- [3]
-						1603309414.665, -- [4]
-						17931, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						77489, -- [2]
-						491, -- [3]
-						1603309415.186, -- [4]
-						18422, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						48438, -- [2]
-						139, -- [3]
-						1603309415.214, -- [4]
-						18561, -- [5]
-						"Twistedshape", -- [6]
+						343, -- [3]
+						1603663079.57, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [26]
+					{
+						false, -- [1]
+						48438, -- [2]
+						218, -- [3]
+						1603663079.581, -- [4]
+						21100, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						true, -- [1]
+						315715, -- [2]
+						528, -- [3]
+						1603663080.421, -- [4]
+						20572, -- [5]
+						"[*] Contempt", -- [6]
+						nil, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
 					{
 						false, -- [1]
 						143924, -- [2]
-						52, -- [3]
-						1603309415.401, -- [4]
-						18613, -- [5]
-						"Bacard", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						48438, -- [2]
-						131, -- [3]
-						1603309415.984, -- [4]
-						18744, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						191840, -- [2]
-						65, -- [3]
-						1603309416.043, -- [4]
-						18809, -- [5]
-						"Altairx", -- [6]
+						129, -- [3]
+						1603663080.906, -- [4]
+						20701, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6340,11 +9020,11 @@ DeathGraphsDBCurrent = {
 					}, -- [29]
 					{
 						false, -- [1]
-						8936, -- [2]
-						154, -- [3]
-						1603309416.177, -- [4]
-						18963, -- [5]
-						"Twistedshape", -- [6]
+						774, -- [2]
+						286, -- [3]
+						1603663081.843, -- [4]
+						20987, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -6352,1727 +9032,149 @@ DeathGraphsDBCurrent = {
 					}, -- [30]
 					{
 						false, -- [1]
-						139, -- [2]
-						369, -- [3]
-						1603309416.19, -- [4]
-						19332, -- [5]
-						"Alloe", -- [6]
+						143924, -- [2]
+						6, -- [3]
+						1603663082.538, -- [4]
+						20993, -- [5]
+						"Thanilia", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						307218, -- [2]
-						33050, -- [3]
-						1603309416.506, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
+						315715, -- [2]
+						528, -- [3]
+						1603663082.701, -- [4]
+						20465, -- [5]
+						"[*] Contempt", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						16, -- [8]
 						false, -- [9]
-						13718, -- [10]
+						-1, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						642, -- [2]
+						22812, -- [2]
 						1, -- [3]
-						1603309284.446, -- [4]
+						1603662906.193, -- [4]
 						0, -- [5]
-						"Bacard", -- [6]
-					}, -- [33]
-				},
-				["class"] = "PALADIN",
-				["timestring"] = "4m 12s",
-				["time"] = 1603309416.521,
-			}, -- [2]
-			{
-				["maxhealth"] = 17520,
-				["timeofdeath"] = 252.137999999999,
-				["name"] = "Twistedshape",
-				["events"] = {
-					{
-						false, -- [1]
-						296211, -- [2]
-						71, -- [3]
-						1603309404.556, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						false, -- [1]
-						296211, -- [2]
-						141, -- [3]
-						1603309405.411, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						296211, -- [2]
-						70, -- [3]
-						1603309406.244, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						115310, -- [2]
-						1924, -- [3]
-						1603309406.412, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						1, -- [1]
-						29166, -- [2]
-						1, -- [3]
-						1603309406.568, -- [4]
-						17520, -- [5]
-						"Twistedshape", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						77489, -- [2]
-						307, -- [3]
-						1603309406.877, -- [4]
-						17520, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						296211, -- [2]
-						71, -- [3]
-						1603309407.091, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						1, -- [1]
-						33891, -- [2]
-						1, -- [3]
-						1603309407.224, -- [4]
-						17520, -- [5]
-						"Twistedshape", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						296211, -- [2]
-						70, -- [3]
-						1603309407.914, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						296211, -- [2]
-						142, -- [3]
-						1603309408.773, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						296211, -- [2]
-						71, -- [3]
-						1603309409.619, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						296211, -- [2]
-						71, -- [3]
-						1603309410.461, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						296211, -- [2]
-						70, -- [3]
-						1603309411.299, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						48438, -- [2]
-						145, -- [3]
-						1603309411.416, -- [4]
-						17520, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						191840, -- [2]
-						940, -- [3]
-						1603309411.5, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						48438, -- [2]
-						138, -- [3]
-						1603309412.164, -- [4]
-						17520, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						296211, -- [2]
-						141, -- [3]
-						1603309412.185, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						48438, -- [2]
-						132, -- [3]
-						1603309412.931, -- [4]
-						17520, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						191840, -- [2]
-						472, -- [3]
-						1603309413.083, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						296211, -- [2]
-						142, -- [3]
-						1603309413.083, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						false, -- [1]
-						191840, -- [2]
-						66, -- [3]
-						1603309413.247, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [21]
-					{
-						false, -- [1]
-						48438, -- [2]
-						126, -- [3]
-						1603309413.684, -- [4]
-						17520, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						296211, -- [2]
-						71, -- [3]
-						1603309413.925, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						48438, -- [2]
-						119, -- [3]
-						1603309414.453, -- [4]
-						17520, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [24]
-					{
-						false, -- [1]
-						296211, -- [2]
-						71, -- [3]
-						1603309414.818, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						191840, -- [2]
-						32, -- [3]
-						1603309415.001, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						false, -- [1]
-						48438, -- [2]
-						225, -- [3]
-						1603309415.202, -- [4]
-						17520, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						296211, -- [2]
-						90, -- [3]
-						1603309415.352, -- [4]
-						17520, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						false, -- [1]
-						48438, -- [2]
-						106, -- [3]
-						1603309415.95, -- [4]
-						17520, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603309416.506, -- [4]
-						17520, -- [5]
-						"Alloe", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						296003, -- [2]
-						185, -- [3]
-						1603309416.506, -- [4]
-						17520, -- [5]
-						"Twistedshape", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						307218, -- [2]
-						29573, -- [3]
-						1603309416.521, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
-						277, -- [7]
-						32, -- [8]
-						false, -- [9]
-						11776, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						33891, -- [2]
-						1, -- [3]
-						1603309407.224, -- [4]
-						0, -- [5]
-						"Twistedshape", -- [6]
+						"Thanilia", -- [6]
 					}, -- [33]
 				},
 				["class"] = "DRUID",
-				["timestring"] = "4m 12s",
-				["time"] = 1603309416.521,
-			}, -- [3]
+				["timestring"] = "6m 55s",
+				["time"] = 1603663083.312,
+			}, -- [5]
 			{
-				["maxhealth"] = 19040,
-				["timeofdeath"] = 252.4779999999992,
-				["name"] = "Orfein-Aegwynn",
+				["maxhealth"] = 20320,
+				["timeofdeath"] = 420.360999999999,
+				["name"] = "Slyxhmsterez-Sylvanas",
 				["events"] = {
 					{
-						false, -- [1]
-						119611, -- [2]
-						139, -- [3]
-						1603309407.665, -- [4]
-						19040, -- [5]
-						"Altairx", -- [6]
+						true, -- [1]
+						319346, -- [2]
+						661, -- [3]
+						1603663075.8, -- [4]
+						20659, -- [5]
+						"[*] Infinity's Toll", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [1]
-					{
-						false, -- [1]
-						296211, -- [2]
-						35, -- [3]
-						1603309407.93, -- [4]
-						19040, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						296211, -- [2]
-						18, -- [3]
-						1603309408.773, -- [4]
-						19040, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						296211, -- [2]
-						36, -- [3]
-						1603309409.619, -- [4]
-						19040, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						272260, -- [2]
-						11, -- [3]
-						1603309409.655, -- [4]
-						19040, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						313283, -- [2]
-						165, -- [3]
-						1603309409.872, -- [4]
-						18875, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						296212, -- [2]
-						719, -- [3]
-						1603309409.907, -- [4]
-						19040, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						1, -- [1]
-						281195, -- [2]
-						1, -- [3]
-						1603309410.638, -- [4]
-						19040, -- [5]
-						"Orfein-Aegwynn", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						191840, -- [2]
-						475, -- [3]
-						1603309411.081, -- [4]
-						19040, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						272260, -- [2]
-						22, -- [3]
-						1603309411.669, -- [4]
-						19040, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						307317, -- [2]
-						2108, -- [3]
-						1603309411.808, -- [4]
-						16932, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309411.893, -- [4]
-						16932, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						191840, -- [2]
-						471, -- [3]
-						1603309411.953, -- [4]
-						17403, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						191840, -- [2]
-						951, -- [3]
-						1603309412.762, -- [4]
-						18354, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						false, -- [1]
-						191840, -- [2]
-						33, -- [3]
-						1603309412.83, -- [4]
-						18387, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603309412.868, -- [4]
-						18387, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [16]
-					{
-						true, -- [1]
-						313283, -- [2]
-						128, -- [3]
-						1603309412.868, -- [4]
-						18351, -- [5]
-						"Vexiona", -- [6]
-						92, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
 					{
 						false, -- [1]
 						270117, -- [2]
-						450, -- [3]
-						1603309412.89, -- [4]
-						18801, -- [5]
-						"Orfein-Aegwynn", -- [6]
+						520, -- [3]
+						1603663075.811, -- [4]
+						21179, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						307343, -- [2]
-						2108, -- [3]
-						1603309412.89, -- [4]
-						16693, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						774, -- [2]
-						364, -- [3]
-						1603309413.443, -- [4]
-						17057, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						274436, -- [2]
-						20, -- [3]
-						1603309413.443, -- [4]
-						17077, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						272260, -- [2]
-						89, -- [3]
-						1603309413.684, -- [4]
-						17166, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						143924, -- [2]
-						20, -- [3]
-						1603309413.748, -- [4]
-						17186, -- [5]
-						"Orfein-Aegwynn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						191840, -- [2]
-						32, -- [3]
-						1603309414.606, -- [4]
-						17218, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						272260, -- [2]
-						88, -- [3]
-						1603309415.654, -- [4]
-						17306, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						false, -- [1]
-						774, -- [2]
-						364, -- [3]
-						1603309415.708, -- [4]
-						17670, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						274436, -- [2]
-						20, -- [3]
-						1603309415.708, -- [4]
-						17690, -- [5]
-						"Twistedshape", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						143924, -- [2]
-						54, -- [3]
-						1603309415.803, -- [4]
-						17744, -- [5]
-						"Orfein-Aegwynn", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						313283, -- [2]
-						132, -- [3]
-						1603309415.861, -- [4]
-						17612, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						119611, -- [2]
-						174, -- [3]
-						1603309416.102, -- [4]
-						17786, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						191840, -- [2]
-						33, -- [3]
-						1603309416.341, -- [4]
-						17819, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						307218, -- [2]
-						32944, -- [3]
-						1603309416.84, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						15125, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						281195, -- [2]
-						1, -- [3]
-						1603309410.638, -- [4]
-						0, -- [5]
-						"Orfein-Aegwynn", -- [6]
-					}, -- [33]
-				},
-				["class"] = "HUNTER",
-				["timestring"] = "4m 12s",
-				["time"] = 1603309416.861,
-			}, -- [4]
-			{
-				["maxhealth"] = 20820,
-				["timeofdeath"] = 294.4650000000002,
-				["name"] = "Autori",
-				["events"] = {
-					{
-						false, -- [1]
-						108366, -- [2]
-						114, -- [3]
-						1603309453.108, -- [4]
-						18841, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603309453.108, -- [4]
-						18841, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
 						-1, -- [10]
 					}, -- [2]
 					{
 						true, -- [1]
-						307317, -- [2]
-						2434, -- [3]
-						1603309453.108, -- [4]
-						16613, -- [5]
-						"Vexiona", -- [6]
-						206, -- [7]
+						312078, -- [2]
+						1986, -- [3]
+						1603663075.985, -- [4]
+						19193, -- [5]
+						"Spike Tentacle", -- [6]
+						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [3]
 					{
-						4, -- [1]
-						307019, -- [2]
-						12, -- [3]
-						1603309453.128, -- [4]
-						16613, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						143924, -- [2]
+						85, -- [3]
+						1603663076.874, -- [4]
+						19278, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [4]
-					{
-						true, -- [1]
-						307317, -- [2]
-						2434, -- [3]
-						1603309453.128, -- [4]
-						14179, -- [5]
-						"Wuckinfarloc", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						111400, -- [2]
-						709, -- [3]
-						1603309453.176, -- [4]
-						13470, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [6]
 					{
 						false, -- [1]
 						298318, -- [2]
-						997, -- [3]
-						1603309453.636, -- [4]
-						14467, -- [5]
-						"Autori", -- [6]
+						2148, -- [3]
+						1603663077.249, -- [4]
+						21320, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						191840, -- [2]
-						396, -- [3]
-						1603309453.937, -- [4]
-						14863, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						162530, -- [2]
-						72, -- [3]
-						1603309454.072, -- [4]
-						14935, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						111400, -- [2]
-						710, -- [3]
-						1603309454.182, -- [4]
-						14225, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						343737, -- [2]
-						269, -- [3]
-						1603309454.347, -- [4]
-						14494, -- [5]
-						"Yu'lon <Altairx>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						191840, -- [2]
-						25, -- [3]
-						1603309454.644, -- [4]
-						14519, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						108366, -- [2]
-						75, -- [3]
-						1603309454.99, -- [4]
-						14519, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						313283, -- [2]
-						1824, -- [3]
-						1603309454.99, -- [4]
-						12770, -- [5]
-						"Vexiona", -- [6]
-						75, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1603309454.99, -- [4]
-						12770, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						77489, -- [2]
-						426, -- [3]
-						1603309455.077, -- [4]
-						13196, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						111400, -- [2]
-						709, -- [3]
-						1603309455.189, -- [4]
-						12487, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						4, -- [1]
-						307284, -- [2]
-						1, -- [3]
-						1603309455.955, -- [4]
-						12487, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						111400, -- [2]
-						709, -- [3]
-						1603309456.188, -- [4]
-						11778, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						191840, -- [2]
-						25, -- [3]
-						1603309456.397, -- [4]
-						11803, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						111400, -- [2]
-						709, -- [3]
-						1603309457.212, -- [4]
-						11094, -- [5]
-						"Autori", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309457.8, -- [4]
-						11094, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						4, -- [1]
-						307019, -- [2]
-						14, -- [3]
-						1603309457.934, -- [4]
-						11094, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						4, -- [1]
-						307645, -- [2]
-						1, -- [3]
-						1603309457.934, -- [4]
-						11094, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						108366, -- [2]
-						154, -- [3]
-						1603309457.971, -- [4]
-						11094, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603309457.971, -- [4]
-						11094, -- [5]
-						"Alloe", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						307639, -- [2]
-						9148, -- [3]
-						1603309457.971, -- [4]
-						2192, -- [5]
-						"Vexiona", -- [6]
-						246, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						313283, -- [2]
-						2128, -- [3]
-						1603309458.09, -- [4]
-						64, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						191840, -- [2]
-						26, -- [3]
-						1603309458.147, -- [4]
-						90, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						108366, -- [2]
-						38, -- [3]
-						1603309458.808, -- [4]
-						90, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1603309458.808, -- [4]
-						90, -- [5]
-						"Autori", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						307343, -- [2]
-						2438, -- [3]
-						1603309458.833, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
-						38, -- [7]
-						32, -- [8]
-						false, -- [9]
-						2310, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Autori", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "4m 54s",
-				["time"] = 1603309458.848,
-			}, -- [5]
-			{
-				["maxhealth"] = 12860,
-				["timeofdeath"] = 296.2529999999988,
-				["name"] = "Wuckinfarloc",
-				["events"] = {
-					{
-						false, -- [1]
-						108366, -- [2]
-						804, -- [3]
-						1603309453.108, -- [4]
-						12860, -- [5]
-						"Wuckinfarloc", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603309453.108, -- [4]
-						12860, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						307317, -- [2]
-						2624, -- [3]
-						1603309453.108, -- [4]
-						11132, -- [5]
-						"Autori", -- [6]
-						896, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						4, -- [1]
-						307019, -- [2]
-						4, -- [3]
-						1603309453.128, -- [4]
-						11132, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						307317, -- [2]
-						2623, -- [3]
-						1603309453.128, -- [4]
-						8509, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [5]
 					{
-						true, -- [1]
-						313283, -- [2]
-						675, -- [3]
-						1603309453.176, -- [4]
-						7834, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						63106, -- [2]
-						39, -- [3]
-						1603309453.415, -- [4]
-						7873, -- [5]
-						"Wuckinfarloc", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
 						false, -- [1]
 						191840, -- [2]
-						406, -- [3]
-						1603309453.6, -- [4]
-						8279, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						63106, -- [2]
-						39, -- [3]
-						1603309455.077, -- [4]
-						8318, -- [5]
-						"Wuckinfarloc", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						191840, -- [2]
-						51, -- [3]
-						1603309455.374, -- [4]
-						8369, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						4, -- [1]
-						307284, -- [2]
-						1, -- [3]
-						1603309455.374, -- [4]
-						8369, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						77489, -- [2]
-						595, -- [3]
-						1603309455.457, -- [4]
-						8964, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						108366, -- [2]
-						388, -- [3]
-						1603309456.15, -- [4]
-						8964, -- [5]
-						"Wuckinfarloc", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						true, -- [1]
-						313283, -- [2]
-						675, -- [3]
-						1603309456.15, -- [4]
-						8677, -- [5]
-						"Vexiona", -- [6]
-						388, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						63106, -- [2]
-						39, -- [3]
-						1603309456.732, -- [4]
-						8716, -- [5]
-						"Wuckinfarloc", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						191840, -- [2]
-						26, -- [3]
-						1603309457.117, -- [4]
-						8742, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						4, -- [1]
-						307019, -- [2]
-						6, -- [3]
-						1603309457.934, -- [4]
-						8742, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						4, -- [1]
-						307645, -- [2]
-						1, -- [3]
-						1603309457.934, -- [4]
-						8742, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						108366, -- [2]
-						177, -- [3]
-						1603309457.934, -- [4]
-						8742, -- [5]
-						"Wuckinfarloc", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						307639, -- [2]
-						6517, -- [3]
-						1603309457.934, -- [4]
-						2402, -- [5]
-						"Vexiona", -- [6]
-						177, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						269238, -- [2]
-						750, -- [3]
-						1603309458.848, -- [4]
-						3152, -- [5]
-						"Wuckinfarloc", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						191840, -- [2]
-						25, -- [3]
-						1603309458.881, -- [4]
-						3177, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						108366, -- [2]
-						114, -- [3]
-						1603309459.171, -- [4]
-						3177, -- [5]
-						"Wuckinfarloc", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						313283, -- [2]
-						1012, -- [3]
-						1603309459.171, -- [4]
-						2279, -- [5]
-						"Vexiona", -- [6]
-						114, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1603309459.171, -- [4]
-						2279, -- [5]
-						"Wuckinfarloc", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309459.597, -- [4]
-						2279, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309459.597, -- [4]
-						2279, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						63106, -- [2]
-						39, -- [3]
-						1603309460.067, -- [4]
-						2318, -- [5]
-						"Wuckinfarloc", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						191840, -- [2]
-						26, -- [3]
-						1603309460.557, -- [4]
-						2344, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						108366, -- [2]
-						72, -- [3]
-						1603309460.606, -- [4]
-						2344, -- [5]
-						"Wuckinfarloc", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1603309460.606, -- [4]
-						2344, -- [5]
-						"Wuckinfarloc", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						307343, -- [2]
-						2705, -- [3]
-						1603309460.636, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
-						72, -- [7]
-						32, -- [8]
-						false, -- [9]
-						289, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						104773, -- [2]
-						1, -- [3]
-						1603309185.704, -- [4]
-						0, -- [5]
-						"Wuckinfarloc", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "4m 56s",
-				["time"] = 1603309460.636,
-			}, -- [6]
-			{
-				["maxhealth"] = 19740,
-				["timeofdeath"] = 330.5299999999988,
-				["name"] = "Alloe",
-				["events"] = {
-					{
-						false, -- [1]
-						2061, -- [2]
-						3659, -- [3]
-						1603309489.157, -- [4]
-						14789, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						143924, -- [2]
-						220, -- [3]
-						1603309489.222, -- [4]
-						15009, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						191840, -- [2]
-						70, -- [3]
-						1603309489.489, -- [4]
-						15079, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						139, -- [2]
-						591, -- [3]
-						1603309490.32, -- [4]
-						15670, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						143924, -- [2]
-						31, -- [3]
-						1603309490.454, -- [4]
-						15701, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						119611, -- [2]
-						186, -- [3]
-						1603309490.612, -- [4]
-						15887, -- [5]
-						"Altairx", -- [6]
+						57, -- [3]
+						1603663077.309, -- [4]
+						21320, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [6]
 					{
-						4, -- [1]
-						307019, -- [2]
-						25, -- [3]
-						1603309490.745, -- [4]
-						15887, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						303380, -- [2]
+						871, -- [3]
+						1603663077.779, -- [4]
+						21320, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [7]
 					{
-						4, -- [1]
-						307645, -- [2]
-						1, -- [3]
-						1603309490.745, -- [4]
-						15887, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						191840, -- [2]
+						52, -- [3]
+						1603663078.852, -- [4]
+						21320, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [8]
 					{
 						true, -- [1]
-						307639, -- [2]
-						4418, -- [3]
-						1603309490.766, -- [4]
-						11469, -- [5]
-						"Vexiona", -- [6]
+						312078, -- [2]
+						1986, -- [3]
+						1603663079.581, -- [4]
+						19334, -- [5]
+						"Spike Tentacle", -- [6]
 						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
@@ -8080,263 +9182,263 @@ DeathGraphsDBCurrent = {
 					}, -- [9]
 					{
 						false, -- [1]
-						270117, -- [2]
-						986, -- [3]
-						1603309490.865, -- [4]
-						12455, -- [5]
-						"Alloe", -- [6]
+						303380, -- [2]
+						871, -- [3]
+						1603663079.843, -- [4]
+						20205, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [10]
-					{
-						false, -- [1]
-						191840, -- [2]
-						69, -- [3]
-						1603309491.231, -- [4]
-						12524, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						191894, -- [2]
-						920, -- [3]
-						1603309491.298, -- [4]
-						13444, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						191894, -- [2]
-						1882, -- [3]
-						1603309491.298, -- [4]
-						15326, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						77489, -- [2]
-						1257, -- [3]
-						1603309491.687, -- [4]
-						16583, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						143924, -- [2]
-						13, -- [3]
-						1603309491.71, -- [4]
-						16596, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						313283, -- [2]
-						4177, -- [3]
-						1603309491.769, -- [4]
-						12419, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309491.869, -- [4]
-						12419, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						4, -- [1]
-						307019, -- [2]
-						26, -- [3]
-						1603309492.344, -- [4]
-						12419, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						307317, -- [2]
-						2679, -- [3]
-						1603309492.344, -- [4]
-						9740, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						307343, -- [2]
-						2679, -- [3]
-						1603309492.873, -- [4]
-						7061, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						4, -- [1]
-						307019, -- [2]
-						27, -- [3]
-						1603309492.873, -- [4]
-						7061, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						143924, -- [2]
-						158, -- [3]
-						1603309492.948, -- [4]
-						7219, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						191840, -- [2]
-						34, -- [3]
-						1603309492.979, -- [4]
-						7253, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						119611, -- [2]
-						187, -- [3]
-						1603309493.04, -- [4]
-						7440, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						307343, -- [2]
-						2679, -- [3]
-						1603309493.878, -- [4]
-						4761, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						4, -- [1]
-						307019, -- [2]
-						28, -- [3]
-						1603309493.878, -- [4]
-						4761, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
 					{
 						false, -- [1]
 						143924, -- [2]
 						62, -- [3]
-						1603309494.148, -- [4]
-						4823, -- [5]
-						"Alloe", -- [6]
+						1603663080.506, -- [4]
+						20267, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						319346, -- [2]
+						660, -- [3]
+						1603663080.792, -- [4]
+						19607, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						191894, -- [2]
+						2042, -- [3]
+						1603663081.55, -- [4]
+						21320, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						303380, -- [2]
+						1741, -- [3]
+						1603663081.768, -- [4]
+						21320, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						296211, -- [2]
+						19, -- [3]
+						1603663082.445, -- [4]
+						21320, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						312078, -- [2]
+						1986, -- [3]
+						1603663082.721, -- [4]
+						19334, -- [5]
+						"Spike Tentacle", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						270117, -- [2]
+						1038, -- [3]
+						1603663082.733, -- [4]
+						20372, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						296212, -- [2]
+						392, -- [3]
+						1603663082.733, -- [4]
+						20764, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						9, -- [3]
+						1603663082.926, -- [4]
+						20773, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						298318, -- [2]
+						2147, -- [3]
+						1603663083.238, -- [4]
+						21320, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						119611, -- [2]
+						212, -- [3]
+						1603663083.259, -- [4]
+						21320, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						303380, -- [2]
+						870, -- [3]
+						1603663083.772, -- [4]
+						21320, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						318451, -- [2]
+						2646, -- [3]
+						1603663084.715, -- [4]
+						18674, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						119611, -- [2]
+						212, -- [3]
+						1603663084.945, -- [4]
+						18886, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						143924, -- [2]
+						7, -- [3]
+						1603663085.365, -- [4]
+						18893, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						true, -- [1]
+						318451, -- [2]
+						2647, -- [3]
+						1603663085.729, -- [4]
+						16246, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						303380, -- [2]
+						870, -- [3]
+						1603663085.765, -- [4]
+						17116, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [27]
 					{
-						false, -- [1]
-						77489, -- [2]
-						1258, -- [3]
-						1603309494.696, -- [4]
-						6081, -- [5]
-						"Alloe", -- [6]
+						true, -- [1]
+						319346, -- [2]
+						660, -- [3]
+						1603663085.819, -- [4]
+						16456, -- [5]
+						"[*] Infinity's Toll", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [28]
 					{
 						false, -- [1]
-						296184, -- [2]
-						408, -- [3]
-						1603309494.696, -- [4]
-						6489, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						191840, -- [2]
-						35, -- [3]
-						1603309494.728, -- [4]
-						6524, -- [5]
-						"Altairx", -- [6]
+						303380, -- [2]
+						264, -- [3]
+						1603663086.073, -- [4]
+						16720, -- [5]
+						"Slyxhmsterez-Sylvanas", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [29]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603663088.63, -- [4]
+						16720, -- [5]
+						"N'Zoth the Corruptor", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [30]
 					{
 						true, -- [1]
-						313283, -- [2]
-						4678, -- [3]
-						1603309494.779, -- [4]
-						1846, -- [5]
-						"Vexiona", -- [6]
+						309991, -- [2]
+						6618, -- [3]
+						1603663088.63, -- [4]
+						10102, -- [5]
+						"N'Zoth the Corruptor", -- [6]
 						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
@@ -8345,76 +9447,76 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						119611, -- [2]
-						187, -- [3]
-						1603309494.797, -- [4]
-						2033, -- [5]
-						"Altairx", -- [6]
+						212, -- [3]
+						1603663088.63, -- [4]
+						10314, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
+						31224, -- [2]
+						1, -- [3]
+						1603662883.698, -- [4]
 						0, -- [5]
-						"Alloe", -- [6]
+						"Slyxhmsterez-Sylvanas", -- [6]
 					}, -- [33]
 				},
-				["class"] = "PRIEST",
-				["timestring"] = "5m 30s",
-				["time"] = 1603309494.913,
-			}, -- [7]
+				["class"] = "ROGUE",
+				["timestring"] = "7m 0s",
+				["time"] = 1603663088.63,
+			}, -- [6]
 			{
-				["maxhealth"] = 33418,
-				["timeofdeath"] = 345.7819999999992,
-				["name"] = "Lízzie",
+				["maxhealth"] = 19540,
+				["timeofdeath"] = 428.1139999999996,
+				["name"] = "Xycon",
 				["events"] = {
 					{
-						4, -- [1]
-						307019, -- [2]
-						43, -- [3]
-						1603309496.577, -- [4]
-						25937, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						162530, -- [2]
+						104, -- [3]
+						1603663091.161, -- [4]
+						18702, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [1]
 					{
-						true, -- [1]
-						307297, -- [2]
-						786, -- [3]
-						1603309496.577, -- [4]
-						25151, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						270117, -- [2]
+						536, -- [3]
+						1603663091.161, -- [4]
+						19238, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [2]
 					{
-						true, -- [1]
-						1, -- [2]
-						2645, -- [3]
-						1603309496.842, -- [4]
-						25151, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						94472, -- [2]
+						586, -- [3]
+						1603663091.561, -- [4]
+						19824, -- [5]
+						"Eddey", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [3]
 					{
 						false, -- [1]
-						77489, -- [2]
-						102, -- [3]
-						1603309497.273, -- [4]
-						22608, -- [5]
-						"Alloe", -- [6]
+						81751, -- [2]
+						95, -- [3]
+						1603663091.665, -- [4]
+						19919, -- [5]
+						"Eddey", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8422,11 +9524,11 @@ DeathGraphsDBCurrent = {
 					}, -- [4]
 					{
 						false, -- [1]
-						316643, -- [2]
-						714, -- [3]
-						1603309497.366, -- [4]
-						23322, -- [5]
-						"Lízzie", -- [6]
+						162530, -- [2]
+						107, -- [3]
+						1603663091.769, -- [4]
+						20026, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8434,11 +9536,11 @@ DeathGraphsDBCurrent = {
 					}, -- [5]
 					{
 						false, -- [1]
-						191840, -- [2]
-						23, -- [3]
-						1603309497.583, -- [4]
-						23345, -- [5]
-						"Altairx", -- [6]
+						143924, -- [2]
+						17, -- [3]
+						1603663091.84, -- [4]
+						20043, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8446,71 +9548,71 @@ DeathGraphsDBCurrent = {
 					}, -- [6]
 					{
 						false, -- [1]
-						310604, -- [2]
-						6580, -- [3]
-						1603309498.397, -- [4]
-						29925, -- [5]
-						"Lízzie", -- [6]
+						81751, -- [2]
+						72, -- [3]
+						1603663092.089, -- [4]
+						20115, -- [5]
+						"Eddey", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [7]
 					{
 						false, -- [1]
-						116849, -- [2]
-						3867, -- [3]
-						1603309498.832, -- [4]
-						29925, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
+						81751, -- [2]
+						72, -- [3]
+						1603663092.22, -- [4]
+						20187, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [8]
 					{
 						true, -- [1]
-						313283, -- [2]
-						3867, -- [3]
-						1603309498.832, -- [4]
-						29925, -- [5]
-						"Vexiona", -- [6]
+						312078, -- [2]
+						1888, -- [3]
+						1603663092.241, -- [4]
+						18299, -- [5]
+						"Spike Tentacle", -- [6]
 						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [9]
 					{
-						true, -- [1]
-						1, -- [2]
-						2247, -- [3]
-						1603309499.846, -- [4]
-						29925, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						94472, -- [2]
+						152, -- [3]
+						1603663092.308, -- [4]
+						18451, -- [5]
+						"Eddey", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [10]
 					{
 						false, -- [1]
-						116849, -- [2]
-						2247, -- [3]
-						1603309499.846, -- [4]
-						29925, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
+						162530, -- [2]
+						103, -- [3]
+						1603663092.422, -- [4]
+						18554, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [11]
 					{
 						false, -- [1]
-						77489, -- [2]
-						102, -- [3]
-						1603309500.264, -- [4]
-						30027, -- [5]
-						"Alloe", -- [6]
+						191840, -- [2]
+						76, -- [3]
+						1603663092.549, -- [4]
+						18630, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8518,317 +9620,719 @@ DeathGraphsDBCurrent = {
 					}, -- [12]
 					{
 						false, -- [1]
-						316643, -- [2]
-						1440, -- [3]
-						1603309500.557, -- [4]
-						31697, -- [5]
-						"Lízzie", -- [6]
+						272260, -- [2]
+						146, -- [3]
+						1603663092.561, -- [4]
+						18776, -- [5]
+						"Eddey", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [13]
 					{
-						true, -- [1]
-						1, -- [2]
-						3464, -- [3]
-						1603309501.343, -- [4]
-						31697, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						94472, -- [2]
+						576, -- [3]
+						1603663092.616, -- [4]
+						19352, -- [5]
+						"Eddey", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [14]
 					{
 						false, -- [1]
-						116849, -- [2]
-						3464, -- [3]
-						1603309501.343, -- [4]
-						31697, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
+						81751, -- [2]
+						18, -- [3]
+						1603663092.637, -- [4]
+						19370, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
 						false, -- [1]
-						116849, -- [2]
-						3688, -- [3]
-						1603309501.835, -- [4]
-						31697, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
+						143924, -- [2]
+						10, -- [3]
+						1603663093.048, -- [4]
+						19380, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [16]
 					{
-						true, -- [1]
-						313283, -- [2]
-						6444, -- [3]
-						1603309501.847, -- [4]
-						28941, -- [5]
-						"Vexiona", -- [6]
-						3688, -- [7]
-						32, -- [8]
+						false, -- [1]
+						162530, -- [2]
+						210, -- [3]
+						1603663093.081, -- [4]
+						19590, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [17]
 					{
 						false, -- [1]
-						116849, -- [2]
-						0, -- [3]
-						1603309501.847, -- [4]
-						28941, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
+						94472, -- [2]
+						152, -- [3]
+						1603663093.081, -- [4]
+						19742, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [18]
 					{
 						false, -- [1]
-						316643, -- [2]
-						1410, -- [3]
-						1603309502.677, -- [4]
-						30351, -- [5]
-						"Lízzie", -- [6]
+						94472, -- [2]
+						443, -- [3]
+						1603663093.279, -- [4]
+						20185, -- [5]
+						"Eddey", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [19]
 					{
-						true, -- [1]
-						1, -- [2]
-						4268, -- [3]
-						1603309502.857, -- [4]
-						30351, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						191840, -- [2]
+						20, -- [3]
+						1603663093.314, -- [4]
+						20205, -- [5]
+						"Xycon", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [20]
 					{
-						true, -- [1]
-						1, -- [2]
-						3100, -- [3]
-						1603309504.348, -- [4]
-						26083, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						81751, -- [2]
+						73, -- [3]
+						1603663093.495, -- [4]
+						20278, -- [5]
+						"Eddey", -- [6]
 						nil, -- [7]
-						1, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
-						true, -- [1]
-						313283, -- [2]
-						6444, -- [3]
-						1603309504.844, -- [4]
-						16539, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						94472, -- [2]
+						144, -- [3]
+						1603663093.624, -- [4]
+						20422, -- [5]
+						"Eddey", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
+						false, -- [1]
+						81751, -- [2]
+						220, -- [3]
+						1603663093.981, -- [4]
+						20520, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						81751, -- [2]
+						76, -- [3]
+						1603663094.489, -- [4]
+						20520, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						272260, -- [2]
+						147, -- [3]
+						1603663094.552, -- [4]
+						20520, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						81751, -- [2]
+						218, -- [3]
+						1603663094.69, -- [4]
+						20520, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						81751, -- [2]
+						72, -- [3]
+						1603663094.902, -- [4]
+						20520, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						81751, -- [2]
+						72, -- [3]
+						1603663095.047, -- [4]
+						20520, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						81751, -- [2]
+						17, -- [3]
+						1603663095.229, -- [4]
+						20520, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
 						4, -- [1]
-						310323, -- [2]
+						316542, -- [2]
 						1, -- [3]
-						1603309505.109, -- [4]
-						16539, -- [5]
-						"Vexiona", -- [6]
+						1603663095.443, -- [4]
+						20520, -- [5]
+						"[*] Paranoia", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
 						false, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						81751, -- [2]
+						76, -- [3]
+						1603663095.898, -- [4]
+						20520, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						319346, -- [2]
+						627, -- [3]
+						1603663096.145, -- [4]
+						19893, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Xycon", -- [6]
+					}, -- [33]
+				},
+				["class"] = "MONK",
+				["timestring"] = "7m 8s",
+				["time"] = 1603663096.383,
+			}, -- [7]
+			{
+				["maxhealth"] = 33418,
+				["timeofdeath"] = 428.378999999999,
+				["name"] = "Lízzie",
+				["events"] = {
+					{
+						true, -- [1]
+						314889, -- [2]
+						1749, -- [3]
+						1603663088.63, -- [4]
+						10537, -- [5]
+						"Exposed Synapse", -- [6]
+						874, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						310604, -- [2]
+						3169, -- [3]
+						1603663088.63, -- [4]
+						13706, -- [5]
+						"Lízzie", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						190456, -- [2]
+						573, -- [3]
+						1603663088.63, -- [4]
+						13706, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						true, -- [1]
+						316711, -- [2]
+						1146, -- [3]
+						1603663088.63, -- [4]
+						13133, -- [5]
+						"Psychus", -- [6]
+						573, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						4, -- [1]
+						316711, -- [2]
+						3, -- [3]
+						1603663088.63, -- [4]
+						13133, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						8936, -- [2]
+						85, -- [3]
+						1603663088.63, -- [4]
+						13218, -- [5]
+						"Thanilia", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						190456, -- [2]
+						121, -- [3]
+						1603663088.63, -- [4]
+						13448, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						true, -- [1]
+						313955, -- [2]
+						242, -- [3]
+						1603663088.63, -- [4]
+						13327, -- [5]
+						"Sylvanas Windrunner", -- [6]
+						121, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						190456, -- [2]
+						243, -- [3]
+						1603663088.753, -- [4]
+						13327, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						315715, -- [2]
+						486, -- [3]
+						1603663088.753, -- [4]
+						13084, -- [5]
+						"[*] Contempt", -- [6]
+						243, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						190456, -- [2]
+						243, -- [3]
+						1603663090.297, -- [4]
+						13084, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						315715, -- [2]
+						486, -- [3]
+						1603663090.297, -- [4]
+						12841, -- [5]
+						"[*] Contempt", -- [6]
+						243, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						190456, -- [2]
+						243, -- [3]
+						1603663091.295, -- [4]
+						12841, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						true, -- [1]
+						315715, -- [2]
+						486, -- [3]
+						1603663091.295, -- [4]
+						12598, -- [5]
+						"[*] Contempt", -- [6]
+						243, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						1, -- [2]
+						6035, -- [3]
+						1603663093.117, -- [4]
+						12598, -- [5]
+						"Psychus", -- [6]
+						3017, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						190456, -- [2]
+						3017, -- [3]
+						1603663093.117, -- [4]
+						12598, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						190456, -- [2]
+						249, -- [3]
+						1603663093.314, -- [4]
+						9580, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						true, -- [1]
+						315715, -- [2]
+						499, -- [3]
+						1603663093.314, -- [4]
+						9330, -- [5]
+						"[*] Contempt", -- [6]
+						249, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						190456, -- [2]
+						249, -- [3]
+						1603663094.329, -- [4]
+						9330, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						true, -- [1]
+						315715, -- [2]
+						499, -- [3]
+						1603663094.341, -- [4]
+						9080, -- [5]
+						"[*] Contempt", -- [6]
+						249, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						310604, -- [2]
+						652, -- [3]
+						1603663094.677, -- [4]
+						9732, -- [5]
+						"Lízzie", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						190456, -- [2]
+						1123, -- [3]
+						1603663094.752, -- [4]
+						9732, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						true, -- [1]
+						314889, -- [2]
+						2246, -- [3]
+						1603663094.752, -- [4]
+						8609, -- [5]
+						"Exposed Synapse", -- [6]
+						1123, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [23]
 					{
 						false, -- [1]
-						316643, -- [2]
-						1140, -- [3]
-						1603309505.445, -- [4]
-						17909, -- [5]
+						190456, -- [2]
+						249, -- [3]
+						1603663095.356, -- [4]
+						8609, -- [5]
 						"Lízzie", -- [6]
-						nil, -- [7]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [24]
 					{
-						false, -- [1]
-						273836, -- [2]
-						182, -- [3]
-						1603309507.703, -- [4]
-						18091, -- [5]
-						"Lízzie", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
 						true, -- [1]
-						313283, -- [2]
-						6444, -- [3]
-						1603309507.842, -- [4]
-						11647, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
+						315715, -- [2]
+						499, -- [3]
+						1603663095.356, -- [4]
+						8359, -- [5]
+						"[*] Contempt", -- [6]
+						249, -- [7]
+						16, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [25]
+					{
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603663095.626, -- [4]
+						8359, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [26]
 					{
 						false, -- [1]
-						191840, -- [2]
-						567, -- [3]
-						1603309508.618, -- [4]
-						12214, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
+						269279, -- [2]
+						1626, -- [3]
+						1603663095.626, -- [4]
+						8359, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [27]
 					{
 						false, -- [1]
-						273836, -- [2]
-						181, -- [3]
-						1603309508.686, -- [4]
-						12395, -- [5]
+						190456, -- [2]
+						2304, -- [3]
+						1603663095.626, -- [4]
+						8359, -- [5]
 						"Lízzie", -- [6]
-						nil, -- [7]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [28]
 					{
-						false, -- [1]
-						273836, -- [2]
-						181, -- [3]
-						1603309509.684, -- [4]
-						12576, -- [5]
-						"Lízzie", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						309991, -- [2]
+						6234, -- [3]
+						1603663095.626, -- [4]
+						6055, -- [5]
+						"Psychus", -- [6]
+						3930, -- [7]
+						32, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [29]
 					{
-						false, -- [1]
-						191840, -- [2]
-						42, -- [3]
-						1603309510.075, -- [4]
-						12618, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						1, -- [2]
+						5710, -- [3]
+						1603663096.156, -- [4]
+						6055, -- [5]
+						"Psychus", -- [6]
+						983, -- [7]
+						1, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
-						4, -- [1]
-						307019, -- [2]
-						63, -- [3]
-						1603309510.119, -- [4]
-						12618, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						190456, -- [2]
+						983, -- [3]
+						1603663096.177, -- [4]
+						6055, -- [5]
+						"Lízzie", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						310325, -- [2]
-						31473, -- [3]
-						1603309510.142, -- [4]
+						309991, -- [2]
+						6233, -- [3]
+						1603663096.636, -- [4]
 						1, -- [5]
-						"Vexiona", -- [6]
+						"Psychus", -- [6]
 						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
-						18855, -- [10]
+						4905, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						871, -- [2]
-						1, -- [3]
-						1603309492.287, -- [4]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
 						0, -- [5]
 						"Lízzie", -- [6]
 					}, -- [33]
 				},
 				["class"] = "WARRIOR",
-				["timestring"] = "5m 45s",
-				["time"] = 1603309510.165,
+				["timestring"] = "7m 8s",
+				["time"] = 1603663096.648,
 			}, -- [8]
 			{
-				["maxhealth"] = 34540,
-				["timeofdeath"] = 347.3029999999999,
-				["name"] = "Zethak",
+				["maxhealth"] = 21960,
+				["timeofdeath"] = 430.3769999999986,
+				["name"] = "Devereux",
 				["events"] = {
 					{
 						false, -- [1]
-						227255, -- [2]
-						214, -- [3]
-						1603309503.154, -- [4]
-						22886, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						239, -- [3]
+						1603663088.753, -- [4]
+						21487, -- [5]
+						"Devereux", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [1]
 					{
-						false, -- [1]
-						143924, -- [2]
-						19, -- [3]
-						1603309503.866, -- [4]
-						22905, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						315715, -- [2]
+						535, -- [3]
+						1603663088.753, -- [4]
+						21191, -- [5]
+						"[*] Contempt", -- [6]
+						239, -- [7]
+						16, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [2]
 					{
 						false, -- [1]
-						298197, -- [2]
-						215, -- [3]
-						1603309503.897, -- [4]
-						23120, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						0, -- [3]
+						1603663088.753, -- [4]
+						21191, -- [5]
+						"Devereux", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [3]
 					{
 						false, -- [1]
-						227255, -- [2]
-						39, -- [3]
-						1603309504.174, -- [4]
-						23159, -- [5]
-						"Zethak", -- [6]
+						143924, -- [2]
+						32, -- [3]
+						1603663089.016, -- [4]
+						21223, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [4]
 					{
 						false, -- [1]
-						143924, -- [2]
-						17, -- [3]
-						1603309505.109, -- [4]
-						23176, -- [5]
-						"Zethak", -- [6]
+						63106, -- [2]
+						336, -- [3]
+						1603663089.609, -- [4]
+						21559, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8836,35 +10340,35 @@ DeathGraphsDBCurrent = {
 					}, -- [5]
 					{
 						false, -- [1]
-						227255, -- [2]
-						169, -- [3]
-						1603309505.171, -- [4]
-						23345, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						354, -- [3]
+						1603663089.957, -- [4]
+						21559, -- [5]
+						"Devereux", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [6]
 					{
-						false, -- [1]
-						203794, -- [2]
-						564, -- [3]
-						1603309505.593, -- [4]
-						23909, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						315715, -- [2]
+						536, -- [3]
+						1603663089.957, -- [4]
+						21377, -- [5]
+						"[*] Contempt", -- [6]
+						354, -- [7]
+						16, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [7]
 					{
 						false, -- [1]
-						203794, -- [2]
-						564, -- [3]
-						1603309505.604, -- [4]
-						24473, -- [5]
-						"Zethak", -- [6]
+						143924, -- [2]
+						48, -- [3]
+						1603663090.216, -- [4]
+						21425, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8872,47 +10376,47 @@ DeathGraphsDBCurrent = {
 					}, -- [8]
 					{
 						false, -- [1]
-						203794, -- [2]
-						564, -- [3]
-						1603309505.629, -- [4]
-						25037, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						274346, -- [2]
-						751, -- [3]
-						1603309505.655, -- [4]
-						25037, -- [5]
-						"Zethak", -- [6]
+						108366, -- [2]
+						67, -- [3]
+						1603663090.957, -- [4]
+						21425, -- [5]
+						"Devereux", -- [6]
 						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [10]
+					}, -- [9]
 					{
 						true, -- [1]
-						313283, -- [2]
-						4502, -- [3]
-						1603309505.655, -- [4]
-						21286, -- [5]
-						"Vexiona", -- [6]
-						751, -- [7]
-						32, -- [8]
+						315715, -- [2]
+						535, -- [3]
+						1603663090.957, -- [4]
+						20957, -- [5]
+						"[*] Contempt", -- [6]
+						67, -- [7]
+						16, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						108366, -- [2]
+						0, -- [3]
+						1603663090.957, -- [4]
+						20957, -- [5]
+						"Devereux", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [11]
 					{
 						false, -- [1]
-						227255, -- [2]
-						18, -- [3]
-						1603309506.153, -- [4]
-						21304, -- [5]
-						"Zethak", -- [6]
+						143924, -- [2]
+						19, -- [3]
+						1603663091.445, -- [4]
+						20976, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8920,11 +10424,11 @@ DeathGraphsDBCurrent = {
 					}, -- [12]
 					{
 						false, -- [1]
-						143924, -- [2]
-						29, -- [3]
-						1603309506.301, -- [4]
-						21333, -- [5]
-						"Zethak", -- [6]
+						63106, -- [2]
+						136, -- [3]
+						1603663091.665, -- [4]
+						21112, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8932,11 +10436,11 @@ DeathGraphsDBCurrent = {
 					}, -- [13]
 					{
 						false, -- [1]
-						227255, -- [2]
-						176, -- [3]
-						1603309507.165, -- [4]
-						21509, -- [5]
-						"Zethak", -- [6]
+						143924, -- [2]
+						10, -- [3]
+						1603663092.637, -- [4]
+						21122, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8944,11 +10448,11 @@ DeathGraphsDBCurrent = {
 					}, -- [14]
 					{
 						false, -- [1]
-						191840, -- [2]
-						570, -- [3]
-						1603309507.405, -- [4]
-						22079, -- [5]
-						"Altairx", -- [6]
+						63106, -- [2]
+						300, -- [3]
+						1603663093.764, -- [4]
+						21422, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8957,10 +10461,10 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						143924, -- [2]
-						51, -- [3]
-						1603309507.523, -- [4]
-						22130, -- [5]
-						"Zethak", -- [6]
+						34, -- [3]
+						1603663093.864, -- [4]
+						21456, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8968,11 +10472,11 @@ DeathGraphsDBCurrent = {
 					}, -- [16]
 					{
 						false, -- [1]
-						298197, -- [2]
-						215, -- [3]
-						1603309507.895, -- [4]
-						22345, -- [5]
-						"Zethak", -- [6]
+						143924, -- [2]
+						15, -- [3]
+						1603663095.087, -- [4]
+						21471, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -8980,119 +10484,119 @@ DeathGraphsDBCurrent = {
 					}, -- [17]
 					{
 						false, -- [1]
-						227255, -- [2]
-						222, -- [3]
-						1603309508.161, -- [4]
-						22567, -- [5]
-						"Zethak", -- [6]
+						63106, -- [2]
+						150, -- [3]
+						1603663095.86, -- [4]
+						21621, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [18]
 					{
-						true, -- [1]
-						313283, -- [2]
-						4491, -- [3]
-						1603309508.67, -- [4]
-						18076, -- [5]
-						"Vexiona", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						48, -- [3]
+						1603663096.303, -- [4]
+						21669, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [19]
 					{
-						false, -- [1]
-						143924, -- [2]
-						31, -- [3]
-						1603309508.75, -- [4]
-						18107, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						4, -- [1]
+						309991, -- [2]
+						1, -- [3]
+						1603663096.395, -- [4]
+						21669, -- [5]
+						"Psychus", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [20]
 					{
 						false, -- [1]
-						191840, -- [2]
-						570, -- [3]
-						1603309508.864, -- [4]
-						18677, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						799, -- [3]
+						1603663096.395, -- [4]
+						21669, -- [5]
+						"Devereux", -- [6]
+						true, -- [7]
 						0, -- [8]
-						true, -- [9]
+						false, -- [9]
 						-1, -- [10]
 					}, -- [21]
 					{
-						false, -- [1]
-						6262, -- [2]
-						11212, -- [3]
-						1603309509.152, -- [4]
-						29889, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						309991, -- [2]
+						6617, -- [3]
+						1603663096.395, -- [4]
+						15851, -- [5]
+						"Psychus", -- [6]
+						799, -- [7]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
 						false, -- [1]
-						227255, -- [2]
-						168, -- [3]
-						1603309509.189, -- [4]
-						30057, -- [5]
-						"Zethak", -- [6]
+						270117, -- [2]
+						989, -- [3]
+						1603663096.417, -- [4]
+						16840, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [23]
 					{
-						4, -- [1]
-						307019, -- [2]
-						60, -- [3]
-						1603309510.119, -- [4]
-						30057, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						108366, -- [2]
+						139, -- [3]
+						1603663097.41, -- [4]
+						16840, -- [5]
+						"Devereux", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [24]
 					{
 						true, -- [1]
-						310325, -- [2]
-						24782, -- [3]
-						1603309510.119, -- [4]
-						5275, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
+						309991, -- [2]
+						6618, -- [3]
+						1603663097.41, -- [4]
+						10361, -- [5]
+						"Psychus", -- [6]
+						139, -- [7]
 						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [25]
 					{
 						false, -- [1]
-						227255, -- [2]
-						118, -- [3]
-						1603309510.185, -- [4]
-						5393, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						0, -- [3]
+						1603663097.41, -- [4]
+						10361, -- [5]
+						"Devereux", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [26]
 					{
 						false, -- [1]
-						191840, -- [2]
-						42, -- [3]
-						1603309510.328, -- [4]
-						5435, -- [5]
-						"Altairx", -- [6]
+						143924, -- [2]
+						23, -- [3]
+						1603663097.512, -- [4]
+						10384, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -9100,490 +10604,490 @@ DeathGraphsDBCurrent = {
 					}, -- [27]
 					{
 						false, -- [1]
-						143924, -- [2]
-						17, -- [3]
-						1603309510.386, -- [4]
-						5452, -- [5]
-						"Zethak", -- [6]
+						63106, -- [2]
+						300, -- [3]
+						1603663097.955, -- [4]
+						10684, -- [5]
+						"Devereux", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [28]
 					{
-						4, -- [1]
-						307284, -- [2]
-						1, -- [3]
-						1603309510.739, -- [4]
-						5452, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						108366, -- [2]
+						121, -- [3]
+						1603663098.411, -- [4]
+						10684, -- [5]
+						"Devereux", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [29]
 					{
-						false, -- [1]
-						227255, -- [2]
-						116, -- [3]
-						1603309511.161, -- [4]
-						5568, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
-						0, -- [8]
+						true, -- [1]
+						309991, -- [2]
+						6618, -- [3]
+						1603663098.411, -- [4]
+						4187, -- [5]
+						"Psychus", -- [6]
+						121, -- [7]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
 						false, -- [1]
-						143924, -- [2]
-						16, -- [3]
-						1603309511.594, -- [4]
-						5584, -- [5]
-						"Zethak", -- [6]
-						nil, -- [7]
+						108366, -- [2]
+						0, -- [3]
+						1603663098.411, -- [4]
+						4187, -- [5]
+						"Devereux", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
 						true, -- [1]
-						313283, -- [2]
-						13072, -- [3]
-						1603309511.686, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
+						1, -- [2]
+						10230, -- [3]
+						1603663098.612, -- [4]
+						4187, -- [5]
+						"Psychus", -- [6]
 						nil, -- [7]
-						32, -- [8]
+						1, -- [8]
 						false, -- [9]
-						7488, -- [10]
+						6043, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
-						187827, -- [2]
-						1, -- [3]
-						1603309358.074, -- [4]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
 						0, -- [5]
-						"Zethak", -- [6]
+						"Devereux", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "7m 10s",
+				["time"] = 1603663098.646,
+			}, -- [9]
+			{
+				["maxhealth"] = 16220,
+				["timeofdeath"] = 431.726999999999,
+				["name"] = "Shaan",
+				["events"] = {
+					{
+						false, -- [1]
+						191840, -- [2]
+						19, -- [3]
+						1603663093.048, -- [4]
+						11365, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						162530, -- [2]
+						212, -- [3]
+						1603663093.081, -- [4]
+						11577, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						94472, -- [2]
+						152, -- [3]
+						1603663093.081, -- [4]
+						11729, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						94472, -- [2]
+						444, -- [3]
+						1603663093.279, -- [4]
+						12173, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						116670, -- [2]
+						1914, -- [3]
+						1603663093.385, -- [4]
+						14087, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						191894, -- [2]
+						1005, -- [3]
+						1603663093.399, -- [4]
+						15092, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						271682, -- [2]
+						851, -- [3]
+						1603663093.421, -- [4]
+						15943, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						143924, -- [2]
+						28, -- [3]
+						1603663093.454, -- [4]
+						15971, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						81751, -- [2]
+						72, -- [3]
+						1603663093.495, -- [4]
+						16043, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						94472, -- [2]
+						145, -- [3]
+						1603663093.624, -- [4]
+						16188, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						81751, -- [2]
+						220, -- [3]
+						1603663093.981, -- [4]
+						16408, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						true, -- [1]
+						319346, -- [2]
+						587, -- [3]
+						1603663094.412, -- [4]
+						15821, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						270117, -- [2]
+						378, -- [3]
+						1603663094.452, -- [4]
+						16199, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						81751, -- [2]
+						76, -- [3]
+						1603663094.489, -- [4]
+						16275, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						143924, -- [2]
+						57, -- [3]
+						1603663094.677, -- [4]
+						16332, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						81751, -- [2]
+						218, -- [3]
+						1603663094.69, -- [4]
+						16550, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						81751, -- [2]
+						72, -- [3]
+						1603663094.902, -- [4]
+						16622, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						81751, -- [2]
+						72, -- [3]
+						1603663095.047, -- [4]
+						16694, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						81751, -- [2]
+						17, -- [3]
+						1603663095.229, -- [4]
+						16711, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						4, -- [1]
+						316541, -- [2]
+						1, -- [3]
+						1603663095.443, -- [4]
+						16711, -- [5]
+						"[*] Paranoia", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						143924, -- [2]
+						41, -- [3]
+						1603663095.898, -- [4]
+						16752, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						81751, -- [2]
+						76, -- [3]
+						1603663095.898, -- [4]
+						16828, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						81751, -- [2]
+						73, -- [3]
+						1603663096.461, -- [4]
+						16901, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						81751, -- [2]
+						33, -- [3]
+						1603663096.5, -- [4]
+						16934, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						94472, -- [2]
+						884, -- [3]
+						1603663097.061, -- [4]
+						17040, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						119611, -- [2]
+						192, -- [3]
+						1603663097.317, -- [4]
+						17040, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						81751, -- [2]
+						72, -- [3]
+						1603663097.857, -- [4]
+						17040, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						81751, -- [2]
+						136, -- [3]
+						1603663098.039, -- [4]
+						17040, -- [5]
+						"Eddey", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						true, -- [1]
+						312078, -- [2]
+						1764, -- [3]
+						1603663098.863, -- [4]
+						15276, -- [5]
+						"Spike Tentacle", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						119611, -- [2]
+						192, -- [3]
+						1603663099.089, -- [4]
+						15468, -- [5]
+						"Xycon", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						319346, -- [2]
+						604, -- [3]
+						1603663099.412, -- [4]
+						14864, -- [5]
+						"[*] Infinity's Toll", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						143924, -- [2]
+						58, -- [3]
+						1603663099.548, -- [4]
+						14922, -- [5]
+						"Shaan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Shaan", -- [6]
 					}, -- [33]
 				},
 				["class"] = "DEMONHUNTER",
-				["timestring"] = "5m 47s",
-				["time"] = 1603309511.686,
-			}, -- [9]
-			{
-				["maxhealth"] = 20200,
-				["timeofdeath"] = 348.4750000000004,
-				["name"] = "Rykahpo",
-				["events"] = {
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309506.153, -- [4]
-						6510, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						191840, -- [2]
-						41, -- [3]
-						1603309506.359, -- [4]
-						6551, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						235450, -- [2]
-						2259, -- [3]
-						1603309506.792, -- [4]
-						6551, -- [5]
-						"Rykahpo", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						313283, -- [2]
-						2259, -- [3]
-						1603309506.792, -- [4]
-						6551, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						1, -- [1]
-						45438, -- [2]
-						1, -- [3]
-						1603309506.966, -- [4]
-						6551, -- [5]
-						"Rykahpo", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						77489, -- [2]
-						222, -- [3]
-						1603309507.112, -- [4]
-						6773, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						296184, -- [2]
-						408, -- [3]
-						1603309507.143, -- [4]
-						7181, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						139, -- [2]
-						296, -- [3]
-						1603309507.386, -- [4]
-						7477, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						296184, -- [2]
-						408, -- [3]
-						1603309507.421, -- [4]
-						7885, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						4, -- [1]
-						307284, -- [2]
-						1, -- [3]
-						1603309507.842, -- [4]
-						7885, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309507.842, -- [4]
-						7885, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						191840, -- [2]
-						578, -- [3]
-						1603309508.14, -- [4]
-						8463, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						4, -- [1]
-						307019, -- [2]
-						19, -- [3]
-						1603309508.284, -- [4]
-						8463, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						235450, -- [2]
-						207, -- [3]
-						1603309508.284, -- [4]
-						8463, -- [5]
-						"Rykahpo", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						296003, -- [2]
-						92, -- [3]
-						1603309508.284, -- [4]
-						8463, -- [5]
-						"Altairx", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						307317, -- [2]
-						2012, -- [3]
-						1603309508.284, -- [4]
-						6750, -- [5]
-						"Vexiona", -- [6]
-						299, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						4, -- [1]
-						307019, -- [2]
-						20, -- [3]
-						1603309508.284, -- [4]
-						6750, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						307317, -- [2]
-						2012, -- [3]
-						1603309508.284, -- [4]
-						4738, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309508.349, -- [4]
-						4738, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309508.349, -- [4]
-						4738, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309508.375, -- [4]
-						4738, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						191840, -- [2]
-						83, -- [3]
-						1603309509.27, -- [4]
-						4821, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						4, -- [1]
-						307284, -- [2]
-						1, -- [3]
-						1603309509.368, -- [4]
-						4821, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						313283, -- [2]
-						3234, -- [3]
-						1603309509.805, -- [4]
-						1587, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						269238, -- [2]
-						745, -- [3]
-						1603309509.942, -- [4]
-						2332, -- [5]
-						"Rykahpo", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						139, -- [2]
-						273, -- [3]
-						1603309510.019, -- [4]
-						2605, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						77489, -- [2]
-						284, -- [3]
-						1603309510.119, -- [4]
-						2889, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						191840, -- [2]
-						83, -- [3]
-						1603309510.701, -- [4]
-						2972, -- [5]
-						"Altairx", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						269238, -- [2]
-						1499, -- [3]
-						1603309511.704, -- [4]
-						4471, -- [5]
-						"Rykahpo", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						4, -- [1]
-						307343, -- [2]
-						1, -- [3]
-						1603309512.46, -- [4]
-						4471, -- [5]
-						"Vexiona", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						139, -- [2]
-						273, -- [3]
-						1603309512.757, -- [4]
-						4744, -- [5]
-						"Alloe", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						313283, -- [2]
-						6249, -- [3]
-						1603309512.858, -- [4]
-						1, -- [5]
-						"Vexiona", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						1505, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						45438, -- [2]
-						1, -- [3]
-						1603309506.966, -- [4]
-						0, -- [5]
-						"Rykahpo", -- [6]
-					}, -- [33]
-				},
-				["class"] = "MAGE",
-				["timestring"] = "5m 48s",
-				["time"] = 1603309512.858,
+				["timestring"] = "7m 11s",
+				["time"] = 1603663099.996,
 			}, -- [10]
 		},
-		["bossname"] = "Vexiona",
+		["bossname"] = "N'Zoth the Corruptor",
 		["bossicon"] = {
-			0, -- [1]
-			0.25, -- [2]
+			0.75, -- [1]
+			1, -- [2]
 			0.5, -- [3]
 			0.75, -- [4]
 			"Interface\\AddOns\\Details\\images\\raid\\NyalothaRaid_BossFaces", -- [5]
 		},
-		["date"] = 8605.692000000001,
-		["timeelapsed"] = 358.0010000000002,
+		["date"] = 11649.754,
+		["timeelapsed"] = 432.3739999999998,
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
@@ -9601,6 +11105,26 @@ DeathGraphsDBGraph = {
 				1602963635, -- [3]
 				1602963635, -- [4]
 				1602963635, -- [5]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["237415"] = {
+		["deaths"] = {
+			[168] = {
+				1603660199, -- [1]
+			},
+			[280] = {
+				1603660199, -- [1]
+			},
+			[265] = {
+				1603660199, -- [1]
+			},
+			[272] = {
+				1603660199, -- [1]
 			},
 		},
 		["spells"] = {
@@ -9629,52 +11153,121 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
+	["236915"] = {
+		["deaths"] = {
+			[184] = {
+				1603305028, -- [1]
+				1603305028, -- [2]
+			},
+			[174] = {
+				1603305028, -- [1]
+			},
+			[149] = {
+				1603305593, -- [1]
+			},
+			[146] = {
+				1603305028, -- [1]
+			},
+			[111] = {
+				1603305593, -- [1]
+				1603305593, -- [2]
+			},
+			[62] = {
+				1603305028, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
 	["237515"] = {
 		["deaths"] = {
-			[198] = {
-				1603142842, -- [1]
-			},
-			[54] = {
-				1603142287, -- [1]
-			},
-			[428] = {
-				1603141923, -- [1]
-			},
-			[230] = {
-				1603142287, -- [1]
-			},
-			[430] = {
-				1603141923, -- [1]
-			},
-			[216] = {
-				1603142287, -- [1]
+			[386] = {
+				1603664420, -- [1]
 			},
 			[278] = {
 				1603141923, -- [1]
 			},
+			[410] = {
+				1603663101, -- [1]
+			},
+			[33] = {
+				1603662598, -- [1]
+			},
 			[403] = {
 				1603141923, -- [1]
+			},
+			[256] = {
+				1603664420, -- [1]
+			},
+			[198] = {
+				1603142842, -- [1]
+			},
+			[272] = {
+				1603142842, -- [1]
+			},
+			[466] = {
+				1603664420, -- [1]
+			},
+			[288] = {
+				1603662598, -- [1]
+				1603662598, -- [2]
+				1603663101, -- [3]
+			},
+			[514] = {
+				1603664420, -- [1]
+			},
+			[273] = {
+				1603142842, -- [1]
+			},
+			[253] = {
+				1603662598, -- [1]
+			},
+			[258] = {
+				1603142842, -- [1]
+			},
+			[230] = {
+				1603142287, -- [1]
+			},
+			[234] = {
+				1603142287, -- [1]
+			},
+			[539] = {
+				1603664420, -- [1]
+			},
+			[284] = {
+				1603662598, -- [1]
+			},
+			[430] = {
+				1603141923, -- [1]
+			},
+			[385] = {
+				1603663101, -- [1]
+			},
+			[415] = {
+				1603663101, -- [1]
+			},
+			[52] = {
+				1603663101, -- [1]
+			},
+			[428] = {
+				1603141923, -- [1]
+			},
+			[54] = {
+				1603142287, -- [1]
+			},
+			[416] = {
+				1603141923, -- [1]
+			},
+			[216] = {
+				1603142287, -- [1]
 			},
 			[57] = {
 				1603142842, -- [1]
 			},
 			[233] = {
 				1603142287, -- [1]
-			},
-			[234] = {
-				1603142287, -- [1]
-			},
-			[272] = {
-				1603142842, -- [1]
-			},
-			[258] = {
-				1603142842, -- [1]
-			},
-			[273] = {
-				1603142842, -- [1]
-			},
-			[416] = {
-				1603141923, -- [1]
 			},
 		},
 		["spells"] = {
@@ -9744,6 +11337,44 @@ DeathGraphsDBGraph = {
 		["ids"] = {
 		},
 	},
+	["236516"] = {
+		["deaths"] = {
+			[79] = {
+				1603135815, -- [1]
+			},
+			[81] = {
+				1603135815, -- [1]
+			},
+			[44] = {
+				1603135815, -- [1]
+			},
+			[91] = {
+				1603135815, -- [1]
+				1603135815, -- [2]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["236715"] = {
+		["deaths"] = {
+			[121] = {
+				1603659527, -- [1]
+			},
+			[192] = {
+				1603659527, -- [1]
+			},
+			[49] = {
+				1603659527, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
 	["236815"] = {
 		["deaths"] = {
 			[70] = {
@@ -9751,55 +11382,6 @@ DeathGraphsDBGraph = {
 			},
 			[146] = {
 				1603304241, -- [1]
-			},
-		},
-		["spells"] = {
-		},
-		["ids"] = {
-		},
-	},
-	["236915"] = {
-		["deaths"] = {
-			[149] = {
-				1603305593, -- [1]
-			},
-			[174] = {
-				1603305028, -- [1]
-			},
-			[184] = {
-				1603305028, -- [1]
-				1603305028, -- [2]
-			},
-			[62] = {
-				1603305028, -- [1]
-			},
-			[111] = {
-				1603305593, -- [1]
-				1603305593, -- [2]
-			},
-			[146] = {
-				1603305028, -- [1]
-			},
-		},
-		["spells"] = {
-		},
-		["ids"] = {
-		},
-	},
-	["236516"] = {
-		["deaths"] = {
-			[79] = {
-				1603135815, -- [1]
-			},
-			[44] = {
-				1603135815, -- [1]
-			},
-			[81] = {
-				1603135815, -- [1]
-			},
-			[91] = {
-				1603135815, -- [1]
-				1603135815, -- [2]
 			},
 		},
 		["spells"] = {
@@ -9830,28 +11412,54 @@ DeathGraphsDBGraph = {
 	},
 	["236615"] = {
 		["deaths"] = {
-			[217] = {
-				1602966984, -- [1]
-				1602966984, -- [2]
-			},
-			[37] = {
-				1602966984, -- [1]
-				1603141336, -- [2]
-			},
-			[145] = {
-				1602966984, -- [1]
-			},
-			[97] = {
-				1602966984, -- [1]
-			},
-			[394] = {
+			[440] = {
 				1603141336, -- [1]
 			},
 			[457] = {
 				1603141336, -- [1]
 			},
-			[440] = {
+			[37] = {
+				1602966984, -- [1]
+				1603141336, -- [2]
+			},
+			[445] = {
+				1603661955, -- [1]
+			},
+			[97] = {
+				1602966984, -- [1]
+			},
+			[357] = {
+				1603661955, -- [1]
+			},
+			[217] = {
+				1602966984, -- [1]
+				1602966984, -- [2]
+			},
+			[68] = {
+				1603661955, -- [1]
+			},
+			[439] = {
+				1603661955, -- [1]
+			},
+			[375] = {
+				1603661955, -- [1]
+			},
+			[394] = {
 				1603141336, -- [1]
+			},
+			[145] = {
+				1602966984, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["237215"] = {
+		["deaths"] = {
+			[130] = {
+				1602965198, -- [1]
 			},
 		},
 		["spells"] = {
@@ -9876,16 +11484,11 @@ DeathGraphsDBGraph = {
 			[188] = {
 				1602966165, -- [1]
 			},
-		},
-		["spells"] = {
-		},
-		["ids"] = {
-		},
-	},
-	["237215"] = {
-		["deaths"] = {
-			[130] = {
-				1602965198, -- [1]
+			[178] = {
+				1603658083, -- [1]
+			},
+			[246] = {
+				1603658083, -- [1]
 			},
 		},
 		["spells"] = {
