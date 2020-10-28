@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0401,
+	["LastPlayerFullName"] = "Rykahshaman-Frostmane",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122246,
@@ -89,9 +92,6 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122392::::::::27:264:::1:582::::|h[Weathered Observer's Shield]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Rykahshaman-Frostmane",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

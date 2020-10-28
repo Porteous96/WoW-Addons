@@ -70,9 +70,9 @@ PawnOptions = {
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 21,
+			["Level"] = 22,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::17:66:::1:3592::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::18:65:::1:3592::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122260,

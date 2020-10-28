@@ -1,111 +1,11 @@
 
 DeathGraphsDBDeaths = {
-	["236415"] = {
-		["hash"] = "236415",
-		["type"] = "deaths",
-		["name"] = "Ra-den the Despoiled",
-		["id"] = 2364,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2331,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Ra-den the Despoiled",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Ra-den the Despoiled",
-		},
-		["player_db"] = {
-			["Shaan"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Shaan",
-			},
-			["Coldaras"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Coldaras",
-			},
-			["Lízzie"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lízzie",
-			},
-			["Rykahpoh"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Rykahpoh",
-			},
-			["Slyxhmsterez-Sylvanas"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Slyxhmsterez-Sylvanas",
-			},
-			["Vaffa-Antonidas"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Vaffa-Antonidas",
-			},
-			["Mogwah-Malygos"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Mogwah-Malygos",
-			},
-			["Alloe"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Alloe",
-			},
-			["Talrog-Antonidas"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Talrog-Antonidas",
-			},
-			["Devereux"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Devereux",
-			},
-		},
-		["diff"] = 15,
-	},
 	["237215"] = {
 		["hash"] = "237215",
 		["type"] = "deaths",
 		["name"] = "The Hivemind",
 		["id"] = 2372,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 5,
@@ -114,214 +14,202 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "The Hivemind",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["encounter"] = "The Hivemind",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
 		},
 		["player_db"] = {
 			["Shaan"] = {
+				["name"] = "Shaan",
 				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Shaan",
+				["deaths"] = {
+				},
 			},
 			["Coldaras"] = {
+				["name"] = "Coldaras",
 				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Coldaras",
+				["deaths"] = {
+				},
 			},
 			["Lízzie"] = {
+				["name"] = "Lízzie",
 				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Lízzie",
+				["deaths"] = {
+				},
 			},
 			["Rykahpoh"] = {
+				["name"] = "Rykahpoh",
 				["class"] = "MONK",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Rykahpoh",
+				["deaths"] = {
+				},
 			},
 			["Slyxhmsterez-Sylvanas"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
 				["name"] = "Slyxhmsterez-Sylvanas",
-			},
-			["Vaffa-Antonidas"] = {
 				["class"] = "ROGUE",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Vaffa-Antonidas",
-			},
-			["Mogwah-Malygos"] = {
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["overall"] = {
-				},
-				["name"] = "Mogwah-Malygos",
-			},
-			["Nèscix-Hyjal"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Nèscix-Hyjal",
-			},
-			["Talrog-Antonidas"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Talrog-Antonidas",
 			},
 			["Cérbérus"] = {
+				["name"] = "Cérbérus",
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Cérbérus",
+				["deaths"] = {
+				},
+			},
+			["Mogwah-Malygos"] = {
+				["name"] = "Mogwah-Malygos",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Nèscix-Hyjal"] = {
+				["name"] = "Nèscix-Hyjal",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Talrog-Antonidas"] = {
+				["name"] = "Talrog-Antonidas",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Vaffa-Antonidas"] = {
+				["name"] = "Vaffa-Antonidas",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 		},
+	},
+	["236415"] = {
+		["hash"] = "236415",
+		["type"] = "deaths",
+		["name"] = "Ra-den the Despoiled",
+		["id"] = 2364,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2331,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Ra-den the Despoiled",
+			["encounter"] = "Ra-den the Despoiled",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
+		},
+		["player_db"] = {
+			["Shaan"] = {
+				["name"] = "Shaan",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Coldaras"] = {
+				["name"] = "Coldaras",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Lízzie"] = {
+				["name"] = "Lízzie",
+				["class"] = "WARRIOR",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Rykahpoh"] = {
+				["name"] = "Rykahpoh",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				["name"] = "Slyxhmsterez-Sylvanas",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Devereux"] = {
+				["name"] = "Devereux",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mogwah-Malygos"] = {
+				["name"] = "Mogwah-Malygos",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Alloe"] = {
+				["name"] = "Alloe",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Talrog-Antonidas"] = {
+				["name"] = "Talrog-Antonidas",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Vaffa-Antonidas"] = {
+				["name"] = "Vaffa-Antonidas",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 }
 DeathGraphsDBEndurance = {
-	["236415"] = {
-		["hash"] = "236415",
-		["type"] = "endurance",
-		["name"] = "Ra-den the Despoiled",
-		["id"] = 2364,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2331,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Ra-den the Despoiled",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Ra-den the Despoiled",
-		},
-		["player_db"] = {
-			["Shaan"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Coldaras"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						2, -- [1]
-						49.45200000000023, -- [2]
-						"Void Collapse |cFFFF333353,871|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Lízzie"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-					{
-						2, -- [1]
-						87.60499999999956, -- [2]
-						"Unstable Vita |cFFFF333322,413|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Rykahpoh"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Vaffa-Antonidas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Slyxhmsterez-Sylvanas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Devereux"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mogwah-Malygos"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						2, -- [1]
-						94.3100000000004, -- [2]
-						"Unstable Vita |cFFFF333327,981|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Alloe"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Talrog-Antonidas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Cérbérus"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-		},
-		["diff"] = 15,
-	},
 	["237215"] = {
 		["hash"] = "237215",
 		["type"] = "endurance",
 		["name"] = "The Hivemind",
 		["id"] = 2372,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 5,
@@ -330,15 +218,14 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 2217,
 			["try_number"] = 1,
 			["name"] = "The Hivemind",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
 			["encounter"] = "The Hivemind",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
 		},
 		["player_db"] = {
 			["Shaan"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -346,11 +233,11 @@ DeathGraphsDBEndurance = {
 						"Corrosion (DoT) |cFFFF33332,198|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Coldaras"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -358,67 +245,25 @@ DeathGraphsDBEndurance = {
 						"Psionic Resonance |cFFFF33331,621|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Lízzie"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["Rykahpoh"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["deaths"] = {
+				},
 				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Nèscix-Hyjal"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Slyxhmsterez-Sylvanas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Vaffa-Antonidas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Mogwah-Malygos"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Alloe"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Talrog-Antonidas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
 			},
 			["Cérbérus"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -426,9 +271,164 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF33331,900|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARLOCK",
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Vaffa-Antonidas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Mogwah-Malygos"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Alloe"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Talrog-Antonidas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Nèscix-Hyjal"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
 			},
 		},
+	},
+	["236415"] = {
+		["hash"] = "236415",
+		["type"] = "endurance",
+		["name"] = "Ra-den the Despoiled",
+		["id"] = 2364,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2331,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Ra-den the Despoiled",
+			["encounter"] = "Ra-den the Despoiled",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
+		},
+		["player_db"] = {
+			["Shaan"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Coldaras"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						2, -- [1]
+						49.45200000000023, -- [2]
+						"Void Collapse |cFFFF333353,871|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Lízzie"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						2, -- [1]
+						87.60499999999956, -- [2]
+						"Unstable Vita |cFFFF333322,413|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARRIOR",
+			},
+			["Rykahpoh"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Cérbérus"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Devereux"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Mogwah-Malygos"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						2, -- [1]
+						94.3100000000004, -- [2]
+						"Unstable Vita |cFFFF333327,981|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PRIEST",
+			},
+			["Alloe"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Talrog-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Vaffa-Antonidas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+		},
 	},
 }
 DeathGraphsDBCurrent = {
@@ -438,6 +438,9 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 20540,
 				["timeofdeath"] = 49.45200000000023,
 				["name"] = "Coldaras",
+				["time"] = 1603656981.978,
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "0m 49s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -796,14 +799,14 @@ DeathGraphsDBCurrent = {
 						"Coldaras", -- [6]
 					}, -- [34]
 				},
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "0m 49s",
-				["time"] = 1603656981.978,
 			}, -- [1]
 			{
 				["maxhealth"] = 35706,
 				["timeofdeath"] = 87.60499999999956,
 				["name"] = "Lízzie",
+				["time"] = 1603657020.131,
+				["class"] = "WARRIOR",
+				["timestring"] = "1m 27s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -1176,14 +1179,14 @@ DeathGraphsDBCurrent = {
 						"Lízzie", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARRIOR",
-				["timestring"] = "1m 27s",
-				["time"] = 1603657020.131,
 			}, -- [2]
 			{
 				["maxhealth"] = 19960,
 				["timeofdeath"] = 94.3100000000004,
 				["name"] = "Mogwah-Malygos",
+				["time"] = 1603657026.836,
+				["class"] = "PRIEST",
+				["timestring"] = "1m 34s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -1500,14 +1503,14 @@ DeathGraphsDBCurrent = {
 						"Mogwah-Malygos", -- [6]
 					}, -- [29]
 				},
-				["class"] = "PRIEST",
-				["timestring"] = "1m 34s",
-				["time"] = 1603657026.836,
 			}, -- [3]
 			{
 				["maxhealth"] = 24800,
 				["timeofdeath"] = 110.0370000000003,
 				["name"] = "Rykahpoh",
+				["time"] = 1603657042.563,
+				["class"] = "MONK",
+				["timestring"] = "1m 50s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -1902,14 +1905,14 @@ DeathGraphsDBCurrent = {
 						"Rykahpoh", -- [6]
 					}, -- [33]
 				},
-				["class"] = "MONK",
-				["timestring"] = "1m 50s",
-				["time"] = 1603657042.563,
 			}, -- [4]
 			{
 				["maxhealth"] = 21960,
 				["timeofdeath"] = 114.0429999999997,
 				["name"] = "Devereux",
+				["time"] = 1603657046.569,
+				["class"] = "WARLOCK",
+				["timestring"] = "1m 54s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2270,14 +2273,14 @@ DeathGraphsDBCurrent = {
 						"Devereux", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "1m 54s",
-				["time"] = 1603657046.569,
 			}, -- [5]
 			{
 				["maxhealth"] = 20280,
 				["timeofdeath"] = 118.1859999999997,
 				["name"] = "Slyxhmsterez-Sylvanas",
+				["time"] = 1603657050.712,
+				["class"] = "ROGUE",
+				["timestring"] = "1m 58s",
 				["events"] = {
 					{
 						1, -- [1]
@@ -2632,14 +2635,14 @@ DeathGraphsDBCurrent = {
 						"Slyxhmsterez-Sylvanas", -- [6]
 					}, -- [33]
 				},
-				["class"] = "ROGUE",
-				["timestring"] = "1m 58s",
-				["time"] = 1603657050.712,
 			}, -- [6]
 			{
 				["maxhealth"] = 18460,
 				["timeofdeath"] = 122.5609999999997,
 				["name"] = "Talrog-Antonidas",
+				["time"] = 1603657055.087,
+				["class"] = "SHAMAN",
+				["timestring"] = "2m 2s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2932,14 +2935,14 @@ DeathGraphsDBCurrent = {
 						"Talrog-Antonidas", -- [6]
 					}, -- [27]
 				},
-				["class"] = "SHAMAN",
-				["timestring"] = "2m 2s",
-				["time"] = 1603657055.087,
 			}, -- [7]
 			{
 				["maxhealth"] = 20720,
 				["timeofdeath"] = 135.9380000000001,
 				["name"] = "Alloe",
+				["time"] = 1603657068.464,
+				["class"] = "PRIEST",
+				["timestring"] = "2m 15s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3302,14 +3305,14 @@ DeathGraphsDBCurrent = {
 						"Alloe", -- [6]
 					}, -- [33]
 				},
-				["class"] = "PRIEST",
-				["timestring"] = "2m 15s",
-				["time"] = 1603657068.464,
 			}, -- [8]
 			{
 				["maxhealth"] = 19340,
 				["timeofdeath"] = 139.6570000000002,
 				["name"] = "Vaffa-Antonidas",
+				["time"] = 1603657072.183,
+				["class"] = "ROGUE",
+				["timestring"] = "2m 19s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3666,14 +3669,14 @@ DeathGraphsDBCurrent = {
 						"Vaffa-Antonidas", -- [6]
 					}, -- [33]
 				},
-				["class"] = "ROGUE",
-				["timestring"] = "2m 19s",
-				["time"] = 1603657072.183,
 			}, -- [9]
 			{
 				["maxhealth"] = 15700,
 				["timeofdeath"] = 144.2139999999999,
 				["name"] = "Shaan",
+				["time"] = 1603657076.74,
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "2m 24s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3884,9 +3887,6 @@ DeathGraphsDBCurrent = {
 						"Shaan", -- [6]
 					}, -- [19]
 				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "2m 24s",
-				["time"] = 1603657076.74,
 			}, -- [10]
 		},
 		["bossname"] = "Ra-den the Despoiled",
@@ -3906,6 +3906,9 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 15700,
 				["timeofdeath"] = 131.2429999999999,
 				["name"] = "Shaan",
+				["time"] = 1603655658.071,
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "2m 11s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4300,14 +4303,14 @@ DeathGraphsDBCurrent = {
 						"Shaan", -- [6]
 					}, -- [33]
 				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "2m 11s",
-				["time"] = 1603655658.071,
 			}, -- [1]
 			{
 				["maxhealth"] = 20540,
 				["timeofdeath"] = 188.7530000000002,
 				["name"] = "Coldaras",
+				["time"] = 1603655715.581,
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "3m 8s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -4702,14 +4705,14 @@ DeathGraphsDBCurrent = {
 						"Coldaras", -- [6]
 					}, -- [33]
 				},
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "3m 8s",
-				["time"] = 1603655715.581,
 			}, -- [2]
 			{
 				["maxhealth"] = 20900,
 				["timeofdeath"] = 241.4289999999996,
 				["name"] = "Cérbérus",
+				["time"] = 1603655768.257,
+				["class"] = "WARLOCK",
+				["timestring"] = "4m 1s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -5104,14 +5107,14 @@ DeathGraphsDBCurrent = {
 						"Cérbérus", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "4m 1s",
-				["time"] = 1603655768.257,
 			}, -- [3]
 			{
 				["maxhealth"] = 24800,
 				["timeofdeath"] = 253.5859999999998,
 				["name"] = "Rykahpoh",
+				["time"] = 1603655780.414,
+				["class"] = "MONK",
+				["timestring"] = "4m 13s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -5506,14 +5509,14 @@ DeathGraphsDBCurrent = {
 						"Rykahpoh", -- [6]
 					}, -- [33]
 				},
-				["class"] = "MONK",
-				["timestring"] = "4m 13s",
-				["time"] = 1603655780.414,
 			}, -- [4]
 			{
 				["maxhealth"] = 19340,
 				["timeofdeath"] = 258.078,
 				["name"] = "Vaffa-Antonidas",
+				["time"] = 1603655784.906,
+				["class"] = "ROGUE",
+				["timestring"] = "4m 18s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -5908,14 +5911,14 @@ DeathGraphsDBCurrent = {
 						"Vaffa-Antonidas", -- [6]
 					}, -- [33]
 				},
-				["class"] = "ROGUE",
-				["timestring"] = "4m 18s",
-				["time"] = 1603655784.906,
 			}, -- [5]
 			{
 				["maxhealth"] = 18460,
 				["timeofdeath"] = 260.2989999999995,
 				["name"] = "Talrog-Antonidas",
+				["time"] = 1603655787.127,
+				["class"] = "SHAMAN",
+				["timestring"] = "4m 20s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -6310,14 +6313,14 @@ DeathGraphsDBCurrent = {
 						"Talrog-Antonidas", -- [6]
 					}, -- [33]
 				},
-				["class"] = "SHAMAN",
-				["timestring"] = "4m 20s",
-				["time"] = 1603655787.127,
 			}, -- [6]
 			{
 				["maxhealth"] = 19540,
 				["timeofdeath"] = 265.5259999999994,
 				["name"] = "Nèscix-Hyjal",
+				["time"] = 1603655792.354,
+				["class"] = "HUNTER",
+				["timestring"] = "4m 25s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -6712,14 +6715,14 @@ DeathGraphsDBCurrent = {
 						"Nèscix-Hyjal", -- [6]
 					}, -- [33]
 				},
-				["class"] = "HUNTER",
-				["timestring"] = "4m 25s",
-				["time"] = 1603655792.354,
 			}, -- [7]
 			{
 				["maxhealth"] = 35706,
 				["timeofdeath"] = 265.7539999999995,
 				["name"] = "Lízzie",
+				["time"] = 1603655792.582,
+				["class"] = "WARRIOR",
+				["timestring"] = "4m 25s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -7114,14 +7117,14 @@ DeathGraphsDBCurrent = {
 						"Lízzie", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARRIOR",
-				["timestring"] = "4m 25s",
-				["time"] = 1603655792.582,
 			}, -- [8]
 			{
 				["maxhealth"] = 20280,
 				["timeofdeath"] = 266.8519999999994,
 				["name"] = "Slyxhmsterez-Sylvanas",
+				["time"] = 1603655793.68,
+				["class"] = "ROGUE",
+				["timestring"] = "4m 26s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -7516,14 +7519,14 @@ DeathGraphsDBCurrent = {
 						"Slyxhmsterez-Sylvanas", -- [6]
 					}, -- [33]
 				},
-				["class"] = "ROGUE",
-				["timestring"] = "4m 26s",
-				["time"] = 1603655793.68,
 			}, -- [9]
 			{
 				["maxhealth"] = 21000,
 				["timeofdeath"] = 267.1669999999999,
 				["name"] = "Mogwah-Malygos",
+				["time"] = 1603655793.995,
+				["class"] = "PRIEST",
+				["timestring"] = "4m 27s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -7918,9 +7921,6 @@ DeathGraphsDBCurrent = {
 						"Mogwah-Malygos", -- [6]
 					}, -- [33]
 				},
-				["class"] = "PRIEST",
-				["timestring"] = "4m 27s",
-				["time"] = 1603655793.995,
 			}, -- [10]
 		},
 		["bossname"] = "The Hivemind",
@@ -7936,29 +7936,6 @@ DeathGraphsDBCurrent = {
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
-	["236415"] = {
-		["deaths"] = {
-			[94] = {
-				1603657082, -- [1]
-			},
-			[110] = {
-				1603657082, -- [1]
-			},
-			[114] = {
-				1603657082, -- [1]
-			},
-			[49] = {
-				1603657082, -- [1]
-			},
-			[87] = {
-				1603657082, -- [1]
-			},
-		},
-		["spells"] = {
-		},
-		["ids"] = {
-		},
-	},
 	["237215"] = {
 		["deaths"] = {
 			[253] = {
@@ -7975,6 +7952,29 @@ DeathGraphsDBGraph = {
 			},
 			[258] = {
 				1603655796, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["236415"] = {
+		["deaths"] = {
+			[94] = {
+				1603657082, -- [1]
+			},
+			[110] = {
+				1603657082, -- [1]
+			},
+			[114] = {
+				1603657082, -- [1]
+			},
+			[49] = {
+				1603657082, -- [1]
+			},
+			[87] = {
+				1603657082, -- [1]
 			},
 		},
 		["spells"] = {

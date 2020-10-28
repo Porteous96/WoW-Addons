@@ -52,3 +52,4 @@ WorldQuestsList: disabled
 WIT: disabled
 ElvUI_QuestXP: disabled
 LittleWigs: enabled
+Immersion: enabled

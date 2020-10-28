@@ -4,8 +4,9 @@ HandyNotesDraenorDB = {
 		["Rykahpoh - Frostmane"] = "Default",
 		["Rykahshaman - Frostmane"] = "Default",
 		["Rykahwar - Frostmane"] = "Default",
-		["Rykahpala - Frostmane"] = "Default",
 		["Rykahpo - Frostmane"] = "Default",
+		["Rykahpala - Frostmane"] = "Default",
+		["Rÿkah - Frostmane"] = "Default",
 		["Rykahtwo - Frostmane"] = "Default",
 	},
 	["profiles"] = {

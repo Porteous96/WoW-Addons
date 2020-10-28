@@ -30,7 +30,7 @@ ExRT: disabled
 FasterLoot: disabled
 Grid: disabled
 GarrisonMissionManager: disabled
-Immersion: disabled
+Immersion: enabled
 InstanceAchievementTracker: disabled
 InstanceAutoMarker: disabled
 LootAppraiser: disabled

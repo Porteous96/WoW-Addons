@@ -45,7 +45,7 @@ WeakAurasArchive: enabled
 LootAppraiser_Challenge: disabled
 EasyScrap: disabled
 LootAppraiser: disabled
-Immersion: disabled
+Immersion: enabled
 BigWigs_Nyalotha: enabled
 ElvUI_OptionsUI: enabled
 BigWigs_BattleOfDazaralor: enabled

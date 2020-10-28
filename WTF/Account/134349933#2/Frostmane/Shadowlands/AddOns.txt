@@ -10,7 +10,7 @@ XaneshPractice: enabled
 LootAppraiser_Challenge: disabled
 EasyScrap: disabled
 LootAppraiser: disabled
-Immersion: disabled
+Immersion: enabled
 OPie: disabled
 ElvUI: disabled
 AddOnSkins: disabled

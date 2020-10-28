@@ -129,3 +129,4 @@ LootAppraiser_Challenge: disabled
 NOP: disabled
 WorldQuestParty: disabled
 WorldQuestGroupFinder: disabled
+Immersion: enabled

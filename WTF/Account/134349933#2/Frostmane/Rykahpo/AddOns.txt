@@ -20,7 +20,7 @@ LittleWigs: enabled
 BigWigs_Cataclysm: enabled
 BigWigs_Antorus: enabled
 MethodAltManager: disabled
-Grid: enabled
+Grid: disabled
 GridIndicatorCornerIcons: enabled
 ElvUI_EverySecondCounts: disabled
 AngryWorldQuests: disabled
@@ -66,7 +66,7 @@ XaneshPractice: enabled
 LootAppraiser_Challenge: disabled
 EasyScrap: disabled
 LootAppraiser: disabled
-Immersion: disabled
+Immersion: enabled
 ElvUI_DTBars2: disabled
 ElvUI: enabled
 AddOnSkins: enabled

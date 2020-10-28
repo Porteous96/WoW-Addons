@@ -108,3 +108,4 @@ ElvUI_SLE: disabled
 AAP-Core: enabled
 AAP-EasternKingdoms: enabled
 AAP-Shadowlands: enabled
+Immersion: enabled

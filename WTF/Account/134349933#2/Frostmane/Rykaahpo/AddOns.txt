@@ -41,7 +41,7 @@ WeakAurasArchive: disabled
 LootAppraiser_Challenge: disabled
 EasyScrap: disabled
 LootAppraiser: disabled
-Immersion: disabled
+Immersion: enabled
 ElvUI_OptionsUI: disabled
 ElvUI: disabled
 AddOnSkins: disabled

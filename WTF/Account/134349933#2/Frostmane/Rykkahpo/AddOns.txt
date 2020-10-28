@@ -41,7 +41,7 @@ WeakAurasArchive: disabled
 LootAppraiser_Challenge: disabled
 EasyScrap: disabled
 LootAppraiser: disabled
-Immersion: disabled
+Immersion: enabled
 LittleWigs: disabled
 ElvUI_DTBars2: disabled
 ElvUI: disabled

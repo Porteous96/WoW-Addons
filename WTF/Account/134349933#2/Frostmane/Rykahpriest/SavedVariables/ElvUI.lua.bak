@@ -1,270 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i who was it", -- [1]
-		"/i cheers for th runs", -- [2]
-		"/i i should get enchants", -- [3]
-		"/i saved us there", -- [4]
-		"/i yeah i know", -- [5]
-		"/i what are you doing", -- [6]
-		"/i queue us for a 5th player", -- [7]
-		"/i wtf you do so much dmg", -- [8]
-		"/i they all are lol", -- [9]
-		"/i FFS", -- [10]
-		"/i im out", -- [11]
-		"/i ty shammy", -- [12]
-		"/i are do doing all bosses?", -- [13]
-		"/grid", -- [14]
-		"/aap", -- [15]
-		"/tsm", -- [16]
-		"/played", -- [17]
-		"we intel it", -- [18]
-		"fug am i enjoying this about 1% of the amount i enjoyed bear", -- [19]
-		"/aap skip", -- [20]
+		"/i cheers for th runs", -- [1]
+		"/i i should get enchants", -- [2]
+		"/i saved us there", -- [3]
+		"/i yeah i know", -- [4]
+		"/i what are you doing", -- [5]
+		"/i queue us for a 5th player", -- [6]
+		"/i wtf you do so much dmg", -- [7]
+		"/i they all are lol", -- [8]
+		"/i FFS", -- [9]
+		"/i im out", -- [10]
+		"/i ty shammy", -- [11]
+		"/i are do doing all bosses?", -- [12]
+		"/grid", -- [13]
+		"/aap", -- [14]
+		"/tsm", -- [15]
+		"/played", -- [16]
+		"we intel it", -- [17]
+		"fug am i enjoying this about 1% of the amount i enjoyed bear", -- [18]
+		"/aap skip", -- [19]
+		"/s ayy malhas my dude", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"lol", -- [1]
-			"Vàrìàn-Nemesis", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Vàrìàn-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1068, -- [11]
-			"Player-1316-0B19C0A9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Vàrìàn-Nemesis|r",
-			[51] = 1589063636,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [1]
-		{
-			"first tank", -- [1]
-			"Vàrìàn-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vàrìàn-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1069, -- [11]
-			"Player-1316-0B19C0A9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Vàrìàn-Nemesis|r",
-			[51] = 1589063643,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [2]
-		{
-			"not enjoy any of those classes?", -- [1]
-			"Vàrìàn-Nemesis", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Vàrìàn-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1070, -- [11]
-			"Player-1316-0B19C0A9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Vàrìàn-Nemesis|r",
-			[51] = 1589063661,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [3]
-		{
-			"tank the mobs in front of cannons up here", -- [1]
-			"Vàrìàn-Nemesis", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Vàrìàn-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1105, -- [11]
-			"Player-1316-0B19C0A9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Vàrìàn-Nemesis|r",
-			[51] = 1589063795,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [4]
-		{
-			"so we can shoot them", -- [1]
-			"Vàrìàn-Nemesis", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Vàrìàn-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1107, -- [11]
-			"Player-1316-0B19C0A9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Vàrìàn-Nemesis|r",
-			[51] = 1589063799,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [5]
-		{
-			"rez pls", -- [1]
-			"Kellïanne-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kellïanne-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1123, -- [11]
-			"Player-3391-0B1D4932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcKellïanne-Silvermoon|r",
-			[51] = 1589063876,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"ty", -- [1]
-			"Kellïanne-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kellïanne-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1126, -- [11]
-			"Player-3391-0B1D4932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcKellïanne-Silvermoon|r",
-			[51] = 1589063904,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
-		{
-			"yw", -- [1]
-			"Rykahpriest-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpriest-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1127, -- [11]
-			"Player-1300-0B1D8D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeRykahpriest|r",
-			[51] = 1589063911,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [8]
-		{
-			"ty and by", -- [1]
-			"Kellïanne-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kellïanne-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1176, -- [11]
-			"Player-3391-0B1D4932", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcKellïanne-Silvermoon|r",
-			[51] = 1589064097,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"just chain pull", -- [1]
-			"Rykahpriest-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpriest-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1269, -- [11]
-			"Player-1300-0B1D8D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeRykahpriest|r",
-			[51] = 1589064549,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [10]
-		{
-			"i can heal it", -- [1]
-			"Rykahpriest-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpriest-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1271, -- [11]
-			"Player-1300-0B1D8D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeRykahpriest|r",
-			[51] = 1589064552,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [11]
 		{
 			"wait", -- [1]
 			"Vàrìàn-Nemesis", -- [2]
@@ -286,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Vàrìàn-Nemesis|r",
 			[51] = 1589064596,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [12]
+		}, -- [1]
 		{
 			"?", -- [1]
 			"Vàrìàn-Nemesis", -- [2]
@@ -308,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Vàrìàn-Nemesis|r",
 			[51] = 1589064604,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [13]
+		}, -- [2]
 		{
 			"i don't know the way", -- [1]
 			"Vàrìàn-Nemesis", -- [2]
@@ -330,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Vàrìàn-Nemesis|r",
 			[51] = 1589064611,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [14]
+		}, -- [3]
 		{
 			"im not in your group anymore", -- [1]
 			"Vàrìàn-Nemesis", -- [2]
@@ -352,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Vàrìàn-Nemesis|r",
 			[51] = 1589064613,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [15]
+		}, -- [4]
 		{
 			"warrior", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -374,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064789,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [16]
+		}, -- [5]
 		{
 			"why are you doing 9 dps", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -396,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064794,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [17]
+		}, -- [6]
 		{
 			"no", -- [1]
 			"Helligjøde-Silvermoon", -- [2]
@@ -418,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Helligjøde-Silvermoon|r",
 			[51] = 1589064832,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
+		}, -- [7]
 		{
 			"wtf", -- [1]
 			"Helligjøde-Silvermoon", -- [2]
@@ -440,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Helligjøde-Silvermoon|r",
 			[51] = 1589064834,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
+		}, -- [8]
 		{
 			"he does 9 dps", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -462,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064840,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [20]
+		}, -- [9]
 		{
 			"who fucking cares?", -- [1]
 			"Helligjøde-Silvermoon", -- [2]
@@ -484,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Helligjøde-Silvermoon|r",
 			[51] = 1589064851,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
+		}, -- [10]
 		{
 			"is he your friend?", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -506,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064861,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [22]
+		}, -- [11]
 		{
 			"y", -- [1]
 			"Helligjøde-Silvermoon", -- [2]
@@ -528,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Helligjøde-Silvermoon|r",
 			[51] = 1589064864,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [12]
 		{
 			"he is new", -- [1]
 			"Helligjøde-Silvermoon", -- [2]
@@ -550,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Helligjøde-Silvermoon|r",
 			[51] = 1589064866,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
+		}, -- [13]
 		{
 			"ah", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -572,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064867,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [25]
+		}, -- [14]
 		{
 			"nvm then", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -594,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064868,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [26]
+		}, -- [15]
 		{
 			"tell him to press buttons", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -616,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064871,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [27]
+		}, -- [16]
 		{
 			"also he is using a 1 hander", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -638,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064878,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [28]
+		}, -- [17]
 		{
 			"he deleted his weapon by accident", -- [1]
 			"Helligjøde-Silvermoon", -- [2]
@@ -660,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Helligjøde-Silvermoon|r",
 			[51] = 1589064883,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [18]
 		{
 			"ah", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -682,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064886,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [30]
+		}, -- [19]
 		{
 			"welcome to the game then buddy", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -704,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064907,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [31]
+		}, -- [20]
 		{
 			"ignore me", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -726,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064908,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [32]
+		}, -- [21]
 		{
 			"ah i see", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -748,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064937,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [33]
+		}, -- [22]
 		{
 			"he does 9 dps cause he cant use skulls", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -770,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064945,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [34]
+		}, -- [23]
 		{
 			"skills*", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -792,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064948,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [35]
+		}, -- [24]
 		{
 			"warrior ", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -814,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064979,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [36]
+		}, -- [25]
 		{
 			"trade me", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -836,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064980,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [37]
+		}, -- [26]
 		{
 			"oh started edition", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -858,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064995,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [38]
+		}, -- [27]
 		{
 			"nvm", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -880,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589064996,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [39]
+		}, -- [28]
 		{
 			"oh well", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -902,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589065077,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [29]
 		{
 			"the warrior was useless anyway", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -924,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589065081,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [30]
 		{
 			"i´ll stay in queue but can´t sit still ;)", -- [1]
 			"Baldurin-Lightbringer", -- [2]
@@ -946,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Baldurin-Lightbringer|r",
 			[51] = 1589065205,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [31]
 		{
 			"hunter just so you know for next time", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -968,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589066408,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [43]
+		}, -- [32]
 		{
 			"its faster to teleport out and back in", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -990,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589066413,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [44]
+		}, -- [33]
 		{
 			"no rush", -- [1]
 			"Baldurin-Lightbringer", -- [2]
@@ -1012,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Baldurin-Lightbringer|r",
 			[51] = 1589066442,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [34]
 		{
 			"sure", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1034,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589066483,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [46]
+		}, -- [35]
 		{
 			"just wipe", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1056,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589114421,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [47]
+		}, -- [36]
 		{
 			"in here", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1078,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589114588,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [48]
+		}, -- [37]
 		{
 			"left now", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1100,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589114717,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [49]
+		}, -- [38]
 		{
 			"what are you doing", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1122,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589114720,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [50]
+		}, -- [39]
 		{
 			"are do doing all bosses?", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1144,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589116243,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [51]
+		}, -- [40]
 		{
 			"we dont need to", -- [1]
 			"Nordhöld-Magtheridon", -- [2]
@@ -1166,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNordhöld-Magtheridon|r",
 			[51] = 1589116252,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [41]
 		{
 			"yeah i know", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1188,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589116259,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [53]
+		}, -- [42]
 		{
 			"may as well", -- [1]
 			"Abaldam-Magtheridon", -- [2]
@@ -1210,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Abaldam-Magtheridon|r",
 			[51] = 1589116259,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [43]
 		{
 			"exp and that", -- [1]
 			"Abaldam-Magtheridon", -- [2]
@@ -1232,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Abaldam-Magtheridon|r",
 			[51] = 1589116261,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [44]
 		{
 			"this boss is such a waste of time", -- [1]
 			"Nordhöld-Magtheridon", -- [2]
@@ -1254,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNordhöld-Magtheridon|r",
 			[51] = 1589116262,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [45]
 		{
 			"they all are lol", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1276,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589116268,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [57]
+		}, -- [46]
 		{
 			"mve him", -- [1]
 			"Nordhöld-Magtheridon", -- [2]
@@ -1298,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNordhöld-Magtheridon|r",
 			[51] = 1589116843,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [47]
 		{
 			"saludar", -- [1]
 			"Svëtlänä-DunModr", -- [2]
@@ -1320,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Svëtlänä-DunModr|r",
 			[51] = 1589117603,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [48]
 		{
 			"tank you're great", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1342,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589117846,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [60]
+		}, -- [49]
 		{
 			"best tank ive had in a while", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1364,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589117853,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [61]
+		}, -- [50]
 		{
 			" ^^", -- [1]
 			"Wizewarrz-Ravencrest", -- [2]
@@ -1386,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWizewarrz-Ravencrest|r",
 			[51] = 1589117863,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [51]
 		{
 			"most are really slow", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1408,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589117876,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [63]
+		}, -- [52]
 		{
 			"i know and i hate it my self: P", -- [1]
 			"Wizewarrz-Ravencrest", -- [2]
@@ -1430,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWizewarrz-Ravencrest|r",
 			[51] = 1589117911,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [53]
 		{
 			"wrong way", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1452,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589118192,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [65]
+		}, -- [54]
 		{
 			"ye i know but hunter pet or something pulled alot of mobs :P", -- [1]
 			"Wizewarrz-Ravencrest", -- [2]
@@ -1474,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWizewarrz-Ravencrest|r",
 			[51] = 1589118204,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [55]
 		{
 			"wtf you do so much dmg", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1496,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589118339,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [67]
+		}, -- [56]
 		{
 			"good lvling gear with ful enchants and u do dmg^^", -- [1]
 			"Wizewarrz-Ravencrest", -- [2]
@@ -1518,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWizewarrz-Ravencrest|r",
 			[51] = 1589118442,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [57]
 		{
 			"i should get enchants", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1540,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589118480,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [69]
+		}, -- [58]
 		{
 			"wher is ur pet guys ?", -- [1]
 			"Wizewarrz-Ravencrest", -- [2]
@@ -1562,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWizewarrz-Ravencrest|r",
 			[51] = 1589118487,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [59]
 		{
 			"do we get a appocalyps now ?", -- [1]
 			"Wizewarrz-Ravencrest", -- [2]
@@ -1584,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWizewarrz-Ravencrest|r",
 			[51] = 1589118499,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [60]
 		{
 			"ye its really nice", -- [1]
 			"Wizewarrz-Ravencrest", -- [2]
@@ -1606,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWizewarrz-Ravencrest|r",
 			[51] = 1589118505,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [61]
 		{
 			"behin..", -- [1]
 			"Wizewarrz-Ravencrest", -- [2]
@@ -1628,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWizewarrz-Ravencrest|r",
 			[51] = 1589118562,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [62]
 		{
 			"FFS", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1650,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589118568,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [74]
+		}, -- [63]
 		{
 			"who was it", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1672,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589118611,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [75]
+		}, -- [64]
 		{
 			"theese moonks hurts", -- [1]
 			"Wizewarrz-Ravencrest", -- [2]
@@ -1694,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWizewarrz-Ravencrest|r",
 			[51] = 1589119024,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [65]
 		{
 			"alot.p", -- [1]
 			"Wizewarrz-Ravencrest", -- [2]
@@ -1716,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWizewarrz-Ravencrest|r",
 			[51] = 1589119032,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [66]
 		{
 			"queue us for a 5th player", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1738,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589119106,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [78]
+		}, -- [67]
 		{
 			"ty shammy", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1760,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589119286,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [79]
+		}, -- [68]
 		{
 			"saved us there", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1782,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589119300,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [80]
+		}, -- [69]
 		{
 			"ohh haha np, I help wherever I can", -- [1]
 			"Astuuri-ArgentDawn", -- [2]
@@ -1804,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAstuuri-ArgentDawn|r",
 			[51] = 1589119318,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [70]
 		{
 			"im out ", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1826,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589119471,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [82]
+		}, -- [71]
 		{
 			"cheers for th runs", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1848,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1589119474,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [83]
+		}, -- [72]
 		{
 			"[RCU]  Get Ny'alotha Mythic/Hc gear and mount, M+10 to 23 intime! Plus Horrific Visions, lvl-boosts. Jaina or another rare mount are also available, as well as Mechagon! Selling for GOLD /w me for info", -- [1]
 			"Mystïc-GrimBatol", -- [2]
@@ -1870,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mystïc-GrimBatol|r",
 			[51] = 1603406209,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [73]
 		{
 			"<Icecrown> WTS Mythic+10-15+ in time!+Free armor stack  you! Mythic NZoth + Mount /Nyalotha Heroic full run (Jaina mount ) (Mechagon Hard mode) Freehold boosting 10-50 lvl boosting Also (island expeditions boosting) (Gold Only) /w me for more info", -- [1]
 			"Icchedou-Frostmane", -- [2]
@@ -1892,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIcchedou|r",
 			[51] = 1603406278,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [74]
 		{
 			"wts |cff9d9d9d|Hitem:2519::::::::27:65:::::::|h[Heavy Shot]|h|r |cffffffff|Hitem:5441::::::::27:65:::::::|h[Small Shot Pouch]|h|r|cff9d9d9d|Hitem:17030::::::::27:65:::::::|h[Ankh]|h|r|cff9d9d9d|Hitem:10918::::::::27:65:::::::|h[Empty Poison Vial]|h|r", -- [1]
 			"Tantesilje-GrimBatol", -- [2]
@@ -1914,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Tantesilje-GrimBatol|r",
 			[51] = 1603406452,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [75]
 		{
 			"Horseman rise...", -- [1]
 			"Robecursed-Silvermoon", -- [2]
@@ -1936,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Robecursed-Silvermoon|r",
 			[51] = 1603406739,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [76]
 		{
 			"Your time is nigh...", -- [1]
 			"Robecursed-Silvermoon", -- [2]
@@ -1958,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Robecursed-Silvermoon|r",
 			[51] = 1603406741,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [77]
 		{
 			"You felt death once...", -- [1]
 			"Robecursed-Silvermoon", -- [2]
@@ -1980,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Robecursed-Silvermoon|r",
 			[51] = 1603406743,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [78]
 		{
 			"Now, know demise!", -- [1]
 			"Robecursed-Silvermoon", -- [2]
@@ -2002,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Robecursed-Silvermoon|r",
 			[51] = 1603406746,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [79]
 		{
 			"it is friday my dude", -- [1]
 			"|Kq39|k", -- [2]
@@ -2024,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603408780,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [91]
+		}, -- [80]
 		{
 			"we amde it", -- [1]
 			"|Kq39|k", -- [2]
@@ -2046,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603408787,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [92]
+		}, -- [81]
 		{
 			"we intel it", -- [1]
 			"|Kq39|k", -- [2]
@@ -2068,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603408796,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [93]
+		}, -- [82]
 		{
 			"team red", -- [1]
 			"|Kq39|k", -- [2]
@@ -2090,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603408809,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [94]
+		}, -- [83]
 		{
 			"fug am i enjoying this about 1% of the amount i enjoyed bear", -- [1]
 			"|Kq39|k", -- [2]
@@ -2112,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603409073,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [95]
+		}, -- [84]
 		{
 			"druid is goob class", -- [1]
 			"|Kq39|k", -- [2]
@@ -2134,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603409106,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [96]
+		}, -- [85]
 		{
 			"Interrupted |cff71d5ff|Hspell:151581:0|h[Suppression Field]|h|r on Bloodmaul Overseer", -- [1]
 			"Larriianna-Silvermoon", -- [2]
@@ -2156,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcLarriianna-Silvermoon|r",
 			[51] = 1603409264,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [86]
 		{
 			"<Icecrown> WTS Mythic+10-15+ in time!+Free armor stack  you! Mythic NZoth + Mount /Nyalotha Heroic full run (Jaina mount ) (Mechagon Hard mode) Freehold boosting 10-50 lvl boosting Also (island expeditions boosting) (Gold Only) /w me for more info", -- [1]
 			"Icchedou-Frostmane", -- [2]
@@ -2178,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIcchedou|r",
 			[51] = 1603409415,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [87]
 		{
 			"pay 100g for 1 win in 2v2", -- [1]
 			"Fífflaren-Frostmane", -- [2]
@@ -2200,6 +1958,248 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fífflaren|r",
 			[51] = 1603409524,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"worse than blinde people is people that doesn't want to see...lol", -- [1]
+			"Onyx-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Onyx-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			133, -- [11]
+			"Player-1303-059D0D91", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Onyx-Aggra(Português)|r",
+			[51] = 1603554470,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"WTS Nyalotha HC-Mythic + we can stack armors; Horrific Visions with masks;  Mythic+ 15-22 in time and 465+ items; Glacial Tidestorm mount", -- [1]
+			"Puolak-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Puolak-Frostmane", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			134, -- [11]
+			"Player-1303-0B963D82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Puolak|r",
+			[51] = 1603554470,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"blind", -- [1]
+			"Onyx-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Onyx-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			135, -- [11]
+			"Player-1303-059D0D91", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Onyx-Aggra(Português)|r",
+			[51] = 1603554479,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"It's the same thing, you must be reffering to death ppls", -- [1]
+			"Gbz-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gbz-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			136, -- [11]
+			"Player-1303-0B9555D5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Gbz|r",
+			[51] = 1603554497,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"i am blind", -- [1]
+			"Leesin-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Leesin-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			137, -- [11]
+			"Player-1303-0A1A4092", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Leesin-GrimBatol|r",
+			[51] = 1603554497,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"me to, or atleast im fat wich is the same thing almost", -- [1]
+			"Gbz-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gbz-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			138, -- [11]
+			"Player-1303-0B9555D5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Gbz|r",
+			[51] = 1603554556,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"ayy malhas my dude", -- [1]
+			"Rykahpriest-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rykahpriest-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			153, -- [11]
+			"Player-1303-0B65E197", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRykahpriest|r",
+			[51] = 1603554784,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [95]
+		{
+			"Horseman rise...", -- [1]
+			"Hyphy-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hyphy-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			154, -- [11]
+			"Player-1597-0D0B2AA4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hyphy-Sylvanas|r",
+			[51] = 1603554785,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"Your time is nigh...", -- [1]
+			"Hyphy-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hyphy-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			155, -- [11]
+			"Player-1597-0D0B2AA4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hyphy-Sylvanas|r",
+			[51] = 1603554787,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"You felt death once...", -- [1]
+			"Hyphy-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hyphy-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			156, -- [11]
+			"Player-1597-0D0B2AA4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hyphy-Sylvanas|r",
+			[51] = 1603554789,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"Now, know demise!", -- [1]
+			"Hyphy-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hyphy-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			158, -- [11]
+			"Player-1597-0D0B2AA4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Hyphy-Sylvanas|r",
+			[51] = 1603554792,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 }

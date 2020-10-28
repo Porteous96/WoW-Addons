@@ -31,7 +31,7 @@ XaneshPractice: enabled
 LootAppraiser_Challenge: disabled
 EasyScrap: disabled
 LootAppraiser: disabled
-Immersion: disabled
+Immersion: enabled
 ElvUI: disabled
 AddOnSkins: disabled
 AAP-Vanilla: disabled

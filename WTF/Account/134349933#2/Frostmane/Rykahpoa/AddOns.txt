@@ -34,7 +34,7 @@ XaneshPractice: enabled
 LootAppraiser_Challenge: disabled
 EasyScrap: disabled
 LootAppraiser: disabled
-Immersion: disabled
+Immersion: enabled
 ElvUI_VisualAuraTimers: disabled
 ElvUI_ExtraActionBars: disabled
 ElvUI_CastBarOverlay: disabled

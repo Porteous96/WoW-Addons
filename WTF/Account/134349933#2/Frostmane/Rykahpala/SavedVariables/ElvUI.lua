@@ -24,94 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"mate its a level 20 dungeon", -- [1]
-			"Pomblast-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Pomblast-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1930, -- [11]
-			"Player-3702-099619C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
-			[51] = 1594764232,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"stop being a pussy", -- [1]
-			"Pomblast-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Pomblast-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1931, -- [11]
-			"Player-3702-099619C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
-			[51] = 1594764234,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"i cant run that fast ", -- [1]
-			"Rykahpala-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpala-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1932, -- [11]
-			"Player-1300-0B268D67", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Rykahpala|r",
-			[51] = 1594764241,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"you retard", -- [1]
-			"Rykahpala-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpala-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1933, -- [11]
-			"Player-1300-0B268D67", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Rykahpala|r",
-			[51] = 1594764242,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
 			"Harvest on Rykahpala", -- [1]
 			"Rykahpala-Frostmane", -- [2]
 			"Common", -- [3]
@@ -132,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594764296,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
+		}, -- [1]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12546:Player-1300-05981405:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
 			"Ryxa-Frostmane", -- [2]
@@ -154,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRyxa|r",
 			[51] = 1594764390,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
+		}, -- [2]
 		{
 			"use the cannons pls", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -176,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594764507,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
+		}, -- [3]
 		{
 			"or dont", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -198,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594764520,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
+		}, -- [4]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5794:Player-1300-08731DAE:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Time Flies When You're Having Fun]|h|r!", -- [1]
 			"Poutiye-Frostmane", -- [2]
@@ -220,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecPoutiye|r",
 			[51] = 1594764569,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [9]
+		}, -- [5]
 		{
 			"lol", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -242,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594764619,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
+		}, -- [6]
 		{
 			"healer doesnt wanna patch me after pulls", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -264,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594764627,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
+		}, -- [7]
 		{
 			"ress me", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -286,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594764632,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
+		}, -- [8]
 		{
 			"healer is dead ", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -308,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594764632,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
+		}, -- [9]
 		{
 			"and not here", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -330,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594764634,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
+		}, -- [10]
 		{
 			"are you blind", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -352,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594764635,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
+		}, -- [11]
 		{
 			"where?", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -374,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594764636,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
+		}, -- [12]
 		{
 			"he's only just got back", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -396,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594764645,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
+		}, -- [13]
 		{
 			"stop being toxic", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -418,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594764647,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
+		}, -- [14]
 		{
 			"ahh ok", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -440,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594764648,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
+		}, -- [15]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12504:Player-1300-00AB3D8F:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[The Temple of Sethraliss]|h|r!", -- [1]
 			"Alliandra-Frostmane", -- [2]
@@ -462,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAlliandra|r",
 			[51] = 1594764708,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
+		}, -- [16]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12505:Player-1300-00AB3D8F:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Temple of Sethraliss]|h|r!", -- [1]
 			"Alliandra-Frostmane", -- [2]
@@ -484,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAlliandra|r",
 			[51] = 1594764708,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [21]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12506:Player-1300-00AB3D8F:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Temple of Sethraliss]|h|r!", -- [1]
 			"Alliandra-Frostmane", -- [2]
@@ -506,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAlliandra|r",
 			[51] = 1594764708,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [22]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11184:Player-1300-00AB3D8F:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Keystone Challenger]|h|r!", -- [1]
 			"Alliandra-Frostmane", -- [2]
@@ -528,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAlliandra|r",
 			[51] = 1594764708,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [23]
+		}, -- [19]
 		{
 			"anyone wanna help me get a weekly chest ? im 421 ilvl", -- [1]
 			"Badphazz-Frostmane", -- [2]
@@ -550,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecBadphazz|r",
 			[51] = 1594764735,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12473:Player-1300-0B0D4C64:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[A Sound Plan]|h|r!", -- [1]
 			"Dichotomy-Frostmane", -- [2]
@@ -572,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDichotomy|r",
 			[51] = 1594764810,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:628:Player-1300-0B268D67:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Deadmines]|h|r!", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -594,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594764829,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [26]
+		}, -- [22]
 		{
 			"we go down right?", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -616,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594765066,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [23]
 		{
 			"clear here", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -638,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594765068,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [24]
 		{
 			"if u want", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -660,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594765070,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [25]
 		{
 			"been a while since i was her", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -682,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594765071,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
+		}, -- [26]
 		{
 			"ok", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -704,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594765072,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
+		}, -- [27]
 		{
 			"we gonna have to do it anyways", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -726,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594765074,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12544:Player-1300-09FE4A13:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Level 120]|h|r!", -- [1]
 			"Plock-Frostmane", -- [2]
@@ -748,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecPlock|r",
 			[51] = 1594765115,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4906:Player-1300-0B3CA5CA:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Northern Stranglethorn Quests]|h|r!", -- [1]
 			"Freinerr-Frostmane", -- [2]
@@ -770,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Freinerr|r",
 			[51] = 1594765126,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
+		}, -- [30]
 		{
 			"ok lets go down", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -792,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594765129,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
+		}, -- [31]
 		{
 			"fucking dwarf", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -814,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594765149,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [32]
 		{
 			"pity you cant heal", -- [1]
 			"Bloodreign-Thunderhorn", -- [2]
@@ -836,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBloodreign-Thunderhorn|r",
 			[51] = 1594765245,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
+		}, -- [33]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6117:Player-1300-05981405:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: End Time]|h|r!", -- [1]
 			"Ryxa-Frostmane", -- [2]
@@ -858,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRyxa|r",
 			[51] = 1594765308,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [38]
+		}, -- [34]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12544:Player-1300-03BF8983:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Level 120]|h|r!", -- [1]
 			"Petflaská-Frostmane", -- [2]
@@ -880,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Petflaská|r",
 			[51] = 1594765491,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [39]
+		}, -- [35]
 		{
 			"mage why are you running round like a headless chicken. you look fecking retarded", -- [1]
 			"Bloodreign-Thunderhorn", -- [2]
@@ -902,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBloodreign-Thunderhorn|r",
 			[51] = 1594765514,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [36]
 		{
 			"^", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -924,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594765522,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [37]
 		{
 			"cause you are a noob if u dont know why", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -946,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594765546,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [38]
 		{
 			"yeah whatever", -- [1]
 			"Bloodreign-Thunderhorn", -- [2]
@@ -968,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBloodreign-Thunderhorn|r",
 			[51] = 1594765563,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [39]
 		{
 			"legion kid ;)", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -990,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594765582,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
+		}, -- [40]
 		{
 			"mage", -- [1]
 			"Corthiv-Sylvanas", -- [2]
@@ -1012,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCorthiv-Sylvanas|r",
 			[51] = 1594765602,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [41]
 		{
 			"let the tank....tank", -- [1]
 			"Corthiv-Sylvanas", -- [2]
@@ -1034,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCorthiv-Sylvanas|r",
 			[51] = 1594765608,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
+		}, -- [42]
 		{
 			"nah 16 years and 14 level 120 man noob", -- [1]
 			"Bloodreign-Thunderhorn", -- [2]
@@ -1056,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBloodreign-Thunderhorn|r",
 			[51] = 1594765619,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10665:Player-1300-0B34E59C:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Explore Azsuna]|h|r!", -- [1]
 			"Galvek-Frostmane", -- [2]
@@ -1078,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecGalvek|r",
 			[51] = 1594765635,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [44]
 		{
 			"yall fucking retarded bro , i kill some non elites crocodiles and u tell me let the tank tank", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -1100,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594765643,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [45]
 		{
 			"meanwhile they get killed in 5 second", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -1122,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594765649,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [46]
 		{
 			"bro", -- [1]
 			"Corthiv-Sylvanas", -- [2]
@@ -1144,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCorthiv-Sylvanas|r",
 			[51] = 1594765656,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [47]
 		{
 			"you were half health", -- [1]
 			"Corthiv-Sylvanas", -- [2]
@@ -1166,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCorthiv-Sylvanas|r",
 			[51] = 1594765662,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [48]
 		{
 			"and out of my range", -- [1]
 			"Corthiv-Sylvanas", -- [2]
@@ -1188,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCorthiv-Sylvanas|r",
 			[51] = 1594765664,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [49]
 		{
 			"if i die", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -1210,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594765667,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [50]
 		{
 			"its my fault", -- [1]
 			"Pomblast-ArgentDawn", -- [2]
@@ -1232,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Pomblast-ArgentDawn|r",
 			[51] = 1594765669,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [51]
 		{
 			"bye ", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -1254,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594765698,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [56]
+		}, -- [52]
 		{
 			"did i say something wrong?", -- [1]
 			"Corthiv-Sylvanas", -- [2]
@@ -1276,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCorthiv-Sylvanas|r",
 			[51] = 1594765704,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [53]
 		{
 			"hahaha nice", -- [1]
 			"Bloodreign-Thunderhorn", -- [2]
@@ -1298,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBloodreign-Thunderhorn|r",
 			[51] = 1594765705,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [54]
 		{
 			"i kicked him ", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -1320,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594765710,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [59]
+		}, -- [55]
 		{
 			"cause he was a cunt", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -1342,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594765712,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [60]
+		}, -- [56]
 		{
 			"oh", -- [1]
 			"Corthiv-Sylvanas", -- [2]
@@ -1364,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCorthiv-Sylvanas|r",
 			[51] = 1594765714,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [57]
 		{
 			"k", -- [1]
 			"Corthiv-Sylvanas", -- [2]
@@ -1386,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCorthiv-Sylvanas|r",
 			[51] = 1594765714,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [58]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:632:Player-1300-0B3BA14E:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Blackfathom Deeps]|h|r!", -- [1]
 			"Volo-Frostmane", -- [2]
@@ -1408,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecVolo|r",
 			[51] = 1594766060,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [63]
+		}, -- [59]
 		{
 			"tp back out and in", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -1430,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594766153,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [64]
+		}, -- [60]
 		{
 			"thx for the advice", -- [1]
 			"Corthiv-Sylvanas", -- [2]
@@ -1452,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCorthiv-Sylvanas|r",
 			[51] = 1594766196,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [61]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10840:Player-1300-08A50C10:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Skorpyron]|h|r!", -- [1]
 			"Dowsin-Frostmane", -- [2]
@@ -1474,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dowsin|r",
 			[51] = 1594766421,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
+		}, -- [62]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:630:Player-1300-0B268D67:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Wailing Caverns]|h|r!", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -1496,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594766505,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [63]
 		{
 			"ty , take care", -- [1]
 			"Bloodreign-Thunderhorn", -- [2]
@@ -1518,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBloodreign-Thunderhorn|r",
 			[51] = 1594766527,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [64]
 		{
 			"same friend", -- [1]
 			"Corthiv-Sylvanas", -- [2]
@@ -1540,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeCorthiv-Sylvanas|r",
 			[51] = 1594766532,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [65]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4848:Player-1300-05981405:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Lost City of the Tol'vir]|h|r!", -- [1]
 			"Ryxa-Frostmane", -- [2]
@@ -1562,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRyxa|r",
 			[51] = 1594766647,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [66]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5066:Player-1300-05981405:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Lost City of the Tol'vir]|h|r!", -- [1]
 			"Ryxa-Frostmane", -- [2]
@@ -1584,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecRyxa|r",
 			[51] = 1594766647,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [67]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10801:Player-1300-0B34E59C:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Vault of the Wardens]|h|r!", -- [1]
 			"Galvek-Frostmane", -- [2]
@@ -1606,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecGalvek|r",
 			[51] = 1594766715,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [72]
+		}, -- [68]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:659:Player-1300-0AD6707E:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[The Botanica]|h|r!", -- [1]
 			"Kallekunskap-Frostmane", -- [2]
@@ -1628,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecKallekunskap|r",
 			[51] = 1594766786,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [69]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:659:Player-1300-0B1ABB2D:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[The Botanica]|h|r!", -- [1]
 			"Ompalomp-Frostmane", -- [2]
@@ -1650,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cOmpalomp|r",
 			[51] = 1594766786,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [74]
+		}, -- [70]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13:Player-1300-0AD6707E:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Level 80]|h|r!", -- [1]
 			"Kallekunskap-Frostmane", -- [2]
@@ -1672,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecKallekunskap|r",
 			[51] = 1594766786,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
+		}, -- [71]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12831:Player-1300-04804A6D:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Freehold]|h|r!", -- [1]
 			"Badphazz-Frostmane", -- [2]
@@ -1694,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecBadphazz|r",
 			[51] = 1594766790,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [76]
+		}, -- [72]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12833:Player-1300-04804A6D:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Freehold]|h|r!", -- [1]
 			"Badphazz-Frostmane", -- [2]
@@ -1716,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecBadphazz|r",
 			[51] = 1594766790,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [73]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12832:Player-1300-04804A6D:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Freehold]|h|r!", -- [1]
 			"Badphazz-Frostmane", -- [2]
@@ -1738,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecBadphazz|r",
 			[51] = 1594766790,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [74]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10829:Player-1300-08A50C10:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Arcing Aqueducts]|h|r!", -- [1]
 			"Dowsin-Frostmane", -- [2]
@@ -1760,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dowsin|r",
 			[51] = 1594766861,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10742:Player-1300-08A50C10:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[Gluten Free]|h|r!", -- [1]
 			"Dowsin-Frostmane", -- [2]
@@ -1782,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dowsin|r",
 			[51] = 1594766861,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [76]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:503:Player-1300-07FF1604:1:7:15:20:4294967295:4294967295:4294967295:4294967295|h[50 Quests Completed]|h|r!", -- [1]
 			"Klippe-Frostmane", -- [2]
@@ -1804,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Klippe|r",
 			[51] = 1594766972,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [77]
 		{
 			"sorrrryyyyyyyyyy", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -1826,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594766994,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [82]
+		}, -- [78]
 		{
 			"ty", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -1848,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1594767140,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [83]
+		}, -- [79]
 		{
 			"Hello all", -- [1]
 			"Quinceforth-Frostmane", -- [2]
@@ -1870,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cQuinceforth|r",
 			[51] = 1594767187,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [80]
 		{
 			"Any advice for a noob? At lvl 45", -- [1]
 			"Quinceforth-Frostmane", -- [2]
@@ -1892,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cQuinceforth|r",
 			[51] = 1594767205,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [81]
 		{
 			"WTS Nyalotha HC-Mythic + we can stack armors; Horrific Visions with masks;  Mythic+ 15-22 in time and 465+ items; Glacial Tidestorm mount", -- [1]
 			"Puolak-Frostmane", -- [2]
@@ -1914,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Puolak|r",
 			[51] = 1603555736,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [82]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:640:Player-1303-0B66D4CA:1:10:24:20:4294967295:4294967295:4294967295:4294967295|h[Maraudon]|h|r!", -- [1]
 			"Sethara-Frostmane", -- [2]
@@ -1936,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Sethara|r",
 			[51] = 1603556177,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
+		}, -- [83]
 		{
 			"kuntrum", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -1958,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1603556422,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [84]
 		{
 			"Horseman rise...", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -1980,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1603556424,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [85]
 		{
 			"Your time is nigh...", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -2002,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1603556426,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [86]
 		{
 			"heh", -- [1]
 			"Kontrom-Frostmane", -- [2]
@@ -2024,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kontrom|r",
 			[51] = 1603556426,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [87]
 		{
 			"hi", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -2046,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1603556427,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [88]
 		{
 			"You felt death once...", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -2068,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1603556428,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [89]
 		{
 			"Now, know demise!", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -2090,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1603556431,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [90]
 		{
 			"i thinki know you", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -2112,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1603556432,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [91]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:255:Player-1303-0B649A9D:1:10:24:20:4294967295:4294967295:4294967295:4294967295|h[Bring Me The Head of... Oh Wait]|h|r!", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -2134,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1603556517,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [92]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:979:Player-1303-0B649A9D:1:10:24:20:4294967295:4294967295:4294967295:4294967295|h[The Mask Task]|h|r!", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -2156,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1603556533,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
+		}, -- [93]
 		{
 			"bye", -- [1]
 			"Rykahpala-Frostmane", -- [2]
@@ -2178,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rykahpala|r",
 			[51] = 1603556540,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [98]
+		}, -- [94]
 		{
 			"bbz :D", -- [1]
 			"Kontrom-Frostmane", -- [2]
@@ -2199,6 +2111,94 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cffa22fc8Kontrom|r",
 			[51] = 1603556545,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [95]
+		{
+			"Horseman rise...", -- [1]
+			"Rykahpala-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpala-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			907, -- [11]
+			"Player-1303-0B649A9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Rykahpala|r",
+			[51] = 1603840377,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"Your time is nigh...", -- [1]
+			"Rykahpala-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpala-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			908, -- [11]
+			"Player-1303-0B649A9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Rykahpala|r",
+			[51] = 1603840379,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"You felt death once...", -- [1]
+			"Rykahpala-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpala-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			909, -- [11]
+			"Player-1303-0B649A9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Rykahpala|r",
+			[51] = 1603840381,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"Now, know demise!", -- [1]
+			"Rykahpala-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpala-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			911, -- [11]
+			"Player-1303-0B649A9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Rykahpala|r",
+			[51] = 1603840384,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},

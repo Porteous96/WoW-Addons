@@ -42,7 +42,7 @@ XaneshPractice: enabled
 LootAppraiser_Challenge: disabled
 EasyScrap: disabled
 LootAppraiser: disabled
-Immersion: disabled
+Immersion: enabled
 BigWigs_WrathOfTheLichKing: disabled
 ElvUI_DTBars2: disabled
 ElvUI_OptionsUI: disabled

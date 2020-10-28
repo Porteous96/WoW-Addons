@@ -4,7 +4,7 @@ BigWigs_Plugins: enabled
 ElvUI_VisualAuraTimers: disabled
 ElvUI_ExtraActionBars: disabled
 ElvUI_CastBarOverlay: disabled
-ElvUI_EverySecondCounts: enabled
+ElvUI_EverySecondCounts: disabled
 ElvUI_AuraBarsMovers: disabled
 ElvUI_CustomTweaks: disabled
 WeakAurasCompanion: enabled
@@ -131,3 +131,5 @@ ComboPointsRedux_Options: disabled
 NOP: disabled
 WorldQuestParty: disabled
 WorldQuestGroupFinder: disabled
+ElvUI_QuestXP: disabled
+Immersion: enabled

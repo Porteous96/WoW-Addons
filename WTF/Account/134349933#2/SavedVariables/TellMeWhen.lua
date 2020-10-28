@@ -20,8 +20,8 @@ TellMeWhenDB = {
 		["Deletemelool - Frostmane"] = "Deletemelool - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
-		["Shaman - Tarren Mill"] = "Shaman - Tarren Mill",
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
+		["Shaman - Tarren Mill"] = "Shaman - Tarren Mill",
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
@@ -32,19 +32,19 @@ TellMeWhenDB = {
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Druid - Tarren Mill"] = "Druid - Tarren Mill",
 		["Rykahmonk - Kazzak"] = "Rykahmonk - Kazzak",
-		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
 		["Hunter - Tarren Mill"] = "Hunter - Tarren Mill",
-		["Monk - Tarren Mill"] = "Monk - Tarren Mill",
+		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
-		["DK - Tarren Mill"] = "DK - Tarren Mill",
+		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Warrior - Tarren Mill"] = "Warrior - Tarren Mill",
 		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
-		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["DK - Tarren Mill"] = "DK - Tarren Mill",
+		["Monk - Tarren Mill"] = "Monk - Tarren Mill",
 		["Rykaahpo - Frostmane"] = "Rykaahpo - Frostmane",
 		["Iujahwdihaip - Frostmane"] = "Iujahwdihaip - Frostmane",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
@@ -1839,7 +1839,7 @@ TellMeWhenDB = {
 		},
 		["Rykahpala - Frostmane"] = {
 			["Locked"] = true,
-			["NumGroups"] = 6,
+			["Version"] = 90201,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1K5CAoGGUVXe",
@@ -1856,8 +1856,8 @@ TellMeWhenDB = {
 							["Name"] = "Wake of Ashes",
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 4.1,
+									["Type"] = "SPELLCD",
 									["Name"] = "Wake of Ashes",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -1893,8 +1893,8 @@ TellMeWhenDB = {
 							["Name"] = "Blade of Justice",
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 3.4,
+									["Type"] = "SPELLCD",
 									["Name"] = "Blade of Justice",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -1973,8 +1973,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "ITEMCD",
 									["Level"] = 6.1,
+									["Type"] = "ITEMCD",
 									["Name"] = "Umbral Moonglaives",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2011,10 +2011,6 @@ TellMeWhenDB = {
 						["x"] = 47.999429546915,
 					},
 					["Scale"] = 1.83333230018616,
-					["EnabledSpecs"] = {
-						[70] = false,
-						[65] = false,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -2066,14 +2062,15 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["EnabledSpecs"] = {
+						[70] = false,
+						[65] = false,
+					},
 					["OnlyInCombat"] = true,
 				}, -- [2]
 				{
 					["GUID"] = "TMW:group:1NknOa2mCVoh",
-					["Point"] = {
-						["y"] = -94.3042966142543,
-						["x"] = 2.60851896636767,
-					},
+					["Columns"] = 5,
 					["Scale"] = 0.958333551883698,
 					["Rows"] = 2,
 					["Icons"] = {
@@ -2084,8 +2081,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 4.1,
+									["Type"] = "SPELLCD",
 									["Name"] = "Eye of Tyr",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2124,8 +2121,8 @@ TellMeWhenDB = {
 							["Name"] = "Guardian of Ancient Kings",
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 3.4,
+									["Type"] = "SPELLCD",
 									["Name"] = "Guardian of Ancient Kings",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2162,8 +2159,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 5,
+									["Type"] = "SPELLCD",
 									["Name"] = "Avenging Wrath",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2189,8 +2186,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 5,
+									["Type"] = "SPELLCD",
 									["Name"] = "Light of the Protector",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2216,8 +2213,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 4.1,
+									["Type"] = "SPELLCD",
 									["Name"] = "Shield of the Righteous",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2243,8 +2240,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 6.1,
+									["Type"] = "SPELLCD",
 									["Name"] = "Seraphim",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2270,8 +2267,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 6,
+									["Type"] = "SPELLCD",
 									["Name"] = "Aegis of Light",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2297,8 +2294,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 5.5,
+									["Type"] = "SPELLCD",
 									["Name"] = "Bastion of Light",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2320,7 +2317,10 @@ TellMeWhenDB = {
 					},
 					["Role"] = 4,
 					["Name"] = "Prot",
-					["Columns"] = 5,
+					["Point"] = {
+						["y"] = -94.3042966142543,
+						["x"] = 2.60851896636767,
+					},
 					["EnabledSpecs"] = {
 						[70] = false,
 						[65] = false,
@@ -2329,10 +2329,7 @@ TellMeWhenDB = {
 				}, -- [3]
 				{
 					["GUID"] = "TMW:group:1NknYMklh279",
-					["Point"] = {
-						["y"] = -69.2606869951137,
-						["x"] = 0.52154386871142,
-					},
+					["Columns"] = 6,
 					["Scale"] = 0.958333551883698,
 					["Rows"] = 2,
 					["Icons"] = {
@@ -2343,8 +2340,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 4.1,
+									["Type"] = "SPELLCD",
 									["Name"] = "Tyr's Deliverance",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2384,8 +2381,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 3.4,
+									["Type"] = "SPELLCD",
 									["Name"] = "Holy Shock",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2411,8 +2408,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 5,
+									["Type"] = "SPELLCD",
 									["Name"] = "Light of Dawn",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2438,8 +2435,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 4.4,
+									["Type"] = "SPELLCD",
 									["Name"] = "Aura Mastery",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2465,8 +2462,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 4.8,
+									["Type"] = "SPELLCD",
 									["Name"] = "Blessing of Sacrifice",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2492,14 +2489,14 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 4.8,
+									["Type"] = "SPELLCD",
 									["Name"] = "Light's Hammer",
 									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 4.5,
+									["Type"] = "SPELLCD",
 									["Name"] = "Bestow Faith",
 									["Operator"] = "<=",
 								}, -- [2]
@@ -2525,14 +2522,14 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 5.3,
+									["Type"] = "SPELLCD",
 									["Name"] = "Holy Prism",
 									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 3.9,
+									["Type"] = "SPELLCD",
 									["Name"] = "Holy Avenger",
 									["Operator"] = "<=",
 								}, -- [2]
@@ -2558,8 +2555,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 5.9,
+									["Type"] = "SPELLCD",
 									["Name"] = "Rule of Law",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2585,8 +2582,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 4.2,
+									["Type"] = "SPELLCD",
 									["Name"] = "Judgment",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2612,8 +2609,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 7.2,
+									["Type"] = "SPELLCD",
 									["Name"] = "Beacon of Virtue",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2639,8 +2636,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 6,
+									["Type"] = "SPELLCD",
 									["Name"] = "Lay on Hands",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2662,7 +2659,10 @@ TellMeWhenDB = {
 					},
 					["Role"] = 2,
 					["Name"] = "Holy",
-					["Columns"] = 6,
+					["Point"] = {
+						["y"] = -69.2606869951137,
+						["x"] = 0.52154386871142,
+					},
 					["EnabledSpecs"] = {
 						[70] = false,
 						[66] = false,
@@ -2677,10 +2677,6 @@ TellMeWhenDB = {
 						["y"] = -32.9999542236328,
 						["x"] = -57.4998474121094,
 					},
-					["EnabledSpecs"] = {
-						[66] = false,
-						[70] = false,
-					},
 					["Name"] = "jUDGEMENT",
 					["Icons"] = {
 						{
@@ -2690,8 +2686,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
 									["Level"] = 2.9,
+									["Type"] = "SPELLCD",
 									["Name"] = "Judgment",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2744,6 +2740,10 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["EnabledSpecs"] = {
+						[66] = false,
+						[70] = false,
+					},
 					["OnlyInCombat"] = true,
 				}, -- [5]
 				{
@@ -2755,10 +2755,6 @@ TellMeWhenDB = {
 						["x"] = 118.421040431663,
 					},
 					["Scale"] = 1.26666808128357,
-					["EnabledSpecs"] = {
-						[65] = false,
-						[70] = false,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -2780,8 +2776,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "ITEMCD",
 									["Level"] = 4.8,
+									["Type"] = "ITEMCD",
 									["Name"] = "Vial of Ceaseless Toxins",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2806,8 +2802,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "ITEMCD",
 									["Level"] = 4.7,
+									["Type"] = "ITEMCD",
 									["Name"] = "Leviathan's Hunger",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2840,14 +2836,18 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["EnabledSpecs"] = {
+						[65] = false,
+						[70] = false,
+					},
 					["OnlyInCombat"] = true,
 				}, -- [6]
 			},
-			["Version"] = 90201,
+			["NumGroups"] = 6,
 		},
 		["Rÿkah - Frostmane"] = {
 			["Locked"] = true,
-			["Version"] = 87505,
+			["Version"] = 90201,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1K5CFsiw69BM",
@@ -2865,8 +2865,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 9.7,
 									["Type"] = "SPELLCD",
+									["Level"] = 9.7,
 									["Name"] = "Pillar of Frost",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2892,8 +2892,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 4.3,
 									["Type"] = "SPELLCD",
+									["Level"] = 4.3,
 									["Name"] = "Remorseless Winter",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2917,6 +2917,11 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["Name"] = "Wraith Walk",
 							["ShowTimerTextnoOCC"] = true,
+							["Unit"] = "pet",
+							["Conditions"] = {
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -2926,11 +2931,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Conditions"] = {
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["Unit"] = "pet",
 						}, -- [3]
 						{
 							["Enabled"] = true,
@@ -2939,8 +2939,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 5,
 									["Type"] = "SPELLCD",
+									["Level"] = 5,
 									["Name"] = "Horn of Winter",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -2979,8 +2979,8 @@ TellMeWhenDB = {
 							["Name"] = "Sindragosa's Fury",
 							["Conditions"] = {
 								{
-									["Level"] = 15,
 									["Type"] = "SPELLCD",
+									["Level"] = 15,
 									["Name"] = "Sindragosa's Fury",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3100,10 +3100,7 @@ TellMeWhenDB = {
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1KJK2TYGgOOT",
-					["Point"] = {
-						["y"] = -79.1336260524053,
-						["x"] = -2.36190718580008,
-					},
+					["Columns"] = 5,
 					["Scale"] = 1.05833351612091,
 					["Rows"] = 2,
 					["Icons"] = {
@@ -3114,8 +3111,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 6.7,
 									["Type"] = "SPELLCD",
+									["Level"] = 6.7,
 									["Name"] = "Vampiric Blood",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3141,8 +3138,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 7.4,
 									["Type"] = "SPELLCD",
+									["Level"] = 7.4,
 									["Name"] = "Dancing Rune Weapon",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3168,8 +3165,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 7.6,
 									["Type"] = "SPELLCD",
+									["Level"] = 7.6,
 									["Name"] = "Anti-Magic Shell",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3195,8 +3192,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 10.5,
 									["Type"] = "SPELLCD",
+									["Level"] = 10.5,
 									["Name"] = "Consumption",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3236,8 +3233,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 5.5,
 									["Type"] = "SPELLCD",
+									["Level"] = 5.5,
 									["Name"] = "Blooddrinker",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3277,8 +3274,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 6.7,
 									["Type"] = "SPELLCD",
+									["Level"] = 6.7,
 									["Name"] = "Blood Tap",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3304,8 +3301,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 6.3,
 									["Type"] = "SPELLCD",
+									["Level"] = 6.3,
 									["Name"] = "Rune Tap",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3339,7 +3336,10 @@ TellMeWhenDB = {
 						}, -- [10]
 					},
 					["Name"] = "Blood",
-					["Columns"] = 5,
+					["Point"] = {
+						["y"] = -79.1336260524053,
+						["x"] = -2.36190718580008,
+					},
 					["EnabledSpecs"] = {
 						[252] = false,
 						[251] = false,
@@ -3362,8 +3362,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 10,
 									["Type"] = "SPELLCD",
+									["Level"] = 10,
 									["Name"] = "Dark Transformation",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3401,6 +3401,8 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["Name"] = "Summon Gargoyle; Dark Arbiter",
 							["ShowTimerTextnoOCC"] = true,
+							["Unit"] = "pet",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3410,8 +3412,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Type"] = "cooldown",
-							["Unit"] = "pet",
 						}, -- [3]
 						{
 							["Enabled"] = true,
@@ -3420,8 +3420,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 5,
 									["Type"] = "SPELLCD",
+									["Level"] = 5,
 									["Name"] = "Corpse Shield",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3446,8 +3446,8 @@ TellMeWhenDB = {
 							["Name"] = "Epidemic",
 							["Conditions"] = {
 								{
-									["Level"] = 7.3,
 									["Type"] = "SPELLCD",
+									["Level"] = 7.3,
 									["Name"] = "Epidemic",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3470,8 +3470,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 15,
 									["Type"] = "SPELLCD",
+									["Level"] = 15,
 									["Name"] = "Apocalypse",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3497,8 +3497,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 6.3,
 									["Type"] = "SPELLCD",
+									["Level"] = 6.3,
 									["Name"] = "Death and Decay",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3524,8 +3524,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 9.9,
 									["Type"] = "SPELLCD",
+									["Level"] = 9.9,
 									["Name"] = "Army of the Dead",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3606,6 +3606,10 @@ TellMeWhenDB = {
 						["x"] = 124.972391935349,
 					},
 					["Scale"] = 1.50833368301392,
+					["EnabledSpecs"] = {
+						[251] = false,
+						[250] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -3613,6 +3617,8 @@ TellMeWhenDB = {
 							["Name"] = "Festering Wound",
 							["ShowTimerTextnoOCC"] = true,
 							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
+							["Type"] = "buff",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3622,8 +3628,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Type"] = "buff",
-							["Unit"] = "target",
 						}, -- [1]
 						{
 							["Enabled"] = true,
@@ -3638,10 +3642,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Operator"] = "<=",
+									["Unit"] = "target",
 									["Level"] = 10.5,
 									["Name"] = "Virulent Plague",
-									["Unit"] = "target",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -3664,8 +3668,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 7.8,
 									["Type"] = "ITEMCD",
+									["Level"] = 7.8,
 									["Name"] = "14",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -3695,10 +3699,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[251] = false,
-						[250] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [4]
 				{
@@ -3710,6 +3710,10 @@ TellMeWhenDB = {
 						["x"] = -115.027485994338,
 					},
 					["Scale"] = 1.50833368301392,
+					["EnabledSpecs"] = {
+						[252] = false,
+						[251] = false,
+					},
 					["Icons"] = {
 						{
 							["States"] = {
@@ -3723,6 +3727,9 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 						{
+							["ShowTimerTextnoOCC"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Giant Ornamental Pearl",
 							["States"] = {
 								{
 								}, -- [1]
@@ -3734,9 +3741,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["ShowTimer"] = true,
-							["Name"] = "Giant Ornamental Pearl",
-							["ShowTimerTextnoOCC"] = true,
 						}, -- [2]
 						{
 							["Enabled"] = true,
@@ -3767,8 +3771,8 @@ TellMeWhenDB = {
 									["Type"] = "DEBUFFDUR",
 									["Name"] = "Blood Plague",
 									["Level"] = 6.5,
-									["Operator"] = "<=",
 									["Unit"] = "target",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -3786,10 +3790,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[252] = false,
-						[251] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [5]
 				{
@@ -3801,6 +3801,10 @@ TellMeWhenDB = {
 						["x"] = 111.049967618943,
 					},
 					["Scale"] = 1.50833368301392,
+					["EnabledSpecs"] = {
+						[252] = false,
+						[251] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -3846,8 +3850,8 @@ TellMeWhenDB = {
 									["Type"] = "DEBUFFDUR",
 									["Name"] = "Mark of Blood",
 									["Level"] = 5,
-									["Operator"] = "<=",
 									["Unit"] = "target",
+									["Operator"] = "<=",
 								}, -- [1]
 								{
 									["Name"] = "Mark of Blood",
@@ -3879,10 +3883,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
-					},
-					["EnabledSpecs"] = {
-						[252] = false,
-						[251] = false,
 					},
 					["OnlyInCombat"] = true,
 				}, -- [6]
@@ -4701,28 +4701,18 @@ TellMeWhenDB = {
 			},
 		},
 		["Rykahpoh - Frostmane"] = {
-			["Version"] = 90201,
+			["Locked"] = true,
 			["NumGroups"] = 5,
+			["Version"] = 90201,
 			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1LhBWsX8Fx2u",
-					["Point"] = {
-						["y"] = -99.4246540858277,
-						["x"] = -6.31558669880811,
-					},
-					["Scale"] = 1.26666617393494,
-					["Role"] = 4,
-					["EnabledSpecs"] = {
-						[270] = false,
-						[269] = false,
-					},
 					["Enabled"] = false,
 					["Columns"] = 2,
+					["Scale"] = 1.26666617393494,
 					["Icons"] = {
 						{
-							["BuffOrDebuff"] = "HARMFUL",
-							["Type"] = "buff",
 							["ShowTTText"] = true,
+							["Type"] = "buff",
 							["Name"] = "124273; 124274; 124275",
 							["SettingsPerView"] = {
 								["icon"] = {
@@ -4731,6 +4721,8 @@ TellMeWhenDB = {
 									},
 								},
 							},
+							["BuffOrDebuff"] = "HARMFUL",
+							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -4740,14 +4732,11 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [1]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "buff",
 							["ShowTTText"] = true,
+							["ShowTimer"] = true,
 							["Name"] = "Ironskin Brew",
-							["ClockGCD"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
 									["Texts"] = {
@@ -4755,6 +4744,9 @@ TellMeWhenDB = {
 									},
 								},
 							},
+							["Enabled"] = true,
+							["Type"] = "buff",
+							["ClockGCD"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -4764,7 +4756,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [2]
 						{
 							["States"] = {
@@ -4789,39 +4780,39 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["Role"] = 4,
 					["Name"] = "Brew Buffs",
-				}, -- [1]
-				{
-					["GUID"] = "TMW:group:1LhByWeonS5G",
 					["Point"] = {
-						["y"] = -70.3124718410561,
-						["x"] = -2.81232786938541,
+						["y"] = -99.4246540858277,
+						["x"] = -6.31558669880811,
 					},
-					["Scale"] = 1.06666624546051,
-					["Rows"] = 2,
-					["Role"] = 1,
 					["EnabledSpecs"] = {
 						[270] = false,
-						[268] = false,
+						[269] = false,
 					},
-					["OnlyInCombat"] = true,
+					["GUID"] = "TMW:group:1LhBWsX8Fx2u",
+				}, -- [1]
+				{
 					["Enabled"] = false,
 					["Columns"] = 5,
+					["Scale"] = 1.06666624546051,
+					["Rows"] = 2,
 					["Icons"] = {
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Rising Sun Kick",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Rising Sun Kick",
 									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Rising Sun Kick",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4833,22 +4824,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [1]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Fists of Fury",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Fists of Fury",
 									["Level"] = 7,
+									["Type"] = "SPELLCD",
+									["Name"] = "Fists of Fury",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4860,22 +4851,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [2]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Storm, Earth, and Fire",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Storm, Earth, and Fire",
 									["Level"] = 7.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Storm, Earth, and Fire",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4887,22 +4878,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [3]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Touch of Death",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Touch of Death",
 									["Level"] = 8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Touch of Death",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4914,9 +4905,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [4]
 						{
+							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Chi Wave; Chi Burst",
 							["States"] = {
@@ -4928,28 +4919,28 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [5]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Whirling Dragon Punch; Serenity",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Whirling Dragon Punch",
 									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Whirling Dragon Punch",
+									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Serenity",
 									["Level"] = 10.1,
+									["Type"] = "SPELLCD",
+									["Name"] = "Serenity",
+									["Operator"] = "<=",
 								}, -- [2]
 								["n"] = 2,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4961,13 +4952,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [6]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerTextnoOCC"] = true,
 							["Name"] = "Touch of Karma",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4977,28 +4968,28 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [7]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Invoke Xuen, the White Tiger; Rushing Jade Wind; Energizing Elixir",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Invoke Xuen, the White Tiger",
 									["Level"] = 23,
+									["Type"] = "SPELLCD",
+									["Name"] = "Invoke Xuen, the White Tiger",
+									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Rushing Jade Wind",
 									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Rushing Jade Wind",
+									["Operator"] = "<=",
 								}, -- [2]
 								["n"] = 2,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5010,13 +5001,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [8]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerTextnoOCC"] = true,
 							["Name"] = "Strike of the Windlord",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5028,12 +5019,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [9]
 						{
-							["StackMinEnabled"] = true,
+							["StackMin"] = 17,
 							["Type"] = "buff",
 							["Name"] = "The Emperor's Capacitor",
+							["StackMinEnabled"] = true,
+							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -5045,43 +5037,42 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["StackMin"] = 17,
-							["Enabled"] = true,
 						}, -- [10]
 					},
+					["Role"] = 1,
 					["Name"] = "Windwalker",
-				}, -- [2]
-				{
-					["GUID"] = "TMW:group:1Nkn4RZTpN45",
 					["Point"] = {
-						["y"] = -70.3123497707436,
-						["x"] = -6.56232786938541,
+						["y"] = -70.3124718410561,
+						["x"] = -2.81232786938541,
 					},
-					["Scale"] = 1.06666624546051,
-					["Rows"] = 2,
-					["Role"] = 4,
+					["GUID"] = "TMW:group:1LhByWeonS5G",
 					["EnabledSpecs"] = {
-						[269] = false,
 						[270] = false,
+						[268] = false,
 					},
 					["OnlyInCombat"] = true,
+				}, -- [2]
+				{
 					["Enabled"] = false,
 					["Columns"] = 6,
+					["Scale"] = 1.06666624546051,
+					["Rows"] = 2,
 					["Icons"] = {
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Keg Smash",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Keg Smash",
 									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Keg Smash",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5093,22 +5084,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [1]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Breath of Fire",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Breath of Fire",
 									["Level"] = 7,
+									["Type"] = "SPELLCD",
+									["Name"] = "Breath of Fire",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5120,22 +5111,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [2]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Exploding Keg",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Exploding Keg",
 									["Level"] = 7.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Exploding Keg",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5147,22 +5138,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [3]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Ironskin Brew",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Ironskin Brew",
 									["Level"] = 8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Ironskin Brew",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5174,13 +5165,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [4]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerTextnoOCC"] = true,
 							["Name"] = "Touch of Karma",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5190,22 +5181,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [5]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Black Ox Brew",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Black Ox Brew",
 									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Black Ox Brew",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5217,9 +5208,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [6]
 						{
+							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Chi Wave; Chi Burst",
 							["States"] = {
@@ -5231,28 +5222,28 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [7]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Rushing Jade Wind; Invoke Niuzao, the Black Ox",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Invoke Niuzao, the Black Ox",
 									["Level"] = 23,
+									["Type"] = "SPELLCD",
+									["Name"] = "Invoke Niuzao, the Black Ox",
+									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Rushing Jade Wind",
 									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Rushing Jade Wind",
+									["Operator"] = "<=",
 								}, -- [2]
 								["n"] = 2,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5264,22 +5255,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [8]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Fortifying Brew",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Fortifying Brew",
 									["Level"] = 4.8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Fortifying Brew",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5291,13 +5282,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [9]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerTextnoOCC"] = true,
 							["Name"] = "Expel Harm",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5309,13 +5300,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [10]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "item",
-							["ShowTimerTextnoOCC"] = true,
 							["Name"] = "13; 14",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "item",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5327,7 +5318,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [11]
 						{
 							["States"] = {
@@ -5341,39 +5331,40 @@ TellMeWhenDB = {
 							},
 						}, -- [12]
 					},
+					["Role"] = 4,
 					["Name"] = "Brewmaster",
-				}, -- [3]
-				{
-					["GUID"] = "TMW:group:1NknBjWNlUXM",
 					["Point"] = {
-						["y"] = -78.749941323478,
-						["x"] = -1.87501097485416,
+						["y"] = -70.3123497707436,
+						["x"] = -6.56232786938541,
 					},
-					["Scale"] = 1.06666624546051,
-					["Rows"] = 2,
-					["Role"] = 2,
+					["GUID"] = "TMW:group:1Nkn4RZTpN45",
 					["EnabledSpecs"] = {
 						[269] = false,
-						[268] = false,
+						[270] = false,
 					},
 					["OnlyInCombat"] = true,
+				}, -- [3]
+				{
 					["Enabled"] = false,
 					["Columns"] = 6,
+					["Scale"] = 1.06666624546051,
+					["Rows"] = 2,
 					["Icons"] = {
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Renewing Mist",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Renewing Mist",
 									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Renewing Mist",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5385,22 +5376,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [1]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Sheilun's Gift",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Sheilun's Gift",
 									["Level"] = 7,
+									["Type"] = "SPELLCD",
+									["Name"] = "Sheilun's Gift",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5412,22 +5403,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [2]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Life Cocoon",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Life Cocoon",
 									["Level"] = 7.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Life Cocoon",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5439,22 +5430,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [3]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Revival",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Revival",
 									["Level"] = 8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Revival",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5466,9 +5457,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [4]
 						{
+							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Chi Burst; Zen Pulse; Mistwalk",
 							["States"] = {
@@ -5480,22 +5471,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [5]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Thunder Focus Tea",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Thunder Focus Tea",
 									["Level"] = 6.6,
+									["Type"] = "SPELLCD",
+									["Name"] = "Thunder Focus Tea",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5507,34 +5498,34 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [6]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Invoke Chi-Ji, the Red Crane; Refreshing Jade Wind; Summon Jade Serpent Statue",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Invoke Chi-Ji, the Red Crane",
 									["Level"] = 4.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Invoke Chi-Ji, the Red Crane",
+									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Refreshing Jade Wind",
 									["Level"] = 3.1,
+									["Type"] = "SPELLCD",
+									["Name"] = "Refreshing Jade Wind",
+									["Operator"] = "<=",
 								}, -- [2]
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Summon Jade Serpent Statue",
 									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Summon Jade Serpent Statue",
+									["Operator"] = "<=",
 								}, -- [3]
 								["n"] = 3,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5546,22 +5537,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [7]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Essence Font",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Essence Font",
 									["Level"] = 3.8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Essence Font",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5573,22 +5564,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [8]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Rising Sun Kick",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Rising Sun Kick",
 									["Level"] = 3.3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Rising Sun Kick",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5600,22 +5591,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [9]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "Mana Tea",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "SPELLCD",
-									["Operator"] = "<=",
-									["Name"] = "Mana Tea",
 									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Mana Tea",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5627,13 +5618,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [10]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerTextnoOCC"] = true,
 							["Name"] = "Leg Sweep",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5643,13 +5634,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [11]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerTextnoOCC"] = true,
 							["Name"] = "Paralysis",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5659,32 +5650,32 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [12]
 					},
+					["Role"] = 2,
 					["Name"] = "Mistweaver",
-				}, -- [4]
-				{
-					["GUID"] = "TMW:group:1Pa8udkxw5am",
 					["Point"] = {
-						["y"] = -50.4543783070589,
-						["x"] = -85.9084707031246,
+						["y"] = -78.749941323478,
+						["x"] = -1.87501097485416,
 					},
-					["Scale"] = 1.46666884422302,
-					["Role"] = 4,
+					["GUID"] = "TMW:group:1NknBjWNlUXM",
 					["EnabledSpecs"] = {
-						[270] = false,
 						[269] = false,
+						[268] = false,
 					},
 					["OnlyInCombat"] = true,
+				}, -- [4]
+				{
 					["Enabled"] = false,
 					["Columns"] = 1,
+					["Scale"] = 1.46666884422302,
 					["Icons"] = {
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
-							["ShowTimerTextnoOCC"] = true,
 							["Name"] = "Blackout Strike",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -5696,7 +5687,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [1]
 						{
 							["States"] = {
@@ -5732,10 +5722,20 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["Role"] = 4,
 					["Name"] = "Blackout Strike",
+					["Point"] = {
+						["y"] = -50.4543783070589,
+						["x"] = -85.9084707031246,
+					},
+					["GUID"] = "TMW:group:1Pa8udkxw5am",
+					["EnabledSpecs"] = {
+						[270] = false,
+						[269] = false,
+					},
+					["OnlyInCombat"] = true,
 				}, -- [5]
 			},
-			["Locked"] = true,
 		},
 		["Rykahpodh - Kazzak"] = {
 			["Locked"] = true,
@@ -7593,21 +7593,21 @@ TellMeWhenDB = {
 			["NumGroups"] = 6,
 		},
 		["Rykahwar - Frostmane"] = {
-			["Locked"] = true,
-			["NumGroups"] = 9,
 			["Version"] = 90201,
+			["NumGroups"] = 9,
 			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1JnJnrsgSzSe",
-					["Point"] = {
-						["y"] = -84.6354533348624,
-						["x"] = -1.49027623871383,
-					},
 					["Scale"] = 1.00666658508281,
 					["Rows"] = 2,
+					["Role"] = 4,
+					["EnabledSpecs"] = {
+						[72] = false,
+						[71] = false,
+					},
+					["OnlyInCombat"] = true,
+					["Columns"] = 5,
 					["Icons"] = {
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Demoralizing Shout; Colossus Smash",
 							["States"] = {
@@ -7619,13 +7619,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [1]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Shield Block; Mortal Strike",
-							["ShowTimerTextnoOCC"] = true,
 							["Type"] = "cooldown",
+							["ShowTimerTextnoOCC"] = true,
+							["Name"] = "Shield Block; Mortal Strike",
 							["States"] = {
 								{
 								}, -- [1]
@@ -7637,9 +7637,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [2]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Battle Cry",
 							["States"] = {
@@ -7651,9 +7651,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [3]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Shield Wall; Recklessness",
 							["States"] = {
@@ -7665,9 +7665,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [4]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Last Stand",
 							["States"] = {
@@ -7679,9 +7679,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [5]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Impending Victory",
 							["States"] = {
@@ -7693,9 +7693,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [6]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Avatar",
 							["States"] = {
@@ -7707,9 +7707,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [7]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Ravager",
 							["States"] = {
@@ -7721,9 +7721,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [8]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Shockwave; Dragon Roar; Storm Bolt",
 							["States"] = {
@@ -7735,22 +7735,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [9]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
+							["Type"] = "cooldown",
 							["Name"] = "Vigilance",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 10,
 									["Type"] = "SPELLCD",
-									["Name"] = "Vigilance",
 									["Operator"] = "<=",
+									["Name"] = "Vigilance",
+									["Level"] = 10,
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -7762,32 +7762,32 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [10]
 					},
-					["Role"] = 4,
 					["Name"] = "Prot",
-					["Columns"] = 5,
-					["EnabledSpecs"] = {
-						[72] = false,
-						[71] = false,
+					["GUID"] = "TMW:group:1JnJnrsgSzSe",
+					["Point"] = {
+						["y"] = -84.6354533348624,
+						["x"] = -1.49027623871383,
 					},
-					["OnlyInCombat"] = true,
 				}, -- [1]
 				{
-					["GUID"] = "TMW:group:1JnJnrsgbm2g",
-					["Point"] = {
-						["y"] = -156.363328944201,
-						["x"] = 0.909274304152238,
-					},
+					["View"] = "bar",
 					["Scale"] = 1.09999972234946,
 					["Rows"] = 4,
+					["EnabledSpecs"] = {
+						[71] = false,
+						[72] = false,
+					},
+					["OnlyInCombat"] = true,
+					["Columns"] = 1,
 					["Icons"] = {
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Shield Block; Shield Charge; Sweeping Strikes",
 							["Type"] = "buff",
 							["ShowTimerText"] = true,
+							["Name"] = "Shield Block; Shield Charge; Sweeping Strikes",
 							["States"] = {
 								{
 								}, -- [1]
@@ -7797,9 +7797,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [1]
 						{
-							["Enabled"] = true,
 							["Type"] = "buff",
 							["Name"] = "Ignore Pain",
 							["States"] = {
@@ -7811,6 +7811,7 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [2]
 						{
 							["States"] = {
@@ -7841,30 +7842,27 @@ TellMeWhenDB = {
 							["SizeX"] = 185.454507424555,
 						},
 					},
-					["View"] = "bar",
-					["Columns"] = 1,
-					["EnabledSpecs"] = {
-						[71] = false,
-						[72] = false,
+					["GUID"] = "TMW:group:1JnJnrsgbm2g",
+					["Point"] = {
+						["y"] = -156.363328944201,
+						["x"] = 0.909274304152238,
 					},
-					["OnlyInCombat"] = true,
 				}, -- [2]
 				{
 					["GUID"] = "TMW:group:1KFttjCNnqhA",
-					["Name"] = "Fury Tracker",
-					["Point"] = {
-						["y"] = -52.5000756540188,
-						["x"] = 110.453587908714,
-					},
 					["Scale"] = 1.46666741371155,
+					["EnabledSpecs"] = {
+						[71] = false,
+						[73] = false,
+					},
+					["OnlyInCombat"] = true,
 					["Icons"] = {
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Frothing Berserker",
-							["ShowTimerTextnoOCC"] = true,
 							["OnlyMine"] = true,
 							["Type"] = "buff",
+							["Name"] = "Frothing Berserker",
+							["ShowTimerTextnoOCC"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -7874,13 +7872,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [1]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Wrecking Ball",
-							["ShowTimerTextnoOCC"] = true,
 							["Type"] = "buff",
+							["ShowTimerTextnoOCC"] = true,
+							["Name"] = "Wrecking Ball",
 							["States"] = {
 								{
 								}, -- [1]
@@ -7890,22 +7888,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [2]
 						{
-							["Conditions"] = {
-								{
-									["Unit"] = "target",
-									["Level"] = 20,
-									["Type"] = "HEALTH",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Type"] = "RAGE_ABS",
-									["Level"] = 40,
-									["Operator"] = ">=",
-								}, -- [2]
-								["n"] = 2,
-							},
 							["Type"] = "buff",
 							["Name"] = "Massacre",
 							["States"] = {
@@ -7917,13 +7902,26 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Conditions"] = {
+								{
+									["Type"] = "HEALTH",
+									["Operator"] = "<=",
+									["Unit"] = "target",
+									["Level"] = 20,
+								}, -- [1]
+								{
+									["Type"] = "RAGE_ABS",
+									["Operator"] = ">=",
+									["Level"] = 40,
+								}, -- [2]
+								["n"] = 2,
+							},
 						}, -- [3]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Enrage",
-							["ShowTimerTextnoOCC"] = true,
 							["Type"] = "buff",
+							["ShowTimerTextnoOCC"] = true,
+							["Name"] = "Enrage",
 							["States"] = {
 								{
 								}, -- [1]
@@ -7933,30 +7931,35 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[71] = false,
-						[73] = false,
+					["Name"] = "Fury Tracker",
+					["Point"] = {
+						["y"] = -52.5000756540188,
+						["x"] = 110.453587908714,
 					},
-					["OnlyInCombat"] = true,
 				}, -- [3]
 				{
-					["GUID"] = "TMW:group:1LfDavmyJZp0",
-					["Name"] = "Arms Tracker",
 					["Point"] = {
 						["y"] = -66.0342757496272,
 						["x"] = 125.517420677418,
 					},
+					["Scale"] = 1.4500002861023,
+					["EnabledSpecs"] = {
+						[73] = false,
+						[72] = false,
+					},
+					["OnlyInCombat"] = true,
+					["Columns"] = 5,
 					["Icons"] = {
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["ShowTimerTextnoOCC"] = true,
 							["BuffOrDebuff"] = "HARMFUL",
 							["Unit"] = "target",
-							["Name"] = "Colossus Smash",
 							["Type"] = "buff",
+							["Name"] = "Colossus Smash",
+							["ShowTimerTextnoOCC"] = true,
 							["CustomTex"] = "208086",
 							["States"] = {
 								{
@@ -7967,12 +7970,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [1]
 						{
-							["Enabled"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
 							["Type"] = "buff",
 							["Name"] = "Executioner's Precision",
-							["BuffOrDebuff"] = "HARMFUL",
 							["States"] = {
 								{
 								}, -- [1]
@@ -7982,14 +7986,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Unit"] = "target",
+							["Enabled"] = true,
 						}, -- [2]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Focused Rage",
-							["ShowTimerTextnoOCC"] = true,
 							["Type"] = "buff",
+							["ShowTimerTextnoOCC"] = true,
+							["Name"] = "Focused Rage",
 							["States"] = {
 								{
 								}, -- [1]
@@ -7999,30 +8002,16 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [3]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["ShowTimerTextnoOCC"] = true,
 							["BuffOrDebuff"] = "HARMFUL",
 							["Unit"] = "target",
-							["OnlyMine"] = true,
-							["Name"] = "Rend",
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFDUR",
-									["Name"] = "Rend",
-									["Level"] = 3,
-									["Unit"] = "target",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Name"] = "Rend",
-									["Type"] = "TALENTLEARNED",
-								}, -- [2]
-								["n"] = 2,
-							},
 							["Type"] = "buff",
+							["Name"] = "Rend",
+							["ShowTimerTextnoOCC"] = true,
+							["OnlyMine"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -8034,13 +8023,27 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFDUR",
+									["Operator"] = "<=",
+									["Unit"] = "target",
+									["Name"] = "Rend",
+									["Level"] = 3,
+								}, -- [1]
+								{
+									["Type"] = "TALENTLEARNED",
+									["Name"] = "Rend",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Enabled"] = true,
 						}, -- [4]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Overpower!",
-							["ShowTimerTextnoOCC"] = true,
 							["Type"] = "buff",
+							["ShowTimerTextnoOCC"] = true,
+							["Name"] = "Overpower!",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8050,24 +8053,20 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [5]
 					},
-					["Scale"] = 1.4500002861023,
-					["Columns"] = 5,
-					["EnabledSpecs"] = {
-						[73] = false,
-						[72] = false,
-					},
-					["OnlyInCombat"] = true,
+					["Name"] = "Arms Tracker",
+					["GUID"] = "TMW:group:1LfDavmyJZp0",
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1LhucbXTiMPx",
-					["Name"] = "buffs",
-					["Point"] = {
-						["y"] = -43.474652659551,
-						["x"] = -99.1529844998442,
-					},
 					["Scale"] = 1.96665930747986,
+					["EnabledSpecs"] = {
+						[71] = false,
+						[72] = false,
+					},
+					["OnlyInCombat"] = true,
 					["Icons"] = {
 						{
 							["States"] = {
@@ -8092,12 +8091,11 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 						{
-							["ShowTTText"] = true,
 							["ShowTimer"] = true,
+							["Type"] = "buff",
+							["ShowTTText"] = true,
 							["Name"] = "Shield Barrier",
 							["ShowTimerTextnoOCC"] = true,
-							["Enabled"] = true,
-							["Type"] = "buff",
 							["OnlyMine"] = true,
 							["States"] = {
 								{
@@ -8108,13 +8106,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [3]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Pain Suppression; Shield Wall; Last Stand; Ironbark; Hand of Sacrifice; Life Cocoon; Vigilance; Sanctus",
-							["ShowTimerTextnoOCC"] = true,
 							["Type"] = "buff",
+							["ShowTimerTextnoOCC"] = true,
+							["Name"] = "Pain Suppression; Shield Wall; Last Stand; Ironbark; Hand of Sacrifice; Life Cocoon; Vigilance; Sanctus",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8124,38 +8122,39 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[71] = false,
-						[72] = false,
+					["Name"] = "buffs",
+					["Point"] = {
+						["y"] = -43.474652659551,
+						["x"] = -99.1529844998442,
 					},
-					["OnlyInCombat"] = true,
 				}, -- [5]
 				{
-					["GUID"] = "TMW:group:1NhYHvETHnb0",
-					["Point"] = {
-						["y"] = -131.324601284081,
-						["x"] = -1.49027623871383,
-					},
 					["Scale"] = 1.00666658508281,
 					["Rows"] = 2,
+					["EnabledSpecs"] = {
+						[73] = false,
+						[71] = false,
+					},
+					["OnlyInCombat"] = true,
+					["Columns"] = 5,
 					["Icons"] = {
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
+							["Type"] = "cooldown",
 							["Name"] = "Bloodthirst",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 1.5,
 									["Type"] = "SPELLCD",
-									["Name"] = "Bloodthirst",
 									["Operator"] = "<=",
+									["Name"] = "Bloodthirst",
+									["Level"] = 1.5,
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8167,22 +8166,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [1]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
+							["Type"] = "cooldown",
 							["Name"] = "Raging Blow",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 1.5,
 									["Type"] = "SPELLCD",
-									["Name"] = "raging blow",
 									["Operator"] = "<=",
+									["Name"] = "raging blow",
+									["Level"] = 1.5,
 								}, -- [1]
 								["n"] = 2,
 							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8194,22 +8193,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [2]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
+							["Type"] = "cooldown",
 							["Name"] = "Battle Cry",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 8.8,
 									["Type"] = "SPELLCD",
-									["Name"] = "Battle Cry",
 									["Operator"] = "<=",
+									["Name"] = "Battle Cry",
+									["Level"] = 8.8,
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8221,9 +8220,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [3]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Commanding Shout",
 							["States"] = {
@@ -8235,9 +8234,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [4]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Berserker Rage",
 							["States"] = {
@@ -8249,9 +8248,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [5]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Bladestorm; Dragon Roar",
 							["States"] = {
@@ -8263,22 +8262,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [6]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
+							["Type"] = "cooldown",
 							["Name"] = "Avatar",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 10.3,
 									["Type"] = "SPELLCD",
-									["Name"] = "Avatar",
 									["Operator"] = "<=",
+									["Name"] = "Avatar",
+									["Level"] = 10.3,
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8290,9 +8289,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [7]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Ravager",
 							["States"] = {
@@ -8304,9 +8303,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [8]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Shockwave; Storm Bolt",
 							["States"] = {
@@ -8318,22 +8317,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [9]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
+							["Type"] = "cooldown",
 							["Name"] = "Odyn's Fury",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 10,
 									["Type"] = "SPELLCD",
-									["Name"] = "Odyn's Fury",
 									["Operator"] = "<=",
+									["Name"] = "Odyn's Fury",
+									["Level"] = 10,
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8345,40 +8344,40 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [10]
 					},
 					["Name"] = "Fury",
-					["Columns"] = 5,
-					["EnabledSpecs"] = {
-						[73] = false,
-						[71] = false,
+					["GUID"] = "TMW:group:1NhYHvETHnb0",
+					["Point"] = {
+						["y"] = -131.324601284081,
+						["x"] = -1.49027623871383,
 					},
-					["OnlyInCombat"] = true,
 				}, -- [6]
 				{
-					["GUID"] = "TMW:group:1NhYg7HLVqm2",
-					["Point"] = {
-						["y"] = -104.502884975487,
-						["x"] = -0.496868035588832,
-					},
 					["Scale"] = 1.00666658508281,
 					["Rows"] = 2,
+					["EnabledSpecs"] = {
+						[73] = false,
+						[72] = false,
+					},
+					["OnlyInCombat"] = true,
+					["Columns"] = 5,
 					["Icons"] = {
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
+							["Type"] = "cooldown",
 							["Name"] = "Mortal Strike",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 1.5,
 									["Type"] = "SPELLCD",
-									["Name"] = "Mortal Strike",
 									["Operator"] = "<=",
+									["Name"] = "Mortal Strike",
+									["Level"] = 1.5,
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8390,17 +8389,17 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [1]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Demoralizing Shout; Colossus Smash",
 							["Conditions"] = {
 								{
-									["Level"] = 5,
 									["Type"] = "SPELLCD",
-									["Name"] = "Colossus Smash",
 									["Operator"] = "<=",
+									["Name"] = "Colossus Smash",
+									["Level"] = 5,
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -8413,9 +8412,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [2]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Battle Cry",
 							["States"] = {
@@ -8427,9 +8426,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [3]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Bladestorm; Ravager",
 							["States"] = {
@@ -8441,9 +8440,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [4]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Commanding Shout",
 							["States"] = {
@@ -8455,9 +8454,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [5]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Victory Rush",
 							["States"] = {
@@ -8469,9 +8468,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [6]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Avatar",
 							["States"] = {
@@ -8483,9 +8482,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [7]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Defensive Stance",
 							["States"] = {
@@ -8497,9 +8496,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [8]
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "Shockwave; Storm Bolt",
 							["States"] = {
@@ -8511,22 +8510,22 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [9]
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
+							["Type"] = "cooldown",
 							["Name"] = "Warbreaker",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 10,
 									["Type"] = "SPELLCD",
-									["Name"] = "Warbreaker",
 									["Operator"] = "<=",
+									["Name"] = "Warbreaker",
+									["Level"] = 10,
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -8538,34 +8537,37 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [10]
 					},
 					["Name"] = "Arms",
-					["Columns"] = 5,
-					["EnabledSpecs"] = {
-						[73] = false,
-						[72] = false,
+					["GUID"] = "TMW:group:1NhYg7HLVqm2",
+					["Point"] = {
+						["y"] = -104.502884975487,
+						["x"] = -0.496868035588832,
 					},
-					["OnlyInCombat"] = true,
 				}, -- [7]
 				{
-					["GUID"] = "TMW:group:1NhYnsodsmD7",
-					["Name"] = "Execute",
 					["Point"] = {
 						["y"] = -50.238273501639,
 						["x"] = -53.8096217711312,
 					},
+					["Scale"] = 2.09999370574951,
+					["EnabledSpecs"] = {
+						[73] = false,
+					},
+					["OnlyInCombat"] = true,
+					["Columns"] = 1,
 					["Icons"] = {
 						{
-							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "execute",
 							["Conditions"] = {
 								{
-									["Unit"] = "target",
-									["Level"] = 20,
 									["Type"] = "HEALTH",
 									["Operator"] = "<=",
+									["Unit"] = "target",
+									["Level"] = 20,
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -8578,35 +8580,26 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [1]
 					},
-					["Scale"] = 2.09999370574951,
-					["Columns"] = 1,
-					["EnabledSpecs"] = {
-						[73] = false,
-					},
-					["OnlyInCombat"] = true,
+					["Name"] = "Execute",
+					["GUID"] = "TMW:group:1NhYnsodsmD7",
 				}, -- [8]
 				{
 					["GUID"] = "TMW:group:1PkKgWIMIxZl",
 					["Role"] = 4,
-					["Name"] = "Prot Buffs",
-					["Point"] = {
-						["y"] = -41.4999694824219,
-						["x"] = 103,
-					},
 					["EnabledSpecs"] = {
 						[72] = false,
 						[71] = false,
 					},
 					["Icons"] = {
 						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Renewed Fury",
-							["ShowTimerTextnoOCC"] = true,
 							["OnlyMine"] = true,
 							["Type"] = "buff",
+							["Name"] = "Renewed Fury",
+							["ShowTimerTextnoOCC"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -8616,6 +8609,7 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [1]
 						{
 							["States"] = {
@@ -8651,8 +8645,14 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["Name"] = "Prot Buffs",
+					["Point"] = {
+						["y"] = -41.4999694824219,
+						["x"] = 103,
+					},
 				}, -- [9]
 			},
+			["Locked"] = true,
 		},
 		["Morallygrey - Frostmane"] = {
 			["Locked"] = true,
@@ -9164,6 +9164,10 @@ TellMeWhenDB = {
 					["Role"] = 1,
 					["Name"] = "Void Form",
 					["Scale"] = 1.58333373069763,
+					["EnabledSpecs"] = {
+						[256] = false,
+						[257] = false,
+					},
 					["Icons"] = {
 						{
 							["OnlyInBags"] = true,
@@ -9225,10 +9229,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
-					},
-					["EnabledSpecs"] = {
-						[256] = false,
-						[257] = false,
 					},
 					["Point"] = {
 						["y"] = -68.0525622872643,
@@ -9672,12 +9672,15 @@ TellMeWhenDB = {
 		},
 		["Rykahpriest - Frostmane"] = {
 			["Locked"] = true,
-			["Version"] = 90201,
 			["NumGroups"] = 7,
+			["Version"] = 90201,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1JnJnrrSr4_c",
-					["Columns"] = 6,
+					["Point"] = {
+						["y"] = -51.7997511807253,
+						["x"] = 15.9997506136748,
+					},
 					["Scale"] = 1.25000100700766,
 					["Icons"] = {
 						{
@@ -9688,8 +9691,8 @@ TellMeWhenDB = {
 							["Type"] = "cooldown",
 							["Conditions"] = {
 								{
-									["Level"] = 2.5,
 									["Type"] = "SPELLCD",
+									["Level"] = 2.5,
 									["Name"] = "Mind Blast",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -9715,8 +9718,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 3.6,
 									["Type"] = "SPELLCD",
+									["Level"] = 3.6,
 									["Name"] = "Void Bolt",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -9742,8 +9745,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 8.5,
 									["Type"] = "SPELLCD",
+									["Level"] = 8.5,
 									["Name"] = "Void Torrent",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -9787,8 +9790,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 5.4,
 									["Type"] = "SPELLCD",
+									["Level"] = 5.4,
 									["Name"] = "Shadowfiend",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -9821,10 +9824,7 @@ TellMeWhenDB = {
 					},
 					["Role"] = 1,
 					["Name"] = "Shadow",
-					["Point"] = {
-						["y"] = -51.7997511807253,
-						["x"] = 15.9997506136748,
-					},
+					["Columns"] = 6,
 					["EnabledSpecs"] = {
 						[257] = false,
 						[256] = false,
@@ -9833,7 +9833,10 @@ TellMeWhenDB = {
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1Kj2YW7gudip",
-					["Columns"] = 5,
+					["Point"] = {
+						["y"] = -81.2972640095251,
+						["x"] = 4.12191682342166,
+					},
 					["Scale"] = 1.09167528152466,
 					["Rows"] = 2,
 					["Icons"] = {
@@ -9844,8 +9847,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 5.1,
 									["Type"] = "SPELLCD",
+									["Level"] = 5.1,
 									["Name"] = "Holy Word: Serenity",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -9871,8 +9874,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 4.5,
 									["Type"] = "SPELLCD",
+									["Level"] = 4.5,
 									["Name"] = "Prayer of Mending",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -9898,8 +9901,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 6,
 									["Type"] = "SPELLCD",
+									["Level"] = 6,
 									["Name"] = "Light of T'uure",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -9925,14 +9928,14 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 4,
 									["Type"] = "SPELLCD",
+									["Level"] = 4,
 									["Name"] = "halo",
 									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Level"] = 4.1,
 									["Type"] = "SPELLCD",
+									["Level"] = 4.1,
 									["Name"] = "Divine Star",
 									["Operator"] = "<=",
 								}, -- [2]
@@ -10000,8 +10003,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 4.8,
 									["Type"] = "SPELLCD",
+									["Level"] = 4.8,
 									["Name"] = "Holy Word: Sanctify",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -10051,10 +10054,7 @@ TellMeWhenDB = {
 					},
 					["Role"] = 2,
 					["Name"] = "Holy",
-					["Point"] = {
-						["y"] = -81.2972640095251,
-						["x"] = 4.12191682342166,
-					},
+					["Columns"] = 5,
 					["EnabledSpecs"] = {
 						[258] = false,
 						[256] = false,
@@ -10068,6 +10068,10 @@ TellMeWhenDB = {
 					["Point"] = {
 						["y"] = -38.4999542236328,
 						["x"] = 115.000122070313,
+					},
+					["EnabledSpecs"] = {
+						[257] = false,
+						[256] = false,
 					},
 					["Icons"] = {
 						{
@@ -10083,8 +10087,8 @@ TellMeWhenDB = {
 									["Type"] = "DEBUFFDUR",
 									["Name"] = "Vampiric Touch",
 									["Level"] = 7,
-									["Unit"] = "target",
 									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -10114,8 +10118,8 @@ TellMeWhenDB = {
 									["Type"] = "DEBUFFDUR",
 									["Name"] = "Shadow Word: Pain",
 									["Level"] = 7,
-									["Unit"] = "target",
 									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -10138,8 +10142,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 5.5,
 									["Type"] = "ITEMCD",
+									["Level"] = 5.5,
 									["Name"] = "Tarnished Sentinel Medallion",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -10170,10 +10174,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[257] = false,
-						[256] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [3]
 				{
@@ -10181,14 +10181,6 @@ TellMeWhenDB = {
 					["Role"] = 1,
 					["Name"] = "Void Form",
 					["Scale"] = 1.58333373069763,
-					["Point"] = {
-						["y"] = -68.0525622872643,
-						["x"] = 15.7892931213851,
-					},
-					["EnabledSpecs"] = {
-						[256] = false,
-						[257] = false,
-					},
 					["Icons"] = {
 						{
 							["States"] = {
@@ -10251,10 +10243,21 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["EnabledSpecs"] = {
+						[256] = false,
+						[257] = false,
+					},
+					["Point"] = {
+						["y"] = -68.0525622872643,
+						["x"] = 15.7892931213851,
+					},
 				}, -- [4]
 				{
 					["GUID"] = "TMW:group:1NkqISkPJ9V3",
-					["Columns"] = 5,
+					["Point"] = {
+						["y"] = -75.8009261189001,
+						["x"] = 4.12191682342166,
+					},
 					["Scale"] = 1.09167528152466,
 					["Rows"] = 2,
 					["Icons"] = {
@@ -10265,8 +10268,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 5.9,
 									["Type"] = "SPELLCD",
+									["Level"] = 5.9,
 									["Name"] = "Penance",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -10292,8 +10295,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 4.5,
 									["Type"] = "SPELLCD",
+									["Level"] = 4.5,
 									["Name"] = "Power Word: Shield",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -10319,8 +10322,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 6,
 									["Type"] = "SPELLCD",
+									["Level"] = 6,
 									["Name"] = "Light's Wrath",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -10346,14 +10349,14 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 4,
 									["Type"] = "SPELLCD",
+									["Level"] = 4,
 									["Name"] = "halo",
 									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Level"] = 4.1,
 									["Type"] = "SPELLCD",
+									["Level"] = 4.1,
 									["Name"] = "Divine Star",
 									["Operator"] = "<=",
 								}, -- [2]
@@ -10379,8 +10382,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 5.1,
 									["Type"] = "SPELLCD",
+									["Level"] = 5.1,
 									["Name"] = "Shadowfiend",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -10434,8 +10437,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 4.8,
 									["Type"] = "SPELLCD",
+									["Level"] = 4.8,
 									["Name"] = "Power Infusion",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -10461,8 +10464,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 4.2,
 									["Type"] = "SPELLCD",
+									["Level"] = 4.2,
 									["Name"] = "Power Word: Radiance",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -10488,8 +10491,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 3.2,
 									["Type"] = "SPELLCD",
+									["Level"] = 3.2,
 									["Name"] = "Rapture",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -10511,10 +10514,7 @@ TellMeWhenDB = {
 					},
 					["Role"] = 2,
 					["Name"] = "Disc",
-					["Point"] = {
-						["y"] = -75.8009261189001,
-						["x"] = 4.12191682342166,
-					},
+					["Columns"] = 5,
 					["EnabledSpecs"] = {
 						[257] = false,
 						[258] = false,
@@ -10529,6 +10529,10 @@ TellMeWhenDB = {
 						["y"] = -41.0000457763672,
 						["x"] = 114.500061035156,
 					},
+					["EnabledSpecs"] = {
+						[257] = false,
+						[258] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -10542,10 +10546,10 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFDUR",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = "<=",
 									["Level"] = 7,
 									["Name"] = "Purge the Wicked",
-									["Operator"] = "<=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -10603,10 +10607,6 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[257] = false,
-						[258] = false,
-					},
 					["OnlyInCombat"] = true,
 				}, -- [6]
 				{
@@ -10618,6 +10618,9 @@ TellMeWhenDB = {
 						["x"] = -77.3679023539735,
 					},
 					["Scale"] = 1.26666712760925,
+					["EnabledSpecs"] = {
+						[258] = false,
+					},
 					["Icons"] = {
 						{
 							["ShowTimer"] = true,
@@ -10625,8 +10628,8 @@ TellMeWhenDB = {
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 10.1,
 									["Type"] = "ITEMCD",
+									["Level"] = 10.1,
 									["Name"] = "Velen's Future Sight",
 									["Operator"] = "<=",
 								}, -- [1]
@@ -10678,9 +10681,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
-					},
-					["EnabledSpecs"] = {
-						[258] = false,
 					},
 					["OnlyInCombat"] = true,
 				}, -- [7]
@@ -13684,6 +13684,7 @@ TellMeWhenDB = {
 		["Rykahshaman - Frostmane"] = {
 			["Locked"] = true,
 			["Version"] = 90201,
+			["NumGroups"] = 4,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1JnJnrrBRgOb",
@@ -13778,10 +13779,10 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Ascendance; Liquid Magma Totem",
+							["ShowTimerText"] = true,
 							["ShowTimerTextnoOCC"] = true,
 							["Type"] = "cooldown",
-							["ShowTimerText"] = true,
+							["Name"] = "Ascendance; Liquid Magma Totem",
 							["States"] = {
 								{
 								}, -- [1]
@@ -13939,10 +13940,7 @@ TellMeWhenDB = {
 				}, -- [2]
 				{
 					["GUID"] = "TMW:group:1JnJnrrBfq2z",
-					["Point"] = {
-						["y"] = -84.7055337824116,
-						["x"] = -2.64663062542156,
-					},
+					["Columns"] = 6,
 					["Scale"] = 1.13333349548417,
 					["Rows"] = 2,
 					["Icons"] = {
@@ -14215,7 +14213,10 @@ TellMeWhenDB = {
 					},
 					["Role"] = 2,
 					["Name"] = "Resto",
-					["Columns"] = 6,
+					["Point"] = {
+						["y"] = -84.7055337824116,
+						["x"] = -2.64663062542156,
+					},
 					["EnabledSpecs"] = {
 						[263] = false,
 						[262] = false,
@@ -14428,7 +14429,6 @@ TellMeWhenDB = {
 					["OnlyInCombat"] = true,
 				}, -- [4]
 			},
-			["NumGroups"] = 4,
 		},
 		["Rykahpoo - Frostmane"] = {
 			["Locked"] = true,
@@ -14659,10 +14659,10 @@ TellMeWhenDB = {
 					["Name"] = "Balance - AP",
 					["SettingsPerView"] = {
 						["bar"] = {
-							["Icon"] = false,
-							["SpacingY"] = -2,
 							["SizeX"] = 98.9936904907227,
 							["BorderBar"] = 1.4,
+							["Icon"] = false,
+							["SpacingY"] = -2,
 						},
 					},
 					["GUID"] = "TMW:group:1KGwD5FjRSpX",
@@ -15258,11 +15258,6 @@ TellMeWhenDB = {
 						["y"] = -75.9998474121094,
 						["x"] = 13.9999694824219,
 					},
-					["EnabledSpecs"] = {
-						[103] = false,
-						[102] = false,
-						[105] = false,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -15332,6 +15327,11 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
+					},
+					["EnabledSpecs"] = {
+						[103] = false,
+						[102] = false,
+						[105] = false,
 					},
 				}, -- [6]
 				{
@@ -20203,13 +20203,276 @@ TellMeWhenDB = {
 			["NumGroups"] = 6,
 			["Version"] = 84201,
 		},
-		["Rykahboost - Turalyon"] = {
+		["Shaman - Tarren Mill"] = {
 			["Locked"] = true,
-			["Version"] = 87505,
+			["Version"] = 84201,
+			["NumGroups"] = 4,
 			["Groups"] = {
 				{
+					["GUID"] = "TMW:group:1JnJnrrBRgOb",
+					["Point"] = {
+						["y"] = -66.9549985598042,
+						["x"] = 1.35816436360964,
+					},
+					["Scale"] = 1.19642817974091,
+					["Rows"] = 2,
 					["Icons"] = {
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Stormkeeper",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 1.4,
+									["Type"] = "SPELLCD",
+									["Name"] = "Stormkeeper",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Lava Burst",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 1.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Lava Burst",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Fire Elemental",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 6.6,
+									["Type"] = "SPELLCD",
+									["Name"] = "Fire Elemental",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Ascendance; Liquid Magma Totem",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Elemental Blast",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Elemental Blast",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.75,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Elemental Mastery",
+							["Conditions"] = {
+								{
+									["Level"] = 8.1,
+									["Type"] = "SPELLCD",
+									["Name"] = "Elemental Mastery",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.81,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Frost Shock",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 2.4,
+									["Type"] = "SPELLCD",
+									["Name"] = "Frost Shock",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Name"] = "Icefury",
+									["Type"] = "TALENTLEARNED",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.82,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+					},
+					["Role"] = 1,
+					["Name"] = "Elemental",
+					["EnabledSpecs"] = {
+						[263] = false,
+						[264] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [1]
+				{
+					["GUID"] = "TMW:group:1JnJnrrBaptm",
+					["Role"] = 1,
+					["Columns"] = 1,
+					["Point"] = {
+						["y"] = -73.5000610351563,
+						["x"] = 0.999755859375,
+					},
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "buff",
+							["Name"] = "Ember Totem",
+							["Conditions"] = {
+								{
+									["Name"] = "Totem Mastery",
+									["Type"] = "TALENTLEARNED",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["OnlyMine"] = true,
+							["States"] = {
+								{
+									["Alpha"] = 0,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+					},
+					["Name"] = "Ember Totem",
+					["EnabledSpecs"] = {
+						[264] = false,
+						[263] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [2]
+				{
+					["GUID"] = "TMW:group:1JnJnrrBfq2z",
+					["Point"] = {
+						["y"] = -84.7055337824116,
+						["x"] = -2.64663062542156,
+					},
+					["Scale"] = 1.13333349548417,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Healing Stream Totem",
 							["States"] = {
 								{
 								}, -- [1]
@@ -20221,10 +20484,26 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Riptide",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Riptide",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.71,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -20232,6 +20511,9 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Healing Tide Totem",
 							["States"] = {
 								{
 								}, -- [1]
@@ -20243,6 +20525,307 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Healing Rain",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 4.8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Healing Rain",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.74,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Spiritwalker's Grace",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Purify Spirit",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.85,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Gift of the Queen",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 5.8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Gift of the Queen",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.75,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Spirit Link Totem",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Earthen Shield Totem; Ancestral Protection Totem",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Earthen Shield Totem",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Level"] = 4.6,
+									["Type"] = "SPELLCD",
+									["Name"] = "Ancestral Protection Totem",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.7,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Wellspring; Ascendance",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Wellspring",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Level"] = 11.9,
+									["Type"] = "SPELLCD",
+									["Name"] = "Ascendance",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Cloudburst Totem; Lightning Surge Totem",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 5.9,
+									["Type"] = "SPELLCD",
+									["Name"] = "Cloudburst Totem",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.73,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [11]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Lava Burst",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.87,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [12]
+					},
+					["Role"] = 2,
+					["Name"] = "Resto",
+					["Columns"] = 6,
+					["EnabledSpecs"] = {
+						[263] = false,
+						[262] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [3]
+				{
+					["GUID"] = "TMW:group:1KTWOhtsa6NI",
+					["Point"] = {
+						["y"] = -74.3076161336174,
+						["x"] = 6.44742376169231e-05,
+					},
+					["Scale"] = 1.08333885669708,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Stormstrike",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Stormstrike",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.75,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Flametongue",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Doom Winds",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Doom Winds",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.79,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Feral Spirit",
 							["States"] = {
 								{
 								}, -- [1]
@@ -20253,9 +20836,120 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Boulderfist",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 2.9,
+									["Type"] = "SPELLCD",
+									["Name"] = "Boulderfist",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.79,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Sundering",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 4.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Sundering",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Ascendance; Earthen Spike",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 10.3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Ascendance",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Level"] = 3.4,
+									["Type"] = "SPELLCD",
+									["Name"] = "Earthen Spike",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.8,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Crash Lightning",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.64,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
 					},
-					["GUID"] = "TMW:group:1VXYNsvt=Lwh",
-				}, -- [1]
+					["Role"] = 1,
+					["Name"] = "Enhancement",
+					["EnabledSpecs"] = {
+						[264] = false,
+						[262] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [4]
 			},
 		},
 		["Rykahpo - Doomhammer"] = {
@@ -21983,10 +22677,10 @@ TellMeWhenDB = {
 					["Name"] = "Balance - AP",
 					["SettingsPerView"] = {
 						["bar"] = {
-							["BorderBar"] = 1.4,
 							["SpacingY"] = -2,
-							["Icon"] = false,
+							["BorderBar"] = 1.4,
 							["SizeX"] = 98.9936904907227,
+							["Icon"] = false,
 						},
 					},
 					["GUID"] = "TMW:group:1KGwD5FjRSpX",
@@ -22578,6 +23272,11 @@ TellMeWhenDB = {
 				{
 					["GUID"] = "TMW:group:1Ki=kCeJqmrl",
 					["Name"] = "Guardian Buffs",
+					["EnabledSpecs"] = {
+						[103] = false,
+						[102] = false,
+						[105] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -22647,11 +23346,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
-					},
-					["EnabledSpecs"] = {
-						[103] = false,
-						[102] = false,
-						[105] = false,
 					},
 					["Point"] = {
 						["y"] = -75.9998474121094,
@@ -23635,10 +24329,6 @@ TellMeWhenDB = {
 						["y"] = -68.0525622872643,
 						["x"] = 15.7892931213851,
 					},
-					["EnabledSpecs"] = {
-						[256] = false,
-						[257] = false,
-					},
 					["Icons"] = {
 						{
 							["States"] = {
@@ -23700,6 +24390,10 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
+					},
+					["EnabledSpecs"] = {
+						[256] = false,
+						[257] = false,
 					},
 				}, -- [4]
 				{
@@ -27751,10 +28445,10 @@ TellMeWhenDB = {
 					["Name"] = "Balance - AP",
 					["SettingsPerView"] = {
 						["bar"] = {
-							["Icon"] = false,
-							["SpacingY"] = -2,
 							["SizeX"] = 98.9936904907227,
 							["BorderBar"] = 1.4,
+							["Icon"] = false,
+							["SpacingY"] = -2,
 						},
 					},
 					["View"] = "bar",
@@ -28350,11 +29044,6 @@ TellMeWhenDB = {
 						["y"] = -75.9998474121094,
 						["x"] = 13.9999694824219,
 					},
-					["EnabledSpecs"] = {
-						[103] = false,
-						[102] = false,
-						[105] = false,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -28424,6 +29113,11 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
+					},
+					["EnabledSpecs"] = {
+						[103] = false,
+						[102] = false,
+						[105] = false,
 					},
 				}, -- [6]
 				{
@@ -29890,6 +30584,10 @@ TellMeWhenDB = {
 						["y"] = -41.4999694824219,
 						["x"] = 103,
 					},
+					["EnabledSpecs"] = {
+						[72] = false,
+						[71] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -29942,855 +30640,10 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[72] = false,
-						[71] = false,
-					},
 				}, -- [9]
 			},
 			["NumGroups"] = 9,
 			["Version"] = 87505,
-		},
-		["Hunter - Tarren Mill"] = {
-			["Locked"] = true,
-			["NumGroups"] = 4,
-			["Version"] = 84201,
-			["Groups"] = {
-				{
-					["GUID"] = "TMW:group:1JnJnrs1Q=NF",
-					["Point"] = {
-						["y"] = -79.8114389930932,
-						["x"] = -2.26456689890289,
-					},
-					["Scale"] = 0.883331775665283,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Windburst",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 10,
-									["Name"] = "Windburst",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Trueshot",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 8,
-									["Name"] = "Trueshot",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.81,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Barrage; A Murder of Crows",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 6.4,
-									["Name"] = "Barrage",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 6.4,
-									["Name"] = "A Murder of Crows",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.71,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Piercing Shot",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 8.3,
-									["Name"] = "Piercing Shot",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.8,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Black Arrow",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 3.1,
-									["Name"] = "Black Arrow",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Explosive Shot; Sentinel",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 4.4,
-									["Name"] = "Explosive Shot",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 4.2,
-									["Name"] = "Sentinel",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Gyroscopic Stabilization",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "buff",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-					},
-					["Role"] = 1,
-					["Name"] = "MM",
-					["EnabledSpecs"] = {
-						[253] = false,
-						[255] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [1]
-				{
-					["GUID"] = "TMW:group:1NklxkudTJYl",
-					["Point"] = {
-						["y"] = -98.2757213719847,
-						["x"] = 6.20701595689555,
-					},
-					["Scale"] = 0.966666758060455,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Kill Command",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 3,
-									["Name"] = "Kill Command",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.81,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Dire Beast",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 3.6,
-									["Name"] = "Dire Beast",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.8,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Titan's Thunder",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 10,
-									["Name"] = "Titan's Thunder",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Bestial Wrath",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 8.3,
-									["Name"] = "Bestial Wrath",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.8,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Aspect of the Wild",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 8,
-									["Name"] = "Aspect of the Wild",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.81,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Chimaera Shot",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 3.1,
-									["Name"] = "Chimaera Shot",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Barrage; A Murder of Crows",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 6.4,
-									["Name"] = "Barrage",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 6.4,
-									["Name"] = "A Murder of Crows",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.71,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Stampede",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 9.3,
-									["Name"] = "Stampede",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-					},
-					["Role"] = 1,
-					["Name"] = "BM",
-					["EnabledSpecs"] = {
-						[255] = false,
-						[254] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [2]
-				{
-					["GUID"] = "TMW:group:1Nkm5Nrje6lM",
-					["Columns"] = 5,
-					["Scale"] = 1.01666748523712,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Flanking Strike",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 4.7,
-									["Name"] = "Flanking Strike",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Mongoose Bite",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Fury of the Eagle",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 10,
-									["Name"] = "Fury of the Eagle",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Lacerate",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 6.4,
-									["Name"] = "Lacerate",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.71,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Aspect of the Eagle",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 8,
-									["Name"] = "Aspect of the Eagle",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.81,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Dragonsfire Grenade",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 4.4,
-									["Name"] = "Dragonsfire Grenade",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Snake Hunter; A Murder of Crows",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 5.2,
-									["Name"] = "Snake Hunter",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 6.5,
-									["Name"] = "A Murder of Crows",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.78,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Throwing Axes",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 4,
-									["Name"] = "Throwing Axes",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.86,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Explosive Trap",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 8.3,
-									["Name"] = "Explosive Trap",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.8,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Spitting Cobra; Caltrops",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 4,
-									["Name"] = "Spitting Cobra",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 2,
-									["Name"] = "Caltrops",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["Role"] = 1,
-					["Name"] = "Survival",
-					["Point"] = {
-						["y"] = -73.2786384911985,
-						["x"] = 2.95069616476251,
-					},
-					["EnabledSpecs"] = {
-						[254] = false,
-						[253] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [3]
-				{
-					["GUID"] = "TMW:group:1NkmE7vDX7bE",
-					["Columns"] = 3,
-					["Scale"] = 1.79166567325592,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Mongoose Fury",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "buff",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Mok'Nathal Tactics",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "buff",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerTextnoOCC"] = true,
-							["BuffOrDebuff"] = "HARMFUL",
-							["Unit"] = "target",
-							["Name"] = "Lacerate",
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFDUR",
-									["Name"] = "Lacerate",
-									["Level"] = 4.3,
-									["Unit"] = "target",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "buff",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-					},
-					["Role"] = 1,
-					["Name"] = "Survival Buffs",
-					["SettingsPerView"] = {
-						["icon"] = {
-							["SpacingX"] = 7.5,
-						},
-					},
-					["Point"] = {
-						["y"] = -73.6047189504352,
-						["x"] = 0.278751798633768,
-					},
-					["EnabledSpecs"] = {
-						[253] = false,
-						[254] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [4]
-			},
 		},
 		["Rykahtony - Frostmane"] = {
 			["Locked"] = true,
@@ -31902,27 +31755,30 @@ TellMeWhenDB = {
 			["Version"] = 87505,
 			["NumGroups"] = 7,
 		},
-		["Advboi - Grim Batol"] = {
+		["Hunter - Tarren Mill"] = {
 			["Locked"] = true,
-			["NumGroups"] = 11,
-			["Version"] = 87505,
+			["NumGroups"] = 4,
+			["Version"] = 84201,
 			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1JnJnrrjsiSd",
-					["Columns"] = 5,
-					["Scale"] = 1.1475020647049,
+					["GUID"] = "TMW:group:1JnJnrs1Q=NF",
+					["Point"] = {
+						["y"] = -79.8114389930932,
+						["x"] = -2.26456689890289,
+					},
+					["Scale"] = 0.883331775665283,
 					["Rows"] = 2,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Phoenix's Flames",
+							["Name"] = "Windburst",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "SPELLCD",
-									["Level"] = 9.9,
-									["Name"] = "Phoenix's Flames",
+									["Level"] = 10,
+									["Name"] = "Windburst",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
@@ -31932,7 +31788,7 @@ TellMeWhenDB = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.66,
+									["Alpha"] = 0.77,
 								}, -- [2]
 								{
 								}, -- [3]
@@ -31943,328 +31799,13 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Fire Blast",
+							["Name"] = "Trueshot",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "SPELLCD",
-									["Level"] = 4.1,
-									["Name"] = "Fire Blast",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.73,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Ice Floes; Ring of Frost",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Dragon's Breath",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Combustion",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 45.2,
-									["Name"] = "Combustion",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.73,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Living Bomb",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 3.6,
-									["Name"] = "Living Bomb",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.7,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Mirror Image; Rune of Power",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 5.9,
-									["Name"] = "Mirror Image; Rune of Power",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.61,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Flame On; Blast Wave",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 4.1,
-									["Name"] = "Flame On",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 4.2,
-									["Name"] = "Blast Wave",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.68,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Meteor; Cinderstorm",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.79,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["ShowTimer"] = true,
-							["ShowTimerTextnoOCC"] = true,
-							["OnlyInBags"] = true,
-							["Type"] = "item",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.78,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["Role"] = 1,
-					["Name"] = "Fire",
-					["Point"] = {
-						["y"] = -89.1496598434938,
-						["x"] = 2.55966950586549,
-					},
-					["EnabledSpecs"] = {
-						[62] = false,
-						[64] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [1]
-				{
-					["Enabled"] = false,
-					["Name"] = "Invocation",
-					["Point"] = {
-						["y"] = -66.0714386491931,
-						["x"] = 45.3570813635344,
-					},
-					["Scale"] = 2.80000021529697,
-					["GUID"] = "TMW:group:1JnJnrrjzHG4",
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["Type"] = "buff",
-							["Name"] = "Invoker's Energy",
-							["States"] = {
-								{
-									["Alpha"] = 0,
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-					},
-					["OnlyInCombat"] = true,
-				}, -- [2]
-				{
-					["GUID"] = "TMW:group:1NilFyU8ODmE",
-					["Columns"] = 5,
-					["Scale"] = 1.1475020647049,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Ebonbolt",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 19.3,
-									["Name"] = "Ebonbolt",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.66,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Frozen Orb",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 10.3,
-									["Name"] = "Frozen Orb",
+									["Level"] = 8,
+									["Name"] = "Trueshot",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
@@ -32285,7 +31826,436 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Ice Floes; Ring of Frost",
+							["Name"] = "Barrage; A Murder of Crows",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 6.4,
+									["Name"] = "Barrage",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 6.4,
+									["Name"] = "A Murder of Crows",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.71,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Piercing Shot",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 8.3,
+									["Name"] = "Piercing Shot",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.8,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Black Arrow",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 3.1,
+									["Name"] = "Black Arrow",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Explosive Shot; Sentinel",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 4.4,
+									["Name"] = "Explosive Shot",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 4.2,
+									["Name"] = "Sentinel",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Gyroscopic Stabilization",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+					},
+					["Role"] = 1,
+					["Name"] = "MM",
+					["EnabledSpecs"] = {
+						[253] = false,
+						[255] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [1]
+				{
+					["GUID"] = "TMW:group:1NklxkudTJYl",
+					["Point"] = {
+						["y"] = -98.2757213719847,
+						["x"] = 6.20701595689555,
+					},
+					["Scale"] = 0.966666758060455,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Kill Command",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 3,
+									["Name"] = "Kill Command",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.81,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Dire Beast",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 3.6,
+									["Name"] = "Dire Beast",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.8,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Titan's Thunder",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 10,
+									["Name"] = "Titan's Thunder",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Bestial Wrath",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 8.3,
+									["Name"] = "Bestial Wrath",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.8,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Aspect of the Wild",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 8,
+									["Name"] = "Aspect of the Wild",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.81,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Chimaera Shot",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 3.1,
+									["Name"] = "Chimaera Shot",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Barrage; A Murder of Crows",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 6.4,
+									["Name"] = "Barrage",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 6.4,
+									["Name"] = "A Murder of Crows",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.71,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Stampede",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 9.3,
+									["Name"] = "Stampede",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+					},
+					["Role"] = 1,
+					["Name"] = "BM",
+					["EnabledSpecs"] = {
+						[255] = false,
+						[254] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [2]
+				{
+					["GUID"] = "TMW:group:1Nkm5Nrje6lM",
+					["Columns"] = 5,
+					["Scale"] = 1.01666748523712,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Flanking Strike",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 4.7,
+									["Name"] = "Flanking Strike",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Mongoose Bite",
 							["ShowTimerTextnoOCC"] = true,
 							["Type"] = "cooldown",
 							["States"] = {
@@ -32297,49 +32267,44 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-						}, -- [3]
+						}, -- [2]
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Freeze",
+							["Name"] = "Fury of the Eagle",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "SPELLCD",
-									["Level"] = 10.1,
-									["Name"] = "Water Jet",
+									["Level"] = 10,
+									["Name"] = "Fury of the Eagle",
 									["Operator"] = "<=",
 								}, -- [1]
-								{
-									["Type"] = "TALENTLEARNED",
-									["Name"] = "Lonely Winter",
-									["Level"] = 1,
-								}, -- [2]
-								["n"] = 2,
+								["n"] = 1,
 							},
 							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.72,
+									["Alpha"] = 0.77,
 								}, -- [2]
 								{
 								}, -- [3]
 								{
 								}, -- [4]
 							},
-						}, -- [4]
+						}, -- [3]
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Icy Veins",
+							["Name"] = "Lacerate",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "SPELLCD",
-									["Level"] = 45.7,
-									["Name"] = "Icy Veins",
+									["Level"] = 6.4,
+									["Name"] = "Lacerate",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
@@ -32356,245 +32321,17 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Blizzard",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.78,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Rune of Power; Mirror Image",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Ice Nova; Frozen Touch",
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 4.1,
-									["Name"] = "Ice Nova",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Type"] = "SPELLCD",
-									["Name"] = "Frozen Touch",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.68,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Ray of Frost",
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 5.3,
-									["Name"] = "Ray of Frost",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["ShowTimer"] = true,
-							["Name"] = "13",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "ITEMCD",
-									["Name"] = "13",
-									["AndOr"] = "OR",
-									["Level"] = 9.6,
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "item",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.78,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-					},
-					["Role"] = 1,
-					["Name"] = "Frost",
-					["Point"] = {
-						["y"] = -89.1496598434938,
-						["x"] = 2.55966950586549,
-					},
-					["EnabledSpecs"] = {
-						[63] = false,
-						[62] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [3]
-				{
-					["GUID"] = "TMW:group:1NjCJAYofkRE",
-					["Columns"] = 5,
-					["Scale"] = 1.1475020647049,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Mark of Aluneth",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 39,
-									["Name"] = "Mark of Aluneth",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.66,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Evocation",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 22.1,
-									["Name"] = "Evocation",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.76,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Ice Floes; Ring of Frost",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Arcane Power",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 40,
-									["Name"] = "Arcane Power",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.72,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
 						}, -- [4]
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Rune of Power; Mirror Image",
+							["Name"] = "Aspect of the Eagle",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "SPELLCD",
-									["Level"] = 24,
-									["Name"] = "Rune of Power",
+									["Level"] = 8,
+									["Name"] = "Aspect of the Eagle",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
@@ -32604,7 +32341,7 @@ TellMeWhenDB = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.74,
+									["Alpha"] = 0.81,
 								}, -- [2]
 								{
 								}, -- [3]
@@ -32615,91 +32352,18 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Arcane Orb",
+							["Name"] = "Dragonsfire Grenade",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
 									["Type"] = "SPELLCD",
-									["Level"] = 3.6,
-									["Name"] = "Arcane Orb",
+									["Level"] = 4.4,
+									["Name"] = "Dragonsfire Grenade",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Charged Up; Supernova",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 11.2,
-									["Name"] = "Charged Up",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.76,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Presence of Mind",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Type"] = "SPELLCD",
-									["Level"] = 21.2,
-									["Name"] = "Presence of Mind",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.68,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Prismatic Barrier",
 							["States"] = {
 								{
 								}, -- [1]
@@ -32711,12 +32375,55 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-						}, -- [9]
+						}, -- [6]
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
+							["Name"] = "Snake Hunter; A Murder of Crows",
 							["ShowTimerTextnoOCC"] = true,
-							["Name"] = "Kil'jaeden's Burning Wish; Horn of Valor",
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 5.2,
+									["Name"] = "Snake Hunter",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 6.5,
+									["Name"] = "A Murder of Crows",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.78,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Throwing Axes",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 4,
+									["Name"] = "Throwing Axes",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -32728,53 +32435,198 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Type"] = "item",
+						}, -- [8]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Explosive Trap",
+							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Type"] = "ITEMCD",
-									["Level"] = 21,
-									["Name"] = "Kil'jaeden's Burning Wish",
+									["Type"] = "SPELLCD",
+									["Level"] = 8.3,
+									["Name"] = "Explosive Trap",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.8,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Spitting Cobra; Caltrops",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 4,
+									["Name"] = "Spitting Cobra",
 									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Type"] = "ITEMCD",
-									["Name"] = "Horn of Valor",
-									["AndOr"] = "OR",
-									["Level"] = 24.4,
+									["Type"] = "SPELLCD",
+									["Level"] = 2,
+									["Name"] = "Caltrops",
 									["Operator"] = "<=",
 								}, -- [2]
 								["n"] = 2,
 							},
-							["OnlyEquipped"] = true,
-							["OnlyInBags"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
 						}, -- [10]
 					},
 					["Role"] = 1,
-					["Name"] = "Arcane",
+					["Name"] = "Survival",
 					["Point"] = {
-						["y"] = -89.1496598434938,
-						["x"] = 2.55966950586549,
+						["y"] = -73.2786384911985,
+						["x"] = 2.95069616476251,
 					},
 					["EnabledSpecs"] = {
-						[64] = false,
-						[63] = false,
+						[254] = false,
+						[253] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [3]
+				{
+					["GUID"] = "TMW:group:1NkmE7vDX7bE",
+					["Columns"] = 3,
+					["Scale"] = 1.79166567325592,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Mongoose Fury",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Mok'Nathal Tactics",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerTextnoOCC"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
+							["Name"] = "Lacerate",
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFDUR",
+									["Name"] = "Lacerate",
+									["Level"] = 4.3,
+									["Unit"] = "target",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+					},
+					["Role"] = 1,
+					["Name"] = "Survival Buffs",
+					["SettingsPerView"] = {
+						["icon"] = {
+							["SpacingX"] = 7.5,
+						},
+					},
+					["Point"] = {
+						["y"] = -73.6047189504352,
+						["x"] = 0.278751798633768,
+					},
+					["EnabledSpecs"] = {
+						[253] = false,
+						[254] = false,
 					},
 					["OnlyInCombat"] = true,
 				}, -- [4]
+			},
+		},
+		["Monk - Tarren Mill"] = {
+			["Locked"] = true,
+			["Version"] = 84201,
+			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1NlCYqdaMDgd",
-					["Role"] = 1,
-					["Name"] = "Glacial Spike",
+					["GUID"] = "TMW:group:1LhBWsX8Fx2u",
+					["Role"] = 4,
+					["Columns"] = 2,
 					["Point"] = {
-						["y"] = -51.9999542236328,
-						["x"] = -12,
+						["y"] = -99.4246540858277,
+						["x"] = -6.31558669880811,
 					},
+					["Scale"] = 1.26666617393494,
 					["EnabledSpecs"] = {
-						[62] = false,
-						[63] = false,
+						[270] = false,
+						[269] = false,
 					},
 					["Icons"] = {
 						{
+							["ShowTTText"] = true,
+							["Type"] = "buff",
+							["Name"] = "124273; 124274; 124275",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										[2] = "[Stacks:Hide(0):VeryShort]",
+									},
+								},
+							},
+							["BuffOrDebuff"] = "HARMFUL",
+							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -32786,6 +32638,19 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 						{
+							["ShowTTText"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Ironskin Brew",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["Texts"] = {
+										[2] = "[Stacks:Hide(0):VeryShort]",
+									},
+								},
+							},
+							["Type"] = "buff",
+							["Enabled"] = true,
+							["ClockGCD"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -32796,56 +32661,39 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["ShowTimer"] = true,
-							["Name"] = "Zeks Exterminatus",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "buff",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
 					},
-					["OnlyInCombat"] = true,
-				}, -- [5]
+					["Name"] = "Brew Buffs",
+				}, -- [1]
 				{
-					["GUID"] = "TMW:group:1NlpNaV9rpik",
-					["Role"] = 1,
-					["Name"] = "Buffs",
-					["Scale"] = 1.65833568572998,
+					["GUID"] = "TMW:group:1LhByWeonS5G",
 					["Point"] = {
-						["y"] = -55.4019621393769,
-						["x"] = 120.904326637829,
+						["y"] = -70.3124718410561,
+						["x"] = -2.81232786938541,
 					},
+					["Scale"] = 1.06666624546051,
+					["Rows"] = 2,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Combustion; Icy Veins; Arcane Power",
+							["Name"] = "Rising Sun Kick",
 							["ShowTimerTextnoOCC"] = true,
-							["OnlyMine"] = true,
-							["Type"] = "buff",
+							["Conditions"] = {
+								{
+									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Rising Sun Kick",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -32855,13 +32703,24 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Incanter's Flow",
+							["Name"] = "Fists of Fury",
 							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "buff",
+							["Conditions"] = {
+								{
+									["Level"] = 7,
+									["Type"] = "SPELLCD",
+									["Name"] = "Fists of Fury",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.79,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -32871,13 +32730,24 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Kael'thas's Ultimate Ability; Norgannon's Foresight; Magtheridon's Might",
+							["Name"] = "Storm, Earth, and Fire",
 							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "buff",
+							["Conditions"] = {
+								{
+									["Level"] = 7.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Storm, Earth, and Fire",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.81,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -32887,14 +32757,24 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Rune of Power",
+							["Name"] = "Touch of Death",
 							["ShowTimerTextnoOCC"] = true,
-							["OnlyMine"] = true,
-							["Type"] = "buff",
+							["Conditions"] = {
+								{
+									["Level"] = 8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Touch of Death",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.76,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -32902,6 +32782,9 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Chi Wave; Chi Burst",
 							["States"] = {
 								{
 								}, -- [1]
@@ -32913,10 +32796,32 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Whirling Dragon Punch; Serenity",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Whirling Dragon Punch",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Level"] = 10.1,
+									["Type"] = "SPELLCD",
+									["Name"] = "Serenity",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.85,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -32924,6 +32829,11 @@ TellMeWhenDB = {
 							},
 						}, -- [6]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Touch of Karma",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -32935,42 +32845,111 @@ TellMeWhenDB = {
 							},
 						}, -- [7]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Invoke Xuen, the White Tiger; Rushing Jade Wind; Energizing Elixir",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 23,
+									["Type"] = "SPELLCD",
+									["Name"] = "Invoke Xuen, the White Tiger",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Rushing Jade Wind",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
 								}, -- [4]
 							},
 						}, -- [8]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Strike of the Windlord",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.84,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["StackMin"] = 17,
+							["Type"] = "buff",
+							["Name"] = "The Emperor's Capacitor",
+							["StackMinEnabled"] = true,
+							["Enabled"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.82,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["Role"] = 1,
+					["Name"] = "Windwalker",
+					["Columns"] = 5,
+					["EnabledSpecs"] = {
+						[270] = false,
+						[268] = false,
 					},
 					["OnlyInCombat"] = true,
-				}, -- [6]
+				}, -- [2]
 				{
-					["GUID"] = "TMW:group:1OfBbrc_vbg0",
-					["Role"] = 1,
-					["Name"] = "Procs",
-					["Point"] = {
-						["y"] = -62.7611723108439,
-						["x"] = -109.552146447016,
-					},
-					["Scale"] = 1.67500030994415,
-					["EnabledSpecs"] = {
-						[62] = false,
-					},
+					["GUID"] = "TMW:group:1Nkn4RZTpN45",
+					["Columns"] = 6,
+					["Scale"] = 1.06666624546051,
+					["Rows"] = 2,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Nefarious Pact; Devil's Due",
+							["Name"] = "Keg Smash",
 							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "buff",
+							["Conditions"] = {
+								{
+									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Keg Smash",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -32978,10 +32957,26 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Breath of Fire",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 7,
+									["Type"] = "SPELLCD",
+									["Name"] = "Breath of Fire",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.79,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -32989,14 +32984,26 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Concordance of the Legionfall",
+							["Name"] = "Exploding Keg",
 							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "buff",
+							["Conditions"] = {
+								{
+									["Level"] = 7.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Exploding Keg",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.81,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -33006,27 +33013,23 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Time Warp",
+							["Name"] = "Ironskin Brew",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
+									["Level"] = 8,
 									["Type"] = "SPELLCD",
-									["Level"] = 17.5,
-									["Name"] = "Time Warp",
+									["Name"] = "Ironskin Brew",
 									["Operator"] = "<=",
 								}, -- [1]
-								{
-									["Name"] = "Shard of the Exodar",
-									["Type"] = "ITEMEQUIPPED",
-								}, -- [2]
-								["n"] = 2,
+								["n"] = 1,
 							},
 							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.83,
+									["Alpha"] = 0.76,
 								}, -- [2]
 								{
 								}, -- [3]
@@ -33035,6 +33038,11 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Touch of Karma",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -33046,6 +33054,36 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Black Ox Brew",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Black Ox Brew",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.85,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Chi Wave; Chi Burst",
 							["States"] = {
 								{
 								}, -- [1]
@@ -33055,41 +33093,157 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-						}, -- [6]
-					},
-					["OnlyInCombat"] = true,
-				}, -- [7]
-				{
-					["GUID"] = "TMW:group:1PGHpLJxnIvH",
-					["Role"] = 1,
-					["Name"] = "Icicles",
-					["Point"] = {
-						["y"] = -87.8572048835343,
-						["x"] = 47.1428108152742,
-					},
-					["Scale"] = 1.86666548252106,
-					["EnabledSpecs"] = {
-						[63] = false,
-						[62] = false,
-					},
-					["Icons"] = {
+						}, -- [7]
 						{
 							["Enabled"] = true,
-							["Type"] = "buff",
-							["Name"] = "Icicles",
+							["ShowTimer"] = true,
+							["Name"] = "Rushing Jade Wind; Invoke Niuzao, the Black Ox",
 							["ShowTimerTextnoOCC"] = true,
-							["DurationMin"] = 4,
 							["Conditions"] = {
 								{
-									["Name"] = "Glacial Spike",
-									["Type"] = "TALENTLEARNED",
+									["Level"] = 23,
+									["Type"] = "SPELLCD",
+									["Name"] = "Invoke Niuzao, the Black Ox",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Rushing Jade Wind",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Fortifying Brew",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 4.8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Fortifying Brew",
+									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.84,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Expel Harm",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.85,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "13; 14",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "item",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.88,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [11]
+						{
 							["States"] = {
 								{
 								}, -- [1]
 								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [12]
+					},
+					["Role"] = 4,
+					["Name"] = "Brewmaster",
+					["Point"] = {
+						["y"] = -70.3123497707436,
+						["x"] = -6.56232786938541,
+					},
+					["EnabledSpecs"] = {
+						[269] = false,
+						[270] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [3]
+				{
+					["GUID"] = "TMW:group:1NknBjWNlUXM",
+					["Point"] = {
+						["y"] = -78.749941323478,
+						["x"] = -1.87501097485416,
+					},
+					["Scale"] = 1.06666624546051,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Renewing Mist",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Renewing Mist",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -33097,10 +33251,26 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Sheilun's Gift",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 7,
+									["Type"] = "SPELLCD",
+									["Name"] = "Sheilun's Gift",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.79,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -33108,10 +33278,26 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Life Cocoon",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 7.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Life Cocoon",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.81,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -33119,6 +33305,36 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Revival",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Revival",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.76,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Chi Burst; Zen Pulse; Mistwalk",
 							["States"] = {
 								{
 								}, -- [1]
@@ -33128,44 +33344,159 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-						}, -- [4]
-					},
-					["OnlyInCombat"] = true,
-				}, -- [8]
-				{
-					["GUID"] = "TMW:group:1PdK1fpFVEQJ",
-					["Role"] = 1,
-					["Name"] = "Scorch You Fuck",
-					["Point"] = {
-						["y"] = -3.33320262252733,
-						["x"] = -103.053612775241,
-						["point"] = "RIGHT",
-						["relativePoint"] = "RIGHT",
-					},
-					["Scale"] = 3.60002517700195,
-					["EnabledSpecs"] = {
-						[62] = false,
-						[64] = false,
-					},
-					["Icons"] = {
+						}, -- [5]
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Scorch",
+							["Name"] = "Thunder Focus Tea",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Unit"] = "target",
-									["Level"] = 30,
-									["Type"] = "HEALTH",
+									["Level"] = 6.6,
+									["Type"] = "SPELLCD",
+									["Name"] = "Thunder Focus Tea",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.85,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Invoke Chi-Ji, the Red Crane; Refreshing Jade Wind; Summon Jade Serpent Statue",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 4.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Invoke Chi-Ji, the Red Crane",
 									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Name"] = "Koralon's Burning Touch",
-									["Type"] = "ITEMEQUIPPED",
+									["Level"] = 3.1,
+									["Type"] = "SPELLCD",
+									["Name"] = "Refreshing Jade Wind",
+									["Operator"] = "<=",
 								}, -- [2]
-								["n"] = 2,
+								{
+									["Level"] = 3.5,
+									["Type"] = "SPELLCD",
+									["Name"] = "Summon Jade Serpent Statue",
+									["Operator"] = "<=",
+								}, -- [3]
+								["n"] = 3,
 							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.78,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Essence Font",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 3.8,
+									["Type"] = "SPELLCD",
+									["Name"] = "Essence Font",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.85,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Rising Sun Kick",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 3.3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Rising Sun Kick",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.86,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Mana Tea",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Level"] = 3,
+									["Type"] = "SPELLCD",
+									["Name"] = "Mana Tea",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.77,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Leg Sweep",
+							["ShowTimerTextnoOCC"] = true,
 							["Type"] = "cooldown",
 							["States"] = {
 								{
@@ -33176,8 +33507,13 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-						}, -- [1]
+						}, -- [11]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Paralysis",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
@@ -33187,50 +33523,34 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
+						}, -- [12]
+					},
+					["Role"] = 2,
+					["Name"] = "Mistweaver",
+					["Columns"] = 6,
+					["EnabledSpecs"] = {
+						[269] = false,
+						[268] = false,
 					},
 					["OnlyInCombat"] = true,
-				}, -- [9]
+				}, -- [4]
 				{
-					["GUID"] = "TMW:group:1Pg6dqcg6l3I",
-					["Role"] = 1,
-					["Name"] = "Avatar",
-					["Scale"] = 3.46666359901428,
+					["GUID"] = "TMW:group:1Pa8udkxw5am",
+					["Columns"] = 1,
+					["Scale"] = 1.46666884422302,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Tainted Essence",
+							["Name"] = "Blackout Strike",
 							["ShowTimerTextnoOCC"] = true,
-							["BuffOrDebuff"] = "HARMFUL",
-							["Unit"] = "focus",
-							["Type"] = "buff",
+							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								nil, -- [2]
+								{
+									["Alpha"] = 0.8,
+								}, -- [2]
 								{
 								}, -- [3]
 								{
@@ -33271,75 +33591,20 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["Role"] = 4,
+					["Name"] = "Blackout Strike",
 					["Point"] = {
-						["y"] = -68.9422358507871,
-						["x"] = -93.172884387597,
+						["y"] = -50.4543783070589,
+						["x"] = -85.9084707031246,
 					},
-				}, -- [10]
-				{
-					["GUID"] = "TMW:group:1Q9p6589PsDm",
-					["Role"] = 1,
-					["Name"] = "Shard",
-					["Point"] = {
-						["y"] = 96.5,
-						["x"] = 152.499786376953,
-						["point"] = "BOTTOMLEFT",
-						["relativePoint"] = "BOTTOMLEFT",
-					},
-					["Icons"] = {
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["Type"] = "item",
-							["Name"] = "Shard of the Exodar",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-							["OnlyEquipped"] = true,
-							["OnlyInBags"] = true,
-						}, -- [4]
+					["EnabledSpecs"] = {
+						[270] = false,
+						[269] = false,
 					},
 					["OnlyInCombat"] = true,
-				}, -- [11]
+				}, -- [5]
 			},
+			["NumGroups"] = 5,
 		},
 		["Rykahmonk - Kazzak"] = {
 			["Locked"] = true,
@@ -41832,93 +42097,27 @@ TellMeWhenDB = {
 			["NumGroups"] = 11,
 			["Version"] = 90001,
 		},
-		["Monk - Tarren Mill"] = {
+		["Advboi - Grim Batol"] = {
 			["Locked"] = true,
-			["Version"] = 84201,
+			["NumGroups"] = 11,
+			["Version"] = 87505,
 			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1LhBWsX8Fx2u",
-					["Role"] = 4,
-					["Columns"] = 2,
-					["Point"] = {
-						["y"] = -99.4246540858277,
-						["x"] = -6.31558669880811,
-					},
-					["Scale"] = 1.26666617393494,
-					["EnabledSpecs"] = {
-						[270] = false,
-						[269] = false,
-					},
-					["Icons"] = {
-						{
-							["ShowTTText"] = true,
-							["Type"] = "buff",
-							["Name"] = "124273; 124274; 124275",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										[2] = "[Stacks:Hide(0):VeryShort]",
-									},
-								},
-							},
-							["BuffOrDebuff"] = "HARMFUL",
-							["Enabled"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["ShowTTText"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Ironskin Brew",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["Texts"] = {
-										[2] = "[Stacks:Hide(0):VeryShort]",
-									},
-								},
-							},
-							["Type"] = "buff",
-							["Enabled"] = true,
-							["ClockGCD"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-					},
-					["Name"] = "Brew Buffs",
-				}, -- [1]
-				{
-					["GUID"] = "TMW:group:1LhByWeonS5G",
-					["Point"] = {
-						["y"] = -70.3124718410561,
-						["x"] = -2.81232786938541,
-					},
-					["Scale"] = 1.06666624546051,
+					["GUID"] = "TMW:group:1JnJnrrjsiSd",
+					["Columns"] = 5,
+					["Scale"] = 1.1475020647049,
 					["Rows"] = 2,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Rising Sun Kick",
+							["Name"] = "Phoenix's Flames",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 3.5,
 									["Type"] = "SPELLCD",
-									["Name"] = "Rising Sun Kick",
+									["Level"] = 9.9,
+									["Name"] = "Phoenix's Flames",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
@@ -41928,7 +42127,7 @@ TellMeWhenDB = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.77,
+									["Alpha"] = 0.66,
 								}, -- [2]
 								{
 								}, -- [3]
@@ -41939,17 +42138,179 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Fists of Fury",
+							["Name"] = "Fire Blast",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 7,
 									["Type"] = "SPELLCD",
-									["Name"] = "Fists of Fury",
+									["Level"] = 4.1,
+									["Name"] = "Fire Blast",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.73,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Ice Floes; Ring of Frost",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Dragon's Breath",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Combustion",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 45.2,
+									["Name"] = "Combustion",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.73,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Living Bomb",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 3.6,
+									["Name"] = "Living Bomb",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.7,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Mirror Image; Rune of Power",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 5.9,
+									["Name"] = "Mirror Image; Rune of Power",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.61,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Flame On; Blast Wave",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 4.1,
+									["Name"] = "Flame On",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 4.2,
+									["Name"] = "Blast Wave",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.68,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Meteor; Cinderstorm",
+							["ShowTimerTextnoOCC"] = true,
 							["Type"] = "cooldown",
 							["States"] = {
 								{
@@ -41962,186 +42323,17 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Storm, Earth, and Fire",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 7.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Storm, Earth, and Fire",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.81,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Touch of Death",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 8,
-									["Type"] = "SPELLCD",
-									["Name"] = "Touch of Death",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.76,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Chi Wave; Chi Burst",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Whirling Dragon Punch; Serenity",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 3,
-									["Type"] = "SPELLCD",
-									["Name"] = "Whirling Dragon Punch",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Level"] = 10.1,
-									["Type"] = "SPELLCD",
-									["Name"] = "Serenity",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.85,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Touch of Karma",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Invoke Xuen, the White Tiger; Rushing Jade Wind; Energizing Elixir",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 23,
-									["Type"] = "SPELLCD",
-									["Name"] = "Invoke Xuen, the White Tiger",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Level"] = 3,
-									["Type"] = "SPELLCD",
-									["Name"] = "Rushing Jade Wind",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Strike of the Windlord",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.84,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
 						}, -- [9]
 						{
-							["StackMin"] = 17,
-							["Type"] = "buff",
-							["Name"] = "The Emperor's Capacitor",
-							["StackMinEnabled"] = true,
-							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerTextnoOCC"] = true,
+							["OnlyInBags"] = true,
+							["Type"] = "item",
 							["States"] = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.82,
+									["Alpha"] = 0.78,
 								}, -- [2]
 								{
 								}, -- [3]
@@ -42151,30 +42343,96 @@ TellMeWhenDB = {
 						}, -- [10]
 					},
 					["Role"] = 1,
-					["Name"] = "Windwalker",
-					["Columns"] = 5,
+					["Name"] = "Fire",
+					["Point"] = {
+						["y"] = -89.1496598434938,
+						["x"] = 2.55966950586549,
+					},
 					["EnabledSpecs"] = {
-						[270] = false,
-						[268] = false,
+						[62] = false,
+						[64] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [1]
+				{
+					["Enabled"] = false,
+					["Name"] = "Invocation",
+					["Point"] = {
+						["y"] = -66.0714386491931,
+						["x"] = 45.3570813635344,
+					},
+					["Scale"] = 2.80000021529697,
+					["GUID"] = "TMW:group:1JnJnrrjzHG4",
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "buff",
+							["Name"] = "Invoker's Energy",
+							["States"] = {
+								{
+									["Alpha"] = 0,
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
 					},
 					["OnlyInCombat"] = true,
 				}, -- [2]
 				{
-					["GUID"] = "TMW:group:1Nkn4RZTpN45",
-					["Columns"] = 6,
-					["Scale"] = 1.06666624546051,
+					["GUID"] = "TMW:group:1NilFyU8ODmE",
+					["Columns"] = 5,
+					["Scale"] = 1.1475020647049,
 					["Rows"] = 2,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Keg Smash",
+							["Name"] = "Ebonbolt",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 3.5,
 									["Type"] = "SPELLCD",
-									["Name"] = "Keg Smash",
+									["Level"] = 19.3,
+									["Name"] = "Ebonbolt",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
@@ -42184,7 +42442,7 @@ TellMeWhenDB = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.77,
+									["Alpha"] = 0.66,
 								}, -- [2]
 								{
 								}, -- [3]
@@ -42195,40 +42453,13 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Breath of Fire",
+							["Name"] = "Frozen Orb",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 7,
 									["Type"] = "SPELLCD",
-									["Name"] = "Breath of Fire",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.79,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Exploding Keg",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 7.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Exploding Keg",
+									["Level"] = 10.3,
+									["Name"] = "Frozen Orb",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
@@ -42245,108 +42476,39 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Ice Floes; Ring of Frost",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
 						}, -- [3]
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Ironskin Brew",
+							["Name"] = "Freeze",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 8,
 									["Type"] = "SPELLCD",
-									["Name"] = "Ironskin Brew",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.76,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Touch of Karma",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Black Ox Brew",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 3,
-									["Type"] = "SPELLCD",
-									["Name"] = "Black Ox Brew",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.85,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Chi Wave; Chi Burst",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Rushing Jade Wind; Invoke Niuzao, the Black Ox",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 23,
-									["Type"] = "SPELLCD",
-									["Name"] = "Invoke Niuzao, the Black Ox",
+									["Level"] = 10.1,
+									["Name"] = "Water Jet",
 									["Operator"] = "<=",
 								}, -- [1]
 								{
-									["Level"] = 3,
-									["Type"] = "SPELLCD",
-									["Name"] = "Rushing Jade Wind",
-									["Operator"] = "<=",
+									["Type"] = "TALENTLEARNED",
+									["Name"] = "Lonely Winter",
+									["Level"] = 1,
 								}, -- [2]
 								["n"] = 2,
 							},
@@ -42355,211 +42517,7 @@ TellMeWhenDB = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Fortifying Brew",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 4.8,
-									["Type"] = "SPELLCD",
-									["Name"] = "Fortifying Brew",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.84,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Expel Harm",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.85,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "13; 14",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "item",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.88,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [11]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [12]
-					},
-					["Role"] = 4,
-					["Name"] = "Brewmaster",
-					["Point"] = {
-						["y"] = -70.3123497707436,
-						["x"] = -6.56232786938541,
-					},
-					["EnabledSpecs"] = {
-						[269] = false,
-						[270] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [3]
-				{
-					["GUID"] = "TMW:group:1NknBjWNlUXM",
-					["Point"] = {
-						["y"] = -78.749941323478,
-						["x"] = -1.87501097485416,
-					},
-					["Scale"] = 1.06666624546051,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Renewing Mist",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 3.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Renewing Mist",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Sheilun's Gift",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 7,
-									["Type"] = "SPELLCD",
-									["Name"] = "Sheilun's Gift",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.79,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Life Cocoon",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 7.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Life Cocoon",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.81,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Revival",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 8,
-									["Type"] = "SPELLCD",
-									["Name"] = "Revival",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.76,
+									["Alpha"] = 0.72,
 								}, -- [2]
 								{
 								}, -- [3]
@@ -42569,28 +42527,14 @@ TellMeWhenDB = {
 						}, -- [4]
 						{
 							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Chi Burst; Zen Pulse; Mistwalk",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Thunder Focus Tea",
+							["Name"] = "Icy Veins",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 6.6,
 									["Type"] = "SPELLCD",
-									["Name"] = "Thunder Focus Tea",
+									["Level"] = 45.7,
+									["Name"] = "Icy Veins",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
@@ -42600,40 +42544,19 @@ TellMeWhenDB = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.85,
+									["Alpha"] = 0.71,
 								}, -- [2]
 								{
 								}, -- [3]
 								{
 								}, -- [4]
 							},
-						}, -- [6]
+						}, -- [5]
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Invoke Chi-Ji, the Red Crane; Refreshing Jade Wind; Summon Jade Serpent Statue",
+							["Name"] = "Blizzard",
 							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 4.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Invoke Chi-Ji, the Red Crane",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Level"] = 3.1,
-									["Type"] = "SPELLCD",
-									["Name"] = "Refreshing Jade Wind",
-									["Operator"] = "<=",
-								}, -- [2]
-								{
-									["Level"] = 3.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Summon Jade Serpent Statue",
-									["Operator"] = "<=",
-								}, -- [3]
-								["n"] = 3,
-							},
 							["Type"] = "cooldown",
 							["States"] = {
 								{
@@ -42646,17 +42569,130 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Rune of Power; Mirror Image",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
 						}, -- [7]
 						{
 							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Ice Nova; Frozen Touch",
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 4.1,
+									["Name"] = "Ice Nova",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Type"] = "SPELLCD",
+									["Name"] = "Frozen Touch",
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.68,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "Ray of Frost",
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 5.3,
+									["Name"] = "Ray of Frost",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
 							["ShowTimer"] = true,
-							["Name"] = "Essence Font",
+							["Name"] = "13",
 							["ShowTimerTextnoOCC"] = true,
 							["Conditions"] = {
 								{
-									["Level"] = 3.8,
+									["Type"] = "ITEMCD",
+									["Name"] = "13",
+									["AndOr"] = "OR",
+									["Level"] = 9.6,
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "item",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.78,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+					},
+					["Role"] = 1,
+					["Name"] = "Frost",
+					["Point"] = {
+						["y"] = -89.1496598434938,
+						["x"] = 2.55966950586549,
+					},
+					["EnabledSpecs"] = {
+						[63] = false,
+						[62] = false,
+					},
+					["OnlyInCombat"] = true,
+				}, -- [3]
+				{
+					["GUID"] = "TMW:group:1NjCJAYofkRE",
+					["Columns"] = 5,
+					["Scale"] = 1.1475020647049,
+					["Rows"] = 2,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Mark of Aluneth",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
 									["Type"] = "SPELLCD",
-									["Name"] = "Essence Font",
+									["Level"] = 39,
+									["Name"] = "Mark of Aluneth",
 									["Operator"] = "<=",
 								}, -- [1]
 								["n"] = 1,
@@ -42666,7 +42702,185 @@ TellMeWhenDB = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.85,
+									["Alpha"] = 0.66,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Evocation",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 22.1,
+									["Name"] = "Evocation",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.76,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Ice Floes; Ring of Frost",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Arcane Power",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 40,
+									["Name"] = "Arcane Power",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.72,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Rune of Power; Mirror Image",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 24,
+									["Name"] = "Rune of Power",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.74,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Arcane Orb",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 3.6,
+									["Name"] = "Arcane Orb",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 1,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Charged Up; Supernova",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 11.2,
+									["Name"] = "Charged Up",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.76,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Presence of Mind",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 21.2,
+									["Name"] = "Presence of Mind",
+									["Operator"] = "<=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.68,
 								}, -- [2]
 								{
 								}, -- [3]
@@ -42677,45 +42891,10 @@ TellMeWhenDB = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Rising Sun Kick",
+							["ShowTimerText"] = true,
 							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 3.3,
-									["Type"] = "SPELLCD",
-									["Name"] = "Rising Sun Kick",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.86,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Mana Tea",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 3,
-									["Type"] = "SPELLCD",
-									["Name"] = "Mana Tea",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
+							["Name"] = "Prismatic Barrier",
 							["States"] = {
 								{
 								}, -- [1]
@@ -42727,66 +42906,385 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+						}, -- [9]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerTextnoOCC"] = true,
+							["Name"] = "Kil'jaeden's Burning Wish; Horn of Valor",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.86,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Type"] = "item",
+							["Conditions"] = {
+								{
+									["Type"] = "ITEMCD",
+									["Level"] = 21,
+									["Name"] = "Kil'jaeden's Burning Wish",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Type"] = "ITEMCD",
+									["Name"] = "Horn of Valor",
+									["AndOr"] = "OR",
+									["Level"] = 24.4,
+									["Operator"] = "<=",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["OnlyEquipped"] = true,
+							["OnlyInBags"] = true,
 						}, -- [10]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Leg Sweep",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [11]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Paralysis",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [12]
 					},
-					["Role"] = 2,
-					["Name"] = "Mistweaver",
-					["Columns"] = 6,
+					["Role"] = 1,
+					["Name"] = "Arcane",
+					["Point"] = {
+						["y"] = -89.1496598434938,
+						["x"] = 2.55966950586549,
+					},
 					["EnabledSpecs"] = {
-						[269] = false,
-						[268] = false,
+						[64] = false,
+						[63] = false,
 					},
 					["OnlyInCombat"] = true,
 				}, -- [4]
 				{
-					["GUID"] = "TMW:group:1Pa8udkxw5am",
-					["Columns"] = 1,
-					["Scale"] = 1.46666884422302,
+					["GUID"] = "TMW:group:1NlCYqdaMDgd",
+					["Role"] = 1,
+					["Name"] = "Glacial Spike",
+					["Point"] = {
+						["y"] = -51.9999542236328,
+						["x"] = -12,
+					},
+					["EnabledSpecs"] = {
+						[62] = false,
+						[63] = false,
+					},
+					["Icons"] = {
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["ShowTimer"] = true,
+							["Name"] = "Zeks Exterminatus",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+					["OnlyInCombat"] = true,
+				}, -- [5]
+				{
+					["GUID"] = "TMW:group:1NlpNaV9rpik",
+					["Role"] = 1,
+					["Name"] = "Buffs",
+					["Scale"] = 1.65833568572998,
+					["Point"] = {
+						["y"] = -55.4019621393769,
+						["x"] = 120.904326637829,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Name"] = "Blackout Strike",
+							["Name"] = "Combustion; Icy Veins; Arcane Power",
 							["ShowTimerTextnoOCC"] = true,
+							["OnlyMine"] = true,
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Incanter's Flow",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Kael'thas's Ultimate Ability; Norgannon's Foresight; Magtheridon's Might",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Rune of Power",
+							["ShowTimerTextnoOCC"] = true,
+							["OnlyMine"] = true,
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+					},
+					["OnlyInCombat"] = true,
+				}, -- [6]
+				{
+					["GUID"] = "TMW:group:1OfBbrc_vbg0",
+					["Role"] = 1,
+					["Name"] = "Procs",
+					["Point"] = {
+						["y"] = -62.7611723108439,
+						["x"] = -109.552146447016,
+					},
+					["Scale"] = 1.67500030994415,
+					["EnabledSpecs"] = {
+						[62] = false,
+					},
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Nefarious Pact; Devil's Due",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["ShowTimer"] = true,
+							["Name"] = "Concordance of the Legionfall",
+							["ShowTimerTextnoOCC"] = true,
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Time Warp",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "SPELLCD",
+									["Level"] = 17.5,
+									["Name"] = "Time Warp",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Name"] = "Shard of the Exodar",
+									["Type"] = "ITEMEQUIPPED",
+								}, -- [2]
+								["n"] = 2,
+							},
 							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
 								{
-									["Alpha"] = 0.8,
+									["Alpha"] = 0.83,
 								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [6]
+					},
+					["OnlyInCombat"] = true,
+				}, -- [7]
+				{
+					["GUID"] = "TMW:group:1PGHpLJxnIvH",
+					["Role"] = 1,
+					["Name"] = "Icicles",
+					["Point"] = {
+						["y"] = -87.8572048835343,
+						["x"] = 47.1428108152742,
+					},
+					["Scale"] = 1.86666548252106,
+					["EnabledSpecs"] = {
+						[63] = false,
+						[62] = false,
+					},
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["Type"] = "buff",
+							["Name"] = "Icicles",
+							["ShowTimerTextnoOCC"] = true,
+							["DurationMin"] = 4,
+							["Conditions"] = {
+								{
+									["Name"] = "Glacial Spike",
+									["Type"] = "TALENTLEARNED",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
@@ -42827,20 +43325,216 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["Role"] = 4,
-					["Name"] = "Blackout Strike",
+					["OnlyInCombat"] = true,
+				}, -- [8]
+				{
+					["GUID"] = "TMW:group:1PdK1fpFVEQJ",
+					["Role"] = 1,
+					["Name"] = "Scorch You Fuck",
 					["Point"] = {
-						["y"] = -50.4543783070589,
-						["x"] = -85.9084707031246,
+						["y"] = -3.33320262252733,
+						["x"] = -103.053612775241,
+						["point"] = "RIGHT",
+						["relativePoint"] = "RIGHT",
 					},
+					["Scale"] = 3.60002517700195,
 					["EnabledSpecs"] = {
-						[270] = false,
-						[269] = false,
+						[62] = false,
+						[64] = false,
+					},
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Scorch",
+							["ShowTimerTextnoOCC"] = true,
+							["Conditions"] = {
+								{
+									["Unit"] = "target",
+									["Level"] = 30,
+									["Type"] = "HEALTH",
+									["Operator"] = "<=",
+								}, -- [1]
+								{
+									["Name"] = "Koralon's Burning Touch",
+									["Type"] = "ITEMEQUIPPED",
+								}, -- [2]
+								["n"] = 2,
+							},
+							["Type"] = "cooldown",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
 					},
 					["OnlyInCombat"] = true,
-				}, -- [5]
+				}, -- [9]
+				{
+					["GUID"] = "TMW:group:1Pg6dqcg6l3I",
+					["Role"] = 1,
+					["Name"] = "Avatar",
+					["Scale"] = 3.46666359901428,
+					["Icons"] = {
+						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["Name"] = "Tainted Essence",
+							["ShowTimerTextnoOCC"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "focus",
+							["Type"] = "buff",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [4]
+					},
+					["Point"] = {
+						["y"] = -68.9422358507871,
+						["x"] = -93.172884387597,
+					},
+				}, -- [10]
+				{
+					["GUID"] = "TMW:group:1Q9p6589PsDm",
+					["Role"] = 1,
+					["Name"] = "Shard",
+					["Point"] = {
+						["y"] = 96.5,
+						["x"] = 152.499786376953,
+						["point"] = "BOTTOMLEFT",
+						["relativePoint"] = "BOTTOMLEFT",
+					},
+					["Icons"] = {
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Enabled"] = true,
+							["Type"] = "item",
+							["Name"] = "Shard of the Exodar",
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["OnlyEquipped"] = true,
+							["OnlyInBags"] = true,
+						}, -- [4]
+					},
+					["OnlyInCombat"] = true,
+				}, -- [11]
 			},
-			["NumGroups"] = 5,
 		},
 		["Rykaahpo - Frostmane"] = {
 			["Locked"] = true,
@@ -44847,6 +45541,10 @@ TellMeWhenDB = {
 					["GUID"] = "TMW:group:1PkKgWIMIxZl",
 					["Role"] = 4,
 					["Name"] = "Prot Buffs",
+					["EnabledSpecs"] = {
+						[72] = false,
+						[71] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -44898,10 +45596,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
-					},
-					["EnabledSpecs"] = {
-						[72] = false,
-						[71] = false,
 					},
 					["Point"] = {
 						["y"] = -41.4999694824219,
@@ -46873,41 +47567,17 @@ TellMeWhenDB = {
 				}, -- [1]
 			},
 		},
-		["Shaman - Tarren Mill"] = {
+		["Rykahboost - Turalyon"] = {
 			["Locked"] = true,
-			["Version"] = 84201,
-			["NumGroups"] = 4,
+			["Version"] = 87505,
 			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1JnJnrrBRgOb",
-					["Point"] = {
-						["y"] = -66.9549985598042,
-						["x"] = 1.35816436360964,
-					},
-					["Scale"] = 1.19642817974091,
-					["Rows"] = 2,
 					["Icons"] = {
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Stormkeeper",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 1.4,
-									["Type"] = "SPELLCD",
-									["Name"] = "Stormkeeper",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
@@ -46915,26 +47585,10 @@ TellMeWhenDB = {
 							},
 						}, -- [1]
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Lava Burst",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 1.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Lava Burst",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
@@ -46942,26 +47596,10 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Fire Elemental",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 6.6,
-									["Type"] = "SPELLCD",
-									["Name"] = "Fire Elemental",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
 							["States"] = {
 								{
 								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
+								nil, -- [2]
 								{
 								}, -- [3]
 								{
@@ -46969,12 +47607,6 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Ascendance; Liquid Magma Totem",
 							["States"] = {
 								{
 								}, -- [1]
@@ -46985,641 +47617,9 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Elemental Blast",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 3.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Elemental Blast",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.75,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Elemental Mastery",
-							["Conditions"] = {
-								{
-									["Level"] = 8.1,
-									["Type"] = "SPELLCD",
-									["Name"] = "Elemental Mastery",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.81,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Frost Shock",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 2.4,
-									["Type"] = "SPELLCD",
-									["Name"] = "Frost Shock",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Name"] = "Icefury",
-									["Type"] = "TALENTLEARNED",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.82,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
 					},
-					["Role"] = 1,
-					["Name"] = "Elemental",
-					["EnabledSpecs"] = {
-						[263] = false,
-						[264] = false,
-					},
-					["OnlyInCombat"] = true,
+					["GUID"] = "TMW:group:1VXYNsvt=Lwh",
 				}, -- [1]
-				{
-					["GUID"] = "TMW:group:1JnJnrrBaptm",
-					["Role"] = 1,
-					["Columns"] = 1,
-					["Point"] = {
-						["y"] = -73.5000610351563,
-						["x"] = 0.999755859375,
-					},
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["Type"] = "buff",
-							["Name"] = "Ember Totem",
-							["Conditions"] = {
-								{
-									["Name"] = "Totem Mastery",
-									["Type"] = "TALENTLEARNED",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["OnlyMine"] = true,
-							["States"] = {
-								{
-									["Alpha"] = 0,
-								}, -- [1]
-								{
-									["Alpha"] = 1,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-					},
-					["Name"] = "Ember Totem",
-					["EnabledSpecs"] = {
-						[264] = false,
-						[263] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [2]
-				{
-					["GUID"] = "TMW:group:1JnJnrrBfq2z",
-					["Point"] = {
-						["y"] = -84.7055337824116,
-						["x"] = -2.64663062542156,
-					},
-					["Scale"] = 1.13333349548417,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Healing Stream Totem",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Riptide",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 3,
-									["Type"] = "SPELLCD",
-									["Name"] = "Riptide",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.71,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Healing Tide Totem",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Healing Rain",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 4.8,
-									["Type"] = "SPELLCD",
-									["Name"] = "Healing Rain",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.74,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Spiritwalker's Grace",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Purify Spirit",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.85,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Gift of the Queen",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 5.8,
-									["Type"] = "SPELLCD",
-									["Name"] = "Gift of the Queen",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.75,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Spirit Link Totem",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Earthen Shield Totem; Ancestral Protection Totem",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 3.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Earthen Shield Totem",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Level"] = 4.6,
-									["Type"] = "SPELLCD",
-									["Name"] = "Ancestral Protection Totem",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.7,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Wellspring; Ascendance",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Wellspring",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Level"] = 11.9,
-									["Type"] = "SPELLCD",
-									["Name"] = "Ascendance",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Cloudburst Totem; Lightning Surge Totem",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 5.9,
-									["Type"] = "SPELLCD",
-									["Name"] = "Cloudburst Totem",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.73,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [11]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Lava Burst",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.87,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [12]
-					},
-					["Role"] = 2,
-					["Name"] = "Resto",
-					["Columns"] = 6,
-					["EnabledSpecs"] = {
-						[263] = false,
-						[262] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [3]
-				{
-					["GUID"] = "TMW:group:1KTWOhtsa6NI",
-					["Point"] = {
-						["y"] = -74.3076161336174,
-						["x"] = 6.44742376169231e-05,
-					},
-					["Scale"] = 1.08333885669708,
-					["Rows"] = 2,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Stormstrike",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 3.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Stormstrike",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.75,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Flametongue",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Doom Winds",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 8,
-									["Type"] = "SPELLCD",
-									["Name"] = "Doom Winds",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.79,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "Feral Spirit",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Boulderfist",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 2.9,
-									["Type"] = "SPELLCD",
-									["Name"] = "Boulderfist",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.79,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Sundering",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 4.5,
-									["Type"] = "SPELLCD",
-									["Name"] = "Sundering",
-									["Operator"] = "<=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.77,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Ascendance; Earthen Spike",
-							["ShowTimerTextnoOCC"] = true,
-							["Conditions"] = {
-								{
-									["Level"] = 10.3,
-									["Type"] = "SPELLCD",
-									["Name"] = "Ascendance",
-									["Operator"] = "<=",
-								}, -- [1]
-								{
-									["Level"] = 3.4,
-									["Type"] = "SPELLCD",
-									["Name"] = "Earthen Spike",
-									["Operator"] = "<=",
-								}, -- [2]
-								["n"] = 2,
-							},
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.8,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "Crash Lightning",
-							["ShowTimerTextnoOCC"] = true,
-							["Type"] = "cooldown",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.64,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-					},
-					["Role"] = 1,
-					["Name"] = "Enhancement",
-					["EnabledSpecs"] = {
-						[264] = false,
-						[262] = false,
-					},
-					["OnlyInCombat"] = true,
-				}, -- [4]
 			},
 		},
 		["Mechaboost - Silvermoon"] = {

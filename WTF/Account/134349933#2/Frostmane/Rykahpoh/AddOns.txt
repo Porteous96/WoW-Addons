@@ -43,7 +43,7 @@ XaneshPractice: enabled
 LootAppraiser_Challenge: disabled
 EasyScrap: disabled
 LootAppraiser: disabled
-Immersion: disabled
+Immersion: enabled
 BigWigs_Azeroth: enabled
 BigWigs_Nyalotha: enabled
 BigWigs_EternalPalace: enabled
