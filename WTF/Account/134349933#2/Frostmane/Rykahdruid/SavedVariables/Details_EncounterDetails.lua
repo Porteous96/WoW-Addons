@@ -251,16 +251,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Forgemaster Gog'duh",
 		},
-		[150032] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[150759] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Magmolatus",
+			["source"] = "Slave Watcher Crushto",
 		},
 		[168398] = {
 			["school"] = 1,
@@ -281,17 +281,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Neesa Nox",
 		},
-		[150759] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Slave Watcher Crushto",
-		},
 		[164426] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -302,6 +291,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fleshrender Nok'gar",
 		},
+		[169129] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Backdraft",
+		},
 		[153501] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -311,31 +308,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nhallish",
 		},
-		[154442] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[154175] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ner'zhul",
+			["source"] = "Bonemaw",
 		},
-		[169129] = {
+		[163668] = {
 			["school"] = 4,
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Makogg Emberblade",
+		},
+		[166923] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Backdraft",
-		},
-		[153224] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Daggerfall",
+			["source"] = "Fleshrender Nok'gar",
 		},
 		[168399] = {
 			["school"] = 8,
@@ -351,22 +345,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[154175] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Bonemaw",
-		},
-		[166923] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Fleshrender Nok'gar",
-		},
 		[153681] = {
 			["school"] = 8,
 			["token"] = {
@@ -374,6 +352,21 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Bonemaw",
+		},
+		[168955] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Koramar",
+		},
+		[150678] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gug'rokk",
 		},
 		[152897] = {
 			["school"] = 4,
@@ -411,13 +404,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Possessed Soul",
 		},
-		[150678] = {
+		[150811] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Gug'rokk",
+			["source"] = "Captured Miner",
 		},
 		[77508] = {
 			["school"] = 4,
@@ -434,13 +427,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Slave Watcher Crushto",
 		},
-		[150811] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[153224] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Captured Miner",
+			["source"] = "Daggerfall",
 		},
 		[153240] = {
 			["school"] = 1,
@@ -486,22 +478,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Roltall",
 		},
-		[168402] = {
-			["school"] = 1,
+		[150344] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Koramar",
 		},
-		[153067] = {
+		[153232] = {
 			["school"] = 32,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nhallish",
+			["source"] = "Daggerfall",
 		},
 		[40505] = {
 			["school"] = 1,
@@ -522,11 +510,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Calamity",
 		},
-		[150344] = {
-			["school"] = 8,
+		[152940] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Roltall",
 		},
 		[168148] = {
 			["school"] = 4,
@@ -541,13 +531,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bonemaw",
 		},
-		[152940] = {
-			["school"] = 4,
+		[153067] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Roltall",
+			["source"] = "Nhallish",
 		},
 		[154353] = {
 			["school"] = 32,
@@ -607,14 +599,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Forgemaster Gog'duh",
 		},
-		[153153] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[149941] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sadana Bloodfury",
+			["source"] = "Ruination",
 		},
 		[150290] = {
 			["school"] = 4,
@@ -634,16 +628,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Roltall",
 		},
-		[149941] = {
+		[163276] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ruination",
+			["source"] = "Ogre Trap",
 		},
 		[165578] = {
 			["school"] = 32,
@@ -762,14 +754,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Magmolatus",
 		},
-		[163276] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[153153] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ogre Trap",
+			["source"] = "Sadana Bloodfury",
 		},
 		[150324] = {
 			["school"] = 1,
@@ -779,12 +771,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ruination",
 		},
-		[153232] = {
-			["school"] = 32,
+		[168402] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Daggerfall",
+			["source"] = "Koramar",
 		},
 		[168390] = {
 			["school"] = 4,
@@ -808,16 +800,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nhallish",
 		},
-		[150023] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[152690] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Magmolatus",
 		},
 		[165152] = {
 			["school"] = 4,
@@ -836,13 +823,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Neesa Nox",
 		},
-		[162424] = {
+		[150023] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Oshir",
+			["source"] = "Magmolatus",
 		},
 		[178154] = {
 			["school"] = 1,
@@ -851,6 +841,22 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Rylak Skyterror",
+		},
+		[172963] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Siegemaster Rokra",
+		},
+		[162424] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Oshir",
 		},
 		[164835] = {
 			["school"] = 1,
@@ -861,20 +867,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dreadfang",
 		},
-		[152690] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[152837] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Fiery Boulder",
-		},
 		[163740] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -884,20 +876,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ahri'ok Dugru",
 		},
-		[172963] = {
-			["school"] = 1,
+		[150032] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Siegemaster Rokra",
+			["source"] = "Magmolatus",
 		},
-		[168955] = {
+		[152837] = {
 			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Koramar",
+			["source"] = "Fiery Boulder",
 		},
 		[153247] = {
 			["school"] = 4,
@@ -914,12 +910,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rylak Skyterror",
 		},
-		[163668] = {
-			["school"] = 4,
+		[154442] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Makogg Emberblade",
+			["source"] = "Ner'zhul",
 		},
 		[150755] = {
 			["school"] = 1,

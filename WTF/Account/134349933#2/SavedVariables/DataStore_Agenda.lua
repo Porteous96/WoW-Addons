@@ -2,42 +2,42 @@
 DataStore_AgendaDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Advboi - Frostmane"] = "Advboi - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
 		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
-		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
-		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
-		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
-		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
-		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
-		["Rykah - Frostmane"] = "Rykah - Frostmane",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 3,
-			["NextWeeklyReset"] = "2020-10-28",
+			["NextWeeklyReset"] = "2020-11-04",
 		},
 		["Characters"] = {
 			["Default.Frostmane.Rykahtwo"] = {
@@ -49,8 +49,8 @@ DataStore_AgendaDB = {
 			["Default.Frostmane.Rykah"] = {
 				["lastUpdate"] = 1599349888,
 			},
-			["Default.Frostmane.Rÿkah"] = {
-				["lastUpdate"] = 1603838400,
+			["Default.Frostmane.Blissard"] = {
+				["lastUpdate"] = 1600977659,
 			},
 			["Default.Doomhammer.Rykahpo"] = {
 				["Contacts"] = {
@@ -60,116 +60,105 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1602626866,
 			},
-			["Default.Frostmane.Blissard"] = {
-				["lastUpdate"] = 1600977659,
-			},
-			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1603844319,
-				["DungeonIDs"] = {
-					["Ny'alotha, the Waking City Heroic|1030293501"] = "24079|1603844320|0|1|12|11",
-				},
-				["DungeonBosses"] = {
-					["Ny'alotha, the Waking City Heroic|1030293501"] = {
-						["Prophet Skitra"] = true,
-						["The Hivemind"] = false,
-						["Shad'har the Insatiable"] = true,
-						["Maut"] = true,
-						["N'Zoth the Corruptor"] = true,
-						["Vexiona"] = true,
-						["Il'gynoth, Corruption Reborn"] = true,
-						["Wrathion"] = true,
-						["Ra-den the Despoiled"] = true,
-						["Carapace of N'Zoth"] = true,
-						["Drest'agath"] = true,
-						["Dark Inquisitor Xanesh"] = true,
-					},
-				},
-				["Contacts"] = {
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-					--[[ skipped entry with table key ]]
-				},
-			},
-			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1602616511,
-			},
 			["Default.Defias Brotherhood.Mechaboost"] = {
 				["lastUpdate"] = 1594773075,
+			},
+			["Default.Frostmane.Rykahpo"] = {
+				["DungeonIDs"] = {
+					["The Nighthold Mythic|506095280"] = "378312|1604094883|0|1|10|2",
+					["Antorus, the Burning Throne Mythic|1031558237"] = "378312|1604094883|0|1|11|4",
+				},
+				["DungeonBosses"] = {
+					["The Nighthold Mythic|506095280"] = {
+						["Trilliax"] = false,
+						["Krosus"] = false,
+						["High Botanist Tel'arn"] = false,
+						["Star Augur Etraeus"] = false,
+						["Spellblade Aluriel"] = false,
+						["Tichondrius"] = false,
+						["Skorpyron"] = false,
+						["Chronomatic Anomaly"] = false,
+						["Gul'dan"] = true,
+						["Grand Magistrix Elisande"] = true,
+					},
+					["Antorus, the Burning Throne Mythic|1031558237"] = {
+						["Varimathras"] = false,
+						["The Defense of Eonar"] = false,
+						["Imonar the Soulhunter"] = false,
+						["Aggramar"] = true,
+						["Portal Keeper Hasabel"] = false,
+						["Garothi Worldbreaker"] = true,
+						["Felhounds of Sargeras"] = true,
+						["Antoran High Command"] = false,
+						["The Coven of Shivarra"] = false,
+						["Argus the Unmaker"] = true,
+						["Kin'garoth"] = false,
+					},
+				},
+				["lastUpdate"] = 1604094882,
+			},
+			["Default.Frostmane.Rykkahpo"] = {
+				["lastUpdate"] = 1604098252,
+			},
+			["Default.Frostmane.Rykahshaman"] = {
+				["lastUpdate"] = 1603923248,
 			},
 			["Default.Frostmane.Rykahwar"] = {
 				["lastUpdate"] = 1603840835,
 			},
-			["Default.Frostmane.Rykahbolt"] = {
-				["lastUpdate"] = 1602982075,
+			["Default.Frostmane.Bankypo"] = {
+				["lastUpdate"] = 1604109163,
 			},
 			["Default.Frostmane.Rykahdruid"] = {
-				["lastUpdate"] = 1603405457,
+				["lastUpdate"] = 1604101076,
 			},
-			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1602616467,
+			["Default.Frostmane.Rykahhpo"] = {
+				["lastUpdate"] = 1604106002,
 			},
 			["Default.Sylvanas.Mechaboost"] = {
 				["lastUpdate"] = 1602507189,
 			},
 			["Default.Frostmane.Rykahpodh"] = {
+				["lastUpdate"] = 1604096616,
+			},
+			["Default.Frostmane.Rÿkah"] = {
 				["DungeonIDs"] = {
-					["Battle of Dazar'alor Mythic|1463368070"] = "383600|1602879995|0|1|9|1",
+					["The Nighthold Mythic|506074976"] = "373673|1604099522|0|1|10|10",
+					["The Emerald Nightmare Mythic|1031539984"] = "373673|1604099522|0|1|7|7",
 				},
 				["DungeonBosses"] = {
-					["Battle of Dazar'alor Mythic|1463368070"] = {
-						["King Rastakhan"] = false,
-						["Lady Jaina Proudmoore"] = true,
-						["Jadefire Masters"] = false,
-						["Conclave of the Chosen"] = false,
-						["Grong the Revenant"] = false,
-						["Stormwall Blockade"] = false,
-						["Mekkatorque"] = false,
-						["Champion of the Light"] = false,
-						["Opulence"] = false,
+					["The Nighthold Mythic|506074976"] = {
+						["Trilliax"] = true,
+						["Krosus"] = true,
+						["High Botanist Tel'arn"] = true,
+						["Star Augur Etraeus"] = true,
+						["Spellblade Aluriel"] = true,
+						["Tichondrius"] = true,
+						["Skorpyron"] = true,
+						["Chronomatic Anomaly"] = true,
+						["Gul'dan"] = true,
+						["Grand Magistrix Elisande"] = true,
+					},
+					["The Emerald Nightmare Mythic|1031539984"] = {
+						["Elerethe Renferal"] = true,
+						["Ursoc"] = true,
+						["Nythendra"] = true,
+						["Il'gynoth, The Heart of Corruption"] = true,
+						["Cenarius"] = true,
+						["Dragons of Nightmare"] = true,
+						["Xavius"] = true,
 					},
 				},
-				["lastUpdate"] = 1602882447,
+				["lastUpdate"] = 1604099522,
 			},
-			["Default.Frostmane.Rykahshaman"] = {
-				["lastUpdate"] = 1603839885,
-			},
-			["Default.Frostmane.Rykahpoo"] = {
-				["Contacts"] = {
-					["Qvibble"] = {
-						["note"] = "",
-					},
-					["Imonax"] = {
-						["note"] = "",
-					},
-					["Qvîbble"] = {
-						["note"] = "",
-					},
-				},
-				["lastUpdate"] = 1601930879,
+			["Default.Frostmane.Rykahpriest"] = {
+				["lastUpdate"] = 1603923284,
 			},
 			["Default.Frostmane.Advboi"] = {
 				["lastUpdate"] = 1602628854,
 			},
-			["Default.Frostmane.Rykahpoa"] = {
-				["lastUpdate"] = 1601932135,
+			["Default.Frostmane.Rykahpow"] = {
+				["lastUpdate"] = 1599917000,
 			},
 			["Default.Frostmane.Rykahthree"] = {
 				["lastUpdate"] = 1602709344,
@@ -177,23 +166,23 @@ DataStore_AgendaDB = {
 			["Default.Silvermoon.Mechaboost"] = {
 				["lastUpdate"] = 1594901079,
 			},
-			["Default.Turalyon.Rykahboost"] = {
-				["lastUpdate"] = 1602627575,
-			},
 			["Default.Frostmane.Rykahpala"] = {
 				["lastUpdate"] = 1603840530,
+			},
+			["Default.Turalyon.Rykahboost"] = {
+				["lastUpdate"] = 1602627575,
 			},
 			["Default.Aggramar.Rykahboost"] = {
 				["lastUpdate"] = 1602626124,
 			},
-			["Default.Frostmane.Rykahpow"] = {
-				["lastUpdate"] = 1599917000,
+			["Default.Frostmane.Rykahpoa"] = {
+				["lastUpdate"] = 1601932135,
 			},
-			["Default.Frostmane.Rykahpriest"] = {
-				["lastUpdate"] = 1603840250,
+			["Default.Frostmane.Rykahpoo"] = {
+				["lastUpdate"] = 1604106274,
 			},
-			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1603834899,
+			["Default.Frostmane.Rykahbolt"] = {
+				["lastUpdate"] = 1604102504,
 			},
 			["Default.Aggramar.Rcumplus"] = {
 				["lastUpdate"] = 1602273008,
@@ -202,26 +191,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1597588063,
 			},
 			["Default.Frostmane.Rykahpoh"] = {
-				["DungeonIDs"] = {
-					["Ny'alotha, the Waking City Heroic|1031005077"] = "33543|1603834857|0|1|12|1",
-				},
-				["DungeonBosses"] = {
-					["Ny'alotha, the Waking City Heroic|1031005077"] = {
-						["Prophet Skitra"] = false,
-						["The Hivemind"] = true,
-						["Shad'har the Insatiable"] = false,
-						["Maut"] = false,
-						["Dark Inquisitor Xanesh"] = false,
-						["Vexiona"] = false,
-						["Il'gynoth, Corruption Reborn"] = false,
-						["Wrathion"] = false,
-						["Ra-den the Despoiled"] = false,
-						["Carapace of N'Zoth"] = false,
-						["Drest'agath"] = false,
-						["N'Zoth the Corruptor"] = false,
-					},
-				},
-				["lastUpdate"] = 1603834859,
+				["lastUpdate"] = 1604103194,
 			},
 			["Default.Kazzak.Rykahpodh"] = {
 				["lastUpdate"] = 1599430816,

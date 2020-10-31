@@ -20,10 +20,3 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: BigWigsInfoBox
-FrameLevel: 1
-Anchor: LEFT
-X: 201
-Y: 139
-W: 150
-H: 100

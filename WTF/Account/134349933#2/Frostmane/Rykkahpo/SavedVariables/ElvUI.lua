@@ -1,798 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p im hoping jhelica comes back", -- [1]
-		"/p yeh dyl and nyka", -- [2]
-		"/p i need to message jhelica actually cause i've not spoke to him for so long", -- [3]
-		"/p legoman seems good tho", -- [4]
-		"/p jeremy, val messaged me on wednesday asking me to join his new guild", -- [5]
-		"/p cause i like velvet", -- [6]
-		"/p and its free curve", -- [7]
-		"/p rogue before you joined", -- [8]
-		"/p but he's friends with some danes", -- [9]
-		"/p who were some of our better players", -- [10]
-		"/p they were just toxic af", -- [11]
-		"/p so the danes and val are making new guild", -- [12]
-		"/p there was 5 of them", -- [13]
-		"/p arcturaz and flupsy were sick", -- [14]
-		"/p and tama was utter shit", -- [15]
-		"/p ye", -- [16]
-		"/p absolutely shit", -- [17]
-		"/p no mounts :(", -- [18]
-		"/2 add something to it then", -- [19]
-		"/2 crying adds even less", -- [20]
+		"/o do you know what dave does?", -- [1]
+		"/o yeah i mean specifically?", -- [2]
+		"/o well basically I write an application companies use to track issues with their computers and software", -- [3]
+		"/o its super dull", -- [4]
+		"/o and couldnt be further from what i wanted to be working with", -- [5]
+		"/o no", -- [6]
+		"/o my boss is a tight tax dodging cunt", -- [7]
+		"/o I wanted to get a new job this year but corona happened and then the year disappeared", -- [8]
+		"/o I'm not really sure", -- [9]
+		"/o the company I work for are quite old school", -- [10]
+		"/o and they're quite small", -- [11]
+		"/g oooh", -- [12]
+		"/o I like having a small team", -- [13]
+		"/o but dislike the way we work if that makes any sense", -- [14]
+		"/o I'll hopefully find a new job after the new year", -- [15]
+		"/o but I don't like the idea of starting at a new company working fully remotely", -- [16]
+		"/o before covid happened, I travelled to work in edinburgh", -- [17]
+		"/o so was hoping when I eventually got a new job that it would be closer to home", -- [18]
+		"/o cause public transport is hit", -- [19]
+		"/o shit*", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"Oblivion Community sells Ny'alotha Heroic, also with VIP Spots,  Jaina Mythic + Mount, M+ 10-23, with several Loot Options and with specific Key/Armorstack! /w me for Prices and Times!", -- [1]
-			"Shanay-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Shanay-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2199, -- [11]
-			"Player-1303-0B83F93C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cShanay|r",
-			[51] = 1601825141,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"WTS |cff0070dd|Hitem:66895::::::::110:64:512:28:1:4761:110:::|h[Don Gonzales' Shiny Shield]|h|r", -- [1]
-			"Johanerino-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Johanerino-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2350, -- [11]
-			"Player-1303-072594DF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Johanerino-GrimBatol|r",
-			[51] = 1601825259,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"<NBC> Offers:|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r 12/12hc from 140k, Curve 50k, Mythic 12/12 , m10 70k, m15 90k (Buy 2=FREE ARMOR STACK) , Jaina mount 350k, Visions, Mechagon HM, Glory runs, Accepting gold on all realms!", -- [1]
-			"Nbcskadi-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nbcskadi-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2359, -- [11]
-			"Player-1303-0B73959F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNbcskadi|r",
-			[51] = 1601825265,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"Selling \"Ahead of the Curve: N'zoth\" NOW for 50k! Run every 20 minutes! Get your Achievement and the <Uncorrupted Voidwing> mount! /w for more info", -- [1]
-			"Shanay-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Shanay-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2437, -- [11]
-			"Player-1303-0B83F93C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cShanay|r",
-			[51] = 1601825324,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2450, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601825333,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"[ Gino's Mercenaries ] Is selling M+ ( 10 to 20 ), Nya Raid HC + Mythic & N'zoth only, Boost lvl 110-120, Visions ( 0-5 mask ) Jaina Mount, Keystone Master and a lot more for gold ! Dm me for more info :)", -- [1]
-			"Mercsally-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mercsally-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2571, -- [11]
-			"Player-1303-0B16DC79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Mercsally-GrimBatol|r",
-			[51] = 1601825426,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"RIP trade chat", -- [1]
-			"Toklo-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Toklo-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2586, -- [11]
-			"Player-1303-0B679FC5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcToklo|r",
-			[51] = 1601825438,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"rip", -- [1]
-			"Paxton-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Paxton-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2602, -- [11]
-			"Player-1303-0B6998C5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefePaxton|r",
-			[51] = 1601825450,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"Gostavas de evitar pedregulhos como o Indiana?Ou preferias dar uns force pushes como o Darth?Pois aqui vais aprender a ser o testdummie dos 2,mas sempre com estilo ;)«Cavaleiros do Apocalipse» for the lose,wisp or apply :D", -- [1]
-			"Fofuxa-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Fofuxa-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2629, -- [11]
-			"Player-1303-00A8C25C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Fofuxa-GrimBatol|r",
-			[51] = 1601825470,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"Welcome to my |cffffd000|Htrade:Player-1300-041DC04C:195097:164|h[Blacksmithing]|h|rshop. If you need something, give me a whisp and i'll help you.", -- [1]
-			"Xtýpe-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Xtýpe-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2635, -- [11]
-			"Player-1303-0B5588E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Xtýpe|r",
-			[51] = 1601825474,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"Wasting my gold on |cff808080|Hquest:14444:-1:67:80:0|h[What The Dragons Know]|h|r", -- [1]
-			"Defendless-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2648, -- [11]
-			"Player-1303-0B68A8AE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cDefendless|r",
-			[51] = 1601825482,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
-		{
-			"Oblivion Community sells Ny'alotha Heroic, also with VIP Spots,  Jaina Mythic + Mount, M+ 10-23, with several Loot Options and with specific Key/Armorstack! /w me for Prices and Times!", -- [1]
-			"Shanay-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Shanay-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2698, -- [11]
-			"Player-1303-0B83F93C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cShanay|r",
-			[51] = 1601825520,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2717, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601825534,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"Selling \"Ahead of the Curve: N'zoth\" NOW for 50k! Last spot! Get your Achievement and the <Uncorrupted Voidwing> mount! /w for more info", -- [1]
-			"Shanay-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Shanay-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3038, -- [11]
-			"Player-1303-0B83F93C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cShanay|r",
-			[51] = 1601825785,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3231, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601825933,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12918:Player-1303-0B5AFCE9:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Have a Heart]|h|r!", -- [1]
-			"Philistrojka-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Philistrojka-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3278, -- [11]
-			"Player-1303-0B5AFCE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Philistrojka|r",
-			[51] = 1601825969,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [16]
-		{
-			"<NBC> Offers:|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r 12/12hc from 140k, Curve 50k, Mythic 12/12 , m10 70k, m15 90k (Buy 2=FREE ARMOR STACK) , Jaina mount 350k, Visions, Mechagon HM, Glory runs, Accepting gold on all realms!", -- [1]
-			"Nbcskadi-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nbcskadi-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3563, -- [11]
-			"Player-1303-0B73959F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNbcskadi|r",
-			[51] = 1601826190,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3750, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601826334,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"is Bur going horde next exp", -- [1]
-			"Defendless-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3829, -- [11]
-			"Player-1303-0B68A8AE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cDefendless|r",
-			[51] = 1601826394,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
-		{
-			"Everyone and their mother it feels like lol", -- [1]
-			"Coldstorm-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3874, -- [11]
-			"Player-1303-0B660E49", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcColdstorm|r",
-			[51] = 1601826429,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
-		{
-			"Horde is super popular it seems", -- [1]
-			"Coldstorm-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3893, -- [11]
-			"Player-1303-0B660E49", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcColdstorm|r",
-			[51] = 1601826441,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
-		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3954, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601826487,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4015, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601826533,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4021, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601826538,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"Selling freehold leveling boost cheap 110-120", -- [1]
-			"Hipócat-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hipócat-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4293, -- [11]
-			"Player-1303-0B664A73", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Hipócat|r",
-			[51] = 1601826749,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"Errbody selling FH now ^^", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4325, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601826773,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4332, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601826777,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"Justify er en skandinavisk Guild  som  søker etter fler folk til vår casual guild Vi raider. onsdag og søndag mellom 20.00 og 23.00 vi har alt/fun raid fredag 20.00 til 23.00  Hjertelig velkommen!", -- [1]
-			"Direktørinna-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Direktørinna-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4445, -- [11]
-			"Player-1303-08AE9518", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Direktørinna-GrimBatol|r",
-			[51] = 1601826864,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"<NBC> Offers:|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r 12/12hc from 140k, Curve 50k, Mythic 12/12 , m10 70k, m15 90k (Buy 2=FREE ARMOR STACK) , Jaina mount 350k, Visions, Mechagon HM, Glory runs, Accepting gold on all realms!", -- [1]
-			"Nbcskadi-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nbcskadi-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4492, -- [11]
-			"Player-1303-0B73959F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNbcskadi|r",
-			[51] = 1601826899,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4497, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601826902,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"Selling Freehold boost cheap 110-120", -- [1]
-			"Hipócat-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hipócat-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4524, -- [11]
-			"Player-1303-0B664A73", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Hipócat|r",
-			[51] = 1601826922,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"WTS Freehold boost 110-120 cheap /w me", -- [1]
-			"Laxxo-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laxxo-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4529, -- [11]
-			"Player-1303-0B697EA3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Laxxo|r",
-			[51] = 1601826924,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4541, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601826933,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"LF social guild :)", -- [1]
-			"Tjackisia-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tjackisia-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4617, -- [11]
-			"Player-1303-0B82D223", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8686ecTjackisia|r",
-			[51] = 1601826991,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"<FOR THE INVICTA> 7/12 M and 12/12 HC Nyalotha is recruiting one ranged DPS and one Tank for its raiding team. Schedule: Tue, Wed, Thur - 23h20-01h30 (ST). We also have a social raid on Mondays. /w for more info", -- [1]
-			"Asmodean-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Asmodean-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4667, -- [11]
-			"Player-1303-059D27FF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8686ecAsmodean-Aggra(Português)|r",
-			[51] = 1601827030,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
 		{
 			"Selling Freehold leveling boost cheap /w me", -- [1]
 			"Hipócat-Frostmane", -- [2]
@@ -814,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hipócat|r",
 			[51] = 1601827109,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [1]
 		{
 			"WTS |cffa335ee|Hitem:95416::::::::120:73::::::|h[Sky Golem]|h|r", -- [1]
 			"Sydbarrett-Aggra(Português)", -- [2]
@@ -836,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSydbarrett-Aggra(Português)|r",
 			[51] = 1601827117,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [2]
 		{
 			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Lighthookf-Frostmane", -- [2]
@@ -858,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLighthookf|r",
 			[51] = 1601827134,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [3]
 		{
 			"Dylan u were the imposter! I saw you!", -- [1]
 			"Cassetto-Frostmane", -- [2]
@@ -880,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Cassetto|r",
 			[51] = 1601827182,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
+		}, -- [4]
 		{
 			"U knifed Ashe ", -- [1]
 			"Cassetto-Frostmane", -- [2]
@@ -902,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Cassetto|r",
 			[51] = 1601827192,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
+		}, -- [5]
 		{
 			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -924,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1601827295,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [6]
 		{
 			"when next games", -- [1]
 			"Defendless-Frostmane", -- [2]
@@ -946,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDefendless|r",
 			[51] = 1601827298,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+		}, -- [7]
 		{
 			"that would be something dave might know", -- [1]
 			"Maki-Aggra(Português)", -- [2]
@@ -968,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Maki|r",
 			[51] = 1601827313,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+		}, -- [8]
 		{
 			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Lighthookf-Frostmane", -- [2]
@@ -990,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLighthookf|r",
 			[51] = 1601827333,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [9]
 		{
 			"tomorrow i believe", -- [1]
 			"Cassetto-Frostmane", -- [2]
@@ -1012,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Cassetto|r",
 			[51] = 1601827346,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [10]
 		{
 			"Where do I complete \"Champions of Azeroth\" world quest bonus, for 3000 azerite power?", -- [1]
 			"Kfisch-Frostmane", -- [2]
@@ -1034,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKfisch|r",
 			[51] = 1601827368,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [11]
 		{
 			"will be weird not hearing him giggle when tom does something sus tho", -- [1]
 			"Maki-Aggra(Português)", -- [2]
@@ -1056,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Maki|r",
 			[51] = 1601827429,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [12]
 		{
 			"Who is maki", -- [1]
 			"Defendless-Frostmane", -- [2]
@@ -1078,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDefendless|r",
 			[51] = 1601827496,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [13]
 		{
 			"who knows", -- [1]
 			"Maki-Aggra(Português)", -- [2]
@@ -1100,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Maki|r",
 			[51] = 1601827513,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [14]
 		{
 			"Mirka?", -- [1]
 			"Defendless-Frostmane", -- [2]
@@ -1122,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDefendless|r",
 			[51] = 1601827523,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [15]
 		{
 			"whos that", -- [1]
 			"Maki-Aggra(Português)", -- [2]
@@ -1144,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Maki|r",
 			[51] = 1601827528,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [16]
 		{
 			"WTS |cffa335ee|Hitem:95416::::::::120:73::::::|h[Sky Golem]|h|r", -- [1]
 			"Sydbarrett-Aggra(Português)", -- [2]
@@ -1166,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSydbarrett-Aggra(Português)|r",
 			[51] = 1601827532,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [17]
 		{
 			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Lighthookf-Frostmane", -- [2]
@@ -1188,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLighthookf|r",
 			[51] = 1601827534,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [18]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-85556-1303-88460969|h[Guild: LFR Heroes]|h|r Ser etter dedikert raid leader og ranged dps til Shadowlands progress raiding. I mellomtiden koser vi oss med m+ og hc funrun på fredager og sosialt samhold ellers. :)", -- [1]
 			"Nelfïn-GrimBatol", -- [2]
@@ -1210,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNelfïn-GrimBatol|r",
 			[51] = 1601827537,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [19]
 		{
 			"<NBC> Offers:|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r 12/12hc from 140k, Curve 50k, Mythic 12/12 , m10 70k, m15 90k (Buy 2=FREE ARMOR STACK) , Jaina mount 350k, Visions, Mechagon HM, Glory runs, Accepting gold on all realms!", -- [1]
 			"Nbcskadi-Frostmane", -- [2]
@@ -1232,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNbcskadi|r",
 			[51] = 1601827543,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [20]
 		{
 			"Weird u have same IP adres as here", -- [1]
 			"Defendless-Frostmane", -- [2]
@@ -1254,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDefendless|r",
 			[51] = 1601827576,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B6973AE:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
 			"Adramahlihk-Frostmane", -- [2]
@@ -1276,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Adramahlihk|r",
 			[51] = 1601827921,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [22]
 		{
 			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -1298,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1601827929,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [23]
 		{
 			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Lighthookf-Frostmane", -- [2]
@@ -1320,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLighthookf|r",
 			[51] = 1601827934,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4523:Player-1303-0B68A8AE:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Three Faced]|h|r!", -- [1]
 			"Defendless-Frostmane", -- [2]
@@ -1342,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDefendless|r",
 			[51] = 1601827966,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [60]
+		}, -- [25]
 		{
 			"this young", -- [1]
 			"Tjackisia-Frostmane", -- [2]
@@ -1364,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecTjackisia|r",
 			[51] = 1601828043,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [26]
 		{
 			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Lighthookf-Frostmane", -- [2]
@@ -1386,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLighthookf|r",
 			[51] = 1601828135,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [27]
 		{
 			"what ilvl timewalking drops?", -- [1]
 			"Ignisacra-Aggra(Português)", -- [2]
@@ -1408,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ignisacra-Aggra(Português)|r",
 			[51] = 1601828141,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B6440DA:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
 			"Sebìlle-Frostmane", -- [2]
@@ -1430,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sebìlle|r",
 			[51] = 1601828144,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [64]
+		}, -- [29]
 		{
 			"425", -- [1]
 			"Jeiden-GrimBatol", -- [2]
@@ -1452,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jeiden-GrimBatol|r",
 			[51] = 1601828159,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [30]
 		{
 			"ty", -- [1]
 			"Ignisacra-Aggra(Português)", -- [2]
@@ -1474,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ignisacra-Aggra(Português)|r",
 			[51] = 1601828165,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B67E549:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
 			"Lòhse-Frostmane", -- [2]
@@ -1496,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Lòhse|r",
 			[51] = 1601828387,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [32]
 		{
 			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -1518,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1601828469,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [33]
 		{
 			"tsm", -- [1]
 			"Dugal-Frostmane", -- [2]
@@ -1540,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Dugal|r",
 			[51] = 1601828482,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [34]
 		{
 			"KEKW", -- [1]
 			"Leffy-Aggra(Português)", -- [2]
@@ -1562,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Leffy-Aggra(Português)|r",
 			[51] = 1601828489,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [35]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B667677:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
 			"Stalber-Frostmane", -- [2]
@@ -1584,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Stalber|r",
 			[51] = 1601828515,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [36]
 		{
 			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Lighthookf-Frostmane", -- [2]
@@ -1606,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLighthookf|r",
 			[51] = 1601828533,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [37]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4956:Player-1303-0B841B84:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r!", -- [1]
 			"Emmalitha-Frostmane", -- [2]
@@ -1628,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Emmalitha|r",
 			[51] = 1601828647,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [38]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4956:Player-1303-0B841BE7:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r!", -- [1]
 			"Svartalfr-Frostmane", -- [2]
@@ -1650,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Svartalfr|r",
 			[51] = 1601828651,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [74]
+		}, -- [39]
 		{
 			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -1672,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1601828673,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [40]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B67DADB:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
 			"Georgopol-Frostmane", -- [2]
@@ -1694,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Georgopol|r",
 			[51] = 1601828688,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [76]
+		}, -- [41]
 		{
 			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Lighthookf-Frostmane", -- [2]
@@ -1716,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLighthookf|r",
 			[51] = 1601828735,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [42]
 		{
 			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -1738,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1601828738,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B64D1FF:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
 			"Ìfan-Frostmane", -- [2]
@@ -1760,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ìfan|r",
 			[51] = 1601828882,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [44]
 		{
 			"<RCU> Get your Ahead of the Curve (N'Zoth the Corruptor hc)  TODAY, every 30 minutes selling for gold! You'll get Uncorrupted Voidwing mount and possible 470 ilvl gear! /w to book a spot!", -- [1]
 			"Mystïc-GrimBatol", -- [2]
@@ -1782,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mystïc-GrimBatol|r",
 			[51] = 1601828918,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [45]
 		{
 			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Lighthookf-Frostmane", -- [2]
@@ -1804,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLighthookf|r",
 			[51] = 1601828942,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [46]
 		{
 			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -1826,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1601828952,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [47]
 		{
 			"WTS|cffffff00|Hachievement:14068:Player-2073-06FB66C5:1:2:11:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+|cff71d5ff|Hspell:302143:0|h[Uncorrupted Voidwing]|h|r for 50k Runs Every Hour /w for more info", -- [1]
 			"Pomprik-GrimBatol", -- [2]
@@ -1848,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pomprik-GrimBatol|r",
 			[51] = 1601829039,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B64D02D:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
 			"Gratiana-Frostmane", -- [2]
@@ -1870,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeGratiana|r",
 			[51] = 1601829054,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [49]
 		{
 			"Oblivion Selling 12/12HC @ 20ST! VIP, Lootshare and Personal loot available! AOTC 50k! M15 105k M10 80k! Specific Key & Armor stack Possible. M15 w friend for 180k! Keystone Master. Jaina Mount. Nya Mythic Bosses and N'zoth mount. PM for more info!", -- [1]
 			"Jaybee-Frostmane", -- [2]
@@ -1892,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Jaybee|r",
 			[51] = 1601829058,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [50]
 		{
 			"<RCU> Get your Ahead of the Curve (N'Zoth the Corruptor hc)  TODAY, every 30 minutes selling for gold! You'll get Uncorrupted Voidwing mount and possible 470 ilvl gear! /w to book a spot!", -- [1]
 			"Mystïc-GrimBatol", -- [2]
@@ -1914,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Mystïc-GrimBatol|r",
 			[51] = 1601829089,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [51]
 		{
 			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -1936,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1601829092,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [52]
 		{
 			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Lighthookf-Frostmane", -- [2]
@@ -1958,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLighthookf|r",
 			[51] = 1601829135,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [53]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9037:Player-1303-0B660E49:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Bloodmaul Slag Mines]|h|r!", -- [1]
 			"Coldstorm-Frostmane", -- [2]
@@ -1980,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcColdstorm|r",
 			[51] = 1601829160,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [54]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9046:Player-1303-0B660E49:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Bloodmaul Slag Mines]|h|r!", -- [1]
 			"Coldstorm-Frostmane", -- [2]
@@ -2002,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcColdstorm|r",
 			[51] = 1601829160,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [55]
 		{
 			"WTS|cffffff00|Hachievement:14068:Player-2073-06FB66C5:1:2:11:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+|cff71d5ff|Hspell:302143:0|h[Uncorrupted Voidwing]|h|r for 50k Runs Every Hour /w for more info", -- [1]
 			"Pomprik-GrimBatol", -- [2]
@@ -2024,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Pomprik-GrimBatol|r",
 			[51] = 1601829187,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [56]
 		{
 			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -2046,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1601829219,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [57]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B63FA3F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
 			"Primorsk-Frostmane", -- [2]
@@ -2068,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecPrimorsk|r",
 			[51] = 1601829242,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [93]
+		}, -- [58]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:628:Player-1303-0B841B84:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Deadmines]|h|r!", -- [1]
 			"Emmalitha-Frostmane", -- [2]
@@ -2090,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Emmalitha|r",
 			[51] = 1601829270,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+		}, -- [59]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:628:Player-1303-0B841BE7:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Deadmines]|h|r!", -- [1]
 			"Svartalfr-Frostmane", -- [2]
@@ -2112,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Svartalfr|r",
 			[51] = 1601829270,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [60]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12937:Player-1303-0B65AD2D:1:10:9:20:4294967295:4294967295:4294967295:4294967295|h[Elevator Music]|h|r!", -- [1]
 			"Eolen-Frostmane", -- [2]
@@ -2134,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Eolen|r",
 			[51] = 1602272052,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [61]
 		{
 			"[RCU]: We are selling Jaina Mount and 10-24 M+ for GOLD. Guaranteed in time and all gear traded to you. We also sell RAID runs, Nyalotha HC and Mythic, Level boost and PVP 0-2400. Come get your Mounts and Achievments before they go away!", -- [1]
 			"Cröss-Aggra(Português)", -- [2]
@@ -2156,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Cröss-Aggra(Português)|r",
 			[51] = 1602272059,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [62]
 		{
 			"<NOVA> VISIONS Full Run + 5 Masks: 80k ,|| Full Run + 5 Masks(AFK, loot only): 60k || Full Run NO MASK: 40k+ .Hertz Locker + mount ||M+ {10>>23}  +15  90k|| 2 runs:  10% discount|| 4 runs: 15%discount|| <3", -- [1]
 			"Sellvoidnova-Frostmane", -- [2]
@@ -2178,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSellvoidnova|r",
 			[51] = 1602272084,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [63]
 		{
 			"Jag säljer ut mitt guld billigt! Skriv vid intresse!", -- [1]
 			"Whowantsit-Frostmane", -- [2]
@@ -2200,6 +1430,776 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeWhowantsit|r",
 			[51] = 1602446009,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"when did you lot move to frostmane?", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			324, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1604096834,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [65]
+		{
+			"wrong chat ", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			340, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1604096868,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [66]
+		{
+			"think it was back in wrath", -- [1]
+			"Bolhilem-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			343, -- [11]
+			"Player-1303-0B54DA5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcBolhilem|r",
+			[51] = 1604096883,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [67]
+		{
+			"start of BFA", -- [1]
+			"Meowternity-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			354, -- [11]
+			"Player-1303-0B688D4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Meowternity|r",
+			[51] = 1604096894,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [68]
+		{
+			";p", -- [1]
+			"Meowternity-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			355, -- [11]
+			"Player-1303-0B688D4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Meowternity|r",
+			[51] = 1604096895,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [69]
+		{
+			"Wotld", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			356, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604096904,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [70]
+		{
+			"is hunter still op ?", -- [1]
+			"Trt-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Trt-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			489, -- [11]
+			"Player-1303-0A8D5BBB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Trt-GrimBatol|r",
+			[51] = 1604097108,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"yes", -- [1]
+			"Dësire-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dësire-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			500, -- [11]
+			"Player-1303-0B571125", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Dësire|r",
+			[51] = 1604097115,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11759:Player-1303-0B815C5D:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Yaass'shaarj]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			522, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604097131,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [73]
+		{
+			"MM yes", -- [1]
+			"Masqueradë-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Masqueradë-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			524, -- [11]
+			"Player-1303-0B61C887", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Masqueradë|r",
+			[51] = 1604097133,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"bm too ", -- [1]
+			"Killerbeastt-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Killerbeastt-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			549, -- [11]
+			"Player-1303-0B049A9E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Killerbeastt-Aggra(Português)|r",
+			[51] = 1604097152,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"I though bm was the OP spec?", -- [1]
+			"Nytfury-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nytfury-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			554, -- [11]
+			"Player-1303-08FDFD5A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Nytfury-GrimBatol|r",
+			[51] = 1604097155,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"MM", -- [1]
+			"Masqueradë-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Masqueradë-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			563, -- [11]
+			"Player-1303-0B61C887", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Masqueradë|r",
+			[51] = 1604097161,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"bm is pretty broken yes", -- [1]
+			"Wobo-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Wobo-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			631, -- [11]
+			"Player-1303-0B646E1A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cWobo|r",
+			[51] = 1604097213,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:8462:Player-1303-0B815C5D:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Downfall]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			827, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604097364,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [79]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:229:Player-1303-0B973F51:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[The Grim Reaper]|h|r!", -- [1]
+			"Luces-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Luces-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			919, -- [11]
+			"Player-1303-0B973F51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Luces|r",
+			[51] = 1604097430,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [80]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:979:Player-1303-0B68C237:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[The Mask Task]|h|r!", -- [1]
+			"Cérbérus-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Cérbérus-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1009, -- [11]
+			"Player-1303-0B68C237", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edCérbérus|r",
+			[51] = 1604097501,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [81]
+		{
+			"|cffffff00Dwarven District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			1160, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1604097865,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:513:Player-1303-0B973F51:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[100 Honorable Kills]|h|r!", -- [1]
+			"Luces-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Luces-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1166, -- [11]
+			"Player-1303-0B973F51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Luces|r",
+			[51] = 1604097971,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [83]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:3846:Player-1303-0B868EFF:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Resource Glut]|h|r!", -- [1]
+			"Nikxes-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nikxes-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1181, -- [11]
+			"Player-1303-0B868EFF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Nikxes|r",
+			[51] = 1604098107,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [84]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:3846:Player-1303-0B973F51:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Resource Glut]|h|r!", -- [1]
+			"Luces-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Luces-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1182, -- [11]
+			"Player-1303-0B973F51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Luces|r",
+			[51] = 1604098107,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [85]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:3776:Player-1303-0B973F51:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Isle of Conquest Victory]|h|r!", -- [1]
+			"Luces-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Luces-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1183, -- [11]
+			"Player-1303-0B973F51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Luces|r",
+			[51] = 1604098107,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [86]
+		{
+			"OMFG", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1210, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604098282,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [87]
+		{
+			"oooh", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1211, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1604098287,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [88]
+		{
+			"Mogsruns ftw!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1212, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604098295,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [89]
+		{
+			"gz", -- [1]
+			"Luces-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1214, -- [11]
+			"Player-1303-0B973F51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Luces|r",
+			[51] = 1604098319,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [90]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12894:Player-1303-0B699107:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Honor Level 10]|h|r!", -- [1]
+			"Bacard-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bacard-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1218, -- [11]
+			"Player-1303-0B699107", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Bacard|r",
+			[51] = 1604098336,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [91]
+		{
+			"ty ty :D", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1228, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604098343,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"gz", -- [1]
+			"Bolhilem-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1248, -- [11]
+			"Player-1303-0B54DA5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcBolhilem|r",
+			[51] = 1604098357,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [93]
+		{
+			"Do i have to repfarm now? xd", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1258, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604098364,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [94]
+		{
+			"t", -- [1]
+			"Zerinn-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zerinn-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1277, -- [11]
+			"Player-1303-0073BADB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaZerinn-GrimBatol|r",
+			[51] = 1604098379,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"or is it shared from my mains?", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1279, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604098380,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"yep", -- [1]
+			"Luces-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1287, -- [11]
+			"Player-1303-0B973F51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Luces|r",
+			[51] = 1604098385,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"account bound", -- [1]
+			"Luces-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1294, -- [11]
+			"Player-1303-0B973F51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Luces|r",
+			[51] = 1604098390,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"Nice! :D", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1312, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604098403,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 }

@@ -38,22 +38,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[150677] = {
-				{
-					8.26300000000083, -- [1]
-					"Gug'rokk", -- [2]
-					150677, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahdruid", -- [5]
-				}, -- [1]
-				{
-					34.98400000000038, -- [1]
-					"Gug'rokk", -- [2]
-					150677, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahdruid", -- [5]
-				}, -- [2]
-			},
 			[150776] = {
 				{
 					11.59699999999975, -- [1]
@@ -86,6 +70,22 @@ DetailsTimeLineDB = {
 					"Gug'rokk", -- [2]
 					150755, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[150677] = {
+				{
+					8.26300000000083, -- [1]
+					"Gug'rokk", -- [2]
+					150677, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rykahdruid", -- [5]
+				}, -- [1]
+				{
+					34.98400000000038, -- [1]
+					"Gug'rokk", -- [2]
+					150677, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rykahdruid", -- [5]
 				}, -- [2]
 			},
 		}, -- [1]
@@ -184,23 +184,23 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[150023] = {
+			[150038] = {
 				{
-					70.16499999999905, -- [1]
+					77.6309999999994, -- [1]
 					"Magmolatus", -- [2]
-					150023, -- [3]
+					150038, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					88.33299999999872, -- [1]
+					99.4489999999987, -- [1]
 					"Magmolatus", -- [2]
-					150023, -- [3]
+					150038, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					107.735999999999, -- [1]
+					121.3239999999987, -- [1]
 					"Magmolatus", -- [2]
-					150023, -- [3]
+					150038, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
@@ -224,84 +224,67 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-			[77508] = {
+			[150004] = {
 				{
-					0.9139999999988504, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
+					3.346999999999753, -- [1]
+					"Forgemaster Gog'duh", -- [2]
+					150004, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [1]
 				{
-					14.26599999999962, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
+					9.404999999998836, -- [1]
+					"Forgemaster Gog'duh", -- [2]
+					150004, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [2]
 				{
-					28.83799999999974, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
+					15.47400000000016, -- [1]
+					"Forgemaster Gog'duh", -- [2]
+					150004, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [3]
 				{
-					43.36800000000039, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
+					21.54500000000007, -- [1]
+					"Forgemaster Gog'duh", -- [2]
+					150004, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [4]
 				{
-					61.59599999999955, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
+					27.628999999999, -- [1]
+					"Forgemaster Gog'duh", -- [2]
+					150004, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [5]
 				{
-					74.91399999999885, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
+					33.69899999999871, -- [1]
+					"Forgemaster Gog'duh", -- [2]
+					150004, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [6]
 				{
-					88.2489999999998, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
+					39.73400000000038, -- [1]
+					"Forgemaster Gog'duh", -- [2]
+					150004, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [7]
 				{
-					105.226999999999, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
+					45.79899999999907, -- [1]
+					"Forgemaster Gog'duh", -- [2]
+					150004, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [8]
 				{
-					121.0109999999986, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
+					85.8159999999989, -- [1]
+					"Molten Elemental", -- [2]
+					150004, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [9]
 				{
-					124.003999999999, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
+					106.4390000000003, -- [1]
+					"Molten Elemental", -- [2]
+					150004, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [10]
-				{
-					124.003999999999, -- [1]
-					"Vengeful Magma Elemental", -- [2]
-					77508, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodmaul Earthbreaker", -- [5]
-				}, -- [11]
 			},
 			[149975] = {
 				{
@@ -311,23 +294,23 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[150038] = {
+			[150023] = {
 				{
-					77.6309999999994, -- [1]
+					70.16499999999905, -- [1]
 					"Magmolatus", -- [2]
-					150038, -- [3]
+					150023, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					99.4489999999987, -- [1]
+					88.33299999999872, -- [1]
 					"Magmolatus", -- [2]
-					150038, -- [3]
+					150023, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					121.3239999999987, -- [1]
+					107.735999999999, -- [1]
 					"Magmolatus", -- [2]
-					150038, -- [3]
+					150023, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
@@ -433,67 +416,84 @@ DetailsTimeLineDB = {
 					"Zyklon-Sylvanas", -- [5]
 				}, -- [6]
 			},
-			[150004] = {
+			[77508] = {
 				{
-					3.346999999999753, -- [1]
-					"Forgemaster Gog'duh", -- [2]
-					150004, -- [3]
+					0.9139999999988504, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [1]
 				{
-					9.404999999998836, -- [1]
-					"Forgemaster Gog'duh", -- [2]
-					150004, -- [3]
+					14.26599999999962, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [2]
 				{
-					15.47400000000016, -- [1]
-					"Forgemaster Gog'duh", -- [2]
-					150004, -- [3]
+					28.83799999999974, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [3]
 				{
-					21.54500000000007, -- [1]
-					"Forgemaster Gog'duh", -- [2]
-					150004, -- [3]
+					43.36800000000039, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [4]
 				{
-					27.628999999999, -- [1]
-					"Forgemaster Gog'duh", -- [2]
-					150004, -- [3]
+					61.59599999999955, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [5]
 				{
-					33.69899999999871, -- [1]
-					"Forgemaster Gog'duh", -- [2]
-					150004, -- [3]
+					74.91399999999885, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [6]
 				{
-					39.73400000000038, -- [1]
-					"Forgemaster Gog'duh", -- [2]
-					150004, -- [3]
+					88.2489999999998, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [7]
 				{
-					45.79899999999907, -- [1]
-					"Forgemaster Gog'duh", -- [2]
-					150004, -- [3]
+					105.226999999999, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [8]
 				{
-					85.8159999999989, -- [1]
-					"Molten Elemental", -- [2]
-					150004, -- [3]
+					121.0109999999986, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [9]
 				{
-					106.4390000000003, -- [1]
-					"Molten Elemental", -- [2]
-					150004, -- [3]
+					124.003999999999, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
 				}, -- [10]
+				{
+					124.003999999999, -- [1]
+					"Vengeful Magma Elemental", -- [2]
+					77508, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodmaul Earthbreaker", -- [5]
+				}, -- [11]
 			},
 		}, -- [3]
 		{
@@ -1085,6 +1085,20 @@ DetailsTimeLineDB = {
 			},
 		}, -- [5]
 		{
+			[153804] = {
+				{
+					28.87899999999991, -- [1]
+					"Bonemaw", -- [2]
+					153804, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					64.08399999999983, -- [1]
+					"Bonemaw", -- [2]
+					153804, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
 			[153681] = {
 				{
 					6.966999999999644, -- [1]
@@ -1136,19 +1150,25 @@ DetailsTimeLineDB = {
 					"Dwenir-Kilrogg", -- [5]
 				}, -- [7]
 			},
-			[153804] = {
+			[165578] = {
 				{
-					28.87899999999991, -- [1]
+					6.55199999999968, -- [1]
 					"Bonemaw", -- [2]
-					153804, -- [3]
+					165578, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					64.08399999999983, -- [1]
+					50.21000000000004, -- [1]
 					"Bonemaw", -- [2]
-					153804, -- [3]
+					165578, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+				{
+					92.76800000000003, -- [1]
+					"Bonemaw", -- [2]
+					165578, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
 			},
 			[154175] = {
 				{
@@ -1167,26 +1187,6 @@ DetailsTimeLineDB = {
 					86.70499999999993, -- [1]
 					"Bonemaw", -- [2]
 					154175, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-			},
-			[165578] = {
-				{
-					6.55199999999968, -- [1]
-					"Bonemaw", -- [2]
-					165578, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					50.21000000000004, -- [1]
-					"Bonemaw", -- [2]
-					165578, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					92.76800000000003, -- [1]
-					"Bonemaw", -- [2]
-					165578, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
@@ -1330,20 +1330,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [8]
 		{
-			[150755] = {
-				{
-					20.4989999999998, -- [1]
-					"Gug'rokk", -- [2]
-					150755, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					42.3809999999994, -- [1]
-					"Gug'rokk", -- [2]
-					150755, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
 			[150776] = {
 				{
 					9.057999999999993, -- [1]
@@ -1366,6 +1352,20 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Rykahdruid", -- [5]
 				}, -- [1]
+			},
+			[150755] = {
+				{
+					20.4989999999998, -- [1]
+					"Gug'rokk", -- [2]
+					150755, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					42.3809999999994, -- [1]
+					"Gug'rokk", -- [2]
+					150755, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
 			},
 		}, -- [9]
 		{
@@ -1501,20 +1501,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [8]
 			},
-			[150038] = {
-				{
-					57.29999999999927, -- [1]
-					"Magmolatus", -- [2]
-					150038, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					79.16499999999996, -- [1]
-					"Magmolatus", -- [2]
-					150038, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
 			[150023] = {
 				{
 					65.59399999999914, -- [1]
@@ -1526,6 +1512,20 @@ DetailsTimeLineDB = {
 					87.46199999999953, -- [1]
 					"Magmolatus", -- [2]
 					150023, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[150038] = {
+				{
+					57.29999999999927, -- [1]
+					"Magmolatus", -- [2]
+					150038, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					79.16499999999996, -- [1]
+					"Magmolatus", -- [2]
+					150038, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
@@ -1565,11 +1565,11 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[149941] = {
+			[150076] = {
 				{
-					24.98599999999988, -- [1]
-					"Ruination", -- [2]
-					149941, -- [3]
+					10.85799999999927, -- [1]
+					"Forgemaster Gog'duh", -- [2]
+					150076, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -1611,11 +1611,11 @@ DetailsTimeLineDB = {
 					"Zyklon-Sylvanas", -- [5]
 				}, -- [4]
 			},
-			[150076] = {
+			[149941] = {
 				{
-					10.85799999999927, -- [1]
-					"Forgemaster Gog'duh", -- [2]
-					150076, -- [3]
+					24.98599999999988, -- [1]
+					"Ruination", -- [2]
+					149941, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -2043,19 +2043,37 @@ DetailsTimeLineDB = {
 					"Tangleheart Cultivator", -- [5]
 				}, -- [1]
 			},
-			[173826] = {
+			[167130] = {
 				{
 					120.4480000000003, -- [1]
-					"Fossilwood the Petrified", -- [2]
-					173826, -- [3]
+					"Heartsting Pollinator", -- [2]
+					167130, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
 					120.4480000000003, -- [1]
-					"Fossilwood the Petrified", -- [2]
-					173826, -- [3]
+					"Heartsting Pollinator", -- [2]
+					167130, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+				{
+					120.4480000000003, -- [1]
+					"Heartsting Pollinator", -- [2]
+					167130, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					120.4480000000003, -- [1]
+					"Heartsting Pollinator", -- [2]
+					167130, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					120.4480000000003, -- [1]
+					"Heartsting Pollinator", -- [2]
+					167130, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
 			},
 			[172714] = {
 				{
@@ -2095,37 +2113,19 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[167130] = {
+			[173826] = {
 				{
 					120.4480000000003, -- [1]
-					"Heartsting Pollinator", -- [2]
-					167130, -- [3]
+					"Fossilwood the Petrified", -- [2]
+					173826, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
 					120.4480000000003, -- [1]
-					"Heartsting Pollinator", -- [2]
-					167130, -- [3]
+					"Fossilwood the Petrified", -- [2]
+					173826, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-				{
-					120.4480000000003, -- [1]
-					"Heartsting Pollinator", -- [2]
-					167130, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					120.4480000000003, -- [1]
-					"Heartsting Pollinator", -- [2]
-					167130, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					120.4480000000003, -- [1]
-					"Heartsting Pollinator", -- [2]
-					167130, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
 			},
 			[168402] = {
 				{
@@ -2438,14 +2438,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [14]
 		{
-			[166923] = {
-				{
-					43.6140000000014, -- [1]
-					"Fleshrender Nok'gar", -- [2]
-					166923, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[164835] = {
 				{
 					19.76599999999962, -- [1]
@@ -2454,13 +2446,12 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[164837] = {
+			[166923] = {
 				{
-					27.70600000000195, -- [1]
-					"Dreadfang", -- [2]
-					164837, -- [3]
+					43.6140000000014, -- [1]
+					"Fleshrender Nok'gar", -- [2]
+					166923, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Mizo-Outland", -- [5]
 				}, -- [1]
 			},
 			[164426] = {
@@ -2477,16 +2468,25 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
+			[164837] = {
+				{
+					27.70600000000195, -- [1]
+					"Dreadfang", -- [2]
+					164837, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mizo-Outland", -- [5]
+				}, -- [1]
+			},
 		}, -- [15]
 	},
 	["useicons"] = true,
+	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 		}, -- [1]

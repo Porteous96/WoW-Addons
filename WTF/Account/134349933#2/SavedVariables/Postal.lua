@@ -107,20 +107,20 @@ Postal3DB = {
 				"Préach|Tarren Mill|Horde|110|WARRIOR", -- [31]
 				"Rcumplus|Aggramar|Alliance|20|MAGE", -- [32]
 				"Rykaahpo|Frostmane|Alliance|52|PALADIN", -- [33]
-				"Rykahbolt|Frostmane|Alliance|100|WARLOCK", -- [34]
+				"Rykahbolt|Frostmane|Alliance|50|WARLOCK", -- [34]
 				"Rykahboost|Aggramar|Alliance|20|MONK", -- [35]
 				"Rykahboost|Turalyon|Alliance|20|MAGE", -- [36]
 				"Rykahdk|Frostmane|Alliance|110|DEATHKNIGHT", -- [37]
 				"Rykahdk|Kazzak|Horde|63|DEATHKNIGHT", -- [38]
-				"Rykahdruid|Frostmane|Alliance|48|DRUID", -- [39]
-				"Rykahhpo|Frostmane|Alliance|120|HUNTER", -- [40]
+				"Rykahdruid|Frostmane|Alliance|50|DRUID", -- [39]
+				"Rykahhpo|Frostmane|Alliance|50|HUNTER", -- [40]
 				"Rykahmonk|Kazzak|Horde|9|MONK", -- [41]
 				"Rykahpala|Frostmane|Alliance|18|PALADIN", -- [42]
 				"Rykahpoa|Frostmane|Alliance|100|WARLOCK", -- [43]
 				"Rykahpodh|Frostmane|Alliance|50|DEMONHUNTER", -- [44]
 				"Rykahpodh|Kazzak|Horde|120|DEMONHUNTER", -- [45]
 				"Rykahpoh|Frostmane|Alliance|50|MONK", -- [46]
-				"Rykahpoo|Frostmane|Alliance|120|DRUID", -- [47]
+				"Rykahpoo|Frostmane|Alliance|50|DRUID", -- [47]
 				"Rykahpow|Frostmane|Alliance|100|WARRIOR", -- [48]
 				"Rykahpo|Doomhammer|Alliance|20|MAGE", -- [49]
 				"Rykahpo|Frostmane|Alliance|50|MAGE", -- [50]
@@ -131,7 +131,7 @@ Postal3DB = {
 				"Rykahtwo|Frostmane|Alliance|14|MAGE", -- [55]
 				"Rykahwar|Frostmane|Alliance|11|WARRIOR", -- [56]
 				"Rykah|Frostmane|Alliance|42|MONK", -- [57]
-				"Rykkahpo|Frostmane|Alliance|120|ROGUE", -- [58]
+				"Rykkahpo|Frostmane|Alliance|50|ROGUE", -- [58]
 				"Ryykahpo|Frostmane|Alliance|66|SHAMAN", -- [59]
 				"Rÿkah|Frostmane|Alliance|50|DEATHKNIGHT", -- [60]
 				"Spacegoatss|Frostmane|Alliance|110|PALADIN", -- [61]
@@ -211,7 +211,9 @@ Postal3DB = {
 		["Rykahpoo - Frostmane"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Rykahpoh|Frostmane|Alliance", -- [1]
+					"Bankypo|Frostmane|Alliance", -- [1]
+					"Rykahhpo|Frostmane|Alliance", -- [2]
+					"Rykahpoh|Frostmane|Alliance", -- [3]
 				},
 			},
 		},
@@ -250,9 +252,9 @@ Postal3DB = {
 		["Rykkahpo - Frostmane"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Rykahhpo|Frostmane|Alliance", -- [1]
-					"Bankypo|Frostmane|Alliance", -- [2]
-					"Rykahpoh|Frostmane|Alliance", -- [3]
+					"Rykahpoh|Frostmane|Alliance", -- [1]
+					"Rykahhpo|Frostmane|Alliance", -- [2]
+					"Bankypo|Frostmane|Alliance", -- [3]
 				},
 			},
 		},

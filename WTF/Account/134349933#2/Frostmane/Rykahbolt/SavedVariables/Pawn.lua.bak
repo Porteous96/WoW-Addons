@@ -57,10 +57,10 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:128169:5428:::::::100:265:::1:582:::|h[Signet of the Third Fleet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 128169,
-			["Level"] = 139,
+			["ID"] = 138450,
+			["Level"] = 142,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff00ccff|Hitem:128169:5428:::::::99:265:::1:582:::|h[Signet of the Third Fleet]|h|r",
+			["Link"] = "|cff0070dd|Hitem:138450::::::::100:265:512:11:1:3387:100:::|h[Signet of Stormwind]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 120337,

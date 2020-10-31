@@ -1,6 +1,6 @@
 VER 3 010000000000000E "BigDPS" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:shift] Lunar Strike; Solar Wrath
+/cast [mod:shift] Starfire; Wrath
 END
 VER 3 010000000000000F "boomdps" "INV_MISC_QUESTIONMARK"
 /cast Moonkin Form

@@ -1,248 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/aap", -- [1]
-		"/1 got deleted by leaeith", -- [2]
-		"/cheer", -- [3]
-		"/gquit", -- [4]
-		"/grid", -- [5]
-		"/s sorry i need to reload", -- [6]
-		"/s gimme a sec", -- [7]
-		"/reload", -- [8]
-		"/i yeah a little", -- [9]
-		"/i should be ok", -- [10]
-		"/i i cant cast", -- [11]
-		"/i what is that debuff?", -- [12]
-		"/i same", -- [13]
-		"/i not done this in years", -- [14]
-		"/i ah ok i need to be max range", -- [15]
-		"/i so you gotta tank him far from me and the mage", -- [16]
-		"/i its been a long time since a mechanic has mattered in a low level dungeon", -- [17]
-		"/i i usually just switch off :p", -- [18]
-		"/i go big pull", -- [19]
-		"/i gj all", -- [20]
+		"/cheer", -- [1]
+		"/gquit", -- [2]
+		"/grid", -- [3]
+		"/s sorry i need to reload", -- [4]
+		"/s gimme a sec", -- [5]
+		"/reload", -- [6]
+		"/i yeah a little", -- [7]
+		"/i should be ok", -- [8]
+		"/i i cant cast", -- [9]
+		"/i what is that debuff?", -- [10]
+		"/i same", -- [11]
+		"/i not done this in years", -- [12]
+		"/i ah ok i need to be max range", -- [13]
+		"/i so you gotta tank him far from me and the mage", -- [14]
+		"/i its been a long time since a mechanic has mattered in a low level dungeon", -- [15]
+		"/i i usually just switch off :p", -- [16]
+		"/i go big pull", -- [17]
+		"/i gj all", -- [18]
+		"i like being logged in but not playing", -- [19]
+		"its my favourite past time", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10253:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Gorefiend]|h|r!", -- [1]
-			"Tythena-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tythena-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			761, -- [11]
-			"Player-1300-09E64CA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Tythena|r",
-			[51] = 1546805726,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [1]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:478:Player-1300-0A2CCCB7:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[The Nexus]|h|r!", -- [1]
-			"Bloodknight-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Bloodknight-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			764, -- [11]
-			"Player-1300-0A2CCCB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaBloodknight|r",
-			[51] = 1546805763,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [2]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:478:Player-1300-09F55B15:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[The Nexus]|h|r!", -- [1]
-			"Kyä-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kyä-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			765, -- [11]
-			"Player-1300-09F55B15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Kyä|r",
-			[51] = 1546805763,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:5794:Player-1300-0355C866:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Time Flies When You're Having Fun]|h|r!", -- [1]
-			"Severate-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Severate-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			768, -- [11]
-			"Player-1300-0355C866", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaSeverate|r",
-			[51] = 1546805863,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10037:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Shadow-Lord Iskar]|h|r!", -- [1]
-			"Lanny-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lanny-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			769, -- [11]
-			"Player-1300-0A2078D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dLanny|r",
-			[51] = 1546805867,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10037:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Shadow-Lord Iskar]|h|r!", -- [1]
-			"Tythena-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tythena-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			770, -- [11]
-			"Player-1300-09E64CA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Tythena|r",
-			[51] = 1546805867,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10087:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[You Gotta Keep 'em Separated]|h|r!", -- [1]
-			"Lanny-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lanny-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			771, -- [11]
-			"Player-1300-0A2078D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dLanny|r",
-			[51] = 1546805986,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [7]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10087:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[You Gotta Keep 'em Separated]|h|r!", -- [1]
-			"Tythena-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tythena-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			772, -- [11]
-			"Player-1300-09E64CA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Tythena|r",
-			[51] = 1546805986,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [8]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10039:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Xhul'horac]|h|r!", -- [1]
-			"Lanny-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lanny-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			773, -- [11]
-			"Player-1300-0A2078D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dLanny|r",
-			[51] = 1546805986,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [9]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10039:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Xhul'horac]|h|r!", -- [1]
-			"Tythena-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tythena-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			774, -- [11]
-			"Player-1300-09E64CA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Tythena|r",
-			[51] = 1546805986,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [10]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12546:Player-1300-0A300B49:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
 			"Iphyx-Frostmane", -- [2]
@@ -264,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaIphyx|r",
 			[51] = 1546806064,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [11]
+		}, -- [1]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:238:Player-1300-0A2EB8B0:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[An Honorable Kill]|h|r!", -- [1]
 			"Ukendt-Frostmane", -- [2]
@@ -286,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aUkendt|r",
 			[51] = 1546806098,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [12]
+		}, -- [2]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10012:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[This Land Was Green and Good Until...]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -308,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806104,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
+		}, -- [3]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10012:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[This Land Was Green and Good Until...]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -330,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806104,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [14]
+		}, -- [4]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10038:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Fel Lord Zakuun]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -352,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806104,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [15]
+		}, -- [5]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10038:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Fel Lord Zakuun]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -374,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806104,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [16]
+		}, -- [6]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:246:Player-1300-0A216F9F:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Know Thy Enemy]|h|r!", -- [1]
 			"Lysestake-Frostmane", -- [2]
@@ -396,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLysestake|r",
 			[51] = 1546806242,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [17]
+		}, -- [7]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10040:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Socrethar the Eternal]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -418,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806338,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [18]
+		}, -- [8]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10040:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Socrethar the Eternal]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -440,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806338,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [19]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9989:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Non-Lethal Enforcer]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -462,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806488,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
+		}, -- [10]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9989:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Non-Lethal Enforcer]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -484,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806488,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [21]
+		}, -- [11]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10025:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Bastion of Shadows]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -506,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806488,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [22]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10041:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Tyrant Velhari]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -528,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806488,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [23]
+		}, -- [13]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10025:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Bastion of Shadows]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -550,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806488,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [24]
+		}, -- [14]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10041:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Tyrant Velhari]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -572,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806488,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
+		}, -- [15]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10020:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Destructor's Rise]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -594,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806636,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [26]
+		}, -- [16]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10042:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Mannoroth]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -616,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806636,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [27]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10020:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Destructor's Rise]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -638,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806636,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [28]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10042:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Mannoroth]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -660,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806636,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [29]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10073:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Echoes of Doomfire]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -682,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806783,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10073:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Echoes of Doomfire]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -704,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806783,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10019:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[The Black Gate]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -726,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806783,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [32]
+		}, -- [22]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10043:Player-1300-0A2078D2:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Archimonde]|h|r!", -- [1]
 			"Lanny-Frostmane", -- [2]
@@ -748,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLanny|r",
 			[51] = 1546806783,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
+		}, -- [23]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10019:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[The Black Gate]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -770,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806783,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10043:Player-1300-09E64CA5:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Mythic: Archimonde]|h|r!", -- [1]
 			"Tythena-Frostmane", -- [2]
@@ -792,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Tythena|r",
 			[51] = 1546806783,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [35]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10795:Player-1300-0355C866:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Neltharion's Lair]|h|r!", -- [1]
 			"Severate-Frostmane", -- [2]
@@ -814,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaSeverate|r",
 			[51] = 1546806870,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [36]
+		}, -- [26]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9906:Player-1300-06B091C0:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Alt-ernative Lifestyle]|h|r!", -- [1]
 			"Myfirstrogue-Frostmane", -- [2]
@@ -836,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Myfirstrogue|r",
 			[51] = 1546806989,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [37]
+		}, -- [27]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:516:Player-1300-0A2A6CE9:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[1000 Honorable Kills]|h|r!", -- [1]
 			"Khornè-Frostmane", -- [2]
@@ -858,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dKhornè|r",
 			[51] = 1546807477,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [38]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6027:Player-1300-0A2CCCB7:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Darkmoon Dungeoneer]|h|r!", -- [1]
 			"Bloodknight-Frostmane", -- [2]
@@ -880,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBloodknight|r",
 			[51] = 1546807531,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [39]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12504:Player-1300-0A1A8D1D:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[The Temple of Sethraliss]|h|r!", -- [1]
 			"Sufesta-Frostmane", -- [2]
@@ -902,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Sufesta|r",
 			[51] = 1546807585,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [40]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9602:Player-1300-09C81DD7:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Shoot For the Moon]|h|r!", -- [1]
 			"Jezii-Frostmane", -- [2]
@@ -924,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dJezii|r",
 			[51] = 1546807675,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12501:Player-1300-0A300B49:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Underrot]|h|r!", -- [1]
 			"Iphyx-Frostmane", -- [2]
@@ -946,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaIphyx|r",
 			[51] = 1546807714,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [42]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:516:Player-1300-0A2C062D:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[1000 Honorable Kills]|h|r!", -- [1]
 			"Funkyface-Frostmane", -- [2]
@@ -968,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Funkyface|r",
 			[51] = 1546808489,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [43]
+		}, -- [33]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:699:Player-1300-0A216F9F:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[World Wide Winner]|h|r!", -- [1]
 			"Lysestake-Frostmane", -- [2]
@@ -990,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLysestake|r",
 			[51] = 1546808725,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [44]
+		}, -- [34]
 		{
 			"\"Flat Azeroth Society\" has earned the achievement |cffffff00|Hachievement:5459:0000000000000000:1:1:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of Battle]|h|r!", -- [1]
 			"Flat Azeroth Society", -- [2]
@@ -1012,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "Flat Azeroth Society",
 			[51] = 1546808725,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [35]
 		{
 			"sorry i need to reload", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1034,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601126279,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [36]
 		{
 			"gimme a sec", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1056,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601126281,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [37]
 		{
 			"Gj healer :)", -- [1]
 			"Vaniljvispen-Silvermoon", -- [2]
@@ -1078,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cVaniljvispen-Silvermoon|r",
 			[51] = 1601126527,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
+		}, -- [38]
 		{
 			"when you said that we should draft together", -- [1]
 			"|Kq22|k", -- [2]
@@ -1100,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1601668727,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [49]
+		}, -- [39]
 		{
 			"do you mean like premium draft with humans?", -- [1]
 			"|Kq22|k", -- [2]
@@ -1122,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1601668741,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [50]
+		}, -- [40]
 		{
 			"doesnt have to be", -- [1]
 			"|Kq22|k", -- [2]
@@ -1144,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1601668760,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [51]
+		}, -- [41]
 		{
 			"its more \"realistic\"", -- [1]
 			"|Kq22|k", -- [2]
@@ -1166,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1601668772,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [52]
+		}, -- [42]
 		{
 			"but it is timed as well", -- [1]
 			"|Kq22|k", -- [2]
@@ -1188,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1601668777,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [53]
+		}, -- [43]
 		{
 			"so if you want to read the cards and junk", -- [1]
 			"|Kq22|k", -- [2]
@@ -1210,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1601668784,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [54]
+		}, -- [44]
 		{
 			"oh true", -- [1]
 			"|Kq22|k", -- [2]
@@ -1232,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1601668786,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [55]
+		}, -- [45]
 		{
 			"food", -- [1]
 			"Faely-Silvermoon", -- [2]
@@ -1254,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Faely-Silvermoon|r",
 			[51] = 1601668798,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [46]
 		{
 			"tank u can pull bigger if u want", -- [1]
 			"Faely-Silvermoon", -- [2]
@@ -1276,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Faely-Silvermoon|r",
 			[51] = 1601668917,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [47]
 		{
 			"yeah a little ", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1298,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601668945,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [48]
 		{
 			"should be ok", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1320,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601668947,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [49]
 		{
 			"i cant cast ", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1342,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601669122,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [50]
 		{
 			"what is that debuff?", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1364,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601669126,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [51]
 		{
 			"I dont remember this place lol", -- [1]
 			"Kaivari-Doomhammer", -- [2]
@@ -1386,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Kaivari-Doomhammer|r",
 			[51] = 1601669132,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [62]
+		}, -- [52]
 		{
 			"same ", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1408,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601669135,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [53]
 		{
 			"not done this in years", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1430,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601669142,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [54]
 		{
 			"ah ok i need to be max range", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1452,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601669156,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [55]
 		{
 			"so you gotta tank him far from me and the mage", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1474,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601669203,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [56]
 		{
 			"righto", -- [1]
 			"Kaivari-Doomhammer", -- [2]
@@ -1496,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Kaivari-Doomhammer|r",
 			[51] = 1601669216,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [67]
+		}, -- [57]
 		{
 			"its been a long time since a mechanic has mattered in a low level dungeon", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1518,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601669256,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [58]
 		{
 			"i usually just switch off :p", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1540,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601669260,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [59]
 		{
 			"ty", -- [1]
 			"Profit-Talnivarr", -- [2]
@@ -1562,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Profit-Talnivarr|r",
 			[51] = 1601669342,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [60]
 		{
 			"go big pull", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1584,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601669478,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [61]
 		{
 			"gj all", -- [1]
 			"Rykahshaman-Frostmane", -- [2]
@@ -1606,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRykahshaman|r",
 			[51] = 1601669615,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [62]
 		{
 			"aloha", -- [1]
 			"Sappo-Silvermoon", -- [2]
@@ -1628,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Sappo-Silvermoon|r",
 			[51] = 1603556926,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [63]
 		{
 			"Horseman rise...", -- [1]
 			"Sappo-Silvermoon", -- [2]
@@ -1650,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Sappo-Silvermoon|r",
 			[51] = 1603556938,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [64]
 		{
 			"Your time is nigh...", -- [1]
 			"Sappo-Silvermoon", -- [2]
@@ -1672,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Sappo-Silvermoon|r",
 			[51] = 1603556940,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [65]
 		{
 			"You felt death once...", -- [1]
 			"Sappo-Silvermoon", -- [2]
@@ -1694,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Sappo-Silvermoon|r",
 			[51] = 1603556942,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [66]
 		{
 			"Now, know demise!", -- [1]
 			"Sappo-Silvermoon", -- [2]
@@ -1716,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Sappo-Silvermoon|r",
 			[51] = 1603556945,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [67]
 		{
 			"is this unironic outland leveling?", -- [1]
 			"|Kq124|k", -- [2]
@@ -1738,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1603839574,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [78]
+		}, -- [68]
 		{
 			"I should be good for tomorrow's run matey i'd like to come on lock but will heal if needed :)", -- [1]
 			"|Kq47|k", -- [2]
@@ -1761,7 +1541,7 @@ ElvCharacterDB = {
 			[51] = 1603839576,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Napsterz",
-		}, -- [79]
+		}, -- [69]
 		{
 			"alright good to hear mate", -- [1]
 			"|Kq47|k", -- [2]
@@ -1784,7 +1564,7 @@ ElvCharacterDB = {
 			[51] = 1603839643,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Napsterz",
-		}, -- [80]
+		}, -- [70]
 		{
 			"I'd like you on your lock too but thanks for being so flexible in them, really helps us out", -- [1]
 			"|Kq47|k", -- [2]
@@ -1807,7 +1587,7 @@ ElvCharacterDB = {
 			[51] = 1603839663,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Napsterz",
-		}, -- [81]
+		}, -- [71]
 		{
 			"6.45 UK time right ", -- [1]
 			"|Kq47|k", -- [2]
@@ -1830,7 +1610,7 @@ ElvCharacterDB = {
 			[51] = 1603839667,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Napsterz",
-		}, -- [82]
+		}, -- [72]
 		{
 			"nah", -- [1]
 			"|Kq124|k", -- [2]
@@ -1852,7 +1632,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1603839667,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [83]
+		}, -- [73]
 		{
 			"just queueing for horse man", -- [1]
 			"|Kq124|k", -- [2]
@@ -1874,7 +1654,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1603839672,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [84]
+		}, -- [74]
 		{
 			"yeah ", -- [1]
 			"|Kq47|k", -- [2]
@@ -1897,7 +1677,7 @@ ElvCharacterDB = {
 			[51] = 1603839676,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Napsterz",
-		}, -- [85]
+		}, -- [75]
 		{
 			"horse man?", -- [1]
 			"|Kq124|k", -- [2]
@@ -1919,7 +1699,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1603839684,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [86]
+		}, -- [76]
 		{
 			"hopefully we can get going on time this week but not a lot of signs so far", -- [1]
 			"|Kq47|k", -- [2]
@@ -1942,7 +1722,7 @@ ElvCharacterDB = {
 			[51] = 1603839689,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Napsterz",
-		}, -- [87]
+		}, -- [77]
 		{
 			"headless horseman", -- [1]
 			"|Kq124|k", -- [2]
@@ -1964,7 +1744,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1603839696,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [88]
+		}, -- [78]
 		{
 			"oh actual horse man", -- [1]
 			"|Kq124|k", -- [2]
@@ -1986,7 +1766,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1603839702,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [89]
+		}, -- [79]
 		{
 			"ah its no worries treating it like a friday fun run (abuse peoples alts) lol", -- [1]
 			"|Kq47|k", -- [2]
@@ -2009,7 +1789,7 @@ ElvCharacterDB = {
 			[51] = 1603839708,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Napsterz",
-		}, -- [90]
+		}, -- [80]
 		{
 			"thought this was some mem name", -- [1]
 			"|Kq124|k", -- [2]
@@ -2031,7 +1811,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1603839714,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [91]
+		}, -- [81]
 		{
 			"Horseman rise...", -- [1]
 			"Rotary-DunModr", -- [2]
@@ -2053,7 +1833,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRotary-DunModr|r",
 			[51] = 1603839735,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [82]
 		{
 			"Your time is nigh...", -- [1]
 			"Rotary-DunModr", -- [2]
@@ -2075,7 +1855,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRotary-DunModr|r",
 			[51] = 1603839737,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [83]
 		{
 			"You felt death once...", -- [1]
 			"Rotary-DunModr", -- [2]
@@ -2097,7 +1877,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRotary-DunModr|r",
 			[51] = 1603839739,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [84]
 		{
 			"Now, know demise!", -- [1]
 			"Rotary-DunModr", -- [2]
@@ -2119,7 +1899,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRotary-DunModr|r",
 			[51] = 1603839743,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [85]
 		{
 			"haha", -- [1]
 			"|Kq47|k", -- [2]
@@ -2142,7 +1922,7 @@ ElvCharacterDB = {
 			[51] = 1603839895,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Napsterz",
-		}, -- [96]
+		}, -- [86]
 		{
 			"I'm trying to trial as many people in as possible but the usual raiders arent really interested in helping", -- [1]
 			"|Kq47|k", -- [2]
@@ -2165,7 +1945,7 @@ ElvCharacterDB = {
 			[51] = 1603839914,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Napsterz",
-		}, -- [97]
+		}, -- [87]
 		{
 			"no no", -- [1]
 			"|Kq124|k", -- [2]
@@ -2187,7 +1967,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1603839924,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [98]
+		}, -- [88]
 		{
 			"actual factual horseman", -- [1]
 			"|Kq124|k", -- [2]
@@ -2209,6 +1989,226 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1603839929,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [89]
+		{
+			"do thing?", -- [1]
+			"|Kq87|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3572, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1603922997,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [90]
+		{
+			"no", -- [1]
+			"|Kq87|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3574, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1603923017,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [91]
+		{
+			"rood", -- [1]
+			"|Kq87|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3575, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1603923022,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [92]
+		{
+			"i like being logged in but not playing", -- [1]
+			"|Kq87|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3576, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1603923065,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [93]
+		{
+			"its my favourite past time", -- [1]
+			"|Kq87|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3577, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1603923073,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [94]
+		{
+			"Horseman rise...", -- [1]
+			"Båldr-Talnivarr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Båldr-Talnivarr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3583, -- [11]
+			"Player-1598-0BE8F480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Båldr-Talnivarr|r",
+			[51] = 1603923106,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [95]
+		{
+			"Your time is nigh...", -- [1]
+			"Båldr-Talnivarr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Båldr-Talnivarr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3584, -- [11]
+			"Player-1598-0BE8F480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Båldr-Talnivarr|r",
+			[51] = 1603923108,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"You felt death once...", -- [1]
+			"Båldr-Talnivarr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Båldr-Talnivarr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3585, -- [11]
+			"Player-1598-0BE8F480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Båldr-Talnivarr|r",
+			[51] = 1603923110,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"grinding /played time", -- [1]
+			"|Kq87|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3586, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1603923110,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [98]
+		{
+			"Now, know demise!", -- [1]
+			"Båldr-Talnivarr", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Båldr-Talnivarr", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3588, -- [11]
+			"Player-1598-0BE8F480", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Båldr-Talnivarr|r",
+			[51] = 1603923113,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 }

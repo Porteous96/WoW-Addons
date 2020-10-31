@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0335,
-	["LastPlayerFullName"] = "Rykkahpo-Frostmane",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 160907,
@@ -93,6 +90,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:127447::::::::117:260:512:22:2:6424:6652:116:::|h[Latro's Shifting Sword]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Rykkahpo-Frostmane",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

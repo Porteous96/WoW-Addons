@@ -3,32 +3,669 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "00:16:45",
-			["date_start"] = "00:13:36",
-			["name"] = "Vol'zith the Whisperer",
-			["total_time"] = 189.3019999999997,
+			["date_start"] = "23:47:07",
+			["date_end"] = "23:47:07",
+			["name"] = "High Priestess Kilnara",
+			["total_time"] = 2.200000000000728,
 		}, -- [1]
 		{
-			["date_end"] = "00:11:03",
-			["date_start"] = "00:08:37",
-			["name"] = "Lord Stormsong",
-			["total_time"] = 145.6290000000008,
+			["date_start"] = "23:47:07",
+			["date_end"] = "23:47:07",
+			["name"] = "High Priestess Kilnara",
+			["total_time"] = 2.200000000000728,
 		}, -- [2]
 		{
-			["date_end"] = "00:02:59",
-			["date_start"] = "00:00:47",
-			["name"] = "Tidesage Council",
-			["total_time"] = 132.0139999999992,
+			["date_start"] = "23:45:10",
+			["date_end"] = "23:45:10",
+			["name"] = "Bloodlord Mandokir",
+			["total_time"] = 0.1909999999988941,
 		}, -- [3]
 		{
-			["date_end"] = "23:53:03",
-			["date_start"] = "23:50:38",
-			["name"] = "Aqu'sirr",
-			["total_time"] = 145.6550000000007,
+			["date_start"] = "21:48:59",
+			["date_end"] = "21:50:49",
+			["name"] = "Gul'dan",
+			["total_time"] = 111.009,
 		}, -- [4]
 	},
 	["hide_on_combat"] = false,
 	["IndividualSpells"] = {
+		{
+			[96486] = {
+				{
+					2.200000000000728, -- [1]
+					"Zanzil", -- [2]
+					96486, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[97321] = {
+				{
+					2.200000000000728, -- [1]
+					"Jin'do the Godbreaker", -- [2]
+					97321, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					2.200000000000728, -- [1]
+					"Jin'do the Godbreaker", -- [2]
+					97321, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[96488] = {
+				{
+					2.200000000000728, -- [1]
+					"Zanzil", -- [2]
+					96488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			[96486] = {
+				{
+					2.200000000000728, -- [1]
+					"Zanzil", -- [2]
+					96486, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[97321] = {
+				{
+					2.200000000000728, -- [1]
+					"Jin'do the Godbreaker", -- [2]
+					97321, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					2.200000000000728, -- [1]
+					"Jin'do the Godbreaker", -- [2]
+					97321, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[96488] = {
+				{
+					2.200000000000728, -- [1]
+					"Zanzil", -- [2]
+					96488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+			[206222] = {
+				{
+					7.397000000000844, -- [1]
+					"Gul'dan", -- [2]
+					206222, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[212258] = {
+				{
+					16.41100000000006, -- [1]
+					"Gul'dan", -- [2]
+					212258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[227427] = {
+				{
+					20.05999999999949, -- [1]
+					"Gul'dan", -- [2]
+					227427, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[206883] = {
+				{
+					25.41400000000067, -- [1]
+					"D'zorykx the Trapper", -- [2]
+					206883, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pïkabo-Silvermoon", -- [5]
+				}, -- [1]
+			},
+			[206939] = {
+				{
+					42.27100000000064, -- [1]
+					"Gul'dan", -- [2]
+					206939, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[221783] = {
+				{
+					45.72099999999955, -- [1]
+					"Gul'dan", -- [2]
+					221783, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[211439] = {
+				{
+					88.54900000000089, -- [1]
+					"The Demon Within", -- [2]
+					211439, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[220957] = {
+				{
+					105.6759999999995, -- [1]
+					"The Demon Within", -- [2]
+					220957, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pïkabo-Silvermoon", -- [5]
+				}, -- [1]
+			},
+		}, -- [4]
+		{
+			[210022] = {
+				{
+					37.04700000000048, -- [1]
+					"Elisande", -- [2]
+					210022, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[208944] = {
+				{
+					14.29600000000028, -- [1]
+					"Elisande", -- [2]
+					208944, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					44.50200000000041, -- [1]
+					"Elisande", -- [2]
+					208944, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[229738] = {
+				{
+					5.246999999999389, -- [1]
+					"Elisande", -- [2]
+					229738, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [1]
+				{
+					8.893000000000029, -- [1]
+					"Elisande", -- [2]
+					229738, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [2]
+				{
+					32.17200000000048, -- [1]
+					"Elisande", -- [2]
+					229738, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [3]
+				{
+					35.83499999999913, -- [1]
+					"Elisande", -- [2]
+					229738, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [4]
+				{
+					40.70800000000054, -- [1]
+					"Elisande", -- [2]
+					229738, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [5]
+				{
+					61.54999999999927, -- [1]
+					"Elisande", -- [2]
+					229738, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [6]
+				{
+					66.41699999999946, -- [1]
+					"Elisande", -- [2]
+					229738, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [7]
+				{
+					74.8819999999996, -- [1]
+					"Elisande", -- [2]
+					229738, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kyoshi-EmeraldDream", -- [5]
+				}, -- [8]
+			},
+			[209973] = {
+				{
+					27.3060000000005, -- [1]
+					"Elisande", -- [2]
+					209973, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [1]
+			},
+			[209620] = {
+				{
+					42.5010000000002, -- [1]
+					"Recursive Elemental", -- [2]
+					209620, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[208863] = {
+				{
+					22.43900000000031, -- [1]
+					"Elisande", -- [2]
+					208863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					53.04999999999927, -- [1]
+					"Elisande", -- [2]
+					208863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[221864] = {
+				{
+					8.255999999999403, -- [1]
+					"Recursive Elemental", -- [2]
+					221864, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kyoshi-EmeraldDream", -- [5]
+				}, -- [1]
+				{
+					11.40300000000025, -- [1]
+					"Recursive Elemental", -- [2]
+					221864, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kyoshi-EmeraldDream", -- [5]
+				}, -- [2]
+				{
+					33.60599999999977, -- [1]
+					"Recursive Elemental", -- [2]
+					221864, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kyoshi-EmeraldDream", -- [5]
+				}, -- [3]
+				{
+					36.63999999999942, -- [1]
+					"Recursive Elemental", -- [2]
+					221864, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kyoshi-EmeraldDream", -- [5]
+				}, -- [4]
+				{
+					39.66499999999905, -- [1]
+					"Recursive Elemental", -- [2]
+					221864, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kyoshi-EmeraldDream", -- [5]
+				}, -- [5]
+				{
+					64.75, -- [1]
+					"Recursive Elemental", -- [2]
+					221864, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [6]
+			},
+			[209971] = {
+				{
+					64.75, -- [1]
+					"Elisande", -- [2]
+					209971, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [1]
+			},
+			[209568] = {
+				{
+					10.31400000000031, -- [1]
+					"Expedient Elemental", -- [2]
+					209568, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					34.81600000000071, -- [1]
+					"Expedient Elemental", -- [2]
+					209568, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					39.6919999999991, -- [1]
+					"Expedient Elemental", -- [2]
+					209568, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					43.33699999999953, -- [1]
+					"Expedient Elemental", -- [2]
+					209568, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					65.38299999999981, -- [1]
+					"Expedient Elemental", -- [2]
+					209568, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					71.45099999999911, -- [1]
+					"Expedient Elemental", -- [2]
+					209568, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[209615] = {
+				{
+					1.622999999999593, -- [1]
+					"Elisande", -- [2]
+					209615, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pïkabo-Silvermoon", -- [5]
+				}, -- [1]
+				{
+					7.674999999999272, -- [1]
+					"Elisande", -- [2]
+					209615, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thrazor-Malorne", -- [5]
+				}, -- [2]
+			},
+			[209617] = {
+				{
+					79.44599999999991, -- [1]
+					"Expedient Elemental", -- [2]
+					209617, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [5]
+		{
+			[231532] = {
+				{
+					32.04100000000108, -- [1]
+					"Pyrestar Demolisher", -- [2]
+					231532, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fist of the Duskwatch", -- [5]
+				}, -- [1]
+				{
+					32.04100000000108, -- [1]
+					"Pyrestar Demolisher", -- [2]
+					231532, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fist of the Duskwatch", -- [5]
+				}, -- [2]
+			},
+			[117892] = {
+				{
+					32.04100000000108, -- [1]
+					"Saltfin Swimmer", -- [2]
+					117892, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					32.04100000000108, -- [1]
+					"Saltfin Swimmer", -- [2]
+					117892, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					32.04100000000108, -- [1]
+					"Saltfin Swimmer", -- [2]
+					117892, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[231461] = {
+				{
+					32.04100000000108, -- [1]
+					"Pyrestar Demolisher", -- [2]
+					231461, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					32.04100000000108, -- [1]
+					"Pyrestar Demolisher", -- [2]
+					231461, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					32.04100000000108, -- [1]
+					"Pyrestar Demolisher", -- [2]
+					231461, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[248499] = {
+				{
+					6.444999999999709, -- [1]
+					"Argus the Unmaker", -- [2]
+					248499, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Robotlivsmtr-TwistingNether", -- [5]
+				}, -- [1]
+			},
+		}, -- [6]
+		{
+			[244912] = {
+				{
+					63.51000000000022, -- [1]
+					"Ember of Taeshalach", -- [2]
+					244912, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[243431] = {
+				{
+					23.63999999999942, -- [1]
+					"Aggramar", -- [2]
+					243431, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					49.9989999999998, -- [1]
+					"Aggramar", -- [2]
+					243431, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[244901] = {
+				{
+					13.96899999999914, -- [1]
+					"Unknown", -- [2]
+					244901, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					13.96899999999914, -- [1]
+					"Unknown", -- [2]
+					244901, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					39.50300000000061, -- [1]
+					"Flame of Taeshalach", -- [2]
+					244901, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					39.50300000000061, -- [1]
+					"Flame of Taeshalach", -- [2]
+					244901, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[245631] = {
+				{
+					15.95199999999932, -- [1]
+					"Flame of Taeshalach", -- [2]
+					245631, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					15.96800000000076, -- [1]
+					"Flame of Taeshalach", -- [2]
+					245631, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					41.51399999999921, -- [1]
+					"Flame of Taeshalach", -- [2]
+					245631, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					41.51399999999921, -- [1]
+					"Flame of Taeshalach", -- [2]
+					245631, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[244903] = {
+				{
+					43.80899999999929, -- [1]
+					"Ember of Taeshalach", -- [2]
+					244903, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					46.6200000000008, -- [1]
+					"Ember of Taeshalach", -- [2]
+					244903, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [7]
+		{
+			[252641] = {
+				{
+					2.147000000000844, -- [1]
+					"Slobbering Fiend", -- [2]
+					252641, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[252614] = {
+				{
+					2.693999999999505, -- [1]
+					"Flameweaver", -- [2]
+					252614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [8]
+		{
+			[245098] = {
+				{
+					11.19300000000112, -- [1]
+					"Shatug", -- [2]
+					245098, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Psychotronic-AeriePeak", -- [5]
+				}, -- [1]
+			},
+			[251445] = {
+				{
+					11.15800000000127, -- [1]
+					"F'harg", -- [2]
+					251445, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dularn-EmeraldDream", -- [5]
+				}, -- [1]
+			},
+			[252614] = {
+				{
+					5.246000000001004, -- [1]
+					"Flameweaver", -- [2]
+					252614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					20.53000000000066, -- [1]
+					"Flameweaver", -- [2]
+					252614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					20.53000000000066, -- [1]
+					"Flameweaver", -- [2]
+					252614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					20.53000000000066, -- [1]
+					"Flameweaver", -- [2]
+					252614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+		}, -- [9]
+		{
+			[246965] = {
+				{
+					14.18599999999969, -- [1]
+					"Annihilator", -- [2]
+					246965, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[245237] = {
+				{
+					17.8739999999998, -- [1]
+					"Garothi Worldbreaker", -- [2]
+					245237, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					25.19599999999991, -- [1]
+					"Garothi Worldbreaker", -- [2]
+					245237, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[246848] = {
+				{
+					17.8739999999998, -- [1]
+					"Garothi Worldbreaker", -- [2]
+					246848, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					25.19599999999991, -- [1]
+					"Garothi Worldbreaker", -- [2]
+					246848, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[244399] = {
+				{
+					8.163000000000466, -- [1]
+					"Decimator", -- [2]
+					244399, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[246897] = {
+				{
+					22.02599999999984, -- [1]
+					"Decimator", -- [2]
+					246897, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [10]
 		{
 			[267310] = {
 				{
@@ -376,7 +1013,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [29]
 			},
-		}, -- [1]
+		}, -- [11]
 		{
 			[269097] = {
 				{
@@ -493,7 +1130,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [2]
+		}, -- [12]
 		{
 			[267830] = {
 				{
@@ -607,7 +1244,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [3]
+		}, -- [13]
 		{
 			[264903] = {
 				{
@@ -848,7 +1485,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [4]
+		}, -- [14]
 		{
 			[313400] = {
 				{
@@ -2790,7 +3427,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [5]
+		}, -- [15]
 		{
 			[317639] = {
 				{
@@ -5011,34 +5648,8 @@ DetailsTimeLineDB = {
 					"Lízzie", -- [5]
 				}, -- [10]
 			},
-		}, -- [6]
+		}, -- [16]
 		{
-			[318449] = {
-				{
-					134.9580000000005, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					318449, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					192.0839999999989, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					318449, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					222.473, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					318449, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					241.8799999999992, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					318449, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
 			[310184] = {
 				{
 					20.57999999999993, -- [1]
@@ -5070,6 +5681,32 @@ DetailsTimeLineDB = {
 					310184, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
+			},
+			[318449] = {
+				{
+					134.9580000000005, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					318449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					192.0839999999989, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					318449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					222.473, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					318449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					241.8799999999992, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					318449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
 			},
 			[312078] = {
 				{
@@ -5577,31 +6214,19 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[312866] = {
+			[310331] = {
 				{
-					196.6890000000003, -- [1]
-					"Deathwing", -- [2]
-					312866, -- [3]
+					18.73699999999917, -- [1]
+					"Mind's Eye", -- [2]
+					310331, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					219.4269999999997, -- [1]
-					"Deathwing", -- [2]
-					312866, -- [3]
+					52.77499999999964, -- [1]
+					"Mind's Eye", -- [2]
+					310331, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-				{
-					242.5290000000005, -- [1]
-					"Deathwing", -- [2]
-					312866, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					265.6819999999989, -- [1]
-					"Deathwing", -- [2]
-					312866, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
 			},
 			[309698] = {
 				{
@@ -5625,6 +6250,247 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Lízzie", -- [5]
 				}, -- [3]
+			},
+			[318714] = {
+				{
+					119.6530000000003, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					119.6530000000003, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					119.6530000000003, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					119.6530000000003, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					119.6530000000003, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					119.6530000000003, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					119.6530000000003, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					174.619999999999, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					174.619999999999, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					174.619999999999, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					174.619999999999, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					174.619999999999, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					224.5920000000006, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					224.5920000000006, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					224.5920000000006, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					224.5920000000006, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					224.5920000000006, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					301.9339999999993, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					301.9339999999993, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					301.9339999999993, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					301.9339999999993, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					301.9339999999993, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					301.9339999999993, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					301.9339999999993, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					301.9339999999993, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+			},
+			[316463] = {
+				{
+					169.5689999999995, -- [1]
+					"Mindgate", -- [2]
+					316463, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[317292] = {
+				{
+					86.53600000000006, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					317292, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					268.7860000000001, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					317292, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[316711] = {
+				{
+					14.69499999999971, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lízzie", -- [5]
+				}, -- [1]
+				{
+					36.61199999999917, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fraank", -- [5]
+				}, -- [2]
+				{
+					65.77199999999903, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fraank", -- [5]
+				}, -- [3]
+				{
+					195.9089999999997, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fraank", -- [5]
+				}, -- [4]
+			},
+			[313400] = {
+				{
+					190.8079999999991, -- [1]
+					"Corruptor Tentacle", -- [2]
+					313400, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rykahpo", -- [5]
+				}, -- [1]
+				{
+					236.5560000000005, -- [1]
+					"Corruptor Tentacle", -- [2]
+					313400, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rykahpo", -- [5]
+				}, -- [2]
+				{
+					238.9689999999991, -- [1]
+					"Corruptor Tentacle", -- [2]
+					313400, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thanilia", -- [5]
+				}, -- [3]
+				{
+					243.4409999999989, -- [1]
+					"Corruptor Tentacle", -- [2]
+					313400, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thanilia", -- [5]
+				}, -- [4]
+				{
+					246.2559999999994, -- [1]
+					"Corruptor Tentacle", -- [2]
+					313400, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Vaffa-Antonidas", -- [5]
+				}, -- [5]
 			},
 			[314889] = {
 				{
@@ -6069,225 +6935,6 @@ DetailsTimeLineDB = {
 					"Slyxhmsterez-Sylvanas", -- [5]
 				}, -- [63]
 			},
-			[316463] = {
-				{
-					169.5689999999995, -- [1]
-					"Mindgate", -- [2]
-					316463, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[317292] = {
-				{
-					86.53600000000006, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					317292, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					268.7860000000001, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					317292, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[311176] = {
-				{
-					3.510000000000218, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					311176, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[313400] = {
-				{
-					190.8079999999991, -- [1]
-					"Corruptor Tentacle", -- [2]
-					313400, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahpo", -- [5]
-				}, -- [1]
-				{
-					236.5560000000005, -- [1]
-					"Corruptor Tentacle", -- [2]
-					313400, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahpo", -- [5]
-				}, -- [2]
-				{
-					238.9689999999991, -- [1]
-					"Corruptor Tentacle", -- [2]
-					313400, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Thanilia", -- [5]
-				}, -- [3]
-				{
-					243.4409999999989, -- [1]
-					"Corruptor Tentacle", -- [2]
-					313400, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Thanilia", -- [5]
-				}, -- [4]
-				{
-					246.2559999999994, -- [1]
-					"Corruptor Tentacle", -- [2]
-					313400, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vaffa-Antonidas", -- [5]
-				}, -- [5]
-			},
-			[318714] = {
-				{
-					119.6530000000003, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					119.6530000000003, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					119.6530000000003, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					119.6530000000003, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					119.6530000000003, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					119.6530000000003, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					119.6530000000003, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					174.619999999999, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					174.619999999999, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					174.619999999999, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					174.619999999999, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					174.619999999999, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					224.5920000000006, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
-				{
-					224.5920000000006, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [14]
-				{
-					224.5920000000006, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [15]
-				{
-					224.5920000000006, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
-				{
-					224.5920000000006, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [17]
-				{
-					301.9339999999993, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [18]
-				{
-					301.9339999999993, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [19]
-				{
-					301.9339999999993, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [20]
-				{
-					301.9339999999993, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [21]
-				{
-					301.9339999999993, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [22]
-				{
-					301.9339999999993, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [23]
-				{
-					301.9339999999993, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [24]
-				{
-					301.9339999999993, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [25]
-			},
 			[315927] = {
 				{
 					147.1700000000001, -- [1]
@@ -6302,35 +6949,13 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[316711] = {
+			[311176] = {
 				{
-					14.69499999999971, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
+					3.510000000000218, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					311176, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Lízzie", -- [5]
 				}, -- [1]
-				{
-					36.61199999999917, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Fraank", -- [5]
-				}, -- [2]
-				{
-					65.77199999999903, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Fraank", -- [5]
-				}, -- [3]
-				{
-					195.9089999999997, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Fraank", -- [5]
-				}, -- [4]
 			},
 			[313611] = {
 				{
@@ -6370,21 +6995,33 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 			},
-			[310331] = {
+			[312866] = {
 				{
-					18.73699999999917, -- [1]
-					"Mind's Eye", -- [2]
-					310331, -- [3]
+					196.6890000000003, -- [1]
+					"Deathwing", -- [2]
+					312866, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					52.77499999999964, -- [1]
-					"Mind's Eye", -- [2]
-					310331, -- [3]
+					219.4269999999997, -- [1]
+					"Deathwing", -- [2]
+					312866, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+				{
+					242.5290000000005, -- [1]
+					"Deathwing", -- [2]
+					312866, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					265.6819999999989, -- [1]
+					"Deathwing", -- [2]
+					312866, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
 			},
-		}, -- [7]
+		}, -- [17]
 		{
 			[307008] = {
 				{
@@ -6479,6 +7116,68 @@ DetailsTimeLineDB = {
 					306971, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [12]
+			},
+			[307092] = {
+				{
+					297.1779999999999, -- [1]
+					"Fury of N'Zoth", -- [2]
+					307092, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[313039] = {
+				{
+					395.9629999999997, -- [1]
+					"Fury of N'Zoth", -- [2]
+					313039, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Infinite Darkness", -- [5]
+				}, -- [1]
+				{
+					449.9700000000012, -- [1]
+					"Fury of N'Zoth", -- [2]
+					313039, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Infinite Darkness", -- [5]
+				}, -- [2]
+			},
+			[307808] = {
+				{
+					184.0840000000007, -- [1]
+					"Fury of N'Zoth", -- [2]
+					307808, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					206.3230000000003, -- [1]
+					"Fury of N'Zoth", -- [2]
+					307808, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					228.5320000000011, -- [1]
+					"Fury of N'Zoth", -- [2]
+					307808, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					250.768, -- [1]
+					"Fury of N'Zoth", -- [2]
+					307808, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					272.969000000001, -- [1]
+					"Fury of N'Zoth", -- [2]
+					307808, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					309.884, -- [1]
+					"Fury of N'Zoth", -- [2]
+					307808, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
 			},
 			[313362] = {
 				{
@@ -6595,68 +7294,6 @@ DetailsTimeLineDB = {
 					313362, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [19]
-			},
-			[313039] = {
-				{
-					395.9629999999997, -- [1]
-					"Fury of N'Zoth", -- [2]
-					313039, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Infinite Darkness", -- [5]
-				}, -- [1]
-				{
-					449.9700000000012, -- [1]
-					"Fury of N'Zoth", -- [2]
-					313039, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Infinite Darkness", -- [5]
-				}, -- [2]
-			},
-			[307808] = {
-				{
-					184.0840000000007, -- [1]
-					"Fury of N'Zoth", -- [2]
-					307808, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					206.3230000000003, -- [1]
-					"Fury of N'Zoth", -- [2]
-					307808, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					228.5320000000011, -- [1]
-					"Fury of N'Zoth", -- [2]
-					307808, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					250.768, -- [1]
-					"Fury of N'Zoth", -- [2]
-					307808, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					272.969000000001, -- [1]
-					"Fury of N'Zoth", -- [2]
-					307808, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					309.884, -- [1]
-					"Fury of N'Zoth", -- [2]
-					307808, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-			},
-			[307092] = {
-				{
-					297.1779999999999, -- [1]
-					"Fury of N'Zoth", -- [2]
-					307092, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
 			},
 			[307071] = {
 				{
@@ -7085,7 +7722,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [8]
+		}, -- [18]
 		{
 			[317672] = {
 				{
@@ -7541,8 +8178,122 @@ DetailsTimeLineDB = {
 					"Slyxhmsterez-Sylvanas", -- [5]
 				}, -- [2]
 			},
-		}, -- [9]
+		}, -- [19]
 		{
+			[311159] = {
+				{
+					48.31600000000071, -- [1]
+					"Cursed Blood", -- [2]
+					311159, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					66.30500000000029, -- [1]
+					"Cursed Blood", -- [2]
+					311159, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					139.5139999999992, -- [1]
+					"Cursed Blood", -- [2]
+					311159, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					157.857, -- [1]
+					"Cursed Blood", -- [2]
+					311159, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					176.009, -- [1]
+					"Cursed Blood", -- [2]
+					311159, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					194.0049999999992, -- [1]
+					"Cursed Blood", -- [2]
+					311159, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[317672] = {
+				{
+					164.0169999999998, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					317672, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[311143] = {
+				{
+					109.8850000000002, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					168.1229999999996, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					171.9830000000002, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					173.6389999999992, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					183.4740000000002, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					198.8079999999991, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					219.4660000000004, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					232.268, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					235.3259999999991, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					242.7649999999994, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					251.5489999999991, -- [1]
+					"Blood of Ny'alotha", -- [2]
+					311143, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+			},
 			[310788] = {
 				{
 					96.36499999999978, -- [1]
@@ -7640,82 +8391,6 @@ DetailsTimeLineDB = {
 					310788, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [16]
-			},
-			[317672] = {
-				{
-					164.0169999999998, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					317672, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[311367] = {
-				{
-					135.8209999999999, -- [1]
-					"Il'gynoth", -- [2]
-					311367, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Talrog-Antonidas", -- [5]
-				}, -- [1]
-				{
-					135.8209999999999, -- [1]
-					"Il'gynoth", -- [2]
-					311367, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vaffa-Antonidas", -- [5]
-				}, -- [2]
-				{
-					252.652, -- [1]
-					"Il'gynoth", -- [2]
-					311367, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahpo", -- [5]
-				}, -- [3]
-				{
-					252.652, -- [1]
-					"Il'gynoth", -- [2]
-					311367, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Slyxhmsterez-Sylvanas", -- [5]
-				}, -- [4]
-			},
-			[311159] = {
-				{
-					48.31600000000071, -- [1]
-					"Cursed Blood", -- [2]
-					311159, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					66.30500000000029, -- [1]
-					"Cursed Blood", -- [2]
-					311159, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					139.5139999999992, -- [1]
-					"Cursed Blood", -- [2]
-					311159, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					157.857, -- [1]
-					"Cursed Blood", -- [2]
-					311159, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					176.009, -- [1]
-					"Cursed Blood", -- [2]
-					311159, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					194.0049999999992, -- [1]
-					"Cursed Blood", -- [2]
-					311159, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
 			},
 			[311401] = {
 				{
@@ -7831,75 +8506,37 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [10]
 			},
-			[311143] = {
+			[311367] = {
 				{
-					109.8850000000002, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
+					135.8209999999999, -- [1]
+					"Il'gynoth", -- [2]
+					311367, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Talrog-Antonidas", -- [5]
 				}, -- [1]
 				{
-					168.1229999999996, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
+					135.8209999999999, -- [1]
+					"Il'gynoth", -- [2]
+					311367, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Vaffa-Antonidas", -- [5]
 				}, -- [2]
 				{
-					171.9830000000002, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
+					252.652, -- [1]
+					"Il'gynoth", -- [2]
+					311367, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Rykahpo", -- [5]
 				}, -- [3]
 				{
-					173.6389999999992, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
+					252.652, -- [1]
+					"Il'gynoth", -- [2]
+					311367, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Slyxhmsterez-Sylvanas", -- [5]
 				}, -- [4]
-				{
-					183.4740000000002, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					198.8079999999991, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					219.4660000000004, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					232.268, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					235.3259999999991, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					242.7649999999994, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					251.5489999999991, -- [1]
-					"Blood of Ny'alotha", -- [2]
-					311143, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
 			},
-		}, -- [10]
+		}, -- [20]
 		{
 			[316030] = {
 				{
@@ -8166,7 +8803,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [8]
 			},
-		}, -- [11]
+		}, -- [21]
 		{
 			[310552] = {
 				{
@@ -10699,43 +11336,181 @@ DetailsTimeLineDB = {
 					"Rykahpo", -- [5]
 				}, -- [4]
 			},
-			[310329] = {
+			[310614] = {
 				{
-					19.38799999999992, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
+					45.25699999999961, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					64.52399999999943, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
+					49.40499999999975, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					110.0590000000002, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
+					52.98700000000008, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 				{
-					154.6999999999998, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
+					56.59900000000016, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 				{
-					200.0159999999996, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
+					67.6319999999996, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 				{
-					245.7789999999995, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
+					67.95499999999993, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
+				{
+					71.16799999999967, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					72.40099999999984, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					74.97699999999986, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					78.55099999999948, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					82.1869999999999, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					98.36200000000008, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					102.0010000000002, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					113.0459999999994, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					128.6149999999998, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					133.2460000000001, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					136.9309999999996, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					140.4690000000001, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					144.1179999999995, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					147.902, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					158.5529999999999, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					210.8639999999996, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					215.107, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					219.5709999999999, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					223.1279999999997, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					226.8029999999999, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					230.5900000000002, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					234.1679999999997, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+				{
+					237.7389999999996, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [29]
 			},
 			[310352] = {
 				{
@@ -11110,195 +11885,51 @@ DetailsTimeLineDB = {
 					"Devereux", -- [5]
 				}, -- [41]
 			},
-			[310614] = {
+			[310329] = {
 				{
-					45.25699999999961, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
+					19.38799999999992, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					49.40499999999975, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
+					64.52399999999943, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					52.98700000000008, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
+					110.0590000000002, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 				{
-					56.59900000000016, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
+					154.6999999999998, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 				{
-					67.6319999999996, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
+					200.0159999999996, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 				{
-					67.95499999999993, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
+					245.7789999999995, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
-				{
-					71.16799999999967, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					72.40099999999984, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					74.97699999999986, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					78.55099999999948, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					82.1869999999999, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					98.36200000000008, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					102.0010000000002, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
-				{
-					113.0459999999994, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [14]
-				{
-					128.6149999999998, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [15]
-				{
-					133.2460000000001, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
-				{
-					136.9309999999996, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [17]
-				{
-					140.4690000000001, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [18]
-				{
-					144.1179999999995, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [19]
-				{
-					147.902, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [20]
-				{
-					158.5529999999999, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [21]
-				{
-					210.8639999999996, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [22]
-				{
-					215.107, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [23]
-				{
-					219.5709999999999, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [24]
-				{
-					223.1279999999997, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [25]
-				{
-					226.8029999999999, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [26]
-				{
-					230.5900000000002, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [27]
-				{
-					234.1679999999997, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [28]
-				{
-					237.7389999999996, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310614, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [29]
 			},
-			[310078] = {
-				{
-					162.3209999999999, -- [1]
-					"Maw of Drest'agath", -- [2]
-					310078, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
+			[308953] = {
 				{
 					253.6279999999997, -- [1]
-					"Maw of Drest'agath", -- [2]
-					310078, -- [3]
+					"Eye of Drest'agath", -- [2]
+					308953, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
+				}, -- [1]
 			},
 			[310277] = {
 				{
@@ -11451,15 +12082,21 @@ DetailsTimeLineDB = {
 					"Void Glare Stalker", -- [5]
 				}, -- [8]
 			},
-			[308953] = {
+			[310078] = {
 				{
-					253.6279999999997, -- [1]
-					"Eye of Drest'agath", -- [2]
-					308953, -- [3]
+					162.3209999999999, -- [1]
+					"Maw of Drest'agath", -- [2]
+					310078, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
+				{
+					253.6279999999997, -- [1]
+					"Maw of Drest'agath", -- [2]
+					310078, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
 			},
-		}, -- [12]
+		}, -- [22]
 		{
 			[306733] = {
 				{
@@ -11906,7 +12543,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [13]
+		}, -- [23]
 		{
 			[266266] = {
 				{
@@ -11924,7 +12561,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [14]
+		}, -- [24]
 		{
 			[268278] = {
 				{
@@ -12021,7 +12658,7 @@ DetailsTimeLineDB = {
 					"Emmagema-Nemesis", -- [5]
 				}, -- [1]
 			},
-		}, -- [15]
+		}, -- [25]
 		{
 			[261264] = {
 				{
@@ -12204,7 +12841,7 @@ DetailsTimeLineDB = {
 					"Emmagema-Nemesis", -- [5]
 				}, -- [3]
 			},
-		}, -- [16]
+		}, -- [26]
 		{
 			[260508] = {
 				{
@@ -12230,7 +12867,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [17]
+		}, -- [27]
 		{
 			[264694] = {
 				{
@@ -12326,7 +12963,7 @@ DetailsTimeLineDB = {
 					"Rykahpo", -- [5]
 				}, -- [2]
 			},
-		}, -- [18]
+		}, -- [28]
 		{
 			[267385] = {
 				{
@@ -12342,7 +12979,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [19]
+		}, -- [29]
 		{
 			[268347] = {
 				{
@@ -12361,7 +12998,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [20]
+		}, -- [30]
 		{
 			[267899] = {
 				{
@@ -12399,7 +13036,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [21]
+		}, -- [31]
 		{
 			[264560] = {
 				{
@@ -12491,7 +13128,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [22]
+		}, -- [32]
 		{
 			[310298] = {
 				{
@@ -14199,7 +14836,7 @@ DetailsTimeLineDB = {
 					"Alpine Hare", -- [5]
 				}, -- [5]
 			},
-		}, -- [23]
+		}, -- [33]
 		{
 			[310298] = {
 				{
@@ -15308,6 +15945,14 @@ DetailsTimeLineDB = {
 					"Devereux", -- [5]
 				}, -- [16]
 			},
+			[307453] = {
+				{
+					272.6710000000003, -- [1]
+					"Vexiona", -- [2]
+					307453, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
 			[307639] = {
 				{
 					293.5509999999995, -- [1]
@@ -15321,14 +15966,6 @@ DetailsTimeLineDB = {
 					307639, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-			},
-			[307453] = {
-				{
-					272.6710000000003, -- [1]
-					"Vexiona", -- [2]
-					307453, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
 			},
 			[306996] = {
 				{
@@ -15509,7 +16146,7 @@ DetailsTimeLineDB = {
 					"Bacard", -- [5]
 				}, -- [2]
 			},
-		}, -- [24]
+		}, -- [34]
 		{
 			[307075] = {
 				{
@@ -16126,59 +16763,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [9]
 			},
-			[307284] = {
-				{
-					281.6099999999997, -- [1]
-					"Vexiona", -- [2]
-					307284, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Zethak", -- [5]
-				}, -- [1]
-				{
-					281.6099999999997, -- [1]
-					"Vexiona", -- [2]
-					307284, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Zethak", -- [5]
-				}, -- [2]
-				{
-					281.6099999999997, -- [1]
-					"Vexiona", -- [2]
-					307284, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Zethak", -- [5]
-				}, -- [3]
-			},
-			[307453] = {
-				{
-					280.2649999999994, -- [1]
-					"Vexiona", -- [2]
-					307453, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[307828] = {
-				{
-					281.4070000000002, -- [1]
-					"Vexiona", -- [2]
-					307828, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[306996] = {
-				{
-					82.02300000000014, -- [1]
-					"Void Ascendant", -- [2]
-					306996, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					213.3939999999993, -- [1]
-					"Void Ascendant", -- [2]
-					306996, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
 			[307359] = {
 				{
 					9.756999999999607, -- [1]
@@ -16216,7 +16800,60 @@ DetailsTimeLineDB = {
 					"Lízzie", -- [5]
 				}, -- [5]
 			},
-		}, -- [25]
+			[307453] = {
+				{
+					280.2649999999994, -- [1]
+					"Vexiona", -- [2]
+					307453, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[307828] = {
+				{
+					281.4070000000002, -- [1]
+					"Vexiona", -- [2]
+					307828, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[306996] = {
+				{
+					82.02300000000014, -- [1]
+					"Void Ascendant", -- [2]
+					306996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					213.3939999999993, -- [1]
+					"Void Ascendant", -- [2]
+					306996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[307284] = {
+				{
+					281.6099999999997, -- [1]
+					"Vexiona", -- [2]
+					307284, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Zethak", -- [5]
+				}, -- [1]
+				{
+					281.6099999999997, -- [1]
+					"Vexiona", -- [2]
+					307284, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Zethak", -- [5]
+				}, -- [2]
+				{
+					281.6099999999997, -- [1]
+					"Vexiona", -- [2]
+					307284, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Zethak", -- [5]
+				}, -- [3]
+			},
+		}, -- [35]
 		{
 			[312336] = {
 				{
@@ -16545,7 +17182,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 			},
-		}, -- [26]
+		}, -- [36]
 		{
 			[308872] = {
 				{
@@ -16924,7 +17561,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 			},
-		}, -- [27]
+		}, -- [37]
 		{
 			[305722] = {
 				{
@@ -17200,7 +17837,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [8]
 			},
-		}, -- [28]
+		}, -- [38]
 		{
 			[313239] = {
 				{
@@ -17837,7 +18474,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [29]
+		}, -- [39]
 		{
 			[313239] = {
 				{
@@ -18357,7 +18994,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [30]
+		}, -- [40]
 		{
 			[306995] = {
 				{
@@ -18393,13 +19030,19 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-			[307974] = {
+			[306735] = {
 				{
-					224.3910000000001, -- [1]
+					68.1840000000002, -- [1]
 					"Wrathion", -- [2]
-					307974, -- [3]
+					306735, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
+				{
+					145.4749999999999, -- [1]
+					"Wrathion", -- [2]
+					306735, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
 			},
 			[306289] = {
 				{
@@ -18539,21 +19182,15 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 			},
-			[306735] = {
+			[307974] = {
 				{
-					68.1840000000002, -- [1]
+					224.3910000000001, -- [1]
 					"Wrathion", -- [2]
-					306735, -- [3]
+					307974, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-				{
-					145.4749999999999, -- [1]
-					"Wrathion", -- [2]
-					306735, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
 			},
-		}, -- [31]
+		}, -- [41]
 		{
 			[311176] = {
 				{
@@ -18586,7 +19223,7 @@ DetailsTimeLineDB = {
 					"Rykahpo", -- [5]
 				}, -- [3]
 			},
-		}, -- [32]
+		}, -- [42]
 		{
 			[313400] = {
 				{
@@ -19725,7 +20362,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [33]
+		}, -- [43]
 		{
 			[310184] = {
 				{
@@ -20077,6 +20714,14 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
+			[316463] = {
+				{
+					158.143, -- [1]
+					"Mindgate", -- [2]
+					316463, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
 			[309698] = {
 				{
 					185.5169999999998, -- [1]
@@ -20084,14 +20729,6 @@ DetailsTimeLineDB = {
 					309698, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Secaná-ArgentDawn", -- [5]
-				}, -- [1]
-			},
-			[316463] = {
-				{
-					158.143, -- [1]
-					"Mindgate", -- [2]
-					316463, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
 			[317292] = {
@@ -20108,13 +20745,42 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[311176] = {
+			[316711] = {
 				{
-					3.524999999999636, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					311176, -- [3]
+					24.77200000000084, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Vyollet-ArgentDawn", -- [5]
 				}, -- [1]
+				{
+					44.20600000000013, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Vyollet-ArgentDawn", -- [5]
+				}, -- [2]
+				{
+					180.6700000000001, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Vyollet-ArgentDawn", -- [5]
+				}, -- [3]
+				{
+					193.612000000001, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Vyollet-ArgentDawn", -- [5]
+				}, -- [4]
+				{
+					213.4390000000003, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Vyollet-ArgentDawn", -- [5]
+				}, -- [5]
 			},
 			[313400] = {
 				{
@@ -20137,6 +20803,150 @@ DetailsTimeLineDB = {
 					313400, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Nadaluxe-Ragnaros", -- [5]
+				}, -- [3]
+			},
+			[318714] = {
+				{
+					108.1689999999999, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					108.1689999999999, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					108.1689999999999, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					108.1689999999999, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					108.1689999999999, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					108.1689999999999, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					108.1689999999999, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					108.1689999999999, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					163.2880000000005, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					163.2880000000005, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					163.2880000000005, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					163.2880000000005, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					163.2880000000005, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					213.2070000000003, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					213.2070000000003, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					213.2070000000003, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					213.2070000000003, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					213.2070000000003, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+			},
+			[315927] = {
+				{
+					135.9140000000007, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					315927, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					192.9979999999996, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					315927, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[318449] = {
+				{
+					123.7780000000003, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					318449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					180.848, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					318449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					211.2020000000011, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					318449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
 			[314889] = {
@@ -20589,188 +21399,15 @@ DetailsTimeLineDB = {
 					"Eltric-ArgentDawn", -- [5]
 				}, -- [64]
 			},
-			[315927] = {
+			[311176] = {
 				{
-					135.9140000000007, -- [1]
+					3.524999999999636, -- [1]
 					"N'Zoth the Corruptor", -- [2]
-					315927, -- [3]
+					311176, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-				{
-					192.9979999999996, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					315927, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
 			},
-			[318449] = {
-				{
-					123.7780000000003, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					318449, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					180.848, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					318449, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					211.2020000000011, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					318449, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-			},
-			[318714] = {
-				{
-					108.1689999999999, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					108.1689999999999, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					108.1689999999999, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					108.1689999999999, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					108.1689999999999, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					108.1689999999999, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					108.1689999999999, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					108.1689999999999, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					163.2880000000005, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					163.2880000000005, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					163.2880000000005, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					163.2880000000005, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					163.2880000000005, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
-				{
-					213.2070000000003, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [14]
-				{
-					213.2070000000003, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [15]
-				{
-					213.2070000000003, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
-				{
-					213.2070000000003, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [17]
-				{
-					213.2070000000003, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [18]
-			},
-			[316711] = {
-				{
-					24.77200000000084, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vyollet-ArgentDawn", -- [5]
-				}, -- [1]
-				{
-					44.20600000000013, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vyollet-ArgentDawn", -- [5]
-				}, -- [2]
-				{
-					180.6700000000001, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vyollet-ArgentDawn", -- [5]
-				}, -- [3]
-				{
-					193.612000000001, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vyollet-ArgentDawn", -- [5]
-				}, -- [4]
-				{
-					213.4390000000003, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vyollet-ArgentDawn", -- [5]
-				}, -- [5]
-			},
-		}, -- [34]
+		}, -- [44]
 		{
 			[318449] = {
 				{
@@ -21433,6 +22070,97 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
+			[311176] = {
+				{
+					3.184999999999491, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					311176, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[309698] = {
+				{
+					141.5650000000005, -- [1]
+					"Basher Tentacle", -- [2]
+					309698, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Vyollet-ArgentDawn", -- [5]
+				}, -- [1]
+				{
+					239.0650000000005, -- [1]
+					"Basher Tentacle", -- [2]
+					309698, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Secaná-ArgentDawn", -- [5]
+				}, -- [2]
+				{
+					311.5509999999995, -- [1]
+					"Basher Tentacle", -- [2]
+					309698, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Secaná-ArgentDawn", -- [5]
+				}, -- [3]
+				{
+					311.5509999999995, -- [1]
+					"Basher Tentacle", -- [2]
+					309698, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Vyollet-ArgentDawn", -- [5]
+				}, -- [4]
+				{
+					327.3050000000003, -- [1]
+					"Basher Tentacle", -- [2]
+					309698, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Vyollet-ArgentDawn", -- [5]
+				}, -- [5]
+				{
+					377.5059999999994, -- [1]
+					"Basher Tentacle", -- [2]
+					309698, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Vyollet-ArgentDawn", -- [5]
+				}, -- [6]
+				{
+					428.4560000000001, -- [1]
+					"Basher Tentacle", -- [2]
+					309698, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Vyollet-ArgentDawn", -- [5]
+				}, -- [7]
+			},
+			[315927] = {
+				{
+					146.6010000000006, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					315927, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					203.1409999999996, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					315927, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					323.4220000000005, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					315927, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					380.9419999999991, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					315927, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					429.4570000000003, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					315927, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
 			[316711] = {
 				{
 					202.1880000000001, -- [1]
@@ -21491,79 +22219,6 @@ DetailsTimeLineDB = {
 					"Okalani-DunMorogh", -- [5]
 				}, -- [8]
 			},
-			[309698] = {
-				{
-					141.5650000000005, -- [1]
-					"Basher Tentacle", -- [2]
-					309698, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vyollet-ArgentDawn", -- [5]
-				}, -- [1]
-				{
-					239.0650000000005, -- [1]
-					"Basher Tentacle", -- [2]
-					309698, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Secaná-ArgentDawn", -- [5]
-				}, -- [2]
-				{
-					311.5509999999995, -- [1]
-					"Basher Tentacle", -- [2]
-					309698, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Secaná-ArgentDawn", -- [5]
-				}, -- [3]
-				{
-					311.5509999999995, -- [1]
-					"Basher Tentacle", -- [2]
-					309698, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vyollet-ArgentDawn", -- [5]
-				}, -- [4]
-				{
-					327.3050000000003, -- [1]
-					"Basher Tentacle", -- [2]
-					309698, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vyollet-ArgentDawn", -- [5]
-				}, -- [5]
-				{
-					377.5059999999994, -- [1]
-					"Basher Tentacle", -- [2]
-					309698, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vyollet-ArgentDawn", -- [5]
-				}, -- [6]
-				{
-					428.4560000000001, -- [1]
-					"Basher Tentacle", -- [2]
-					309698, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Vyollet-ArgentDawn", -- [5]
-				}, -- [7]
-			},
-			[317292] = {
-				{
-					86.11100000000079, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					317292, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					263.3649999999998, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					317292, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[311176] = {
-				{
-					3.184999999999491, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					311176, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[313400] = {
 				{
 					146.521999999999, -- [1]
@@ -21621,6 +22276,172 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Darkwah-ArgentDawn", -- [5]
 				}, -- [8]
+			},
+			[318714] = {
+				{
+					119.1329999999998, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					119.1329999999998, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					119.1329999999998, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					119.1329999999998, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					119.1329999999998, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					119.1329999999998, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					119.1329999999998, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					119.1329999999998, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					174.2389999999996, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					174.2389999999996, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					174.2389999999996, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					174.2389999999996, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					224.107, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					224.107, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					224.107, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					224.107, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					224.107, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					296.4549999999999, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					296.4549999999999, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					296.4549999999999, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					296.4549999999999, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					296.4549999999999, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					296.4549999999999, -- [1]
+					"Spike Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					351.4120000000003, -- [1]
+					"Basher Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					351.4120000000003, -- [1]
+					"Corruptor Tentacle", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+			},
+			[316463] = {
+				{
+					169.1139999999996, -- [1]
+					"Mindgate", -- [2]
+					316463, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					346.3950000000004, -- [1]
+					"Mindgate", -- [2]
+					316463, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
 			},
 			[314889] = {
 				{
@@ -22408,203 +23229,19 @@ DetailsTimeLineDB = {
 					"Okalani-DunMorogh", -- [5]
 				}, -- [112]
 			},
-			[316463] = {
+			[317292] = {
 				{
-					169.1139999999996, -- [1]
-					"Mindgate", -- [2]
-					316463, -- [3]
+					86.11100000000079, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					317292, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					346.3950000000004, -- [1]
-					"Mindgate", -- [2]
-					316463, -- [3]
+					263.3649999999998, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					317292, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-			},
-			[318714] = {
-				{
-					119.1329999999998, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					119.1329999999998, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					119.1329999999998, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					119.1329999999998, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					119.1329999999998, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					119.1329999999998, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					119.1329999999998, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					119.1329999999998, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					174.2389999999996, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					174.2389999999996, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					174.2389999999996, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					174.2389999999996, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					224.107, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
-				{
-					224.107, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [14]
-				{
-					224.107, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [15]
-				{
-					224.107, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
-				{
-					224.107, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [17]
-				{
-					296.4549999999999, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [18]
-				{
-					296.4549999999999, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [19]
-				{
-					296.4549999999999, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [20]
-				{
-					296.4549999999999, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [21]
-				{
-					296.4549999999999, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [22]
-				{
-					296.4549999999999, -- [1]
-					"Spike Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [23]
-				{
-					351.4120000000003, -- [1]
-					"Basher Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [24]
-				{
-					351.4120000000003, -- [1]
-					"Corruptor Tentacle", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [25]
-			},
-			[315927] = {
-				{
-					146.6010000000006, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					315927, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					203.1409999999996, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					315927, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					323.4220000000005, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					315927, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					380.9419999999991, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					315927, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					429.4570000000003, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					315927, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
 			},
 			[317639] = {
 				{
@@ -22614,7 +23251,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [35]
+		}, -- [45]
 		{
 			[307008] = {
 				{
@@ -23422,7 +24059,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [36]
+		}, -- [46]
 		{
 			[296080] = {
 				{
@@ -23620,7 +24257,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [37]
+		}, -- [47]
 		{
 			[297985] = {
 				{
@@ -23681,7 +24318,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [38]
+		}, -- [48]
 		{
 			[298473] = {
 				{
@@ -24085,7 +24722,7 @@ DetailsTimeLineDB = {
 					"Nemuru-Silvermoon", -- [5]
 				}, -- [2]
 			},
-		}, -- [39]
+		}, -- [49]
 		{
 			[298897] = {
 				{
@@ -24256,7 +24893,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [40]
+		}, -- [50]
 		{
 			[257225] = {
 				{
@@ -24274,13 +24911,13 @@ DetailsTimeLineDB = {
 					"Algerson Lumberjack", -- [5]
 				}, -- [2]
 			},
-			[257223] = {
+			[310129] = {
 				{
-					11.68599999999969, -- [1]
-					"Timberfang Lurker", -- [2]
-					257223, -- [3]
+					3.725999999999658, -- [1]
+					"Maut", -- [2]
+					310129, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Algerson Lumberjack", -- [5]
+					"Neonblood-Ravencrest", -- [5]
 				}, -- [1]
 			},
 			[117892] = {
@@ -24291,13 +24928,21 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[310129] = {
+			[257223] = {
 				{
-					3.725999999999658, -- [1]
-					"Maut", -- [2]
-					310129, -- [3]
+					11.68599999999969, -- [1]
+					"Timberfang Lurker", -- [2]
+					257223, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Neonblood-Ravencrest", -- [5]
+					"Algerson Lumberjack", -- [5]
+				}, -- [1]
+			},
+			[307805] = {
+				{
+					7.16399999999976, -- [1]
+					"Maut", -- [2]
+					307805, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
 			[257258] = {
@@ -24323,15 +24968,7 @@ DetailsTimeLineDB = {
 					"Algerson Lumberjack", -- [5]
 				}, -- [3]
 			},
-			[307805] = {
-				{
-					7.16399999999976, -- [1]
-					"Maut", -- [2]
-					307805, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-		}, -- [41]
+		}, -- [51]
 		{
 			[308872] = {
 				{
@@ -24571,7 +25208,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [42]
+		}, -- [52]
 		{
 			[310129] = {
 				{
@@ -24582,7 +25219,7 @@ DetailsTimeLineDB = {
 					"Daveour-Ravencrest", -- [5]
 				}, -- [1]
 			},
-		}, -- [43]
+		}, -- [53]
 		{
 			[313239] = {
 				{
@@ -25315,7 +25952,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [42]
 			},
-		}, -- [44]
+		}, -- [54]
 		{
 			[307008] = {
 				{
@@ -25751,7 +26388,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [16]
 			},
-		}, -- [45]
+		}, -- [55]
 		{
 			[306733] = {
 				{
@@ -26141,7 +26778,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [46]
+		}, -- [56]
 		{
 			[313129] = {
 				{
@@ -26466,21 +27103,55 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[315311] = {
+			[313420] = {
 				{
-					30.19100000000071, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					61.10800000000018, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
 				}, -- [1]
 				{
-					43.4960000000001, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					61.10800000000018, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
 				}, -- [2]
+				{
+					61.10800000000018, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					61.10800000000018, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					126.7850000000008, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					126.8030000000008, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					126.8030000000008, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					126.8030000000008, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
 			},
 			[308360] = {
 				{
@@ -27256,55 +27927,21 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[313420] = {
+			[315311] = {
 				{
-					61.10800000000018, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					30.19100000000071, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
 				}, -- [1]
 				{
-					61.10800000000018, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					43.4960000000001, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
 				}, -- [2]
-				{
-					61.10800000000018, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					61.10800000000018, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					126.7850000000008, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					126.8030000000008, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					126.8030000000008, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					126.8030000000008, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
 			},
 			[308178] = {
 				{
@@ -27315,7 +27952,7 @@ DetailsTimeLineDB = {
 					"Aqir Drone", -- [5]
 				}, -- [1]
 			},
-		}, -- [47]
+		}, -- [57]
 		{
 			[310402] = {
 				{
@@ -27325,7 +27962,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [48]
+		}, -- [58]
 		{
 			[307075] = {
 				{
@@ -27336,25 +27973,19 @@ DetailsTimeLineDB = {
 					"Fanatical Cultist", -- [5]
 				}, -- [1]
 			},
-			[310298] = {
+			[307403] = {
 				{
-					48.81400000000031, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					15.09299999999985, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					48.81400000000031, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					98.99299999999948, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-				{
-					155.1210000000001, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
 			},
 			[310323] = {
 				{
@@ -27408,207 +28039,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Rykahpo", -- [5]
 				}, -- [4]
-			},
-			[307359] = {
-				{
-					8.922999999999774, -- [1]
-					"Vexiona", -- [2]
-					307359, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [1]
-				{
-					44.95200000000023, -- [1]
-					"Vexiona", -- [2]
-					307359, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [2]
-			},
-			[307020] = {
-				{
-					6.988999999999578, -- [1]
-					"Vexiona", -- [2]
-					307020, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [1]
-				{
-					25.23199999999997, -- [1]
-					"Vexiona", -- [2]
-					307020, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [2]
-				{
-					43.08200000000034, -- [1]
-					"Vexiona", -- [2]
-					307020, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [3]
-				{
-					61.30299999999988, -- [1]
-					"Vexiona", -- [2]
-					307020, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [4]
-				{
-					133.3230000000003, -- [1]
-					"Vexiona", -- [2]
-					307020, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Iamnotjamie-Silvermoon", -- [5]
-				}, -- [5]
-				{
-					156.491, -- [1]
-					"Vexiona", -- [2]
-					307020, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [6]
-				{
-					171.1469999999999, -- [1]
-					"Vexiona", -- [2]
-					307020, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [7]
-				{
-					189.4080000000004, -- [1]
-					"Vexiona", -- [2]
-					307020, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [8]
-				{
-					204.0019999999995, -- [1]
-					"Vexiona", -- [2]
-					307020, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bloodseize-Silvermoon", -- [5]
-				}, -- [9]
-				{
-					222.2110000000002, -- [1]
-					"Vexiona", -- [2]
-					307020, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [10]
-			},
-			[310324] = {
-				{
-					152.4120000000003, -- [1]
-					"Vexiona", -- [2]
-					310324, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [1]
-				{
-					185.3289999999997, -- [1]
-					"Vexiona", -- [2]
-					310324, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [2]
-				{
-					218.1289999999999, -- [1]
-					"Vexiona", -- [2]
-					310324, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sitré-Silvermoon", -- [5]
-				}, -- [3]
-			},
-			[307403] = {
-				{
-					15.09299999999985, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					98.99299999999948, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[315762] = {
-				{
-					93.57300000000032, -- [1]
-					"Vexiona", -- [2]
-					315762, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					105.7330000000002, -- [1]
-					"Vexiona", -- [2]
-					315762, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					117.848, -- [1]
-					"Vexiona", -- [2]
-					315762, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-			},
-			[307396] = {
-				{
-					48.18199999999979, -- [1]
-					"Sinister Soulcarver", -- [2]
-					307396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					48.18199999999979, -- [1]
-					"Sinister Soulcarver", -- [2]
-					307396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					154.509, -- [1]
-					"Sinister Soulcarver", -- [2]
-					307396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					171.5879999999997, -- [1]
-					"Sinister Soulcarver", -- [2]
-					307396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
-			[307453] = {
-				{
-					144.875, -- [1]
-					"Vexiona", -- [2]
-					307453, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[310764] = {
-				{
-					227.4749999999995, -- [1]
-					"Demented Knife-Twister", -- [2]
-					310764, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					227.4749999999995, -- [1]
-					"Demented Knife-Twister", -- [2]
-					310764, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[307828] = {
-				{
-					145.9939999999997, -- [1]
-					"Vexiona", -- [2]
-					307828, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
 			},
 			[307284] = {
 				{
@@ -28340,13 +28770,77 @@ DetailsTimeLineDB = {
 					"Sitré-Silvermoon", -- [5]
 				}, -- [104]
 			},
-			[306996] = {
+			[307020] = {
 				{
-					80.91200000000026, -- [1]
-					"Void Ascendant", -- [2]
-					306996, -- [3]
+					6.988999999999578, -- [1]
+					"Vexiona", -- [2]
+					307020, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
 				}, -- [1]
+				{
+					25.23199999999997, -- [1]
+					"Vexiona", -- [2]
+					307020, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [2]
+				{
+					43.08200000000034, -- [1]
+					"Vexiona", -- [2]
+					307020, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [3]
+				{
+					61.30299999999988, -- [1]
+					"Vexiona", -- [2]
+					307020, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [4]
+				{
+					133.3230000000003, -- [1]
+					"Vexiona", -- [2]
+					307020, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Iamnotjamie-Silvermoon", -- [5]
+				}, -- [5]
+				{
+					156.491, -- [1]
+					"Vexiona", -- [2]
+					307020, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [6]
+				{
+					171.1469999999999, -- [1]
+					"Vexiona", -- [2]
+					307020, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [7]
+				{
+					189.4080000000004, -- [1]
+					"Vexiona", -- [2]
+					307020, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [8]
+				{
+					204.0019999999995, -- [1]
+					"Vexiona", -- [2]
+					307020, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bloodseize-Silvermoon", -- [5]
+				}, -- [9]
+				{
+					222.2110000000002, -- [1]
+					"Vexiona", -- [2]
+					307020, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [10]
 			},
 			[307639] = {
 				{
@@ -28362,7 +28856,150 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [49]
+			[310298] = {
+				{
+					48.81400000000031, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					48.81400000000031, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					155.1210000000001, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[315762] = {
+				{
+					93.57300000000032, -- [1]
+					"Vexiona", -- [2]
+					315762, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					105.7330000000002, -- [1]
+					"Vexiona", -- [2]
+					315762, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					117.848, -- [1]
+					"Vexiona", -- [2]
+					315762, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[307396] = {
+				{
+					48.18199999999979, -- [1]
+					"Sinister Soulcarver", -- [2]
+					307396, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					48.18199999999979, -- [1]
+					"Sinister Soulcarver", -- [2]
+					307396, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					154.509, -- [1]
+					"Sinister Soulcarver", -- [2]
+					307396, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					171.5879999999997, -- [1]
+					"Sinister Soulcarver", -- [2]
+					307396, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[307828] = {
+				{
+					145.9939999999997, -- [1]
+					"Vexiona", -- [2]
+					307828, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[310764] = {
+				{
+					227.4749999999995, -- [1]
+					"Demented Knife-Twister", -- [2]
+					310764, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					227.4749999999995, -- [1]
+					"Demented Knife-Twister", -- [2]
+					310764, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[307453] = {
+				{
+					144.875, -- [1]
+					"Vexiona", -- [2]
+					307453, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[307359] = {
+				{
+					8.922999999999774, -- [1]
+					"Vexiona", -- [2]
+					307359, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [1]
+				{
+					44.95200000000023, -- [1]
+					"Vexiona", -- [2]
+					307359, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [2]
+			},
+			[306996] = {
+				{
+					80.91200000000026, -- [1]
+					"Void Ascendant", -- [2]
+					306996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[310324] = {
+				{
+					152.4120000000003, -- [1]
+					"Vexiona", -- [2]
+					310324, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [1]
+				{
+					185.3289999999997, -- [1]
+					"Vexiona", -- [2]
+					310324, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [2]
+				{
+					218.1289999999999, -- [1]
+					"Vexiona", -- [2]
+					310324, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sitré-Silvermoon", -- [5]
+				}, -- [3]
+			},
+		}, -- [59]
 		{
 			[312336] = {
 				{
@@ -28609,7 +29246,7 @@ DetailsTimeLineDB = {
 					"Mærine-Silvermoon", -- [5]
 				}, -- [21]
 			},
-		}, -- [50]
+		}, -- [60]
 		{
 			[312336] = {
 				{
@@ -28852,7 +29489,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [51]
+		}, -- [61]
 		{
 			[305794] = {
 				{
@@ -28862,7 +29499,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [52]
+		}, -- [62]
 		{
 			[305722] = {
 				{
@@ -29120,7 +29757,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 			},
-		}, -- [53]
+		}, -- [63]
 		{
 			[310129] = {
 				{
@@ -29131,7 +29768,7 @@ DetailsTimeLineDB = {
 					"Sitré-Silvermoon", -- [5]
 				}, -- [1]
 			},
-		}, -- [54]
+		}, -- [64]
 		{
 			[313239] = {
 				{
@@ -29548,7 +30185,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [18]
 			},
-		}, -- [55]
+		}, -- [65]
 		{
 			[307974] = {
 				{
@@ -29565,32 +30202,6 @@ DetailsTimeLineDB = {
 					306289, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-			},
-			[306111] = {
-				{
-					9.567000000000007, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					29.13799999999992, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					84.74500000000012, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					109.1659999999999, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
 			},
 			[305978] = {
 				{
@@ -29657,6 +30268,32 @@ DetailsTimeLineDB = {
 					"Sitré-Silvermoon", -- [5]
 				}, -- [9]
 			},
+			[306111] = {
+				{
+					9.567000000000007, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					29.13799999999992, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					84.74500000000012, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					109.1659999999999, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
 			[306735] = {
 				{
 					69.04600000000005, -- [1]
@@ -29665,7 +30302,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [56]
+		}, -- [66]
 		{
 			[256083] = {
 				{
@@ -29821,7 +30458,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [57]
+		}, -- [67]
 		{
 			[257028] = {
 				{
@@ -29880,7 +30517,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [58]
+		}, -- [68]
 		{
 			[257777] = {
 				{
@@ -29971,7 +30608,7 @@ DetailsTimeLineDB = {
 					"Erlan-Nemesis", -- [5]
 				}, -- [1]
 			},
-		}, -- [59]
+		}, -- [69]
 		{
 			[259975] = {
 				{
@@ -30170,34 +30807,6 @@ DetailsTimeLineDB = {
 					259711, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
-			},
-			[257608] = {
-				{
-					23.36899999999969, -- [1]
-					"The Sand Queen", -- [2]
-					257608, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					70.72499999999991, -- [1]
-					"The Sand Queen", -- [2]
-					257608, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[257495] = {
-				{
-					33.09099999999989, -- [1]
-					"The Sand Queen", -- [2]
-					257495, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					67.06500000000005, -- [1]
-					"The Sand Queen", -- [2]
-					257495, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
 			},
 			[260016] = {
 				{
@@ -30573,6 +31182,34 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [62]
 			},
+			[257495] = {
+				{
+					33.09099999999989, -- [1]
+					"The Sand Queen", -- [2]
+					257495, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					67.06500000000005, -- [1]
+					"The Sand Queen", -- [2]
+					257495, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[257608] = {
+				{
+					23.36899999999969, -- [1]
+					"The Sand Queen", -- [2]
+					257608, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					70.72499999999991, -- [1]
+					"The Sand Queen", -- [2]
+					257608, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
 			[257617] = {
 				{
 					75.13899999999967, -- [1]
@@ -30581,7 +31218,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [60]
+		}, -- [70]
 		{
 			[313253] = {
 				{
@@ -30741,6 +31378,20 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
+			[306111] = {
+				{
+					30.06799999999998, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					103.8800000000001, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
 			[305978] = {
 				{
 					10.38699999999994, -- [1]
@@ -30813,20 +31464,6 @@ DetailsTimeLineDB = {
 					"Waskcol-DunModr", -- [5]
 				}, -- [10]
 			},
-			[306111] = {
-				{
-					30.06799999999998, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					103.8800000000001, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
 			[306995] = {
 				{
 					157.896, -- [1]
@@ -30835,16 +31472,16 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [61]
+		}, -- [71]
 	},
 	["useicons"] = true,
+	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -30857,277 +31494,225 @@ DetailsTimeLineDB = {
 	},
 	["debuff_timeline"] = {
 		{
-			["Гонорэя-Гордунни"] = {
-				[269419] = {
-					61.97299999999996, -- [1]
-					62.19500000000153, -- [2]
-					99.32600000000093, -- [3]
-					99.43500000000131, -- [4]
-					109.5460000000003, -- [5]
-					110.1750000000011, -- [6]
-					180.6130000000012, -- [7]
-					181.7000000000007, -- [8]
-					["stacks"] = {
-					},
-					["source"] = "[*] Yawning Gate",
-					["active"] = false,
-				},
-			},
-			["Heavypãla-Silvermoon"] = {
-				[269419] = {
-					18.45800000000054, -- [1]
-					19.60100000000057, -- [2]
-					182.0790000000015, -- [3]
-					182.4570000000003, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Yawning Gate",
-					["active"] = false,
-				},
-			},
-			["Kasshandra-Runetotem"] = {
-				[267037] = {
-					12.58800000000156, -- [1]
-					41.23100000000159, -- [2]
-					76.54500000000007, -- [3]
-					106.1040000000012, -- [4]
-					109.4290000000001, -- [5]
-					144.1230000000014, -- [6]
-					181.1080000000002, -- [7]
-					188.8780000000006, -- [8]
-					["stacks"] = {
-					},
-					["source"] = "[*] Whispers of Power",
-					["active"] = false,
-				},
-			},
 		}, -- [1]
 		{
-			["Гонорэя-Гордунни"] = {
-				[299065] = {
-					72.61599999999999, -- [1]
-					78.62199999999939, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Гонорэя-Гордунни",
-					["active"] = false,
-				},
-				[306474] = {
-					69.50300000000061, -- [1]
-					145.6290000000008, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Гонорэя-Гордунни",
-					["active"] = false,
-				},
-				[268896] = {
-					31.36199999999917, -- [1]
-					35.17300000000068, -- [2]
-					99.3680000000004, -- [3]
-					102.0769999999993, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "Lord Stormsong",
-					["active"] = false,
-				},
-			},
-			["Rykahpo"] = {
-				[268896] = {
-					50.7450000000008, -- [1]
-					57.8700000000008, -- [2]
-					88.41499999999905, -- [3]
-					98.42300000000068, -- [4]
-					132.2369999999992, -- [5]
-					133.3189999999995, -- [6]
-					["stacks"] = {
-					},
-					["source"] = "Lord Stormsong",
-					["active"] = false,
-				},
-				[269131] = {
-					68.07099999999991, -- [1]
-					145.6290000000008, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Lord Stormsong",
-					["active"] = false,
-				},
-				[204301] = {
-					68.86700000000019, -- [1]
-					145.6290000000008, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Heavypãla-Silvermoon",
-					["active"] = false,
-				},
-				[274714] = {
-					145.6290000000008, -- [1]
-					145.6290000000008, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "[*] Twisting Void",
-					["active"] = false,
-				},
-				[14914] = {
-					79.3690000000006, -- [1]
-					145.6290000000008, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Kasshandra-Runetotem",
-					["active"] = false,
-				},
-				[197277] = {
-					71.69100000000071, -- [1]
-					78.34499999999935, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Heavypãla-Silvermoon",
-					["active"] = false,
-				},
-			},
-			["Kasshandra-Runetotem"] = {
-				[268896] = {
-					16.77800000000025, -- [1]
-					17.92200000000048, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Lord Stormsong",
-					["active"] = false,
-				},
-				[269131] = {
-					25.57899999999972, -- [1]
-					37.10299999999916, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Lord Stormsong",
-					["active"] = false,
-				},
-			},
 		}, -- [2]
 		{
-			["Rykahpo"] = {
-				[267818] = {
-					6.268999999998414, -- [1]
-					36.28600000000006, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Galecaller Faye",
-					["active"] = false,
-				},
-			},
-			["Гонорэя-Гордунни"] = {
-				[267818] = {
-					5.777000000000044, -- [1]
-					35.77599999999984, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Galecaller Faye",
-					["active"] = false,
-				},
-			},
-			["Heavypãla-Silvermoon"] = {
-				[267818] = {
-					5.795999999998458, -- [1]
-					35.79199999999946, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Galecaller Faye",
-					["active"] = false,
-				},
-			},
-			["Kasshandra-Runetotem"] = {
-				[267818] = {
-					6.351999999998952, -- [1]
-					36.35199999999895, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Galecaller Faye",
-					["active"] = false,
-				},
-			},
 		}, -- [3]
 		{
+			["Reymonk-Aggra(Português)"] = {
+				[25771] = {
+					111.009, -- [1]
+					111.009, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Gunkieeye-AzjolNerub",
+					["active"] = false,
+				},
+			},
 			["Rykahpo"] = {
-				[264560] = {
-					43.76200000000063, -- [1]
-					44.81700000000092, -- [2]
-					71.875, -- [3]
-					73.67100000000028, -- [4]
-					105.7290000000012, -- [5]
-					113.6599999999999, -- [6]
+				[221603] = {
+					48.72099999999955, -- [1]
+					51.746000000001, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Aqu'sirr",
+					["source"] = "Gul'dan",
 					["active"] = false,
 				},
-				[264526] = {
-					96.78100000000086, -- [1]
-					101.1980000000003, -- [2]
+				[209011] = {
+					7.879000000000815, -- [1]
+					26.85300000000098, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Grasping Tentacles",
+					["source"] = "Gul'dan",
 					["active"] = false,
 				},
-			},
-			["Гонорэя-Гордунни"] = {
-				[264526] = {
-					95.5, -- [1]
-					108.0990000000002, -- [2]
+				[221606] = {
+					45.72099999999955, -- [1]
+					48.72099999999955, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Grasping Tentacles",
+					["source"] = "Gul'dan",
 					["active"] = false,
 				},
-			},
-			["Heavypãla-Silvermoon"] = {
-				[264144] = {
-					31.63400000000002, -- [1]
-					37.62299999999959, -- [2]
-					91.93500000000131, -- [3]
-					93.2380000000012, -- [4]
+				[206983] = {
+					103.1949999999997, -- [1]
+					106.6929999999993, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Aqu'sirr",
+					["source"] = "Parasitic Shadow Demon",
 					["active"] = false,
 				},
-				[264166] = {
-					87.4930000000004, -- [1]
-					93.5, -- [2]
+				[206847] = {
+					106.6929999999993, -- [1]
+					111.009, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Aqualing",
+					["source"] = "Parasitic Shadow Demon",
 					["active"] = false,
 				},
 			},
-			["Kasshandra-Runetotem"] = {
-				[264526] = {
-					25.06800000000112, -- [1]
-					28.76900000000023, -- [2]
-					56.63900000000103, -- [3]
-					62.36800000000039, -- [4]
-					144.0950000000012, -- [5]
-					145.6550000000007, -- [6]
+			["Çelina-Ghostlands"] = {
+				[227040] = {
+					107.4099999999999, -- [1]
+					111.009, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Unknown",
+					["source"] = "The Demon Within",
 					["active"] = false,
 				},
-				[264560] = {
-					72.9380000000001, -- [1]
-					74.5069999999996, -- [2]
-					105.7290000000012, -- [3]
-					106.6740000000009, -- [4]
+				[206847] = {
+					93.16899999999987, -- [1]
+					103.1949999999997, -- [2]
+					103.9549999999999, -- [3]
+					111.009, -- [4]
 					["stacks"] = {
 					},
-					["source"] = "Aqualing",
+					["source"] = "The Demon Within",
 					["active"] = false,
 				},
-				[265366] = {
-					87.4930000000004, -- [1]
-					93.5, -- [2]
+				[209011] = {
+					7.954999999999927, -- [1]
+					10.98999999999978, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Aqualing",
+					["source"] = "Gul'dan",
+					["active"] = false,
+				},
+				[208536] = {
+					35.31400000000031, -- [1]
+					36.32099999999991, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Gul'dan",
+					["active"] = false,
+				},
+				[206983] = {
+					103.1949999999997, -- [1]
+					103.9549999999999, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Parasitic Shadow Demon",
+					["active"] = false,
+				},
+				[206458] = {
+					106.5580000000009, -- [1]
+					111.009, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Demon Within",
+					["active"] = false,
+				},
+			},
+			["Thrazor-Malorne"] = {
+				[221603] = {
+					48.73799999999937, -- [1]
+					51.746000000001, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Gul'dan",
+					["active"] = false,
+				},
+				[209011] = {
+					7.48700000000099, -- [1]
+					10.38900000000103, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Gul'dan",
+					["active"] = false,
+				},
+				[208536] = {
+					35.31400000000031, -- [1]
+					35.52599999999984, -- [2]
+					41.6869999999999, -- [3]
+					45.81400000000031, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Gul'dan",
+					["active"] = false,
+				},
+				[221606] = {
+					45.72099999999955, -- [1]
+					48.72099999999955, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Gul'dan",
+					["active"] = false,
+				},
+				[221781] = {
+					52.34599999999955, -- [1]
+					52.57699999999932, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Gul'dan",
+					["active"] = false,
+				},
+			},
+			["Pïkabo-Silvermoon"] = {
+				[206458] = {
+					105.8230000000003, -- [1]
+					107.8919999999998, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Demon Within",
+					["active"] = false,
+				},
+				[208536] = {
+					35.34699999999975, -- [1]
+					35.73199999999997, -- [2]
+					36.88800000000083, -- [3]
+					37.63199999999961, -- [4]
+					42.03700000000026, -- [5]
+					42.3809999999994, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "Gul'dan",
+					["active"] = false,
+				},
+				[206506] = {
+					107.8919999999998, -- [1]
+					111.009, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Demon Within",
+					["active"] = false,
+				},
+			},
+			["Kyoshi-EmeraldDream"] = {
+				[206458] = {
+					105.8230000000003, -- [1]
+					111.009, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Demon Within",
+					["active"] = false,
+				},
+				[206847] = {
+					93.16899999999987, -- [1]
+					103.1830000000009, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Demon Within",
+					["active"] = false,
+				},
+				[208536] = {
+					35.38199999999961, -- [1]
+					35.93499999999949, -- [2]
+					42.71500000000015, -- [3]
+					44.65099999999984, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Gul'dan",
+					["active"] = false,
+				},
+			},
+			["Eisley-GrimBatol"] = {
+				[318391] = {
+					111.009, -- [1]
+					111.009, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Great Worm From Beyond",
 					["active"] = false,
 				},
 			},
@@ -31135,843 +31720,140 @@ DetailsTimeLineDB = {
 	},
 	["cooldowns_timeline"] = {
 		{
-			["Heavypãla-Silvermoon"] = {
-				{
-					85.03900000000067, -- [1]
-					"Heavypãla-Silvermoon", -- [2]
-					31850, -- [3]
-				}, -- [1]
-				{
-					92.19300000000112, -- [1]
-					"Heavypãla-Silvermoon", -- [2]
-					105809, -- [3]
-				}, -- [2]
-				{
-					101.8910000000014, -- [1]
-					"Kasshandra-Runetotem", -- [2]
-					6940, -- [3]
-				}, -- [3]
-			},
 		}, -- [1]
 		{
 		}, -- [2]
 		{
-			["Гонорэя-Гордунни"] = {
-				{
-					15.01699999999983, -- [1]
-					"Гонорэя-Гордунни", -- [2]
-					118038, -- [3]
-				}, -- [1]
-			},
 		}, -- [3]
 		{
-			["Heavypãla-Silvermoon"] = {
+			["Kyoshi-EmeraldDream"] = {
 				{
-					82.6260000000002, -- [1]
-					"Heavypãla-Silvermoon", -- [2]
-					31850, -- [3]
-				}, -- [1]
-			},
-			["Rykahpo"] = {
-				{
-					101.1980000000003, -- [1]
-					"Rykahpo", -- [2]
-					45438, -- [3]
+					102.652, -- [1]
+					"Kyoshi-EmeraldDream", -- [2]
+					1856, -- [3]
 				}, -- [1]
 			},
 		}, -- [4]
 	},
 	["BossSpellCast"] = {
 		{
-			["Manifestation of the Deep"] = {
+			["Zanzil"] = {
 				{
-					93.48100000000159, -- [1]
-					"Manifestation of the Deep", -- [2]
-					267310, -- [3]
+					2.200000000000728, -- [1]
+					"Zanzil", -- [2]
+					96486, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					99.1130000000012, -- [1]
-					"Manifestation of the Deep", -- [2]
-					267310, -- [3]
+					2.200000000000728, -- [1]
+					"Zanzil", -- [2]
+					96488, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-				{
-					102.2450000000008, -- [1]
-					"Manifestation of the Deep", -- [2]
-					267310, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					106.2380000000012, -- [1]
-					"Manifestation of the Deep", -- [2]
-					267310, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					113.2360000000008, -- [1]
-					"Manifestation of the Deep", -- [2]
-					267311, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					113.4940000000006, -- [1]
-					"Manifestation of the Deep", -- [2]
-					267310, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
 			},
-			["Forgotten Denizen"] = {
+			["Jin'do the Godbreaker"] = {
 				{
-					36.28200000000106, -- [1]
-					"Forgotten Denizen", -- [2]
-					267459, -- [3]
+					2.200000000000728, -- [1]
+					"Jin'do the Godbreaker", -- [2]
+					97321, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					128.5560000000005, -- [1]
-					"Forgotten Denizen", -- [2]
-					267459, -- [3]
+					2.200000000000728, -- [1]
+					"Jin'do the Godbreaker", -- [2]
+					97321, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-				{
-					138.2950000000001, -- [1]
-					"Forgotten Denizen", -- [2]
-					267459, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-			},
-			["Tentacle"] = {
-				{
-					11.76000000000022, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					19.06400000000031, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					34.89100000000144, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					38.55900000000111, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					39.75900000000002, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					40.9900000000016, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					48.2450000000008, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					66.45100000000093, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					76.15300000000025, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					83.44400000000132, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					88.31600000000071, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					93.1770000000015, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					98.05299999999988, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
-				{
-					102.9210000000003, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [14]
-				{
-					107.7430000000004, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [15]
-				{
-					112.6020000000008, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
-				{
-					128.4170000000013, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [17]
-				{
-					132.0610000000015, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [18]
-				{
-					132.0610000000015, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [19]
-				{
-					135.2910000000011, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [20]
-				{
-					141.7560000000012, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [21]
-				{
-					142.9850000000006, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [22]
-				{
-					147.8470000000016, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [23]
-				{
-					156.335000000001, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [24]
-				{
-					165.5200000000004, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [25]
-				{
-					175.768, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [26]
-				{
-					180.6270000000004, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [27]
-				{
-					185.478000000001, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [28]
-				{
-					189.3019999999997, -- [1]
-					"Tentacle", -- [2]
-					267385, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [29]
-			},
-			["Explosion"] = {
-				{
-					37.9940000000006, -- [1]
-					"Explosion", -- [2]
-					240446, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					44.02100000000064, -- [1]
-					"Explosion", -- [2]
-					240446, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					83.1140000000014, -- [1]
-					"Explosion", -- [2]
-					240446, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					187.737000000001, -- [1]
-					"Explosion", -- [2]
-					240446, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
-			["Vol'zith the Whisperer"] = {
-				{
-					11.51200000000063, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267034, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kasshandra-Runetotem", -- [5]
-				}, -- [1]
-				{
-					15.41300000000047, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					269399, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					24.96399999999994, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267360, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					68.09700000000157, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267299, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					75.88900000000103, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267034, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kasshandra-Runetotem", -- [5]
-				}, -- [5]
-				{
-					79.78600000000006, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					269399, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					99.23300000000017, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					269399, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					108.6850000000013, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267034, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kasshandra-Runetotem", -- [5]
-				}, -- [8]
-				{
-					117.2840000000015, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267360, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					167.6890000000003, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267299, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					176.9700000000012, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					269399, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					180.3310000000001, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267034, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kasshandra-Runetotem", -- [5]
-				}, -- [12]
 			},
 		}, -- [1]
 		{
-			["Explosion"] = {
+			["Zanzil"] = {
 				{
-					65.96500000000015, -- [1]
-					"Explosion", -- [2]
-					240446, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			["Lord Stormsong"] = {
-				{
-					15.63800000000083, -- [1]
-					"Lord Stormsong", -- [2]
-					269097, -- [3]
+					2.200000000000728, -- [1]
+					"Zanzil", -- [2]
+					96486, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					16.77800000000025, -- [1]
-					"Lord Stormsong", -- [2]
-					268896, -- [3]
+					2.200000000000728, -- [1]
+					"Zanzil", -- [2]
+					96488, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+			},
+			["Jin'do the Godbreaker"] = {
 				{
-					25.5619999999999, -- [1]
-					"Lord Stormsong", -- [2]
-					269131, -- [3]
+					2.200000000000728, -- [1]
+					"Jin'do the Godbreaker", -- [2]
+					97321, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
+				}, -- [1]
 				{
-					31.36199999999917, -- [1]
-					"Lord Stormsong", -- [2]
-					268896, -- [3]
+					2.200000000000728, -- [1]
+					"Jin'do the Godbreaker", -- [2]
+					97321, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					44.77800000000025, -- [1]
-					"Lord Stormsong", -- [2]
-					269097, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					50.7450000000008, -- [1]
-					"Lord Stormsong", -- [2]
-					268896, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					55.1880000000001, -- [1]
-					"Lord Stormsong", -- [2]
-					268347, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Heavypãla-Silvermoon", -- [5]
-				}, -- [7]
-				{
-					68.07099999999991, -- [1]
-					"Lord Stormsong", -- [2]
-					269131, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					88.41499999999905, -- [1]
-					"Lord Stormsong", -- [2]
-					268896, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					92.83799999999974, -- [1]
-					"Lord Stormsong", -- [2]
-					268347, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Heavypãla-Silvermoon", -- [5]
-				}, -- [10]
-				{
-					95.79700000000048, -- [1]
-					"Lord Stormsong", -- [2]
-					269097, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					99.3680000000004, -- [1]
-					"Lord Stormsong", -- [2]
-					268896, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					109.3999999999996, -- [1]
-					"Lord Stormsong", -- [2]
-					269131, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
-				{
-					126.2129999999997, -- [1]
-					"Lord Stormsong", -- [2]
-					269097, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [14]
-				{
-					132.2369999999992, -- [1]
-					"Lord Stormsong", -- [2]
-					268896, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [15]
-				{
-					136.6649999999991, -- [1]
-					"Lord Stormsong", -- [2]
-					268347, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Heavypãla-Silvermoon", -- [5]
-				}, -- [16]
+				}, -- [2]
 			},
 		}, -- [2]
 		{
-			["Samh'rek, Beckoner of Chaos"] = {
-				{
-					132.0139999999992, -- [1]
-					"Samh'rek, Beckoner of Chaos", -- [2]
-					314397, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			["Brother Ironhull"] = {
-				{
-					8.049999999999272, -- [1]
-					"Brother Ironhull", -- [2]
-					267901, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					10.49399999999878, -- [1]
-					"Brother Ironhull", -- [2]
-					267899, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					27.50900000000002, -- [1]
-					"Brother Ironhull", -- [2]
-					267899, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					40.87299999999959, -- [1]
-					"Brother Ironhull", -- [2]
-					267901, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					44.55999999999949, -- [1]
-					"Brother Ironhull", -- [2]
-					267899, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					61.67299999999887, -- [1]
-					"Brother Ironhull", -- [2]
-					267899, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					73.6979999999985, -- [1]
-					"Brother Ironhull", -- [2]
-					267901, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					78.54799999999886, -- [1]
-					"Brother Ironhull", -- [2]
-					267899, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					96.71999999999935, -- [1]
-					"Brother Ironhull", -- [2]
-					267899, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					106.4329999999991, -- [1]
-					"Brother Ironhull", -- [2]
-					267901, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					113.7329999999984, -- [1]
-					"Brother Ironhull", -- [2]
-					267899, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					131.9389999999985, -- [1]
-					"Brother Ironhull", -- [2]
-					267899, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-			},
-			["Galecaller Faye"] = {
-				{
-					5.599999999998545, -- [1]
-					"Galecaller Faye", -- [2]
-					267818, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					25.4989999999998, -- [1]
-					"Galecaller Faye", -- [2]
-					267830, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					48.58499999999913, -- [1]
-					"Galecaller Faye", -- [2]
-					267830, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					70.47599999999875, -- [1]
-					"Galecaller Faye", -- [2]
-					267830, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
 		}, -- [3]
 		{
-			["Aqualing"] = {
+			["D'zorykx the Trapper"] = {
 				{
-					71.875, -- [1]
-					"Aqualing", -- [2]
-					264560, -- [3]
+					25.41400000000067, -- [1]
+					"D'zorykx the Trapper", -- [2]
+					206883, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahpo", -- [5]
+					"Pïkabo-Silvermoon", -- [5]
+				}, -- [1]
+			},
+			["The Demon Within"] = {
+				{
+					88.54900000000089, -- [1]
+					"The Demon Within", -- [2]
+					211439, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					72.9380000000001, -- [1]
-					"Aqualing", -- [2]
-					264560, -- [3]
+					105.6759999999995, -- [1]
+					"The Demon Within", -- [2]
+					220957, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahpo", -- [5]
+					"Pïkabo-Silvermoon", -- [5]
+				}, -- [2]
+			},
+			["Gul'dan"] = {
+				{
+					7.397000000000844, -- [1]
+					"Gul'dan", -- [2]
+					206222, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					16.41100000000006, -- [1]
+					"Gul'dan", -- [2]
+					212258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					72.9380000000001, -- [1]
-					"Aqualing", -- [2]
-					264560, -- [3]
+					20.05999999999949, -- [1]
+					"Gul'dan", -- [2]
+					227427, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Kasshandra-Runetotem", -- [5]
 				}, -- [3]
 				{
-					81.39199999999983, -- [1]
-					"Aqualing", -- [2]
-					264101, -- [3]
+					42.27100000000064, -- [1]
+					"Gul'dan", -- [2]
+					206939, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 				{
-					82.1890000000003, -- [1]
-					"Aqualing", -- [2]
-					264101, -- [3]
+					45.72099999999955, -- [1]
+					"Gul'dan", -- [2]
+					221783, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
-				{
-					82.1890000000003, -- [1]
-					"Aqualing", -- [2]
-					264101, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					86.6859999999997, -- [1]
-					"Aqualing", -- [2]
-					265001, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahpo", -- [5]
-				}, -- [7]
-				{
-					87.4930000000004, -- [1]
-					"Aqualing", -- [2]
-					265366, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kasshandra-Runetotem", -- [5]
-				}, -- [8]
-				{
-					87.4930000000004, -- [1]
-					"Aqualing", -- [2]
-					264166, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Heavypãla-Silvermoon", -- [5]
-				}, -- [9]
-				{
-					89.09799999999996, -- [1]
-					"Aqualing", -- [2]
-					265001, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahpo", -- [5]
-				}, -- [10]
-				{
-					91.93500000000131, -- [1]
-					"Aqualing", -- [2]
-					264144, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Heavypãla-Silvermoon", -- [5]
-				}, -- [11]
-				{
-					95.5, -- [1]
-					"Aqualing", -- [2]
-					264477, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					96.78100000000086, -- [1]
-					"Aqualing", -- [2]
-					264477, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
-				{
-					105.7090000000007, -- [1]
-					"Aqualing", -- [2]
-					264560, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kasshandra-Runetotem", -- [5]
-				}, -- [14]
-				{
-					105.7290000000012, -- [1]
-					"Aqualing", -- [2]
-					264560, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahpo", -- [5]
-				}, -- [15]
-				{
-					112.5959999999996, -- [1]
-					"Aqualing", -- [2]
-					264101, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
-			},
-			["Explosion"] = {
-				{
-					77.86399999999958, -- [1]
-					"Explosion", -- [2]
-					240446, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			["Unknown"] = {
-				{
-					25.06800000000112, -- [1]
-					"Unknown", -- [2]
-					264526, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			["Grasping Tentacles"] = {
-				{
-					56.66200000000026, -- [1]
-					"Grasping Tentacles", -- [2]
-					264526, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					95.5, -- [1]
-					"Grasping Tentacles", -- [2]
-					264526, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					96.78100000000086, -- [1]
-					"Grasping Tentacles", -- [2]
-					264526, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					144.1130000000012, -- [1]
-					"Grasping Tentacles", -- [2]
-					264526, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
-			["Aqu'sirr"] = {
-				{
-					9.73700000000099, -- [1]
-					"Aqu'sirr", -- [2]
-					264560, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Гонорэя-Гордунни", -- [5]
-				}, -- [1]
-				{
-					20.25500000000102, -- [1]
-					"Aqu'sirr", -- [2]
-					264101, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					25.02900000000045, -- [1]
-					"Aqu'sirr", -- [2]
-					264477, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					31.63400000000002, -- [1]
-					"Aqu'sirr", -- [2]
-					264144, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Heavypãla-Silvermoon", -- [5]
-				}, -- [4]
-				{
-					43.76200000000063, -- [1]
-					"Aqu'sirr", -- [2]
-					264560, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rykahpo", -- [5]
-				}, -- [5]
-				{
-					51.86399999999958, -- [1]
-					"Aqu'sirr", -- [2]
-					264101, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					54.73500000000058, -- [1]
-					"Aqu'sirr", -- [2]
-					265001, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Heavypãla-Silvermoon", -- [5]
-				}, -- [7]
-				{
-					56.63900000000103, -- [1]
-					"Aqu'sirr", -- [2]
-					264477, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					60.78100000000086, -- [1]
-					"Aqu'sirr", -- [2]
-					264903, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					128.7929999999997, -- [1]
-					"Aqu'sirr", -- [2]
-					264560, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Гонорэя-Гордунни", -- [5]
-				}, -- [10]
-				{
-					139.2970000000005, -- [1]
-					"Aqu'sirr", -- [2]
-					264101, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					144.0950000000012, -- [1]
-					"Aqu'sirr", -- [2]
-					264477, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
 			},
 		}, -- [4]
 		{

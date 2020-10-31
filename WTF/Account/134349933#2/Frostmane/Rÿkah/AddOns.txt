@@ -37,7 +37,7 @@ AAP-Vanilla: disabled
 InstanceAchievementTracker: disabled
 InstanceAutoMarker: enabled
 SimpleArmory: disabled
-Rarity: disabled
+Rarity: enabled
 WIT: disabled
 LucidNightmareHelper: disabled
 AdvancedInterfaceOptions: enabled
@@ -106,7 +106,7 @@ MythicDungeonTools: disabled
 Pawn: enabled
 Postal: enabled
 PremadeGroupsFilter: disabled
-Rarity_Options: disabled
+Rarity_Options: enabled
 Routes: disabled
 Simulationcraft: disabled
 TellMeWhen: enabled

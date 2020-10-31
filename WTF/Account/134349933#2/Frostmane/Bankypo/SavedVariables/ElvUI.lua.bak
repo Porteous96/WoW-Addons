@@ -24,578 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"WTS|cffa335ee|Hitem:72146::::::::50:102::14:::::|h[Swift Lovebird]|h|r", -- [1]
-			"Savagepeeç-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Savagepeeç-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			152, -- [11]
-			"Player-1303-0B696B8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Savagepeeç|r",
-			[51] = 1602943901,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"yo", -- [1]
-			"Illaría-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Illaría-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			153, -- [11]
-			"Player-1303-0B5F6F79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Illaría|r",
-			[51] = 1602943901,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [2]
-		{
-			"can you mail cod?", -- [1]
-			"Illaría-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Illaría-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			154, -- [11]
-			"Player-1303-0B5F6F79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Illaría|r",
-			[51] = 1602943903,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [3]
-		{
-			"I sure can. How many would you like? Just 4?", -- [1]
-			"Illaría-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Illaría-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			155, -- [11]
-			"Player-1303-0B5F6F79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Illaría|r",
-			[51] = 1602943915,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [4]
-		{
-			"yeah please", -- [1]
-			"Illaría-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Illaría-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			157, -- [11]
-			"Player-1303-0B5F6F79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Illaría|r",
-			[51] = 1602943921,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [5]
-		{
-			"COD me", -- [1]
-			"Sagaraa-Aggra(Português)", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sagaraa-Aggra(Português)", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			159, -- [11]
-			"Player-1303-0B35ECAE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Sagaraa-Aggra(Português)|r",
-			[51] = 1602943922,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [6]
-		{
-			"i googled my question , and i get \"how long does the horde war campaign take\" .. like wtf hahah", -- [1]
-			"Stickyfluid-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Stickyfluid-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			161, -- [11]
-			"Player-1303-0B61CD7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeStickyfluid|r",
-			[51] = 1602943932,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"Ok thank you!", -- [1]
-			"Sagaraa-Aggra(Português)", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sagaraa-Aggra(Português)", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			162, -- [11]
-			"Player-1303-0B35ECAE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Sagaraa-Aggra(Português)|r",
-			[51] = 1602943934,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [8]
-		{
-			"Ok thank you!", -- [1]
-			"Illaría-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Illaría-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			163, -- [11]
-			"Player-1303-0B5F6F79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Illaría|r",
-			[51] = 1602943946,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [9]
-		{
-			"it takes longer if you sit and just type ", -- [1]
-			"Strangering-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Strangering-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			164, -- [11]
-			"Player-1303-0B695024", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Strangering|r",
-			[51] = 1602943953,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"WTS 2x|cffa335ee|Hitem:72146::::::::50:102::14:::::|h[Swift Lovebird]|h|r, room for making money", -- [1]
-			"Savagepeeç-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Savagepeeç-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			173, -- [11]
-			"Player-1303-0B696B8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Savagepeeç|r",
-			[51] = 1602943972,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"I did the horde one a few months back. I cant remember how long exactly but wasnt more than 5 hours ", -- [1]
-			"Stickyfluid-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Stickyfluid-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			185, -- [11]
-			"Player-1303-0B61CD7F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeStickyfluid|r",
-			[51] = 1602943991,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [12]
-		{
-			"WTS |cff0070dd|Hitem:154695::::::::10:265:::::::|h[Deep Sea Bag]|h|r - 800g for 4", -- [1]
-			"Bankypo-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bankypo-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			189, -- [11]
-			"Player-1303-0B6989C0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edBankypo|r",
-			[51] = 1602944212,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"WTS |cff0070dd|Hitem:154695::::::::10:265:::::::|h[Deep Sea Bag]|h|r - 800g for 4", -- [1]
-			"Bankypo-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bankypo-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1, -- [11]
-			"Player-1303-0B6989C0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edBankypo|r",
-			[51] = 1602959789,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"LOL", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1602959798,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [15]
-		{
-			"what?", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1602959812,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [16]
-		{
-			"COD Dyce-Frostmane", -- [1]
-			"Aleena-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aleena-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			7, -- [11]
-			"Player-1303-0B8B6B94", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aleena|r",
-			[51] = 1602959817,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [17]
-		{
-			"I know Ive been dominating that market atm :P", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			8, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1602959823,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [18]
-		{
-			"Ok thank you!", -- [1]
-			"Aleena-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aleena-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			9, -- [11]
-			"Player-1303-0B8B6B94", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aleena|r",
-			[51] = 1602959823,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [19]
-		{
-			"thats great", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1602959831,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [20]
-		{
-			"Seeing ppl struggle to sell theirs just cracks me up :P", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1602959836,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [21]
-		{
-			"I'm not struggling?", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			13, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1602959844,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [22]
-		{
-			"what is your problem", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			15, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1602959850,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [23]
-		{
-			"♥ C.O.D them to me if u are.", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			17, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1602959864,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [24]
-		{
-			"do you realise how pathetic it sounds to brag about being better than someone at something they dont do?", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			62, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1602959979,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [25]
-		{
-			"Not bragging mate, but youre just spiteful today so Ima go ahead and ignore you, give you some time to think about yourself and sort whatever it is youre going through out. Ill remove ya laters tho ♥", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			75, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1602960041,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [26]
-		{
 			"Laughing at someone trying to make gold and then saying you've been dominating the same market is bragging. ", -- [1]
 			"Immortale-Frostmane", -- [2]
 			"", -- [3]
@@ -616,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1602960070,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [27]
+		}, -- [1]
 		{
 			"hope you fucking kill yourself you dumb fuck", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -638,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1602960081,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [28]
+		}, -- [2]
 		{
 			"Rare Mount Club (Frostmane/Aggra/Grim Batol) is a new guild looking for sociable active players to join us! We aim to do guild mount achieves, mount farm and provide a sociable place to hang during Shadowlands. /w for inv!", -- [1]
 			"Lycheeboba-GrimBatol", -- [2]
@@ -660,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLycheeboba-GrimBatol|r",
 			[51] = 1602960152,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [3]
 		{
 			"do you realise how pathetic it sounds to brag about being better than someone at something they dont do?", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -682,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1602960164,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [30]
+		}, -- [4]
 		{
 			"hello dude , if you want to try and get a raid going I'm game.  If you want me to tank I'll spend a few mins now setting up my pala.", -- [1]
 			"|Kq29|k", -- [2]
@@ -705,7 +133,7 @@ ElvCharacterDB = {
 			[51] = 1602960177,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Napsterz",
-		}, -- [31]
+		}, -- [5]
 		{
 			"Yeh lets give it a go. Just play whatever you want", -- [1]
 			"|Kq29|k", -- [2]
@@ -728,7 +156,7 @@ ElvCharacterDB = {
 			[51] = 1602960200,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Napsterz",
-		}, -- [32]
+		}, -- [6]
 		{
 			"soz was afk", -- [1]
 			"|Kq118|k", -- [2]
@@ -750,7 +178,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602969710,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [33]
+		}, -- [7]
 		{
 			"arcane is goob", -- [1]
 			"|Kq118|k", -- [2]
@@ -772,7 +200,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602969713,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [34]
+		}, -- [8]
 		{
 			"ryan big brain purple mage", -- [1]
 			"|Kq118|k", -- [2]
@@ -794,7 +222,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602969743,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [35]
+		}, -- [9]
 		{
 			"ryan non existent brain purple mage", -- [1]
 			"|Kq118|k", -- [2]
@@ -816,7 +244,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602969769,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [36]
+		}, -- [10]
 		{
 			"is a purple mage just izzet?", -- [1]
 			"|Kq118|k", -- [2]
@@ -838,7 +266,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602969812,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [37]
+		}, -- [11]
 		{
 			"nah thats ele shaman", -- [1]
 			"|Kq118|k", -- [2]
@@ -860,7 +288,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602969849,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [38]
+		}, -- [12]
 		{
 			"is frostfire bolt still a spell?", -- [1]
 			"|Kq118|k", -- [2]
@@ -882,7 +310,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602969868,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [39]
+		}, -- [13]
 		{
 			"nah it got removed at end of wod", -- [1]
 			"|Kq118|k", -- [2]
@@ -904,7 +332,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602969910,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [40]
+		}, -- [14]
 		{
 			"rip", -- [1]
 			"|Kq118|k", -- [2]
@@ -926,7 +354,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602969932,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [41]
+		}, -- [15]
 		{
 			"WTS |cff0070dd|Hitem:154695::::::::10:265:::::::|h[Deep Sea Bag]|h|r x4 - 800g", -- [1]
 			"Bankypo-Frostmane", -- [2]
@@ -948,7 +376,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBankypo|r",
 			[51] = 1602970138,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [16]
 		{
 			"how is angry cat today?", -- [1]
 			"|Kq118|k", -- [2]
@@ -970,7 +398,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602970167,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [43]
+		}, -- [17]
 		{
 			"figured out single target i think", -- [1]
 			"|Kq118|k", -- [2]
@@ -992,7 +420,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1602970200,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [44]
+		}, -- [18]
 		{
 			"700g", -- [1]
 			"Kreml-GrimBatol", -- [2]
@@ -1014,7 +442,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKreml-GrimBatol|r",
 			[51] = 1602970202,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [45]
+		}, -- [19]
 		{
 			"Nope sorry 800g ", -- [1]
 			"Kreml-GrimBatol", -- [2]
@@ -1036,7 +464,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKreml-GrimBatol|r",
 			[51] = 1602970230,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [46]
+		}, -- [20]
 		{
 			"how do i get back to nazjatar? ", -- [1]
 			"Atyara-Frostmane", -- [2]
@@ -1058,7 +486,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Atyara|r",
 			[51] = 1602970238,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [21]
 		{
 			"WTB|cffa335ee|Hitem:65891::::::::41:103:::::::|h[Vial of the Sands]|h|r 40k", -- [1]
 			"Guldpojken-GrimBatol", -- [2]
@@ -1080,7 +508,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Guldpojken-GrimBatol|r",
 			[51] = 1602970252,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [22]
 		{
 			"WTS |cff0070dd|Hitem:83088::::::::50:265:::::::|h[Jade Panther]|h|r|cff0070dd|Hitem:83090::::::::50:265:::::::|h[Sapphire Panther]|h|r|cffa335ee|Hitem:137686::::::::50:265::13:::::|h[Steelbound Harness]|h|r ", -- [1]
 			"Veximora-GrimBatol", -- [2]
@@ -1102,7 +530,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVeximora-GrimBatol|r",
 			[51] = 1603131830,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [23]
 		{
 			"so its bugged and i cant get to the bfa stuff", -- [1]
 			"Lokí-Frostmane", -- [2]
@@ -1124,7 +552,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lokí|r",
 			[51] = 1603131927,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [24]
 		{
 			"would a mage portal work?", -- [1]
 			"Lokí-Frostmane", -- [2]
@@ -1146,7 +574,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lokí|r",
 			[51] = 1603131943,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [25]
 		{
 			"WTS |cff0070dd|Hitem:83088::::::::50:265:::::::|h[Jade Panther]|h|r|cff0070dd|Hitem:83090::::::::50:265:::::::|h[Sapphire Panther]|h|r|cffa335ee|Hitem:137686::::::::50:265::13:::::|h[Steelbound Harness]|h|r cheaper than ah", -- [1]
 			"Veximora-GrimBatol", -- [2]
@@ -1168,7 +596,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edVeximora-GrimBatol|r",
 			[51] = 1603131944,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [26]
 		{
 			"FOR KAZ MODAN", -- [1]
 			"Metwi-GrimBatol", -- [2]
@@ -1190,7 +618,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Metwi-GrimBatol|r",
 			[51] = 1603132115,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [27]
 		{
 			"FOR DONKEY", -- [1]
 			"Phobíac-GrimBatol", -- [2]
@@ -1212,7 +640,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Phobíac-GrimBatol|r",
 			[51] = 1603132121,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [28]
 		{
 			"wts |cff0070dd|Hitem:7728::::::::50:269::1:1:4043:1:9:25:::|h[Beguiler Robes]|h|r|cff0070dd|Hitem:18742::::::::50:269::1:1:4052:1:9:25:::|h[Stratholme Militia Shoulderguard]|h|r", -- [1]
 			"Lioumpen-Frostmane", -- [2]
@@ -1234,7 +662,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lioumpen|r",
 			[51] = 1603195340,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [29]
 		{
 			"wts |cff0070dd|Hitem:18742::::::::50:269::1:1:4052:1:9:25:::|h[Stratholme Militia Shoulderguard]|h|r|cff0070dd|Hitem:7728::::::::50:269::1:1:4043:1:9:25:::|h[Beguiler Robes]|h|r", -- [1]
 			"Lioumpen-Frostmane", -- [2]
@@ -1256,7 +684,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lioumpen|r",
 			[51] = 1603195410,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [30]
 		{
 			"wts |cff0070dd|Hitem:7728::::::::50:269::1:1:4043:1:9:25:::|h[Beguiler Robes]|h|r|cff0070dd|Hitem:18742::::::::50:269::1:1:4052:1:9:25:::|h[Stratholme Militia Shoulderguard]|h|r", -- [1]
 			"Lioumpen-Frostmane", -- [2]
@@ -1278,7 +706,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lioumpen|r",
 			[51] = 1603195520,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [31]
 		{
 			"WTS |cff0070dd|Hitem:154695::::::::10:265:::::::|h[Deep Sea Bag]|h|r x4 - 800g", -- [1]
 			"Bankypo-Frostmane", -- [2]
@@ -1300,7 +728,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBankypo|r",
 			[51] = 1603217407,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [32]
 		{
 			"<<NOVA>> Selling +M14 (85k) M+15  [90k]+ Lvl up+island cap+ Vision Full Run 5 Masks: 90k ; 5 Masks(AFK, loot only):70k Full Run NO MASK: 40k /w", -- [1]
 			"Novadm-Frostmane", -- [2]
@@ -1322,7 +750,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovadm|r",
 			[51] = 1603301094,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [33]
 		{
 			"what do I do when i got |cffff8000|Hitem:18564::::::::50:70:::::::|h[Bindings of the Windseeker]|h|r|cffff8000|Hitem:18563::::::::50:70:::::::|h[Bindings of the Windseeker]|h|r?", -- [1]
 			"Simbba-GrimBatol", -- [2]
@@ -1344,7 +772,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Simbba-GrimBatol|r",
 			[51] = 1603301165,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [34]
 		{
 			"go silithus", -- [1]
 			"Slapfin-Frostmane", -- [2]
@@ -1366,7 +794,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlapfin|r",
 			[51] = 1603301177,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [35]
 		{
 			"old silithus", -- [1]
 			"Slapfin-Frostmane", -- [2]
@@ -1388,7 +816,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlapfin|r",
 			[51] = 1603301183,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [36]
 		{
 			"Talk with the keepers of time to swap time zone", -- [1]
 			"Trillet-GrimBatol", -- [2]
@@ -1410,7 +838,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Trillet-GrimBatol|r",
 			[51] = 1603301194,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [37]
 		{
 			"no quest needeD?", -- [1]
 			"Simbba-GrimBatol", -- [2]
@@ -1432,7 +860,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Simbba-GrimBatol|r",
 			[51] = 1603301194,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [38]
 		{
 			"u get q there", -- [1]
 			"Slapfin-Frostmane", -- [2]
@@ -1454,7 +882,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlapfin|r",
 			[51] = 1603301207,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [39]
 		{
 			"<<NOVA>> Selling +M14 (85k) M+15  [90k]+ Lvl up+island cap+ Vision Full Run 5 Masks: 90k ; 5 Masks(AFK, loot only):70k Full Run NO MASK: 40k /w", -- [1]
 			"Novadm-Frostmane", -- [2]
@@ -1476,7 +904,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovadm|r",
 			[51] = 1603301249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [40]
 		{
 			"No pre quest line today?", -- [1]
 			"Gallahalt-Frostmane", -- [2]
@@ -1498,7 +926,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Gallahalt|r",
 			[51] = 1603301331,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [41]
 		{
 			"no :(", -- [1]
 			"Pumbazaar-GrimBatol", -- [2]
@@ -1520,7 +948,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pumbazaar-GrimBatol|r",
 			[51] = 1603301397,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [42]
 		{
 			"Looking for guild", -- [1]
 			"Karlwdt-Frostmane", -- [2]
@@ -1542,7 +970,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKarlwdt|r",
 			[51] = 1603301417,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [43]
 		{
 			"you have to wait till dezember", -- [1]
 			"Coita-Aggra(Português)", -- [2]
@@ -1564,7 +992,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Coita-Aggra(Português)|r",
 			[51] = 1603301448,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [44]
 		{
 			"Rare Mount Club (Frostmane/Aggra/Grim Batol) is a new guild looking for sociable active players to join us! We aim to do guild mount achieves, mount farm and provide a sociable place to hang during Shadowlands. /w for inv!", -- [1]
 			"Lycheeboba-GrimBatol", -- [2]
@@ -1586,7 +1014,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLycheeboba-GrimBatol|r",
 			[51] = 1603314708,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [45]
 		{
 			"why ?!", -- [1]
 			"Stefoto-Frostmane", -- [2]
@@ -1608,7 +1036,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Stefoto|r",
 			[51] = 1603393500,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [46]
 		{
 			"u cannot turn the Q in ?", -- [1]
 			"Stefoto-Frostmane", -- [2]
@@ -1630,7 +1058,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Stefoto|r",
 			[51] = 1603393505,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [47]
 		{
 			"audin is not there", -- [1]
 			"Gbz-Frostmane", -- [2]
@@ -1652,7 +1080,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gbz|r",
 			[51] = 1603393512,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [48]
 		{
 			"just did it, no problem", -- [1]
 			"Hizzleds-Frostmane", -- [2]
@@ -1674,7 +1102,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Hizzleds|r",
 			[51] = 1603393526,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [49]
 		{
 			"try reloading?", -- [1]
 			"Hizzleds-Frostmane", -- [2]
@@ -1696,7 +1124,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Hizzleds|r",
 			[51] = 1603393533,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [50]
 		{
 			"logout, delete Cache folder, than login again", -- [1]
 			"Stefoto-Frostmane", -- [2]
@@ -1718,7 +1146,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Stefoto|r",
 			[51] = 1603393534,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [51]
 		{
 			"no :S", -- [1]
 			"Gbz-Frostmane", -- [2]
@@ -1740,7 +1168,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gbz|r",
 			[51] = 1603393549,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [52]
 		{
 			"try reload 1st", -- [1]
 			"Stefoto-Frostmane", -- [2]
@@ -1762,7 +1190,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Stefoto|r",
 			[51] = 1603393564,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [53]
 		{
 			"i did he still not there", -- [1]
 			"Gbz-Frostmane", -- [2]
@@ -1784,7 +1212,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gbz|r",
 			[51] = 1603393571,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [54]
 		{
 			"of not, then go delete Cache folder", -- [1]
 			"Stefoto-Frostmane", -- [2]
@@ -1806,7 +1234,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Stefoto|r",
 			[51] = 1603393572,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [55]
 		{
 			"guys anyone know where that armour u can buy in old town", -- [1]
 			"Cowgang-Frostmane", -- [2]
@@ -1828,7 +1256,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cowgang|r",
 			[51] = 1603393576,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [56]
 		{
 			"i try that ty", -- [1]
 			"Gbz-Frostmane", -- [2]
@@ -1850,7 +1278,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gbz|r",
 			[51] = 1603393580,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [57]
 		{
 			"wheres it  moved", -- [1]
 			"Cowgang-Frostmane", -- [2]
@@ -1872,7 +1300,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cowgang|r",
 			[51] = 1603393582,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [58]
 		{
 			"you are not on the spot", -- [1]
 			"Stefoto-Frostmane", -- [2]
@@ -1894,7 +1322,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Stefoto|r",
 			[51] = 1603393594,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [59]
 		{
 			"logout, delete Cache folder, than login again", -- [1]
 			"Stefoto-Frostmane", -- [2]
@@ -1916,7 +1344,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Stefoto|r",
 			[51] = 1603393603,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [60]
 		{
 			"nop its bugged for me still", -- [1]
 			"Gbz-Frostmane", -- [2]
@@ -1938,7 +1366,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gbz|r",
 			[51] = 1603393650,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [61]
 		{
 			"WTS Nyalotha HC-Mythic + we can stack armors; Horrific Visions with masks;  Mythic+ 15-22 in time and 465+ items; Glacial Tidestorm mount", -- [1]
 			"Puolak-Frostmane", -- [2]
@@ -1960,7 +1388,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Puolak|r",
 			[51] = 1603393662,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [62]
 		{
 			"can some1 inv me to layer in stormwind pls?", -- [1]
 			"Gbz-Frostmane", -- [2]
@@ -1982,7 +1410,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Gbz|r",
 			[51] = 1603393736,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [63]
 		{
 			"wheres the armour u could buy for gold in old town gone?", -- [1]
 			"Cowgang-Frostmane", -- [2]
@@ -2004,7 +1432,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Cowgang|r",
 			[51] = 1603393847,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [64]
 		{
 			"< NOVA > is OFFERING Nyalotha HC 12/12 for 140k! VIP Traders 60k! Nyalotha Mythic 12/12 + 3Trader 3.5M / Nzoth MYTHIC+Mount for 2M / Jaina mount 350k / M+15=90k Discount for multiple runs + Selling all M+10-23 + FH boosts", -- [1]
 			"Novataïr-Frostmane", -- [2]
@@ -2026,7 +1454,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novataïr|r",
 			[51] = 1603393983,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [65]
 		{
 			"WTS Nyalotha HC-Mythic + we can stack armors; Horrific Visions with masks;  Mythic+ 15-22 in time and 465+ items; Glacial Tidestorm mount", -- [1]
 			"Puolak-Frostmane", -- [2]
@@ -2048,7 +1476,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Puolak|r",
 			[51] = 1603553319,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [66]
 		{
 			"Free Giveaways later tonight. Giving away JUST MOUNTS tonight. Items such as |cff0070dd|Hitem:83088::::::::50:70:::::::|h[Jade Panther]|h|r|cff0070dd|Hitem:83089::::::::50:70:::::::|h[Sunstone Panther]|h|r|cff0070dd|Hitem:83087::::::::50:70:::::::|h[Ruby Panther]|h|r|cff0070dd|Hitem:83090::::::::50:70:::::::|h[Sapphire Panther]|h|r, and the biggie |cffa335ee|Hitem:82453::::::::50:70:::::::|h[Jeweled Onyx Panther]|h|r. /w me for more info", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -2070,7 +1498,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1603553549,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [67]
 		{
 			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
 			"", -- [2]
@@ -2092,7 +1520,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1603665737,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [68]
 		{
 			"< NOVA > is OFFERING Nyalotha HC 12/12 for 140k! VIP Traders 60k! Nyalotha Mythic 12/12 + 3Trader 3.5M / Nzoth MYTHIC+Mount for 2M / Jaina mount 350k / M+15=90k Discount for multiple runs + Selling all M+10-23 + FH lvl boosts", -- [1]
 			"Novataïr-Frostmane", -- [2]
@@ -2114,7 +1542,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Novataïr|r",
 			[51] = 1603665794,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [69]
 		{
 			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
 			"", -- [2]
@@ -2136,7 +1564,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1603665802,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [70]
 		{
 			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
 			"", -- [2]
@@ -2158,7 +1586,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1603665931,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [71]
 		{
 			"[Guild: Os A viver na cave da tua mãe? Desistes da escola aos 12 anos?Foste despedido? Consegues sobreviver á base de noodles e redbull?<Os Marretas>estão á tua procura! Liberta o teu nerd interior. Mas por favor deixa a tua frustração no Tinder!", -- [1]
 			"Earyna-Aggra(Português)", -- [2]
@@ -2180,7 +1608,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Earyna-Aggra(Português)|r",
 			[51] = 1603666004,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [72]
 		{
 			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
 			"", -- [2]
@@ -2201,6 +1629,578 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "",
 			[51] = 1603666042,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"gay\"!", -- [1]
+			"Hëvn-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hëvn-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			18, -- [11]
+			"Player-1303-0954319A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cHëvn-Aggra(Português)|r",
+			[51] = 1603834903,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"no one said otherwise", -- [1]
+			"Cog-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cog-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			19, -- [11]
+			"Player-1303-0AD4EA49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Cog-Aggra(Português)|r",
+			[51] = 1603834906,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"Yes.", -- [1]
+			"Meckz-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Meckz-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			20, -- [11]
+			"Player-1303-07169A84", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Meckz-Aggra(Português)|r",
+			[51] = 1603834908,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"just not pala :D", -- [1]
+			"Hammerbolt-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hammerbolt-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			21, -- [11]
+			"Player-1303-0B698495", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Hammerbolt|r",
+			[51] = 1603834911,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"its 2020 cmon dude wakeup", -- [1]
+			"Ginatko-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ginatko-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			22, -- [11]
+			"Player-1303-0B94FD92", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Ginatko-GrimBatol|r",
+			[51] = 1603834912,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"gays are popular", -- [1]
+			"Ginatko-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ginatko-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			23, -- [11]
+			"Player-1303-0B94FD92", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Ginatko-GrimBatol|r",
+			[51] = 1603834933,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"are they though?", -- [1]
+			"Cog-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cog-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			24, -- [11]
+			"Player-1303-0AD4EA49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Cog-Aggra(Português)|r",
+			[51] = 1603834947,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"i respect a man who can take a dick in the ass", -- [1]
+			"Hëvn-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hëvn-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			25, -- [11]
+			"Player-1303-0954319A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cHëvn-Aggra(Português)|r",
+			[51] = 1603834973,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"and gay palas?", -- [1]
+			"Hammerbolt-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hammerbolt-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			26, -- [11]
+			"Player-1303-0B698495", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Hammerbolt|r",
+			[51] = 1603834975,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"why not a woman ", -- [1]
+			"Kaccie-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kaccie-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			28, -- [11]
+			"Player-1303-0B5AB36D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edKaccie|r",
+			[51] = 1603835002,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"good question", -- [1]
+			"Hëvn-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hëvn-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"Player-1303-0954319A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cHëvn-Aggra(Português)|r",
+			[51] = 1603835017,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"not popular i guess", -- [1]
+			"Kamszot-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kamszot-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"Player-1303-0B4EDE0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Kamszot|r",
+			[51] = 1603835027,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"women can be gay too its called being a lesbin", -- [1]
+			"Cog-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cog-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			37, -- [11]
+			"Player-1303-0AD4EA49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Cog-Aggra(Português)|r",
+			[51] = 1603835034,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"*lesbian", -- [1]
+			"Cog-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cog-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			40, -- [11]
+			"Player-1303-0AD4EA49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Cog-Aggra(Português)|r",
+			[51] = 1603835040,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"*pikachu gasp*", -- [1]
+			"Erelas-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Erelas-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			52, -- [11]
+			"Player-1303-0B9ACCB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Erelas-GrimBatol|r",
+			[51] = 1603835066,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"their habitat is still in the Kitchen though", -- [1]
+			"Cog-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cog-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-1303-0AD4EA49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Cog-Aggra(Português)|r",
+			[51] = 1603835093,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"found the virgin > Cog-Aggra(Português)", -- [1]
+			"Xalhna-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xalhna-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			90, -- [11]
+			"Player-1303-0B9820DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Xalhna|r",
+			[51] = 1603835119,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"opionions on lgbt people?", -- [1]
+			"Rakkah-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rakkah-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			91, -- [11]
+			"Player-1303-0B82CA07", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Rakkah|r",
+			[51] = 1603835123,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"Rakkah thats easy, f*ck whoever you want to fuck, just dont bother me with it, gay straight lesbian, really dont give a single FCK", -- [1]
+			"Xalhna-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xalhna-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			92, -- [11]
+			"Player-1303-0B9820DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Xalhna|r",
+			[51] = 1603835151,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"I'm a straight white male so im not allowed an opinion", -- [1]
+			"Squidlegs-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Squidlegs-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			93, -- [11]
+			"Player-1303-0B5E5627", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcSquidlegs|r",
+			[51] = 1603835161,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"thats the right thing", -- [1]
+			"Rakkah-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rakkah-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			94, -- [11]
+			"Player-1303-0B82CA07", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Rakkah|r",
+			[51] = 1603835170,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"pala", -- [1]
+			"Rakkah-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rakkah-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"Player-1303-0B82CA07", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Rakkah|r",
+			[51] = 1603835174,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"So what are we trading boys?", -- [1]
+			"Meckz-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Meckz-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			96, -- [11]
+			"Player-1303-07169A84", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Meckz-Aggra(Português)|r",
+			[51] = 1603835175,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"guys wtf is going on here. this sounds like it should be in a discord server", -- [1]
+			"Vúrona-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vúrona-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			97, -- [11]
+			"Player-1303-0B632BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Vúrona|r",
+			[51] = 1603835180,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"trading boys???", -- [1]
+			"Hëvn-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hëvn-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			98, -- [11]
+			"Player-1303-0954319A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cHëvn-Aggra(Português)|r",
+			[51] = 1603835186,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"DUDE", -- [1]
+			"Hëvn-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hëvn-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			99, -- [11]
+			"Player-1303-0954319A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cHëvn-Aggra(Português)|r",
+			[51] = 1603835188,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

@@ -1,292 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"oof", -- [1]
-		"oh btw", -- [2]
-		"you didnt tell me every druid spec gets |cff71d5ff|Hspell:288826:0|h[Stampeding Roar]|h|r now", -- [3]
-		"actual huge change", -- [4]
-		"yeah like level something else", -- [5]
-		"lul", -- [6]
-		"/laugh", -- [7]
-		"last like 8 levels have took longer than the rest it feels like", -- [8]
-		"/played", -- [9]
-		"/aap skip", -- [10]
-		"/s was he attacking you?", -- [11]
-		"/s i didnt even see you lol", -- [12]
-		"/s i just saw a filthy orc", -- [13]
-		"i wonder how holding aggro works for bear in dungeons now", -- [14]
-		"swipe is capped at 5 targets", -- [15]
-		"yeah but does ass dps on its won", -- [16]
-		"own*", -- [17]
-		"its great", -- [18]
-		"even arcane is getting one", -- [19]
-		"ree", -- [20]
+		"swipe is capped at 5 targets", -- [1]
+		"yeah but does ass dps on its won", -- [2]
+		"own*", -- [3]
+		"its great", -- [4]
+		"even arcane is getting one", -- [5]
+		"ree", -- [6]
+		"/aap", -- [7]
+		"/g welcome", -- [8]
+		"/g ty", -- [9]
+		"/o im trying to get the last 2 mounts for darkshore I need", -- [10]
+		"/o oh dont worry, jeremy lives for telling people no", -- [11]
+		"/o me and jeremy had a talk together last night about how the roster is looking from the spreadsheet", -- [12]
+		"/o and im fully expecting drama", -- [13]
+		"/o yeah I appreciate that", -- [14]
+		"/o nah", -- [15]
+		"/o I was only asking cause I wasnt sure", -- [16]
+		"/o so many people on alts these days and it confuses me", -- [17]
+		"/o as well as returning players who I dont know", -- [18]
+		"/o ooh I havent", -- [19]
+		"/o try flying up into it", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"can you put met taunt on and pull this guy", -- [1]
-			"Rykahdruid-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahdruid-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1113, -- [11]
-			"Player-1303-0B929C9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Rykahdruid|r",
-			[51] = 1603400697,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [1]
-		{
-			"i want to test something", -- [1]
-			"Rykahdruid-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahdruid-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1117, -- [11]
-			"Player-1303-0B929C9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Rykahdruid|r",
-			[51] = 1603400703,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [2]
-		{
-			"pet taunt on*", -- [1]
-			"Rykahdruid-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahdruid-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1118, -- [11]
-			"Player-1303-0B929C9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Rykahdruid|r",
-			[51] = 1603400713,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [3]
-		{
-			"sure", -- [1]
-			"Jerlina-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jerlina-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1119, -- [11]
-			"Player-1597-0E7823FE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Jerlina-Sylvanas|r",
-			[51] = 1603400714,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"took it off now", -- [1]
-			"Jerlina-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jerlina-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1122, -- [11]
-			"Player-1597-0E7823FE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Jerlina-Sylvanas|r",
-			[51] = 1603400744,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [5]
-		{
-			"i was in a dungeon earlier and a hunters pet took no dmg", -- [1]
-			"Rykahdruid-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahdruid-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1123, -- [11]
-			"Player-1303-0B929C9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Rykahdruid|r",
-			[51] = 1603400748,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [6]
-		{
-			"ty ", -- [1]
-			"Rykahdruid-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahdruid-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1124, -- [11]
-			"Player-1303-0B929C9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Rykahdruid|r",
-			[51] = 1603400749,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [7]
-		{
-			"ofc", -- [1]
-			"Jerlina-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jerlina-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1125, -- [11]
-			"Player-1597-0E7823FE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Jerlina-Sylvanas|r",
-			[51] = 1603400753,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"like his pet hp was always 99%", -- [1]
-			"Rykahdruid-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahdruid-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1126, -- [11]
-			"Player-1303-0B929C9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Rykahdruid|r",
-			[51] = 1603400764,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [9]
-		{
-			"they do but their healing spell is too strong tho", -- [1]
-			"Jerlina-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jerlina-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1128, -- [11]
-			"Player-1597-0E7823FE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Jerlina-Sylvanas|r",
-			[51] = 1603400771,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"thanks everyone", -- [1]
-			"Rykahdruid-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahdruid-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1224, -- [11]
-			"Player-1303-0B929C9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Rykahdruid|r",
-			[51] = 1603401471,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [11]
-		{
-			":)", -- [1]
-			"Rykahdruid-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahdruid-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1238, -- [11]
-			"Player-1303-0B929C9D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Rykahdruid|r",
-			[51] = 1603401566,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [12]
 		{
 			"bobba", -- [1]
 			"|Kq84|k", -- [2]
@@ -308,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401825,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [13]
+		}, -- [1]
 		{
 			"legion is very speedy btw", -- [1]
 			"|Kq84|k", -- [2]
@@ -330,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401833,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [14]
+		}, -- [2]
 		{
 			"legion sucks tho", -- [1]
 			"|Kq84|k", -- [2]
@@ -352,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401859,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [15]
+		}, -- [3]
 		{
 			"done it less times than wod", -- [1]
 			"|Kq84|k", -- [2]
@@ -374,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401878,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [16]
+		}, -- [4]
 		{
 			"so im not sick of it yet", -- [1]
 			"|Kq84|k", -- [2]
@@ -396,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401886,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [17]
+		}, -- [5]
 		{
 			"same but i do not rate", -- [1]
 			"|Kq84|k", -- [2]
@@ -418,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401892,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [18]
+		}, -- [6]
 		{
 			"i like valsharah", -- [1]
 			"|Kq84|k", -- [2]
@@ -440,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401898,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [19]
+		}, -- [7]
 		{
 			"i just basicly did the class quests", -- [1]
 			"|Kq84|k", -- [2]
@@ -462,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401909,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [20]
+		}, -- [8]
 		{
 			"and some of assuna", -- [1]
 			"|Kq84|k", -- [2]
@@ -484,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401911,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [21]
+		}, -- [9]
 		{
 			"got my like 3/4 of the way there", -- [1]
 			"|Kq84|k", -- [2]
@@ -506,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401917,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [22]
+		}, -- [10]
 		{
 			"then legion invasion pops up", -- [1]
 			"|Kq84|k", -- [2]
@@ -528,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401928,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [23]
+		}, -- [11]
 		{
 			"big money time", -- [1]
 			"|Kq84|k", -- [2]
@@ -550,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401930,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [24]
+		}, -- [12]
 		{
 			"i assumed they would get nerfed", -- [1]
 			"|Kq84|k", -- [2]
@@ -572,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603401973,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [25]
+		}, -- [13]
 		{
 			"i just got a level and a half from like 4 legions wqs right there", -- [1]
 			"|Kq84|k", -- [2]
@@ -594,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402010,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [26]
+		}, -- [14]
 		{
 			"i think they'll slow it down tbh", -- [1]
 			"|Kq84|k", -- [2]
@@ -616,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402140,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [27]
+		}, -- [15]
 		{
 			"its still so fast that you're max before you finish the story lines", -- [1]
 			"|Kq84|k", -- [2]
@@ -638,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402154,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [28]
+		}, -- [16]
 		{
 			"which was what they were trying to solve", -- [1]
 			"|Kq84|k", -- [2]
@@ -660,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402165,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [29]
+		}, -- [17]
 		{
 			"i was going to ask if you wanted to do thing, but I see you arent max yet", -- [1]
 			"|Kq39|k", -- [2]
@@ -682,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402399,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [30]
+		}, -- [18]
 		{
 			"smh", -- [1]
 			"|Kq39|k", -- [2]
@@ -704,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402400,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [31]
+		}, -- [19]
 		{
 			"omg some of dont just play wow all day", -- [1]
 			"|Kq39|k", -- [2]
@@ -726,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "Neaop",
 			[51] = 1603402554,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [32]
+		}, -- [20]
 		{
 			"i did some dungeons to try out bear ", -- [1]
 			"|Kq39|k", -- [2]
@@ -748,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402569,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [33]
+		}, -- [21]
 		{
 			"wod dungeon is defo not worth the time", -- [1]
 			"|Kq39|k", -- [2]
@@ -770,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402582,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [34]
+		}, -- [22]
 		{
 			"i did the dungeons at the end of each legion zone", -- [1]
 			"|Kq39|k", -- [2]
@@ -792,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402619,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [35]
+		}, -- [23]
 		{
 			"and the quests give bigo chunks", -- [1]
 			"|Kq39|k", -- [2]
@@ -814,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402630,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [36]
+		}, -- [24]
 		{
 			"but yeah, dungeon spam dont seem worth any more ", -- [1]
 			"|Kq39|k", -- [2]
@@ -836,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402643,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [37]
+		}, -- [25]
 		{
 			"i did 2 dungeons and only got 1 level", -- [1]
 			"|Kq39|k", -- [2]
@@ -858,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402723,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [38]
+		}, -- [26]
 		{
 			"yeah", -- [1]
 			"|Kq39|k", -- [2]
@@ -880,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402731,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [39]
+		}, -- [27]
 		{
 			"unless you have quests in there dont seem efficient ", -- [1]
 			"|Kq39|k", -- [2]
@@ -902,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402749,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [40]
+		}, -- [28]
 		{
 			"yeah and wod ones dont even have quests", -- [1]
 			"|Kq39|k", -- [2]
@@ -924,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402760,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [41]
+		}, -- [29]
 		{
 			"fug", -- [1]
 			"|Kq39|k", -- [2]
@@ -946,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402768,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [42]
+		}, -- [30]
 		{
 			"me me get", -- [1]
 			"|Kq39|k", -- [2]
@@ -968,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402770,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [43]
+		}, -- [31]
 		{
 			"reinhart hammer", -- [1]
 			"|Kq39|k", -- [2]
@@ -990,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402773,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [44]
+		}, -- [32]
 		{
 			"wot", -- [1]
 			"|Kq39|k", -- [2]
@@ -1012,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402781,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [45]
+		}, -- [33]
 		{
 			"le ebic cross over", -- [1]
 			"|Kq39|k", -- [2]
@@ -1034,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402784,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [46]
+		}, -- [34]
 		{
 			"|Hitem:128823::::::::50:70:::::::|h[The Silver Hand]|h", -- [1]
 			"|Kq39|k", -- [2]
@@ -1056,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402786,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [47]
+		}, -- [35]
 		{
 			"ah", -- [1]
 			"|Kq39|k", -- [2]
@@ -1078,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402790,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [48]
+		}, -- [36]
 		{
 			"cant link skins", -- [1]
 			"|Kq39|k", -- [2]
@@ -1100,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402794,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [49]
+		}, -- [37]
 		{
 			"|Hitem:128823::::::::50:70::9:1:735:2:8:977:28:642:::|h[The Silver Hand]|h", -- [1]
 			"|Kq39|k", -- [2]
@@ -1122,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402799,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [50]
+		}, -- [38]
 		{
 			"that one", -- [1]
 			"|Kq39|k", -- [2]
@@ -1144,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402805,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [51]
+		}, -- [39]
 		{
 			"oooh", -- [1]
 			"|Kq39|k", -- [2]
@@ -1166,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402853,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [52]
+		}, -- [40]
 		{
 			"fuggy and i can tmog onto this", -- [1]
 			"|Kq39|k", -- [2]
@@ -1188,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402867,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [53]
+		}, -- [41]
 		{
 			"big hype", -- [1]
 			"|Kq39|k", -- [2]
@@ -1210,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402873,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [54]
+		}, -- [42]
 		{
 			"how get rein ham?", -- [1]
 			"|Kq39|k", -- [2]
@@ -1232,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603402984,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [55]
+		}, -- [43]
 		{
 			"a trsh mob dropped it", -- [1]
 			"|Kq39|k", -- [2]
@@ -1254,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403035,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [56]
+		}, -- [44]
 		{
 			"trash*", -- [1]
 			"|Kq39|k", -- [2]
@@ -1276,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403039,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [57]
+		}, -- [45]
 		{
 			"oof", -- [1]
 			"|Kq39|k", -- [2]
@@ -1298,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403042,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [58]
+		}, -- [46]
 		{
 			"oh btw", -- [1]
 			"|Kq39|k", -- [2]
@@ -1320,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403055,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [59]
+		}, -- [47]
 		{
 			"you didnt tell me every druid spec gets |Hspell:288826:0|h[Stampeding Roar]|h now", -- [1]
 			"|Kq39|k", -- [2]
@@ -1342,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403063,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [60]
+		}, -- [48]
 		{
 			"yeah", -- [1]
 			"|Kq39|k", -- [2]
@@ -1364,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403068,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [61]
+		}, -- [49]
 		{
 			"thats new", -- [1]
 			"|Kq39|k", -- [2]
@@ -1386,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403071,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [62]
+		}, -- [50]
 		{
 			"actual huge change", -- [1]
 			"|Kq39|k", -- [2]
@@ -1408,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403074,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [63]
+		}, -- [51]
 		{
 			"they all get barksin as well", -- [1]
 			"|Kq39|k", -- [2]
@@ -1430,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403077,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [64]
+		}, -- [52]
 		{
 			"and", -- [1]
 			"|Kq39|k", -- [2]
@@ -1452,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403094,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [65]
+		}, -- [53]
 		{
 			"the big hype", -- [1]
 			"|Kq39|k", -- [2]
@@ -1474,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403097,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [66]
+		}, -- [54]
 		{
 			">wrath", -- [1]
 			"|Kq39|k", -- [2]
@@ -1496,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403100,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [67]
+		}, -- [55]
 		{
 			"grr", -- [1]
 			"|Kq39|k", -- [2]
@@ -1518,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403589,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [68]
+		}, -- [56]
 		{
 			"hit 50", -- [1]
 			"|Kq39|k", -- [2]
@@ -1540,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403591,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [69]
+		}, -- [57]
 		{
 			"so we can do thing", -- [1]
 			"|Kq39|k", -- [2]
@@ -1562,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403594,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [70]
+		}, -- [58]
 		{
 			"yeah like level something else ", -- [1]
 			"|Kq39|k", -- [2]
@@ -1584,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403825,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [71]
+		}, -- [59]
 		{
 			"lul", -- [1]
 			"|Kq39|k", -- [2]
@@ -1606,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603403825,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [72]
+		}, -- [60]
 		{
 			"last like 8 levels have took longer than the rest it feels like", -- [1]
 			"|Kq39|k", -- [2]
@@ -1628,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404271,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [73]
+		}, -- [61]
 		{
 			"ty", -- [1]
 			"Alexiou-Outland", -- [2]
@@ -1650,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Alexiou-Outland|r",
 			[51] = 1603404303,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [62]
 		{
 			"was he attacking you?", -- [1]
 			"Rykahdruid-Frostmane", -- [2]
@@ -1672,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahdruid|r",
 			[51] = 1603404312,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [63]
 		{
 			"yea", -- [1]
 			"Alexiou-Outland", -- [2]
@@ -1694,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Alexiou-Outland|r",
 			[51] = 1603404315,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [64]
 		{
 			"i didnt even see you lol", -- [1]
 			"Rykahdruid-Frostmane", -- [2]
@@ -1716,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahdruid|r",
 			[51] = 1603404316,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [65]
 		{
 			"ahahahaha", -- [1]
 			"Alexiou-Outland", -- [2]
@@ -1738,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Alexiou-Outland|r",
 			[51] = 1603404322,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [66]
 		{
 			"i just saw a filthy orc", -- [1]
 			"Rykahdruid-Frostmane", -- [2]
@@ -1760,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahdruid|r",
 			[51] = 1603404326,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [67]
 		{
 			"i wonder how holding aggro works for bear in dungeons now ", -- [1]
 			"|Kq39|k", -- [2]
@@ -1782,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404602,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [80]
+		}, -- [68]
 		{
 			"swipe is capped at 5 targets", -- [1]
 			"|Kq39|k", -- [2]
@@ -1804,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404612,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [81]
+		}, -- [69]
 		{
 			"thash is uncpped though", -- [1]
 			"|Kq39|k", -- [2]
@@ -1826,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404622,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [82]
+		}, -- [70]
 		{
 			"yeah but does ass dps on its won", -- [1]
 			"|Kq39|k", -- [2]
@@ -1848,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404630,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [83]
+		}, -- [71]
 		{
 			"own*", -- [1]
 			"|Kq39|k", -- [2]
@@ -1870,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404632,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [84]
+		}, -- [72]
 		{
 			"just pray for procs", -- [1]
 			"|Kq39|k", -- [2]
@@ -1892,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404651,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [85]
+		}, -- [73]
 		{
 			"thats what I do", -- [1]
 			"|Kq39|k", -- [2]
@@ -1914,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404658,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [86]
+		}, -- [74]
 		{
 			"having an actual execute is wild", -- [1]
 			"|Kq39|k", -- [2]
@@ -1936,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404809,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [87]
+		}, -- [75]
 		{
 			"its great", -- [1]
 			"|Kq39|k", -- [2]
@@ -1958,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404828,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [88]
+		}, -- [76]
 		{
 			"even arcane is getting one ", -- [1]
 			"|Kq39|k", -- [2]
@@ -1980,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404833,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [89]
+		}, -- [77]
 		{
 			"need to get a WA for it though", -- [1]
 			"|Kq39|k", -- [2]
@@ -2002,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404853,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [90]
+		}, -- [78]
 		{
 			"cos i keep missing it", -- [1]
 			"|Kq39|k", -- [2]
@@ -2024,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404857,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [91]
+		}, -- [79]
 		{
 			">what is this mechanic I am not used to", -- [1]
 			"|Kq39|k", -- [2]
@@ -2046,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404870,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [92]
+		}, -- [80]
 		{
 			"im trying to remember ", -- [1]
 			"|Kq39|k", -- [2]
@@ -2068,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404901,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [93]
+		}, -- [81]
 		{
 			"i think ferocius bite had like an execute damage buff back in wotlk ", -- [1]
 			"|Kq39|k", -- [2]
@@ -2090,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603404920,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [94]
+		}, -- [82]
 		{
 			"brb - wisp me if you ding and want to meme out in a dungoen or something", -- [1]
 			"|Kq39|k", -- [2]
@@ -2112,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603405357,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [95]
+		}, -- [83]
 		{
 			"im probs gonna go level something else ", -- [1]
 			"|Kq39|k", -- [2]
@@ -2134,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603405376,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [96]
+		}, -- [84]
 		{
 			"but think of the memes", -- [1]
 			"|Kq39|k", -- [2]
@@ -2156,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603405468,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [97]
+		}, -- [85]
 		{
 			"ill heal", -- [1]
 			"|Kq39|k", -- [2]
@@ -2178,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603405470,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [98]
+		}, -- [86]
 		{
 			"ree", -- [1]
 			"|Kq39|k", -- [2]
@@ -2200,6 +1936,271 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Neaop|r",
 			[51] = 1603405511,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [87]
+		{
+			"can you inv me to the guild on this?", -- [1]
+			"|Kq85|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1737, -- [11]
+			false, -- [12]
+			3, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687eddevereux|r",
+			[51] = 1604100311,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "devereux",
+		}, -- [88]
+		{
+			"ty", -- [1]
+			"Rykahdruid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1749, -- [11]
+			"Player-1303-0B929C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Rykahdruid|r",
+			[51] = 1604100355,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [89]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4597:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1778, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604100487,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [90]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4584:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1779, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604100487,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [91]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4622:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Neck-Deep in Vile (25 player)]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1780, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604100487,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [92]
+		{
+			"Horseman rise...", -- [1]
+			"Rykahdruid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahdruid-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1793, -- [11]
+			"Player-1303-0B929C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Rykahdruid|r",
+			[51] = 1604100544,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"Your time is nigh...", -- [1]
+			"Rykahdruid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahdruid-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1794, -- [11]
+			"Player-1303-0B929C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Rykahdruid|r",
+			[51] = 1604100546,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [94]
+		{
+			"You felt death once...", -- [1]
+			"Rykahdruid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahdruid-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1795, -- [11]
+			"Player-1303-0B929C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Rykahdruid|r",
+			[51] = 1604100548,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [95]
+		{
+			"Now, know demise!", -- [1]
+			"Rykahdruid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahdruid-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1797, -- [11]
+			"Player-1303-0B929C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Rykahdruid|r",
+			[51] = 1604100551,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9:Player-1303-0B9A558F:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Level 40]|h|r!", -- [1]
+			"Raydin-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Raydin-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1841, -- [11]
+			"Player-1303-0B9A558F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcRaydin|r",
+			[51] = 1604100805,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-1303-0B929C9D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
+			"Rykahdruid-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahdruid-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1849, -- [11]
+			"Player-1303-0B929C9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Rykahdruid|r",
+			[51] = 1604100822,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12502:Player-1303-0B65F877:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Underrot]|h|r!", -- [1]
+			"Quoll-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Quoll-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1872, -- [11]
+			"Player-1303-0B65F877", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeQuoll|r",
+			[51] = 1604101039,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 }

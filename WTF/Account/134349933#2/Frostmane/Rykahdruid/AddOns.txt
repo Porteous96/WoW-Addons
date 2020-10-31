@@ -43,7 +43,7 @@ MythicDungeonTools: disabled
 LootAppraiser_Challenge: disabled
 LootAppraiser: disabled
 PremadeGroupsFilter: disabled
-Rarity: disabled
+Rarity: enabled
 SimpleArmory: disabled
 Simulationcraft: disabled
 WorldQuestGroupFinder: disabled
@@ -53,3 +53,4 @@ WIT: disabled
 ElvUI_QuestXP: disabled
 LittleWigs: enabled
 Immersion: enabled
+Routes: disabled

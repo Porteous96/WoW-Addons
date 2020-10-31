@@ -1,98 +1,98 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0335,
+	["LastVersion"] = 2.0402,
+	["LastPlayerFullName"] = "Rykkahpo-Frostmane",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 160907,
-			["Level"] = 285,
-			["Link"] = "|cff0070dd|Hitem:160907::::::::120:260::11:1:4775:::|h[Cowl of the Champion]|h|r",
+			["Level"] = 63,
+			["Link"] = "|cff0070dd|Hitem:160907::::::::50:260::11:1:4775::::|h[Cowl of the Champion]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 284,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::120:260::11:4:4932:4933:4935:1476:::|h[Heart of Azeroth]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:260::11:4:4932:4933:4935:1472::::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 163655,
-			["Level"] = 280,
-			["Link"] = "|cff0070dd|Hitem:163655::::::::117:260::25:2:1472:4785:::|h[7th Legionnaire's Shoulderpads]|h|r",
+			["Level"] = 58,
+			["Link"] = "|cff0070dd|Hitem:163655::::::::50:260::25:2:1472:4785::::|h[7th Legionnaire's Shoulderpads]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 133452,
-			["Level"] = 244,
-			["Link"] = "|cff0070dd|Hitem:133452::::::::114:259:512:22:2:6424:6652:114:::|h[Robes of Summer Flame]|h|r",
+			["Level"] = 54,
+			["Link"] = "|cff0070dd|Hitem:133452::::::::50:260::22:2:6424:6652:1:9:47:::|h[Robes of Summer Flame]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 173512,
-			["Level"] = 410,
-			["Link"] = "|cff0070dd|Hitem:173512::::::::120:260::14:4:6412:6513:1467:4785:::|h[Grasp of the Insatiable Maw]|h|r",
+			["ID"] = 173815,
+			["Level"] = 76,
+			["Link"] = "|cff0070dd|Hitem:173815::::::::50:260::14:4:6412:6513:1470:4785::::|h[Girdle of the Insatiable Maw]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 165444,
-			["Level"] = 355,
-			["Link"] = "|cff0070dd|Hitem:165444::::::::120:260::3:3:5124:1472:4785:::|h[Darkwood Sentinel's Breeches]|h|r",
+			["ID"] = 143987,
+			["Level"] = 59,
+			["Link"] = "|cff0070dd|Hitem:143987::::::::50:260::22:2:6424:6652:1:9:49:::|h[Leggings of Whispered Dreams]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 173439,
-			["Level"] = 410,
-			["Link"] = "|cff0070dd|Hitem:173439::::::::120:260::14:4:6412:6513:1467:4785:::|h[Footpads of the Insatiable Maw]|h|r",
+			["Level"] = 76,
+			["Link"] = "|cff0070dd|Hitem:173439::::::::50:260::14:4:6412:6513:1470:4785::::|h[Footpads of the Insatiable Maw]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 124029,
-			["Level"] = 289,
-			["Link"] = "|cff0070dd|Hitem:124029::::::::118:260:512:22:2:6424:6652:118:::|h[Forestheart Bracers]|h|r",
+			["Level"] = 59,
+			["Link"] = "|cff0070dd|Hitem:124029::::::::50:260::22:2:6424:6652:1:9:49:::|h[Forestheart Bracers]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 129080,
-			["Level"] = 142,
-			["Link"] = "|cff0070dd|Hitem:129080::::::::104:259:512::1:1794:99:::|h[Alpha Seal Handwraps]|h|r",
+			["Level"] = 45,
+			["Link"] = "|cff0070dd|Hitem:129080::::::::50:260:::1:1794:1:9:39:::|h[Alpha Seal Handwraps]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 128173,
-			["Level"] = 284,
+			["Level"] = 58,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff00ccff|Hitem:128173::::::::119:260:::1:3592:::|h[Admiral Taylor's Loyalty Ring]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128173::::::::50:260:::1:3592::::|h[Admiral Taylor's Loyalty Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 128173,
-			["Level"] = 284,
+			["ID"] = 133454,
+			["Level"] = 52,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff00ccff|Hitem:128173::::::::120:260:::1:3592:::|h[Admiral Taylor's Loyalty Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:133454::::::::50:260::22:2:6424:6652:1:9:46:::|h[Band of Celerity]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 128959,
-			["Level"] = 139,
+			["Level"] = 44,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:128959::::::::104:259::11::::|h[Seal of House Wrynn]|h|r",
+			["Link"] = "|cff0070dd|Hitem:128959::::::::50:260::11:::::|h[Seal of House Wrynn]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 128959,
-			["Level"] = 139,
+			["ID"] = 132964,
+			["Level"] = 43,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:128959::::::::105:259::11::::|h[Seal of House Wrynn]|h|r",
+			["Link"] = "|cff1eff00|Hitem:132964::::::::50:260::11:1:767:1:9:39:::|h[Stellagosa's Breath]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 166758,
-			["Level"] = 355,
-			["Link"] = "|cff0070dd|Hitem:166758::::::::120:260::3:4:5124:4802:1472:4785:::|h[Moonpriest's Cloak]|h|r",
+			["Level"] = 60,
+			["Link"] = "|cff0070dd|Hitem:166758::::::::50:260::3:4:5124:4802:1472:4785::::|h[Moonpriest's Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 124030,
-			["Level"] = 425,
+			["Level"] = 82,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:124030::::::::120:260:512:22:2:6424:6652:120:::|h[The Bladefist]|h|r",
+			["Link"] = "|cff0070dd|Hitem:124030::::::::50:260::22:2:6424:6652:1:9:50:::|h[The Bladefist]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 127447,
-			["Level"] = 266,
+			["Level"] = 57,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff0070dd|Hitem:127447::::::::117:260:512:22:2:6424:6652:116:::|h[Latro's Shifting Sword]|h|r",
+			["Link"] = "|cff0070dd|Hitem:127447::::::::50:260::22:2:6424:6652:1:9:48:::|h[Latro's Shifting Sword]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Rykkahpo-Frostmane",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

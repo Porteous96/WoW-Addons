@@ -55,7 +55,7 @@ AAP-Vanilla: disabled
 InstanceAchievementTracker: disabled
 InstanceAutoMarker: disabled
 SimpleArmory: disabled
-Rarity: disabled
+Rarity: enabled
 WIT: disabled
 LucidNightmareHelper: disabled
 AdvancedInterfaceOptions: enabled
@@ -117,7 +117,7 @@ LibGroupInSpecT-1.1: enabled
 MythicDungeonTools: disabled
 Postal: enabled
 PremadeGroupsFilter: disabled
-Rarity_Options: disabled
+Rarity_Options: enabled
 Routes: disabled
 TellMeWhen: enabled
 TellMeWhen_Options: enabled

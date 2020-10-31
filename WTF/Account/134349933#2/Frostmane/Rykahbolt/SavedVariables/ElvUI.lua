@@ -1,1404 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"use it in your combustion where you would have scorched before", -- [1]
-		"yeah its hard to tell if some thing feels good when you see others doing 2x your dps", -- [2]
-		"did you find yourself having to wait for quest mobs when levelling much?", -- [3]
-		"/i spider is bonus boss", -- [4]
-		"/i not needed", -- [5]
-		"/i yeah i dont doubt it", -- [6]
-		"75% to go", -- [7]
-		"just joined a dungeon who only had last boss left", -- [8]
-		"and got the random dungeon bonus lol", -- [9]
-		"like 40% of a level", -- [10]
-		"/i wtf is this arcane explosion shit", -- [11]
-		"/i it doesnt do that at max level :p", -- [12]
-		"/i trust me", -- [13]
-		"/i but that dont mean im not jealous", -- [14]
-		"/g dong", -- [15]
-		"/i gz", -- [16]
-		"/played", -- [17]
-		"/g gz", -- [18]
-		"/g ready for it?", -- [19]
-		"/g ayy", -- [20]
+		"/g ayy", -- [1]
+		"/aap", -- [2]
+		"/o i always found it weird", -- [3]
+		"/o like we're putting them on some sort of probation period", -- [4]
+		"/s you need to taunt", -- [5]
+		"/i ?", -- [6]
+		"/i same mate", -- [7]
+		"/i think so", -- [8]
+		"/i im like freshly dinged", -- [9]
+		"/i but you generate very little aggro", -- [10]
+		"/i try taunt on cd", -- [11]
+		"/i lets get it this time", -- [12]
+		"/o oh so he replies to you lol", -- [13]
+		"/i gj everyone", -- [14]
+		"/s :(", -- [15]
+		"/s i need this and chimera thing", -- [16]
+		"/s and they wont drop", -- [17]
+		"/s i wont ever used it", -- [18]
+		"/s just want it", -- [19]
+		"/s pls give blizz", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"yeah its hard to tell if some thing feels good when you see others doing 2x your dps", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3386, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaSly360xHmstr|r",
-			[51] = 1602977654,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Sly360xHmstr",
-		}, -- [1]
-		{
-			"yea", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3408, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaSly360xHmstr|r",
-			[51] = 1602977665,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Sly360xHmstr",
-		}, -- [2]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12831:Player-1303-0B603F93:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Freehold]|h|r!", -- [1]
-			"Uthersun-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Uthersun-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3732, -- [11]
-			"Player-1303-0B603F93", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Uthersun|r",
-			[51] = 1602978073,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
-		{
-			"Details!: Damage Done for Twin Peaks [0:05 EF]", -- [1]
-			"Popthelight-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3762, -- [11]
-			"Player-1303-0B664226", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Popthelight|r",
-			[51] = 1602978258,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
-		{
-			"1. Tarkanvekurt .. 7.5K (1.5k, 17.8%)", -- [1]
-			"Popthelight-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3763, -- [11]
-			"Player-1303-0B664226", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Popthelight|r",
-			[51] = 1602978258,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [5]
-		{
-			"2. Kungfumoo ... 6.6K (1.3k, 15.7%)", -- [1]
-			"Popthelight-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3764, -- [11]
-			"Player-1303-0B664226", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Popthelight|r",
-			[51] = 1602978258,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [6]
-		{
-			"3. Guojing .......... 5.3K (1.1k, 12.7%)", -- [1]
-			"Popthelight-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3765, -- [11]
-			"Player-1303-0B664226", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Popthelight|r",
-			[51] = 1602978258,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
-		{
-			"4. Piciboszi ........ 5.1K (1.0k, 12.1%)", -- [1]
-			"Popthelight-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3766, -- [11]
-			"Player-1303-0B664226", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Popthelight|r",
-			[51] = 1602978258,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
-		{
-			"5. Makiø ............. 5.0K (1000, 12.0%)", -- [1]
-			"Popthelight-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3767, -- [11]
-			"Player-1303-0B664226", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Popthelight|r",
-			[51] = 1602978259,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9130:Player-1303-0B6621BC:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[A Rare Friend]|h|r!", -- [1]
-			"Rykahbolt-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahbolt-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3797, -- [11]
-			"Player-1303-0B6621BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edRykahbolt|r",
-			[51] = 1602978365,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [10]
-		{
-			"did you find yourself having to wait for quest mobs when levelling much?", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3891, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Sly360xHmstr|r",
-			[51] = 1602978932,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Sly360xHmstr",
-		}, -- [11]
-		{
-			"rarely ", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3896, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Sly360xHmstr|r",
-			[51] = 1602978952,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Sly360xHmstr",
-		}, -- [12]
-		{
-			"we need the spider", -- [1]
-			"Enestar-DunModr", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Enestar-DunModr", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3903, -- [11]
-			"Player-1378-0A72BCF4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Enestar-DunModr|r",
-			[51] = 1602978961,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"usually there was always some or hordes would gank me ", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3904, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Sly360xHmstr|r",
-			[51] = 1602978969,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Sly360xHmstr",
-		}, -- [14]
-		{
-			"we dont", -- [1]
-			"Samdroid-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Samdroid-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3905, -- [11]
-			"Player-1402-09853FE5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cSamdroid-Turalyon|r",
-			[51] = 1602978972,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [15]
-		{
-			"k ok", -- [1]
-			"Enestar-DunModr", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Enestar-DunModr", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3908, -- [11]
-			"Player-1378-0A72BCF4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Enestar-DunModr|r",
-			[51] = 1602978978,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
-		{
-			"ah i dont have wm on cause you said it was bad", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3910, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Sly360xHmstr|r",
-			[51] = 1602978991,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Sly360xHmstr",
-		}, -- [17]
-		{
-			"it is, but its still worth", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3911, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Sly360xHmstr|r",
-			[51] = 1602979006,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Sly360xHmstr",
-		}, -- [18]
-		{
-			"wait wl?", -- [1]
-			"Lightally-GrimBatol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lightally-GrimBatol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3913, -- [11]
-			"Player-1303-0B8C52C5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Lightally-GrimBatol|r",
-			[51] = 1602979025,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
-		{
-			"u get tilted but in the long run u lvl faster 100%", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3915, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Sly360xHmstr|r",
-			[51] = 1602979026,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Sly360xHmstr",
-		}, -- [20]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:646:Player-1303-0B886BBA:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Stratholme]|h|r!", -- [1]
-			"Jeanny-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jeanny-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3919, -- [11]
-			"Player-1303-0B886BBA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edJeanny|r",
-			[51] = 1602979042,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [21]
-		{
-			"spider is bonus boss", -- [1]
-			"Rykahbolt-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahbolt-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3920, -- [11]
-			"Player-1303-0B6621BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edRykahbolt|r",
-			[51] = 1602979047,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
-		{
-			"not needed", -- [1]
-			"Rykahbolt-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahbolt-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3921, -- [11]
-			"Player-1303-0B6621BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edRykahbolt|r",
-			[51] = 1602979051,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9044:Player-1303-0B6621BC:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[The Everbloom]|h|r!", -- [1]
-			"Rykahbolt-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahbolt-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3936, -- [11]
-			"Player-1303-0B6621BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edRykahbolt|r",
-			[51] = 1602979112,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [24]
-		{
-			"gg", -- [1]
-			"Enestar-DunModr", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Enestar-DunModr", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3942, -- [11]
-			"Player-1378-0A72BCF4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Enestar-DunModr|r",
-			[51] = 1602979118,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
-		{
-			"yeah i dont doubt it", -- [1]
-			"Rykahbolt-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahbolt-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3948, -- [11]
-			"Player-1303-0B6621BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edRykahbolt|r",
-			[51] = 1602979126,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
-		{
-			"75% to go", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3955, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Sly360xHmstr|r",
-			[51] = 1602979160,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Sly360xHmstr",
-		}, -- [27]
-		{
-			"just joined a dungeon who only had last boss left", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3956, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Sly360xHmstr|r",
-			[51] = 1602979171,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Sly360xHmstr",
-		}, -- [28]
-		{
-			"and got the random dungeon bonus lol", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3957, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Sly360xHmstr|r",
-			[51] = 1602979178,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Sly360xHmstr",
-		}, -- [29]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6458:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Guardians of Mogu'shan]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3958, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602979182,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
-		{
-			"like 40% of a level", -- [1]
-			"|Kq39|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3959, -- [11]
-			false, -- [12]
-			105, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Sly360xHmstr|r",
-			[51] = 1602979183,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Sly360xHmstr",
-		}, -- [31]
-		{
-			"ffs", -- [1]
-			"Mylaena-Outland", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mylaena-Outland", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3963, -- [11]
-			"Player-1301-0B8E1ECE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Mylaena-Outland|r",
-			[51] = 1602979227,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10461:Player-1303-0B6F1577:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Fighting with Style: Classic]|h|r!", -- [1]
-			"Skylie-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Skylie-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3999, -- [11]
-			"Player-1303-0B6F1577", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Skylie|r",
-			[51] = 1602979619,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6844:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[The Vault of Mysteries]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4024, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602979876,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12840:Player-1303-0B603F93:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Tol Dagor]|h|r!", -- [1]
-			"Uthersun-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Uthersun-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4055, -- [11]
-			"Player-1303-0B603F93", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Uthersun|r",
-			[51] = 1602979965,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [35]
-		{
-			"Daggerfall on Wheelchair", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4065, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980047,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
-		{
-			"re", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4068, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980075,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
-		{
-			"remember to focus the add", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4070, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980078,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
-		{
-			"add inc", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4072, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980123,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
-		{
-			"nvm ez", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4076, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980145,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6718:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[The Dread Approach]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4104, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602980360,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [41]
-		{
-			"wtf is this arcane explosion shit", -- [1]
-			"Rykahbolt-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahbolt-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4157, -- [11]
-			"Player-1303-0B6621BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edRykahbolt|r",
-			[51] = 1602980574,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
-		{
-			";))", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4158, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980577,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
-		{
-			"it doesnt do that at max level :p", -- [1]
-			"Rykahbolt-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahbolt-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4160, -- [11]
-			"Player-1303-0B6621BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edRykahbolt|r",
-			[51] = 1602980586,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
-		{
-			"trust me", -- [1]
-			"Rykahbolt-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahbolt-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4161, -- [11]
-			"Player-1303-0B6621BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edRykahbolt|r",
-			[51] = 1602980588,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
-		{
-			"yea ik", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4162, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980591,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
-		{
-			"broken while leveling tho", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4171, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980651,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
-		{
-			"lmao", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4172, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980651,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
-		{
-			"but that dont mean im not jealous", -- [1]
-			"Rykahbolt-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahbolt-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4173, -- [11]
-			"Player-1303-0B6621BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edRykahbolt|r",
-			[51] = 1602980651,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:6845:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Nightmare of Shek'zeer]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4174, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1602980651,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14782:Player-1303-0B603F93:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
-			"Uthersun-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Uthersun-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4175, -- [11]
-			"Player-1303-0B603F93", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Uthersun|r",
-			[51] = 1602980651,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
-		{
-			"xD", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4176, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980659,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
-		{
-			"DING ", -- [1]
-			"Uthersun-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4177, -- [11]
-			"Player-1303-0B603F93", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Uthersun|r",
-			[51] = 1602980661,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
-		{
-			"a little blit", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4178, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980663,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
-		{
-			"bit", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4179, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980664,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
-		{
-			"its okay to be", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4180, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980670,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
-		{
-			";)", -- [1]
-			"Wheelchair-Saurfang", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wheelchair-Saurfang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4181, -- [11]
-			"Player-633-0A751297", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
-			[51] = 1602980672,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
-		{
-			"dong", -- [1]
-			"Rykahbolt-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4182, -- [11]
-			"Player-1303-0B6621BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edRykahbolt|r",
-			[51] = 1602980681,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
-		{
-			"gz", -- [1]
-			"Jeanny-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4183, -- [11]
-			"Player-1303-0B886BBA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edJeanny|r",
-			[51] = 1602980687,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
-		{
-			"cheers", -- [1]
-			"Uthersun-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4184, -- [11]
-			"Player-1303-0B603F93", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Uthersun|r",
-			[51] = 1602980694,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
-		{
-			"50", -- [1]
-			"Uthersun-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4185, -- [11]
-			"Player-1303-0B603F93", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Uthersun|r",
-			[51] = 1602980695,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
-		{
-			":)", -- [1]
-			"Uthersun-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4186, -- [11]
-			"Player-1303-0B603F93", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Uthersun|r",
-			[51] = 1602980697,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
 		{
 			"toook so long to gain 5 lvls ugg ugg", -- [1]
 			"Uthersun-Frostmane", -- [2]
@@ -1420,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Uthersun|r",
 			[51] = 1602980707,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [1]
 		{
 			"ops", -- [1]
 			"Boraleus-Ravencrest", -- [2]
@@ -1442,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Boraleus-Ravencrest|r",
 			[51] = 1602980718,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [2]
 		{
 			"fk", -- [1]
 			"Wheelchair-Saurfang", -- [2]
@@ -1464,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
 			[51] = 1602980719,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [3]
 		{
 			"^^", -- [1]
 			"Jeanny-Frostmane", -- [2]
@@ -1486,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edJeanny|r",
 			[51] = 1602980720,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [4]
 		{
 			"god damn", -- [1]
 			"Boraleus-Ravencrest", -- [2]
@@ -1508,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Boraleus-Ravencrest|r",
 			[51] = 1602980830,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [5]
 		{
 			"if u die just release", -- [1]
 			"Wheelchair-Saurfang", -- [2]
@@ -1530,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
 			[51] = 1602980833,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [6]
 		{
 			"omw", -- [1]
 			"Fourx-Ravencrest", -- [2]
@@ -1552,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edFourx-Ravencrest|r",
 			[51] = 1602980841,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [7]
 		{
 			"why pull", -- [1]
 			"Wheelchair-Saurfang", -- [2]
@@ -1574,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
 			[51] = 1602980901,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [8]
 		{
 			"when tanks not here", -- [1]
 			"Wheelchair-Saurfang", -- [2]
@@ -1596,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
 			[51] = 1602980905,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [9]
 		{
 			"._.", -- [1]
 			"Wheelchair-Saurfang", -- [2]
@@ -1618,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
 			[51] = 1602980906,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [10]
 		{
 			"dinged", -- [1]
 			"Boraleus-Ravencrest", -- [2]
@@ -1640,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Boraleus-Ravencrest|r",
 			[51] = 1602980925,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [11]
 		{
 			"got new talent", -- [1]
 			"Boraleus-Ravencrest", -- [2]
@@ -1662,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Boraleus-Ravencrest|r",
 			[51] = 1602980927,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
+		}, -- [12]
 		{
 			"sorry for slow movement", -- [1]
 			"Boraleus-Ravencrest", -- [2]
@@ -1684,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Boraleus-Ravencrest|r",
 			[51] = 1602980930,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [13]
 		{
 			"nw", -- [1]
 			"Wheelchair-Saurfang", -- [2]
@@ -1706,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWheelchair-Saurfang|r",
 			[51] = 1602980933,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [14]
 		{
 			"gz", -- [1]
 			"Rykahbolt-Frostmane", -- [2]
@@ -1728,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRykahbolt|r",
 			[51] = 1602980937,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [15]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9041:Player-1303-0B6621BC:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Shadowmoon Burial Grounds]|h|r!", -- [1]
 			"Rykahbolt-Frostmane", -- [2]
@@ -1750,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRykahbolt|r",
 			[51] = 1602981050,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [16]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12483:Player-1303-0B886BBA:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Waycrest Manor]|h|r!", -- [1]
 			"Jeanny-Frostmane", -- [2]
@@ -1772,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edJeanny|r",
 			[51] = 1602981161,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8458:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Vale of Eternal Sorrows]|h|r!", -- [1]
 			"Aphinia-Frostmane", -- [2]
@@ -1794,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Aphinia|r",
 			[51] = 1602981230,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6725:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Imperial Vizier Zor'lok]|h|r!", -- [1]
 			"Aphinia-Frostmane", -- [2]
@@ -1816,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Aphinia|r",
 			[51] = 1602981623,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6726:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Blade Lord Ta'yak]|h|r!", -- [1]
 			"Aphinia-Frostmane", -- [2]
@@ -1838,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Aphinia|r",
 			[51] = 1602981683,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14782:Player-1303-0B5FD712:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
 			"Wuckinfarloc-Frostmane", -- [2]
@@ -1860,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edWuckinfarloc|r",
 			[51] = 1602981743,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6727:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Garalon]|h|r!", -- [1]
 			"Aphinia-Frostmane", -- [2]
@@ -1882,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Aphinia|r",
 			[51] = 1602981799,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [22]
 		{
 			"rIGHT IM READY", -- [1]
 			"Wuckinfarloc-Frostmane", -- [2]
@@ -1904,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edWuckinfarloc|r",
 			[51] = 1602981820,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [23]
 		{
 			"lets go do some stuffies", -- [1]
 			"Wuckinfarloc-Frostmane", -- [2]
@@ -1926,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edWuckinfarloc|r",
 			[51] = 1602981831,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6683:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Less Than Three]|h|r!", -- [1]
 			"Aphinia-Frostmane", -- [2]
@@ -1948,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Aphinia|r",
 			[51] = 1602981844,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6728:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Wind Lord Mel'jarak]|h|r!", -- [1]
 			"Aphinia-Frostmane", -- [2]
@@ -1970,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Aphinia|r",
 			[51] = 1602981844,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [26]
 		{
 			"gz", -- [1]
 			"Rykahbolt-Frostmane", -- [2]
@@ -1992,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRykahbolt|r",
 			[51] = 1602981846,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [27]
 		{
 			"ty ty", -- [1]
 			"Wuckinfarloc-Frostmane", -- [2]
@@ -2014,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edWuckinfarloc|r",
 			[51] = 1602981873,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [28]
 		{
 			"ready for it?", -- [1]
 			"Rykahbolt-Frostmane", -- [2]
@@ -2036,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRykahbolt|r",
 			[51] = 1602981911,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14782:Player-1303-0B6621BC:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
 			"Rykahbolt-Frostmane", -- [2]
@@ -2058,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRykahbolt|r",
 			[51] = 1602981916,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
+		}, -- [30]
 		{
 			"ayy", -- [1]
 			"Rykahbolt-Frostmane", -- [2]
@@ -2080,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRykahbolt|r",
 			[51] = 1602981919,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [31]
 		{
 			"gz gz", -- [1]
 			"Wuckinfarloc-Frostmane", -- [2]
@@ -2102,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edWuckinfarloc|r",
 			[51] = 1602981953,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6729:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Amber-Shaper Un'sok]|h|r!", -- [1]
 			"Aphinia-Frostmane", -- [2]
@@ -2124,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Aphinia|r",
 			[51] = 1602981974,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [33]
 		{
 			"oooff", -- [1]
 			"Wuckinfarloc-Frostmane", -- [2]
@@ -2146,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edWuckinfarloc|r",
 			[51] = 1602981999,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [34]
 		{
 			"2 i lvl short to Queue for herpoic dungeons", -- [1]
 			"Wuckinfarloc-Frostmane", -- [2]
@@ -2168,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edWuckinfarloc|r",
 			[51] = 1602982009,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [35]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6730:Player-1303-0B815C5D:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Grand Empress Shek'zeer]|h|r!", -- [1]
 			"Aphinia-Frostmane", -- [2]
@@ -2190,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Aphinia|r",
 			[51] = 1602982036,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [36]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14014:Player-1303-0B6621BC:1:10:18:20:4294967295:4294967295:4294967295:4294967295|h[Heritage of the Mechagnome]|h|r!", -- [1]
 			"Rykahbolt-Frostmane", -- [2]
@@ -2212,6 +836,1370 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRykahbolt|r",
 			[51] = 1602982039,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [37]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13726:Player-1303-0B699107:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Abyssal Commander Sivara]|h|r!", -- [1]
+			"Bacard-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bacard-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1879, -- [11]
+			"Player-1303-0B699107", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Bacard|r",
+			[51] = 1604101215,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [38]
+		{
+			"Horseman rise...", -- [1]
+			"Buracobama-Aggra(Português)", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Buracobama-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1889, -- [11]
+			"Player-1303-06E8F341", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Buracobama-Aggra(Português)|r",
+			[51] = 1604101256,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [39]
+		{
+			"Your time is nigh...", -- [1]
+			"Buracobama-Aggra(Português)", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Buracobama-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1890, -- [11]
+			"Player-1303-06E8F341", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Buracobama-Aggra(Português)|r",
+			[51] = 1604101258,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [40]
+		{
+			"You felt death once...", -- [1]
+			"Buracobama-Aggra(Português)", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Buracobama-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1891, -- [11]
+			"Player-1303-06E8F341", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Buracobama-Aggra(Português)|r",
+			[51] = 1604101260,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [41]
+		{
+			"Now, know demise!", -- [1]
+			"Buracobama-Aggra(Português)", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Buracobama-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1893, -- [11]
+			"Player-1303-06E8F341", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Buracobama-Aggra(Português)|r",
+			[51] = 1604101263,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [42]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12313:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Unbroken]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1895, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604101270,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [43]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12316:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Shutout]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1896, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604101270,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [44]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12321:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[A Quick Shave]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1917, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604101431,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [45]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12325:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Stokin' the Furnace]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1924, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604101476,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [46]
+		{
+			"?", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1938, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604101529,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [47]
+		{
+			"im so confused.", -- [1]
+			"Buracobama-Aggra(Português)", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Buracobama-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1939, -- [11]
+			"Player-1303-06E8F341", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Buracobama-Aggra(Português)|r",
+			[51] = 1604101534,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [48]
+		{
+			"same mate", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1942, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604101539,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [49]
+		{
+			"do we do no damage", -- [1]
+			"Buracobama-Aggra(Português)", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Buracobama-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1943, -- [11]
+			"Player-1303-06E8F341", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Buracobama-Aggra(Português)|r",
+			[51] = 1604101541,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [50]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12297:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[The Siege of Ulduar]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1945, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604101546,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [51]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12326:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Nerf Engineering]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1946, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604101546,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [52]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12328:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Nerf Gravity Bombs]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1947, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604101546,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [53]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12329:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Must Deconstruct Faster]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1948, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604101546,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [54]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12330:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Heartbreaker]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1949, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604101546,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [55]
+		{
+			"think so", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1951, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604101548,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [56]
+		{
+			"im like freshly dinged", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1952, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604101551,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [57]
+		{
+			"but you generate very little aggro", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1953, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604101559,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [58]
+		{
+			"try taunt on cd", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1954, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604101567,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [59]
+		{
+			"Horseman rise...", -- [1]
+			"Moelinhas-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Moelinhas-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1955, -- [11]
+			"Player-1303-0B91593C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Moelinhas-GrimBatol|r",
+			[51] = 1604101571,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [60]
+		{
+			"Your time is nigh...", -- [1]
+			"Moelinhas-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Moelinhas-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1956, -- [11]
+			"Player-1303-0B91593C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Moelinhas-GrimBatol|r",
+			[51] = 1604101573,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [61]
+		{
+			"You felt death once...", -- [1]
+			"Moelinhas-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Moelinhas-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1957, -- [11]
+			"Player-1303-0B91593C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Moelinhas-GrimBatol|r",
+			[51] = 1604101575,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [62]
+		{
+			"Now, know demise!", -- [1]
+			"Moelinhas-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Moelinhas-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1959, -- [11]
+			"Player-1303-0B91593C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Moelinhas-GrimBatol|r",
+			[51] = 1604101578,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [63]
+		{
+			"lets get it this time", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1960, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604101578,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [64]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12334:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[I Choose You, Steelbreaker]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1966, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604101655,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [65]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:255:Player-1303-0B6621BC:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Bring Me The Head of... Oh Wait]|h|r!", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1977, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604101787,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [66]
+		{
+			"gj everyone", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1987, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604101792,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [67]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:979:Player-1303-0B6621BC:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[The Mask Task]|h|r!", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1997, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604101795,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [68]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12399:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Observed]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2050, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102015,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [69]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14157:Player-1303-0B868EFF:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[The Corruptor's End]|h|r!", -- [1]
+			"Nikxes-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nikxes-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2062, -- [11]
+			"Player-1303-0B868EFF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Nikxes|r",
+			[51] = 1604102049,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [70]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12337:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[With Open Arms]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2068, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102067,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [71]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12339:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[If Looks Could Kill]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2069, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102067,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [72]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12343:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Cheese the Freeze]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2084, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102179,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [73]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12344:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[I Have the Coolest Friends]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2085, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102179,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [74]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12345:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Getting Cold in Here]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2086, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102179,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [75]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12347:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[I Could Say That This Cache Was Rare]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2087, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102179,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [76]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-1303-0B6621BC:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2099, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604102193,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [77]
+		{
+			"yes :D", -- [1]
+			"Diadalus-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Diadalus-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2114, -- [11]
+			"Player-3391-0B1233A9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Diadalus-Silvermoon|r",
+			[51] = 1604102241,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [78]
+		{
+			":(", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2115, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604102249,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [79]
+		{
+			"i need this and chimera thing", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2116, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604102258,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [80]
+		{
+			"and they wont drop", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2117, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604102261,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [81]
+		{
+			"i want the bear so bad", -- [1]
+			"Flynnloque-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Flynnloque-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2118, -- [11]
+			"Player-3391-0A202605", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Flynnloque-Silvermoon|r",
+			[51] = 1604102269,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [82]
+		{
+			"this is my last what ı need on darkshore and arathi :D", -- [1]
+			"Diadalus-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Diadalus-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2119, -- [11]
+			"Player-3391-0B1233A9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Diadalus-Silvermoon|r",
+			[51] = 1604102273,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"i wont ever used it", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2120, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604102275,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [84]
+		{
+			"ı am done now :D", -- [1]
+			"Diadalus-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Diadalus-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2121, -- [11]
+			"Player-3391-0B1233A9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Diadalus-Silvermoon|r",
+			[51] = 1604102277,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [85]
+		{
+			"just want it ", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2122, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604102280,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [86]
+		{
+			"pls give blizz", -- [1]
+			"Rykahbolt-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rykahbolt-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2123, -- [11]
+			"Player-1303-0B6621BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edRykahbolt|r",
+			[51] = 1604102285,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [87]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12351:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Siffed]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2125, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102320,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [88]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12349:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[I'll Take You All On]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2126, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102323,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [89]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12348:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Don't Stand in the Lightning]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2127, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102323,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [90]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12352:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Lose Your Illusion]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2128, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102323,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [91]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12302:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[The Antechamber of Ulduar]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2129, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102369,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [92]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12363:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Getting Back to Nature]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2133, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102493,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12364:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Knock on Wood]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2134, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102493,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12365:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Knock, Knock on Wood]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2135, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102493,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12366:Player-1303-0B815C5D:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Knock, Knock, Knock on Wood]|h|r!", -- [1]
+			"Aphinia-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aphinia-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2136, -- [11]
+			"Player-1303-0B815C5D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Aphinia|r",
+			[51] = 1604102493,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [96]
+		{
+			"prepare for trouble", -- [1]
+			"Ninjafish-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ninjafish-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2226, -- [11]
+			"Player-1303-0B8F2A93", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ninjafish-GrimBatol|r",
+			[51] = 1604102575,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"Anyone for The Hivemind? I got all 4 monocles.", -- [1]
+			"Lasso-GrimBatol", -- [2]
+			"", -- [3]
+			"1. General - Boralus Harbor", -- [4]
+			"Lasso-GrimBatol", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Boralus Harbor", -- [9]
+			0, -- [10]
+			2243, -- [11]
+			"Player-1303-000AA688", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaLasso-GrimBatol|r",
+			[51] = 1604102592,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Make it double", -- [1]
+			"Keledris-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Keledris-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2249, -- [11]
+			"Player-1303-0B8ADF0D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Keledris|r",
+			[51] = 1604102599,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 }

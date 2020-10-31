@@ -1,16 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			["boss"] = "Exarch Maladaar",
-		}, -- [1]
-		{
-			["boss"] = "Shirrak the Dead Watcher",
-		}, -- [2]
-		{
-			["boss"] = "Shirrak the Dead Watcher",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[55964] = {
 			["school"] = 1,
@@ -772,22 +761,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Auchenai Vindicator",
 		},
-		[32424] = {
-			["school"] = 1,
+		[30914] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Exarch Maladaar",
+			["source"] = "Unknown",
 		},
-		[32422] = {
+		[17399] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Exarch Maladaar",
+			["source"] = "Balnazzar",
 		},
 		[151681] = {
 			["school"] = 1,
@@ -807,13 +796,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rune Weapon",
 		},
-		[32302] = {
-			["school"] = 4,
+		[149955] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Focus Fire",
+			["source"] = "Executioner Gore",
 		},
 		[30926] = {
 			["school"] = 4,
@@ -830,22 +823,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Healing Stream Totem",
 		},
-		[152757] = {
-			["school"] = 1,
+		[150025] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guardian of the Deep",
+			["source"] = "Restorative Waters",
 		},
-		[149886] = {
-			["school"] = 32,
+		[31901] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Domina",
+			["source"] = "Omor the Unscarred",
 		},
 		[149865] = {
 			["school"] = 1,
@@ -876,19 +868,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Omor the Unscarred",
 		},
-		[30643] = {
-			["school"] = 2,
+		[16856] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Hellfire Watcher",
+			["source"] = "Bonechewer Destroyer",
 		},
-		[149920] = {
+		[76583] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guardian of the Deep",
+			["source"] = "Risen Monk",
 		},
 		[30707] = {
 			["school"] = 32,
@@ -915,6 +911,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Maker",
 		},
+		[150377] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Twilight Disciple",
+		},
+		[150634] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Subjugator Kor'ul",
+		},
+		[9672] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skeletal Guardian",
+		},
+		[58840] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Stolen Soul",
+		},
 		[151269] = {
 			["school"] = 8,
 			["token"] = {
@@ -923,46 +958,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aku'mai the Venomous",
 		},
-		[149869] = {
+		[151813] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ghamoo-Ra",
-		},
-		[151267] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Aku'mai the Venomous",
-		},
-		[152417] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Deep Terror",
-		},
-		[32265] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Shirrak the Dead Watcher",
-		},
-		[151303] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Aku'mai the Devourer",
+			["source"] = "Twilight Lord Bathiel",
 		},
 		[17228] = {
 			["school"] = 32,
@@ -972,20 +975,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Keli'dan the Breaker",
 		},
-		[22858] = {
+		[1604] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Watchkeeper Gargolmar",
+			["source"] = "Guardian Hatchling",
 		},
-		[110762] = {
+		[152417] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Willey Hopebreaker",
+			["source"] = "Deep Terror",
 		},
 		[151684] = {
 			["school"] = 8,
@@ -1005,22 +1010,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Malor",
 		},
-		[1604] = {
+		[22858] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guardian Hatchling",
+			["source"] = "Watchkeeper Gargolmar",
 		},
-		[13704] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[86727] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Balnazzar",
+			["source"] = "Randolph Moloch",
 		},
 		[11975] = {
 			["school"] = 64,
@@ -1042,12 +1044,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Overheat",
 		},
-		[30637] = {
+		[150543] = {
 			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Omor the Unscarred",
+			["source"] = "Twilight Shadowmage",
+		},
+		[30913] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Broggok",
 		},
 		[17405] = {
 			["school"] = 64,
@@ -1059,29 +1071,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Balnazzar",
 		},
-		[30913] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Broggok",
-		},
-		[150543] = {
+		[30637] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Twilight Shadowmage",
+			["source"] = "Omor the Unscarred",
 		},
-		[86727] = {
-			["school"] = 1,
+		[13704] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Randolph Moloch",
+			["source"] = "Balnazzar",
 		},
 		[86729] = {
 			["school"] = 1,
@@ -1091,53 +1095,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Randolph Moloch",
 		},
-		[151813] = {
+		[151303] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Aku'mai the Devourer",
+		},
+		[110762] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Willey Hopebreaker",
+		},
+		[32265] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shirrak the Dead Watcher",
+		},
+		[149869] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Twilight Lord Bathiel",
+			["source"] = "Ghamoo-Ra",
 		},
-		[58840] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Stolen Soul",
-		},
-		[9672] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Skeletal Guardian",
-		},
-		[150634] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Subjugator Kor'ul",
-		},
-		[150377] = {
+		[151267] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Twilight Disciple",
+			["source"] = "Aku'mai the Venomous",
 		},
 		[16798] = {
 			["school"] = 32,
@@ -1149,68 +1145,72 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hearthsinger Forresten",
 		},
-		[76583] = {
+		[149920] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Risen Monk",
+			["source"] = "Guardian of the Deep",
 		},
-		[16856] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[30643] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Bonechewer Destroyer",
+			["source"] = "Hellfire Watcher",
 		},
-		[31901] = {
-			["school"] = 1,
+		[149886] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Omor the Unscarred",
+			["source"] = "Domina",
 		},
-		[150025] = {
-			["school"] = 16,
+		[152757] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Guardian of the Deep",
+		},
+		[32302] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Restorative Waters",
+			["source"] = "Focus Fire",
 		},
-		[149955] = {
+		[32422] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Executioner Gore",
-		},
-		[17399] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Balnazzar",
+			["source"] = "Exarch Maladaar",
 		},
-		[30914] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[32424] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Exarch Maladaar",
 		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Exarch Maladaar",
+		}, -- [1]
+		{
+			["boss"] = "Shirrak the Dead Watcher",
+		}, -- [2]
+		{
+			["boss"] = "Shirrak the Dead Watcher",
+		}, -- [3]
 	},
 }

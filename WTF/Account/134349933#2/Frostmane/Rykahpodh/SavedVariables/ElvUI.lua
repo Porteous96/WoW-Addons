@@ -1,138 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cw Yoëll-ArgentDawn inv", -- [1]
-		"/raid yuh", -- [2]
-		"/raid :)", -- [3]
-		"/g pog", -- [4]
-		"/g sly will hate you", -- [5]
-		"/g yeah he told me", -- [6]
-		"/g he was crying", -- [7]
-		"/g poor guy", -- [8]
-		"/raid pls le no kick bonjour", -- [9]
-		"are you buying a levelling boost? :o", -- [10]
-		"aw but freehold?", -- [11]
-		"our jaina runs were the worst shit ever", -- [12]
-		"finished an hour and 15 mins late", -- [13]
-		"people not knowing any tacs and doing ass dps", -- [14]
-		"rcu", -- [15]
-		"leader had to replace so many people", -- [16]
-		"i've never had any issues with them at all", -- [17]
-		"yeh think that was the problem", -- [18]
-		"there's like 6 runs on a friday and it was the last 2", -- [19]
-		"so probs just a bad balance of where mains are", -- [20]
+		"/g pog", -- [1]
+		"/g sly will hate you", -- [2]
+		"/g yeah he told me", -- [3]
+		"/g he was crying", -- [4]
+		"/g poor guy", -- [5]
+		"/raid pls le no kick bonjour", -- [6]
+		"are you buying a levelling boost? :o", -- [7]
+		"aw but freehold?", -- [8]
+		"our jaina runs were the worst shit ever", -- [9]
+		"finished an hour and 15 mins late", -- [10]
+		"people not knowing any tacs and doing ass dps", -- [11]
+		"rcu", -- [12]
+		"leader had to replace so many people", -- [13]
+		"i've never had any issues with them at all", -- [14]
+		"yeh think that was the problem", -- [15]
+		"there's like 6 runs on a friday and it was the last 2", -- [16]
+		"so probs just a bad balance of where mains are", -- [17]
+		"/tsm", -- [18]
+		"/o keeping a guild together is hard work though", -- [19]
+		"/o as im sure you know", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:31:Player-1303-0B88D634:1:10:16:20:4294967295:4294967295:4294967295:4294967295|h[A Simple Re-Quest]|h|r!", -- [1]
-			"Morndis-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Morndis-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1488, -- [11]
-			"Player-1303-0B88D634", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cMorndis|r",
-			[51] = 1602879411,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [1]
-		{
-			"pls le no kick bonjour", -- [1]
-			"Rykahpodh-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpodh-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1495, -- [11]
-			"Player-1303-0B673C46", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Rykahpodh|r",
-			[51] = 1602879412,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [2]
-		{
-			"ne pas interrompre.", -- [1]
-			"Electus-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Electus-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1498, -- [11]
-			"Player-2074-0648480B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Electus-EmeraldDream|r",
-			[51] = 1602879437,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [3]
-		{
-			"BUYERS PLEASE JUMP OFF AT PULL", -- [1]
-			"Yoëll-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Yoëll", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1499, -- [11]
-			"Player-3702-08A43129", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcYoëll-ArgentDawn|r",
-			[51] = 1602879446,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [4]
-		{
-			"ofc", -- [1]
-			"Katsitrixhs-Genjuros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Katsitrixhs-Genjuros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1507, -- [11]
-			"Player-3657-0A25E947", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Katsitrixhs-Genjuros|r",
-			[51] = 1602879513,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [5]
 		{
 			"after we hit the boss", -- [1]
 			"Katsitrixhs-Genjuros", -- [2]
@@ -154,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Katsitrixhs-Genjuros|r",
 			[51] = 1602879533,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [6]
+		}, -- [1]
 		{
 			"Avalanche (2{rt2}) on Hadoa", -- [1]
 			"Hadoa-Ravencrest", -- [2]
@@ -176,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hadoa-Ravencrest|r",
 			[51] = 1602879587,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
+		}, -- [2]
 		{
 			"Avalanche 1 on {rt1}Laddie{rt1}", -- [1]
 			"Laddie-ArgentDawn", -- [2]
@@ -198,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Laddie-ArgentDawn|r",
 			[51] = 1602879587,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
+		}, -- [3]
 		{
 			"~Ring of Ice (1) 0:52", -- [1]
 			"Paxiyi-DefiasBrotherhood", -- [2]
@@ -220,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcPaxiyi-DefiasBrotherhood|r",
 			[51] = 1602879587,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [9]
+		}, -- [4]
 		{
 			"Avalanche (3{rt3}) on Valerioth", -- [1]
 			"Valerioth-Magtheridon", -- [2]
@@ -242,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Valerioth-Magtheridon|r",
 			[51] = 1602879587,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
+		}, -- [5]
 		{
 			"Freezing in 3", -- [1]
 			"Laddie-ArgentDawn", -- [2]
@@ -264,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Laddie-ArgentDawn|r",
 			[51] = 1602879594,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [11]
+		}, -- [6]
 		{
 			"Freezing in 2", -- [1]
 			"Laddie-ArgentDawn", -- [2]
@@ -286,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Laddie-ArgentDawn|r",
 			[51] = 1602879595,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [12]
+		}, -- [7]
 		{
 			"Freezing in 1", -- [1]
 			"Laddie-ArgentDawn", -- [2]
@@ -308,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Laddie-ArgentDawn|r",
 			[51] = 1602879596,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [13]
+		}, -- [8]
 		{
 			"Avalanche (2{rt2}) on Hadoa", -- [1]
 			"Hadoa-Ravencrest", -- [2]
@@ -330,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hadoa-Ravencrest|r",
 			[51] = 1602879636,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
+		}, -- [9]
 		{
 			"Freezing in 3", -- [1]
 			"Ârkadïen-Dalaran", -- [2]
@@ -352,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ârkadïen-Dalaran|r",
 			[51] = 1602879637,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [15]
+		}, -- [10]
 		{
 			"Freezing in 2", -- [1]
 			"Ârkadïen-Dalaran", -- [2]
@@ -374,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ârkadïen-Dalaran|r",
 			[51] = 1602879638,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [16]
+		}, -- [11]
 		{
 			"Freezing in 3", -- [1]
 			"Dwarfcuarc-ScarshieldLegion", -- [2]
@@ -396,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dwarfcuarc-ScarshieldLegion|r",
 			[51] = 1602879642,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [17]
+		}, -- [12]
 		{
 			"Freezing in 2", -- [1]
 			"Dwarfcuarc-ScarshieldLegion", -- [2]
@@ -418,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dwarfcuarc-ScarshieldLegion|r",
 			[51] = 1602879643,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [18]
+		}, -- [13]
 		{
 			"perfecto", -- [1]
 			"Katsitrixhs-Genjuros", -- [2]
@@ -440,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Katsitrixhs-Genjuros|r",
 			[51] = 1602880013,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [19]
+		}, -- [14]
 		{
 			"grats!", -- [1]
 			"Ravairies-Silvermoon", -- [2]
@@ -462,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ravairies-Silvermoon|r",
 			[51] = 1602880019,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [20]
+		}, -- [15]
 		{
 			"treat it well", -- [1]
 			"Ravairies-Silvermoon", -- [2]
@@ -484,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ravairies-Silvermoon|r",
 			[51] = 1602880023,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [21]
+		}, -- [16]
 		{
 			"thnx a lot guys", -- [1]
 			"Katsitrixhs-Genjuros", -- [2]
@@ -506,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Katsitrixhs-Genjuros|r",
 			[51] = 1602880027,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [22]
+		}, -- [17]
 		{
 			"you are awsome", -- [1]
 			"Katsitrixhs-Genjuros", -- [2]
@@ -528,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Katsitrixhs-Genjuros|r",
 			[51] = 1602880034,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [23]
+		}, -- [18]
 		{
 			"<3", -- [1]
 			"Ravairies-Silvermoon", -- [2]
@@ -550,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ravairies-Silvermoon|r",
 			[51] = 1602880037,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [24]
+		}, -- [19]
 		{
 			"keep it up", -- [1]
 			"Katsitrixhs-Genjuros", -- [2]
@@ -572,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Katsitrixhs-Genjuros|r",
 			[51] = 1602880040,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [25]
+		}, -- [20]
 		{
 			"<3", -- [1]
 			"Katsitrixhs-Genjuros", -- [2]
@@ -594,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Katsitrixhs-Genjuros|r",
 			[51] = 1602880043,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [26]
+		}, -- [21]
 		{
 			"Casting |cff71d5ff|Hspell:50769:0|h[Revive]|h|r on Ârkadïen!", -- [1]
 			"Malheiro-Aggra(Português)", -- [2]
@@ -616,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Malheiro-Aggra(Português)|r",
 			[51] = 1602880044,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [27]
+		}, -- [22]
 		{
 			"Gz on mount bro", -- [1]
 			"Hadoa-Ravencrest", -- [2]
@@ -638,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hadoa-Ravencrest|r",
 			[51] = 1602880053,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [28]
+		}, -- [23]
 		{
 			"have a nice night ^_^", -- [1]
 			"Katsitrixhs-Genjuros", -- [2]
@@ -660,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Katsitrixhs-Genjuros|r",
 			[51] = 1602880065,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [29]
+		}, -- [24]
 		{
 			"BRO", -- [1]
 			"Yoëll-ArgentDawn", -- [2]
@@ -682,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYoëll-ArgentDawn|r",
 			[51] = 1602880068,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [30]
+		}, -- [25]
 		{
 			"LOOT", -- [1]
 			"Yoëll-ArgentDawn", -- [2]
@@ -704,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYoëll-ArgentDawn|r",
 			[51] = 1602880069,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [31]
+		}, -- [26]
 		{
 			":)", -- [1]
 			"Yoëll-ArgentDawn", -- [2]
@@ -726,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYoëll-ArgentDawn|r",
 			[51] = 1602880071,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [32]
+		}, -- [27]
 		{
 			"PLEASE", -- [1]
 			"Yoëll-ArgentDawn", -- [2]
@@ -748,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYoëll-ArgentDawn|r",
 			[51] = 1602880072,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [33]
+		}, -- [28]
 		{
 			"BISMILLAH", -- [1]
 			"Yoëll-ArgentDawn", -- [2]
@@ -770,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYoëll-ArgentDawn|r",
 			[51] = 1602880075,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [34]
+		}, -- [29]
 		{
 			"WTS M+ 15+ in time 80k /w for more info", -- [1]
 			"Hipócat-Frostmane", -- [2]
@@ -792,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hipócat|r",
 			[51] = 1602880085,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [30]
 		{
 			"LOOT CHEST", -- [1]
 			"Yoëll-ArgentDawn", -- [2]
@@ -814,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYoëll-ArgentDawn|r",
 			[51] = 1602880085,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [36]
+		}, -- [31]
 		{
 			"PLEASE", -- [1]
 			"Yoëll-ArgentDawn", -- [2]
@@ -836,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYoëll-ArgentDawn|r",
 			[51] = 1602880087,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [37]
+		}, -- [32]
 		{
 			"why does it say \"you may not queue for this\" in LFR even tho my ilvl is high enough?", -- [1]
 			"Atyara-Frostmane", -- [2]
@@ -858,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Atyara|r",
 			[51] = 1602880136,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [33]
 		{
 			"WTS SCAM DG RAIDS LVS BOOST ", -- [1]
 			"Phantomas-GrimBatol", -- [2]
@@ -880,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edPhantomas-GrimBatol|r",
 			[51] = 1602880151,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [34]
 		{
 			"why would i buy a boost when the expansion is over?", -- [1]
 			"Skyhaven-Frostmane", -- [2]
@@ -902,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Skyhaven|r",
 			[51] = 1602880175,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [35]
 		{
 			"WORLD OF BOOSTERS", -- [1]
 			"Phantomas-GrimBatol", -- [2]
@@ -924,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edPhantomas-GrimBatol|r",
 			[51] = 1602880188,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [36]
 		{
 			"fucking scammers", -- [1]
 			"Skyhaven-Frostmane", -- [2]
@@ -946,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Skyhaven|r",
 			[51] = 1602880188,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [37]
 		{
 			"why would one buy a bost period lol", -- [1]
 			"Colt-Aggra(Português)", -- [2]
@@ -968,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Colt-Aggra(Português)|r",
 			[51] = 1602880195,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [38]
 		{
 			"its not that hard to find groups or making them", -- [1]
 			"Colt-Aggra(Português)", -- [2]
@@ -990,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Colt-Aggra(Português)|r",
 			[51] = 1602880214,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [39]
 		{
 			"wts boost", -- [1]
 			"Solot-GrimBatol", -- [2]
@@ -1012,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Solot-GrimBatol|r",
 			[51] = 1602880228,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [40]
 		{
 			"boites aux lettres", -- [1]
 			"Hadoa-Ravencrest", -- [2]
@@ -1034,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hadoa-Ravencrest|r",
 			[51] = 1602880234,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [46]
+		}, -- [41]
 		{
 			"for le mounte", -- [1]
 			"Hadoa-Ravencrest", -- [2]
@@ -1056,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hadoa-Ravencrest|r",
 			[51] = 1602880243,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [47]
+		}, -- [42]
 		{
 			"someone put a raid marker", -- [1]
 			"Nixxiom-TheMaelstrom", -- [2]
@@ -1078,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Nixxiom-TheMaelstrom|r",
 			[51] = 1602880244,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [48]
+		}, -- [43]
 		{
 			"on the mail box", -- [1]
 			"Nixxiom-TheMaelstrom", -- [2]
@@ -1100,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Nixxiom-TheMaelstrom|r",
 			[51] = 1602880247,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [49]
+		}, -- [44]
 		{
 			"like the idea of chromie time. But only doing dungeons per expansion makes the dungeon lines even longer", -- [1]
 			"Sarune-Frostmane", -- [2]
@@ -1122,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSarune|r",
 			[51] = 1602880358,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [45]
 		{
 			"yeah that sucks imo", -- [1]
 			"Gouerth-Frostmane", -- [2]
@@ -1144,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Gouerth|r",
 			[51] = 1602880399,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [46]
 		{
 			"should be one big queue for ", -- [1]
 			"Gouerth-Frostmane", -- [2]
@@ -1166,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Gouerth|r",
 			[51] = 1602880405,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [47]
 		{
 			"are you buying a levelling boost? :o", -- [1]
 			"|Kq43|k", -- [2]
@@ -1189,7 +1079,7 @@ ElvCharacterDB = {
 			[51] = 1602880476,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Sly360xHmstr",
-		}, -- [53]
+		}, -- [48]
 		{
 			"no", -- [1]
 			"|Kq43|k", -- [2]
@@ -1212,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1602880487,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Sly360xHmstr",
-		}, -- [54]
+		}, -- [49]
 		{
 			"once you get past average time, they add you to a queue for all expansions", -- [1]
 			"Griffin-Aggra(Português)", -- [2]
@@ -1234,7 +1124,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Griffin-Aggra(Português)|r",
 			[51] = 1602880492,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [50]
 		{
 			"aw but freehold?", -- [1]
 			"|Kq43|k", -- [2]
@@ -1257,7 +1147,7 @@ ElvCharacterDB = {
 			[51] = 1602880509,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Sly360xHmstr",
-		}, -- [56]
+		}, -- [51]
 		{
 			"LFG  instance  group    10-50!", -- [1]
 			"Noorge-Frostmane", -- [2]
@@ -1279,7 +1169,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNoorge|r",
 			[51] = 1602880524,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [52]
 		{
 			"Purgatory Afterglow - Grim Batol is looking to start raiding in Shadowlands. Currently on the hunt for 2 healers, and DPS. If you are interested feel free to send me a /w.  Social people are welcome as well ofcourse.", -- [1]
 			"Gïëtö-GrimBatol", -- [2]
@@ -1301,7 +1191,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGïëtö-GrimBatol|r",
 			[51] = 1602880528,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [53]
 		{
 			"Are the legion atrifacts weapons not class bound as they said they would be in th eprepatch for transmog ?", -- [1]
 			"Picollus-Frostmane", -- [2]
@@ -1323,7 +1213,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edPicollus|r",
 			[51] = 1602880588,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [54]
 		{
 			"thought they where not class bound but not sure", -- [1]
 			"Sarune-Frostmane", -- [2]
@@ -1345,7 +1235,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSarune|r",
 			[51] = 1602880647,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [55]
 		{
 			"horde pala at flightmaster", -- [1]
 			"Raggen-Frostmane", -- [2]
@@ -1367,7 +1257,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRaggen|r",
 			[51] = 1602880649,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [56]
 		{
 			"Gankfest :(", -- [1]
 			"Raggen-Frostmane", -- [2]
@@ -1389,7 +1279,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRaggen|r",
 			[51] = 1602880664,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [57]
 		{
 			"Tell him to go away", -- [1]
 			"Ashaia-Frostmane", -- [2]
@@ -1411,7 +1301,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Ashaia|r",
 			[51] = 1602880669,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [58]
 		{
 			"type /shoo at him", -- [1]
 			"Gïëtö-GrimBatol", -- [2]
@@ -1433,7 +1323,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGïëtö-GrimBatol|r",
 			[51] = 1602880684,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [59]
 		{
 			"Its a pala, they`ll get scared easy", -- [1]
 			"Gïëtö-GrimBatol", -- [2]
@@ -1455,7 +1345,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcGïëtö-GrimBatol|r",
 			[51] = 1602880693,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [60]
 		{
 			"He flew away", -- [1]
 			"Raggen-Frostmane", -- [2]
@@ -1477,7 +1367,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRaggen|r",
 			[51] = 1602880707,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [61]
 		{
 			"phew", -- [1]
 			"Raggen-Frostmane", -- [2]
@@ -1499,7 +1389,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcRaggen|r",
 			[51] = 1602880712,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [62]
 		{
 			"reminder that onions are disgusting", -- [1]
 			"Lökäräckligt-GrimBatol", -- [2]
@@ -1521,7 +1411,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lökäräckligt-GrimBatol|r",
 			[51] = 1602880726,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [63]
 		{
 			"did anyone try playing with controller yet :D", -- [1]
 			"Clanky-Frostmane", -- [2]
@@ -1543,7 +1433,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cClanky|r",
 			[51] = 1602880738,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [64]
 		{
 			"played with my portable joystick", -- [1]
 			"Swampmother-GrimBatol", -- [2]
@@ -1565,7 +1455,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Swampmother-GrimBatol|r",
 			[51] = 1602880760,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [65]
 		{
 			"is that how they call it nowadays? portable joystick?", -- [1]
 			"Atyara-Frostmane", -- [2]
@@ -1587,7 +1477,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Atyara|r",
 			[51] = 1602880778,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [66]
 		{
 			"controller are for arcane mages and havoc dh i think", -- [1]
 			"Revelim-Aggra(Português)", -- [2]
@@ -1609,7 +1499,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Revelim-Aggra(Português)|r",
 			[51] = 1602880803,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [67]
 		{
 			":D", -- [1]
 			"Nàfinì-Frostmane", -- [2]
@@ -1631,7 +1521,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNàfinì|r",
 			[51] = 1602880812,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [68]
 		{
 			"i tanked a dungeon with it seems fine", -- [1]
 			"Clanky-Frostmane", -- [2]
@@ -1653,7 +1543,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cClanky|r",
 			[51] = 1602880814,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [69]
 		{
 			"looting tho was a bit annoying. maybe i did it wrong", -- [1]
 			"Clanky-Frostmane", -- [2]
@@ -1675,7 +1565,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cClanky|r",
 			[51] = 1602880824,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [70]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14195:Player-1303-0B88D634:1:10:16:20:4294967295:4294967295:4294967295:4294967295|h[Gift of Flesh]|h|r!", -- [1]
 			"Morndis-Frostmane", -- [2]
@@ -1697,7 +1587,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMorndis|r",
 			[51] = 1602880859,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [76]
+		}, -- [71]
 		{
 			"our jaina runs were the worst shit ever", -- [1]
 			"|Kq48|k", -- [2]
@@ -1720,7 +1610,7 @@ ElvCharacterDB = {
 			[51] = 1602881260,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "ChilledGear",
-		}, -- [77]
+		}, -- [72]
 		{
 			"finished an hour and 15 mins late", -- [1]
 			"|Kq48|k", -- [2]
@@ -1743,7 +1633,7 @@ ElvCharacterDB = {
 			[51] = 1602881269,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "ChilledGear",
-		}, -- [78]
+		}, -- [73]
 		{
 			"WTS M+ 15+ in time 80k /w for more info", -- [1]
 			"Hipócat-Frostmane", -- [2]
@@ -1765,7 +1655,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hipócat|r",
 			[51] = 1602881269,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [74]
 		{
 			"what happened?", -- [1]
 			"|Kq48|k", -- [2]
@@ -1788,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1602881271,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "ChilledGear",
-		}, -- [80]
+		}, -- [75]
 		{
 			"legion invasions is super nerf holy crap", -- [1]
 			"Transfat-GrimBatol", -- [2]
@@ -1810,7 +1700,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTransfat-GrimBatol|r",
 			[51] = 1602881272,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [76]
 		{
 			"people not knowing any tacs and doing ass dps", -- [1]
 			"|Kq48|k", -- [2]
@@ -1833,7 +1723,7 @@ ElvCharacterDB = {
 			[51] = 1602881282,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "ChilledGear",
-		}, -- [82]
+		}, -- [77]
 		{
 			"who was it with?", -- [1]
 			"|Kq48|k", -- [2]
@@ -1856,7 +1746,7 @@ ElvCharacterDB = {
 			[51] = 1602881282,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "ChilledGear",
-		}, -- [83]
+		}, -- [78]
 		{
 			"rcu", -- [1]
 			"|Kq48|k", -- [2]
@@ -1879,7 +1769,7 @@ ElvCharacterDB = {
 			[51] = 1602881285,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "ChilledGear",
-		}, -- [84]
+		}, -- [79]
 		{
 			"when will the scorge event begin?", -- [1]
 			"Naruurakar-Aggra(Português)", -- [2]
@@ -1901,7 +1791,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Naruurakar-Aggra(Português)|r",
 			[51] = 1602881302,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [80]
 		{
 			"yeah thought that would be the case", -- [1]
 			"|Kq48|k", -- [2]
@@ -1924,7 +1814,7 @@ ElvCharacterDB = {
 			[51] = 1602881303,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "ChilledGear",
-		}, -- [86]
+		}, -- [81]
 		{
 			"leader had to replace so many people", -- [1]
 			"|Kq48|k", -- [2]
@@ -1947,7 +1837,7 @@ ElvCharacterDB = {
 			[51] = 1602881304,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "ChilledGear",
-		}, -- [87]
+		}, -- [82]
 		{
 			"rcu was dogshit before jaina got hard tbh", -- [1]
 			"|Kq48|k", -- [2]
@@ -1970,7 +1860,7 @@ ElvCharacterDB = {
 			[51] = 1602881317,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "ChilledGear",
-		}, -- [88]
+		}, -- [83]
 		{
 			"scorch event?", -- [1]
 			"Robochick-Frostmane", -- [2]
@@ -1992,7 +1882,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Robochick|r",
 			[51] = 1602881338,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [84]
 		{
 			"that was Cata", -- [1]
 			"Robochick-Frostmane", -- [2]
@@ -2014,7 +1904,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Robochick|r",
 			[51] = 1602881340,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [85]
 		{
 			"i've never had any issues with them at all", -- [1]
 			"|Kq48|k", -- [2]
@@ -2037,7 +1927,7 @@ ElvCharacterDB = {
 			[51] = 1602881350,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "ChilledGear",
-		}, -- [91]
+		}, -- [86]
 		{
 			"people wont be able to bring 460 alts anymore", -- [1]
 			"|Kq48|k", -- [2]
@@ -2060,7 +1950,7 @@ ElvCharacterDB = {
 			[51] = 1602881354,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "ChilledGear",
-		}, -- [92]
+		}, -- [87]
 		{
 			"yeh think that was the problem", -- [1]
 			"|Kq48|k", -- [2]
@@ -2083,7 +1973,7 @@ ElvCharacterDB = {
 			[51] = 1602881363,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "ChilledGear",
-		}, -- [93]
+		}, -- [88]
 		{
 			"they should have all been on mains if it was the 1st of the week", -- [1]
 			"|Kq48|k", -- [2]
@@ -2106,7 +1996,7 @@ ElvCharacterDB = {
 			[51] = 1602881379,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "ChilledGear",
-		}, -- [94]
+		}, -- [89]
 		{
 			"WTS M+ 15+ in time 80k /w for more info", -- [1]
 			"Hipócat-Frostmane", -- [2]
@@ -2128,7 +2018,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hipócat|r",
 			[51] = 1602881419,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [90]
 		{
 			"there's like 6 runs on a friday and it was the last 2", -- [1]
 			"|Kq48|k", -- [2]
@@ -2151,7 +2041,7 @@ ElvCharacterDB = {
 			[51] = 1602881665,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "ChilledGear",
-		}, -- [96]
+		}, -- [91]
 		{
 			"so probs just a bad balance of where mains are", -- [1]
 			"|Kq48|k", -- [2]
@@ -2174,7 +2064,7 @@ ElvCharacterDB = {
 			[51] = 1602881677,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "ChilledGear",
-		}, -- [97]
+		}, -- [92]
 		{
 			"yeah must of", -- [1]
 			"|Kq48|k", -- [2]
@@ -2197,7 +2087,7 @@ ElvCharacterDB = {
 			[51] = 1602881685,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "ChilledGear",
-		}, -- [98]
+		}, -- [93]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12844:Player-1303-0B603F93:1:10:16:20:4294967295:4294967295:4294967295:4294967295|h[The MOTHERLODE!!]|h|r!", -- [1]
 			"Uthersun-Frostmane", -- [2]
@@ -2219,6 +2109,116 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Uthersun|r",
 			[51] = 1602882389,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12500:Player-1303-0B8E51D6:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Underrot]|h|r!", -- [1]
+			"Markless-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Markless-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			282, -- [11]
+			"Player-1303-0B8E51D6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Markless|r",
+			[51] = 1604096354,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12501:Player-1303-0B8E51D6:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Underrot]|h|r!", -- [1]
+			"Markless-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Markless-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			283, -- [11]
+			"Player-1303-0B8E51D6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Markless|r",
+			[51] = 1604096354,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12502:Player-1303-0B8E51D6:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Underrot]|h|r!", -- [1]
+			"Markless-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Markless-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			284, -- [11]
+			"Player-1303-0B8E51D6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Markless|r",
+			[51] = 1604096354,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11185:Player-1303-0B8E51D6:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r!", -- [1]
+			"Markless-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Markless-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			285, -- [11]
+			"Player-1303-0B8E51D6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Markless|r",
+			[51] = 1604096354,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"Astral Keys: New key |cffa335ee|Hkeystone:158923:244:11:10:11:3:120|h[Keystone: Atal'Dazar (11)]|h|r", -- [1]
+			"Markless-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			286, -- [11]
+			"Player-1303-0B8E51D6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Markless|r",
+			[51] = 1604096369,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 }
