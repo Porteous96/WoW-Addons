@@ -1,86 +1,110 @@
 
 DataStore_RaresDB = {
 	["profileKeys"] = {
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
-		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
-		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
-		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
-		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
-		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
+		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
+		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
+		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
+		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
+		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
+		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
+		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmane.Rykahtwo"] = {
 				["lastUpdate"] = 1603563426,
 			},
-			["Default.Frostmane.Rykahpodh"] = {
-				["lastUpdate"] = 1604096619,
-			},
-			["Default.Frostmane.Rykahshaman"] = {
-				["lastUpdate"] = 1603923248,
-			},
-			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1604098252,
-			},
-			["Default.Frostmane.Rykahthree"] = {
-				["lastUpdate"] = 1602710316,
-			},
-			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1604106003,
-			},
-			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1603912153,
-			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1604094884,
-			},
-			["Default.Frostmane.Rÿkah"] = {
-				["lastUpdate"] = 1604100207,
-			},
-			["Default.Frostmane.Rykahpala"] = {
-				["lastUpdate"] = 1603840530,
+				["lastUpdate"] = 1605132160,
 			},
 			["Default.Frostmane.Rykahwar"] = {
-				["lastUpdate"] = 1603840836,
+				["lastUpdate"] = 1604962913,
 			},
-			["Default.Frostmane.Rykahbolt"] = {
-				["lastUpdate"] = 1604102504,
+			["Default.Frostmane.Slywithapet"] = {
+				["lastUpdate"] = 1604152364,
 			},
 			["Default.Frostmane.Rykahdruid"] = {
 				["lastUpdate"] = 1604101077,
 			},
-			["Default.Frostmane.Rykahpoo"] = {
-				["lastUpdate"] = 1604108680,
+			["Default.Frostmane.Rykkahpo"] = {
+				["lastUpdate"] = 1605132587,
 				["Rares"] = {
-					[149652] = {
-						["resetTime"] = 364519,
-						["name"] = "Agathe Wyrmwood",
-					},
 					[148787] = {
-						["resetTime"] = 364519,
+						["resetTime"] = 550212,
 						["name"] = "Alash'anir",
 					},
-					[92152] = {
-						["resetTime"] = 18919,
-						["name"] = "Whitewater Typhoon",
+					[149652] = {
+						["resetTime"] = 550212,
+						["name"] = "Agathe Wyrmwood",
+					},
+					[89016] = {
+						["resetTime"] = 31812,
+						["name"] = "Ravyn-Drath",
+					},
+					[91113] = {
+						["resetTime"] = 31812,
+						["name"] = "Tide Behemoth",
+					},
+					[89850] = {
+						["resetTime"] = 31812,
+						["name"] = "The Oracle",
+					},
+					[106990] = {
+						["resetTime"] = 31812,
+						["name"] = "Chief Bitterbrine",
+					},
+					[90803] = {
+						["resetTime"] = 31812,
+						["name"] = "Infernal Lord",
+					},
+					[90901] = {
+						["resetTime"] = 31812,
+						["name"] = "Pridelord Meowl",
 					},
 				},
 			},
-			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1604103198,
+			["Default.Frostmane.Rykahpodh"] = {
+				["lastUpdate"] = 1604096619,
+			},
+			["Default.Frostmane.Rÿkah"] = {
+				["lastUpdate"] = 1604786424,
+			},
+			["Default.Frostmane.Rykahthree"] = {
+				["lastUpdate"] = 1602710316,
+			},
+			["Default.Frostmane.Rykahpala"] = {
+				["lastUpdate"] = 1603840530,
 			},
 			["Default.Frostmane.Rykahpriest"] = {
-				["lastUpdate"] = 1603923381,
+				["lastUpdate"] = 1604970970,
+			},
+			["Default.Frostmane.Bankypo"] = {
+				["lastUpdate"] = 1605045680,
+			},
+			["Default.Frostmane.Rykahbolt"] = {
+				["lastUpdate"] = 1604102504,
+			},
+			["Default.Frostmane.Rykahpoo"] = {
+				["lastUpdate"] = 1604172383,
+			},
+			["Default.Frostmane.Rykahhpo"] = {
+				["lastUpdate"] = 1605132549,
+			},
+			["Default.Frostmane.Rykahpoh"] = {
+				["lastUpdate"] = 1605132470,
+			},
+			["Default.Frostmane.Rykahshaman"] = {
+				["lastUpdate"] = 1603923248,
 			},
 		},
 	},

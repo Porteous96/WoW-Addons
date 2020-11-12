@@ -21,6 +21,7 @@ SimulationCraftDB = {
 		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
@@ -31,7 +32,7 @@ SimulationCraftDB = {
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Blissard - Frostmane"] = "Blissard - Frostmane",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
+		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
@@ -117,6 +118,11 @@ SimulationCraftDB = {
 		},
 		["Advboi - Grim Batol"] = {
 		},
+		["Rykahbolt - Frostmane"] = {
+			["minimap"] = {
+				["hide"] = true,
+			},
+		},
 		["Rykahboost - Aggramar"] = {
 		},
 		["Rykahpo - Frostmane"] = {
@@ -144,10 +150,7 @@ SimulationCraftDB = {
 				["hide"] = true,
 			},
 		},
-		["Rykahbolt - Frostmane"] = {
-			["minimap"] = {
-				["hide"] = true,
-			},
+		["Slywithapet - Frostmane"] = {
 		},
 		["Rykah - Frostmane"] = {
 		},

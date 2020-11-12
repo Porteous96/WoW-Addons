@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0401,
+	["LastVersion"] = 2.0404,
 	["LastPlayerFullName"] = "Rykahpriest-Frostmane",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

@@ -12,52 +12,53 @@ HandyNotes_LegionTreasuresDB = {
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
 		["Morallygrey - Frostmane"] = "Morallygrey - Frostmane",
 		["Chuggernuts - Tarren Mill"] = "Chuggernuts - Tarren Mill",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 		["Rykahdk - Kazzak"] = "Rykahdk - Kazzak",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
-		["Preachx - Tarren Mill"] = "Preachx - Tarren Mill",
-		["Meticulous - Tarren Mill"] = "Meticulous - Tarren Mill",
-		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
-		["Preacherino - Tarren Mill"] = "Preacherino - Tarren Mill",
-		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Spacegoatss - Frostmane"] = "Spacegoatss - Frostmane",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Deletemelool - Frostmane"] = "Deletemelool - Frostmane",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
+		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
+		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
+		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Preachx - Tarren Mill"] = "Preachx - Tarren Mill",
+		["Deletemelool - Frostmane"] = "Deletemelool - Frostmane",
+		["Preacherino - Tarren Mill"] = "Preacherino - Tarren Mill",
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Preách - Tarren Mill"] = "Preách - Tarren Mill",
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
-		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
-		["Dlory - Tarren Mill"] = "Dlory - Tarren Mill",
-		["Toutsweet - Tarren Mill"] = "Toutsweet - Tarren Mill",
 		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
+		["Toutsweet - Tarren Mill"] = "Toutsweet - Tarren Mill",
+		["Dlory - Tarren Mill"] = "Dlory - Tarren Mill",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Mastarace - Kazzak"] = "Mastarace - Kazzak",
-		["Preacho - Tarren Mill"] = "Preacho - Tarren Mill",
-		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
-		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
+		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Preacho - Tarren Mill"] = "Preacho - Tarren Mill",
+		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
-		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
+		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Preech - Tarren Mill"] = "Preech - Tarren Mill",
 		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Sulivan - Tarren Mill"] = "Sulivan - Tarren Mill",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
 		["Swobuswagins - Tarren Mill"] = "Swobuswagins - Tarren Mill",
 		["Iujahwdihaip - Frostmane"] = "Iujahwdihaip - Frostmane",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
+		["Meticulous - Tarren Mill"] = "Meticulous - Tarren Mill",
 		["Dlorange - Tarren Mill"] = "Dlorange - Tarren Mill",
-		["Spacegoatss - Frostmane"] = "Spacegoatss - Frostmane",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 	},
 	["profiles"] = {
 		["Rykaahpo - Frostmane"] = {
@@ -82,29 +83,31 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Chuggernuts - Tarren Mill"] = {
 		},
-		["Rykahdk - Kazzak"] = {
+		["Rykahboost - Aggramar"] = {
 		},
-		["Rykahbolt - Frostmane"] = {
+		["Rykahdk - Kazzak"] = {
 		},
 		["Advboi - Frostmane"] = {
 		},
-		["Blissard - Frostmane"] = {
-		},
-		["Preachx - Tarren Mill"] = {
-		},
-		["Meticulous - Tarren Mill"] = {
-		},
-		["Ryykahpo - Frostmane"] = {
-		},
-		["Preacherino - Tarren Mill"] = {
-		},
-		["Rykahshaman - Frostmane"] = {
+		["Spacegoatss - Frostmane"] = {
 		},
 		["Rykahpoo - Frostmane"] = {
 		},
-		["Deletemelool - Frostmane"] = {
+		["Rykahpo - Doomhammer"] = {
 		},
 		["Rykahtwo - Frostmane"] = {
+		},
+		["Ryykahpo - Frostmane"] = {
+		},
+		["Slywithapet - Frostmane"] = {
+		},
+		["Rykahshaman - Frostmane"] = {
+		},
+		["Preachx - Tarren Mill"] = {
+		},
+		["Deletemelool - Frostmane"] = {
+		},
+		["Preacherino - Tarren Mill"] = {
 		},
 		["Mechaboost - Sylvanas"] = {
 		},
@@ -114,35 +117,35 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Bankypo - Frostmane"] = {
 		},
-		["Rÿkah - Frostmane"] = {
+		["Rykahpow - Frostmane"] = {
 		},
 		["Rykahdruid - Frostmane"] = {
 		},
-		["Dlory - Tarren Mill"] = {
+		["Rykahpoa - Frostmane"] = {
 		},
 		["Toutsweet - Tarren Mill"] = {
 		},
-		["Rykahpoa - Frostmane"] = {
+		["Dlory - Tarren Mill"] = {
 		},
 		["Rykahpriest - Frostmane"] = {
 		},
 		["Mastarace - Kazzak"] = {
 		},
-		["Preacho - Tarren Mill"] = {
+		["Rykahtony - Frostmane"] = {
 		},
 		["Chatmademe - Kazzak"] = {
 		},
-		["Préach - Tarren Mill"] = {
-		},
-		["Rykahtony - Frostmane"] = {
-		},
 		["Advboi - Grim Batol"] = {
+		},
+		["Preacho - Tarren Mill"] = {
+		},
+		["Préach - Tarren Mill"] = {
 		},
 		["Preachez - Tarren Mill"] = {
 		},
-		["Rykahhpo - Frostmane"] = {
-		},
 		["Rykahpo - Frostmane"] = {
+		},
+		["Rykahhpo - Frostmane"] = {
 		},
 		["Rcumplus - Aggramar"] = {
 		},
@@ -156,7 +159,7 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Sulivan - Tarren Mill"] = {
 		},
-		["Rykahpow - Frostmane"] = {
+		["Rÿkah - Frostmane"] = {
 		},
 		["Swobuswagins - Tarren Mill"] = {
 		},
@@ -164,15 +167,15 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Rykah - Frostmane"] = {
 		},
-		["Rykahpo - Doomhammer"] = {
+		["Meticulous - Tarren Mill"] = {
 		},
 		["Dlorange - Tarren Mill"] = {
 		},
-		["Spacegoatss - Frostmane"] = {
+		["Blissard - Frostmane"] = {
 		},
 		["Mechaboost - Silvermoon"] = {
 		},
-		["Rykahboost - Aggramar"] = {
+		["Rykahbolt - Frostmane"] = {
 		},
 	},
 }

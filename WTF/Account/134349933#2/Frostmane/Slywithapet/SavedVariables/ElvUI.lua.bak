@@ -1,0 +1,11 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/reload", -- [1]
+		"/elvui", -- [2]
+		"/tmw options", -- [3]
+		"/bigwigs", -- [4]
+	},
+	["ChatHistoryLog"] = {
+	},
+}

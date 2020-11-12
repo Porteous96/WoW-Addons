@@ -43,6 +43,7 @@ Postal3DB = {
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Preacho - Tarren Mill"] = "Preacho - Tarren Mill",
 		["Fergfr - Sylvanas"] = "Fergfr - Sylvanas",
+		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Hordepali - Lightbringer"] = "Hordepali - Lightbringer",
 		["Dlory - Tarren Mill"] = "Dlory - Tarren Mill",
 		["Chuggernuts - Tarren Mill"] = "Chuggernuts - Tarren Mill",
@@ -50,33 +51,33 @@ Postal3DB = {
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
-		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
+		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
+		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
+		["Mastarace - Kazzak"] = "Mastarace - Kazzak",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Preech - Tarren Mill"] = "Preech - Tarren Mill",
-		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
-		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Imacleft - Sylvanas"] = "Imacleft - Sylvanas",
+		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
+		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Sulivan - Tarren Mill"] = "Sulivan - Tarren Mill",
-		["Mastarace - Kazzak"] = "Mastarace - Kazzak",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Swobuswagins - Tarren Mill"] = "Swobuswagins - Tarren Mill",
 		["Bertybots - Kazzak"] = "Bertybots - Kazzak",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Meticulous - Tarren Mill"] = "Meticulous - Tarren Mill",
 		["Dlorange - Tarren Mill"] = "Dlorange - Tarren Mill",
-		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
 				"Advboi|Frostmane|Alliance|20|MONK", -- [1]
 				"Advboi|Grim Batol|Alliance|20|MAGE", -- [2]
-				"Bankypo|Frostmane|Alliance|20|WARLOCK", -- [3]
+				"Bankypo|Frostmane|Alliance|10|WARLOCK", -- [3]
 				"Bertybots|Kazzak|Alliance|1|WARLOCK", -- [4]
 				"Blissard|Frostmane|Alliance|1|SHAMAN", -- [5]
 				"Chatmademe|Kazzak|Horde|100|SHAMAN", -- [6]
@@ -129,20 +130,21 @@ Postal3DB = {
 				"Rykahthree|Frostmane|Alliance|10|MAGE", -- [53]
 				"Rykahtony|Frostmane|Alliance|110|WARLOCK", -- [54]
 				"Rykahtwo|Frostmane|Alliance|14|MAGE", -- [55]
-				"Rykahwar|Frostmane|Alliance|11|WARRIOR", -- [56]
+				"Rykahwar|Frostmane|Alliance|49|WARRIOR", -- [56]
 				"Rykah|Frostmane|Alliance|42|MONK", -- [57]
 				"Rykkahpo|Frostmane|Alliance|50|ROGUE", -- [58]
 				"Ryykahpo|Frostmane|Alliance|66|SHAMAN", -- [59]
 				"Rÿkah|Frostmane|Alliance|50|DEATHKNIGHT", -- [60]
-				"Spacegoatss|Frostmane|Alliance|110|PALADIN", -- [61]
-				"Sulivan|Tarren Mill|Horde|110|WARLOCK", -- [62]
-				"Swagimus|Tarren Mill|Horde|1|WARRIOR", -- [63]
-				"Sweetcleft|Kazzak|Horde|1|PALADIN", -- [64]
-				"Swobuswagins|Tarren Mill|Horde|110|PRIEST", -- [65]
-				"Tefef|Zenedar|Horde|1|ROGUE", -- [66]
-				"Testsubjec|Dentarg|Horde|1|WARLOCK", -- [67]
-				"Toutsweet|Tarren Mill|Horde|110|SHAMAN", -- [68]
-				"Xpreach|Tarren Mill|Horde|110|MAGE", -- [69]
+				"Slywithapet|Frostmane|Alliance|1|HUNTER", -- [61]
+				"Spacegoatss|Frostmane|Alliance|110|PALADIN", -- [62]
+				"Sulivan|Tarren Mill|Horde|110|WARLOCK", -- [63]
+				"Swagimus|Tarren Mill|Horde|1|WARRIOR", -- [64]
+				"Sweetcleft|Kazzak|Horde|1|PALADIN", -- [65]
+				"Swobuswagins|Tarren Mill|Horde|110|PRIEST", -- [66]
+				"Tefef|Zenedar|Horde|1|ROGUE", -- [67]
+				"Testsubjec|Dentarg|Horde|1|WARLOCK", -- [68]
+				"Toutsweet|Tarren Mill|Horde|110|SHAMAN", -- [69]
+				"Xpreach|Tarren Mill|Horde|110|MAGE", -- [70]
 			},
 		},
 	},
@@ -366,6 +368,8 @@ Postal3DB = {
 		},
 		["Fergfr - Sylvanas"] = {
 		},
+		["Advboi - Frostmane"] = {
+		},
 		["Hordepali - Lightbringer"] = {
 		},
 		["Dlory - Tarren Mill"] = {
@@ -391,7 +395,9 @@ Postal3DB = {
 		["Rÿkah - Frostmane"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Rykahpo|Frostmane|Alliance", -- [1]
+					"Bankypo|Frostmane|Alliance", -- [1]
+					"Rykahpo|Frostmane|Alliance", -- [2]
+					"Rykkahpo|Frostmane|Alliance", -- [3]
 				},
 			},
 		},
@@ -400,6 +406,8 @@ Postal3DB = {
 		["Chatmademe - Kazzak"] = {
 		},
 		["Rykahpriest - Frostmane"] = {
+		},
+		["Rykahpo - Doomhammer"] = {
 		},
 		["Préach - Tarren Mill"] = {
 			["BlackBook"] = {
@@ -421,8 +429,6 @@ Postal3DB = {
 				},
 			},
 		},
-		["Advboi - Grim Batol"] = {
-		},
 		["Preachez - Tarren Mill"] = {
 			["BlackBook"] = {
 				["recent"] = {
@@ -440,7 +446,7 @@ Postal3DB = {
 				},
 			},
 		},
-		["Rykahpo - Doomhammer"] = {
+		["Mastarace - Kazzak"] = {
 		},
 		["Rykahpo - Frostmane"] = {
 			["BlackBook"] = {
@@ -476,16 +482,16 @@ Postal3DB = {
 				},
 			},
 		},
+		["Imacleft - Sylvanas"] = {
+		},
+		["Mechaboost - Defias Brotherhood"] = {
+		},
 		["Rykahhpo - Frostmane"] = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Rykahpo|Frostmane|Alliance", -- [1]
 				},
 			},
-		},
-		["Mechaboost - Defias Brotherhood"] = {
-		},
-		["Imacleft - Sylvanas"] = {
 		},
 		["Sulivan - Tarren Mill"] = {
 			["BlackBook"] = {
@@ -504,7 +510,7 @@ Postal3DB = {
 				},
 			},
 		},
-		["Mastarace - Kazzak"] = {
+		["Advboi - Grim Batol"] = {
 		},
 		["Swobuswagins - Tarren Mill"] = {
 			["BlackBook"] = {
@@ -556,8 +562,6 @@ Postal3DB = {
 		},
 		["Dlorange - Tarren Mill"] = {
 		},
-		["Advboi - Frostmane"] = {
-		},
 		["Rykahpoh - Frostmane"] = {
 			["BlackBook"] = {
 				["recent"] = {
@@ -569,6 +573,8 @@ Postal3DB = {
 			},
 		},
 		["Rykahboost - Aggramar"] = {
+		},
+		["Slywithapet - Frostmane"] = {
 		},
 	},
 }

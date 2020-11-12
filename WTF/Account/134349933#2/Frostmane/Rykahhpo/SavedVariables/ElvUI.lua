@@ -1,908 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/o exactly", -- [1]
-		"/o only current raiders can diss the guild", -- [2]
-		"/o except if it was penguin", -- [3]
-		"/o penguin can go to fuck", -- [4]
-		"/o true", -- [5]
-		"/o i liked penguin until he started complaining all the time", -- [6]
-		"/o and crying about being picked on", -- [7]
-		"/o like im not up for bullying anyone", -- [8]
-		"/o but he gave other people shit constantly", -- [9]
-		"/o yeh", -- [10]
+		"/o like im not up for bullying anyone", -- [1]
+		"/o yeh", -- [2]
+		"/o ah cool", -- [3]
+		"/o yeah its rough", -- [4]
+		"/o is that the one on aerie peak?", -- [5]
+		"/o thats quite a long time", -- [6]
+		"/g tony you killed their guild", -- [7]
+		"/aap", -- [8]
+		"/g if not let me know so I can promote you to social", -- [9]
+		"/o and crying about being picked on", -- [10]
 		"/o does your wife not raid?", -- [11]
-		"/o ah cool", -- [12]
-		"/o friday runs are good fun, i'm looking forward to them again", -- [13]
-		"/o yeah its rough", -- [14]
-		"/o I had that situation through legion", -- [15]
-		"/o is that the one on aerie peak?", -- [16]
-		"/o oh right", -- [17]
-		"/o thats quite a long time", -- [18]
-		"/s gz", -- [19]
-		"/g tony you killed their guild", -- [20]
+		"/o I had that situation through legion", -- [12]
+		"/s gz", -- [13]
+		"/g can people pls put who they are in their note if they are an alt pls", -- [14]
+		"/o but he gave other people shit constantly", -- [15]
+		"/o oh right", -- [16]
+		"/o true", -- [17]
+		"/tsm", -- [18]
+		"/o friday runs are good fun, i'm looking forward to them again", -- [19]
+		"/2 same", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"4", -- [1]
-			"Rykahhpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahhpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			902, -- [11]
-			"Player-1303-0B5AA8A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rykahhpo|r",
-			[51] = 1601815749,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [1]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10256:Player-1303-0B660BE8:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Charting a Course]|h|r!", -- [1]
-			"Baukeyx-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Baukeyx-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			920, -- [11]
-			"Player-1303-0B660BE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeBaukeyx|r",
-			[51] = 1601815927,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [2]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9060:Player-1303-0B64E0DD:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Level 100]|h|r!", -- [1]
-			"Zurla-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zurla-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			929, -- [11]
-			"Player-1303-0B64E0DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZurla|r",
-			[51] = 1601816011,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
-		{
-			"[IAT] |cffffff00|Hachievement:9023:Player-1303-0B699D9C:0:0:0:-1:0:0:0:0|h[...They All Fall Down]|h|r Criteria has been met. Boss can now be killed!", -- [1]
-			"Slyxhmsterez-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			936, -- [11]
-			"Player-1303-0B699D9C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez|r",
-			[51] = 1601816047,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9023:Player-1303-0B5AA8A3:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[...They All Fall Down]|h|r!", -- [1]
-			"Rykahhpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahhpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			937, -- [11]
-			"Player-1303-0B5AA8A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rykahhpo|r",
-			[51] = 1601816051,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"|cffffff00|Hachievement:9396:Player-1303-0B699D9C:0:0:0:-1:6852584:0:0:0|h[Glory of the Draenor Hero]|h|r", -- [1]
-			"Slyxhmsterez-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			952, -- [11]
-			"Player-1303-0B699D9C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez|r",
-			[51] = 1601816130,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [6]
-		{
-			"so quiet", -- [1]
-			"Zurla-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			958, -- [11]
-			"Player-1303-0B64E0DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZurla|r",
-			[51] = 1601816422,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
-		{
-			"good afternoon!", -- [1]
-			"Philistrojka-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			981, -- [11]
-			"Player-1303-0B5AFCE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Philistrojka|r",
-			[51] = 1601816553,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
-		{
-			"Hey :)", -- [1]
-			"Zurla-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			982, -- [11]
-			"Player-1303-0B64E0DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZurla|r",
-			[51] = 1601816559,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
-		{
-			"heyo", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			985, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816580,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
-		{
-			"hows it going?", -- [1]
-			"Zurla-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			991, -- [11]
-			"Player-1303-0B64E0DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZurla|r",
-			[51] = 1601816625,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
-		{
-			"bmah: |cffa335ee|Hitem:105767::::::::120:70::15::::|h[Hoodrych's Bloodied Chestplate]|h|r|cffa335ee|Hitem:22507::::::::120:70::15::::|h[Plagueheart Shoulderpads]|h|r|cffa335ee|Hitem:22477::::::::120:70::15::::|h[Bonescythe Legplates]|h|r", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			993, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816628,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
-		{
-			"|cff1eff00|Hitem:48114::::::::120:70::15::::|h[Deviate Hatchling]|h|r|cffa335ee|Hitem:68824::::::::120:70::15::::|h[Swift Zulian Panther]|h|r|cffa335ee|Hitem:45037::::::::120:70::15::::|h[Epic Purple Shirt]|h|r", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			994, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816633,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
-		{
-			"for interested ppl", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			996, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816637,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
-		{
-			"time = long on all", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1000, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816641,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"how much is your pather?", -- [1]
-			"Zurla-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1006, -- [11]
-			"Player-1303-0B64E0DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZurla|r",
-			[51] = 1601816671,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
-			"didn;t see :/", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1012, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816713,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
-		{
-			"and bot is gone already >.<", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1014, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816719,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"what we raiding tonight?", -- [1]
-			"Philistrojka-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1015, -- [11]
-			"Player-1303-0B5AFCE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Philistrojka|r",
-			[51] = 1601816722,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
-		{
-			"uldir normally", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1017, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816728,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
-		{
-			"okido", -- [1]
-			"Philistrojka-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1019, -- [11]
-			"Player-1303-0B5AFCE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Philistrojka|r",
-			[51] = 1601816737,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
-		{
-			"wait, what is that announcing?", -- [1]
-			"Zurla-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1021, -- [11]
-			"Player-1303-0B64E0DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZurla|r",
-			[51] = 1601816742,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
-		{
-			"dave and mirka on holiday though no?", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1022, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816748,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
-		{
-			"no idea", -- [1]
-			"Philistrojka-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1027, -- [11]
-			"Player-1303-0B5AFCE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Philistrojka|r",
-			[51] = 1601816754,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
-		{
-			"are they?", -- [1]
-			"Philistrojka-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1029, -- [11]
-			"Player-1303-0B5AFCE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Philistrojka|r",
-			[51] = 1601816759,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:8993:Player-1303-0B5AA8A3:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[A Gift of Earth and Fire]|h|r!", -- [1]
-			"Rykahhpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahhpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1032, -- [11]
-			"Player-1303-0B5AA8A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rykahhpo|r",
-			[51] = 1601816768,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [26]
-		{
-			"thought dave was in helsinki", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1044, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816802,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
-		{
-			"according to disc", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1046, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816819,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
-		{
-			"mirka stays in finland", -- [1]
-			"Rykahhpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1049, -- [11]
-			"Player-1303-0B5AA8A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rykahhpo|r",
-			[51] = 1601816833,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
-		{
-			"he was visiting her", -- [1]
-			"Rykahhpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1050, -- [11]
-			"Player-1303-0B5AA8A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rykahhpo|r",
-			[51] = 1601816839,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
-		{
-			"ah, like that", -- [1]
-			"Krowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1063, -- [11]
-			"Player-1303-0B62E475", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1601816861,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
-		{
-			"How was was her there for in the end? It seems like hes been there forever", -- [1]
-			"Zurla-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1065, -- [11]
-			"Player-1303-0B64E0DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZurla|r",
-			[51] = 1601816867,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9008:Player-1303-0B5AA8A3:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Is Draenor on Fire?]|h|r!", -- [1]
-			"Rykahhpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahhpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1067, -- [11]
-			"Player-1303-0B5AA8A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rykahhpo|r",
-			[51] = 1601816878,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9037:Player-1303-0B5AA8A3:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Bloodmaul Slag Mines]|h|r!", -- [1]
-			"Rykahhpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahhpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1068, -- [11]
-			"Player-1303-0B5AA8A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rykahhpo|r",
-			[51] = 1601816878,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9046:Player-1303-0B5AA8A3:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Bloodmaul Slag Mines]|h|r!", -- [1]
-			"Rykahhpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahhpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1069, -- [11]
-			"Player-1303-0B5AA8A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rykahhpo|r",
-			[51] = 1601816878,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [35]
-		{
-			"Did covid make his stay longer or something?", -- [1]
-			"Zurla-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1078, -- [11]
-			"Player-1303-0B64E0DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8686ecZurla|r",
-			[51] = 1601816883,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9005:Player-1303-0B5AA8A3:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Come With Me If You Want to Live]|h|r!", -- [1]
-			"Rykahhpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahhpo-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1081, -- [11]
-			"Player-1303-0B5AA8A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rykahhpo|r",
-			[51] = 1601816885,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [37]
-		{
-			"15 years i think", -- [1]
-			"Rykahhpo-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1084, -- [11]
-			"Player-1303-0B5AA8A3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Rykahhpo|r",
-			[51] = 1601816885,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
-		{
-			"|cffffff00|Hachievement:9396:Player-1303-0B699D9C:0:0:0:-1:6852590:0:0:0|h[Glory of the Draenor Hero]|h|r", -- [1]
-			"Slyxhmsterez-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1089, -- [11]
-			"Player-1303-0B699D9C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez|r",
-			[51] = 1601816893,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [39]
-		{
-			"|cffffff00|Hachievement:9391:Player-1303-0B699D9C:0:0:0:-1:223:0:0:0|h[Draenor Dungeon Hero]|h|r", -- [1]
-			"Slyxhmsterez-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1091, -- [11]
-			"Player-1303-0B699D9C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez|r",
-			[51] = 1601816939,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [40]
 		{
 			"Anyone fancy blasting through these 4 bonus objectives with me in Gorgrond", -- [1]
 			"Zurla-Frostmane", -- [2]
@@ -924,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZurla|r",
 			[51] = 1601816943,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
+		}, -- [1]
 		{
 			"inv", -- [1]
 			"Krowi-Frostmane", -- [2]
@@ -946,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Krowi|r",
 			[51] = 1601816975,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+		}, -- [2]
 		{
 			"in my garrison :p", -- [1]
 			"Krowi-Frostmane", -- [2]
@@ -968,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Krowi|r",
 			[51] = 1601816979,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+		}, -- [3]
 		{
 			"Cheers :D", -- [1]
 			"Zurla-Frostmane", -- [2]
@@ -990,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZurla|r",
 			[51] = 1601816991,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
+		}, -- [4]
 		{
 			"Can you adjust my rank to Alt please Rykha?", -- [1]
 			"Philistrojka-Frostmane", -- [2]
@@ -1012,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Philistrojka|r",
 			[51] = 1601817014,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [5]
 		{
 			"there go you", -- [1]
 			"Rykahhpo-Frostmane", -- [2]
@@ -1034,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rykahhpo|r",
 			[51] = 1601817032,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [6]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8921:Player-1303-0B7BE73F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Welcome to Draenor]|h|r!", -- [1]
 			"Swoopingbat-Frostmane", -- [2]
@@ -1056,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Swoopingbat|r",
 			[51] = 1601817037,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
+		}, -- [7]
 		{
 			"awesome", -- [1]
 			"Philistrojka-Frostmane", -- [2]
@@ -1078,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Philistrojka|r",
 			[51] = 1601817037,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [8]
 		{
 			"lizzie, kimmy says u suck", -- [1]
 			"Swoopingbat-Frostmane", -- [2]
@@ -1100,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Swoopingbat|r",
 			[51] = 1601817099,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [9]
 		{
 			"how rude", -- [1]
 			"Zurla-Frostmane", -- [2]
@@ -1122,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZurla|r",
 			[51] = 1601817129,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [10]
 		{
 			"Kimmy needs a spanking", -- [1]
 			"Philistrojka-Frostmane", -- [2]
@@ -1144,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Philistrojka|r",
 			[51] = 1601817143,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [11]
 		{
 			"shes scared to say that to me herself", -- [1]
 			"Zurla-Frostmane", -- [2]
@@ -1166,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZurla|r",
 			[51] = 1601817154,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+		}, -- [12]
 		{
 			"Lizzie, you suck", -- [1]
 			"Thanilia-Frostmane", -- [2]
@@ -1188,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Thanilia|r",
 			[51] = 1601817262,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [13]
 		{
 			"you need a good spanking", -- [1]
 			"Philistrojka-Frostmane", -- [2]
@@ -1210,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Philistrojka|r",
 			[51] = 1601817309,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [14]
 		{
 			"shut up prue", -- [1]
 			"Thanilia-Frostmane", -- [2]
@@ -1232,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Thanilia|r",
 			[51] = 1601817320,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [15]
 		{
 			"fight me", -- [1]
 			"Philistrojka-Frostmane", -- [2]
@@ -1254,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Philistrojka|r",
 			[51] = 1601817326,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+		}, -- [16]
 		{
 			"you wanna spank someone, go spank your missus", -- [1]
 			"Thanilia-Frostmane", -- [2]
@@ -1276,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Thanilia|r",
 			[51] = 1601817335,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [17]
 		{
 			"FU kimmy", -- [1]
 			"Zurla-Frostmane", -- [2]
@@ -1298,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecZurla|r",
 			[51] = 1601817336,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+		}, -- [18]
 		{
 			"[IAT] Priceless Paraphernalia Counter (1/4)", -- [1]
 			"Slyxhmsterez-Frostmane", -- [2]
@@ -1320,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Slyxhmsterez|r",
 			[51] = 1601817371,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [59]
+		}, -- [19]
 		{
 			"hehehe", -- [1]
 			"Swoopingbat-Frostmane", -- [2]
@@ -1342,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Swoopingbat|r",
 			[51] = 1601817374,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [20]
 		{
 			"[IAT] Priceless Paraphernalia Counter (2/4)", -- [1]
 			"Slyxhmsterez-Frostmane", -- [2]
@@ -1364,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Slyxhmsterez|r",
 			[51] = 1601817380,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [61]
+		}, -- [21]
 		{
 			"[IAT] Priceless Paraphernalia Counter (3/4)", -- [1]
 			"Slyxhmsterez-Frostmane", -- [2]
@@ -1386,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Slyxhmsterez|r",
 			[51] = 1601817388,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [62]
+		}, -- [22]
 		{
 			"i dont wanna spank ayone", -- [1]
 			"Philistrojka-Frostmane", -- [2]
@@ -1408,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Philistrojka|r",
 			[51] = 1601817393,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [23]
 		{
 			"[IAT] Priceless Paraphernalia Counter (4/4)", -- [1]
 			"Slyxhmsterez-Frostmane", -- [2]
@@ -1430,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Slyxhmsterez|r",
 			[51] = 1601817397,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [64]
+		}, -- [24]
 		{
 			"stating you need one", -- [1]
 			"Philistrojka-Frostmane", -- [2]
@@ -1452,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Philistrojka|r",
 			[51] = 1601817397,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
+		}, -- [25]
 		{
 			"[IAT] |cffffff00|Hachievement:9024:Player-1303-0B699D9C:0:0:0:-1:0:0:0:0|h[This Is Why We Can't Have Nice Things]|h|r Criteria has been met. Boss can now be killed!", -- [1]
 			"Slyxhmsterez-Frostmane", -- [2]
@@ -1474,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Slyxhmsterez|r",
 			[51] = 1601817397,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [66]
+		}, -- [26]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9024:Player-1303-0B5AA8A3:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[This Is Why We Can't Have Nice Things]|h|r!", -- [1]
 			"Rykahhpo-Frostmane", -- [2]
@@ -1496,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rykahhpo|r",
 			[51] = 1601817408,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [27]
 		{
 			"and saying that kinda stuff when my brother is in the chat is really what's needed///", -- [1]
 			"Thanilia-Frostmane", -- [2]
@@ -1518,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Thanilia|r",
 			[51] = 1601817459,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [28]
 		{
 			"<NBC> Offers:|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r 12/12hc from 140k, Curve 50k, Mythic 12/12 , m10 70k, m15 90k (Buy 2=FREE ARMOR STACK) , Jaina mount 350k, Visions, Mechagon HM, Glory runs, Accepting gold on all realms!", -- [1]
 			"Nbcskadi-Frostmane", -- [2]
@@ -1540,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNbcskadi|r",
 			[51] = 1601824245,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [29]
 		{
 			"Oblivion community selling N'Zoth HC now! Receive |cffffff00|Hachievement:14068:Player-1303-0B83F93C:1:1:25:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r & the [Uncorrupted Voidwing] with the chance of 470 loot for 50k! Going every 20 mins, /w for more info.", -- [1]
 			"Shanay-Frostmane", -- [2]
@@ -1562,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShanay|r",
 			[51] = 1601824315,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12546:Player-1303-0B6093BA:1:10:5:20:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
 			"Fearöshima-Frostmane", -- [2]
@@ -1584,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecFearöshima|r",
 			[51] = 1601931239,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12577:Player-1303-0B69A233:1:10:5:20:4294967295:4294967295:4294967295:4294967295|h[Tour of Duty: Tiragarde Sound]|h|r!", -- [1]
 			"Kezarr-Frostmane", -- [2]
@@ -1606,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKezarr|r",
 			[51] = 1601931244,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [72]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:776:Player-1303-0B64DE7B:1:10:7:20:4294967295:4294967295:4294967295:4294967295|h[Explore Elwynn Forest]|h|r!", -- [1]
 			"Civion-Frostmane", -- [2]
@@ -1628,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Civion|r",
 			[51] = 1602097872,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [33]
 		{
 			"<RCU> is selling N'Zoth the Corruptor HC Personal loot today, every 30 minutes starting for gold! You can get Ahead of the Curve, Uncorrupted Voidwing mount and possible 470 ilvl gear! /w to book a spot!", -- [1]
 			"Cröss-Aggra(Português)", -- [2]
@@ -1650,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Cröss-Aggra(Português)|r",
 			[51] = 1602272204,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [34]
 		{
 			"any boosting grp here?", -- [1]
 			"Evilpother-GrimBatol", -- [2]
@@ -1672,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecEvilpother-GrimBatol|r",
 			[51] = 1602616520,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [35]
 		{
 			"let me dumb it down to you since you want to get away from the comic argument ", -- [1]
 			"Chrömïë-Aggra(Português)", -- [2]
@@ -1694,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edChrömïë-Aggra(Português)|r",
 			[51] = 1604095419,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [36]
 		{
 			"Anal |cffffff00|Hachievement:1697:Player-1303-07094EF8:1:2:10:10:4294967295:4294967295:4294967295:4294967295|h[Nation of Adoration]|h|r", -- [1]
 			"Pohus-GrimBatol", -- [2]
@@ -1716,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pohus-GrimBatol|r",
 			[51] = 1604095419,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [37]
 		{
 			"anal|cffffff00|Hachievement:14524:Player-1303-0B68160D:0:0:0:-1:0:0:0:0|h[I Don't Know What I Expected]|h|r", -- [1]
 			"Oslak-Frostmane", -- [2]
@@ -1738,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Oslak|r",
 			[51] = 1604095427,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [38]
 		{
 			"nice one", -- [1]
 			"Barishte-Frostmane", -- [2]
@@ -1760,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Barishte|r",
 			[51] = 1604095442,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [39]
 		{
 			"from the moment you spam in a mmorpg chat you invite evry one able to see it to join in in any manner", -- [1]
 			"Chrömïë-Aggra(Português)", -- [2]
@@ -1782,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edChrömïë-Aggra(Português)|r",
 			[51] = 1604095448,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [40]
 		{
 			"that includes curiosity", -- [1]
 			"Chrömïë-Aggra(Português)", -- [2]
@@ -1804,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edChrömïë-Aggra(Português)|r",
 			[51] = 1604095458,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [41]
 		{
 			"Anal |cffffff00|Hachievement:1699:Player-1303-07094EF8:1:2:19:13:4294967295:4294967295:4294967295:4294967295|h[Fistful of Love]|h|r", -- [1]
 			"Pohus-GrimBatol", -- [2]
@@ -1826,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pohus-GrimBatol|r",
 			[51] = 1604095459,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [42]
 		{
 			"You made a dumb leap from anal to non-straight. We called you out on it my guy", -- [1]
 			"Oslak-Frostmane", -- [2]
@@ -1848,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Oslak|r",
 			[51] = 1604095469,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [43]
 		{
 			"anal |cff71d5ff|Hspell:33786:0|h[Cyclone]|h|r", -- [1]
 			"Barishte-Frostmane", -- [2]
@@ -1870,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Barishte|r",
 			[51] = 1604095474,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [44]
 		{
 			"yeah you dug that hole on your own", -- [1]
 			"Chrömïë-Aggra(Português)", -- [2]
@@ -1892,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edChrömïë-Aggra(Português)|r",
 			[51] = 1604095487,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5229:Player-1303-0B282C66:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Drag a Maw]|h|r!", -- [1]
 			"Holypepega-GrimBatol", -- [2]
@@ -1914,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolypepega-GrimBatol|r",
 			[51] = 1604095493,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+		}, -- [46]
 		{
 			"There's no hole", -- [1]
 			"Oslak-Frostmane", -- [2]
@@ -1936,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Oslak|r",
 			[51] = 1604095494,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [47]
 		{
 			"by spaming the same thing ", -- [1]
 			"Chrömïë-Aggra(Português)", -- [2]
@@ -1958,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edChrömïë-Aggra(Português)|r",
 			[51] = 1604095494,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [48]
 		{
 			"Are you implying that the anus is shameful?", -- [1]
 			"Oslak-Frostmane", -- [2]
@@ -1980,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Oslak|r",
 			[51] = 1604095511,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [49]
 		{
 			"anal |cff71d5ff|Htalent:22316|h[Masochism]|h|r", -- [1]
 			"Dinky-GrimBatol", -- [2]
@@ -2002,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDinky-GrimBatol|r",
 			[51] = 1604095511,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [50]
 		{
 			"|cffff8000|Hitem:19019::::::::50:266::11::1:28:999:::|h[Thunderfury, Blessed Blade of the Windseeker]|h|r anal", -- [1]
 			"Archspire-GrimBatol", -- [2]
@@ -2024,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edArchspire-GrimBatol|r",
 			[51] = 1604095520,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [51]
 		{
 			"did someone say |cffff8000|Hitem:19019::::::::50:259::11::1:28:999:::|h[Thunderfury, Blessed Blade of the Windseeker]|h|r ? ", -- [1]
 			"Pènguin-Frostmane", -- [2]
@@ -2046,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Pènguin|r",
 			[51] = 1604095530,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [52]
 		{
 			"any1 wanting a relaxed gaming experience with shits and giggles then join Valheru - Hellfire <3 /w me for an invite <3", -- [1]
 			"Tinkles-Hellfire", -- [2]
@@ -2068,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tinkles-Hellfire|r",
 			[51] = 1604095687,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [53]
 		{
 			"yes", -- [1]
 			"Handrok-Outland", -- [2]
@@ -2090,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Handrok-Outland|r",
 			[51] = 1604096105,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [54]
 		{
 			"gz", -- [1]
 			"Rykahhpo-Frostmane", -- [2]
@@ -2112,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rykahhpo|r",
 			[51] = 1604096109,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [55]
 		{
 			"ty", -- [1]
 			"Handrok-Outland", -- [2]
@@ -2134,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Handrok-Outland|r",
 			[51] = 1604096111,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [56]
 		{
 			"tony you killed their guild", -- [1]
 			"Rykahhpo-Frostmane", -- [2]
@@ -2156,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Rykahhpo|r",
 			[51] = 1604096230,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [57]
 		{
 			"lf someone to help me with |cffffff00|Hachievement:283:Player-1303-0B639165:0:0:0:-1:64:0:0:0|h[The Masquerade]|h|r achievement", -- [1]
 			"Peacelocket-Frostmane", -- [2]
@@ -2178,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePeacelocket|r",
 			[51] = 1604103608,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [58]
 		{
 			"lf someone to help me with |cffffff00|Hachievement:283:Player-1303-0B639165:0:0:0:-1:64:0:0:0|h[The Masquerade]|h|r achievement!", -- [1]
 			"Peacelocket-Frostmane", -- [2]
@@ -2199,6 +1319,888 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffefefePeacelocket|r",
 			[51] = 1604103689,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [59]
+		{
+			"10th Extahrz", -- [1]
+			"Nappen-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nappen-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			165, -- [11]
+			"Player-1303-0B947ED0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeNappen-GrimBatol|r",
+			[51] = 1604173138,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [60]
+		{
+			"doubt it", -- [1]
+			"Stwoticus-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stwoticus-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			167, -- [11]
+			"Player-1303-0B9A0FBA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Stwoticus|r",
+			[51] = 1604173141,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [61]
+		{
+			"WTS |cffa335ee|Hitem:30733::::::::50:261::::1:28:1939:::|h[Hope Ender]|h|r|cffffffff|Hitem:135479::::::::50:261:::::::|h[Lost Mail]|h|r cheap /w me", -- [1]
+			"Ai-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ai-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			168, -- [11]
+			"Player-1303-0B64EAE8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Ai|r",
+			[51] = 1604173142,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"they pushed the relase date back didn't they", -- [1]
+			"Stwoticus-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stwoticus-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			169, -- [11]
+			"Player-1303-0B9A0FBA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Stwoticus|r",
+			[51] = 1604173149,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"thats a long wait, thanks nappen!", -- [1]
+			"Extahrz-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Extahrz-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			170, -- [11]
+			"Player-1303-0B5F809C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Extahrz|r",
+			[51] = 1604173152,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:116:Player-1303-0B5AA8A3:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Professional Journeyman]|h|r!", -- [1]
+			"Rykahhpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahhpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			689, -- [11]
+			"Player-1303-0B5AA8A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rykahhpo|r",
+			[51] = 1604173758,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [65]
+		{
+			"How everyones halloween :P", -- [1]
+			"Jeepers-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			710, -- [11]
+			"Player-1303-0B615954", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cJeepers|r",
+			[51] = 1604173769,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [66]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:731:Player-1303-0B5AA8A3:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Professional Expert]|h|r!", -- [1]
+			"Rykahhpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahhpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			922, -- [11]
+			"Player-1303-0B5AA8A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rykahhpo|r",
+			[51] = 1604174021,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [67]
+		{
+			"any one able to tank a + for me?", -- [1]
+			"Farkinmental-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1026, -- [11]
+			"Player-1303-0B61E458", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcFarkinmental|r",
+			[51] = 1604174302,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [68]
+		{
+			"resto shaman lf raiding guild ", -- [1]
+			"Kaaldrak-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kaaldrak-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1138, -- [11]
+			"Player-1303-09618CFF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcKaaldrak-GrimBatol|r",
+			[51] = 1604174626,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			" <SBS> OFFERS, +15 FREE ARMOR STACK  ! Jaina Mount 300K ! [Keystone Master] I Keys up to +20 [Mecha Mount 130K] I [Visions] I [HC/Mythic Ny'alotha] I [Rare Mounts] I [Glory Achv] I [PVP]...DM for more info", -- [1]
+			"Zaqxswcde-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zaqxswcde-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1184, -- [11]
+			"Player-1303-0B82F5E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Zaqxswcde-GrimBatol|r",
+			[51] = 1604174665,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:732:Player-1303-0B5AA8A3:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Professional Classic Master]|h|r!", -- [1]
+			"Rykahhpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahhpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1237, -- [11]
+			"Player-1303-0B5AA8A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rykahhpo|r",
+			[51] = 1604174712,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [71]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:972:Player-1303-0B8B94A7:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Trick or Treat!]|h|r!", -- [1]
+			"Slyxeremey-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slyxeremey-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1270, -- [11]
+			"Player-1303-0B8B94A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edSlyxeremey|r",
+			[51] = 1604174894,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [72]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:979:Player-1303-0B8B94A7:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[The Mask Task]|h|r!", -- [1]
+			"Slyxeremey-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slyxeremey-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1271, -- [11]
+			"Player-1303-0B8B94A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edSlyxeremey|r",
+			[51] = 1604174898,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [73]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:506:Player-1303-0B9992CD:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[500 Quests Completed]|h|r!", -- [1]
+			"Latteboi-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Latteboi-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1299, -- [11]
+			"Player-1303-0B9992CD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Latteboi|r",
+			[51] = 1604175164,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [74]
+		{
+			"can people pls put who they are in their note if they are an alt pls", -- [1]
+			"Rykahhpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1309, -- [11]
+			"Player-1303-0B5AA8A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rykahhpo|r",
+			[51] = 1604175293,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [75]
+		{
+			"if not let me know so I can promote you to social", -- [1]
+			"Rykahhpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1313, -- [11]
+			"Player-1303-0B5AA8A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rykahhpo|r",
+			[51] = 1604175314,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [76]
+		{
+			"fastest leveler in the west", -- [1]
+			"|Kq100|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1326, -- [11]
+			false, -- [12]
+			106, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Sly360xHmstr|r",
+			[51] = 1604175479,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Sly360xHmstr",
+		}, -- [77]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4841:Player-1303-0B9ACF56:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Halls of Origination]|h|r!", -- [1]
+			"Corgihunter-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Corgihunter-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1330, -- [11]
+			"Player-1303-0B9ACF56", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Corgihunter|r",
+			[51] = 1604175591,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [78]
+		{
+			"hunter op", -- [1]
+			"|Kq100|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1331, -- [11]
+			false, -- [12]
+			106, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Sly360xHmstr|r",
+			[51] = 1604175689,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Sly360xHmstr",
+		}, -- [79]
+		{
+			"Tribe of Protagonists är en gammal Svensk guild där vi hjälper varandra. Vi söker nu härliga människor till shadowlands som kan acceptera wipe and smile. Vi har tidigare progressat hc och mythic.  gärna 25+ /w för mer info", -- [1]
+			"Elbanker-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Elbanker-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1411, -- [11]
+			"Player-1303-0B699792", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaElbanker|r",
+			[51] = 1604176101,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:6835:Player-1303-0B5AA8A3:1:10:31:20:4294967295:4294967295:4294967295:4294967295|h[Working For a Living]|h|r!", -- [1]
+			"Rykahhpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahhpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1651, -- [11]
+			"Player-1303-0B5AA8A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Rykahhpo|r",
+			[51] = 1604176351,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [81]
+		{
+			"lf some1 who can boost my rogue ./w for more info ", -- [1]
+			"Grrizzly-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Grrizzly-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1654, -- [11]
+			"Player-1303-0B9B2614", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Grrizzly-GrimBatol|r",
+			[51] = 1604176359,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"Tribe of Protagonists är en gammal Svensk guild där vi hjälper varandra. Vi söker nu härliga människor till shadowlands som kan acceptera wipe and smile. Vi har tidigare progressat hc och mythic.  gärna 25+ /w för mer info", -- [1]
+			"Elbanker-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Elbanker-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1699, -- [11]
+			"Player-1303-0B699792", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaElbanker|r",
+			[51] = 1604176579,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"botanica", -- [1]
+			"Kuntrum-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2, -- [11]
+			"Player-1303-0B69728B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Kuntrum|r",
+			[51] = 1604349050,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [84]
+		{
+			"asdasd", -- [1]
+			"Kumlla-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kumlla-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"Player-1303-0B61F5DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaKumlla|r",
+			[51] = 1604349052,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"|cff1eff00|Hitem:64882::::::::50:253::14::1:28:876:::|h[Gilneas Tabard]|h|r will it work?", -- [1]
+			"Kuntrum-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-1303-0B69728B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Kuntrum|r",
+			[51] = 1604349059,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [86]
+		{
+			"yeah that would work", -- [1]
+			"Devereux-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			9, -- [11]
+			"Player-1303-0B699C33", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDevereux|r",
+			[51] = 1604349060,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [87]
+		{
+			"?", -- [1]
+			"Moodydemon-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Moodydemon-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-1303-087C5E6D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Moodydemon-GrimBatol|r",
+			[51] = 1604349062,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"anyone else lagging", -- [1]
+			"Moodydemon-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Moodydemon-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-1303-087C5E6D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Moodydemon-GrimBatol|r",
+			[51] = 1604349067,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"cant even log out :P", -- [1]
+			"Tommystil-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tommystil-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-1303-086FF897", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcTommystil-GrimBatol|r",
+			[51] = 1604349080,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"yup ", -- [1]
+			"Archspire-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Archspire-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			15, -- [11]
+			"Player-1303-0A72A450", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edArchspire-GrimBatol|r",
+			[51] = 1604349082,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"same", -- [1]
+			"Rykahhpo-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rykahhpo-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"Player-1303-0B5AA8A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Rykahhpo|r",
+			[51] = 1604349084,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"«Cavaleiros do Apocalipse» Fome,porque não subimos o cooking.Peste,culpem os locks e os Dks.Guerra,porque duh isto tem pvp e a Morte,que significa muitos mas mesmo muitos corpse runs...é basicamente isto.Join and enjoy :D", -- [1]
+			"Fofuxa-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fofuxa-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-1303-00A8C25C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaFofuxa-GrimBatol|r",
+			[51] = 1604611253,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"\"Triangle\" is a chill friendly social guild. We are here to enjoy the new expansion and take our time. Think of us like a cafe where you come to spend time with your friends doing Dungeons, Mythics, Mount Farming, Raiding... We do it all! /w to be invi", -- [1]
+			"Nilia-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nilia-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-1303-0B92C723", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Nilia-GrimBatol|r",
+			[51] = 1604611256,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1180:Player-1303-0B282C66:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
+			"Holypepega-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Holypepega-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-1303-0B282C66", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeHolypepega-GrimBatol|r",
+			[51] = 1604611283,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"Guild <Os Marretas> é uma guilda de PvE e Social que executa Wipes com estilo! Somos um culto Português que procura membros suecos que falam chinês com sotaque russo. Nenhum tabard da guilda, pois não combina com o nosso penteado. Obrigado!", -- [1]
+			"Tsulong-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tsulong-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1294, -- [11]
+			"Player-1303-0B303D4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
+			[51] = 1604870682,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"<Os Marretas> não está à procura de novos membros, activos ou inactivos. Nós odiamos-te e tudo o que tu representas e tentamos retirar tudo o que o jogo possa ter de divertido. Nós temos tabards, não, não podes ter um! Odeio-te!", -- [1]
+			"Sarutoby-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sarutoby-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1295, -- [11]
+			"Player-1303-05947CBE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Sarutoby-Aggra(Português)|r",
+			[51] = 1604870684,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"\"Triangle\" is a chill friendly social guild. We are here to enjoy the new expansion and take our time. Think of us like a cafe where you come to spend time with your friends doing Dungeons, Mythics, Mount Farming, Raiding... We do it all! /w to be invi", -- [1]
+			"Nilia-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nilia-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			12, -- [11]
+			"Player-1303-0B92C723", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Nilia-GrimBatol|r",
+			[51] = 1604959825,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"<Exempt> New mythic progression raiding guild looking for DPS (Spriest/Lock/DH) and 1 HPALA to complete our raid team for Shadowlands. Raiding Wed & Thurs 20:00 - 23:00. Socials more than welcome too", -- [1]
+			"Meleph-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Meleph-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-1303-0B9D56A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaMeleph|r",
+			[51] = 1605040423,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

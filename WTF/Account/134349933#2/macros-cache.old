@@ -1,9 +1,9 @@
 VER 3 000000000000001F "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use Thaelin's Quick Fix
+/use Incense Burner
 END
 VER 3 0000000000000031 "abyssal fragment" "136197"
-/2 WTS 20x |cffffffff|Hitem:161344::::::::20:265::::::|h[Abyssal Fragment]|h|r - Rewards |cffa335ee|Hitem:161479::::::::20:265::::::|h[Nazjatar Blood Serpent]|h|r - 20k cheaper than AH
+/2 WTS 20x |cffffffff|Hitem:161344::::::::20:265::::::|h[Abyssal Fragment]|h|r - Rewards |cffa335ee|Hitem:161479::::::::20:265::::::|h[Nazjatar Blood Serpent]|h|r - 40k cheaper than AH
 END
 VER 3 0000000000000028 "Bones" "INV_Misc_Bone_01."
 /2 WTS 9999x |cffffffff|Hitem:94288::::::::20:265::::::|h[Giant Dinosaur Bone]|h|r - Rewards |cffa335ee|Hitem:94290::::::::20:265::::::|h[Reins of the Bone-White Primal Raptor]|h|r and Meta-Achievement

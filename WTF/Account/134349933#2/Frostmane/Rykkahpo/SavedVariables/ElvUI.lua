@@ -1,229 +1,229 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/o do you know what dave does?", -- [1]
-		"/o yeah i mean specifically?", -- [2]
-		"/o well basically I write an application companies use to track issues with their computers and software", -- [3]
-		"/o its super dull", -- [4]
-		"/o and couldnt be further from what i wanted to be working with", -- [5]
-		"/o no", -- [6]
-		"/o my boss is a tight tax dodging cunt", -- [7]
-		"/o I wanted to get a new job this year but corona happened and then the year disappeared", -- [8]
-		"/o I'm not really sure", -- [9]
-		"/o the company I work for are quite old school", -- [10]
-		"/o and they're quite small", -- [11]
-		"/g oooh", -- [12]
-		"/o I like having a small team", -- [13]
-		"/o but dislike the way we work if that makes any sense", -- [14]
-		"/o I'll hopefully find a new job after the new year", -- [15]
-		"/o but I don't like the idea of starting at a new company working fully remotely", -- [16]
-		"/o before covid happened, I travelled to work in edinburgh", -- [17]
-		"/o so was hoping when I eventually got a new job that it would be closer to home", -- [18]
-		"/o cause public transport is hit", -- [19]
-		"/o shit*", -- [20]
+		"i mean lump removing", -- [1]
+		">But I don't want very good white cards. Swords to Plowshares is a very good card, Armageddon is a very good card, Thalia is a very good card. I want powerful white cards, things that are big and fun and make a scene when cast, putting me ahead. Like some", -- [2]
+		">9cmc sultai stuff", -- [3]
+		">white has been oppressed for years", -- [4]
+		"is probably smothering tithe", -- [5]
+		"and before that it must have been wrath of god", -- [6]
+		"hold up", -- [7]
+		"you cant spell", -- [8]
+		"but can spell definitely", -- [9]
+		"why", -- [10]
+		"im confused", -- [11]
+		"someone cant think thats a good land", -- [12]
+		"I love terrible lands being common through my sealed pool", -- [13]
+		"so when I open 3, I can run all of them", -- [14]
+		"I did too until you got interested", -- [15]
+		"and I think dave still does", -- [16]
+		"like brainstorm isnt broken when you have no win cons", -- [17]
+		"have you saw meta deck for standard atm?", -- [18]
+		"if you had told me these cards would be in the top deck of standard, I would have agreed with every single one", -- [19]
+		"/played", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"Selling Freehold leveling boost cheap /w me", -- [1]
-			"Hipócat-Frostmane", -- [2]
+			"they always start with", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hipócat-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			4772, -- [11]
-			"Player-1303-0B664A73", -- [12]
-			0, -- [13]
+			3629, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Hipócat|r",
-			[51] = 1601827109,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604532717,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [1]
 		{
-			"WTS |cffa335ee|Hitem:95416::::::::120:73::::::|h[Sky Golem]|h|r", -- [1]
-			"Sydbarrett-Aggra(Português)", -- [2]
+			"what is this chat ", -- [1]
+			"Cheszhire-Frostmane", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Sydbarrett-Aggra(Português)", -- [5]
+			"Cheszhire-Frostmane", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			4782, -- [11]
-			"Player-1303-0592AF71", -- [12]
+			3633, -- [11]
+			"Player-1303-0B884AD1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cSydbarrett-Aggra(Português)|r",
-			[51] = 1601827117,
+			[52] = "|cff3ec6eaCheszhire|r",
+			[51] = 1604532720,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [2]
 		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:2146:Player-1303-0B699C33:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[The Hundred Club (10 player)]|h|r!", -- [1]
+			"Devereux-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
+			"", -- [4]
+			"Devereux-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			4806, -- [11]
-			"Player-1303-0B72C633", -- [12]
+			3636, -- [11]
+			"Player-1303-0B699C33", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601827134,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff8687edDevereux|r",
+			[51] = 1604532721,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [3]
 		{
-			"Dylan u were the imposter! I saw you!", -- [1]
-			"Cassetto-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4868, -- [11]
-			"Player-1303-0B697E12", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Cassetto|r",
-			[51] = 1601827182,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
-		{
-			"U knifed Ashe ", -- [1]
-			"Cassetto-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4884, -- [11]
-			"Player-1303-0B697E12", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Cassetto|r",
-			[51] = 1601827192,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [5]
-		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
+			"Guild <Os Marretas> é uma guild de PvE e Social que executa Wipes com estilo! Somos um culto Português que procura membros suecos que falam chinês com sotaque russo. Nenhum tabard da guilda, pois não combina com o nosso penteado. Obrigado", -- [1]
+			"Unnämed-Aggra(Português)", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
+			"Unnämed-Aggra(Português)", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			5014, -- [11]
-			"Player-1303-0B698EEE", -- [12]
+			3651, -- [11]
+			"Player-1303-05974B41", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601827295,
+			[52] = "|cff006fdcUnnämed-Aggra(Português)|r",
+			[51] = 1604532732,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+		{
+			">i like guay, buuuuuuuuuuuuuuuuuuut there is this guy called seb", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3654, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604532734,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [5]
+		{
+			"civil war prep 101 chat", -- [1]
+			"Coalshaper-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Coalshaper-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3657, -- [11]
+			"Player-1303-0B18F312", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Coalshaper-GrimBatol|r",
+			[51] = 1604532736,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [6]
 		{
-			"when next games", -- [1]
-			"Defendless-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5019, -- [11]
-			"Player-1303-0B68A8AE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cDefendless|r",
-			[51] = 1601827298,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
-		{
-			"that would be something dave might know", -- [1]
-			"Maki-Aggra(Português)", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5041, -- [11]
-			"Player-1303-0B7DE27A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Maki|r",
-			[51] = 1601827313,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
-		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
+			"alah ackbar?", -- [1]
+			"Evilsamigina-Frostmane", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
+			"Evilsamigina-Frostmane", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			5067, -- [11]
-			"Player-1303-0B72C633", -- [12]
+			3670, -- [11]
+			"Player-1303-0B699C15", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601827333,
+			[52] = "|cffa9d271Evilsamigina|r",
+			[51] = 1604532746,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
+		{
+			"Tribe of Protagonists är en gammal Svensk guild där vi hjälper varandra. Vi söker nu härliga människor till shadowlands som kan acceptera wipe and smile. Vi har tidigare progressat hc och mythic.  gärna 25+ /w för mer info", -- [1]
+			"Elbanker-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Elbanker-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3734, -- [11]
+			"Player-1303-0B699792", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaElbanker|r",
+			[51] = 1604532796,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [8]
+		{
+			"Não sabes porque é que pêlos longos te atraem?Sonhas à noite com longos chifres,cascos de draenei e modelos de Undead?Junta-te aos Marretas e descobre que talvez sejas o único...Mas ao menos nós vamos-nos rir de ti!Marretas desde 2012 aqui para ti", -- [1]
+			"Unnämed-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Unnämed-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3758, -- [11]
+			"Player-1303-05974B41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcUnnämed-Aggra(Português)|r",
+			[51] = 1604532814,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [9]
 		{
-			"tomorrow i believe", -- [1]
-			"Cassetto-Frostmane", -- [2]
+			"yeh like its a competition", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -232,86 +232,86 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			5085, -- [11]
-			"Player-1303-0B697E12", -- [12]
-			0, -- [13]
+			3801, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Cassetto|r",
-			[51] = 1601827346,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604532848,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [10]
 		{
-			"Where do I complete \"Champions of Azeroth\" world quest bonus, for 3000 azerite power?", -- [1]
-			"Kfisch-Frostmane", -- [2]
+			">forgive me guay for I am in love with another person's art ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kfisch-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			5114, -- [11]
-			"Player-1303-0B65EA3C", -- [12]
-			0, -- [13]
+			3824, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cKfisch|r",
-			[51] = 1601827368,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604532867,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [11]
 		{
-			"will be weird not hearing him giggle when tom does something sus tho", -- [1]
-			"Maki-Aggra(Português)", -- [2]
+			"Who dod insta bid goldcap on the tiger, please /w me", -- [1]
+			"Hallibell-Frostmane", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Hallibell-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			5196, -- [11]
-			"Player-1303-0B7DE27A", -- [12]
+			3975, -- [11]
+			"Player-1303-0B693CB1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Maki|r",
-			[51] = 1601827429,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffe7b09Hallibell|r",
+			[51] = 1604532998,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [12]
 		{
-			"Who is maki", -- [1]
-			"Defendless-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:578:Player-1303-0B699C33:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[The Dedicated Few (10 player)]|h|r!", -- [1]
+			"Devereux-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Devereux-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			5281, -- [11]
-			"Player-1303-0B68A8AE", -- [12]
+			3976, -- [11]
+			"Player-1303-0B699C33", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cDefendless|r",
-			[51] = 1601827496,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edDevereux|r",
+			[51] = 1604533016,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [13]
 		{
-			"who knows", -- [1]
-			"Maki-Aggra(Português)", -- [2]
+			"austere command is in this set", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -320,20 +320,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			5304, -- [11]
-			"Player-1303-0B7DE27A", -- [12]
-			0, -- [13]
+			4145, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Maki|r",
-			[51] = 1601827513,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533187,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [14]
 		{
-			"Mirka?", -- [1]
-			"Defendless-Frostmane", -- [2]
+			"inb4 all of them but cryptic", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -342,20 +342,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			5317, -- [11]
-			"Player-1303-0B68A8AE", -- [12]
-			0, -- [13]
+			4153, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cDefendless|r",
-			[51] = 1601827523,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533193,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [15]
 		{
-			"whos that", -- [1]
-			"Maki-Aggra(Português)", -- [2]
+			"oh yeah baby ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -364,108 +364,86 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			5326, -- [11]
-			"Player-1303-0B7DE27A", -- [12]
-			0, -- [13]
+			4269, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Maki|r",
-			[51] = 1601827528,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533283,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [16]
 		{
-			"WTS |cffa335ee|Hitem:95416::::::::120:73::::::|h[Sky Golem]|h|r", -- [1]
-			"Sydbarrett-Aggra(Português)", -- [2]
+			"gimme that prima command", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sydbarrett-Aggra(Português)", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			5331, -- [11]
-			"Player-1303-0592AF71", -- [12]
-			0, -- [13]
+			4274, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cSydbarrett-Aggra(Português)|r",
-			[51] = 1601827532,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533287,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [17]
 		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
+			"primal*", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			5334, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
+			4291, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601827534,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533299,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [18]
 		{
-			"|cffffd100|HclubFinder:ClubFinder-1-85556-1303-88460969|h[Guild: LFR Heroes]|h|r Ser etter dedikert raid leader og ranged dps til Shadowlands progress raiding. I mellomtiden koser vi oss med m+ og hc funrun på fredager og sosialt samhold ellers. :)", -- [1]
-			"Nelfïn-GrimBatol", -- [2]
+			"LFGuild Portuguesa", -- [1]
+			"Ragnorra-Aggra(Português)", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Nelfïn-GrimBatol", -- [5]
+			"Ragnorra-Aggra(Português)", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			5340, -- [11]
-			"Player-1303-045B74D7", -- [12]
+			4384, -- [11]
+			"Player-1303-0B9C5017", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeNelfïn-GrimBatol|r",
-			[51] = 1601827537,
+			[52] = "|cfffe7b09Ragnorra-Aggra(Português)|r",
+			[51] = 1604533373,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [19]
 		{
-			"<NBC> Offers:|cff66bbff|Hjournal:0:1180:16|h[Ny'alotha, the Waking City]|h|r 12/12hc from 140k, Curve 50k, Mythic 12/12 , m10 70k, m15 90k (Buy 2=FREE ARMOR STACK) , Jaina mount 350k, Visions, Mechagon HM, Glory runs, Accepting gold on all realms!", -- [1]
-			"Nbcskadi-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nbcskadi-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			5348, -- [11]
-			"Player-1303-0B73959F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeNbcskadi|r",
-			[51] = 1601827543,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"Weird u have same IP adres as here", -- [1]
-			"Defendless-Frostmane", -- [2]
+			"do you want me to send you a good thread", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -474,966 +452,988 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			5391, -- [11]
-			"Player-1303-0B68A8AE", -- [12]
-			0, -- [13]
+			4399, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cDefendless|r",
-			[51] = 1601827576,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533383,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [20]
+		{
+			"and by good ", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4402, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533385,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [21]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B6973AE:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
-			"Adramahlihk-Frostmane", -- [2]
+			"i mean lump removing", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adramahlihk-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			5833, -- [11]
-			"Player-1303-0B6973AE", -- [12]
-			0, -- [13]
+			4413, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Adramahlihk|r",
-			[51] = 1601827921,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533394,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [22]
 		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			5844, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601827929,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			5852, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601827934,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4523:Player-1303-0B68A8AE:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Three Faced]|h|r!", -- [1]
-			"Defendless-Frostmane", -- [2]
+			"this is the #pauper killer", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Defendless-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			5892, -- [11]
-			"Player-1303-0B68A8AE", -- [12]
-			0, -- [13]
+			4422, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cDefendless|r",
-			[51] = 1601827966,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533401,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [23]
 		{
-			"this young", -- [1]
-			"Tjackisia-Frostmane", -- [2]
+			"sure", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4430, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533406,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [24]
+		{
+			"Hunter confirmed coolest specc SL", -- [1]
+			"Coalshaper-GrimBatol", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Tjackisia-Frostmane", -- [5]
+			"Coalshaper-GrimBatol", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			5993, -- [11]
-			"Player-1303-0B82D223", -- [12]
+			4437, -- [11]
+			"Player-1303-0B18F312", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff8686ecTjackisia|r",
-			[51] = 1601828043,
+			[52] = "|cffa9d271Coalshaper-GrimBatol|r",
+			[51] = 1604533410,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [25]
+		{
+			"Perdido?Confuso?Lutando conta o vicio do jogo?|cffffd100|HclubFinder:ClubFinder-1-82893-1303-34609499|h[Guild: Os Marretas]|h|r entendente e estamos aqui se tu precisares de um abraço. O primeiro é gratuito, o segundo custará a tua  ALMA. Ou um donut!", -- [1]
+			"Unnämed-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Unnämed-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4465, -- [11]
+			"Player-1303-05974B41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcUnnämed-Aggra(Português)|r",
+			[51] = 1604533432,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [26]
 		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
+			">But I don't want very good white cards. Swords to Plowshares is a very good card, Armageddon is a very good card, Thalia is a very good card. I want powerful white cards, things that are big and fun and make a scene when cast, putting me ahead. Like some", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6114, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
+			4501, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601828135,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533460,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [27]
 		{
-			"what ilvl timewalking drops?", -- [1]
-			"Ignisacra-Aggra(Português)", -- [2]
+			">9cmc sultai stuff", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ignisacra-Aggra(Português)", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6124, -- [11]
-			"Player-1303-064F0140", -- [12]
-			0, -- [13]
+			4512, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Ignisacra-Aggra(Português)|r",
-			[51] = 1601828141,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533468,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [28]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B6440DA:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
-			"Sebìlle-Frostmane", -- [2]
+			"ah", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Sebìlle-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			6129, -- [11]
-			"Player-1303-0B6440DA", -- [12]
-			0, -- [13]
+			4527, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Sebìlle|r",
-			[51] = 1601828144,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533479,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [29]
 		{
-			"425", -- [1]
-			"Jeiden-GrimBatol", -- [2]
+			"i want bad white cards", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jeiden-GrimBatol", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6148, -- [11]
-			"Player-1303-05D5D32D", -- [12]
-			0, -- [13]
+			4532, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Jeiden-GrimBatol|r",
-			[51] = 1601828159,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533483,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [30]
 		{
-			"ty", -- [1]
-			"Ignisacra-Aggra(Português)", -- [2]
+			"i see", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ignisacra-Aggra(Português)", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6157, -- [11]
-			"Player-1303-064F0140", -- [12]
-			0, -- [13]
+			4539, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Ignisacra-Aggra(Português)|r",
-			[51] = 1601828165,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533487,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [31]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B67E549:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
-			"Lòhse-Frostmane", -- [2]
+			"i bet dave sends this tomorrow in slack", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lòhse-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			6436, -- [11]
-			"Player-1303-0B67E549", -- [12]
-			0, -- [13]
+			4674, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec5e9Lòhse|r",
-			[51] = 1601828387,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533597,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [32]
 		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
+			"i need to look at some spoiler threads ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6544, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
+			4687, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601828469,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533605,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [33]
 		{
-			"tsm", -- [1]
-			"Dugal-Frostmane", -- [2]
+			"for the \"hot takes\"", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dugal-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6563, -- [11]
-			"Player-1303-0B6988FB", -- [12]
-			0, -- [13]
+			4693, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Dugal|r",
-			[51] = 1601828482,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533610,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [34]
 		{
-			"KEKW", -- [1]
-			"Leffy-Aggra(Português)", -- [2]
+			"i will remind you of my pin", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Leffy-Aggra(Português)", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6573, -- [11]
-			"Player-1303-0B2EBFC4", -- [12]
-			0, -- [13]
+			4699, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Leffy-Aggra(Português)|r",
-			[51] = 1601828489,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533614,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [35]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B667677:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
-			"Stalber-Frostmane", -- [2]
+			">white has been oppressed for years", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Stalber-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			6605, -- [11]
-			"Player-1303-0B667677", -- [12]
-			0, -- [13]
+			4710, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe95Stalber|r",
-			[51] = 1601828515,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533621,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [36]
 		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
+			"and it seems to continue", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6629, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
+			4717, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601828533,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533627,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [37]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:4956:Player-1303-0B841B84:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r!", -- [1]
-			"Emmalitha-Frostmane", -- [2]
+			"white has literally never had a good card ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Emmalitha-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			6780, -- [11]
-			"Player-1303-0B841B84", -- [12]
-			0, -- [13]
+			4770, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Emmalitha|r",
-			[51] = 1601828647,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533668,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [38]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:4956:Player-1303-0B841BE7:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[5 Dungeon Quests Completed]|h|r!", -- [1]
-			"Svartalfr-Frostmane", -- [2]
+			"I think the last playable card that white has got ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Svartalfr-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			6785, -- [11]
-			"Player-1303-0B841BE7", -- [12]
-			0, -- [13]
+			4791, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Svartalfr|r",
-			[51] = 1601828651,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533684,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [39]
 		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
+			"is probably smothering tithe", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6814, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
+			4805, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601828673,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533694,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [40]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B67DADB:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
-			"Georgopol-Frostmane", -- [2]
+			"and before that it must have been wrath of god", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Georgopol-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			6835, -- [11]
-			"Player-1303-0B67DADB", -- [12]
-			0, -- [13]
+			4818, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Georgopol|r",
-			[51] = 1601828688,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533704,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [41]
 		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
+			"yes definitely ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6897, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
+			4829, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601828735,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533712,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [42]
 		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
+			"this is known", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			6901, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
+			4844, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601828738,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533725,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [43]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B64D1FF:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
-			"Ìfan-Frostmane", -- [2]
+			"hold up", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ìfan-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			7089, -- [11]
-			"Player-1303-0B64D1FF", -- [12]
-			0, -- [13]
+			4845, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Ìfan|r",
-			[51] = 1601828882,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533728,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [44]
 		{
-			"<RCU> Get your Ahead of the Curve (N'Zoth the Corruptor hc)  TODAY, every 30 minutes selling for gold! You'll get Uncorrupted Voidwing mount and possible 470 ilvl gear! /w to book a spot!", -- [1]
-			"Mystïc-GrimBatol", -- [2]
+			"you cant spell", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mystïc-GrimBatol", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7136, -- [11]
-			"Player-1303-0B7A6300", -- [12]
-			0, -- [13]
+			4846, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Mystïc-GrimBatol|r",
-			[51] = 1601828918,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533733,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [45]
 		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
+			"but can spell definitely", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7170, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
+			4847, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601828942,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533736,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [46]
 		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
+			"why ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7183, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
+			4848, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601828952,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533739,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [47]
 		{
-			"WTS|cffffff00|Hachievement:14068:Player-2073-06FB66C5:1:2:11:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+|cff71d5ff|Hspell:302143:0|h[Uncorrupted Voidwing]|h|r for 50k Runs Every Hour /w for more info", -- [1]
-			"Pomprik-GrimBatol", -- [2]
+			"im unungood at spelling sometimes ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pomprik-GrimBatol", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7294, -- [11]
-			"Player-1303-0B011AF8", -- [12]
-			0, -- [13]
+			4856, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Pomprik-GrimBatol|r",
-			[51] = 1601829039,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533753,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [48]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B64D02D:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
-			"Gratiana-Frostmane", -- [2]
+			"fug", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gratiana-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			7311, -- [11]
-			"Player-1303-0B64D02D", -- [12]
-			0, -- [13]
+			4890, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeGratiana|r",
-			[51] = 1601829054,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533784,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [49]
 		{
-			"Oblivion Selling 12/12HC @ 20ST! VIP, Lootshare and Personal loot available! AOTC 50k! M15 105k M10 80k! Specific Key & Armor stack Possible. M15 w friend for 180k! Keystone Master. Jaina Mount. Nya Mythic Bosses and N'zoth mount. PM for more info!", -- [1]
-			"Jaybee-Frostmane", -- [2]
+			"found a meme", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jaybee-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7312, -- [11]
-			"Player-1303-0B6E9CCC", -- [12]
-			0, -- [13]
+			4894, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Jaybee|r",
-			[51] = 1601829058,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533786,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [50]
 		{
-			"<RCU> Get your Ahead of the Curve (N'Zoth the Corruptor hc)  TODAY, every 30 minutes selling for gold! You'll get Uncorrupted Voidwing mount and possible 470 ilvl gear! /w to book a spot!", -- [1]
-			"Mystïc-GrimBatol", -- [2]
+			"this is on the thread spoiling the colourless bounce land", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mystïc-GrimBatol", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7313, -- [11]
-			"Player-1303-0B7A6300", -- [12]
-			0, -- [13]
+			4920, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Mystïc-GrimBatol|r",
-			[51] = 1601829089,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533806,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [51]
 		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
+			">I get the joke but if it were common... sol ring in pauper?", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7314, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
+			4931, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601829092,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533815,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [52]
 		{
-			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
-			"Lighthookf-Frostmane", -- [2]
+			">tfw the other bounce lands are legal and played, so why would you ever take a colourless one over them - and the fact they are a tempo loss on the turn played removes any semblance of sol ring's acceleration potential ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lighthookf-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7317, -- [11]
-			"Player-1303-0B72C633", -- [12]
-			0, -- [13]
+			5029, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLighthookf|r",
-			[51] = 1601829135,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533890,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [53]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:9037:Player-1303-0B660E49:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Bloodmaul Slag Mines]|h|r!", -- [1]
-			"Coldstorm-Frostmane", -- [2]
+			"Swift Zulian tiger bidder please DM me", -- [1]
+			"Hallibell-Frostmane", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Coldstorm-Frostmane", -- [5]
+			"2. Trade - City", -- [4]
+			"Hallibell-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			7319, -- [11]
-			"Player-1303-0B660E49", -- [12]
+			5037, -- [11]
+			"Player-1303-0B693CB1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcColdstorm|r",
-			[51] = 1601829160,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			true, -- [17]
+			[52] = "|cfffe7b09Hallibell|r",
+			[51] = 1604533896,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [54]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:9046:Player-1303-0B660E49:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Bloodmaul Slag Mines]|h|r!", -- [1]
-			"Coldstorm-Frostmane", -- [2]
+			"im confused", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldstorm-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			7320, -- [11]
-			"Player-1303-0B660E49", -- [12]
-			0, -- [13]
+			5146, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcColdstorm|r",
-			[51] = 1601829160,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533980,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [55]
 		{
-			"WTS|cffffff00|Hachievement:14068:Player-2073-06FB66C5:1:2:11:20:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r+|cff71d5ff|Hspell:302143:0|h[Uncorrupted Voidwing]|h|r for 50k Runs Every Hour /w for more info", -- [1]
-			"Pomprik-GrimBatol", -- [2]
+			"someone cant think thats a good land", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pomprik-GrimBatol", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7321, -- [11]
-			"Player-1303-0B011AF8", -- [12]
-			0, -- [13]
+			5155, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Pomprik-GrimBatol|r",
-			[51] = 1601829187,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533986,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [56]
 		{
-			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
-			"Immortale-Frostmane", -- [2]
+			"there's no way", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Immortale-Frostmane", -- [5]
-			"AFK", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			7322, -- [11]
-			"Player-1303-0B698EEE", -- [12]
-			0, -- [13]
+			5160, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Immortale|r",
-			[51] = 1601829219,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604533993,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [57]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:295:Player-1303-0B63FA3F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Direbrewfest]|h|r!", -- [1]
-			"Primorsk-Frostmane", -- [2]
+			"https://old.reddit.com/r/magicTCG/comments/jnzec6/cmr_guildless_commons/gb5bfqq/", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Primorsk-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			7323, -- [11]
-			"Player-1303-0B63FA3F", -- [12]
-			0, -- [13]
+			5183, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8686ecPrimorsk|r",
-			[51] = 1601829242,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534010,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [58]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:628:Player-1303-0B841B84:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Deadmines]|h|r!", -- [1]
-			"Emmalitha-Frostmane", -- [2]
+			"go off, king", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Emmalitha-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			7325, -- [11]
-			"Player-1303-0B841B84", -- [12]
-			0, -- [13]
+			5190, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Emmalitha|r",
-			[51] = 1601829270,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534015,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [59]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:628:Player-1303-0B841BE7:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Deadmines]|h|r!", -- [1]
-			"Svartalfr-Frostmane", -- [2]
+			">This has no business being uncommon. I would really like to see this in pauper after tron gets eventually banned", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Svartalfr-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			7326, -- [11]
-			"Player-1303-0B841BE7", -- [12]
-			0, -- [13]
+			5207, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Svartalfr|r",
-			[51] = 1601829270,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534050,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [60]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12937:Player-1303-0B65AD2D:1:10:9:20:4294967295:4294967295:4294967295:4294967295|h[Elevator Music]|h|r!", -- [1]
-			"Eolen-Frostmane", -- [2]
+			"are these people dumb", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eolen-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			462, -- [11]
-			"Player-1303-0B65AD2D", -- [12]
-			0, -- [13]
+			5208, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Eolen|r",
-			[51] = 1602272052,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534061,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [61]
 		{
-			"[RCU]: We are selling Jaina Mount and 10-24 M+ for GOLD. Guaranteed in time and all gear traded to you. We also sell RAID runs, Nyalotha HC and Mythic, Level boost and PVP 0-2400. Come get your Mounts and Achievments before they go away!", -- [1]
-			"Cröss-Aggra(Português)", -- [2]
+			"that is ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cröss-Aggra(Português)", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			463, -- [11]
-			"Player-1303-0A29B229", -- [12]
-			0, -- [13]
+			5209, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Cröss-Aggra(Português)|r",
-			[51] = 1602272059,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534064,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [62]
 		{
-			"<NOVA> VISIONS Full Run + 5 Masks: 80k ,|| Full Run + 5 Masks(AFK, loot only): 60k || Full Run NO MASK: 40k+ .Hertz Locker + mount ||M+ {10>>23}  +15  90k|| 2 runs:  10% discount|| 4 runs: 15%discount|| <3", -- [1]
-			"Sellvoidnova-Frostmane", -- [2]
+			"the best thing i have ever read", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sellvoidnova-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			464, -- [11]
-			"Player-1303-0B815CD3", -- [12]
-			0, -- [13]
+			5216, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeSellvoidnova|r",
-			[51] = 1602272084,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534070,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [63]
 		{
-			"Jag säljer ut mitt guld billigt! Skriv vid intresse!", -- [1]
-			"Whowantsit-Frostmane", -- [2]
+			"sure ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Whowantsit-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1, -- [11]
-			"Player-1303-0B81CA6D", -- [12]
-			0, -- [13]
+			5232, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeWhowantsit|r",
-			[51] = 1602446009,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534081,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [64]
 		{
-			"when did you lot move to frostmane?", -- [1]
-			"Rykkahpo-Frostmane", -- [2]
+			"I love terrible lands being common through my sealed pool", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1442,20 +1442,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			324, -- [11]
-			"Player-1303-0B698580", -- [12]
-			0, -- [13]
+			5249, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Rykkahpo|r",
-			[51] = 1604096834,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534094,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [65]
 		{
-			"wrong chat ", -- [1]
-			"Rykkahpo-Frostmane", -- [2]
+			"so when I open 3, I can run all of them", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1464,20 +1464,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			340, -- [11]
-			"Player-1303-0B698580", -- [12]
-			0, -- [13]
+			5259, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Rykkahpo|r",
-			[51] = 1604096868,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534101,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [66]
 		{
-			"think it was back in wrath", -- [1]
-			"Bolhilem-Frostmane", -- [2]
+			"i love bouncing my bounc land with my 2rd colourless bounce land", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1486,20 +1486,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			343, -- [11]
-			"Player-1303-0B54DA5C", -- [12]
-			0, -- [13]
+			5288, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcBolhilem|r",
-			[51] = 1604096883,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534123,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [67]
 		{
-			"start of BFA", -- [1]
-			"Meowternity-Frostmane", -- [2]
+			"its basically tron", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1508,20 +1508,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			354, -- [11]
-			"Player-1303-0B688D4F", -- [12]
-			0, -- [13]
+			5309, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Meowternity|r",
-			[51] = 1604096894,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534140,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [68]
 		{
-			";p", -- [1]
-			"Meowternity-Frostmane", -- [2]
+			"i dont think these people have ever seen a game of pauper", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1530,20 +1530,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			355, -- [11]
-			"Player-1303-0B688D4F", -- [12]
-			0, -- [13]
+			5363, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Meowternity|r",
-			[51] = 1604096895,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534182,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [69]
 		{
-			"Wotld", -- [1]
-			"Aphinia-Frostmane", -- [2]
+			"i dont think these people have ever used a bounceland", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1552,372 +1552,372 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			356, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
+			5387, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1604096904,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534200,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [70]
 		{
-			"is hunter still op ?", -- [1]
-			"Trt-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Trt-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			489, -- [11]
-			"Player-1303-0A8D5BBB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Trt-GrimBatol|r",
-			[51] = 1604097108,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
-		{
-			"yes", -- [1]
-			"Dësire-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dësire-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			500, -- [11]
-			"Player-1303-0B571125", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Dësire|r",
-			[51] = 1604097115,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11759:Player-1303-0B815C5D:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Yaass'shaarj]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
+			"they must think it is draft chaff constructed", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			522, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1604097131,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
-		{
-			"MM yes", -- [1]
-			"Masqueradë-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Masqueradë-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			524, -- [11]
-			"Player-1303-0B61C887", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Masqueradë|r",
-			[51] = 1604097133,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
-		{
-			"bm too ", -- [1]
-			"Killerbeastt-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Killerbeastt-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			549, -- [11]
-			"Player-1303-0B049A9E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Killerbeastt-Aggra(Português)|r",
-			[51] = 1604097152,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
-		{
-			"I though bm was the OP spec?", -- [1]
-			"Nytfury-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nytfury-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			554, -- [11]
-			"Player-1303-08FDFD5A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Nytfury-GrimBatol|r",
-			[51] = 1604097155,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
-		{
-			"MM", -- [1]
-			"Masqueradë-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Masqueradë-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			563, -- [11]
-			"Player-1303-0B61C887", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Masqueradë|r",
-			[51] = 1604097161,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
-		{
-			"bm is pretty broken yes", -- [1]
-			"Wobo-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Wobo-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			631, -- [11]
-			"Player-1303-0B646E1A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cWobo|r",
-			[51] = 1604097213,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:8462:Player-1303-0B815C5D:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Downfall]|h|r!", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aphinia-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			827, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1604097364,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:229:Player-1303-0B973F51:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[The Grim Reaper]|h|r!", -- [1]
-			"Luces-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Luces-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			919, -- [11]
-			"Player-1303-0B973F51", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Luces|r",
-			[51] = 1604097430,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:979:Player-1303-0B68C237:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[The Mask Task]|h|r!", -- [1]
-			"Cérbérus-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Cérbérus-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1009, -- [11]
-			"Player-1303-0B68C237", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edCérbérus|r",
-			[51] = 1604097501,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
-		{
-			"|cffffff00Dwarven District is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1160, -- [11]
+			5389, -- [11]
 			false, -- [12]
-			0, -- [13]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1604097865,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534201,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [71]
+		{
+			"to be fair", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5441, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534243,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [72]
+		{
+			"I did too until you got interested", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5450, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534249,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [73]
+		{
+			"and I think dave still does", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5459, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534255,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [74]
+		{
+			"dave's most cast spell is probs brain storm", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5492, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534280,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [75]
+		{
+			"hed love it", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5495, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534283,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [76]
+		{
+			"yeah i love how its got dumb card draw", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5512, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534294,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [77]
+		{
+			"its legacy answers to very bad creatuers", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5533, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534312,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [78]
+		{
+			"like brainstorm isnt broken when you have no win cons", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5536, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534313,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [79]
+		{
+			"and delver is here also", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5541, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534315,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [80]
+		{
+			"i cant believe delver is pauper legal", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5566, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534336,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [81]
+		{
+			"it has to be one of the dumbest cards ", -- [1]
+			"|Kq110|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5579, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534345,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [82]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:513:Player-1303-0B973F51:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[100 Honorable Kills]|h|r!", -- [1]
-			"Luces-Frostmane", -- [2]
+			"i dare say it was pretty meh in limited, which was the only format were rarity mattered", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Luces-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1166, -- [11]
-			"Player-1303-0B973F51", -- [12]
-			0, -- [13]
+			5634, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Luces|r",
-			[51] = 1604097971,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534388,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [83]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:3846:Player-1303-0B868EFF:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Resource Glut]|h|r!", -- [1]
-			"Nikxes-Frostmane", -- [2]
+			"but yeah, add in some cantrips and you got a stew going", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nikxes-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1181, -- [11]
-			"Player-1303-0B868EFF", -- [12]
-			0, -- [13]
+			5667, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Nikxes|r",
-			[51] = 1604098107,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534415,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [84]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:3846:Player-1303-0B973F51:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Resource Glut]|h|r!", -- [1]
-			"Luces-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14782:Player-1303-0B8267D7:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
+			"Kitita-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Luces-Frostmane", -- [5]
+			"Kitita-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1182, -- [11]
-			"Player-1303-0B973F51", -- [12]
+			5740, -- [11]
+			"Player-1303-0B8267D7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Luces|r",
-			[51] = 1604098107,
+			[52] = "|cffc59a6cKitita|r",
+			[51] = 1604534477,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [85]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:3776:Player-1303-0B973F51:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Isle of Conquest Victory]|h|r!", -- [1]
-			"Luces-Frostmane", -- [2]
+			"have you saw meta deck for standard atm?", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Luces-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1183, -- [11]
-			"Player-1303-0B973F51", -- [12]
-			0, -- [13]
+			5786, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Luces|r",
-			[51] = 1604098107,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534512,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [86]
 		{
-			"OMFG", -- [1]
-			"Aphinia-Frostmane", -- [2]
+			"if you had told me these cards would be in the top deck of standard, I would have agreed with every single one ", -- [1]
+			"|Kq110|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1926,280 +1926,280 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1210, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
+			5813, -- [11]
+			false, -- [12]
+			20, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1604098282,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Neaop|r",
+			[51] = 1604534533,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [87]
 		{
-			"oooh", -- [1]
-			"Rykkahpo-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:10684:Player-1303-0B556DC0:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Fashionista: Legs]|h|r!", -- [1]
+			"Kurova-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Kurova-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1211, -- [11]
-			"Player-1303-0B698580", -- [12]
+			5976, -- [11]
+			"Player-1303-0B556DC0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Rykkahpo|r",
-			[51] = 1604098287,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff006fdcKurova|r",
+			[51] = 1604534663,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [88]
 		{
-			"Mogsruns ftw!", -- [1]
-			"Aphinia-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13076:Player-1303-0B8267D7:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Heritage of the Dark Iron]|h|r!", -- [1]
+			"Kitita-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Kitita-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1212, -- [11]
-			"Player-1303-0B815C5D", -- [12]
+			6034, -- [11]
+			"Player-1303-0B8267D7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1604098295,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc59a6cKitita|r",
+			[51] = 1604534741,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [89]
 		{
-			"gz", -- [1]
-			"Luces-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:4539:Player-1303-0B556DC0:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Once Bitten, Twice Shy (10 player)]|h|r!", -- [1]
+			"Kurova-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Kurova-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1214, -- [11]
-			"Player-1303-0B973F51", -- [12]
+			6225, -- [11]
+			"Player-1303-0B556DC0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Luces|r",
-			[51] = 1604098319,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff006fdcKurova|r",
+			[51] = 1604534892,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [90]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12894:Player-1303-0B699107:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Honor Level 10]|h|r!", -- [1]
-			"Bacard-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:4598:Player-1303-0B68AC74:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[The Ashen Verdict]|h|r!", -- [1]
+			"Slyxhamstræz-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bacard-Frostmane", -- [5]
+			"Slyxhamstræz-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1218, -- [11]
-			"Player-1303-0B699107", -- [12]
+			6731, -- [11]
+			"Player-1303-0B68AC74", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Bacard|r",
-			[51] = 1604098336,
+			[52] = "|cfffe7b09Slyxhamstræz|r",
+			[51] = 1604535294,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [91]
 		{
-			"ty ty :D", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1228, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1604098343,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
-		{
-			"gz", -- [1]
-			"Bolhilem-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1248, -- [11]
-			"Player-1303-0B54DA5C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcBolhilem|r",
-			[51] = 1604098357,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
-		{
-			"Do i have to repfarm now? xd", -- [1]
-			"Aphinia-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1258, -- [11]
-			"Player-1303-0B815C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1604098364,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
-		{
-			"t", -- [1]
-			"Zerinn-GrimBatol", -- [2]
+			"WTS |cff1eff00|Hitem:55057::::::::41:62:::::::|h[Pyrium Weapon Chain]|h|r 4K", -- [1]
+			"Icyboxx-GrimBatol", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Zerinn-GrimBatol", -- [5]
+			"Icyboxx-GrimBatol", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1277, -- [11]
-			"Player-1303-0073BADB", -- [12]
+			7102, -- [11]
+			"Player-1303-0404DC05", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaZerinn-GrimBatol|r",
-			[51] = 1604098379,
+			[52] = "|cff3ec6eaIcyboxx-GrimBatol|r",
+			[51] = 1604536283,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"WTS |cffa335ee|Hitem:163575::::::::1:259::::1:28:190:::|h[Reins of a Tamed Bloodfeaster]|h|r CHEAP", -- [1]
+			"Bankerbaz-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bankerbaz-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8007, -- [11]
+			"Player-1303-0AEFDB20", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
+			[51] = 1604537025,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"hox muvh is cheap?", -- [1]
+			"Xentsu-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xentsu-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8088, -- [11]
+			"Player-1303-0B58E1ED", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Xentsu|r",
+			[51] = 1604537093,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"much*", -- [1]
+			"Xentsu-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xentsu-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8089, -- [11]
+			"Player-1303-0B58E1ED", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Xentsu|r",
+			[51] = 1604537097,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [95]
 		{
-			"or is it shared from my mains?", -- [1]
-			"Aphinia-Frostmane", -- [2]
+			"25K", -- [1]
+			"Bankerbaz-GrimBatol", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Bankerbaz-GrimBatol", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1279, -- [11]
-			"Player-1303-0B815C5D", -- [12]
+			8090, -- [11]
+			"Player-1303-0AEFDB20", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1604098380,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
+			[51] = 1604537103,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [96]
 		{
-			"yep", -- [1]
-			"Luces-Frostmane", -- [2]
+			"WTS |cffa335ee|Hitem:163575::::::::1:259::::1:28:190:::|h[Reins of a Tamed Bloodfeaster]|h|r 25K", -- [1]
+			"Bankerbaz-GrimBatol", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Bankerbaz-GrimBatol", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1287, -- [11]
-			"Player-1303-0B973F51", -- [12]
+			8127, -- [11]
+			"Player-1303-0AEFDB20", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Luces|r",
-			[51] = 1604098385,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
+			[51] = 1604537635,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [97]
 		{
-			"account bound", -- [1]
-			"Luces-Frostmane", -- [2]
+			"I wouldn't, their guild recruitment ads are some of the worst I've ever seen", -- [1]
+			"Doomcläw-GrimBatol", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Doomcläw-GrimBatol", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1294, -- [11]
-			"Player-1303-0B973F51", -- [12]
+			1298, -- [11]
+			"Player-1303-0BA5A6F1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Luces|r",
-			[51] = 1604098390,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffe7b09Doomcläw-GrimBatol|r",
+			[51] = 1604870736,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [98]
 		{
-			"Nice! :D", -- [1]
-			"Aphinia-Frostmane", -- [2]
+			"i can't even pronounce portugueses ", -- [1]
+			"Pènguin-Frostmane", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Pènguin-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1312, -- [11]
-			"Player-1303-0B815C5D", -- [12]
+			1301, -- [11]
+			"Player-1303-0B647EB0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Aphinia|r",
-			[51] = 1604098403,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cfffef367Pènguin|r",
+			[51] = 1604870740,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 }

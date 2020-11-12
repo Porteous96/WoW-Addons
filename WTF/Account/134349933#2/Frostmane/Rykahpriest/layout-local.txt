@@ -27,3 +27,10 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: AAP.RoutePlanMainFsramex2xxxs4
+FrameLevel: 1
+Anchor: TOP
+X: -342
+Y: -215
+W: 216
+H: 19

@@ -38,9 +38,10 @@ HandyNotesDB = {
 		["Mastarace - Kazzak"] = "Mastarace - Kazzak",
 		["Preách - Tarren Mill"] = "Preách - Tarren Mill",
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
-		["Xpreach - Tarren Mill"] = "Xpreach - Tarren Mill",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
+		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Hordepali - Lightbringer"] = "Hordepali - Lightbringer",
 		["Dlory - Tarren Mill"] = "Dlory - Tarren Mill",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
@@ -51,8 +52,8 @@ HandyNotesDB = {
 		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Preech - Tarren Mill"] = "Preech - Tarren Mill",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
@@ -65,9 +66,9 @@ HandyNotesDB = {
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Meticulous - Tarren Mill"] = "Meticulous - Tarren Mill",
 		["Dlorange - Tarren Mill"] = "Dlorange - Tarren Mill",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
-		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Xpreach - Tarren Mill"] = "Xpreach - Tarren Mill",
+		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
 	},
 	["profiles"] = {
 		["Imacleft - Sylvanas"] = {
@@ -144,11 +145,13 @@ HandyNotesDB = {
 		},
 		["Rykahboost - Turalyon"] = {
 		},
-		["Rykahtony - Frostmane"] = {
+		["Slywithapet - Frostmane"] = {
 		},
-		["Xpreach - Tarren Mill"] = {
+		["Rykahtwo - Frostmane"] = {
 		},
-		["Blissard - Frostmane"] = {
+		["Rykahboost - Aggramar"] = {
+		},
+		["Rykahbolt - Frostmane"] = {
 		},
 		["Hordepali - Lightbringer"] = {
 		},
@@ -170,9 +173,9 @@ HandyNotesDB = {
 		},
 		["Preachez - Tarren Mill"] = {
 		},
-		["Rykahpo - Frostmane"] = {
-		},
 		["Rykahhpo - Frostmane"] = {
+		},
+		["Rykahpo - Frostmane"] = {
 		},
 		["Rcumplus - Aggramar"] = {
 		},
@@ -198,25 +201,15 @@ HandyNotesDB = {
 		},
 		["Dlorange - Tarren Mill"] = {
 		},
-		["Rykahbolt - Frostmane"] = {
+		["Blissard - Frostmane"] = {
 		},
-		["Rykahboost - Aggramar"] = {
+		["Xpreach - Tarren Mill"] = {
 		},
-		["Rykahtwo - Frostmane"] = {
+		["Rykahtony - Frostmane"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
-	["global"] = {
-		[942] = {
-			[47473427] = {
-				["cont"] = false,
-				["icon"] = 1,
-				["title"] = "",
-				["desc"] = "",
-			},
-		},
-	},
 	["profileKeys"] = {
 		["Imacleft - Sylvanas"] = "Imacleft - Sylvanas",
 		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
@@ -255,9 +248,10 @@ HandyNotes_HandyNotesDB = {
 		["Mastarace - Kazzak"] = "Mastarace - Kazzak",
 		["Preách - Tarren Mill"] = "Preách - Tarren Mill",
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
-		["Xpreach - Tarren Mill"] = "Xpreach - Tarren Mill",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
+		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Hordepali - Lightbringer"] = "Hordepali - Lightbringer",
 		["Dlory - Tarren Mill"] = "Dlory - Tarren Mill",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
@@ -268,8 +262,8 @@ HandyNotes_HandyNotesDB = {
 		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Preech - Tarren Mill"] = "Preech - Tarren Mill",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
@@ -282,9 +276,19 @@ HandyNotes_HandyNotesDB = {
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Meticulous - Tarren Mill"] = "Meticulous - Tarren Mill",
 		["Dlorange - Tarren Mill"] = "Dlorange - Tarren Mill",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
-		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Xpreach - Tarren Mill"] = "Xpreach - Tarren Mill",
+		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
+	},
+	["global"] = {
+		[942] = {
+			[47473427] = {
+				["title"] = "",
+				["cont"] = false,
+				["icon"] = 1,
+				["desc"] = "",
+			},
+		},
 	},
 	["profiles"] = {
 		["Imacleft - Sylvanas"] = {
@@ -361,11 +365,13 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Rykahboost - Turalyon"] = {
 		},
-		["Rykahtony - Frostmane"] = {
+		["Slywithapet - Frostmane"] = {
 		},
-		["Xpreach - Tarren Mill"] = {
+		["Rykahtwo - Frostmane"] = {
 		},
-		["Blissard - Frostmane"] = {
+		["Rykahboost - Aggramar"] = {
+		},
+		["Rykahbolt - Frostmane"] = {
 		},
 		["Hordepali - Lightbringer"] = {
 		},
@@ -387,9 +393,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Preachez - Tarren Mill"] = {
 		},
-		["Rykahpo - Frostmane"] = {
-		},
 		["Rykahhpo - Frostmane"] = {
+		},
+		["Rykahpo - Frostmane"] = {
 		},
 		["Rcumplus - Aggramar"] = {
 		},
@@ -415,11 +421,11 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Dlorange - Tarren Mill"] = {
 		},
-		["Rykahbolt - Frostmane"] = {
+		["Blissard - Frostmane"] = {
 		},
-		["Rykahboost - Aggramar"] = {
+		["Xpreach - Tarren Mill"] = {
 		},
-		["Rykahtwo - Frostmane"] = {
+		["Rykahtony - Frostmane"] = {
 		},
 	},
 }

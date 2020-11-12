@@ -20,7 +20,7 @@ AngryWorldQuests: disabled
 WorldQuestParty: disabled
 Azeroth Auto Pilot: disabled
 OPie: disabled
-ElvUI_EverySecondCounts: enabled
+ElvUI_EverySecondCounts: disabled
 AdventureGuideSavedInstances: disabled
 BigWigs_Core: enabled
 BigWigs_Options: enabled
@@ -139,3 +139,4 @@ RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_KR_A: disabled
 AAP-EasternKingdoms: enabled
 AAP-Shadowlands: enabled
+ElvUI_QuestXP: disabled

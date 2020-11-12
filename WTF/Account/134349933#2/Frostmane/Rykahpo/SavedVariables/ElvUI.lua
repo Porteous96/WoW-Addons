@@ -1,493 +1,493 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"say*", -- [1]
-		"yeah I take back what I said", -- [2]
-		"ah yes", -- [3]
-		"mtgo", -- [4]
-		"i am a druid now", -- [5]
-		"|cff0070dd|Hitem:37011::::::::50:62::11::1:28:181:::|h[Magic Broom]|h|r", -- [6]
-		"shhhhh", -- [7]
-		"let me enjoy it", -- [8]
-		"see ya glub", -- [9]
-		"/mountspecial", -- [10]
-		"glub night", -- [11]
-		"/g hello my fellow dansk", -- [12]
-		"/g hæhæhæhæhæhæ", -- [13]
-		"/g hey stu", -- [14]
-		"/g omg penguin is in trade chat", -- [15]
-		"/g everyone run", -- [16]
-		"/g we're not safe", -- [17]
-		"/g pls dont", -- [18]
-		"/g get bloody if you see him", -- [19]
-		"/g i miss him", -- [20]
+		"/s wanna go?", -- [1]
+		"/s you think you're so cool", -- [2]
+		"/s cause you're bigger and fatter", -- [3]
+		"/s well let me tell you", -- [4]
+		"/s im covered in ice", -- [5]
+		"/s so im the coolest", -- [6]
+		"/raid hi sorry we dont have a lock", -- [7]
+		"/raid I love it", -- [8]
+		"/raid no worries", -- [9]
+		"/raid yeah mate raid is in ulduar", -- [10]
+		"/raid dont worry mate", -- [11]
+		"/raid its not your fault the raid is miles away", -- [12]
+		"/cw Powerwhite-Pozzodell'Eternità thanks for coming", -- [13]
+		"/cw Duncer-Outland sorry then dont have a space for you", -- [14]
+		"/rw we're calling the raid people", -- [15]
+		"/raid thanks for coming", -- [16]
+		"/cw Capa dont worry if you cant", -- [17]
+		"/cw Capa cause 99% of players probs cant, me included", -- [18]
+		"/cw Capa right well I'm planning to chat with the other raid leader this weekend and we're going to take a look at our lineup", -- [19]
+		"/cw Capa except boomkin, I need to talk to our of our boomy mains to see his plans", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"yeah I take back what I said", -- [1]
-			"|Kq87|k", -- [2]
+			"Bai", -- [1]
+			"Eldraen-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Eldraen-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4338, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2311, -- [11]
+			"Player-3391-08C3B095", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928294,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffe7b09Eldraen-Silvermoon|r",
+			[51] = 1605131536,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [1]
 		{
-			"it was also more tix than black lotus for a while", -- [1]
-			"|Kq87|k", -- [2]
+			":(", -- [1]
+			"Eldraen-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Eldraen-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4340, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2312, -- [11]
+			"Player-3391-08C3B095", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928327,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cfffe7b09Eldraen-Silvermoon|r",
+			[51] = 1605131538,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [2]
 		{
-			"ah yes ", -- [1]
-			"|Kq87|k", -- [2]
+			"Thanks for invite - was fun. C ya around :)", -- [1]
+			"Thomassan-Thunderhorn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Thomassan-Thunderhorn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4345, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2313, -- [11]
+			"Player-1313-0B29D205", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928361,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cff3ec6eaThomassan-Thunderhorn|r",
+			[51] = 1605131547,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [3]
 		{
-			"mtgo", -- [1]
-			"|Kq87|k", -- [2]
+			"Take care", -- [1]
+			"Bumbibear-Ravencrest", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Bumbibear-Ravencrest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4346, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2314, -- [11]
+			"Player-1329-093151CE", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928362,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffe7b09Bumbibear-Ravencrest|r",
+			[51] = 1605131554,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [4]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13302:Player-1303-0B973F51:1:10:29:20:4294967295:4294967295:4294967295:4294967295|h[Under Cover of Darkness]|h|r!", -- [1]
-			"Luces-Frostmane", -- [2]
+			"ok thanks cya", -- [1]
+			"Volrather-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Luces-Frostmane", -- [5]
+			"Volrather-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4348, -- [11]
-			"Player-1303-0B973F51", -- [12]
+			2315, -- [11]
+			"Player-1303-0B4ED5A0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Luces|r",
-			[51] = 1603928375,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaVolrather|r",
+			[51] = 1605131561,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [5]
 		{
-			"fug its still pretty close", -- [1]
-			"|Kq87|k", -- [2]
+			"cheers", -- [1]
+			"Krashna-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Krashna-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4349, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2320, -- [11]
+			"Player-1303-0B50722B", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928384,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cff006fdcKrashna|r",
+			[51] = 1605131564,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [6]
 		{
-			"what a mem", -- [1]
-			"|Kq87|k", -- [2]
+			"Thanks", -- [1]
+			"Blueberrys-KhazModan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Blueberrys-KhazModan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4350, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2324, -- [11]
+			"Player-3690-0814136E", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928395,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cfffef367Blueberrys-KhazModan|r",
+			[51] = 1605131575,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [7]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12955:Player-1303-0B69898B:1:10:29:20:4294967295:4294967295:4294967295:4294967295|h[Champions of Azeroth]|h|r!", -- [1]
-			"Bòòst-Frostmane", -- [2]
+			"wheres the option to make quest text not appear instantly , i cant seem to find it", -- [1]
+			"Aprix-Frostmane", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bòòst-Frostmane", -- [5]
+			"2. Trade - City", -- [4]
+			"Aprix-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			4351, -- [11]
-			"Player-1303-0B69898B", -- [12]
+			2336, -- [11]
+			"Player-1303-0B512CF8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeBòòst|r",
-			[51] = 1603928397,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			true, -- [17]
+			[52] = "|cff8687edAprix|r",
+			[51] = 1605131610,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [8]
 		{
-			"Horseman rise...", -- [1]
-			"Zéké-ArgentDawn", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12483:Player-1303-0B620331:1:11:11:20:4294967295:4294967295:4294967295:4294967295|h[Waycrest Manor]|h|r!", -- [1]
+			"Adonaise-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zéké-ArgentDawn", -- [5]
+			"Adonaise-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4353, -- [11]
-			"Player-3702-08BB30E5", -- [12]
+			2337, -- [11]
+			"Player-1303-0B620331", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Zéké-ArgentDawn|r",
-			[51] = 1603928431,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Adonaise|r",
+			[51] = 1605131617,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [9]
 		{
-			"Horseman rise...", -- [1]
-			"Mulgran-Stormscale", -- [2]
+			"I think they removed it", -- [1]
+			"Lightsout-Aggra(Português)", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Mulgran-Stormscale", -- [5]
+			"2. Trade - City", -- [4]
+			"Lightsout-Aggra(Português)", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			4354, -- [11]
-			"Player-2073-0543528A", -- [12]
+			2342, -- [11]
+			"Player-1303-0BA0708A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Mulgran-Stormscale|r",
-			[51] = 1603928431,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffef367Lightsout-Aggra(Português)|r",
+			[51] = 1605131662,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [10]
 		{
-			"Your time is nigh...", -- [1]
-			"Zéké-ArgentDawn", -- [2]
+			"mid december", -- [1]
+			"Krashna-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zéké-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4355, -- [11]
-			"Player-3702-08BB30E5", -- [12]
+			2343, -- [11]
+			"Player-1303-0B50722B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Zéké-ArgentDawn|r",
-			[51] = 1603928433,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff006fdcKrashna|r",
+			[51] = 1605131672,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [11]
 		{
-			"Your time is nigh...", -- [1]
-			"Mulgran-Stormscale", -- [2]
+			"why would you not want that", -- [1]
+			"Lmb-Frostmane", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Mulgran-Stormscale", -- [5]
+			"2. Trade - City", -- [4]
+			"Lmb-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			4356, -- [11]
-			"Player-2073-0543528A", -- [12]
+			2345, -- [11]
+			"Player-1303-0B54EA1E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Mulgran-Stormscale|r",
-			[51] = 1603928433,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffefefeLmb|r",
+			[51] = 1605131675,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [12]
 		{
-			"You felt death once...", -- [1]
-			"Zéké-ArgentDawn", -- [2]
+			"Rare that drops bag for 34 slots is about to spawn", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zéké-ArgentDawn", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4357, -- [11]
-			"Player-3702-08BB30E5", -- [12]
+			2347, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Zéké-ArgentDawn|r",
-			[51] = 1603928435,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1605131694,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [13]
 		{
-			"You felt death once...", -- [1]
-			"Mulgran-Stormscale", -- [2]
+			"because i like it when the quest writes itself , feels more immersive", -- [1]
+			"Aprix-Frostmane", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Mulgran-Stormscale", -- [5]
+			"2. Trade - City", -- [4]
+			"Aprix-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			4359, -- [11]
-			"Player-2073-0543528A", -- [12]
+			2348, -- [11]
+			"Player-1303-0B512CF8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Mulgran-Stormscale|r",
-			[51] = 1603928435,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff8687edAprix|r",
+			[51] = 1605131696,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [14]
 		{
-			"Now, know demise!", -- [1]
-			"Zéké-ArgentDawn", -- [2]
+			"I get that", -- [1]
+			"Astraîos-Frostmane", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Zéké-ArgentDawn", -- [5]
+			"2. Trade - City", -- [4]
+			"Astraîos-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			4360, -- [11]
-			"Player-3702-08BB30E5", -- [12]
+			2350, -- [11]
+			"Player-1303-0B56BA05", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Zéké-ArgentDawn|r",
-			[51] = 1603928438,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff3ec6eaAstraîos|r",
+			[51] = 1605131702,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [15]
 		{
-			"Now, know demise!", -- [1]
-			"Mulgran-Stormscale", -- [2]
+			"is that event live with 100ilvl drops ?", -- [1]
+			"Adonaise-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mulgran-Stormscale", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4361, -- [11]
-			"Player-2073-0543528A", -- [12]
+			2351, -- [11]
+			"Player-1303-0B620331", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Mulgran-Stormscale|r",
-			[51] = 1603928438,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Adonaise|r",
+			[51] = 1605131713,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [16]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12826:Player-1303-0B60E6CC:1:10:29:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Atal'Dazar]|h|r!", -- [1]
-			"Rudisan-Frostmane", -- [2]
+			"its 115 drops but 100 is from vendors", -- [1]
+			"Coldaras-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rudisan-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4369, -- [11]
-			"Player-1303-0B60E6CC", -- [12]
+			2352, -- [11]
+			"Player-1303-0B5678E6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Rudisan|r",
-			[51] = 1603928506,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Coldaras|r",
+			[51] = 1605131728,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [17]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12825:Player-1303-0B60E6CC:1:10:29:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Atal'Dazar]|h|r!", -- [1]
-			"Rudisan-Frostmane", -- [2]
+			"yeah", -- [1]
+			"Logislap-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rudisan-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4370, -- [11]
-			"Player-1303-0B60E6CC", -- [12]
+			2353, -- [11]
+			"Player-1303-0B61691F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Rudisan|r",
-			[51] = 1603928506,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1605131728,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [18]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12824:Player-1303-0B60E6CC:1:10:29:20:4294967295:4294967295:4294967295:4294967295|h[Atal'Dazar]|h|r!", -- [1]
-			"Rudisan-Frostmane", -- [2]
+			"or 110 rather", -- [1]
+			"Coldaras-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rudisan-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4371, -- [11]
-			"Player-1303-0B60E6CC", -- [12]
+			2354, -- [11]
+			"Player-1303-0B5678E6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Rudisan|r",
-			[51] = 1603928506,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Coldaras|r",
+			[51] = 1605131735,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [19]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13075:Player-1303-0B60E6CC:1:10:29:20:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Keymaster]|h|r!", -- [1]
-			"Rudisan-Frostmane", -- [2]
+			"weapon from nathanos is 115", -- [1]
+			"Coldaras-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rudisan-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4372, -- [11]
-			"Player-1303-0B60E6CC", -- [12]
+			2356, -- [11]
+			"Player-1303-0B5678E6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Rudisan|r",
-			[51] = 1603928506,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc31d39Coldaras|r",
+			[51] = 1605131739,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [20]
 		{
-			"i am a druid now", -- [1]
-			"|Kq87|k", -- [2]
+			"srlsy why do they rmeove options that don`t bother anyone . All they could have done is make it toggled on by default ", -- [1]
+			"Aprix-Frostmane", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Aprix-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			4416, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2357, -- [11]
+			"Player-1303-0B512CF8", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928734,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			true, -- [17]
+			[52] = "|cff8687edAprix|r",
+			[51] = 1605131747,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [21]
 		{
-			"|Hitem:37011::::::::50:62::11::1:28:181:::|h[Magic Broom]|h", -- [1]
-			"|Kq87|k", -- [2]
+			"you can kill Nathanos_", -- [1]
+			"Holypepega-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -496,20 +496,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4417, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2359, -- [11]
+			"Player-1303-0B282C66", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928736,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffefefeHolypepega|r",
+			[51] = 1605131756,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [22]
 		{
-			"imagine only getting that ability for a month", -- [1]
-			"|Kq87|k", -- [2]
+			"do you now how long its for?", -- [1]
+			"Adonaise-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -518,20 +518,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4418, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2360, -- [11]
+			"Player-1303-0B620331", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928761,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cfffe7b09Adonaise|r",
+			[51] = 1605131757,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [23]
 		{
-			"shhhhh ", -- [1]
-			"|Kq87|k", -- [2]
+			"Until launch of SL", -- [1]
+			"Coldaras-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -540,20 +540,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4419, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2361, -- [11]
+			"Player-1303-0B5678E6", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928770,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cffc31d39Coldaras|r",
+			[51] = 1605131764,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [24]
 		{
-			"let me enjoy it", -- [1]
-			"|Kq87|k", -- [2]
+			"till launch or forever", -- [1]
+			"Adonaise-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -562,20 +562,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4420, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2362, -- [11]
+			"Player-1303-0B620331", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928772,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffe7b09Adonaise|r",
+			[51] = 1605131765,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [25]
 		{
-			"oh well bed time for me", -- [1]
-			"|Kq87|k", -- [2]
+			"?", -- [1]
+			"Holypepega-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -584,20 +584,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4427, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2363, -- [11]
+			"Player-1303-0B282C66", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928857,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffefefeHolypepega|r",
+			[51] = 1605131765,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [26]
 		{
-			"see ya glub", -- [1]
-			"|Kq87|k", -- [2]
+			"cool thnx", -- [1]
+			"Adonaise-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -606,20 +606,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4428, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2367, -- [11]
+			"Player-1303-0B620331", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928860,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffe7b09Adonaise|r",
+			[51] = 1605131769,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [27]
 		{
-			"imagine mistakingly calling someone else a glub", -- [1]
-			"|Kq87|k", -- [2]
+			"whats the timer on the big dude?", -- [1]
+			"Devenny-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -628,20 +628,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4431, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2370, -- [11]
+			"Player-1303-0B697E4D", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928880,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cffa9d271Devenny|r",
+			[51] = 1605131787,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [28]
 		{
-			"what a glub thing to do", -- [1]
-			"|Kq87|k", -- [2]
+			"and where is the fucker?", -- [1]
+			"Devenny-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -650,20 +650,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4432, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2372, -- [11]
+			"Player-1303-0B697E4D", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928883,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cffa9d271Devenny|r",
+			[51] = 1605131794,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [29]
 		{
-			"i have just learned a new trick", -- [1]
-			"|Kq87|k", -- [2]
+			"very soon I'm told", -- [1]
+			"Ltc-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -672,328 +672,328 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4433, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2373, -- [11]
+			"Player-1303-0B68F7C6", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928959,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cff00fe97Ltc|r",
+			[51] = 1605131803,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [30]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14150:Player-1303-0B61E458:1:10:29:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: War for the Shore]|h|r!", -- [1]
-			"Farkinmental-Frostmane", -- [2]
+			"but where?", -- [1]
+			"Devenny-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Farkinmental-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4434, -- [11]
-			"Player-1303-0B61E458", -- [12]
+			2374, -- [11]
+			"Player-1303-0B697E4D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcFarkinmental|r",
-			[51] = 1603928967,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa9d271Devenny|r",
+			[51] = 1605131808,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [31]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14150:Player-1303-0B973F51:1:10:29:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: War for the Shore]|h|r!", -- [1]
-			"Luces-Frostmane", -- [2]
+			"is there anyting i have to do before i can get there?", -- [1]
+			"Dadocc-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Luces-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4435, -- [11]
-			"Player-1303-0B973F51", -- [12]
+			2376, -- [11]
+			"Player-1303-0BA48C27", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Luces|r",
-			[51] = 1603928967,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa22fc8Dadocc|r",
+			[51] = 1605131818,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [32]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13297:Player-1303-0B61E458:1:10:29:20:4294967295:4294967295:4294967295:4294967295|h[War for the Shore]|h|r!", -- [1]
-			"Farkinmental-Frostmane", -- [2]
+			"night", -- [1]
+			"Krashna-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Farkinmental-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4436, -- [11]
-			"Player-1303-0B61E458", -- [12]
+			2379, -- [11]
+			"Player-1303-0B50722B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcFarkinmental|r",
-			[51] = 1603928967,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcKrashna|r",
+			[51] = 1605132004,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [33]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:13297:Player-1303-0B973F51:1:10:29:20:4294967295:4294967295:4294967295:4294967295|h[War for the Shore]|h|r!", -- [1]
-			"Luces-Frostmane", -- [2]
+			"hey capa, you were talking earlier about competing for the dps spots we have", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Luces-Frostmane", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4437, -- [11]
-			"Player-1303-0B973F51", -- [12]
+			2381, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Luces|r",
-			[51] = 1603928967,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132041,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [34]
 		{
-			"is it the new mountspecial on the broom>", -- [1]
-			"|Kq87|k", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:516:Player-1303-0B862CD7:1:11:11:20:4294967295:4294967295:4294967295:4294967295|h[1000 Honorable Kills]|h|r!", -- [1]
+			"Professore-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Professore-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4438, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2382, -- [11]
+			"Player-1303-0B862CD7", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928975,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cfffef367Professore|r",
+			[51] = 1605132052,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [35]
 		{
-			"?*", -- [1]
-			"|Kq87|k", -- [2]
+			"ye, thats true :)", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4439, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2383, -- [11]
+			"Player-1303-0B695721", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928977,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132053,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [36]
 		{
-			"if I illusion someone using vial of the sands", -- [1]
-			"|Kq87|k", -- [2]
+			"I remember talking to you about that we may not have space for another druid dps", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4440, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2384, -- [11]
+			"Player-1303-0B695721", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928978,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132060,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [37]
 		{
-			"I can jump when standing still", -- [1]
-			"|Kq87|k", -- [2]
+			"yeah", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4441, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2385, -- [11]
+			"Player-1303-0B695721", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928988,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132065,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [38]
 		{
-			"but mountspecial works ", -- [1]
-			"|Kq87|k", -- [2]
+			"you did", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4442, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2386, -- [11]
+			"Player-1303-0B695721", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603928995,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132066,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [39]
 		{
-			"magic", -- [1]
-			"|Kq87|k", -- [2]
+			"last time", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4443, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2387, -- [11]
+			"Player-1303-0B695721", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603929025,
-			[50] = "CHAT_MSG_BN_WHISPER",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132067,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [40]
 		{
-			"glub night", -- [1]
-			"|Kq87|k", -- [2]
+			"are you still planning on playing druid or have you looked into something else?", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4444, -- [11]
-			false, -- [12]
-			20, -- [13]
+			2388, -- [11]
+			"Player-1303-0B695721", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1603929032,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132079,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [41]
 		{
-			"anal |cffffff00|Hachievement:5451:Player-1303-0B9B0385:0:0:0:-1:0:0:0:0|h[Consumed by Nightmare]|h|r", -- [1]
-			"Béyáz-Frostmane", -- [2]
+			"no pressure ofc ", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Béyáz-Frostmane", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			4, -- [11]
-			"Player-1303-0B9B0385", -- [12]
+			2389, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Béyáz|r",
-			[51] = 1604094399,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132083,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [42]
 		{
-			"|cffffff00|Hachievement:14058:Player-1303-0B63B731:1:6:5:20:4294967295:4294967295:4294967295:4294967295|h[All Eyes On Me]|h|r Anal", -- [1]
-			"Lezrail-Frostmane", -- [2]
+			"Time to ???", -- [1]
+			"Professore-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lezrail-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			5, -- [11]
-			"Player-1303-0B63B731", -- [12]
+			2390, -- [11]
+			"Player-1303-0B862CD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Lezrail|r",
-			[51] = 1604094411,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffef367Professore|r",
+			[51] = 1605132088,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [43]
 		{
-			"Rykaaaaa", -- [1]
-			"Slyxhmstræz-Frostmane", -- [2]
+			"i have looked at shadowpriest aswell", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			6, -- [11]
-			"Player-1303-0B796DB5", -- [12]
+			2391, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSlyxhmstræz|r",
-			[51] = 1604094412,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132097,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [44]
 		{
-			"xoxo", -- [1]
-			"Slyxhmstræz-Frostmane", -- [2]
+			"He spawned", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1002,42 +1002,42 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			7, -- [11]
-			"Player-1303-0B796DB5", -- [12]
+			2393, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSlyxhmstræz|r",
-			[51] = 1604094415,
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1605132100,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [45]
 		{
-			"Anal |cffffff00|Hachievement:9097:Player-1303-0577B6B5:0:0:0:-1:7:0:0:0|h[Keepin' Busy]|h|r", -- [1]
-			"Swampmother-GrimBatol", -- [2]
+			"but like, any dps class which is needed", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Swampmother-GrimBatol", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			8, -- [11]
-			"Player-1303-0577B6B5", -- [12]
+			2394, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Swampmother-GrimBatol|r",
-			[51] = 1604094422,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132104,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [46]
 		{
-			"hello my fellow dansk", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"about to be targetable", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1046,64 +1046,64 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			9, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			2395, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1604094425,
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1605132107,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [47]
 		{
-			"holy shiit, am I back in 2011", -- [1]
-			"Hallibellaa-Frostmane", -- [2]
+			"he is here", -- [1]
+			"Sparksnlava-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hallibellaa-Frostmane", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			10, -- [11]
-			"Player-1303-0B663DB6", -- [12]
+			2396, -- [11]
+			"Player-1303-0B5BCA06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Hallibellaa|r",
-			[51] = 1604094429,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff006fdcSparksnlava|r",
+			[51] = 1605132107,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [48]
 		{
-			"first gonna get in nya hc at sunday", -- [1]
-			"Krowi-Frostmane", -- [2]
+			"i can play", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			13, -- [11]
-			"Player-1303-0B62E475", -- [12]
+			2397, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1604094434,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132108,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [49]
 		{
-			"ayy hvordan går det brormand<3", -- [1]
-			"Slyxhmstræz-Frostmane", -- [2]
+			"2 mins", -- [1]
+			"Prue-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1112,20 +1112,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			15, -- [11]
-			"Player-1303-0B796DB5", -- [12]
+			2398, -- [11]
+			"Player-1303-0B685DB5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edSlyxhmstræz|r",
-			[51] = 1604094436,
+			[52] = "|cffc59a6cPrue|r",
+			[51] = 1605132126,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [50]
 		{
-			"Yo Pooo", -- [1]
-			"Cérbérus-Frostmane", -- [2]
+			"to pull", -- [1]
+			"Prue-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1134,42 +1134,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			18, -- [11]
-			"Player-1303-0B68C237", -- [12]
+			2399, -- [11]
+			"Player-1303-0B685DB5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edCérbérus|r",
-			[51] = 1604094440,
+			[52] = "|cffc59a6cPrue|r",
+			[51] = 1605132128,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [51]
 		{
-			"Anal |cffffff00|Hachievement:14671:Player-1303-0B9555D5:0:0:0:-1:0:0:0:0|h[Something's Not Quite Right....]|h|r", -- [1]
-			"Gbz-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gbz-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			20, -- [11]
-			"Player-1303-0B9555D5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Gbz|r",
-			[51] = 1604094441,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
-		{
-			"gonna feel a lot more confortable then :p", -- [1]
-			"Krowi-Frostmane", -- [2]
+			"ok", -- [1]
+			"Professore-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1178,20 +1156,42 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			22, -- [11]
-			"Player-1303-0B62E475", -- [12]
+			2400, -- [11]
+			"Player-1303-0B862CD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Krowi|r",
-			[51] = 1604094444,
+			[52] = "|cfffef367Professore|r",
+			[51] = 1605132132,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [52]
+		{
+			"1", -- [1]
+			"Prue-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2401, -- [11]
+			"Player-1303-0B685DB5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPrue|r",
+			[51] = 1605132133,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [53]
 		{
-			"hæhæhæhæhæhæ", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"prob less", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1200,460 +1200,394 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			24, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			2402, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1604094448,
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1605132135,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [54]
 		{
-			"go to a rp server and this is every night since vanilla", -- [1]
-			"Swampmother-GrimBatol", -- [2]
+			"sorry", -- [1]
+			"Prue-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Swampmother-GrimBatol", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			27, -- [11]
-			"Player-1303-0577B6B5", -- [12]
+			2403, -- [11]
+			"Player-1303-0B685DB5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Swampmother-GrimBatol|r",
-			[51] = 1604094458,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc59a6cPrue|r",
+			[51] = 1605132136,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [55]
 		{
-			"i thought i was on retail and not on a private server", -- [1]
-			"Exìløn-Frostmane", -- [2]
+			"alright and how much time do you get to play realistically? would you be able to have 2 characters raid ready?", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Exìløn-Frostmane", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			28, -- [11]
-			"Player-1303-0B5FF8EE", -- [12]
+			2404, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Exìløn|r",
-			[51] = 1604094465,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132137,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [56]
 		{
-			"hey stu", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"dont worry if you cant ", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			29, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			2406, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1604094465,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132143,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [57]
 		{
-			"you understand me like no one else ", -- [1]
-			"Slyxhmstræz-Frostmane", -- [2]
+			"Purgatory Afterglow - Grim Batol is looking to start raiding in Shadowlands. LF ranged DPS. Raiding Thursday/Sunday 20:30ST till 23:00ST. Social players are always welcome.", -- [1]
+			"Giëto-GrimBatol", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"2. Trade - City", -- [4]
+			"Giëto-GrimBatol", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			30, -- [11]
-			"Player-1303-0B796DB5", -- [12]
+			2407, -- [11]
+			"Player-1303-0B7B2844", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edSlyxhmstræz|r",
-			[51] = 1604094466,
-			[50] = "CHAT_MSG_GUILD",
+			true, -- [17]
+			[52] = "|cffa9d271Giëto-GrimBatol|r",
+			[51] = 1605132144,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [58]
 		{
-			"Pölse", -- [1]
-			"Phraidk-Frostmane", -- [2]
+			"cause 99% of players probs cant, me included", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			31, -- [11]
-			"Player-1303-0B5BB8DF", -- [12]
+			2408, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Phraidk|r",
-			[51] = 1604094466,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132153,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [59]
 		{
-			"Anal |cffffff00|Hachievement:1793:Player-1303-0B9D573E:0:0:0:-1:0:0:0:0|h[For the Children]|h|r", -- [1]
-			"Odie-Frostmane", -- [2]
+			"until end of december i got every day", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Odie-Frostmane", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			33, -- [11]
-			"Player-1303-0B9D573E", -- [12]
+			2409, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Odie|r",
-			[51] = 1604094475,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132171,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [60]
 		{
-			"this is the only endgame content in the game right now...", -- [1]
-			"Gbz-Frostmane", -- [2]
+			"oh cool", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gbz-Frostmane", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			34, -- [11]
-			"Player-1303-0B9555D5", -- [12]
+			2411, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Gbz|r",
-			[51] = 1604094485,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132180,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [61]
 		{
-			"pls no", -- [1]
-			"Uslender-GrimBatol", -- [2]
+			"so i would be able to get 2 ready i guess :D", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Uslender-GrimBatol", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			35, -- [11]
-			"Player-1303-089C80E3", -- [12]
+			2412, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edUslender-GrimBatol|r",
-			[51] = 1604094487,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132202,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [62]
 		{
-			"this is the private time period", -- [1]
-			"Lezrail-Frostmane", -- [2]
+			"right well I'm planning to chat with the other raid leader this weekend and we're going to take a look at our lineup", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lezrail-Frostmane", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			36, -- [11]
-			"Player-1303-0B63B731", -- [12]
+			2413, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Lezrail|r",
-			[51] = 1604094495,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132205,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [63]
 		{
-			"Anal |cffffff00|Hachievement:8118:Player-1303-04E657A4:1:8:16:13:4294967295:4294967295:4294967295:4294967295|h[Boop]|h|r", -- [1]
-			"Core-GrimBatol", -- [2]
+			"sure. :) is there any classes you have in mind ? or none yet ", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Core-GrimBatol", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			37, -- [11]
-			"Player-1303-04E657A4", -- [12]
+			2415, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeCore-GrimBatol|r",
-			[51] = 1604094495,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132234,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [64]
 		{
-			"anal |cff71d5ff|Hspell:172:0|h[Corruption]|h|r", -- [1]
-			"Uslender-GrimBatol", -- [2]
+			"we would probs need you to heal or HC so priest might be useful, that way you can switch to shadow if you get a dps spot", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Uslender-GrimBatol", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			39, -- [11]
-			"Player-1303-089C80E3", -- [12]
+			2416, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edUslender-GrimBatol|r",
-			[51] = 1604094500,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132236,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [65]
 		{
-			"Anal |cffffff00|Hachievement:8104:Player-1303-04E657A4:1:3:19:13:4294967295:4294967295:4294967295:4294967295|h[Thunder Plunder]|h|r", -- [1]
-			"Core-GrimBatol", -- [2]
+			"for dps, any ranged spec really", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Core-GrimBatol", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			40, -- [11]
-			"Player-1303-04E657A4", -- [12]
+			2417, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeCore-GrimBatol|r",
-			[51] = 1604094505,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132248,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [66]
 		{
-			"blizz asked for this when they moved the release date", -- [1]
-			"Swampmother-GrimBatol", -- [2]
+			"then Priest :)", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Swampmother-GrimBatol", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			43, -- [11]
-			"Player-1303-0577B6B5", -- [12]
+			2418, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Swampmother-GrimBatol|r",
-			[51] = 1604094519,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132266,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [67]
 		{
-			"Anal |cff71d5ff|Hspell:80240:0|h[Havoc]|h|r", -- [1]
-			"Uslender-GrimBatol", -- [2]
+			"except boomkin, I need to talk to our of our boomy mains to see his plans", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Uslender-GrimBatol", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			44, -- [11]
-			"Player-1303-089C80E3", -- [12]
+			2419, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edUslender-GrimBatol|r",
-			[51] = 1604094535,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132272,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [68]
 		{
-			"Anal |cffffff00|Hachievement:545:Player-1303-0B61C50D:1:10:15:8:4294967295:4294967295:4294967295:4294967295|h[Shave and a Haircut]|h|r", -- [1]
-			"Yso-Frostmane", -- [2]
+			"sure, np :D", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Yso-Frostmane", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			46, -- [11]
-			"Player-1303-0B61C50D", -- [12]
+			2420, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeYso|r",
-			[51] = 1604094540,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132284,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [69]
 		{
-			"Anal |cffffff00|Hachievement:10746:Player-1303-0577B6B5:1:11:21:16:4294967295:4294967295:4294967295:4294967295|h[Forged for Battle]|h|r", -- [1]
-			"Swampmother-GrimBatol", -- [2]
+			"I'll let you know if I have any more info on Sunday", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Swampmother-GrimBatol", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			49, -- [11]
-			"Player-1303-0577B6B5", -- [12]
+			2421, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Swampmother-GrimBatol|r",
-			[51] = 1604094552,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132295,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [70]
 		{
-			"|cffffff00|Hachievement:972:Player-1303-0B647EB0:1:10:18:12:4294967295:4294967295:4294967295:4294967295|h[Trick or Treat!]|h|r or Anal", -- [1]
-			"Pènguin-Frostmane", -- [2]
+			"sure", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pènguin-Frostmane", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			50, -- [11]
-			"Player-1303-0B647EB0", -- [12]
+			2422, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Pènguin|r",
-			[51] = 1604094555,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132300,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [71]
 		{
-			"|cffffff00|Hachievement:11707:Player-1303-0B59DE16:0:0:0:-1:0:0:0:0|h[No Mercy]|h|r Anal", -- [1]
-			"Anubise-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Anubise-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			51, -- [11]
-			"Player-1303-0B59DE16", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Anubise|r",
-			[51] = 1604094557,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
-		{
-			"Diirge", -- [1]
-			"Pomarszczona-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pomarszczona-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			52, -- [11]
-			"Player-1303-0B683CF3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Pomarszczona|r",
-			[51] = 1604094563,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
-		{
-			"Anal |cff71d5ff|Hspell:221562:0|h[Asphyxiate]|h|r", -- [1]
-			"Seedk-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Seedk-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			53, -- [11]
-			"Player-1303-0A2E7BC6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Seedk-Aggra(Português)|r",
-			[51] = 1604094567,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
-		{
-			"you guys heard, wow anniversary is moved", -- [1]
-			"Asmodon-Frostmane", -- [2]
+			"Can you have 1 bag in bank and 1 use personally?", -- [1]
+			"Stimul-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1662,86 +1596,86 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			57, -- [11]
-			"Player-1303-0B618B71", -- [12]
+			2423, -- [11]
+			"Player-1303-0B698628", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Asmodon|r",
-			[51] = 1604094577,
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1605132305,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [72]
+		{
+			"lets do that mate", -- [1]
+			"Capa-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2424, -- [11]
+			"Player-1303-0B695721", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132306,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [73]
+		{
+			"thank you for you time", -- [1]
+			"Capa-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2425, -- [11]
+			"Player-1303-0B695721", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132309,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [74]
+		{
+			"Or just  1 in general", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2426, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1605132310,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [75]
 		{
-			"Anal |cff71d5ff|Hspell:77764:0|h[Stampeding Roar]|h|r", -- [1]
-			"Pohus-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pohus-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			58, -- [11]
-			"Player-1303-07094EF8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Pohus-GrimBatol|r",
-			[51] = 1604094578,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
-		{
-			"DID SOMEONE SAY?", -- [1]
-			"Swampmother-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Swampmother-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			59, -- [11]
-			"Player-1303-0577B6B5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Swampmother-GrimBatol|r",
-			[51] = 1604094578,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
-		{
-			"|cff71d5ff|Hspell:31661:0|h[Dragon's Breath]|h|r Anal", -- [1]
-			"Bhalthir-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bhalthir-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			60, -- [11]
-			"Player-1303-0B8D2C61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaBhalthir-Aggra(Português)|r",
-			[51] = 1604094579,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
-		{
-			"1-22 nov", -- [1]
-			"Asmodon-Frostmane", -- [2]
+			"nope", -- [1]
+			"Luces-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1750,64 +1684,86 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			61, -- [11]
-			"Player-1303-0B618B71", -- [12]
+			2428, -- [11]
+			"Player-1303-0B973F51", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Asmodon|r",
-			[51] = 1604094580,
+			[52] = "|cfff38bb9Luces|r",
+			[51] = 1605132311,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [76]
+		{
+			"<3", -- [1]
+			"Capa-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2429, -- [11]
+			"Player-1303-0B695721", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132313,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [77]
+		{
+			"don't think so ", -- [1]
+			"Sparksnlava-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2430, -- [11]
+			"Player-1303-0B5BCA06", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcSparksnlava|r",
+			[51] = 1605132314,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [78]
+		{
+			"1 only", -- [1]
+			"Luces-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2431, -- [11]
+			"Player-1303-0B973F51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Luces|r",
+			[51] = 1605132315,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [79]
 		{
-			"African kids love |cffffff00|Hachievement:3579:Player-1303-0B647EB0:0:0:0:-1:0:0:0:0|h[\"FOOD FIGHT!\"]|h|r ", -- [1]
-			"Pènguin-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pènguin-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			62, -- [11]
-			"Player-1303-0B647EB0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Pènguin|r",
-			[51] = 1604094581,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
-		{
-			"anal |cffffff00|Hachievement:7380:Player-1303-0B63D81D:1:1:13:20:4294967295:4294967295:4294967295:4294967295|h[Double Agent]|h|r", -- [1]
-			"Lunastrikér-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lunastrikér-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			63, -- [11]
-			"Player-1303-0B63D81D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Lunastrikér|r",
-			[51] = 1604094582,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
-		{
-			"so exp buff doesn't affect SL lvling", -- [1]
-			"Asmodon-Frostmane", -- [2]
+			"|cffa335ee|Hitem:183634::::::::50:261::::1:28:1401:::|h[Papa's Mint Condition Bag]|h|r", -- [1]
+			"Professore-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1816,20 +1772,64 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			65, -- [11]
-			"Player-1303-0B618B71", -- [12]
+			2432, -- [11]
+			"Player-1303-0B862CD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Asmodon|r",
-			[51] = 1604094594,
+			[52] = "|cfffef367Professore|r",
+			[51] = 1605132315,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [80]
+		{
+			"unique item", -- [1]
+			"Luces-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2433, -- [11]
+			"Player-1303-0B973F51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Luces|r",
+			[51] = 1605132317,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [81]
+		{
+			"night", -- [1]
+			"Krashna-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2434, -- [11]
+			"Player-1303-0B50722B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcKrashna|r",
+			[51] = 1605132318,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [82]
 		{
-			"omg penguin is in trade chat", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"friend of mine got it", -- [1]
+			"Professore-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1838,20 +1838,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			66, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			2435, -- [11]
+			"Player-1303-0B862CD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1604094594,
+			[52] = "|cfffef367Professore|r",
+			[51] = 1605132321,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [83]
 		{
-			"everyone run ", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			":D", -- [1]
+			"Professore-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1860,42 +1860,42 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			67, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			2436, -- [11]
+			"Player-1303-0B862CD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1604094597,
+			[52] = "|cfffef367Professore|r",
+			[51] = 1605132322,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
 		{
-			"we're not safe", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"i appriciate it :)", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			68, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			2437, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1604094599,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132325,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [85]
 		{
-			"I'll grab him", -- [1]
-			"Phraidk-Frostmane", -- [2]
+			"killed it 3 times today", -- [1]
+			"Sparksnlava-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1904,20 +1904,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			69, -- [11]
-			"Player-1303-0B5BB8DF", -- [12]
+			2439, -- [11]
+			"Player-1303-0B5BCA06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Phraidk|r",
-			[51] = 1604094608,
+			[52] = "|cff006fdcSparksnlava|r",
+			[51] = 1605132331,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [86]
 		{
-			"Ask him to join", -- [1]
-			"Phraidk-Frostmane", -- [2]
+			"Brother of Corgi", -- [1]
+			"Professore-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1926,20 +1926,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			70, -- [11]
-			"Player-1303-0B5BB8DF", -- [12]
+			2440, -- [11]
+			"Player-1303-0B862CD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Phraidk|r",
-			[51] = 1604094610,
+			[52] = "|cfffef367Professore|r",
+			[51] = 1605132332,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [87]
 		{
-			"pls dont", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"and no bag", -- [1]
+			"Sparksnlava-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1948,86 +1948,108 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			71, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			2441, -- [11]
+			"Player-1303-0B5BCA06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1604094615,
+			[52] = "|cff006fdcSparksnlava|r",
+			[51] = 1605132333,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [88]
 		{
-			"|cffffff00|Hachievement:14778:Player-1303-0577B6B5:0:0:0:-1:0:0:0:0|h[Extremely Ravenous]|h|r Anal", -- [1]
-			"Swampmother-GrimBatol", -- [2]
+			"got it aswell", -- [1]
+			"Prue-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Swampmother-GrimBatol", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			72, -- [11]
-			"Player-1303-0577B6B5", -- [12]
+			2443, -- [11]
+			"Player-1303-0B685DB5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Swampmother-GrimBatol|r",
-			[51] = 1604094617,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffc59a6cPrue|r",
+			[51] = 1605132336,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [89]
 		{
-			"|cffffff00|Hachievement:14773:Player-1303-0577B6B5:0:0:0:-1:0:0:0:0|h[Explosive Extermination]|h|r Anal", -- [1]
-			"Swampmother-GrimBatol", -- [2]
+			"No worries, I appreciate you coming along to raid ", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Swampmother-GrimBatol", -- [5]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			74, -- [11]
-			"Player-1303-0577B6B5", -- [12]
+			2444, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Swampmother-GrimBatol|r",
-			[51] = 1604094627,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132344,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [90]
 		{
-			"get bloody if you see him", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"np :) its fun anyways :)", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			75, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			2445, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1604094641,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132357,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [91]
 		{
-			"i miss him", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"no pressure since its hc", -- [1]
+			"Capa-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Capa-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2446, -- [11]
+			"Player-1303-0B695721", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132373,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [92]
+		{
+			"i got bag and helm first kill and helm second kill, so its rng", -- [1]
+			"Ðarkarrow-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2036,170 +2058,148 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			76, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			2447, -- [11]
+			"Player-1303-0B692E93", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1604094644,
+			[52] = "|cffa9d271Ðarkarrow|r",
+			[51] = 1605132373,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
-		{
-			"Anal |cffffff00|Hachievement:7258:Player-1303-06B8DF01:1:3:11:13:4294967295:4294967295:4294967295:4294967295|h[Party of Six]|h|r", -- [1]
-			"Ceranie-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ceranie-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			77, -- [11]
-			"Player-1303-06B8DF01", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Ceranie-GrimBatol|r",
-			[51] = 1604094645,
-			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [93]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:972:Player-1303-0B693906:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Trick or Treat!]|h|r!", -- [1]
-			"Meztop-Frostmane", -- [2]
+			"just chill :D", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Meztop-Frostmane", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			84, -- [11]
-			"Player-1303-0B693906", -- [12]
+			2448, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Meztop|r",
-			[51] = 1604094784,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132376,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [94]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:9714:Player-1303-0B868EFF:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Thy Kingdom Come]|h|r!", -- [1]
-			"Nikxes-Frostmane", -- [2]
+			"and having fun", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nikxes-Frostmane", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			85, -- [11]
-			"Player-1303-0B868EFF", -- [12]
+			2449, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Nikxes|r",
-			[51] = 1604094812,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132379,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [95]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12504:Player-1303-0B7335F3:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[The Temple of Sethraliss]|h|r!", -- [1]
-			"Galah-Frostmane", -- [2]
+			"true", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Galah-Frostmane", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			86, -- [11]
-			"Player-1303-0B7335F3", -- [12]
+			2450, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Galah|r",
-			[51] = 1604094841,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132389,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [96]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12505:Player-1303-0B7335F3:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Temple of Sethraliss]|h|r!", -- [1]
-			"Galah-Frostmane", -- [2]
+			"well, im off mate", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Galah-Frostmane", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			87, -- [11]
-			"Player-1303-0B7335F3", -- [12]
+			2451, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Galah|r",
-			[51] = 1604094841,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132393,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [97]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12506:Player-1303-0B7335F3:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Temple of Sethraliss]|h|r!", -- [1]
-			"Galah-Frostmane", -- [2]
+			"good night ", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Galah-Frostmane", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			88, -- [11]
-			"Player-1303-0B7335F3", -- [12]
+			2452, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Galah|r",
-			[51] = 1604094841,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132396,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [98]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11183:Player-1303-0B7335F3:1:10:30:20:4294967295:4294967295:4294967295:4294967295|h[Keystone Initiate]|h|r!", -- [1]
-			"Galah-Frostmane", -- [2]
+			":)", -- [1]
+			"Capa-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Galah-Frostmane", -- [5]
+			"Capa-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			89, -- [11]
-			"Player-1303-0B7335F3", -- [12]
+			2453, -- [11]
+			"Player-1303-0B695721", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Galah|r",
-			[51] = 1604094841,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Capa|r",
+			[51] = 1605132397,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [99]
 	},
 }

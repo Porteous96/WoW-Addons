@@ -6,9 +6,6 @@ GridDB = {
 		["GridFrame"] = {
 			["profiles"] = {
 				["Holy Paladin"] = {
-					["frameHeight"] = 37,
-					["font"] = "ElvUI Pixel",
-					["frameWidth"] = 82,
 					["statusmap"] = {
 						["corner2"] = {
 							["buff_BeaconofLight"] = true,
@@ -79,8 +76,13 @@ GridDB = {
 						["iconTRcornerleft"] = {
 						},
 					},
+					["font"] = "ElvUI Pixel",
+					["frameHeight"] = 37,
+					["frameWidth"] = 82,
 				},
 				["BFA Grid Raid"] = {
+					["frameWidth"] = 82,
+					["font"] = "ElvUI Pixel",
 					["statusmap"] = {
 						["iconTLcornerright"] = {
 						},
@@ -129,13 +131,12 @@ GridDB = {
 						["iconTRcornerleft"] = {
 						},
 					},
-					["font"] = "ElvUI Pixel",
 					["frameHeight"] = 37,
-					["frameWidth"] = 82,
 				},
 				["Disc Priest"] = {
-					["frameWidth"] = 82,
+					["frameHeight"] = 37,
 					["font"] = "ElvUI Pixel",
+					["frameWidth"] = 82,
 					["statusmap"] = {
 						["iconTLcornerright"] = {
 							["buff_Rejuvenation"] = true,
@@ -188,12 +189,8 @@ GridDB = {
 						["iconTRcornerleft"] = {
 						},
 					},
-					["frameHeight"] = 37,
 				},
 				["hiller"] = {
-					["frameHeight"] = 37,
-					["font"] = "ElvUI Pixel",
-					["frameWidth"] = 82,
 					["statusmap"] = {
 						["iconTLcornerright"] = {
 						},
@@ -235,11 +232,11 @@ GridDB = {
 						["iconTRcornerleft"] = {
 						},
 					},
-				},
-				["Preach"] = {
-					["frameWidth"] = 82,
 					["font"] = "ElvUI Pixel",
 					["frameHeight"] = 37,
+					["frameWidth"] = 82,
+				},
+				["Preach"] = {
 					["statusmap"] = {
 						["corner2"] = {
 							["buff_RenewingMist"] = false,
@@ -288,8 +285,13 @@ GridDB = {
 						["iconTRcornerleft"] = {
 						},
 					},
+					["font"] = "ElvUI Pixel",
+					["frameWidth"] = 82,
+					["frameHeight"] = 37,
 				},
 				["Resto Druid"] = {
+					["frameWidth"] = 82,
+					["font"] = "ElvUI Pixel",
 					["statusmap"] = {
 						["iconTLcornerright"] = {
 							["buff_Rejuvenation"] = false,
@@ -345,22 +347,10 @@ GridDB = {
 							["buff_Lifebloom"] = true,
 						},
 					},
-					["font"] = "ElvUI Pixel",
 					["frameHeight"] = 37,
-					["frameWidth"] = 82,
 				},
 				["Default"] = {
-					["frameWidth"] = 82,
-					["font"] = "ElvUI Pixel",
-					["frameHeight"] = 37,
 					["statusmap"] = {
-						["iconTLcornerright"] = {
-						},
-						["iconBRcornerright"] = {
-						},
-						["manabar"] = {
-							["unit_mana"] = true,
-						},
 						["border"] = {
 							["buff_SacredShield"] = false,
 							["buff_Rejuvenation"] = false,
@@ -368,8 +358,6 @@ GridDB = {
 						["iconBLcornerleft"] = {
 						},
 						["iconBRcornerleft"] = {
-						},
-						["iconBLcornerright"] = {
 						},
 						["iconTRcornerright"] = {
 						},
@@ -388,15 +376,28 @@ GridDB = {
 							["debuff_PhantasmalWinds"] = true,
 							["buff_Atonement"] = true,
 						},
-						["iconTLcornerleft"] = {
-						},
 						["iconTRcornerleft"] = {
 						},
+						["iconBRcornerright"] = {
+						},
+						["manabar"] = {
+							["unit_mana"] = true,
+						},
+						["iconBLcornerright"] = {
+						},
+						["iconTLcornerright"] = {
+						},
+						["iconTLcornerleft"] = {
+						},
 					},
+					["frameHeight"] = 37,
+					["font"] = "ElvUI Pixel",
+					["frameWidth"] = 82,
 				},
 				["healer"] = {
-					["frameWidth"] = 90,
+					["frameHeight"] = 46,
 					["font"] = "ElvUI Pixel",
+					["frameWidth"] = 90,
 					["statusmap"] = {
 						["iconTLcornerright"] = {
 						},
@@ -410,11 +411,6 @@ GridDB = {
 							["buff_Rejuvenation"] = false,
 						},
 						["iconBLcornerleft"] = {
-						},
-						["corner3"] = {
-							["buff_Riptide"] = true,
-						},
-						["iconBLcornerright"] = {
 						},
 						["icon"] = {
 							["dispel_magic"] = true,
@@ -432,36 +428,48 @@ GridDB = {
 							["debuff_PhantasmalWinds"] = true,
 							["buff_Atonement"] = false,
 						},
-						["iconTRcornerright"] = {
-						},
-						["iconBRcornerleft"] = {
+						["iconBLcornerright"] = {
 						},
 						["iconTLcornerleft"] = {
 							["buff_EnvelopingMist"] = true,
 							["buff_Riptide"] = true,
 						},
+						["iconTRcornerright"] = {
+						},
+						["iconBRcornerleft"] = {
+						},
+						["corner3"] = {
+							["buff_Riptide"] = true,
+						},
 						["iconTRcornerleft"] = {
 						},
 					},
-					["frameHeight"] = 46,
 				},
 				["BFA Grid Party"] = {
+					["frameWidth"] = 82,
+					["font"] = "ElvUI Pixel",
 					["statusmap"] = {
 						["iconTLcornerright"] = {
 						},
 						["healingBar"] = {
 							["buff_Atonement"] = false,
 						},
+						["iconBRcornerright"] = {
+						},
+						["manabar"] = {
+							["unit_mana"] = true,
+						},
 						["border"] = {
-							["buff_SacredShield"] = false,
 							["buff_Rejuvenation"] = false,
+							["buff_SacredShield"] = false,
 							["buff_RenewingMist"] = false,
 						},
 						["iconBLcornerleft"] = {
 						},
-						["iconBLcornerright"] = {
+						["corner2"] = {
+							["buff_RenewingMist"] = false,
 						},
-						["iconTRcornerright"] = {
+						["iconBLcornerright"] = {
 						},
 						["icon"] = {
 							["dispel_magic"] = true,
@@ -479,28 +487,21 @@ GridDB = {
 							["debuff_PhantasmalWinds"] = true,
 							["debuff_EmbraceoftheEclipse"] = true,
 						},
-						["iconTRcornerleft"] = {
-						},
-						["iconBRcornerright"] = {
-						},
-						["manabar"] = {
-							["unit_mana"] = true,
+						["iconTRcornerright"] = {
 						},
 						["iconBRcornerleft"] = {
 						},
-						["corner2"] = {
-							["buff_RenewingMist"] = false,
-						},
 						["iconTLcornerleft"] = {
+						},
+						["iconTRcornerleft"] = {
 						},
 					},
 					["frameHeight"] = 62,
-					["font"] = "ElvUI Pixel",
-					["frameWidth"] = 82,
 				},
 				["Resto Shaman"] = {
-					["frameWidth"] = 82,
+					["frameHeight"] = 37,
 					["font"] = "ElvUI Pixel",
+					["frameWidth"] = 82,
 					["statusmap"] = {
 						["corner2"] = {
 							["buff_BeaconofLight"] = true,
@@ -569,9 +570,10 @@ GridDB = {
 						["iconTRcornerleft"] = {
 						},
 					},
-					["frameHeight"] = 37,
 				},
 				["Holy Priest"] = {
+					["frameWidth"] = 82,
+					["font"] = "ElvUI Pixel",
 					["statusmap"] = {
 						["iconTLcornerright"] = {
 							["buff_Rejuvenation"] = true,
@@ -639,14 +641,9 @@ GridDB = {
 						["iconTRcornerleft"] = {
 						},
 					},
-					["font"] = "ElvUI Pixel",
 					["frameHeight"] = 37,
-					["frameWidth"] = 82,
 				},
 				["Mistweaver"] = {
-					["frameHeight"] = 37,
-					["font"] = "ElvUI Pixel",
-					["frameWidth"] = 82,
 					["statusmap"] = {
 						["iconTLcornerright"] = {
 							["buff_Rejuvenation"] = true,
@@ -713,6 +710,9 @@ GridDB = {
 						["iconTRcornerleft"] = {
 						},
 					},
+					["font"] = "ElvUI Pixel",
+					["frameHeight"] = 37,
+					["frameWidth"] = 82,
 				},
 			},
 		},
@@ -1310,13 +1310,16 @@ GridDB = {
 					},
 				},
 				["Default"] = {
-					["buff_PrayerofMending"] = {
-						["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfMendingtga",
+					["buff_PowerWord:Fortitude"] = {
+						["icon"] = 0,
 					},
-					["buff_eternalflame"] = {
-						["text"] = "ef",
-						["buff"] = "eternal flame",
-						["desc"] = "Buff: eternal flame",
+					["buff_PowerWord:Shield"] = {
+						["icon"] = 0,
+					},
+					["debuff_PhantasmalWinds"] = {
+						["desc"] = "Debuff: Phantasmal Winds",
+						["text"] = "PW",
+						["debuff"] = "Phantasmal Winds",
 					},
 					["buff_ClarityofWill"] = {
 						["icon"] = 1022947,
@@ -1324,28 +1327,8 @@ GridDB = {
 					["buff_Atonement"] = {
 						["icon"] = 458720,
 					},
-					["buff_Rejuvenation"] = {
-						["icon"] = 136081,
-					},
-					["buff_PowerWord:Shield"] = {
-						["icon"] = 0,
-					},
-					["debuff_PhantasmalWinds"] = {
-						["text"] = "PW",
-						["debuff"] = "Phantasmal Winds",
-						["desc"] = "Debuff: Phantasmal Winds",
-					},
 					["buff_Renew"] = {
 						["icon"] = "Interface\\Icons\\Spell_Holy_Renew",
-					},
-					["buff_PowerWord:Fortitude"] = {
-						["icon"] = 0,
-					},
-					["buff_EnvelopingMist"] = {
-						["icon"] = "Interface\\Icons\\spell_monk_envelopingmist",
-					},
-					["buff_Regrowth"] = {
-						["icon"] = 136085,
 					},
 					["buff_Riptide"] = {
 						["icon"] = "Interface\\Icons\\spell_nature_riptide",
@@ -1353,8 +1336,25 @@ GridDB = {
 					["buff_BeaconofLight"] = {
 						["icon"] = 236247,
 					},
+					["buff_PrayerofMending"] = {
+						["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfMendingtga",
+					},
+					["buff_Rejuvenation"] = {
+						["icon"] = 136081,
+					},
+					["buff_eternalflame"] = {
+						["buff"] = "eternal flame",
+						["desc"] = "Buff: eternal flame",
+						["text"] = "ef",
+					},
+					["buff_Regrowth"] = {
+						["icon"] = 136085,
+					},
 					["buff_RenewingMist"] = {
 						["icon"] = "Interface\\Icons\\ability_monk_renewingmists",
+					},
+					["buff_EnvelopingMist"] = {
+						["icon"] = "Interface\\Icons\\spell_monk_envelopingmist",
 					},
 					["buff_LifeCocoon"] = {
 						["icon"] = 627485,
@@ -1425,31 +1425,33 @@ GridDB = {
 					},
 				},
 				["BFA Grid Party"] = {
-					["buff_PowerWord:Fortitude"] = {
-						["icon"] = 0,
+					["buff_SoothingMist"] = {
+						["icon"] = 606550,
 					},
-					["buff_PowerWord:Shield"] = {
-						["icon"] = 0,
-					},
-					["buff_LifeCocoon"] = {
-						["icon"] = 0,
-					},
-					["buff_EarthShield"] = {
-						["icon"] = 3,
-					},
-					["buff_EssenceFont"] = {
-						["icon"] = 1360978,
+					["buff_eternalflame"] = {
+						["text"] = "ef",
+						["buff"] = "eternal flame",
+						["desc"] = "Buff: eternal flame",
 					},
 					["debuff_EmbraceoftheEclipse"] = {
-						["desc"] = "Debuff: Embrace of the Eclipse",
 						["text"] = "EotE",
 						["debuff"] = "Embrace of the Eclipse",
+						["desc"] = "Debuff: Embrace of the Eclipse",
 					},
 					["buff_Atonement"] = {
 						["icon"] = 458720,
 					},
+					["buff_RenewingMist"] = {
+						["icon"] = 627487,
+					},
 					["buff_Renew"] = {
 						["icon"] = 135953,
+					},
+					["buff_PowerWord:Fortitude"] = {
+						["icon"] = 0,
+					},
+					["buff_EnvelopingMist"] = {
+						["icon"] = 775461,
 					},
 					["buff_WildGrowth"] = {
 						["icon"] = 236153,
@@ -1457,25 +1459,20 @@ GridDB = {
 					["buff_Riptide"] = {
 						["icon"] = 252995,
 					},
-					["buff_BeaconofLight"] = {
-						["icon"] = 236247,
+					["buff_PowerWord:Shield"] = {
+						["icon"] = 0,
+					},
+					["buff_LifeCocoon"] = {
+						["icon"] = 0,
 					},
 					["buff_PrayerofMending"] = {
 						["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfMendingtga",
 					},
-					["buff_eternalflame"] = {
-						["buff"] = "eternal flame",
-						["desc"] = "Buff: eternal flame",
-						["text"] = "ef",
-					},
 					["buff_Rejuvenation"] = {
 						["icon"] = 136081,
 					},
-					["buff_SoothingMist"] = {
-						["icon"] = 606550,
-					},
-					["buff_ClarityofWill"] = {
-						["icon"] = 1022947,
+					["buff_EarthShield"] = {
+						["icon"] = 3,
 					},
 					["buff_BeaconofFaith"] = {
 						["icon"] = 1030095,
@@ -1483,16 +1480,19 @@ GridDB = {
 					["buff_Regrowth"] = {
 						["icon"] = 136085,
 					},
-					["buff_RenewingMist"] = {
-						["icon"] = 627487,
+					["buff_BeaconofLight"] = {
+						["icon"] = 236247,
 					},
-					["buff_EnvelopingMist"] = {
-						["icon"] = 775461,
+					["buff_EssenceFont"] = {
+						["icon"] = 1360978,
+					},
+					["buff_ClarityofWill"] = {
+						["icon"] = 1022947,
 					},
 					["debuff_PhantasmalWinds"] = {
-						["desc"] = "Debuff: Phantasmal Winds",
 						["text"] = "PW",
 						["debuff"] = "Phantasmal Winds",
+						["desc"] = "Debuff: Phantasmal Winds",
 					},
 					["buff_Lifebloom"] = {
 						["icon"] = 134206,
@@ -1845,17 +1845,17 @@ GridDB = {
 						["raid"] = "ByGroup",
 					},
 					["layout"] = "None",
-					["lock"] = true,
+					["PosX"] = 530,
 					["borderSize"] = 1,
+					["lock"] = true,
+					["borderInset"] = 14,
+					["borderTexture"] = "None",
+					["Spacing"] = 0,
 					["borderColor"] = {
 						["b"] = 0,
 						["g"] = 0,
 						["r"] = 0,
 					},
-					["borderInset"] = 14,
-					["Spacing"] = 0,
-					["PosX"] = 530,
-					["borderTexture"] = "None",
 					["horizontal"] = true,
 					["backgroundColor"] = {
 						["a"] = 0.650000005960465,
@@ -1910,17 +1910,17 @@ GridDB = {
 						["solo"] = "None",
 					},
 					["layout"] = "None",
+					["lock"] = true,
+					["borderInset"] = 14,
 					["borderColor"] = {
 						["b"] = 0,
 						["g"] = 0,
 						["r"] = 0,
 					},
-					["borderInset"] = 14,
-					["borderTexture"] = "None",
 					["borderSize"] = 1,
-					["PosX"] = 530,
-					["lock"] = true,
 					["Spacing"] = 0,
+					["PosX"] = 530,
+					["borderTexture"] = "None",
 					["horizontal"] = true,
 					["backgroundColor"] = {
 						["a"] = 0.650000005960465,
@@ -2011,17 +2011,17 @@ GridDB = {
 						["solo"] = "None",
 					},
 					["layout"] = "ByGroup",
-					["borderTexture"] = "None",
-					["borderInset"] = 14,
-					["lock"] = true,
-					["borderSize"] = 1,
-					["PosX"] = 528,
 					["borderColor"] = {
 						["b"] = 0,
 						["g"] = 0,
 						["r"] = 0,
 					},
+					["borderInset"] = 14,
+					["borderTexture"] = "None",
+					["borderSize"] = 1,
 					["Spacing"] = 0,
+					["PosX"] = 528,
+					["lock"] = true,
 					["horizontal"] = true,
 					["backgroundColor"] = {
 						["a"] = 0.650000005960465,
@@ -2035,8 +2035,8 @@ GridDB = {
 					["hideTab"] = true,
 					["backgroundTexture"] = "Solid",
 					["layouts"] = {
-						["raid_flex"] = "By Group 40",
 						["solo"] = "None",
+						["raid_flex"] = "By Group 40",
 						["bg"] = "By Group 25",
 					},
 					["borderSize"] = 1,
@@ -2097,36 +2097,36 @@ GridDB = {
 					["backgroundTexture"] = "Solid",
 				},
 				["BFA Grid Party"] = {
+					["showOffline"] = true,
 					["anchorRel"] = "BOTTOMRIGHT",
+					["PosY"] = 344,
+					["showWrongZone"] = "RAIDINST",
 					["layouts"] = {
 						["party"] = "ByRole",
-						["solo"] = "None",
 						["raid_flex"] = "By Group 40",
+						["solo"] = "None",
 						["bg"] = "ByRole",
 					},
-					["borderSize"] = 1,
+					["layout"] = "None",
 					["Spacing"] = 0,
+					["unitSpacing"] = 0,
+					["PosX"] = -885,
+					["borderSize"] = 1,
+					["borderTexture"] = "None",
+					["borderColor"] = {
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
+					},
 					["anchor"] = "BOTTOMRIGHT",
+					["borderInset"] = 14,
 					["backgroundColor"] = {
 						["a"] = 0.650000005960465,
 						["r"] = 0.0156862745098039,
 						["g"] = 0.0156862745098039,
 						["b"] = 0.0156862745098039,
 					},
-					["showOffline"] = true,
-					["showWrongZone"] = "RAIDINST",
-					["PosY"] = 344,
-					["unitSpacing"] = 0,
-					["layout"] = "None",
-					["borderTexture"] = "None",
-					["borderInset"] = 14,
 					["backgroundTexture"] = "Solid",
-					["borderColor"] = {
-						["r"] = 0,
-						["g"] = 0,
-						["b"] = 0,
-					},
-					["PosX"] = -885,
 				},
 				["Resto Shaman"] = {
 					["hideTab"] = true,
@@ -2140,17 +2140,17 @@ GridDB = {
 						["bg"] = "By Group 25",
 					},
 					["layout"] = "None",
-					["borderTexture"] = "None",
-					["borderInset"] = 14,
-					["Spacing"] = 0,
-					["borderSize"] = 1,
-					["PosX"] = 530,
 					["lock"] = true,
+					["borderInset"] = 14,
+					["borderTexture"] = "None",
+					["borderSize"] = 1,
 					["borderColor"] = {
 						["r"] = 0,
 						["g"] = 0,
 						["b"] = 0,
 					},
+					["PosX"] = 530,
+					["Spacing"] = 0,
 					["horizontal"] = true,
 					["backgroundColor"] = {
 						["a"] = 0.650000005960465,
@@ -2172,17 +2172,17 @@ GridDB = {
 						["bg"] = "By Group 25",
 					},
 					["layout"] = "ByGroup",
-					["lock"] = true,
+					["PosX"] = 529,
 					["borderInset"] = 14,
+					["lock"] = true,
+					["borderSize"] = 1,
+					["Spacing"] = 0,
+					["borderTexture"] = "None",
 					["borderColor"] = {
 						["r"] = 0,
 						["g"] = 0,
 						["b"] = 0,
 					},
-					["borderSize"] = 1,
-					["borderTexture"] = "None",
-					["PosX"] = 529,
-					["Spacing"] = 0,
 					["horizontal"] = true,
 					["backgroundColor"] = {
 						["a"] = 0.650000005960465,
@@ -2204,17 +2204,17 @@ GridDB = {
 						["bg"] = "By Group 25",
 					},
 					["layout"] = "None",
-					["PosX"] = 530,
-					["borderInset"] = 14,
-					["lock"] = true,
-					["borderSize"] = 1,
-					["Spacing"] = 0,
 					["borderColor"] = {
 						["b"] = 0,
 						["g"] = 0,
 						["r"] = 0,
 					},
+					["borderInset"] = 14,
+					["PosX"] = 530,
+					["borderSize"] = 1,
 					["borderTexture"] = "None",
+					["Spacing"] = 0,
+					["lock"] = true,
 					["horizontal"] = true,
 					["backgroundColor"] = {
 						["a"] = 0.650000005960465,
@@ -2670,16 +2670,6 @@ GridDB = {
 				},
 				["Default"] = {
 					["colors"] = {
-						["DEATHKNIGHT"] = {
-							["b"] = 0.23,
-							["g"] = 0.12,
-							["r"] = 0.77,
-						},
-						["WARRIOR"] = {
-							["b"] = 0.43,
-							["g"] = 0.61,
-							["r"] = 0.78,
-						},
 						["PALADIN"] = {
 							["b"] = 0.73,
 							["g"] = 0.55,
@@ -2690,14 +2680,29 @@ GridDB = {
 							["g"] = 0.8,
 							["r"] = 0.41,
 						},
-						["PRIEST"] = {
-							["b"] = 1,
-							["g"] = 1,
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
 							["r"] = 1,
+						},
+						["MONK"] = {
+							["b"] = 0.59,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
 						},
 						["ROGUE"] = {
 							["b"] = 0.41,
 							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
 							["r"] = 1,
 						},
 						["WARLOCK"] = {
@@ -2715,15 +2720,10 @@ GridDB = {
 							["g"] = 0.83,
 							["r"] = 0.67,
 						},
-						["DRUID"] = {
-							["b"] = 0.04,
-							["g"] = 0.49,
-							["r"] = 1,
-						},
-						["MONK"] = {
-							["b"] = 0.59,
-							["g"] = 1,
-							["r"] = 0,
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
 						},
 						["SHAMAN"] = {
 							["b"] = 0.87,
@@ -2798,6 +2798,16 @@ GridDB = {
 				},
 				["BFA Grid Party"] = {
 					["colors"] = {
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
 						["SHAMAN"] = {
 							["b"] = 0.87,
 							["g"] = 0.44,
@@ -2808,29 +2818,14 @@ GridDB = {
 							["g"] = 0.8,
 							["r"] = 0.41,
 						},
-						["DRUID"] = {
-							["b"] = 0.04,
-							["g"] = 0.49,
-							["r"] = 1,
-						},
-						["MONK"] = {
-							["b"] = 0.59,
+						["PRIEST"] = {
+							["b"] = 1,
 							["g"] = 1,
-							["r"] = 0,
-						},
-						["DEATHKNIGHT"] = {
-							["b"] = 0.23,
-							["g"] = 0.12,
-							["r"] = 0.77,
+							["r"] = 1,
 						},
 						["ROGUE"] = {
 							["b"] = 0.41,
 							["g"] = 0.96,
-							["r"] = 1,
-						},
-						["PRIEST"] = {
-							["b"] = 1,
-							["g"] = 1,
 							["r"] = 1,
 						},
 						["WARLOCK"] = {
@@ -2848,10 +2843,15 @@ GridDB = {
 							["g"] = 0.83,
 							["r"] = 0.67,
 						},
-						["WARRIOR"] = {
-							["b"] = 0.43,
-							["g"] = 0.61,
-							["r"] = 0.78,
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["MONK"] = {
+							["b"] = 0.59,
+							["g"] = 1,
+							["r"] = 0,
 						},
 						["PALADIN"] = {
 							["b"] = 0.73,
@@ -3077,6 +3077,9 @@ GridDB = {
 				["healer"] = {
 					["party_state"] = "party",
 				},
+				["Default"] = {
+					["party_state"] = "party",
+				},
 				["hiller"] = {
 					["party_state"] = "party",
 				},
@@ -3126,12 +3129,13 @@ GridDB = {
 		["Ryykahpo - Frostmane"] = "Default",
 		["Rykahshaman - Frostmane"] = "BFA Grid Party",
 		["Preachx - Tarren Mill"] = "Preach",
+		["Slywithapet - Frostmane"] = "Default",
 		["Mastarace - Kazzak"] = "Default",
-		["Rykahtwo - Frostmane"] = "Default",
+		["Advboi - Frostmane"] = "Default",
 		["Preách - Tarren Mill"] = "Preach",
 		["Rykahboost - Turalyon"] = "Default",
-		["Advboi - Frostmane"] = "Default",
 		["Chuggernuts - Tarren Mill"] = "Preach",
+		["Rykahbolt - Frostmane"] = "BFA Grid Party",
 		["Preách - Zenedar"] = "Default",
 		["Rykahtony - Frostmane"] = "Preach",
 		["Hordepali - Lightbringer"] = "Default",
@@ -3140,26 +3144,26 @@ GridDB = {
 		["Blissard - Frostmane"] = "Default",
 		["Rykahpriest - Frostmane"] = "BFA Grid Party",
 		["Chatmademe - Kazzak"] = "Default",
-		["Spacegoatss - Frostmane"] = "Preach",
 		["Imacleft - Sylvanas"] = "Preach",
 		["Préach - Tarren Mill"] = "Preach",
+		["Advboi - Grim Batol"] = "Default",
 		["Preachez - Tarren Mill"] = "Preach",
+		["Preacherino - Tarren Mill"] = "Preach",
 		["Rykahpo - Frostmane"] = "BFA Grid Party",
-		["Rykahhpo - Frostmane"] = "BFA Grid Party",
 		["Rcumplus - Aggramar"] = "Default",
 		["Preech - Tarren Mill"] = "Preach",
-		["Preacherino - Tarren Mill"] = "Preach",
-		["Mechaboost - Defias Brotherhood"] = "Default",
 		["Fergfr - Sylvanas"] = "Default",
+		["Mechaboost - Defias Brotherhood"] = "Default",
+		["Rykahhpo - Frostmane"] = "BFA Grid Party",
 		["Sulivan - Tarren Mill"] = "Preach",
-		["Advboi - Grim Batol"] = "Default",
+		["Spacegoatss - Frostmane"] = "Preach",
 		["Swobuswagins - Tarren Mill"] = "Preach",
 		["Bertybots - Kazzak"] = "Default",
 		["Rykah - Frostmane"] = "Default",
 		["Meticulous - Tarren Mill"] = "Preach",
 		["Dlorange - Tarren Mill"] = "Resto Druid",
-		["Rykahbolt - Frostmane"] = "BFA Grid Party",
 		["Rykahboost - Aggramar"] = "Default",
+		["Rykahtwo - Frostmane"] = "Default",
 		["Préach - Zenedar"] = "Default",
 	},
 	["profiles"] = {

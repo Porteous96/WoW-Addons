@@ -24,9 +24,9 @@ ElvUI: enabled
 AddOnSkins: enabled
 AAP-Vanilla: disabled
 InstanceAchievementTracker: disabled
-InstanceAutoMarker: enabled
+InstanceAutoMarker: disabled
 SimpleArmory: disabled
-Rarity: disabled
+Rarity: enabled
 WIT: disabled
 ElvUI_DTBars2: disabled
 LucidNightmareHelper: disabled
@@ -84,12 +84,12 @@ Details_DataStorage: enabled
 Details_Streamer: enabled
 Details_TinyThreat: enabled
 Details_Vanguard: enabled
-FasterLoot: disabled
+FasterLoot: enabled
 GarrisonMissionManager: disabled
 Grid: disabled
 GridIndicatorCornerIcons: disabled
 GridManaBars: disabled
-HandyNotes: disabled
+HandyNotes: enabled
 HandyNotes_BattleForAzerothTreasures: enabled
 HandyNotes_VisionsOfNZoth: enabled
 HandyNotes_DraenorTreasures: enabled
@@ -100,11 +100,11 @@ MythicDungeonTools: disabled
 Pawn: enabled
 Postal: enabled
 PremadeGroupsFilter: disabled
-Rarity_Options: disabled
+Rarity_Options: enabled
 Routes: disabled
 Simulationcraft: disabled
-TellMeWhen: enabled
-TellMeWhen_Options: enabled
+TellMeWhen: disabled
+TellMeWhen_Options: disabled
 WeakAuras: enabled
 WeakAurasModelPaths: enabled
 WeakAurasOptions: enabled
@@ -131,3 +131,4 @@ ComboPointsRedux: disabled
 ComboPointsRedux_Options: disabled
 NOP: disabled
 ElvUI_QuestXP: disabled
+AngryWorldQuests: disabled

@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0402,
+	["LastVersion"] = 2.0404,
+	["LastPlayerFullName"] = "Rÿkah-Frostmane",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 165459,
@@ -9,8 +12,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 158075,
-			["Level"] = 137,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:250::11:4:4932:4933:6316:1551::::|h[Heart of Azeroth]|h|r",
+			["Level"] = 138,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:250::11:4:4932:4933:6316:1552::::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 174166,
@@ -24,9 +27,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:166578::::::::50:250::23:5:5845:1527:4786:6507:4775::::|h[Wardenguard's Breastplate]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 158360,
-			["Level"] = 115,
-			["Link"] = "|cffa335ee|Hitem:158360::::::::50:250::16:5:6528:6516:6513:1528:4786::::|h[Sharkbait Harness Girdle]|h|r",
+			["ID"] = 159434,
+			["Level"] = 125,
+			["Link"] = "|cffa335ee|Hitem:159434::::::::50:250::35:9:6530:4802:6578:6579:6494:6613:6515:1538:4786::::|h[Cannoneer's Toolbelt]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 165461,
@@ -34,31 +37,31 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:165461::::::::50:250::23:4:5845:6516:1527:4786::::|h[Wardenguard's Legplates]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 159412,
-			["Level"] = 105,
-			["Link"] = "|cffa335ee|Hitem:159412::::::::50:250::35:8:5005:6578:6579:6437:6455:6513:1518:4786::::|h[Auric Puddle Stompers]|h|r",
+			["ID"] = 159679,
+			["Level"] = 115,
+			["Link"] = "|cffa335ee|Hitem:159679::::::::50:250::35:7:5007:6578:6579:6551:6515:1528:4786::::|h[Sabatons of Rampaging Elements]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 159425,
-			["Level"] = 115,
-			["Link"] = "|cffa335ee|Hitem:159425::::::::50:250::16:5:6530:6516:6515:1528:4786::::|h[Shard-Tipped Vambraces]|h|r",
+			["ID"] = 159449,
+			["Level"] = 125,
+			["Link"] = "|cffa335ee|Hitem:159449::::::::50:250::35:7:6530:6578:6579:6561:6513:1538:4786::::|h[Soulwarped Vambraces]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 159421,
-			["Level"] = 115,
-			["Link"] = "|cffa335ee|Hitem:159421::::::::50:250::35:8:5007:6578:6579:6476:6470:6513:1528:4786::::|h[Gauntlets of Total Subservience]|h|r",
+			["Level"] = 130,
+			["Link"] = "|cffa335ee|Hitem:159421::::::::50:250::35:4:6536:6513:1543:4786::::|h[Gauntlets of Total Subservience]|h|r",
 		}, -- [10]
+		{
+			["ID"] = 159458,
+			["Level"] = 120,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cffa335ee|Hitem:159458::::::::50:250::16:5:6536:6516:6515:1533:4786:1:28:1255:::|h[Seal of the Regal Loa]|h|r",
+		}, -- [11]
 		{
 			["ID"] = 159462,
 			["Level"] = 115,
-			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:159462:6111:::::::50:250::16:5:6530:6516:6513:1528:4786::::|h[Footbomb Championship Ring]|h|r",
-		}, -- [11]
-		{
-			["ID"] = 158362,
-			["Level"] = 110,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:158362:6111:::::::50:250::16:5:5009:6516:6515:1523:4786::::|h[Lord Waycrest's Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:159462:6111:::::::50:250::16:5:6530:6516:6513:1528:4786::::|h[Footbomb Championship Ring]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 174044,
@@ -82,10 +85,13 @@ PawnOptions = {
 			["Level"] = 115,
 			["Link"] = "|cffa335ee|Hitem:172200:3368:::::::50:250::5:8:4823:1808:6572:6578:6579:6515:1502:4786::::|h[Sk'shuul Vaz]|h|r",
 		}, -- [16]
+		{
+			["ID"] = 25114,
+			["Level"] = 34,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:25114::::::::50:250::2:2:6655:1680:2:28:1065:9:30:::|h[Doomsayer's Mace of the Quickblade]|h|r",
+		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Rÿkah-Frostmane",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

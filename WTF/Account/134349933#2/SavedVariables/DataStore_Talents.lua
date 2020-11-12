@@ -2,9 +2,10 @@
 DataStore_TalentsDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
-		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
 		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
 		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
@@ -12,26 +13,26 @@ DataStore_TalentsDB = {
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
+		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
-		["Rykah - Frostmane"] = "Rykah - Frostmane",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
-		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
-		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
+		["Rykah - Frostmane"] = "Rykah - Frostmane",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -64,123 +65,123 @@ DataStore_TalentsDB = {
 				["Class"] = "MAGE",
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1604094882,
+				["lastUpdate"] = 1605131564,
 				["Specializations"] = {
-					6521, -- [1]
+					6585, -- [1]
 					14715, -- [2]
-					6554, -- [3]
+					6586, -- [3]
 				},
 				["AzeriteEssences"] = {
 					["Purification Protocol"] = {
 						["valid"] = true,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
-						["unlocked"] = true,
 						["icon"] = 2967103,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["unlocked"] = true,
 						["icon"] = 1830317,
+						["unlocked"] = true,
 						["rank"] = 4,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
-						["unlocked"] = true,
 						["icon"] = 3015740,
+						["unlocked"] = true,
 						["rank"] = 4,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
-						["unlocked"] = true,
 						["icon"] = 2967109,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Memory of Lucid Dreams"] = {
 						["valid"] = true,
 						["name"] = "Memory of Lucid Dreams",
 						["ID"] = 27,
-						["unlocked"] = true,
 						["icon"] = 2967104,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["The Formless Void"] = {
 						["valid"] = true,
 						["name"] = "The Formless Void",
 						["ID"] = 37,
-						["unlocked"] = true,
 						["icon"] = 3193845,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Vision of Perfection"] = {
 						["valid"] = true,
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
-						["unlocked"] = true,
 						["icon"] = 3015743,
+						["unlocked"] = true,
 						["rank"] = 4,
 					},
 					["Blood of the Enemy"] = {
 						["valid"] = true,
 						["name"] = "Blood of the Enemy",
 						["ID"] = 23,
-						["unlocked"] = true,
 						["icon"] = 2032580,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 					["Condensed Life-Force"] = {
 						["valid"] = true,
 						["name"] = "Condensed Life-Force",
 						["ID"] = 14,
-						["unlocked"] = true,
 						["icon"] = 2967113,
-						["rank"] = 3,
-					},
-					["Spark of Inspiration"] = {
-						["valid"] = true,
-						["name"] = "Spark of Inspiration",
-						["ID"] = 36,
 						["unlocked"] = true,
-						["icon"] = 3193843,
-						["rank"] = 4,
-					},
-					["Essence of the Focusing Iris"] = {
-						["valid"] = true,
-						["name"] = "Essence of the Focusing Iris",
-						["ID"] = 5,
-						["unlocked"] = true,
-						["icon"] = 2967111,
-						["rank"] = 4,
-					},
-					["Breath of the Dying"] = {
-						["valid"] = true,
-						["name"] = "Breath of the Dying",
-						["ID"] = 35,
-						["unlocked"] = true,
-						["icon"] = 3193844,
 						["rank"] = 3,
 					},
 					["Conflict and Strife"] = {
 						["valid"] = true,
 						["name"] = "Conflict and Strife",
 						["ID"] = 32,
-						["unlocked"] = true,
 						["icon"] = 3015742,
+						["unlocked"] = true,
 						["rank"] = 3,
+					},
+					["Essence of the Focusing Iris"] = {
+						["valid"] = true,
+						["name"] = "Essence of the Focusing Iris",
+						["ID"] = 5,
+						["icon"] = 2967111,
+						["unlocked"] = true,
+						["rank"] = 4,
+					},
+					["Breath of the Dying"] = {
+						["valid"] = true,
+						["name"] = "Breath of the Dying",
+						["ID"] = 35,
+						["icon"] = 3193844,
+						["unlocked"] = true,
+						["rank"] = 3,
+					},
+					["Spark of Inspiration"] = {
+						["valid"] = true,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["icon"] = 3193843,
+						["unlocked"] = true,
+						["rank"] = 4,
 					},
 					["The Unbound Force"] = {
 						["valid"] = true,
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
-						["unlocked"] = true,
 						["icon"] = 2967102,
+						["unlocked"] = true,
 						["rank"] = 3,
 					},
 				},
@@ -195,144 +196,8 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "SHAMAN",
 			},
-			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1604098252,
-				["Specializations"] = {
-					[2] = 7066,
-					[3] = 0,
-				},
-				["AzeriteEssences"] = {
-					["Purification Protocol"] = {
-						["valid"] = true,
-						["name"] = "Purification Protocol",
-						["ID"] = 6,
-						["unlocked"] = false,
-						["icon"] = 2967103,
-						["rank"] = 0,
-					},
-					["Worldvein Resonance"] = {
-						["valid"] = true,
-						["name"] = "Worldvein Resonance",
-						["ID"] = 4,
-						["unlocked"] = false,
-						["icon"] = 1830317,
-						["rank"] = 0,
-					},
-					["The Crucible of Flame"] = {
-						["valid"] = true,
-						["name"] = "The Crucible of Flame",
-						["ID"] = 12,
-						["unlocked"] = false,
-						["icon"] = 3015740,
-						["rank"] = 0,
-					},
-					["Ripple in Space"] = {
-						["valid"] = true,
-						["name"] = "Ripple in Space",
-						["ID"] = 15,
-						["unlocked"] = false,
-						["icon"] = 2967109,
-						["rank"] = 0,
-					},
-					["Memory of Lucid Dreams"] = {
-						["valid"] = true,
-						["name"] = "Memory of Lucid Dreams",
-						["ID"] = 27,
-						["unlocked"] = false,
-						["icon"] = 2967104,
-						["rank"] = 0,
-					},
-					["The Formless Void"] = {
-						["valid"] = true,
-						["name"] = "The Formless Void",
-						["ID"] = 37,
-						["unlocked"] = false,
-						["icon"] = 3193845,
-						["rank"] = 0,
-					},
-					["Vision of Perfection"] = {
-						["valid"] = true,
-						["name"] = "Vision of Perfection",
-						["ID"] = 22,
-						["unlocked"] = false,
-						["icon"] = 3015743,
-						["rank"] = 0,
-					},
-					["Blood of the Enemy"] = {
-						["valid"] = true,
-						["name"] = "Blood of the Enemy",
-						["ID"] = 23,
-						["unlocked"] = false,
-						["icon"] = 2032580,
-						["rank"] = 0,
-					},
-					["Condensed Life-Force"] = {
-						["valid"] = true,
-						["name"] = "Condensed Life-Force",
-						["ID"] = 14,
-						["unlocked"] = false,
-						["icon"] = 2967113,
-						["rank"] = 0,
-					},
-					["Conflict and Strife"] = {
-						["valid"] = true,
-						["name"] = "Conflict and Strife",
-						["ID"] = 32,
-						["unlocked"] = false,
-						["icon"] = 3015742,
-						["rank"] = 0,
-					},
-					["Essence of the Focusing Iris"] = {
-						["valid"] = true,
-						["name"] = "Essence of the Focusing Iris",
-						["ID"] = 5,
-						["unlocked"] = false,
-						["icon"] = 2967111,
-						["rank"] = 0,
-					},
-					["Breath of the Dying"] = {
-						["valid"] = true,
-						["name"] = "Breath of the Dying",
-						["ID"] = 35,
-						["unlocked"] = false,
-						["icon"] = 3193844,
-						["rank"] = 0,
-					},
-					["Spark of Inspiration"] = {
-						["valid"] = true,
-						["name"] = "Spark of Inspiration",
-						["ID"] = 36,
-						["unlocked"] = false,
-						["icon"] = 3193843,
-						["rank"] = 0,
-					},
-					["The Unbound Force"] = {
-						["valid"] = true,
-						["name"] = "The Unbound Force",
-						["ID"] = 28,
-						["unlocked"] = false,
-						["icon"] = 2967102,
-						["rank"] = 0,
-					},
-				},
-				["Class"] = "ROGUE",
-			},
-			["Default.Silvermoon.Mechaboost"] = {
-				["lastUpdate"] = 1594901077,
-				["Specializations"] = {
-					0, -- [1]
-				},
-				["Class"] = "PRIEST",
-			},
-			["Default.Frostmane.Rykahdruid"] = {
-				["lastUpdate"] = 1604101076,
-				["Specializations"] = {
-					[3] = 5822,
-				},
-				["Class"] = "DRUID",
-			},
 			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1604106002,
+				["lastUpdate"] = 1605132534,
 				["Specializations"] = {
 					5802, -- [1]
 					9877, -- [2]
@@ -410,11 +275,11 @@ DataStore_TalentsDB = {
 						["unlocked"] = false,
 						["rank"] = 0,
 					},
-					["Spark of Inspiration"] = {
+					["Conflict and Strife"] = {
 						["valid"] = true,
-						["name"] = "Spark of Inspiration",
-						["ID"] = 36,
-						["icon"] = 3193843,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["icon"] = 3015742,
 						["unlocked"] = false,
 						["rank"] = 0,
 					},
@@ -434,11 +299,11 @@ DataStore_TalentsDB = {
 						["unlocked"] = true,
 						["rank"] = 1,
 					},
-					["Conflict and Strife"] = {
+					["Spark of Inspiration"] = {
 						["valid"] = true,
-						["name"] = "Conflict and Strife",
-						["ID"] = 32,
-						["icon"] = 3015742,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["icon"] = 3193843,
 						["unlocked"] = false,
 						["rank"] = 0,
 					},
@@ -452,6 +317,151 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "HUNTER",
+			},
+			["Default.Frostmane.Rykahwar"] = {
+				["lastUpdate"] = 1604962912,
+				["Specializations"] = {
+					661, -- [1]
+					6037, -- [2]
+					181, -- [3]
+				},
+				["Class"] = "WARRIOR",
+			},
+			["Default.Silvermoon.Mechaboost"] = {
+				["lastUpdate"] = 1594901077,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "PRIEST",
+			},
+			["Default.Frostmane.Rykahdruid"] = {
+				["lastUpdate"] = 1604101076,
+				["Specializations"] = {
+					[3] = 5822,
+				},
+				["Class"] = "DRUID",
+			},
+			["Default.Frostmane.Rykkahpo"] = {
+				["lastUpdate"] = 1605132584,
+				["Specializations"] = {
+					[2] = 7066,
+					[3] = 0,
+				},
+				["AzeriteEssences"] = {
+					["Purification Protocol"] = {
+						["valid"] = true,
+						["name"] = "Purification Protocol",
+						["ID"] = 6,
+						["unlocked"] = false,
+						["icon"] = 2967103,
+						["rank"] = 0,
+					},
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["unlocked"] = false,
+						["icon"] = 1830317,
+						["rank"] = 0,
+					},
+					["The Crucible of Flame"] = {
+						["valid"] = true,
+						["name"] = "The Crucible of Flame",
+						["ID"] = 12,
+						["unlocked"] = false,
+						["icon"] = 3015740,
+						["rank"] = 0,
+					},
+					["Ripple in Space"] = {
+						["valid"] = true,
+						["name"] = "Ripple in Space",
+						["ID"] = 15,
+						["unlocked"] = false,
+						["icon"] = 2967109,
+						["rank"] = 0,
+					},
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["unlocked"] = false,
+						["icon"] = 2967104,
+						["rank"] = 0,
+					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["unlocked"] = false,
+						["icon"] = 3193845,
+						["rank"] = 0,
+					},
+					["Vision of Perfection"] = {
+						["valid"] = true,
+						["name"] = "Vision of Perfection",
+						["ID"] = 22,
+						["unlocked"] = false,
+						["icon"] = 3015743,
+						["rank"] = 0,
+					},
+					["Blood of the Enemy"] = {
+						["valid"] = true,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["unlocked"] = false,
+						["icon"] = 2032580,
+						["rank"] = 0,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = true,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["unlocked"] = false,
+						["icon"] = 2967113,
+						["rank"] = 0,
+					},
+					["Spark of Inspiration"] = {
+						["valid"] = true,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["unlocked"] = false,
+						["icon"] = 3193843,
+						["rank"] = 0,
+					},
+					["Essence of the Focusing Iris"] = {
+						["valid"] = true,
+						["name"] = "Essence of the Focusing Iris",
+						["ID"] = 5,
+						["unlocked"] = false,
+						["icon"] = 2967111,
+						["rank"] = 0,
+					},
+					["Breath of the Dying"] = {
+						["valid"] = true,
+						["name"] = "Breath of the Dying",
+						["ID"] = 35,
+						["unlocked"] = false,
+						["icon"] = 3193844,
+						["rank"] = 0,
+					},
+					["Conflict and Strife"] = {
+						["valid"] = true,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["unlocked"] = false,
+						["icon"] = 3015742,
+						["rank"] = 0,
+					},
+					["The Unbound Force"] = {
+						["valid"] = true,
+						["name"] = "The Unbound Force",
+						["ID"] = 28,
+						["unlocked"] = false,
+						["icon"] = 2967102,
+						["rank"] = 0,
+					},
+				},
+				["Class"] = "ROGUE",
 			},
 			["Default.Sylvanas.Mechaboost"] = {
 				["lastUpdate"] = 1602507003,
@@ -471,33 +481,258 @@ DataStore_TalentsDB = {
 						["valid"] = true,
 						["name"] = "Breath of the Dying",
 						["ID"] = 35,
-						["icon"] = 3193844,
 						["unlocked"] = true,
+						["icon"] = 3193844,
 						["rank"] = 3,
 					},
 					["Worldvein Resonance"] = {
 						["valid"] = true,
 						["name"] = "Worldvein Resonance",
 						["ID"] = 4,
-						["icon"] = 1830317,
 						["unlocked"] = true,
+						["icon"] = 1830317,
 						["rank"] = 2,
 					},
 					["Spark of Inspiration"] = {
 						["valid"] = true,
 						["name"] = "Spark of Inspiration",
 						["ID"] = 36,
-						["icon"] = 3193843,
 						["unlocked"] = true,
+						["icon"] = 3193843,
 						["rank"] = 2,
 					},
 					["Conflict and Strife"] = {
 						["valid"] = true,
 						["name"] = "Conflict and Strife",
 						["ID"] = 32,
-						["icon"] = 3015742,
 						["unlocked"] = true,
+						["icon"] = 3015742,
 						["rank"] = 3,
+					},
+					["Nullification Dynamo"] = {
+						["valid"] = false,
+						["name"] = "Nullification Dynamo",
+						["ID"] = 13,
+						["unlocked"] = false,
+						["icon"] = 3015741,
+						["rank"] = 0,
+					},
+					["Vision of Perfection"] = {
+						["valid"] = true,
+						["name"] = "Vision of Perfection",
+						["ID"] = 22,
+						["unlocked"] = true,
+						["icon"] = 3015743,
+						["rank"] = 3,
+					},
+					["Blood of the Enemy"] = {
+						["valid"] = true,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["unlocked"] = false,
+						["icon"] = 2032580,
+						["rank"] = 0,
+					},
+					["Essence of the Focusing Iris"] = {
+						["valid"] = true,
+						["name"] = "Essence of the Focusing Iris",
+						["ID"] = 5,
+						["unlocked"] = true,
+						["icon"] = 2967111,
+						["rank"] = 4,
+					},
+					["Sphere of Suppression"] = {
+						["valid"] = false,
+						["name"] = "Sphere of Suppression",
+						["ID"] = 3,
+						["unlocked"] = false,
+						["icon"] = 2065602,
+						["rank"] = 0,
+					},
+					["The Unbound Force"] = {
+						["valid"] = true,
+						["name"] = "The Unbound Force",
+						["ID"] = 28,
+						["unlocked"] = true,
+						["icon"] = 2967102,
+						["rank"] = 1,
+					},
+					["Purification Protocol"] = {
+						["valid"] = true,
+						["name"] = "Purification Protocol",
+						["ID"] = 6,
+						["unlocked"] = true,
+						["icon"] = 2967103,
+						["rank"] = 3,
+					},
+					["The Crucible of Flame"] = {
+						["valid"] = true,
+						["name"] = "The Crucible of Flame",
+						["ID"] = 12,
+						["unlocked"] = true,
+						["icon"] = 3015740,
+						["rank"] = 1,
+					},
+					["Ripple in Space"] = {
+						["valid"] = true,
+						["name"] = "Ripple in Space",
+						["ID"] = 15,
+						["unlocked"] = false,
+						["icon"] = 2967109,
+						["rank"] = 0,
+					},
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["unlocked"] = false,
+						["icon"] = 2967104,
+						["rank"] = 0,
+					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["unlocked"] = true,
+						["icon"] = 3193845,
+						["rank"] = 2,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = true,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["unlocked"] = true,
+						["icon"] = 2967113,
+						["rank"] = 3,
+					},
+					["Touch of the Everlasting"] = {
+						["valid"] = false,
+						["name"] = "Touch of the Everlasting",
+						["ID"] = 33,
+						["unlocked"] = true,
+						["icon"] = 3193847,
+						["rank"] = 2,
+					},
+					["Strength of the Warden"] = {
+						["valid"] = false,
+						["name"] = "Strength of the Warden",
+						["ID"] = 34,
+						["unlocked"] = true,
+						["icon"] = 3193846,
+						["rank"] = 2,
+					},
+					["Anima of Life and Death"] = {
+						["valid"] = false,
+						["name"] = "Anima of Life and Death",
+						["ID"] = 7,
+						["unlocked"] = true,
+						["icon"] = 2967105,
+						["rank"] = 3,
+					},
+					["Azeroth's Undying Gift"] = {
+						["valid"] = false,
+						["name"] = "Azeroth's Undying Gift",
+						["ID"] = 2,
+						["unlocked"] = false,
+						["icon"] = 2967107,
+						["rank"] = 0,
+					},
+					["Aegis of the Deep"] = {
+						["valid"] = false,
+						["name"] = "Aegis of the Deep",
+						["ID"] = 25,
+						["unlocked"] = true,
+						["icon"] = 2967110,
+						["rank"] = 1,
+					},
+				},
+				["Class"] = "DEMONHUNTER",
+			},
+			["Default.Defias Brotherhood.Mechaboost"] = {
+				["lastUpdate"] = 1594773075,
+				["Specializations"] = {
+					0, -- [1]
+				},
+				["Class"] = "PRIEST",
+			},
+			["Default.Frostmane.Rykahpriest"] = {
+				["lastUpdate"] = 1604970941,
+				["Specializations"] = {
+					2, -- [1]
+					[3] = 54,
+				},
+				["Class"] = "PRIEST",
+			},
+			["Default.Frostmane.Advboi"] = {
+				["lastUpdate"] = 1602628683,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "MONK",
+			},
+			["Default.Frostmane.Rykahbolt"] = {
+				["lastUpdate"] = 1604102504,
+				["Specializations"] = {
+					5801, -- [1]
+					1703, -- [2]
+					2789, -- [3]
+				},
+				["Class"] = "WARLOCK",
+			},
+			["Default.Frostmane.Rykahpow"] = {
+				["lastUpdate"] = 1599917000,
+				["Specializations"] = {
+					13989, -- [1]
+					[3] = 0,
+				},
+				["Class"] = "WARRIOR",
+			},
+			["Default.Frostmane.Rykahpoo"] = {
+				["lastUpdate"] = 1604172054,
+				["Specializations"] = {
+					6745, -- [1]
+					[4] = 7801,
+				},
+				["AzeriteEssences"] = {
+					["Breath of the Dying"] = {
+						["valid"] = true,
+						["name"] = "Breath of the Dying",
+						["ID"] = 35,
+						["icon"] = 3193844,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["The Well of Existence"] = {
+						["valid"] = false,
+						["name"] = "The Well of Existence",
+						["ID"] = 19,
+						["icon"] = 516796,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Spark of Inspiration"] = {
+						["valid"] = true,
+						["name"] = "Spark of Inspiration",
+						["ID"] = 36,
+						["icon"] = 3193843,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Life-Binder's Invocation"] = {
+						["valid"] = false,
+						["name"] = "Life-Binder's Invocation",
+						["ID"] = 20,
+						["icon"] = 2967106,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Conflict and Strife"] = {
+						["valid"] = true,
+						["name"] = "Conflict and Strife",
+						["ID"] = 32,
+						["icon"] = 3015742,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["Nullification Dynamo"] = {
 						["valid"] = false,
@@ -512,14 +747,14 @@ DataStore_TalentsDB = {
 						["name"] = "Vision of Perfection",
 						["ID"] = 22,
 						["icon"] = 3015743,
-						["unlocked"] = true,
-						["rank"] = 3,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
-					["Blood of the Enemy"] = {
-						["valid"] = true,
-						["name"] = "Blood of the Enemy",
-						["ID"] = 23,
-						["icon"] = 2032580,
+					["The Ever-Rising Tide"] = {
+						["valid"] = false,
+						["name"] = "The Ever-Rising Tide",
+						["ID"] = 17,
+						["icon"] = 2967108,
 						["unlocked"] = false,
 						["rank"] = 0,
 					},
@@ -528,8 +763,16 @@ DataStore_TalentsDB = {
 						["name"] = "Essence of the Focusing Iris",
 						["ID"] = 5,
 						["icon"] = 2967111,
-						["unlocked"] = true,
-						["rank"] = 4,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Spirit of Preservation"] = {
+						["valid"] = false,
+						["name"] = "Spirit of Preservation",
+						["ID"] = 24,
+						["icon"] = 2967101,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["Sphere of Suppression"] = {
 						["valid"] = false,
@@ -544,30 +787,102 @@ DataStore_TalentsDB = {
 						["name"] = "The Unbound Force",
 						["ID"] = 28,
 						["icon"] = 2967102,
-						["unlocked"] = true,
-						["rank"] = 1,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["Purification Protocol"] = {
 						["valid"] = true,
 						["name"] = "Purification Protocol",
 						["ID"] = 6,
 						["icon"] = 2967103,
-						["unlocked"] = true,
-						["rank"] = 3,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Strength of the Warden"] = {
+						["valid"] = false,
+						["name"] = "Strength of the Warden",
+						["ID"] = 34,
+						["icon"] = 3193846,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["The Crucible of Flame"] = {
 						["valid"] = true,
 						["name"] = "The Crucible of Flame",
 						["ID"] = 12,
 						["icon"] = 3015740,
-						["unlocked"] = true,
-						["rank"] = 1,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
 						["ID"] = 15,
 						["icon"] = 2967109,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["icon"] = 3193845,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Anima of Life and Death"] = {
+						["valid"] = false,
+						["name"] = "Anima of Life and Death",
+						["ID"] = 7,
+						["icon"] = 2967105,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Worldvein Resonance"] = {
+						["valid"] = true,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
+						["icon"] = 1830317,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Artifice of Time"] = {
+						["valid"] = false,
+						["name"] = "Artifice of Time",
+						["ID"] = 18,
+						["icon"] = 2967112,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Vitality Conduit"] = {
+						["valid"] = false,
+						["name"] = "Vitality Conduit",
+						["ID"] = 21,
+						["icon"] = 2967100,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Unwavering Ward"] = {
+						["valid"] = false,
+						["name"] = "Unwavering Ward",
+						["ID"] = 16,
+						["icon"] = 3193842,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = true,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["icon"] = 2967113,
+						["unlocked"] = false,
+						["rank"] = 0,
+					},
+					["Touch of the Everlasting"] = {
+						["valid"] = false,
+						["name"] = "Touch of the Everlasting",
+						["ID"] = 33,
+						["icon"] = 3193847,
 						["unlocked"] = false,
 						["rank"] = 0,
 					},
@@ -579,45 +894,13 @@ DataStore_TalentsDB = {
 						["unlocked"] = false,
 						["rank"] = 0,
 					},
-					["The Formless Void"] = {
+					["Blood of the Enemy"] = {
 						["valid"] = true,
-						["name"] = "The Formless Void",
-						["ID"] = 37,
-						["icon"] = 3193845,
-						["unlocked"] = true,
-						["rank"] = 2,
-					},
-					["Condensed Life-Force"] = {
-						["valid"] = true,
-						["name"] = "Condensed Life-Force",
-						["ID"] = 14,
-						["icon"] = 2967113,
-						["unlocked"] = true,
-						["rank"] = 3,
-					},
-					["Touch of the Everlasting"] = {
-						["valid"] = false,
-						["name"] = "Touch of the Everlasting",
-						["ID"] = 33,
-						["icon"] = 3193847,
-						["unlocked"] = true,
-						["rank"] = 2,
-					},
-					["Strength of the Warden"] = {
-						["valid"] = false,
-						["name"] = "Strength of the Warden",
-						["ID"] = 34,
-						["icon"] = 3193846,
-						["unlocked"] = true,
-						["rank"] = 2,
-					},
-					["Anima of Life and Death"] = {
-						["valid"] = false,
-						["name"] = "Anima of Life and Death",
-						["ID"] = 7,
-						["icon"] = 2967105,
-						["unlocked"] = true,
-						["rank"] = 3,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["icon"] = 2032580,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 					["Azeroth's Undying Gift"] = {
 						["valid"] = false,
@@ -632,53 +915,47 @@ DataStore_TalentsDB = {
 						["name"] = "Aegis of the Deep",
 						["ID"] = 25,
 						["icon"] = 2967110,
-						["unlocked"] = true,
-						["rank"] = 1,
+						["unlocked"] = false,
+						["rank"] = 0,
 					},
 				},
-				["Class"] = "DEMONHUNTER",
+				["Class"] = "DRUID",
 			},
-			["Default.Defias Brotherhood.Mechaboost"] = {
-				["lastUpdate"] = 1594773075,
+			["Default.Frostmane.Rykahpala"] = {
+				["lastUpdate"] = 1603840530,
 				["Specializations"] = {
-					0, -- [1]
+					1, -- [1]
+					3, -- [2]
 				},
-				["Class"] = "PRIEST",
+				["Class"] = "PALADIN",
 			},
-			["Default.Frostmane.Rykahpriest"] = {
-				["lastUpdate"] = 1603923281,
+			["Default.Turalyon.Rykahboost"] = {
+				["lastUpdate"] = 1602627171,
 				["Specializations"] = {
-					2, -- [1]
-					[3] = 2,
+					[3] = 0,
 				},
-				["Class"] = "PRIEST",
+				["Class"] = "MAGE",
 			},
-			["Default.Frostmane.Advboi"] = {
-				["lastUpdate"] = 1602628683,
+			["Default.Aggramar.Rykahboost"] = {
+				["lastUpdate"] = 1602626119,
 				["Specializations"] = {
 					[3] = 0,
 				},
 				["Class"] = "MONK",
 			},
-			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1602631033,
+			["Default.Frostmane.Rykahpoa"] = {
+				["lastUpdate"] = 1601932135,
 				["Specializations"] = {
-					1, -- [1]
+					9641, -- [1]
+					9894, -- [2]
+					6885, -- [3]
 				},
 				["Class"] = "WARLOCK",
 			},
-			["Default.Frostmane.Rykahpow"] = {
-				["lastUpdate"] = 1599917000,
-				["Specializations"] = {
-					13989, -- [1]
-					[3] = 0,
-				},
-				["Class"] = "WARRIOR",
-			},
 			["Default.Frostmane.Rÿkah"] = {
-				["lastUpdate"] = 1604099522,
+				["lastUpdate"] = 1604786423,
 				["Specializations"] = {
-					12121, -- [1]
+					15721, -- [1]
 					[3] = 5742,
 				},
 				["AzeriteEssences"] = {
@@ -846,284 +1123,17 @@ DataStore_TalentsDB = {
 						["valid"] = true,
 						["name"] = "Aegis of the Deep",
 						["ID"] = 25,
-						["unlocked"] = false,
+						["unlocked"] = true,
 						["icon"] = 2967110,
-						["rank"] = 0,
+						["rank"] = 3,
 					},
 				},
 				["Class"] = "DEATHKNIGHT",
 			},
-			["Default.Frostmane.Rykahpoa"] = {
-				["lastUpdate"] = 1601932135,
-				["Specializations"] = {
-					9641, -- [1]
-					9894, -- [2]
-					6885, -- [3]
-				},
-				["Class"] = "WARLOCK",
-			},
-			["Default.Frostmane.Rykahpala"] = {
-				["lastUpdate"] = 1603840530,
+			["Default.Frostmane.Bankypo"] = {
+				["lastUpdate"] = 1602631033,
 				["Specializations"] = {
 					1, -- [1]
-					3, -- [2]
-				},
-				["Class"] = "PALADIN",
-			},
-			["Default.Aggramar.Rykahboost"] = {
-				["lastUpdate"] = 1602626119,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "MONK",
-			},
-			["Default.Turalyon.Rykahboost"] = {
-				["lastUpdate"] = 1602627171,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "MAGE",
-			},
-			["Default.Frostmane.Rykahpoo"] = {
-				["lastUpdate"] = 1604106271,
-				["Specializations"] = {
-					6745, -- [1]
-					[4] = 7801,
-				},
-				["AzeriteEssences"] = {
-					["Breath of the Dying"] = {
-						["valid"] = true,
-						["name"] = "Breath of the Dying",
-						["ID"] = 35,
-						["unlocked"] = false,
-						["icon"] = 3193844,
-						["rank"] = 0,
-					},
-					["The Well of Existence"] = {
-						["valid"] = false,
-						["name"] = "The Well of Existence",
-						["ID"] = 19,
-						["unlocked"] = false,
-						["icon"] = 516796,
-						["rank"] = 0,
-					},
-					["Spark of Inspiration"] = {
-						["valid"] = true,
-						["name"] = "Spark of Inspiration",
-						["ID"] = 36,
-						["unlocked"] = false,
-						["icon"] = 3193843,
-						["rank"] = 0,
-					},
-					["Life-Binder's Invocation"] = {
-						["valid"] = false,
-						["name"] = "Life-Binder's Invocation",
-						["ID"] = 20,
-						["unlocked"] = false,
-						["icon"] = 2967106,
-						["rank"] = 0,
-					},
-					["Conflict and Strife"] = {
-						["valid"] = true,
-						["name"] = "Conflict and Strife",
-						["ID"] = 32,
-						["unlocked"] = false,
-						["icon"] = 3015742,
-						["rank"] = 0,
-					},
-					["Nullification Dynamo"] = {
-						["valid"] = false,
-						["name"] = "Nullification Dynamo",
-						["ID"] = 13,
-						["unlocked"] = false,
-						["icon"] = 3015741,
-						["rank"] = 0,
-					},
-					["Vision of Perfection"] = {
-						["valid"] = true,
-						["name"] = "Vision of Perfection",
-						["ID"] = 22,
-						["unlocked"] = false,
-						["icon"] = 3015743,
-						["rank"] = 0,
-					},
-					["The Ever-Rising Tide"] = {
-						["valid"] = false,
-						["name"] = "The Ever-Rising Tide",
-						["ID"] = 17,
-						["unlocked"] = false,
-						["icon"] = 2967108,
-						["rank"] = 0,
-					},
-					["Essence of the Focusing Iris"] = {
-						["valid"] = true,
-						["name"] = "Essence of the Focusing Iris",
-						["ID"] = 5,
-						["unlocked"] = false,
-						["icon"] = 2967111,
-						["rank"] = 0,
-					},
-					["Spirit of Preservation"] = {
-						["valid"] = false,
-						["name"] = "Spirit of Preservation",
-						["ID"] = 24,
-						["unlocked"] = false,
-						["icon"] = 2967101,
-						["rank"] = 0,
-					},
-					["Sphere of Suppression"] = {
-						["valid"] = false,
-						["name"] = "Sphere of Suppression",
-						["ID"] = 3,
-						["unlocked"] = false,
-						["icon"] = 2065602,
-						["rank"] = 0,
-					},
-					["The Unbound Force"] = {
-						["valid"] = true,
-						["name"] = "The Unbound Force",
-						["ID"] = 28,
-						["unlocked"] = false,
-						["icon"] = 2967102,
-						["rank"] = 0,
-					},
-					["Purification Protocol"] = {
-						["valid"] = true,
-						["name"] = "Purification Protocol",
-						["ID"] = 6,
-						["unlocked"] = false,
-						["icon"] = 2967103,
-						["rank"] = 0,
-					},
-					["Strength of the Warden"] = {
-						["valid"] = false,
-						["name"] = "Strength of the Warden",
-						["ID"] = 34,
-						["unlocked"] = false,
-						["icon"] = 3193846,
-						["rank"] = 0,
-					},
-					["The Crucible of Flame"] = {
-						["valid"] = true,
-						["name"] = "The Crucible of Flame",
-						["ID"] = 12,
-						["unlocked"] = false,
-						["icon"] = 3015740,
-						["rank"] = 0,
-					},
-					["The Formless Void"] = {
-						["valid"] = true,
-						["name"] = "The Formless Void",
-						["ID"] = 37,
-						["unlocked"] = false,
-						["icon"] = 3193845,
-						["rank"] = 0,
-					},
-					["Ripple in Space"] = {
-						["valid"] = true,
-						["name"] = "Ripple in Space",
-						["ID"] = 15,
-						["unlocked"] = false,
-						["icon"] = 2967109,
-						["rank"] = 0,
-					},
-					["Anima of Life and Death"] = {
-						["valid"] = false,
-						["name"] = "Anima of Life and Death",
-						["ID"] = 7,
-						["unlocked"] = false,
-						["icon"] = 2967105,
-						["rank"] = 0,
-					},
-					["Blood of the Enemy"] = {
-						["valid"] = true,
-						["name"] = "Blood of the Enemy",
-						["ID"] = 23,
-						["unlocked"] = false,
-						["icon"] = 2032580,
-						["rank"] = 0,
-					},
-					["Memory of Lucid Dreams"] = {
-						["valid"] = true,
-						["name"] = "Memory of Lucid Dreams",
-						["ID"] = 27,
-						["unlocked"] = false,
-						["icon"] = 2967104,
-						["rank"] = 0,
-					},
-					["Condensed Life-Force"] = {
-						["valid"] = true,
-						["name"] = "Condensed Life-Force",
-						["ID"] = 14,
-						["unlocked"] = false,
-						["icon"] = 2967113,
-						["rank"] = 0,
-					},
-					["Unwavering Ward"] = {
-						["valid"] = false,
-						["name"] = "Unwavering Ward",
-						["ID"] = 16,
-						["unlocked"] = false,
-						["icon"] = 3193842,
-						["rank"] = 0,
-					},
-					["Vitality Conduit"] = {
-						["valid"] = false,
-						["name"] = "Vitality Conduit",
-						["ID"] = 21,
-						["unlocked"] = false,
-						["icon"] = 2967100,
-						["rank"] = 0,
-					},
-					["Touch of the Everlasting"] = {
-						["valid"] = false,
-						["name"] = "Touch of the Everlasting",
-						["ID"] = 33,
-						["unlocked"] = false,
-						["icon"] = 3193847,
-						["rank"] = 0,
-					},
-					["Artifice of Time"] = {
-						["valid"] = false,
-						["name"] = "Artifice of Time",
-						["ID"] = 18,
-						["unlocked"] = false,
-						["icon"] = 2967112,
-						["rank"] = 0,
-					},
-					["Worldvein Resonance"] = {
-						["valid"] = true,
-						["name"] = "Worldvein Resonance",
-						["ID"] = 4,
-						["unlocked"] = false,
-						["icon"] = 1830317,
-						["rank"] = 0,
-					},
-					["Azeroth's Undying Gift"] = {
-						["valid"] = false,
-						["name"] = "Azeroth's Undying Gift",
-						["ID"] = 2,
-						["unlocked"] = false,
-						["icon"] = 2967107,
-						["rank"] = 0,
-					},
-					["Aegis of the Deep"] = {
-						["valid"] = false,
-						["name"] = "Aegis of the Deep",
-						["ID"] = 25,
-						["unlocked"] = false,
-						["icon"] = 2967110,
-						["rank"] = 0,
-					},
-				},
-				["Class"] = "DRUID",
-			},
-			["Default.Frostmane.Rykahbolt"] = {
-				["lastUpdate"] = 1604102504,
-				["Specializations"] = {
-					5801, -- [1]
-					1703, -- [2]
-					2789, -- [3]
 				},
 				["Class"] = "WARLOCK",
 			},
@@ -1142,7 +1152,7 @@ DataStore_TalentsDB = {
 				["Class"] = "SHAMAN",
 			},
 			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1604103189,
+				["lastUpdate"] = 1605132452,
 				["Specializations"] = {
 					7133, -- [1]
 					14329, -- [2]
@@ -1268,14 +1278,6 @@ DataStore_TalentsDB = {
 						["icon"] = 3015740,
 						["rank"] = 1,
 					},
-					["The Formless Void"] = {
-						["valid"] = true,
-						["name"] = "The Formless Void",
-						["ID"] = 37,
-						["unlocked"] = true,
-						["icon"] = 3193845,
-						["rank"] = 1,
-					},
 					["Ripple in Space"] = {
 						["valid"] = true,
 						["name"] = "Ripple in Space",
@@ -1283,6 +1285,14 @@ DataStore_TalentsDB = {
 						["unlocked"] = false,
 						["icon"] = 2967109,
 						["rank"] = 0,
+					},
+					["The Formless Void"] = {
+						["valid"] = true,
+						["name"] = "The Formless Void",
+						["ID"] = 37,
+						["unlocked"] = true,
+						["icon"] = 3193845,
+						["rank"] = 1,
 					},
 					["Anima of Life and Death"] = {
 						["valid"] = true,
@@ -1292,52 +1302,12 @@ DataStore_TalentsDB = {
 						["icon"] = 2967105,
 						["rank"] = 3,
 					},
-					["Blood of the Enemy"] = {
-						["valid"] = false,
-						["name"] = "Blood of the Enemy",
-						["ID"] = 23,
-						["unlocked"] = false,
-						["icon"] = 2032580,
-						["rank"] = 0,
-					},
-					["Memory of Lucid Dreams"] = {
+					["Worldvein Resonance"] = {
 						["valid"] = true,
-						["name"] = "Memory of Lucid Dreams",
-						["ID"] = 27,
+						["name"] = "Worldvein Resonance",
+						["ID"] = 4,
 						["unlocked"] = false,
-						["icon"] = 2967104,
-						["rank"] = 0,
-					},
-					["Condensed Life-Force"] = {
-						["valid"] = false,
-						["name"] = "Condensed Life-Force",
-						["ID"] = 14,
-						["unlocked"] = false,
-						["icon"] = 2967113,
-						["rank"] = 0,
-					},
-					["Unwavering Ward"] = {
-						["valid"] = false,
-						["name"] = "Unwavering Ward",
-						["ID"] = 16,
-						["unlocked"] = true,
-						["icon"] = 3193842,
-						["rank"] = 1,
-					},
-					["Vitality Conduit"] = {
-						["valid"] = false,
-						["name"] = "Vitality Conduit",
-						["ID"] = 21,
-						["unlocked"] = false,
-						["icon"] = 2967100,
-						["rank"] = 0,
-					},
-					["Touch of the Everlasting"] = {
-						["valid"] = true,
-						["name"] = "Touch of the Everlasting",
-						["ID"] = 33,
-						["unlocked"] = false,
-						["icon"] = 3193847,
+						["icon"] = 1830317,
 						["rank"] = 0,
 					},
 					["Artifice of Time"] = {
@@ -1348,12 +1318,52 @@ DataStore_TalentsDB = {
 						["icon"] = 2967112,
 						["rank"] = 0,
 					},
-					["Worldvein Resonance"] = {
-						["valid"] = true,
-						["name"] = "Worldvein Resonance",
-						["ID"] = 4,
+					["Vitality Conduit"] = {
+						["valid"] = false,
+						["name"] = "Vitality Conduit",
+						["ID"] = 21,
 						["unlocked"] = false,
-						["icon"] = 1830317,
+						["icon"] = 2967100,
+						["rank"] = 0,
+					},
+					["Unwavering Ward"] = {
+						["valid"] = false,
+						["name"] = "Unwavering Ward",
+						["ID"] = 16,
+						["unlocked"] = true,
+						["icon"] = 3193842,
+						["rank"] = 1,
+					},
+					["Condensed Life-Force"] = {
+						["valid"] = false,
+						["name"] = "Condensed Life-Force",
+						["ID"] = 14,
+						["unlocked"] = false,
+						["icon"] = 2967113,
+						["rank"] = 0,
+					},
+					["Touch of the Everlasting"] = {
+						["valid"] = true,
+						["name"] = "Touch of the Everlasting",
+						["ID"] = 33,
+						["unlocked"] = false,
+						["icon"] = 3193847,
+						["rank"] = 0,
+					},
+					["Memory of Lucid Dreams"] = {
+						["valid"] = true,
+						["name"] = "Memory of Lucid Dreams",
+						["ID"] = 27,
+						["unlocked"] = false,
+						["icon"] = 2967104,
+						["rank"] = 0,
+					},
+					["Blood of the Enemy"] = {
+						["valid"] = false,
+						["name"] = "Blood of the Enemy",
+						["ID"] = 23,
+						["unlocked"] = false,
+						["icon"] = 2032580,
 						["rank"] = 0,
 					},
 					["Azeroth's Undying Gift"] = {
@@ -1388,9 +1398,10 @@ DataStore_TalentsDB = {
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
-		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
 		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
 		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
@@ -1398,26 +1409,26 @@ DataStore_TalentsRefDB = {
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
+		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
-		["Rykah - Frostmane"] = "Rykah - Frostmane",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
-		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
-		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
+		["Rykah - Frostmane"] = "Rykah - Frostmane",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 	},
 	["global"] = {
 		["HUNTER"] = {
@@ -1476,7 +1487,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [2]
 			},
-			["Version"] = 36372,
+			["Version"] = 36577,
 		},
 		["WARRIOR"] = {
 			["Locale"] = "enUS",
@@ -1499,42 +1510,53 @@ DataStore_TalentsRefDB = {
 						22392, -- [13]
 						22391, -- [14]
 						22362, -- [15]
-						22394, -- [16]
-						22397, -- [17]
-						22399, -- [18]
-						21204, -- [19]
-						22407, -- [20]
-						21667, -- [21]
 					},
 				}, -- [1]
-				[3] = {
+				{
+					["id"] = 72,
+					["talents"] = {
+						22632, -- [1]
+						22633, -- [2]
+						22491, -- [3]
+						19676, -- [4]
+						22625, -- [5]
+						23093, -- [6]
+						22379, -- [7]
+						22381, -- [8]
+						23372, -- [9]
+						23097, -- [10]
+						22627, -- [11]
+						22382, -- [12]
+						22383, -- [13]
+						22393, -- [14]
+						19140, -- [15]
+						22396, -- [16]
+						22398, -- [17]
+						22400, -- [18]
+						22405, -- [19]
+						22402, -- [20]
+						16037, -- [21]
+					},
+				}, -- [2]
+				{
 					["id"] = 73,
 					["talents"] = {
 						15760, -- [1]
 						15759, -- [2]
 						15774, -- [3]
-						22373, -- [4]
+						19676, -- [4]
 						22629, -- [5]
 						22409, -- [6]
 						22378, -- [7]
 						22626, -- [8]
 						23260, -- [9]
 						23096, -- [10]
-						23261, -- [11]
+						22627, -- [11]
 						22488, -- [12]
-						22384, -- [13]
-						22631, -- [14]
-						22800, -- [15]
-						22395, -- [16]
-						22544, -- [17]
-						22401, -- [18]
-						21204, -- [19]
-						22406, -- [20]
-						23099, -- [21]
 					},
-				},
+				}, -- [3]
 			},
-			["Version"] = 35662,
+			["Version"] = 36492,
 		},
 		["ROGUE"] = {
 			["Locale"] = "enUS",
@@ -1592,7 +1614,7 @@ DataStore_TalentsRefDB = {
 					},
 				},
 			},
-			["Version"] = 36372,
+			["Version"] = 36577,
 		},
 		["MAGE"] = {
 			["Locale"] = "enUS",
@@ -1676,7 +1698,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 36372,
+			["Version"] = 36577,
 		},
 		["PRIEST"] = {
 			["Locale"] = "enUS",
@@ -1695,61 +1717,38 @@ DataStore_TalentsRefDB = {
 						22328, -- [1]
 						22136, -- [2]
 						22314, -- [3]
+						22315, -- [4]
+						23374, -- [5]
+						21976, -- [6]
+						23125, -- [7]
+						23126, -- [8]
+						23127, -- [9]
 					},
 				},
 			},
-			["Version"] = 36372,
+			["Version"] = 36492,
 		},
-		["SHAMAN"] = {
+		["PALADIN"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
-					["id"] = 262,
+					["id"] = 65,
 					["talents"] = {
-						22356, -- [1]
-						22357, -- [2]
-						22358, -- [3]
-						23108, -- [4]
-						22139, -- [5]
-						23190, -- [6]
-						23162, -- [7]
-						23163, -- [8]
-						23164, -- [9]
-						19271, -- [10]
-						19272, -- [11]
-						19273, -- [12]
+						17565, -- [1]
+						17567, -- [2]
+						17569, -- [3]
 					},
 				}, -- [1]
 				{
-					["id"] = 263,
+					["id"] = 66,
 					["talents"] = {
-						22354, -- [1]
-						22355, -- [2]
-						22353, -- [3]
-						22636, -- [4]
-						22150, -- [5]
-						23109, -- [6]
-						23165, -- [7]
-						19260, -- [8]
-						23166, -- [9]
-						23089, -- [10]
-						23090, -- [11]
-						22171, -- [12]
+						22428, -- [1]
+						22558, -- [2]
+						23469, -- [3]
 					},
 				}, -- [2]
-				{
-					["id"] = 264,
-					["talents"] = {
-						19262, -- [1]
-						19263, -- [2]
-						19264, -- [3]
-						19259, -- [4]
-						23461, -- [5]
-						21963, -- [6]
-					},
-				}, -- [3]
 			},
-			["Version"] = 36372,
+			["Version"] = 36322,
 		},
 		["WARLOCK"] = {
 			["Locale"] = "enUS",
@@ -1946,7 +1945,7 @@ DataStore_TalentsRefDB = {
 					},
 				},
 			},
-			["Version"] = 36372,
+			["Version"] = 36492,
 		},
 		["DRUID"] = {
 			["Locale"] = "enUS",
@@ -2097,29 +2096,58 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 36372,
+			["Version"] = 36577,
 		},
-		["PALADIN"] = {
+		["SHAMAN"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
-					["id"] = 65,
+					["id"] = 262,
 					["talents"] = {
-						17565, -- [1]
-						17567, -- [2]
-						17569, -- [3]
+						22356, -- [1]
+						22357, -- [2]
+						22358, -- [3]
+						23108, -- [4]
+						22139, -- [5]
+						23190, -- [6]
+						23162, -- [7]
+						23163, -- [8]
+						23164, -- [9]
+						19271, -- [10]
+						19272, -- [11]
+						19273, -- [12]
 					},
 				}, -- [1]
 				{
-					["id"] = 66,
+					["id"] = 263,
 					["talents"] = {
-						22428, -- [1]
-						22558, -- [2]
-						23469, -- [3]
+						22354, -- [1]
+						22355, -- [2]
+						22353, -- [3]
+						22636, -- [4]
+						22150, -- [5]
+						23109, -- [6]
+						23165, -- [7]
+						19260, -- [8]
+						23166, -- [9]
+						23089, -- [10]
+						23090, -- [11]
+						22171, -- [12]
 					},
 				}, -- [2]
+				{
+					["id"] = 264,
+					["talents"] = {
+						19262, -- [1]
+						19263, -- [2]
+						19264, -- [3]
+						19259, -- [4]
+						23461, -- [5]
+						21963, -- [6]
+					},
+				}, -- [3]
 			},
-			["Version"] = 36322,
+			["Version"] = 36372,
 		},
 	},
 }

@@ -1,50 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p at least the way it is now", -- [1]
-		"/p mm sounds cool but havent played it since tbc", -- [2]
-		"/p yeah true", -- [3]
-		"/p and then survival is gonna be shit again", -- [4]
-		"/p alright cya mate", -- [5]
-		"/tsm", -- [6]
-		"/iat", -- [7]
-		"/p |cffffff00|Hachievement:9023:Player-1303-0B5ABC7F:0:0:0:-1:0:0:0:0|h[...They All Fall Down]|h|r|cffffff00|Hachievement:9552:Player-1303-0B5ABC7F:0:0:0:-1:0:0:0:0|h[No Tag-backs!]|h|r", -- [8]
-		"/p |cff0070dd|Hitem:127859::::::::120:102::::::|h[Dazzling Rod]|h|r", -- [9]
-		"/s fucking paladins", -- [10]
-		"/m", -- [11]
-		"/reload", -- [12]
-		"/wave", -- [13]
-		"/s hi", -- [14]
-		"/s are you new to the game?", -- [15]
-		"/s ah well welcome back", -- [16]
-		"/s hope you have fun", -- [17]
-		"/farewell", -- [18]
-		"/la", -- [19]
-		"/played", -- [20]
+		"/p and then survival is gonna be shit again", -- [1]
+		"/p alright cya mate", -- [2]
+		"/iat", -- [3]
+		"/p |cffffff00|Hachievement:9023:Player-1303-0B5ABC7F:0:0:0:-1:0:0:0:0|h[...They All Fall Down]|h|r|cffffff00|Hachievement:9552:Player-1303-0B5ABC7F:0:0:0:-1:0:0:0:0|h[No Tag-backs!]|h|r", -- [4]
+		"/p |cff0070dd|Hitem:127859::::::::120:102::::::|h[Dazzling Rod]|h|r", -- [5]
+		"/s fucking paladins", -- [6]
+		"/m", -- [7]
+		"/reload", -- [8]
+		"/wave", -- [9]
+		"/s hi", -- [10]
+		"/s are you new to the game?", -- [11]
+		"/s ah well welcome back", -- [12]
+		"/s hope you have fun", -- [13]
+		"/farewell", -- [14]
+		"/played", -- [15]
+		"/la", -- [16]
+		"/tmw", -- [17]
+		"/tsm", -- [18]
+		"/tsm craftlist", -- [19]
+		"/tsm tasklist", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"any1 for Ivus?", -- [1]
-			"Elmóndo-Outland", -- [2]
-			"", -- [3]
-			"1. General - Darkshore", -- [4]
-			"Elmóndo-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Darkshore", -- [9]
-			0, -- [10]
-			2602, -- [11]
-			"Player-1301-05318E6E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Elmóndo-Outland|r",
-			[51] = 1599951024,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
 		{
 			"if I didnt main mage, i'd main hunter or lock", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1599951025,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [2]
+		}, -- [1]
 		{
 			"I just dont play them as alts cause they're dps only ", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1599951049,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [3]
+		}, -- [2]
 		{
 			"I don't play any range alts really", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1599951062,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [4]
+		}, -- [3]
 		{
 			"giving the amount of time i have spent on my hunter recently its enjoyble and fun", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951065,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
+		}, -- [4]
 		{
 			"yeah its fun being able to move all the time", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1599951084,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [6]
+		}, -- [5]
 		{
 			"ah still pull out the numbers ", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951101,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [7]
+		}, -- [6]
 		{
 			"and*", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951104,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [8]
+		}, -- [7]
 		{
 			"I find bm really dull rotation wise tho", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1599951106,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [9]
+		}, -- [8]
 		{
 			"at least the way it is now", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1599951115,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [10]
+		}, -- [9]
 		{
 			"mm sounds cool but havent played it since tbc", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1599951135,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [11]
+		}, -- [10]
 		{
 			"mm is looking decent my lacks the movement compared to bm", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951162,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [12]
+		}, -- [11]
 		{
 			"but lacks*", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951174,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [13]
+		}, -- [12]
 		{
 			"yeah true", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1599951180,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [14]
+		}, -- [13]
 		{
 			"and then survival is gonna be shit again", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1599951187,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [15]
+		}, -- [14]
 		{
 			"as some of the big dps you need to stand and cast off", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951189,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [16]
+		}, -- [15]
 		{
 			"survival got some upgrades but not watched anything on it", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951212,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [17]
+		}, -- [16]
 		{
 			"brb making a sandwich quick :p", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951271,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [18]
+		}, -- [17]
 		{
 			"bk", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951509,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [19]
+		}, -- [18]
 		{
 			"brb tard time for a 15-16 with some other mates :D", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951665,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
+		}, -- [19]
 		{
 			"have fun dude", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951668,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [21]
+		}, -- [20]
 		{
 			"alright cya mate", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1599951674,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [22]
+		}, -- [21]
 		{
 			"cya laters", -- [1]
 			"Narulya-Frostmane", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Narulya|r",
 			[51] = 1599951679,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [23]
+		}, -- [22]
 		{
 			"|cffffff00Darkfollow's Spire is under attack!|r", -- [1]
 			"", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1601674325,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [23]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601674600,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [24]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601674614,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [25]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601674629,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [26]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601674648,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [27]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601674668,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [28]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601674682,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [29]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601674696,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [30]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601674710,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [31]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601674724,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [32]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601674738,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [33]
 		{
 			"Dark Rush on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601675074,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [34]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601675567,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [35]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601675594,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [36]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601675741,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [37]
 		{
 			"Dark Rush on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601675961,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [38]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601676351,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [39]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601676378,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [40]
 		{
 			"Dark Rush on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601676572,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [41]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:153:Player-1303-0B664210:1:10:3:20:4294967295:4294967295:4294967295:4294967295|h[The Old Gnome and the Sea]|h|r!", -- [1]
 			"Zazaria-Frostmane", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Zazaria|r",
 			[51] = 1601677781,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [43]
+		}, -- [42]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601678081,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [43]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601678108,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [44]
 		{
 			"Dark Rush on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601678295,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [45]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601678481,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [46]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601678508,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [47]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601679097,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [48]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601679124,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [49]
 		{
 			"Dark Rush on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601679337,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [50]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601808814,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [51]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601809040,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [52]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601809243,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [53]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601809270,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [54]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601809492,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [55]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601809519,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [56]
 		{
 			"Dark Rush on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601809683,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [57]
 		{
 			"|cffffff00Darkfollow's Spire is under attack!|r", -- [1]
 			"", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1601809823,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [58]
 		{
 			"Soul Echoes on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601809883,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [59]
 		{
 			"Dark Rush on Rykahpoo", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601810069,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [60]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10709:Player-1303-0B5ABC7F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[You Used to Scrawl Me In Your Fel Tome]|h|r!", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601810241,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [62]
+		}, -- [61]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11163:Player-1303-0B5ABC7F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Glory of the Legion Hero]|h|r!", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601810241,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [63]
+		}, -- [62]
 		{
 			"WTS Ny’alotha/ Mythic/Heroic, Glory of the Ny'alotha Raider,  Nyalotha Allseer mount, M 10+- 23+ in time; Glacial Tidestorm", -- [1]
 			"Zaverko-Frostmane", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeZaverko|r",
 			[51] = 1601810342,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [63]
 		{
 			"We are selling N'Zoth Heroic Now! Receive|cffffff00|Hachievement:14068:Player-1303-0B6964DA:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r for 50k, we have runs every 20 mins |||| Jaina Mount 400k! M+15 105k|| /w for more info.", -- [1]
 			"Lanäïi-Frostmane", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLanäïi|r",
 			[51] = 1601810411,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [64]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9007:Player-1303-0B5ABC7F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[No Ticket]|h|r!", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601811070,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
+		}, -- [65]
 		{
 			"WTS Freehold dungeon leveling boost (110-120). WTS Horrific Visions boost. Newly DISCOUNTED prices.", -- [1]
 			"Immortale-Frostmane", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Immortale|r",
 			[51] = 1601811174,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [66]
 		{
 			"We are selling N'Zoth Heroic Now! Receive|cffffff00|Hachievement:14068:Player-1303-0B6964DA:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: N'Zoth the Corruptor]|h|r for 50k, we have runs every 20 mins |||| Jaina Mount 400k! M+15 105k|| /w for more info.", -- [1]
 			"Lanäïi-Frostmane", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLanäïi|r",
 			[51] = 1601811181,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [67]
 		{
 			"[IAT] |cffffff00|Hachievement:9034:Player-1303-0B5ABC7F:0:0:0:-1:0:0:0:0|h[Magnify... Enhance]|h|r FAILED!", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601814538,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [69]
+		}, -- [68]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9034:Player-1303-0B5ABC7F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Magnify... Enhance]|h|r!", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601814576,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [69]
 		{
 			"|cffffff00|Hachievement:9396:Player-1303-0B693972:0:0:0:-1:6852456:0:0:0|h[Glory of the Draenor Hero]|h|r", -- [1]
 			"Slyxhamstrez-Frostmane", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Slyxhamstrez|r",
 			[51] = 1601814629,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [70]
 		{
 			"|cffffff00|Hachievement:9396:Player-1303-0B693972:0:0:0:-1:6852456:0:0:0|h[Glory of the Draenor Hero]|h|r", -- [1]
 			"Slyxhamstrez-Frostmane", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Slyxhamstrez|r",
 			[51] = 1601814634,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [71]
 		{
 			"|cffffff00|Hachievement:9023:Player-1303-0B5ABC7F:0:0:0:-1:0:0:0:0|h[...They All Fall Down]|h|r|cffffff00|Hachievement:9552:Player-1303-0B5ABC7F:0:0:0:-1:0:0:0:0|h[No Tag-backs!]|h|r", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601815014,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [73]
+		}, -- [72]
 		{
 			"WTS Ny’alotha/ Mythic/Heroic, Glory of the Ny'alotha Raider,  Nyalotha Allseer mount, M 10+- 23+ in time; Glacial Tidestorm", -- [1]
 			"Zaverko-Frostmane", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeZaverko|r",
 			[51] = 1601820999,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [73]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9045:Player-1303-0B5ABC7F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Magnets, How Do They Work?]|h|r!", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601821209,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
+		}, -- [74]
 		{
 			"|cff0070dd|Hitem:127859::::::::120:102::::::|h[Dazzling Rod]|h|r", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601821886,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [76]
+		}, -- [75]
 		{
 			"|cff0070dd|Hitem:153126::::::::120:63::::::|h[Micro-Artillery Controller]|h|r", -- [1]
 			"Slyxhamstrez-Frostmane", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Slyxhamstrez|r",
 			[51] = 1601821954,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [77]
+		}, -- [76]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9058:Player-1303-0B5ABC7F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Leeeeeeeeeeeeeroy...?]|h|r!", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601822339,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [77]
 		{
 			"[IAT] |cffffff00|Hachievement:9025:Player-1303-0B693972:0:0:0:-1:0:0:0:0|h[Icky Ichors]|h|r 25 Corpse Skitterlings have been engaged. You can now pull boss and wait for Inhale", -- [1]
 			"Slyxhamstrez-Frostmane", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Slyxhamstrez|r",
 			[51] = 1601822922,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [79]
+		}, -- [78]
 		{
 			"[IAT] |cffffff00|Hachievement:9025:Player-1303-0B693972:0:0:0:-1:0:0:0:0|h[Icky Ichors]|h|r 49 /25 Corpse Skitterlings inhaled by the boss", -- [1]
 			"Slyxhamstrez-Frostmane", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Slyxhamstrez|r",
 			[51] = 1601823025,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [80]
+		}, -- [79]
 		{
 			"[IAT] |cffffff00|Hachievement:9025:Player-1303-0B693972:0:0:0:-1:0:0:0:0|h[Icky Ichors]|h|r Criteria has been met. Boss can now be killed!", -- [1]
 			"Slyxhamstrez-Frostmane", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Slyxhamstrez|r",
 			[51] = 1601823025,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [81]
+		}, -- [80]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9025:Player-1303-0B5ABC7F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Icky Ichors]|h|r!", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601823026,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [81]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9396:Player-1303-0B5ABC7F:1:10:4:20:4294967295:4294967295:4294967295:4294967295|h[Glory of the Draenor Hero]|h|r!", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601823026,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
+		}, -- [82]
 		{
 			"<Krakenboost> WTS < Carapace - 35k >, < N'zoth the Corruptor - 50k >, < Cara + N'zoth - 80k > Heroic kills, <Jaina mount - 430k>. Having Runs every 30 minutes. Accepting payment on all realms. Get your 470+ BiS Gear, Curve and Mount tonight. /w ", -- [1]
 			"Lighthookf-Frostmane", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLighthookf|r",
 			[51] = 1601823133,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [83]
 		{
 			"<ICECROWN> Heroic/Mythic Nyalotha raid || Mythic+ || Rated PvP || Mounts || Visions || Islands || Legacy content || Achievements  || FH Leveling - We offer all boosts for GOLD - Whisper for offers! <3", -- [1]
 			"Iccdejnaa-Frostmane", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIccdejnaa|r",
 			[51] = 1601930002,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [84]
 		{
 			"Any miner?", -- [1]
 			"Jibba-Frostmane", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Jibba|r",
 			[51] = 1601930561,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [85]
 		{
 			"fucking paladins", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1601930772,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [86]
 		{
 			"Focus on yourself, dont tell me what to do", -- [1]
 			"Slyxhmsterez-Frostmane", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Slyxhmsterez|r",
 			[51] = 1601930815,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [88]
+		}, -- [87]
 		{
 			"water break", -- [1]
 			"Slyxhmsterez-Frostmane", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Slyxhmsterez|r",
 			[51] = 1601930850,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [89]
+		}, -- [88]
 		{
 			"Tribe of Protagonists är en gammal Svensk guild där vi hjälper varandra. Vi söker nu härliga människor till shadowlands som kan acceptera wipe and smile. Vi har tidigare progressat hc och mythic.  gärna 25+ /w för mer info", -- [1]
 			"Elbanker-Frostmane", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaElbanker|r",
 			[51] = 1604102741,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [89]
 		{
 			"was expecting |cffff8000|Hitem:17182::::::::50:70:::1:3524::::|h[Sulfuras, Hand of Ragnaros]|h|r to glow more", -- [1]
 			"Ninjafish-GrimBatol", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ninjafish-GrimBatol|r",
 			[51] = 1604102964,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [90]
 		{
 			"the \"updated\" version does", -- [1]
 			"Halsin-Frostmane", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edHalsin|r",
 			[51] = 1604103011,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [91]
 		{
 			"hi", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1604105328,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [92]
 		{
 			"hi", -- [1]
 			"Zahra-Trollbane", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaZahra-Trollbane|r",
 			[51] = 1604105337,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [93]
 		{
 			"are you new to the game?", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1604105343,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [94]
 		{
 			"somewhat, just started playing again after a lot of years", -- [1]
 			"Zahra-Trollbane", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaZahra-Trollbane|r",
 			[51] = 1604105369,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [95]
 		{
 			"ah well welcome back", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1604105375,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [96]
 		{
 			"hope you have fun", -- [1]
 			"Rykahpoo-Frostmane", -- [2]
@@ -2178,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rykahpoo|r",
 			[51] = 1604105378,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [98]
+		}, -- [97]
 		{
 			"|cffffff00Stormwind Keep is under attack!|r", -- [1]
 			"", -- [2]
@@ -2200,6 +2178,29 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1604106301,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Hey dude, how are you doing?", -- [1]
+			"|Kq45|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			241, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edNapsterz|r",
+			[51] = 1604149305,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Napsterz",
 		}, -- [99]
 	},
 }

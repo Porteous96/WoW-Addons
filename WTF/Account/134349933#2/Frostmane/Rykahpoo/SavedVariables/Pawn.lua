@@ -32,9 +32,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:173444::::::::50:102::14:4:6412:6515:1470:4785::::|h[Waistguard of the Insatiable Maw]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 159202,
-			["Level"] = 56,
-			["Link"] = "|cff1eff00|Hitem:159202::::::::50:102:::2:4796:1684:1:9:49:::|h[Briarback Pants of the Peerless]|h|r",
+			["ID"] = 165444,
+			["Level"] = 60,
+			["Link"] = "|cffa335ee|Hitem:165444::::::::50:102::3:3:5124:1472:4786:1:28:733:::|h[Darkwood Sentinel's Breeches]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 173439,

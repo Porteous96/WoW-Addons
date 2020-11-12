@@ -2,9 +2,10 @@
 DataStore_AgendaDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
-		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
 		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
 		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
@@ -12,32 +13,32 @@ DataStore_AgendaDB = {
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
 		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
+		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
-		["Rykah - Frostmane"] = "Rykah - Frostmane",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
-		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
-		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
+		["Rykah - Frostmane"] = "Rykah - Frostmane",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 3,
-			["NextWeeklyReset"] = "2020-11-04",
+			["NextWeeklyReset"] = "2020-11-18",
 		},
 		["Characters"] = {
 			["Default.Frostmane.Rykahtwo"] = {
@@ -48,6 +49,26 @@ DataStore_AgendaDB = {
 			},
 			["Default.Frostmane.Rykah"] = {
 				["lastUpdate"] = 1599349888,
+			},
+			["Default.Frostmane.Rÿkah"] = {
+				["DungeonIDs"] = {
+					["The Nighthold Mythic|1033358440"] = "291570|1604786424|0|1|10|6",
+				},
+				["DungeonBosses"] = {
+					["The Nighthold Mythic|1033358440"] = {
+						["Trilliax"] = true,
+						["Krosus"] = false,
+						["High Botanist Tel'arn"] = true,
+						["Star Augur Etraeus"] = false,
+						["Spellblade Aluriel"] = true,
+						["Tichondrius"] = true,
+						["Skorpyron"] = true,
+						["Chronomatic Anomaly"] = true,
+						["Gul'dan"] = false,
+						["Grand Magistrix Elisande"] = false,
+					},
+				},
+				["lastUpdate"] = 1604786423,
 			},
 			["Default.Frostmane.Blissard"] = {
 				["lastUpdate"] = 1600977659,
@@ -60,60 +81,48 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1602626866,
 			},
-			["Default.Defias Brotherhood.Mechaboost"] = {
-				["lastUpdate"] = 1594773075,
+			["Default.Frostmane.Rykahhpo"] = {
+				["lastUpdate"] = 1605132545,
 			},
 			["Default.Frostmane.Rykahpo"] = {
 				["DungeonIDs"] = {
-					["The Nighthold Mythic|506095280"] = "378312|1604094883|0|1|10|2",
-					["Antorus, the Burning Throne Mythic|1031558237"] = "378312|1604094883|0|1|11|4",
+					["Ny'alotha, the Waking City Heroic|1034096013"] = "551236|1605131563|0|1|12|6",
 				},
 				["DungeonBosses"] = {
-					["The Nighthold Mythic|506095280"] = {
-						["Trilliax"] = false,
-						["Krosus"] = false,
-						["High Botanist Tel'arn"] = false,
-						["Star Augur Etraeus"] = false,
-						["Spellblade Aluriel"] = false,
-						["Tichondrius"] = false,
-						["Skorpyron"] = false,
-						["Chronomatic Anomaly"] = false,
-						["Gul'dan"] = true,
-						["Grand Magistrix Elisande"] = true,
-					},
-					["Antorus, the Burning Throne Mythic|1031558237"] = {
-						["Varimathras"] = false,
-						["The Defense of Eonar"] = false,
-						["Imonar the Soulhunter"] = false,
-						["Aggramar"] = true,
-						["Portal Keeper Hasabel"] = false,
-						["Garothi Worldbreaker"] = true,
-						["Felhounds of Sargeras"] = true,
-						["Antoran High Command"] = false,
-						["The Coven of Shivarra"] = false,
-						["Argus the Unmaker"] = true,
-						["Kin'garoth"] = false,
+					["Ny'alotha, the Waking City Heroic|1034096013"] = {
+						["Prophet Skitra"] = true,
+						["The Hivemind"] = true,
+						["Shad'har the Insatiable"] = false,
+						["Maut"] = true,
+						["N'Zoth the Corruptor"] = false,
+						["Vexiona"] = false,
+						["Drest'agath"] = false,
+						["Wrathion"] = true,
+						["Il'gynoth, Corruption Reborn"] = false,
+						["Carapace of N'Zoth"] = false,
+						["Ra-den the Despoiled"] = true,
+						["Dark Inquisitor Xanesh"] = true,
 					},
 				},
-				["lastUpdate"] = 1604094882,
+				["lastUpdate"] = 1605131561,
 			},
-			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1604098252,
+			["Default.Defias Brotherhood.Mechaboost"] = {
+				["lastUpdate"] = 1594773075,
 			},
-			["Default.Frostmane.Rykahshaman"] = {
-				["lastUpdate"] = 1603923248,
+			["Default.Frostmane.Rykahbolt"] = {
+				["lastUpdate"] = 1604102504,
 			},
 			["Default.Frostmane.Rykahwar"] = {
-				["lastUpdate"] = 1603840835,
+				["lastUpdate"] = 1604962912,
 			},
-			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1604109163,
+			["Default.Frostmane.Slywithapet"] = {
+				["lastUpdate"] = 1604152353,
 			},
 			["Default.Frostmane.Rykahdruid"] = {
 				["lastUpdate"] = 1604101076,
 			},
-			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1604106002,
+			["Default.Frostmane.Rykkahpo"] = {
+				["lastUpdate"] = 1605132586,
 			},
 			["Default.Sylvanas.Mechaboost"] = {
 				["lastUpdate"] = 1602507189,
@@ -121,44 +130,17 @@ DataStore_AgendaDB = {
 			["Default.Frostmane.Rykahpodh"] = {
 				["lastUpdate"] = 1604096616,
 			},
-			["Default.Frostmane.Rÿkah"] = {
-				["DungeonIDs"] = {
-					["The Nighthold Mythic|506074976"] = "373673|1604099522|0|1|10|10",
-					["The Emerald Nightmare Mythic|1031539984"] = "373673|1604099522|0|1|7|7",
-				},
-				["DungeonBosses"] = {
-					["The Nighthold Mythic|506074976"] = {
-						["Trilliax"] = true,
-						["Krosus"] = true,
-						["High Botanist Tel'arn"] = true,
-						["Star Augur Etraeus"] = true,
-						["Spellblade Aluriel"] = true,
-						["Tichondrius"] = true,
-						["Skorpyron"] = true,
-						["Chronomatic Anomaly"] = true,
-						["Gul'dan"] = true,
-						["Grand Magistrix Elisande"] = true,
-					},
-					["The Emerald Nightmare Mythic|1031539984"] = {
-						["Elerethe Renferal"] = true,
-						["Ursoc"] = true,
-						["Nythendra"] = true,
-						["Il'gynoth, The Heart of Corruption"] = true,
-						["Cenarius"] = true,
-						["Dragons of Nightmare"] = true,
-						["Xavius"] = true,
-					},
-				},
-				["lastUpdate"] = 1604099522,
+			["Default.Frostmane.Rykahshaman"] = {
+				["lastUpdate"] = 1603923248,
 			},
-			["Default.Frostmane.Rykahpriest"] = {
-				["lastUpdate"] = 1603923284,
+			["Default.Frostmane.Rykahpoo"] = {
+				["lastUpdate"] = 1604171986,
 			},
 			["Default.Frostmane.Advboi"] = {
 				["lastUpdate"] = 1602628854,
 			},
-			["Default.Frostmane.Rykahpow"] = {
-				["lastUpdate"] = 1599917000,
+			["Default.Frostmane.Rykahpoa"] = {
+				["lastUpdate"] = 1601932135,
 			},
 			["Default.Frostmane.Rykahthree"] = {
 				["lastUpdate"] = 1602709344,
@@ -166,23 +148,23 @@ DataStore_AgendaDB = {
 			["Default.Silvermoon.Mechaboost"] = {
 				["lastUpdate"] = 1594901079,
 			},
-			["Default.Frostmane.Rykahpala"] = {
-				["lastUpdate"] = 1603840530,
-			},
 			["Default.Turalyon.Rykahboost"] = {
 				["lastUpdate"] = 1602627575,
+			},
+			["Default.Frostmane.Rykahpala"] = {
+				["lastUpdate"] = 1603840530,
 			},
 			["Default.Aggramar.Rykahboost"] = {
 				["lastUpdate"] = 1602626124,
 			},
-			["Default.Frostmane.Rykahpoa"] = {
-				["lastUpdate"] = 1601932135,
+			["Default.Frostmane.Rykahpow"] = {
+				["lastUpdate"] = 1599917000,
 			},
-			["Default.Frostmane.Rykahpoo"] = {
-				["lastUpdate"] = 1604106274,
+			["Default.Frostmane.Rykahpriest"] = {
+				["lastUpdate"] = 1604970941,
 			},
-			["Default.Frostmane.Rykahbolt"] = {
-				["lastUpdate"] = 1604102504,
+			["Default.Frostmane.Bankypo"] = {
+				["lastUpdate"] = 1605132663,
 			},
 			["Default.Aggramar.Rcumplus"] = {
 				["lastUpdate"] = 1602273008,
@@ -191,7 +173,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1597588063,
 			},
 			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1604103194,
+				["lastUpdate"] = 1605132455,
 			},
 			["Default.Kazzak.Rykahpodh"] = {
 				["lastUpdate"] = 1599430816,

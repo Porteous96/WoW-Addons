@@ -27,6 +27,13 @@ X: 167
 Y: -118
 W: 128
 H: 64
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 240
 Frame: FloatingBattlePetTooltip
 FrameLevel: 1
 Anchor: BOTTOM
@@ -34,10 +41,3 @@ X: 0
 Y: 80
 W: 260
 H: 150
-Frame: ColorPickerFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 346
-H: 240
