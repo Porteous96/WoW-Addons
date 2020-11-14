@@ -1744,13 +1744,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tower",
 		},
-		[142668] = {
+		[15496] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kaz'tik the Manipulator",
+			["source"] = "Infinite Executioner",
 		},
 		[144504] = {
 			["school"] = 1,
@@ -1793,13 +1793,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Grand Warlock Nethekurse",
 		},
-		[142861] = {
-			["school"] = 32,
+		[46191] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Malkorok",
+			["source"] = "Ellrys Duskhallow",
 		},
 		[146182] = {
 			["school"] = 1,
@@ -1825,27 +1829,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Modified Anima Golem",
 		},
-		[144330] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[14514] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Wavebinder Kardris",
+			["source"] = "Yazzai",
 		},
-		[46191] = {
-			["school"] = 4,
+		[142861] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ellrys Duskhallow",
+			["source"] = "Malkorok",
 		},
 		[143436] = {
 			["school"] = 32,
@@ -1989,14 +1988,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Tik",
 		},
-		[27615] = {
+		[143502] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kagani Nightstrike",
+			["source"] = "General Nazgrim",
 		},
 		[145685] = {
 			["school"] = 8,
@@ -2248,13 +2246,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Heathen Guard",
 		},
-		[142931] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[144464] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kil'ruk the Wind-Reaver",
+			["source"] = "Iron Juggernaut",
 		},
 		[145550] = {
 			["school"] = 48,
@@ -2264,12 +2261,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'kron Shadowmage",
 		},
-		[33865] = {
-			["school"] = 1,
+		[145679] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ethereal Scavenger",
+			["source"] = "Amalgam of Corruption",
 		},
 		[31464] = {
 			["school"] = 1,
@@ -2322,14 +2321,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[113017] = {
-			["school"] = 4,
+		[145551] = {
+			["school"] = 36,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Zao Sunseeker",
+			["source"] = "Kor'kron Shadowmage",
 		},
 		[106055] = {
 			["school"] = 1,
@@ -2339,14 +2337,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wise Mari",
 		},
-		[145679] = {
-			["school"] = 32,
+		[33865] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Amalgam of Corruption",
+			["source"] = "Ethereal Scavenger",
 		},
 		[114646] = {
 			["school"] = 32,
@@ -2434,6 +2430,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wretched Husk",
 		},
+		[145489] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Xiang-Lin",
+		},
 		[142934] = {
 			["school"] = 1,
 			["token"] = {
@@ -2449,14 +2453,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Iron Juggernaut",
-		},
-		[145489] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Xiang-Lin",
 		},
 		[17843] = {
 			["school"] = 2,
@@ -2593,13 +2589,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Embodied Gloom",
 		},
-		[145551] = {
-			["school"] = 36,
+		[113017] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kor'kron Shadowmage",
+			["source"] = "Zao Sunseeker",
 		},
 		[23600] = {
 			["school"] = 1,
@@ -2610,12 +2607,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Warlord Salaris",
 		},
-		[144464] = {
-			["school"] = 4,
+		[142931] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Iron Juggernaut",
+			["source"] = "Kil'ruk the Wind-Reaver",
 		},
 		[145747] = {
 			["school"] = 4,
@@ -2749,13 +2747,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pure Energy",
 		},
-		[143502] = {
+		[27615] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "General Nazgrim",
+			["source"] = "Kagani Nightstrike",
 		},
 		[33132] = {
 			["school"] = 4,
@@ -2833,14 +2832,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mana Leech",
 		},
-		[14514] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[144330] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Yazzai",
+			["source"] = "Wavebinder Kardris",
 		},
 		[44534] = {
 			["school"] = 1,
@@ -2874,13 +2874,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Chrono Lord Deja",
 		},
-		[15496] = {
+		[142668] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Infinite Executioner",
+			["source"] = "Kaz'tik the Manipulator",
 		},
 		[143707] = {
 			["school"] = 8,

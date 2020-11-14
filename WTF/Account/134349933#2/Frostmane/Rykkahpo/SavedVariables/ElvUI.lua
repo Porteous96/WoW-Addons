@@ -1,138 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"i mean lump removing", -- [1]
-		">But I don't want very good white cards. Swords to Plowshares is a very good card, Armageddon is a very good card, Thalia is a very good card. I want powerful white cards, things that are big and fun and make a scene when cast, putting me ahead. Like some", -- [2]
-		">9cmc sultai stuff", -- [3]
-		">white has been oppressed for years", -- [4]
-		"is probably smothering tithe", -- [5]
-		"and before that it must have been wrath of god", -- [6]
-		"hold up", -- [7]
-		"you cant spell", -- [8]
-		"but can spell definitely", -- [9]
-		"why", -- [10]
-		"im confused", -- [11]
-		"someone cant think thats a good land", -- [12]
-		"I love terrible lands being common through my sealed pool", -- [13]
-		"so when I open 3, I can run all of them", -- [14]
-		"I did too until you got interested", -- [15]
-		"and I think dave still does", -- [16]
-		"like brainstorm isnt broken when you have no win cons", -- [17]
-		"have you saw meta deck for standard atm?", -- [18]
-		"if you had told me these cards would be in the top deck of standard, I would have agreed with every single one", -- [19]
-		"/played", -- [20]
+		">But I don't want very good white cards. Swords to Plowshares is a very good card, Armageddon is a very good card, Thalia is a very good card. I want powerful white cards, things that are big and fun and make a scene when cast, putting me ahead. Like some", -- [1]
+		">9cmc sultai stuff", -- [2]
+		">white has been oppressed for years", -- [3]
+		"is probably smothering tithe", -- [4]
+		"and before that it must have been wrath of god", -- [5]
+		"hold up", -- [6]
+		"you cant spell", -- [7]
+		"but can spell definitely", -- [8]
+		"why", -- [9]
+		"im confused", -- [10]
+		"someone cant think thats a good land", -- [11]
+		"I love terrible lands being common through my sealed pool", -- [12]
+		"so when I open 3, I can run all of them", -- [13]
+		"I did too until you got interested", -- [14]
+		"and I think dave still does", -- [15]
+		"like brainstorm isnt broken when you have no win cons", -- [16]
+		"have you saw meta deck for standard atm?", -- [17]
+		"if you had told me these cards would be in the top deck of standard, I would have agreed with every single one", -- [18]
+		"/played", -- [19]
+		"/cw Niaou its a bit low but if we have some big damage then you can come", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"they always start with", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3629, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604532717,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [1]
-		{
-			"what is this chat ", -- [1]
-			"Cheszhire-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Cheszhire-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3633, -- [11]
-			"Player-1303-0B884AD1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaCheszhire|r",
-			[51] = 1604532720,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:2146:Player-1303-0B699C33:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[The Hundred Club (10 player)]|h|r!", -- [1]
-			"Devereux-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Devereux-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3636, -- [11]
-			"Player-1303-0B699C33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edDevereux|r",
-			[51] = 1604532721,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
-		{
-			"Guild <Os Marretas> é uma guild de PvE e Social que executa Wipes com estilo! Somos um culto Português que procura membros suecos que falam chinês com sotaque russo. Nenhum tabard da guilda, pois não combina com o nosso penteado. Obrigado", -- [1]
-			"Unnämed-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Unnämed-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3651, -- [11]
-			"Player-1303-05974B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcUnnämed-Aggra(Português)|r",
-			[51] = 1604532732,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			">i like guay, buuuuuuuuuuuuuuuuuuut there is this guy called seb", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3654, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604532734,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [5]
 		{
 			"civil war prep 101 chat", -- [1]
 			"Coalshaper-GrimBatol", -- [2]
@@ -154,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Coalshaper-GrimBatol|r",
 			[51] = 1604532736,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [1]
 		{
 			"alah ackbar?", -- [1]
 			"Evilsamigina-Frostmane", -- [2]
@@ -176,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Evilsamigina|r",
 			[51] = 1604532746,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [2]
 		{
 			"Tribe of Protagonists är en gammal Svensk guild där vi hjälper varandra. Vi söker nu härliga människor till shadowlands som kan acceptera wipe and smile. Vi har tidigare progressat hc och mythic.  gärna 25+ /w för mer info", -- [1]
 			"Elbanker-Frostmane", -- [2]
@@ -198,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaElbanker|r",
 			[51] = 1604532796,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [3]
 		{
 			"Não sabes porque é que pêlos longos te atraem?Sonhas à noite com longos chifres,cascos de draenei e modelos de Undead?Junta-te aos Marretas e descobre que talvez sejas o único...Mas ao menos nós vamos-nos rir de ti!Marretas desde 2012 aqui para ti", -- [1]
 			"Unnämed-Aggra(Português)", -- [2]
@@ -220,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcUnnämed-Aggra(Português)|r",
 			[51] = 1604532814,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [4]
 		{
 			"yeh like its a competition", -- [1]
 			"|Kq110|k", -- [2]
@@ -242,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604532848,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [10]
+		}, -- [5]
 		{
 			">forgive me guay for I am in love with another person's art ", -- [1]
 			"|Kq110|k", -- [2]
@@ -264,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604532867,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [11]
+		}, -- [6]
 		{
 			"Who dod insta bid goldcap on the tiger, please /w me", -- [1]
 			"Hallibell-Frostmane", -- [2]
@@ -286,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hallibell|r",
 			[51] = 1604532998,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [7]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:578:Player-1303-0B699C33:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[The Dedicated Few (10 player)]|h|r!", -- [1]
 			"Devereux-Frostmane", -- [2]
@@ -308,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDevereux|r",
 			[51] = 1604533016,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
+		}, -- [8]
 		{
 			"austere command is in this set", -- [1]
 			"|Kq110|k", -- [2]
@@ -330,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533187,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [14]
+		}, -- [9]
 		{
 			"inb4 all of them but cryptic", -- [1]
 			"|Kq110|k", -- [2]
@@ -352,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533193,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [15]
+		}, -- [10]
 		{
 			"oh yeah baby ", -- [1]
 			"|Kq110|k", -- [2]
@@ -374,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533283,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [16]
+		}, -- [11]
 		{
 			"gimme that prima command", -- [1]
 			"|Kq110|k", -- [2]
@@ -396,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533287,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [17]
+		}, -- [12]
 		{
 			"primal*", -- [1]
 			"|Kq110|k", -- [2]
@@ -418,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533299,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [18]
+		}, -- [13]
 		{
 			"LFGuild Portuguesa", -- [1]
 			"Ragnorra-Aggra(Português)", -- [2]
@@ -440,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ragnorra-Aggra(Português)|r",
 			[51] = 1604533373,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [14]
 		{
 			"do you want me to send you a good thread", -- [1]
 			"|Kq110|k", -- [2]
@@ -462,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533383,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [20]
+		}, -- [15]
 		{
 			"and by good ", -- [1]
 			"|Kq110|k", -- [2]
@@ -484,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533385,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [21]
+		}, -- [16]
 		{
 			"i mean lump removing", -- [1]
 			"|Kq110|k", -- [2]
@@ -506,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533394,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [22]
+		}, -- [17]
 		{
 			"this is the #pauper killer", -- [1]
 			"|Kq110|k", -- [2]
@@ -528,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533401,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [23]
+		}, -- [18]
 		{
 			"sure", -- [1]
 			"|Kq110|k", -- [2]
@@ -550,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533406,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [24]
+		}, -- [19]
 		{
 			"Hunter confirmed coolest specc SL", -- [1]
 			"Coalshaper-GrimBatol", -- [2]
@@ -572,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Coalshaper-GrimBatol|r",
 			[51] = 1604533410,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [20]
 		{
 			"Perdido?Confuso?Lutando conta o vicio do jogo?|cffffd100|HclubFinder:ClubFinder-1-82893-1303-34609499|h[Guild: Os Marretas]|h|r entendente e estamos aqui se tu precisares de um abraço. O primeiro é gratuito, o segundo custará a tua  ALMA. Ou um donut!", -- [1]
 			"Unnämed-Aggra(Português)", -- [2]
@@ -594,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcUnnämed-Aggra(Português)|r",
 			[51] = 1604533432,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [21]
 		{
 			">But I don't want very good white cards. Swords to Plowshares is a very good card, Armageddon is a very good card, Thalia is a very good card. I want powerful white cards, things that are big and fun and make a scene when cast, putting me ahead. Like some", -- [1]
 			"|Kq110|k", -- [2]
@@ -616,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533460,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [27]
+		}, -- [22]
 		{
 			">9cmc sultai stuff", -- [1]
 			"|Kq110|k", -- [2]
@@ -638,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533468,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [28]
+		}, -- [23]
 		{
 			"ah", -- [1]
 			"|Kq110|k", -- [2]
@@ -660,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533479,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [29]
+		}, -- [24]
 		{
 			"i want bad white cards", -- [1]
 			"|Kq110|k", -- [2]
@@ -682,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533483,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [30]
+		}, -- [25]
 		{
 			"i see", -- [1]
 			"|Kq110|k", -- [2]
@@ -704,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533487,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [31]
+		}, -- [26]
 		{
 			"i bet dave sends this tomorrow in slack", -- [1]
 			"|Kq110|k", -- [2]
@@ -726,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533597,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [32]
+		}, -- [27]
 		{
 			"i need to look at some spoiler threads ", -- [1]
 			"|Kq110|k", -- [2]
@@ -748,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533605,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [33]
+		}, -- [28]
 		{
 			"for the \"hot takes\"", -- [1]
 			"|Kq110|k", -- [2]
@@ -770,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533610,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [34]
+		}, -- [29]
 		{
 			"i will remind you of my pin", -- [1]
 			"|Kq110|k", -- [2]
@@ -792,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533614,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [35]
+		}, -- [30]
 		{
 			">white has been oppressed for years", -- [1]
 			"|Kq110|k", -- [2]
@@ -814,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533621,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [36]
+		}, -- [31]
 		{
 			"and it seems to continue", -- [1]
 			"|Kq110|k", -- [2]
@@ -836,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533627,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [37]
+		}, -- [32]
 		{
 			"white has literally never had a good card ", -- [1]
 			"|Kq110|k", -- [2]
@@ -858,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533668,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [38]
+		}, -- [33]
 		{
 			"I think the last playable card that white has got ", -- [1]
 			"|Kq110|k", -- [2]
@@ -880,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533684,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [39]
+		}, -- [34]
 		{
 			"is probably smothering tithe", -- [1]
 			"|Kq110|k", -- [2]
@@ -902,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533694,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [40]
+		}, -- [35]
 		{
 			"and before that it must have been wrath of god", -- [1]
 			"|Kq110|k", -- [2]
@@ -924,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533704,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [41]
+		}, -- [36]
 		{
 			"yes definitely ", -- [1]
 			"|Kq110|k", -- [2]
@@ -946,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533712,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [42]
+		}, -- [37]
 		{
 			"this is known", -- [1]
 			"|Kq110|k", -- [2]
@@ -968,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533725,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [43]
+		}, -- [38]
 		{
 			"hold up", -- [1]
 			"|Kq110|k", -- [2]
@@ -990,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533728,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [44]
+		}, -- [39]
 		{
 			"you cant spell", -- [1]
 			"|Kq110|k", -- [2]
@@ -1012,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533733,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [45]
+		}, -- [40]
 		{
 			"but can spell definitely", -- [1]
 			"|Kq110|k", -- [2]
@@ -1034,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533736,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [46]
+		}, -- [41]
 		{
 			"why ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1056,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533739,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [47]
+		}, -- [42]
 		{
 			"im unungood at spelling sometimes ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1078,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533753,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [48]
+		}, -- [43]
 		{
 			"fug", -- [1]
 			"|Kq110|k", -- [2]
@@ -1100,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533784,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [49]
+		}, -- [44]
 		{
 			"found a meme", -- [1]
 			"|Kq110|k", -- [2]
@@ -1122,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533786,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [50]
+		}, -- [45]
 		{
 			"this is on the thread spoiling the colourless bounce land", -- [1]
 			"|Kq110|k", -- [2]
@@ -1144,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533806,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [51]
+		}, -- [46]
 		{
 			">I get the joke but if it were common... sol ring in pauper?", -- [1]
 			"|Kq110|k", -- [2]
@@ -1166,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533815,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [52]
+		}, -- [47]
 		{
 			">tfw the other bounce lands are legal and played, so why would you ever take a colourless one over them - and the fact they are a tempo loss on the turn played removes any semblance of sol ring's acceleration potential ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1188,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533890,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [53]
+		}, -- [48]
 		{
 			"Swift Zulian tiger bidder please DM me", -- [1]
 			"Hallibell-Frostmane", -- [2]
@@ -1210,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hallibell|r",
 			[51] = 1604533896,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [49]
 		{
 			"im confused", -- [1]
 			"|Kq110|k", -- [2]
@@ -1232,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533980,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [55]
+		}, -- [50]
 		{
 			"someone cant think thats a good land", -- [1]
 			"|Kq110|k", -- [2]
@@ -1254,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533986,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [56]
+		}, -- [51]
 		{
 			"there's no way", -- [1]
 			"|Kq110|k", -- [2]
@@ -1276,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533993,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [57]
+		}, -- [52]
 		{
 			"https://old.reddit.com/r/magicTCG/comments/jnzec6/cmr_guildless_commons/gb5bfqq/", -- [1]
 			"|Kq110|k", -- [2]
@@ -1298,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534010,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [58]
+		}, -- [53]
 		{
 			"go off, king", -- [1]
 			"|Kq110|k", -- [2]
@@ -1320,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534015,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [59]
+		}, -- [54]
 		{
 			">This has no business being uncommon. I would really like to see this in pauper after tron gets eventually banned", -- [1]
 			"|Kq110|k", -- [2]
@@ -1342,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534050,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [60]
+		}, -- [55]
 		{
 			"are these people dumb", -- [1]
 			"|Kq110|k", -- [2]
@@ -1364,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534061,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [61]
+		}, -- [56]
 		{
 			"that is ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1386,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534064,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [62]
+		}, -- [57]
 		{
 			"the best thing i have ever read", -- [1]
 			"|Kq110|k", -- [2]
@@ -1408,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534070,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [63]
+		}, -- [58]
 		{
 			"sure ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1430,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534081,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [59]
 		{
 			"I love terrible lands being common through my sealed pool", -- [1]
 			"|Kq110|k", -- [2]
@@ -1452,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534094,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [65]
+		}, -- [60]
 		{
 			"so when I open 3, I can run all of them", -- [1]
 			"|Kq110|k", -- [2]
@@ -1474,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534101,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [66]
+		}, -- [61]
 		{
 			"i love bouncing my bounc land with my 2rd colourless bounce land", -- [1]
 			"|Kq110|k", -- [2]
@@ -1496,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534123,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [67]
+		}, -- [62]
 		{
 			"its basically tron", -- [1]
 			"|Kq110|k", -- [2]
@@ -1518,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534140,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [68]
+		}, -- [63]
 		{
 			"i dont think these people have ever seen a game of pauper", -- [1]
 			"|Kq110|k", -- [2]
@@ -1540,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534182,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [69]
+		}, -- [64]
 		{
 			"i dont think these people have ever used a bounceland", -- [1]
 			"|Kq110|k", -- [2]
@@ -1562,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534200,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [70]
+		}, -- [65]
 		{
 			"they must think it is draft chaff constructed", -- [1]
 			"|Kq110|k", -- [2]
@@ -1584,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534201,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [71]
+		}, -- [66]
 		{
 			"to be fair", -- [1]
 			"|Kq110|k", -- [2]
@@ -1606,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534243,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [72]
+		}, -- [67]
 		{
 			"I did too until you got interested", -- [1]
 			"|Kq110|k", -- [2]
@@ -1628,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534249,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [73]
+		}, -- [68]
 		{
 			"and I think dave still does", -- [1]
 			"|Kq110|k", -- [2]
@@ -1650,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534255,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [74]
+		}, -- [69]
 		{
 			"dave's most cast spell is probs brain storm", -- [1]
 			"|Kq110|k", -- [2]
@@ -1672,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534280,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [75]
+		}, -- [70]
 		{
 			"hed love it", -- [1]
 			"|Kq110|k", -- [2]
@@ -1694,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534283,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [76]
+		}, -- [71]
 		{
 			"yeah i love how its got dumb card draw", -- [1]
 			"|Kq110|k", -- [2]
@@ -1716,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534294,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [77]
+		}, -- [72]
 		{
 			"its legacy answers to very bad creatuers", -- [1]
 			"|Kq110|k", -- [2]
@@ -1738,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534312,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [78]
+		}, -- [73]
 		{
 			"like brainstorm isnt broken when you have no win cons", -- [1]
 			"|Kq110|k", -- [2]
@@ -1760,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534313,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [79]
+		}, -- [74]
 		{
 			"and delver is here also", -- [1]
 			"|Kq110|k", -- [2]
@@ -1782,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534315,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [80]
+		}, -- [75]
 		{
 			"i cant believe delver is pauper legal", -- [1]
 			"|Kq110|k", -- [2]
@@ -1804,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534336,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [81]
+		}, -- [76]
 		{
 			"it has to be one of the dumbest cards ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1826,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534345,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [82]
+		}, -- [77]
 		{
 			"i dare say it was pretty meh in limited, which was the only format were rarity mattered", -- [1]
 			"|Kq110|k", -- [2]
@@ -1848,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534388,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [83]
+		}, -- [78]
 		{
 			"but yeah, add in some cantrips and you got a stew going", -- [1]
 			"|Kq110|k", -- [2]
@@ -1870,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534415,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [84]
+		}, -- [79]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14782:Player-1303-0B8267D7:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
 			"Kitita-Frostmane", -- [2]
@@ -1892,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKitita|r",
 			[51] = 1604534477,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [85]
+		}, -- [80]
 		{
 			"have you saw meta deck for standard atm?", -- [1]
 			"|Kq110|k", -- [2]
@@ -1914,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534512,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [86]
+		}, -- [81]
 		{
 			"if you had told me these cards would be in the top deck of standard, I would have agreed with every single one ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1936,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534533,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [87]
+		}, -- [82]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10684:Player-1303-0B556DC0:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Fashionista: Legs]|h|r!", -- [1]
 			"Kurova-Frostmane", -- [2]
@@ -1958,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKurova|r",
 			[51] = 1604534663,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [83]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13076:Player-1303-0B8267D7:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Heritage of the Dark Iron]|h|r!", -- [1]
 			"Kitita-Frostmane", -- [2]
@@ -1980,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKitita|r",
 			[51] = 1604534741,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [84]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4539:Player-1303-0B556DC0:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Once Bitten, Twice Shy (10 player)]|h|r!", -- [1]
 			"Kurova-Frostmane", -- [2]
@@ -2002,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKurova|r",
 			[51] = 1604534892,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [85]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4598:Player-1303-0B68AC74:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[The Ashen Verdict]|h|r!", -- [1]
 			"Slyxhamstræz-Frostmane", -- [2]
@@ -2024,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Slyxhamstræz|r",
 			[51] = 1604535294,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [86]
 		{
 			"WTS |cff1eff00|Hitem:55057::::::::41:62:::::::|h[Pyrium Weapon Chain]|h|r 4K", -- [1]
 			"Icyboxx-GrimBatol", -- [2]
@@ -2046,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaIcyboxx-GrimBatol|r",
 			[51] = 1604536283,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [87]
 		{
 			"WTS |cffa335ee|Hitem:163575::::::::1:259::::1:28:190:::|h[Reins of a Tamed Bloodfeaster]|h|r CHEAP", -- [1]
 			"Bankerbaz-GrimBatol", -- [2]
@@ -2068,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
 			[51] = 1604537025,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [88]
 		{
 			"hox muvh is cheap?", -- [1]
 			"Xentsu-Frostmane", -- [2]
@@ -2090,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Xentsu|r",
 			[51] = 1604537093,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [89]
 		{
 			"much*", -- [1]
 			"Xentsu-Frostmane", -- [2]
@@ -2112,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Xentsu|r",
 			[51] = 1604537097,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [90]
 		{
 			"25K", -- [1]
 			"Bankerbaz-GrimBatol", -- [2]
@@ -2134,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
 			[51] = 1604537103,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [91]
 		{
 			"WTS |cffa335ee|Hitem:163575::::::::1:259::::1:28:190:::|h[Reins of a Tamed Bloodfeaster]|h|r 25K", -- [1]
 			"Bankerbaz-GrimBatol", -- [2]
@@ -2156,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
 			[51] = 1604537635,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [92]
 		{
 			"I wouldn't, their guild recruitment ads are some of the worst I've ever seen", -- [1]
 			"Doomcläw-GrimBatol", -- [2]
@@ -2178,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Doomcläw-GrimBatol|r",
 			[51] = 1604870736,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [93]
 		{
 			"i can't even pronounce portugueses ", -- [1]
 			"Pènguin-Frostmane", -- [2]
@@ -2200,6 +2090,116 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Pènguin|r",
 			[51] = 1604870740,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"100ilvl is enough for alt to join sunday run??", -- [1]
+			"Niaou-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Niaou-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			25, -- [11]
+			"Player-1303-0B646F7B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Niaou|r",
+			[51] = 1605295214,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [95]
+		{
+			"NO", -- [1]
+			"Çka-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			28, -- [11]
+			"Player-1303-0B699C68", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Çka|r",
+			[51] = 1605295225,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"?", -- [1]
+			"Niaou-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"Player-1303-0B646F7B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Niaou|r",
+			[51] = 1605295233,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"eh I think we're only doing the last 2 bosses on sunday, i'll let you know", -- [1]
+			"Niaou-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Niaou-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"Player-1303-0B646F7B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Niaou|r",
+			[51] = 1605295250,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [98]
+		{
+			"its a bit low but if we have some big damage then you can come", -- [1]
+			"Niaou-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Niaou-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			32, -- [11]
+			"Player-1303-0B646F7B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Niaou|r",
+			[51] = 1605295261,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [99]
 	},
 }

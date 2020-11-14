@@ -11,10 +11,10 @@ DataStore_StatsDB = {
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
-		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
@@ -29,7 +29,7 @@ DataStore_StatsDB = {
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
+		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
 		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
@@ -115,7 +115,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1605132556,
+				["lastUpdate"] = 1605388640,
 				["Stats"] = {
 					["Ranged"] = "239-253|2.6610000133514|385|0|21.901596069336",
 					["HealthMax"] = 11080,
@@ -128,7 +128,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1605131563,
+				["lastUpdate"] = 1605316986,
 				["Stats"] = {
 					["Ranged"] = "15-27|1.6870000362396|0|0|19.057001113892",
 					["HealthMax"] = 20260,
@@ -136,8 +136,8 @@ DataStore_StatsDB = {
 					["MaxPower"] = "0|10000",
 					["Defense"] = "0|0|3|0|0|0",
 					["PVP"] = "19777|0",
-					["Base"] = "68|106|1013|832|0",
-					["Spell"] = "832|832|0|19.057001113892|187|1000",
+					["Base"] = "68|106|1013|797|0",
+					["Spell"] = "797|797|0|19.057001113892|187|1000",
 				},
 			},
 			["Default.Defias Brotherhood.Mechaboost"] = {
@@ -206,7 +206,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1605132624,
+				["lastUpdate"] = 1605295213,
 				["Stats"] = {
 					["Ranged"] = "163-164|0|376|0|22.463874816895",
 					["HealthMax"] = 8520,
@@ -388,7 +388,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1605132709,
+				["lastUpdate"] = 1605228776,
 				["Stats"] = {
 					["Ranged"] = "1-2|0|0|0|10.545778274536",
 					["HealthMax"] = 528,
@@ -427,10 +427,10 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1605132494,
+				["lastUpdate"] = 1605388575,
 				["Stats"] = {
 					["Ranged"] = "1-2|0|0|0|20.870748519897",
-					["HealthMax"] = 27593,
+					["HealthMax"] = 26682,
 					["Melee"] = "537-568|3.1630001068115|584|0|20.870748519897|3",
 					["MaxPower"] = "3|100",
 					["Spell"] = "708|708|0|20.870748519897|139|500",

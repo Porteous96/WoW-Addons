@@ -77,8 +77,8 @@ AddOnSkinsDB = {
 			["AAP-Core"] = false,
 		},
 		["Rykahpoh - Frostmane"] = {
-			["Pawn"] = false,
 			["AAP-Core"] = false,
+			["Pawn"] = false,
 		},
 		["Chatmademe - Kazzak"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
@@ -166,7 +166,7 @@ AddOnSkinsDB = {
 			["Skada"] = true,
 			["Blizzard_Transmogrify"] = false,
 		},
-		["Preachx - Tarren Mill"] = {
+		["Spacegoatss - Frostmane"] = {
 		},
 		["Sulivan - Tarren Mill"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
@@ -236,13 +236,16 @@ AddOnSkinsDB = {
 		["Iujahwdihaip - Frostmane"] = {
 		},
 		["Default"] = {
-			["PremadeGroupsFilter"] = false,
-			["AAP-Core"] = false,
 			["Simulationcraft"] = false,
 			["Immersion"] = false,
+			["AAP-Core"] = false,
 			["Pawn"] = false,
+			["PremadeGroupsFilter"] = false,
 		},
-		["Spacegoatss - Frostmane"] = {
+		["Meticulous - Tarren Mill"] = {
+			["Blizzard_WorldStateCaptureBar"] = false,
+			["Skada"] = true,
+			["Blizzard_Transmogrify"] = false,
 		},
 		["Dlorange - Tarren Mill"] = {
 		},
@@ -251,10 +254,7 @@ AddOnSkinsDB = {
 			["Skada"] = true,
 			["Blizzard_Transmogrify"] = false,
 		},
-		["Meticulous - Tarren Mill"] = {
-			["Blizzard_WorldStateCaptureBar"] = false,
-			["Skada"] = true,
-			["Blizzard_Transmogrify"] = false,
+		["Preachx - Tarren Mill"] = {
 		},
 		["Preách - Tarren Mill"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,

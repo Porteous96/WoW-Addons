@@ -25,7 +25,7 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1603563426,
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1605132160,
+				["lastUpdate"] = 1605317694,
 			},
 			["Default.Frostmane.Rykahwar"] = {
 				["lastUpdate"] = 1604962913,
@@ -37,7 +37,7 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1604101077,
 			},
 			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1605132587,
+				["lastUpdate"] = 1605295207,
 			},
 			["Default.Frostmane.Rykahpodh"] = {
 				["lastUpdate"] = 1604096619,
@@ -58,16 +58,62 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1604102504,
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1605132667,
+				["lastUpdate"] = 1605228780,
 			},
 			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1605132549,
+				["lastUpdate"] = 1605388633,
+				["Rares"] = {
+					[130138] = {
+						["resetTime"] = 34966,
+						["name"] = "Nevermore",
+					},
+					[134638] = {
+						["resetTime"] = 34966,
+						["name"] = "Warlord Zothix",
+					},
+					[148787] = {
+						["resetTime"] = 294166,
+						["name"] = "Alash'anir",
+					},
+					[128973] = {
+						["resetTime"] = 34966,
+						["name"] = "Whargarble the Ill-Tempered",
+					},
+					[96410] = {
+						["resetTime"] = 34966,
+						["name"] = "Majestic Elderhorn",
+					},
+					[96621] = {
+						["resetTime"] = 34966,
+						["name"] = "Mellok, Son of Torok ",
+					},
+					[149652] = {
+						["resetTime"] = 294166,
+						["name"] = "Agathe Wyrmwood",
+					},
+					[125453] = {
+						["resetTime"] = 34966,
+						["name"] = "Quillrat Matriarch",
+					},
+					[97793] = {
+						["resetTime"] = 34966,
+						["name"] = "Flamescale",
+					},
+					[124548] = {
+						["resetTime"] = 34966,
+						["name"] = "Betsy",
+					},
+					[97203] = {
+						["resetTime"] = 34966,
+						["name"] = "Tenpak Flametotem",
+					},
+				},
 			},
 			["Default.Frostmane.Rykahpoo"] = {
 				["lastUpdate"] = 1604172383,
 			},
 			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1605132470,
+				["lastUpdate"] = 1605388571,
 			},
 			["Default.Frostmane.Rykahpriest"] = {
 				["lastUpdate"] = 1604970970,

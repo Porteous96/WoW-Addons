@@ -213,9 +213,9 @@ HandyNotes_HandyNotesDB = {
 	["global"] = {
 		[942] = {
 			[47473427] = {
+				["cont"] = false,
 				["icon"] = 1,
 				["title"] = "",
-				["cont"] = false,
 				["desc"] = "",
 			},
 		},

@@ -11,10 +11,10 @@ DataStore_ReputationsDB = {
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
 		["Blissard - Frostmane"] = "Blissard - Frostmane",
-		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
+		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
@@ -29,7 +29,7 @@ DataStore_ReputationsDB = {
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
 		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
@@ -166,7 +166,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1605132584,
+				["lastUpdate"] = 1605295203,
 				["Factions"] = {
 					11150, -- [1]
 					9729, -- [2]
@@ -230,7 +230,7 @@ DataStore_ReputationsDB = {
 				["guildName"] = "Velvet",
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1605131561,
+				["lastUpdate"] = 1605316985,
 				["Factions"] = {
 					42000, -- [1]
 					42000, -- [2]
@@ -295,7 +295,7 @@ DataStore_ReputationsDB = {
 					[64] = 42000,
 					[65] = 42000,
 					[66] = 42000,
-					[133] = 42000,
+					[67] = 42000,
 					[135] = 47035,
 					[137] = 43314,
 					[139] = 46854,
@@ -344,8 +344,8 @@ DataStore_ReputationsDB = {
 					[79] = 34698,
 					[114] = 42000,
 					[115] = 42000,
+					[133] = 42000,
 					[17] = 11653,
-					[67] = 42000,
 					[32] = 36480,
 					[119] = 42000,
 					[123] = 42000,
@@ -367,7 +367,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1605045665,
+				["lastUpdate"] = 1605228772,
 				["guildName"] = "bank me daddy",
 				["Factions"] = {
 					3100, -- [1]
@@ -430,7 +430,7 @@ DataStore_ReputationsDB = {
 				["guildName"] = "Velvet",
 			},
 			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1605132534,
+				["lastUpdate"] = 1605295139,
 				["Factions"] = {
 					9655, -- [1]
 					9099, -- [2]
@@ -628,13 +628,13 @@ DataStore_ReputationsDB = {
 					[56] = 39,
 					[123] = 3500,
 					[112] = 8999,
-					[75] = 10317,
 					[47] = 9675,
+					[17] = 1550,
 					[18] = 1550,
 					[19] = 1550,
 					[20] = 1550,
 					[40] = 2652,
-					[17] = 1550,
+					[75] = 10317,
 					[130] = 8700,
 					[25] = 1325,
 				},
@@ -863,7 +863,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1605132450,
+				["lastUpdate"] = 1605388549,
 				["guildName"] = "Velvet",
 				["guildRep"] = 42000,
 				["Factions"] = {
@@ -949,12 +949,12 @@ DataStore_ReputationsDB = {
 					[134] = 4275,
 					[9] = 3100,
 					[159] = 25190,
-					[113] = 3100,
+					[158] = 13020,
 					[151] = 6250,
 					[76] = 3500,
 					[6] = 500,
+					[113] = 3100,
 					[10] = 4000,
-					[158] = 13020,
 				},
 			},
 		},

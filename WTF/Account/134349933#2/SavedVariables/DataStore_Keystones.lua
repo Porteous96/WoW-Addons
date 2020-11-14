@@ -25,7 +25,7 @@ DataStore_KeystonesDB = {
 				["lastUpdate"] = 1604786424,
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1605131563,
+				["lastUpdate"] = 1605316986,
 				["currentKeystone"] = {
 					["keystoneLevel"] = 14,
 					["name"] = "Shrine of the Storm",

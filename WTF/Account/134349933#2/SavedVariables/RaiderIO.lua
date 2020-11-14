@@ -30,7 +30,8 @@ RaiderIO_Config = {
 	["showRaiderIOProfile"] = true,
 	["showClientGuildBest"] = true,
 }
-RaiderIO_LastCharacter = "eu-Bankypo-frostmane"
+RaiderIO_LastCharacter = "eu-Rykahhpo-frostmane"
 RaiderIO_MissingCharacters = {
+	["eu-Rykahhpo-frostmane"] = true,
 }
 RaiderIO_CachedRuns = nil

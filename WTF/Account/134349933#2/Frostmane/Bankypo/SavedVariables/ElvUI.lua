@@ -24,28 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"found the virgin > Cog-Aggra(Português)", -- [1]
-			"Xalhna-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Xalhna-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			90, -- [11]
-			"Player-1303-0B9820DF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Xalhna|r",
-			[51] = 1603835119,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
 			"opionions on lgbt people?", -- [1]
 			"Rakkah-Frostmane", -- [2]
 			"", -- [3]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Rakkah|r",
 			[51] = 1603835123,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
+		}, -- [1]
 		{
 			"Rakkah thats easy, f*ck whoever you want to fuck, just dont bother me with it, gay straight lesbian, really dont give a single FCK", -- [1]
 			"Xalhna-Frostmane", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Xalhna|r",
 			[51] = 1603835151,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
+		}, -- [2]
 		{
 			"I'm a straight white male so im not allowed an opinion", -- [1]
 			"Squidlegs-Frostmane", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSquidlegs|r",
 			[51] = 1603835161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
+		}, -- [3]
 		{
 			"thats the right thing", -- [1]
 			"Rakkah-Frostmane", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Rakkah|r",
 			[51] = 1603835170,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [4]
 		{
 			"pala", -- [1]
 			"Rakkah-Frostmane", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Rakkah|r",
 			[51] = 1603835174,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [5]
 		{
 			"So what are we trading boys?", -- [1]
 			"Meckz-Aggra(Português)", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Meckz-Aggra(Português)|r",
 			[51] = 1603835175,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [6]
 		{
 			"guys wtf is going on here. this sounds like it should be in a discord server", -- [1]
 			"Vúrona-Frostmane", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Vúrona|r",
 			[51] = 1603835180,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [7]
 		{
 			"trading boys???", -- [1]
 			"Hëvn-Aggra(Português)", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHëvn-Aggra(Português)|r",
 			[51] = 1603835186,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [8]
 		{
 			"DUDE", -- [1]
 			"Hëvn-Aggra(Português)", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHëvn-Aggra(Português)|r",
 			[51] = 1603835188,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [9]
 		{
 			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
 			"", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1604109208,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [10]
 		{
 			"Oblivion Boost Community sells Nya'lotha the Waking City on Heroic! We also sell M+ 10-21 Runs with Armorstack/Spec key - intime guarantee! /w me for Pricing!", -- [1]
 			"Leiobli-Frostmane", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLeiobli|r",
 			[51] = 1604147461,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [11]
 		{
 			"any known buggs with the scouting map? ", -- [1]
 			"Alduran-Frostmane", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Alduran|r",
 			[51] = 1604147481,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [12]
 		{
 			"Oblivion Boost Community sells Nya'lotha the Waking City on Heroic! We also sell M+ 10-21 Runs with Armorstack/Spec key - intime guarantee! /w me for Pricing!", -- [1]
 			"Leiobli-Frostmane", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLeiobli|r",
 			[51] = 1604147829,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [13]
 		{
 			"WTS Nyalotha HC-Mythic + we can stack armors; Horrific Visions with masks;  Mythic+ 15-22 in time and 465+ items; Glacial Tidestorm mount", -- [1]
 			"Puolak-Frostmane", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Puolak|r",
 			[51] = 1604147904,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [14]
 		{
 			"<HOMBRES> IS BACK!  En av Frostmanes äldsta och finaste guilder är tillbaka! Vi letar nu M+ spelare som också vill pusha score i Shadowlands. Så ni äntligen kan slippa PUG-livet! #superhighscore! HC raids kommer också erbjudas! /w för mer info", -- [1]
 			"Atommyran-Frostmane", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Atommyran|r",
 			[51] = 1604270804,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [15]
 		{
 			"WTS 1 GB of Spam and advertisments!", -- [1]
 			"Spammer-Frostmane", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSpammer|r",
 			[51] = 1604349543,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [16]
 		{
 			"WTS Badboy Spam Blocker", -- [1]
 			"Anheszenamon-GrimBatol", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAnheszenamon-GrimBatol|r",
 			[51] = 1604349568,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [17]
 		{
 			"Block my spam! SPam block only 5 $!", -- [1]
 			"Spammer-Frostmane", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSpammer|r",
 			[51] = 1604349600,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [18]
 		{
 			"Switch off jutube spam! 5 k only!", -- [1]
 			"Spammer-Frostmane", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSpammer|r",
 			[51] = 1604349628,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [19]
 		{
 			"Someone having issues login out and back in?", -- [1]
 			"Huntlezz-Frostmane", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Huntlezz|r",
 			[51] = 1604349974,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [20]
 		{
 			"yeh, just alt + f4 and relog if you need to exit.", -- [1]
 			"Johnnyfive-Frostmane", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Johnnyfive|r",
 			[51] = 1604350016,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [21]
 		{
 			"Done that didnt solve it tho would let me log my main as it already exsists ", -- [1]
 			"Huntlezz-Frostmane", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Huntlezz|r",
 			[51] = 1604350079,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [22]
 		{
 			"fucking shit blizzard ruin the game,, why have realms when the shit dont even work fucktards", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604437862,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [23]
 		{
 			"you sound like a normal WoW player.. not", -- [1]
 			"Älphä-Frostmane", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Älphä|r",
 			[51] = 1604437904,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [24]
 		{
 			"broken game shitgame asswipe", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604437920,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [25]
 		{
 			"lol", -- [1]
 			"Rafer-Nemesis", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rafer-Nemesis|r",
 			[51] = 1604438027,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [26]
 		{
 			"different characters online on every different character i log in to.. would not be surprised if im on a chinese server next time i log in", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604438052,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [27]
 		{
 			"shitty blizzzard", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604438079,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [28]
 		{
 			"so just log off then and dont log in again ", -- [1]
 			"Bankypo-Frostmane", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBankypo|r",
 			[51] = 1604438096,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [29]
 		{
 			"then why play if you feel that way?", -- [1]
 			"Nunjis-Frostmane", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nunjis|r",
 			[51] = 1604438109,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [30]
 		{
 			"I dont feel that way,, thats the way it is!", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604438139,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [31]
 		{
 			"people say that but buy the sub every month", -- [1]
 			"Tristam-Aggra(Português)", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tristam-Aggra(Português)|r",
 			[51] = 1604438141,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [32]
 		{
 			"i dont buy sub im not an idiot gicing blizzard money haha", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604438161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [33]
 		{
 			"so you're a trial account? lol", -- [1]
 			"Tristam-Aggra(Português)", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tristam-Aggra(Português)|r",
 			[51] = 1604438200,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [34]
 		{
 			"u think u only can get gametime with real money? LOL", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604438221,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [35]
 		{
 			"probably tokens for gold", -- [1]
 			"Nunjis-Frostmane", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nunjis|r",
 			[51] = 1604438222,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [36]
 		{
 			"MA IO SOLO UNA COSA VOJO SAPE", -- [1]
 			"Rafer-Nemesis", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rafer-Nemesis|r",
 			[51] = 1604438224,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [37]
 		{
 			"MA DO CAZ ZO STANNO GLI ITALIANI", -- [1]
 			"Rafer-Nemesis", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rafer-Nemesis|r",
 			[51] = 1604438234,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [38]
 		{
 			"well,, isnt there a free gameplay to lvl 20.. not bad to twink", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604438248,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [39]
 		{
 			"stil, you waste ur time to play the game and don't even like the game", -- [1]
 			"Tristam-Aggra(Português)", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Tristam-Aggra(Português)|r",
 			[51] = 1604438249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [40]
 		{
 			"LOL", -- [1]
 			"Rafer-Nemesis", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rafer-Nemesis|r",
 			[51] = 1604438261,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [41]
 		{
 			"are you a twink mate?", -- [1]
 			"Nunjis-Frostmane", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nunjis|r",
 			[51] = 1604438277,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [42]
 		{
 			"i like the game,, i dont like that i  log in to different realms on different characters that are on FROSTMANE!!", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604438285,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [43]
 		{
 			"well idont like the pvp its a big joke fuck u blizz", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604438299,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [44]
 		{
 			"xd", -- [1]
 			"Nunjis-Frostmane", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Nunjis|r",
 			[51] = 1604438309,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [45]
 		{
 			"it s tue", -- [1]
 			"Rafer-Nemesis", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rafer-Nemesis|r",
 			[51] = 1604438329,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [46]
 		{
 			"ruins pvp", -- [1]
 			"Rafer-Nemesis", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Rafer-Nemesis|r",
 			[51] = 1604438335,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [47]
 		{
 			"blizzard staff dont even play the game, they suck fuck this  im going to make the speed test on this shitgame so i win", -- [1]
 			"Markiie-Frostmane", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Markiie|r",
 			[51] = 1604438458,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [48]
 		{
 			"WTS |cff1eff00|Hitem:55057::::::::41:62:::::::|h[Pyrium Weapon Chain]|h|r", -- [1]
 			"Icyboxx-GrimBatol", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaIcyboxx-GrimBatol|r",
 			[51] = 1604535645,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [49]
 		{
 			"<Triangle> is a chill friendly social guild. We're here to enjoy Shadowlands and take our time. Think of us like a cafe where you come to spend time with your friends doing Dungeons, Mythics, MountFarming, Raiding..We do all! /w to join the Family <3", -- [1]
 			"Kehrol-GrimBatol", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKehrol-GrimBatol|r",
 			[51] = 1604536136,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [50]
 		{
 			"stop recruiting for drug cartel", -- [1]
 			"Coalshaper-GrimBatol", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Coalshaper-GrimBatol|r",
 			[51] = 1604621957,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [51]
 		{
 			"we trying to watch the civil war here", -- [1]
 			"Coalshaper-GrimBatol", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Coalshaper-GrimBatol|r",
 			[51] = 1604621963,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [52]
 		{
 			"lmao", -- [1]
 			"Ragnâr-GrimBatol", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edRagnâr-GrimBatol|r",
 			[51] = 1604621968,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [53]
 		{
 			"<<NOVA>> Selling +M14 (85k) M+15  [90k]+ Lvl up+island cap+ Vision Full Run 5 Masks: 90k ; 5 Masks(AFK, loot only):70k Full Run NO MASK: 40k /w", -- [1]
 			"Novadm-Frostmane", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovadm|r",
 			[51] = 1604622124,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [54]
 		{
 			"Run for the hills...run for your lifeee...yap as vezes somos nós mas acima de tudo é um grande som dos Iron Maiden...«Cavaleiros do Apocalipse» entre fugas e grande metal estamos cá!sign up ou wisp para join", -- [1]
 			"Fofuxa-GrimBatol", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFofuxa-GrimBatol|r",
 			[51] = 1604622163,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [55]
 		{
 			"qualche veterano per un info?", -- [1]
 			"Chaddyz-Nemesis", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cChaddyz-Nemesis|r",
 			[51] = 1604622205,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [56]
 		{
 			"<<NOVA>> Selling +M14 (85k) M+15  [90k]+ Lvl up+island cap+ Vision Full Run 5 Masks: 90k ; 5 Masks(AFK, loot only):70k Full Run NO MASK: 40k /w", -- [1]
 			"Novadm-Frostmane", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNovadm|r",
 			[51] = 1604622617,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [57]
 		{
 			"Gostavas de evitar pedregulhos como o Indiana?Ou preferias dar uns force pushes como o Darth?Pois aqui vais aprender a ser o testdummie dos 2,mas sempre com estilo ;)«Cavaleiros do Apocalipse» for the lose,wisp or apply :D", -- [1]
 			"Fofuxa-GrimBatol", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFofuxa-GrimBatol|r",
 			[51] = 1604623624,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [58]
 		{
 			"«Cavaleiros do Apocalipse» Fome,porque não subimos o cooking.Peste,culpem os locks e os Dks.Guerra,porque duh isto tem pvp e a Morte,que significa muitos mas mesmo muitos corpse runs...é basicamente isto.Join and enjoy :D", -- [1]
 			"Fofuxa-GrimBatol", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaFofuxa-GrimBatol|r",
 			[51] = 1604623948,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [59]
 		{
 			"1", -- [1]
 			"Okabu-Frostmane", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Okabu|r",
 			[51] = 1604624568,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [60]
 		{
 			"Anyone need |cffa335ee|Hitem:118676::::::::33:105:::::::|h[Reins of the Emerald Drake]|h|r?", -- [1]
 			"Coblue-Frostmane", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Coblue|r",
 			[51] = 1604624574,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [61]
 		{
 			"whats the catch?", -- [1]
 			"Cezilie-GrimBatol", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cezilie-GrimBatol|r",
 			[51] = 1604624625,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [62]
 		{
 			"it cant be traded, he's trolling", -- [1]
 			"Cezilie-GrimBatol", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cezilie-GrimBatol|r",
 			[51] = 1604624637,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [63]
 		{
 			"that was what i thought as well", -- [1]
 			"Cezilie-GrimBatol", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cezilie-GrimBatol|r",
 			[51] = 1604624655,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [65]
+		}, -- [64]
 		{
 			"where the bleep is the boat", -- [1]
 			"Secretmurloc-GrimBatol", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSecretmurloc-GrimBatol|r",
 			[51] = 1604624719,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [65]
 		{
 			"want to go to Borean tundra", -- [1]
 			"Secretmurloc-GrimBatol", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSecretmurloc-GrimBatol|r",
 			[51] = 1604624729,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [66]
 		{
 			"Northwest", -- [1]
 			"Tranquiil-Aggra(Português)", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Tranquiil-Aggra(Português)|r",
 			[51] = 1604624766,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [67]
 		{
 			"are there any good WoD private servers?", -- [1]
 			"Tissweaver-GrimBatol", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Tissweaver-GrimBatol|r",
 			[51] = 1604624777,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [68]
 		{
 			"should be there, not sure whats wrong", -- [1]
 			"Tranquiil-Aggra(Português)", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Tranquiil-Aggra(Português)|r",
 			[51] = 1604624830,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [69]
 		{
 			"try opena  ticket for that", -- [1]
 			"Minikua-Aggra(Português)", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cMinikua-Aggra(Português)|r",
 			[51] = 1604624833,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [70]
 		{
 			"cant believe that i've seen a hunter who tamed 2 sheeps as pet", -- [1]
 			"Odpunisher-GrimBatol", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Odpunisher-GrimBatol|r",
 			[51] = 1604625217,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [71]
 		{
 			"cant stop laughing ", -- [1]
 			"Odpunisher-GrimBatol", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Odpunisher-GrimBatol|r",
 			[51] = 1604625227,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [72]
 		{
 			"arent we all just sheep", -- [1]
 			"Owltoy-Frostmane", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Owltoy|r",
 			[51] = 1604625241,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [73]
 		{
 			"why is that", -- [1]
 			"Odpunisher-GrimBatol", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Odpunisher-GrimBatol|r",
 			[51] = 1604625269,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [74]
 		{
 			"and here we go with the philosophers", -- [1]
 			"Sithlord-Aggra(Português)", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Sithlord-Aggra(Português)|r",
 			[51] = 1604625271,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [75]
 		{
 			"If a girl is raped and killed in the forest and noone sees it", -- [1]
 			"Owltoy-Frostmane", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Owltoy|r",
 			[51] = 1604625295,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [76]
 		{
 			"is she realy raped and killed?", -- [1]
 			"Owltoy-Frostmane", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Owltoy|r",
 			[51] = 1604625300,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [77]
 		{
 			"by the law nop", -- [1]
 			"Odpunisher-GrimBatol", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Odpunisher-GrimBatol|r",
 			[51] = 1604625313,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [78]
 		{
 			"the kind of topics on trade chat amaized me every time ", -- [1]
 			"Taíntedlove-Frostmane", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Taíntedlove|r",
 			[51] = 1604625329,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [79]
 		{
 			"dont be amaized, we are chating whats wrong with u", -- [1]
 			"Odpunisher-GrimBatol", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Odpunisher-GrimBatol|r",
 			[51] = 1604625345,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [80]
 		{
 			"it's ok just let me loot her gold and gear and all is good", -- [1]
 			"Beryll-GrimBatol", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Beryll-GrimBatol|r",
 			[51] = 1604625355,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [81]
 		{
 			"Beryll-GrimBatol you played on monster wow ? ", -- [1]
 			"Taíntedlove-Frostmane", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Taíntedlove|r",
 			[51] = 1604625381,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [82]
 		{
 			"Nope :/", -- [1]
 			"Beryll-GrimBatol", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Beryll-GrimBatol|r",
 			[51] = 1604625415,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [83]
 		{
 			"there was someone with the exactly same name ", -- [1]
 			"Taíntedlove-Frostmane", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Taíntedlove|r",
 			[51] = 1604625427,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [84]
 		{
 			"thought it might be you ", -- [1]
 			"Taíntedlove-Frostmane", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Taíntedlove|r",
 			[51] = 1604625433,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [85]
 		{
 			"Não sabes porque é que pêlos longos te atraem?Sonhas à noite com longos chifres,cascos de draenei e modelos de Undead?Junta-te aos Marretas e descobre que talvez sejas o único...Mas ao menos nós vamos-nos rir de ti!Marretas desde 2012 aqui para ti", -- [1]
 			"Unnämed-Aggra(Português)", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcUnnämed-Aggra(Português)|r",
 			[51] = 1604783078,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [86]
 		{
 			"|cff71d5ff|Htalent:22384|h[Never Surrender]|h|r", -- [1]
 			"Jãck-Frostmane", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cJãck|r",
 			[51] = 1604870795,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [87]
 		{
 			"Jack they are not french ", -- [1]
 			"Pènguin-Frostmane", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Pènguin|r",
 			[51] = 1604870806,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [88]
 		{
 			"You can call us cringe, you can call us what you what you'd like, we aim for a specific audience and it works wonders! =)", -- [1]
 			"Sarutoby-Aggra(Português)", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sarutoby-Aggra(Português)|r",
 			[51] = 1604871017,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [89]
 		{
 			"<Exempt> New mythic progression raiding guild looking for DPS to complete our raid team for Shadowlands. Raiding Wed & Thurs 20:00 - 23:00 /w me to join", -- [1]
 			"Meleph-Frostmane", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMeleph|r",
 			[51] = 1604871029,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [90]
 		{
 			"awesome for you cringy folks", -- [1]
 			"Doomcläw-GrimBatol", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Doomcläw-GrimBatol|r",
 			[51] = 1604871066,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [91]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1604871077,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [92]
 		{
 			"what does even Exempt mean ", -- [1]
 			"Pènguin-Frostmane", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Pènguin|r",
 			[51] = 1604871100,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [93]
 		{
 			"<Exempt> New mythic progression raiding guild looking for DPS (Spriest/Lock/DH) to complete our raid team for Shadowlands. Raiding Wed & Thurs 20:00 - 23:00 /w me to join", -- [1]
 			"Meleph-Frostmane", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMeleph|r",
 			[51] = 1604871166,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [94]
 		{
 			"If you don't like it, don't read it.", -- [1]
 			"Tsulong-Aggra(Português)", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
 			[51] = 1604871170,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [95]
 		{
 			"Noen norske guilder?", -- [1]
 			"Darcmark-GrimBatol", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Darcmark-GrimBatol|r",
 			[51] = 1604871195,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [96]
 		{
 			"Rare Mount Club (Frostmane/Aggra/Grim Batol) is looking for sociable active players to join us! We're a friendly guild of levellers/die hard mount hunters & raiders alike. We aim to do guild mount achieves, mount farm & chill. /w for inv!", -- [1]
 			"Lycheeboba-GrimBatol", -- [2]
@@ -2178,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLycheeboba-GrimBatol|r",
 			[51] = 1604960137,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [97]
 		{
 			"Wts |cffa335ee|Hitem:163574::::::::50:253::::1:28:805:::|h[Chewed-On Reins of the Terrified Pack Mule]|h|r", -- [1]
 			"Tyräh-Aggra(Português)", -- [2]
@@ -2199,6 +2177,28 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cffa9d271Tyräh-Aggra(Português)|r",
 			[51] = 1604960152,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Tribe of Protagonists är en gammal Svensk guild där vi hjälper varandra. Vi söker nu härliga människor till shadowlands som kan acceptera wipe and smile. Vi har tidigare progressat hc och mythic.  gärna 25+ /w för mer info", -- [1]
+			"Elbanker-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Elbanker-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-1303-0B699792", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaElbanker|r",
+			[51] = 1605212425,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

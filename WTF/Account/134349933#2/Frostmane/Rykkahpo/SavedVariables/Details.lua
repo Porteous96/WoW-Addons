@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["combat_counter"] = 951,
+	["combat_counter"] = 955,
 	["force_font_outline"] = "",
 	["tabela_instancias"] = {
 	},
@@ -132,14 +132,14 @@ _detalhes_database = {
 				[146739] = 172,
 				[324183] = true,
 				[196711] = true,
-				[317488] = 317485,
-				[75] = true,
 				[227847] = 50622,
+				[75] = true,
+				[317488] = 317485,
 				[199672] = 1943,
 				[227518] = true,
-				[222031] = 199547,
-				[85739] = 44949,
 				[190411] = 44949,
+				[85739] = 44949,
+				[222031] = 199547,
 				[201428] = true,
 				[147833] = 3411,
 				[199667] = 44949,
@@ -175,7 +175,12 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -183,18 +188,9 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["y"] = -74.9996948242188,
-			["x"] = 11.0000076293945,
-			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -206,14 +202,18 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["main_frame_strata"] = "LOW",
+			["x"] = 11.0000076293945,
+			["font_face"] = "Friz Quadrata TT",
+			["use_spark"] = true,
+			["font_size"] = 10,
+			["author"] = "Details! Team",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -298,8 +298,6 @@ _detalhes_database = {
 			["author"] = "Details! Team",
 		},
 	},
-	["on_death_menu"] = true,
-	["ignore_nicktag"] = false,
 	["last_encounter"] = "Garrosh Hellscream",
 	["nick_tag_cache"] = {
 		["nextreset"] = 1605392806,
@@ -397,9 +395,11 @@ _detalhes_database = {
 			3, -- [7]
 		},
 	},
-	["last_day"] = "11",
+	["on_death_menu"] = true,
+	["ignore_nicktag"] = false,
+	["last_day"] = "13",
 	["character_data"] = {
-		["logons"] = 191,
+		["logons"] = 193,
 	},
 	["combat_id"] = 36,
 	["savedStyles"] = {

@@ -166,10 +166,7 @@ AddOnSkinsDB = {
 			["Skada"] = true,
 			["Blizzard_Transmogrify"] = false,
 		},
-		["Meticulous - Tarren Mill"] = {
-			["Blizzard_WorldStateCaptureBar"] = false,
-			["Skada"] = true,
-			["Blizzard_Transmogrify"] = false,
+		["Preachx - Tarren Mill"] = {
 		},
 		["Sulivan - Tarren Mill"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
@@ -196,7 +193,7 @@ AddOnSkinsDB = {
 			["Immersion"] = false,
 			["Pawn"] = false,
 		},
-		["Preachx - Tarren Mill"] = {
+		["Spacegoatss - Frostmane"] = {
 		},
 		["Dlorange - Tarren Mill"] = {
 		},
@@ -254,7 +251,10 @@ AddOnSkinsDB = {
 			["Blizzard_Spellbook"] = false,
 			["Blizzard_Mail"] = false,
 		},
-		["Spacegoatss - Frostmane"] = {
+		["Meticulous - Tarren Mill"] = {
+			["Blizzard_WorldStateCaptureBar"] = false,
+			["Skada"] = true,
+			["Blizzard_Transmogrify"] = false,
 		},
 		["Preách - Tarren Mill"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,

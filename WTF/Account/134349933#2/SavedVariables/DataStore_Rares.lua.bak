@@ -25,7 +25,7 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1603563426,
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1605132160,
+				["lastUpdate"] = 1605317694,
 			},
 			["Default.Frostmane.Rykahwar"] = {
 				["lastUpdate"] = 1604962913,
@@ -37,41 +37,7 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1604101077,
 			},
 			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1605132587,
-				["Rares"] = {
-					[148787] = {
-						["resetTime"] = 550212,
-						["name"] = "Alash'anir",
-					},
-					[149652] = {
-						["resetTime"] = 550212,
-						["name"] = "Agathe Wyrmwood",
-					},
-					[89016] = {
-						["resetTime"] = 31812,
-						["name"] = "Ravyn-Drath",
-					},
-					[91113] = {
-						["resetTime"] = 31812,
-						["name"] = "Tide Behemoth",
-					},
-					[89850] = {
-						["resetTime"] = 31812,
-						["name"] = "The Oracle",
-					},
-					[106990] = {
-						["resetTime"] = 31812,
-						["name"] = "Chief Bitterbrine",
-					},
-					[90803] = {
-						["resetTime"] = 31812,
-						["name"] = "Infernal Lord",
-					},
-					[90901] = {
-						["resetTime"] = 31812,
-						["name"] = "Pridelord Meowl",
-					},
-				},
+				["lastUpdate"] = 1605295207,
 			},
 			["Default.Frostmane.Rykahpodh"] = {
 				["lastUpdate"] = 1604096619,
@@ -89,7 +55,7 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1604970970,
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1605045680,
+				["lastUpdate"] = 1605228780,
 			},
 			["Default.Frostmane.Rykahbolt"] = {
 				["lastUpdate"] = 1604102504,
@@ -98,10 +64,192 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1604172383,
 			},
 			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1605132549,
+				["lastUpdate"] = 1605295160,
 			},
 			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1605132470,
+				["lastUpdate"] = 1605388571,
+				["Rares"] = {
+					[91579] = {
+						["resetTime"] = 35028,
+						["name"] = "Doomlord Kazrok",
+					},
+					[103183] = {
+						["resetTime"] = 35028,
+						["name"] = "Rok'nash",
+					},
+					[100230] = {
+						["resetTime"] = 35028,
+						["name"] = "Amateur hunters",
+					},
+					[131262] = {
+						["resetTime"] = 35028,
+						["name"] = "Pack Leader Asenya",
+					},
+					[131404] = {
+						["resetTime"] = 35028,
+						["name"] = "Foreman Scripps",
+					},
+					[97793] = {
+						["resetTime"] = 35028,
+						["name"] = "Flamescale",
+					},
+					[136413] = {
+						["resetTime"] = 35028,
+						["name"] = "Syrawon the Dominus",
+					},
+					[128553] = {
+						["resetTime"] = 35028,
+						["name"] = "Azer'tor",
+					},
+					[138863] = {
+						["resetTime"] = 35028,
+						["name"] = "Sister Martha",
+					},
+					[97203] = {
+						["resetTime"] = 35028,
+						["name"] = "Tenpak Flametotem",
+					},
+					[149652] = {
+						["resetTime"] = 294228,
+						["name"] = "Agathe Wyrmwood",
+					},
+					[111197] = {
+						["resetTime"] = 35028,
+						["name"] = "Anax",
+					},
+					[97215] = {
+						["resetTime"] = 35028,
+						["name"] = "Beastmaster Pao'lek",
+					},
+					[100495] = {
+						["resetTime"] = 35028,
+						["name"] = "Devouring Darkness",
+					},
+					[92763] = {
+						["resetTime"] = 35028,
+						["name"] = "The Nameless King",
+					},
+					[103827] = {
+						["resetTime"] = 35028,
+						["name"] = "King Morgalash",
+					},
+					[148787] = {
+						["resetTime"] = 294228,
+						["name"] = "Alash'anir",
+					},
+					[112497] = {
+						["resetTime"] = 35028,
+						["name"] = "Maia the White Wolf",
+					},
+					[92152] = {
+						["resetTime"] = 35028,
+						["name"] = "Whitewater Typhoon",
+					},
+					[132179] = {
+						["resetTime"] = 35028,
+						["name"] = "Raging Swell",
+					},
+					[107657] = {
+						["resetTime"] = 35028,
+						["name"] = "Arcanist Shal'iman",
+					},
+					[97933] = {
+						["resetTime"] = 35028,
+						["name"] = "Crab Rider Grmlrml",
+					},
+					[91529] = {
+						["resetTime"] = 35028,
+						["name"] = "Glimar Ironfist",
+					},
+					[132211] = {
+						["resetTime"] = 35028,
+						["name"] = "Fowlmouth",
+					},
+					[92599] = {
+						["resetTime"] = 35028,
+						["name"] = "Bloodstalker Alpha",
+					},
+					[96590] = {
+						["resetTime"] = 35028,
+						["name"] = "Gurbog da Basher",
+					},
+					[92751] = {
+						["resetTime"] = 35028,
+						["name"] = "Ivory Sentinel",
+					},
+					[136338] = {
+						["resetTime"] = 35028,
+						["name"] = "Sirokar",
+					},
+					[128973] = {
+						["resetTime"] = 35028,
+						["name"] = "Whargarble the Ill-Tempered",
+					},
+					[110340] = {
+						["resetTime"] = 35028,
+						["name"] = "Myonix",
+					},
+					[98311] = {
+						["resetTime"] = 35028,
+						["name"] = "Mrrklr",
+					},
+					[109054] = {
+						["resetTime"] = 35028,
+						["name"] = "Shal'an",
+					},
+					[94413] = {
+						["resetTime"] = 35028,
+						["name"] = "Isel the Hammer",
+					},
+					[98890] = {
+						["resetTime"] = 35028,
+						["name"] = "Slumber",
+					},
+					[124548] = {
+						["resetTime"] = 35028,
+						["name"] = "Betsy",
+					},
+					[134638] = {
+						["resetTime"] = 35028,
+						["name"] = "Warlord Zothix",
+					},
+					[141029] = {
+						["resetTime"] = 35028,
+						["name"] = "Kickers",
+					},
+					[101077] = {
+						["resetTime"] = 35028,
+						["name"] = "Sekhan",
+					},
+					[99792] = {
+						["resetTime"] = 35028,
+						["name"] = "Elfbane",
+					},
+					[91795] = {
+						["resetTime"] = 35028,
+						["name"] = "Stormdrake Matriarch",
+					},
+					[96621] = {
+						["resetTime"] = 35028,
+						["name"] = "Mellok, Son of Torok ",
+					},
+					[110577] = {
+						["resetTime"] = 35028,
+						["name"] = "Oreth the Vile",
+					},
+					[126142] = {
+						["resetTime"] = 35028,
+						["name"] = "Bajiatha",
+					},
+					[96410] = {
+						["resetTime"] = 35028,
+						["name"] = "Majestic Elderhorn",
+					},
+					[97449] = {
+						["resetTime"] = 35028,
+						["name"] = "Bristlemaul",
+					},
+				},
 			},
 			["Default.Frostmane.Rykahshaman"] = {
 				["lastUpdate"] = 1603923248,
