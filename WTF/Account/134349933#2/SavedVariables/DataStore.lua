@@ -2,21 +2,21 @@
 DataStoreDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
-		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
-		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
-		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
-		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
-		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
-		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
+		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
-		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
+		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
+		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
@@ -27,12 +27,12 @@ DataStoreDB = {
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
-		["Rykah - Frostmane"] = "Rykah - Frostmane",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 	},
 	["global"] = {
 		["Guilds"] = {
@@ -45,7 +45,7 @@ DataStoreDB = {
 			["Default.Frostmane.Kivis Hörna"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Frostmane.The Elders"] = {
+			["Default.Frostmane.Unleash The Beast"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Critical Error"] = {
@@ -54,7 +54,7 @@ DataStoreDB = {
 			["Default.Frostmane.bank me daddy"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Frostmane.Unleash The Beast"] = {
+			["Default.Frostmane.The Elders"] = {
 				["faction"] = "Alliance",
 			},
 		},
@@ -67,31 +67,32 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Rykah"] = {
+				["faction"] = "Alliance",
 				["guildName"] = "Kivis Hörna",
-				["faction"] = "Alliance",
-			},
-			["Default.Frostmane.Blissard"] = {
-				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Rykahshaman"] = {
-				["faction"] = "Alliance",
-			},
-			["Default.Doomhammer.Rykahpo"] = {
-				["faction"] = "Alliance",
-			},
-			["Default.Frostmane.Rykahhpo"] = {
-				["guildName"] = "Velvet",
-				["faction"] = "Alliance",
-			},
-			["Default.Frostmane.Rykahpo"] = {
-				["guildName"] = "Velvet",
 				["faction"] = "Alliance",
 			},
 			["Default.Defias Brotherhood.Mechaboost"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Frostmane.Rykahbolt"] = {
+			["Default.Doomhammer.Rykahpo"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Frostmane.Rykkahpo"] = {
+				["faction"] = "Alliance",
 				["guildName"] = "Velvet",
+			},
+			["Default.Frostmane.Rykahpo"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Velvet",
+			},
+			["Default.Frostmane.Rÿkah"] = {
+				["guildName"] = "Velvet",
+				["faction"] = "Alliance",
+			},
+			["Default.Frostmane.Bankypo"] = {
+				["guildName"] = "bank me daddy",
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Rykahwar"] = {
@@ -101,33 +102,30 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Rykahdruid"] = {
-				["guildName"] = "Velvet",
 				["faction"] = "Alliance",
+				["guildName"] = "Velvet",
 			},
-			["Default.Frostmane.Rykkahpo"] = {
-				["guildName"] = "Velvet",
+			["Default.Frostmane.Rykahhpo"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "Velvet",
 			},
 			["Default.Sylvanas.Mechaboost"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Rykahpodh"] = {
-				["guildName"] = "Velvet",
-				["faction"] = "Alliance",
-			},
-			["Default.Frostmane.Rÿkah"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Velvet",
 			},
-			["Default.Frostmane.Rykahpoo"] = {
+			["Default.Frostmane.Blissard"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Roiyaru",
+			},
+			["Default.Frostmane.Rykahpriest"] = {
+				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Advboi"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Frostmane.Rykahpoa"] = {
-				["guildName"] = "The Elders",
+			["Default.Frostmane.Rykahpow"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Rykahthree"] = {
@@ -136,25 +134,27 @@ DataStoreDB = {
 			["Default.Silvermoon.Mechaboost"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Turalyon.Rykahboost"] = {
-				["faction"] = "Alliance",
-			},
 			["Default.Frostmane.Rykahpala"] = {
+				["faction"] = "Alliance",
 				["guildName"] = "Unleash The Beast",
+			},
+			["Default.Turalyon.Rykahboost"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Aggramar.Rykahboost"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Frostmane.Rykahpow"] = {
+			["Default.Frostmane.Rykahpoa"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "The Elders",
+			},
+			["Default.Frostmane.Rykahpoo"] = {
+				["guildName"] = "Roiyaru",
 				["faction"] = "Alliance",
 			},
-			["Default.Frostmane.Rykahpriest"] = {
+			["Default.Frostmane.Rykahbolt"] = {
 				["faction"] = "Alliance",
-			},
-			["Default.Frostmane.Bankypo"] = {
-				["faction"] = "Alliance",
-				["guildName"] = "bank me daddy",
+				["guildName"] = "Velvet",
 			},
 			["Default.Aggramar.Rcumplus"] = {
 				["faction"] = "Alliance",
@@ -163,8 +163,8 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Rykahpoh"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Velvet",
+				["faction"] = "Alliance",
 			},
 			["Default.Kazzak.Rykahpodh"] = {
 				["faction"] = "Horde",
@@ -177,9 +177,9 @@ DataStoreDB = {
 			["Silvermoon"] = "Silvermoon",
 			["GrimBatol"] = "Grim Batol",
 			["Frostmane"] = "Frostmane",
-			["Turalyon"] = "Turalyon",
-			["Kazzak"] = "Kazzak",
 			["Doomhammer"] = "Doomhammer",
+			["Kazzak"] = "Kazzak",
+			["Turalyon"] = "Turalyon",
 		},
 	},
 }

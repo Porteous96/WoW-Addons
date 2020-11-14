@@ -14,10 +14,10 @@ DataStore_RaresDB = {
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -37,7 +37,41 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1604101077,
 			},
 			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1605295207,
+				["lastUpdate"] = 1605388682,
+				["Rares"] = {
+					[148787] = {
+						["resetTime"] = 294117,
+						["name"] = "Alash'anir",
+					},
+					[149652] = {
+						["resetTime"] = 294117,
+						["name"] = "Agathe Wyrmwood",
+					},
+					[89016] = {
+						["resetTime"] = 34917,
+						["name"] = "Ravyn-Drath",
+					},
+					[91113] = {
+						["resetTime"] = 34917,
+						["name"] = "Tide Behemoth",
+					},
+					[89850] = {
+						["resetTime"] = 34917,
+						["name"] = "The Oracle",
+					},
+					[106990] = {
+						["resetTime"] = 34917,
+						["name"] = "Chief Bitterbrine",
+					},
+					[90803] = {
+						["resetTime"] = 34917,
+						["name"] = "Infernal Lord",
+					},
+					[90901] = {
+						["resetTime"] = 34917,
+						["name"] = "Pridelord Meowl",
+					},
+				},
 			},
 			["Default.Frostmane.Rykahpodh"] = {
 				["lastUpdate"] = 1604096619,
@@ -51,72 +85,26 @@ DataStore_RaresDB = {
 			["Default.Frostmane.Rykahpala"] = {
 				["lastUpdate"] = 1603840530,
 			},
-			["Default.Frostmane.Rykahshaman"] = {
-				["lastUpdate"] = 1603923248,
-			},
-			["Default.Frostmane.Rykahbolt"] = {
-				["lastUpdate"] = 1604102504,
+			["Default.Frostmane.Rykahpriest"] = {
+				["lastUpdate"] = 1604970970,
 			},
 			["Default.Frostmane.Bankypo"] = {
 				["lastUpdate"] = 1605228780,
 			},
-			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1605388633,
-				["Rares"] = {
-					[130138] = {
-						["resetTime"] = 34966,
-						["name"] = "Nevermore",
-					},
-					[134638] = {
-						["resetTime"] = 34966,
-						["name"] = "Warlord Zothix",
-					},
-					[148787] = {
-						["resetTime"] = 294166,
-						["name"] = "Alash'anir",
-					},
-					[128973] = {
-						["resetTime"] = 34966,
-						["name"] = "Whargarble the Ill-Tempered",
-					},
-					[96410] = {
-						["resetTime"] = 34966,
-						["name"] = "Majestic Elderhorn",
-					},
-					[96621] = {
-						["resetTime"] = 34966,
-						["name"] = "Mellok, Son of Torok ",
-					},
-					[149652] = {
-						["resetTime"] = 294166,
-						["name"] = "Agathe Wyrmwood",
-					},
-					[125453] = {
-						["resetTime"] = 34966,
-						["name"] = "Quillrat Matriarch",
-					},
-					[97793] = {
-						["resetTime"] = 34966,
-						["name"] = "Flamescale",
-					},
-					[124548] = {
-						["resetTime"] = 34966,
-						["name"] = "Betsy",
-					},
-					[97203] = {
-						["resetTime"] = 34966,
-						["name"] = "Tenpak Flametotem",
-					},
-				},
+			["Default.Frostmane.Rykahbolt"] = {
+				["lastUpdate"] = 1604102504,
 			},
 			["Default.Frostmane.Rykahpoo"] = {
 				["lastUpdate"] = 1604172383,
 			},
+			["Default.Frostmane.Rykahhpo"] = {
+				["lastUpdate"] = 1605388633,
+			},
 			["Default.Frostmane.Rykahpoh"] = {
 				["lastUpdate"] = 1605388571,
 			},
-			["Default.Frostmane.Rykahpriest"] = {
-				["lastUpdate"] = 1604970970,
+			["Default.Frostmane.Rykahshaman"] = {
+				["lastUpdate"] = 1603923248,
 			},
 		},
 	},

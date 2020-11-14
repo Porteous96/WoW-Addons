@@ -6,13 +6,13 @@ TomCats_Account = {
 		["Rares Log Toggle"] = true,
 	},
 	["preferences"] = {
-		["TomCatsWorldmapRaresButton118"] = {
+		["TomCatsBundledDeathsRisingMinimapButton"] = {
 			["position"] = -2.657094711587241,
 		},
 		["TomCatsMinimapButton"] = {
 			["position"] = 3,
 		},
-		["TomCatsBundledDeathsRisingMinimapButton"] = {
+		["TomCatsWorldmapRaresButton118"] = {
 			["position"] = -2.657094711587241,
 		},
 	},

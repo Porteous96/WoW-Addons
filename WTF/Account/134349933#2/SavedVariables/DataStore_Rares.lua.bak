@@ -14,10 +14,10 @@ DataStore_RaresDB = {
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -51,208 +51,72 @@ DataStore_RaresDB = {
 			["Default.Frostmane.Rykahpala"] = {
 				["lastUpdate"] = 1603840530,
 			},
-			["Default.Frostmane.Rykahpriest"] = {
-				["lastUpdate"] = 1604970970,
-			},
-			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1605228780,
+			["Default.Frostmane.Rykahshaman"] = {
+				["lastUpdate"] = 1603923248,
 			},
 			["Default.Frostmane.Rykahbolt"] = {
 				["lastUpdate"] = 1604102504,
 			},
-			["Default.Frostmane.Rykahpoo"] = {
-				["lastUpdate"] = 1604172383,
+			["Default.Frostmane.Bankypo"] = {
+				["lastUpdate"] = 1605228780,
 			},
 			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1605295160,
-			},
-			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1605388571,
+				["lastUpdate"] = 1605388633,
 				["Rares"] = {
-					[91579] = {
-						["resetTime"] = 35028,
-						["name"] = "Doomlord Kazrok",
-					},
-					[103183] = {
-						["resetTime"] = 35028,
-						["name"] = "Rok'nash",
-					},
-					[100230] = {
-						["resetTime"] = 35028,
-						["name"] = "Amateur hunters",
-					},
-					[131262] = {
-						["resetTime"] = 35028,
-						["name"] = "Pack Leader Asenya",
-					},
-					[131404] = {
-						["resetTime"] = 35028,
-						["name"] = "Foreman Scripps",
-					},
-					[97793] = {
-						["resetTime"] = 35028,
-						["name"] = "Flamescale",
-					},
-					[136413] = {
-						["resetTime"] = 35028,
-						["name"] = "Syrawon the Dominus",
-					},
-					[128553] = {
-						["resetTime"] = 35028,
-						["name"] = "Azer'tor",
-					},
-					[138863] = {
-						["resetTime"] = 35028,
-						["name"] = "Sister Martha",
-					},
-					[97203] = {
-						["resetTime"] = 35028,
-						["name"] = "Tenpak Flametotem",
-					},
-					[149652] = {
-						["resetTime"] = 294228,
-						["name"] = "Agathe Wyrmwood",
-					},
-					[111197] = {
-						["resetTime"] = 35028,
-						["name"] = "Anax",
-					},
-					[97215] = {
-						["resetTime"] = 35028,
-						["name"] = "Beastmaster Pao'lek",
-					},
-					[100495] = {
-						["resetTime"] = 35028,
-						["name"] = "Devouring Darkness",
-					},
-					[92763] = {
-						["resetTime"] = 35028,
-						["name"] = "The Nameless King",
-					},
-					[103827] = {
-						["resetTime"] = 35028,
-						["name"] = "King Morgalash",
-					},
-					[148787] = {
-						["resetTime"] = 294228,
-						["name"] = "Alash'anir",
-					},
-					[112497] = {
-						["resetTime"] = 35028,
-						["name"] = "Maia the White Wolf",
-					},
-					[92152] = {
-						["resetTime"] = 35028,
-						["name"] = "Whitewater Typhoon",
-					},
-					[132179] = {
-						["resetTime"] = 35028,
-						["name"] = "Raging Swell",
-					},
-					[107657] = {
-						["resetTime"] = 35028,
-						["name"] = "Arcanist Shal'iman",
-					},
-					[97933] = {
-						["resetTime"] = 35028,
-						["name"] = "Crab Rider Grmlrml",
-					},
-					[91529] = {
-						["resetTime"] = 35028,
-						["name"] = "Glimar Ironfist",
-					},
-					[132211] = {
-						["resetTime"] = 35028,
-						["name"] = "Fowlmouth",
-					},
-					[92599] = {
-						["resetTime"] = 35028,
-						["name"] = "Bloodstalker Alpha",
-					},
-					[96590] = {
-						["resetTime"] = 35028,
-						["name"] = "Gurbog da Basher",
-					},
-					[92751] = {
-						["resetTime"] = 35028,
-						["name"] = "Ivory Sentinel",
-					},
-					[136338] = {
-						["resetTime"] = 35028,
-						["name"] = "Sirokar",
-					},
-					[128973] = {
-						["resetTime"] = 35028,
-						["name"] = "Whargarble the Ill-Tempered",
-					},
-					[110340] = {
-						["resetTime"] = 35028,
-						["name"] = "Myonix",
-					},
-					[98311] = {
-						["resetTime"] = 35028,
-						["name"] = "Mrrklr",
-					},
-					[109054] = {
-						["resetTime"] = 35028,
-						["name"] = "Shal'an",
-					},
-					[94413] = {
-						["resetTime"] = 35028,
-						["name"] = "Isel the Hammer",
-					},
-					[98890] = {
-						["resetTime"] = 35028,
-						["name"] = "Slumber",
-					},
-					[124548] = {
-						["resetTime"] = 35028,
-						["name"] = "Betsy",
+					[130138] = {
+						["resetTime"] = 34966,
+						["name"] = "Nevermore",
 					},
 					[134638] = {
-						["resetTime"] = 35028,
+						["resetTime"] = 34966,
 						["name"] = "Warlord Zothix",
 					},
-					[141029] = {
-						["resetTime"] = 35028,
-						["name"] = "Kickers",
+					[148787] = {
+						["resetTime"] = 294166,
+						["name"] = "Alash'anir",
 					},
-					[101077] = {
-						["resetTime"] = 35028,
-						["name"] = "Sekhan",
-					},
-					[99792] = {
-						["resetTime"] = 35028,
-						["name"] = "Elfbane",
-					},
-					[91795] = {
-						["resetTime"] = 35028,
-						["name"] = "Stormdrake Matriarch",
-					},
-					[96621] = {
-						["resetTime"] = 35028,
-						["name"] = "Mellok, Son of Torok ",
-					},
-					[110577] = {
-						["resetTime"] = 35028,
-						["name"] = "Oreth the Vile",
-					},
-					[126142] = {
-						["resetTime"] = 35028,
-						["name"] = "Bajiatha",
+					[128973] = {
+						["resetTime"] = 34966,
+						["name"] = "Whargarble the Ill-Tempered",
 					},
 					[96410] = {
-						["resetTime"] = 35028,
+						["resetTime"] = 34966,
 						["name"] = "Majestic Elderhorn",
 					},
-					[97449] = {
-						["resetTime"] = 35028,
-						["name"] = "Bristlemaul",
+					[96621] = {
+						["resetTime"] = 34966,
+						["name"] = "Mellok, Son of Torok ",
+					},
+					[149652] = {
+						["resetTime"] = 294166,
+						["name"] = "Agathe Wyrmwood",
+					},
+					[125453] = {
+						["resetTime"] = 34966,
+						["name"] = "Quillrat Matriarch",
+					},
+					[97793] = {
+						["resetTime"] = 34966,
+						["name"] = "Flamescale",
+					},
+					[124548] = {
+						["resetTime"] = 34966,
+						["name"] = "Betsy",
+					},
+					[97203] = {
+						["resetTime"] = 34966,
+						["name"] = "Tenpak Flametotem",
 					},
 				},
 			},
-			["Default.Frostmane.Rykahshaman"] = {
-				["lastUpdate"] = 1603923248,
+			["Default.Frostmane.Rykahpoo"] = {
+				["lastUpdate"] = 1604172383,
+			},
+			["Default.Frostmane.Rykahpoh"] = {
+				["lastUpdate"] = 1605388571,
+			},
+			["Default.Frostmane.Rykahpriest"] = {
+				["lastUpdate"] = 1604970970,
 			},
 		},
 	},

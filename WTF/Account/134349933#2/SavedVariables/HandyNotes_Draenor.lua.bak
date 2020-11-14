@@ -2,10 +2,10 @@
 HandyNotesDraenorDB = {
 	["profileKeys"] = {
 		["Rykahhpo - Frostmane"] = "Default",
-		["Rykahpo - Frostmane"] = "Default",
+		["Rykahpoh - Frostmane"] = "Default",
+		["Rykahpoo - Frostmane"] = "Default",
 		["Rykahdruid - Frostmane"] = "Default",
-		["Rykkahpo - Frostmane"] = "Default",
-		["Rykahtwo - Frostmane"] = "Default",
+		["Rykahpriest - Frostmane"] = "Default",
 		["Rykahpala - Frostmane"] = "Default",
 		["Rÿkah - Frostmane"] = "Default",
 		["Rykahpodh - Frostmane"] = "Default",
@@ -14,9 +14,9 @@ HandyNotesDraenorDB = {
 		["Rykahshaman - Frostmane"] = "Default",
 		["Rykahwar - Frostmane"] = "Default",
 		["Bankypo - Frostmane"] = "Default",
-		["Rykahpriest - Frostmane"] = "Default",
-		["Rykahpoo - Frostmane"] = "Default",
-		["Rykahpoh - Frostmane"] = "Default",
+		["Rykahtwo - Frostmane"] = "Default",
+		["Rykkahpo - Frostmane"] = "Default",
+		["Rykahpo - Frostmane"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

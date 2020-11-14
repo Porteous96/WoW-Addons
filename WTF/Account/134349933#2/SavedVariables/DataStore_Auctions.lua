@@ -2,21 +2,21 @@
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
-		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
-		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
-		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
-		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
-		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
-		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
+		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
-		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
+		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
+		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
@@ -27,12 +27,12 @@ DataStore_AuctionsDB = {
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
-		["Rykah - Frostmane"] = "Rykah - Frostmane",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -45,18 +45,21 @@ DataStore_AuctionsDB = {
 			["Default.Silvermoon.Mechaboost"] = {
 				["lastUpdate"] = 1594772140,
 			},
-			["Default.Sylvanas.Mechaboost"] = {
-				["lastUpdate"] = 1594773423,
+			["Default.Frostmane.Rykahpoh"] = {
+				["lastUpdate"] = 1602013456,
 			},
 			["Default.Frostmane.Rykahpo"] = {
 				["lastUpdate"] = 1605299796,
 				["lastVisitDate"] = "2020/08/21 23:29",
 			},
-			["Default.Frostmane.Rykahpoo"] = {
-				["lastUpdate"] = 1604105930,
+			["Default.Frostmane.Rykahhpo"] = {
+				["lastUpdate"] = 1604176239,
 			},
 			["Default.Defias Brotherhood.Mechaboost"] = {
 				["lastUpdate"] = 1594773113,
+			},
+			["Default.Frostmane.Rykahbolt"] = {
+				["lastUpdate"] = 1601064961,
 			},
 			["Default.Frostmane.Bankypo"] = {
 				["lastUpdate"] = 1605228939,
@@ -72,17 +75,14 @@ DataStore_AuctionsDB = {
 				},
 				["lastVisitDate"] = "2020/10/04 21:29",
 			},
-			["Default.Frostmane.Rykahbolt"] = {
-				["lastUpdate"] = 1601064961,
-			},
 			["Default.Aggramar.Rcumplus"] = {
 				["lastUpdate"] = 1602186668,
 			},
-			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1604176239,
+			["Default.Frostmane.Rykahpoo"] = {
+				["lastUpdate"] = 1604105930,
 			},
-			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1602013456,
+			["Default.Sylvanas.Mechaboost"] = {
+				["lastUpdate"] = 1594773423,
 			},
 			["Default.Frostmane.Rykahpodh"] = {
 				["lastUpdate"] = 1602880180,

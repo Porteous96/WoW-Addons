@@ -12,53 +12,53 @@ HandyNotes_LegionTreasuresDB = {
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
 		["Morallygrey - Frostmane"] = "Morallygrey - Frostmane",
 		["Chuggernuts - Tarren Mill"] = "Chuggernuts - Tarren Mill",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahdk - Kazzak"] = "Rykahdk - Kazzak",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
-		["Spacegoatss - Frostmane"] = "Spacegoatss - Frostmane",
-		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
-		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
-		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
-		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
 		["Preachx - Tarren Mill"] = "Preachx - Tarren Mill",
-		["Deletemelool - Frostmane"] = "Deletemelool - Frostmane",
+		["Meticulous - Tarren Mill"] = "Meticulous - Tarren Mill",
 		["Preacherino - Tarren Mill"] = "Preacherino - Tarren Mill",
+		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
+		["Iujahwdihaip - Frostmane"] = "Iujahwdihaip - Frostmane",
+		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
+		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Deletemelool - Frostmane"] = "Deletemelool - Frostmane",
+		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Preách - Tarren Mill"] = "Preách - Tarren Mill",
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
 		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
-		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
-		["Toutsweet - Tarren Mill"] = "Toutsweet - Tarren Mill",
 		["Dlory - Tarren Mill"] = "Dlory - Tarren Mill",
+		["Toutsweet - Tarren Mill"] = "Toutsweet - Tarren Mill",
+		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Mastarace - Kazzak"] = "Mastarace - Kazzak",
-		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
-		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Preacho - Tarren Mill"] = "Preacho - Tarren Mill",
+		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
 		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
+		["Rykahtony - Frostmane"] = "Rykahtony - Frostmane",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Preech - Tarren Mill"] = "Preech - Tarren Mill",
 		["Rykkahpo - Frostmane"] = "Rykkahpo - Frostmane",
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahthree - Frostmane"] = "Rykahthree - Frostmane",
 		["Sulivan - Tarren Mill"] = "Sulivan - Tarren Mill",
-		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
+		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Swobuswagins - Tarren Mill"] = "Swobuswagins - Tarren Mill",
-		["Iujahwdihaip - Frostmane"] = "Iujahwdihaip - Frostmane",
+		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
-		["Meticulous - Tarren Mill"] = "Meticulous - Tarren Mill",
+		["Spacegoatss - Frostmane"] = "Spacegoatss - Frostmane",
 		["Dlorange - Tarren Mill"] = "Dlorange - Tarren Mill",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 	},
 	["profiles"] = {
 		["Rykaahpo - Frostmane"] = {
@@ -83,31 +83,31 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Chuggernuts - Tarren Mill"] = {
 		},
-		["Rykahboost - Aggramar"] = {
+		["Rykahbolt - Frostmane"] = {
 		},
 		["Rykahdk - Kazzak"] = {
 		},
 		["Advboi - Frostmane"] = {
 		},
-		["Spacegoatss - Frostmane"] = {
-		},
-		["Rykahpoo - Frostmane"] = {
-		},
-		["Rykahpo - Doomhammer"] = {
-		},
-		["Rykahtwo - Frostmane"] = {
-		},
-		["Ryykahpo - Frostmane"] = {
-		},
-		["Slywithapet - Frostmane"] = {
-		},
-		["Rykahshaman - Frostmane"] = {
+		["Blissard - Frostmane"] = {
 		},
 		["Preachx - Tarren Mill"] = {
 		},
-		["Deletemelool - Frostmane"] = {
+		["Meticulous - Tarren Mill"] = {
 		},
 		["Preacherino - Tarren Mill"] = {
+		},
+		["Ryykahpo - Frostmane"] = {
+		},
+		["Iujahwdihaip - Frostmane"] = {
+		},
+		["Rykahshaman - Frostmane"] = {
+		},
+		["Rykahpoo - Frostmane"] = {
+		},
+		["Deletemelool - Frostmane"] = {
+		},
+		["Rykahtwo - Frostmane"] = {
 		},
 		["Mechaboost - Sylvanas"] = {
 		},
@@ -115,37 +115,37 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Rykahboost - Turalyon"] = {
 		},
-		["Bankypo - Frostmane"] = {
+		["Rÿkah - Frostmane"] = {
 		},
 		["Rykahpow - Frostmane"] = {
 		},
 		["Rykahdruid - Frostmane"] = {
 		},
-		["Rykahpoa - Frostmane"] = {
+		["Dlory - Tarren Mill"] = {
 		},
 		["Toutsweet - Tarren Mill"] = {
 		},
-		["Dlory - Tarren Mill"] = {
+		["Rykahpoa - Frostmane"] = {
 		},
 		["Rykahpriest - Frostmane"] = {
 		},
 		["Mastarace - Kazzak"] = {
 		},
-		["Rykahtony - Frostmane"] = {
+		["Preacho - Tarren Mill"] = {
 		},
 		["Chatmademe - Kazzak"] = {
 		},
-		["Advboi - Grim Batol"] = {
-		},
-		["Preacho - Tarren Mill"] = {
-		},
 		["Préach - Tarren Mill"] = {
+		},
+		["Rykahtony - Frostmane"] = {
+		},
+		["Advboi - Grim Batol"] = {
 		},
 		["Preachez - Tarren Mill"] = {
 		},
-		["Rykahpo - Frostmane"] = {
-		},
 		["Rykahhpo - Frostmane"] = {
+		},
+		["Rykahpo - Frostmane"] = {
 		},
 		["Rcumplus - Aggramar"] = {
 		},
@@ -159,23 +159,23 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Sulivan - Tarren Mill"] = {
 		},
-		["Rÿkah - Frostmane"] = {
+		["Bankypo - Frostmane"] = {
 		},
 		["Swobuswagins - Tarren Mill"] = {
 		},
-		["Iujahwdihaip - Frostmane"] = {
+		["Slywithapet - Frostmane"] = {
 		},
 		["Rykah - Frostmane"] = {
 		},
-		["Meticulous - Tarren Mill"] = {
+		["Spacegoatss - Frostmane"] = {
 		},
 		["Dlorange - Tarren Mill"] = {
 		},
-		["Blissard - Frostmane"] = {
+		["Rykahpo - Doomhammer"] = {
 		},
 		["Mechaboost - Silvermoon"] = {
 		},
-		["Rykahbolt - Frostmane"] = {
+		["Rykahboost - Aggramar"] = {
 		},
 	},
 }
