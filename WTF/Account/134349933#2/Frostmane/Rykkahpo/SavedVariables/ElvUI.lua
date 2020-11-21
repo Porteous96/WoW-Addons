@@ -24,776 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"civil war prep 101 chat", -- [1]
-			"Coalshaper-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Coalshaper-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3657, -- [11]
-			"Player-1303-0B18F312", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Coalshaper-GrimBatol|r",
-			[51] = 1604532736,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"alah ackbar?", -- [1]
-			"Evilsamigina-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Evilsamigina-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3670, -- [11]
-			"Player-1303-0B699C15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Evilsamigina|r",
-			[51] = 1604532746,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"Tribe of Protagonists är en gammal Svensk guild där vi hjälper varandra. Vi söker nu härliga människor till shadowlands som kan acceptera wipe and smile. Vi har tidigare progressat hc och mythic.  gärna 25+ /w för mer info", -- [1]
-			"Elbanker-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elbanker-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3734, -- [11]
-			"Player-1303-0B699792", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaElbanker|r",
-			[51] = 1604532796,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"Não sabes porque é que pêlos longos te atraem?Sonhas à noite com longos chifres,cascos de draenei e modelos de Undead?Junta-te aos Marretas e descobre que talvez sejas o único...Mas ao menos nós vamos-nos rir de ti!Marretas desde 2012 aqui para ti", -- [1]
-			"Unnämed-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Unnämed-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3758, -- [11]
-			"Player-1303-05974B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcUnnämed-Aggra(Português)|r",
-			[51] = 1604532814,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"yeh like its a competition", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3801, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604532848,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [5]
-		{
-			">forgive me guay for I am in love with another person's art ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3824, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604532867,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [6]
-		{
-			"Who dod insta bid goldcap on the tiger, please /w me", -- [1]
-			"Hallibell-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hallibell-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3975, -- [11]
-			"Player-1303-0B693CB1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Hallibell|r",
-			[51] = 1604532998,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:578:Player-1303-0B699C33:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[The Dedicated Few (10 player)]|h|r!", -- [1]
-			"Devereux-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Devereux-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3976, -- [11]
-			"Player-1303-0B699C33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edDevereux|r",
-			[51] = 1604533016,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [8]
-		{
-			"austere command is in this set", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4145, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533187,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [9]
-		{
-			"inb4 all of them but cryptic", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4153, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533193,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [10]
-		{
-			"oh yeah baby ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4269, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533283,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [11]
-		{
-			"gimme that prima command", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4274, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533287,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [12]
-		{
-			"primal*", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4291, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533299,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [13]
-		{
-			"LFGuild Portuguesa", -- [1]
-			"Ragnorra-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ragnorra-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4384, -- [11]
-			"Player-1303-0B9C5017", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Ragnorra-Aggra(Português)|r",
-			[51] = 1604533373,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"do you want me to send you a good thread", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4399, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533383,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [15]
-		{
-			"and by good ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4402, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533385,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [16]
-		{
-			"i mean lump removing", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4413, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533394,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [17]
-		{
-			"this is the #pauper killer", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4422, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533401,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [18]
-		{
-			"sure", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4430, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533406,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [19]
-		{
-			"Hunter confirmed coolest specc SL", -- [1]
-			"Coalshaper-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Coalshaper-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4437, -- [11]
-			"Player-1303-0B18F312", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Coalshaper-GrimBatol|r",
-			[51] = 1604533410,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"Perdido?Confuso?Lutando conta o vicio do jogo?|cffffd100|HclubFinder:ClubFinder-1-82893-1303-34609499|h[Guild: Os Marretas]|h|r entendente e estamos aqui se tu precisares de um abraço. O primeiro é gratuito, o segundo custará a tua  ALMA. Ou um donut!", -- [1]
-			"Unnämed-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Unnämed-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4465, -- [11]
-			"Player-1303-05974B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcUnnämed-Aggra(Português)|r",
-			[51] = 1604533432,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			">But I don't want very good white cards. Swords to Plowshares is a very good card, Armageddon is a very good card, Thalia is a very good card. I want powerful white cards, things that are big and fun and make a scene when cast, putting me ahead. Like some", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4501, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533460,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [22]
-		{
-			">9cmc sultai stuff", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4512, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533468,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [23]
-		{
-			"ah", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4527, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533479,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [24]
-		{
-			"i want bad white cards", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4532, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533483,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [25]
-		{
-			"i see", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4539, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533487,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [26]
-		{
-			"i bet dave sends this tomorrow in slack", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4674, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533597,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [27]
-		{
-			"i need to look at some spoiler threads ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4687, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533605,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [28]
-		{
-			"for the \"hot takes\"", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4693, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533610,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [29]
-		{
-			"i will remind you of my pin", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4699, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533614,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [30]
-		{
-			">white has been oppressed for years", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4710, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533621,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [31]
-		{
-			"and it seems to continue", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4717, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533627,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [32]
-		{
-			"white has literally never had a good card ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4770, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533668,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [33]
-		{
-			"I think the last playable card that white has got ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4791, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533684,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [34]
-		{
-			"is probably smothering tithe", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4805, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533694,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [35]
-		{
 			"and before that it must have been wrath of god", -- [1]
 			"|Kq110|k", -- [2]
 			"", -- [3]
@@ -814,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533704,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [36]
+		}, -- [1]
 		{
 			"yes definitely ", -- [1]
 			"|Kq110|k", -- [2]
@@ -836,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533712,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [37]
+		}, -- [2]
 		{
 			"this is known", -- [1]
 			"|Kq110|k", -- [2]
@@ -858,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533725,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [38]
+		}, -- [3]
 		{
 			"hold up", -- [1]
 			"|Kq110|k", -- [2]
@@ -880,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533728,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [39]
+		}, -- [4]
 		{
 			"you cant spell", -- [1]
 			"|Kq110|k", -- [2]
@@ -902,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533733,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [40]
+		}, -- [5]
 		{
 			"but can spell definitely", -- [1]
 			"|Kq110|k", -- [2]
@@ -924,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533736,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [41]
+		}, -- [6]
 		{
 			"why ", -- [1]
 			"|Kq110|k", -- [2]
@@ -946,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533739,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [42]
+		}, -- [7]
 		{
 			"im unungood at spelling sometimes ", -- [1]
 			"|Kq110|k", -- [2]
@@ -968,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533753,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [43]
+		}, -- [8]
 		{
 			"fug", -- [1]
 			"|Kq110|k", -- [2]
@@ -990,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533784,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [44]
+		}, -- [9]
 		{
 			"found a meme", -- [1]
 			"|Kq110|k", -- [2]
@@ -1012,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533786,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [45]
+		}, -- [10]
 		{
 			"this is on the thread spoiling the colourless bounce land", -- [1]
 			"|Kq110|k", -- [2]
@@ -1034,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533806,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [46]
+		}, -- [11]
 		{
 			">I get the joke but if it were common... sol ring in pauper?", -- [1]
 			"|Kq110|k", -- [2]
@@ -1056,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533815,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [47]
+		}, -- [12]
 		{
 			">tfw the other bounce lands are legal and played, so why would you ever take a colourless one over them - and the fact they are a tempo loss on the turn played removes any semblance of sol ring's acceleration potential ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1078,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533890,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [48]
+		}, -- [13]
 		{
 			"Swift Zulian tiger bidder please DM me", -- [1]
 			"Hallibell-Frostmane", -- [2]
@@ -1100,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hallibell|r",
 			[51] = 1604533896,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [14]
 		{
 			"im confused", -- [1]
 			"|Kq110|k", -- [2]
@@ -1122,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533980,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [50]
+		}, -- [15]
 		{
 			"someone cant think thats a good land", -- [1]
 			"|Kq110|k", -- [2]
@@ -1144,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533986,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [51]
+		}, -- [16]
 		{
 			"there's no way", -- [1]
 			"|Kq110|k", -- [2]
@@ -1166,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604533993,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [52]
+		}, -- [17]
 		{
 			"https://old.reddit.com/r/magicTCG/comments/jnzec6/cmr_guildless_commons/gb5bfqq/", -- [1]
 			"|Kq110|k", -- [2]
@@ -1188,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534010,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [53]
+		}, -- [18]
 		{
 			"go off, king", -- [1]
 			"|Kq110|k", -- [2]
@@ -1210,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534015,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [54]
+		}, -- [19]
 		{
 			">This has no business being uncommon. I would really like to see this in pauper after tron gets eventually banned", -- [1]
 			"|Kq110|k", -- [2]
@@ -1232,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534050,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [55]
+		}, -- [20]
 		{
 			"are these people dumb", -- [1]
 			"|Kq110|k", -- [2]
@@ -1254,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534061,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [56]
+		}, -- [21]
 		{
 			"that is ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1276,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534064,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [57]
+		}, -- [22]
 		{
 			"the best thing i have ever read", -- [1]
 			"|Kq110|k", -- [2]
@@ -1298,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534070,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [58]
+		}, -- [23]
 		{
 			"sure ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1320,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534081,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [59]
+		}, -- [24]
 		{
 			"I love terrible lands being common through my sealed pool", -- [1]
 			"|Kq110|k", -- [2]
@@ -1342,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534094,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [60]
+		}, -- [25]
 		{
 			"so when I open 3, I can run all of them", -- [1]
 			"|Kq110|k", -- [2]
@@ -1364,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534101,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [61]
+		}, -- [26]
 		{
 			"i love bouncing my bounc land with my 2rd colourless bounce land", -- [1]
 			"|Kq110|k", -- [2]
@@ -1386,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534123,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [62]
+		}, -- [27]
 		{
 			"its basically tron", -- [1]
 			"|Kq110|k", -- [2]
@@ -1408,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534140,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [63]
+		}, -- [28]
 		{
 			"i dont think these people have ever seen a game of pauper", -- [1]
 			"|Kq110|k", -- [2]
@@ -1430,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534182,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [64]
+		}, -- [29]
 		{
 			"i dont think these people have ever used a bounceland", -- [1]
 			"|Kq110|k", -- [2]
@@ -1452,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534200,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [65]
+		}, -- [30]
 		{
 			"they must think it is draft chaff constructed", -- [1]
 			"|Kq110|k", -- [2]
@@ -1474,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534201,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [66]
+		}, -- [31]
 		{
 			"to be fair", -- [1]
 			"|Kq110|k", -- [2]
@@ -1496,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534243,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [67]
+		}, -- [32]
 		{
 			"I did too until you got interested", -- [1]
 			"|Kq110|k", -- [2]
@@ -1518,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534249,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [68]
+		}, -- [33]
 		{
 			"and I think dave still does", -- [1]
 			"|Kq110|k", -- [2]
@@ -1540,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534255,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [69]
+		}, -- [34]
 		{
 			"dave's most cast spell is probs brain storm", -- [1]
 			"|Kq110|k", -- [2]
@@ -1562,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534280,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [70]
+		}, -- [35]
 		{
 			"hed love it", -- [1]
 			"|Kq110|k", -- [2]
@@ -1584,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534283,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [71]
+		}, -- [36]
 		{
 			"yeah i love how its got dumb card draw", -- [1]
 			"|Kq110|k", -- [2]
@@ -1606,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534294,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [72]
+		}, -- [37]
 		{
 			"its legacy answers to very bad creatuers", -- [1]
 			"|Kq110|k", -- [2]
@@ -1628,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534312,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [73]
+		}, -- [38]
 		{
 			"like brainstorm isnt broken when you have no win cons", -- [1]
 			"|Kq110|k", -- [2]
@@ -1650,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534313,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [74]
+		}, -- [39]
 		{
 			"and delver is here also", -- [1]
 			"|Kq110|k", -- [2]
@@ -1672,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534315,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [75]
+		}, -- [40]
 		{
 			"i cant believe delver is pauper legal", -- [1]
 			"|Kq110|k", -- [2]
@@ -1694,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534336,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [76]
+		}, -- [41]
 		{
 			"it has to be one of the dumbest cards ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1716,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534345,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [77]
+		}, -- [42]
 		{
 			"i dare say it was pretty meh in limited, which was the only format were rarity mattered", -- [1]
 			"|Kq110|k", -- [2]
@@ -1738,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534388,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [78]
+		}, -- [43]
 		{
 			"but yeah, add in some cantrips and you got a stew going", -- [1]
 			"|Kq110|k", -- [2]
@@ -1760,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534415,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [79]
+		}, -- [44]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14782:Player-1303-0B8267D7:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
 			"Kitita-Frostmane", -- [2]
@@ -1782,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKitita|r",
 			[51] = 1604534477,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [45]
 		{
 			"have you saw meta deck for standard atm?", -- [1]
 			"|Kq110|k", -- [2]
@@ -1804,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534512,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [81]
+		}, -- [46]
 		{
 			"if you had told me these cards would be in the top deck of standard, I would have agreed with every single one ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1826,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534533,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [82]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10684:Player-1303-0B556DC0:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Fashionista: Legs]|h|r!", -- [1]
 			"Kurova-Frostmane", -- [2]
@@ -1848,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKurova|r",
 			[51] = 1604534663,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13076:Player-1303-0B8267D7:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Heritage of the Dark Iron]|h|r!", -- [1]
 			"Kitita-Frostmane", -- [2]
@@ -1870,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKitita|r",
 			[51] = 1604534741,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4539:Player-1303-0B556DC0:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Once Bitten, Twice Shy (10 player)]|h|r!", -- [1]
 			"Kurova-Frostmane", -- [2]
@@ -1892,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKurova|r",
 			[51] = 1604534892,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [85]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4598:Player-1303-0B68AC74:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[The Ashen Verdict]|h|r!", -- [1]
 			"Slyxhamstræz-Frostmane", -- [2]
@@ -1914,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Slyxhamstræz|r",
 			[51] = 1604535294,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+		}, -- [51]
 		{
 			"WTS |cff1eff00|Hitem:55057::::::::41:62:::::::|h[Pyrium Weapon Chain]|h|r 4K", -- [1]
 			"Icyboxx-GrimBatol", -- [2]
@@ -1936,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaIcyboxx-GrimBatol|r",
 			[51] = 1604536283,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [52]
 		{
 			"WTS |cffa335ee|Hitem:163575::::::::1:259::::1:28:190:::|h[Reins of a Tamed Bloodfeaster]|h|r CHEAP", -- [1]
 			"Bankerbaz-GrimBatol", -- [2]
@@ -1958,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
 			[51] = 1604537025,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [53]
 		{
 			"hox muvh is cheap?", -- [1]
 			"Xentsu-Frostmane", -- [2]
@@ -1980,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Xentsu|r",
 			[51] = 1604537093,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [54]
 		{
 			"much*", -- [1]
 			"Xentsu-Frostmane", -- [2]
@@ -2002,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Xentsu|r",
 			[51] = 1604537097,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [55]
 		{
 			"25K", -- [1]
 			"Bankerbaz-GrimBatol", -- [2]
@@ -2024,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
 			[51] = 1604537103,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [56]
 		{
 			"WTS |cffa335ee|Hitem:163575::::::::1:259::::1:28:190:::|h[Reins of a Tamed Bloodfeaster]|h|r 25K", -- [1]
 			"Bankerbaz-GrimBatol", -- [2]
@@ -2046,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
 			[51] = 1604537635,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [57]
 		{
 			"I wouldn't, their guild recruitment ads are some of the worst I've ever seen", -- [1]
 			"Doomcläw-GrimBatol", -- [2]
@@ -2068,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Doomcläw-GrimBatol|r",
 			[51] = 1604870736,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [58]
 		{
 			"i can't even pronounce portugueses ", -- [1]
 			"Pènguin-Frostmane", -- [2]
@@ -2090,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Pènguin|r",
 			[51] = 1604870740,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [59]
 		{
 			"100ilvl is enough for alt to join sunday run??", -- [1]
 			"Niaou-Frostmane", -- [2]
@@ -2112,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Niaou|r",
 			[51] = 1605295214,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [95]
+		}, -- [60]
 		{
 			"NO", -- [1]
 			"Çka-Frostmane", -- [2]
@@ -2134,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Çka|r",
 			[51] = 1605295225,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [61]
 		{
 			"?", -- [1]
 			"Niaou-Frostmane", -- [2]
@@ -2156,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Niaou|r",
 			[51] = 1605295233,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [62]
 		{
 			"eh I think we're only doing the last 2 bosses on sunday, i'll let you know", -- [1]
 			"Niaou-Frostmane", -- [2]
@@ -2178,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Niaou|r",
 			[51] = 1605295250,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [98]
+		}, -- [63]
 		{
 			"its a bit low but if we have some big damage then you can come", -- [1]
 			"Niaou-Frostmane", -- [2]
@@ -2200,6 +1430,776 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Niaou|r",
 			[51] = 1605295261,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [64]
+		{
+			"Se o servidor é português querias o quê? Vietnamitas?", -- [1]
+			"Brunoaleixo-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Brunoaleixo-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2940, -- [11]
+			"Player-1303-0BAAB898", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
+			[51] = 1605827036,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"´eu se nao tivesse mais que fazer meus rpazes, fazia aqui uma guild que competia com a method ", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2941, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605827038,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"Nao fosse a gramática ao nível de alguem que deixou de estudar no 8º ano, e até tinha a sua piada...", -- [1]
+			"Scalandor-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Scalandor-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2942, -- [11]
+			"Player-1303-0595C45B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Scalandor-Aggra(Português)|r",
+			[51] = 1605827040,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"golo do Ronaldo, gg", -- [1]
+			"Rumbleb-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rumbleb-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2943, -- [11]
+			"Player-1303-04F97D67", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaRumbleb-GrimBatol|r",
+			[51] = 1605827046,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"mas os tugas sao tao bosta de gente que n merecem", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2944, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605827053,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"Ó BRUNO MAS O O WOW JA FOI MUITO POPULAR NO FIM DO LICH KING MAS DEPOIS TODOS OS MEUS AMIGOS QUE JOGAVAM DEIXARAM DE JOGAR", -- [1]
+			"Joãoanão-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Joãoanão-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2945, -- [11]
+			"Player-1303-033FAE18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Joãoanão-GrimBatol|r",
+			[51] = 1605827065,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"fds no 8 ano lol nem 4 classe têm", -- [1]
+			"Muortis-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Muortis-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2947, -- [11]
+			"Player-1303-059402FE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Muortis-Aggra(Português)|r",
+			[51] = 1605827066,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"e hao de ser", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2948, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605827071,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"por isso é que estás aqui. No brasil nem têm serviço para fazer servidores", -- [1]
+			"Brunoaleixo-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Brunoaleixo-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2949, -- [11]
+			"Player-1303-0BAAB898", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
+			[51] = 1605827080,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"(alguem perguntou o que diria o renato, é isso=", -- [1]
+			"Joãoanão-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Joãoanão-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2950, -- [11]
+			"Player-1303-033FAE18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Joãoanão-GrimBatol|r",
+			[51] = 1605827082,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"só têm net de 32k", -- [1]
+			"Brunoaleixo-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Brunoaleixo-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2951, -- [11]
+			"Player-1303-0BAAB898", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
+			[51] = 1605827086,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"fds o Agrgra nunca devia ter sido ligado ao frostmane...", -- [1]
+			"Esperta-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Esperta-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2953, -- [11]
+			"Player-1303-0B68FB3D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Esperta|r",
+			[51] = 1605827112,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"pq?", -- [1]
+			"Ketan-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ketan-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2954, -- [11]
+			"Player-1303-0B985170", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Ketan-GrimBatol|r",
+			[51] = 1605827123,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"bem, hoje o caralho do report spam está onfire", -- [1]
+			"Haze-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Haze-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2955, -- [11]
+			"Player-1303-0B34A8BB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Haze-GrimBatol|r",
+			[51] = 1605827124,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"dou graças ao frostmane, a AH estava tão parada", -- [1]
+			"Joãoanão-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Joãoanão-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2957, -- [11]
+			"Player-1303-033FAE18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Joãoanão-GrimBatol|r",
+			[51] = 1605827135,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"verdade Esperta", -- [1]
+			"Starzz-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Starzz-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2958, -- [11]
+			"Player-1303-0B700B5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Starzz-GrimBatol|r",
+			[51] = 1605827137,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"estes tugas não interagem com a player economy. são uma seca", -- [1]
+			"Joãoanão-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Joãoanão-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2959, -- [11]
+			"Player-1303-033FAE18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Joãoanão-GrimBatol|r",
+			[51] = 1605827144,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"chegou o joao anao, ta tudo fudido.", -- [1]
+			"Explozeh-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Explozeh-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2960, -- [11]
+			"Player-1303-07C15EB2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Explozeh-GrimBatol|r",
+			[51] = 1605827161,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"Hello guys! Why are you speaking in portuguese?! I want to participate in your conversation too! :(", -- [1]
+			"Darthy-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Darthy-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2961, -- [11]
+			"Player-1303-0B9E06A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeDarthy|r",
+			[51] = 1605827162,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"Aggra nunca devia era ter existido, desde portucalia a new order a the invicta nao se aproveita 1 membro", -- [1]
+			"Rumbleb-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rumbleb-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2963, -- [11]
+			"Player-1303-04F97D67", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaRumbleb-GrimBatol|r",
+			[51] = 1605827175,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"Learn portuguese then", -- [1]
+			"Brunoaleixo-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Brunoaleixo-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2964, -- [11]
+			"Player-1303-0BAAB898", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
+			[51] = 1605827175,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"hahaha", -- [1]
+			"Badwólf-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Badwólf-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2965, -- [11]
+			"Player-1303-0BAD7135", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edBadwólf-GrimBatol|r",
+			[51] = 1605827187,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"kek ", -- [1]
+			"Massro-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Massro-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2966, -- [11]
+			"Player-1303-08A1F537", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaMassro-GrimBatol|r",
+			[51] = 1605827192,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"Nah...Shitty language to learn", -- [1]
+			"Darthy-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Darthy-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2967, -- [11]
+			"Player-1303-0B9E06A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeDarthy|r",
+			[51] = 1605827193,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"on a eu server", -- [1]
+			"Massro-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Massro-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2968, -- [11]
+			"Player-1303-08A1F537", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaMassro-GrimBatol|r",
+			[51] = 1605827201,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"too bad for you", -- [1]
+			"Brunoaleixo-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Brunoaleixo-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2969, -- [11]
+			"Player-1303-0BAAB898", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
+			[51] = 1605827202,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"epá criem um chat e falem lá pf ;_;", -- [1]
+			"Haze-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Haze-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2970, -- [11]
+			"Player-1303-0B34A8BB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Haze-GrimBatol|r",
+			[51] = 1605827205,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"kek", -- [1]
+			"Minglee-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Minglee-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2971, -- [11]
+			"Player-1303-089168BC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Minglee-GrimBatol|r",
+			[51] = 1605827206,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"ITS NOT PORTUGUESE IS SPANISH", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2972, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605827217,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"<Os Marretas> não está à procura de novos membros, activos ou inactivos. Nós odiamos-te e tudo o que tu representas e tentamos retirar tudo o que o jogo possa ter de divertido. Nós temos tabards, não, não podes ter um! Odeio-te!", -- [1]
+			"Sarutoby-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sarutoby-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2975, -- [11]
+			"Player-1303-05947CBE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Sarutoby-Aggra(Português)|r",
+			[51] = 1605827220,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"and omegle", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			70, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605913187,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"I'm an old dwarf, this hurts my eyes", -- [1]
+			"Camoz-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Camoz-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			71, -- [11]
+			"Player-1303-04105B9E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Camoz-GrimBatol|r",
+			[51] = 1605913189,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"ok u 12", -- [1]
+			"Azrä-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Azrä-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			75, -- [11]
+			"Player-1303-0BAC3493", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Azrä|r",
+			[51] = 1605913197,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"Old", -- [1]
+			"Camoz-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Camoz-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			76, -- [11]
+			"Player-1303-04105B9E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Camoz-GrimBatol|r",
+			[51] = 1605913209,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"im a smart 12 year old tho", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			77, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605913222,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 }

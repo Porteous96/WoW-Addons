@@ -14,10 +14,10 @@ DataStore_RaresDB = {
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -25,10 +25,1148 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1603563426,
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1605317694,
+				["lastUpdate"] = 1605923569,
+				["Rares"] = {
+					[93030] = {
+						["resetTime"] = 18430,
+						["name"] = "Ironbranch",
+					},
+					[129343] = {
+						["resetTime"] = 18430,
+						["name"] = "Avatar of Xolotal",
+					},
+					[129950] = {
+						["resetTime"] = 18430,
+						["name"] = "Talon",
+					},
+					[132086] = {
+						["resetTime"] = 18430,
+						["name"] = "Black-Eyed Bart",
+					},
+					[149652] = {
+						["resetTime"] = 364030,
+						["name"] = "Agathe Wyrmwood",
+					},
+					[141029] = {
+						["resetTime"] = 18430,
+						["name"] = "Kickers",
+					},
+					[127651] = {
+						["resetTime"] = 18430,
+						["name"] = "Vicemaul",
+					},
+					[99610] = {
+						["resetTime"] = 18430,
+						["name"] = "Garvrulg",
+					},
+					[97630] = {
+						["resetTime"] = 18430,
+						["name"] = "Soulthirster",
+					},
+					[133812] = {
+						["resetTime"] = 18430,
+						["name"] = "Zanxib",
+					},
+					[97215] = {
+						["resetTime"] = 18430,
+						["name"] = "Beastmaster Pao'lek",
+					},
+					[141286] = {
+						["resetTime"] = 18430,
+						["name"] = "Poacher Zane",
+					},
+					[130079] = {
+						["resetTime"] = 18430,
+						["name"] = "Wagga Snarltusk",
+					},
+					[136304] = {
+						["resetTime"] = 18430,
+						["name"] = "Songstress Nahjeen",
+					},
+					[130143] = {
+						["resetTime"] = 18430,
+						["name"] = "Balethorn",
+					},
+					[128674] = {
+						["resetTime"] = 18430,
+						["name"] = "Gut-Gut the Glutton",
+					},
+					[110438] = {
+						["resetTime"] = 18430,
+						["name"] = "Siegemaster Aedrin",
+					},
+					[103827] = {
+						["resetTime"] = 18430,
+						["name"] = "King Morgalash",
+					},
+					[110726] = {
+						["resetTime"] = 18430,
+						["name"] = "Cadraeus",
+					},
+					[97504] = {
+						["resetTime"] = 18430,
+						["name"] = "Wraithtalon",
+					},
+					[128707] = {
+						["resetTime"] = 18430,
+						["name"] = "Rimestone",
+					},
+					[135796] = {
+						["resetTime"] = 18430,
+						["name"] = "Captain Leadfist",
+					},
+					[127877] = {
+						["resetTime"] = 18430,
+						["name"] = "Longfang & Henry Breakwater",
+					},
+					[131389] = {
+						["resetTime"] = 18430,
+						["name"] = "Teres",
+					},
+					[106990] = {
+						["resetTime"] = 18430,
+						["name"] = "Chief Bitterbrine",
+					},
+					[141226] = {
+						["resetTime"] = 18430,
+						["name"] = "Haegol the Hammer",
+					},
+					[111653] = {
+						["resetTime"] = 18430,
+						["name"] = "Miasu",
+					},
+					[138863] = {
+						["resetTime"] = 18430,
+						["name"] = "Sister Martha",
+					},
+					[131262] = {
+						["resetTime"] = 18430,
+						["name"] = "Pack Leader Asenya",
+					},
+					[129283] = {
+						["resetTime"] = 18430,
+						["name"] = "Jumbo Sandsnapper",
+					},
+					[130401] = {
+						["resetTime"] = 18430,
+						["name"] = "Vathikur",
+					},
+					[129411] = {
+						["resetTime"] = 18430,
+						["name"] = "Zunashi the Exile",
+					},
+					[129954] = {
+						["resetTime"] = 18430,
+						["name"] = "Gahz'ralka",
+					},
+					[97793] = {
+						["resetTime"] = 18430,
+						["name"] = "Flamescale",
+					},
+					[131520] = {
+						["resetTime"] = 18430,
+						["name"] = "Kulett the Ornery",
+					},
+					[136183] = {
+						["resetTime"] = 18430,
+						["name"] = "Crushtacean",
+					},
+					[138866] = {
+						["resetTime"] = 18430,
+						["name"] = "Fungi Trio",
+					},
+					[98241] = {
+						["resetTime"] = 18430,
+						["name"] = "Lyrath Moonfeather",
+					},
+					[129476] = {
+						["resetTime"] = 18430,
+						["name"] = "Bloated Krolusk",
+					},
+					[138675] = {
+						["resetTime"] = 18430,
+						["name"] = "Gorged Boar",
+					},
+					[103575] = {
+						["resetTime"] = 18430,
+						["name"] = "Reef Lord Raj'his",
+					},
+					[141039] = {
+						["resetTime"] = 18430,
+						["name"] = "Ice Sickle",
+					},
+					[126187] = {
+						["resetTime"] = 18430,
+						["name"] = "Corpse Bringer Yal'kar",
+					},
+					[92685] = {
+						["resetTime"] = 18430,
+						["name"] = "Captain Brvet",
+					},
+					[125453] = {
+						["resetTime"] = 18430,
+						["name"] = "Quillrat Matriarch",
+					},
+					[109708] = {
+						["resetTime"] = 18430,
+						["name"] = "Undergrell Attack",
+					},
+					[122004] = {
+						["resetTime"] = 18430,
+						["name"] = "Umbra'jin",
+					},
+					[97093] = {
+						["resetTime"] = 18430,
+						["name"] = "Shara Felbreath",
+					},
+					[134782] = {
+						["resetTime"] = 18430,
+						["name"] = "Murderbeak",
+					},
+					[137529] = {
+						["resetTime"] = 18430,
+						["name"] = "Arvon the Betrayed",
+					},
+					[94347] = {
+						["resetTime"] = 18430,
+						["name"] = "Dread-Rider Cortis",
+					},
+					[141043] = {
+						["resetTime"] = 18430,
+						["name"] = "Jakala the Cruel",
+					},
+					[136189] = {
+						["resetTime"] = 18430,
+						["name"] = "The Lichen King",
+					},
+					[139319] = {
+						["resetTime"] = 18430,
+						["name"] = "Slickspill",
+					},
+					[131718] = {
+						["resetTime"] = 18430,
+						["name"] = "Bramblewing",
+					},
+					[93166] = {
+						["resetTime"] = 18430,
+						["name"] = "Tiptog the Lost",
+					},
+					[90164] = {
+						["resetTime"] = 18430,
+						["name"] = "Warbringer Mox'na",
+					},
+					[92751] = {
+						["resetTime"] = 18430,
+						["name"] = "Ivory Sentinel",
+					},
+					[128553] = {
+						["resetTime"] = 18430,
+						["name"] = "Azer'tor",
+					},
+					[90803] = {
+						["resetTime"] = 18430,
+						["name"] = "Infernal Lord",
+					},
+					[126637] = {
+						["resetTime"] = 18430,
+						["name"] = "Kandak",
+					},
+					[138618] = {
+						["resetTime"] = 18430,
+						["name"] = "Haywire Golem",
+					},
+					[139321] = {
+						["resetTime"] = 18430,
+						["name"] = "Braedan Whitewall",
+					},
+					[139385] = {
+						["resetTime"] = 18430,
+						["name"] = "Deepfang",
+					},
+					[138938] = {
+						["resetTime"] = 18430,
+						["name"] = "Seabreaker Skoloth",
+					},
+					[100864] = {
+						["resetTime"] = 18430,
+						["name"] = "Cora'Kar",
+					},
+					[91187] = {
+						["resetTime"] = 18430,
+						["name"] = "Beacher",
+					},
+					[133190] = {
+						["resetTime"] = 18430,
+						["name"] = "Daggerjaw",
+					},
+					[94413] = {
+						["resetTime"] = 18430,
+						["name"] = "Isel the Hammer",
+					},
+					[89846] = {
+						["resetTime"] = 18430,
+						["name"] = "Captain Volo'ren",
+					},
+					[141175] = {
+						["resetTime"] = 18430,
+						["name"] = "Song Mistress Dadalea",
+					},
+					[141239] = {
+						["resetTime"] = 18430,
+						["name"] = "Osca the Bloodied",
+					},
+					[124722] = {
+						["resetTime"] = 18430,
+						["name"] = "Commodore Calhoun",
+					},
+					[127820] = {
+						["resetTime"] = 18430,
+						["name"] = "Scout Skrasniss",
+					},
+					[89016] = {
+						["resetTime"] = 18430,
+						["name"] = "Ravyn-Drath",
+					},
+					[130439] = {
+						["resetTime"] = 18430,
+						["name"] = "Ashmane",
+					},
+					[126926] = {
+						["resetTime"] = 18430,
+						["name"] = "Venomjaw",
+					},
+					[91795] = {
+						["resetTime"] = 18430,
+						["name"] = "Stormdrake Matriarch",
+					},
+					[135939] = {
+						["resetTime"] = 18430,
+						["name"] = "Vinespeaker Ratha",
+					},
+					[131404] = {
+						["resetTime"] = 18430,
+						["name"] = "Foreman Scripps",
+					},
+					[90901] = {
+						["resetTime"] = 18430,
+						["name"] = "Pridelord Meowl",
+					},
+					[102303] = {
+						["resetTime"] = 18430,
+						["name"] = "Lieutenant Strathmar",
+					},
+					[98311] = {
+						["resetTime"] = 18430,
+						["name"] = "Mrrklr",
+					},
+					[97449] = {
+						["resetTime"] = 18430,
+						["name"] = "Bristlemaul",
+					},
+					[89816] = {
+						["resetTime"] = 18430,
+						["name"] = "Golza the Iron Fin",
+					},
+					[139135] = {
+						["resetTime"] = 18430,
+						["name"] = "Squirgle of the Depths",
+					},
+					[92180] = {
+						["resetTime"] = 18430,
+						["name"] = "Seersei",
+					},
+					[139328] = {
+						["resetTime"] = 18430,
+						["name"] = "Sabertron",
+					},
+					[107127] = {
+						["resetTime"] = 18430,
+						["name"] = "Brawlgoth",
+					},
+					[110832] = {
+						["resetTime"] = 18430,
+						["name"] = "Gorgroth",
+					},
+					[129803] = {
+						["resetTime"] = 18430,
+						["name"] = "Whiplash",
+					},
+					[129835] = {
+						["resetTime"] = 18430,
+						["name"] = "Gorehorn",
+					},
+					[139968] = {
+						["resetTime"] = 18430,
+						["name"] = "Corrupted Tideskipper",
+					},
+					[92117] = {
+						["resetTime"] = 18430,
+						["name"] = "Gorebeak",
+					},
+					[131984] = {
+						["resetTime"] = 18430,
+						["name"] = "Twin-hearted Construct",
+					},
+					[129005] = {
+						["resetTime"] = 18430,
+						["name"] = "King Kooba",
+					},
+					[128686] = {
+						["resetTime"] = 18430,
+						["name"] = "Kamid the Trapper",
+					},
+					[96621] = {
+						["resetTime"] = 18430,
+						["name"] = "Mellok, Son of Torok ",
+					},
+					[100230] = {
+						["resetTime"] = 18430,
+						["name"] = "Amateur hunters",
+					},
+					[136393] = {
+						["resetTime"] = 18430,
+						["name"] = "Bloodwing Bonepicker",
+					},
+					[130443] = {
+						["resetTime"] = 18430,
+						["name"] = "Hivemother Kraxi",
+					},
+					[128974] = {
+						["resetTime"] = 18430,
+						["name"] = "Queen Tzxi'kik",
+					},
+					[135947] = {
+						["resetTime"] = 18430,
+						["name"] = "Strange Mushroom Ring",
+					},
+					[131476] = {
+						["resetTime"] = 18430,
+						["name"] = "Zayoos",
+					},
+					[139205] = {
+						["resetTime"] = 18430,
+						["name"] = "P4-N73R4",
+					},
+					[129805] = {
+						["resetTime"] = 18430,
+						["name"] = "Beshol",
+					},
+					[132179] = {
+						["resetTime"] = 18430,
+						["name"] = "Raging Swell",
+					},
+					[148787] = {
+						["resetTime"] = 364030,
+						["name"] = "Alash'anir",
+					},
+					[130508] = {
+						["resetTime"] = 18430,
+						["name"] = "Broodmother Razora",
+					},
+					[98890] = {
+						["resetTime"] = 18430,
+						["name"] = "Slumber",
+					},
+					[91289] = {
+						["resetTime"] = 18430,
+						["name"] = "Cailyn Paledoom",
+					},
+					[141059] = {
+						["resetTime"] = 18430,
+						["name"] = "Grimscowl the Harebrained",
+					},
+					[97517] = {
+						["resetTime"] = 18430,
+						["name"] = "Dreadbog",
+					},
+					[89884] = {
+						["resetTime"] = 18430,
+						["name"] = "Flog the Captain-Eater",
+					},
+					[124185] = {
+						["resetTime"] = 18430,
+						["name"] = "Golrakahn",
+					},
+					[98188] = {
+						["resetTime"] = 18430,
+						["name"] = "Egyl the Enduring",
+					},
+					[103841] = {
+						["resetTime"] = 18430,
+						["name"] = "Shadowquill",
+					},
+					[92152] = {
+						["resetTime"] = 18430,
+						["name"] = "Whitewater Typhoon",
+					},
+					[128497] = {
+						["resetTime"] = 18430,
+						["name"] = "Bajiani the Slick",
+					},
+					[132182] = {
+						["resetTime"] = 18430,
+						["name"] = "Auditor Dolp",
+					},
+					[97933] = {
+						["resetTime"] = 18430,
+						["name"] = "Crab Rider Grmlrml",
+					},
+					[140997] = {
+						["resetTime"] = 18430,
+						["name"] = "Severus the Outcast",
+					},
+					[139145] = {
+						["resetTime"] = 18430,
+						["name"] = "Blackthorne",
+					},
+					[130350] = {
+						["resetTime"] = 18430,
+						["name"] = "Guardian of the Spring",
+					},
+					[112497] = {
+						["resetTime"] = 18430,
+						["name"] = "Maia the White Wolf",
+					},
+					[93654] = {
+						["resetTime"] = 18430,
+						["name"] = "Skul'vrax",
+					},
+					[93686] = {
+						["resetTime"] = 18430,
+						["name"] = "Jinikki the Puncturer",
+					},
+					[136336] = {
+						["resetTime"] = 18430,
+						["name"] = "Scorpox",
+					},
+					[94485] = {
+						["resetTime"] = 18430,
+						["name"] = "Pollous the Fetid",
+					},
+					[129904] = {
+						["resetTime"] = 18430,
+						["name"] = "Cottontail Matron",
+					},
+					[91100] = {
+						["resetTime"] = 18430,
+						["name"] = "Brogozog",
+					},
+					[106526] = {
+						["resetTime"] = 18430,
+						["name"] = "Lady Rivantas",
+					},
+					[136338] = {
+						["resetTime"] = 18430,
+						["name"] = "Sirokar",
+					},
+					[110870] = {
+						["resetTime"] = 18430,
+						["name"] = "Apothecary Faldren",
+					},
+					[140938] = {
+						["resetTime"] = 18430,
+						["name"] = "Croaker",
+					},
+					[139980] = {
+						["resetTime"] = 18430,
+						["name"] = "Taja the Tidehowler",
+					},
+					[142088] = {
+						["resetTime"] = 18430,
+						["name"] = "Whirlwing",
+					},
+					[95221] = {
+						["resetTime"] = 18430,
+						["name"] = "Mad Henryk",
+					},
+					[137681] = {
+						["resetTime"] = 18430,
+						["name"] = "King Clickyclack",
+					},
+					[139278] = {
+						["resetTime"] = 18430,
+						["name"] = "Ranja",
+					},
+					[134296] = {
+						["resetTime"] = 18430,
+						["name"] = "Chag's Challenge",
+					},
+					[93401] = {
+						["resetTime"] = 18430,
+						["name"] = "Urgev the Flayer",
+					},
+					[136341] = {
+						["resetTime"] = 18430,
+						["name"] = "Jungleweb Hunter",
+					},
+					[109498] = {
+						["resetTime"] = 18430,
+						["name"] = "Unethical Adventurers",
+					},
+					[139152] = {
+						["resetTime"] = 18430,
+						["name"] = "Carla Smirk",
+					},
+					[134106] = {
+						["resetTime"] = 18430,
+						["name"] = "Lumbergrasp Sentinel",
+					},
+					[139280] = {
+						["resetTime"] = 18430,
+						["name"] = "Sythian the Swift",
+					},
+					[134745] = {
+						["resetTime"] = 18430,
+						["name"] = "Skycarver Krakit",
+					},
+					[107327] = {
+						["resetTime"] = 18430,
+						["name"] = "Bilebrain",
+					},
+					[131233] = {
+						["resetTime"] = 18430,
+						["name"] = "Lei-zhi",
+					},
+					[132319] = {
+						["resetTime"] = 18430,
+						["name"] = "Bilefang Mother",
+					},
+					[107487] = {
+						["resetTime"] = 18430,
+						["name"] = "Starbuck",
+					},
+					[127001] = {
+						["resetTime"] = 18430,
+						["name"] = "Gwugnug the Cursed",
+					},
+					[107136] = {
+						["resetTime"] = 18430,
+						["name"] = "Houndmaster Stroxis",
+					},
+					[138963] = {
+						["resetTime"] = 18430,
+						["name"] = "Nestmother Acada",
+					},
+					[127129] = {
+						["resetTime"] = 18430,
+						["name"] = "Grozgore",
+					},
+					[107105] = {
+						["resetTime"] = 18430,
+						["name"] = "Broodmother Lizax",
+					},
+					[136346] = {
+						["resetTime"] = 18430,
+						["name"] = "Captain Stef 'Marrow' Quin",
+					},
+					[108255] = {
+						["resetTime"] = 18430,
+						["name"] = "Coura, Mistress of Arcana",
+					},
+					[110363] = {
+						["resetTime"] = 18430,
+						["name"] = "Roteye",
+					},
+					[139285] = {
+						["resetTime"] = 18430,
+						["name"] = "Shiverscale the Toxic",
+					},
+					[127290] = {
+						["resetTime"] = 18430,
+						["name"] = "Saurolisk Tamer Mugg",
+					},
+					[139988] = {
+						["resetTime"] = 18430,
+						["name"] = "Sandfang",
+					},
+					[128951] = {
+						["resetTime"] = 18430,
+						["name"] = "Nez'ara",
+					},
+					[109054] = {
+						["resetTime"] = 18430,
+						["name"] = "Shal'an",
+					},
+					[126460] = {
+						["resetTime"] = 18430,
+						["name"] = "Tainted Guardian",
+					},
+					[100495] = {
+						["resetTime"] = 18430,
+						["name"] = "Devouring Darkness",
+					},
+					[139287] = {
+						["resetTime"] = 18430,
+						["name"] = "Sawtooth",
+					},
+					[97653] = {
+						["resetTime"] = 18430,
+						["name"] = "Taurson",
+					},
+					[133539] = {
+						["resetTime"] = 18430,
+						["name"] = "Lo'kuno",
+					},
+					[134625] = {
+						["resetTime"] = 18430,
+						["name"] = "Warmother Captive",
+					},
+					[131687] = {
+						["resetTime"] = 18430,
+						["name"] = "Tambano",
+					},
+					[126621] = {
+						["resetTime"] = 18430,
+						["name"] = "Bonesquall",
+					},
+					[126142] = {
+						["resetTime"] = 18430,
+						["name"] = "Bajiatha",
+					},
+					[132007] = {
+						["resetTime"] = 18430,
+						["name"] = "Galestorm",
+					},
+					[139289] = {
+						["resetTime"] = 18430,
+						["name"] = "Tentulos the Drifter",
+					},
+					[134754] = {
+						["resetTime"] = 18430,
+						["name"] = "Hyo'gi",
+					},
+					[133155] = {
+						["resetTime"] = 18430,
+						["name"] = "G'Naat",
+					},
+					[93371] = {
+						["resetTime"] = 18430,
+						["name"] = "Mordvigbjorn",
+					},
+					[92763] = {
+						["resetTime"] = 18430,
+						["name"] = "The Nameless King",
+					},
+					[139290] = {
+						["resetTime"] = 18430,
+						["name"] = "Maison the Portable",
+					},
+					[98421] = {
+						["resetTime"] = 18430,
+						["name"] = "Kottr Vondyr",
+					},
+					[134213] = {
+						["resetTime"] = 18430,
+						["name"] = "Executioner Blackwell",
+					},
+					[91803] = {
+						["resetTime"] = 18430,
+						["name"] = "Fathnyr",
+					},
+					[91874] = {
+						["resetTime"] = 18430,
+						["name"] = "Bladesquall",
+					},
+					[141143] = {
+						["resetTime"] = 18430,
+						["name"] = "Sister Absinthe",
+					},
+					[91529] = {
+						["resetTime"] = 18430,
+						["name"] = "Glimar Ironfist",
+					},
+					[137183] = {
+						["resetTime"] = 18430,
+						["name"] = "Imperiled Merchants",
+					},
+					[95872] = {
+						["resetTime"] = 18430,
+						["name"] = "Skullhat",
+					},
+					[96590] = {
+						["resetTime"] = 18430,
+						["name"] = "Gurbog da Basher",
+					},
+					[128973] = {
+						["resetTime"] = 18430,
+						["name"] = "Whargarble the Ill-Tempered",
+					},
+					[134884] = {
+						["resetTime"] = 18430,
+						["name"] = "Ragna",
+					},
+					[109504] = {
+						["resetTime"] = 18430,
+						["name"] = "Ragemaw",
+					},
+					[103223] = {
+						["resetTime"] = 18430,
+						["name"] = "Hertha Grimdottir",
+					},
+					[90244] = {
+						["resetTime"] = 18430,
+						["name"] = "Arcavellus",
+					},
+					[92599] = {
+						["resetTime"] = 18430,
+						["name"] = "Bloodstalker Alpha",
+					},
+					[126056] = {
+						["resetTime"] = 18430,
+						["name"] = "Totem Maker Jash'ga",
+					},
+					[111197] = {
+						["resetTime"] = 18430,
+						["name"] = "Anax",
+					},
+					[94877] = {
+						["resetTime"] = 18430,
+						["name"] = "Brogrul the Mighty",
+					},
+					[132244] = {
+						["resetTime"] = 18430,
+						["name"] = "Kiboku",
+					},
+					[127844] = {
+						["resetTime"] = 18430,
+						["name"] = "Gluttonous Yeti",
+					},
+					[128699] = {
+						["resetTime"] = 18430,
+						["name"] = "Bloodbulge",
+					},
+					[135565] = {
+						["resetTime"] = 18430,
+						["name"] = "Urn of Agussu",
+					},
+					[134738] = {
+						["resetTime"] = 18430,
+						["name"] = "Hakbi the Risen",
+					},
+					[125250] = {
+						["resetTime"] = 18430,
+						["name"] = "Ancient Jawbreaker",
+					},
+					[137824] = {
+						["resetTime"] = 18430,
+						["name"] = "Arclight",
+					},
+					[95318] = {
+						["resetTime"] = 18430,
+						["name"] = "Perrexx the Corruptor",
+					},
+					[89650] = {
+						["resetTime"] = 18430,
+						["name"] = "Valiyaka the Stormbringer",
+					},
+					[127333] = {
+						["resetTime"] = 18430,
+						["name"] = "Barbthorn Queen",
+					},
+					[91579] = {
+						["resetTime"] = 18430,
+						["name"] = "Doomlord Kazrok",
+					},
+					[128965] = {
+						["resetTime"] = 18430,
+						["name"] = "Uroku the Bound",
+					},
+					[132076] = {
+						["resetTime"] = 18430,
+						["name"] = "Totes",
+					},
+					[125214] = {
+						["resetTime"] = 18430,
+						["name"] = "Krubbs",
+					},
+					[137825] = {
+						["resetTime"] = 18430,
+						["name"] = "Avalanche",
+					},
+					[136335] = {
+						["resetTime"] = 18430,
+						["name"] = "Enraged Krolusk",
+					},
+					[124548] = {
+						["resetTime"] = 18430,
+						["name"] = "Betsy",
+					},
+					[133531] = {
+						["resetTime"] = 18430,
+						["name"] = "Xu'ba",
+					},
+					[97203] = {
+						["resetTime"] = 18430,
+						["name"] = "Tenpak Flametotem",
+					},
+					[101649] = {
+						["resetTime"] = 18430,
+						["name"] = "Frostshard",
+					},
+					[97593] = {
+						["resetTime"] = 18430,
+						["name"] = "Mynta Talonscreech",
+					},
+					[132280] = {
+						["resetTime"] = 18430,
+						["name"] = "Squacks",
+					},
+					[134760] = {
+						["resetTime"] = 18430,
+						["name"] = "Darkspeaker Jo'la",
+					},
+					[129995] = {
+						["resetTime"] = 18430,
+						["name"] = "Emily Mayville",
+					},
+					[111007] = {
+						["resetTime"] = 18430,
+						["name"] = "Randril",
+					},
+					[96410] = {
+						["resetTime"] = 18430,
+						["name"] = "Majestic Elderhorn",
+					},
+					[92040] = {
+						["resetTime"] = 18430,
+						["name"] = "Fenri",
+					},
+					[134706] = {
+						["resetTime"] = 18430,
+						["name"] = "Deathcap",
+					},
+					[95123] = {
+						["resetTime"] = 18430,
+						["name"] = "Grelda the Hag",
+					},
+					[110656] = {
+						["resetTime"] = 18430,
+						["name"] = "Arcanist Lylandre",
+					},
+					[132127] = {
+						["resetTime"] = 18430,
+						["name"] = "Foxhollow Skyterror",
+					},
+					[130138] = {
+						["resetTime"] = 18430,
+						["name"] = "Nevermore",
+					},
+					[133356] = {
+						["resetTime"] = 18430,
+						["name"] = "Tempestria",
+					},
+					[129180] = {
+						["resetTime"] = 18430,
+						["name"] = "Warbringer Hozzik",
+					},
+					[89865] = {
+						["resetTime"] = 18430,
+						["name"] = "Mrrgrl the Tidereaver",
+					},
+					[103183] = {
+						["resetTime"] = 18430,
+						["name"] = "Rok'nash",
+					},
+					[139233] = {
+						["resetTime"] = 18430,
+						["name"] = "Gulliver",
+					},
+					[139322] = {
+						["resetTime"] = 18430,
+						["name"] = "Whitney 'Steelclaw' Ramsay",
+					},
+					[110944] = {
+						["resetTime"] = 18430,
+						["name"] = "Guardian Thor'el",
+					},
+					[109954] = {
+						["resetTime"] = 18430,
+						["name"] = "Magister Phaedris",
+					},
+					[90057] = {
+						["resetTime"] = 18430,
+						["name"] = "Daggerbeak",
+					},
+					[130897] = {
+						["resetTime"] = 18430,
+						["name"] = "Captain Razorspine",
+					},
+					[139298] = {
+						["resetTime"] = 18430,
+						["name"] = "Pinku'shon",
+					},
+					[134571] = {
+						["resetTime"] = 18430,
+						["name"] = "Skycaller Teskris",
+					},
+					[149147] = {
+						["resetTime"] = 18430,
+						["name"] = "N'chala  the Egg Thief",
+					},
+					[105547] = {
+						["resetTime"] = 18430,
+						["name"] = "Rauren",
+					},
+					[103214] = {
+						["resetTime"] = 18430,
+						["name"] = "Har'kess the Insatiable",
+					},
+					[110577] = {
+						["resetTime"] = 18430,
+						["name"] = "Oreth the Vile",
+					},
+					[136340] = {
+						["resetTime"] = 18430,
+						["name"] = "Relic Hunter Hazaak",
+					},
+					[129181] = {
+						["resetTime"] = 18430,
+						["name"] = "Barman Bill",
+					},
+					[134897] = {
+						["resetTime"] = 18430,
+						["name"] = "Dagrus the Scorned",
+					},
+					[132068] = {
+						["resetTime"] = 18430,
+						["name"] = "Bashmu",
+					},
+					[139235] = {
+						["resetTime"] = 18430,
+						["name"] = "Tort Jaw",
+					},
+					[127776] = {
+						["resetTime"] = 18430,
+						["name"] = "Scaleclaw Broodmother",
+					},
+					[90505] = {
+						["resetTime"] = 18430,
+						["name"] = "Syphonus",
+					},
+					[110024] = {
+						["resetTime"] = 18430,
+						["name"] = "Mal'Dreth the Corruptor",
+					},
+					[133842] = {
+						["resetTime"] = 18430,
+						["name"] = "Warcrawler Karkithiss",
+					},
+					[141088] = {
+						["resetTime"] = 18430,
+						["name"] = "Squall",
+					},
+					[110562] = {
+						["resetTime"] = 18430,
+						["name"] = "Bahagar",
+					},
+					[111651] = {
+						["resetTime"] = 18430,
+						["name"] = "Degren",
+					},
+					[106351] = {
+						["resetTime"] = 18430,
+						["name"] = "Artificer Lothaire",
+					},
+					[132088] = {
+						["resetTime"] = 18430,
+						["name"] = "Captain Wintersail",
+					},
+					[107113] = {
+						["resetTime"] = 18430,
+						["name"] = "Vorthax",
+					},
+					[131252] = {
+						["resetTime"] = 18430,
+						["name"] = "Merianae",
+					},
+					[94414] = {
+						["resetTime"] = 18430,
+						["name"] = "Kiranys Duskwhisper",
+					},
+					[101077] = {
+						["resetTime"] = 18430,
+						["name"] = "Sekhan",
+					},
+					[93205] = {
+						["resetTime"] = 18430,
+						["name"] = "Thondrax",
+					},
+					[92965] = {
+						["resetTime"] = 18430,
+						["name"] = "Darkshade",
+					},
+					[134638] = {
+						["resetTime"] = 18430,
+						["name"] = "Warlord Zothix",
+					},
+					[97345] = {
+						["resetTime"] = 18430,
+						["name"] = "Crawshuk the Hungry",
+					},
+					[132211] = {
+						["resetTime"] = 18430,
+						["name"] = "Fowlmouth",
+					},
+					[135852] = {
+						["resetTime"] = 18430,
+						["name"] = "Ak'tar",
+					},
+					[137025] = {
+						["resetTime"] = 18430,
+						["name"] = "Broodmother",
+					},
+					[91113] = {
+						["resetTime"] = 18430,
+						["name"] = "Tide Behemoth",
+					},
+					[98299] = {
+						["resetTime"] = 18430,
+						["name"] = "Bodash the Hoarder",
+					},
+					[89850] = {
+						["resetTime"] = 18430,
+						["name"] = "The Oracle",
+					},
+					[111649] = {
+						["resetTime"] = 18430,
+						["name"] = "Ambassador D'vwinn",
+					},
+					[134295] = {
+						["resetTime"] = 18430,
+						["name"] = "Lost Scroll",
+					},
+					[108136] = {
+						["resetTime"] = 18430,
+						["name"] = "The Muscle",
+					},
+					[107657] = {
+						["resetTime"] = 18430,
+						["name"] = "Arcanist Shal'iman",
+					},
+					[136428] = {
+						["resetTime"] = 18430,
+						["name"] = "Dark Chronicler",
+					},
+					[107926] = {
+						["resetTime"] = 18430,
+						["name"] = "Hannval the Butcher",
+					},
+					[92423] = {
+						["resetTime"] = 18430,
+						["name"] = "Theryssia",
+					},
+					[110340] = {
+						["resetTime"] = 18430,
+						["name"] = "Myonix",
+					},
+					[98268] = {
+						["resetTime"] = 18430,
+						["name"] = "Tarben",
+					},
+				},
 			},
 			["Default.Frostmane.Rykahwar"] = {
-				["lastUpdate"] = 1604962913,
+				["lastUpdate"] = 1605827304,
 			},
 			["Default.Frostmane.Slywithapet"] = {
 				["lastUpdate"] = 1604152364,
@@ -37,13 +1175,13 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1604101077,
 			},
 			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1605295207,
+				["lastUpdate"] = 1605913181,
 			},
 			["Default.Frostmane.Rykahpodh"] = {
 				["lastUpdate"] = 1604096619,
 			},
 			["Default.Frostmane.Rÿkah"] = {
-				["lastUpdate"] = 1604786424,
+				["lastUpdate"] = 1605826919,
 			},
 			["Default.Frostmane.Rykahthree"] = {
 				["lastUpdate"] = 1602710316,
@@ -51,72 +1189,26 @@ DataStore_RaresDB = {
 			["Default.Frostmane.Rykahpala"] = {
 				["lastUpdate"] = 1603840530,
 			},
-			["Default.Frostmane.Rykahshaman"] = {
-				["lastUpdate"] = 1603923248,
+			["Default.Frostmane.Rykahpriest"] = {
+				["lastUpdate"] = 1605485271,
+			},
+			["Default.Frostmane.Bankypo"] = {
+				["lastUpdate"] = 1605913257,
 			},
 			["Default.Frostmane.Rykahbolt"] = {
 				["lastUpdate"] = 1604102504,
 			},
-			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1605228780,
-			},
-			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1605388633,
-				["Rares"] = {
-					[130138] = {
-						["resetTime"] = 34966,
-						["name"] = "Nevermore",
-					},
-					[134638] = {
-						["resetTime"] = 34966,
-						["name"] = "Warlord Zothix",
-					},
-					[148787] = {
-						["resetTime"] = 294166,
-						["name"] = "Alash'anir",
-					},
-					[128973] = {
-						["resetTime"] = 34966,
-						["name"] = "Whargarble the Ill-Tempered",
-					},
-					[96410] = {
-						["resetTime"] = 34966,
-						["name"] = "Majestic Elderhorn",
-					},
-					[96621] = {
-						["resetTime"] = 34966,
-						["name"] = "Mellok, Son of Torok ",
-					},
-					[149652] = {
-						["resetTime"] = 294166,
-						["name"] = "Agathe Wyrmwood",
-					},
-					[125453] = {
-						["resetTime"] = 34966,
-						["name"] = "Quillrat Matriarch",
-					},
-					[97793] = {
-						["resetTime"] = 34966,
-						["name"] = "Flamescale",
-					},
-					[124548] = {
-						["resetTime"] = 34966,
-						["name"] = "Betsy",
-					},
-					[97203] = {
-						["resetTime"] = 34966,
-						["name"] = "Tenpak Flametotem",
-					},
-				},
-			},
 			["Default.Frostmane.Rykahpoo"] = {
 				["lastUpdate"] = 1604172383,
 			},
-			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1605388571,
+			["Default.Frostmane.Rykahhpo"] = {
+				["lastUpdate"] = 1605913098,
 			},
-			["Default.Frostmane.Rykahpriest"] = {
-				["lastUpdate"] = 1604970970,
+			["Default.Frostmane.Rykahpoh"] = {
+				["lastUpdate"] = 1605912945,
+			},
+			["Default.Frostmane.Rykahshaman"] = {
+				["lastUpdate"] = 1603923248,
 			},
 		},
 	},

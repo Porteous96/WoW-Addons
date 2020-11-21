@@ -14,10 +14,10 @@ DataStore_KeystonesDB = {
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -25,18 +25,13 @@ DataStore_KeystonesDB = {
 				["lastUpdate"] = 1604786424,
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1605316986,
-				["currentKeystone"] = {
-					["keystoneLevel"] = 14,
-					["name"] = "Shrine of the Storm",
-					["texture"] = 2178732,
-				},
+				["lastUpdate"] = 1605471662,
 			},
 		},
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 3,
-			["NextWeeklyReset"] = "2020-11-18",
+			["NextWeeklyReset"] = "2020-11-25",
 		},
 	},
 }
@@ -55,9 +50,9 @@ DataStore_KeystonesRefDB = {
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 	},
 }

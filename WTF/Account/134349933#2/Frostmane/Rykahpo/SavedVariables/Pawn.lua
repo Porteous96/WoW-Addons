@@ -1,9 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0405,
-	["LastPlayerFullName"] = "Rykahpo-Frostmane",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
+	["LastVersion"] = 2.0406,
 	["ItemLevels"] = {
 		{
 			["ID"] = 174116,
@@ -92,6 +89,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:159667::168640::::::50:63::35:8:6536:4802:6578:6515:1543:4786:6473:6470::::|h[Vessel of Last Rites]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Rykahpo-Frostmane",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128862] = {
 			["Relics"] = {
@@ -111,7 +112,6 @@ PawnOptions = {
 			["Name"] = "Ebonchill, Greatstaff of Alodi",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MAGE",

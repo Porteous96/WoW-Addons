@@ -24,204 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"its meant to be quite xenophobic though, but from what people have said if you try and cummunicate people will be welcoming to you", -- [1]
-			"|Kq34|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2962, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604796112,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [1]
-		{
-			"and if you are white and can use chopsticks, people will be impresses", -- [1]
-			"|Kq34|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2964, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604796141,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [2]
-		{
-			"impressed*", -- [1]
-			"|Kq34|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2965, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604796146,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [3]
-		{
-			"yeah", -- [1]
-			"|Kq34|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2966, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604796146,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [4]
-		{
-			"apparently there's a lot of like unwritten rules tho", -- [1]
-			"|Kq34|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2967, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604796154,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [5]
-		{
-			"yeah", -- [1]
-			"|Kq34|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2974, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604796161,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [6]
-		{
-			"culturally very different ", -- [1]
-			"|Kq34|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2979, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604796175,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [7]
-		{
-			"like tipping is insulting", -- [1]
-			"|Kq34|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2982, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604796186,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [8]
-		{
-			"yeah", -- [1]
-			"|Kq34|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2985, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604796196,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [9]
-		{
 			"and eating while walking outside is a big no", -- [1]
 			"|Kq34|k", -- [2]
 			"", -- [3]
@@ -242,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796203,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [10]
+		}, -- [1]
 		{
 			"and modifying food after you get it is insulting ", -- [1]
 			"|Kq34|k", -- [2]
@@ -264,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796205,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [11]
+		}, -- [2]
 		{
 			"also that", -- [1]
 			"|Kq34|k", -- [2]
@@ -286,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796211,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [12]
+		}, -- [3]
 		{
 			"china had lots of stuff like this", -- [1]
 			"|Kq34|k", -- [2]
@@ -308,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796229,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [13]
+		}, -- [4]
 		{
 			"sushi chef man said he doesnt care how people eat his food", -- [1]
 			"|Kq34|k", -- [2]
@@ -330,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796240,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [14]
+		}, -- [5]
 		{
 			"just dont dip it in soy sauce", -- [1]
 			"|Kq34|k", -- [2]
@@ -352,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796246,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [15]
+		}, -- [6]
 		{
 			"think it is meant to depend on the type of sushi", -- [1]
 			"|Kq34|k", -- [2]
@@ -374,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796263,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [16]
+		}, -- [7]
 		{
 			"but yeah, i have heard this", -- [1]
 			"|Kq34|k", -- [2]
@@ -396,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796271,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [17]
+		}, -- [8]
 		{
 			"he glazes in it soy sauce ", -- [1]
 			"|Kq34|k", -- [2]
@@ -418,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796278,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [18]
+		}, -- [9]
 		{
 			"and aparently to dip it in soy sauce just ruins it all", -- [1]
 			"|Kq34|k", -- [2]
@@ -440,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796295,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [19]
+		}, -- [10]
 		{
 			"sure, if the chef has already done it, you dont do more", -- [1]
 			"|Kq34|k", -- [2]
@@ -462,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796307,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [20]
+		}, -- [11]
 		{
 			"think its probs like telling a chef their food needs seasoning", -- [1]
 			"|Kq34|k", -- [2]
@@ -484,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796318,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [21]
+		}, -- [12]
 		{
 			"but i think like rolls are of to dip the fish, but this is just what i have been told", -- [1]
 			"|Kq34|k", -- [2]
@@ -506,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796324,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [22]
+		}, -- [13]
 		{
 			"not really looked into it", -- [1]
 			"|Kq34|k", -- [2]
@@ -528,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796328,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [23]
+		}, -- [14]
 		{
 			"in china there was a lot to do with pointing, and counting ", -- [1]
 			"|Kq34|k", -- [2]
@@ -550,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796370,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [24]
+		}, -- [15]
 		{
 			"yeah you say 4 wrong or something", -- [1]
 			"|Kq34|k", -- [2]
@@ -572,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796382,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [25]
+		}, -- [16]
 		{
 			"and how you place you chopsticks while eating ", -- [1]
 			"|Kq34|k", -- [2]
@@ -594,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796385,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [26]
+		}, -- [17]
 		{
 			"and it means death?", -- [1]
 			"|Kq34|k", -- [2]
@@ -616,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796389,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [27]
+		}, -- [18]
 		{
 			"yeah, 4 is close sounding ", -- [1]
 			"|Kq34|k", -- [2]
@@ -638,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796399,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [28]
+		}, -- [19]
 		{
 			"there is plenty of places in asia i would be happy to go, but i would avoid china like the plague ", -- [1]
 			"|Kq34|k", -- [2]
@@ -660,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796437,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [29]
+		}, -- [20]
 		{
 			"i'd defo go to japan", -- [1]
 			"|Kq34|k", -- [2]
@@ -682,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796466,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [30]
+		}, -- [21]
 		{
 			">bowl with noodles and shib", -- [1]
 			"|Kq34|k", -- [2]
@@ -704,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796480,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [31]
+		}, -- [22]
 		{
 			">give", -- [1]
 			"|Kq34|k", -- [2]
@@ -726,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796482,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [32]
+		}, -- [23]
 		{
 			"yeah, japan, korea, id go to hong kong in a less politically charged time, ", -- [1]
 			"|Kq34|k", -- [2]
@@ -748,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796503,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [33]
+		}, -- [24]
 		{
 			"also", -- [1]
 			"|Kq34|k", -- [2]
@@ -770,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796534,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [34]
+		}, -- [25]
 		{
 			"shang hai is actually meant to be nicer than beijing, but i wouldnt risk it ", -- [1]
 			"|Kq34|k", -- [2]
@@ -792,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796547,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [35]
+		}, -- [26]
 		{
 			"apparently you cant buy a car in japan without a policeman coming out measure your parking space can fit the car you want to buy", -- [1]
 			"|Kq34|k", -- [2]
@@ -814,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796559,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [36]
+		}, -- [27]
 		{
 			"which i thought was memes", -- [1]
 			"|Kq34|k", -- [2]
@@ -836,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796586,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [37]
+		}, -- [28]
 		{
 			"my danish friend was telling me in denmark, you do your driving test with a policeman, in their car", -- [1]
 			"|Kq34|k", -- [2]
@@ -858,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796614,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [38]
+		}, -- [29]
 		{
 			"thats big scare", -- [1]
 			"|Kq34|k", -- [2]
@@ -880,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796624,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [39]
+		}, -- [30]
 		{
 			"omg if i went to kamigawa irl", -- [1]
 			"|Kq34|k", -- [2]
@@ -902,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796892,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [40]
+		}, -- [31]
 		{
 			"i could take my mat", -- [1]
 			"|Kq34|k", -- [2]
@@ -924,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796895,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [41]
+		}, -- [32]
 		{
 			"!!", -- [1]
 			"|Kq34|k", -- [2]
@@ -946,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796900,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [42]
+		}, -- [33]
 		{
 			"eating ramen off you kamigawa mat", -- [1]
 			"|Kq34|k", -- [2]
@@ -968,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796908,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [43]
+		}, -- [34]
 		{
 			"the dream", -- [1]
 			"|Kq34|k", -- [2]
@@ -990,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796910,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [44]
+		}, -- [35]
 		{
 			"using my kamigawa mat as a napkin", -- [1]
 			"|Kq34|k", -- [2]
@@ -1012,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796920,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [45]
+		}, -- [36]
 		{
 			"to wipe off the kamigawa juices", -- [1]
 			"|Kq34|k", -- [2]
@@ -1034,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796927,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [46]
+		}, -- [37]
 		{
 			"ramen is pretty fuggin stellar though", -- [1]
 			"|Kq34|k", -- [2]
@@ -1056,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796942,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [47]
+		}, -- [38]
 		{
 			"do rate", -- [1]
 			"|Kq34|k", -- [2]
@@ -1078,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796946,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [48]
+		}, -- [39]
 		{
 			"i've never had ramen outside of my house", -- [1]
 			"|Kq34|k", -- [2]
@@ -1100,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796957,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [49]
+		}, -- [40]
 		{
 			"but can imagine i'd really enjoy", -- [1]
 			"|Kq34|k", -- [2]
@@ -1122,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796971,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [50]
+		}, -- [41]
 		{
 			"myslef, dave, jules and inna went after xmas night out last yeah", -- [1]
 			"|Kq34|k", -- [2]
@@ -1144,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796981,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [51]
+		}, -- [42]
 		{
 			"year*", -- [1]
 			"|Kq34|k", -- [2]
@@ -1166,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604796989,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [52]
+		}, -- [43]
 		{
 			"there is a really good japan near mine", -- [1]
 			"|Kq34|k", -- [2]
@@ -1188,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604797023,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [53]
+		}, -- [44]
 		{
 			"japan place*", -- [1]
 			"|Kq34|k", -- [2]
@@ -1210,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604797031,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [54]
+		}, -- [45]
 		{
 			"really good entire country near my flat", -- [1]
 			"|Kq34|k", -- [2]
@@ -1232,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604797040,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [55]
+		}, -- [46]
 		{
 			"are you excited for monday politics chat? ", -- [1]
 			"|Kq34|k", -- [2]
@@ -1254,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604797082,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [56]
+		}, -- [47]
 		{
 			">DAE trump silly?", -- [1]
 			"|Kq34|k", -- [2]
@@ -1276,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604797107,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [57]
+		}, -- [48]
 		{
 			"estranjas malding lmao", -- [1]
 			"Ryper-Aggra(Português)", -- [2]
@@ -1298,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRyper-Aggra(Português)|r",
 			[51] = 1604871398,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [49]
 		{
 			"we have been intentionally connected to portugese realm?", -- [1]
 			"Morecambe-Frostmane", -- [2]
@@ -1320,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Morecambe|r",
 			[51] = 1604872891,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [50]
 		{
 			"Where are the portals to Storrmwind?", -- [1]
 			"Kurolight-GrimBatol", -- [2]
@@ -1342,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kurolight-GrimBatol|r",
 			[51] = 1604872899,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [51]
 		{
 			"atleaste you know we are portuguese and dont say spanish like most", -- [1]
 			"Zokin-Aggra(Português)", -- [2]
@@ -1364,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zokin-Aggra(Português)|r",
 			[51] = 1604872918,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [52]
 		{
 			"only cos it says in brackets, im as ignorant as anyone :p", -- [1]
 			"Morecambe-Frostmane", -- [2]
@@ -1386,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Morecambe|r",
 			[51] = 1604872940,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [53]
 		{
 			"so you're saying portugal isn't the capital of spain :P", -- [1]
 			"Noxela-GrimBatol", -- [2]
@@ -1408,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cNoxela-GrimBatol|r",
 			[51] = 1604872947,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [54]
 		{
 			"lol", -- [1]
 			"Duskull-GrimBatol", -- [2]
@@ -1430,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Duskull-GrimBatol|r",
 			[51] = 1604872957,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [55]
 		{
 			"ronaldo was the king of spain for a while", -- [1]
 			"Gonkz-Aggra(Português)", -- [2]
@@ -1452,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeGonkz-Aggra(Português)|r",
 			[51] = 1604872972,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [56]
 		{
 			"well... lets call the padeira", -- [1]
 			"Zokin-Aggra(Português)", -- [2]
@@ -1474,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Zokin-Aggra(Português)|r",
 			[51] = 1604872984,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [57]
 		{
 			"wasnt he brazilian?", -- [1]
 			"Morecambe-Frostmane", -- [2]
@@ -1496,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Morecambe|r",
 			[51] = 1604872988,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [58]
 		{
 			"thats rolando", -- [1]
 			"Gonkz-Aggra(Português)", -- [2]
@@ -1518,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeGonkz-Aggra(Português)|r",
 			[51] = 1604872996,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [59]
 		{
 			"he meant Penaldo", -- [1]
 			"Duskull-GrimBatol", -- [2]
@@ -1540,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Duskull-GrimBatol|r",
 			[51] = 1604873001,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [60]
 		{
 			"tago", -- [1]
 			"Hotterino-Ragnaros", -- [2]
@@ -1562,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHotterino-Ragnaros|r",
 			[51] = 1604874226,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [61]
 		{
 			"KO ka NO", -- [1]
 			"Hotterino-Ragnaros", -- [2]
@@ -1584,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHotterino-Ragnaros|r",
 			[51] = 1604874232,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [62]
 		{
 			"ogar g kaz", -- [1]
 			"Hotterino-Ragnaros", -- [2]
@@ -1606,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHotterino-Ragnaros|r",
 			[51] = 1604874236,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [63]
 		{
 			"imba(Grim Batol), Svensk guild som nystartar och söker nya härliga casual/social spelare till SL för att skapa mer liv i guilden och för guildruns i Mythic+ samt andra guildevents, gärna 30+, alla klasser/roller är välkomna.", -- [1]
 			"Stabaton-GrimBatol", -- [2]
@@ -1628,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Stabaton-GrimBatol|r",
 			[51] = 1604874701,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [64]
 		{
 			"go hunt", -- [1]
 			"Asaphoez-Archimonde", -- [2]
@@ -1650,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsaphoez-Archimonde|r",
 			[51] = 1604874906,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
+		}, -- [65]
 		{
 			"Donyoko - Chasseur", -- [1]
 			"Asaphoez-Archimonde", -- [2]
@@ -1672,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsaphoez-Archimonde|r",
 			[51] = 1604874916,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [66]
 		{
 			"Rammusfondu - Prêtre", -- [1]
 			"Asaphoez-Archimonde", -- [2]
@@ -1694,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsaphoez-Archimonde|r",
 			[51] = 1604874916,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [67]
 		{
 			"nice dude", -- [1]
 			"Asaphoez-Archimonde", -- [2]
@@ -1716,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsaphoez-Archimonde|r",
 			[51] = 1604874948,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [68]
 		{
 			"no fear nothin", -- [1]
 			"Asaphoez-Archimonde", -- [2]
@@ -1738,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsaphoez-Archimonde|r",
 			[51] = 1604874951,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [69]
 		{
 			"???", -- [1]
 			"Asaphoez-Archimonde", -- [2]
@@ -1760,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsaphoez-Archimonde|r",
 			[51] = 1604874953,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [70]
 		{
 			"was feared into trap", -- [1]
 			"Rykahwar-Frostmane", -- [2]
@@ -1782,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRykahwar|r",
 			[51] = 1604874961,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [80]
+		}, -- [71]
 		{
 			"no immunity", -- [1]
 			"Rykahwar-Frostmane", -- [2]
@@ -1804,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRykahwar|r",
 			[51] = 1604874963,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [81]
+		}, -- [72]
 		{
 			"no cc breaker", -- [1]
 			"Rykahwar-Frostmane", -- [2]
@@ -1826,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRykahwar|r",
 			[51] = 1604874966,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [82]
+		}, -- [73]
 		{
 			"l2p fucking swine", -- [1]
 			"Rykahwar-Frostmane", -- [2]
@@ -1848,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRykahwar|r",
 			[51] = 1604874968,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [83]
+		}, -- [74]
 		{
 			"Bigdickmeech - Mage", -- [1]
 			"Asaphoez-Archimonde", -- [2]
@@ -1870,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsaphoez-Archimonde|r",
 			[51] = 1604875156,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [75]
 		{
 			"LOW HEALTH: Bigdickmeech (Mage)", -- [1]
 			"Asaphoez-Archimonde", -- [2]
@@ -1892,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsaphoez-Archimonde|r",
 			[51] = 1604875188,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [76]
 		{
 			"LOW HEALTH: Bigdickmeech (Mage)", -- [1]
 			"Asaphoez-Archimonde", -- [2]
@@ -1914,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsaphoez-Archimonde|r",
 			[51] = 1604875213,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [77]
 		{
 			"LOW HEALTH: Bigdickmeech (Mage)", -- [1]
 			"Asaphoez-Archimonde", -- [2]
@@ -1936,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAsaphoez-Archimonde|r",
 			[51] = 1604875215,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [78]
 		{
 			"WTF", -- [1]
 			"Badpapa-Hellscream", -- [2]
@@ -1958,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBadpapa-Hellscream|r",
 			[51] = 1604962047,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [79]
 		{
 			"wtf", -- [1]
 			"Rykahwar-Frostmane", -- [2]
@@ -1980,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRykahwar|r",
 			[51] = 1604962117,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [80]
 		{
 			"you ok bud?", -- [1]
 			"Rykahwar-Frostmane", -- [2]
@@ -2002,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRykahwar|r",
 			[51] = 1604962125,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [81]
 		{
 			"big dick aoe", -- [1]
 			"Deathgrave-Ravencrest", -- [2]
@@ -2024,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Deathgrave-Ravencrest|r",
 			[51] = 1604962128,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [82]
 		{
 			"big dick self heals", -- [1]
 			"Rykahwar-Frostmane", -- [2]
@@ -2046,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRykahwar|r",
 			[51] = 1604962137,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [83]
 		{
 			"ty", -- [1]
 			"Elorás-Outland", -- [2]
@@ -2068,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Elorás-Outland|r",
 			[51] = 1604962496,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [84]
 		{
 			"no worries ", -- [1]
 			"Rykahwar-Frostmane", -- [2]
@@ -2090,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRykahwar|r",
 			[51] = 1604962503,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [85]
 		{
 			"i didnt have a choice", -- [1]
 			"Rykahwar-Frostmane", -- [2]
@@ -2112,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRykahwar|r",
 			[51] = 1604962505,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [86]
 		{
 			"yrel went ham", -- [1]
 			"Rykahwar-Frostmane", -- [2]
@@ -2134,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRykahwar|r",
 			[51] = 1604962508,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [87]
 		{
 			"anyone for |cffffff00|Hquest:33833:63|h[WANTED: Kuu'rat's Tusks]|h|r", -- [1]
 			"Swichblade-Silvermoon", -- [2]
@@ -2156,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Swichblade-Silvermoon|r",
 			[51] = 1604962546,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [88]
 		{
 			"i can share the quest", -- [1]
 			"Swichblade-Silvermoon", -- [2]
@@ -2178,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Swichblade-Silvermoon|r",
 			[51] = 1604962559,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [89]
 		{
 			"WTS |cffa335ee|Hitem:163574::::::::50:253:::::::|h[Chewed-On Reins of the Terrified Pack Mule]|h|r", -- [1]
 			"Tyräh-Aggra(Português)", -- [2]
@@ -2199,6 +2001,204 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cffa9d271Tyräh-Aggra(Português)|r",
 			[51] = 1604962955,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"Why so mad Brunoaleixo?! So...portuguese is just a shitty spanish that you guys invented!", -- [1]
+			"Darthy-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Darthy-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2979, -- [11]
+			"Player-1303-0B9E06A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeDarthy|r",
+			[51] = 1605827307,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"C R U ZA D O S : Em 2008 descobrimos o WOW. Crescemos, conquistámos , fizemos amigos e principalmente divertimo-nos.. Em 2013 , a  vida fora do jogo trouxe-nos fraldas, trabalhos de casa, enfim .... cenas ...", -- [1]
+			"Lobamá-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lobamá-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2986, -- [11]
+			"Player-1303-05944625", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edLobamá-Aggra(Português)|r",
+			[51] = 1605827313,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"Renato estás ai?", -- [1]
+			"Sercial-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sercial-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2990, -- [11]
+			"Player-1303-0A62DBA4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Sercial-Aggra(Português)|r",
+			[51] = 1605827315,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"ele esta off hoje", -- [1]
+			"Keanoweaves-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Keanoweaves-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3000, -- [11]
+			"Player-1303-0BAA334D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Keanoweaves-Aggra(Português)|r",
+			[51] = 1605827334,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"Em 2020, fomos presenteados com 3 meses de confinamento. Sem poder sair de casa, a janela de Azeroth abriu-se e voltámos ao outro mundo que conheciamos-o WOW.", -- [1]
+			"Lobamá-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lobamá-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3001, -- [11]
+			"Player-1303-05944625", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edLobamá-Aggra(Português)|r",
+			[51] = 1605827338,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"Darthy actually speaking some truth...but english is just a celtic shitty invention then as well", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3002, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605827340,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"Renato Sanches estas ai?", -- [1]
+			"Starzz-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Starzz-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3003, -- [11]
+			"Player-1303-0B700B5C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Starzz-GrimBatol|r",
+			[51] = 1605827343,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"esta na discoteca", -- [1]
+			"Keanoweaves-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Keanoweaves-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3006, -- [11]
+			"Player-1303-0BAA334D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Keanoweaves-Aggra(Português)|r",
+			[51] = 1605827347,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Sem pressões, de mente aberta para a nova realidade queremos recomeçar.Contacta-nos!Estamos por cá!", -- [1]
+			"Lobamá-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lobamá-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3008, -- [11]
+			"Player-1303-05944625", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edLobamá-Aggra(Português)|r",
+			[51] = 1605827359,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

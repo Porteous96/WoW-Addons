@@ -2,18 +2,18 @@
 AAP1 = {
 	["Sylvanas"] = {
 		["Mechaboost"] = {
-			["A971"] = 1,
-			["SavedVer"] = 8.1058,
 			["CountedZoneSteps"] = {
 				["A84-LF-20"] = 5,
 			},
+			["SavedVer"] = 8.1058,
+			["A971"] = 1,
 			["A13"] = 1,
 			["LoaPick"] = 0,
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["SkippedBonusObj"] = {
 			},
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
 			["A84-LF-20"] = 2,
 			["AAP_DoWarCampaign"] = 0,
@@ -47,8 +47,8 @@ AAP1 = {
 				["ShowQList"] = 1,
 				["ArrowScale"] = 0.71,
 				["AutoVendor"] = 0,
+				["ShowArrow"] = 1,
 				["ShowMapBlobs"] = 1,
-				["Hcamptop"] = -215.9999755859375,
 				["Partyleft"] = 768,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
@@ -57,7 +57,7 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["AutoShareQ"] = 0,
-				["ShowArrow"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["Scale"] = 0.71,
 				["QuestButtons"] = 1,
 				["DisableHeirloomWarning"] = 0,
@@ -69,9 +69,7 @@ AAP1 = {
 	["DefiasBrotherhood"] = {
 		["Mechaboost"] = {
 			["SavedVer"] = 8.1058,
-			["CountedZoneSteps"] = {
-				["A84-LF-20"] = 5,
-			},
+			["A971"] = 1,
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -102,8 +100,8 @@ AAP1 = {
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
 				["Scale"] = 0.71,
+				["Hcamptop"] = -215.9999755859375,
 				["ShowArrow"] = 1,
-				["ShowMapBlobs"] = 1,
 				["AutoShareQ"] = 0,
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 768,
@@ -112,20 +110,22 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["alpha"] = 1,
-				["Hcamptop"] = -215.9999755859375,
+				["ShowMapBlobs"] = 1,
 				["AutoVendor"] = 0,
 				["ShowQList"] = 1,
 				["Greetings2"] = 1,
 			},
 			["AAP_DoWarCampaign"] = 0,
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
 			["SkippedBonusObj"] = {
 			},
-			["A971"] = 1,
+			["CountedZoneSteps"] = {
+				["A84-LF-20"] = 5,
+			},
 			["A84-LF-20"] = 2,
 			["LoaPick"] = 0,
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["QlineSkip"] = {
 			},
@@ -133,9 +133,7 @@ AAP1 = {
 	},
 	["Aggramar"] = {
 		["Rcumplus"] = {
-			["CountedZoneSteps"] = {
-				["A84-LF-20"] = 5,
-			},
+			["A971"] = 1,
 			["SavedVer"] = 8.1058,
 			["Settings"] = {
 				["LockArrow"] = 0,
@@ -167,8 +165,8 @@ AAP1 = {
 				["arrowleft"] = 1322.832885742188,
 				["ArrowScale"] = 0.71,
 				["Scale"] = 0.71,
+				["ShowMapBlobs"] = 1,
 				["Hcamptop"] = -215.9999755859375,
-				["ShowArrow"] = 1,
 				["AutoShareQ"] = 0,
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 768,
@@ -177,36 +175,36 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["alpha"] = 1,
-				["ShowMapBlobs"] = 1,
+				["ShowArrow"] = 1,
 				["AutoVendor"] = 0,
 				["ShowQList"] = 1,
 				["Greetings2"] = 1,
 			},
 			["A13"] = 1,
 			["AAP_DoWarCampaign"] = 0,
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["SkippedBonusObj"] = {
 			},
-			["A971"] = 1,
+			["CountedZoneSteps"] = {
+				["A84-LF-20"] = 5,
+			},
 			["A84-LF-20"] = 2,
 			["LoaPick"] = 0,
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
 			["QlineSkip"] = {
 			},
 		},
 		["Rykahboost"] = {
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["SavedVer"] = 8.1058,
 			["SkippedBonusObj"] = {
 			},
 			["A13"] = 1,
 			["AAP_DoWarCampaign"] = 0,
-			["CountedZoneSteps"] = {
-				["A84-LF-20"] = 5,
-			},
+			["A971"] = 1,
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -237,8 +235,8 @@ AAP1 = {
 				["ShowQList"] = 1,
 				["ArrowScale"] = 0.71,
 				["Scale"] = 0.71,
+				["Hcamptop"] = -215.9999755859375,
 				["ShowArrow"] = 1,
-				["ShowMapBlobs"] = 1,
 				["AutoShareQ"] = 0,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
@@ -247,16 +245,18 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["Partyleft"] = 768,
-				["Hcamptop"] = -215.9999755859375,
+				["ShowMapBlobs"] = 1,
 				["AutoVendor"] = 0,
 				["arrowleft"] = 936.5853658536586,
 				["Greetings2"] = 1,
 			},
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
 			["A84-LF-20"] = 2,
 			["LoaPick"] = 0,
-			["A971"] = 1,
+			["CountedZoneSteps"] = {
+				["A84-LF-20"] = 5,
+			},
 			["QlineSkip"] = {
 			},
 		},
@@ -266,7 +266,8 @@ AAP1 = {
 			["SavedVer"] = 8.1058,
 			["SkippedBonusObj"] = {
 			},
-			["A971"] = 1,
+			["BonusSkips"] = {
+			},
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -297,8 +298,8 @@ AAP1 = {
 				["ShowQList"] = 1,
 				["ArrowScale"] = 0.71,
 				["QuestButtons"] = 1,
+				["ShowArrow"] = 1,
 				["ShowMapBlobs"] = 1,
-				["Hcamptop"] = -215.9999755859375,
 				["Scale"] = 0.71,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
@@ -307,16 +308,15 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["Partyleft"] = 768,
-				["ShowArrow"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["AutoShareQ"] = 0,
 				["arrowleft"] = 936.5853658536586,
 				["AutoVendor"] = 0,
 			},
-			["WantedQuestList"] = {
-			},
+			["A971"] = 1,
 			["AAP_DoWarCampaign"] = 0,
 			["LoaPick"] = 0,
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["QlineSkip"] = {
 			},
@@ -325,12 +325,14 @@ AAP1 = {
 	["GrimBatol"] = {
 		["Advboi"] = {
 			["SavedVer"] = 8.1058,
-			["WantedQuestList"] = {
-			},
 			["BonusSkips"] = {
 			},
+			["WantedQuestList"] = {
+			},
 			["LoaPick"] = 0,
-			["A971"] = 1,
+			["CountedZoneSteps"] = {
+				["A84-LF-20"] = 5,
+			},
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -361,8 +363,8 @@ AAP1 = {
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
 				["AutoVendor"] = 0,
+				["Hcamptop"] = -215.9999755859375,
 				["ShowArrow"] = 1,
-				["ShowMapBlobs"] = 1,
 				["alpha"] = 1,
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 768,
@@ -371,14 +373,12 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["AutoShareQ"] = 0,
-				["Hcamptop"] = -215.9999755859375,
+				["ShowMapBlobs"] = 1,
 				["Scale"] = 0.71,
 				["QuestButtons"] = 1,
 				["DisableHeirloomWarning"] = 0,
 			},
-			["CountedZoneSteps"] = {
-				["A84-LF-20"] = 5,
-			},
+			["A971"] = 1,
 			["A84-LF-20"] = 2,
 			["AAP_DoWarCampaign"] = 0,
 			["SkippedBonusObj"] = {
@@ -395,8 +395,12 @@ AAP1 = {
 			["FirstLoadz"] = 1,
 			["QuestCounter2"] = 152,
 			["LoaPick"] = 0,
-			["A84-DesMephisto-Stormwind-War"] = 1,
+			["SkippedBonusObj"] = {
+			},
 			["WantedQuestList"] = {
+			},
+			["A84-DesMephisto-Stormwind-War"] = 1,
+			["BonusSkips"] = {
 			},
 			["Settings"] = {
 				["LockArrow"] = 0,
@@ -442,10 +446,6 @@ AAP1 = {
 				["AutoShareQ"] = 0,
 				["DisableHeirloomWarning"] = 0,
 				["AutoFlight"] = 1,
-			},
-			["BonusSkips"] = {
-			},
-			["SkippedBonusObj"] = {
 			},
 			["AAP_DoWarCampaign"] = 0,
 			["A830"] = 1,
@@ -533,7 +533,7 @@ AAP1 = {
 			["A62"] = 1,
 			["FirstLoadz"] = 1,
 			["A896-110-120"] = 338,
-			["QuestCounter"] = 1302,
+			["QuestCounter"] = 1303,
 			["A862-110-120"] = 28,
 			["A422"] = 1,
 			["A895-110-120-1"] = 6,
@@ -557,7 +557,7 @@ AAP1 = {
 				[51547] = 1,
 			},
 			["A81-110-120"] = 12,
-			["QuestCounter2"] = 1302,
+			["QuestCounter2"] = 1303,
 			["A111"] = 1,
 			["A895-110-120-2"] = 3,
 		},
@@ -566,7 +566,7 @@ AAP1 = {
 			["A84"] = 1,
 			["A49-RedridgeMountauns"] = 5,
 			["A49-20-63"] = 5,
-			["QuestCounter2"] = 265,
+			["QuestCounter2"] = 366,
 			["A85"] = 1,
 			["Settings"] = {
 				["LockArrow"] = 0,
@@ -581,10 +581,10 @@ AAP1 = {
 				["ShowGroup"] = 1,
 				["OrderListScale"] = 1,
 				["WQs"] = 1,
-				["leftLiz"] = 150,
+				["leftLiz"] = 141.1110992431641,
 				["BannerShow"] = 0,
 				["Partytop"] = -269.9999694824219,
-				["arrowtop"] = -719.9999186197916,
+				["arrowtop"] = -238.8889770507813,
 				["AutoFlight"] = 1,
 				["DisableHeirloomWarning"] = 0,
 				["ShowBlobs"] = 1,
@@ -597,13 +597,13 @@ AAP1 = {
 				["ArrowFPS"] = 2,
 				["Lock"] = 0,
 				["Hcampleft"] = 1200,
-				["arrowleft"] = 936.5853658536586,
+				["arrowleft"] = 1586.584716796875,
 				["Greetings"] = 0,
 				["ShowQList"] = 1,
 				["ArrowScale"] = 0.71,
-				["Hcamptop"] = -215.9999755859375,
 				["ShowArrow"] = 1,
 				["ShowMapBlobs"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["alpha"] = 1,
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 768,
@@ -615,7 +615,7 @@ AAP1 = {
 				["AutoShareQ"] = 0,
 				["AutoVendor"] = 0,
 				["Greetings2"] = 1,
-				["topLiz"] = -150,
+				["topLiz"] = -184.4443969726563,
 			},
 			["CountedZoneSteps"] = {
 				["A37-20"] = 2,
@@ -627,6 +627,7 @@ AAP1 = {
 			["A539"] = 1,
 			["A52"] = 1,
 			["SavedVer"] = 8.1058,
+			["A543"] = 1,
 			["A13"] = 1,
 			["A37"] = 1,
 			["BonusSkips"] = {
@@ -635,18 +636,22 @@ AAP1 = {
 			["A18"] = 1,
 			["A37-ElwynnForest"] = 72,
 			["A578"] = 1,
+			["A543-DesMephisto-Gorgrond"] = 74,
+			["A47-Duskwood"] = 1,
 			["SkippedBonusObj"] = {
 			},
+			["A203"] = 1,
 			["A10"] = 1,
 			["HSLoc"] = 84,
-			["QuestCounter"] = 265,
+			["A17"] = 1,
+			["QuestCounter"] = 366,
 			["A525"] = 1,
 			["FirstLoadz"] = 1,
 			["A27"] = 1,
-			["A203"] = 1,
+			["A572"] = 1,
 			["A577"] = 1,
-			["A17"] = 1,
 			["AAP_DoWarCampaign"] = 0,
+			["A535"] = 1,
 			["ANoZone"] = 1,
 			["A49"] = 1,
 			["A63"] = 1,
@@ -654,8 +659,8 @@ AAP1 = {
 			["WantedQuestList"] = {
 			},
 			["A577-DesMephisto-TanaanJungle"] = 104,
-			["A539-DesMephisto-Shadowmoon1"] = 24,
-			["A52-Westfall"] = 23,
+			["A539-DesMephisto-Shadowmoon1"] = 129,
+			["A52-Westfall"] = 67,
 			["QlineSkip"] = {
 			},
 		},
@@ -663,7 +668,7 @@ AAP1 = {
 			["SkippedBonusObj"] = {
 			},
 			["A13"] = 1,
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
 			["AAP_DoWarCampaign"] = 0,
 			["Settings"] = {
@@ -701,12 +706,12 @@ AAP1 = {
 				["Partyleft"] = 768,
 				["arrowleft"] = 936.585365853659,
 			},
-			["CountedZoneSteps"] = {
-				["A56-20-63"] = 115,
+			["WantedQuestList"] = {
 			},
 			["A56-20-63"] = 1,
 			["LoaPick"] = 0,
-			["BonusSkips"] = {
+			["CountedZoneSteps"] = {
+				["A56-20-63"] = 115,
 			},
 			["QlineSkip"] = {
 			},
@@ -788,25 +793,25 @@ AAP1 = {
 			["A424"] = 1,
 			["A942-110-120"] = 1,
 			["A81"] = 1,
-			["QuestCounter2"] = 595,
+			["QuestCounter2"] = 611,
 			["WantedQuestList"] = {
 			},
 			["A108"] = 1,
 			["A895-110-120"] = 47,
 			["A784"] = 1,
 			["A630"] = 1,
-			["QuestCounter"] = 595,
+			["QuestCounter"] = 611,
 			["A895-110-120-3"] = 6,
 			["A14"] = 1,
 			["A895"] = 1,
 			["SkippedBonusObj"] = {
 			},
 			["A1203"] = 1,
-			["A62"] = 1,
+			["A641"] = 1,
 			["AAP_DoWarCampaign"] = 0,
 			["A896-110-120"] = 24,
 			["A376"] = 1,
-			["A862"] = 1,
+			["A62"] = 1,
 			["FirstLoadz"] = 1,
 			["A27"] = 1,
 			["A12"] = 1,
@@ -814,7 +819,7 @@ AAP1 = {
 			["A942"] = 1,
 			["A895-110-120-1"] = 4,
 			["A680"] = 1,
-			["A641"] = 1,
+			["A862"] = 1,
 			["A1580"] = 1,
 			["A1582"] = 1,
 			["A26"] = 1,
@@ -831,7 +836,7 @@ AAP1 = {
 			["A539-DesMephisto-Shadowmoon1"] = 129,
 			["Settings"] = {
 				["LockArrow"] = 0,
-				["ShowQuestListOrder"] = 1,
+				["ShowQuestListOrder"] = 0,
 				["AutoRepair"] = 0,
 				["Greetings3"] = 0,
 				["BannerScale"] = 0.71,
@@ -862,9 +867,9 @@ AAP1 = {
 				["Greetings"] = 0,
 				["arrowleft"] = 1653.251831054688,
 				["ArrowScale"] = 0.71,
-				["Hcamptop"] = -215.9999755859375,
 				["ShowArrow"] = 1,
 				["ShowMapBlobs"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["alpha"] = 1,
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 1971.331665039063,
@@ -907,8 +912,8 @@ AAP1 = {
 			["A572"] = 1,
 			["A224-NorthernStranglethorn"] = 1,
 			["A542-DesMephisto-SpiresOfArak"] = 1,
-			["QuestCounter"] = 527,
-			["QuestCounter2"] = 527,
+			["QuestCounter"] = 531,
+			["QuestCounter2"] = 531,
 			["FirstLoadz"] = 1,
 			["HSLoc"] = 84,
 			["A543-DesMephisto-Gorgrond"] = 154,
@@ -995,9 +1000,9 @@ AAP1 = {
 			["A895"] = 1,
 			["SkippedBonusObj"] = {
 			},
-			["AAP_DoWarCampaign"] = 0,
+			["A535-DesMephisto-Talador"] = 23,
 			["A534"] = 1,
-			["HSLoc"] = 84,
+			["AAP_DoWarCampaign"] = 0,
 			["A542-DesMephisto-SpiresOfArak"] = 1,
 			["QuestCounter"] = 532,
 			["A62"] = 1,
@@ -1014,14 +1019,14 @@ AAP1 = {
 			["A84-DesMephisto-Stormwind-War"] = 8,
 			["A539-DesMephisto-Shadowmoon2"] = 49,
 			["A577-DesMephisto-TanaanJungle"] = 104,
-			["A535-DesMephisto-Talador"] = 23,
+			["HSLoc"] = 84,
 			["A588"] = 1,
 			["QlineSkip"] = {
 			},
 		},
 		["Rykkahpo"] = {
 			["A84"] = 1,
-			["QuestCounter2"] = 1054,
+			["QuestCounter2"] = 1055,
 			["A895-110-120-3"] = 6,
 			["A14"] = 1,
 			["A895"] = 1,
@@ -1081,7 +1086,7 @@ AAP1 = {
 				["AutoFlight"] = 1,
 			},
 			["SavedVer"] = 8.1058,
-			["QuestCounter"] = 1054,
+			["QuestCounter"] = 1055,
 			["FirstLoadz"] = 1,
 			["CountedZoneSteps"] = {
 				["A895-110-120-3"] = 592,
@@ -1159,10 +1164,10 @@ AAP1 = {
 			},
 			["AAP_DoWarCampaign"] = 0,
 			["A876"] = 1,
-			["QuestCounter"] = 1746,
+			["QuestCounter"] = 1747,
 			["A62"] = 1,
 			["A1355"] = 1,
-			["QuestCounter2"] = 1746,
+			["QuestCounter2"] = 1747,
 			["SavedVer"] = 8.1058,
 			["FirstLoadz"] = 1,
 			["A13"] = 1,
@@ -1217,9 +1222,9 @@ AAP1 = {
 				["Greetings"] = 0,
 				["ShowQList"] = 1,
 				["ArrowScale"] = 0.71,
-				["Hcamptop"] = -215.9999755859375,
 				["ShowMapBlobs"] = 1,
 				["ShowArrow"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["alpha"] = 1,
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 2142.442626953125,
@@ -1234,10 +1239,10 @@ AAP1 = {
 				["AutoShareQ"] = 0,
 			},
 			["CountedZoneSteps"] = {
-				["A942-110-120"] = 472,
-				["A862-110-120"] = 27,
-				["A895-110-120-1"] = 5,
 				["A896-110-120"] = 493,
+				["A862-110-120"] = 27,
+				["A942-110-120"] = 472,
+				["A895-110-120-1"] = 5,
 			},
 			["A627"] = 1,
 			["A379"] = 1,
@@ -1254,13 +1259,13 @@ AAP1 = {
 			["A1490"] = 1,
 			["SkippedBonusObj"] = {
 			},
-			["A862-110-120"] = 6,
+			["AAP_DoWarCampaign"] = 0,
 			["A14"] = 1,
 			["A895"] = 1,
 			["A71"] = 1,
-			["AAP_DoWarCampaign"] = 0,
-			["A1355"] = 1,
 			["A1580"] = 1,
+			["A1355"] = 1,
+			["A862-110-120"] = 6,
 			["A1494"] = 1,
 			["QuestCounter"] = 948,
 			["A62"] = 1,
@@ -1287,7 +1292,8 @@ AAP1 = {
 			["SavedVer"] = 8.1058,
 			["SkippedBonusObj"] = {
 			},
-			["WantedQuestList"] = {
+			["CountedZoneSteps"] = {
+				["A539-90-100"] = 139,
 			},
 			["Settings"] = {
 				["LockArrow"] = 0,
@@ -1319,8 +1325,8 @@ AAP1 = {
 				["arrowleft"] = 1958.054321289063,
 				["ArrowScale"] = 0.71,
 				["QuestButtons"] = 1,
+				["ShowMapBlobs"] = 1,
 				["Hcamptop"] = -215.9999755859375,
-				["ShowArrow"] = 1,
 				["Scale"] = 0.71,
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 768,
@@ -1329,17 +1335,16 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["alpha"] = 1,
-				["ShowMapBlobs"] = 1,
+				["ShowArrow"] = 1,
 				["AutoShareQ"] = 0,
 				["ShowQList"] = 1,
 				["AutoVendor"] = 0,
 			},
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["AAP_DoWarCampaign"] = 0,
 			["LoaPick"] = 0,
-			["CountedZoneSteps"] = {
-				["A539-90-100"] = 139,
+			["BonusSkips"] = {
 			},
 			["QlineSkip"] = {
 			},
@@ -1352,7 +1357,7 @@ AAP1 = {
 			},
 			["LoaPick"] = 0,
 			["SavedVer"] = 8.1058,
-			["QuestCounter2"] = 131,
+			["QuestCounter2"] = 132,
 			["A13"] = 1,
 			["Settings"] = {
 				["LockArrow"] = 0,
@@ -1412,7 +1417,7 @@ AAP1 = {
 			["A84-LF-20"] = 2,
 			["AAP_DoWarCampaign"] = 0,
 			["FirstLoadz"] = 1,
-			["QuestCounter"] = 131,
+			["QuestCounter"] = 132,
 		},
 		["Rykahpo"] = {
 			["A1581"] = 1,
@@ -1493,9 +1498,9 @@ AAP1 = {
 				["Greetings"] = 0,
 				["arrowleft"] = 936.585365853659,
 				["ArrowScale"] = 0.71,
-				["ShowArrow"] = 1,
 				["Hcamptop"] = -215.999975585938,
 				["ShowMapBlobs"] = 1,
+				["ShowArrow"] = 1,
 				["Partyleft"] = 1603.55419921875,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
@@ -1536,11 +1541,11 @@ AAP1 = {
 			["WantedQuestList"] = {
 			},
 			["A1032"] = 1,
+			["A71"] = 1,
+			["A14"] = 1,
+			["A862-99"] = 1,
 			["SkippedBonusObj"] = {
 			},
-			["A14"] = 1,
-			["A71"] = 1,
-			["A862-99"] = 1,
 			["A1501"] = 1,
 			["A371"] = 1,
 			["AAP_DoWarCampaign"] = 0,
@@ -1704,9 +1709,9 @@ AAP1 = {
 				["Greetings"] = 0,
 				["arrowleft"] = 1043.166625976563,
 				["ArrowScale"] = 0.71,
-				["ShowArrow"] = 1,
 				["Hcamptop"] = -215.9999755859375,
 				["ShowMapBlobs"] = 1,
+				["ShowArrow"] = 1,
 				["Partyleft"] = 1809.110229492188,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
@@ -2039,17 +2044,17 @@ AAP1 = {
 	["Turalyon"] = {
 		["Rykahboost"] = {
 			["SavedVer"] = 8.1058,
-			["WantedQuestList"] = {
-			},
 			["BonusSkips"] = {
 			},
+			["WantedQuestList"] = {
+			},
 			["LoaPick"] = 0,
+			["A971"] = 1,
+			["SkippedBonusObj"] = {
+			},
 			["CountedZoneSteps"] = {
 				["A84-LF-20"] = 5,
 			},
-			["SkippedBonusObj"] = {
-			},
-			["A971"] = 1,
 			["A84-LF-20"] = 2,
 			["AAP_DoWarCampaign"] = 0,
 			["Settings"] = {
@@ -2082,8 +2087,8 @@ AAP1 = {
 				["ShowQList"] = 1,
 				["ArrowScale"] = 0.71,
 				["AutoVendor"] = 0,
+				["ShowMapBlobs"] = 1,
 				["Hcamptop"] = -215.9999755859375,
-				["ShowArrow"] = 1,
 				["Partyleft"] = 768,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
@@ -2092,7 +2097,7 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["AutoShareQ"] = 0,
-				["ShowMapBlobs"] = 1,
+				["ShowArrow"] = 1,
 				["Scale"] = 0.71,
 				["QuestButtons"] = 1,
 				["DisableHeirloomWarning"] = 0,
@@ -2156,8 +2161,8 @@ AAP1 = {
 				["ShowQList"] = 1,
 				["ArrowScale"] = 0.71,
 				["Scale"] = 0.71,
+				["Hcamptop"] = -215.9999755859375,
 				["ShowArrow"] = 1,
-				["ShowMapBlobs"] = 1,
 				["AutoShareQ"] = 0,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
@@ -2166,7 +2171,7 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["Partyleft"] = 768,
-				["Hcamptop"] = -215.9999755859375,
+				["ShowMapBlobs"] = 1,
 				["AutoVendor"] = 0,
 				["arrowleft"] = 936.5853658536586,
 				["Greetings2"] = 1,
@@ -2225,8 +2230,8 @@ AAP1 = {
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
 				["AutoVendor"] = 0,
+				["ShowMapBlobs"] = 1,
 				["Hcamptop"] = -215.9999755859375,
-				["ShowArrow"] = 1,
 				["alpha"] = 1,
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 768,
@@ -2235,7 +2240,7 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["AutoShareQ"] = 0,
-				["ShowMapBlobs"] = 1,
+				["ShowArrow"] = 1,
 				["Scale"] = 0.71,
 				["QuestButtons"] = 1,
 				["DisableHeirloomWarning"] = 0,
@@ -2281,8 +2286,8 @@ AAP1 = {
 				["ShowQList"] = 1,
 				["ArrowScale"] = 0.71,
 				["Scale"] = 0.71,
+				["ShowArrow"] = 1,
 				["ShowMapBlobs"] = 1,
-				["Hcamptop"] = -215.9999755859375,
 				["AutoShareQ"] = 0,
 				["MiniMapBlobAlpha"] = 1,
 				["alpha"] = 1,
@@ -2291,7 +2296,7 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["Partyleft"] = 768,
-				["ShowArrow"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["AutoVendor"] = 0,
 				["arrowleft"] = 936.5853271484375,
 				["Greetings2"] = 1,
@@ -2385,7 +2390,9 @@ AAP1 = {
 	["Doomhammer"] = {
 		["Rykahpo"] = {
 			["SavedVer"] = 8.1058,
-			["A971"] = 1,
+			["CountedZoneSteps"] = {
+				["A84-LF-20"] = 5,
+			},
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -2416,8 +2423,8 @@ AAP1 = {
 				["arrowleft"] = 936.5853658536586,
 				["ArrowScale"] = 0.71,
 				["Scale"] = 0.71,
+				["ShowArrow"] = 1,
 				["ShowMapBlobs"] = 1,
-				["Hcamptop"] = -215.9999755859375,
 				["AutoShareQ"] = 0,
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 768,
@@ -2426,22 +2433,20 @@ AAP1 = {
 				["Legion"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["alpha"] = 1,
-				["ShowArrow"] = 1,
+				["Hcamptop"] = -215.9999755859375,
 				["AutoVendor"] = 0,
 				["ShowQList"] = 1,
 				["Greetings2"] = 1,
 			},
 			["AAP_DoWarCampaign"] = 0,
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["SkippedBonusObj"] = {
 			},
-			["CountedZoneSteps"] = {
-				["A84-LF-20"] = 5,
-			},
+			["A971"] = 1,
 			["A84-LF-20"] = 2,
 			["LoaPick"] = 0,
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
 			["QlineSkip"] = {
 			},
@@ -4372,9 +4377,9 @@ AAPQuestNames = {
 	[46846] = "The Word of Zul",
 	[43007] = "Return to the Chamber of Shadows",
 	[31745] = "Onward and Inward",
-	[51581] = "Azerite Mining",
+	[27842] = "Only the Beginning",
 	[51453] = "Shrine of the Storm: Behold, Pure Water",
-	[47486] = "Suspicious Shipments",
+	[51581] = "Azerite Mining",
 	[49965] = "The Warpack",
 	[51837] = "Whatever Will Be",
 	[51369] = "Friends in Strange Places",
@@ -4416,8 +4421,8 @@ AAPQuestNames = {
 	[13650] = "Keep Your Hands Off The Goods!",
 	[54015] = "In Deep",
 	[48639] = "Army of the Light",
+	[48895] = "The Perfect Offering",
 	[57085] = "Empowered War Wagon",
-	[52990] = "Return to the Harbor",
 	[26563] = "Return of the Bravo Company",
 	[26627] = "The Hermit",
 	[47596] = "There Is No Plan \"B\"",
@@ -4437,8 +4442,8 @@ AAPQuestNames = {
 	[27587] = "Maliciously Delicious",
 	[50092] = "Curiously Strong",
 	[31834] = "Begin Your Training: Master Cheng",
+	[51583] = "Azerite Wounds",
 	[47488] = "Small Haulers",
-	[27843] = "Reinforcements Denied",
 	[41674] = "Work Order: Word of Intellect",
 	[39682] = "Grand Theft Felbat",
 	[51967] = "Return to Boralus",
@@ -4446,7 +4451,7 @@ AAPQuestNames = {
 	[48941] = "A Slight Detour",
 	[47946] = "Save Their Bacon",
 	[56574] = "Reflections in Amber",
-	[51583] = "Azerite Wounds",
+	[27843] = "Reinforcements Denied",
 	[33075] = "A Hero's Welcome",
 	[51051] = "Supplies Needed: Deep Sea Satin",
 	[48896] = "Knowledge of the Past",
@@ -4456,7 +4461,7 @@ AAPQuestNames = {
 	[56064] = "Assault: The Black Empire",
 	[50154] = "They Say It's a Delicacy",
 	[49664] = "Allies in Anarchy",
-	[48895] = "The Perfect Offering",
+	[52990] = "Return to the Harbor",
 	[49920] = "Gorilla Warfare",
 	[26371] = "The Legend of Captain Grayson",
 	[54271] = "Telaamon's Purge",
@@ -4481,7 +4486,7 @@ AAPQuestNames = {
 	[10819] = "Felsworn Gas Mask",
 	[48641] = "Armies of Legionfall",
 	[35055] = "Lost Mole Machines",
-	[27842] = "Only the Beginning",
+	[47486] = "Suspicious Shipments",
 	[27773] = "Step Three: Prophet",
 	[26628] = "Death From Below",
 	[26692] = "Shadowhide Extinction",
@@ -4833,6 +4838,16 @@ AAP_Transport = {
 					},
 				},
 				["Rykahpriest-Frostmane"] = {
+					[1518] = 1,
+					[1384] = 1,
+					[1381] = 1,
+					[1476] = 1,
+					[1382] = 1,
+					["Conts"] = {
+						[572] = 1,
+					},
+					[1383] = 1,
+					[1519] = 1,
 				},
 				["Rykahpo-Frostmane"] = {
 					["Conts"] = {
@@ -4873,15 +4888,15 @@ AAP_Transport = {
 					[1573] = "Nivek's Overlook, Nagrand",
 					[1643] = "Aktar's Post, Tanaan Jungle",
 					[1568] = "Everbloom Wilds, Gorgrond",
-					[1572] = "Rilzit's Holdfast, Nagrand",
+					[1509] = "Talon Watch, Spires of Arak",
 					[1450] = "Shattrath City, Talador",
 					[1580] = "Everbloom Overlook, Gorgrond",
 					[1647] = "Malo's Lookout, Tanaan Jungle",
 					[1462] = "Terokkar Refuge, Talador",
 					[1529] = "Darktide Roost, Shadowmoon Valley",
 					[1513] = "Apexis Excavation, Spires of Arak",
-					[1509] = "Talon Watch, Spires of Arak",
 					[1383] = "Path of the Light, Shadowmoon Valley",
+					[1572] = "Rilzit's Holdfast, Nagrand",
 					[1448] = "Redemption Rise, Talador",
 					[1510] = "Pinchwhistle Gearworks, Spires of Arak",
 					[1511] = "Bastion Rise, Gorgrond",
@@ -5506,11 +5521,11 @@ AAP_Custom = {
 		"(8/8) 10-50 Spires of Arak", -- [8]
 	},
 	["Rykahpriest-Frostmane"] = {
-		nil, -- [1]
-		"10-30 Westfall (Full)", -- [2]
-		"15-30 Redridge Mountauns (Full)", -- [3]
-		"20-30 Duskwood (Full)", -- [4]
-		"(3/8) 10-50 Shadowmoon", -- [5]
+		"10-30 Westfall (Full)", -- [1]
+		"15-30 Redridge Mountauns (Full)", -- [2]
+		nil, -- [3]
+		nil, -- [4]
+		nil, -- [5]
 		"(4/8) 10-50 Gorgrond", -- [6]
 		"(5/8) 10-50 Talador", -- [7]
 		"(6/8) 10-50 Shadowmoon", -- [8]
@@ -5568,6 +5583,7 @@ AAP_ZoneComplete = {
 	["Rykahpala-Frostmane"] = {
 	},
 	["Rykahpriest-Frostmane"] = {
+		["(3/8) 10-50 Shadowmoon"] = 1,
 		["(1/8) 10-50 Stormwind"] = 1,
 		["01-30 Elwynn Forest (Full)"] = 1,
 		["(2/8) 10-50 Tanaan Jungle"] = 1,

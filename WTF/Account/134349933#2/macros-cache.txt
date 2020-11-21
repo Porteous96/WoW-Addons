@@ -1,15 +1,8 @@
-VER 3 000000000000001F "AAP_MACRO" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use Two-Shoed Lou's Old House
+VER 3 0000000000000033 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
 END
 VER 3 0000000000000031 "abyssal fragment" "136197"
 /2 WTS 20x |cffffffff|Hitem:161344::::::::20:265::::::|h[Abyssal Fragment]|h|r - Rewards |cffa335ee|Hitem:161479::::::::20:265::::::|h[Nazjatar Blood Serpent]|h|r - 40k cheaper than AH
-END
-VER 3 0000000000000028 "Bones" "INV_Misc_Bone_01."
-/2 WTS 9999x |cffffffff|Hitem:94288::::::::20:265::::::|h[Giant Dinosaur Bone]|h|r - Rewards |cffa335ee|Hitem:94290::::::::20:265::::::|h[Reins of the Bone-White Primal Raptor]|h|r and Meta-Achievement
-END
-VER 3 0000000000000029 "focus mouseover" "136135"
-/focus [@mouseover]
 END
 VER 3 0000000000000032 "goldenmane" "136103"
 /2 WTS |cffa335ee|Hitem:163573::::::::20:265::::::|h[Goldenmane's Reins]|h|r 215k - Cheaper than AH
@@ -29,12 +22,6 @@ VER 3 0000000000000018 "Mod Macro" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:shift] Rip; Ferocious Bite
 END
-VER 3 0000000000000033 "RCU" "INV_MISC_QUESTIONMARK"
-/2 RCU || Also selling Islands, Freehold lvl boosts and Ny'alotha Raid Boost on HC/Mythic as well as Mechagon! /w me for more info
-END
-VER 3 0000000000000035 "rcu3" "INV_MISC_QUESTIONMARK"
-/2 RCU || Selling M+10 to 27 for GOLD, guaranteed intime and all gear traded to you! LAST DAY for |cffffff00|Hachievement:14145:Player-1303-0B85FB31:0:0:0:0:0:0:0:0|h[Battle for Azeroth Keystone Master: Season Four]|h|r and MOUNT! /w me for more info
-END
 VER 3 000000000000001E "Spell Switching" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [talent:3/2] Mirror Image; [talent:3/3] Rune of Power
@@ -45,8 +32,7 @@ VER 3 000000000000002D "TSMMacro" "Achievement_Faction_GoldenLotus"
 /click TSMBidBuyConfirmBtn
 END
 VER 3 0000000000000030 "vendor macro" "136103"
-/script BuyMerchantItem(1)
-/script BuyMerchantItem(2)
+/use Relinquished Azerite Chestpiece
 /script BuyMerchantItem(3)
 END
 VER 3 0000000000000026 "WTS MECHA" "1282595"

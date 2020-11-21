@@ -128,10 +128,10 @@ PawnCommon = {
 				["Xpreach-Tarren Mill"] = {
 					["Visible"] = true,
 				},
-				["Rykahboost-Turalyon"] = {
+				["Rykahpo-Doomhammer"] = {
 					["Visible"] = true,
 				},
-				["Rykahpo-Doomhammer"] = {
+				["Rykahboost-Turalyon"] = {
 					["Visible"] = true,
 				},
 				["Preachx-Tarren Mill"] = {
@@ -225,11 +225,11 @@ PawnCommon = {
 				["CritRating"] = 8.2,
 				["HasteRating"] = 8.91,
 				["MasteryRating"] = 9.66,
-				["IsCrossbow"] = -1000000,
+				["Versatility"] = 9.07,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
 				["Is2HAxe"] = -1000000,
-				["IsAxe"] = -1000000,
+				["IsShield"] = -1000000,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
@@ -237,8 +237,8 @@ PawnCommon = {
 				["IsOffHand"] = -1000000,
 				["IsWarglaive"] = -1000000,
 				["Is2HSword"] = -1000000,
-				["IsShield"] = -1000000,
-				["Versatility"] = 9.07,
+				["IsAxe"] = -1000000,
+				["IsCrossbow"] = -1000000,
 			},
 			["Color"] = "3ec5e9",
 			["ClassID"] = 8,
@@ -379,11 +379,11 @@ PawnCommon = {
 				["CritRating"] = 3.16,
 				["HasteRating"] = 2.54,
 				["MasteryRating"] = 3.22,
-				["Versatility"] = 3.23,
+				["IsCrossbow"] = -1000000,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
 				["Is2HAxe"] = -1000000,
-				["IsAxe"] = -1000000,
+				["IsShield"] = -1000000,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
@@ -391,8 +391,8 @@ PawnCommon = {
 				["Intellect"] = 4.19,
 				["IsMace"] = -1000000,
 				["Is2HSword"] = -1000000,
-				["IsShield"] = -1000000,
-				["IsCrossbow"] = -1000000,
+				["IsAxe"] = -1000000,
+				["Versatility"] = 3.23,
 			},
 		},
 		["Frostaoe"] = {
@@ -563,24 +563,6 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "6566b2",
 		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
-			["PerCharacterOptions"] = {
-				["Preech-Tarren Mill"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "a330c9",
-			["ClassID"] = 12,
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "7a2496",
-		},
 		["\"MrRobot\":MAGE1"] = {
 			["IconTexturePath"] = 135932,
 			["PerCharacterOptions"] = {
@@ -601,6 +583,24 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "2f95b0",
+		},
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
+			["PerCharacterOptions"] = {
+				["Preech-Tarren Mill"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "a330c9",
+			["ClassID"] = 12,
+			["LocalizedName"] = "Demon Hunter: Vengeance",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "7a2496",
 		},
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
@@ -701,10 +701,10 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR2"] = {
 			["IconTexturePath"] = 132347,
 			["PerCharacterOptions"] = {
-				["Préach-Tarren Mill"] = {
+				["Rykahwar-Frostmane"] = {
 					["Visible"] = true,
 				},
-				["Rykahwar-Frostmane"] = {
+				["Préach-Tarren Mill"] = {
 					["Visible"] = true,
 				},
 			},
@@ -788,10 +788,10 @@ PawnCommon = {
 				["Preacherino-Tarren Mill"] = {
 					["Visible"] = true,
 				},
-				["Rykahdk-Frostmane"] = {
+				["Rÿkah-Frostmane"] = {
 					["Visible"] = true,
 				},
-				["Rÿkah-Frostmane"] = {
+				["Rykahdk-Frostmane"] = {
 					["Visible"] = true,
 				},
 			},
@@ -863,10 +863,10 @@ PawnCommon = {
 				["Advboi-Frostmane"] = {
 					["Visible"] = true,
 				},
-				["Chuggernuts-Tarren Mill"] = {
+				["Rykahboost-Aggramar"] = {
 					["Visible"] = true,
 				},
-				["Rykahboost-Aggramar"] = {
+				["Chuggernuts-Tarren Mill"] = {
 					["Visible"] = true,
 				},
 			},
@@ -886,6 +886,6 @@ PawnCommon = {
 	["ButtonPosition"] = 2,
 	["ShowSpecIcons"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["LastVersion"] = 2.0405,
+	["LastVersion"] = 2.0406,
 	["ShownGettingStarted"] = true,
 }

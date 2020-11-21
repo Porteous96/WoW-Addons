@@ -13,13 +13,6 @@ X: -161
 Y: 277
 W: 1
 H: 1
-Frame: AAPQOrderList
-FrameLevel: 1
-Anchor: RIGHT
-X: -362
-Y: 56
-W: 231
-H: 440
 Frame: AAP_Arrow
 FrameLevel: 1
 Anchor: TOPRIGHT
@@ -48,3 +41,10 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: AAPQOrderList
+FrameLevel: 1
+Anchor: RIGHT
+X: -362
+Y: 56
+W: 231
+H: 440

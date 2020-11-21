@@ -1,13 +1,13 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0404,
+	["LastVersion"] = 2.0406,
 	["LastPlayerFullName"] = "Rykahwar-Frostmane",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 122245,
-			["Level"] = 50,
-			["Link"] = "|cff00ccff|Hitem:122245::::::::44:72:::1:582::::|h[Polished Helm of Valor]|h|r",
+			["ID"] = 184600,
+			["Level"] = 76,
+			["Link"] = "|cff0070dd|Hitem:184600::::::::50:72::14:3:1698:1470:4785::::|h[Malignant Leviathan's Headguard of the Feverflare]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 113145,
@@ -26,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:57290::::::::48:72::11:1:3631:2:28:1824:9:48:::|h[Druidic Guardian Plate]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 107313,
-			["Level"] = 58,
-			["Link"] = "|cff0070dd|Hitem:107313::::::::49:72::11:2:3631:6697:2:28:1764:9:49:::|h[Karabor Honor Guard Girdle]|h|r",
+			["ID"] = 173821,
+			["Level"] = 76,
+			["Link"] = "|cff0070dd|Hitem:173821::::::::50:72::14:4:6412:6515:1470:4785::::|h[Malignant Leviathan's Clasp]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 122251,
@@ -36,19 +36,19 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:122251::::::::42:71:::1:582::::|h[Polished Legplates of Valor]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 107309,
-			["Level"] = 58,
-			["Link"] = "|cff1eff00|Hitem:107309::::::::49:72::11:1:3631:2:28:1764:9:49:::|h[Karabor Honor Guard Warboots]|h|r",
+			["ID"] = 173475,
+			["Level"] = 76,
+			["Link"] = "|cff0070dd|Hitem:173475::::::::50:72::14:4:6412:6515:1470:4785::::|h[Malignant Leviathan's Warboots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 57303,
-			["Level"] = 56,
-			["Link"] = "|cff1eff00|Hitem:57303::::::::48:72::11:1:3631:2:28:1824:9:48:::|h[Heatbinder Wristplates]|h|r",
+			["ID"] = 173462,
+			["Level"] = 76,
+			["Link"] = "|cff0070dd|Hitem:173462::::::::50:72::14:4:6412:6513:1470:4785::::|h[Malignant Leviathan's Armguards]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 57284,
-			["Level"] = 56,
-			["Link"] = "|cff0070dd|Hitem:57284::::::::48:72::11:2:3631:6697:2:28:1824:9:48:::|h[Grips of Arcane Imprisonment]|h|r",
+			["ID"] = 173494,
+			["Level"] = 76,
+			["Link"] = "|cff0070dd|Hitem:173494::::::::50:72::14:4:6412:6513:1470:4785::::|h[Malignant Leviathan's Fists]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 128172,

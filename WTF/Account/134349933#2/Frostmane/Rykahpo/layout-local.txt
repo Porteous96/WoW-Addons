@@ -14,7 +14,7 @@ Y: -155
 W: 10
 H: 10
 Frame: ColorPickerFrame
-FrameLevel: 1
+FrameLevel: 23
 Anchor: TOP
 X: 298
 Y: -157

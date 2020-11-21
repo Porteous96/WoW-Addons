@@ -60,13 +60,13 @@ ElvUI_CustomTweaks: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
 ElvUI_OptionsUI: enabled
-ExRT: disabled
+ExRT: enabled
 MethodDungeonTools: disabled
 XaneshPractice: enabled
 LootAppraiser_Challenge: disabled
 EasyScrap: disabled
 LootAppraiser: disabled
-Immersion: enabled
+Immersion: disabled
 ElvUI_DTBars2: disabled
 ElvUI: enabled
 AddOnSkins: enabled

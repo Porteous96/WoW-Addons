@@ -1,6 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0404,
+	["LastVersion"] = 2.0406,
+	["LastPlayerFullName"] = "Rÿkah-Frostmane",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 165459,
@@ -89,9 +92,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:25114::::::::50:250::2:2:6655:1680:2:28:1065:9:30:::|h[Doomsayer's Mace of the Quickblade]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Rÿkah-Frostmane",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
