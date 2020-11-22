@@ -1,1150 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"we intel it", -- [1]
-		"fug am i enjoying this about 1% of the amount i enjoyed bear", -- [2]
-		"/s ayy malhas my dude", -- [3]
-		"/i defo", -- [4]
-		"/i 5 horses inc", -- [5]
-		"/i YOOOOOOOO", -- [6]
-		"/i HE GOT IT", -- [7]
-		"/i GIVE IT HERE", -- [8]
-		"/i PLS", -- [9]
-		"/i MY DUDE", -- [10]
-		"/elvui", -- [11]
-		"/fstack", -- [12]
-		":dab:", -- [13]
-		"im actual excited", -- [14]
-		"nooo", -- [15]
-		"i dunno what the archetypes are", -- [16]
-		"rg 6 cmc too right?", -- [17]
-		"/aap skip", -- [18]
-		"/aap", -- [19]
-		"/played", -- [20]
+		":dab:", -- [1]
+		"im actual excited", -- [2]
+		"nooo", -- [3]
+		"i dunno what the archetypes are", -- [4]
+		"rg 6 cmc too right?", -- [5]
+		"/s uhhh", -- [6]
+		"/s HELLO", -- [7]
+		"/s NPCS????", -- [8]
+		"yeah i'll kick some of mine probs", -- [9]
+		"last key of bfa", -- [10]
+		"uh easy key pls :D", -- [11]
+		"/aap skip", -- [12]
+		"nyalotha?", -- [13]
+		"sure", -- [14]
+		"i'll hep for a bot", -- [15]
+		"i'll help for a bit*", -- [16]
+		"are these the famous trash danes?", -- [17]
+		"at least 100", -- [18]
+		"/played", -- [19]
+		"/aap", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"PLS", -- [1]
-			"Rykahpriest-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpriest-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			882, -- [11]
-			"Player-1303-0B65E197", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeRykahpriest|r",
-			[51] = 1603840235,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [1]
-		{
-			"MY DUDE", -- [1]
-			"Rykahpriest-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rykahpriest-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			883, -- [11]
-			"Player-1303-0B65E197", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeRykahpriest|r",
-			[51] = 1603840237,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [2]
-		{
-			"gz man", -- [1]
-			"Cecostab-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Cecostab-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			885, -- [11]
-			"Player-1303-0B6209D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Cecostab|r",
-			[51] = 1603840240,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"it's ok pinabarra.... i forgive you", -- [1]
-			"Elbanker-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elbanker-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3640, -- [11]
-			"Player-1303-0B699792", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaElbanker|r",
-			[51] = 1603923289,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"feel better now", -- [1]
-			"Pinabarra-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pinabarra-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3642, -- [11]
-			"Player-1303-0AB42755", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Pinabarra-Aggra(Português)|r",
-			[51] = 1603923300,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"I dont forgive you. just to make you feel bad :P", -- [1]
-			"Eowannor-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Eowannor-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3643, -- [11]
-			"Player-1303-0B5A3691", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cEowannor|r",
-			[51] = 1603923312,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"<<NOVA>> Selling +M14 (85k) M+15  [90k]+ Lvl up+island cap+ Vision Full Run 5 Masks: 90k ; 5 Masks(AFK, loot only):70k Full Run NO MASK: 40k /w", -- [1]
-			"Novadm-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novadm-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			839, -- [11]
-			"Player-1303-0B8577C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovadm|r",
-			[51] = 1604966300,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"Any m+15 boost for gold?", -- [1]
-			"Twismage-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Twismage-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			843, -- [11]
-			"Player-1303-0990F6E6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaTwismage-Aggra(Português)|r",
-			[51] = 1604966473,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"<<NOVA>> Selling +M14 (85k) M+15  [90k]+ Lvl up+island cap+ Vision Full Run 5 Masks: 90k ; 5 Masks(AFK, loot only):70k Full Run NO MASK: 40k /w", -- [1]
-			"Novadm-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Novadm-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			876, -- [11]
-			"Player-1303-0B8577C2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNovadm|r",
-			[51] = 1604966571,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"WTS |cffa335ee|Hitem:163574::::::::50:253:::::::|h[Chewed-On Reins of the Terrified Pack Mule]|h|r 200k", -- [1]
-			"Tyräh-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tyräh-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			877, -- [11]
-			"Player-1303-0AB70C1D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Tyräh-Aggra(Português)|r",
-			[51] = 1604966589,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"Podes ser gnomo", -- [1]
-			"Tsulong-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tsulong-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2710, -- [11]
-			"Player-1303-0B303D4F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
-			[51] = 1605473496,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"não se passa nada fuma-se tudo", -- [1]
-			"Wulfhart-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Wulfhart-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2711, -- [11]
-			"Player-1303-0BA69AA4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Wulfhart-Aggra(Português)|r",
-			[51] = 1605473500,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"Mas virgem não es", -- [1]
-			"Tsulong-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tsulong-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2712, -- [11]
-			"Player-1303-0B303D4F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
-			[51] = 1605473506,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"dëadpöol o xico nao esta", -- [1]
-			"Xeona-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Xeona-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2713, -- [11]
-			"Player-1303-0A835BDC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaXeona-Aggra(Português)|r",
-			[51] = 1605473510,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"sou sim", -- [1]
-			"Folkwin-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Folkwin-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2714, -- [11]
-			"Player-1303-0BA90D5C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Folkwin-Aggra(Português)|r",
-			[51] = 1605473513,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"OH XICO", -- [1]
-			"Dëadpöol-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dëadpöol-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2715, -- [11]
-			"Player-1303-0B852B27", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Dëadpöol-GrimBatol|r",
-			[51] = 1605473519,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"no hablo ", -- [1]
-			"Niklaus-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Niklaus-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2719, -- [11]
-			"Player-1303-0B645455", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Niklaus|r",
-			[51] = 1605473526,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"these fucking bm hunters", -- [1]
-			"Frostuwu-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Frostuwu-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3306, -- [11]
-			"Player-3391-0BA5DFB4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaFrostuwu-Silvermoon|r",
-			[51] = 1605477189,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"lol", -- [1]
-			"Mcdottalds-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Mcdottalds-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3307, -- [11]
-			"Player-1329-094AD92F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edMcdottalds-Ravencrest|r",
-			[51] = 1605477198,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"There is Horder party of 2 who has been sitting here entire day lol, I was away for 4 hours and these guys still here at max level killing lvl 30 lol", -- [1]
-			"Redcoq-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Redcoq-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3344, -- [11]
-			"Player-3391-0BA8E963", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
-			[51] = 1605477419,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"want an escort?", -- [1]
-			"Itron-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Itron-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3348, -- [11]
-			"Player-1329-093E48E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeItron-Ravencrest|r",
-			[51] = 1605477440,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"hansel and grettel ?", -- [1]
-			"Crowsy-Outland", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Crowsy-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3351, -- [11]
-			"Player-1301-0BA3F383", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaCrowsy-Outland|r",
-			[51] = 1605477444,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"sodapoppin or smtng ", -- [1]
-			"Redcoq-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Redcoq-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3353, -- [11]
-			"Player-3391-0BA8E963", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
-			[51] = 1605477453,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"lol just killed sodapoppin", -- [1]
-			"Itron-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Itron-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3356, -- [11]
-			"Player-1329-093E48E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeItron-Ravencrest|r",
-			[51] = 1605477470,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"*Team up on em then ;)", -- [1]
-			"Spetznas-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Spetznas-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3357, -- [11]
-			"Player-1329-094D1B15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeSpetznas-Ravencrest|r",
-			[51] = 1605477470,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"This level 49 hunter is sitting on top of my body killing me whenever I respawn ", -- [1]
-			"Frostuwu-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Frostuwu-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3358, -- [11]
-			"Player-3391-0BA5DFB4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaFrostuwu-Silvermoon|r",
-			[51] = 1605477472,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"BM hunt", -- [1]
-			"Itron-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Itron-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3359, -- [11]
-			"Player-1329-093E48E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeItron-Ravencrest|r",
-			[51] = 1605477473,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"kekw", -- [1]
-			"Frostuwu-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Frostuwu-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3360, -- [11]
-			"Player-3391-0BA5DFB4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaFrostuwu-Silvermoon|r",
-			[51] = 1605477473,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"Frostuwu where u at?", -- [1]
-			"Itron-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Itron-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3366, -- [11]
-			"Player-1329-093E48E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeItron-Ravencrest|r",
-			[51] = 1605477501,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"where is he at ?", -- [1]
-			"Crowsy-Outland", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Crowsy-Outland", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3367, -- [11]
-			"Player-1301-0BA3F383", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaCrowsy-Outland|r",
-			[51] = 1605477504,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"ill come too", -- [1]
-			"Pennancelot-Aggramar", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Pennancelot-Aggramar", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3368, -- [11]
-			"Player-1325-094B78AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefePennancelot-Aggramar|r",
-			[51] = 1605477512,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"inv", -- [1]
-			"Pennancelot-Aggramar", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Pennancelot-Aggramar", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3370, -- [11]
-			"Player-1325-094B78AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefePennancelot-Aggramar|r",
-			[51] = 1605477520,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"around grow canyon", -- [1]
-			"Redcoq-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Redcoq-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3374, -- [11]
-			"Player-3391-0BA8E963", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
-			[51] = 1605477529,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"lmfao", -- [1]
-			"Frostuwu-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Frostuwu-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3378, -- [11]
-			"Player-3391-0BA5DFB4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaFrostuwu-Silvermoon|r",
-			[51] = 1605477535,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"hes literally just waiting", -- [1]
-			"Frostuwu-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Frostuwu-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3379, -- [11]
-			"Player-3391-0BA5DFB4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaFrostuwu-Silvermoon|r",
-			[51] = 1605477539,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"link map pin", -- [1]
-			"Mcdottalds-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Mcdottalds-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3383, -- [11]
-			"Player-1329-094AD92F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edMcdottalds-Ravencrest|r",
-			[51] = 1605477568,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"|cffffff00|Hworldmap:543:4720:4914|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r,", -- [1]
-			"Pennancelot-Aggramar", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Pennancelot-Aggramar", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3385, -- [11]
-			"Player-1325-094B78AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefePennancelot-Aggramar|r",
-			[51] = 1605477581,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"|cffffff00|Hworldmap:543:4690:5041|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Redcoq-Silvermoon", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Redcoq-Silvermoon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3389, -- [11]
-			"Player-3391-0BA8E963", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
-			[51] = 1605477585,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"they are on me now", -- [1]
-			"Qifshananen-Kazzak", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Qifshananen-Kazzak", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3390, -- [11]
-			"Player-1305-0B76E059", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cQifshananen-Kazzak|r",
-			[51] = 1605477591,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"|cffffff00|Hworldmap:543:4614:5488|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Qifshananen-Kazzak", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Qifshananen-Kazzak", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3392, -- [11]
-			"Player-1305-0B76E059", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cQifshananen-Kazzak|r",
-			[51] = 1605477603,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"lets kill em then", -- [1]
-			"Itron-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Itron-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3401, -- [11]
-			"Player-1329-093E48E4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeItron-Ravencrest|r",
-			[51] = 1605477655,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"we are lvl 35 and killing them", -- [1]
-			"Spetznas-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Spetznas-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3403, -- [11]
-			"Player-1329-094D1B15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeSpetznas-Ravencrest|r",
-			[51] = 1605477670,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"do something about it m8 :)", -- [1]
-			"Spetznas-Ravencrest", -- [2]
-			"", -- [3]
-			"1. General - Gorgrond", -- [4]
-			"Spetznas-Ravencrest", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Gorgrond", -- [9]
-			0, -- [10]
-			3406, -- [11]
-			"Player-1329-094D1B15", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeSpetznas-Ravencrest|r",
-			[51] = 1605477675,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"is this realm quiet on the alliance side? ", -- [1]
-			"Lorelaí-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lorelaí-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3452, -- [11]
-			"Player-1303-0B5AF8DA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeLorelaí|r",
-			[51] = 1605477816,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"no", -- [1]
-			"Scroxy-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Scroxy-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3453, -- [11]
-			"Player-1303-0BAAFC99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaScroxy|r",
-			[51] = 1605477825,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
-		{
-			"depends what you mean quiet", -- [1]
-			"Sorín-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sorín-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3459, -- [11]
-			"Player-1303-0B6999EA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cSorín|r",
-			[51] = 1605477835,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"not quiet enough so shush", -- [1]
-			"Voidreaper-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Voidreaper-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3460, -- [11]
-			"Player-1303-0B5D3E54", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edVoidreaper|r",
-			[51] = 1605477840,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
-		{
-			"chances of pr kit being delivered tomorrow?", -- [1]
-			"|Kq121|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			15, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605478371,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [48]
-		{
-			"high id say", -- [1]
-			"|Kq121|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			16, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605478439,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [49]
-		{
-			":dab:", -- [1]
-			"|Kq121|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			17, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605478450,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [50]
-		{
-			"im actual excited", -- [1]
-			"|Kq121|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			18, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605478460,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [51]
 		{
 			"inb4 opposition agent ", -- [1]
 			"|Kq121|k", -- [2]
@@ -1166,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478502,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [52]
+		}, -- [1]
 		{
 			"there is now like 5 gnome hunters lvl 50", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -1188,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478507,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [2]
 		{
 			"camp this shit ", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -1210,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478512,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [3]
 		{
 			"inb4 big red sac pirate", -- [1]
 			"|Kq121|k", -- [2]
@@ -1232,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478515,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [55]
+		}, -- [4]
 		{
 			"lol really", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1254,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478516,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [5]
 		{
 			"inb4 foil najeela", -- [1]
 			"|Kq121|k", -- [2]
@@ -1276,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478545,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [57]
+		}, -- [6]
 		{
 			"kinda cringe", -- [1]
 			"Slutberg-Ravencrest", -- [2]
@@ -1298,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Slutberg-Ravencrest|r",
 			[51] = 1605478550,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [7]
 		{
 			"gnome are you playing horde ? dont you mean vulpera", -- [1]
 			"Qifshananen-Kazzak", -- [2]
@@ -1320,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cQifshananen-Kazzak|r",
 			[51] = 1605478559,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [8]
 		{
 			"Do people farm honor points like that or whats the point doin it for hours?", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -1342,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478560,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [9]
 		{
 			"i made gb elves", -- [1]
 			"|Kq121|k", -- [2]
@@ -1364,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478562,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [61]
+		}, -- [10]
 		{
 			"nooo", -- [1]
 			"|Kq121|k", -- [2]
@@ -1386,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478564,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [62]
+		}, -- [11]
 		{
 			"i dunno what the archetypes are", -- [1]
 			"|Kq121|k", -- [2]
@@ -1408,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478586,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [63]
+		}, -- [12]
 		{
 			"i think they are just enjoying a zone with activity tbh", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1430,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478589,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [13]
 		{
 			"um", -- [1]
 			"|Kq121|k", -- [2]
@@ -1452,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478592,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [65]
+		}, -- [14]
 		{
 			"gb elf", -- [1]
 			"|Kq121|k", -- [2]
@@ -1474,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478597,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [66]
+		}, -- [15]
 		{
 			"ru pirate", -- [1]
 			"|Kq121|k", -- [2]
@@ -1496,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478600,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [67]
+		}, -- [16]
 		{
 			"when u toggle world pvp, you have to expect stuff like that", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1518,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478604,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [17]
 		{
 			"ug 6 cmc", -- [1]
 			"|Kq121|k", -- [2]
@@ -1540,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478605,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [69]
+		}, -- [18]
 		{
 			"rb sac", -- [1]
 			"|Kq121|k", -- [2]
@@ -1562,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478609,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [70]
+		}, -- [19]
 		{
 			"uw fliers", -- [1]
 			"|Kq121|k", -- [2]
@@ -1584,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478611,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [71]
+		}, -- [20]
 		{
 			"bw tokens", -- [1]
 			"|Kq121|k", -- [2]
@@ -1606,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478616,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [72]
+		}, -- [21]
 		{
 			"rw equipment/aura", -- [1]
 			"|Kq121|k", -- [2]
@@ -1628,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478625,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [73]
+		}, -- [22]
 		{
 			"its take it or leave it nothing more to it", -- [1]
 			"Mcdottalds-Ravencrest", -- [2]
@@ -1650,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMcdottalds-Ravencrest|r",
 			[51] = 1605478634,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [23]
 		{
 			"I saw 2 of them here 4 hours ago and they still here. I cant belikve they having fun for 5 hours 1 shotting 20 lvl lower ppl lol", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -1672,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478634,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [24]
 		{
 			"pretty much everyone only uses it for the xp though", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -1694,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478636,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [25]
 		{
 			"ub graveyard", -- [1]
 			"|Kq121|k", -- [2]
@@ -1716,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478637,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [77]
+		}, -- [26]
 		{
 			"gw counters", -- [1]
 			"|Kq121|k", -- [2]
@@ -1738,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478644,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [78]
+		}, -- [27]
 		{
 			"i think you are wrong on that :p", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1760,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478646,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [28]
 		{
 			"rg 6 cmc too right?", -- [1]
 			"|Kq121|k", -- [2]
@@ -1782,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478658,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [80]
+		}, -- [29]
 		{
 			"well not everyone. but most", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -1804,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478659,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [30]
 		{
 			"rg big bois", -- [1]
 			"|Kq121|k", -- [2]
@@ -1826,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478659,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [82]
+		}, -- [31]
 		{
 			"a lot of max level people play with wm on everywhere", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1848,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478665,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [32]
 		{
 			"like power./toughness i think", -- [1]
 			"|Kq121|k", -- [2]
@@ -1870,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478669,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [84]
+		}, -- [33]
 		{
 			"If everywhere u mean spawn low level zones lol", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -1892,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478709,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [34]
 		{
 			"i guess you dont have wm on besides when leveling :)", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1914,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478728,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [35]
 		{
 			"well to play without the 30% bonus xp is kinda cringe bro", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -1936,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478771,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [36]
 		{
 			"too much to miss out on", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -1958,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478781,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [37]
 		{
 			"to complain about what follows is whats really cringe though", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1980,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478786,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [38]
 		{
 			"i dont mind it, im just saying", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -2002,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478805,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [39]
 		{
 			"JKust asked why people camp for hours no end", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -2024,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478807,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [40]
 		{
 			"<3", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -2046,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478812,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [41]
 		{
 			"nobody was complaining lol", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -2068,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478816,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [42]
 		{
 			"well camping i mind ", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -2090,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478818,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [43]
 		{
 			"camping is stupid, and 5 v 1.. but normal world pvp is just <3", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -2112,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478834,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [44]
 		{
 			"and to answer your question i dont think they are farming honor, its a very slow way if thats the case", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -2134,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478920,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [45]
 		{
 			"wow the lag has gotten unbearable", -- [1]
 			"Speedymst-Sylvanas", -- [2]
@@ -2156,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSpeedymst-Sylvanas|r",
 			[51] = 1605478936,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [46]
 		{
 			"+", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -2178,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478947,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [47]
 		{
 			"Starting to feel like vale during assaults xD", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -2199,6 +1077,1162 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478952,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"Purgatory Afterglow - Grim Batol is looking to start heroic raiding in Shadowlands. LF melee and ranged DPS. Raiding Thursday/Sunday 20:30ST till 23:00ST. Social players are always welcome.", -- [1]
+			"Giëto-GrimBatol", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Giëto-GrimBatol", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			221, -- [11]
+			"Player-1303-0B7B2844", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Giëto-GrimBatol|r",
+			[51] = 1605988620,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [49]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			225, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605988646,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [50]
+		{
+			"uhhh", -- [1]
+			"Rykahpriest-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rykahpriest-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			423, -- [11]
+			"Player-1303-0B65E197", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRykahpriest|r",
+			[51] = 1605990680,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [51]
+		{
+			"HELLO", -- [1]
+			"Rykahpriest-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rykahpriest-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			424, -- [11]
+			"Player-1303-0B65E197", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRykahpriest|r",
+			[51] = 1605990681,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [52]
+		{
+			"NPCS????", -- [1]
+			"Rykahpriest-Frostmane", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rykahpriest-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			425, -- [11]
+			"Player-1303-0B65E197", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeRykahpriest|r",
+			[51] = 1605990683,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [53]
+		{
+			"Estás cansado de não estar na mesma guild que eu? <Os Marretas> estão a recrutar, E os nossos padrões nunca foram tão baixos! Inscreve-te hoje e recebe vantagens de nível de guild e uma namorada grátis! (A namorada poderá ser um pet).", -- [1]
+			"Tsulong-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tsulong-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			426, -- [11]
+			"Player-1303-0B303D4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
+			[51] = 1605990707,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [54]
+		{
+			"Er det et nerdelandslag guild her?", -- [1]
+			"Thorki-GrimBatol", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Thorki-GrimBatol", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			427, -- [11]
+			"Player-1303-0BAE7C94", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeThorki-GrimBatol|r",
+			[51] = 1605990755,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [55]
+		{
+			"Estás cansado de não estar na mesma guild que eu? <Os Marretas> estão a recrutar, E os nossos padrões nunca foram tão baixos! Inscreve-te hoje e recebe vantagens de nível de guild e uma namorada grátis! (A namorada poderá ser um pet).", -- [1]
+			"Tsulong-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tsulong-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			480, -- [11]
+			"Player-1303-0B303D4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
+			[51] = 1605991020,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [56]
+		{
+			"whats the easiest mythic to start with and can you spam run them", -- [1]
+			"Ratmaster-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ratmaster-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			490, -- [11]
+			"Player-1303-061D90F2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Ratmaster-GrimBatol|r",
+			[51] = 1605991051,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [57]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			571, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605991265,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [58]
+		{
+			"wow guild full cant invite more :D", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			589, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991383,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [59]
+		{
+			"ooh might be time for another purge", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			591, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991404,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Patsavouris",
+		}, -- [60]
+		{
+			"you need to clear some alts :P", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			593, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991411,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [61]
+		{
+			"kick all my alts", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			595, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991416,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [62]
+		{
+			"exept shaman pala warrior", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			596, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991421,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [63]
+		{
+			":D", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			597, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991422,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [64]
+		{
+			"and make a velvet alt guild", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			598, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991431,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [65]
+		{
+			"tell mains to have 1 or 2 alts on main guild", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			601, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991443,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [66]
+		{
+			"or something like that :D", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			603, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991448,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [67]
+		{
+			"yeah i'll kick some of mine probs", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			606, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991456,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Patsavouris",
+		}, -- [68]
+		{
+			"wanna key?", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			608, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991458,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [69]
+		{
+			"sure", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			609, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991466,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Patsavouris",
+		}, -- [70]
+		{
+			"last key of bfa", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			610, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991473,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Patsavouris",
+		}, -- [71]
+		{
+			"k reloging to pala", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			611, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991473,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [72]
+		{
+			":P", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			612, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991477,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [73]
+		{
+			"or ya want a 20+", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			613, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991480,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [74]
+		{
+			"? :D", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			614, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991481,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [75]
+		{
+			"uh easy key pls :D", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			615, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991489,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Patsavouris",
+		}, -- [76]
+		{
+			"kk", -- [1]
+			"|Kq96|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			616, -- [11]
+			false, -- [12]
+			92, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Patsavouris|r",
+			[51] = 1605991493,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Patsavouris",
+		}, -- [77]
+		{
+			"wanna come blast hc and help a friend", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2114, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001124,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Sly360xHmstr",
+		}, -- [78]
+		{
+			"for fun", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2115, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001125,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Sly360xHmstr",
+		}, -- [79]
+		{
+			"nyalotha?", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2116, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001131,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Sly360xHmstr",
+		}, -- [80]
+		{
+			"yeah", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2117, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001135,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Sly360xHmstr",
+		}, -- [81]
+		{
+			"sure", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2118, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001140,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Sly360xHmstr",
+		}, -- [82]
+		{
+			"just wrath-cara-nzoth chilling", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2119, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001144,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Sly360xHmstr",
+		}, -- [83]
+		{
+			"i'll hep for a bot", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2120, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001147,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Sly360xHmstr",
+		}, -- [84]
+		{
+			"my man <3", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2121, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001153,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Sly360xHmstr",
+		}, -- [85]
+		{
+			"i'll help for a bit*", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2122, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001154,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Sly360xHmstr",
+		}, -- [86]
+		{
+			"ok", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2123, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001159,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Sly360xHmstr",
+		}, -- [87]
+		{
+			"are these the famous trash danes?", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2124, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001166,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Sly360xHmstr",
+		}, -- [88]
+		{
+			"ya u wanna come on ur mage yea? i dount think o do much on ur priest xd", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2125, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001183,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Sly360xHmstr",
+		}, -- [89]
+		{
+			"priest is big dps", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2126, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001190,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Sly360xHmstr",
+		}, -- [90]
+		{
+			"at least 100", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2127, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001193,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+			[53] = "Sly360xHmstr",
+		}, -- [91]
+		{
+			"haha truuue", -- [1]
+			"|Kq103|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2128, -- [11]
+			false, -- [12]
+			101, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Sly360xHmstr|r",
+			[51] = 1606001195,
+			[50] = "CHAT_MSG_BN_WHISPER",
+			[53] = "Sly360xHmstr",
+		}, -- [92]
+		{
+			"1", -- [1]
+			"Blaser-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Blaser-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3104, -- [11]
+			"Player-1303-00C790F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Blaser-GrimBatol|r",
+			[51] = 1606007282,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"2", -- [1]
+			"Prendex-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Prendex-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3112, -- [11]
+			"Player-1303-08A4BC57", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Prendex-Aggra(Português)|r",
+			[51] = 1606007293,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"3", -- [1]
+			"Chainblade-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Chainblade-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3119, -- [11]
+			"Player-1303-059B7C45", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcChainblade-Aggra(Português)|r",
+			[51] = 1606007319,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"4?", -- [1]
+			"Prendex-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Prendex-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3123, -- [11]
+			"Player-1303-08A4BC57", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Prendex-Aggra(Português)|r",
+			[51] = 1606007325,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"4", -- [1]
+			"Sebmiester-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sebmiester-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3124, -- [11]
+			"Player-1303-0B5FA617", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Sebmiester|r",
+			[51] = 1606007326,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"5?", -- [1]
+			"Prendex-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Prendex-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3125, -- [11]
+			"Player-1303-08A4BC57", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Prendex-Aggra(Português)|r",
+			[51] = 1606007329,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"d", -- [1]
+			"Sebmiester-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sebmiester-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3126, -- [11]
+			"Player-1303-0B5FA617", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Sebmiester|r",
+			[51] = 1606007330,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

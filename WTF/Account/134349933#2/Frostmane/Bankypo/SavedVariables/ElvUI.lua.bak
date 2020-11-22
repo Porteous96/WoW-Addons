@@ -1,1700 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/2 WTS |cffa335ee|Hitem:163576::::::::10:265:::::::|h[Captured Dune Scavenger]|h|r cheaper than AH", -- [1]
-		"/cw Tsuyu-Aggra(Português) i know :)", -- [2]
-		"/2 WTS |cff0070dd|Hitem:154695::::::::10:265:::::::|h[Deep Sea Bag]|h|r - 800g for 4", -- [3]
-		"/cw Immortale do you realise how pathetic it sounds to brag about being better than someone at something they dont do?", -- [4]
-		"/2 WTS |cff0070dd|Hitem:154695::::::::10:265:::::::|h[Deep Sea Bag]|h|r x4 - 800g", -- [5]
-		"/1 so just log off then and dont log in again", -- [6]
-		"/played", -- [7]
-		"/reload", -- [8]
-		"/m", -- [9]
-		"/tsm crafting", -- [10]
-		"its pretty impressive actually", -- [11]
-		"it just sprouts straight out the floor", -- [12]
-		"lmao", -- [13]
-		"there's a place in falkirk called the outside inn", -- [14]
-		"which is like a restaurant", -- [15]
-		"where it looks like outside inside", -- [16]
-		"food is absolute trash", -- [17]
-		"but still", -- [18]
-		"/wa", -- [19]
-		"/tsm", -- [20]
+		"/cw Tsuyu-Aggra(Português) i know :)", -- [1]
+		"/2 WTS |cff0070dd|Hitem:154695::::::::10:265:::::::|h[Deep Sea Bag]|h|r - 800g for 4", -- [2]
+		"/cw Immortale do you realise how pathetic it sounds to brag about being better than someone at something they dont do?", -- [3]
+		"/2 WTS |cff0070dd|Hitem:154695::::::::10:265:::::::|h[Deep Sea Bag]|h|r x4 - 800g", -- [4]
+		"/1 so just log off then and dont log in again", -- [5]
+		"/played", -- [6]
+		"/m", -- [7]
+		"/tsm crafting", -- [8]
+		"its pretty impressive actually", -- [9]
+		"it just sprouts straight out the floor", -- [10]
+		"lmao", -- [11]
+		"there's a place in falkirk called the outside inn", -- [12]
+		"which is like a restaurant", -- [13]
+		"where it looks like outside inside", -- [14]
+		"food is absolute trash", -- [15]
+		"but still", -- [16]
+		"/wa", -- [17]
+		"/tsm", -- [18]
+		"/reload", -- [19]
+		"/elvui", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"Wts |cffa335ee|Hitem:163574::::::::50:253::::1:28:805:::|h[Chewed-On Reins of the Terrified Pack Mule]|h|r", -- [1]
-			"Tyräh-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tyräh-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			139, -- [11]
-			"Player-1303-0AB70C1D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Tyräh-Aggra(Português)|r",
-			[51] = 1604960152,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"Tribe of Protagonists är en gammal Svensk guild där vi hjälper varandra. Vi söker nu härliga människor till shadowlands som kan acceptera wipe and smile. Vi har tidigare progressat hc och mythic.  gärna 25+ /w för mer info", -- [1]
-			"Elbanker-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elbanker-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			74, -- [11]
-			"Player-1303-0B699792", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaElbanker|r",
-			[51] = 1605212425,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"no no", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			18, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389306,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [3]
-		{
-			"tomorrow the tree will grow", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			19, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389313,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [4]
-		{
-			"its pretty impressive actually", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			20, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389352,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [5]
-		{
-			"it just sprouts straight out the floor", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			21, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389360,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [6]
-		{
-			"ah my mistake ", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			22, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389360,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [7]
-		{
-			"how does cat feel about tree?", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			23, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389378,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [8]
-		{
-			"boop", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			24, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389382,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [9]
-		{
-			"run around", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			25, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389385,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [10]
-		{
-			"hide", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			26, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389387,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [11]
-		{
-			"boop", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			27, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389389,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [12]
-		{
-			"do you get a real tree?", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			28, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389398,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [13]
-		{
-			"nah ", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			29, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389404,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [14]
-		{
-			"family dog used to love tree, cos it was like outsied is now inside", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			30, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389423,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [15]
-		{
-			"never grew up with a real tree so never thought they were the same", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			31, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389425,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [16]
-		{
-			"what a wild time", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			32, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389428,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [17]
-		{
-			"lmao", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			33, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389431,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [18]
-		{
-			"there's a place in falkirk called the outside inn", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			34, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389439,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [19]
-		{
-			"kek", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			35, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389445,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [20]
-		{
-			"which is like a restaurant", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			36, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389447,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [21]
-		{
-			"where it looks like outside inside", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			37, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389453,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [22]
-		{
-			"food is absolute trash", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			38, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389457,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [23]
-		{
-			"but still", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			39, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389459,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [24]
-		{
-			"this is powerful", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			40, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389462,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [25]
-		{
-			"i used to love it as a kid", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			41, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389469,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [26]
-		{
-			"big xmas tree energy ", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			42, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389474,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [27]
-		{
-			"i have big offer for you", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			43, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389554,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [28]
-		{
-			"oh?", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			44, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389566,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [29]
-		{
-			"mtga draft?", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			45, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389574,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [30]
-		{
-			"let me check", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			56, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389592,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [31]
-		{
-			"anna was saying something about watching a falm", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			61, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389600,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [32]
-		{
-			"ah this is cool", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			63, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389613,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [33]
-		{
-			"so let me see if this happening", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			64, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389618,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [34]
-		{
-			"yeah no worries then just watch flam", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			65, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389625,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [35]
-		{
-			"cos i dont recall if she meant today or tomorrow", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			66, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389627,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [36]
-		{
-			"anyone knows why \"you may not queue for this dungeon.\" appears? :<", -- [1]
-			"Zingos-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zingos-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			83, -- [11]
-			"Player-1303-0B9DD459", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Zingos-GrimBatol|r",
-			[51] = 1605389711,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"u r not worthy", -- [1]
-			"Gandhilol-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gandhilol-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			86, -- [11]
-			"Player-1303-04E0B81E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Gandhilol-GrimBatol|r",
-			[51] = 1605389722,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"imagine being in a phone call when sam wants to talk to you", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			87, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389734,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [39]
-		{
-			"smh", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			88, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389735,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [40]
-		{
-			"you used to go hitty kicky", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			89, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389746,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [41]
-		{
-			"ahha ", -- [1]
-			"Niclaus-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Niclaus-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			90, -- [11]
-			"Player-1303-0B68E1DD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Niclaus|r",
-			[51] = 1605389752,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"roundhouse kick that telephone device ", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			91, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389754,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [43]
-		{
-			"so i gotta pay more gold to the glorious leader Amber?", -- [1]
-			"Zingos-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zingos-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			92, -- [11]
-			"Player-1303-0B9DD459", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Zingos-GrimBatol|r",
-			[51] = 1605389756,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"so didshe", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			93, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389758,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [45]
-		{
-			"fuck", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			94, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389762,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [46]
-		{
-			"back up", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			95, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389764,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [47]
-		{
-			"run", -- [1]
-			"|Kq41|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			96, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605389766,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [48]
-		{
-			"WTS Nyalotha HC-Mythic + we can stack armors; Horrific Visions with masks;  Mythic+ 15-22 in time and 465+ items; Glacial Tidestorm mount", -- [1]
-			"Puolak-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Puolak-Frostmane", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			20, -- [11]
-			"Player-1303-0B963D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Puolak|r",
-			[51] = 1605464420,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
-		{
-			"WTS|cffa335ee|Hitem:137686::::::::50:70::13:1:6883::::|h[Steelbound Harness]|h|r 34k!!", -- [1]
-			"Templus-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Templus-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			58, -- [11]
-			"Player-1303-0B69D097", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Templus-Aggra(Português)|r",
-			[51] = 1605464531,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
-		{
-			"Do we have any bored heals on?", -- [1]
-			"Mylee-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mylee-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			61, -- [11]
-			"Player-1303-0B62FBFD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cMylee|r",
-			[51] = 1605464560,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
-		{
-			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			86, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1605653095,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
-		{
-			"Någon svensk guild man kan joina? :D", -- [1]
-			"Zaitros-Frostmane", -- [2]
-			"", -- [3]
-			"1. General - Stormwind City", -- [4]
-			"Zaitros-Frostmane", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormwind City", -- [9]
-			0, -- [10]
-			29, -- [11]
-			"Player-1303-0B561B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Zaitros|r",
-			[51] = 1605728700,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
-		{
-			"prova ikea xdxdxd", -- [1]
-			"Amzing-Frostmane", -- [2]
-			"", -- [3]
-			"1. General - Stormwind City", -- [4]
-			"Amzing-Frostmane", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormwind City", -- [9]
-			0, -- [10]
-			30, -- [11]
-			"Player-1303-0BABB556", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cAmzing|r",
-			[51] = 1605728724,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
-			"Sant", -- [1]
-			"Zaitros-Frostmane", -- [2]
-			"", -- [3]
-			"1. General - Stormwind City", -- [4]
-			"Zaitros-Frostmane", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormwind City", -- [9]
-			0, -- [10]
-			31, -- [11]
-			"Player-1303-0B561B61", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Zaitros|r",
-			[51] = 1605728739,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
-		{
-			"Tribe of Protagonists är en gammal Svensk guild där vi hjälper varandra. Vi söker nu härliga människor till shadowlands som kan acceptera wipe and smile. Vi har tidigare progressat hc och mythic.  gärna 25+ /w för mer info", -- [1]
-			"Elbanker-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elbanker-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			32, -- [11]
-			"Player-1303-0B699792", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaElbanker|r",
-			[51] = 1605728763,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
-		{
-			"|cffffff00Old Town is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			33, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1605728767,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
-		{
-			"|cffffff00Trade District is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			34, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1605728774,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
-		{
-			"Har ni sett att Lidl droppar sin tillfälliga collection av Lidl branded merch? bara tillgängligt imorn (19e) och 20e", -- [1]
-			"Oslak-Frostmane", -- [2]
-			"", -- [3]
-			"1. General - Stormwind City", -- [4]
-			"Oslak-Frostmane", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormwind City", -- [9]
-			0, -- [10]
-			35, -- [11]
-			"Player-1303-0B68160D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Oslak|r",
-			[51] = 1605728808,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
-		{
-			"Skor, plasttofflor och sportstrumpor.", -- [1]
-			"Oslak-Frostmane", -- [2]
-			"", -- [3]
-			"1. General - Stormwind City", -- [4]
-			"Oslak-Frostmane", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormwind City", -- [9]
-			0, -- [10]
-			39, -- [11]
-			"Player-1303-0B68160D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Oslak|r",
-			[51] = 1605728856,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
-		{
-			"Tribe of Protagonists är en gammal Svensk guild där vi hjälper varandra. Vi söker nu härliga människor till shadowlands som kan acceptera wipe and smile. Vi har tidigare progressat hc och mythic.  gärna 25+ /w för mer info", -- [1]
-			"Elbanker-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Elbanker-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			42, -- [11]
-			"Player-1303-0B699792", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaElbanker|r",
-			[51] = 1605728929,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
-		{
-			"Ah, trade chat being trade chat. stay classy, morons.", -- [1]
-			"Chippas-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Chippas-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2, -- [11]
-			"Player-1303-050B2566", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edChippas-GrimBatol|r",
-			[51] = 1605827425,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
-		{
-			"i also liek american morethan british so u got a point ", -- [1]
-			"Ragæ-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ragæ-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3, -- [11]
-			"Player-1303-03262BF9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Ragæ-GrimBatol|r",
-			[51] = 1605827430,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
-		{
-			"The way the talk...way more pleasant", -- [1]
-			"Darthy-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Darthy-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			4, -- [11]
-			"Player-1303-0B9E06A1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeDarthy|r",
-			[51] = 1605827432,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
-		{
-			"|cffffff00Dwarven District is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			5, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1605827443,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
-		{
-			"american way mroe cool then royal british by miles ", -- [1]
-			"Ragæ-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ragæ-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			6, -- [11]
-			"Player-1303-03262BF9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Ragæ-GrimBatol|r",
-			[51] = 1605827451,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
-		{
-			"|cffffff00The Wollerton Stead is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			7, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1605827456,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
-		{
-			"its not but whathever", -- [1]
-			"Starzz-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Starzz-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			8, -- [11]
-			"Player-1303-0B700B5C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Starzz-GrimBatol|r",
-			[51] = 1605827456,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
-		{
-			"it is", -- [1]
-			"Ragæ-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ragæ-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			9, -- [11]
-			"Player-1303-03262BF9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Ragæ-GrimBatol|r",
-			[51] = 1605827460,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
-		{
-			"the brazilian woman are the best in world , no one can deny that ;)", -- [1]
-			"Ðüø-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ðüø-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10, -- [11]
-			"Player-1303-0BAB4128", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Ðüø-Aggra(Português)|r",
-			[51] = 1605827470,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
-		{
-			"word.", -- [1]
-			"Ðüø-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ðüø-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			11, -- [11]
-			"Player-1303-0BAB4128", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Ðüø-Aggra(Português)|r",
-			[51] = 1605827474,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
-		{
-			"that's the same thing that saying that scottish people are shit because you can't understand them", -- [1]
-			"Brunoaleixo-Aggra(Português)", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Brunoaleixo-Aggra(Português)", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			12, -- [11]
-			"Player-1303-0BAAB898", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
-			[51] = 1605827475,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
-		{
-			"English is Germanic in core with mixed franch and latin ", -- [1]
-			"Mikhaelthas-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mikhaelthas-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			13, -- [11]
-			"Player-1303-0899FDB2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Mikhaelthas-GrimBatol|r",
-			[51] = 1605827477,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
-		{
-			"Ragæ, are you 12 years old?", -- [1]
-			"Chippas-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Chippas-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			24, -- [11]
-			"Player-1303-050B2566", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edChippas-GrimBatol|r",
-			[51] = 1605827484,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
-		{
-			"remeber when star wars had english main character? i left the cinema", -- [1]
-			"Ragæ-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ragæ-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			47, -- [11]
-			"Player-1303-03262BF9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Ragæ-GrimBatol|r",
-			[51] = 1605827490,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
-		{
-			"a girl with some british accent in a star wars movie", -- [1]
-			"Ragæ-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ragæ-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			64, -- [11]
-			"Player-1303-03262BF9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Ragæ-GrimBatol|r",
-			[51] = 1605827500,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
 		{
 			"COME stormwind and lets infect everyone", -- [1]
 			"Keleos-GrimBatol", -- [2]
@@ -1716,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Keleos-GrimBatol|r",
 			[51] = 1605827503,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [1]
 		{
 			"|cffffff00Stormwind Embassy is under attack!|r", -- [1]
 			"", -- [2]
@@ -1738,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1605827514,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [2]
 		{
 			"este trade está inteligente pa crl hj, o que se passa", -- [1]
 			"Explozeh-GrimBatol", -- [2]
@@ -1760,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Explozeh-GrimBatol|r",
 			[51] = 1605827519,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [3]
 		{
 			"i wonder how many millions her royual higness gave for it", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1782,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605827521,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [4]
 		{
 			"entrei cá eu", -- [1]
 			"Brunoaleixo-Aggra(Português)", -- [2]
@@ -1804,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
 			[51] = 1605827534,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [5]
 		{
 			"Só 12...", -- [1]
 			"Padreka-Aggra(Português)", -- [2]
@@ -1826,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePadreka-Aggra(Português)|r",
 			[51] = 1605827538,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [6]
 		{
 			"all star wars movies have british accent characters, you dimwit", -- [1]
 			"Luthieen-Aggra(Português)", -- [2]
@@ -1848,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLuthieen-Aggra(Português)|r",
 			[51] = 1605827548,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [7]
 		{
 			"the original star wars movie basically all the empire guys are brits you donkey", -- [1]
 			"Yurizan-Frostmane", -- [2]
@@ -1870,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Yurizan|r",
 			[51] = 1605827555,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [8]
 		{
 			"yeah on DARKSIDE", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1892,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605827558,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [9]
 		{
 			"crlh para esta cena dos zombies fdx", -- [1]
 			"Starzz-GrimBatol", -- [2]
@@ -1914,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starzz-GrimBatol|r",
 			[51] = 1605827564,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [10]
 		{
 			"English might be West germanic, but it's grammar is closer to that of French due to it having lost noun cases", -- [1]
 			"Naisugai-GrimBatol", -- [2]
@@ -1936,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeNaisugai-GrimBatol|r",
 			[51] = 1605827571,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [11]
 		{
 			"|cffffff00Dwarven District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1958,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1605827573,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [12]
 		{
 			"hehe", -- [1]
 			"Badwólf-GrimBatol", -- [2]
@@ -1980,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBadwólf-GrimBatol|r",
 			[51] = 1605827577,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [13]
 		{
 			"really? what about a certain golden robot? remember that guy? idiot", -- [1]
 			"Luthieen-Aggra(Português)", -- [2]
@@ -2002,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLuthieen-Aggra(Português)|r",
 			[51] = 1605827582,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [14]
 		{
 			"Alguém viu o Renato?", -- [1]
 			"Sercial-Aggra(Português)", -- [2]
@@ -2024,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Sercial-Aggra(Português)|r",
 			[51] = 1605827582,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [15]
 		{
 			"tá a jogar psvita na casa de banho", -- [1]
 			"Brunoaleixo-Aggra(Português)", -- [2]
@@ -2046,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
 			[51] = 1605827593,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [16]
 		{
 			"tá no lille", -- [1]
 			"Explozeh-GrimBatol", -- [2]
@@ -2068,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Explozeh-GrimBatol|r",
 			[51] = 1605827594,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [17]
 		{
 			"ta aqui", -- [1]
 			"Ðüø-Aggra(Português)", -- [2]
@@ -2090,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ðüø-Aggra(Português)|r",
 			[51] = 1605827595,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [18]
 		{
 			"nhekes", -- [1]
 			"Ðüø-Aggra(Português)", -- [2]
@@ -2112,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ðüø-Aggra(Português)|r",
 			[51] = 1605827598,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [19]
 		{
 			"ahaha", -- [1]
 			"Starzz-GrimBatol", -- [2]
@@ -2134,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starzz-GrimBatol|r",
 			[51] = 1605827605,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [20]
 		{
 			"aos anos que nao ouvia isso", -- [1]
 			"Starzz-GrimBatol", -- [2]
@@ -2156,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starzz-GrimBatol|r",
 			[51] = 1605827619,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [21]
 		{
 			"|cffffff00The Canals is under attack!|r", -- [1]
 			"", -- [2]
@@ -2178,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1605827624,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [22]
 		{
 			"BTW dorothy", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -2199,6 +527,1678 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605827627,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [23]
+		{
+			"gl bro", -- [1]
+			"Azrä-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Azrä-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			88, -- [11]
+			"Player-1303-0BAC3493", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Azrä|r",
+			[51] = 1605913268,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [24]
+		{
+			"by 23 ill be CEO of pornhub", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			89, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605913271,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [25]
+		{
+			"i though so too, turns out i want to go back to 16 again", -- [1]
+			"Prd-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Prd-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"Player-1303-02FDF67D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Prd-GrimBatol|r",
+			[51] = 1605913301,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [26]
+		{
+			"hopefully ill be making GTA V videos at 30 ", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			100, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605913308,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [27]
+		{
+			"Purgatory Afterglow - Grim Batol is looking to start heroic raiding in Shadowlands. LF ranged DPS and 1 Havoc DH. Raiding Thursday/Sunday 20:30ST till 23:00ST. Social players are always welcome.", -- [1]
+			"Giëto-GrimBatol", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Giëto-GrimBatol", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			102, -- [11]
+			"Player-1303-0B7B2844", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Giëto-GrimBatol|r",
+			[51] = 1605913309,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [28]
+		{
+			"by 40 i hoping to review iphones on yutube ", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			106, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605913332,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [29]
+		{
+			"come 50 i will be able to do unboxing videos  and earn more than a heart surgeon ", -- [1]
+			"Ragæ-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ragæ-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			107, -- [11]
+			"Player-1303-03262BF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Ragæ-GrimBatol|r",
+			[51] = 1605913373,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [30]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			108, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605913381,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [31]
+		{
+			"gl bro", -- [1]
+			"Swiftstring-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Swiftstring-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			109, -- [11]
+			"Player-1303-0B6646D8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Swiftstring|r",
+			[51] = 1605913390,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [32]
+		{
+			"«Cavaleiros do Apocalipse» Estamos a recrutar para uma guild pseudo fantasma, precisamos de almas... entrem são bem vindos. Vamos mostrar á Horde de que na Aliança não temos guilds Banco. XD faz apply ou pede invite diverte-te", -- [1]
+			"Palaborga-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Palaborga-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			110, -- [11]
+			"Player-1303-01908106", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Palaborga-GrimBatol|r",
+			[51] = 1605913401,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [33]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			139, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605913478,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [34]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			153, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605971848,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [35]
+		{
+			"Inventory is full is recruiting, we are doing M+ and raids. Social are welcome 2. wisp for more info", -- [1]
+			"Stonedwarf-GrimBatol", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Stonedwarf-GrimBatol", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			155, -- [11]
+			"Player-1303-04A5D4AF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Stonedwarf-GrimBatol|r",
+			[51] = 1605971851,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [36]
+		{
+			"Purgatory Afterglow - Grim Batol is looking to start heroic raiding in Shadowlands. LF melee and ranged DPS. Raiding Thursday/Sunday 20:30ST till 23:00ST. Social players are always welcome.", -- [1]
+			"Giëto-GrimBatol", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Giëto-GrimBatol", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			165, -- [11]
+			"Player-1303-0B7B2844", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Giëto-GrimBatol|r",
+			[51] = 1605971877,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [37]
+		{
+			"WTB |cffffffff|Hitem:4406::::::::50:252:::::::|h[Standard Scope]|h|r", -- [1]
+			"Acivoj-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Acivoj-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			168, -- [11]
+			"Player-1303-0BABEDB2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Acivoj-GrimBatol|r",
+			[51] = 1605971883,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [38]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			191, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605971932,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [39]
+		{
+			"Im bald", -- [1]
+			"Reidbjorn-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Reidbjorn-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			195, -- [11]
+			"Player-1303-0A29192D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cReidbjorn-GrimBatol|r",
+			[51] = 1605971942,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [40]
+		{
+			"haha bald", -- [1]
+			"Velocidwarf-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Velocidwarf-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			199, -- [11]
+			"Player-1303-0B928C95", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cVelocidwarf|r",
+			[51] = 1605971950,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [41]
+		{
+			"WTB |cffffffff|Hitem:4406::::::::50:252:::::::|h[Standard Scope]|h|r ", -- [1]
+			"Acivoj-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Acivoj-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			202, -- [11]
+			"Player-1303-0BABEDB2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Acivoj-GrimBatol|r",
+			[51] = 1605971959,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [42]
+		{
+			"Need 1 person to sign my guild charter", -- [1]
+			"Zirik-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zirik-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-1303-0B8BD0BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Zirik-GrimBatol|r",
+			[51] = 1605971990,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [43]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			211, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605971993,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [44]
+		{
+			"Inventory is full is recruiting, we are doing M+ and raids. Social are welcome 2. wisp for more info", -- [1]
+			"Stonedwarf-GrimBatol", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Stonedwarf-GrimBatol", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			212, -- [11]
+			"Player-1303-04A5D4AF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Stonedwarf-GrimBatol|r",
+			[51] = 1605972020,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [45]
+		{
+			"wts guild signature 1k", -- [1]
+			"Velocidwarf-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Velocidwarf-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			214, -- [11]
+			"Player-1303-0B928C95", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cVelocidwarf|r",
+			[51] = 1605972036,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [46]
+		{
+			"any guild with Deathwatch Hatchling?", -- [1]
+			"Rigormortis-Aggra(Português)", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Rigormortis-Aggra(Português)", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			224, -- [11]
+			"Player-1303-09F70C46", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Rigormortis-Aggra(Português)|r",
+			[51] = 1605972187,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [47]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			246, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605972613,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-133118-1316-91593968|h[Guild: ITIOS]|h|r", -- [1]
+			"Dkaprio-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Dkaprio-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			252, -- [11]
+			"Player-1316-0B79E6EE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Dkaprio-Nemesis|r",
+			[51] = 1605972623,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [49]
+		{
+			"wts |cffffffff|Hitem:40110::::::::50:269:::::::|h[Haunted Memento]|h|r", -- [1]
+			"Nippi-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nippi-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			281, -- [11]
+			"Player-1303-06AE8AD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Nippi-GrimBatol|r",
+			[51] = 1605972723,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [50]
+		{
+			"i hate stormwind", -- [1]
+			"Luxera-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Luxera-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			293, -- [11]
+			"Player-1316-0BAF44B2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Luxera-Nemesis|r",
+			[51] = 1605972850,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [51]
+		{
+			"why", -- [1]
+			"Teodorjus-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Teodorjus-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			294, -- [11]
+			"Player-1316-0BAD755D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Teodorjus-Nemesis|r",
+			[51] = 1605972862,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [52]
+		{
+			"faking city so dispersive and unconfortable", -- [1]
+			"Luxera-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Luxera-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			295, -- [11]
+			"Player-1316-0BAF44B2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Luxera-Nemesis|r",
+			[51] = 1605972876,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [53]
+		{
+			"hmm", -- [1]
+			"Teodorjus-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Teodorjus-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			297, -- [11]
+			"Player-1316-0BAD755D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Teodorjus-Nemesis|r",
+			[51] = 1605972882,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [54]
+		{
+			"ever tried Undercity?", -- [1]
+			"Teodorjus-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Teodorjus-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			307, -- [11]
+			"Player-1316-0BAD755D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Teodorjus-Nemesis|r",
+			[51] = 1605972900,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [55]
+		{
+			"that's my fav", -- [1]
+			"Luxera-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Luxera-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			311, -- [11]
+			"Player-1316-0BAF44B2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Luxera-Nemesis|r",
+			[51] = 1605972909,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [56]
+		{
+			"easy to find all", -- [1]
+			"Luxera-Nemesis", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Luxera-Nemesis", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			317, -- [11]
+			"Player-1316-0BAF44B2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Luxera-Nemesis|r",
+			[51] = 1605972919,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [57]
+		{
+			"0,9k", -- [1]
+			"Haste-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Haste-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			816, -- [11]
+			"Player-1303-0B3397A8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcHaste-GrimBatol|r",
+			[51] = 1605973654,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [58]
+		{
+			"1.2k", -- [1]
+			"Thondor-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thondor-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			817, -- [11]
+			"Player-1303-0BA2ADF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Thondor-Aggra(Português)|r",
+			[51] = 1605973655,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [59]
+		{
+			"5 mana potions", -- [1]
+			"Trinìty-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Trinìty-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			818, -- [11]
+			"Player-1303-0353BFFE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Trinìty-GrimBatol|r",
+			[51] = 1605973661,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [60]
+		{
+			"0.85k", -- [1]
+			"Windbreaker-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Windbreaker-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			819, -- [11]
+			"Player-1303-0BAB2BC9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cWindbreaker-GrimBatol|r",
+			[51] = 1605973664,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [61]
+		{
+			"6 mana potions", -- [1]
+			"Thondor-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thondor-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			820, -- [11]
+			"Player-1303-0BA2ADF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Thondor-Aggra(Português)|r",
+			[51] = 1605973667,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			822, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605973674,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"Done Deal", -- [1]
+			"Dezment-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dezment-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			868, -- [11]
+			"Player-1303-05D64FBF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cDezment-GrimBatol|r",
+			[51] = 1605973702,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"WTB 6 mana potions", -- [1]
+			"Thondor-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thondor-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			870, -- [11]
+			"Player-1303-0BA2ADF9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Thondor-Aggra(Português)|r",
+			[51] = 1605973726,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"2k", -- [1]
+			"Kinvara-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kinvara-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			877, -- [11]
+			"Player-1303-0B5F9D13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Kinvara|r",
+			[51] = 1605973766,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"everbody roll sub rogue that way blizz will nerf it", -- [1]
+			"Albinoninja-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Albinoninja-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			881, -- [11]
+			"Player-1303-07E395D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcAlbinoninja-GrimBatol|r",
+			[51] = 1605973800,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"they have always been good in pvp tho", -- [1]
+			"Hilom-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hilom-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			892, -- [11]
+			"Player-1303-0B9B3EF5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Hilom-GrimBatol|r",
+			[51] = 1605973829,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"screw pvp! nerf them pve", -- [1]
+			"Albinoninja-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Albinoninja-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			893, -- [11]
+			"Player-1303-07E395D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcAlbinoninja-GrimBatol|r",
+			[51] = 1605973851,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"lol sub rogue have all cd on one macro ", -- [1]
+			"Agerina-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Agerina-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			894, -- [11]
+			"Player-1303-0B64AB8A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Agerina|r",
+			[51] = 1605973863,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"always had been", -- [1]
+			"Hilom-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hilom-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			895, -- [11]
+			"Player-1303-0B9B3EF5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Hilom-GrimBatol|r",
+			[51] = 1605973884,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"beat 3 button dh", -- [1]
+			"Agerina-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Agerina-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			896, -- [11]
+			"Player-1303-0B64AB8A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Agerina|r",
+			[51] = 1605973887,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"Blizz main focus is mythic raiding in SL and they buff underperforming specs in raid so the worst specc prob gonna get buffed?", -- [1]
+			"Albinoninja-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Albinoninja-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			913, -- [11]
+			"Player-1303-07E395D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcAlbinoninja-GrimBatol|r",
+			[51] = 1605973940,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"[Guild: Os A viver na cave da tua mãe? Desistes da escola aos 12 anos?Foste despedido? Consegues sobreviver á base de noodles e redbull?<Os Marretas>estão á tua procura! Liberta o teu nerd interior. Mas por favor deixa a tua frustração no Tinder!", -- [1]
+			"Tsulong-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tsulong-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			919, -- [11]
+			"Player-1303-0B303D4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
+			[51] = 1605973942,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"Inventory is full is recruiting, we are doing M+ and raids. Social are welcome 2. wisp for more info", -- [1]
+			"Hykon-GrimBatol", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Hykon-GrimBatol", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			936, -- [11]
+			"Player-1303-04A5B95A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcHykon-GrimBatol|r",
+			[51] = 1605973948,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			948, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605973951,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"u mean activision", -- [1]
+			"Agerina-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Agerina-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			957, -- [11]
+			"Player-1303-0B64AB8A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Agerina|r",
+			[51] = 1605973968,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"how can you be recruiting if you are full?", -- [1]
+			"Korvac-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Korvac-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			958, -- [11]
+			"Player-1303-0B77C7D6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Korvac-GrimBatol|r",
+			[51] = 1605973970,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"magic", -- [1]
+			"Clockworker-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Clockworker-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1003, -- [11]
+			"Player-1303-0B71B250", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Clockworker-Aggra(Português)|r",
+			[51] = 1605973997,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"dunno if u know but guy who design all classes just quit", -- [1]
+			"Agerina-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Agerina-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1004, -- [11]
+			"Player-1303-0B64AB8A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Agerina|r",
+			[51] = 1605973999,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"ww is doing terrible in raid so 70% it gets buffed", -- [1]
+			"Albinoninja-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Albinoninja-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1005, -- [11]
+			"Player-1303-07E395D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcAlbinoninja-GrimBatol|r",
+			[51] = 1605974010,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"how can a single guy design all classes", -- [1]
+			"Velaarius-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Velaarius-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1006, -- [11]
+			"Player-1303-0AECFE0F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeVelaarius-GrimBatol|r",
+			[51] = 1605974034,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"exactly", -- [1]
+			"Agerina-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Agerina-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1007, -- [11]
+			"Player-1303-0B64AB8A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Agerina|r",
+			[51] = 1605974041,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"poorly", -- [1]
+			"Clockworker-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Clockworker-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1008, -- [11]
+			"Player-1303-0B71B250", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Clockworker-Aggra(Português)|r",
+			[51] = 1605974044,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"i heard about shadow priest designer quitting", -- [1]
+			"Velaarius-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Velaarius-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1009, -- [11]
+			"Player-1303-0AECFE0F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeVelaarius-GrimBatol|r",
+			[51] = 1605974056,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			" @velaarius With a D&D dice is how you design it", -- [1]
+			"Albinoninja-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Albinoninja-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1010, -- [11]
+			"Player-1303-07E395D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcAlbinoninja-GrimBatol|r",
+			[51] = 1605974064,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"well, apart from joking", -- [1]
+			"Velaarius-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Velaarius-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1018, -- [11]
+			"Player-1303-0AECFE0F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeVelaarius-GrimBatol|r",
+			[51] = 1605974081,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"its a fucked up game m,afe for newcomer", -- [1]
+			"Agerina-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Agerina-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1022, -- [11]
+			"Player-1303-0B64AB8A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Agerina|r",
+			[51] = 1605974086,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"i roll 3 my healing now dmg me instead", -- [1]
+			"Albinoninja-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Albinoninja-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1025, -- [11]
+			"Player-1303-07E395D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcAlbinoninja-GrimBatol|r",
+			[51] = 1605974089,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"made*", -- [1]
+			"Agerina-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Agerina-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1030, -- [11]
+			"Player-1303-0B64AB8A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Agerina|r",
+			[51] = 1605974093,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			1051, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605974138,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"i read about shadow priest designer quitting, but that's pretty much it", -- [1]
+			"Velaarius-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Velaarius-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1065, -- [11]
+			"Player-1303-0AECFE0F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeVelaarius-GrimBatol|r",
+			[51] = 1605974149,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"lets hope he nerfs it before leaving", -- [1]
+			"Albinoninja-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Albinoninja-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1081, -- [11]
+			"Player-1303-07E395D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcAlbinoninja-GrimBatol|r",
+			[51] = 1605974170,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"He has a video on YT about that", -- [1]
+			"Homemdacaça-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Homemdacaça-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1088, -- [11]
+			"Player-1303-06EC77FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Homemdacaça-Aggra(Português)|r",
+			[51] = 1605974175,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"it's pretty funny like i was in a dungeon levelling and all 3 dps were top logs posotions", -- [1]
+			"Velaarius-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Velaarius-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1140, -- [11]
+			"Player-1303-0AECFE0F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeVelaarius-GrimBatol|r",
+			[51] = 1605974213,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"yeap he say he design most clases witj another guy", -- [1]
+			"Agerina-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Agerina-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1143, -- [11]
+			"Player-1303-0B64AB8A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Agerina|r",
+			[51] = 1605974214,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"you can probably find the bald one's reaction video even easier", -- [1]
+			"Clockworker-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Clockworker-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1151, -- [11]
+			"Player-1303-0B71B250", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Clockworker-Aggra(Português)|r",
+			[51] = 1605974228,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"shadow priest rework was pretty good tho", -- [1]
+			"Hashiramaa-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hashiramaa-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1159, -- [11]
+			"Player-1303-071009CA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeHashiramaa-GrimBatol|r",
+			[51] = 1605974262,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"|cffffff00Dwarven District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			1165, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1605974265,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

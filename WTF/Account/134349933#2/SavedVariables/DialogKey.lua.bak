@@ -2,6 +2,12 @@
 DialogKeyDB = {
 	["profileKeys"] = {
 		["Rykahpo - Frostmane"] = "Default",
+		["Rykahhpo - Frostmane"] = "Default",
+		["Rykkahpo - Frostmane"] = "Default",
+		["Bankypo - Frostmane"] = "Default",
+		["Rykahpriest - Frostmane"] = "Default",
+		["Rÿkah - Frostmane"] = "Default",
+		["Rykahpoh - Frostmane"] = "Default",
 	},
 	["global"] = {
 		["shownBindWarning"] = true,

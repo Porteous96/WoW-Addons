@@ -4,6 +4,7 @@ ImmersionSetup = {
 	["scale"] = 1,
 	["elementscale"] = 1,
 	["reset"] = "BACKSPACE",
+	["enablenumbers"] = true,
 	["titleoffsetY"] = -75.55560302734375,
 	["disableprogression"] = false,
 	["inspect"] = "SHIFT",

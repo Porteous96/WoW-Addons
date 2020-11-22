@@ -2,19 +2,19 @@
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
-		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
-		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
-		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
@@ -29,10 +29,10 @@ DataStore_CurrenciesDB = {
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -90,11 +90,11 @@ DataStore_CurrenciesDB = {
 					[1717] = "101-0-0-0",
 					[1718] = "4190-0-0-0",
 					[1719] = "394-0-0-0",
-					[1166] = "1240-0-0-0",
+					[1755] = "8742-0-0-0",
 					[1721] = "132-0-0-0",
 					[1226] = "74-0-0-0",
 					[738] = "104-0-0-0",
-					[1755] = "8742-0-0-0",
+					[1166] = "1240-0-0-0",
 					[1533] = "7-0-0-0",
 					[824] = "200-0-0-10000",
 					[1704] = "11-0-0-200",
@@ -256,149 +256,6 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1604096616,
 			},
-			["Default.Frostmane.Rykahhpo"] = {
-				["CurrencyInfo"] = {
-					[1220] = "2130-0-0-0",
-					[1719] = "63-0-0-0",
-					[738] = "58-0-0-0",
-					[1704] = "9-0-0-200",
-					[402] = "5-0-0-0",
-					[777] = "4808-0-0-0",
-					[776] = "0-0-0-20",
-					[1717] = "9-0-0-0",
-					[1166] = "120-0-0-0",
-					[1560] = "642-0-0-0",
-					[824] = "4562-0-0-10000",
-					[1755] = "25571-0-0-0",
-					[1226] = "503-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 1,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 2,
-						["count"] = 9,
-					}, -- [2]
-					{
-						["isHeader"] = false,
-						["index"] = 4,
-						["count"] = 25571,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 5,
-						["count"] = 63,
-					}, -- [4]
-					{
-						["isHeader"] = false,
-						["index"] = 11,
-						["count"] = 642,
-					}, -- [5]
-					{
-						["isHeader"] = true,
-						["index"] = 12,
-						["count"] = 0,
-					}, -- [6]
-					{
-						["isHeader"] = false,
-						["index"] = 13,
-						["count"] = 120,
-					}, -- [7]
-					{
-						["isHeader"] = true,
-						["index"] = 14,
-						["count"] = 0,
-					}, -- [8]
-					{
-						["isHeader"] = false,
-						["index"] = 16,
-						["count"] = 5,
-					}, -- [9]
-					{
-						["isHeader"] = true,
-						["index"] = 17,
-						["count"] = 0,
-					}, -- [10]
-					{
-						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 503,
-					}, -- [11]
-					{
-						["isHeader"] = false,
-						["index"] = 23,
-						["count"] = 2130,
-					}, -- [12]
-					{
-						["isHeader"] = true,
-						["index"] = 29,
-						["count"] = 0,
-					}, -- [13]
-					{
-						["isHeader"] = false,
-						["index"] = 32,
-						["count"] = 4562,
-					}, -- [14]
-					{
-						["isHeader"] = true,
-						["index"] = 36,
-						["count"] = 0,
-					}, -- [15]
-					{
-						["isHeader"] = false,
-						["index"] = 39,
-						["count"] = 58,
-					}, -- [16]
-					{
-						["isHeader"] = false,
-						["index"] = 41,
-						["count"] = 4808,
-					}, -- [17]
-					{
-						["isHeader"] = false,
-						["index"] = 42,
-						["count"] = 0,
-					}, -- [18]
-					{
-						["isHeader"] = true,
-						["index"] = 49,
-						["count"] = 0,
-					}, -- [19]
-					{
-						["isHeader"] = false,
-						["index"] = 50,
-						["count"] = 9,
-					}, -- [20]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1605913079,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-			},
 			["Default.Frostmane.Rykahpoo"] = {
 				["CurrencyInfo"] = {
 					[1220] = "8224-0-0-0",
@@ -531,6 +388,149 @@ DataStore_CurrenciesDB = {
 					0, -- [20]
 				},
 			},
+			["Default.Frostmane.Rykahhpo"] = {
+				["CurrencyInfo"] = {
+					[1220] = "2130-0-0-0",
+					[1719] = "63-0-0-0",
+					[738] = "58-0-0-0",
+					[1704] = "9-0-0-200",
+					[402] = "5-0-0-0",
+					[777] = "4808-0-0-0",
+					[776] = "0-0-0-20",
+					[1717] = "9-0-0-0",
+					[1226] = "503-0-0-0",
+					[1755] = "25571-0-0-0",
+					[824] = "4562-0-0-10000",
+					[1560] = "642-0-0-0",
+					[1166] = "120-0-0-0",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 1,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 2,
+						["count"] = 9,
+					}, -- [2]
+					{
+						["isHeader"] = false,
+						["index"] = 4,
+						["count"] = 25571,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 5,
+						["count"] = 63,
+					}, -- [4]
+					{
+						["isHeader"] = false,
+						["index"] = 11,
+						["count"] = 642,
+					}, -- [5]
+					{
+						["isHeader"] = true,
+						["index"] = 12,
+						["count"] = 0,
+					}, -- [6]
+					{
+						["isHeader"] = false,
+						["index"] = 13,
+						["count"] = 120,
+					}, -- [7]
+					{
+						["isHeader"] = true,
+						["index"] = 14,
+						["count"] = 0,
+					}, -- [8]
+					{
+						["isHeader"] = false,
+						["index"] = 16,
+						["count"] = 5,
+					}, -- [9]
+					{
+						["isHeader"] = true,
+						["index"] = 17,
+						["count"] = 0,
+					}, -- [10]
+					{
+						["isHeader"] = false,
+						["index"] = 22,
+						["count"] = 503,
+					}, -- [11]
+					{
+						["isHeader"] = false,
+						["index"] = 23,
+						["count"] = 2130,
+					}, -- [12]
+					{
+						["isHeader"] = true,
+						["index"] = 29,
+						["count"] = 0,
+					}, -- [13]
+					{
+						["isHeader"] = false,
+						["index"] = 32,
+						["count"] = 4562,
+					}, -- [14]
+					{
+						["isHeader"] = true,
+						["index"] = 36,
+						["count"] = 0,
+					}, -- [15]
+					{
+						["isHeader"] = false,
+						["index"] = 39,
+						["count"] = 58,
+					}, -- [16]
+					{
+						["isHeader"] = false,
+						["index"] = 41,
+						["count"] = 4808,
+					}, -- [17]
+					{
+						["isHeader"] = false,
+						["index"] = 42,
+						["count"] = 0,
+					}, -- [18]
+					{
+						["isHeader"] = true,
+						["index"] = 49,
+						["count"] = 0,
+					}, -- [19]
+					{
+						["isHeader"] = false,
+						["index"] = 50,
+						["count"] = 9,
+					}, -- [20]
+				},
+				["Conquest"] = 0,
+				["lastUpdate"] = 1605971754,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+			},
 			["Default.Frostmane.Rykahthree"] = {
 				["Archeology"] = {
 					0, -- [1]
@@ -572,7 +572,7 @@ DataStore_CurrenciesDB = {
 					[1149] = "1793-0-0-5000",
 					[1342] = "608-0-0-1000",
 					[1220] = "24689-0-0-0",
-					[1803] = "36394-0-0-0",
+					[1803] = "36649-0-0-0",
 					[823] = "23203-0-0-0",
 					[1508] = "558-0-0-2000",
 					[1268] = "2-0-0-1000",
@@ -591,16 +591,16 @@ DataStore_CurrenciesDB = {
 					[1580] = "4-0-0-5",
 					[1710] = "49-0-0-0",
 					[1273] = "0-0-0-6",
-					[615] = "11-0-0-0",
+					[1718] = "6-0-0-0",
 					[1155] = "1031-0-0-2000",
 					[697] = "3-0-0-20",
 					[1226] = "11717-0-0-0",
 					[1533] = "1636-0-0-0",
 					[752] = "0-0-0-20",
-					[1718] = "6-0-0-0",
+					[615] = "11-0-0-0",
 					[944] = "0-0-0-1000",
 					[614] = "89-0-0-0",
-					[1754] = "9-0-0-0",
+					[1754] = "4-0-0-0",
 					[1275] = "46-0-0-0",
 				},
 				["Currencies"] = {
@@ -612,7 +612,7 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 55,
-						["count"] = 9,
+						["count"] = 4,
 					}, -- [2]
 					{
 						["isHeader"] = true,
@@ -677,7 +677,7 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 6,
-						["count"] = 36394,
+						["count"] = 36649,
 					}, -- [15]
 					{
 						["isHeader"] = false,
@@ -875,7 +875,7 @@ DataStore_CurrenciesDB = {
 						["count"] = 24,
 					}, -- [54]
 				},
-				["Conquest"] = 0,
+				["Conquest"] = 60,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -898,7 +898,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					23, -- [20]
 				},
-				["lastUpdate"] = 1605923560,
+				["lastUpdate"] = 1606005579,
 			},
 			["Default.Frostmane.Bankypo"] = {
 				["CurrencyInfo"] = {
@@ -917,7 +917,7 @@ DataStore_CurrenciesDB = {
 					}, -- [2]
 				},
 				["Conquest"] = 0,
-				["lastUpdate"] = 1605913247,
+				["lastUpdate"] = 1605987912,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -1011,17 +1011,17 @@ DataStore_CurrenciesDB = {
 			["Default.Frostmane.Rÿkah"] = {
 				["CurrencyInfo"] = {
 					[1580] = "4-0-0-5",
-					[1719] = "1566-0-0-0",
-					[1155] = "250-0-0-300",
-					[738] = "29-0-0-0",
+					[1719] = "1766-0-0-0",
 					[1275] = "2-0-0-0",
-					[1755] = "58674-0-0-0",
-					[1710] = "9-0-0-0",
-					[1803] = "2966-0-0-0",
-					[1717] = "0-0-0-0",
-					[1166] = "1255-0-0-0",
+					[738] = "29-0-0-0",
 					[1560] = "711-0-0-0",
+					[1710] = "9-0-0-0",
+					[1155] = "250-0-0-300",
+					[1803] = "3024-0-0-0",
+					[1717] = "0-0-0-0",
 					[1721] = "52-0-0-0",
+					[1755] = "58674-0-0-0",
+					[1166] = "1255-0-0-0",
 					[1718] = "158-0-0-0",
 					[1704] = "4-0-0-200",
 				},
@@ -1044,12 +1044,12 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 5,
-						["count"] = 1566,
+						["count"] = 1766,
 					}, -- [4]
 					{
 						["isHeader"] = false,
 						["index"] = 6,
-						["count"] = 2966,
+						["count"] = 3024,
 					}, -- [5]
 					{
 						["isHeader"] = false,
@@ -1123,7 +1123,7 @@ DataStore_CurrenciesDB = {
 					}, -- [19]
 				},
 				["Conquest"] = 0,
-				["lastUpdate"] = 1605826736,
+				["lastUpdate"] = 1606005198,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -1406,7 +1406,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1605913176,
+				["lastUpdate"] = 1605972952,
 			},
 			["Default.Frostmane.Rykahshaman"] = {
 				["CurrencyInfo"] = {
@@ -1451,7 +1451,7 @@ DataStore_CurrenciesDB = {
 			},
 			["Default.Frostmane.Rykahpriest"] = {
 				["CurrencyInfo"] = {
-					[824] = "1074-0-0-10000",
+					[824] = "1859-0-0-10000",
 					[1792] = "17-0-0-0",
 					[1166] = "200-0-0-0",
 				},
@@ -1464,7 +1464,7 @@ DataStore_CurrenciesDB = {
 					{
 						["isHeader"] = false,
 						["index"] = 32,
-						["count"] = 1074,
+						["count"] = 1859,
 					}, -- [2]
 					{
 						["isHeader"] = true,
@@ -1510,7 +1510,7 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-				["lastUpdate"] = 1605485271,
+				["lastUpdate"] = 1606010814,
 			},
 		},
 		["Reference"] = {
@@ -1601,16 +1601,16 @@ DataStore_CurrenciesDB = {
 				["Titan Residuum"] = 10,
 				["Miscellaneous"] = 14,
 				["Seal of Broken Fate"] = 24,
-				["Mists of Pandaria"] = 36,
+				["Shadowlands"] = 54,
 				["Lesser Charm of Good Fortune"] = 39,
 				["Curious Coin"] = 19,
 				["Seal of Wartorn Fate"] = 9,
 				["Artifact Fragment"] = 31,
 				["Timeworn Artifact"] = 26,
-				["Shadowlands"] = 54,
-				["7th Legion Service Medal"] = 2,
-				["Player vs. Player"] = 52,
+				["Mists of Pandaria"] = 36,
 				["Timewarped Badge"] = 13,
+				["Player vs. Player"] = 52,
+				["7th Legion Service Medal"] = 2,
 				["Warlords of Draenor"] = 29,
 				["Garrison Resources"] = 32,
 				["Oil"] = 33,

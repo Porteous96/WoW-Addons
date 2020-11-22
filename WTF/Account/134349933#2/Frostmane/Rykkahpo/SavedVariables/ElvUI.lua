@@ -1,842 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		">But I don't want very good white cards. Swords to Plowshares is a very good card, Armageddon is a very good card, Thalia is a very good card. I want powerful white cards, things that are big and fun and make a scene when cast, putting me ahead. Like some", -- [1]
-		">9cmc sultai stuff", -- [2]
-		">white has been oppressed for years", -- [3]
-		"is probably smothering tithe", -- [4]
-		"and before that it must have been wrath of god", -- [5]
-		"hold up", -- [6]
-		"you cant spell", -- [7]
-		"but can spell definitely", -- [8]
-		"why", -- [9]
-		"im confused", -- [10]
-		"someone cant think thats a good land", -- [11]
-		"I love terrible lands being common through my sealed pool", -- [12]
-		"so when I open 3, I can run all of them", -- [13]
-		"I did too until you got interested", -- [14]
-		"and I think dave still does", -- [15]
-		"like brainstorm isnt broken when you have no win cons", -- [16]
-		"have you saw meta deck for standard atm?", -- [17]
-		"if you had told me these cards would be in the top deck of standard, I would have agreed with every single one", -- [18]
-		"/played", -- [19]
-		"/cw Niaou its a bit low but if we have some big damage then you can come", -- [20]
+		"like brainstorm isnt broken when you have no win cons", -- [1]
+		"have you saw meta deck for standard atm?", -- [2]
+		"if you had told me these cards would be in the top deck of standard, I would have agreed with every single one", -- [3]
+		"/played", -- [4]
+		"/cw Niaou its a bit low but if we have some big damage then you can come", -- [5]
+		"/g they should just spawn", -- [6]
+		"/g make sure you've used the potion or you wont see them", -- [7]
+		"/g might just be broken then", -- [8]
+		"/g tom, have you decided on a mage spec yet?", -- [9]
+		"/g i still cant decide, I'm gonna try levelling as arcane so I can see how covenant abilities work with it", -- [10]
+		"/g since frost doesnt really get much from them", -- [11]
+		"/g yeah i know", -- [12]
+		"/g if we play arcane then we can offspec fire though", -- [13]
+		"/g which is pretty cool", -- [14]
+		"/g druid is scary", -- [15]
+		"/g cause it goes through such long periods of being trash", -- [16]
+		"/g oh tank is a different thing then, I like druid tank", -- [17]
+		"/g think we should be able to keep alts up to scratch this time around", -- [18]
+		"/g gorilla bear is cool", -- [19]
+		"/g i've only levelled as druid tank so dunno what it's like to play in actual content but it seems great fun", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"and before that it must have been wrath of god", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4818, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533704,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [1]
-		{
-			"yes definitely ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4829, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533712,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [2]
-		{
-			"this is known", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4844, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533725,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [3]
-		{
-			"hold up", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4845, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533728,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [4]
-		{
-			"you cant spell", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4846, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533733,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [5]
-		{
-			"but can spell definitely", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4847, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533736,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [6]
-		{
-			"why ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4848, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533739,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [7]
-		{
-			"im unungood at spelling sometimes ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4856, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533753,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [8]
-		{
-			"fug", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4890, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533784,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [9]
-		{
-			"found a meme", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4894, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533786,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [10]
-		{
-			"this is on the thread spoiling the colourless bounce land", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4920, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533806,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [11]
-		{
-			">I get the joke but if it were common... sol ring in pauper?", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4931, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533815,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [12]
-		{
-			">tfw the other bounce lands are legal and played, so why would you ever take a colourless one over them - and the fact they are a tempo loss on the turn played removes any semblance of sol ring's acceleration potential ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5029, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533890,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [13]
-		{
-			"Swift Zulian tiger bidder please DM me", -- [1]
-			"Hallibell-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hallibell-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			5037, -- [11]
-			"Player-1303-0B693CB1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Hallibell|r",
-			[51] = 1604533896,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"im confused", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5146, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533980,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [15]
-		{
-			"someone cant think thats a good land", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5155, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533986,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [16]
-		{
-			"there's no way", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5160, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604533993,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [17]
-		{
-			"https://old.reddit.com/r/magicTCG/comments/jnzec6/cmr_guildless_commons/gb5bfqq/", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5183, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534010,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [18]
-		{
-			"go off, king", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5190, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534015,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [19]
-		{
-			">This has no business being uncommon. I would really like to see this in pauper after tron gets eventually banned", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5207, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534050,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [20]
-		{
-			"are these people dumb", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5208, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534061,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [21]
-		{
-			"that is ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5209, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534064,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [22]
-		{
-			"the best thing i have ever read", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5216, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534070,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [23]
-		{
-			"sure ", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5232, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534081,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [24]
-		{
-			"I love terrible lands being common through my sealed pool", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5249, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534094,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [25]
-		{
-			"so when I open 3, I can run all of them", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5259, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534101,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [26]
-		{
-			"i love bouncing my bounc land with my 2rd colourless bounce land", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5288, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534123,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [27]
-		{
-			"its basically tron", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5309, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534140,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [28]
-		{
-			"i dont think these people have ever seen a game of pauper", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5363, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534182,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [29]
-		{
-			"i dont think these people have ever used a bounceland", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5387, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534200,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [30]
-		{
-			"they must think it is draft chaff constructed", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5389, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534201,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [31]
-		{
-			"to be fair", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5441, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534243,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [32]
-		{
-			"I did too until you got interested", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5450, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534249,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [33]
-		{
-			"and I think dave still does", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5459, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534255,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [34]
-		{
-			"dave's most cast spell is probs brain storm", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5492, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534280,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [35]
-		{
-			"hed love it", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5495, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534283,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [36]
-		{
-			"yeah i love how its got dumb card draw", -- [1]
-			"|Kq110|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			5512, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1604534294,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [37]
 		{
 			"its legacy answers to very bad creatuers", -- [1]
 			"|Kq110|k", -- [2]
@@ -858,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534312,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [38]
+		}, -- [1]
 		{
 			"like brainstorm isnt broken when you have no win cons", -- [1]
 			"|Kq110|k", -- [2]
@@ -880,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534313,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [39]
+		}, -- [2]
 		{
 			"and delver is here also", -- [1]
 			"|Kq110|k", -- [2]
@@ -902,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534315,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [40]
+		}, -- [3]
 		{
 			"i cant believe delver is pauper legal", -- [1]
 			"|Kq110|k", -- [2]
@@ -924,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534336,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [41]
+		}, -- [4]
 		{
 			"it has to be one of the dumbest cards ", -- [1]
 			"|Kq110|k", -- [2]
@@ -946,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534345,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [42]
+		}, -- [5]
 		{
 			"i dare say it was pretty meh in limited, which was the only format were rarity mattered", -- [1]
 			"|Kq110|k", -- [2]
@@ -968,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534388,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [43]
+		}, -- [6]
 		{
 			"but yeah, add in some cantrips and you got a stew going", -- [1]
 			"|Kq110|k", -- [2]
@@ -990,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534415,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [44]
+		}, -- [7]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14782:Player-1303-0B8267D7:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
 			"Kitita-Frostmane", -- [2]
@@ -1012,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKitita|r",
 			[51] = 1604534477,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [8]
 		{
 			"have you saw meta deck for standard atm?", -- [1]
 			"|Kq110|k", -- [2]
@@ -1034,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534512,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [46]
+		}, -- [9]
 		{
 			"if you had told me these cards would be in the top deck of standard, I would have agreed with every single one ", -- [1]
 			"|Kq110|k", -- [2]
@@ -1056,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1604534533,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [47]
+		}, -- [10]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10684:Player-1303-0B556DC0:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Fashionista: Legs]|h|r!", -- [1]
 			"Kurova-Frostmane", -- [2]
@@ -1078,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKurova|r",
 			[51] = 1604534663,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [11]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13076:Player-1303-0B8267D7:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Heritage of the Dark Iron]|h|r!", -- [1]
 			"Kitita-Frostmane", -- [2]
@@ -1100,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKitita|r",
 			[51] = 1604534741,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4539:Player-1303-0B556DC0:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[Once Bitten, Twice Shy (10 player)]|h|r!", -- [1]
 			"Kurova-Frostmane", -- [2]
@@ -1122,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKurova|r",
 			[51] = 1604534892,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [13]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4598:Player-1303-0B68AC74:1:11:5:20:4294967295:4294967295:4294967295:4294967295|h[The Ashen Verdict]|h|r!", -- [1]
 			"Slyxhamstræz-Frostmane", -- [2]
@@ -1144,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Slyxhamstræz|r",
 			[51] = 1604535294,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [14]
 		{
 			"WTS |cff1eff00|Hitem:55057::::::::41:62:::::::|h[Pyrium Weapon Chain]|h|r 4K", -- [1]
 			"Icyboxx-GrimBatol", -- [2]
@@ -1166,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaIcyboxx-GrimBatol|r",
 			[51] = 1604536283,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [15]
 		{
 			"WTS |cffa335ee|Hitem:163575::::::::1:259::::1:28:190:::|h[Reins of a Tamed Bloodfeaster]|h|r CHEAP", -- [1]
 			"Bankerbaz-GrimBatol", -- [2]
@@ -1188,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
 			[51] = 1604537025,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [16]
 		{
 			"hox muvh is cheap?", -- [1]
 			"Xentsu-Frostmane", -- [2]
@@ -1210,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Xentsu|r",
 			[51] = 1604537093,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [17]
 		{
 			"much*", -- [1]
 			"Xentsu-Frostmane", -- [2]
@@ -1232,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Xentsu|r",
 			[51] = 1604537097,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [18]
 		{
 			"25K", -- [1]
 			"Bankerbaz-GrimBatol", -- [2]
@@ -1254,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
 			[51] = 1604537103,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [19]
 		{
 			"WTS |cffa335ee|Hitem:163575::::::::1:259::::1:28:190:::|h[Reins of a Tamed Bloodfeaster]|h|r 25K", -- [1]
 			"Bankerbaz-GrimBatol", -- [2]
@@ -1276,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Bankerbaz-GrimBatol|r",
 			[51] = 1604537635,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [20]
 		{
 			"I wouldn't, their guild recruitment ads are some of the worst I've ever seen", -- [1]
 			"Doomcläw-GrimBatol", -- [2]
@@ -1298,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Doomcläw-GrimBatol|r",
 			[51] = 1604870736,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [21]
 		{
 			"i can't even pronounce portugueses ", -- [1]
 			"Pènguin-Frostmane", -- [2]
@@ -1320,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Pènguin|r",
 			[51] = 1604870740,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [22]
 		{
 			"100ilvl is enough for alt to join sunday run??", -- [1]
 			"Niaou-Frostmane", -- [2]
@@ -1342,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Niaou|r",
 			[51] = 1605295214,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [60]
+		}, -- [23]
 		{
 			"NO", -- [1]
 			"Çka-Frostmane", -- [2]
@@ -1364,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Çka|r",
 			[51] = 1605295225,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
+		}, -- [24]
 		{
 			"?", -- [1]
 			"Niaou-Frostmane", -- [2]
@@ -1386,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Niaou|r",
 			[51] = 1605295233,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [25]
 		{
 			"eh I think we're only doing the last 2 bosses on sunday, i'll let you know", -- [1]
 			"Niaou-Frostmane", -- [2]
@@ -1408,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Niaou|r",
 			[51] = 1605295250,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [63]
+		}, -- [26]
 		{
 			"its a bit low but if we have some big damage then you can come", -- [1]
 			"Niaou-Frostmane", -- [2]
@@ -1430,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Niaou|r",
 			[51] = 1605295261,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [27]
 		{
 			"Se o servidor é português querias o quê? Vietnamitas?", -- [1]
 			"Brunoaleixo-Aggra(Português)", -- [2]
@@ -1452,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
 			[51] = 1605827036,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [28]
 		{
 			"´eu se nao tivesse mais que fazer meus rpazes, fazia aqui uma guild que competia com a method ", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1474,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605827038,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [29]
 		{
 			"Nao fosse a gramática ao nível de alguem que deixou de estudar no 8º ano, e até tinha a sua piada...", -- [1]
 			"Scalandor-Aggra(Português)", -- [2]
@@ -1496,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Scalandor-Aggra(Português)|r",
 			[51] = 1605827040,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [30]
 		{
 			"golo do Ronaldo, gg", -- [1]
 			"Rumbleb-GrimBatol", -- [2]
@@ -1518,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRumbleb-GrimBatol|r",
 			[51] = 1605827046,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [31]
 		{
 			"mas os tugas sao tao bosta de gente que n merecem", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1540,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605827053,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [32]
 		{
 			"Ó BRUNO MAS O O WOW JA FOI MUITO POPULAR NO FIM DO LICH KING MAS DEPOIS TODOS OS MEUS AMIGOS QUE JOGAVAM DEIXARAM DE JOGAR", -- [1]
 			"Joãoanão-GrimBatol", -- [2]
@@ -1562,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Joãoanão-GrimBatol|r",
 			[51] = 1605827065,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [33]
 		{
 			"fds no 8 ano lol nem 4 classe têm", -- [1]
 			"Muortis-Aggra(Português)", -- [2]
@@ -1584,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Muortis-Aggra(Português)|r",
 			[51] = 1605827066,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [34]
 		{
 			"e hao de ser", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1606,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605827071,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [35]
 		{
 			"por isso é que estás aqui. No brasil nem têm serviço para fazer servidores", -- [1]
 			"Brunoaleixo-Aggra(Português)", -- [2]
@@ -1628,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
 			[51] = 1605827080,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [36]
 		{
 			"(alguem perguntou o que diria o renato, é isso=", -- [1]
 			"Joãoanão-GrimBatol", -- [2]
@@ -1650,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Joãoanão-GrimBatol|r",
 			[51] = 1605827082,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [37]
 		{
 			"só têm net de 32k", -- [1]
 			"Brunoaleixo-Aggra(Português)", -- [2]
@@ -1672,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
 			[51] = 1605827086,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [38]
 		{
 			"fds o Agrgra nunca devia ter sido ligado ao frostmane...", -- [1]
 			"Esperta-Frostmane", -- [2]
@@ -1694,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esperta|r",
 			[51] = 1605827112,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [39]
 		{
 			"pq?", -- [1]
 			"Ketan-GrimBatol", -- [2]
@@ -1716,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Ketan-GrimBatol|r",
 			[51] = 1605827123,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [40]
 		{
 			"bem, hoje o caralho do report spam está onfire", -- [1]
 			"Haze-GrimBatol", -- [2]
@@ -1738,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Haze-GrimBatol|r",
 			[51] = 1605827124,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [41]
 		{
 			"dou graças ao frostmane, a AH estava tão parada", -- [1]
 			"Joãoanão-GrimBatol", -- [2]
@@ -1760,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Joãoanão-GrimBatol|r",
 			[51] = 1605827135,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [42]
 		{
 			"verdade Esperta", -- [1]
 			"Starzz-GrimBatol", -- [2]
@@ -1782,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Starzz-GrimBatol|r",
 			[51] = 1605827137,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [43]
 		{
 			"estes tugas não interagem com a player economy. são uma seca", -- [1]
 			"Joãoanão-GrimBatol", -- [2]
@@ -1804,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Joãoanão-GrimBatol|r",
 			[51] = 1605827144,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [44]
 		{
 			"chegou o joao anao, ta tudo fudido.", -- [1]
 			"Explozeh-GrimBatol", -- [2]
@@ -1826,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Explozeh-GrimBatol|r",
 			[51] = 1605827161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [45]
 		{
 			"Hello guys! Why are you speaking in portuguese?! I want to participate in your conversation too! :(", -- [1]
 			"Darthy-Frostmane", -- [2]
@@ -1848,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDarthy|r",
 			[51] = 1605827162,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [46]
 		{
 			"Aggra nunca devia era ter existido, desde portucalia a new order a the invicta nao se aproveita 1 membro", -- [1]
 			"Rumbleb-GrimBatol", -- [2]
@@ -1870,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRumbleb-GrimBatol|r",
 			[51] = 1605827175,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [47]
 		{
 			"Learn portuguese then", -- [1]
 			"Brunoaleixo-Aggra(Português)", -- [2]
@@ -1892,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
 			[51] = 1605827175,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [48]
 		{
 			"hahaha", -- [1]
 			"Badwólf-GrimBatol", -- [2]
@@ -1914,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edBadwólf-GrimBatol|r",
 			[51] = 1605827187,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [49]
 		{
 			"kek ", -- [1]
 			"Massro-GrimBatol", -- [2]
@@ -1936,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMassro-GrimBatol|r",
 			[51] = 1605827192,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [50]
 		{
 			"Nah...Shitty language to learn", -- [1]
 			"Darthy-Frostmane", -- [2]
@@ -1958,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDarthy|r",
 			[51] = 1605827193,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [51]
 		{
 			"on a eu server", -- [1]
 			"Massro-GrimBatol", -- [2]
@@ -1980,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMassro-GrimBatol|r",
 			[51] = 1605827201,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [52]
 		{
 			"too bad for you", -- [1]
 			"Brunoaleixo-Aggra(Português)", -- [2]
@@ -2002,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBrunoaleixo-Aggra(Português)|r",
 			[51] = 1605827202,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [53]
 		{
 			"epá criem um chat e falem lá pf ;_;", -- [1]
 			"Haze-GrimBatol", -- [2]
@@ -2024,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Haze-GrimBatol|r",
 			[51] = 1605827205,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [54]
 		{
 			"kek", -- [1]
 			"Minglee-GrimBatol", -- [2]
@@ -2046,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Minglee-GrimBatol|r",
 			[51] = 1605827206,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [55]
 		{
 			"ITS NOT PORTUGUESE IS SPANISH", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -2068,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605827217,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [56]
 		{
 			"<Os Marretas> não está à procura de novos membros, activos ou inactivos. Nós odiamos-te e tudo o que tu representas e tentamos retirar tudo o que o jogo possa ter de divertido. Nós temos tabards, não, não podes ter um! Odeio-te!", -- [1]
 			"Sarutoby-Aggra(Português)", -- [2]
@@ -2090,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sarutoby-Aggra(Português)|r",
 			[51] = 1605827220,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [57]
 		{
 			"and omegle", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -2112,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605913187,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [58]
 		{
 			"I'm an old dwarf, this hurts my eyes", -- [1]
 			"Camoz-GrimBatol", -- [2]
@@ -2134,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Camoz-GrimBatol|r",
 			[51] = 1605913189,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [59]
 		{
 			"ok u 12", -- [1]
 			"Azrä-Frostmane", -- [2]
@@ -2156,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azrä|r",
 			[51] = 1605913197,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [60]
 		{
 			"Old", -- [1]
 			"Camoz-GrimBatol", -- [2]
@@ -2178,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Camoz-GrimBatol|r",
 			[51] = 1605913209,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [61]
 		{
 			"im a smart 12 year old tho", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -2200,6 +1386,820 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605913222,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"Inventory is full is recruiting, we are doing M+ and raids. Social are welcome 2. wisp for more info", -- [1]
+			"Stonedwarf-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stonedwarf-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			140, -- [11]
+			"Player-1303-04A5D4AF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Stonedwarf-GrimBatol|r",
+			[51] = 1605971574,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"no but the mobs didnt even spawn the entire time i was in the vision + the potion", -- [1]
+			"Adonaise-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			227, -- [11]
+			"Player-1303-0B620331", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Adonaise|r",
+			[51] = 1605972259,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [64]
+		{
+			"maybe you can force it to spawn somehow?", -- [1]
+			"Logislap-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			228, -- [11]
+			"Player-1303-0B61691F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1605972292,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [65]
+		{
+			"can you guys just don't", -- [1]
+			"Jers-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jers-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			229, -- [11]
+			"Player-1303-0B637E8F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Jers|r",
+			[51] = 1605972347,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"it looked the quest up on wowhead and they all hated it lol", -- [1]
+			"Adonaise-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			230, -- [11]
+			"Player-1303-0B620331", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Adonaise|r",
+			[51] = 1605972348,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [67]
+		{
+			"please", -- [1]
+			"Jers-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jers-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			231, -- [11]
+			"Player-1303-0B637E8F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Jers|r",
+			[51] = 1605972350,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"lol", -- [1]
+			"Tyrant-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tyrant-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			232, -- [11]
+			"Player-1303-0B9BA9E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cTyrant-GrimBatol|r",
+			[51] = 1605972358,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"they should just spawn ", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			233, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605972387,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [70]
+		{
+			"make sure you've used the potion or you wont see them", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			234, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605972396,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [71]
+		{
+			"i used it, gave me a 10min buff to see invisible mobs", -- [1]
+			"Adonaise-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			235, -- [11]
+			"Player-1303-0B620331", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Adonaise|r",
+			[51] = 1605972438,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [72]
+		{
+			"but they just didnt spawn, went inside, waited outside", -- [1]
+			"Adonaise-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			236, -- [11]
+			"Player-1303-0B620331", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Adonaise|r",
+			[51] = 1605972449,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [73]
+		{
+			"ran around like a dick", -- [1]
+			"Adonaise-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			237, -- [11]
+			"Player-1303-0B620331", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Adonaise|r",
+			[51] = 1605972455,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [74]
+		{
+			"might just be broken then", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605972463,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [75]
+		{
+			"np", -- [1]
+			"Nëko-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			326, -- [11]
+			"Player-1303-0B63D4B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nëko|r",
+			[51] = 1605972965,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [76]
+		{
+			"tom, have you decided on a mage spec yet?", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			341, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973000,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [77]
+		{
+			"ty :)", -- [1]
+			"Elricsulfur-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			349, -- [11]
+			"Player-1303-0B9C93E4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edElricsulfur|r",
+			[51] = 1605973018,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [78]
+		{
+			"frost for lvling then maybe arcane if its good enough", -- [1]
+			"Nëko-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			361, -- [11]
+			"Player-1303-0B63D4B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nëko|r",
+			[51] = 1605973026,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [79]
+		{
+			"if not probs frost", -- [1]
+			"Nëko-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			418, -- [11]
+			"Player-1303-0B63D4B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nëko|r",
+			[51] = 1605973071,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [80]
+		{
+			"had enough of fire", -- [1]
+			"Nëko-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			427, -- [11]
+			"Player-1303-0B63D4B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nëko|r",
+			[51] = 1605973078,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [81]
+		{
+			"i still cant decide, I'm gonna try levelling as arcane so I can see how covenant abilities work with it", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			444, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973092,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [82]
+		{
+			"since frost doesnt really get much from them", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			463, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973106,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [83]
+		{
+			"Inventory is full is recruiting, we are doing M+ and raids. Social are welcome 2. wisp for more info", -- [1]
+			"Stonedwarf-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stonedwarf-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			518, -- [11]
+			"Player-1303-04A5D4AF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Stonedwarf-GrimBatol|r",
+			[51] = 1605973150,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"yeah, sucks we have to choose between one or the other", -- [1]
+			"Nëko-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			571, -- [11]
+			"Player-1303-0B63D4B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nëko|r",
+			[51] = 1605973192,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [85]
+		{
+			"yeah i know", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			605, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973218,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [86]
+		{
+			"if we play arcane then we can offspec fire though", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			621, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973229,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [87]
+		{
+			"which is pretty cool", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			627, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973233,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [88]
+		{
+			"i guess yeah, also torn between druid or rogue for alt", -- [1]
+			"Nëko-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			785, -- [11]
+			"Player-1303-0B63D4B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nëko|r",
+			[51] = 1605973357,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [89]
+		{
+			"druid is scary ", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			803, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973384,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [90]
+		{
+			"cause it goes through such long periods of being trash", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			804, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973395,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [91]
+		{
+			"if alts are easy to handle, i just pay both, but druid would be tank :P", -- [1]
+			"Nëko-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			805, -- [11]
+			"Player-1303-0B63D4B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nëko|r",
+			[51] = 1605973450,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"oh tank is a different thing then, I like druid tank", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			806, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973471,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [93]
+		{
+			"think we should be able to keep alts up to scratch this time around", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			807, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973482,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [94]
+		{
+			"Guild <Os Marretas> é uma guilda de PvE e Social que executa Wipes com estilo! Somos um culto Português que procura membros suecos que falam chinês com sotaque russo. Nenhum tabard da guilda, pois não combina com o nosso penteado. Obrigado!", -- [1]
+			"Tsulong-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tsulong-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			808, -- [11]
+			"Player-1303-0B303D4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
+			[51] = 1605973485,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"Inventory is full is recruiting, we are doing M+ and raids. Social are welcome 2. wisp for more info", -- [1]
+			"Stonedwarf-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Stonedwarf-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			810, -- [11]
+			"Player-1303-04A5D4AF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Stonedwarf-GrimBatol|r",
+			[51] = 1605973519,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"yeah, druid tank is fav, only cuz of gorrila bear xD", -- [1]
+			"Nëko-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			811, -- [11]
+			"Player-1303-0B63D4B5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Nëko|r",
+			[51] = 1605973563,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"gorilla bear is cool", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			813, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973579,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"i've only levelled as druid tank so dunno what it's like to play in actual content but it seems great fun", -- [1]
+			"Rykkahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			814, -- [11]
+			"Player-1303-0B698580", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Rykkahpo|r",
+			[51] = 1605973601,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 }

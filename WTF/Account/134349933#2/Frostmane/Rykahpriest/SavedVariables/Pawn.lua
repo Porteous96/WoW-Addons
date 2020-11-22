@@ -1,88 +1,88 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0405,
+	["LastVersion"] = 2.0406,
 	["LastPlayerFullName"] = "Rykahpriest-Frostmane",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 122250,
-			["Level"] = 45,
-			["Link"] = "|cff00ccff|Hitem:122250::::::::40:258:::1:582::::|h[Tattered Dreadmist Mask]|h|r",
+			["Level"] = 52,
+			["Link"] = "|cff00ccff|Hitem:122250::::::::46:258:::1:582::::|h[Tattered Dreadmist Mask]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 122663,
-			["Level"] = 43,
-			["Link"] = "|cff00ccff|Hitem:122663::::::::38:258:::1:582::::|h[Eternal Amulet of the Redeemed]|h|r",
+			["ID"] = 113146,
+			["Level"] = 48,
+			["Link"] = "|cff0070dd|Hitem:113146::::::::42:258::11:1:6691:2:28:1764:9:42:::|h[Karabor Sage Pendant]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 122360,
-			["Level"] = 42,
-			["Link"] = "|cff00ccff|Hitem:122360::::::::37:258:::1:582::::|h[Tattered Dreadmist Mantle]|h|r",
+			["ID"] = 107317,
+			["Level"] = 50,
+			["Link"] = "|cff0070dd|Hitem:107317::::::::46:258::11:2:3631:6697:2:28:1764:9:45:::|h[Karabor Sage Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 122384,
-			["Level"] = 44,
-			["Link"] = "|cff00ccff|Hitem:122384::::::::39:258:::1:582::::|h[Tattered Dreadmist Robe]|h|r",
+			["ID"] = 107314,
+			["Level"] = 51,
+			["Link"] = "|cff1eff00|Hitem:107314::::::::46:258::11:1:3631:2:28:1764:9:46:::|h[Karabor Sage Robe]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 112613,
-			["Level"] = 41,
-			["Link"] = "|cff1eff00|Hitem:112613::::::::37:258::11:1:3631:2:28:1766:9:37:::|h[Steamburst Cord]|h|r",
+			["ID"] = 106407,
+			["Level"] = 48,
+			["Link"] = "|cff1eff00|Hitem:106407::::::::45:258:::2:6654:47:2:28:1764:9:44:::|h[Lunarglow Cord of the Peerless]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 122256,
-			["Level"] = 45,
-			["Link"] = "|cff00ccff|Hitem:122256::::::::40:258:::1:582::::|h[Tattered Dreadmist Leggings]|h|r",
+			["ID"] = 113237,
+			["Level"] = 54,
+			["Link"] = "|cffa335ee|Hitem:113237::::::::47:258::11:2:3631:6700:2:28:1764:9:47:::|h[Blademoon Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 57523,
-			["Level"] = 31,
-			["Link"] = "|cff1eff00|Hitem:57523::::::::28:258::11:1:3631:2:28:1789:9:27:::|h[Wolf Fur Boots]|h|r",
+			["ID"] = 107315,
+			["Level"] = 49,
+			["Link"] = "|cff1eff00|Hitem:107315::::::::44:258::11:1:3631:2:28:1764:9:44:::|h[Karabor Sage Treads]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 112616,
-			["Level"] = 43,
-			["Link"] = "|cff0070dd|Hitem:112616::::::::38:258::11:2:3631:6697:2:28:1766:9:37:::|h[Steamburst Wristwraps]|h|r",
+			["ID"] = 113233,
+			["Level"] = 50,
+			["Link"] = "|cffa335ee|Hitem:113233::::::::43:258::11:2:6691:6703:2:28:1764:9:43:::|h[Karabor Sage Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 58921,
-			["Level"] = 44,
-			["Link"] = "|cff1eff00|Hitem:58921::::::::40:258::11:1:3631:2:28:1813:9:40:::|h[Evidence Collection Gloves]|h|r",
+			["ID"] = 107861,
+			["Level"] = 54,
+			["Link"] = "|cff0070dd|Hitem:107861::::::::47:258::11:1:6691:2:28:1764:9:47:::|h[Karabor Sage Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 128169,
-			["Level"] = 45,
+			["ID"] = 117990,
+			["Level"] = 54,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff00ccff|Hitem:128169::::::::40:258:::1:582::::|h[Signet of the Third Fleet]|h|r",
+			["Link"] = "|cff0070dd|Hitem:117990::::::::47:258::11:1:6691:2:28:1764:9:47:::|h[Maa'run's Prescient Eye]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 128169,
-			["Level"] = 44,
+			["Level"] = 49,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff00ccff|Hitem:128169::::::::39:258:::1:582::::|h[Signet of the Third Fleet]|h|r",
+			["Link"] = "|cff00ccff|Hitem:128169::::::::43:258:::1:582::::|h[Signet of the Third Fleet]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122362,
-			["Level"] = 45,
+			["Level"] = 54,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122362::::::::40:258:::1:582::::|h[Discerning Eye of the Beast]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::47:258:::1:582::::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122362,
-			["Level"] = 44,
+			["Level"] = 52,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122362::::::::39:258:::1:582::::|h[Discerning Eye of the Beast]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::46:258:::1:582::::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 45,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::40:258:::1:583::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 54,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::47:258:::1:583::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 104406,
-			["Level"] = 47,
-			["Link"] = "|cff00ccff|Hitem:104406::::::::40:258:::::::|h[Hellscream's War Staff]|h|r",
+			["ID"] = 113172,
+			["Level"] = 52,
+			["Link"] = "|cff0070dd|Hitem:113172::::::::46:258::11:1:6691:2:28:1764:9:46:::|h[Karabor Arcanist Wand]|h|r",
 		}, -- [16]
 	},
 	["LastKeybindingsSet"] = 1,

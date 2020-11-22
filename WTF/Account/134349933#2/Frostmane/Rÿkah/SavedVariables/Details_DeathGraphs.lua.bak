@@ -6,6 +6,16 @@ DeathGraphsDBDeaths = {
 		["name"] = "Prophet Skitra",
 		["id"] = 2369,
 		["diff"] = 15,
+		["player_db"] = {
+			["Krashna"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Krashna",
+				["class"] = "SHAMAN",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -19,16 +29,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Krashna"] = {
-				["name"] = "Krashna",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["236815"] = {
 		["hash"] = "236815",
@@ -36,6 +36,16 @@ DeathGraphsDBDeaths = {
 		["name"] = "Wrathion",
 		["id"] = 2368,
 		["diff"] = 15,
+		["player_db"] = {
+			["Merren"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Merren",
+				["class"] = "WARLOCK",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -49,16 +59,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Merren"] = {
-				["name"] = "Merren",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["236515"] = {
 		["hash"] = "236515",
@@ -66,6 +66,88 @@ DeathGraphsDBDeaths = {
 		["name"] = "Maut",
 		["id"] = 2365,
 		["diff"] = 15,
+		["player_db"] = {
+			["Susieqt-Silvermoon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Susieqt-Silvermoon",
+				["class"] = "PRIEST",
+			},
+			["Yoseb-Dalaran"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Yoseb-Dalaran",
+				["class"] = "SHAMAN",
+			},
+			["Merren"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Merren",
+				["class"] = "WARLOCK",
+			},
+			["Krowi"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Krowi",
+				["class"] = "PALADIN",
+			},
+			["Coldaras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Coldaras",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Rÿkah"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Rÿkah",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Cérbérus"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Cérbérus",
+				["class"] = "WARLOCK",
+			},
+			["Kanishka"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kanishka",
+				["class"] = "MONK",
+			},
+			["Moardiv-Dalaran"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Moardiv-Dalaran",
+				["class"] = "DEMONHUNTER",
+			},
+			["Krashna"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Krashna",
+				["class"] = "SHAMAN",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -78,88 +160,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 15,
 		},
-		["player_db"] = {
-			["Susieqt-Silvermoon"] = {
-				["name"] = "Susieqt-Silvermoon",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Yoseb-Dalaran"] = {
-				["name"] = "Yoseb-Dalaran",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Merren"] = {
-				["name"] = "Merren",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Krowi"] = {
-				["name"] = "Krowi",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Coldaras"] = {
-				["name"] = "Coldaras",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Rÿkah"] = {
-				["name"] = "Rÿkah",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Cérbérus"] = {
-				["name"] = "Cérbérus",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kanishka"] = {
-				["name"] = "Kanishka",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Moardiv-Dalaran"] = {
-				["name"] = "Moardiv-Dalaran",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Krashna"] = {
-				["name"] = "Krashna",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 }
 DeathGraphsDBEndurance = {
@@ -169,19 +169,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Prophet Skitra",
 		["id"] = 2369,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
-			["diff"] = 15,
-			["id"] = 2334,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Susieqt-Silvermoon"] = {
 				["encounters"] = 1,
@@ -264,6 +251,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "SHAMAN",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Prophet Skitra",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Prophet Skitra",
+			["diff"] = 15,
+			["id"] = 2334,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["236815"] = {
 		["hash"] = "236815",
@@ -271,19 +271,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Wrathion",
 		["id"] = 2368,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Wrathion",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["diff"] = 15,
-			["id"] = 2329,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Susieqt-Silvermoon"] = {
 				["encounters"] = 1,
@@ -361,6 +348,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "SHAMAN",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Wrathion",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 15,
+			["id"] = 2329,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["236515"] = {
 		["hash"] = "236515",
@@ -368,18 +368,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Maut",
 		["id"] = 2365,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2327,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Maut",
-			["encounter"] = "Maut",
-			["ej_instance_id"] = 1180,
-			["diff"] = 15,
-		},
 		["player_db"] = {
 			["Susieqt-Silvermoon"] = {
 				["encounters"] = 2,
@@ -471,6 +459,18 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2327,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Maut",
+			["encounter"] = "Maut",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
 		},
 	},
 }
