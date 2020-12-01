@@ -25,7 +25,7 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1603563426,
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1606005600,
+				["lastUpdate"] = 1606774903,
 			},
 			["Default.Frostmane.Rykahwar"] = {
 				["lastUpdate"] = 1605827304,
@@ -37,13 +37,13 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1604101077,
 			},
 			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1605972955,
+				["lastUpdate"] = 1606760155,
 			},
 			["Default.Frostmane.Rykahpodh"] = {
 				["lastUpdate"] = 1604096619,
 			},
 			["Default.Frostmane.Rÿkah"] = {
-				["lastUpdate"] = 1606005198,
+				["lastUpdate"] = 1606782313,
 			},
 			["Default.Frostmane.Rykahthree"] = {
 				["lastUpdate"] = 1602710316,
@@ -52,10 +52,10 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1603840530,
 			},
 			["Default.Frostmane.Rykahpriest"] = {
-				["lastUpdate"] = 1606010823,
+				["lastUpdate"] = 1606082429,
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1605987921,
+				["lastUpdate"] = 1606782432,
 			},
 			["Default.Frostmane.Rykahbolt"] = {
 				["lastUpdate"] = 1604102504,
@@ -64,10 +64,10 @@ DataStore_RaresDB = {
 				["lastUpdate"] = 1604172383,
 			},
 			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1605971764,
+				["lastUpdate"] = 1606760199,
 			},
 			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1605971248,
+				["lastUpdate"] = 1606760077,
 			},
 			["Default.Frostmane.Rykahshaman"] = {
 				["lastUpdate"] = 1603923248,

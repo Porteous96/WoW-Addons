@@ -2,21 +2,21 @@
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
+		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
+		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
+		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
 		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
 		["Rÿkah - Frostmane"] = "Rÿkah - Frostmane",
-		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
-		["Advboi - Frostmane"] = "Advboi - Frostmane",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
-		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
-		["Rykahbolt - Frostmane"] = "Rykahbolt - Frostmane",
+		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
-		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
+		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
-		["Blissard - Frostmane"] = "Blissard - Frostmane",
+		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
-		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Rykah - Frostmane"] = "Rykah - Frostmane",
+		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
+		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rcumplus - Aggramar"] = "Rcumplus - Aggramar",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
@@ -27,12 +27,12 @@ DataStore_CurrenciesDB = {
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Ryykahpo - Frostmane"] = "Ryykahpo - Frostmane",
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
-		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
-		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Rykah - Frostmane"] = "Rykah - Frostmane",
+		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
+		["Blissard - Frostmane"] = "Blissard - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -53,7 +53,70 @@ DataStore_CurrenciesDB = {
 					}, -- [2]
 				},
 				["Conquest"] = 0,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
 				["lastUpdate"] = 1603563408,
+			},
+			["Default.Frostmane.Rykahpriest"] = {
+				["CurrencyInfo"] = {
+					[824] = "1859-0-0-10000",
+					[1792] = "17-0-0-0",
+					[1166] = "200-0-0-0",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 29,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 32,
+						["count"] = 1859,
+					}, -- [2]
+					{
+						["isHeader"] = true,
+						["index"] = 12,
+						["count"] = 0,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 13,
+						["count"] = 200,
+					}, -- [4]
+					{
+						["isHeader"] = true,
+						["index"] = 52,
+						["count"] = 0,
+					}, -- [5]
+					{
+						["isHeader"] = false,
+						["index"] = 53,
+						["count"] = 17,
+					}, -- [6]
+				},
+				["Conquest"] = 0,
+				["lastUpdate"] = 1606080856,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -77,6 +140,1235 @@ DataStore_CurrenciesDB = {
 					0, -- [20]
 				},
 			},
+			["Default.Frostmane.Rykahshaman"] = {
+				["CurrencyInfo"] = {
+					[1704] = "2-0-0-200",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 49,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 50,
+						["count"] = 2,
+					}, -- [2]
+				},
+				["Conquest"] = 0,
+				["lastUpdate"] = 1603923248,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+			},
+			["Default.Frostmane.Rykkahpo"] = {
+				["CurrencyInfo"] = {
+					[1220] = "3875-0-0-0",
+					[824] = "10000-0-0-10000",
+					[738] = "37-0-0-0",
+					[402] = "4-0-0-0",
+					[1533] = "115-0-0-0",
+					[823] = "665-0-0-0",
+					[1166] = "450-0-0-0",
+					[1704] = "1-0-0-200",
+					[776] = "3-0-0-20",
+					[777] = "11255-0-0-0",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 17,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 23,
+						["count"] = 3875,
+					}, -- [2]
+					{
+						["isHeader"] = false,
+						["index"] = 28,
+						["count"] = 115,
+					}, -- [3]
+					{
+						["isHeader"] = true,
+						["index"] = 12,
+						["count"] = 0,
+					}, -- [4]
+					{
+						["isHeader"] = false,
+						["index"] = 13,
+						["count"] = 450,
+					}, -- [5]
+					{
+						["isHeader"] = true,
+						["index"] = 14,
+						["count"] = 0,
+					}, -- [6]
+					{
+						["isHeader"] = false,
+						["index"] = 16,
+						["count"] = 4,
+					}, -- [7]
+					{
+						["isHeader"] = true,
+						["index"] = 29,
+						["count"] = 0,
+					}, -- [8]
+					{
+						["isHeader"] = false,
+						["index"] = 30,
+						["count"] = 665,
+					}, -- [9]
+					{
+						["isHeader"] = false,
+						["index"] = 32,
+						["count"] = 10000,
+					}, -- [10]
+					{
+						["isHeader"] = true,
+						["index"] = 36,
+						["count"] = 0,
+					}, -- [11]
+					{
+						["isHeader"] = false,
+						["index"] = 39,
+						["count"] = 37,
+					}, -- [12]
+					{
+						["isHeader"] = false,
+						["index"] = 41,
+						["count"] = 11255,
+					}, -- [13]
+					{
+						["isHeader"] = false,
+						["index"] = 42,
+						["count"] = 3,
+					}, -- [14]
+					{
+						["isHeader"] = true,
+						["index"] = 49,
+						["count"] = 0,
+					}, -- [15]
+					{
+						["isHeader"] = false,
+						["index"] = 50,
+						["count"] = 1,
+					}, -- [16]
+				},
+				["Conquest"] = 0,
+				["lastUpdate"] = 1606760150,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					45, -- [6]
+					27, -- [7]
+					4, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+			},
+			["Default.Frostmane.Rykahthree"] = {
+				["Conquest"] = 0,
+				["lastUpdate"] = 1602709344,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+			},
+			["Default.Frostmane.Rykahpala"] = {
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1603840530,
+				["Conquest"] = 0,
+			},
+			["Default.Frostmane.Slywithapet"] = {
+				["Conquest"] = 0,
+				["lastUpdate"] = 1604152353,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+			},
+			["Default.Frostmane.Rykahpo"] = {
+				["CurrencyInfo"] = {
+					[824] = "1579-0-0-10000",
+					[515] = "527-0-0-0",
+					[1719] = "3843-0-0-0",
+					[777] = "30738-0-0-0",
+					[1101] = "30895-0-0-100000",
+					[789] = "15-0-0-0",
+					[1755] = "1544-0-0-0",
+					[1129] = "1-0-0-20",
+					[1704] = "24-0-0-200",
+					[738] = "1188-0-0-0",
+					[1149] = "1793-0-0-5000",
+					[1342] = "608-0-0-1000",
+					[1220] = "24689-0-0-0",
+					[1602] = "0-0-0-0",
+					[1803] = "36649-0-0-0",
+					[1767] = "2466-0-0-0",
+					[823] = "23203-0-0-0",
+					[1508] = "558-0-0-2000",
+					[1754] = "4-0-0-0",
+					[1314] = "0-0-20-40",
+					[1268] = "2-0-0-1000",
+					[416] = "0-0-0-0",
+					[1717] = "75-0-0-0",
+					[1721] = "67-0-0-0",
+					[776] = "7-0-0-20",
+					[1792] = "8670-0-0-15000",
+					[1166] = "12718-0-0-0",
+					[1275] = "46-0-0-0",
+					[614] = "89-0-0-0",
+					[752] = "0-0-0-20",
+					[1560] = "6596-0-0-0",
+					[1828] = "810-0-0-8000",
+					[1820] = "100-0-0-100",
+					[1718] = "0-0-0-0",
+					[402] = "12-0-0-0",
+					[1580] = "4-0-0-5",
+					[1710] = "49-0-0-0",
+					[1273] = "0-0-0-6",
+					[615] = "11-0-0-0",
+					[1533] = "1636-0-0-0",
+					[1155] = "1031-0-0-2000",
+					[1226] = "11717-0-0-0",
+					[697] = "3-0-0-20",
+					[1299] = "3575-0-0-5000",
+					[994] = "5-0-0-20",
+					[944] = "0-0-0-1000",
+					[1813] = "2778-0-0-35000",
+					[241] = "132-0-0-0",
+					[1885] = "16-0-0-0",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 54,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 55,
+						["count"] = 4,
+					}, -- [2]
+					{
+						["isHeader"] = false,
+						["index"] = 61,
+						["count"] = 16,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 57,
+						["count"] = 100,
+					}, -- [4]
+					{
+						["isHeader"] = false,
+						["index"] = 58,
+						["count"] = 2778,
+					}, -- [5]
+					{
+						["isHeader"] = false,
+						["index"] = 60,
+						["count"] = 810,
+					}, -- [6]
+					{
+						["isHeader"] = false,
+						["index"] = 59,
+						["count"] = 2466,
+					}, -- [7]
+					{
+						["isHeader"] = true,
+						["index"] = 12,
+						["count"] = 0,
+					}, -- [8]
+					{
+						["isHeader"] = false,
+						["index"] = 13,
+						["count"] = 12718,
+					}, -- [9]
+					{
+						["isHeader"] = true,
+						["index"] = 14,
+						["count"] = 0,
+					}, -- [10]
+					{
+						["isHeader"] = false,
+						["index"] = 15,
+						["count"] = 527,
+					}, -- [11]
+					{
+						["isHeader"] = false,
+						["index"] = 16,
+						["count"] = 12,
+					}, -- [12]
+					{
+						["isHeader"] = true,
+						["index"] = 52,
+						["count"] = 0,
+					}, -- [13]
+					{
+						["isHeader"] = false,
+						["index"] = 56,
+						["count"] = 0,
+					}, -- [14]
+					{
+						["isHeader"] = false,
+						["index"] = 53,
+						["count"] = 8670,
+					}, -- [15]
+					{
+						["isHeader"] = true,
+						["index"] = 1,
+						["count"] = 0,
+					}, -- [16]
+					{
+						["isHeader"] = false,
+						["index"] = 2,
+						["count"] = 75,
+					}, -- [17]
+					{
+						["isHeader"] = false,
+						["index"] = 3,
+						["count"] = 3575,
+					}, -- [18]
+					{
+						["isHeader"] = false,
+						["index"] = 4,
+						["count"] = 1544,
+					}, -- [19]
+					{
+						["isHeader"] = false,
+						["index"] = 5,
+						["count"] = 3843,
+					}, -- [20]
+					{
+						["isHeader"] = false,
+						["index"] = 6,
+						["count"] = 36649,
+					}, -- [21]
+					{
+						["isHeader"] = false,
+						["index"] = 7,
+						["count"] = 67,
+					}, -- [22]
+					{
+						["isHeader"] = false,
+						["index"] = 8,
+						["count"] = 49,
+					}, -- [23]
+					{
+						["isHeader"] = false,
+						["index"] = 9,
+						["count"] = 4,
+					}, -- [24]
+					{
+						["isHeader"] = false,
+						["index"] = 10,
+						["count"] = 0,
+					}, -- [25]
+					{
+						["isHeader"] = false,
+						["index"] = 11,
+						["count"] = 6596,
+					}, -- [26]
+					{
+						["isHeader"] = true,
+						["index"] = 17,
+						["count"] = 0,
+					}, -- [27]
+					{
+						["isHeader"] = false,
+						["index"] = 18,
+						["count"] = 1031,
+					}, -- [28]
+					{
+						["isHeader"] = false,
+						["index"] = 19,
+						["count"] = 46,
+					}, -- [29]
+					{
+						["isHeader"] = false,
+						["index"] = 20,
+						["count"] = 608,
+					}, -- [30]
+					{
+						["isHeader"] = false,
+						["index"] = 21,
+						["count"] = 0,
+					}, -- [31]
+					{
+						["isHeader"] = false,
+						["index"] = 22,
+						["count"] = 11717,
+					}, -- [32]
+					{
+						["isHeader"] = false,
+						["index"] = 23,
+						["count"] = 24689,
+					}, -- [33]
+					{
+						["isHeader"] = false,
+						["index"] = 24,
+						["count"] = 0,
+					}, -- [34]
+					{
+						["isHeader"] = false,
+						["index"] = 25,
+						["count"] = 1793,
+					}, -- [35]
+					{
+						["isHeader"] = false,
+						["index"] = 26,
+						["count"] = 2,
+					}, -- [36]
+					{
+						["isHeader"] = false,
+						["index"] = 27,
+						["count"] = 558,
+					}, -- [37]
+					{
+						["isHeader"] = false,
+						["index"] = 28,
+						["count"] = 1636,
+					}, -- [38]
+					{
+						["isHeader"] = true,
+						["index"] = 29,
+						["count"] = 0,
+					}, -- [39]
+					{
+						["isHeader"] = false,
+						["index"] = 30,
+						["count"] = 23203,
+					}, -- [40]
+					{
+						["isHeader"] = false,
+						["index"] = 31,
+						["count"] = 0,
+					}, -- [41]
+					{
+						["isHeader"] = false,
+						["index"] = 32,
+						["count"] = 1579,
+					}, -- [42]
+					{
+						["isHeader"] = false,
+						["index"] = 33,
+						["count"] = 30895,
+					}, -- [43]
+					{
+						["isHeader"] = false,
+						["index"] = 34,
+						["count"] = 1,
+					}, -- [44]
+					{
+						["isHeader"] = false,
+						["index"] = 35,
+						["count"] = 5,
+					}, -- [45]
+					{
+						["isHeader"] = true,
+						["index"] = 36,
+						["count"] = 0,
+					}, -- [46]
+					{
+						["isHeader"] = false,
+						["index"] = 37,
+						["count"] = 15,
+					}, -- [47]
+					{
+						["isHeader"] = false,
+						["index"] = 38,
+						["count"] = 3,
+					}, -- [48]
+					{
+						["isHeader"] = false,
+						["index"] = 39,
+						["count"] = 1188,
+					}, -- [49]
+					{
+						["isHeader"] = false,
+						["index"] = 40,
+						["count"] = 0,
+					}, -- [50]
+					{
+						["isHeader"] = false,
+						["index"] = 41,
+						["count"] = 30738,
+					}, -- [51]
+					{
+						["isHeader"] = false,
+						["index"] = 42,
+						["count"] = 7,
+					}, -- [52]
+					{
+						["isHeader"] = true,
+						["index"] = 43,
+						["count"] = 0,
+					}, -- [53]
+					{
+						["isHeader"] = false,
+						["index"] = 44,
+						["count"] = 11,
+					}, -- [54]
+					{
+						["isHeader"] = false,
+						["index"] = 45,
+						["count"] = 0,
+					}, -- [55]
+					{
+						["isHeader"] = false,
+						["index"] = 46,
+						["count"] = 89,
+					}, -- [56]
+					{
+						["isHeader"] = true,
+						["index"] = 47,
+						["count"] = 0,
+					}, -- [57]
+					{
+						["isHeader"] = false,
+						["index"] = 48,
+						["count"] = 132,
+					}, -- [58]
+					{
+						["isHeader"] = true,
+						["index"] = 49,
+						["count"] = 0,
+					}, -- [59]
+					{
+						["isHeader"] = false,
+						["index"] = 50,
+						["count"] = 24,
+					}, -- [60]
+				},
+				["Conquest"] = 60,
+				["lastUpdate"] = 1606774869,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					44, -- [3]
+					35, -- [4]
+					0, -- [5]
+					31, -- [6]
+					99, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					26, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					19, -- [17]
+					7, -- [18]
+					0, -- [19]
+					23, -- [20]
+				},
+			},
+			["Default.Frostmane.Rykahbolt"] = {
+				["CurrencyInfo"] = {
+					[824] = "1278-0-0-10000",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 29,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 32,
+						["count"] = 1278,
+					}, -- [2]
+				},
+				["Conquest"] = 0,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1604102504,
+			},
+			["Default.Frostmane.Rÿkah"] = {
+				["CurrencyInfo"] = {
+					[1580] = "4-0-0-5",
+					[1719] = "1966-0-0-0",
+					[1704] = "4-0-0-200",
+					[738] = "29-0-0-0",
+					[1755] = "58674-0-0-0",
+					[1166] = "1255-0-0-0",
+					[1560] = "711-0-0-0",
+					[1803] = "3024-0-0-0",
+					[1717] = "0-0-0-0",
+					[1721] = "52-0-0-0",
+					[1155] = "250-0-0-300",
+					[1710] = "9-0-0-0",
+					[1718] = "0-0-0-0",
+					[1275] = "2-0-0-0",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 1,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 2,
+						["count"] = 0,
+					}, -- [2]
+					{
+						["isHeader"] = false,
+						["index"] = 4,
+						["count"] = 58674,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 5,
+						["count"] = 1966,
+					}, -- [4]
+					{
+						["isHeader"] = false,
+						["index"] = 6,
+						["count"] = 3024,
+					}, -- [5]
+					{
+						["isHeader"] = false,
+						["index"] = 7,
+						["count"] = 52,
+					}, -- [6]
+					{
+						["isHeader"] = false,
+						["index"] = 8,
+						["count"] = 9,
+					}, -- [7]
+					{
+						["isHeader"] = false,
+						["index"] = 9,
+						["count"] = 4,
+					}, -- [8]
+					{
+						["isHeader"] = false,
+						["index"] = 10,
+						["count"] = 0,
+					}, -- [9]
+					{
+						["isHeader"] = false,
+						["index"] = 11,
+						["count"] = 711,
+					}, -- [10]
+					{
+						["isHeader"] = true,
+						["index"] = 12,
+						["count"] = 0,
+					}, -- [11]
+					{
+						["isHeader"] = false,
+						["index"] = 13,
+						["count"] = 1255,
+					}, -- [12]
+					{
+						["isHeader"] = true,
+						["index"] = 17,
+						["count"] = 0,
+					}, -- [13]
+					{
+						["isHeader"] = false,
+						["index"] = 18,
+						["count"] = 250,
+					}, -- [14]
+					{
+						["isHeader"] = false,
+						["index"] = 19,
+						["count"] = 2,
+					}, -- [15]
+					{
+						["isHeader"] = true,
+						["index"] = 36,
+						["count"] = 0,
+					}, -- [16]
+					{
+						["isHeader"] = false,
+						["index"] = 39,
+						["count"] = 29,
+					}, -- [17]
+					{
+						["isHeader"] = true,
+						["index"] = 49,
+						["count"] = 0,
+					}, -- [18]
+					{
+						["isHeader"] = false,
+						["index"] = 50,
+						["count"] = 4,
+					}, -- [19]
+				},
+				["Conquest"] = 0,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1606782313,
+			},
+			["Default.Frostmane.Rykahwar"] = {
+				["CurrencyInfo"] = {
+					[824] = "794-0-0-10000",
+					[1792] = "154-0-0-0",
+					[1166] = "200-0-0-0",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 29,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 32,
+						["count"] = 794,
+					}, -- [2]
+					{
+						["isHeader"] = true,
+						["index"] = 12,
+						["count"] = 0,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 13,
+						["count"] = 200,
+					}, -- [4]
+					{
+						["isHeader"] = true,
+						["index"] = 52,
+						["count"] = 0,
+					}, -- [5]
+					{
+						["isHeader"] = false,
+						["index"] = 53,
+						["count"] = 154,
+					}, -- [6]
+				},
+				["Conquest"] = 0,
+				["lastUpdate"] = 1605827282,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+			},
+			["Default.Frostmane.Bankypo"] = {
+				["CurrencyInfo"] = {
+					[1166] = "200-0-0-0",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 12,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 13,
+						["count"] = 200,
+					}, -- [2]
+				},
+				["Conquest"] = 0,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1606782425,
+			},
+			["Default.Frostmane.Rykahdruid"] = {
+				["CurrencyInfo"] = {
+					[824] = "1080-0-0-10000",
+					[1792] = "52-0-0-0",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 29,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 32,
+						["count"] = 1080,
+					}, -- [2]
+					{
+						["isHeader"] = true,
+						["index"] = 52,
+						["count"] = 0,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 53,
+						["count"] = 52,
+					}, -- [4]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1604101076,
+				["Conquest"] = 0,
+			},
+			["Default.Frostmane.Rykahpoo"] = {
+				["CurrencyInfo"] = {
+					[1220] = "8224-0-0-0",
+					[824] = "9502-0-0-10000",
+					[738] = "19-0-0-0",
+					[1101] = "3280-0-0-100000",
+					[402] = "1-0-0-0",
+					[1533] = "127-0-0-0",
+					[823] = "4729-0-0-0",
+					[1166] = "1555-0-0-0",
+					[777] = "6871-0-0-0",
+					[1129] = "6-0-0-20",
+					[776] = "0-0-0-20",
+					[1704] = "21-0-0-200",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 17,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 23,
+						["count"] = 8224,
+					}, -- [2]
+					{
+						["isHeader"] = false,
+						["index"] = 28,
+						["count"] = 127,
+					}, -- [3]
+					{
+						["isHeader"] = true,
+						["index"] = 12,
+						["count"] = 0,
+					}, -- [4]
+					{
+						["isHeader"] = false,
+						["index"] = 13,
+						["count"] = 1555,
+					}, -- [5]
+					{
+						["isHeader"] = true,
+						["index"] = 14,
+						["count"] = 0,
+					}, -- [6]
+					{
+						["isHeader"] = false,
+						["index"] = 16,
+						["count"] = 1,
+					}, -- [7]
+					{
+						["isHeader"] = true,
+						["index"] = 29,
+						["count"] = 0,
+					}, -- [8]
+					{
+						["isHeader"] = false,
+						["index"] = 30,
+						["count"] = 4729,
+					}, -- [9]
+					{
+						["isHeader"] = false,
+						["index"] = 32,
+						["count"] = 9502,
+					}, -- [10]
+					{
+						["isHeader"] = false,
+						["index"] = 33,
+						["count"] = 3280,
+					}, -- [11]
+					{
+						["isHeader"] = false,
+						["index"] = 34,
+						["count"] = 6,
+					}, -- [12]
+					{
+						["isHeader"] = true,
+						["index"] = 36,
+						["count"] = 0,
+					}, -- [13]
+					{
+						["isHeader"] = false,
+						["index"] = 39,
+						["count"] = 19,
+					}, -- [14]
+					{
+						["isHeader"] = false,
+						["index"] = 41,
+						["count"] = 6871,
+					}, -- [15]
+					{
+						["isHeader"] = false,
+						["index"] = 42,
+						["count"] = 0,
+					}, -- [16]
+					{
+						["isHeader"] = true,
+						["index"] = 49,
+						["count"] = 0,
+					}, -- [17]
+					{
+						["isHeader"] = false,
+						["index"] = 50,
+						["count"] = 21,
+					}, -- [18]
+				},
+				["Conquest"] = 0,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					34, -- [6]
+					34, -- [7]
+					63, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1604171669,
+			},
+			["Default.Frostmane.Rykahhpo"] = {
+				["CurrencyInfo"] = {
+					[1220] = "2130-0-0-0",
+					[1719] = "63-0-0-0",
+					[738] = "58-0-0-0",
+					[1166] = "120-0-0-0",
+					[402] = "5-0-0-0",
+					[1560] = "642-0-0-0",
+					[776] = "0-0-0-20",
+					[1717] = "9-0-0-0",
+					[1226] = "503-0-0-0",
+					[1755] = "25571-0-0-0",
+					[824] = "4562-0-0-10000",
+					[777] = "4808-0-0-0",
+					[1704] = "9-0-0-200",
+				},
+				["Currencies"] = {
+					{
+						["isHeader"] = true,
+						["index"] = 1,
+						["count"] = 0,
+					}, -- [1]
+					{
+						["isHeader"] = false,
+						["index"] = 2,
+						["count"] = 9,
+					}, -- [2]
+					{
+						["isHeader"] = false,
+						["index"] = 4,
+						["count"] = 25571,
+					}, -- [3]
+					{
+						["isHeader"] = false,
+						["index"] = 5,
+						["count"] = 63,
+					}, -- [4]
+					{
+						["isHeader"] = false,
+						["index"] = 11,
+						["count"] = 642,
+					}, -- [5]
+					{
+						["isHeader"] = true,
+						["index"] = 12,
+						["count"] = 0,
+					}, -- [6]
+					{
+						["isHeader"] = false,
+						["index"] = 13,
+						["count"] = 120,
+					}, -- [7]
+					{
+						["isHeader"] = true,
+						["index"] = 14,
+						["count"] = 0,
+					}, -- [8]
+					{
+						["isHeader"] = false,
+						["index"] = 16,
+						["count"] = 5,
+					}, -- [9]
+					{
+						["isHeader"] = true,
+						["index"] = 17,
+						["count"] = 0,
+					}, -- [10]
+					{
+						["isHeader"] = false,
+						["index"] = 22,
+						["count"] = 503,
+					}, -- [11]
+					{
+						["isHeader"] = false,
+						["index"] = 23,
+						["count"] = 2130,
+					}, -- [12]
+					{
+						["isHeader"] = true,
+						["index"] = 29,
+						["count"] = 0,
+					}, -- [13]
+					{
+						["isHeader"] = false,
+						["index"] = 32,
+						["count"] = 4562,
+					}, -- [14]
+					{
+						["isHeader"] = true,
+						["index"] = 36,
+						["count"] = 0,
+					}, -- [15]
+					{
+						["isHeader"] = false,
+						["index"] = 39,
+						["count"] = 58,
+					}, -- [16]
+					{
+						["isHeader"] = false,
+						["index"] = 41,
+						["count"] = 4808,
+					}, -- [17]
+					{
+						["isHeader"] = false,
+						["index"] = 42,
+						["count"] = 0,
+					}, -- [18]
+					{
+						["isHeader"] = true,
+						["index"] = 49,
+						["count"] = 0,
+					}, -- [19]
+					{
+						["isHeader"] = false,
+						["index"] = 50,
+						["count"] = 9,
+					}, -- [20]
+				},
+				["Conquest"] = 0,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+					0, -- [19]
+					0, -- [20]
+				},
+				["lastUpdate"] = 1606760191,
+			},
 			["Default.Frostmane.Rykahpodh"] = {
 				["CurrencyInfo"] = {
 					[1580] = "0-0-0-5",
@@ -84,20 +1376,20 @@ DataStore_CurrenciesDB = {
 					[1275] = "4-0-0-0",
 					[1710] = "111-0-0-0",
 					[515] = "10-0-0-0",
-					[1803] = "9070-0-0-0",
+					[1704] = "11-0-0-200",
 					[1560] = "1532-0-0-0",
 					[1220] = "4411-0-0-0",
 					[1717] = "101-0-0-0",
 					[1718] = "4190-0-0-0",
 					[1719] = "394-0-0-0",
-					[1755] = "8742-0-0-0",
+					[824] = "200-0-0-10000",
 					[1721] = "132-0-0-0",
 					[1226] = "74-0-0-0",
 					[738] = "104-0-0-0",
-					[1166] = "1240-0-0-0",
+					[1755] = "8742-0-0-0",
 					[1533] = "7-0-0-0",
-					[824] = "200-0-0-10000",
-					[1704] = "11-0-0-200",
+					[1166] = "1240-0-0-0",
+					[1803] = "9070-0-0-0",
 				},
 				["Currencies"] = {
 					{
@@ -232,282 +1524,7 @@ DataStore_CurrenciesDB = {
 					}, -- [26]
 				},
 				["Conquest"] = 105,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
 				["lastUpdate"] = 1604096616,
-			},
-			["Default.Frostmane.Rykahpoo"] = {
-				["CurrencyInfo"] = {
-					[1220] = "8224-0-0-0",
-					[824] = "9502-0-0-10000",
-					[738] = "19-0-0-0",
-					[1101] = "3280-0-0-100000",
-					[402] = "1-0-0-0",
-					[1533] = "127-0-0-0",
-					[823] = "4729-0-0-0",
-					[1166] = "1555-0-0-0",
-					[1704] = "21-0-0-200",
-					[1129] = "6-0-0-20",
-					[776] = "0-0-0-20",
-					[777] = "6871-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 17,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 23,
-						["count"] = 8224,
-					}, -- [2]
-					{
-						["isHeader"] = false,
-						["index"] = 28,
-						["count"] = 127,
-					}, -- [3]
-					{
-						["isHeader"] = true,
-						["index"] = 12,
-						["count"] = 0,
-					}, -- [4]
-					{
-						["isHeader"] = false,
-						["index"] = 13,
-						["count"] = 1555,
-					}, -- [5]
-					{
-						["isHeader"] = true,
-						["index"] = 14,
-						["count"] = 0,
-					}, -- [6]
-					{
-						["isHeader"] = false,
-						["index"] = 16,
-						["count"] = 1,
-					}, -- [7]
-					{
-						["isHeader"] = true,
-						["index"] = 29,
-						["count"] = 0,
-					}, -- [8]
-					{
-						["isHeader"] = false,
-						["index"] = 30,
-						["count"] = 4729,
-					}, -- [9]
-					{
-						["isHeader"] = false,
-						["index"] = 32,
-						["count"] = 9502,
-					}, -- [10]
-					{
-						["isHeader"] = false,
-						["index"] = 33,
-						["count"] = 3280,
-					}, -- [11]
-					{
-						["isHeader"] = false,
-						["index"] = 34,
-						["count"] = 6,
-					}, -- [12]
-					{
-						["isHeader"] = true,
-						["index"] = 36,
-						["count"] = 0,
-					}, -- [13]
-					{
-						["isHeader"] = false,
-						["index"] = 39,
-						["count"] = 19,
-					}, -- [14]
-					{
-						["isHeader"] = false,
-						["index"] = 41,
-						["count"] = 6871,
-					}, -- [15]
-					{
-						["isHeader"] = false,
-						["index"] = 42,
-						["count"] = 0,
-					}, -- [16]
-					{
-						["isHeader"] = true,
-						["index"] = 49,
-						["count"] = 0,
-					}, -- [17]
-					{
-						["isHeader"] = false,
-						["index"] = 50,
-						["count"] = 21,
-					}, -- [18]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1604171669,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					34, -- [6]
-					34, -- [7]
-					63, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-			},
-			["Default.Frostmane.Rykahhpo"] = {
-				["CurrencyInfo"] = {
-					[1220] = "2130-0-0-0",
-					[1719] = "63-0-0-0",
-					[738] = "58-0-0-0",
-					[1704] = "9-0-0-200",
-					[402] = "5-0-0-0",
-					[777] = "4808-0-0-0",
-					[776] = "0-0-0-20",
-					[1717] = "9-0-0-0",
-					[1226] = "503-0-0-0",
-					[1755] = "25571-0-0-0",
-					[824] = "4562-0-0-10000",
-					[1560] = "642-0-0-0",
-					[1166] = "120-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 1,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 2,
-						["count"] = 9,
-					}, -- [2]
-					{
-						["isHeader"] = false,
-						["index"] = 4,
-						["count"] = 25571,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 5,
-						["count"] = 63,
-					}, -- [4]
-					{
-						["isHeader"] = false,
-						["index"] = 11,
-						["count"] = 642,
-					}, -- [5]
-					{
-						["isHeader"] = true,
-						["index"] = 12,
-						["count"] = 0,
-					}, -- [6]
-					{
-						["isHeader"] = false,
-						["index"] = 13,
-						["count"] = 120,
-					}, -- [7]
-					{
-						["isHeader"] = true,
-						["index"] = 14,
-						["count"] = 0,
-					}, -- [8]
-					{
-						["isHeader"] = false,
-						["index"] = 16,
-						["count"] = 5,
-					}, -- [9]
-					{
-						["isHeader"] = true,
-						["index"] = 17,
-						["count"] = 0,
-					}, -- [10]
-					{
-						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 503,
-					}, -- [11]
-					{
-						["isHeader"] = false,
-						["index"] = 23,
-						["count"] = 2130,
-					}, -- [12]
-					{
-						["isHeader"] = true,
-						["index"] = 29,
-						["count"] = 0,
-					}, -- [13]
-					{
-						["isHeader"] = false,
-						["index"] = 32,
-						["count"] = 4562,
-					}, -- [14]
-					{
-						["isHeader"] = true,
-						["index"] = 36,
-						["count"] = 0,
-					}, -- [15]
-					{
-						["isHeader"] = false,
-						["index"] = 39,
-						["count"] = 58,
-					}, -- [16]
-					{
-						["isHeader"] = false,
-						["index"] = 41,
-						["count"] = 4808,
-					}, -- [17]
-					{
-						["isHeader"] = false,
-						["index"] = 42,
-						["count"] = 0,
-					}, -- [18]
-					{
-						["isHeader"] = true,
-						["index"] = 49,
-						["count"] = 0,
-					}, -- [19]
-					{
-						["isHeader"] = false,
-						["index"] = 50,
-						["count"] = 9,
-					}, -- [20]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1605971754,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -530,987 +1547,6 @@ DataStore_CurrenciesDB = {
 					0, -- [19]
 					0, -- [20]
 				},
-			},
-			["Default.Frostmane.Rykahthree"] = {
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1602709344,
-				["Conquest"] = 0,
-			},
-			["Default.Frostmane.Rykahpo"] = {
-				["CurrencyInfo"] = {
-					[824] = "1579-0-0-10000",
-					[515] = "527-0-0-0",
-					[1719] = "3843-0-0-0",
-					[777] = "30738-0-0-0",
-					[1101] = "30895-0-0-100000",
-					[789] = "15-0-0-0",
-					[1755] = "1544-0-0-0",
-					[1129] = "1-0-0-20",
-					[1704] = "24-0-0-200",
-					[738] = "1188-0-0-0",
-					[1149] = "1793-0-0-5000",
-					[1342] = "608-0-0-1000",
-					[1220] = "24689-0-0-0",
-					[1803] = "36649-0-0-0",
-					[823] = "23203-0-0-0",
-					[1508] = "558-0-0-2000",
-					[1268] = "2-0-0-1000",
-					[1717] = "55-0-0-0",
-					[1721] = "67-0-0-0",
-					[776] = "7-0-0-20",
-					[1792] = "45-0-0-0",
-					[1166] = "12718-0-0-0",
-					[1314] = "0-0-20-40",
-					[241] = "132-0-0-0",
-					[1560] = "3596-0-0-0",
-					[994] = "5-0-0-20",
-					[416] = "0-0-0-0",
-					[1299] = "3575-0-0-5000",
-					[402] = "12-0-0-0",
-					[1580] = "4-0-0-5",
-					[1710] = "49-0-0-0",
-					[1273] = "0-0-0-6",
-					[1718] = "6-0-0-0",
-					[1155] = "1031-0-0-2000",
-					[697] = "3-0-0-20",
-					[1226] = "11717-0-0-0",
-					[1533] = "1636-0-0-0",
-					[752] = "0-0-0-20",
-					[615] = "11-0-0-0",
-					[944] = "0-0-0-1000",
-					[614] = "89-0-0-0",
-					[1754] = "4-0-0-0",
-					[1275] = "46-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 54,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 55,
-						["count"] = 4,
-					}, -- [2]
-					{
-						["isHeader"] = true,
-						["index"] = 12,
-						["count"] = 0,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 13,
-						["count"] = 12718,
-					}, -- [4]
-					{
-						["isHeader"] = true,
-						["index"] = 14,
-						["count"] = 0,
-					}, -- [5]
-					{
-						["isHeader"] = false,
-						["index"] = 15,
-						["count"] = 527,
-					}, -- [6]
-					{
-						["isHeader"] = false,
-						["index"] = 16,
-						["count"] = 12,
-					}, -- [7]
-					{
-						["isHeader"] = true,
-						["index"] = 52,
-						["count"] = 0,
-					}, -- [8]
-					{
-						["isHeader"] = false,
-						["index"] = 53,
-						["count"] = 45,
-					}, -- [9]
-					{
-						["isHeader"] = true,
-						["index"] = 1,
-						["count"] = 0,
-					}, -- [10]
-					{
-						["isHeader"] = false,
-						["index"] = 2,
-						["count"] = 55,
-					}, -- [11]
-					{
-						["isHeader"] = false,
-						["index"] = 3,
-						["count"] = 3575,
-					}, -- [12]
-					{
-						["isHeader"] = false,
-						["index"] = 4,
-						["count"] = 1544,
-					}, -- [13]
-					{
-						["isHeader"] = false,
-						["index"] = 5,
-						["count"] = 3843,
-					}, -- [14]
-					{
-						["isHeader"] = false,
-						["index"] = 6,
-						["count"] = 36649,
-					}, -- [15]
-					{
-						["isHeader"] = false,
-						["index"] = 7,
-						["count"] = 67,
-					}, -- [16]
-					{
-						["isHeader"] = false,
-						["index"] = 8,
-						["count"] = 49,
-					}, -- [17]
-					{
-						["isHeader"] = false,
-						["index"] = 9,
-						["count"] = 4,
-					}, -- [18]
-					{
-						["isHeader"] = false,
-						["index"] = 10,
-						["count"] = 6,
-					}, -- [19]
-					{
-						["isHeader"] = false,
-						["index"] = 11,
-						["count"] = 3596,
-					}, -- [20]
-					{
-						["isHeader"] = true,
-						["index"] = 17,
-						["count"] = 0,
-					}, -- [21]
-					{
-						["isHeader"] = false,
-						["index"] = 18,
-						["count"] = 1031,
-					}, -- [22]
-					{
-						["isHeader"] = false,
-						["index"] = 19,
-						["count"] = 46,
-					}, -- [23]
-					{
-						["isHeader"] = false,
-						["index"] = 20,
-						["count"] = 608,
-					}, -- [24]
-					{
-						["isHeader"] = false,
-						["index"] = 21,
-						["count"] = 0,
-					}, -- [25]
-					{
-						["isHeader"] = false,
-						["index"] = 22,
-						["count"] = 11717,
-					}, -- [26]
-					{
-						["isHeader"] = false,
-						["index"] = 23,
-						["count"] = 24689,
-					}, -- [27]
-					{
-						["isHeader"] = false,
-						["index"] = 24,
-						["count"] = 0,
-					}, -- [28]
-					{
-						["isHeader"] = false,
-						["index"] = 25,
-						["count"] = 1793,
-					}, -- [29]
-					{
-						["isHeader"] = false,
-						["index"] = 26,
-						["count"] = 2,
-					}, -- [30]
-					{
-						["isHeader"] = false,
-						["index"] = 27,
-						["count"] = 558,
-					}, -- [31]
-					{
-						["isHeader"] = false,
-						["index"] = 28,
-						["count"] = 1636,
-					}, -- [32]
-					{
-						["isHeader"] = true,
-						["index"] = 29,
-						["count"] = 0,
-					}, -- [33]
-					{
-						["isHeader"] = false,
-						["index"] = 30,
-						["count"] = 23203,
-					}, -- [34]
-					{
-						["isHeader"] = false,
-						["index"] = 31,
-						["count"] = 0,
-					}, -- [35]
-					{
-						["isHeader"] = false,
-						["index"] = 32,
-						["count"] = 1579,
-					}, -- [36]
-					{
-						["isHeader"] = false,
-						["index"] = 33,
-						["count"] = 30895,
-					}, -- [37]
-					{
-						["isHeader"] = false,
-						["index"] = 34,
-						["count"] = 1,
-					}, -- [38]
-					{
-						["isHeader"] = false,
-						["index"] = 35,
-						["count"] = 5,
-					}, -- [39]
-					{
-						["isHeader"] = true,
-						["index"] = 36,
-						["count"] = 0,
-					}, -- [40]
-					{
-						["isHeader"] = false,
-						["index"] = 37,
-						["count"] = 15,
-					}, -- [41]
-					{
-						["isHeader"] = false,
-						["index"] = 38,
-						["count"] = 3,
-					}, -- [42]
-					{
-						["isHeader"] = false,
-						["index"] = 39,
-						["count"] = 1188,
-					}, -- [43]
-					{
-						["isHeader"] = false,
-						["index"] = 40,
-						["count"] = 0,
-					}, -- [44]
-					{
-						["isHeader"] = false,
-						["index"] = 41,
-						["count"] = 30738,
-					}, -- [45]
-					{
-						["isHeader"] = false,
-						["index"] = 42,
-						["count"] = 7,
-					}, -- [46]
-					{
-						["isHeader"] = true,
-						["index"] = 43,
-						["count"] = 0,
-					}, -- [47]
-					{
-						["isHeader"] = false,
-						["index"] = 44,
-						["count"] = 11,
-					}, -- [48]
-					{
-						["isHeader"] = false,
-						["index"] = 45,
-						["count"] = 0,
-					}, -- [49]
-					{
-						["isHeader"] = false,
-						["index"] = 46,
-						["count"] = 89,
-					}, -- [50]
-					{
-						["isHeader"] = true,
-						["index"] = 47,
-						["count"] = 0,
-					}, -- [51]
-					{
-						["isHeader"] = false,
-						["index"] = 48,
-						["count"] = 132,
-					}, -- [52]
-					{
-						["isHeader"] = true,
-						["index"] = 49,
-						["count"] = 0,
-					}, -- [53]
-					{
-						["isHeader"] = false,
-						["index"] = 50,
-						["count"] = 24,
-					}, -- [54]
-				},
-				["Conquest"] = 60,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					44, -- [3]
-					35, -- [4]
-					0, -- [5]
-					31, -- [6]
-					99, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					26, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					19, -- [17]
-					7, -- [18]
-					0, -- [19]
-					23, -- [20]
-				},
-				["lastUpdate"] = 1606005579,
-			},
-			["Default.Frostmane.Bankypo"] = {
-				["CurrencyInfo"] = {
-					[1166] = "200-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 12,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 13,
-						["count"] = 200,
-					}, -- [2]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1605987912,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-			},
-			["Default.Frostmane.Rykahpala"] = {
-				["Conquest"] = 0,
-				["lastUpdate"] = 1603840530,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-			},
-			["Default.Frostmane.Rykahbolt"] = {
-				["CurrencyInfo"] = {
-					[824] = "1278-0-0-10000",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 29,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 32,
-						["count"] = 1278,
-					}, -- [2]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1604102504,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-			},
-			["Default.Frostmane.Rÿkah"] = {
-				["CurrencyInfo"] = {
-					[1580] = "4-0-0-5",
-					[1719] = "1766-0-0-0",
-					[1275] = "2-0-0-0",
-					[738] = "29-0-0-0",
-					[1560] = "711-0-0-0",
-					[1710] = "9-0-0-0",
-					[1155] = "250-0-0-300",
-					[1803] = "3024-0-0-0",
-					[1717] = "0-0-0-0",
-					[1721] = "52-0-0-0",
-					[1755] = "58674-0-0-0",
-					[1166] = "1255-0-0-0",
-					[1718] = "158-0-0-0",
-					[1704] = "4-0-0-200",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 1,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 2,
-						["count"] = 0,
-					}, -- [2]
-					{
-						["isHeader"] = false,
-						["index"] = 4,
-						["count"] = 58674,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 5,
-						["count"] = 1766,
-					}, -- [4]
-					{
-						["isHeader"] = false,
-						["index"] = 6,
-						["count"] = 3024,
-					}, -- [5]
-					{
-						["isHeader"] = false,
-						["index"] = 7,
-						["count"] = 52,
-					}, -- [6]
-					{
-						["isHeader"] = false,
-						["index"] = 8,
-						["count"] = 9,
-					}, -- [7]
-					{
-						["isHeader"] = false,
-						["index"] = 9,
-						["count"] = 4,
-					}, -- [8]
-					{
-						["isHeader"] = false,
-						["index"] = 10,
-						["count"] = 158,
-					}, -- [9]
-					{
-						["isHeader"] = false,
-						["index"] = 11,
-						["count"] = 711,
-					}, -- [10]
-					{
-						["isHeader"] = true,
-						["index"] = 12,
-						["count"] = 0,
-					}, -- [11]
-					{
-						["isHeader"] = false,
-						["index"] = 13,
-						["count"] = 1255,
-					}, -- [12]
-					{
-						["isHeader"] = true,
-						["index"] = 17,
-						["count"] = 0,
-					}, -- [13]
-					{
-						["isHeader"] = false,
-						["index"] = 18,
-						["count"] = 250,
-					}, -- [14]
-					{
-						["isHeader"] = false,
-						["index"] = 19,
-						["count"] = 2,
-					}, -- [15]
-					{
-						["isHeader"] = true,
-						["index"] = 36,
-						["count"] = 0,
-					}, -- [16]
-					{
-						["isHeader"] = false,
-						["index"] = 39,
-						["count"] = 29,
-					}, -- [17]
-					{
-						["isHeader"] = true,
-						["index"] = 49,
-						["count"] = 0,
-					}, -- [18]
-					{
-						["isHeader"] = false,
-						["index"] = 50,
-						["count"] = 4,
-					}, -- [19]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1606005198,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-			},
-			["Default.Frostmane.Rykahwar"] = {
-				["CurrencyInfo"] = {
-					[824] = "794-0-0-10000",
-					[1792] = "154-0-0-0",
-					[1166] = "200-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 29,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 32,
-						["count"] = 794,
-					}, -- [2]
-					{
-						["isHeader"] = true,
-						["index"] = 12,
-						["count"] = 0,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 13,
-						["count"] = 200,
-					}, -- [4]
-					{
-						["isHeader"] = true,
-						["index"] = 52,
-						["count"] = 0,
-					}, -- [5]
-					{
-						["isHeader"] = false,
-						["index"] = 53,
-						["count"] = 154,
-					}, -- [6]
-				},
-				["Conquest"] = 0,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1605827282,
-			},
-			["Default.Frostmane.Slywithapet"] = {
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1604152353,
-				["Conquest"] = 0,
-			},
-			["Default.Frostmane.Rykahdruid"] = {
-				["CurrencyInfo"] = {
-					[824] = "1080-0-0-10000",
-					[1792] = "52-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 29,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 32,
-						["count"] = 1080,
-					}, -- [2]
-					{
-						["isHeader"] = true,
-						["index"] = 52,
-						["count"] = 0,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 53,
-						["count"] = 52,
-					}, -- [4]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["Conquest"] = 0,
-				["lastUpdate"] = 1604101076,
-			},
-			["Default.Frostmane.Rykkahpo"] = {
-				["CurrencyInfo"] = {
-					[1220] = "3875-0-0-0",
-					[824] = "10000-0-0-10000",
-					[738] = "37-0-0-0",
-					[402] = "4-0-0-0",
-					[1533] = "115-0-0-0",
-					[823] = "665-0-0-0",
-					[1166] = "450-0-0-0",
-					[777] = "11255-0-0-0",
-					[776] = "3-0-0-20",
-					[1704] = "1-0-0-200",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 17,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 23,
-						["count"] = 3875,
-					}, -- [2]
-					{
-						["isHeader"] = false,
-						["index"] = 28,
-						["count"] = 115,
-					}, -- [3]
-					{
-						["isHeader"] = true,
-						["index"] = 12,
-						["count"] = 0,
-					}, -- [4]
-					{
-						["isHeader"] = false,
-						["index"] = 13,
-						["count"] = 450,
-					}, -- [5]
-					{
-						["isHeader"] = true,
-						["index"] = 14,
-						["count"] = 0,
-					}, -- [6]
-					{
-						["isHeader"] = false,
-						["index"] = 16,
-						["count"] = 4,
-					}, -- [7]
-					{
-						["isHeader"] = true,
-						["index"] = 29,
-						["count"] = 0,
-					}, -- [8]
-					{
-						["isHeader"] = false,
-						["index"] = 30,
-						["count"] = 665,
-					}, -- [9]
-					{
-						["isHeader"] = false,
-						["index"] = 32,
-						["count"] = 10000,
-					}, -- [10]
-					{
-						["isHeader"] = true,
-						["index"] = 36,
-						["count"] = 0,
-					}, -- [11]
-					{
-						["isHeader"] = false,
-						["index"] = 39,
-						["count"] = 37,
-					}, -- [12]
-					{
-						["isHeader"] = false,
-						["index"] = 41,
-						["count"] = 11255,
-					}, -- [13]
-					{
-						["isHeader"] = false,
-						["index"] = 42,
-						["count"] = 3,
-					}, -- [14]
-					{
-						["isHeader"] = true,
-						["index"] = 49,
-						["count"] = 0,
-					}, -- [15]
-					{
-						["isHeader"] = false,
-						["index"] = 50,
-						["count"] = 1,
-					}, -- [16]
-				},
-				["Conquest"] = 0,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					45, -- [6]
-					27, -- [7]
-					4, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1605972952,
-			},
-			["Default.Frostmane.Rykahshaman"] = {
-				["CurrencyInfo"] = {
-					[1704] = "2-0-0-200",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 49,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 50,
-						["count"] = 2,
-					}, -- [2]
-				},
-				["Conquest"] = 0,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1603923248,
-			},
-			["Default.Frostmane.Rykahpriest"] = {
-				["CurrencyInfo"] = {
-					[824] = "1859-0-0-10000",
-					[1792] = "17-0-0-0",
-					[1166] = "200-0-0-0",
-				},
-				["Currencies"] = {
-					{
-						["isHeader"] = true,
-						["index"] = 29,
-						["count"] = 0,
-					}, -- [1]
-					{
-						["isHeader"] = false,
-						["index"] = 32,
-						["count"] = 1859,
-					}, -- [2]
-					{
-						["isHeader"] = true,
-						["index"] = 12,
-						["count"] = 0,
-					}, -- [3]
-					{
-						["isHeader"] = false,
-						["index"] = 13,
-						["count"] = 200,
-					}, -- [4]
-					{
-						["isHeader"] = true,
-						["index"] = 52,
-						["count"] = 0,
-					}, -- [5]
-					{
-						["isHeader"] = false,
-						["index"] = 53,
-						["count"] = 17,
-					}, -- [6]
-				},
-				["Conquest"] = 0,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-					0, -- [19]
-					0, -- [20]
-				},
-				["lastUpdate"] = 1606010814,
 			},
 		},
 		["Reference"] = {
@@ -1570,6 +1606,12 @@ DataStore_CurrenciesDB = {
 				"Honor|1455894", -- [53]
 				"Shadowlands|", -- [54]
 				"Argent Commendation|236690", -- [55]
+				"Conquest|1523630", -- [56]
+				"Infused Ruby|133250", -- [57]
+				"Reservoir Anima|3528288", -- [58]
+				"Stygia|3743739", -- [59]
+				"Soul Ash|3743738", -- [60]
+				"Grateful Offering|134344", -- [61]
 			},
 			["CurrencyTextRev"] = {
 				["Ancient Mana"] = 18,
@@ -1582,49 +1624,55 @@ DataStore_CurrenciesDB = {
 				["Veiled Argunite"] = 27,
 				["Warforged Seal"] = 42,
 				["Honorbound Service Medal"] = 51,
+				["Stygia"] = 59,
+				["Titan Residuum"] = 10,
 				["War Resources"] = 11,
-				["Argent Commendation"] = 55,
 				["Mogu Rune of Fate"] = 40,
+				["Seal of Tempered Fate"] = 35,
+				["Argent Commendation"] = 55,
+				["Spirit Shard"] = 50,
+				["Timeless Coin"] = 41,
+				["Apexis Crystal"] = 30,
 				["Sightless Eye"] = 25,
 				["Coalescing Visions"] = 4,
 				["Essence of Corrupted Deathwing"] = 44,
-				["Seal of Tempered Fate"] = 35,
-				["Timeless Coin"] = 41,
+				["Grateful Offering"] = 61,
+				["Prismatic Manapearl"] = 7,
 				["Cataclysm"] = 43,
-				["Elder Charm of Good Fortune"] = 38,
-				["Mote of Darkness"] = 46,
+				["Reservoir Anima"] = 58,
+				["Wakening Essence"] = 28,
 				["Lingering Soul Fragment"] = 21,
-				["Corrupted Mementos"] = 5,
+				["Seal of Inevitable Fate"] = 34,
 				["Battle for Azeroth"] = 1,
-				["Ironpaw Token"] = 16,
-				["Legion"] = 17,
-				["Titan Residuum"] = 10,
-				["Miscellaneous"] = 14,
+				["Corrupted Mementos"] = 5,
+				["Echoes of Ny'alotha"] = 6,
+				["Mark of the World Tree"] = 45,
 				["Seal of Broken Fate"] = 24,
-				["Shadowlands"] = 54,
+				["Conquest"] = 56,
+				["Wrath of the Lich King"] = 47,
 				["Lesser Charm of Good Fortune"] = 39,
 				["Curious Coin"] = 19,
 				["Seal of Wartorn Fate"] = 9,
 				["Artifact Fragment"] = 31,
-				["Timeworn Artifact"] = 26,
-				["Mists of Pandaria"] = 36,
-				["Timewarped Badge"] = 13,
-				["Player vs. Player"] = 52,
+				["Soul Ash"] = 60,
+				["Shadowlands"] = 54,
 				["7th Legion Service Medal"] = 2,
-				["Warlords of Draenor"] = 29,
-				["Garrison Resources"] = 32,
+				["Player vs. Player"] = 52,
+				["Timewarped Badge"] = 13,
 				["Oil"] = 33,
+				["Mists of Pandaria"] = 36,
+				["Infused Ruby"] = 57,
 				["Honor"] = 53,
-				["Wrath of the Lich King"] = 47,
-				["Echoes of Ny'alotha"] = 6,
-				["Mark of the World Tree"] = 45,
-				["Wakening Essence"] = 28,
-				["Seal of Inevitable Fate"] = 34,
-				["Apexis Crystal"] = 30,
+				["Garrison Resources"] = 32,
+				["Timeworn Artifact"] = 26,
+				["Ironpaw Token"] = 16,
+				["Warlords of Draenor"] = 29,
+				["Miscellaneous"] = 14,
+				["Legion"] = 17,
 				["Darkmoon Prize Ticket"] = 15,
-				["Prismatic Manapearl"] = 7,
 				["Burning Crusade"] = 49,
-				["Spirit Shard"] = 50,
+				["Mote of Darkness"] = 46,
+				["Elder Charm of Good Fortune"] = 38,
 				["Champion's Seal"] = 48,
 				["Legionfall War Supplies"] = 20,
 			},

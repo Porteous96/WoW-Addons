@@ -1,172 +1,172 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cw Slyxhmsterez-Sylvanas how much are gliders and pots on sylvanas?", -- [1]
-		"/cw Slyxhmsterez-Sylvanas gunshoes are like 230g", -- [2]
-		"/cw Slyxhmsterez-Sylvanas nuts", -- [3]
-		"/cw Slyxhmsterez-Sylvanas im surprised since they got nerfed", -- [4]
-		"/cw Slyxhmsterez-Sylvanas you cant mount in the maw", -- [5]
-		"/cw Slyxhmsterez-Sylvanas they're only for the first part of levelling", -- [6]
-		"/cw Slyxhmsterez-Sylvanas oh", -- [7]
-		"/cw Slyxhmsterez-Sylvanas nah then", -- [8]
-		"/cw Slyxhmsterez-Sylvanas like not at all", -- [9]
-		"/cw Slyxhmsterez-Sylvanas they're just really long lasting speed pots basically", -- [10]
-		"/cw Slyxhmsterez-Sylvanas prefer not to but can do", -- [11]
-		"/cw Slyxhmsterez-Sylvanas so first day of shadowlands", -- [12]
-		"/cw Slyxhmsterez-Sylvanas you hit level 60", -- [13]
-		"/cw Slyxhmsterez-Sylvanas do you go farm mounts or do you do dungeons?", -- [14]
-		"/cw Slyxhmsterez-Sylvanas ayy", -- [15]
-		"/cw Slyxhmsterez-Sylvanas you got a group for doing m0?", -- [16]
-		"/cw Slyxhmsterez-Sylvanas I know we had said the 3 of us were gonna", -- [17]
-		"/cw Slyxhmsterez-Sylvanas but might be worth for you not to", -- [18]
-		"/cw Slyxhmsterez-Sylvanas more loot that way", -- [19]
-		"/cw Slyxhmsterez-Sylvanas aight", -- [20]
+		"/p nop", -- [1]
+		"/p no they cast when i press it", -- [2]
+		"/p same", -- [3]
+		"/p jailor gonna eat my ass", -- [4]
+		"/p and steal my hentai", -- [5]
+		"/p noooo", -- [6]
+		"/p she stole me", -- [7]
+		"/p its ok i do big doops", -- [8]
+		"/p stygia and rep gains reduced by 100%", -- [9]
+		"/p so if I turn in I get nothing?", -- [10]
+		"/p nvm im pro", -- [11]
+		"/p you cant", -- [12]
+		"/p if you're level 5", -- [13]
+		"/p nope", -- [14]
+		"/p literally unplayable", -- [15]
+		"/p goob luck", -- [16]
+		"/p me me go level dk", -- [17]
+		"/p and by level", -- [18]
+		"/p I mean skin mobs", -- [19]
+		"/p cya kiddo", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"https://wago.io/NcUSnbliR", -- [1]
-			"Çka-Frostmane", -- [2]
+			"kk", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1750, -- [11]
-			"Player-1303-0B699C68", -- [12]
+			1505, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Çka|r",
-			[51] = 1605998502,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777787,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [1]
 		{
-			"for group dps", -- [1]
-			"Çka-Frostmane", -- [2]
+			"we still have some rep yet", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1751, -- [11]
-			"Player-1303-0B699C68", -- [12]
+			1506, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Çka|r",
-			[51] = 1605998507,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777792,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [2]
 		{
-			"theres also one for Plater", -- [1]
-			"Çka-Frostmane", -- [2]
+			"you do this everyday?", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1753, -- [11]
-			"Player-1303-0B699C68", -- [12]
+			1509, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Çka|r",
-			[51] = 1605998526,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606777810,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [3]
 		{
-			"if you use that", -- [1]
-			"Çka-Frostmane", -- [2]
+			"for now", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1754, -- [11]
-			"Player-1303-0B699C68", -- [12]
+			1510, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Çka|r",
-			[51] = 1605998531,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777815,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [4]
 		{
-			"so its above the enemy frame", -- [1]
-			"Çka-Frostmane", -- [2]
+			"i just do dailies and fug off", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1755, -- [11]
-			"Player-1303-0B699C68", -- [12]
+			1511, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Çka|r",
-			[51] = 1605998543,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606777815,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [5]
 		{
-			"i use that", -- [1]
-			"Çka-Frostmane", -- [2]
+			"you got this?", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1756, -- [11]
-			"Player-1303-0B699C68", -- [12]
+			1512, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Çka|r",
-			[51] = 1605998546,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777817,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [6]
 		{
-			"I was ideally looking for it to be in my meters", -- [1]
+			"yee", -- [1]
 			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1757, -- [11]
+			1513, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -174,11 +174,517 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1605998551,
-			[50] = "CHAT_MSG_GUILD",
+			[51] = 1606777820,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [7]
 		{
-			"I've seen screenshots of it, I wonder if its a plugin or something", -- [1]
+			"i figure", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1515, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777828,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [8]
+		{
+			"sooner i hit exalted", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1516, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777832,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [9]
+		{
+			"sooner i can stop", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1517, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777835,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [10]
+		{
+			"what you guys up to", -- [1]
+			"Logislap-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1518, -- [11]
+			"Player-1303-0B61691F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1606777835,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [11]
+		{
+			"true", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1519, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606777843,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [12]
+		{
+			"mythix", -- [1]
+			"Negan-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1521, -- [11]
+			"Player-1303-0B627DD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606777856,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [13]
+		{
+			"have you guys done plaguefall yet", -- [1]
+			"Logislap-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1522, -- [11]
+			"Player-1303-0B61691F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1606777869,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [14]
+		{
+			"no", -- [1]
+			"Negan-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1523, -- [11]
+			"Player-1303-0B627DD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606777874,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [15]
+		{
+			"any chance you are doing that today ", -- [1]
+			"Logislap-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1524, -- [11]
+			"Player-1303-0B61691F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1606777891,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [16]
+		{
+			"duno its getting late", -- [1]
+			"Negan-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1525, -- [11]
+			"Player-1303-0B627DD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606777898,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [17]
+		{
+			"doing theatre now", -- [1]
+			"Negan-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1526, -- [11]
+			"Player-1303-0B627DD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606777905,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [18]
+		{
+			"even done all mythic, except the last boss in plaguefall", -- [1]
+			"Logislap-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1527, -- [11]
+			"Player-1303-0B61691F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1606777915,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [19]
+		{
+			"fug", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1531, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777924,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [20]
+		{
+			"cya", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1532, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606777925,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [21]
+		{
+			"they got me", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1533, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777926,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [22]
+		{
+			"i dont have your anime", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1534, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777938,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [23]
+		{
+			"could have this dropped to me |cffa335ee|Hitem:178774::::::::60:72::23:1:3524:1:28:749:::|h[Muckwallow Stompers]|h|r", -- [1]
+			"Logislap-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1537, -- [11]
+			"Player-1303-0B61691F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1606777948,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [24]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14374:Player-1303-0B698628:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Couple's Therapy]|h|r!", -- [1]
+			"Stimul-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stimul-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1538, -- [11]
+			"Player-1303-0B698628", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cStimul|r",
+			[51] = 1606777963,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [25]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14374:Player-1303-0B6F1577:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Couple's Therapy]|h|r!", -- [1]
+			"Skylie-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Skylie-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1539, -- [11]
+			"Player-1303-0B6F1577", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Skylie|r",
+			[51] = 1606777963,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [26]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14374:Player-1303-0B6F3ABB:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Couple's Therapy]|h|r!", -- [1]
+			"Twistedshape-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Twistedshape-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1540, -- [11]
+			"Player-1303-0B6F3ABB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Twistedshape|r",
+			[51] = 1606777963,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [27]
+		{
+			"bis", -- [1]
+			"Prue-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1541, -- [11]
+			"Player-1303-0B685DB5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cPrue|r",
+			[51] = 1606777972,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [28]
+		{
+			"grab thing", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1545, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606777995,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [29]
+		{
+			"should at least try to get it, but dunnno if people are willing to do just one boss", -- [1]
+			"Logislap-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1546, -- [11]
+			"Player-1303-0B61691F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1606778016,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [30]
+		{
+			"you cant join another group right?", -- [1]
 			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -188,7 +694,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1758, -- [11]
+			1552, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -196,2010 +702,1504 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1605998562,
+			[51] = 1606778042,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:649:Player-1303-0BA3DE55:1:11:21:20:4294967295:4294967295:4294967295:4294967295|h[The Slave Pens]|h|r!", -- [1]
-			"Vyal-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyal-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1766, -- [11]
-			"Player-1303-0BA3DE55", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Vyal|r",
-			[51] = 1605998842,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [9]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14750:Player-1303-0B65F9D0:1:11:21:20:4294967295:4294967295:4294967295:4294967295|h[Death Rising]|h|r!", -- [1]
-			"Pyracantha-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Pyracantha-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1767, -- [11]
-			"Player-1303-0B65F9D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Pyracantha|r",
-			[51] = 1605998903,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [10]
-		{
-			"Yo, how's fire mage these days?", -- [1]
-			"Chivy-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Chivy-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1768, -- [11]
-			"Player-1303-0B5DD4B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaChivy|r",
-			[51] = 1605998910,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"hot", -- [1]
-			"Noxela-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Noxela-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1770, -- [11]
-			"Player-1303-0517580A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNoxela-GrimBatol|r",
-			[51] = 1605998938,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"your ignite now has to be manually spread, the rest is pretty much the same", -- [1]
-			"Prd-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Prd-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1771, -- [11]
-			"Player-1303-02FDF67D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Prd-GrimBatol|r",
-			[51] = 1605998939,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"spicy", -- [1]
-			"Lafayette-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lafayette-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1772, -- [11]
-			"Player-1303-0BAF48B4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaLafayette-GrimBatol|r",
-			[51] = 1605998944,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"Cheers.", -- [1]
-			"Chivy-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Chivy-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1773, -- [11]
-			"Player-1303-0B5DD4B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaChivy|r",
-			[51] = 1605998965,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"<< Nemesis >> is now recruiting all for Shadowlands Heroic raiding and M+. Former Mythic raiders taking things a bit more casually. Expect to clear HC efficiently with 2 nights a week schedule. (Wed/Thur). Friends of raiders and socials always welcome!", -- [1]
-			"Swerved-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Swerved-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1777, -- [11]
-			"Player-1303-0B5707EE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Swerved|r",
-			[51] = 1605999211,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13553:Player-1303-0B662F9B:1:11:21:20:4294967295:4294967295:4294967295:4294967295|h[The Mechagonian Threat]|h|r!", -- [1]
-			"Shubuzz-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shubuzz-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1781, -- [11]
-			"Player-1303-0B662F9B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Shubuzz|r",
-			[51] = 1605999330,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [17]
-		{
-			"cant wait to level with my bois", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2139, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001268,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [18]
-		{
-			"gonna be litt", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2140, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001270,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [19]
-		{
-			"actually gonna nut when we start ", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2142, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001279,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [20]
-		{
-			"same tbh", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2148, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001286,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [21]
-		{
-			"just when i hear jeremy tell us what to do", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2152, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001292,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [22]
-		{
-			"im gonna cream", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2154, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001295,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [23]
-		{
-			"same ", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2157, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001299,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [24]
-		{
-			"i probs cant talk on discord ", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2160, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001303,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [25]
-		{
-			"but i'll come listen if you guys are", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2163, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001308,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [26]
-		{
-			"yeah u said but u can still listen and level ", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2167, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001317,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [27]
-		{
-			"so will be nice", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2170, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001320,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [28]
-		{
-			"yeah", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2171, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001321,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [29]
-		{
-			"and cozy", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2172, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001323,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [30]
-		{
-			"will play for a few hours", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2173, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001326,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [31]
 		{
-			"Estás à procura daquela que é simplesmente a melhor e mais competente guild do servidor e talvez do jogo inteiro? Nós também! Junta-te a nós nesta quest em busca da guild|cffffd100|HclubFinder:ClubFinder-1-82893-1303-34609499|h[Guild: Os Marretas]|h|r", -- [1]
-			"Tsulong-Aggra(Português)", -- [2]
+			"use on this", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tsulong-Aggra(Português)", -- [5]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2177, -- [11]
-			"Player-1303-0B303D4F", -- [12]
+			1553, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
-			[51] = 1606001338,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778042,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [32]
 		{
-			"actually hyped af for new content ", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"im not sure", -- [1]
+			"Logislap-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2178, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1554, -- [11]
+			"Player-1303-0B61691F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001343,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1606778050,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [33]
 		{
-			"yeah i just hope it doesnt lag at all then we can get some levels in", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"have you killed it this week?", -- [1]
+			"Negan-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2179, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1555, -- [11]
+			"Player-1303-0B627DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001347,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606778055,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [34]
 		{
-			"Á procura de uma guild para começar tudo de novo? Queres voltar ao jogo e voltar a fazer conteúdo com a tua guild? Junta-te aos «Adamastor» e começa de novo, juntos, sempre a progredir. PM para mais info!!!", -- [1]
-			"Frozeras-GrimBatol", -- [2]
+			"not yet", -- [1]
+			"Logislap-Frostmane", -- [2]
 			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Frozeras-GrimBatol", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			2180, -- [11]
-			"Player-1303-0303EE4B", -- [12]
+			1556, -- [11]
+			"Player-1303-0B61691F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1606778060,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [35]
+		{
+			"only all other bosses", -- [1]
+			"Logislap-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1558, -- [11]
+			"Player-1303-0B61691F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cLogislap|r",
+			[51] = 1606778066,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [36]
+		{
+			"you can join other mythic dungeon groups its not the same as raid lockouts", -- [1]
+			"Negan-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1559, -- [11]
+			"Player-1303-0B627DD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606778071,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [37]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:223:Player-1303-0B9ACF56:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[The Sickly Gazelle]|h|r!", -- [1]
+			"Corgihunter-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Corgihunter-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1560, -- [11]
+			"Player-1303-0B9ACF56", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Corgihunter|r",
+			[51] = 1606778073,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [38]
+		{
+			"you can join a grp but you just won;t get loot", -- [1]
+			"Krowi-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1561, -- [11]
+			"Player-1303-0B62E475", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Krowi|r",
+			[51] = 1606778076,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [39]
+		{
+			"say nothing to the leader ;)", -- [1]
+			"Krowi-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1567, -- [11]
+			"Player-1303-0B62E475", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Krowi|r",
+			[51] = 1606778090,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [40]
+		{
+			"constant silence", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1568, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778097,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [41]
+		{
+			"\"oh no im so unlucky\"", -- [1]
+			"Negan-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1569, -- [11]
+			"Player-1303-0B627DD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606778100,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [42]
+		{
+			"i think you can stand at edge]", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1570, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778102,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [43]
+		{
+			"nop", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1571, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778110,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [44]
+		{
+			"\"damn why arent i getting loot\" ", -- [1]
+			"Negan-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1572, -- [11]
+			"Player-1303-0B627DD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606778111,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [45]
+		{
+			"and time it right", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1573, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778111,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [46]
+		{
+			"(as you get onto the nxt bosses)", -- [1]
+			"Negan-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1574, -- [11]
+			"Player-1303-0B627DD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606778118,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [47]
+		{
+			"no they cast when i press it", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1575, -- [11]
+			"Player-1303-0B699A5B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778126,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [48]
+		{
+			"^", -- [1]
+			"Bòòst-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1576, -- [11]
+			"Player-1303-0B69898B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeBòòst|r",
+			[51] = 1606778129,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [49]
+		{
+			"you have to run in before last pulse", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1577, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778130,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [50]
+		{
+			"kek", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1579, -- [11]
+			"Player-3391-0858CF58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778145,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [51]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14415:Player-1303-0B56DAD4:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Plaguefall]|h|r!", -- [1]
+			"Peazy-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Peazy-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1581, -- [11]
+			"Player-1303-0B56DAD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Peazy|r",
+			[51] = 1606778150,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [52]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14478:Player-1303-0B60173B:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[The Soulforges]|h|r!", -- [1]
+			"Nahdaan-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nahdaan-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1582, -- [11]
+			"Player-1303-0B60173B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNahdaan|r",
+			[51] = 1606778155,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [53]
+		{
+			"Orophea at |cffffff00|Hworldmap:1543:2360:2167|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
+			"1. General - The Maw", -- [4]
+			"Dreothal-Silvermoon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - The Maw", -- [9]
+			0, -- [10]
+			1586, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcFrozeras-GrimBatol|r",
-			[51] = 1606001349,
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778171,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"same", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2184, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001357,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [36]
-		{
-			"if i lag and die to some horde fuck", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2185, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001364,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [37]
-		{
-			"im gonna tilt so hard", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2186, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001368,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [38]
-		{
-			"sum pls", -- [1]
-			"Vürless-DunModr", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vürless-DunModr", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2190, -- [11]
-			"Player-1378-082BDF6F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edVürless-DunModr|r",
-			[51] = 1606001393,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [39]
-		{
-			"Hi", -- [1]
-			"Ellunelf-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ellunelf-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2191, -- [11]
-			"Player-3391-098FEA4D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeEllunelf-Silvermoon|r",
-			[51] = 1606001396,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [40]
-		{
-			"same", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2192, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001416,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [41]
-		{
-			"but we are all 3 geared af", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2193, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001423,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [42]
-		{
-			"yeah ", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2194, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001427,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [43]
-		{
-			"like we can 1v1 everyone", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2196, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001432,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [44]
-		{
-			"i got big dmg reduction pvp talents too", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2197, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001434,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [45]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:7:Player-1303-0BA3DE55:1:11:22:20:4294967295:4294967295:4294967295:4294967295|h[Level 20]|h|r!", -- [1]
-			"Vyal-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vyal-Frostmane", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2198, -- [11]
-			"Player-1303-0BA3DE55", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Vyal|r",
-			[51] = 1606001442,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [46]
-		{
-			"btw make sure to buy some gliders", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2199, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001443,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [47]
-		{
-			"in", -- [1]
-			"Wolfing-Minahonda", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wolfing-Minahonda", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2200, -- [11]
-			"Player-1385-05582E0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Wolfing-Minahonda|r",
-			[51] = 1606001443,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [48]
-		{
-			"i have 60 and 80 ligtfoot potions", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2202, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001454,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [49]
-		{
-			"ayy i like it", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2203, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001458,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [50]
-		{
-			"no gunshoe thingies tho", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2204, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001460,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [51]
-		{
-			"nah fuck shoes", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2205, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001463,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [52]
-		{
-			"should i get some", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2206, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001463,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [53]
-		{
-			"kil tov'osh tago nogu kil thrakk thok ", -- [1]
-			"Holyjonovar-Silvermoon", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Holyjonovar-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2207, -- [11]
-			"Player-3391-0B3FBACA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Holyjonovar-Silvermoon|r",
-			[51] = 1606001473,
-			[50] = "CHAT_MSG_SAY",
 		}, -- [54]
 		{
-			"they're so expensive", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"logi, whats ur ilvl", -- [1]
+			"Zanity-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2208, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1587, -- [11]
+			"Player-1303-0B61704B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001474,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc59a6cZanity|r",
+			[51] = 1606778174,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [55]
 		{
-			"see what jeremy says", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"if decent just make ur own grp", -- [1]
+			"Zanity-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2210, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1588, -- [11]
+			"Player-1303-0B61704B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001479,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc59a6cZanity|r",
+			[51] = 1606778210,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [56]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12101:Player-1303-0B662F9B:1:11:22:20:4294967295:4294967295:4294967295:4294967295|h[We Came Here For Two Reasons]|h|r!", -- [1]
-			"Shubuzz-Frostmane", -- [2]
+			"me me done", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Shubuzz-Frostmane", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2212, -- [11]
-			"Player-1303-0B662F9B", -- [12]
+			1596, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Shubuzz|r",
-			[51] = 1606001494,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778231,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [57]
 		{
-			"mine was a bit expensive", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"same ", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2215, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1598, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001505,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778237,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [58]
 		{
-			"how much are gliders and pots on sylvanas?", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"jailor gonna eat my ass", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2217, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1599, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001539,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778241,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [59]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-1303-0BA3DE55:1:11:22:20:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
-			"Vyal-Frostmane", -- [2]
+			"and steal my hentai", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vyal-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2218, -- [11]
-			"Player-1303-0BA3DE55", -- [12]
+			1600, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Vyal|r",
-			[51] = 1606001569,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778245,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [60]
 		{
-			"gliders arent too expensive but the gunshoes are", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"we need more anime", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2219, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1601, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001589,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778252,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [61]
 		{
-			"gliders are 11g each here ", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"noooo", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2220, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1602, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001600,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778256,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [62]
 		{
-			"gunshoes are like 230g", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"she stole me", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2221, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1603, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001604,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778258,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [63]
 		{
-			"nuts ", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"rip", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2222, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1604, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001608,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778263,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [64]
 		{
-			"out and in guys :) it was on mythic. changed to HC now", -- [1]
-			"Tankertorben-Frostmane", -- [2]
+			"37.15 24.65", -- [1]
+			"Merren-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tankertorben-Frostmane", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2223, -- [11]
-			"Player-1303-0B82A007", -- [12]
+			1606, -- [11]
+			"Player-1303-0B698694", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Tankertorben|r",
-			[51] = 1606001609,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff8687edMerren|r",
+			[51] = 1606778264,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [65]
 		{
-			"guys run out and in so its in HC mode :D", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"fug me", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2224, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1607, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001611,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778271,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [66]
 		{
-			"yeah its expensive af here too", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"its ok i do big doops", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2227, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1608, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001624,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778274,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [67]
 		{
-			"are they worth it when u can just mount", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-1303-0B56DAD4:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
+			"Peazy-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Peazy-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2230, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1612, -- [11]
+			"Player-1303-0B56DAD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001637,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffa9d271Peazy|r",
+			[51] = 1606778288,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [68]
 		{
-			"im surprised since they got nerfed", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"stygia and rep gains reduced by 100%", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2231, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1613, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001637,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778314,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [69]
 		{
-			"you cant mount in the maw", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"so if I turn in I get nothing?", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2232, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1614, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001645,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778323,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [70]
 		{
-			"they're only for the first part of levelling", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"whats going on in rbgs? every single one has a premade from Kazzak...", -- [1]
+			"Ilarioth-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2233, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1615, -- [11]
+			"Player-1303-0B611663", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001652,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfff38bb9Ilarioth|r",
+			[51] = 1606778332,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [71]
 		{
-			"they dont work in the maw anymore", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"nvm im pro", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2234, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1629, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001654,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778351,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [72]
 		{
-			"oh", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"hmmm", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2235, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1633, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001658,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778406,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [73]
 		{
-			"nah then", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"dunno if it is worth me running out to snip 1 more rare", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2236, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1634, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001663,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778416,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [74]
 		{
-			"like not at all", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"you cant ", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2237, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1635, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001666,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778421,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [75]
 		{
-			"yeah thats why i didnt buy em", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"fug it", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2238, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1636, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001676,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778423,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [76]
 		{
-			"they're just really long lasting speed pots basically", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"if you're level 5", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2239, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1637, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001685,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778424,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [77]
 		{
-			"anyone know a tank friend who knows tactics? :)", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"grrr", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2240, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1638, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001691,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778438,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [78]
 		{
-			"i can tank if you want", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"thought you just got the life junk", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2241, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1640, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001701,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778444,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [79]
 		{
-			"prefer not to but can do", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"nope", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2242, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1641, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001705,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778447,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [80]
 		{
-			"the bastard logged out", -- [1]
-			"Enomed-Darkspear", -- [2]
+			"big sad", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Enomed-Darkspear", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2243, -- [11]
-			"Player-633-0A47B3CB", -- [12]
+			1642, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Enomed-Darkspear|r",
-			[51] = 1606001711,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778449,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [81]
 		{
-			"so first day of shadowlands", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"ffs 1k styg up in smoke", -- [1]
+			"Couslan-Frostmane", -- [2]
+			"", -- [3]
+			"1. General - The Maw", -- [4]
+			"Couslan-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - The Maw", -- [9]
 			0, -- [10]
-			2244, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1643, -- [11]
+			"Player-1303-0B5AD761", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001777,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			true, -- [17]
+			[52] = "|cffc59a6cCouslan|r",
+			[51] = 1606778453,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [82]
 		{
-			"you hit level 60", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"literally unplayable ", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2245, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1644, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001780,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778455,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [83]
 		{
-			"do you go farm mounts or do you do dungeons?", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"are you queueing in a premade?", -- [1]
+			"Negan-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2246, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1645, -- [11]
+			"Player-1303-0B627DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001789,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606778457,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
 		{
-			"hmm if u want then we can", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"|cffa335ee|Hitem:180728::::::::60:72::::1:28:2060:::|h[Swift Gloomhoof]|h|r noice, 4th mount today", -- [1]
+			"Zanity-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2247, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1646, -- [11]
+			"Player-1303-0B61704B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001794,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc59a6cZanity|r",
+			[51] = 1606778459,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [85]
 		{
-			"nah im full gear focussed", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"i found when queueing with friends that happened", -- [1]
+			"Negan-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2248, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1647, -- [11]
+			"Player-1303-0B627DD4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001800,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfff38bb9Negan|r",
+			[51] = 1606778462,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [86]
 		{
-			"ayy", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"no im not...", -- [1]
+			"Ilarioth-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2249, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1649, -- [11]
+			"Player-1303-0B611663", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001810,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfff38bb9Ilarioth|r",
+			[51] = 1606778468,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [87]
 		{
-			"i maximize my rogue", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"nn all.  Catch you all tomorrow", -- [1]
+			"Sarranuva-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2250, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1652, -- [11]
+			"Player-1303-0B68DA9F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001814,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc59a6cSarranuva|r",
+			[51] = 1606778474,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [88]
 		{
-			"then mounts", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"gn", -- [1]
+			"Zanity-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2251, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1653, -- [11]
+			"Player-1303-0B61704B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001816,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc59a6cZanity|r",
+			[51] = 1606778482,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [89]
 		{
-			"you got a group for doing m0?", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"%s has earned the achievement |cffffff00|Hachievement:14493:Player-1303-0B600D04:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[The Upper Reaches]|h|r!", -- [1]
+			"Frenzie-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Frenzie-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2252, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1654, -- [11]
+			"Player-1303-0B600D04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001827,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaFrenzie|r",
+			[51] = 1606778486,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [90]
 		{
-			"yeah u guys", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"hmm", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2253, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1655, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001832,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778486,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [91]
 		{
-			"wtf", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"guess its heroic spam time", -- [1]
+			"Dreothal-Silvermoon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2254, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1656, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001833,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778494,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [92]
 		{
-			"I know we had said the 3 of us were gonna", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			">trinkets pls", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2255, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1659, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001834,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778500,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [93]
 		{
-			"but might be worth for you not to", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"goob luck", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2256, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1662, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001839,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778500,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [94]
 		{
-			"go tank", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"me me go level dk", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2257, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1666, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001841,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778506,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [95]
 		{
-			"more loot that way ", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"habe fun", -- [1]
+			"Dreothal-Silvermoon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Dreothal-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2258, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1672, -- [11]
+			"Player-3391-0858CF58", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001843,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffe7b09Dreothal-Silvermoon|r",
+			[51] = 1606778513,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [96]
 		{
-			"aight", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
-			"Common", -- [3]
+			"and by level", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2259, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1676, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001844,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778518,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [97]
 		{
-			"yeah else i just do with guild", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"I mean skin mobs ", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2260, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1678, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001854,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778521,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [98]
 		{
-			"to funnel me gear", -- [1]
-			"Slyxhmsterez-Sylvanas", -- [2]
+			"cya kiddo", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slyxhmsterez-Sylvanas", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2261, -- [11]
-			"Player-1597-0E7F2F3A", -- [12]
+			1685, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
-			[51] = 1606001857,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1606778533,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [99]
 	},
 }

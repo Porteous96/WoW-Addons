@@ -3,90 +3,90 @@ PawnOptions = {
 	["LastVersion"] = 2.0406,
 	["ItemLevels"] = {
 		{
-			["ID"] = 174116,
-			["Level"] = 135,
-			["Link"] = "|cffa335ee|Hitem:174116::::::::50:63::6:5:4824:1517:4786:6511:4775::::|h[Cowl of Unspeakable Horrors]|h|r",
+			["ID"] = 178693,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:178693::::::::60:62::2:5:6806:6652:7193:1485:4785:1:28:748:::|h[Cocoonsilk Cowl]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 158075,
-			["Level"] = 149,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:63::11:4:6316:4932:4933:1563::::|h[Heart of Azeroth]|h|r",
+			["ID"] = 180115,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:180115::::::::60:62::2:5:6806:6652:7194:1485:4785:1:28:748:::|h[Azure-Venom Choker]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 159238,
-			["Level"] = 135,
-			["Link"] = "|cffa335ee|Hitem:159238::::::::50:63::35:5:5448:1543:4786:6512:4775::::|h[Mantle of Void-Touched Waters]|h|r",
+			["ID"] = 178803,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:178803::::::::60:62::2:4:6806:6652:1485:4785:1:28:748:::|h[Plague-Licked Amice]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 174119,
-			["Level"] = 135,
-			["Link"] = "|cffa335ee|Hitem:174119::::::::50:63::6:5:4824:1517:4786:6510:4775::::|h[Robes of Unreality]|h|r",
+			["ID"] = 179335,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:179335::::::::60:62::2:4:6806:6652:1485:4785:1:28:2044:::|h[Manastorm's Magnificent Threads]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 159274,
-			["Level"] = 130,
-			["Link"] = "|cffa335ee|Hitem:159274::168640::::::50:63::35:7:6536:6578:1543:4786:6473:6470:6514::::|h[Knight Captain's Waistcord]|h|r",
+			["ID"] = 184788,
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:184788::::::::60:62:::4:6652:7193:1472:6646:1:28:1707:::|h[Kit Jin's Sultry Cinch]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 168988,
-			["Level"] = 130,
-			["Link"] = "|cffa335ee|Hitem:168988::168640::::::50:63::35:7:6536:6578:1524:4786:6473:6470:6514::::|h[Royal Attendant's Trousers]|h|r",
+			["ID"] = 178761,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178761::::::::60:62::23:4:6807:43:1498:6646:1:28:749:::|h[Leggings of the Erudite Scholar]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 174128,
-			["Level"] = 130,
-			["Link"] = "|cffa335ee|Hitem:174128::168640::::::50:63::6:7:4824:43:1517:4786:6514:6473:6470::::|h[Boots of Wrought Shadow]|h|r",
+			["ID"] = 178756,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178756::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::|h[Stradama's Misplaced Slippers]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 159263,
-			["Level"] = 130,
-			["Link"] = "|cffa335ee|Hitem:159263::::::::50:62::35:9:6536:4802:6578:6579:6484:6457:6515:1543:4786::::|h[Bindings of the Slithering Current]|h|r",
+			["ID"] = 178782,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:178782::::::::60:62::2:5:6806:6652:7193:1485:4785:1:28:748:::|h[Necropolis Lord's Shackles]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 159231,
-			["Level"] = 130,
-			["Link"] = "|cffa335ee|Hitem:159231::168640::::::50:63::35:7:6536:6578:1543:4786:6473:6470:6514::::|h[Mine Rat's Handwarmers]|h|r",
+			["ID"] = 178705,
+			["Level"] = 171,
+			["Link"] = "|cff0070dd|Hitem:178705::::::::60:62::2:4:6806:40:1485:4785:1:28:748:::|h[Tricksprite Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 174531,
-			["Level"] = 130,
+			["ID"] = 179355,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:174531:6110:168640::::::50:63::6:7:4824:1808:6513:1517:4786:6473:6470::::|h[Void-Etched Band]|h|r",
+			["Link"] = "|cffa335ee|Hitem:179355::::::::60:62::23:5:6807:6652:6935:1498:6646:1:28:2044:::|h[Death God's Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 159462,
-			["Level"] = 130,
+			["ID"] = 179355,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:159462:6110:168640::::::50:63::35:8:6536:40:6578:1543:4786:6473:6470:6514::::|h[Footbomb Championship Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:179355::::::::60:64::23:5:6807:6652:6935:1498:6646:1:28:2044:::|h[Death God's Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 174060,
-			["Level"] = 130,
+			["ID"] = 178849,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:174060::::::::50:62::6:4:4824:6513:1517:4786::::|h[Psyche Shredder]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178849::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::|h[Overflowing Anima Cage]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 174060,
-			["Level"] = 130,
+			["ID"] = 178849,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:174060::::::::50:64::6:4:4824:6513:1517:4786::::|h[Psyche Shredder]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178849::::::::60:64::23:4:6807:6652:1498:6646:1:28:749:::|h[Overflowing Anima Cage]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 169223,
-			["Level"] = 155,
-			["Link"] = "|cffff8000|Hitem:169223:6088:::::::50:63::11:2:6603:1472::::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["ID"] = 179349,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:179349::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::|h[Dealer Xy'exa's Cape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 172201,
-			["Level"] = 130,
+			["ID"] = 178856,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:172201:5949:::::::50:63::6:6:4824:6515:1517:4786:6473:6470::::|h[Bloodstained Ritual Athame]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178856::::::::60:62::23:4:6807:6652:1498:6646:1:28:2044:::|h[Kaal's Gloomblade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 159667,
-			["Level"] = 130,
-			["Link"] = "|cffa335ee|Hitem:159667::168640::::::50:63::35:8:6536:4802:6578:6515:1543:4786:6473:6470::::|h[Vessel of Last Rites]|h|r",
+			["ID"] = 179562,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:179562::::::::60:62::74:4:6652:1472:5852:6616:1:28:2060:::|h[Duskwarder Branch]|h|r",
 		}, -- [17]
 	},
 	["AutoSelectScales"] = false,

@@ -1,11 +1,11 @@
 
 WeakAurasSaved = {
 	["dynamicIconCache"] = {
-		["Icy Veins"] = {
-			[12472] = 135838,
+		["Blaster Master"] = {
+			[274598] = 135807,
 		},
-		["Sephuz's Secret"] = {
-			[208052] = 645145,
+		["Delicious Bufferfish"] = {
+			[239375] = 533422,
 		},
 		["Food & Drink"] = {
 			[251232] = 132805,
@@ -18,8 +18,8 @@ WeakAurasSaved = {
 		["Quake"] = {
 			[240447] = 136025,
 		},
-		["Blaster Master"] = {
-			[274598] = 135807,
+		["Icy Veins"] = {
+			[12472] = 135838,
 		},
 		["Rune of Power"] = {
 			[116014] = 609815,
@@ -27,8 +27,8 @@ WeakAurasSaved = {
 		["Tainted Essence"] = {
 			[240728] = 136121,
 		},
-		["Delicious Bufferfish"] = {
-			[239375] = 533422,
+		["Sephuz's Secret"] = {
+			[208052] = 645145,
 		},
 	},
 	["login_squelch_time"] = 10,
@@ -143,12 +143,9 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
 					},
 				},
 				["talent"] = {
@@ -157,21 +154,30 @@ WeakAurasSaved = {
 						[6] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "MONK",
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["spec"] = {
+					["single"] = 2,
+					["multi"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+					},
+				},
 				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_petbattle"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -179,30 +185,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_petbattle"] = false,
-				["use_vehicleUi"] = false,
-				["race"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "E32cQZdYydM",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["regionType"] = "icon",
 			["cooldown"] = true,
+			["authorOptions"] = {
+			},
+			["cooldownEdge"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -211,23 +209,25 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["cooldownEdge"] = true,
-			["parent"] = "Luxthos - Monk Cooldowns",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["auto"] = true,
 			["tocversion"] = 80300,
 			["id"] = "Life Cocoon",
 			["semver"] = "1.1.1",
 			["alpha"] = 1,
 			["width"] = 35,
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -256,7 +256,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 		},
 		["Spinnin Crane Kick"] = {
 			["iconSource"] = -1,
@@ -338,16 +338,16 @@ WeakAurasSaved = {
 						["type"] = "custom",
 						["unevent"] = "auto",
 						["custom_type"] = "status",
-						["event"] = "Cooldown Progress (Spell)",
-						["use_genericShowOn"] = true,
 						["genericShowOn"] = "showOnCooldown",
+						["duration"] = "1",
+						["event"] = "Cooldown Progress (Spell)",
 						["unit"] = "player",
 						["realSpellName"] = 0,
 						["use_spellName"] = true,
 						["custom"] = "function(event, _, message, _, sourceGUID, _, _, _, _, _, _, _, spellId, _)\n    if event == \"COMBAT_LOG_EVENT_UNFILTERED\" and message == \"SPELL_CAST_SUCCESS\" and sourceGUID == UnitGUID(\"player\") and (\n    spellId == 101546 --[[ Spinning Crane Kick ]] ) then\n        return true\n    end\nend",
 						["events"] = "COMBAT_LOG_EVENT_UNFILTERED",
 						["check"] = "event",
-						["duration"] = "1",
+						["use_genericShowOn"] = true,
 						["use_track"] = true,
 						["debuffType"] = "HELPFUL",
 					},
@@ -468,9 +468,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -479,6 +476,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -625,26 +625,26 @@ WeakAurasSaved = {
 					},
 				}, -- [7]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Spinnin Crane Kick",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "tuyGNDMXC9O",
 			["inverse"] = true,
-			["xOffset"] = 75,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 75,
 		},
 		["Cold Front"] = {
 			["iconSource"] = -1,
@@ -673,17 +673,17 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["duration"] = "35",
-						["debuffType"] = "HELPFUL",
-						["subeventSuffix"] = "_CAST_SUCCESS",
+						["spellName"] = 0,
+						["useExactSpellId"] = true,
 						["type"] = "aura2",
 						["use_spellId"] = true,
-						["spellName"] = 0,
-						["unevent"] = "auto",
-						["useName"] = false,
-						["useExactSpellId"] = true,
+						["debuffType"] = "HELPFUL",
 						["auraspellids"] = {
 							"327330", -- [1]
 						},
+						["useName"] = false,
+						["subeventSuffix"] = "_CAST_SUCCESS",
+						["unevent"] = "auto",
 						["unit"] = "player",
 						["ownOnly"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -861,6 +861,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = true,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = true,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -869,25 +874,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Cold Front",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "W2lO8zFynlw",
 			["inverse"] = false,
-			["cooldownEdge"] = true,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -914,8 +915,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Luxthos - Combo 5.1 - Under 45 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -999,7 +999,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -1009,7 +1009,7 @@ WeakAurasSaved = {
 				},
 				["level_operator"] = "<",
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -1046,21 +1046,21 @@ WeakAurasSaved = {
 						["custom_hide"] = "custom",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["custom_type"] = "event",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["use_power"] = true,
 						["event"] = "Power",
 						["debuffType"] = "HELPFUL",
 						["power"] = "0",
 						["unevent"] = "auto",
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_unit"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["custom_type"] = "event",
 					},
 					["untrigger"] = {
 					},
@@ -1361,8 +1361,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "aura2",
 						["useName"] = true,
-						["unevent"] = "auto",
 						["match_countOperator"] = "==",
+						["unevent"] = "auto",
 						["subeventPrefix"] = "SPELL",
 						["rem"] = "",
 						["use_unit"] = true,
@@ -1470,7 +1470,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Utilities - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -1480,7 +1480,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -1528,26 +1529,25 @@ WeakAurasSaved = {
 					},
 				}, -- [2]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/HkqTw-CB7/15",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Focus Magic",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "T4ckNKgJ1uF",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Mage Utilities - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/HkqTw-CB7/15",
+			["xOffset"] = 0,
 		},
 		["Summon Infernal 2"] = {
 			["iconSource"] = -1,
@@ -1563,10 +1563,10 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["useGroup_count"] = false,
-						["subeventPrefix"] = "SPELL",
+						["use_specific_unit"] = false,
 						["matchesShowOn"] = "showAlways",
 						["genericShowOn"] = "showAlways",
-						["use_specific_unit"] = false,
+						["subeventPrefix"] = "SPELL",
 						["unitExists"] = true,
 						["use_tooltip"] = false,
 						["use_genericShowOn"] = true,
@@ -1574,9 +1574,9 @@ WeakAurasSaved = {
 							"Agony", -- [1]
 						},
 						["unit"] = "target",
-						["spellName"] = 1122,
-						["useName"] = true,
 						["debuffType"] = "HARMFUL",
+						["useName"] = true,
+						["spellName"] = 1122,
 						["unevent"] = "auto",
 						["type"] = "status",
 						["use_debuffClass"] = false,
@@ -1725,7 +1725,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -1735,13 +1735,14 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["width"] = 35,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
+			["desaturate"] = false,
 			["actions"] = {
 				["start"] = {
 				},
@@ -1752,33 +1753,32 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["desaturate"] = false,
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = 136228,
 			["selfPoint"] = "CENTER",
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
-			["uid"] = "ncGeApGvuIk",
-			["frameStrata"] = 1,
-			["auto"] = true,
-			["zoom"] = 0.33,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Summon Infernal 2",
-			["authorOptions"] = {
-			},
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["uid"] = "ncGeApGvuIk",
+			["frameStrata"] = 1,
+			["semver"] = "1.1.1",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
+			["tocversion"] = 80300,
+			["id"] = "Summon Infernal 2",
+			["authorOptions"] = {
+			},
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["config"] = {
 			},
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -1797,7 +1797,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["cooldownEdge"] = false,
 		},
 		["Diffuse Magic 2"] = {
 			["iconSource"] = -1,
@@ -1957,6 +1957,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -1965,26 +1971,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Diffuse Magic 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "VmkiJLVoYSX",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -2067,7 +2067,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Stagger Percent"] = {
 			["outline"] = "OUTLINE",
@@ -2169,7 +2169,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -2184,10 +2187,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_combat"] = true,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
+				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
 					},
@@ -2195,16 +2195,16 @@ WeakAurasSaved = {
 			},
 			["fontSize"] = 13,
 			["shadowXOffset"] = 1,
-			["shadowYOffset"] = -1,
+			["selfPoint"] = "BOTTOM",
 			["regionType"] = "text",
 			["fixedWidth"] = 200,
-			["selfPoint"] = "BOTTOM",
-			["parent"] = "Luxthos - Monk Resources",
+			["shadowYOffset"] = -1,
+			["xOffset"] = 125,
 			["automaticWidth"] = "Auto",
-			["justify"] = "LEFT",
+			["semver"] = "1.1.2",
 			["config"] = {
 			},
-			["semver"] = "1.1.2",
+			["justify"] = "LEFT",
 			["tocversion"] = 80300,
 			["id"] = "Stagger Percent",
 			["color"] = {
@@ -2214,8 +2214,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["width"] = 27.800022125244,
+			["anchorFrameType"] = "SCREEN",
 			["uid"] = "NBFzEhfneMi",
 			["wordWrap"] = "WordWrap",
 			["preferToUpdate"] = false,
@@ -2230,7 +2230,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = 125,
+			["parent"] = "Luxthos - Monk Resources",
 		},
 		["Celestial Infusion"] = {
 			["iconSource"] = -1,
@@ -2358,8 +2358,8 @@ WeakAurasSaved = {
 				},
 				["use_class"] = true,
 				["use_spellknown"] = false,
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["use_level"] = false,
 				["level"] = "60",
 				["use_item_bonusid_equipped"] = true,
@@ -2369,6 +2369,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -2377,26 +2383,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Celestial Infusion",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "UDDp5wkwZ4h",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -2419,7 +2419,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Soulshatter"] = {
 			["iconSource"] = -1,
@@ -2606,20 +2606,13 @@ WeakAurasSaved = {
 				["spellknown"] = 212356,
 				["use_petbattle"] = false,
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["uid"] = "Al0X)xAVSQZ",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["selfPoint"] = "CENTER",
+			["cooldownEdge"] = false,
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["desaturate"] = false,
 			["authorOptions"] = {
 				{
 					["type"] = "toggle",
@@ -2631,22 +2624,34 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [1]
 			},
-			["cooldownEdge"] = false,
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["auto"] = true,
 			["tocversion"] = 80300,
 			["id"] = "Soulshatter",
 			["semver"] = "1.1.1",
 			["frameStrata"] = 1,
 			["width"] = 35,
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["config"] = {
 				["glow"] = false,
 			},
 			["inverse"] = true,
-			["desaturate"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -2686,12 +2691,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["selfPoint"] = "CENTER",
 		},
 		["Faeline Stomp"] = {
 			["iconSource"] = -1,
@@ -2850,6 +2850,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMRIGHT",
+			["xOffset"] = -157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -2858,26 +2864,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMRIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Faeline Stomp",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "btmnJB7OdR9",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -2977,7 +2977,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Blackout Kick - Mistweaver"] = {
 			["iconSource"] = -1,
@@ -3148,9 +3148,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -3159,6 +3156,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -3294,26 +3294,26 @@ WeakAurasSaved = {
 					},
 				}, -- [6]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Blackout Kick - Mistweaver",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "Ra2pQOVr4Tq",
 			["inverse"] = true,
-			["xOffset"] = 25,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 25,
 		},
 		["Incanter's Flow"] = {
 			["iconSource"] = -1,
@@ -3336,8 +3336,8 @@ WeakAurasSaved = {
 						["type"] = "aura2",
 						["useExactSpellId"] = true,
 						["subeventSuffix"] = "_CAST_START",
-						["ownOnly"] = true,
 						["matchesShowOn"] = "showOnActive",
+						["ownOnly"] = true,
 						["event"] = "Health",
 						["unit"] = "player",
 						["unitExists"] = true,
@@ -3475,6 +3475,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -3483,32 +3488,27 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Incanter's Flow",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "RQIjLzyp46H",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Greater Pyroblast"] = {
 			["iconSource"] = -1,
@@ -3709,17 +3709,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spellknown"] = true,
+				["difficulty"] = {
+				},
 				["role"] = {
 					["single"] = "TANK",
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spellknown"] = true,
 				["use_spec"] = true,
 				["use_vehicleUi"] = false,
-				["difficulty"] = {
-				},
+				["use_class"] = true,
 				["use_combat"] = true,
 				["spellknown"] = 203286,
 				["size"] = {
@@ -3732,11 +3732,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "BOTTOM",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -3824,32 +3830,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Greater Pyroblast",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "z4XW3x8IvzL",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -130,
 		},
 		["Arcane Charges - Bar 2"] = {
 			["sparkWidth"] = 10,
@@ -3986,14 +3986,14 @@ WeakAurasSaved = {
 			},
 			["useAdjustededMin"] = true,
 			["regionType"] = "aurabar",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["width"] = 71,
 			["icon_side"] = "RIGHT",
 			["frameStrata"] = 1,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["sparkHidden"] = "NEVER",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["spark"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Arcane Charges - Bar 2",
@@ -4171,15 +4171,15 @@ WeakAurasSaved = {
 			["width"] = 56,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["id"] = "Chi - 2",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkHidden"] = "NEVER",
+			["zoom"] = 0,
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "NEVER",
+			["id"] = "Chi - 2",
 			["spark"] = false,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["uid"] = "1CYbG7QnM2s",
 			["inverse"] = false,
 			["backgroundColor"] = {
@@ -4402,10 +4402,26 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["config"] = {
 				["glow"] = false,
 			},
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["parent"] = "Luxthos - Warlock Cooldowns",
+			["regionType"] = "icon",
+			["cooldown"] = true,
+			["icon"] = true,
+			["xOffset"] = 0,
+			["selfPoint"] = "CENTER",
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
+			["tocversion"] = 80300,
+			["id"] = "Call Fel Lord",
+			["semver"] = "1.1.1",
+			["frameStrata"] = 1,
+			["width"] = 35,
 			["authorOptions"] = {
 				{
 					["type"] = "toggle",
@@ -4417,25 +4433,9 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [1]
 			},
-			["desaturate"] = false,
-			["regionType"] = "icon",
-			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
-			["xOffset"] = 0,
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["zoom"] = 0.33,
-			["auto"] = true,
-			["tocversion"] = 80300,
-			["id"] = "Call Fel Lord",
-			["semver"] = "1.1.1",
-			["frameStrata"] = 1,
-			["width"] = 35,
-			["parent"] = "Luxthos - Warlock Cooldowns",
 			["uid"] = "8lQ1Xngpgvl",
 			["inverse"] = true,
-			["icon"] = true,
+			["cooldownEdge"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -4497,7 +4497,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["cooldownEdge"] = false,
+			["desaturate"] = false,
 		},
 		["Stagger Amount"] = {
 			["outline"] = "OUTLINE",
@@ -4596,7 +4596,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -4613,7 +4613,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_spec"] = true,
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -4624,26 +4624,26 @@ WeakAurasSaved = {
 			},
 			["fontSize"] = 13,
 			["shadowXOffset"] = 1,
-			["automaticWidth"] = "Auto",
+			["xOffset"] = -130,
 			["regionType"] = "text",
 			["fixedWidth"] = 200,
-			["xOffset"] = -130,
-			["parent"] = "Luxthos - Monk Resources",
+			["automaticWidth"] = "Auto",
+			["shadowYOffset"] = -1,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["justify"] = "RIGHT",
+			["semver"] = "1.1.2",
 			["config"] = {
 			},
-			["semver"] = "1.1.2",
+			["justify"] = "RIGHT",
 			["tocversion"] = 80300,
 			["id"] = "Stagger Amount",
-			["width"] = 21.399972915649,
-			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 21.399972915649,
 			["wordWrap"] = "WordWrap",
 			["uid"] = "IGyXCb0TBiv",
 			["selfPoint"] = "BOTTOM",
@@ -4659,7 +4659,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["shadowYOffset"] = -1,
+			["parent"] = "Luxthos - Monk Resources",
 		},
 		["Mana Gem"] = {
 			["iconSource"] = -1,
@@ -4719,10 +4719,10 @@ WeakAurasSaved = {
 						["duration"] = "1",
 						["subeventSuffix"] = "_CAST_START",
 						["event"] = "Item Count",
+						["count"] = "3",
+						["subeventPrefix"] = "SPELL",
 						["spellIds"] = {
 						},
-						["subeventPrefix"] = "SPELL",
-						["count"] = "3",
 						["use_absorbMode"] = true,
 						["names"] = {
 						},
@@ -4850,6 +4850,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -4858,26 +4864,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Mana Gem",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "oc3lWfBG8uw",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -4930,7 +4930,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Utilities - Luxthos",
+			["xOffset"] = 0,
 		},
 		["Ice Block"] = {
 			["iconSource"] = -1,
@@ -5090,6 +5090,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -5098,25 +5103,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Ice Block",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "6sU2ID(UW(P",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -5199,8 +5200,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Mage Utilities - Luxthos"] = {
 			["grow"] = "CUSTOM",
@@ -5275,7 +5275,7 @@ WeakAurasSaved = {
 			},
 			["columnSpace"] = 4,
 			["radius"] = 200,
-			["anchorPerUnit"] = "CUSTOM",
+			["limit"] = 7,
 			["animation"] = {
 				["start"] = {
 					["easeStrength"] = 3,
@@ -5297,11 +5297,11 @@ WeakAurasSaved = {
 				},
 			},
 			["align"] = "CENTER",
-			["anchorPoint"] = "CENTER",
-			["space"] = 4,
+			["useLimit"] = true,
+			["arcLength"] = 360,
 			["desc"] = "Created by Luxthos\nwww.twitch.tv/luxthos",
 			["rotation"] = 0,
-			["arcLength"] = 360,
+			["space"] = 4,
 			["version"] = 15,
 			["subRegions"] = {
 			},
@@ -5321,14 +5321,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["borderInset"] = 1,
+			["uid"] = "YXY98psr7qN",
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["uid"] = "YXY98psr7qN",
+			["borderInset"] = 1,
 			["animate"] = false,
 			["customGrow"] = "function(newPositions, activeRegions)\n    local limit = 8 -- limit of icons per row\n    local rows = 3 -- total rows\n    local spacing = 3 -- spacing between icons\n    \n    -----do not touch-----\n    local check = true\n    local xCount = 0 -- xOffset count\n    local yCount = 0 -- yOffset count\n    local tCount = 0 -- count of all regions before last row\n    \n    local xOffset = 0\n    local yOffset = 0\n    local total = #activeRegions\n    \n    for i, regionData in ipairs(activeRegions) do\n        local region = regionData.region\n        \n        local regionsLeft = total - tCount\n        local rowTotal = 1\n        \n        if total <= limit then\n            rowTotal = total\n        elseif (regionsLeft < limit and xCount < 1) or not check then\n            check = false\n            rowTotal = regionsLeft\n        elseif yCount >= rows-1 then\n            rowTotal = regionsLeft\n        elseif total > limit then\n            rowTotal = limit\n        end\n        \n        xOffset = 0 - (region.width + spacing) / 2 * (rowTotal-1) + (xCount * (region.width + spacing))\n        yOffset = 0 - (region.height + spacing) * yCount -- change '-' to '+' after 0 to grow up instead of down\n        \n        xCount = xCount + 1\n        \n        if yCount < rows-1 and check then -- check for last row\n            tCount = tCount + 1\n            if xCount >= limit then -- check for last region in the row\n                xCount = 0\n                yCount = yCount + 1 -- new row\n            end\n        end\n        \n        newPositions[i] = {xOffset, yOffset}\n    end\nend",
 			["scale"] = 1,
@@ -5337,7 +5337,7 @@ WeakAurasSaved = {
 			["borderEdge"] = "Square Full White",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
-			["sort"] = "none",
+			["anchorPerUnit"] = "CUSTOM",
 			["anchorFrameFrame"] = "WeakAuras:Mage Core - Luxthos",
 			["frameStrata"] = 3,
 			["anchorFrameParent"] = true,
@@ -5347,7 +5347,7 @@ WeakAurasSaved = {
 			["semver"] = "2.0.5",
 			["tocversion"] = 90001,
 			["id"] = "Mage Utilities - Luxthos",
-			["limit"] = 7,
+			["sort"] = "none",
 			["gridWidth"] = 7,
 			["anchorFrameType"] = "SELECTFRAME",
 			["rowSpace"] = 3,
@@ -5360,7 +5360,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["useLimit"] = true,
+			["anchorPoint"] = "CENTER",
 		},
 		["Fireball"] = {
 			["iconSource"] = -1,
@@ -5383,8 +5383,8 @@ WeakAurasSaved = {
 						["type"] = "aura2",
 						["useExactSpellId"] = true,
 						["subeventSuffix"] = "_CAST_START",
-						["ownOnly"] = true,
 						["matchesShowOn"] = "showOnActive",
+						["ownOnly"] = true,
 						["event"] = "Health",
 						["unit"] = "player",
 						["unitExists"] = true,
@@ -5523,6 +5523,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = true,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -5531,25 +5536,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Fireball",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "42FzKD0N7Te",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -5578,8 +5579,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Arcane Intellect"] = {
 			["iconSource"] = -1,
@@ -5602,18 +5602,18 @@ WeakAurasSaved = {
 						["type"] = "custom",
 						["custom_type"] = "status",
 						["unevent"] = "auto",
-						["use_specific_unit"] = false,
 						["names"] = {
 						},
+						["use_specific_unit"] = false,
 						["genericShowOn"] = "showOnActive",
-						["unit"] = "group",
+						["subeventPrefix"] = "SPELL",
 						["event"] = "Chat Message",
 						["events"] = "WA_DELAYED_PLAYER_ENTERING_WORLD, UNIT_AURA, GROUP_ROSTER_UPDATE, PLAYER_REGEN_ENABLED, PLAYER_TARGET_CHANGED",
-						["custom"] = "function()\n    for unit in WA_IterateGroupMembers() do\n        if UnitExists(unit) then\n            if not UnitIsDeadOrGhost(unit) and IsItemInRange(41058, unit) then\n                if WA_GetUnitBuff(unit, 1459) == nil then\n                    return true\n                end\n            end\n        end\n    end\nend",
 						["spellIds"] = {
 						},
+						["custom"] = "function()\n    for unit in WA_IterateGroupMembers() do\n        if UnitExists(unit) then\n            if not UnitIsDeadOrGhost(unit) and IsItemInRange(41058, unit) then\n                if WA_GetUnitBuff(unit, 1459) == nil then\n                    return true\n                end\n            end\n        end\n    end\nend",
 						["check"] = "event",
-						["subeventPrefix"] = "SPELL",
+						["unit"] = "group",
 						["subeventSuffix"] = "_CAST_START",
 						["custom_hide"] = "timed",
 					},
@@ -5708,7 +5708,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Utilities - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -5720,7 +5720,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -5737,26 +5738,25 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/HkqTw-CB7/15",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Arcane Intellect",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "rxQJNm2XzUa",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Mage Utilities - Luxthos",
 			["displayIcon"] = "135932",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/HkqTw-CB7/15",
+			["xOffset"] = 0,
 		},
 		["M+ !keys Shadowlands"] = {
 			["outline"] = "OUTLINE",
@@ -5858,8 +5858,8 @@ WeakAurasSaved = {
 				},
 			},
 			["preferToUpdate"] = true,
-			["justify"] = "CENTER",
 			["semver"] = "4.0.0",
+			["justify"] = "CENTER",
 			["tocversion"] = 90001,
 			["id"] = "M+ !keys Shadowlands",
 			["config"] = {
@@ -6094,7 +6094,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Utilities - Luxthos",
+			["selfPoint"] = "RIGHT",
 			["actions"] = {
 				["start"] = {
 				},
@@ -6104,7 +6104,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -6185,26 +6186,25 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = false,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/HkqTw-CB7/15",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Mirror Image",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "97hT0hDmQE)",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Mage Utilities - Luxthos",
 			["displayIcon"] = "135994",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/HkqTw-CB7/15",
+			["xOffset"] = 0,
 		},
 		["Alter Time"] = {
 			["iconSource"] = -1,
@@ -6236,7 +6236,7 @@ WeakAurasSaved = {
 						["duration"] = "35",
 						["type"] = "aura2",
 						["useExactSpellId"] = false,
-						["spellName"] = 0,
+						["debuffType"] = "HELPFUL",
 						["use_spellName"] = true,
 						["useName"] = true,
 						["subeventSuffix"] = "_CAST_SUCCESS",
@@ -6251,7 +6251,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = true,
-						["debuffType"] = "HELPFUL",
+						["spellName"] = 0,
 						["use_genericShowOn"] = true,
 						["sourceUnit"] = "player",
 						["names"] = {
@@ -6367,6 +6367,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -6375,25 +6380,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Alter Time",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "ihVKp3YCKfV",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -6476,8 +6477,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Fire Blast"] = {
 			["iconSource"] = -1,
@@ -6635,6 +6635,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Core - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -6645,25 +6650,21 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Core - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = -75,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.5,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Fire Blast",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 46,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "pzhlpmkJEdt",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -6848,8 +6849,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -75,
 		},
 		["Jade Ignition"] = {
 			["iconSource"] = -1,
@@ -7013,8 +7013,8 @@ WeakAurasSaved = {
 				},
 				["use_class"] = true,
 				["use_spellknown"] = false,
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["use_level"] = false,
 				["level"] = "60",
 				["use_item_bonusid_equipped"] = true,
@@ -7024,6 +7024,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -7032,26 +7038,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Jade Ignition",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "FwnBB7TqYYZ",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -7074,7 +7074,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Cast Bar (Monk)"] = {
 			["sparkWidth"] = 10,
@@ -7137,12 +7137,12 @@ WeakAurasSaved = {
 						["customStacks"] = "function() return GetSpecialization() end",
 						["realSpellName"] = 0,
 						["use_spellName"] = true,
-						["custom"] = "function() return true end",
+						["events"] = "PLAYER_SPECIALIZATION_CHANGED",
 						["duration"] = "1",
 						["check"] = "event",
 						["spellName"] = 0,
 						["use_track"] = true,
-						["events"] = "PLAYER_SPECIALIZATION_CHANGED",
+						["custom"] = "function() return true end",
 					},
 					["untrigger"] = {
 					},
@@ -7316,15 +7316,15 @@ WeakAurasSaved = {
 			["width"] = 296,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["id"] = "Cast Bar (Monk)",
-			["zoom"] = 0,
+			["sparkHidden"] = "NEVER",
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "NEVER",
+			["id"] = "Cast Bar (Monk)",
 			["spark"] = true,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -7545,6 +7545,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Core - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -7555,25 +7560,21 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Core - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = -25,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Phoenix Flames",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 46,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "GoeaUkcQFJu",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -7687,8 +7688,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -25,
 		},
 		["Celestial Flames"] = {
 			["iconSource"] = -1,
@@ -7827,6 +7827,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -7835,26 +7841,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Celestial Flames",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "tOXgqRkyUCh",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -7883,7 +7883,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Siphon Storm"] = {
 			["iconSource"] = -1,
@@ -8041,8 +8041,8 @@ WeakAurasSaved = {
 				["level_operator"] = "==",
 				["use_class"] = true,
 				["use_spellknown"] = false,
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
@@ -8058,6 +8058,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -8066,25 +8071,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Siphon Storm",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "jKewGotqxp)",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -8113,8 +8114,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Storm, Earth and Fire  - Rotation"] = {
 			["iconSource"] = -1,
@@ -8339,9 +8339,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -8350,6 +8347,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -8485,26 +8485,26 @@ WeakAurasSaved = {
 					},
 				}, -- [7]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Storm, Earth and Fire  - Rotation",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "2ZdFb0SrbRo",
 			["inverse"] = true,
-			["xOffset"] = 125,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 125,
 		},
 		["Energy (Monk - Windwalker)"] = {
 			["sparkWidth"] = 10,
@@ -8560,7 +8560,7 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 40,
 			["selfPoint"] = "CENTER",
-			["semver"] = "2.0.9",
+			["spark"] = false,
 			["barColor"] = {
 				0.90980392156863, -- [1]
 				0.8078431372549, -- [2]
@@ -8679,11 +8679,11 @@ WeakAurasSaved = {
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["sparkHidden"] = "NEVER",
-			["zoom"] = 0,
-			["spark"] = false,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Energy (Monk - Windwalker)",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 296,
 			["config"] = {
@@ -8736,11 +8736,11 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["matchesShowOn"] = "showAlways",
-						["use_powertype"] = true,
 						["use_trackcharge"] = true,
+						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
-						["useName"] = true,
 						["trackcharge"] = "2",
+						["useName"] = true,
 						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
 						["genericShowOn"] = "showAlways",
@@ -8871,22 +8871,22 @@ WeakAurasSaved = {
 			},
 			["version"] = 13,
 			["uid"] = "7ZlIA6w5A74",
-			["sparkDesaturate"] = true,
+			["icon_side"] = "RIGHT",
 			["smoothProgress"] = false,
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["width"] = 146,
 			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkDesaturate"] = true,
+			["zoom"] = 0,
 			["sparkHeight"] = 35,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["zoom"] = 0,
-			["spark"] = true,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Fire Blast - Bar 2",
-			["auto"] = true,
+			["spark"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["sparkColor"] = {
@@ -8920,8 +8920,8 @@ WeakAurasSaved = {
 					["y"] = 0,
 					["x"] = 0,
 					["duration_type"] = "seconds",
-					["rotate"] = 0,
 					["easeStrength"] = 3,
+					["rotate"] = 0,
 					["duration"] = "0.7",
 					["colorA"] = 1,
 				},
@@ -9211,11 +9211,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -9311,32 +9317,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Arcane MIssiles",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "WZWCwKZtxIc",
 			["inverse"] = true,
-			["xOffset"] = -125,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -125,
 		},
 		["Glacial Spike"] = {
 			["iconSource"] = -1,
@@ -9481,10 +9481,10 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "OUTER_TOP",
 					["text_text_format_2.s_format"] = "none",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_fontSize"] = 20,
 					["anchorXOffset"] = 0,
 					["text_text_format_1.s_format"] = "none",
@@ -9522,6 +9522,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Core - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -9530,25 +9535,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Core - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 25,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Glacial Spike",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 46,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "yNhl)pepiM7",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -9611,8 +9612,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 25,
 		},
 		["Stagger Bar"] = {
 			["sparkWidth"] = 10,
@@ -9640,18 +9640,18 @@ WeakAurasSaved = {
 						["type"] = "status",
 						["duration"] = "1",
 						["subeventSuffix"] = "_CAST_START",
-						["use_unit"] = true,
-						["use_absorbMode"] = true,
-						["use_showCost"] = true,
 						["names"] = {
 						},
+						["use_absorbMode"] = true,
+						["event"] = "Power",
+						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["powertype"] = 99,
 						["spellIds"] = {
 						},
 						["use_scaleStagger"] = false,
 						["unit"] = "player",
-						["event"] = "Power",
+						["use_showCost"] = true,
 						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
 					},
@@ -9786,14 +9786,14 @@ WeakAurasSaved = {
 					["text_font"] = "Friz Quadrata TT",
 					["text_shadowYOffset"] = -1,
 					["text_shadowXOffset"] = 1,
-					["text_wordWrap"] = "WordWrap",
+					["text_text_format_c2_format"] = "none",
 					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "INNER_CENTER",
 					["text_anchorYOffset"] = 0,
 					["text_visible"] = true,
 					["text_fontSize"] = 14,
 					["anchorXOffset"] = 0,
-					["text_text_format_c2_format"] = "none",
+					["text_wordWrap"] = "WordWrap",
 				}, -- [3]
 				{
 					["text_text_format_n_format"] = "none",
@@ -9895,15 +9895,15 @@ WeakAurasSaved = {
 			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
 			["icon_side"] = "RIGHT",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["auto"] = true,
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["spark"] = false,
+			["zoom"] = 0,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["sparkHidden"] = "NEVER",
-			["semver"] = "2.0.9",
+			["spark"] = false,
 			["frameStrata"] = 1,
 			["width"] = 296,
 			["uid"] = "OscPAtItWP3",
@@ -10036,8 +10036,8 @@ WeakAurasSaved = {
 						["spellName"] = 265187,
 						["subeventPrefix"] = "SPELL",
 						["type"] = "event",
-						["subeventSuffix"] = "_CAST_SUCCESS",
 						["unevent"] = "timed",
+						["subeventSuffix"] = "_CAST_SUCCESS",
 						["use_showOn"] = true,
 						["useName"] = true,
 						["event"] = "Combat Log",
@@ -10179,31 +10179,19 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
+			["desaturate"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["desaturate"] = false,
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = 538445,
 			["authorOptions"] = {
 			},
-			["url"] = "https://wago.io/rJC-I8rVX/10",
-			["config"] = {
-			},
-			["alpha"] = 1,
-			["semver"] = "1.1.1",
-			["cooldownTextDisabled"] = false,
-			["auto"] = false,
-			["tocversion"] = 80300,
-			["id"] = "Call Observer - Active",
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
-			["frameStrata"] = 1,
-			["width"] = 35,
 			["actions"] = {
 				["start"] = {
 				},
@@ -10212,8 +10200,26 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["config"] = {
+			},
+			["alpha"] = 1,
+			["auto"] = false,
+			["zoom"] = 0.33,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Call Observer - Active",
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["frameStrata"] = 1,
+			["width"] = 35,
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["uid"] = "xzR7mp)ni5B",
 			["inverse"] = false,
+			["url"] = "https://wago.io/rJC-I8rVX/10",
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -10235,12 +10241,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
 		},
 		["Invoke Niuzao, the Black Ox 2"] = {
 			["iconSource"] = 0,
@@ -10259,15 +10259,15 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["track"] = "auto",
-						["use_absorbMode"] = true,
+						["use_totemName"] = true,
 						["spellId"] = "49206",
 						["auranames"] = {
 							"132578", -- [1]
 						},
 						["use_track"] = true,
-						["use_totemName"] = true,
+						["use_absorbMode"] = true,
 						["genericShowOn"] = "showOnCooldown",
-						["unit"] = "player",
+						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["duration"] = "35",
 						["events"] = "PLAYER_TOTEM_UPDATE",
@@ -10293,7 +10293,7 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["sourceUnit"] = "player",
-						["use_unit"] = true,
+						["unit"] = "player",
 					},
 					["untrigger"] = {
 						["custom"] = "function()\n    return aura_env.index == 0\nend",
@@ -10404,9 +10404,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "RIGHT",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -10417,6 +10414,9 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -10493,26 +10493,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Invoke Niuzao, the Black Ox 2",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "GiyTx(5jYyy",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["selfPoint"] = "RIGHT",
 			["displayIcon"] = "608951",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -157,
 		},
 		["Comet Storm"] = {
 			["iconSource"] = -1,
@@ -10706,11 +10706,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "BOTTOM",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -10920,32 +10926,26 @@ WeakAurasSaved = {
 					},
 				}, -- [6]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Comet Storm",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "hx1woZ5KvZi",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -130,
 		},
 		["Monk Core - Luxthos"] = {
 			["controlledChildren"] = {
@@ -11092,9 +11092,14 @@ WeakAurasSaved = {
 			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Monk Core - Luxthos",
-			["uid"] = "UOSjXz3IElw",
+			["config"] = {
+			},
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "UOSjXz3IElw",
+			["borderInset"] = 1,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -11115,18 +11120,13 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["borderInset"] = 1,
-			["config"] = {
-			},
-			["groupIcon"] = "interface/icons/classicon_monk.blp",
 			["conditions"] = {
 			},
 			["information"] = {
 				["groupOffset"] = true,
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["groupIcon"] = "interface/icons/classicon_monk.blp",
 		},
 		["Storm, Earth, and Fire"] = {
 			["iconSource"] = -1,
@@ -11239,12 +11239,9 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 3,
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
 					},
 				},
 				["talent"] = {
@@ -11253,21 +11250,30 @@ WeakAurasSaved = {
 						[6] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "MONK",
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+					},
+				},
 				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_petbattle"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -11275,30 +11281,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_petbattle"] = false,
-				["use_vehicleUi"] = false,
-				["race"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["cooldownTextDisabled"] = true,
+			["zoom"] = 0.33,
 			["uid"] = "dSFfVgWNkLw",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["regionType"] = "icon",
 			["cooldown"] = true,
+			["authorOptions"] = {
+			},
+			["cooldownEdge"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -11307,23 +11305,25 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["cooldownEdge"] = true,
-			["parent"] = "Luxthos - Monk Cooldowns",
 			["width"] = 35,
 			["frameStrata"] = 1,
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = true,
 			["semver"] = "1.1.1",
 			["tocversion"] = 80300,
 			["id"] = "Storm, Earth, and Fire",
 			["auto"] = true,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -11352,7 +11352,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 		},
 		["Soulshape (Mage)"] = {
 			["iconSource"] = -1,
@@ -11516,6 +11516,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -11524,26 +11530,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = 157,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Soulshape (Mage)",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "jbYHH4oHEMv",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -11626,7 +11626,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = 157,
 		},
 		["Purified Chi"] = {
 			["iconSource"] = -1,
@@ -11800,6 +11800,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -11808,26 +11814,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Purified Chi",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "pNZBrVUkjxG",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -11856,7 +11856,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Brew Duration"] = {
 			["user_y"] = 0,
@@ -12152,6 +12152,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["single"] = "MONK",
+					["multi"] = {
+					},
+				},
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
@@ -12159,18 +12164,7 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["use_spec"] = true,
 				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -12178,12 +12172,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -12258,7 +12258,7 @@ WeakAurasSaved = {
 						["use_track"] = true,
 						["unit"] = "player",
 						["use_genericShowOn"] = true,
-						["spellName"] = 0,
+						["debuffType"] = "HELPFUL",
 						["type"] = "aura2",
 						["useName"] = true,
 						["subeventSuffix"] = "_CAST_SUCCESS",
@@ -12272,7 +12272,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = true,
-						["debuffType"] = "HELPFUL",
+						["spellName"] = 0,
 						["use_totemName"] = true,
 						["sourceUnit"] = "player",
 						["use_unit"] = true,
@@ -12394,6 +12394,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -12404,25 +12409,21 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Shared Legendary (Mage)",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "62tS7nQGhnj",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -12456,8 +12457,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Details! Aura Group"] = {
 			["grow"] = "RIGHT",
@@ -12567,7 +12567,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["internalVersion"] = 40,
+			["authorOptions"] = {
+			},
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -12597,15 +12598,14 @@ WeakAurasSaved = {
 			["animate"] = true,
 			["limit"] = 5,
 			["scale"] = 1,
-			["authorOptions"] = {
-			},
+			["stagger"] = 0,
 			["border"] = false,
 			["borderEdge"] = "Square Full White",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
 			["sort"] = "none",
 			["arcLength"] = 360,
-			["useLimit"] = false,
+			["internalVersion"] = 40,
 			["constantFactor"] = "RADIUS",
 			["uid"] = "bZm2jU5UoBB",
 			["borderOffset"] = 16,
@@ -12618,14 +12618,14 @@ WeakAurasSaved = {
 			["borderInset"] = 0,
 			["config"] = {
 			},
-			["stagger"] = 0,
+			["fullCircle"] = true,
 			["gridType"] = "RD",
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["fullCircle"] = true,
+			["useLimit"] = false,
 		},
 		["Molten Skyfall"] = {
 			["iconSource"] = -1,
@@ -12654,17 +12654,17 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["duration"] = "35",
-						["debuffType"] = "HELPFUL",
-						["subeventSuffix"] = "_CAST_SUCCESS",
+						["spellName"] = 0,
+						["useExactSpellId"] = true,
 						["type"] = "aura2",
 						["use_spellId"] = true,
-						["spellName"] = 0,
-						["unevent"] = "auto",
-						["useName"] = false,
-						["useExactSpellId"] = true,
+						["debuffType"] = "HELPFUL",
 						["auraspellids"] = {
 							"333182", -- [1]
 						},
+						["useName"] = false,
+						["subeventSuffix"] = "_CAST_SUCCESS",
+						["unevent"] = "auto",
 						["unit"] = "player",
 						["ownOnly"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -12824,8 +12824,8 @@ WeakAurasSaved = {
 				["level_operator"] = "==",
 				["use_class"] = true,
 				["use_spellknown"] = false,
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
@@ -12841,6 +12841,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = true,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = true,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -12849,25 +12854,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Molten Skyfall",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "h2I37W0f8Ca",
 			["inverse"] = false,
-			["cooldownEdge"] = true,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -12894,8 +12895,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Blast Wave"] = {
 			["iconSource"] = -1,
@@ -13032,6 +13032,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -13040,26 +13046,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["tocversion"] = 90001,
 			["id"] = "Blast Wave",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["uid"] = "L(YA0kKO8Tz",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Mage Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -13115,7 +13115,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Icicles - Bar 2"] = {
 			["sparkWidth"] = 10,
@@ -13281,15 +13281,15 @@ WeakAurasSaved = {
 			["width"] = 56,
 			["alpha"] = 1,
 			["icon_side"] = "RIGHT",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["auto"] = true,
+			["zoom"] = 0,
+			["spark"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Icicles - Bar 2",
-			["spark"] = false,
+			["auto"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["uid"] = "hg27Mv5Whrv",
@@ -13494,18 +13494,18 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["spark"] = false,
+			["auto"] = true,
 			["smoothProgress"] = false,
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["width"] = 146,
 			["frameStrata"] = 1,
 			["icon_side"] = "RIGHT",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["auto"] = true,
-			["zoom"] = 0,
+			["spark"] = false,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["semver"] = "2.0.5",
 			["tocversion"] = 90001,
 			["sparkHidden"] = "NEVER",
@@ -13559,8 +13559,8 @@ WeakAurasSaved = {
 						["spellName"] = 265187,
 						["unit"] = "player",
 						["type"] = "aura2",
-						["subeventSuffix"] = "_CAST_SUCCESS",
 						["unevent"] = "timed",
+						["subeventSuffix"] = "_CAST_SUCCESS",
 						["use_showOn"] = true,
 						["names"] = {
 						},
@@ -13703,7 +13703,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -13713,13 +13713,14 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["width"] = 35,
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
+			["desaturate"] = false,
 			["actions"] = {
 				["start"] = {
 				},
@@ -13728,34 +13729,33 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["desaturate"] = false,
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = 2065628,
 			["authorOptions"] = {
 			},
-			["url"] = "https://wago.io/rJC-I8rVX/10",
+			["xOffset"] = 0,
 			["uid"] = "BxOFN4Z7c2S",
 			["alpha"] = 1,
-			["semver"] = "1.1.1",
-			["cooldownTextDisabled"] = false,
 			["auto"] = false,
+			["zoom"] = 0.33,
+			["semver"] = "1.1.1",
 			["tocversion"] = 80300,
 			["id"] = "Summon Demonic Tyrant - Active",
 			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["xOffset"] = 0,
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/rJC-I8rVX/10",
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["selfPoint"] = "CENTER",
 		},
 		["Chrono Shift"] = {
 			["iconSource"] = -1,
@@ -13887,6 +13887,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -13895,26 +13901,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.45,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Chrono Shift",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "zQbr4aAm)wU",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Mage Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -13943,7 +13943,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Detox - Mistweaver"] = {
 			["iconSource"] = -1,
@@ -14064,6 +14064,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "LEFT",
+			["xOffset"] = 157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -14072,26 +14078,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "LEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Detox - Mistweaver",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "3kTa4jUE0kI",
 			["inverse"] = true,
-			["xOffset"] = 157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -14147,7 +14147,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Pyroclasm"] = {
 			["iconSource"] = -1,
@@ -14332,6 +14332,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -14340,26 +14346,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = -130,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Pyroclasm",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "(NmsaBshFbi",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -14459,7 +14459,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = -130,
 		},
 		["Fleshcraft (Mage)"] = {
 			["iconSource"] = -1,
@@ -14623,6 +14623,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -14631,26 +14637,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = 157,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Fleshcraft (Mage)",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "fYHoYXPI7kp",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -14733,7 +14733,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = 157,
 		},
 		["Provoke - Mistweaver & Windwalker"] = {
 			["iconSource"] = -1,
@@ -14856,6 +14856,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -14864,26 +14870,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Provoke - Mistweaver & Windwalker",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "fIjWxPNjwoo",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -14939,7 +14939,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Dark Soul: Misery - Active"] = {
 			["iconSource"] = -1,
@@ -15125,7 +15125,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -15135,42 +15135,42 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["width"] = 35,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
+			["desaturate"] = false,
 			["authorOptions"] = {
 			},
-			["desaturate"] = false,
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = "",
 			["icon"] = true,
-			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
 			["uid"] = "YOUuc)G8Qad",
 			["frameStrata"] = 1,
-			["auto"] = true,
-			["zoom"] = 0.33,
 			["semver"] = "1.1.1",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 80300,
 			["id"] = "Dark Soul: Misery - Active",
 			["cooldownEdge"] = true,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "CENTER",
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["stickyDuration"] = false,
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["xOffset"] = 0,
 		},
 		["Door of Shadows (Monk)"] = {
 			["iconSource"] = -1,
@@ -15290,6 +15290,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["xOffset"] = 157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -15298,26 +15304,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Door of Shadows (Monk)",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "suPVcGZOhzI",
 			["inverse"] = true,
-			["xOffset"] = 157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -15373,7 +15373,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Mage Dynamic - Luxthos"] = {
 			["grow"] = "GRID",
@@ -15446,10 +15446,25 @@ WeakAurasSaved = {
 			["align"] = "CENTER",
 			["desc"] = "Created by Luxthos\nwww.twitch.tv/luxthos",
 			["stagger"] = 0,
-			["config"] = {
-			},
+			["borderInset"] = 1,
 			["version"] = 13,
 			["subRegions"] = {
+			},
+			["rowSpace"] = 3,
+			["groupIcon"] = "interface/icons/classicon_mage.blp",
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
 			},
 			["animation"] = {
 				["start"] = {
@@ -15471,29 +15486,13 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["rowSpace"] = 3,
-			["load"] = {
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["useLimit"] = false,
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["groupIcon"] = "interface/icons/classicon_mage.blp",
+			["rotation"] = 0,
 			["animate"] = false,
 			["fullCircle"] = true,
 			["scale"] = 1,
@@ -15503,7 +15502,8 @@ WeakAurasSaved = {
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
 			["limit"] = 5,
-			["uid"] = "AusgyuDy71Q",
+			["config"] = {
+			},
 			["sort"] = "none",
 			["anchorFrameParent"] = true,
 			["constantFactor"] = "RADIUS",
@@ -15516,7 +15516,7 @@ WeakAurasSaved = {
 			["gridWidth"] = 3,
 			["anchorFrameType"] = "SELECTFRAME",
 			["borderEdge"] = "Square Full White",
-			["borderInset"] = 1,
+			["uid"] = "AusgyuDy71Q",
 			["xOffset"] = 147,
 			["internalVersion"] = 40,
 			["conditions"] = {
@@ -15524,7 +15524,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["rotation"] = 0,
+			["useLimit"] = false,
 		},
 		["Grimoire: Felguard"] = {
 			["iconSource"] = -1,
@@ -15684,7 +15684,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -15694,46 +15694,19 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["config"] = {
 				["glow"] = false,
 			},
-			["stickyDuration"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["cooldownEdge"] = false,
+			["desaturate"] = false,
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["parent"] = "Luxthos - Warlock Cooldowns",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["cooldownEdge"] = false,
-			["width"] = 35,
-			["alpha"] = 1,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Grimoire: Felguard",
-			["auto"] = true,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["desaturate"] = false,
-			["uid"] = "5Lfosh4003h",
-			["inverse"] = true,
 			["authorOptions"] = {
 				{
 					["type"] = "toggle",
@@ -15745,6 +15718,28 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [1]
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["parent"] = "Luxthos - Warlock Cooldowns",
+			["width"] = 35,
+			["alpha"] = 1,
+			["zoom"] = 0.33,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Grimoire: Felguard",
+			["auto"] = true,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["uid"] = "5Lfosh4003h",
+			["inverse"] = true,
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -15806,7 +15801,12 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Arcane Intellect (Battleground)"] = {
 			["iconSource"] = -1,
@@ -15929,9 +15929,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Mage Utilities - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -15942,6 +15939,9 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
+			["parent"] = "Mage Utilities - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/HkqTw-CB7/15",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -15958,26 +15958,26 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["url"] = "https://wago.io/HkqTw-CB7/15",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.5",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Arcane Intellect (Battleground)",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "gJsVoP7azdc",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "135932",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Nether Tempest"] = {
 			["iconSource"] = -1,
@@ -16029,8 +16029,8 @@ WeakAurasSaved = {
 						["combineMode"] = "showLowest",
 						["debuffType"] = "HARMFUL",
 						["useName"] = true,
-						["match_countOperator"] = ">=",
 						["useExactSpellId"] = false,
+						["match_countOperator"] = ">=",
 						["group_countOperator"] = ">=",
 						["subeventSuffix"] = "_CAST_START",
 						["event"] = "Health",
@@ -16198,6 +16198,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -16206,26 +16212,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = -130,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Nether Tempest",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "VWfTcYV3uNd",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -16357,7 +16357,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = -130,
 		},
 		["Jade Serpent Statue - Bar"] = {
 			["sparkWidth"] = 10,
@@ -16391,8 +16391,8 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["matchesShowOn"] = "showAlways",
 						["useName"] = true,
-						["custom_type"] = "status",
 						["subeventSuffix"] = "_CAST_START",
+						["custom_type"] = "status",
 						["unit"] = "player",
 						["unevent"] = "auto",
 						["event"] = "Power",
@@ -16400,8 +16400,8 @@ WeakAurasSaved = {
 						},
 						["customDuration"] = "function()\n    return aura_env.duration, aura_env.expiration;\nend",
 						["customName"] = "function()\n    return aura_env.targetName\nend",
-						["custom"] = "function(event, timestamp, subEvent, hideCaster, sourceGUID, sourceName, sourceFlags, sourceRaidFlags, destGUID, destName, destFlags, destRaidFlags, spellId)\n    -- JSS is a friendly guardian that is owned by me, so the sourceFlags should be 0x02111, or 8465 in decimal, or 0x12111 or 74001 in decimal if it's targetting itself\n    -- since JSS only casts 1 spell, which is soothing mist, we don't need to check what spell he casted\n    -- spellId == 198533\n    \n    if  (subEvent ==\"SPELL_AURA_APPLIED\" or subEvent==\"SPELL_AURA_REFRESH\") and spellId == 198533 then\n        if (sourceFlags == 8465 or sourceFlags == 74001) then   \n            -- There is no way to dynamically get the cast duration via API in case for a casting totem with a non unique name, hence I have to calculate the cast time on my own via haste.\n            \n            aura_env.expiration = aura_env.expiration or 0\n            \n            \n            local rating = WeakAuras.GetTriggerStateForTrigger(aura_env.id, 4)[\"\"].hastepercent\n            local baseCastTime =  8\n            local castTime = baseCastTime / (1+rating/100);\n            \n            \n            local remaining = 0\n            \n            -- check if there is time remaining of the channel on the current target\n            if(aura_env.start ~= GetTime()) then -- ignore double triggers\n                if  (aura_env.expiration > GetTime()) then\n                    remaining = aura_env.expiration - GetTime()                    \n                end \n            end\n            aura_env.start = GetTime()  \n            \n            local duration = min(castTime + remaining,castTime*1.3)           \n            \n            aura_env.targetName = destName  \n            aura_env.expiration = GetTime()+duration\n            aura_env.duration = duration\n            return true \n            \n        end\n    end\nend",
 						["events"] = "COMBAT_LOG_EVENT_UNFILTERED",
+						["custom"] = "function(event, timestamp, subEvent, hideCaster, sourceGUID, sourceName, sourceFlags, sourceRaidFlags, destGUID, destName, destFlags, destRaidFlags, spellId)\n    -- JSS is a friendly guardian that is owned by me, so the sourceFlags should be 0x02111, or 8465 in decimal, or 0x12111 or 74001 in decimal if it's targetting itself\n    -- since JSS only casts 1 spell, which is soothing mist, we don't need to check what spell he casted\n    -- spellId == 198533\n    \n    if  (subEvent ==\"SPELL_AURA_APPLIED\" or subEvent==\"SPELL_AURA_REFRESH\") and spellId == 198533 then\n        if (sourceFlags == 8465 or sourceFlags == 74001) then   \n            -- There is no way to dynamically get the cast duration via API in case for a casting totem with a non unique name, hence I have to calculate the cast time on my own via haste.\n            \n            aura_env.expiration = aura_env.expiration or 0\n            \n            \n            local rating = WeakAuras.GetTriggerStateForTrigger(aura_env.id, 4)[\"\"].hastepercent\n            local baseCastTime =  8\n            local castTime = baseCastTime / (1+rating/100);\n            \n            \n            local remaining = 0\n            \n            -- check if there is time remaining of the channel on the current target\n            if(aura_env.start ~= GetTime()) then -- ignore double triggers\n                if  (aura_env.expiration > GetTime()) then\n                    remaining = aura_env.expiration - GetTime()                    \n                end \n            end\n            aura_env.start = GetTime()  \n            \n            local duration = min(castTime + remaining,castTime*1.3)           \n            \n            aura_env.targetName = destName  \n            aura_env.expiration = GetTime()+duration\n            aura_env.duration = duration\n            return true \n            \n        end\n    end\nend",
 						["check"] = "event",
 						["type"] = "custom",
 						["duration"] = "1",
@@ -16482,7 +16482,7 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 40,
 			["selfPoint"] = "CENTER",
-			["spark"] = true,
+			["semver"] = "2.0.9",
 			["barColor"] = {
 				0.10196078431373, -- [1]
 				0.70980392156863, -- [2]
@@ -16589,8 +16589,8 @@ WeakAurasSaved = {
 					["y"] = 0,
 					["x"] = 0,
 					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
 					["rotate"] = 0,
+					["easeStrength"] = 3,
 					["duration"] = "0.8",
 					["colorA"] = 1,
 				},
@@ -16653,11 +16653,11 @@ WeakAurasSaved = {
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["id"] = "Jade Serpent Statue - Bar",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["semver"] = "2.0.9",
+			["zoom"] = 0,
+			["spark"] = true,
 			["tocversion"] = 90001,
 			["sparkHidden"] = "NEVER",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["alpha"] = 1,
 			["width"] = 296,
 			["sparkColor"] = {
@@ -16860,6 +16860,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = -157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -16868,26 +16874,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Fortifying Brew 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "eDC6qNeuSoh",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -16966,7 +16966,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Luxthos - Combo 5.3 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -17014,10 +17014,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -17027,33 +17027,33 @@ WeakAurasSaved = {
 						[8] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_talent"] = false,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -17095,21 +17095,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "2",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -17513,14 +17513,14 @@ WeakAurasSaved = {
 						0, -- [3]
 						1, -- [4]
 					},
-					["text_text_format_2.p_time_precision"] = 1,
+					["text_text_format_3.p_time_precision"] = 0,
 					["text_selfPoint"] = "CENTER",
 					["text_automaticWidth"] = "Auto",
 					["text_fixedWidth"] = 64,
-					["text_text_format_s.p_time_dynamic"] = false,
+					["text_text_format_2.p_time_dynamic"] = false,
 					["anchorYOffset"] = 0,
 					["text_justify"] = "CENTER",
-					["text_text_format_s.p_time_precision"] = 1,
+					["text_text_format_2.p_time_precision"] = 1,
 					["text_anchorPoint"] = "OUTER_TOP",
 					["text_text_format_2.p_format"] = "timed",
 					["text_visible"] = true,
@@ -17533,14 +17533,14 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_text_format_2.p_time_dynamic"] = false,
+					["text_text_format_s.p_time_dynamic"] = false,
 					["text_shadowYOffset"] = 0,
 					["text_text_format_3.p_time_dynamic"] = false,
 					["text_wordWrap"] = "WordWrap",
 					["text_fontType"] = "OUTLINE",
 					["text_text_format_3.p_format"] = "timed",
-					["text_text_format_3.p_time_precision"] = 0,
 					["rotateText"] = "NONE",
+					["text_text_format_s.p_time_precision"] = 1,
 					["text_fontSize"] = 20,
 					["anchorXOffset"] = 0,
 					["text_text_format_p_time_dynamic"] = false,
@@ -17580,11 +17580,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -17664,32 +17670,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.5,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Blizzard",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.5,
 			["uid"] = "D)avUCiKGVz",
 			["inverse"] = true,
-			["xOffset"] = 75,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = 75,
 		},
 		["Chi Burst 2"] = {
 			["iconSource"] = -1,
@@ -17717,9 +17717,9 @@ WeakAurasSaved = {
 						},
 						["debuffType"] = "HELPFUL",
 						["track"] = "auto",
-						["type"] = "status",
-						["unevent"] = "auto",
+						["spell"] = "206931",
 						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 123986,
 						["genericShowOn"] = "showAlways",
 						["event"] = "Cooldown Progress (Spell)",
@@ -17730,7 +17730,7 @@ WeakAurasSaved = {
 						},
 						["subeventPrefix"] = "SPELL",
 						["use_absorbMode"] = true,
-						["spell"] = "206931",
+						["type"] = "status",
 						["use_track"] = true,
 						["duration"] = "1",
 					},
@@ -17815,6 +17815,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -17823,26 +17829,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Chi Burst 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "(cuvwCtEpHu",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -17898,7 +17898,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Leg Sweep"] = {
 			["iconSource"] = -1,
@@ -18007,10 +18007,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
-						true, -- [1]
-						[3] = true,
+						["ROGUE"] = true,
 					},
 				},
 				["talent"] = {
@@ -18023,28 +18023,28 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
 					["multi"] = {
-						["ROGUE"] = true,
+						true, -- [1]
+						[3] = true,
+					},
+				},
+				["use_class"] = true,
+				["faction"] = {
+					["multi"] = {
 					},
 				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
 				["use_spellknown"] = false,
 				["use_vehicleUi"] = false,
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -18058,34 +18058,40 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["config"] = {
 			},
-			["desaturate"] = false,
-			["authorOptions"] = {
-			},
+			["parent"] = "Luxthos - Monk Interrupts",
+			["url"] = "https://wago.io/H1nU4F9rQ/5",
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["selfPoint"] = "CENTER",
-			["parent"] = "Luxthos - Monk Interrupts",
+			["stickyDuration"] = false,
 			["width"] = 35,
 			["frameStrata"] = 1,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["auto"] = true,
 			["tocversion"] = 80300,
 			["id"] = "Leg Sweep",
 			["semver"] = "1.1.1",
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/H1nU4F9rQ/5",
+			["desaturate"] = false,
 			["uid"] = "yoZWRHbnPRz",
 			["inverse"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
 			},
 			["conditions"] = {
 				{
@@ -18114,13 +18120,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["authorOptions"] = {
 			},
 		},
 		["Roll 2"] = {
@@ -18299,6 +18299,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -18307,26 +18313,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Roll 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "eAy70Ob6213",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -18581,7 +18581,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Luxthos - Combo 5.2 - Under 45 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -18665,7 +18665,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -18675,7 +18675,7 @@ WeakAurasSaved = {
 				},
 				["level_operator"] = "<",
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -18712,21 +18712,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "status",
 						["power"] = "1",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -19090,12 +19090,9 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
 					},
 				},
 				["talent"] = {
@@ -19105,25 +19102,25 @@ WeakAurasSaved = {
 						[6] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "MONK",
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
 					},
 				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["use_spec"] = true,
+				["use_class"] = true,
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -19131,41 +19128,28 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["race"] = {
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
 					["multi"] = {
 					},
 				},
 				["use_combat"] = true,
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
-			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/SJpy7K9S7/6",
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["parent"] = "Luxthos - Monk Cooldowns",
-			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["width"] = 35,
-			["frameStrata"] = 1,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Zen Meditation",
-			["auto"] = true,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/SJpy7K9S7/6",
-			["uid"] = "Zs2ApWyeH45",
-			["inverse"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -19174,6 +19158,22 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["xOffset"] = 0,
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["width"] = 35,
+			["frameStrata"] = 1,
+			["zoom"] = 0.33,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Zen Meditation",
+			["auto"] = true,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "Zs2ApWyeH45",
+			["inverse"] = true,
+			["stickyDuration"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -19202,7 +19202,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["stickyDuration"] = false,
+			["desaturate"] = false,
 		},
 		["Freeze"] = {
 			["iconSource"] = -1,
@@ -19277,8 +19277,8 @@ WeakAurasSaved = {
 						["type"] = "status",
 						["use_track"] = true,
 						["unevent"] = "auto",
-						["use_inverse"] = true,
 						["duration"] = "1",
+						["use_inverse"] = true,
 						["genericShowOn"] = "showOnCooldown",
 						["use_talent"] = true,
 						["realSpellName"] = 0,
@@ -19370,6 +19370,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -19378,25 +19383,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Freeze",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "BQ5(CdDu30g",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -19452,8 +19453,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Monk Dynamic - Luxthos"] = {
 			["grow"] = "GRID",
@@ -19523,12 +19523,13 @@ WeakAurasSaved = {
 			["align"] = "CENTER",
 			["desc"] = "Created by Luxthos\nwww.twitch.tv/luxthos",
 			["rotation"] = 0,
-			["uid"] = "hhhxLNPVkl0",
+			["borderInset"] = 1,
 			["version"] = 14,
 			["subRegions"] = {
 			},
-			["stagger"] = 0,
-			["selfPoint"] = "CENTER",
+			["groupIcon"] = "interface/icons/classicon_monk.blp",
+			["authorOptions"] = {
+			},
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -19550,18 +19551,17 @@ WeakAurasSaved = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["groupIcon"] = "interface/icons/classicon_monk.blp",
+			["selfPoint"] = "CENTER",
 			["animate"] = false,
-			["fullCircle"] = true,
+			["rowSpace"] = 3,
 			["scale"] = 1,
-			["arcLength"] = 360,
+			["internalVersion"] = 40,
 			["border"] = false,
 			["anchorFrameFrame"] = "WeakAuras:Luxthos - Monk Rotations",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
 			["limit"] = 5,
-			["config"] = {
-			},
+			["uid"] = "hhhxLNPVkl0",
 			["sort"] = "none",
 			["anchorFrameParent"] = true,
 			["constantFactor"] = "RADIUS",
@@ -19573,16 +19573,6 @@ WeakAurasSaved = {
 			["borderEdge"] = "Square Full White",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SELECTFRAME",
-			["internalVersion"] = 40,
-			["borderInset"] = 1,
-			["rowSpace"] = 3,
-			["authorOptions"] = {
-			},
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -19603,6 +19593,16 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["config"] = {
+			},
+			["arcLength"] = 360,
+			["fullCircle"] = true,
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
+			["stagger"] = 0,
 		},
 		["Weapons of Order"] = {
 			["iconSource"] = -1,
@@ -19743,6 +19743,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMRIGHT",
+			["xOffset"] = -157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -19751,26 +19757,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMRIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Weapons of Order",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "KoZUK25CA8X",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -19853,7 +19853,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Blink"] = {
 			["iconSource"] = -1,
@@ -20008,6 +20008,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -20016,25 +20021,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Blink",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "3vV8Zo0Bv4m",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -20197,8 +20198,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["ZenMouse Cursor - BlueCircle"] = {
 			["color"] = {
@@ -20256,7 +20256,7 @@ WeakAurasSaved = {
 					["colorR"] = 1,
 					["colorB"] = 1,
 					["use_rotate"] = true,
-					["scalex"] = 1.5,
+					["use_scale"] = true,
 					["colorA"] = 1,
 					["rotateFunc"] = "function(progress, start, delta)\n    return start + (progress * delta)\nend\n",
 					["alphaType"] = "straight",
@@ -20267,22 +20267,22 @@ WeakAurasSaved = {
 					["easeStrength"] = 3,
 					["use_translate"] = true,
 					["use_alpha"] = false,
-					["use_color"] = false,
-					["scaleType"] = "custom",
+					["scaley"] = 1.5,
+					["type"] = "custom",
 					["colorType"] = "straightColor",
 					["easeType"] = "none",
 					["translateFunc"] = "function(progress, startX, startY, deltaX, deltaY)\n    local scale = 1 / UIParent:GetEffectiveScale()\n    local x, y =  GetCursorPosition()\n    return x * scale, y * scale\n    --return x * 1.568, y * 1.568\nend",
-					["scaley"] = 1.5,
+					["use_color"] = false,
 					["alpha"] = 0,
 					["translateType"] = "custom",
 					["y"] = 0,
 					["x"] = 0,
-					["type"] = "custom",
+					["scaleType"] = "custom",
 					["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n    local angle = (progress * 2 * math.pi) - (math.pi / 2)\n    return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\nend",
 					["colorFunc"] = "function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
 					["rotate"] = 360,
 					["duration_type"] = "seconds",
-					["use_scale"] = true,
+					["scalex"] = 1.5,
 				},
 				["finish"] = {
 					["type"] = "none",
@@ -20330,7 +20330,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -20342,7 +20342,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -20496,6 +20496,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -20504,26 +20510,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Song of Chi-ji",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "fk1S531mzsj",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -20579,7 +20579,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Heating Up"] = {
 			["iconSource"] = -1,
@@ -20704,7 +20704,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -20714,7 +20714,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -20746,26 +20747,25 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Heating Up",
 			["frameStrata"] = 3,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "GuZEN22OcKY",
 			["inverse"] = false,
-			["xOffset"] = -125,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -125,
 		},
 		["Ancient Teachings of the Monastery"] = {
 			["iconSource"] = -1,
@@ -20941,6 +20941,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -20949,26 +20955,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Ancient Teachings of the Monastery",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "ph(FIcQZWN9",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -20997,7 +20997,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Touch of Death - Windwalker"] = {
 			["iconSource"] = -1,
@@ -21048,18 +21048,18 @@ WeakAurasSaved = {
 						["type"] = "status",
 						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
-						["unit"] = "player",
-						["duration"] = "1",
-						["genericShowOn"] = "showOnCooldown",
 						["names"] = {
 						},
+						["use_genericShowOn"] = true,
+						["genericShowOn"] = "showOnCooldown",
+						["unit"] = "player",
 						["realSpellName"] = 0,
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["event"] = "Spell Known",
 						["subeventPrefix"] = "SPELL",
-						["use_genericShowOn"] = true,
+						["duration"] = "1",
 						["use_track"] = true,
 						["debuffType"] = "HELPFUL",
 					},
@@ -21141,6 +21141,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = -157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -21149,26 +21155,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Touch of Death - Windwalker",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "wKPYp0S35DC",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -21294,7 +21294,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["ZT - Nnoggie's Party CD Front End"] = {
 			["textFlags"] = "OUTLINE",
@@ -24856,11 +24856,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -25081,14 +25081,14 @@ WeakAurasSaved = {
 				0.5, -- [4]
 			},
 			["sparkHidden"] = "NEVER",
-			["displayTextRight"] = "%p",
 			["semver"] = "1.0.26",
+			["displayTextRight"] = "%p",
 			["customTextUpdate"] = "event",
 			["rotateText"] = "NONE",
 			["border"] = true,
 			["borderEdge"] = "1 Pixel",
-			["borderSize"] = 1,
 			["borderInFront"] = true,
+			["borderSize"] = 1,
 			["config"] = {
 				["display"] = {
 					["attachTo"] = 1,
@@ -25132,14 +25132,14 @@ WeakAurasSaved = {
 						["rowPERSONAL"] = 1,
 						["rowSTHARDCC"] = 1,
 						["enabledSTSOFTCC"] = false,
-						["showOwnPERSONAL"] = true,
+						["enabledEXTERNAL"] = true,
 						["showOwnUTILITY"] = true,
 						["rowHARDCC"] = 2,
 						["showOwnSTHARDCC"] = true,
 						["rowSTSOFTCC"] = 1,
 						["rowBREZ"] = 1,
 						["rowDAMAGE"] = 1,
-						["enabledEXTERNAL"] = true,
+						["showOwnPERSONAL"] = true,
 						["rowUTILITY"] = 2,
 						["showOwnHARDCC"] = true,
 						["enabledINTERRUPT"] = false,
@@ -25198,11 +25198,11 @@ WeakAurasSaved = {
 							["262228"] = false,
 							["275699"] = false,
 							["266779"] = false,
-							["106951"] = false,
-							["319454"] = false,
 							["288613"] = false,
+							["319454"] = false,
+							["106951"] = false,
 							["343721"] = false,
-							["277925"] = false,
+							["202770"] = false,
 							["113858"] = false,
 							["231895"] = false,
 							["115989"] = false,
@@ -25210,7 +25210,7 @@ WeakAurasSaved = {
 							["192249"] = false,
 							["152173"] = false,
 							["191634"] = false,
-							["202770"] = false,
+							["277925"] = false,
 							["63560"] = false,
 							["51690"] = false,
 							["265187"] = false,
@@ -25233,20 +25233,20 @@ WeakAurasSaved = {
 						},
 						["INTERRUPT"] = {
 							["116705"] = false,
-							["147362"] = false,
+							["31935"] = false,
 							["15487"] = false,
 							["1766"] = false,
 							["183752"] = false,
 							["187707"] = false,
-							["31935"] = false,
+							["147362"] = false,
 							["2139"] = false,
-							["106839"] = false,
+							["57994"] = false,
 							["47528"] = false,
 							["96231"] = false,
 							["89766"] = false,
 							["6552"] = false,
 							["78675"] = false,
-							["57994"] = false,
+							["106839"] = false,
 							["19647"] = false,
 						},
 						["UTILITY"] = {
@@ -25255,9 +25255,9 @@ WeakAurasSaved = {
 							["1725"] = false,
 							["106898"] = false,
 							["199483"] = false,
-							["57934"] = false,
-							["235219"] = false,
 							["188501"] = false,
+							["235219"] = false,
+							["57934"] = false,
 							["205636"] = false,
 							["192077"] = false,
 							["114018"] = false,
@@ -25361,7 +25361,7 @@ WeakAurasSaved = {
 							["102558"] = false,
 							["212084"] = false,
 							["322507"] = false,
-							["871"] = false,
+							["263648"] = false,
 							["115176"] = false,
 							["204066"] = false,
 							["50334"] = false,
@@ -25369,7 +25369,7 @@ WeakAurasSaved = {
 							["12975"] = false,
 							["80313"] = false,
 							["132578"] = false,
-							["263648"] = false,
+							["871"] = false,
 							["55233"] = false,
 							["115546"] = true,
 							["187827"] = false,
@@ -25472,11 +25472,11 @@ WeakAurasSaved = {
 							["287712"] = false,
 							["107570"] = false,
 							["22570"] = false,
-							["Asphyxiate"] = false,
-							["6789"] = false,
 							["88625"] = false,
-							["211881"] = false,
 							["64044"] = false,
+							["Asphyxiate"] = false,
+							["211881"] = false,
+							["6789"] = false,
 							["19577"] = false,
 						},
 					},
@@ -25687,6 +25687,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -25695,25 +25700,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Prismatic Barrier",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "9zJFOlgmM0m",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -25820,8 +25821,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Revival 2"] = {
 			["iconSource"] = -1,
@@ -25978,6 +25978,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = -157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -25986,26 +25992,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Revival 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "SrjG3T8SxU5",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -26084,7 +26084,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Invoker's Delight"] = {
 			["iconSource"] = -1,
@@ -26223,6 +26223,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -26231,26 +26237,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Invoker's Delight",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "j6UOWIRAKDv",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -26273,7 +26273,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Global Auras"] = {
 			["backdropColor"] = {
@@ -26569,7 +26569,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Utilities - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -26579,7 +26579,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -26612,26 +26613,25 @@ WeakAurasSaved = {
 					},
 				}, -- [2]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = false,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/HkqTw-CB7/15",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Summon Water Elemental",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "uLE3HNsL96l",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Mage Utilities - Luxthos",
 			["displayIcon"] = "135862",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/HkqTw-CB7/15",
+			["xOffset"] = 0,
 		},
 		["Double Barrel"] = {
 			["iconSource"] = -1,
@@ -26659,9 +26659,9 @@ WeakAurasSaved = {
 						},
 						["debuffType"] = "HELPFUL",
 						["track"] = "auto",
-						["type"] = "status",
-						["unevent"] = "auto",
+						["spell"] = "206931",
 						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 202335,
 						["genericShowOn"] = "showOnCooldown",
 						["event"] = "Cooldown Progress (Spell)",
@@ -26672,7 +26672,7 @@ WeakAurasSaved = {
 						},
 						["subeventPrefix"] = "SPELL",
 						["use_absorbMode"] = true,
-						["spell"] = "206931",
+						["type"] = "status",
 						["use_track"] = true,
 						["duration"] = "1",
 					},
@@ -26871,6 +26871,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -26879,26 +26885,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 3,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Double Barrel",
 			["width"] = 35,
-			["frameStrata"] = 3,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "xxvVuxa(nAK",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -26992,7 +26992,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Nether Portal"] = {
 			["iconSource"] = -1,
@@ -27118,7 +27118,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -27128,24 +27128,28 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["config"] = {
 				["glow"] = false,
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
+			["cooldownEdge"] = false,
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["regionType"] = "icon",
 			["cooldown"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["stickyDuration"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -27166,27 +27170,33 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["stickyDuration"] = false,
-			["cooldownEdge"] = false,
 			["width"] = 35,
 			["alpha"] = 1,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["semver"] = "1.1.1",
 			["tocversion"] = 80300,
 			["id"] = "Nether Portal",
 			["auto"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["uid"] = "bgtrg94FE2n",
 			["inverse"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["authorOptions"] = {
+				{
+					["type"] = "toggle",
+					["key"] = "glow",
+					["desc"] = "By toggling this option you will enable glow functionality for this cooldown.",
+					["default"] = false,
+					["useDesc"] = true,
+					["name"] = "Glow",
+					["width"] = 1,
+				}, -- [1]
 			},
 			["conditions"] = {
 				{
@@ -27227,17 +27237,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-				{
-					["type"] = "toggle",
-					["key"] = "glow",
-					["desc"] = "By toggling this option you will enable glow functionality for this cooldown.",
-					["default"] = false,
-					["useDesc"] = true,
-					["name"] = "Glow",
-					["width"] = 1,
-				}, -- [1]
-			},
+			["desaturate"] = false,
 		},
 		["Icicles"] = {
 			["iconSource"] = -1,
@@ -27400,10 +27400,10 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "OUTER_TOP",
 					["text_text_format_2.s_format"] = "none",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_fontSize"] = 20,
 					["anchorXOffset"] = 0,
 					["text_text_format_1.s_format"] = "none",
@@ -27440,6 +27440,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Core - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -27448,25 +27453,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Core - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 25,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Icicles",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 46,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "4pQnqRuRMI0",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -27506,8 +27507,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 25,
 		},
 		["Disciplinary Command"] = {
 			["iconSource"] = 0,
@@ -27530,8 +27530,8 @@ WeakAurasSaved = {
 						["type"] = "aura2",
 						["useExactSpellId"] = true,
 						["subeventSuffix"] = "_CAST_START",
-						["ownOnly"] = true,
 						["matchesShowOn"] = "showOnActive",
+						["ownOnly"] = true,
 						["event"] = "Health",
 						["unit"] = "player",
 						["unitExists"] = false,
@@ -27559,18 +27559,18 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["debuffType"] = "HELPFUL",
 						["type"] = "event",
-						["unevent"] = "timed",
 						["subeventSuffix"] = "_AURA_APPLIED",
+						["unevent"] = "timed",
 						["use_track"] = true,
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Combat Log",
 						["spellName"] = 0,
 						["realSpellName"] = 0,
-						["use_spellId"] = true,
+						["use_spellName"] = false,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
-						["use_spellName"] = false,
+						["use_spellId"] = true,
 						["use_genericShowOn"] = true,
 						["sourceUnit"] = "player",
 						["names"] = {
@@ -27587,18 +27587,18 @@ WeakAurasSaved = {
 						["unit"] = "player",
 						["debuffType"] = "HELPFUL",
 						["type"] = "event",
-						["unevent"] = "timed",
 						["subeventSuffix"] = "_AURA_REFRESH",
+						["unevent"] = "timed",
 						["use_track"] = true,
 						["subeventPrefix"] = "SPELL",
 						["event"] = "Combat Log",
 						["spellName"] = 0,
 						["realSpellName"] = 0,
-						["use_spellId"] = true,
+						["use_spellName"] = false,
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = false,
-						["use_spellName"] = false,
+						["use_spellId"] = true,
 						["use_genericShowOn"] = true,
 						["sourceUnit"] = "player",
 						["names"] = {
@@ -27694,7 +27694,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Dynamic - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -27704,7 +27704,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -27764,26 +27765,25 @@ WeakAurasSaved = {
 					},
 				}, -- [2]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = false,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/r1A5wb0Bm/13",
 			["semver"] = "2.0.2",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Disciplinary Command",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "O(H(91FU6zx",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Mage Dynamic - Luxthos",
 			["displayIcon"] = "617812",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/r1A5wb0Bm/13",
+			["xOffset"] = 0,
 		},
 		["Luxthos - Combo 6.4 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -27831,10 +27831,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -27844,33 +27844,33 @@ WeakAurasSaved = {
 						[8] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_talent"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -27912,21 +27912,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "3",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -28352,6 +28352,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -28360,26 +28366,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = -130,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Living Bomb",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "IXjK57rsXao",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -28494,7 +28494,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = -130,
 		},
 		["Dark Soul: Misery"] = {
 			["iconSource"] = -1,
@@ -28674,41 +28674,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["config"] = {
 				["glow"] = false,
 			},
-			["stickyDuration"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["cooldownEdge"] = false,
+			["desaturate"] = false,
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["parent"] = "Luxthos - Warlock Cooldowns",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["cooldownEdge"] = false,
-			["width"] = 35,
-			["alpha"] = 1,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Dark Soul: Misery",
-			["auto"] = true,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["desaturate"] = false,
-			["uid"] = "Iv)Gjv()swo",
-			["inverse"] = true,
 			["authorOptions"] = {
 				{
 					["type"] = "toggle",
@@ -28720,6 +28693,28 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [1]
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["parent"] = "Luxthos - Warlock Cooldowns",
+			["width"] = 35,
+			["alpha"] = 1,
+			["zoom"] = 0.33,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Dark Soul: Misery",
+			["auto"] = true,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["uid"] = "Iv)Gjv()swo",
+			["inverse"] = true,
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -28759,7 +28754,12 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Fingers of Frost"] = {
 			["iconSource"] = 0,
@@ -28783,11 +28783,11 @@ WeakAurasSaved = {
 							"112965", -- [1]
 						},
 						["useExactSpellId"] = false,
+						["unit"] = "player",
+						["matchesShowOn"] = "showOnActive",
+						["event"] = "Health",
 						["names"] = {
 						},
-						["ownOnly"] = true,
-						["event"] = "Health",
-						["unit"] = "player",
 						["unitExists"] = true,
 						["subeventSuffix"] = "_CAST_START",
 						["spellIds"] = {
@@ -28796,7 +28796,7 @@ WeakAurasSaved = {
 						["auraspellids"] = {
 						},
 						["useName"] = true,
-						["matchesShowOn"] = "showOnActive",
+						["ownOnly"] = true,
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -28937,7 +28937,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -28947,7 +28947,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -29022,26 +29023,25 @@ WeakAurasSaved = {
 					},
 				}, -- [3]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = false,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Fingers of Frost",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "bsTgAOH)(zI",
 			["inverse"] = true,
-			["xOffset"] = -75,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "135844",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -75,
 		},
 		["Phoenix Flame - Bar 3"] = {
 			["sparkWidth"] = 10,
@@ -29072,11 +29072,11 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["matchesShowOn"] = "showAlways",
-						["use_powertype"] = true,
 						["use_trackcharge"] = true,
+						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
-						["useName"] = true,
 						["trackcharge"] = "3",
+						["useName"] = true,
 						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
 						["genericShowOn"] = "showAlways",
@@ -29181,22 +29181,22 @@ WeakAurasSaved = {
 			},
 			["version"] = 13,
 			["uid"] = "M6gMidbRczq",
-			["sparkDesaturate"] = true,
+			["icon_side"] = "RIGHT",
 			["smoothProgress"] = false,
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["width"] = 96,
 			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkDesaturate"] = true,
+			["zoom"] = 0,
 			["sparkHeight"] = 35,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["zoom"] = 0,
-			["spark"] = true,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Phoenix Flame - Bar 3",
-			["auto"] = true,
+			["spark"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["sparkColor"] = {
@@ -29230,8 +29230,8 @@ WeakAurasSaved = {
 					["y"] = 0,
 					["x"] = 0,
 					["duration_type"] = "seconds",
-					["rotate"] = 0,
 					["easeStrength"] = 3,
+					["rotate"] = 0,
 					["duration"] = "0.7",
 					["colorA"] = 1,
 				},
@@ -29482,7 +29482,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Utilities - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -29492,7 +29492,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -29540,26 +29541,25 @@ WeakAurasSaved = {
 					},
 				}, -- [2]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/HkqTw-CB7/15",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Arcane Familiar",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "IHGClxEWs7P",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Mage Utilities - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/HkqTw-CB7/15",
+			["xOffset"] = 0,
 		},
 		["Grimoire of Sacrifice"] = {
 			["iconSource"] = -1,
@@ -29584,11 +29584,11 @@ WeakAurasSaved = {
 						["powertype"] = 7,
 						["duration"] = "1",
 						["subeventPrefix"] = "SPELL",
-						["spellName"] = 108503,
-						["power"] = "0",
-						["use_powertype"] = true,
 						["debuffType"] = "HARMFUL",
 						["subeventSuffix"] = "_CAST_START",
+						["use_powertype"] = true,
+						["spellName"] = 108503,
+						["power"] = "0",
 						["type"] = "status",
 						["power_operator"] = ">",
 						["unevent"] = "auto",
@@ -29737,7 +29737,8 @@ WeakAurasSaved = {
 				},
 			},
 			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
+			["desaturate"] = false,
 			["actions"] = {
 				["start"] = {
 				},
@@ -29746,7 +29747,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["desaturate"] = false,
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = "",
@@ -29761,14 +29761,19 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [1]
 			},
-			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["config"] = {
 				["glow"] = true,
 			},
 			["alpha"] = 1,
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.1.1",
+			["zoom"] = 0.33,
+			["auto"] = true,
 			["tocversion"] = 80300,
 			["id"] = "Grimoire of Sacrifice",
 			["animation"] = {
@@ -29793,15 +29798,10 @@ WeakAurasSaved = {
 			},
 			["frameStrata"] = 1,
 			["width"] = 35,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["uid"] = "v2lB)T(MOGY",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["stickyDuration"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -29850,7 +29850,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["cooldownEdge"] = false,
 		},
 		["Rule of Threes"] = {
 			["iconSource"] = -1,
@@ -29983,6 +29983,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -29991,25 +29996,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.45,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Rule of Threes",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "RGDN5spjjIm",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -30038,8 +30039,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Chi - 6"] = {
 			["sparkWidth"] = 10,
@@ -30177,15 +30177,15 @@ WeakAurasSaved = {
 			["width"] = 46,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["id"] = "Chi - 6",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkHidden"] = "NEVER",
+			["zoom"] = 0,
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "NEVER",
+			["id"] = "Chi - 6",
 			["spark"] = false,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["uid"] = "w7bwMqwngPw",
 			["inverse"] = false,
 			["backgroundColor"] = {
@@ -30323,6 +30323,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -30331,26 +30337,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Detox - Brewmaster & Windwalker",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "PfO7jJxLgXi",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -30406,7 +30406,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Invoke Chi-Ji, the Red Crane"] = {
 			["iconSource"] = -1,
@@ -30553,10 +30553,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_petbattle"] = false,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -30566,11 +30563,36 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["config"] = {
 			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stickyDuration"] = false,
+			["regionType"] = "icon",
+			["cooldown"] = true,
+			["authorOptions"] = {
+			},
+			["url"] = "https://wago.io/SJpy7K9S7/6",
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Invoke Chi-Ji, the Red Crane",
+			["auto"] = true,
+			["alpha"] = 1,
+			["width"] = 35,
 			["actions"] = {
 				["start"] = {
 				},
@@ -30579,31 +30601,9 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["desaturate"] = false,
-			["regionType"] = "icon",
-			["cooldown"] = true,
-			["parent"] = "Luxthos - Monk Cooldowns",
-			["url"] = "https://wago.io/SJpy7K9S7/6",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["zoom"] = 0.33,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Invoke Chi-Ji, the Red Crane",
-			["auto"] = true,
-			["alpha"] = 1,
-			["width"] = 35,
-			["stickyDuration"] = false,
 			["uid"] = "ch6wwU1D1GQ",
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -30632,7 +30632,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 		},
 		["Shuffle Bar"] = {
 			["sparkWidth"] = 10,
@@ -30827,15 +30827,15 @@ WeakAurasSaved = {
 			["width"] = 296,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["id"] = "Shuffle Bar",
-			["zoom"] = 0,
+			["sparkHidden"] = "NEVER",
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "NEVER",
+			["id"] = "Shuffle Bar",
 			["spark"] = false,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -30939,7 +30939,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -30949,7 +30949,7 @@ WeakAurasSaved = {
 				},
 				["level_operator"] = "<",
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -30986,21 +30986,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "4",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -31391,6 +31391,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMRIGHT",
+			["xOffset"] = -157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -31399,26 +31405,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMRIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Bonedust Brew",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "OF3KC(szxmb",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -31501,7 +31501,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Lifecycles (Vivify)"] = {
 			["iconSource"] = 0,
@@ -31641,9 +31641,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Dynamic - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -31652,6 +31649,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Dynamic - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/HJk5VY9rQ/14",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -31678,26 +31678,26 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["url"] = "https://wago.io/HJk5VY9rQ/14",
-			["auto"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.2",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Lifecycles (Vivify)",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "h7G3FjdV94x",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "1360980",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Searing Touch"] = {
 			["iconSource"] = -1,
@@ -31717,15 +31717,15 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["track"] = "auto",
-						["use_unit"] = true,
+						["subeventPrefix"] = "SPELL",
 						["spellId"] = "49206",
 						["auranames"] = {
 							"264774", -- [1]
 						},
 						["use_track"] = true,
-						["use_genericShowOn"] = true,
+						["use_totemName"] = true,
 						["genericShowOn"] = "showOnCooldown",
-						["subeventPrefix"] = "SPELL",
+						["use_unit"] = true,
 						["unit"] = "target",
 						["names"] = {
 						},
@@ -31751,7 +31751,7 @@ WeakAurasSaved = {
 						["use_absorbMode"] = true,
 						["use_percenthealth"] = true,
 						["percenthealth_operator"] = "<",
-						["use_totemName"] = true,
+						["use_genericShowOn"] = true,
 					},
 					["untrigger"] = {
 					},
@@ -31836,7 +31836,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Dynamic - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -31846,30 +31846,30 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = false,
 			["conditions"] = {
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/r1A5wb0Bm/13",
 			["semver"] = "2.0.2",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Searing Touch",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "ajxdHjY)URX",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Mage Dynamic - Luxthos",
 			["displayIcon"] = "236290",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/r1A5wb0Bm/13",
+			["xOffset"] = 0,
 		},
 		["Life Cocoon 2"] = {
 			["iconSource"] = -1,
@@ -31889,12 +31889,12 @@ WeakAurasSaved = {
 					["trigger"] = {
 						["group_countOperator"] = ">",
 						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
 						["useGroup_count"] = true,
-						["unit"] = "group",
-						["ownOnly"] = true,
-						["event"] = "Health",
+						["subeventSuffix"] = "_CAST_START",
 						["subeventPrefix"] = "SPELL",
+						["fetchTooltip"] = true,
+						["event"] = "Health",
+						["unit"] = "group",
 						["names"] = {
 						},
 						["use_tooltipValue"] = false,
@@ -31904,7 +31904,7 @@ WeakAurasSaved = {
 							"116849", -- [1]
 						},
 						["group_count"] = "0",
-						["fetchTooltip"] = true,
+						["ownOnly"] = true,
 						["type"] = "aura2",
 						["debuffType"] = "HELPFUL",
 					},
@@ -32009,13 +32009,13 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = 0,
 					["text_anchorYOffset"] = -4,
+					["text_shadowYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = false,
-					["text_anchorPoint"] = "OUTER_TOP",
 					["text_text_format_3.s_format"] = "none",
+					["text_anchorPoint"] = "OUTER_TOP",
+					["text_visible"] = false,
 					["text_shadowColor"] = {
 						0, -- [1]
 						0, -- [2]
@@ -32055,9 +32055,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -32066,6 +32063,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -32151,26 +32151,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Life Cocoon 2",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "jjTOHl5Jrw(",
 			["inverse"] = true,
-			["xOffset"] = 125,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 125,
 		},
 		["Chi - 4"] = {
 			["sparkWidth"] = 10,
@@ -32326,15 +32326,15 @@ WeakAurasSaved = {
 			["width"] = 56,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["id"] = "Chi - 4",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkHidden"] = "NEVER",
+			["zoom"] = 0,
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "NEVER",
+			["id"] = "Chi - 4",
 			["spark"] = false,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["uid"] = "iOOwbOHt6u4",
 			["inverse"] = false,
 			["backgroundColor"] = {
@@ -32506,9 +32506,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Dynamic - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -32517,6 +32514,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Dynamic - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/HJk5VY9rQ/14",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -32543,26 +32543,26 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["url"] = "https://wago.io/HJk5VY9rQ/14",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.2",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Lifecycles (Enveloping Mist)",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "tY0KwIOnPQ9",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Touch of Death"] = {
 			["iconSource"] = -1,
@@ -32674,12 +32674,9 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 3,
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
 					},
 				},
 				["talent"] = {
@@ -32689,18 +32686,27 @@ WeakAurasSaved = {
 						[6] = true,
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "MONK",
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
 				["use_vehicleUi"] = false,
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+					},
+				},
 				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_petbattle"] = false,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -32708,24 +32714,35 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_petbattle"] = false,
+				["use_combat"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_combat"] = true,
-				["use_spec"] = true,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["uid"] = "eZaFPUD33Sk",
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["regionType"] = "icon",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["cooldownEdge"] = true,
+			["authorOptions"] = {
+			},
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Touch of Death",
+			["auto"] = true,
+			["alpha"] = 1,
+			["width"] = 35,
 			["actions"] = {
 				["start"] = {
 				},
@@ -32734,27 +32751,15 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["desaturate"] = false,
-			["regionType"] = "icon",
-			["cooldown"] = true,
-			["authorOptions"] = {
-			},
-			["cooldownEdge"] = true,
-			["parent"] = "Luxthos - Monk Cooldowns",
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["zoom"] = 0.33,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Touch of Death",
-			["auto"] = true,
-			["alpha"] = 1,
-			["width"] = 35,
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["config"] = {
 			},
 			["inverse"] = true,
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -32783,12 +32788,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["desaturate"] = false,
 		},
 		["Transcendence: Transfer 2"] = {
 			["iconSource"] = -1,
@@ -32907,6 +32907,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -32915,26 +32921,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Transcendence: Transfer 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "hw)cKk5Hxit",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -32990,7 +32990,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Temporal Shield"] = {
 			["iconSource"] = -1,
@@ -33020,17 +33020,17 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["duration"] = "35",
-						["debuffType"] = "HELPFUL",
-						["subeventSuffix"] = "_CAST_SUCCESS",
+						["spellName"] = 0,
+						["useExactSpellId"] = true,
 						["type"] = "aura2",
 						["use_spellId"] = true,
-						["spellName"] = 0,
-						["unevent"] = "auto",
-						["useName"] = false,
-						["useExactSpellId"] = true,
+						["debuffType"] = "HELPFUL",
 						["auraspellids"] = {
 							"198111", -- [1]
 						},
+						["useName"] = false,
+						["subeventSuffix"] = "_CAST_SUCCESS",
+						["unevent"] = "auto",
 						["unit"] = "player",
 						["ownOnly"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -33160,6 +33160,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -33168,25 +33173,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Temporal Shield",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "SX2I3a2hswb",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -33269,8 +33270,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Mana - Bar (Arcane Mage)"] = {
 			["sparkWidth"] = 10,
@@ -33382,13 +33382,13 @@ WeakAurasSaved = {
 					},
 					["text_font"] = "Friz Quadrata TT",
 					["text_text_format_percentpower_abbreviate_max"] = 8,
-					["text_shadowYOffset"] = -1,
+					["text_text_format_percentpower_realm_name"] = "never",
 					["text_visible"] = true,
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
-					["text_text_format_percentpower_format"] = "BigNumber",
 					["text_text_format_percentpower_big_number_format"] = "AbbreviateLargeNumbers",
-					["text_text_format_percentpower_realm_name"] = "never",
+					["text_text_format_percentpower_format"] = "BigNumber",
+					["text_fontType"] = "OUTLINE",
+					["text_shadowYOffset"] = -1,
 					["text_fontSize"] = 14,
 					["anchorXOffset"] = 0,
 					["text_text_format_percentpower_decimal_precision"] = 1,
@@ -33504,10 +33504,10 @@ WeakAurasSaved = {
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["auto"] = true,
+			["spark"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Mana - Bar (Arcane Mage)",
-			["spark"] = false,
+			["auto"] = true,
 			["frameStrata"] = 1,
 			["width"] = 296,
 			["sparkColor"] = {
@@ -33719,7 +33719,7 @@ WeakAurasSaved = {
 					["text_text_format_4.dodgepercent_format"] = "BigNumber",
 					["text_font"] = "Friz Quadrata TT",
 					["text_text_format_3.dodgepercent_gcd_gcd"] = true,
-					["text_text_format_3.dodgepercent_decimal_precision"] = 1,
+					["text_anchorYOffset"] = -4,
 					["text_text_format_p_time_precision"] = 1,
 					["text_fontType"] = "OUTLINE",
 					["text_selfPoint"] = "CENTER",
@@ -33727,7 +33727,7 @@ WeakAurasSaved = {
 					["text_text_format_2.s_format"] = "none",
 					["text_text_format_4.dodgepercent_big_number_format"] = "AbbreviateLargeNumbers",
 					["text_fontSize"] = 18,
-					["text_anchorYOffset"] = -4,
+					["text_text_format_3.dodgepercent_decimal_precision"] = 1,
 					["text_text_format_p_time_dynamic"] = false,
 				}, -- [2]
 			},
@@ -33759,9 +33759,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -33770,6 +33767,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -33872,26 +33872,26 @@ WeakAurasSaved = {
 					},
 				}, -- [6]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Blackout Kick - Brewmaster",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "xs1dvLozVPZ",
 			["inverse"] = true,
-			["xOffset"] = -25,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -25,
 		},
 		["Arcane Charges - Bar 3"] = {
 			["sparkWidth"] = 10,
@@ -34028,14 +34028,14 @@ WeakAurasSaved = {
 			},
 			["useAdjustededMin"] = true,
 			["regionType"] = "aurabar",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["width"] = 71,
 			["icon_side"] = "RIGHT",
 			["frameStrata"] = 1,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["sparkHidden"] = "NEVER",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["spark"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Arcane Charges - Bar 3",
@@ -34076,15 +34076,15 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["track"] = "auto",
-						["use_absorbMode"] = true,
+						["use_totemName"] = true,
 						["spellId"] = "49206",
 						["auranames"] = {
 							"132578", -- [1]
 						},
 						["use_track"] = true,
-						["use_totemName"] = true,
+						["use_absorbMode"] = true,
 						["genericShowOn"] = "showOnCooldown",
-						["unit"] = "player",
+						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["duration"] = "35",
 						["events"] = "PLAYER_TOTEM_UPDATE",
@@ -34110,7 +34110,7 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["sourceUnit"] = "player",
-						["use_unit"] = true,
+						["unit"] = "player",
 					},
 					["untrigger"] = {
 						["custom"] = "function()\n    return aura_env.index == 0\nend",
@@ -34228,9 +34228,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "RIGHT",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -34241,6 +34238,9 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -34317,26 +34317,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Invoke Chi-Ji, the Red Crane 2",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "cnlSWT5J1zV",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["selfPoint"] = "RIGHT",
 			["displayIcon"] = "877514",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -157,
 		},
 		["ZT - Interrupt Tracker"] = {
 			["arcLength"] = 360,
@@ -34389,7 +34389,7 @@ WeakAurasSaved = {
 			["desc"] = "Requires: LibGroupInspecT 1.1\nRequires: ZenTracker Backend: https://wago.io/r14U746B7\n",
 			["stagger"] = 0,
 			["version"] = 29,
-			["grow"] = "DOWN",
+			["rotation"] = 0,
 			["uid"] = "cXyfgTRvuuZ",
 			["load"] = {
 				["use_class"] = false,
@@ -34406,17 +34406,15 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["rotation"] = 0,
+			["borderInset"] = 0,
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["anchorPoint"] = "CENTER",
+			["fullCircle"] = true,
 			["animate"] = false,
-			["radius"] = 200,
-			["scale"] = 1,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -34437,13 +34435,15 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
+			["scale"] = 1,
+			["grow"] = "DOWN",
 			["border"] = false,
 			["borderEdge"] = "Square Full White",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
-			["limit"] = 5,
-			["borderInset"] = 0,
-			["groupIcon"] = 132938,
+			["sort"] = "none",
+			["anchorPoint"] = "CENTER",
+			["useLimit"] = false,
 			["constantFactor"] = "RADIUS",
 			["rowSpace"] = 1,
 			["borderOffset"] = 16,
@@ -34453,18 +34453,18 @@ WeakAurasSaved = {
 			["gridWidth"] = 5,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["fullCircle"] = true,
+			["radius"] = 200,
 			["config"] = {
 			},
-			["sort"] = "none",
-			["authorOptions"] = {
-			},
+			["limit"] = 5,
+			["groupIcon"] = 132938,
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["useLimit"] = false,
+			["authorOptions"] = {
+			},
 		},
 		["Icicles - Bar 5"] = {
 			["sparkWidth"] = 10,
@@ -34630,15 +34630,15 @@ WeakAurasSaved = {
 			["width"] = 56,
 			["alpha"] = 1,
 			["icon_side"] = "RIGHT",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["auto"] = true,
+			["zoom"] = 0,
+			["spark"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Icicles - Bar 5",
-			["spark"] = false,
+			["auto"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["uid"] = "fS5aiH8wbTU",
@@ -34750,7 +34750,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -34760,7 +34760,7 @@ WeakAurasSaved = {
 				},
 				["level_operator"] = "<",
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -34797,21 +34797,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "3",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -35089,9 +35089,9 @@ WeakAurasSaved = {
 						},
 						["debuffType"] = "HELPFUL",
 						["track"] = "auto",
-						["type"] = "status",
-						["unevent"] = "auto",
+						["spell"] = "206931",
 						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 122281,
 						["genericShowOn"] = "showAlways",
 						["event"] = "Cooldown Progress (Spell)",
@@ -35102,7 +35102,7 @@ WeakAurasSaved = {
 						},
 						["subeventPrefix"] = "SPELL",
 						["use_absorbMode"] = true,
-						["spell"] = "206931",
+						["type"] = "status",
 						["use_track"] = true,
 						["duration"] = "1",
 					},
@@ -35258,6 +35258,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -35266,26 +35272,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Healing Elixir - Brewmaster 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "TmnMSJ7phqI",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -35407,7 +35407,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Evocation"] = {
 			["iconSource"] = -1,
@@ -35556,7 +35556,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -35566,7 +35566,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -35639,26 +35640,25 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.5,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Evocation",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.5,
 			["uid"] = "oOEVZFR6vde",
 			["inverse"] = true,
-			["xOffset"] = 125,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = 125,
 		},
 		["Supernova"] = {
 			["iconSource"] = -1,
@@ -35808,11 +35808,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "BOTTOM",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -35879,32 +35885,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Supernova",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "Jbt(FTyh9Wi",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -130,
 		},
 		["Healing Elixir - Mistweaver"] = {
 			["iconSource"] = -1,
@@ -35932,9 +35932,9 @@ WeakAurasSaved = {
 						},
 						["debuffType"] = "HELPFUL",
 						["track"] = "auto",
-						["type"] = "status",
-						["unevent"] = "auto",
+						["spell"] = "206931",
 						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 122281,
 						["genericShowOn"] = "showAlways",
 						["event"] = "Cooldown Progress (Spell)",
@@ -35945,7 +35945,7 @@ WeakAurasSaved = {
 						},
 						["subeventPrefix"] = "SPELL",
 						["use_absorbMode"] = true,
-						["spell"] = "206931",
+						["type"] = "status",
 						["use_track"] = true,
 						["duration"] = "1",
 					},
@@ -36119,6 +36119,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -36127,26 +36133,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Healing Elixir - Mistweaver",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "2fgSe92WF04",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -36307,7 +36307,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Ring of Peace"] = {
 			["iconSource"] = -1,
@@ -36454,10 +36454,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -36467,10 +36464,35 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "OiuZxJTwWpo",
+			["parent"] = "Luxthos - Monk Interrupts",
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["cooldown"] = true,
+			["authorOptions"] = {
+			},
+			["cooldownEdge"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 35,
+			["frameStrata"] = 1,
+			["zoom"] = 0.33,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Ring of Peace",
+			["auto"] = true,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["actions"] = {
 				["start"] = {
 				},
@@ -36479,32 +36501,10 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["desaturate"] = false,
-			["regionType"] = "icon",
-			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["cooldownEdge"] = false,
-			["parent"] = "Luxthos - Monk Interrupts",
-			["width"] = 35,
-			["frameStrata"] = 1,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Ring of Peace",
-			["auto"] = true,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "CENTER",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["authorOptions"] = {
-			},
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -36532,7 +36532,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["desaturate"] = false,
 		},
 		["Zen Focus Tea"] = {
 			["iconSource"] = -1,
@@ -36697,6 +36697,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -36705,26 +36711,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Zen Focus Tea",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "EUwE1zgPx)P",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -36807,7 +36807,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Ring of Frost"] = {
 			["iconSource"] = 0,
@@ -36968,7 +36968,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Utilities - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -36978,7 +36978,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -37059,26 +37060,25 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = false,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/HkqTw-CB7/15",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Ring of Frost",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "YTSId5r)CLV",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Mage Utilities - Luxthos",
 			["displayIcon"] = "464484",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/HkqTw-CB7/15",
+			["xOffset"] = 0,
 		},
 		["Refreshing Jade Wind - Mistweaver"] = {
 			["iconSource"] = -1,
@@ -37307,6 +37307,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -37315,26 +37321,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Refreshing Jade Wind - Mistweaver",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "dgA3aWSYrCC",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -37592,7 +37592,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Celestial Brew"] = {
 			["iconSource"] = -1,
@@ -37749,10 +37749,10 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_wordWrap"] = "WordWrap",
-					["text_text_format_3.s_format"] = "none",
+					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "OUTER_TOP",
 					["text_visible"] = false,
-					["text_fontType"] = "OUTLINE",
+					["text_text_format_3.s_format"] = "none",
 					["text_fontSize"] = 20,
 					["anchorXOffset"] = 0,
 					["text_text_format_p_time_dynamic"] = false,
@@ -37786,10 +37786,10 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_wordWrap"] = "WordWrap",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = false,
 					["text_anchorPoint"] = "OUTER_TOP",
 					["text_text_format_p_time_precision"] = 1,
-					["text_visible"] = false,
+					["text_fontType"] = "OUTLINE",
 					["text_fontSize"] = 20,
 					["anchorXOffset"] = 0,
 					["text_text_format_p_time_dynamic"] = false,
@@ -37823,9 +37823,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -37834,6 +37831,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -37951,26 +37951,26 @@ WeakAurasSaved = {
 					},
 				}, -- [7]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Celestial Brew",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "94oeeXJQQzL",
 			["inverse"] = true,
-			["xOffset"] = 75,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 75,
 		},
 		["Tiger Palm"] = {
 			["iconSource"] = -1,
@@ -38123,9 +38123,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -38134,6 +38131,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -38272,26 +38272,26 @@ WeakAurasSaved = {
 					},
 				}, -- [6]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Tiger Palm",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "1abZX9jL0r3",
 			["inverse"] = true,
-			["xOffset"] = -125,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -125,
 		},
 		["Invoke Chi-Ji, the Red Crane - Enveloping Mist"] = {
 			["iconSource"] = -1,
@@ -38420,8 +38420,8 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = 0,
 					["text_anchorYOffset"] = -4,
+					["text_shadowYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
@@ -38472,6 +38472,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -38480,26 +38486,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Invoke Chi-Ji, the Red Crane - Enveloping Mist",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "mTI9GvDmGfG",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -38523,7 +38523,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["ZenTracker (ZT) Main"] = {
 			["outline"] = "OUTLINE",
@@ -38557,9 +38557,9 @@ WeakAurasSaved = {
 						["genericShowOn"] = "showOnActive",
 						["unit"] = "player",
 						["custom_type"] = "event",
+						["custom"] = "function(event,...)\n    if event == \"COMBAT_LOG_EVENT_UNFILTERED\" then\n        local _, eventType, _, sourceGUID, _, _, _, destGUID, _, _, _, spellID = ...\n        aura_env.eventHandlers:handle(eventType, spellID, sourceGUID)\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 						["spellIds"] = {
 						},
-						["custom"] = "function(event,...)\n    if event == \"COMBAT_LOG_EVENT_UNFILTERED\" then\n        local _, eventType, _, sourceGUID, _, _, _, destGUID, _, _, _, spellID = ...\n        aura_env.eventHandlers:handle(eventType, spellID, sourceGUID)\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 						["names"] = {
 						},
 						["events"] = "COMBAT_LOG_EVENT_UNFILTERED",
@@ -38716,11 +38716,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -38923,8 +38923,8 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [21]
 			},
-			["semver"] = "1.1.21",
 			["justify"] = "LEFT",
+			["semver"] = "1.1.21",
 			["tocversion"] = 90001,
 			["id"] = "ZenTracker (ZT) Main",
 			["config"] = {
@@ -38935,9 +38935,9 @@ WeakAurasSaved = {
 				["custom6"] = "",
 				["custom1"] = "",
 				["custom9"] = "",
-				["custom12"] = "",
-				["custom13"] = "",
 				["custom11"] = "",
+				["custom13"] = "",
+				["custom12"] = "",
 				["custom4"] = "",
 				["custom14"] = "",
 				["custom7"] = "",
@@ -38993,9 +38993,9 @@ WeakAurasSaved = {
 						},
 						["debuffType"] = "HELPFUL",
 						["track"] = "auto",
-						["type"] = "status",
-						["unevent"] = "auto",
+						["spell"] = "206931",
 						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 202370,
 						["genericShowOn"] = "showOnCooldown",
 						["event"] = "Cooldown Progress (Spell)",
@@ -39006,7 +39006,7 @@ WeakAurasSaved = {
 						},
 						["subeventPrefix"] = "SPELL",
 						["use_absorbMode"] = true,
-						["spell"] = "206931",
+						["type"] = "status",
 						["use_track"] = true,
 						["duration"] = "1",
 					},
@@ -39227,6 +39227,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -39235,26 +39241,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 3,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Mighty Ox Kick",
 			["width"] = 35,
-			["frameStrata"] = 3,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "ppldN(2(ezM",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -39361,7 +39361,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Counterspell"] = {
 			["iconSource"] = -1,
@@ -39484,6 +39484,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "LEFT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -39492,26 +39498,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "LEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = 157,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Counterspell",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "H6tFhfkKxRh",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -39567,7 +39567,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = 157,
 		},
 		["Rising Sun Kick - Windwalker"] = {
 			["iconSource"] = -1,
@@ -39702,9 +39702,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -39713,6 +39710,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -39863,26 +39863,26 @@ WeakAurasSaved = {
 					},
 				}, -- [6]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Rising Sun Kick - Windwalker",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "E0if0NcqZaC",
 			["inverse"] = true,
-			["xOffset"] = -25,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -25,
 		},
 		["Breath of Fire"] = {
 			["iconSource"] = -1,
@@ -40034,9 +40034,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -40045,6 +40042,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -40118,26 +40118,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Breath of Fire",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "sSTqgysBzDU",
 			["inverse"] = true,
-			["xOffset"] = -75,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -75,
 		},
 		["Summon Darkglare"] = {
 			["iconSource"] = -1,
@@ -40307,7 +40307,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -40317,17 +40317,26 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["uid"] = "TiBR3qg)8Xs",
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
+			["cooldownEdge"] = false,
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["regionType"] = "icon",
 			["cooldown"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["authorOptions"] = {
 				{
 					["type"] = "toggle",
@@ -40339,29 +40348,25 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [1]
 			},
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
-			["cooldownEdge"] = false,
 			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["auto"] = true,
 			["tocversion"] = 80300,
 			["id"] = "Summon Darkglare",
 			["semver"] = "1.1.1",
 			["frameStrata"] = 1,
 			["width"] = 35,
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["selfPoint"] = "CENTER",
 			["config"] = {
 				["glow"] = false,
 			},
 			["inverse"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 			["conditions"] = {
 				{
@@ -40402,12 +40407,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["desaturate"] = false,
 		},
 		["Summon Jade Serpent Statue"] = {
 			["iconSource"] = 0,
@@ -40451,8 +40451,8 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_SUCCESS",
 						["ownOnly"] = true,
 						["debuffType"] = "HELPFUL",
-						["useName"] = true,
 						["type"] = "custom",
+						["useName"] = true,
 						["custom"] = "function(event, arg1)\n    if event == \"PLAYER_TOTEM_UPDATE\" and arg1 then\n        local haveTotem, name, startTime, duration, icon = GetTotemInfo(arg1)\n        if haveTotem and icon == aura_env.texture then\n            aura_env.haveTotem, aura_env.name, aura_env.startTime, aura_env.duration, aura_env.icon = haveTotem, name, startTime, duration, icon\n            aura_env.index = arg1\n            return true\n        elseif aura_env.index == arg1 then\n            aura_env.index = 0\n            aura_env.startTime, aura_env.duration = nil, nil\n        end\n    end\nend",
 						["unevent"] = "timed",
 						["subeventPrefix"] = "SPELL",
@@ -40461,9 +40461,9 @@ WeakAurasSaved = {
 						["totemType"] = 1,
 						["realSpellName"] = 0,
 						["use_spellName"] = true,
-						["events"] = "PLAYER_TOTEM_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "PLAYER_TOTEM_UPDATE",
 						["unit"] = "group",
 						["use_totemName"] = false,
 						["sourceUnit"] = "player",
@@ -40579,9 +40579,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Utilities - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -40592,6 +40589,9 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 			},
+			["parent"] = "Monk Utilities - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/HyGi4KqSm/8",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -40683,26 +40683,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["url"] = "https://wago.io/HyGi4KqSm/8",
-			["auto"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.1",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Summon Jade Serpent Statue",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "62(Is7TRf2y",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "620831",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Spear Hand Strike"] = {
 			["iconSource"] = -1,
@@ -40848,7 +40848,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -40858,39 +40858,45 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["uid"] = "2tMd2bXzZAj",
-			["desaturate"] = false,
-			["authorOptions"] = {
-			},
+			["parent"] = "Luxthos - Monk Interrupts",
+			["url"] = "https://wago.io/H1nU4F9rQ/5",
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
-			["parent"] = "Luxthos - Monk Interrupts",
+			["selfPoint"] = "CENTER",
 			["width"] = 35,
 			["frameStrata"] = 1,
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["semver"] = "1.1.1",
 			["tocversion"] = 80300,
 			["id"] = "Spear Hand Strike",
 			["auto"] = true,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/H1nU4F9rQ/5",
+			["desaturate"] = false,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
 			},
 			["conditions"] = {
 				{
@@ -40919,13 +40925,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["authorOptions"] = {
 			},
 		},
 		["Paralysis 2"] = {
@@ -41045,6 +41045,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -41053,26 +41059,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Paralysis 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "Kx0lyOzsF8u",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -41128,7 +41128,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Chi - 5"] = {
 			["sparkWidth"] = 10,
@@ -41284,15 +41284,15 @@ WeakAurasSaved = {
 			["width"] = 56,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["id"] = "Chi - 5",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkHidden"] = "NEVER",
+			["zoom"] = 0,
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "NEVER",
+			["id"] = "Chi - 5",
 			["spark"] = false,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["uid"] = "oNZKv9OvA2W",
 			["inverse"] = false,
 			["backgroundColor"] = {
@@ -41523,7 +41523,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -41533,7 +41533,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -41606,26 +41607,25 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.5,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Icy Veins",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.5,
 			["uid"] = "bdv5T5BkYBV",
 			["inverse"] = true,
-			["xOffset"] = 125,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = 125,
 		},
 		["Luxthos - Combo 5.4 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -41673,10 +41673,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -41686,33 +41686,33 @@ WeakAurasSaved = {
 						[8] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_talent"] = false,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -41754,21 +41754,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "3",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -42066,10 +42066,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -42079,33 +42079,33 @@ WeakAurasSaved = {
 						[8] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_talent"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -42147,21 +42147,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "2",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -42591,9 +42591,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "BOTTOM",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -42602,6 +42599,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -42706,26 +42706,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Energizing Elixir 2",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "ht7Z(7mRjU6",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["selfPoint"] = "BOTTOM",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -130,
 		},
 		["Summon Infernal 2 - Active"] = {
 			["iconSource"] = 0,
@@ -42740,12 +42740,14 @@ WeakAurasSaved = {
 			["triggers"] = {
 				{
 					["trigger"] = {
-						["duration"] = "30",
-						["matchesShowOn"] = "showAlways",
-						["spellId"] = "1122",
-						["useGroup_count"] = false,
 						["use_genericShowOn"] = true,
+						["duration"] = "30",
+						["spellId"] = "1122",
+						["auranames"] = {
+							"348", -- [1]
+						},
 						["use_absorbMode"] = true,
+						["matchesShowOn"] = "showAlways",
 						["genericShowOn"] = "showAlways",
 						["use_unit"] = true,
 						["unitExists"] = true,
@@ -42756,8 +42758,8 @@ WeakAurasSaved = {
 						["use_spellName"] = false,
 						["debuffType"] = "HARMFUL",
 						["spellName"] = 1122,
-						["type"] = "event",
 						["useName"] = true,
+						["type"] = "event",
 						["use_debuffClass"] = false,
 						["subeventSuffix"] = "_CAST_SUCCESS",
 						["use_specific_unit"] = false,
@@ -42775,9 +42777,7 @@ WeakAurasSaved = {
 						},
 						["combineMatches"] = "showLowest",
 						["sourceUnit"] = "player",
-						["auranames"] = {
-							"348", -- [1]
-						},
+						["useGroup_count"] = false,
 					},
 					["untrigger"] = {
 						["genericShowOn"] = "showAlways",
@@ -42929,7 +42929,8 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 35,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
+			["desaturate"] = false,
 			["actions"] = {
 				["start"] = {
 				},
@@ -42940,7 +42941,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["desaturate"] = false,
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = 136219,
@@ -42950,29 +42950,29 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["stickyDuration"] = false,
+			["cooldownEdge"] = false,
 			["uid"] = "EYX5bjkDf1(",
 			["frameStrata"] = 1,
-			["auto"] = false,
-			["zoom"] = 0.33,
 			["semver"] = "1.1.1",
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 80300,
 			["id"] = "Summon Infernal 2 - Active",
 			["authorOptions"] = {
 			},
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownEdge"] = false,
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["config"] = {
 			},
 			["inverse"] = true,
-			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["selfPoint"] = "CENTER",
 		},
 		["Winter Chill - Bar 2"] = {
 			["sparkWidth"] = 10,
@@ -43149,18 +43149,18 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["spark"] = false,
+			["auto"] = true,
 			["smoothProgress"] = false,
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["width"] = 146,
 			["frameStrata"] = 1,
 			["icon_side"] = "RIGHT",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["auto"] = true,
-			["zoom"] = 0,
+			["spark"] = false,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["semver"] = "2.0.5",
 			["tocversion"] = 90001,
 			["sparkHidden"] = "NEVER",
@@ -43320,6 +43320,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -43328,25 +43333,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Cone of Cold",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "qqwpkOPw1ty",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -43402,8 +43403,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Dark Soul: Instability 2"] = {
 			["iconSource"] = -1,
@@ -43570,7 +43570,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -43580,17 +43580,31 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["uid"] = "oJcvG6kmZOZ",
-			["desaturate"] = false,
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldownEdge"] = false,
 			["regionType"] = "icon",
 			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["authorOptions"] = {
 				{
 					["type"] = "toggle",
@@ -43602,35 +43616,21 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [1]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["semver"] = "1.1.1",
 			["tocversion"] = 80300,
 			["id"] = "Dark Soul: Instability 2",
 			["auto"] = true,
 			["alpha"] = 1,
 			["width"] = 35,
-			["cooldownEdge"] = false,
+			["desaturate"] = false,
 			["config"] = {
 				["glow"] = false,
 			},
 			["inverse"] = true,
-			["selfPoint"] = "CENTER",
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -43670,7 +43670,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 		},
 		["Radiant Spark"] = {
 			["iconSource"] = -1,
@@ -43870,6 +43870,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMRIGHT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -43878,26 +43884,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMRIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = -157,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Radiant Spark",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "xAvdIwydqEB",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -43980,7 +43980,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = -157,
 		},
 		["Speak Hand Strike"] = {
 			["iconSource"] = -1,
@@ -44132,6 +44132,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "LEFT",
+			["xOffset"] = 157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -44140,26 +44146,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "LEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Speak Hand Strike",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "aoCb1BjanjR",
 			["inverse"] = true,
-			["xOffset"] = 157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -44241,7 +44241,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Clash"] = {
 			["iconSource"] = -1,
@@ -44362,6 +44362,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -44370,26 +44376,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Clash",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "CUESBioEVWD",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -44445,7 +44445,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Tinder"] = {
 			["iconSource"] = -1,
@@ -44468,8 +44468,8 @@ WeakAurasSaved = {
 						["type"] = "aura2",
 						["useExactSpellId"] = true,
 						["subeventSuffix"] = "_CAST_START",
-						["ownOnly"] = true,
 						["matchesShowOn"] = "showOnActive",
+						["ownOnly"] = true,
 						["event"] = "Health",
 						["unit"] = "player",
 						["unitExists"] = true,
@@ -44578,6 +44578,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -44586,25 +44591,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Tinder",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "jKUeqWHYVs(",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -44623,8 +44624,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Dampem Harm - Mistweaver & Windwalker"] = {
 			["iconSource"] = -1,
@@ -44784,6 +44784,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -44792,26 +44798,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Dampem Harm - Mistweaver & Windwalker",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "WZxy)ZnJKR6",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -44894,7 +44894,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Fortifying Brew - Brewmaster"] = {
 			["iconSource"] = -1,
@@ -45011,12 +45011,9 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 1,
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
 					},
 				},
 				["talent"] = {
@@ -45025,21 +45022,30 @@ WeakAurasSaved = {
 						[6] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "MONK",
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+					},
+				},
 				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_petbattle"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -45047,42 +45053,20 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_petbattle"] = false,
-				["use_vehicleUi"] = false,
-				["race"] = {
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
-			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/SJpy7K9S7/6",
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["parent"] = "Luxthos - Monk Cooldowns",
-			["xOffset"] = 0,
-			["selfPoint"] = "CENTER",
-			["width"] = 35,
-			["frameStrata"] = 1,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Fortifying Brew - Brewmaster",
-			["auto"] = true,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/SJpy7K9S7/6",
-			["uid"] = "i3jnBJDi7Tv",
-			["inverse"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -45091,6 +45075,22 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["xOffset"] = 0,
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["width"] = 35,
+			["frameStrata"] = 1,
+			["zoom"] = 0.33,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Fortifying Brew - Brewmaster",
+			["auto"] = true,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["authorOptions"] = {
+			},
+			["uid"] = "i3jnBJDi7Tv",
+			["inverse"] = true,
+			["stickyDuration"] = false,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -45119,7 +45119,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["stickyDuration"] = false,
+			["desaturate"] = false,
 		},
 		["Ice Barrier"] = {
 			["iconSource"] = -1,
@@ -45263,6 +45263,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -45271,25 +45276,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Ice Barrier",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "5npdniRO6AQ",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -45396,8 +45397,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Summon Steward (Monk)"] = {
 			["iconSource"] = -1,
@@ -45451,11 +45451,11 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["subeventPrefix"] = "SPELL",
 						["type"] = "status",
-						["unevent"] = "auto",
 						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 0,
-						["use_itemName"] = true,
 						["event"] = "Item Count",
+						["use_itemName"] = true,
 						["spellIds"] = {
 						},
 						["realSpellName"] = 0,
@@ -45548,6 +45548,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["xOffset"] = 157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -45556,26 +45562,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Summon Steward (Monk)",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "Am)6oHITiDB",
 			["inverse"] = true,
-			["xOffset"] = 157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -45631,7 +45631,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Icicles - Bar 1"] = {
 			["sparkWidth"] = 10,
@@ -45797,15 +45797,15 @@ WeakAurasSaved = {
 			["width"] = 56,
 			["alpha"] = 1,
 			["icon_side"] = "RIGHT",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["auto"] = true,
+			["zoom"] = 0,
+			["spark"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Icicles - Bar 1",
-			["spark"] = false,
+			["auto"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["uid"] = "F4e4BOquKmL",
@@ -45999,15 +45999,15 @@ WeakAurasSaved = {
 			["width"] = 56,
 			["alpha"] = 1,
 			["icon_side"] = "RIGHT",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["auto"] = true,
+			["zoom"] = 0,
+			["spark"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Icicles - Bar 3",
-			["spark"] = false,
+			["auto"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["uid"] = "S4v1mx)OTnP",
@@ -46109,8 +46109,6 @@ WeakAurasSaved = {
 			["columnSpace"] = 4,
 			["internalVersion"] = 40,
 			["borderEdge"] = "Square Full White",
-			["useLimit"] = true,
-			["align"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -46131,16 +46129,18 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["arcLength"] = 360,
-			["desc"] = "Created by Luxthos\nwww.twitch.tv/luxthos",
-			["rotation"] = 0,
+			["align"] = "CENTER",
+			["fullCircle"] = true,
 			["authorOptions"] = {
 			},
+			["desc"] = "Created by Luxthos\nwww.twitch.tv/luxthos",
+			["rotation"] = 0,
+			["useAnchorPerUnit"] = false,
 			["version"] = 8,
 			["subRegions"] = {
 			},
-			["fullCircle"] = true,
-			["useAnchorPerUnit"] = false,
+			["radius"] = 200,
+			["arcLength"] = 360,
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -46155,25 +46155,24 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stagger"] = 0,
+			["useLimit"] = true,
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["config"] = {
-			},
+			["uid"] = "lbJim(kiarB",
 			["animate"] = false,
 			["customGrow"] = "function(newPositions, activeRegions)\n    local limit = 8 -- limit of icons per row\n    local rows = 3 -- total rows\n    local spacing = 3 -- spacing between icons\n    \n    -----do not touch-----\n    local check = true\n    local xCount = 0 -- xOffset count\n    local yCount = 0 -- yOffset count\n    local tCount = 0 -- count of all regions before last row\n    \n    local xOffset = 0\n    local yOffset = 0\n    local total = #activeRegions\n    \n    for i, regionData in ipairs(activeRegions) do\n        local region = regionData.region\n        \n        local regionsLeft = total - tCount\n        local rowTotal = 1\n        \n        if total <= limit then\n            rowTotal = total\n        elseif (regionsLeft < limit and xCount < 1) or not check then\n            check = false\n            rowTotal = regionsLeft\n        elseif yCount >= rows-1 then\n            rowTotal = regionsLeft\n        elseif total > limit then\n            rowTotal = limit\n        end\n        \n        xOffset = 0 - (region.width + spacing) / 2 * (rowTotal-1) + (xCount * (region.width + spacing))\n        yOffset = 0 - (region.height + spacing) * yCount -- change '-' to '+' after 0 to grow up instead of down\n        \n        xCount = xCount + 1\n        \n        if yCount < rows-1 and check then -- check for last row\n            tCount = tCount + 1\n            if xCount >= limit then -- check for last region in the row\n                xCount = 0\n                yCount = yCount + 1 -- new row\n            end\n        end\n        \n        newPositions[i] = {xOffset, yOffset}\n    end\nend",
 			["scale"] = 1,
-			["borderInset"] = 1,
+			["stagger"] = 0,
 			["border"] = false,
 			["anchorFrameFrame"] = "WeakAuras:Luxthos - Monk Rotations",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
 			["limit"] = 7,
-			["radius"] = 200,
+			["selfPoint"] = "CENTER",
 			["gridWidth"] = 7,
 			["anchorFrameParent"] = true,
 			["constantFactor"] = "RADIUS",
@@ -46185,16 +46184,17 @@ WeakAurasSaved = {
 			["sort"] = "none",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SELECTFRAME",
-			["anchorPoint"] = "BOTTOM",
-			["uid"] = "lbJim(kiarB",
+			["borderInset"] = 1,
+			["config"] = {
+			},
 			["rowSpace"] = 3,
-			["selfPoint"] = "CENTER",
+			["groupIcon"] = "interface/icons/classicon_monk.blp",
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["groupIcon"] = "interface/icons/classicon_monk.blp",
+			["anchorPoint"] = "BOTTOM",
 		},
 		["Fire Blast - Bar 3"] = {
 			["sparkWidth"] = 10,
@@ -46225,11 +46225,11 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["matchesShowOn"] = "showAlways",
-						["use_powertype"] = true,
 						["use_trackcharge"] = true,
+						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
-						["useName"] = true,
 						["trackcharge"] = "3",
+						["useName"] = true,
 						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
 						["genericShowOn"] = "showAlways",
@@ -46360,22 +46360,22 @@ WeakAurasSaved = {
 			},
 			["version"] = 13,
 			["uid"] = "i(urGy2KeOa",
-			["sparkDesaturate"] = true,
+			["icon_side"] = "RIGHT",
 			["smoothProgress"] = false,
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["width"] = 96,
 			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkDesaturate"] = true,
+			["zoom"] = 0,
 			["sparkHeight"] = 35,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["zoom"] = 0,
-			["spark"] = true,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Fire Blast - Bar 3",
-			["auto"] = true,
+			["spark"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["sparkColor"] = {
@@ -46409,8 +46409,8 @@ WeakAurasSaved = {
 					["y"] = 0,
 					["x"] = 0,
 					["duration_type"] = "seconds",
-					["rotate"] = 0,
 					["easeStrength"] = 3,
+					["rotate"] = 0,
 					["duration"] = "0.7",
 					["colorA"] = 1,
 				},
@@ -46507,10 +46507,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -46520,33 +46520,33 @@ WeakAurasSaved = {
 						[8] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["use_vehicleUi"] = false,
-				["pvptalent"] = {
+				["use_talent"] = false,
+				["use_class"] = true,
+				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -46588,21 +46588,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "4",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -46900,9 +46900,9 @@ WeakAurasSaved = {
 						},
 						["debuffType"] = "HELPFUL",
 						["track"] = "auto",
-						["type"] = "status",
-						["unevent"] = "auto",
+						["spell"] = "206931",
 						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 197908,
 						["genericShowOn"] = "showAlways",
 						["event"] = "Cooldown Progress (Spell)",
@@ -46913,7 +46913,7 @@ WeakAurasSaved = {
 						},
 						["subeventPrefix"] = "SPELL",
 						["use_absorbMode"] = true,
-						["spell"] = "206931",
+						["type"] = "status",
 						["use_track"] = true,
 						["duration"] = "1",
 					},
@@ -47069,6 +47069,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -47077,26 +47083,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Mana Tea 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "h8ANoT54HZd",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -47218,7 +47218,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Arcane Barrage"] = {
 			["iconSource"] = -1,
@@ -47397,11 +47397,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -47491,32 +47497,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Arcane Barrage",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "UWlifz6RcyR",
 			["inverse"] = true,
-			["xOffset"] = -75,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -75,
 		},
 		["Summon Black Ox Statue"] = {
 			["iconSource"] = 0,
@@ -47560,8 +47560,8 @@ WeakAurasSaved = {
 						["subeventSuffix"] = "_CAST_SUCCESS",
 						["ownOnly"] = true,
 						["debuffType"] = "HELPFUL",
-						["useName"] = true,
 						["type"] = "custom",
+						["useName"] = true,
 						["custom"] = "function(event, arg1)\n    if event == \"PLAYER_TOTEM_UPDATE\" and arg1 then\n        local haveTotem, name, startTime, duration, icon = GetTotemInfo(arg1)\n        if haveTotem and icon == aura_env.texture then\n            aura_env.haveTotem, aura_env.name, aura_env.startTime, aura_env.duration, aura_env.icon = haveTotem, name, startTime, duration, icon\n            aura_env.index = arg1\n            return true\n        elseif aura_env.index == arg1 then\n            aura_env.index = 0\n            aura_env.startTime, aura_env.duration = nil, nil\n        end\n    end\nend",
 						["unevent"] = "timed",
 						["subeventPrefix"] = "SPELL",
@@ -47570,9 +47570,9 @@ WeakAurasSaved = {
 						["totemType"] = 1,
 						["realSpellName"] = 0,
 						["use_spellName"] = true,
-						["events"] = "PLAYER_TOTEM_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "PLAYER_TOTEM_UPDATE",
 						["unit"] = "group",
 						["use_totemName"] = false,
 						["sourceUnit"] = "player",
@@ -47687,9 +47687,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "RIGHT",
-			["parent"] = "Monk Utilities - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -47700,6 +47697,9 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 			},
+			["parent"] = "Monk Utilities - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/HyGi4KqSm/8",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -47780,26 +47780,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["url"] = "https://wago.io/HyGi4KqSm/8",
-			["auto"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.1",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Summon Black Ox Statue",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "h4o5SKSJj0E",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["selfPoint"] = "RIGHT",
 			["displayIcon"] = "627607",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Mana (Monk)"] = {
 			["user_y"] = 0,
@@ -48101,14 +48101,14 @@ WeakAurasSaved = {
 			},
 			["height"] = 20,
 			["customTextUpdate"] = "event",
-			["useAdjustededMax"] = false,
-			["sparkBlendMode"] = "ADD",
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
+			["sparkBlendMode"] = "ADD",
+			["useAdjustededMax"] = false,
 			["fontSize"] = 12,
 			["sparkWidth"] = 10,
 			["width"] = 287,
@@ -48214,28 +48214,8 @@ WeakAurasSaved = {
 			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["rotation"] = 0,
 			["version"] = 6,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["config"] = {
-			},
+			["arcLength"] = 360,
+			["uid"] = "fWy6uf2TI7X",
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -48263,7 +48243,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -48275,7 +48255,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -48284,7 +48264,25 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["authorOptions"] = {
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 			["backdropColor"] = {
 				1, -- [1]
@@ -48292,18 +48290,19 @@ WeakAurasSaved = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["fullCircle"] = true,
+			["rowSpace"] = 1,
 			["animate"] = false,
 			["radius"] = 200,
 			["scale"] = 1,
-			["arcLength"] = 360,
+			["useLimit"] = false,
 			["border"] = false,
-			["anchorFrameFrame"] = "WeakAuras:Luxthos - Monk Rotations",
+			["borderEdge"] = "1 Pixel",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
-			["sort"] = "none",
-			["rowSpace"] = 1,
-			["uid"] = "fWy6uf2TI7X",
+			["limit"] = 5,
+			["fullCircle"] = true,
+			["authorOptions"] = {
+			},
 			["constantFactor"] = "RADIUS",
 			["stagger"] = 0,
 			["borderOffset"] = 16,
@@ -48313,16 +48312,17 @@ WeakAurasSaved = {
 			["gridWidth"] = 5,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SELECTFRAME",
-			["limit"] = 5,
+			["sort"] = "none",
 			["borderInset"] = 0,
-			["borderEdge"] = "1 Pixel",
-			["anchorPoint"] = "RIGHT",
+			["anchorFrameFrame"] = "WeakAuras:Luxthos - Monk Rotations",
+			["config"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["useLimit"] = false,
+			["anchorPoint"] = "RIGHT",
 		},
 		["Fist of the White Tiger 2"] = {
 			["iconSource"] = -1,
@@ -48479,9 +48479,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "BOTTOM",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -48490,6 +48487,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -48627,26 +48627,26 @@ WeakAurasSaved = {
 					},
 				}, -- [6]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Fist of the White Tiger 2",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "qWBKIszo9B)",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["selfPoint"] = "BOTTOM",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -130,
 		},
 		["Touch of Death - Brewmaster"] = {
 			["iconSource"] = -1,
@@ -48784,6 +48784,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = -157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -48792,26 +48798,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Touch of Death - Brewmaster",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "Nf(YvCmjIRM",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -48926,7 +48926,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Summon Demonic Tyrant"] = {
 			["iconSource"] = -1,
@@ -49101,41 +49101,24 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["use_petbattle"] = false,
 				["use_combat"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["uid"] = "iGiuM29yDj2",
-			["icon"] = true,
-			["cooldownEdge"] = false,
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["parent"] = "Luxthos - Warlock Cooldowns",
-			["stickyDuration"] = false,
-			["selfPoint"] = "CENTER",
-			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
-			["zoom"] = 0.33,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Summon Demonic Tyrant",
-			["auto"] = true,
-			["frameStrata"] = 1,
-			["width"] = 35,
-			["desaturate"] = false,
-			["config"] = {
-				["glow"] = false,
-			},
-			["inverse"] = true,
 			["authorOptions"] = {
 				{
 					["type"] = "toggle",
@@ -49147,6 +49130,23 @@ WeakAurasSaved = {
 					["width"] = 1,
 				}, -- [1]
 			},
+			["stickyDuration"] = false,
+			["parent"] = "Luxthos - Warlock Cooldowns",
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Summon Demonic Tyrant",
+			["auto"] = true,
+			["frameStrata"] = 1,
+			["width"] = 35,
+			["icon"] = true,
+			["config"] = {
+				["glow"] = false,
+			},
+			["inverse"] = true,
+			["xOffset"] = 0,
 			["conditions"] = {
 				{
 					["check"] = {
@@ -49186,7 +49186,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["xOffset"] = 0,
+			["cooldownEdge"] = false,
 		},
 		["Stagger Tick BoW"] = {
 			["outline"] = "OUTLINE",
@@ -49287,7 +49287,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -49301,7 +49301,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -49312,11 +49312,11 @@ WeakAurasSaved = {
 			},
 			["fontSize"] = 13,
 			["shadowXOffset"] = 1,
-			["selfPoint"] = "BOTTOM",
+			["shadowYOffset"] = -1,
 			["regionType"] = "text",
 			["fixedWidth"] = 200,
-			["shadowYOffset"] = -1,
-			["parent"] = "Luxthos - Monk Resources",
+			["selfPoint"] = "BOTTOM",
+			["automaticWidth"] = "Auto",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -49329,9 +49329,9 @@ WeakAurasSaved = {
 			["justify"] = "CENTER",
 			["tocversion"] = 80300,
 			["id"] = "Stagger Tick BoW",
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
 			["width"] = 21.399848937988,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["semver"] = "1.1.2",
 			["config"] = {
 			},
@@ -49348,7 +49348,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["automaticWidth"] = "Auto",
+			["parent"] = "Luxthos - Monk Resources",
 		},
 		["Fleshcraft (Monk)"] = {
 			["iconSource"] = -1,
@@ -49505,6 +49505,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["xOffset"] = 157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -49513,26 +49519,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Fleshcraft (Monk)",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "lssMD30sPMc",
 			["inverse"] = true,
-			["xOffset"] = 157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -49615,7 +49615,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Fire Blast - Bar 1"] = {
 			["sparkWidth"] = 10,
@@ -49656,11 +49656,11 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["matchesShowOn"] = "showAlways",
-						["use_powertype"] = true,
 						["use_trackcharge"] = true,
+						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
-						["useName"] = true,
 						["trackcharge"] = "1",
+						["useName"] = true,
 						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
 						["genericShowOn"] = "showAlways",
@@ -49786,18 +49786,18 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["icon_side"] = "RIGHT",
+			["sparkDesaturate"] = true,
 			["width"] = 146,
 			["smoothProgress"] = false,
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["alpha"] = 1,
-			["spark"] = true,
-			["sparkDesaturate"] = true,
+			["semver"] = "2.0.5",
+			["icon_side"] = "RIGHT",
 			["sparkHidden"] = "BOTH",
 			["sparkHeight"] = 35,
 			["texture"] = "Solid",
-			["semver"] = "2.0.5",
+			["spark"] = true,
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["auto"] = true,
 			["tocversion"] = 90001,
@@ -49824,8 +49824,8 @@ WeakAurasSaved = {
 					["y"] = 0,
 					["x"] = 0,
 					["duration_type"] = "seconds",
-					["rotate"] = 0,
 					["easeStrength"] = 3,
+					["rotate"] = 0,
 					["duration"] = "0.7",
 					["colorA"] = 1,
 				},
@@ -50122,11 +50122,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "RIGHT",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -50219,32 +50225,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Time Warp",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "6E4933lwwzl",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -157,
 		},
 		["Charred Passions"] = {
 			["iconSource"] = -1,
@@ -50372,8 +50372,8 @@ WeakAurasSaved = {
 				},
 				["use_class"] = true,
 				["use_spellknown"] = false,
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["use_level"] = false,
 				["level"] = "60",
 				["use_item_bonusid_equipped"] = true,
@@ -50383,6 +50383,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -50391,26 +50397,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Charred Passions",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "UM5t3fXRN3)",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -50433,7 +50433,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Xuen's Treasure"] = {
 			["iconSource"] = -1,
@@ -50561,8 +50561,8 @@ WeakAurasSaved = {
 				},
 				["use_class"] = true,
 				["use_spellknown"] = false,
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["use_level"] = false,
 				["level"] = "60",
 				["use_item_bonusid_equipped"] = true,
@@ -50572,6 +50572,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -50580,26 +50586,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Xuen's Treasure",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "70uAXSgW2H)",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -50622,7 +50622,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Expel Harm - Windwalker"] = {
 			["iconSource"] = -1,
@@ -50743,6 +50743,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -50751,26 +50757,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Expel Harm - Windwalker",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "9jzQ2iIufHd",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -50826,7 +50826,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Clouded Focus"] = {
 			["iconSource"] = -1,
@@ -50990,8 +50990,8 @@ WeakAurasSaved = {
 				},
 				["use_class"] = true,
 				["use_spellknown"] = false,
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["use_level"] = false,
 				["level"] = "60",
 				["use_item_bonusid_equipped"] = true,
@@ -51001,6 +51001,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -51009,26 +51015,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Clouded Focus",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "2zOcq1mQXZy",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -51051,7 +51051,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Hit Combo"] = {
 			["iconSource"] = -1,
@@ -51225,6 +51225,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -51233,26 +51239,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Hit Combo",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "hnIPpoB(54p",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -51275,7 +51275,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["DONT RELEASE YOU FUCKING APE"] = {
 			["outline"] = "OUTLINE",
@@ -51307,19 +51307,19 @@ WeakAurasSaved = {
 						["type"] = "status",
 						["use_health"] = true,
 						["health_operator"] = "==",
+						["unit"] = "player",
+						["duration"] = "1",
+						["genericShowOn"] = "showOnActive",
 						["names"] = {
 						},
-						["use_absorbMode"] = true,
-						["genericShowOn"] = "showOnActive",
-						["unit"] = "player",
 						["event"] = "Health",
 						["subeventPrefix"] = "SPELL",
+						["health"] = "0",
+						["unevent"] = "auto",
 						["spellIds"] = {
 						},
-						["unevent"] = "auto",
-						["health"] = "0",
 						["use_unit"] = true,
-						["duration"] = "1",
+						["use_absorbMode"] = true,
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -51390,7 +51390,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -51402,7 +51402,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -51420,8 +51420,8 @@ WeakAurasSaved = {
 			["shadowYOffset"] = -1,
 			["preferToUpdate"] = false,
 			["xOffset"] = -11.5045166015625,
-			["justify"] = "LEFT",
 			["semver"] = "1.0.0",
+			["justify"] = "LEFT",
 			["tocversion"] = 80300,
 			["id"] = "DONT RELEASE YOU FUCKING APE",
 			["uid"] = "hdC)(Pi4d8f",
@@ -51467,10 +51467,10 @@ WeakAurasSaved = {
 						["auranames"] = {
 							"116841", -- [1]
 						},
-						["subeventPrefix"] = "SPELL",
-						["use_absorbMode"] = true,
-						["genericShowOn"] = "showOnCooldown",
 						["use_unit"] = true,
+						["use_genericShowOn"] = true,
+						["genericShowOn"] = "showOnCooldown",
+						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["names"] = {
 						},
@@ -51496,7 +51496,7 @@ WeakAurasSaved = {
 						["duration"] = "35",
 						["use_totemName"] = true,
 						["sourceUnit"] = "player",
-						["use_genericShowOn"] = true,
+						["use_absorbMode"] = true,
 					},
 					["untrigger"] = {
 					},
@@ -51605,6 +51605,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -51613,26 +51619,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Tiger's Lust 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = ")prv7hniCZf",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -51715,7 +51715,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Paralysis"] = {
 			["iconSource"] = -1,
@@ -51827,10 +51827,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
-						true, -- [1]
-						[3] = true,
+						["ROGUE"] = true,
 					},
 				},
 				["talent"] = {
@@ -51840,22 +51840,22 @@ WeakAurasSaved = {
 					},
 				},
 				["use_vehicleUi"] = false,
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
 					["multi"] = {
-						["ROGUE"] = true,
+						true, -- [1]
+						[3] = true,
+					},
+				},
+				["use_class"] = true,
+				["pvptalent"] = {
+					["multi"] = {
 					},
 				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -51864,7 +51864,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -51875,34 +51875,41 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["uid"] = "H2Bx8B1gXlE",
-			["desaturate"] = false,
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["parent"] = "Luxthos - Monk Interrupts",
+			["url"] = "https://wago.io/H1nU4F9rQ/5",
 			["regionType"] = "icon",
 			["cooldown"] = true,
+			["authorOptions"] = {
+			},
+			["selfPoint"] = "CENTER",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Luxthos - Monk Interrupts",
 			["width"] = 35,
 			["frameStrata"] = 1,
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["semver"] = "1.1.1",
 			["tocversion"] = 80300,
 			["id"] = "Paralysis",
 			["auto"] = true,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/H1nU4F9rQ/5",
+			["desaturate"] = false,
 			["config"] = {
 			},
 			["inverse"] = false,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
 			},
 			["conditions"] = {
 				{
@@ -51931,14 +51938,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 		},
 		["Song of Chi-Ji"] = {
 			["iconSource"] = -1,
@@ -52087,10 +52087,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["ingroup"] = {
 					["multi"] = {
 					},
@@ -52100,35 +52097,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["config"] = {
 			},
-			["desaturate"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "Luxthos - Monk Interrupts",
+			["url"] = "https://wago.io/H1nU4F9rQ/5",
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["stickyDuration"] = false,
-			["selfPoint"] = "CENTER",
-			["parent"] = "Luxthos - Monk Interrupts",
-			["width"] = 35,
-			["frameStrata"] = 1,
-			["cooldownTextDisabled"] = false,
-			["auto"] = true,
-			["tocversion"] = 80300,
-			["id"] = "Song of Chi-Ji",
-			["semver"] = "1.1.1",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/H1nU4F9rQ/5",
-			["uid"] = "XEVDbgzdv7f",
-			["inverse"] = false,
 			["actions"] = {
 				["start"] = {
 				},
@@ -52136,6 +52116,22 @@ WeakAurasSaved = {
 				},
 				["finish"] = {
 				},
+			},
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["width"] = 35,
+			["frameStrata"] = 1,
+			["zoom"] = 0.33,
+			["auto"] = true,
+			["tocversion"] = 80300,
+			["id"] = "Song of Chi-Ji",
+			["semver"] = "1.1.1",
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["desaturate"] = false,
+			["uid"] = "XEVDbgzdv7f",
+			["inverse"] = false,
+			["authorOptions"] = {
 			},
 			["conditions"] = {
 				{
@@ -52164,7 +52160,11 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 		},
 		["Luxthos - Combo 6.6 - Monk"] = {
@@ -52213,10 +52213,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -52226,33 +52226,33 @@ WeakAurasSaved = {
 						[8] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_talent"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -52294,21 +52294,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "5",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -52726,15 +52726,15 @@ WeakAurasSaved = {
 			["width"] = 56,
 			["alpha"] = 1,
 			["icon_side"] = "RIGHT",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["auto"] = true,
+			["zoom"] = 0,
+			["spark"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Icicles - Bar 4",
-			["spark"] = false,
+			["auto"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["uid"] = "Kc3shkM(7F8",
@@ -52897,9 +52897,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -52908,6 +52905,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -53058,26 +53058,26 @@ WeakAurasSaved = {
 					},
 				}, -- [6]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Fists of Fury",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "BYZ2s1lErPI",
 			["inverse"] = true,
-			["xOffset"] = 25,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 25,
 		},
 		["Revival"] = {
 			["iconSource"] = -1,
@@ -53194,12 +53194,9 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
 					},
 				},
 				["talent"] = {
@@ -53208,18 +53205,27 @@ WeakAurasSaved = {
 						[6] = true,
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "MONK",
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
 				["use_vehicleUi"] = false,
+				["spec"] = {
+					["single"] = 2,
+					["multi"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+					},
+				},
 				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_petbattle"] = false,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -53227,25 +53233,36 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_petbattle"] = false,
+				["use_combat"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_combat"] = true,
-				["use_spec"] = true,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["config"] = {
 			},
+			["desaturate"] = false,
+			["stickyDuration"] = false,
+			["regionType"] = "icon",
+			["cooldown"] = true,
+			["authorOptions"] = {
+			},
+			["url"] = "https://wago.io/SJpy7K9S7/6",
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Revival",
+			["auto"] = true,
+			["alpha"] = 1,
+			["width"] = 35,
 			["actions"] = {
 				["start"] = {
 				},
@@ -53254,26 +53271,9 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["xOffset"] = 0,
-			["regionType"] = "icon",
-			["cooldown"] = true,
-			["parent"] = "Luxthos - Monk Cooldowns",
-			["url"] = "https://wago.io/SJpy7K9S7/6",
-			["desaturate"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["zoom"] = 0.33,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Revival",
-			["auto"] = true,
-			["alpha"] = 1,
-			["width"] = 35,
-			["stickyDuration"] = false,
 			["uid"] = "yjTvdfa8qBf",
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -53302,7 +53302,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
 		},
 		["Rushing Jade Wind - Windwalker"] = {
 			["iconSource"] = -1,
@@ -53531,6 +53531,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -53539,26 +53545,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Rushing Jade Wind - Windwalker",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "SVUs3FNyeY2",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -53750,7 +53750,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Nimble Brew"] = {
 			["iconSource"] = -1,
@@ -53947,6 +53947,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -53955,26 +53961,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Nimble Brew",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "1WKgR6MOiX8",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -54105,7 +54105,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Ice Floes"] = {
 			["iconSource"] = -1,
@@ -54284,6 +54284,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -54292,25 +54297,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Ice Floes",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "c12DwEtYcFk",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -54499,8 +54500,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Shared Legendary (Monk)"] = {
 			["iconSource"] = -1,
@@ -54537,7 +54537,7 @@ WeakAurasSaved = {
 						["use_track"] = true,
 						["unit"] = "player",
 						["use_genericShowOn"] = true,
-						["debuffType"] = "HELPFUL",
+						["spellName"] = 0,
 						["type"] = "aura2",
 						["useName"] = true,
 						["subeventSuffix"] = "_CAST_SUCCESS",
@@ -54551,7 +54551,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = true,
-						["spellName"] = 0,
+						["debuffType"] = "HELPFUL",
 						["use_totemName"] = true,
 						["sourceUnit"] = "player",
 						["use_unit"] = true,
@@ -54676,6 +54676,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -54686,26 +54692,20 @@ WeakAurasSaved = {
 					["do_custom"] = false,
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Shared Legendary (Monk)",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "8(ezAe00Ygt",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -54739,7 +54739,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Energy (Monk)"] = {
 			["user_y"] = 0,
@@ -55242,6 +55242,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = -125,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -55250,26 +55256,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Renewing Mist",
 			["width"] = 46,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "TgLhOsiY4(0",
 			["inverse"] = true,
-			["xOffset"] = -125,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -55349,7 +55349,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Frozen Orb"] = {
 			["iconSource"] = -1,
@@ -55477,7 +55477,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -55487,7 +55487,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -55533,26 +55534,25 @@ WeakAurasSaved = {
 					},
 				}, -- [3]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.5,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Frozen Orb",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.5,
 			["uid"] = "KrccKONhHQm",
 			["inverse"] = true,
-			["xOffset"] = -25,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -25,
 		},
 		["Presence of Mind"] = {
 			["iconSource"] = -1,
@@ -55697,10 +55697,10 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "OUTER_TOP",
 					["text_text_format_2.s_format"] = "none",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_fontSize"] = 20,
 					["anchorXOffset"] = 0,
 					["text_text_format_1.s_format"] = "none",
@@ -55738,6 +55738,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Core - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -55746,25 +55751,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Core - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 25,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Presence of Mind",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 46,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "bjfwhTzLoaE",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -55895,8 +55896,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 25,
 		},
 		["Invoke Yul'on, the Jade Serpent"] = {
 			["iconSource"] = 0,
@@ -55915,15 +55915,15 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["track"] = "auto",
-						["use_absorbMode"] = true,
+						["use_totemName"] = true,
 						["spellId"] = "49206",
 						["auranames"] = {
 							"132578", -- [1]
 						},
 						["use_track"] = true,
-						["use_totemName"] = true,
+						["use_absorbMode"] = true,
 						["genericShowOn"] = "showOnCooldown",
-						["unit"] = "player",
+						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["duration"] = "35",
 						["events"] = "PLAYER_TOTEM_UPDATE",
@@ -55949,7 +55949,7 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["sourceUnit"] = "player",
-						["use_unit"] = true,
+						["unit"] = "player",
 					},
 					["untrigger"] = {
 						["custom"] = "function()\n    return aura_env.index == 0\nend",
@@ -56090,9 +56090,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "RIGHT",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -56103,6 +56100,9 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -56179,26 +56179,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Invoke Yul'on, the Jade Serpent",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "0V2(vSdwg6T",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["selfPoint"] = "RIGHT",
 			["displayIcon"] = "574571",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -157,
 		},
 		["Remove Curse"] = {
 			["iconSource"] = -1,
@@ -56317,6 +56317,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -56325,25 +56330,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Remove Curse",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "SpsrKRU9Dh3",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -56399,8 +56400,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Arcane Orb"] = {
 			["iconSource"] = -1,
@@ -56550,11 +56550,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "BOTTOM",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -56632,32 +56638,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Arcane Orb",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "P)ym7Nk4FDM",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -130,
 		},
 		["Ignite"] = {
 			["iconSource"] = -1,
@@ -56775,10 +56775,10 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "OUTER_TOP",
 					["text_text_format_p_time_precision"] = 1,
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_fontSize"] = 20,
 					["anchorXOffset"] = 0,
 					["text_text_format_p_time_dynamic"] = false,
@@ -56818,7 +56818,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -56828,7 +56828,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -56873,26 +56874,25 @@ WeakAurasSaved = {
 					},
 				}, -- [2]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Ignite",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "DPX9rZoThF6",
 			["inverse"] = true,
-			["xOffset"] = 125,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = 125,
 		},
 		["Zen Meditation 2"] = {
 			["iconSource"] = -1,
@@ -57050,6 +57050,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -57058,26 +57064,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Zen Meditation 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "2QN(zyhowhi",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -57160,7 +57160,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Phial of Serenity (Mage)"] = {
 			["iconSource"] = -1,
@@ -57219,10 +57219,10 @@ WeakAurasSaved = {
 						["duration"] = "1",
 						["subeventSuffix"] = "_CAST_START",
 						["event"] = "Item Count",
+						["count"] = "0",
+						["use_absorbMode"] = true,
 						["spellIds"] = {
 						},
-						["use_absorbMode"] = true,
-						["count"] = "0",
 						["names"] = {
 						},
 						["subeventPrefix"] = "SPELL",
@@ -57238,18 +57238,18 @@ WeakAurasSaved = {
 						["type"] = "status",
 						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["unit"] = "player",
+						["duration"] = "1",
+						["genericShowOn"] = "showAlways",
 						["names"] = {
 						},
-						["use_genericShowOn"] = true,
-						["genericShowOn"] = "showAlways",
-						["unit"] = "player",
 						["realSpellName"] = "Summon Steward",
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["event"] = "Cooldown Progress (Spell)",
 						["subeventPrefix"] = "SPELL",
-						["duration"] = "1",
+						["use_genericShowOn"] = true,
 						["use_track"] = true,
 						["debuffType"] = "HELPFUL",
 					},
@@ -57375,6 +57375,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -57383,26 +57389,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = 157,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Phial of Serenity (Mage)",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "4lX21UrnxXf",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -57454,7 +57454,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = 157,
 		},
 		["Energy (Monk - Brewmaster)"] = {
 			["sparkWidth"] = 10,
@@ -57510,7 +57510,7 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 40,
 			["selfPoint"] = "CENTER",
-			["semver"] = "2.0.9",
+			["spark"] = false,
 			["barColor"] = {
 				0.90980392156863, -- [1]
 				0.8078431372549, -- [2]
@@ -57629,11 +57629,11 @@ WeakAurasSaved = {
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["sparkHidden"] = "NEVER",
-			["zoom"] = 0,
-			["spark"] = false,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Energy (Monk - Brewmaster)",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 296,
 			["config"] = {
@@ -57721,7 +57721,7 @@ WeakAurasSaved = {
 						["use_track"] = true,
 						["unit"] = "player",
 						["use_genericShowOn"] = true,
-						["spellName"] = 0,
+						["debuffType"] = "HELPFUL",
 						["type"] = "aura2",
 						["useName"] = true,
 						["subeventSuffix"] = "_CAST_SUCCESS",
@@ -57735,7 +57735,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = true,
-						["debuffType"] = "HELPFUL",
+						["spellName"] = 0,
 						["use_totemName"] = true,
 						["sourceUnit"] = "player",
 						["use_unit"] = true,
@@ -57822,6 +57822,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -57830,25 +57835,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.45,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Focus Magic - Active",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "LrL500bfHrq",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -57877,8 +57878,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Meteor"] = {
 			["iconSource"] = -1,
@@ -58050,11 +58050,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "BOTTOM",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -58168,32 +58174,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Meteor",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "Xvc1K)BeYZp",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -130,
 		},
 		["Dampen Harm - Brewmaster"] = {
 			["iconSource"] = -1,
@@ -58340,7 +58340,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -58350,14 +58350,35 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["config"] = {
 			},
+			["stickyDuration"] = false,
+			["cooldownEdge"] = true,
+			["regionType"] = "icon",
+			["cooldown"] = true,
+			["desaturate"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["zoom"] = 0.33,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Dampen Harm - Brewmaster",
+			["auto"] = true,
+			["alpha"] = 1,
+			["width"] = 35,
 			["actions"] = {
 				["start"] = {
 				},
@@ -58366,31 +58387,9 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["authorOptions"] = {
-			},
-			["regionType"] = "icon",
-			["cooldown"] = true,
-			["parent"] = "Luxthos - Monk Cooldowns",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["stickyDuration"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Dampen Harm - Brewmaster",
-			["auto"] = true,
-			["alpha"] = 1,
-			["width"] = 35,
-			["cooldownEdge"] = true,
 			["uid"] = "j)XrmBa6sGN",
 			["inverse"] = true,
-			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -58419,7 +58418,8 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 		},
 		["Arcane Charges - Bar 1"] = {
 			["sparkWidth"] = 10,
@@ -58556,14 +58556,14 @@ WeakAurasSaved = {
 			},
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["width"] = 71,
 			["icon_side"] = "RIGHT",
 			["frameStrata"] = 1,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["sparkHidden"] = "NEVER",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["spark"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Arcane Charges - Bar 1",
@@ -58643,12 +58643,12 @@ WeakAurasSaved = {
 						["customStacks"] = "function() return GetSpecialization() end",
 						["realSpellName"] = 0,
 						["use_spellName"] = true,
-						["custom"] = "function() return true end",
+						["events"] = "PLAYER_SPECIALIZATION_CHANGED",
 						["duration"] = "1",
 						["check"] = "event",
 						["spellName"] = 0,
 						["use_track"] = true,
-						["events"] = "PLAYER_SPECIALIZATION_CHANGED",
+						["custom"] = "function() return true end",
 					},
 					["untrigger"] = {
 					},
@@ -58746,6 +58746,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "LEFT",
+			["xOffset"] = 157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -58754,26 +58760,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "LEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Leg Sweep 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = ")BxIHQqGWBp",
 			["inverse"] = true,
-			["xOffset"] = 157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -58855,7 +58855,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Exploding Keg"] = {
 			["iconSource"] = -1,
@@ -59029,6 +59029,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -59037,26 +59043,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Exploding Keg",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "w()QfpOD222",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -59192,7 +59192,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Call Observer"] = {
 			["iconSource"] = -1,
@@ -59371,34 +59371,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["config"] = {
 				["glow"] = false,
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
+			["cooldownEdge"] = false,
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
-			["stickyDuration"] = false,
-			["cooldownEdge"] = false,
-			["width"] = 35,
-			["frameStrata"] = 1,
-			["zoom"] = 0.33,
-			["auto"] = true,
-			["tocversion"] = 80300,
-			["id"] = "Call Observer",
-			["semver"] = "1.1.1",
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["parent"] = "Luxthos - Warlock Cooldowns",
-			["uid"] = "sXX4O7lBALM",
-			["inverse"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -59406,6 +59386,36 @@ WeakAurasSaved = {
 				},
 				["finish"] = {
 				},
+			},
+			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
+			["width"] = 35,
+			["frameStrata"] = 1,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
+			["tocversion"] = 80300,
+			["id"] = "Call Observer",
+			["semver"] = "1.1.1",
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["uid"] = "sXX4O7lBALM",
+			["inverse"] = true,
+			["authorOptions"] = {
+				{
+					["type"] = "toggle",
+					["key"] = "glow",
+					["desc"] = "By toggling this option you will enable glow functionality for this cooldown.",
+					["default"] = false,
+					["useDesc"] = true,
+					["name"] = "Glow",
+					["width"] = 1,
+				}, -- [1]
 			},
 			["conditions"] = {
 				{
@@ -59468,17 +59478,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-				{
-					["type"] = "toggle",
-					["key"] = "glow",
-					["desc"] = "By toggling this option you will enable glow functionality for this cooldown.",
-					["default"] = false,
-					["useDesc"] = true,
-					["name"] = "Glow",
-					["width"] = 1,
-				}, -- [1]
-			},
+			["desaturate"] = false,
 		},
 		["Chi Torpedo"] = {
 			["iconSource"] = -1,
@@ -59653,6 +59653,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -59661,26 +59667,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Chi Torpedo",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "rP)N2)Axe4b",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -59703,7 +59703,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Keg Smash"] = {
 			["iconSource"] = -1,
@@ -59874,9 +59874,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -59885,6 +59882,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -60082,26 +60082,26 @@ WeakAurasSaved = {
 					},
 				}, -- [8]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Keg Smash",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "04NhZFcpIlQ",
 			["inverse"] = true,
-			["xOffset"] = -125,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -125,
 		},
 		["Door of Shadows (Mage)"] = {
 			["iconSource"] = -1,
@@ -60228,6 +60228,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -60236,26 +60242,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = 157,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Door of Shadows (Mage)",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "AauRGltPhDN",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -60311,7 +60311,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = 157,
 		},
 		["Firestarter"] = {
 			["iconSource"] = -1,
@@ -60331,15 +60331,15 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["track"] = "auto",
-						["use_unit"] = true,
+						["subeventPrefix"] = "SPELL",
 						["spellId"] = "49206",
 						["auranames"] = {
 							"264774", -- [1]
 						},
 						["use_track"] = true,
-						["use_genericShowOn"] = true,
+						["use_totemName"] = true,
 						["genericShowOn"] = "showOnCooldown",
-						["subeventPrefix"] = "SPELL",
+						["use_unit"] = true,
 						["unit"] = "target",
 						["names"] = {
 						},
@@ -60365,7 +60365,7 @@ WeakAurasSaved = {
 						["use_absorbMode"] = true,
 						["use_percenthealth"] = true,
 						["percenthealth_operator"] = ">",
-						["use_totemName"] = true,
+						["use_genericShowOn"] = true,
 					},
 					["untrigger"] = {
 						["unit"] = "target",
@@ -60454,7 +60454,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Dynamic - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -60464,30 +60464,30 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = false,
 			["conditions"] = {
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/r1A5wb0Bm/13",
 			["semver"] = "2.0.2",
+			["width"] = 35,
+			["cooldownTextDisabled"] = true,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Firestarter",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = true,
+			["zoom"] = 0.3,
 			["uid"] = "rXU5OWyZhds",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Mage Dynamic - Luxthos",
 			["displayIcon"] = "135805",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/r1A5wb0Bm/13",
+			["xOffset"] = 0,
 		},
 		["Luxthos - Monk Resources"] = {
 			["controlledChildren"] = {
@@ -60590,7 +60590,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -60602,7 +60602,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -60626,9 +60626,14 @@ WeakAurasSaved = {
 			["semver"] = "1.1.2",
 			["tocversion"] = 80300,
 			["id"] = "Luxthos - Monk Resources",
-			["uid"] = "5S3PqrKoye(",
+			["borderInset"] = 11,
 			["frameStrata"] = 4,
 			["anchorFrameType"] = "SELECTFRAME",
+			["authorOptions"] = {
+			},
+			["uid"] = "5S3PqrKoye(",
+			["config"] = {
+			},
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -60649,18 +60654,13 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["config"] = {
-			},
-			["borderInset"] = 11,
-			["anchorFrameFrame"] = "WeakAuras:Luxthos - Monk Rotations",
 			["conditions"] = {
 			},
 			["information"] = {
 				["groupOffset"] = true,
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["anchorFrameFrame"] = "WeakAuras:Luxthos - Monk Rotations",
 		},
 		["Luxthos - Warlock Cooldowns"] = {
 			["grow"] = "DOWN",
@@ -60736,7 +60736,26 @@ WeakAurasSaved = {
 			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["rotation"] = 0,
 			["version"] = 10,
-			["arcLength"] = 360,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+			},
 			["borderInset"] = 0,
 			["load"] = {
 				["ingroup"] = {
@@ -60786,45 +60805,25 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
+			["radius"] = 200,
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["rowSpace"] = 1,
+			["fullCircle"] = true,
 			["animate"] = false,
-			["config"] = {
-			},
+			["arcLength"] = 360,
 			["scale"] = 1,
-			["stagger"] = 0,
+			["uid"] = "x))VWii)oTW",
 			["border"] = false,
-			["anchorFrameFrame"] = "WeakAuras:Luxthos - Warlock Rotations",
+			["borderEdge"] = "1 Pixel",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
-			["limit"] = 5,
-			["radius"] = 200,
 			["sort"] = "none",
+			["anchorPoint"] = "RIGHT",
+			["limit"] = 5,
 			["constantFactor"] = "RADIUS",
 			["authorOptions"] = {
 			},
@@ -60835,16 +60834,17 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["gridWidth"] = 5,
 			["anchorFrameType"] = "SELECTFRAME",
-			["selfPoint"] = "TOP",
-			["uid"] = "x))VWii)oTW",
-			["borderEdge"] = "1 Pixel",
-			["anchorPoint"] = "RIGHT",
+			["stagger"] = 0,
+			["config"] = {
+			},
+			["anchorFrameFrame"] = "WeakAuras:Luxthos - Warlock Rotations",
+			["rowSpace"] = 1,
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["fullCircle"] = true,
+			["selfPoint"] = "TOP",
 		},
 		["Avert Harm"] = {
 			["iconSource"] = -1,
@@ -60869,10 +60869,10 @@ WeakAurasSaved = {
 						["auranames"] = {
 							"202162", -- [1]
 						},
-						["subeventPrefix"] = "SPELL",
-						["use_totemName"] = true,
-						["genericShowOn"] = "showOnCooldown",
 						["use_unit"] = true,
+						["use_genericShowOn"] = true,
+						["genericShowOn"] = "showOnCooldown",
+						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["unit"] = "group",
 						["names"] = {
@@ -60898,7 +60898,7 @@ WeakAurasSaved = {
 						["duration"] = "35",
 						["use_absorbMode"] = true,
 						["sourceUnit"] = "player",
-						["use_genericShowOn"] = true,
+						["use_totemName"] = true,
 					},
 					["untrigger"] = {
 					},
@@ -61014,6 +61014,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -61022,26 +61028,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Avert Harm",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "DTpT7X81eNp",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -61124,7 +61124,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Essence Font"] = {
 			["iconSource"] = -1,
@@ -61309,6 +61309,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = -75,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -61317,26 +61323,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Essence Font",
 			["width"] = 46,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "ll)QL8dRpb(",
 			["inverse"] = true,
-			["xOffset"] = -75,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -61426,7 +61426,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Touch of Death - Mistweaver"] = {
 			["iconSource"] = -1,
@@ -61576,6 +61576,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -61584,26 +61590,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Touch of Death - Mistweaver",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "0jad1)HWy7h",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -61659,7 +61659,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Chi Wave 2"] = {
 			["iconSource"] = -1,
@@ -61687,9 +61687,9 @@ WeakAurasSaved = {
 						},
 						["debuffType"] = "HELPFUL",
 						["track"] = "auto",
-						["type"] = "status",
-						["unevent"] = "auto",
+						["spell"] = "206931",
 						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 115098,
 						["genericShowOn"] = "showAlways",
 						["event"] = "Cooldown Progress (Spell)",
@@ -61700,7 +61700,7 @@ WeakAurasSaved = {
 						},
 						["subeventPrefix"] = "SPELL",
 						["use_absorbMode"] = true,
-						["spell"] = "206931",
+						["type"] = "status",
 						["use_track"] = true,
 						["duration"] = "1",
 					},
@@ -61785,6 +61785,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -61793,26 +61799,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Chi Wave 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "BKBso7(E2aH",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -61868,7 +61868,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Rune of Power"] = {
 			["iconSource"] = 0,
@@ -61906,11 +61906,11 @@ WeakAurasSaved = {
 						["use_absorbMode"] = true,
 						["spellName"] = 0,
 						["unevent"] = "timed",
-						["type"] = "custom",
+						["useName"] = true,
 						["custom_type"] = "status",
 						["subeventSuffix"] = "_CAST_SUCCESS",
 						["debuffType"] = "HELPFUL",
-						["useName"] = true,
+						["type"] = "custom",
 						["event"] = "Combat Log",
 						["totemName"] = "27829",
 						["realSpellName"] = 0,
@@ -62041,11 +62041,19 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "BOTTOM",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "aura_env.texture = 609815",
+					["do_custom"] = true,
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -62135,34 +62143,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "aura_env.texture = 609815",
-					["do_custom"] = true,
-				},
-			},
-			["auto"] = false,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Rune of Power",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "rK(CvF3peb(",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "609815",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -130,
 		},
 		["Energy Number (Monk)"] = {
 			["outline"] = "OUTLINE",
@@ -62309,13 +62309,13 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["justify"] = "CENTER",
+			["semver"] = "1.1.2",
 			["tocversion"] = 80300,
 			["id"] = "Energy Number (Monk)",
 			["width"] = 21.399848937988,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "1.1.2",
+			["justify"] = "CENTER",
 			["uid"] = "cjiksLkZjLy",
 			["authorOptions"] = {
 			},
@@ -62451,6 +62451,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -62459,26 +62465,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Flying Serpent Kick 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "XckN)YZatgI",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -62534,7 +62534,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Summon Darkglare - Active"] = {
 			["iconSource"] = 0,
@@ -62562,9 +62562,9 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["names"] = {
 						},
-						["spellName"] = "205180",
-						["use_totemType"] = true,
 						["debuffType"] = "HELPFUL",
+						["use_totemType"] = true,
+						["spellName"] = "205180",
 						["subeventSuffix"] = "_CAST_SUCCESS",
 						["type"] = "status",
 						["totemType"] = 1,
@@ -62713,7 +62713,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -62723,35 +62723,41 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["width"] = 35,
-			["zoom"] = 0.33,
-			["xOffset"] = 0,
+			["cooldownTextDisabled"] = false,
 			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = 1416161,
 			["authorOptions"] = {
 			},
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["desaturate"] = false,
 			["uid"] = "6l5lvFmG7R6",
 			["frameStrata"] = 1,
-			["auto"] = false,
-			["cooldownTextDisabled"] = false,
 			["semver"] = "1.1.1",
+			["zoom"] = 0.33,
+			["auto"] = false,
 			["tocversion"] = 80300,
 			["id"] = "Summon Darkglare - Active",
 			["url"] = "https://wago.io/rJC-I8rVX/10",
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["desaturate"] = false,
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["config"] = {
 			},
 			["inverse"] = false,
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["conditions"] = {
+			},
+			["information"] = {
+				["ignoreOptionsEventErrors"] = true,
+			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -62760,12 +62766,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["conditions"] = {
-			},
-			["information"] = {
-				["ignoreOptionsEventErrors"] = true,
-			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
 		},
 		["Healing Sphere"] = {
 			["iconSource"] = -1,
@@ -62793,9 +62793,9 @@ WeakAurasSaved = {
 						},
 						["debuffType"] = "HELPFUL",
 						["track"] = "auto",
-						["type"] = "status",
-						["unevent"] = "auto",
+						["spell"] = "206931",
 						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 						["spellName"] = 205234,
 						["genericShowOn"] = "showOnCooldown",
 						["event"] = "Cooldown Progress (Spell)",
@@ -62806,7 +62806,7 @@ WeakAurasSaved = {
 						},
 						["subeventPrefix"] = "SPELL",
 						["use_absorbMode"] = true,
-						["spell"] = "206931",
+						["type"] = "status",
 						["use_track"] = true,
 						["duration"] = "1",
 					},
@@ -63041,6 +63041,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -63049,26 +63055,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 3,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Healing Sphere",
 			["width"] = 35,
-			["frameStrata"] = 3,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "3yaJC3LAlfu",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -63204,7 +63204,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Luxthos - Combo 6.1 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -63252,10 +63252,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -63266,33 +63266,33 @@ WeakAurasSaved = {
 						[9] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["use_vehicleUi"] = false,
-				["pvptalent"] = {
+				["use_talent"] = true,
+				["use_class"] = true,
+				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -63334,21 +63334,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "0",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -63624,10 +63624,10 @@ WeakAurasSaved = {
 						["auranames"] = {
 							"125174", -- [1]
 						},
-						["subeventPrefix"] = "SPELL",
-						["use_absorbMode"] = true,
-						["genericShowOn"] = "showOnCooldown",
 						["use_unit"] = true,
+						["use_genericShowOn"] = true,
+						["genericShowOn"] = "showOnCooldown",
+						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["names"] = {
 						},
@@ -63653,7 +63653,7 @@ WeakAurasSaved = {
 						["duration"] = "35",
 						["use_totemName"] = true,
 						["sourceUnit"] = "player",
-						["use_genericShowOn"] = true,
+						["use_absorbMode"] = true,
 					},
 					["untrigger"] = {
 					},
@@ -63780,10 +63780,10 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = false,
+					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "OUTER_TOP",
 					["text_text_format_3.n_format"] = "none",
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = false,
 					["text_fontSize"] = 18,
 					["anchorXOffset"] = 0,
 					["text_text_format_p_time_dynamic"] = false,
@@ -63815,6 +63815,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -63825,26 +63831,20 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Touch of Karma 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "EZNDyLGVAYJ",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -63940,7 +63940,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Invoke Xuen, the White Tiger"] = {
 			["iconSource"] = -1,
@@ -64087,7 +64087,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -64097,39 +64097,46 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["uid"] = "PjpUmoIXbd(",
-			["desaturate"] = false,
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["url"] = "https://wago.io/SJpy7K9S7/6",
 			["regionType"] = "icon",
 			["cooldown"] = true,
+			["authorOptions"] = {
+			},
+			["selfPoint"] = "CENTER",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Luxthos - Monk Cooldowns",
 			["width"] = 35,
 			["frameStrata"] = 1,
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["semver"] = "1.1.1",
 			["tocversion"] = 80300,
 			["id"] = "Invoke Xuen, the White Tiger",
 			["auto"] = true,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/SJpy7K9S7/6",
+			["desaturate"] = false,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
 			},
 			["conditions"] = {
 				{
@@ -64159,14 +64166,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 		},
 		["Luxthos - Combo 6.2 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -64214,10 +64214,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -64227,33 +64227,33 @@ WeakAurasSaved = {
 						[8] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_talent"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -64295,21 +64295,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "status",
 						["power"] = "1",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -64682,6 +64682,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "LEFT",
+			["xOffset"] = 157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -64690,26 +64696,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "LEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Provoke - Brewmaster",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "Bfb42Gds)K3",
 			["inverse"] = true,
-			["xOffset"] = 157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -64765,7 +64765,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Tigereye Brew"] = {
 			["iconSource"] = -1,
@@ -64919,8 +64919,8 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_font"] = "Friz Quadrata TT",
-					["text_shadowYOffset"] = 0,
 					["text_anchorYOffset"] = -4,
+					["text_shadowYOffset"] = 0,
 					["text_fontType"] = "OUTLINE",
 					["text_wordWrap"] = "WordWrap",
 					["text_visible"] = true,
@@ -64956,13 +64956,13 @@ WeakAurasSaved = {
 				["use_class"] = true,
 				["use_spellknown"] = true,
 				["use_itemequiped"] = false,
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["spec"] = {
 					["single"] = 3,
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["spellknown"] = 247483,
 				["size"] = {
 					["multi"] = {
@@ -64973,6 +64973,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = true,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -64981,26 +64987,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Tigereye Brew",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "df3u5MJ)z4p",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -65024,7 +65024,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Dark Soul: Instability 2 - Active"] = {
 			["iconSource"] = -1,
@@ -65207,7 +65207,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -65217,47 +65217,47 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["width"] = 35,
-			["desaturate"] = false,
-			["cooldownEdge"] = true,
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["regionType"] = "icon",
-			["displayIcon"] = "",
-			["stickyDuration"] = false,
-			["selfPoint"] = "CENTER",
-			["uid"] = "txrJgWGc78V",
-			["alpha"] = 1,
-			["zoom"] = 0.33,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Dark Soul: Instability 2 - Active",
-			["auto"] = true,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["cooldownEdge"] = true,
+			["icon"] = true,
+			["cooldown"] = true,
+			["regionType"] = "icon",
+			["displayIcon"] = "",
+			["parent"] = "Luxthos - Warlock Cooldowns",
+			["stickyDuration"] = false,
+			["uid"] = "txrJgWGc78V",
+			["alpha"] = 1,
+			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
+			["auto"] = true,
+			["tocversion"] = 80300,
+			["id"] = "Dark Soul: Instability 2 - Active",
+			["semver"] = "1.1.1",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["icon"] = true,
+			["desaturate"] = false,
 		},
 		["Whirling Dragon Punch 2"] = {
 			["iconSource"] = -1,
@@ -65411,9 +65411,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -65422,6 +65419,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -65570,26 +65570,26 @@ WeakAurasSaved = {
 					},
 				}, -- [6]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Whirling Dragon Punch 2",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "L7GC2u04qUz",
 			["inverse"] = true,
-			["xOffset"] = 75,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 75,
 		},
 		["Infernal Cascade"] = {
 			["iconSource"] = -1,
@@ -65747,8 +65747,8 @@ WeakAurasSaved = {
 				["level_operator"] = "==",
 				["use_class"] = true,
 				["use_spellknown"] = false,
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
@@ -65764,6 +65764,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -65772,25 +65777,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Infernal Cascade",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "6353N3Bv8T4",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -65819,8 +65820,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Ray of Frost"] = {
 			["iconSource"] = -1,
@@ -65969,7 +65969,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -65979,7 +65979,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -66074,26 +66075,25 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.5,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Ray of Frost",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.5,
 			["uid"] = "wVx8IX4Ujxj",
 			["inverse"] = true,
-			["xOffset"] = 25,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = 25,
 		},
 		["Ice Nova"] = {
 			["iconSource"] = -1,
@@ -66243,11 +66243,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "BOTTOM",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -66314,32 +66320,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Ice Nova",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "ds1O42JvOp(",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -130,
 		},
 		["PETS Warlock"] = {
 			["outline"] = "THICKOUTLINE",
@@ -66524,7 +66524,7 @@ WeakAurasSaved = {
 			["fixedWidth"] = 200,
 			["preferToUpdate"] = false,
 			["wordWrap"] = "WordWrap",
-			["semver"] = "1.0.0",
+			["justify"] = "LEFT",
 			["shadowYOffset"] = -1,
 			["id"] = "PETS Warlock",
 			["uid"] = "d9zvPttBBeX",
@@ -66534,7 +66534,7 @@ WeakAurasSaved = {
 			["config"] = {
 			},
 			["selfPoint"] = "BOTTOM",
-			["justify"] = "LEFT",
+			["semver"] = "1.0.0",
 			["shadowColor"] = {
 				0, -- [1]
 				0, -- [2]
@@ -66693,6 +66693,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["xOffset"] = 157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -66701,26 +66707,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Soulshape Flicker (Monk)",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "RhFV7UQ)Bfy",
 			["inverse"] = true,
-			["xOffset"] = 157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -66768,7 +66768,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Shifting Power"] = {
 			["iconSource"] = 0,
@@ -66802,7 +66802,7 @@ WeakAurasSaved = {
 						["duration"] = "35",
 						["useName"] = true,
 						["subeventSuffix"] = "_CAST_SUCCESS",
-						["debuffType"] = "HELPFUL",
+						["spellName"] = 0,
 						["use_spellId"] = true,
 						["type"] = "status",
 						["castType"] = "channel",
@@ -66816,7 +66816,7 @@ WeakAurasSaved = {
 						["spellIds"] = {
 						},
 						["use_sourceUnit"] = true,
-						["spellName"] = 0,
+						["debuffType"] = "HELPFUL",
 						["use_totemName"] = true,
 						["sourceUnit"] = "player",
 						["use_unit"] = true,
@@ -66935,11 +66935,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "BOTTOMRIGHT",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -67020,32 +67026,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = false,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Shifting Power",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "dAnFBooXI58",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "3636841",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -157,
 		},
 		["Greater Invisibility"] = {
 			["iconSource"] = -1,
@@ -67075,17 +67075,17 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["duration"] = "35",
-						["debuffType"] = "HELPFUL",
-						["subeventSuffix"] = "_CAST_SUCCESS",
+						["spellName"] = 0,
+						["useExactSpellId"] = true,
 						["type"] = "aura2",
 						["use_spellId"] = true,
-						["spellName"] = 0,
-						["unevent"] = "auto",
-						["useName"] = false,
-						["useExactSpellId"] = true,
+						["debuffType"] = "HELPFUL",
 						["auraspellids"] = {
 							"110960", -- [1]
 						},
+						["useName"] = false,
+						["subeventSuffix"] = "_CAST_SUCCESS",
+						["unevent"] = "auto",
 						["unit"] = "player",
 						["ownOnly"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -67210,6 +67210,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -67218,25 +67223,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Greater Invisibility",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "EfZF(G(e44n",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -67319,8 +67320,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Phial of Serenity (Monk)"] = {
 			["iconSource"] = -1,
@@ -67378,10 +67378,10 @@ WeakAurasSaved = {
 						["duration"] = "1",
 						["subeventSuffix"] = "_CAST_START",
 						["event"] = "Item Count",
-						["count"] = "0",
-						["use_absorbMode"] = true,
 						["spellIds"] = {
 						},
+						["use_absorbMode"] = true,
+						["count"] = "0",
 						["names"] = {
 						},
 						["subeventPrefix"] = "SPELL",
@@ -67397,18 +67397,18 @@ WeakAurasSaved = {
 						["type"] = "status",
 						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
-						["unit"] = "player",
-						["duration"] = "1",
-						["genericShowOn"] = "showAlways",
 						["names"] = {
 						},
+						["use_genericShowOn"] = true,
+						["genericShowOn"] = "showAlways",
+						["unit"] = "player",
 						["realSpellName"] = "Summon Steward",
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
 						["event"] = "Cooldown Progress (Spell)",
 						["subeventPrefix"] = "SPELL",
-						["use_genericShowOn"] = true,
+						["duration"] = "1",
 						["use_track"] = true,
 						["debuffType"] = "HELPFUL",
 					},
@@ -67528,6 +67528,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["xOffset"] = 157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -67536,26 +67542,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Phial of Serenity (Monk)",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "8ksDJuydQ67",
 			["inverse"] = true,
-			["xOffset"] = 157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -67607,7 +67607,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Cold Snap"] = {
 			["iconSource"] = -1,
@@ -67728,6 +67728,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -67736,25 +67741,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Cold Snap",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "lY8fugfuB8D",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -67810,8 +67811,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Teachings of the Monastery"] = {
 			["iconSource"] = -1,
@@ -67985,6 +67985,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -67993,26 +67999,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Teachings of the Monastery",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "zfou4QnrIJc",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -68041,7 +68041,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Pyroblast"] = {
 			["iconSource"] = 0,
@@ -68194,7 +68194,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -68204,7 +68204,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -68299,26 +68300,25 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = false,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Pyroblast",
 			["frameStrata"] = 2,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "tI7Vo6gBOuC",
 			["inverse"] = true,
-			["xOffset"] = -125,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "135808",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -125,
 		},
 		["Mana Tea"] = {
 			["iconSource"] = -1,
@@ -68465,10 +68465,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_petbattle"] = false,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -68478,10 +68475,30 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["uid"] = "21GHUUCj9M4",
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["url"] = "https://wago.io/SJpy7K9S7/6",
+			["regionType"] = "icon",
+			["cooldown"] = true,
+			["authorOptions"] = {
+			},
+			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
+			["width"] = 35,
+			["frameStrata"] = 1,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Mana Tea",
+			["auto"] = true,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["actions"] = {
 				["start"] = {
 				},
@@ -68490,32 +68507,10 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["parent"] = "Luxthos - Monk Cooldowns",
-			["width"] = 35,
-			["frameStrata"] = 1,
-			["zoom"] = 0.33,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Mana Tea",
-			["auto"] = true,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/SJpy7K9S7/6",
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
-			},
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -68544,7 +68539,12 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Touch of the Magi"] = {
 			["iconSource"] = -1,
@@ -68688,10 +68688,10 @@ WeakAurasSaved = {
 						1, -- [4]
 					},
 					["text_wordWrap"] = "WordWrap",
-					["text_visible"] = true,
+					["text_fontType"] = "OUTLINE",
 					["text_anchorPoint"] = "OUTER_TOP",
 					["text_text_format_p_time_precision"] = 1,
-					["text_fontType"] = "OUTLINE",
+					["text_visible"] = true,
 					["text_fontSize"] = 20,
 					["anchorXOffset"] = 0,
 					["text_text_format_p_time_dynamic"] = false,
@@ -68731,11 +68731,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "CENTER",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -68808,32 +68814,26 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Touch of the Magi",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "igas5Qk77BP",
 			["inverse"] = true,
-			["xOffset"] = -25,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -25,
 		},
 		["Fortifying - Mistweaver & Windwalker"] = {
 			["iconSource"] = -1,
@@ -68993,6 +68993,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -69001,26 +69007,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Fortifying - Mistweaver & Windwalker",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "BFbDPyocZlR",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -69103,7 +69103,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Grapple Weapon"] = {
 			["iconSource"] = -1,
@@ -69268,6 +69268,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -69276,26 +69282,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Grapple Weapon",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "8He)UDq5SHd",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -69378,7 +69378,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Enlightened"] = {
 			["iconSource"] = -1,
@@ -69417,12 +69417,10 @@ WeakAurasSaved = {
 						["percenthealth_operator"] = ">",
 						["duration"] = "35",
 						["debuffType"] = "HELPFUL",
-						["type"] = "aura2",
 						["useName"] = false,
+						["type"] = "aura2",
 						["use_totemName"] = true,
-						["auraspellids"] = {
-							"321388", -- [1]
-						},
+						["unevent"] = "auto",
 						["unit"] = "player",
 						["names"] = {
 						},
@@ -69432,7 +69430,9 @@ WeakAurasSaved = {
 						["use_spellName"] = true,
 						["spellIds"] = {
 						},
-						["unevent"] = "auto",
+						["auraspellids"] = {
+							"321388", -- [1]
+						},
 						["use_genericShowOn"] = true,
 						["use_percenthealth"] = true,
 						["sourceUnit"] = "player",
@@ -69526,7 +69526,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Dynamic - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -69536,7 +69536,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = false,
 			["conditions"] = {
 				{
@@ -69557,26 +69558,25 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/r1A5wb0Bm/13",
 			["semver"] = "2.0.2",
+			["width"] = 35,
+			["cooldownTextDisabled"] = true,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Enlightened",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = true,
+			["zoom"] = 0.3,
 			["uid"] = "E8Hi(9XV7dV",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Mage Dynamic - Luxthos",
 			["displayIcon"] = "135805",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/r1A5wb0Bm/13",
+			["xOffset"] = 0,
 		},
 		["Invisibility"] = {
 			["iconSource"] = -1,
@@ -69606,17 +69606,17 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["duration"] = "35",
-						["debuffType"] = "HELPFUL",
-						["subeventSuffix"] = "_CAST_SUCCESS",
+						["spellName"] = 0,
+						["useExactSpellId"] = true,
 						["type"] = "aura2",
 						["use_spellId"] = true,
-						["spellName"] = 0,
-						["unevent"] = "auto",
-						["useName"] = false,
-						["useExactSpellId"] = true,
+						["debuffType"] = "HELPFUL",
 						["auraspellids"] = {
 							"66", -- [1]
 						},
+						["useName"] = false,
+						["subeventSuffix"] = "_CAST_SUCCESS",
+						["unevent"] = "auto",
 						["unit"] = "player",
 						["ownOnly"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -69647,17 +69647,17 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["duration"] = "35",
-						["debuffType"] = "HELPFUL",
-						["subeventSuffix"] = "_CAST_SUCCESS",
+						["spellName"] = 0,
+						["useExactSpellId"] = true,
 						["type"] = "aura2",
 						["use_spellId"] = true,
-						["spellName"] = 0,
-						["unevent"] = "auto",
-						["useName"] = false,
-						["useExactSpellId"] = true,
+						["debuffType"] = "HELPFUL",
 						["auraspellids"] = {
 							"32612", -- [1]
 						},
+						["useName"] = false,
+						["subeventSuffix"] = "_CAST_SUCCESS",
+						["unevent"] = "auto",
 						["unit"] = "player",
 						["ownOnly"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -69781,6 +69781,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -69789,25 +69794,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Invisibility",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "Ry(7puLdJIv",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -69901,8 +69902,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Hypothermia"] = {
 			["iconSource"] = -1,
@@ -70027,6 +70027,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = true,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -70035,32 +70040,27 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Hypothermia",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "4xG2wbN9C5c",
 			["inverse"] = true,
-			["cooldownEdge"] = true,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Brain Freeze"] = {
 			["iconSource"] = 0,
@@ -70084,11 +70084,11 @@ WeakAurasSaved = {
 							"190447", -- [1]
 						},
 						["useExactSpellId"] = false,
+						["unit"] = "player",
+						["matchesShowOn"] = "showOnActive",
+						["event"] = "Health",
 						["names"] = {
 						},
-						["ownOnly"] = true,
-						["event"] = "Health",
-						["unit"] = "player",
 						["unitExists"] = true,
 						["subeventSuffix"] = "_CAST_START",
 						["spellIds"] = {
@@ -70097,7 +70097,7 @@ WeakAurasSaved = {
 						["auraspellids"] = {
 						},
 						["useName"] = true,
-						["matchesShowOn"] = "showOnActive",
+						["ownOnly"] = true,
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -70205,7 +70205,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -70215,7 +70215,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -70290,26 +70291,25 @@ WeakAurasSaved = {
 					},
 				}, -- [3]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = false,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Brain Freeze",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "4ZszCKKqsdC",
 			["inverse"] = true,
-			["xOffset"] = -125,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "1506795",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -125,
 		},
 		["Black Ox Brew"] = {
 			["iconSource"] = -1,
@@ -70456,10 +70456,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_petbattle"] = false,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -70469,36 +70466,46 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 			},
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
 			["uid"] = "zG8kszHsDdh",
-			["desaturate"] = false,
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["url"] = "https://wago.io/SJpy7K9S7/6",
 			["regionType"] = "icon",
 			["cooldown"] = true,
+			["authorOptions"] = {
+			},
+			["selfPoint"] = "CENTER",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Luxthos - Monk Cooldowns",
 			["width"] = 35,
 			["frameStrata"] = 1,
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["semver"] = "1.1.1",
 			["tocversion"] = 80300,
 			["id"] = "Black Ox Brew",
 			["auto"] = true,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["url"] = "https://wago.io/SJpy7K9S7/6",
+			["desaturate"] = false,
 			["config"] = {
 			},
 			["inverse"] = true,
-			["authorOptions"] = {
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
 			},
 			["conditions"] = {
 				{
@@ -70528,14 +70535,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 		},
 		["Invoke Xuen, the White Tiger 2"] = {
 			["iconSource"] = 0,
@@ -70554,15 +70554,15 @@ WeakAurasSaved = {
 				{
 					["trigger"] = {
 						["track"] = "auto",
-						["use_absorbMode"] = true,
+						["use_totemName"] = true,
 						["spellId"] = "49206",
 						["auranames"] = {
 							"123904", -- [1]
 						},
 						["use_track"] = true,
-						["use_totemName"] = true,
+						["use_absorbMode"] = true,
 						["genericShowOn"] = "showOnCooldown",
-						["unit"] = "player",
+						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["duration"] = "35",
 						["events"] = "PLAYER_TOTEM_UPDATE",
@@ -70588,7 +70588,7 @@ WeakAurasSaved = {
 						["names"] = {
 						},
 						["sourceUnit"] = "player",
-						["use_unit"] = true,
+						["unit"] = "player",
 					},
 					["untrigger"] = {
 						["custom"] = "function()\n    return aura_env.index == 0\nend",
@@ -70717,9 +70717,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "RIGHT",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -70730,6 +70727,9 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -70841,26 +70841,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Invoke Xuen, the White Tiger 2",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 35,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "0JYDmkx(h3V",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["selfPoint"] = "RIGHT",
 			["displayIcon"] = "620832",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -157,
 		},
 		["Soulshatter - Active"] = {
 			["iconSource"] = -1,
@@ -70887,12 +70887,12 @@ WeakAurasSaved = {
 						["genericShowOn"] = "showAlways",
 						["unit"] = "player",
 						["use_absorbMode"] = true,
-						["debuffType"] = "HELPFUL",
 						["spellName"] = 205180,
+						["debuffType"] = "HELPFUL",
 						["duration"] = "1",
 						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["use_showOn"] = true,
 						["use_unit"] = true,
 						["event"] = "Totem",
@@ -71060,25 +71060,14 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 35,
-			["cooldownTextDisabled"] = false,
-			["xOffset"] = 0,
+			["zoom"] = 0.33,
 			["desaturate"] = false,
+			["xOffset"] = 0,
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = "",
 			["authorOptions"] = {
 			},
-			["url"] = "https://wago.io/rJC-I8rVX/10",
-			["uid"] = "wNa3JIZzou3",
-			["alpha"] = 1,
-			["auto"] = true,
-			["zoom"] = 0.33,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Soulshatter - Active",
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["actions"] = {
 				["start"] = {
 				},
@@ -71087,16 +71076,27 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["uid"] = "wNa3JIZzou3",
+			["alpha"] = 1,
+			["semver"] = "1.1.1",
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
+			["tocversion"] = 80300,
+			["id"] = "Soulshatter - Active",
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/rJC-I8rVX/10",
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["selfPoint"] = "CENTER",
 		},
 		["Call Fel Lord - Active"] = {
 			["iconSource"] = 0,
@@ -71129,10 +71129,10 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["use_genericShowOn"] = true,
 						["spellName"] = 265187,
-						["useName"] = true,
 						["type"] = "event",
-						["subeventSuffix"] = "_CAST_SUCCESS",
+						["useName"] = true,
 						["unevent"] = "timed",
+						["subeventSuffix"] = "_CAST_SUCCESS",
 						["use_showOn"] = true,
 						["unit"] = "player",
 						["event"] = "Combat Log",
@@ -71294,41 +71294,41 @@ WeakAurasSaved = {
 				},
 			},
 			["width"] = 35,
-			["stickyDuration"] = false,
+			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
-			["cooldownEdge"] = true,
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = 1113433,
+			["icon"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
 			["uid"] = "eiuHF(mepvf",
 			["alpha"] = 1,
-			["cooldownTextDisabled"] = false,
 			["zoom"] = 0.33,
-			["auto"] = false,
+			["cooldownTextDisabled"] = false,
+			["semver"] = "1.1.1",
 			["tocversion"] = 80300,
 			["id"] = "Call Fel Lord - Active",
-			["semver"] = "1.1.1",
+			["auto"] = false,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["desaturate"] = false,
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["icon"] = true,
+			["cooldownEdge"] = true,
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["stickyDuration"] = false,
 		},
 		["Combustion"] = {
 			["iconSource"] = -1,
@@ -71477,7 +71477,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -71487,7 +71487,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -71560,26 +71561,25 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.45,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Combustion",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.45,
 			["uid"] = "p08KBKSBRE3",
 			["inverse"] = true,
-			["xOffset"] = 75,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = 75,
 		},
 		["Mana Number (Monk)"] = {
 			["outline"] = "OUTLINE",
@@ -71714,22 +71714,22 @@ WeakAurasSaved = {
 			},
 			["fontSize"] = 13,
 			["shadowXOffset"] = 1,
-			["authorOptions"] = {
-			},
+			["shadowYOffset"] = -1,
 			["regionType"] = "text",
 			["fixedWidth"] = 200,
-			["shadowYOffset"] = -1,
-			["parent"] = "Luxthos - Monk Resources",
+			["authorOptions"] = {
+			},
+			["wordWrap"] = "WordWrap",
 			["automaticWidth"] = "Auto",
-			["justify"] = "CENTER",
+			["semver"] = "1.1.2",
 			["config"] = {
 			},
-			["semver"] = "1.1.2",
+			["justify"] = "CENTER",
 			["tocversion"] = 80300,
 			["id"] = "Mana Number (Monk)",
-			["width"] = 21.399848937988,
-			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 21.399848937988,
 			["selfPoint"] = "BOTTOM",
 			["uid"] = "yzUWAMRZRD(",
 			["xOffset"] = 0,
@@ -71745,7 +71745,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["wordWrap"] = "WordWrap",
+			["parent"] = "Luxthos - Monk Resources",
 		},
 		["Mana (Monk) 2"] = {
 			["sparkWidth"] = 10,
@@ -71814,7 +71814,7 @@ WeakAurasSaved = {
 			},
 			["internalVersion"] = 40,
 			["selfPoint"] = "CENTER",
-			["semver"] = "2.0.9",
+			["spark"] = false,
 			["barColor"] = {
 				0.03921568627451, -- [1]
 				0.45098039215686, -- [2]
@@ -71879,13 +71879,13 @@ WeakAurasSaved = {
 					},
 					["text_font"] = "Friz Quadrata TT",
 					["text_text_format_percentpower_abbreviate_max"] = 8,
-					["text_text_format_percentpower_realm_name"] = "never",
+					["text_shadowYOffset"] = -1,
 					["text_visible"] = true,
 					["text_wordWrap"] = "WordWrap",
-					["text_text_format_percentpower_big_number_format"] = "AbbreviateLargeNumbers",
-					["text_text_format_percentpower_format"] = "BigNumber",
 					["text_fontType"] = "OUTLINE",
-					["text_shadowYOffset"] = -1,
+					["text_text_format_percentpower_format"] = "BigNumber",
+					["text_text_format_percentpower_big_number_format"] = "AbbreviateLargeNumbers",
+					["text_text_format_percentpower_realm_name"] = "never",
 					["text_fontSize"] = 14,
 					["anchorXOffset"] = 0,
 					["text_text_format_percentpower_decimal_precision"] = 1,
@@ -71963,11 +71963,11 @@ WeakAurasSaved = {
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["sparkHidden"] = "NEVER",
-			["zoom"] = 0,
-			["spark"] = false,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Mana (Monk) 2",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 296,
 			["config"] = {
@@ -72127,7 +72127,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -72137,7 +72137,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -72169,26 +72170,25 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Pyroblast - Firestorm",
 			["frameStrata"] = 4,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "j4DDor44U2H",
 			["inverse"] = false,
-			["xOffset"] = -125,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -125,
 		},
 		["Prismatic Barrier - Bar"] = {
 			["sparkWidth"] = 10,
@@ -72219,13 +72219,13 @@ WeakAurasSaved = {
 						["use_tooltipValue"] = false,
 						["ownOnly"] = true,
 						["subeventPrefix"] = "SPELL",
-						["spellName"] = 25771,
-						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
-						["type"] = "aura2",
+						["use_powertype"] = true,
+						["spellName"] = 25771,
 						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
+						["type"] = "aura2",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["powertype"] = 6,
 						["fetchTooltip"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -72402,17 +72402,17 @@ WeakAurasSaved = {
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["uid"] = "GLCNBmr1mmf",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["icon_side"] = "RIGHT",
 			["width"] = 296,
 			["sparkHeight"] = 15,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "BOTH",
 			["id"] = "Prismatic Barrier - Bar",
+			["sparkHidden"] = "BOTH",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["spark"] = true,
@@ -72582,15 +72582,15 @@ WeakAurasSaved = {
 			["width"] = 56,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["id"] = "Chi - 1",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkHidden"] = "NEVER",
+			["zoom"] = 0,
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "NEVER",
+			["id"] = "Chi - 1",
 			["spark"] = false,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["uid"] = "akLTWWechnF",
 			["inverse"] = false,
 			["backgroundColor"] = {
@@ -72741,6 +72741,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -72749,25 +72754,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Conjure Refreshment",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "2Ht7ZlTEcLX",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -72823,8 +72824,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Invoke Niuzao, the Black Ox"] = {
 			["iconSource"] = -1,
@@ -72972,7 +72972,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -72982,47 +72982,40 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "e9w8rUPKrXf",
-			["url"] = "https://wago.io/SJpy7K9S7/6",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["desaturate"] = false,
+			["authorOptions"] = {
 			},
 			["regionType"] = "icon",
 			["cooldown"] = true,
-			["parent"] = "Luxthos - Monk Cooldowns",
-			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
-			["width"] = 35,
-			["frameStrata"] = 1,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Invoke Niuzao, the Black Ox",
-			["auto"] = true,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["authorOptions"] = {
-			},
-			["config"] = {
-			},
-			["inverse"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["selfPoint"] = "CENTER",
+			["parent"] = "Luxthos - Monk Cooldowns",
+			["width"] = 35,
+			["frameStrata"] = 1,
+			["zoom"] = 0.33,
+			["semver"] = "1.1.1",
+			["tocversion"] = 80300,
+			["id"] = "Invoke Niuzao, the Black Ox",
+			["auto"] = true,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["url"] = "https://wago.io/SJpy7K9S7/6",
+			["config"] = {
+			},
+			["inverse"] = true,
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -73051,7 +73044,14 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 		},
 		["Dampen Harm - Brewmaster 2"] = {
 			["iconSource"] = -1,
@@ -73208,6 +73208,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = -157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -73216,26 +73222,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Dampen Harm - Brewmaster 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = ")J3i(eNsE(u",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -73314,7 +73314,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Mirrors of Torment"] = {
 			["iconSource"] = -1,
@@ -73514,6 +73514,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMRIGHT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -73522,26 +73528,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMRIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = -157,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Mirrors of Torment",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "iLHjYul4zhT",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -73624,7 +73624,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = -157,
 		},
 		["Blazing Barrier - Bar"] = {
 			["sparkWidth"] = 10,
@@ -73655,13 +73655,13 @@ WeakAurasSaved = {
 						["use_tooltipValue"] = false,
 						["ownOnly"] = true,
 						["subeventPrefix"] = "SPELL",
-						["spellName"] = 25771,
-						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
-						["type"] = "aura2",
+						["use_powertype"] = true,
+						["spellName"] = 25771,
 						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
+						["type"] = "aura2",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["powertype"] = 6,
 						["fetchTooltip"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -73838,17 +73838,17 @@ WeakAurasSaved = {
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["uid"] = "VWn7xFLSVmh",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["icon_side"] = "RIGHT",
 			["width"] = 296,
 			["sparkHeight"] = 15,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "BOTH",
 			["id"] = "Blazing Barrier - Bar",
+			["sparkHidden"] = "BOTH",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["spark"] = true,
@@ -73922,28 +73922,8 @@ WeakAurasSaved = {
 			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
 			["rotation"] = 0,
 			["version"] = 5,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-					["easeStrength"] = 3,
-					["easeType"] = "none",
-				},
-			},
-			["config"] = {
-			},
+			["arcLength"] = 360,
+			["uid"] = "o)O39r3eRO(",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -73971,7 +73951,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -73983,7 +73963,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -73992,7 +73972,25 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["authorOptions"] = {
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["easeStrength"] = 3,
+					["easeType"] = "none",
+				},
 			},
 			["backdropColor"] = {
 				1, -- [1]
@@ -74000,18 +73998,19 @@ WeakAurasSaved = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["fullCircle"] = true,
+			["rowSpace"] = 1,
 			["animate"] = false,
 			["radius"] = 200,
 			["scale"] = 1,
-			["arcLength"] = 360,
+			["useLimit"] = false,
 			["border"] = false,
-			["anchorFrameFrame"] = "WeakAuras:Luxthos - Monk Rotations",
+			["borderEdge"] = "1 Pixel",
 			["regionType"] = "dynamicgroup",
 			["borderSize"] = 2,
-			["sort"] = "none",
-			["rowSpace"] = 1,
-			["uid"] = "o)O39r3eRO(",
+			["limit"] = 5,
+			["fullCircle"] = true,
+			["authorOptions"] = {
+			},
 			["constantFactor"] = "RADIUS",
 			["stagger"] = 0,
 			["borderOffset"] = 16,
@@ -74021,16 +74020,17 @@ WeakAurasSaved = {
 			["gridWidth"] = 5,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SELECTFRAME",
-			["limit"] = 5,
+			["sort"] = "none",
 			["borderInset"] = 0,
-			["borderEdge"] = "1 Pixel",
-			["anchorPoint"] = "LEFT",
+			["anchorFrameFrame"] = "WeakAuras:Luxthos - Monk Rotations",
+			["config"] = {
+			},
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["useLimit"] = false,
+			["anchorPoint"] = "LEFT",
 		},
 		["Phoenix Flame - Bar 1"] = {
 			["sparkWidth"] = 10,
@@ -74061,11 +74061,11 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["matchesShowOn"] = "showAlways",
-						["use_powertype"] = true,
 						["use_trackcharge"] = true,
+						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
-						["useName"] = true,
 						["trackcharge"] = "1",
+						["useName"] = true,
 						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
 						["genericShowOn"] = "showAlways",
@@ -74170,22 +74170,22 @@ WeakAurasSaved = {
 			},
 			["version"] = 13,
 			["uid"] = "tG85pI79j21",
-			["sparkDesaturate"] = true,
+			["icon_side"] = "RIGHT",
 			["smoothProgress"] = false,
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["width"] = 96,
 			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkDesaturate"] = true,
+			["zoom"] = 0,
 			["sparkHeight"] = 35,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["zoom"] = 0,
-			["spark"] = true,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Phoenix Flame - Bar 1",
-			["auto"] = true,
+			["spark"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["sparkColor"] = {
@@ -74219,8 +74219,8 @@ WeakAurasSaved = {
 					["y"] = 0,
 					["x"] = 0,
 					["duration_type"] = "seconds",
-					["rotate"] = 0,
 					["easeStrength"] = 3,
+					["rotate"] = 0,
 					["duration"] = "0.7",
 					["colorA"] = 1,
 				},
@@ -74397,7 +74397,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -74407,7 +74407,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -74497,26 +74498,25 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Dragon's Breath",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "AFbhPGUFCbm",
 			["inverse"] = true,
-			["xOffset"] = 25,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = 25,
 		},
 		["Ice Barrier - Bar"] = {
 			["sparkWidth"] = 10,
@@ -74547,13 +74547,13 @@ WeakAurasSaved = {
 						["use_tooltipValue"] = false,
 						["ownOnly"] = true,
 						["subeventPrefix"] = "SPELL",
-						["spellName"] = 25771,
-						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
-						["type"] = "aura2",
+						["use_powertype"] = true,
+						["spellName"] = 25771,
 						["useName"] = true,
-						["subeventSuffix"] = "_CAST_START",
+						["type"] = "aura2",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["powertype"] = 6,
 						["fetchTooltip"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -74730,17 +74730,17 @@ WeakAurasSaved = {
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["uid"] = "PwJRRDyEa)n",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["icon_side"] = "RIGHT",
 			["width"] = 296,
 			["sparkHeight"] = 15,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "BOTH",
 			["id"] = "Ice Barrier - Bar",
+			["sparkHidden"] = "BOTH",
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["spark"] = true,
@@ -74868,13 +74868,13 @@ WeakAurasSaved = {
 				["use_class"] = true,
 				["use_spellknown"] = true,
 				["use_itemequiped"] = false,
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["spec"] = {
 					["single"] = 3,
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["spellknown"] = 247483,
 				["size"] = {
 					["multi"] = {
@@ -74885,6 +74885,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -74893,26 +74899,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Tigereye Brew - Active",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "B(x8qCMpxWv",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -74935,7 +74935,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Luxthos - Combo 5.1 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -74981,10 +74981,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -74994,33 +74994,33 @@ WeakAurasSaved = {
 						[8] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_talent"] = false,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -75062,21 +75062,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "0",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -75505,6 +75505,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 25,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -75513,26 +75519,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Purifying Brew",
 			["width"] = 46,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "6k(AuhRghd8",
 			["inverse"] = true,
-			["xOffset"] = 25,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -75609,7 +75609,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Elusive Brawler 2"] = {
 			["iconSource"] = -1,
@@ -75785,6 +75785,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -75793,26 +75799,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "Elusive Brawler 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "8HIcJwP3Fwr",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -75853,7 +75853,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Luxthos - Combo 5.2 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -75901,10 +75901,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -75914,33 +75914,33 @@ WeakAurasSaved = {
 						[8] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_talent"] = false,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -75982,21 +75982,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "status",
 						["power"] = "1",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -76276,17 +76276,17 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["duration"] = "35",
-						["debuffType"] = "HELPFUL",
-						["subeventSuffix"] = "_CAST_SUCCESS",
+						["spellName"] = 0,
+						["useExactSpellId"] = true,
 						["type"] = "aura2",
 						["use_spellId"] = true,
-						["spellName"] = 0,
-						["unevent"] = "auto",
-						["useName"] = false,
-						["useExactSpellId"] = true,
+						["debuffType"] = "HELPFUL",
 						["auraspellids"] = {
 							"198158", -- [1]
 						},
+						["useName"] = false,
+						["subeventSuffix"] = "_CAST_SUCCESS",
+						["unevent"] = "auto",
 						["unit"] = "player",
 						["ownOnly"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -76416,6 +76416,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -76424,25 +76429,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Mass Invisibility",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "Jfkf(BHfOPB",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -76525,8 +76526,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Stagger"] = {
 			["user_y"] = 0,
@@ -76599,7 +76599,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -76613,7 +76613,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -76698,18 +76698,18 @@ WeakAurasSaved = {
 						["name"] = "Light Stagger",
 						["subeventPrefix"] = "SPELL",
 						["buffShowOn"] = "showOnActive",
-						["type"] = "aura2",
+						["name_operator"] = "==",
 						["debuffType"] = "HARMFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["name_operator"] = "==",
+						["type"] = "aura2",
 						["use_debuffClass"] = false,
-						["auraspellids"] = {
-							"124275", -- [1]
-						},
+						["useExactSpellId"] = true,
 						["useName"] = true,
 						["fetchTooltip"] = true,
 						["event"] = "Health",
-						["useExactSpellId"] = true,
+						["auraspellids"] = {
+							"124275", -- [1]
+						},
 						["use_name"] = true,
 						["use_spellId"] = true,
 						["spellIds"] = {
@@ -76742,18 +76742,18 @@ WeakAurasSaved = {
 						["name"] = "Moderate Stagger",
 						["subeventPrefix"] = "SPELL",
 						["buffShowOn"] = "showOnActive",
-						["type"] = "aura2",
+						["name_operator"] = "==",
 						["debuffType"] = "HARMFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["name_operator"] = "==",
+						["type"] = "aura2",
 						["use_debuffClass"] = false,
-						["auraspellids"] = {
-							"124274", -- [1]
-						},
+						["useExactSpellId"] = true,
 						["useName"] = true,
 						["fetchTooltip"] = true,
 						["event"] = "Health",
-						["useExactSpellId"] = true,
+						["auraspellids"] = {
+							"124274", -- [1]
+						},
 						["use_name"] = true,
 						["use_spellId"] = true,
 						["spellIds"] = {
@@ -76786,18 +76786,18 @@ WeakAurasSaved = {
 						["name"] = "Heavy Stagger",
 						["subeventPrefix"] = "SPELL",
 						["buffShowOn"] = "showOnActive",
-						["type"] = "aura2",
+						["name_operator"] = "==",
 						["debuffType"] = "HARMFUL",
 						["subeventSuffix"] = "_CAST_START",
-						["name_operator"] = "==",
+						["type"] = "aura2",
 						["use_debuffClass"] = false,
-						["auraspellids"] = {
-							"124273", -- [1]
-						},
+						["useExactSpellId"] = true,
 						["useName"] = true,
 						["fetchTooltip"] = true,
 						["event"] = "Health",
-						["useExactSpellId"] = true,
+						["auraspellids"] = {
+							"124273", -- [1]
+						},
 						["use_name"] = true,
 						["use_spellId"] = true,
 						["spellIds"] = {
@@ -77256,6 +77256,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -77264,25 +77269,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Fevered Incantation",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "sQjhLxFe59K",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -77311,8 +77312,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Arcane Charges - Bar 4"] = {
 			["sparkWidth"] = 10,
@@ -77449,14 +77449,14 @@ WeakAurasSaved = {
 			},
 			["useAdjustededMin"] = true,
 			["regionType"] = "aurabar",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["width"] = 71,
 			["icon_side"] = "RIGHT",
 			["frameStrata"] = 1,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
 			["sparkHidden"] = "NEVER",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["zoom"] = 0,
 			["spark"] = false,
 			["tocversion"] = 90001,
 			["id"] = "Arcane Charges - Bar 4",
@@ -77634,15 +77634,15 @@ WeakAurasSaved = {
 			["width"] = 56,
 			["sparkHeight"] = 30,
 			["texture"] = "Solid",
-			["id"] = "Chi - 3",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkHidden"] = "NEVER",
+			["zoom"] = 0,
 			["auto"] = true,
 			["tocversion"] = 90001,
-			["sparkHidden"] = "NEVER",
+			["id"] = "Chi - 3",
 			["spark"] = false,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["uid"] = "hQL22abr87S",
 			["inverse"] = false,
 			["backgroundColor"] = {
@@ -77745,16 +77745,16 @@ WeakAurasSaved = {
 						["type"] = "custom",
 						["unevent"] = "auto",
 						["custom_type"] = "status",
-						["event"] = "Cooldown Progress (Spell)",
-						["use_genericShowOn"] = true,
 						["genericShowOn"] = "showOnCooldown",
+						["duration"] = "1",
+						["event"] = "Cooldown Progress (Spell)",
 						["unit"] = "player",
 						["realSpellName"] = 0,
 						["use_spellName"] = true,
 						["custom"] = "function(event, _, message, _, sourceGUID, _, _, _, _, _, _, _, spellId, _)\n    if event == \"COMBAT_LOG_EVENT_UNFILTERED\" and message == \"SPELL_CAST_SUCCESS\" and sourceGUID == UnitGUID(\"player\") and (\n    spellId == 100784 --[[ Blackout Kick ]] ) then\n        return true\n    end\nend",
 						["events"] = "COMBAT_LOG_EVENT_UNFILTERED",
 						["check"] = "event",
-						["duration"] = "1",
+						["use_genericShowOn"] = true,
 						["use_track"] = true,
 						["debuffType"] = "HELPFUL",
 					},
@@ -77839,9 +77839,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -77850,6 +77847,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -78020,26 +78020,26 @@ WeakAurasSaved = {
 					},
 				}, -- [7]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Blackout Kick - Windwalker",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "ZW4PmXu6GYF",
 			["inverse"] = true,
-			["xOffset"] = -75,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = -75,
 		},
 		["Details! Boss Mods Group"] = {
 			["grow"] = "DOWN",
@@ -78127,7 +78127,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -78139,7 +78139,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -78148,6 +78148,25 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["authorOptions"] = {
+			},
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["internalVersion"] = 40,
+			["animate"] = true,
+			["limit"] = 5,
+			["scale"] = 1,
+			["stagger"] = 0,
+			["border"] = false,
+			["borderEdge"] = "Square Full White",
+			["regionType"] = "dynamicgroup",
+			["borderSize"] = 2,
+			["sort"] = "none",
+			["arcLength"] = 360,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -78168,25 +78187,6 @@ WeakAurasSaved = {
 					["easeType"] = "none",
 				},
 			},
-			["backdropColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["internalVersion"] = 40,
-			["animate"] = true,
-			["limit"] = 5,
-			["scale"] = 1,
-			["authorOptions"] = {
-			},
-			["border"] = false,
-			["borderEdge"] = "Square Full White",
-			["regionType"] = "dynamicgroup",
-			["borderSize"] = 2,
-			["sort"] = "none",
-			["arcLength"] = 360,
-			["useLimit"] = false,
 			["constantFactor"] = "RADIUS",
 			["uid"] = "arf9C3T7uWr",
 			["borderOffset"] = 16,
@@ -78199,127 +78199,18 @@ WeakAurasSaved = {
 			["borderInset"] = 0,
 			["config"] = {
 			},
-			["stagger"] = 0,
+			["fullCircle"] = true,
 			["gridType"] = "RD",
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["fullCircle"] = true,
+			["useLimit"] = false,
 		},
 		["ZT - Interrupt Tracker Bar"] = {
 			["sparkWidth"] = 10,
-			["borderBackdrop"] = "None",
-			["parent"] = "ZT - Interrupt Tracker",
-			["preferToUpdate"] = false,
-			["customText"] = "",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["icon"] = true,
-			["iconSource"] = -1,
-			["sparkRotation"] = 0,
-			["sparkRotationMode"] = "AUTO",
-			["url"] = "https://wago.io/InterruptTracker/29",
-			["backgroundColor"] = {
-				0.062745098039216, -- [1]
-				0.062745098039216, -- [2]
-				0.062745098039216, -- [3]
-				1, -- [4]
-			},
-			["triggers"] = {
-				{
-					["trigger"] = {
-						["use_absorbMode"] = true,
-						["unit"] = "player",
-						["debuffType"] = "HELPFUL",
-						["type"] = "custom",
-						["unevent"] = "auto",
-						["subeventPrefix"] = "SPELL",
-						["buffShowOn"] = "showOnActive",
-						["event"] = "Health",
-						["custom_type"] = "stateupdate",
-						["names"] = {
-						},
-						["custom"] = "function(allstates, event, type, watchID, ...)\n    \n    if event == \"ZT_ADD\" then\n        local member, spellID, duration, charges = ...\n        \n        -- If this WA was just loaded\n        if not type then\n            aura_env.region.ZTRegTypes = aura_env.regTypes\n            aura_env.region.ZTRegSpells = aura_env.regSpells\n            \n            WeakAuras.ScanEvents(\"ZT_REGISTER\", aura_env.regTypes, aura_env.region.id)\n            WeakAuras.ScanEvents(\"ZT_REGISTER\", aura_env.regSpells, aura_env.region.id)\n        else\n            local isTypeReg = aura_env.types[type]\n            local isSpellReg = aura_env.spells[spellID]\n            local isInterested = (isTypeReg and not isSpellReg) or (not isTypeReg and isSpellReg)\n            --dont add Spell Reflect for DPS specs and remove it from states if already present\n            if spellID == 23920 and member.specID~=73 and aura_env.config.advanced.spellReflectTank then\n                allstates[watchID] = nil\n                return\n            end\n            if not allstates[watchID] and isInterested and (not member.isPlayer or aura_env.config[\"reg\"][\"type\"][\"showOwn\"..type]) then\n                \n                local state = {}\n                state.show = true\n                state.changed = true\n                state.autoHide = false\n                state.resort = true\n                state.watchID = watchID    \n                state.successful = false    \n                state.isDead = false    \n                state.outOfRange = false\n                \n                state.progressType = 'timed'\n                state.duration = duration\n                state.expirationTime = GetTime()\n                \n                state.name = member.name\n                \n                state.icon = select(3,GetSpellInfo(spellID))\n                state.stacks = charges\n                \n                state.type = type\n                state.spellId = spellID\n                state.member = member\n                \n                aura_env.initSortIndex(state)\n                \n                allstates[watchID] = state\n                \n                return true\n            end\n        end\n    elseif event == \"ZT_TRIGGER\" then\n        local duration, expiration, charges = ...\n        \n        local state = allstates[watchID]\n        if state then\n            state.changed = true\n            \n            state.duration = duration\n            state.stacks = charges\n            if not charges or aura_env.config[\"display\"][\"showChargeProgress\"] or charges == 0 then\n                state.expirationTime = expiration\n            end\n            if math.abs(GetTime() - expiration+duration) < 0.2 and state.spellId ~= 23920 then\n                if aura_env.config.advanced.showMissed then\n                    state.elapsedDuration = true\n                    state.changed = true\n                    C_Timer.After(3,function() \n                            WeakAuras.ScanEvents(\"NNOGGIE_INTERRUPT_RESETELAPSED\",state.watchID)\n                    end)\n                end                \n            end\n            \n            state.resort = aura_env.updateSortIndex(state)\n            \n            return true\n        end\n    elseif event == \"ZT_REMOVE\" then\n        local state = allstates[watchID]\n        if state then\n            state.show = false\n            state.changed = true\n            return true\n        end\n    end\n    \n    if event == \"COMBAT_LOG_EVENT_UNFILTERED\" and watchID == \"SPELL_INTERRUPT\" then    \n        local _, sourceGUID, _, _, _, _, _, _, destRaidFlags, spellId,_ ,_, extraSpellId = ...    \n        if aura_env.silenceMap[spellId] then spellId = aura_env.silenceMap[spellId] end\n        --Attribute Pet Spell's to its owner\n        local sourceType = strsplit(\"-\",sourceGUID)\n        if sourceType == \"Pet\" or sourceType == \"Creature\" then\n            for unit in WA_IterateGroupMembers() do\n                if UnitGUID(unit..\"pet\") == sourceGUID then\n                    sourceGUID = UnitGUID(unit)\n                    break\n                end\n            end\n        end\n        for watchId, state in pairs(allstates) do\n            if state.spellId == spellId and state.member.GUID == sourceGUID then    \n                local iconFileId = GetSpellTexture(extraSpellId)    \n                allstates[watchId].extraIcon = aura_env.config.advanced.showSpell and (\"|T%s:0|t\"):format(iconFileId) \n                allstates[watchId].successful = true                    \n                local mark = math.log(destRaidFlags)/math.log(2) + 1    \n                if ICON_LIST[mark] then    \n                    allstates[watchId].raidIcon = aura_env.config.advanced.showTarget and (\"%s:0\\124t\"):format(ICON_LIST[mark])    \n                else    \n                    allstates[watchId].raidIcon = nil    \n                end               \n                allstates[watchId].changed = true    \n                return true                    \n            end    \n        end    \n    end    \n    \n    if event == \"NNOGGIE_INTERRUPT_UPDATETEXT\" and type then\n        local watchId = type    \n        local state = allstates[watchId]    \n        if state then    \n            state.successful = false    \n            state.extraIcon = nil    \n            state.raidIcon = nil    \n            state.changed = true    \n            return true    \n        end    \n    end    \n    \n    if event == \"NNOGGIE_INTERRUPT_RESETELAPSED\" and type then            \n        local watchId = type    \n        local state = allstates[watchId]    \n        if state then\n            state.elapsedDuration = false\n            state.changed = true    \n            return true    \n        end    \n    end \n    \n    if event == \"OPTIONS\" then\n        aura_env.firstCheck = nil\n    end\n    \n    \n    if event == \"FRAME_UPDATE\" then    \n        if not aura_env.last or aura_env.last < GetTime() - 0.5 then    \n            aura_env.last = GetTime()\n            \n            --delay first check for 1 second to not conflict with WA setting up the states\n            aura_env.firstCheck = aura_env.firstCheck or GetTime()\n            if aura_env.last>aura_env.firstCheck+1 then\n                \n                for watchId,state in pairs(allstates) do    \n                    --local unit = state.member.unit                    \n                    local unit                \n                    for u in WA_IterateGroupMembers() do    \n                        if UnitName(u) == state.member.name then unit = u end    \n                    end    \n                    --Player Dead    \n                    local isDead = UnitIsDeadOrGhost(unit) or (not UnitIsConnected(unit)) or (not UnitIsVisible(unit))    \n                    if isDead ~= state.isDead then    \n                        state.isDead = isDead    \n                        state.resort = aura_env.updateSortIndex(state,not isDead)    \n                        state.changed = true    \n                    end                    \n                    --Player out of Range    \n                    local outOfRange = WeakAuras.CheckRange(unit, 100, \">=\")    \n                    if outOfRange ~= state.outOfRange then    \n                        state.outOfRange = outOfRange    \n                        state.resort = aura_env.updateSortIndex(state,not outOfRange)    \n                        state.changed = true    \n                    end\n                end    \n                return true\n                \n            end            \n        end    \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-						["events"] = "ZT_ADD, ZT_TRIGGER, ZT_REMOVE, CLEU:SPELL_INTERRUPT NNOGGIE_INTERRUPT_UPDATETEXT, FRAME_UPDATE NNOGGIE_INTERRUPT_RESETELAPSED",
-						["spellIds"] = {
-						},
-						["check"] = "event",
-						["subeventSuffix"] = "_CAST_START",
-						["use_unit"] = true,
-						["customVariables"] = "{\n    expirationTime = true,\n    duration = true,\n    stacks = true,\n    elapsedDuration = \"bool\",\n    successful = \"bool\",\n    isDead = \"bool\",\n    outOfRange = \"bool\",    \n}",
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-				["disjunctive"] = "any",
-				["activeTriggerMode"] = -10,
-			},
-			["icon_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["internalVersion"] = 40,
-			["xOffset"] = 0,
-			["animation"] = {
-				["start"] = {
-					["colorR"] = 1,
-					["scalex"] = 1,
-					["colorA"] = 1,
-					["colorG"] = 1,
-					["type"] = "custom",
-					["easeType"] = "none",
-					["colorB"] = 1,
-					["use_color"] = true,
-					["alpha"] = 0,
-					["x"] = 0,
-					["y"] = 0,
-					["colorType"] = "custom",
-					["easeStrength"] = 3,
-					["duration"] = "0",
-					["colorFunc"] = "function()\n    if aura_env.state then\n        local config = aura_env.config[\"display\"]\n        \n        local classColor = {aura_env.state.member.classColor:GetRGBA()}\n        local barColor, nameColor, timerColor\n        if config[\"colorBarUseClass\"] then\n            barColor = classColor\n        else\n            barColor = config[\"colorBar\"]\n        end\n        if config[\"colorNameUseClass\"] then\n            nameColor = classColor\n        else\n            nameColor = config[\"colorName\"]\n        end\n        if config[\"colorTimerUseClass\"] then\n            timerColor = classColor\n        else\n            timerColor = config[\"colorTimer\"]\n        end\n        \n        aura_env.region:Color(unpack(barColor))\n        aura_env.region.text:SetTextColor(unpack(nameColor))\n        aura_env.region.timer:SetTextColor(unpack(timerColor))\n        aura_env.state.isDead = nil\n        aura_env.state.outOfRange = nil\n        \n    end\n    \n    \n    \nend",
-					["rotate"] = 0,
-					["duration_type"] = "seconds",
-					["scaley"] = 1,
-				},
-				["main"] = {
-					["colorR"] = 1,
-					["duration_type"] = "seconds",
-					["colorA"] = 1,
-					["colorG"] = 1,
-					["type"] = "none",
-					["easeType"] = "none",
-					["scaley"] = 1,
-					["alpha"] = 0,
-					["colorB"] = 1,
-					["y"] = 0,
-					["colorType"] = "custom",
-					["scalex"] = 1,
-					["easeStrength"] = 3,
-					["colorFunc"] = "    function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
-					["rotate"] = 0,
-					["x"] = 0,
-					["use_color"] = false,
-				},
-				["finish"] = {
-					["type"] = "none",
-					["easeStrength"] = 3,
-					["duration_type"] = "seconds",
-					["easeType"] = "none",
-				},
-			},
-			["backdropInFront"] = false,
-			["spark"] = false,
-			["barColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["stickyDuration"] = false,
+			["sparkOffsetX"] = 0,
 			["authorOptions"] = {
 				{
 					["subOptions"] = {
@@ -79003,6 +78894,190 @@ WeakAurasSaved = {
 					["width"] = 2,
 				}, -- [10]
 			},
+			["preferToUpdate"] = false,
+			["customText"] = "",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["borderBackdrop"] = "None",
+			["iconSource"] = -1,
+			["sparkRotation"] = 0,
+			["sparkRotationMode"] = "AUTO",
+			["url"] = "https://wago.io/InterruptTracker/29",
+			["actions"] = {
+				["start"] = {
+					["custom"] = "",
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["custom"] = "local config = aura_env.config\nlocal cDisplay = config[\"display\"]\nlocal cSort = config[\"sorting\"]\nlocal cRegType = config[\"reg\"][\"type\"]\nlocal cRegSpell = config[\"reg\"][\"spell\"]\n\n-- Handling the spell registration configuration\nlocal sharedConfigSpellIDs = {\n    [\"ArcaneTorrent\"] = {202719, 50613, 80483, 28730, 129597, 155145, 232633, 25046, 69179},\n    [\"Asphyxiate\"] = {221562, 108194},\n    [\"Evasion/Riposte\"] = {5277, 199754},\n    [\"Ascendance\"] = {114050, 114051},\n    [\"Bladestorm\"] = {227847, 46924},\n}\n\naura_env.types = {}\naura_env.regTypes = {}\naura_env.spells = {}\naura_env.regSpells = {}\naura_env.typeToWatching = {}\n\nfor key,value in pairs(cRegType) do\n    if value and key:find(\"enabled\") == 1 then\n        local type = key:sub(8)\n        aura_env.types[type] = true\n    end\nend\n\nfor type,group in pairs(cRegSpell) do\n    for key,value in pairs(group) do\n        if value then\n            local spellID = tonumber(key)\n            if spellID then\n                aura_env.spells[spellID] = true\n            else\n                for _,spellID in ipairs(sharedConfigSpellIDs[key]) do\n                    aura_env.spells[spellID] = true\n                end\n            end\n        end\n    end\nend\n\nfor type,_ in pairs(aura_env.types) do tinsert(aura_env.regTypes, type) end\nfor spellID,_ in pairs(aura_env.spells) do tinsert(aura_env.regSpells, spellID) end\n\n-- Modified from https://eu.battle.net/forums/en/wow/topic/9337744534\naura_env.fixName = function(name)\n    local length = cDisplay[\"nameLength\"]\n    if length <= 0 then\n        return \"\"\n    end\n    \n    local nameChars = {}\n    name:gsub(\"([^\\128-\\191][\\128-\\191]*)\", function(char) \n            local leadbyte = strbyte(char, 1)\n            local charLength = -1\n            \n            if leadbyte < 248 then\n                if leadbyte >= 240 then charLength = 4\n                elseif leadbyte >= 224 then charLength = 3\n                elseif leadbyte >= 192 then charLength = 2\n                elseif leadbyte < 128 then charLength = 1\n                end\n            end\n            \n            if length > #nameChars then\n                tinsert(nameChars, (charLength == #char) and char)\n            end\n    end)\n    \n    return table.concat(nameChars, \"\")\nend\n\nlocal prioritizedSpellIDs = {\n    [183752] = true, -- Disrupt\n}\n\nlocal sortVars = {}\nlocal sortVarsIndex = {}\nfor v = 1,5 do\n    local var = cSort[\"sortVar\"..v]\n    if var and var ~= 1 then\n        if not sortVarsIndex[var] then\n            local index = #sortVars + 1\n            sortVars[index] = var\n            sortVarsIndex[var] = index\n        end\n    end\nend\n\nlocal isAvail = (cSort[\"sortOrder\"] == 1) and 0 or 1\nlocal isUnavail = (cSort[\"sortOrder\"] == 1) and 1 or 0\n\naura_env.initSortIndex = function(state)\n    state.sortValues = {}\n    \n    for index,var in ipairs(sortVars) do\n        if var == 2 then     -- Type Priority\n            local priority = cRegType[\"priority\"..state.type]\n            if cSort[\"sortOrder\"] == 2 then\n                priority = 99 - priority\n            end\n            state.sortValues[index] = (\"%02d\"):format(priority)\n        elseif var == 3 then -- Spell ID\n            state.sortValues[index] = (\"%06d\"):format(aura_env.spellPriorityMap[state.spellId] or state.spellId)\n        elseif var == 4 then -- Member Class\n            state.sortValues[index] = (\"%02d\"):format(state.member.classID)\n        elseif var == 5 then -- Member Name\n            state.sortValues[index] = (\"%-12s\"):format(state.member.name)\n        elseif var == 6 then -- Availability\n            local availValue = isAvail\n            local timeValue = math.max(state.expirationTime - GetTime(),0)\n            if cSort[\"sortOrder\"] == 2 then\n                timeValue = 9999999999.999 - timeValue\n            end\n            \n            state.sortValues[index] = (\"%d%010.3f\"):format(availValue, timeValue)\n        end\n    end\n    \n    state.index = table.concat(state.sortValues)\nend\n\naura_env.updateSortIndex = function(state,shouldReIndex)\n    local index = sortVarsIndex[6]\n    if index then\n        \n        if state.isDead then\n            state.index = \"9999999999.9999999\"\n            return true\n        end\n        \n        if state.outOfRange then\n            state.index = \"9999999999.0000000\"\n            return true\n        end        \n        \n        local prevSortValue = state.sortValues[index]\n        \n        local availValue\n        local timeValue\n        \n        if state.stacks then\n            if state.stacks > 0 then\n                availValue = isAvail\n                timeValue = math.max(state.expirationTime - GetTime(),0)\n            else\n                availValue = isUnavail\n                timeValue = state.expirationTime\n            end\n        elseif state.expirationTime > GetTime() then\n            availValue = isUnavail\n            timeValue = state.expirationTime\n        else\n            availValue = isAvail\n            timeValue = 0\n        end\n        \n        if cSort[\"sortOrder\"] == 2 then\n            timeValue = 9999999999.999 - timeValue\n        end\n        state.sortValues[index] = (\"%d%010.3f\"):format(availValue, timeValue)\n        \n        if state.sortValues[index] ~= prevSortValue or shouldReIndex then\n            state.index = table.concat(state.sortValues)\n            return true\n        end\n    end\n    \n    return false\nend\n\nif WeakAuras.IsAuraLoaded then\n    -- Since there is no unload event, hooking into region:Collapse() which\n    -- is called from WeakAuras.UnloadDisplays(...)\n    if not aura_env.region.ZTHooked then\n        aura_env.region.ZTHooked = true\n        hooksecurefunc(aura_env.region, \"Collapse\", function(self, ...)\n                if self.ZTRegTypes and (not WeakAuras.IsAuraLoaded(self.id)) then\n                    WeakAuras.ScanEvents(\"ZT_UNREGISTER\", self.ZTRegTypes, self.id)\n                    WeakAuras.ScanEvents(\"ZT_UNREGISTER\", self.ZTRegSpells, self.id)\n                    self.ZTRegTypes = nil\n                    self.ZTRegSpells = nil\n                end\n        end)\n    end\nend\n\naura_env.silenceMap = { --interupt:cast\n    [220543] = 15487,  --silence\n    [97547]  = 78675,  --solar beam\n    [93985]  = 106839, --skullbash  \n    [347008] = 89766,  --axe toss Check Zen\n    [132409] = 19647,  --Spell Lock (Sacrifice)\n}\naura_env.spellPriorityMap = {\n    [23920]  = 1,  --Spell Reflect\n    [31935]  = 1,  --Avenger's Shield\n    [183752] = 2,  --Disrupt\n    [47528]  = 3,  --Mind Freeze\n    [57994]  = 4,  --Wind Shear    \n    \n    [1766]   = 5,  --Kick\n    [6552]   = 6,  --Pummel\n    [116705] = 7,  --Spear Hand Strike\n    [106839] = 8,  --Skull Bash\n    [96231]  = 9,  --Rebuke\n    [187707] = 10, --Muzzle\n    \n    [202137] = 11, --Sigil of Silence\n    \n    [2139]   = 12, --Counter Spell\n    [147362] = 13, --Counter Shot\n    [119910] = 14, --Spell Lock Command Demon\n    [19647]  = 15, --Spell Lock if used from pet bar\n    [132409] = 16, --Spell Lock Command Demon Sacrifice\n    [89766]  = 17, --Axe Toss\n    --TODO: DK Leap\n    [15487]  = 18, --Silence\n    [78675]  = 20, --Solar Beam\n}\naura_env.petSpells = {\n    [119910] = true, --Spell Lock Command Demon\n    [19647]  = true, --Spell Lock if used from pet bar\n    [132409] = true, --Spell Lock Command Demon Sacrifice\n    --TODO: DK Leap\n}\n\n\n",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+				},
+			},
+			["triggers"] = {
+				{
+					["trigger"] = {
+						["use_absorbMode"] = true,
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["subeventPrefix"] = "SPELL",
+						["buffShowOn"] = "showOnActive",
+						["event"] = "Health",
+						["custom_type"] = "stateupdate",
+						["names"] = {
+						},
+						["custom"] = "function(allstates, event, type, watchID, ...)\n    \n    if event == \"ZT_ADD\" then\n        local member, spellID, duration, charges = ...\n        \n        -- If this WA was just loaded\n        if not type then\n            aura_env.region.ZTRegTypes = aura_env.regTypes\n            aura_env.region.ZTRegSpells = aura_env.regSpells\n            \n            WeakAuras.ScanEvents(\"ZT_REGISTER\", aura_env.regTypes, aura_env.region.id)\n            WeakAuras.ScanEvents(\"ZT_REGISTER\", aura_env.regSpells, aura_env.region.id)\n        else\n            local isTypeReg = aura_env.types[type]\n            local isSpellReg = aura_env.spells[spellID]\n            local isInterested = (isTypeReg and not isSpellReg) or (not isTypeReg and isSpellReg)\n            --dont add Spell Reflect for DPS specs and remove it from states if already present\n            if spellID == 23920 and member.specID~=73 and aura_env.config.advanced.spellReflectTank then\n                allstates[watchID] = nil\n                return\n            end\n            if not allstates[watchID] and isInterested and (not member.isPlayer or aura_env.config[\"reg\"][\"type\"][\"showOwn\"..type]) then\n                \n                local state = {}\n                state.show = true\n                state.changed = true\n                state.autoHide = false\n                state.resort = true\n                state.watchID = watchID    \n                state.successful = false    \n                state.isDead = false    \n                state.outOfRange = false\n                \n                state.progressType = 'timed'\n                state.duration = duration\n                state.expirationTime = GetTime()\n                \n                state.name = member.name\n                \n                state.icon = select(3,GetSpellInfo(spellID))\n                state.stacks = charges\n                \n                state.type = type\n                state.spellId = spellID\n                state.member = member\n                \n                aura_env.initSortIndex(state)\n                \n                allstates[watchID] = state\n                \n                return true\n            end\n        end\n    elseif event == \"ZT_TRIGGER\" then\n        local duration, expiration, charges = ...\n        \n        local state = allstates[watchID]\n        if state then\n            state.changed = true\n            \n            state.duration = duration\n            state.stacks = charges\n            if not charges or aura_env.config[\"display\"][\"showChargeProgress\"] or charges == 0 then\n                state.expirationTime = expiration\n            end\n            if math.abs(GetTime() - expiration+duration) < 0.2 and state.spellId ~= 23920 then\n                if aura_env.config.advanced.showMissed then\n                    state.elapsedDuration = true\n                    state.changed = true\n                    C_Timer.After(3,function() \n                            WeakAuras.ScanEvents(\"NNOGGIE_INTERRUPT_RESETELAPSED\",state.watchID)\n                    end)\n                end                \n            end\n            \n            state.resort = aura_env.updateSortIndex(state)\n            \n            return true\n        end\n    elseif event == \"ZT_REMOVE\" then\n        local state = allstates[watchID]\n        if state then\n            state.show = false\n            state.changed = true\n            return true\n        end\n    end\n    \n    if event == \"COMBAT_LOG_EVENT_UNFILTERED\" and watchID == \"SPELL_INTERRUPT\" then    \n        local _, sourceGUID, _, _, _, _, _, _, destRaidFlags, spellId,_ ,_, extraSpellId = ...    \n        if aura_env.silenceMap[spellId] then spellId = aura_env.silenceMap[spellId] end\n        --Attribute Pet Spell's to its owner\n        local sourceType = strsplit(\"-\",sourceGUID)\n        if sourceType == \"Pet\" or sourceType == \"Creature\" then\n            for unit in WA_IterateGroupMembers() do\n                if UnitGUID(unit..\"pet\") == sourceGUID then\n                    sourceGUID = UnitGUID(unit)\n                    break\n                end\n            end\n        end\n        for watchId, state in pairs(allstates) do\n            if state.spellId == spellId and state.member.GUID == sourceGUID then    \n                local iconFileId = GetSpellTexture(extraSpellId)    \n                allstates[watchId].extraIcon = aura_env.config.advanced.showSpell and (\"|T%s:0|t\"):format(iconFileId) \n                allstates[watchId].successful = true                    \n                local mark = math.log(destRaidFlags)/math.log(2) + 1    \n                if ICON_LIST[mark] then    \n                    allstates[watchId].raidIcon = aura_env.config.advanced.showTarget and (\"%s:0\\124t\"):format(ICON_LIST[mark])    \n                else    \n                    allstates[watchId].raidIcon = nil    \n                end               \n                allstates[watchId].changed = true    \n                return true                    \n            end    \n        end    \n    end    \n    \n    if event == \"NNOGGIE_INTERRUPT_UPDATETEXT\" and type then\n        local watchId = type    \n        local state = allstates[watchId]    \n        if state then    \n            state.successful = false    \n            state.extraIcon = nil    \n            state.raidIcon = nil    \n            state.changed = true    \n            return true    \n        end    \n    end    \n    \n    if event == \"NNOGGIE_INTERRUPT_RESETELAPSED\" and type then            \n        local watchId = type    \n        local state = allstates[watchId]    \n        if state then\n            state.elapsedDuration = false\n            state.changed = true    \n            return true    \n        end    \n    end \n    \n    if event == \"OPTIONS\" then\n        aura_env.firstCheck = nil\n    end\n    \n    \n    if event == \"FRAME_UPDATE\" then    \n        if not aura_env.last or aura_env.last < GetTime() - 0.5 then    \n            aura_env.last = GetTime()\n            \n            --delay first check for 1 second to not conflict with WA setting up the states\n            aura_env.firstCheck = aura_env.firstCheck or GetTime()\n            if aura_env.last>aura_env.firstCheck+1 then\n                \n                for watchId,state in pairs(allstates) do    \n                    --local unit = state.member.unit                    \n                    local unit                \n                    for u in WA_IterateGroupMembers() do    \n                        if UnitName(u) == state.member.name then unit = u end    \n                    end    \n                    --Player Dead    \n                    local isDead = UnitIsDeadOrGhost(unit) or (not UnitIsConnected(unit)) or (not UnitIsVisible(unit))    \n                    if isDead ~= state.isDead then    \n                        state.isDead = isDead    \n                        state.resort = aura_env.updateSortIndex(state,not isDead)    \n                        state.changed = true    \n                    end                    \n                    --Player out of Range    \n                    local outOfRange = WeakAuras.CheckRange(unit, 100, \">=\")    \n                    if outOfRange ~= state.outOfRange then    \n                        state.outOfRange = outOfRange    \n                        state.resort = aura_env.updateSortIndex(state,not outOfRange)    \n                        state.changed = true    \n                    end\n                end    \n                return true\n                \n            end            \n        end    \n    end\n    \nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+						["events"] = "ZT_ADD, ZT_TRIGGER, ZT_REMOVE, CLEU:SPELL_INTERRUPT NNOGGIE_INTERRUPT_UPDATETEXT, FRAME_UPDATE NNOGGIE_INTERRUPT_RESETELAPSED",
+						["spellIds"] = {
+						},
+						["check"] = "event",
+						["subeventSuffix"] = "_CAST_START",
+						["use_unit"] = true,
+						["customVariables"] = "{\n    expirationTime = true,\n    duration = true,\n    stacks = true,\n    elapsedDuration = \"bool\",\n    successful = \"bool\",\n    isDead = \"bool\",\n    outOfRange = \"bool\",    \n}",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+				["disjunctive"] = "any",
+				["activeTriggerMode"] = -10,
+			},
+			["icon_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["internalVersion"] = 40,
+			["xOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["type"] = "custom",
+					["easeType"] = "none",
+					["colorB"] = 1,
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorType"] = "custom",
+					["y"] = 0,
+					["x"] = 0,
+					["easeStrength"] = 3,
+					["duration"] = "0",
+					["colorFunc"] = "function()\n    if aura_env.state then\n        local config = aura_env.config[\"display\"]\n        \n        local classColor = {aura_env.state.member.classColor:GetRGBA()}\n        local barColor, nameColor, timerColor\n        if config[\"colorBarUseClass\"] then\n            barColor = classColor\n        else\n            barColor = config[\"colorBar\"]\n        end\n        if config[\"colorNameUseClass\"] then\n            nameColor = classColor\n        else\n            nameColor = config[\"colorName\"]\n        end\n        if config[\"colorTimerUseClass\"] then\n            timerColor = classColor\n        else\n            timerColor = config[\"colorTimer\"]\n        end\n        \n        aura_env.region:Color(unpack(barColor))\n        aura_env.region.text:SetTextColor(unpack(nameColor))\n        aura_env.region.timer:SetTextColor(unpack(timerColor))\n        aura_env.state.isDead = nil\n        aura_env.state.outOfRange = nil\n        \n    end\n    \n    \n    \nend",
+					["rotate"] = 0,
+					["duration_type"] = "seconds",
+					["use_color"] = true,
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["duration_type"] = "seconds",
+					["colorA"] = 1,
+					["colorG"] = 1,
+					["type"] = "none",
+					["easeType"] = "none",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["colorB"] = 1,
+					["y"] = 0,
+					["colorType"] = "custom",
+					["scalex"] = 1,
+					["easeStrength"] = 3,
+					["colorFunc"] = "    function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
+					["rotate"] = 0,
+					["x"] = 0,
+					["use_color"] = false,
+				},
+				["finish"] = {
+					["type"] = "none",
+					["easeStrength"] = 3,
+					["duration_type"] = "seconds",
+					["easeType"] = "none",
+				},
+			},
+			["backdropInFront"] = false,
+			["config"] = {
+				["reg"] = {
+					["type"] = {
+						["showOwnINTERRUPT"] = true,
+						["priorityINTERRUPT"] = 7,
+						["showOwnPERSONAL"] = true,
+						["enabledPERSONAL"] = false,
+						["enabledINTERRUPT"] = false,
+						["priorityPERSONAL"] = 8,
+					},
+					["spell"] = {
+						["INTERRUPT"] = {
+							["183752"] = true,
+							["116705"] = true,
+							["2139"] = true,
+							["106839"] = true,
+							["96231"] = true,
+							["19647"] = true,
+							["15487"] = true,
+							["23920"] = true,
+							["47528"] = true,
+							["147362"] = true,
+							["6552"] = true,
+							["202137"] = false,
+							["187707"] = true,
+							["89766"] = true,
+							["1766"] = true,
+							["78675"] = true,
+							["57994"] = true,
+							["31935"] = false,
+						},
+					},
+				},
+				["sorting"] = {
+					["sortVar2"] = 3,
+					["sortOrder"] = 1,
+					["sortVar1"] = 6,
+					["sortVar3"] = 5,
+				},
+				["display"] = {
+					["colorTimer"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["colorBarUseClass"] = true,
+					["colorName"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["showChargeProgress"] = false,
+					["colorBar"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["colorTimerUseClass"] = false,
+					["colorNameUseClass"] = false,
+				},
+				["advanced"] = {
+					["showTarget"] = true,
+					["showSpell"] = true,
+					["spellReflectTank"] = true,
+					["showMissed"] = true,
+				},
+			},
+			["barColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stickyDuration"] = false,
+			["icon"] = true,
 			["customTextUpdate"] = "event",
 			["version"] = 29,
 			["subRegions"] = {
@@ -79093,17 +79168,11 @@ WeakAurasSaved = {
 				}, -- [4]
 			},
 			["height"] = 25,
-			["actions"] = {
-				["start"] = {
-					["custom"] = "",
-					["do_custom"] = false,
-				},
-				["init"] = {
-					["custom"] = "local config = aura_env.config\nlocal cDisplay = config[\"display\"]\nlocal cSort = config[\"sorting\"]\nlocal cRegType = config[\"reg\"][\"type\"]\nlocal cRegSpell = config[\"reg\"][\"spell\"]\n\n-- Handling the spell registration configuration\nlocal sharedConfigSpellIDs = {\n    [\"ArcaneTorrent\"] = {202719, 50613, 80483, 28730, 129597, 155145, 232633, 25046, 69179},\n    [\"Asphyxiate\"] = {221562, 108194},\n    [\"Evasion/Riposte\"] = {5277, 199754},\n    [\"Ascendance\"] = {114050, 114051},\n    [\"Bladestorm\"] = {227847, 46924},\n}\n\naura_env.types = {}\naura_env.regTypes = {}\naura_env.spells = {}\naura_env.regSpells = {}\naura_env.typeToWatching = {}\n\nfor key,value in pairs(cRegType) do\n    if value and key:find(\"enabled\") == 1 then\n        local type = key:sub(8)\n        aura_env.types[type] = true\n    end\nend\n\nfor type,group in pairs(cRegSpell) do\n    for key,value in pairs(group) do\n        if value then\n            local spellID = tonumber(key)\n            if spellID then\n                aura_env.spells[spellID] = true\n            else\n                for _,spellID in ipairs(sharedConfigSpellIDs[key]) do\n                    aura_env.spells[spellID] = true\n                end\n            end\n        end\n    end\nend\n\nfor type,_ in pairs(aura_env.types) do tinsert(aura_env.regTypes, type) end\nfor spellID,_ in pairs(aura_env.spells) do tinsert(aura_env.regSpells, spellID) end\n\n-- Modified from https://eu.battle.net/forums/en/wow/topic/9337744534\naura_env.fixName = function(name)\n    local length = cDisplay[\"nameLength\"]\n    if length <= 0 then\n        return \"\"\n    end\n    \n    local nameChars = {}\n    name:gsub(\"([^\\128-\\191][\\128-\\191]*)\", function(char) \n            local leadbyte = strbyte(char, 1)\n            local charLength = -1\n            \n            if leadbyte < 248 then\n                if leadbyte >= 240 then charLength = 4\n                elseif leadbyte >= 224 then charLength = 3\n                elseif leadbyte >= 192 then charLength = 2\n                elseif leadbyte < 128 then charLength = 1\n                end\n            end\n            \n            if length > #nameChars then\n                tinsert(nameChars, (charLength == #char) and char)\n            end\n    end)\n    \n    return table.concat(nameChars, \"\")\nend\n\nlocal prioritizedSpellIDs = {\n    [183752] = true, -- Disrupt\n}\n\nlocal sortVars = {}\nlocal sortVarsIndex = {}\nfor v = 1,5 do\n    local var = cSort[\"sortVar\"..v]\n    if var and var ~= 1 then\n        if not sortVarsIndex[var] then\n            local index = #sortVars + 1\n            sortVars[index] = var\n            sortVarsIndex[var] = index\n        end\n    end\nend\n\nlocal isAvail = (cSort[\"sortOrder\"] == 1) and 0 or 1\nlocal isUnavail = (cSort[\"sortOrder\"] == 1) and 1 or 0\n\naura_env.initSortIndex = function(state)\n    state.sortValues = {}\n    \n    for index,var in ipairs(sortVars) do\n        if var == 2 then     -- Type Priority\n            local priority = cRegType[\"priority\"..state.type]\n            if cSort[\"sortOrder\"] == 2 then\n                priority = 99 - priority\n            end\n            state.sortValues[index] = (\"%02d\"):format(priority)\n        elseif var == 3 then -- Spell ID\n            state.sortValues[index] = (\"%06d\"):format(aura_env.spellPriorityMap[state.spellId] or state.spellId)\n        elseif var == 4 then -- Member Class\n            state.sortValues[index] = (\"%02d\"):format(state.member.classID)\n        elseif var == 5 then -- Member Name\n            state.sortValues[index] = (\"%-12s\"):format(state.member.name)\n        elseif var == 6 then -- Availability\n            local availValue = isAvail\n            local timeValue = math.max(state.expirationTime - GetTime(),0)\n            if cSort[\"sortOrder\"] == 2 then\n                timeValue = 9999999999.999 - timeValue\n            end\n            \n            state.sortValues[index] = (\"%d%010.3f\"):format(availValue, timeValue)\n        end\n    end\n    \n    state.index = table.concat(state.sortValues)\nend\n\naura_env.updateSortIndex = function(state,shouldReIndex)\n    local index = sortVarsIndex[6]\n    if index then\n        \n        if state.isDead then\n            state.index = \"9999999999.9999999\"\n            return true\n        end\n        \n        if state.outOfRange then\n            state.index = \"9999999999.0000000\"\n            return true\n        end        \n        \n        local prevSortValue = state.sortValues[index]\n        \n        local availValue\n        local timeValue\n        \n        if state.stacks then\n            if state.stacks > 0 then\n                availValue = isAvail\n                timeValue = math.max(state.expirationTime - GetTime(),0)\n            else\n                availValue = isUnavail\n                timeValue = state.expirationTime\n            end\n        elseif state.expirationTime > GetTime() then\n            availValue = isUnavail\n            timeValue = state.expirationTime\n        else\n            availValue = isAvail\n            timeValue = 0\n        end\n        \n        if cSort[\"sortOrder\"] == 2 then\n            timeValue = 9999999999.999 - timeValue\n        end\n        state.sortValues[index] = (\"%d%010.3f\"):format(availValue, timeValue)\n        \n        if state.sortValues[index] ~= prevSortValue or shouldReIndex then\n            state.index = table.concat(state.sortValues)\n            return true\n        end\n    end\n    \n    return false\nend\n\nif WeakAuras.IsAuraLoaded then\n    -- Since there is no unload event, hooking into region:Collapse() which\n    -- is called from WeakAuras.UnloadDisplays(...)\n    if not aura_env.region.ZTHooked then\n        aura_env.region.ZTHooked = true\n        hooksecurefunc(aura_env.region, \"Collapse\", function(self, ...)\n                if self.ZTRegTypes and (not WeakAuras.IsAuraLoaded(self.id)) then\n                    WeakAuras.ScanEvents(\"ZT_UNREGISTER\", self.ZTRegTypes, self.id)\n                    WeakAuras.ScanEvents(\"ZT_UNREGISTER\", self.ZTRegSpells, self.id)\n                    self.ZTRegTypes = nil\n                    self.ZTRegSpells = nil\n                end\n        end)\n    end\nend\n\naura_env.silenceMap = { --interupt:cast\n    [220543] = 15487,  --silence\n    [97547]  = 78675,  --solar beam\n    [93985]  = 106839, --skullbash  \n    [347008] = 89766,  --axe toss Check Zen\n    [132409] = 19647,  --Spell Lock (Sacrifice)\n}\naura_env.spellPriorityMap = {\n    [23920]  = 1,  --Spell Reflect\n    [31935]  = 1,  --Avenger's Shield\n    [183752] = 2,  --Disrupt\n    [47528]  = 3,  --Mind Freeze\n    [57994]  = 4,  --Wind Shear    \n    \n    [1766]   = 5,  --Kick\n    [6552]   = 6,  --Pummel\n    [116705] = 7,  --Spear Hand Strike\n    [106839] = 8,  --Skull Bash\n    [96231]  = 9,  --Rebuke\n    [187707] = 10, --Muzzle\n    \n    [202137] = 11, --Sigil of Silence\n    \n    [2139]   = 12, --Counter Spell\n    [147362] = 13, --Counter Shot\n    [119910] = 14, --Spell Lock Command Demon\n    [19647]  = 15, --Spell Lock if used from pet bar\n    [132409] = 16, --Spell Lock Command Demon Sacrifice\n    [89766]  = 17, --Axe Toss\n    --TODO: DK Leap\n    [15487]  = 18, --Silence\n    [78675]  = 20, --Solar Beam\n}\naura_env.petSpells = {\n    [119910] = true, --Spell Lock Command Demon\n    [19647]  = true, --Spell Lock if used from pet bar\n    [132409] = true, --Spell Lock Command Demon Sacrifice\n    --TODO: DK Leap\n}\n\n\n",
-					["do_custom"] = true,
-				},
-				["finish"] = {
-				},
+			["backgroundColor"] = {
+				0.062745098039216, -- [1]
+				0.062745098039216, -- [2]
+				0.062745098039216, -- [3]
+				1, -- [4]
 			},
 			["load"] = {
 				["use_size"] = true,
@@ -79141,101 +79210,32 @@ WeakAurasSaved = {
 			["useTooltip"] = false,
 			["displayIcon"] = 132938,
 			["selfPoint"] = "CENTER",
+			["parent"] = "ZT - Interrupt Tracker",
 			["desaturate"] = false,
-			["uid"] = "8wu)nqGXJwU",
-			["sparkOffsetY"] = 0,
+			["spark"] = false,
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["borderInFront"] = true,
-			["config"] = {
-				["reg"] = {
-					["type"] = {
-						["showOwnINTERRUPT"] = true,
-						["priorityINTERRUPT"] = 7,
-						["showOwnPERSONAL"] = true,
-						["enabledPERSONAL"] = false,
-						["enabledINTERRUPT"] = false,
-						["priorityPERSONAL"] = 8,
-					},
-					["spell"] = {
-						["INTERRUPT"] = {
-							["183752"] = true,
-							["116705"] = true,
-							["2139"] = true,
-							["106839"] = true,
-							["96231"] = true,
-							["19647"] = true,
-							["15487"] = true,
-							["23920"] = true,
-							["47528"] = true,
-							["147362"] = true,
-							["6552"] = true,
-							["202137"] = false,
-							["187707"] = true,
-							["89766"] = true,
-							["1766"] = true,
-							["78675"] = true,
-							["57994"] = true,
-							["31935"] = false,
-						},
-					},
-				},
-				["sorting"] = {
-					["sortVar2"] = 3,
-					["sortOrder"] = 1,
-					["sortVar1"] = 6,
-					["sortVar3"] = 5,
-				},
-				["display"] = {
-					["colorTimer"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["colorBarUseClass"] = true,
-					["colorName"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["showChargeProgress"] = false,
-					["colorBar"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["colorTimerUseClass"] = false,
-					["colorNameUseClass"] = false,
-				},
-				["advanced"] = {
-					["showTarget"] = true,
-					["showSpell"] = true,
-					["spellReflectTank"] = true,
-					["showMissed"] = true,
-				},
-			},
+			["sparkOffsetY"] = 0,
 			["icon_side"] = "LEFT",
+			["uid"] = "8wu)nqGXJwU",
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0, -- [4]
 			},
-			["sparkHidden"] = "NEVER",
 			["sparkHeight"] = 30,
 			["texture"] = "Blizzard Raid Bar",
-			["anchorFrameType"] = "SCREEN",
-			["zoom"] = 0,
+			["id"] = "ZT - Interrupt Tracker Bar",
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["semver"] = "1.0.11",
 			["tocversion"] = 90001,
-			["id"] = "ZT - Interrupt Tracker Bar",
+			["sparkHidden"] = "NEVER",
+			["anchorFrameType"] = "SCREEN",
 			["alpha"] = 1,
-			["frameStrata"] = 1,
 			["width"] = 200,
-			["auto"] = true,
+			["frameStrata"] = 1,
 			["sparkColor"] = {
 				1, -- [1]
 				1, -- [2]
@@ -79243,7 +79243,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["inverse"] = true,
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["auto"] = true,
 			["orientation"] = "HORIZONTAL",
 			["conditions"] = {
 				{
@@ -79371,7 +79371,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["sparkOffsetX"] = 0,
+			["zoom"] = 0,
 		},
 		["Arcane Power"] = {
 			["iconSource"] = -1,
@@ -79520,7 +79520,7 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -79530,7 +79530,8 @@ WeakAurasSaved = {
 				},
 			},
 			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
+			["authorOptions"] = {
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -79603,26 +79604,25 @@ WeakAurasSaved = {
 					},
 				}, -- [4]
 			},
-			["authorOptions"] = {
-			},
-			["auto"] = true,
-			["width"] = 46,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 46,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Arcane Power",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "aWSdR14mhSw",
 			["inverse"] = true,
-			["xOffset"] = 75,
+			["parent"] = "Mage Core - Luxthos",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = 75,
 		},
 		["Luxthos - Combo 6.5 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -79670,10 +79670,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "MONK",
+				["spec"] = {
+					["single"] = 3,
 					["multi"] = {
-						["DEMONHUNTER"] = true,
+						[2] = true,
 					},
 				},
 				["talent"] = {
@@ -79683,33 +79683,33 @@ WeakAurasSaved = {
 						[8] = true,
 					},
 				},
-				["use_class"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["class"] = {
+					["single"] = "MONK",
 					["multi"] = {
+						["DEMONHUNTER"] = true,
 					},
 				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_talent"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -79751,21 +79751,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "4",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -80138,9 +80138,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -80149,6 +80146,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -80266,26 +80266,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Rising Sun Kick - Mistweaver",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "eHOSpUU95Gc",
 			["inverse"] = true,
-			["xOffset"] = 75,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 75,
 		},
 		["Grimoire: Felguard - Active"] = {
 			["iconSource"] = 0,
@@ -80312,9 +80312,9 @@ WeakAurasSaved = {
 						["spellName"] = 265187,
 						["names"] = {
 						},
-						["type"] = "event",
-						["subeventSuffix"] = "_CAST_SUCCESS",
+						["useName"] = true,
 						["unevent"] = "timed",
+						["subeventSuffix"] = "_CAST_SUCCESS",
 						["use_showOn"] = true,
 						["unit"] = "player",
 						["event"] = "Combat Log",
@@ -80325,7 +80325,7 @@ WeakAurasSaved = {
 						},
 						["use_sourceUnit"] = true,
 						["subeventPrefix"] = "SPELL",
-						["useName"] = true,
+						["type"] = "event",
 						["sourceUnit"] = "player",
 						["use_genericShowOn"] = true,
 					},
@@ -80459,23 +80459,23 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["use_petbattle"] = false,
 				["use_combat"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 			},
 			["width"] = 35,
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.33,
+			["desaturate"] = false,
 			["authorOptions"] = {
 			},
-			["desaturate"] = false,
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = 136216,
@@ -80485,17 +80485,6 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["url"] = "https://wago.io/rJC-I8rVX/10",
-			["uid"] = "Y6u31nQWVE1",
-			["alpha"] = 1,
-			["auto"] = false,
-			["zoom"] = 0.33,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Grimoire: Felguard - Active",
-			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
 			["actions"] = {
 				["start"] = {
 				},
@@ -80504,16 +80493,27 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["uid"] = "Y6u31nQWVE1",
+			["alpha"] = 1,
+			["semver"] = "1.1.1",
+			["cooldownTextDisabled"] = false,
+			["auto"] = false,
+			["tocversion"] = 80300,
+			["id"] = "Grimoire: Felguard - Active",
+			["desc"] = "Created by Luxthos\nhttps://www.twitch.tv/luxthos",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Luxthos - Warlock Cooldowns",
 			["config"] = {
 			},
 			["inverse"] = false,
-			["selfPoint"] = "CENTER",
+			["url"] = "https://wago.io/rJC-I8rVX/10",
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["selfPoint"] = "CENTER",
 		},
 		["Rushing Jade Wind - Brewmaster 2"] = {
 			["iconSource"] = -1,
@@ -80724,6 +80724,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOM",
+			["xOffset"] = -130,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -80732,26 +80738,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Rushing Jade Wind - Brewmaster 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "3ytAyoYcSIj",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -80915,7 +80915,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Expel Harm - Brewmaster"] = {
 			["iconSource"] = -1,
@@ -81072,9 +81072,6 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Monk Core - Luxthos",
-			["regionType"] = "icon",
 			["actions"] = {
 				["start"] = {
 				},
@@ -81083,6 +81080,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["parent"] = "Monk Core - Luxthos",
+			["regionType"] = "icon",
+			["url"] = "https://wago.io/r1MFNt9rm/25",
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -81128,26 +81128,26 @@ WeakAurasSaved = {
 					},
 				}, -- [3]
 			},
-			["url"] = "https://wago.io/r1MFNt9rm/25",
-			["auto"] = true,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
 			["semver"] = "2.0.9",
+			["anchorFrameType"] = "SCREEN",
+			["zoom"] = 0.3,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Expel Harm - Brewmaster",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["width"] = 46,
-			["zoom"] = 0.3,
+			["cooldownTextDisabled"] = false,
 			["uid"] = "LN5ZJ0gqf53",
 			["inverse"] = true,
-			["xOffset"] = 125,
+			["selfPoint"] = "CENTER",
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 125,
 		},
 		["Frost Nova"] = {
 			["iconSource"] = -1,
@@ -81306,6 +81306,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -81314,25 +81319,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Frost Nova",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "wEO427j3grs",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -81495,8 +81496,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Nether Precision"] = {
 			["iconSource"] = -1,
@@ -81654,8 +81654,8 @@ WeakAurasSaved = {
 				["level_operator"] = "==",
 				["use_class"] = true,
 				["use_spellknown"] = false,
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
@@ -81671,6 +81671,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -81679,25 +81684,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Nether Precision",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "8AD8QbOuzUE",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -81726,8 +81727,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Mage Core - Luxthos"] = {
 			["controlledChildren"] = {
@@ -81892,21 +81892,21 @@ WeakAurasSaved = {
 			["semver"] = "2.0.5",
 			["tocversion"] = 90001,
 			["id"] = "Mage Core - Luxthos",
-			["xOffset"] = 0,
+			["selfPoint"] = "BOTTOMLEFT",
 			["frameStrata"] = 3,
 			["anchorFrameType"] = "SCREEN",
-			["yOffset"] = -222.2222222222222,
+			["xOffset"] = 0,
+			["borderInset"] = 1,
 			["uid"] = "VdjhUpm4KSE",
 			["config"] = {
 			},
-			["borderInset"] = 1,
 			["conditions"] = {
 			},
 			["information"] = {
 				["groupOffset"] = true,
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["selfPoint"] = "BOTTOMLEFT",
+			["yOffset"] = -222.2222222222222,
 		},
 		["Blazing Barrier"] = {
 			["iconSource"] = -1,
@@ -82088,6 +82088,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Utilities - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -82096,25 +82101,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Utilities - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Blazing Barrier",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "lkOwQKlRHoM",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -82221,8 +82222,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Fallen Order"] = {
 			["iconSource"] = -1,
@@ -82363,6 +82363,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMRIGHT",
+			["xOffset"] = -157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -82371,26 +82377,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMRIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Fallen Order",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "25DWIZzsjWn",
 			["inverse"] = true,
-			["xOffset"] = -157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -82473,7 +82473,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Flamecannon"] = {
 			["iconSource"] = -1,
@@ -82496,8 +82496,8 @@ WeakAurasSaved = {
 						["type"] = "aura2",
 						["useExactSpellId"] = true,
 						["subeventSuffix"] = "_CAST_START",
-						["ownOnly"] = true,
 						["matchesShowOn"] = "showOnActive",
+						["ownOnly"] = true,
 						["event"] = "Health",
 						["unit"] = "player",
 						["unitExists"] = true,
@@ -82642,6 +82642,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -82650,25 +82655,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Flamecannon",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "4c(s6NmtxFo",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -82691,8 +82692,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Grimoire of Sacrifice - Active"] = {
 			["iconSource"] = -1,
@@ -82843,7 +82843,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -82853,20 +82853,35 @@ WeakAurasSaved = {
 				},
 				["use_combat"] = true,
 				["use_vehicleUi"] = false,
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
 			},
 			["width"] = 35,
-			["zoom"] = 0.33,
+			["cooldownTextDisabled"] = false,
+			["cooldownEdge"] = true,
 			["authorOptions"] = {
 			},
-			["cooldownEdge"] = true,
 			["cooldown"] = true,
 			["regionType"] = "icon",
 			["displayIcon"] = "",
 			["stickyDuration"] = false,
+			["desaturate"] = false,
+			["uid"] = "If7AgR4iDd0",
+			["frameStrata"] = 1,
+			["semver"] = "1.1.1",
+			["zoom"] = 0.33,
+			["auto"] = true,
+			["tocversion"] = 80300,
+			["id"] = "Grimoire of Sacrifice - Active",
+			["xOffset"] = 0,
+			["alpha"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Luxthos - Warlock Cooldowns",
+			["config"] = {
+			},
+			["inverse"] = false,
 			["actions"] = {
 				["start"] = {
 				},
@@ -82875,27 +82890,12 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["uid"] = "If7AgR4iDd0",
-			["frameStrata"] = 1,
-			["auto"] = true,
-			["cooldownTextDisabled"] = false,
-			["semver"] = "1.1.1",
-			["tocversion"] = 80300,
-			["id"] = "Grimoire of Sacrifice - Active",
-			["xOffset"] = 0,
-			["alpha"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["desaturate"] = false,
-			["config"] = {
-			},
-			["inverse"] = false,
-			["selfPoint"] = "CENTER",
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Luxthos - Warlock Cooldowns",
+			["selfPoint"] = "CENTER",
 		},
 		["Expanded Potential"] = {
 			["iconSource"] = -1,
@@ -83064,6 +83064,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -83072,25 +83077,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Expanded Potential",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "78D6tG82YC3",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -83150,8 +83151,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Ring of Peace 2"] = {
 			["iconSource"] = -1,
@@ -83175,10 +83175,10 @@ WeakAurasSaved = {
 						["auranames"] = {
 							"116841", -- [1]
 						},
-						["subeventPrefix"] = "SPELL",
-						["use_absorbMode"] = true,
-						["genericShowOn"] = "showOnCooldown",
 						["use_unit"] = true,
+						["use_genericShowOn"] = true,
+						["genericShowOn"] = "showOnCooldown",
+						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["names"] = {
 						},
@@ -83204,7 +83204,7 @@ WeakAurasSaved = {
 						["duration"] = "5",
 						["use_totemName"] = true,
 						["sourceUnit"] = "player",
-						["use_genericShowOn"] = true,
+						["use_absorbMode"] = true,
 					},
 					["untrigger"] = {
 					},
@@ -83313,6 +83313,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "RIGHT",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -83321,26 +83327,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "RIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Ring of Peace 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "K6A0Ybyrbyz",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -83423,7 +83423,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Thunder Focus Tea"] = {
 			["iconSource"] = -1,
@@ -83600,6 +83600,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = -25,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -83608,26 +83614,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Thunder Focus Tea",
 			["width"] = 46,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "ENL)la8o(CM",
 			["inverse"] = true,
-			["xOffset"] = -25,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -83698,7 +83698,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Soulshape Flicker (Mage)"] = {
 			["iconSource"] = -1,
@@ -83839,6 +83839,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -83847,26 +83853,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = 157,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Soulshape Flicker (Mage)",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "FbIw2H3otJD",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -83914,7 +83914,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = 157,
 		},
 		["Summon Steward (Mage)"] = {
 			["iconSource"] = -1,
@@ -83969,11 +83969,11 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["subeventPrefix"] = "SPELL",
 						["type"] = "status",
-						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["spellName"] = 0,
-						["event"] = "Item Count",
 						["use_itemName"] = true,
+						["event"] = "Item Count",
 						["spellIds"] = {
 						},
 						["realSpellName"] = 0,
@@ -84072,6 +84072,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -84080,26 +84086,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = 157,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Summon Steward (Mage)",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "FFUOR67Gv1G",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -84155,7 +84155,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = 157,
 		},
 		["Stagger Tick "] = {
 			["outline"] = "OUTLINE",
@@ -84258,7 +84258,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -84272,7 +84272,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -84283,11 +84283,11 @@ WeakAurasSaved = {
 			},
 			["fontSize"] = 13,
 			["shadowXOffset"] = 1,
-			["wordWrap"] = "WordWrap",
+			["shadowYOffset"] = -1,
 			["regionType"] = "text",
 			["fixedWidth"] = 200,
-			["shadowYOffset"] = -1,
-			["parent"] = "Luxthos - Monk Resources",
+			["wordWrap"] = "WordWrap",
+			["automaticWidth"] = "Auto",
 			["xOffset"] = 0,
 			["color"] = {
 				1, -- [1]
@@ -84300,9 +84300,9 @@ WeakAurasSaved = {
 			["justify"] = "CENTER",
 			["tocversion"] = 80300,
 			["id"] = "Stagger Tick ",
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
 			["width"] = 21.399848937988,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["semver"] = "1.1.2",
 			["uid"] = "cf(3Y4kKEWP",
 			["selfPoint"] = "BOTTOM",
@@ -84318,7 +84318,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["automaticWidth"] = "Auto",
+			["parent"] = "Luxthos - Monk Resources",
 		},
 		["Winter Chill"] = {
 			["iconSource"] = -1,
@@ -84342,11 +84342,11 @@ WeakAurasSaved = {
 							"228358", -- [1]
 						},
 						["useExactSpellId"] = false,
+						["unit"] = "target",
+						["matchesShowOn"] = "showOnActive",
+						["event"] = "Health",
 						["names"] = {
 						},
-						["ownOnly"] = true,
-						["event"] = "Health",
-						["unit"] = "target",
 						["unitExists"] = false,
 						["subeventSuffix"] = "_CAST_START",
 						["spellIds"] = {
@@ -84355,7 +84355,7 @@ WeakAurasSaved = {
 						["auraspellids"] = {
 						},
 						["useName"] = true,
-						["matchesShowOn"] = "showOnActive",
+						["ownOnly"] = true,
 						["debuffType"] = "HARMFUL",
 					},
 					["untrigger"] = {
@@ -84472,6 +84472,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -84480,25 +84485,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Winter Chill",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "BrEqUQv)KSC",
 			["inverse"] = false,
-			["cooldownEdge"] = false,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -84521,8 +84522,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Soulshape (Monk)"] = {
 			["iconSource"] = -1,
@@ -84679,6 +84679,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMLEFT",
+			["xOffset"] = 157,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -84687,26 +84693,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMLEFT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.9",
 			["tocversion"] = 90001,
 			["id"] = "Soulshape (Monk)",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.9",
+			["auto"] = true,
 			["uid"] = "dErjgxHxDDj",
 			["inverse"] = true,
-			["xOffset"] = 157,
+			["parent"] = "Monk Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -84789,7 +84789,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Core - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Phoenix Flame - Bar 2"] = {
 			["sparkWidth"] = 10,
@@ -84820,11 +84820,11 @@ WeakAurasSaved = {
 						["use_unit"] = true,
 						["subeventPrefix"] = "SPELL",
 						["matchesShowOn"] = "showAlways",
-						["use_powertype"] = true,
 						["use_trackcharge"] = true,
+						["use_powertype"] = true,
 						["debuffType"] = "HELPFUL",
-						["useName"] = true,
 						["trackcharge"] = "2",
+						["useName"] = true,
 						["subeventSuffix"] = "_CAST_START",
 						["unevent"] = "auto",
 						["genericShowOn"] = "showAlways",
@@ -84929,22 +84929,22 @@ WeakAurasSaved = {
 			},
 			["version"] = 13,
 			["uid"] = "wgIH4BTvQLP",
-			["sparkDesaturate"] = true,
+			["icon_side"] = "RIGHT",
 			["smoothProgress"] = false,
 			["useAdjustededMin"] = false,
 			["regionType"] = "aurabar",
 			["width"] = 96,
 			["alpha"] = 1,
-			["icon_side"] = "RIGHT",
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["sparkDesaturate"] = true,
+			["zoom"] = 0,
 			["sparkHeight"] = 35,
 			["texture"] = "Solid",
 			["semver"] = "2.0.5",
-			["zoom"] = 0,
-			["spark"] = true,
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Phoenix Flame - Bar 2",
-			["auto"] = true,
+			["spark"] = true,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["sparkColor"] = {
@@ -84978,8 +84978,8 @@ WeakAurasSaved = {
 					["y"] = 0,
 					["x"] = 0,
 					["duration_type"] = "seconds",
-					["rotate"] = 0,
 					["easeStrength"] = 3,
+					["rotate"] = 0,
 					["duration"] = "0.7",
 					["colorA"] = 1,
 				},
@@ -85147,6 +85147,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -85155,26 +85161,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Black Ox Brew 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "ej1uRk61RD6",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -85230,7 +85230,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Chain Reaction"] = {
 			["iconSource"] = -1,
@@ -85254,11 +85254,11 @@ WeakAurasSaved = {
 							"278310", -- [1]
 						},
 						["useExactSpellId"] = false,
+						["unit"] = "player",
+						["matchesShowOn"] = "showAlways",
+						["event"] = "Health",
 						["names"] = {
 						},
-						["ownOnly"] = true,
-						["event"] = "Health",
-						["unit"] = "player",
 						["unitExists"] = false,
 						["subeventSuffix"] = "_CAST_START",
 						["spellIds"] = {
@@ -85267,7 +85267,7 @@ WeakAurasSaved = {
 						["auraspellids"] = {
 						},
 						["useName"] = true,
-						["matchesShowOn"] = "showAlways",
+						["ownOnly"] = true,
 						["debuffType"] = "HELPFUL",
 					},
 					["untrigger"] = {
@@ -85458,11 +85458,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "BOTTOM",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -85633,32 +85639,26 @@ WeakAurasSaved = {
 					},
 				}, -- [6]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Chain Reaction",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "K2K71tE7ujM",
 			["inverse"] = false,
-			["xOffset"] = -130,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -130,
 		},
 		["The Emperor's Capacitor"] = {
 			["iconSource"] = -1,
@@ -85835,6 +85835,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -85843,32 +85849,26 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["tocversion"] = 90001,
 			["id"] = "The Emperor's Capacitor",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["uid"] = "A8qimV0CTFb",
 			["inverse"] = false,
-			["xOffset"] = 0,
+			["parent"] = "Monk Dynamic - Luxthos",
 			["conditions"] = {
 			},
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Dynamic - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Deathborne"] = {
 			["iconSource"] = -1,
@@ -86032,6 +86032,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "BOTTOMRIGHT",
+			["cooldownEdge"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -86040,26 +86046,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOMRIGHT",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["xOffset"] = -157,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.5",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Deathborne",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.5",
 			["uid"] = "lSpNJVMePBm",
 			["inverse"] = true,
-			["cooldownEdge"] = false,
+			["parent"] = "Mage Core - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -86142,7 +86142,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Mage Core - Luxthos",
+			["xOffset"] = -157,
 		},
 		["Sun King's Blessing"] = {
 			["iconSource"] = -1,
@@ -86171,17 +86171,17 @@ WeakAurasSaved = {
 						["subeventPrefix"] = "SPELL",
 						["use_track"] = true,
 						["duration"] = "35",
-						["debuffType"] = "HELPFUL",
-						["subeventSuffix"] = "_CAST_SUCCESS",
+						["spellName"] = 0,
+						["useExactSpellId"] = true,
 						["type"] = "aura2",
 						["use_spellId"] = true,
-						["spellName"] = 0,
-						["unevent"] = "auto",
-						["useName"] = false,
-						["useExactSpellId"] = true,
+						["debuffType"] = "HELPFUL",
 						["auraspellids"] = {
 							"333315", -- [1]
 						},
+						["useName"] = false,
+						["subeventSuffix"] = "_CAST_SUCCESS",
+						["unevent"] = "auto",
 						["unit"] = "player",
 						["ownOnly"] = true,
 						["event"] = "Cooldown Progress (Spell)",
@@ -86341,8 +86341,8 @@ WeakAurasSaved = {
 				["level_operator"] = "==",
 				["use_class"] = true,
 				["use_spellknown"] = false,
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
@@ -86358,6 +86358,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = true,
+			["selfPoint"] = "CENTER",
+			["regionType"] = "icon",
+			["parent"] = "Mage Dynamic - Luxthos",
+			["cooldownEdge"] = true,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -86366,25 +86371,21 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["parent"] = "Mage Dynamic - Luxthos",
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
-			["xOffset"] = 0,
 			["config"] = {
 			},
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["zoom"] = 0.3,
-			["semver"] = "2.0.2",
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Sun King's Blessing",
 			["anchorFrameType"] = "SCREEN",
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["width"] = 35,
-			["auto"] = true,
+			["semver"] = "2.0.2",
 			["uid"] = "0Pke9yMiwFh",
 			["inverse"] = false,
-			["cooldownEdge"] = true,
+			["authorOptions"] = {
+			},
 			["conditions"] = {
 				{
 					["check"] = {
@@ -86411,8 +86412,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["authorOptions"] = {
-			},
+			["xOffset"] = 0,
 		},
 		["Transcendence 2"] = {
 			["iconSource"] = -1,
@@ -86531,6 +86531,12 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextDisabled"] = false,
+			["authorOptions"] = {
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -86539,26 +86545,20 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["regionType"] = "icon",
-			["selfPoint"] = "CENTER",
-			["authorOptions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownEdge"] = false,
 			["config"] = {
 			},
-			["alpha"] = 1,
+			["frameStrata"] = 1,
 			["zoom"] = 0.3,
-			["auto"] = true,
+			["semver"] = "2.0.1",
 			["tocversion"] = 90001,
 			["id"] = "Transcendence 2",
 			["width"] = 35,
-			["frameStrata"] = 1,
+			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["semver"] = "2.0.1",
+			["auto"] = true,
 			["uid"] = "OA2(8JvONR8",
 			["inverse"] = true,
-			["xOffset"] = 0,
+			["parent"] = "Monk Utilities - Luxthos",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -86614,7 +86614,7 @@ WeakAurasSaved = {
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["parent"] = "Monk Utilities - Luxthos",
+			["cooldownEdge"] = false,
 		},
 		["Luxthos - Combo 5.3 - Under 45 - Monk"] = {
 			["sparkWidth"] = 10,
@@ -86698,7 +86698,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -86708,7 +86708,7 @@ WeakAurasSaved = {
 				},
 				["level_operator"] = "<",
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -86745,21 +86745,21 @@ WeakAurasSaved = {
 						["debuffType"] = "HELPFUL",
 						["type"] = "status",
 						["subeventPrefix"] = "SPELL",
-						["unevent"] = "auto",
+						["subeventSuffix"] = "_CAST_START",
 						["power_operator"] = ">",
 						["custom_hide"] = "custom",
 						["event"] = "Power",
 						["custom_type"] = "event",
 						["power"] = "2",
 						["use_unit"] = true,
-						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["spellIds"] = {
 						},
+						["events"] = "WA_SOUL_FRAG_UPDATE",
 						["names"] = {
 						},
 						["use_power"] = true,
 						["duration"] = "1",
-						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "auto",
 					},
 					["untrigger"] = {
 					},
@@ -87181,11 +87181,17 @@ WeakAurasSaved = {
 			},
 			["config"] = {
 			},
-			["authorOptions"] = {
-			},
+			["selfPoint"] = "BOTTOM",
 			["parent"] = "Mage Core - Luxthos",
 			["regionType"] = "icon",
-			["selfPoint"] = "BOTTOM",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["cooldown"] = true,
 			["conditions"] = {
 				{
@@ -87287,32 +87293,26 @@ WeakAurasSaved = {
 					},
 				}, -- [5]
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["auto"] = true,
-			["width"] = 35,
-			["zoom"] = 0.3,
+			["url"] = "https://wago.io/SyGtPbRHm/13",
 			["semver"] = "2.0.5",
+			["width"] = 35,
+			["cooldownTextDisabled"] = false,
+			["auto"] = true,
 			["tocversion"] = 90001,
 			["id"] = "Ebon Bolt",
 			["frameStrata"] = 1,
 			["alpha"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["cooldownTextDisabled"] = false,
+			["zoom"] = 0.3,
 			["uid"] = "UqBi6xBVpQ(",
 			["inverse"] = true,
-			["xOffset"] = -130,
+			["authorOptions"] = {
+			},
 			["displayIcon"] = "",
 			["information"] = {
 				["ignoreOptionsEventErrors"] = true,
 			},
-			["url"] = "https://wago.io/SyGtPbRHm/13",
+			["xOffset"] = -130,
 		},
 	},
 	["mousePointerFrame"] = {

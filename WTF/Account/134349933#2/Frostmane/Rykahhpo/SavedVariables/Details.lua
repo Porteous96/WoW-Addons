@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v9.0.1.7950",
+	["last_version"] = "v9.0.1.7908",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -18,7 +18,7 @@ _detalhes_database = {
 	},
 	["local_instances_config"] = {
 		{
-			["modo"] = 2,
+			["segment"] = 0,
 			["sub_attribute"] = 1,
 			["sub_atributo_last"] = {
 				1, -- [1]
@@ -31,7 +31,6 @@ _detalhes_database = {
 			["isLocked"] = true,
 			["snap"] = {
 			},
-			["segment"] = 0,
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
@@ -62,7 +61,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 1601817309,
 	["active_profile"] = "Swobuswagins-Tarren Mill",
-	["last_realversion"] = 144,
+	["last_realversion"] = 143,
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
@@ -127,14 +126,14 @@ _detalhes_database = {
 				[196711] = true,
 				[324183] = true,
 				[146739] = 172,
-				[222031] = 199547,
-				[85739] = 44949,
-				[227847] = 50622,
-				[199672] = 1943,
 				[190411] = 44949,
+				[85739] = 44949,
+				[317488] = 317485,
+				[199672] = 1943,
+				[222031] = 199547,
 				[227518] = true,
 				[75] = true,
-				[317488] = 317485,
+				[227847] = 50622,
 				[201428] = true,
 				[7268] = 5143,
 				[52174] = 6544,
@@ -167,9 +166,28 @@ _detalhes_database = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = -74.9996948242188,
+			["x"] = 11.0000076293945,
+			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -181,26 +199,7 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
 			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["use_spark"] = true,
-			["x"] = 11.0000076293945,
-			["font_face"] = "Friz Quadrata TT",
-			["y"] = -74.9996948242188,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
 			["point"] = "TOPLEFT",
 			["row_height"] = 20,
 			["scale"] = 1,
@@ -208,7 +207,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -217,7 +216,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -293,35 +292,20 @@ _detalhes_database = {
 			},
 		},
 	},
-	["nick_tag_cache"] = {
-		["nextreset"] = 1606760024,
-		["last_version"] = 12,
-		["Rushuna"] = {
-			"Rushuna", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Default", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-Sandstorm", -- [4]
-			{
-				0.048828125, -- [1]
-				0.947265625, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			3, -- [7]
+	["on_death_menu"] = true,
+	["combat_counter"] = 1276,
+	["last_encounter"] = "The Lich King",
+	["cd_tracker"] = {
+		["enabled"] = false,
+		["cds_enabled"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["pos"] = {
 		},
 	},
-	["on_death_menu"] = true,
-	["last_encounter"] = "The Lich King",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -346,7 +330,7 @@ _detalhes_database = {
 	},
 	["force_font_outline"] = "",
 	["character_data"] = {
-		["logons"] = 144,
+		["logons"] = 154,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -475,13 +459,16 @@ _detalhes_database = {
 			},
 		},
 	},
-	["last_day"] = "21",
+	["last_day"] = "30",
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["combat_counter"] = 1256,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1608056090,
+		["last_version"] = 12,
+	},
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},

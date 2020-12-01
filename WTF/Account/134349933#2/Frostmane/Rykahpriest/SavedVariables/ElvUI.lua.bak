@@ -6,177 +6,23 @@ ElvCharacterDB = {
 		"nooo", -- [3]
 		"i dunno what the archetypes are", -- [4]
 		"rg 6 cmc too right?", -- [5]
-		"/played", -- [6]
-		"/s uhhh", -- [7]
-		"/s HELLO", -- [8]
-		"/s NPCS????", -- [9]
-		"yeah i'll kick some of mine probs", -- [10]
-		"last key of bfa", -- [11]
-		"uh easy key pls :D", -- [12]
-		"/aap", -- [13]
-		"/aap skip", -- [14]
-		"nyalotha?", -- [15]
-		"sure", -- [16]
-		"i'll hep for a bot", -- [17]
-		"i'll help for a bit*", -- [18]
-		"are these the famous trash danes?", -- [19]
-		"at least 100", -- [20]
+		"/s uhhh", -- [6]
+		"/s HELLO", -- [7]
+		"/s NPCS????", -- [8]
+		"yeah i'll kick some of mine probs", -- [9]
+		"last key of bfa", -- [10]
+		"uh easy key pls :D", -- [11]
+		"/aap skip", -- [12]
+		"nyalotha?", -- [13]
+		"sure", -- [14]
+		"i'll hep for a bot", -- [15]
+		"i'll help for a bit*", -- [16]
+		"are these the famous trash danes?", -- [17]
+		"at least 100", -- [18]
+		"/played", -- [19]
+		"/aap", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"no", -- [1]
-			"Scroxy-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Scroxy-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3453, -- [11]
-			"Player-1303-0BAAFC99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaScroxy|r",
-			[51] = 1605477825,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"depends what you mean quiet", -- [1]
-			"Sorín-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sorín-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3459, -- [11]
-			"Player-1303-0B6999EA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cSorín|r",
-			[51] = 1605477835,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"not quiet enough so shush", -- [1]
-			"Voidreaper-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Voidreaper-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3460, -- [11]
-			"Player-1303-0B5D3E54", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edVoidreaper|r",
-			[51] = 1605477840,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"chances of pr kit being delivered tomorrow?", -- [1]
-			"|Kq121|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			15, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605478371,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [4]
-		{
-			"high id say", -- [1]
-			"|Kq121|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			16, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605478439,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [5]
-		{
-			":dab:", -- [1]
-			"|Kq121|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			17, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605478450,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [6]
-		{
-			"im actual excited", -- [1]
-			"|Kq121|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			18, -- [11]
-			false, -- [12]
-			20, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Neaop|r",
-			[51] = 1605478460,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [7]
 		{
 			"inb4 opposition agent ", -- [1]
 			"|Kq121|k", -- [2]
@@ -198,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478502,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [8]
+		}, -- [1]
 		{
 			"there is now like 5 gnome hunters lvl 50", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -220,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478507,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [2]
 		{
 			"camp this shit ", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -242,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478512,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [3]
 		{
 			"inb4 big red sac pirate", -- [1]
 			"|Kq121|k", -- [2]
@@ -264,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478515,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [11]
+		}, -- [4]
 		{
 			"lol really", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -286,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478516,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [5]
 		{
 			"inb4 foil najeela", -- [1]
 			"|Kq121|k", -- [2]
@@ -308,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478545,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [13]
+		}, -- [6]
 		{
 			"kinda cringe", -- [1]
 			"Slutberg-Ravencrest", -- [2]
@@ -330,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Slutberg-Ravencrest|r",
 			[51] = 1605478550,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [7]
 		{
 			"gnome are you playing horde ? dont you mean vulpera", -- [1]
 			"Qifshananen-Kazzak", -- [2]
@@ -352,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cQifshananen-Kazzak|r",
 			[51] = 1605478559,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [8]
 		{
 			"Do people farm honor points like that or whats the point doin it for hours?", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -374,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478560,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [9]
 		{
 			"i made gb elves", -- [1]
 			"|Kq121|k", -- [2]
@@ -396,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478562,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [17]
+		}, -- [10]
 		{
 			"nooo", -- [1]
 			"|Kq121|k", -- [2]
@@ -418,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478564,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [18]
+		}, -- [11]
 		{
 			"i dunno what the archetypes are", -- [1]
 			"|Kq121|k", -- [2]
@@ -440,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478586,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [19]
+		}, -- [12]
 		{
 			"i think they are just enjoying a zone with activity tbh", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -462,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478589,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [13]
 		{
 			"um", -- [1]
 			"|Kq121|k", -- [2]
@@ -484,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478592,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [21]
+		}, -- [14]
 		{
 			"gb elf", -- [1]
 			"|Kq121|k", -- [2]
@@ -506,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478597,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [22]
+		}, -- [15]
 		{
 			"ru pirate", -- [1]
 			"|Kq121|k", -- [2]
@@ -528,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478600,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [23]
+		}, -- [16]
 		{
 			"when u toggle world pvp, you have to expect stuff like that", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -550,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478604,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [17]
 		{
 			"ug 6 cmc", -- [1]
 			"|Kq121|k", -- [2]
@@ -572,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478605,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [25]
+		}, -- [18]
 		{
 			"rb sac", -- [1]
 			"|Kq121|k", -- [2]
@@ -594,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478609,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [26]
+		}, -- [19]
 		{
 			"uw fliers", -- [1]
 			"|Kq121|k", -- [2]
@@ -616,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478611,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [27]
+		}, -- [20]
 		{
 			"bw tokens", -- [1]
 			"|Kq121|k", -- [2]
@@ -638,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478616,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [28]
+		}, -- [21]
 		{
 			"rw equipment/aura", -- [1]
 			"|Kq121|k", -- [2]
@@ -660,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478625,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [29]
+		}, -- [22]
 		{
 			"its take it or leave it nothing more to it", -- [1]
 			"Mcdottalds-Ravencrest", -- [2]
@@ -682,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMcdottalds-Ravencrest|r",
 			[51] = 1605478634,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [23]
 		{
 			"I saw 2 of them here 4 hours ago and they still here. I cant belikve they having fun for 5 hours 1 shotting 20 lvl lower ppl lol", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -704,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478634,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [24]
 		{
 			"pretty much everyone only uses it for the xp though", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -726,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478636,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [25]
 		{
 			"ub graveyard", -- [1]
 			"|Kq121|k", -- [2]
@@ -748,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478637,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [33]
+		}, -- [26]
 		{
 			"gw counters", -- [1]
 			"|Kq121|k", -- [2]
@@ -770,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478644,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [34]
+		}, -- [27]
 		{
 			"i think you are wrong on that :p", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -792,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478646,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [28]
 		{
 			"rg 6 cmc too right?", -- [1]
 			"|Kq121|k", -- [2]
@@ -814,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478658,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [36]
+		}, -- [29]
 		{
 			"well not everyone. but most", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -836,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478659,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [30]
 		{
 			"rg big bois", -- [1]
 			"|Kq121|k", -- [2]
@@ -858,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478659,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [38]
+		}, -- [31]
 		{
 			"a lot of max level people play with wm on everywhere", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -880,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478665,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [32]
 		{
 			"like power./toughness i think", -- [1]
 			"|Kq121|k", -- [2]
@@ -902,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605478669,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [40]
+		}, -- [33]
 		{
 			"If everywhere u mean spawn low level zones lol", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -924,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478709,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [34]
 		{
 			"i guess you dont have wm on besides when leveling :)", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -946,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478728,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [35]
 		{
 			"well to play without the 30% bonus xp is kinda cringe bro", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -968,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478771,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [36]
 		{
 			"too much to miss out on", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -990,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478781,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [37]
 		{
 			"to complain about what follows is whats really cringe though", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1012,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478786,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [38]
 		{
 			"i dont mind it, im just saying", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -1034,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478805,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [39]
 		{
 			"JKust asked why people camp for hours no end", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -1056,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478807,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [40]
 		{
 			"<3", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1078,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478812,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [41]
 		{
 			"nobody was complaining lol", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -1100,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478816,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [42]
 		{
 			"well camping i mind ", -- [1]
 			"Voidegg-Wildhammer", -- [2]
@@ -1122,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidegg-Wildhammer|r",
 			[51] = 1605478818,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [43]
 		{
 			"camping is stupid, and 5 v 1.. but normal world pvp is just <3", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1144,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478834,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [44]
 		{
 			"and to answer your question i dont think they are farming honor, its a very slow way if thats the case", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1166,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478920,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [45]
 		{
 			"wow the lag has gotten unbearable", -- [1]
 			"Speedymst-Sylvanas", -- [2]
@@ -1188,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSpeedymst-Sylvanas|r",
 			[51] = 1605478936,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [46]
 		{
 			"+", -- [1]
 			"Redcoq-Silvermoon", -- [2]
@@ -1210,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRedcoq-Silvermoon|r",
 			[51] = 1605478947,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [47]
 		{
 			"Starting to feel like vale during assaults xD", -- [1]
 			"Pennancelot-Aggramar", -- [2]
@@ -1232,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefePennancelot-Aggramar|r",
 			[51] = 1605478952,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [48]
 		{
 			"Purgatory Afterglow - Grim Batol is looking to start heroic raiding in Shadowlands. LF melee and ranged DPS. Raiding Thursday/Sunday 20:30ST till 23:00ST. Social players are always welcome.", -- [1]
 			"Giëto-GrimBatol", -- [2]
@@ -1254,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Giëto-GrimBatol|r",
 			[51] = 1605988620,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [49]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1276,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1605988646,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [50]
 		{
 			"uhhh", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1298,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1605990680,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [51]
 		{
 			"HELLO", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1320,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1605990681,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [52]
 		{
 			"NPCS????", -- [1]
 			"Rykahpriest-Frostmane", -- [2]
@@ -1342,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRykahpriest|r",
 			[51] = 1605990683,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [53]
 		{
 			"Estás cansado de não estar na mesma guild que eu? <Os Marretas> estão a recrutar, E os nossos padrões nunca foram tão baixos! Inscreve-te hoje e recebe vantagens de nível de guild e uma namorada grátis! (A namorada poderá ser um pet).", -- [1]
 			"Tsulong-Aggra(Português)", -- [2]
@@ -1364,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
 			[51] = 1605990707,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [54]
 		{
 			"Er det et nerdelandslag guild her?", -- [1]
 			"Thorki-GrimBatol", -- [2]
@@ -1386,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeThorki-GrimBatol|r",
 			[51] = 1605990755,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [55]
 		{
 			"Estás cansado de não estar na mesma guild que eu? <Os Marretas> estão a recrutar, E os nossos padrões nunca foram tão baixos! Inscreve-te hoje e recebe vantagens de nível de guild e uma namorada grátis! (A namorada poderá ser um pet).", -- [1]
 			"Tsulong-Aggra(Português)", -- [2]
@@ -1408,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
 			[51] = 1605991020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [56]
 		{
 			"whats the easiest mythic to start with and can you spam run them", -- [1]
 			"Ratmaster-GrimBatol", -- [2]
@@ -1430,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ratmaster-GrimBatol|r",
 			[51] = 1605991051,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [57]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1452,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1605991265,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [58]
 		{
 			"wow guild full cant invite more :D", -- [1]
 			"|Kq96|k", -- [2]
@@ -1475,7 +1321,7 @@ ElvCharacterDB = {
 			[51] = 1605991383,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [66]
+		}, -- [59]
 		{
 			"ooh might be time for another purge", -- [1]
 			"|Kq96|k", -- [2]
@@ -1498,7 +1344,7 @@ ElvCharacterDB = {
 			[51] = 1605991404,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Patsavouris",
-		}, -- [67]
+		}, -- [60]
 		{
 			"you need to clear some alts :P", -- [1]
 			"|Kq96|k", -- [2]
@@ -1521,7 +1367,7 @@ ElvCharacterDB = {
 			[51] = 1605991411,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [68]
+		}, -- [61]
 		{
 			"kick all my alts", -- [1]
 			"|Kq96|k", -- [2]
@@ -1544,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1605991416,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [69]
+		}, -- [62]
 		{
 			"exept shaman pala warrior", -- [1]
 			"|Kq96|k", -- [2]
@@ -1567,7 +1413,7 @@ ElvCharacterDB = {
 			[51] = 1605991421,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [70]
+		}, -- [63]
 		{
 			":D", -- [1]
 			"|Kq96|k", -- [2]
@@ -1590,7 +1436,7 @@ ElvCharacterDB = {
 			[51] = 1605991422,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [71]
+		}, -- [64]
 		{
 			"and make a velvet alt guild", -- [1]
 			"|Kq96|k", -- [2]
@@ -1613,7 +1459,7 @@ ElvCharacterDB = {
 			[51] = 1605991431,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [72]
+		}, -- [65]
 		{
 			"tell mains to have 1 or 2 alts on main guild", -- [1]
 			"|Kq96|k", -- [2]
@@ -1636,7 +1482,7 @@ ElvCharacterDB = {
 			[51] = 1605991443,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [73]
+		}, -- [66]
 		{
 			"or something like that :D", -- [1]
 			"|Kq96|k", -- [2]
@@ -1659,7 +1505,7 @@ ElvCharacterDB = {
 			[51] = 1605991448,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [74]
+		}, -- [67]
 		{
 			"yeah i'll kick some of mine probs", -- [1]
 			"|Kq96|k", -- [2]
@@ -1682,7 +1528,7 @@ ElvCharacterDB = {
 			[51] = 1605991456,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Patsavouris",
-		}, -- [75]
+		}, -- [68]
 		{
 			"wanna key?", -- [1]
 			"|Kq96|k", -- [2]
@@ -1705,7 +1551,7 @@ ElvCharacterDB = {
 			[51] = 1605991458,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [76]
+		}, -- [69]
 		{
 			"sure", -- [1]
 			"|Kq96|k", -- [2]
@@ -1728,7 +1574,7 @@ ElvCharacterDB = {
 			[51] = 1605991466,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Patsavouris",
-		}, -- [77]
+		}, -- [70]
 		{
 			"last key of bfa", -- [1]
 			"|Kq96|k", -- [2]
@@ -1751,7 +1597,7 @@ ElvCharacterDB = {
 			[51] = 1605991473,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Patsavouris",
-		}, -- [78]
+		}, -- [71]
 		{
 			"k reloging to pala", -- [1]
 			"|Kq96|k", -- [2]
@@ -1774,7 +1620,7 @@ ElvCharacterDB = {
 			[51] = 1605991473,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [79]
+		}, -- [72]
 		{
 			":P", -- [1]
 			"|Kq96|k", -- [2]
@@ -1797,7 +1643,7 @@ ElvCharacterDB = {
 			[51] = 1605991477,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [80]
+		}, -- [73]
 		{
 			"or ya want a 20+", -- [1]
 			"|Kq96|k", -- [2]
@@ -1820,7 +1666,7 @@ ElvCharacterDB = {
 			[51] = 1605991480,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [81]
+		}, -- [74]
 		{
 			"? :D", -- [1]
 			"|Kq96|k", -- [2]
@@ -1843,7 +1689,7 @@ ElvCharacterDB = {
 			[51] = 1605991481,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [82]
+		}, -- [75]
 		{
 			"uh easy key pls :D", -- [1]
 			"|Kq96|k", -- [2]
@@ -1866,7 +1712,7 @@ ElvCharacterDB = {
 			[51] = 1605991489,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Patsavouris",
-		}, -- [83]
+		}, -- [76]
 		{
 			"kk", -- [1]
 			"|Kq96|k", -- [2]
@@ -1889,7 +1735,7 @@ ElvCharacterDB = {
 			[51] = 1605991493,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Patsavouris",
-		}, -- [84]
+		}, -- [77]
 		{
 			"wanna come blast hc and help a friend", -- [1]
 			"|Kq103|k", -- [2]
@@ -1912,7 +1758,7 @@ ElvCharacterDB = {
 			[51] = 1606001124,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Sly360xHmstr",
-		}, -- [85]
+		}, -- [78]
 		{
 			"for fun", -- [1]
 			"|Kq103|k", -- [2]
@@ -1935,7 +1781,7 @@ ElvCharacterDB = {
 			[51] = 1606001125,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Sly360xHmstr",
-		}, -- [86]
+		}, -- [79]
 		{
 			"nyalotha?", -- [1]
 			"|Kq103|k", -- [2]
@@ -1958,7 +1804,7 @@ ElvCharacterDB = {
 			[51] = 1606001131,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Sly360xHmstr",
-		}, -- [87]
+		}, -- [80]
 		{
 			"yeah", -- [1]
 			"|Kq103|k", -- [2]
@@ -1981,7 +1827,7 @@ ElvCharacterDB = {
 			[51] = 1606001135,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Sly360xHmstr",
-		}, -- [88]
+		}, -- [81]
 		{
 			"sure", -- [1]
 			"|Kq103|k", -- [2]
@@ -2004,7 +1850,7 @@ ElvCharacterDB = {
 			[51] = 1606001140,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Sly360xHmstr",
-		}, -- [89]
+		}, -- [82]
 		{
 			"just wrath-cara-nzoth chilling", -- [1]
 			"|Kq103|k", -- [2]
@@ -2027,7 +1873,7 @@ ElvCharacterDB = {
 			[51] = 1606001144,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Sly360xHmstr",
-		}, -- [90]
+		}, -- [83]
 		{
 			"i'll hep for a bot", -- [1]
 			"|Kq103|k", -- [2]
@@ -2050,7 +1896,7 @@ ElvCharacterDB = {
 			[51] = 1606001147,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Sly360xHmstr",
-		}, -- [91]
+		}, -- [84]
 		{
 			"my man <3", -- [1]
 			"|Kq103|k", -- [2]
@@ -2073,7 +1919,7 @@ ElvCharacterDB = {
 			[51] = 1606001153,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Sly360xHmstr",
-		}, -- [92]
+		}, -- [85]
 		{
 			"i'll help for a bit*", -- [1]
 			"|Kq103|k", -- [2]
@@ -2096,7 +1942,7 @@ ElvCharacterDB = {
 			[51] = 1606001154,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Sly360xHmstr",
-		}, -- [93]
+		}, -- [86]
 		{
 			"ok", -- [1]
 			"|Kq103|k", -- [2]
@@ -2119,7 +1965,7 @@ ElvCharacterDB = {
 			[51] = 1606001159,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Sly360xHmstr",
-		}, -- [94]
+		}, -- [87]
 		{
 			"are these the famous trash danes?", -- [1]
 			"|Kq103|k", -- [2]
@@ -2142,7 +1988,7 @@ ElvCharacterDB = {
 			[51] = 1606001166,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Sly360xHmstr",
-		}, -- [95]
+		}, -- [88]
 		{
 			"ya u wanna come on ur mage yea? i dount think o do much on ur priest xd", -- [1]
 			"|Kq103|k", -- [2]
@@ -2165,7 +2011,7 @@ ElvCharacterDB = {
 			[51] = 1606001183,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Sly360xHmstr",
-		}, -- [96]
+		}, -- [89]
 		{
 			"priest is big dps", -- [1]
 			"|Kq103|k", -- [2]
@@ -2188,7 +2034,7 @@ ElvCharacterDB = {
 			[51] = 1606001190,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Sly360xHmstr",
-		}, -- [97]
+		}, -- [90]
 		{
 			"at least 100", -- [1]
 			"|Kq103|k", -- [2]
@@ -2211,7 +2057,7 @@ ElvCharacterDB = {
 			[51] = 1606001193,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Sly360xHmstr",
-		}, -- [98]
+		}, -- [91]
 		{
 			"haha truuue", -- [1]
 			"|Kq103|k", -- [2]
@@ -2234,6 +2080,160 @@ ElvCharacterDB = {
 			[51] = 1606001195,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Sly360xHmstr",
+		}, -- [92]
+		{
+			"1", -- [1]
+			"Blaser-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Blaser-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3104, -- [11]
+			"Player-1303-00C790F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Blaser-GrimBatol|r",
+			[51] = 1606007282,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"2", -- [1]
+			"Prendex-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Prendex-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3112, -- [11]
+			"Player-1303-08A4BC57", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Prendex-Aggra(Português)|r",
+			[51] = 1606007293,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"3", -- [1]
+			"Chainblade-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Chainblade-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3119, -- [11]
+			"Player-1303-059B7C45", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcChainblade-Aggra(Português)|r",
+			[51] = 1606007319,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"4?", -- [1]
+			"Prendex-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Prendex-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3123, -- [11]
+			"Player-1303-08A4BC57", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Prendex-Aggra(Português)|r",
+			[51] = 1606007325,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"4", -- [1]
+			"Sebmiester-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sebmiester-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3124, -- [11]
+			"Player-1303-0B5FA617", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Sebmiester|r",
+			[51] = 1606007326,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"5?", -- [1]
+			"Prendex-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Prendex-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3125, -- [11]
+			"Player-1303-08A4BC57", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Prendex-Aggra(Português)|r",
+			[51] = 1606007329,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"d", -- [1]
+			"Sebmiester-Frostmane", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sebmiester-Frostmane", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3126, -- [11]
+			"Player-1303-0B5FA617", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Sebmiester|r",
+			[51] = 1606007330,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 }

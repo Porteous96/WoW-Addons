@@ -9,7 +9,7 @@ H: 1
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: RIGHT
-X: -82
+X: -83
 Y: 60
 W: 235
 H: 480
@@ -17,7 +17,7 @@ Frame: PlayerPowerBarAlt
 FrameLevel: 2
 Anchor: CENTER
 X: 458
-Y: -155
+Y: -154
 W: 10
 H: 10
 Frame: ColorPickerFrame

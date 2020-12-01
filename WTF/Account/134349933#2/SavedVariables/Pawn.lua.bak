@@ -128,10 +128,10 @@ PawnCommon = {
 				["Xpreach-Tarren Mill"] = {
 					["Visible"] = true,
 				},
-				["Rykahpo-Doomhammer"] = {
+				["Rykahboost-Turalyon"] = {
 					["Visible"] = true,
 				},
-				["Rykahboost-Turalyon"] = {
+				["Rykahpo-Doomhammer"] = {
 					["Visible"] = true,
 				},
 				["Preachx-Tarren Mill"] = {
@@ -737,6 +737,9 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT2"] = {
 			["IconTexturePath"] = 135773,
 			["PerCharacterOptions"] = {
+				["Rÿkah-Frostmane"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff4d6b",
 			["ClassID"] = 6,
@@ -789,9 +792,6 @@ PawnCommon = {
 					["Visible"] = true,
 				},
 				["Rykahdk-Frostmane"] = {
-					["Visible"] = true,
-				},
-				["Rÿkah-Frostmane"] = {
 					["Visible"] = true,
 				},
 			},
@@ -863,10 +863,10 @@ PawnCommon = {
 				["Advboi-Frostmane"] = {
 					["Visible"] = true,
 				},
-				["Chuggernuts-Tarren Mill"] = {
+				["Rykahboost-Aggramar"] = {
 					["Visible"] = true,
 				},
-				["Rykahboost-Aggramar"] = {
+				["Chuggernuts-Tarren Mill"] = {
 					["Visible"] = true,
 				},
 			},

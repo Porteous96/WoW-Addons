@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0406,
-	["LastPlayerFullName"] = "Rÿkah-Frostmane",
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 165459,
@@ -58,10 +55,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:159458::::::::50:250::16:5:6536:6516:6515:1533:4786:1:28:1255:::|h[Seal of the Regal Loa]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 159462,
-			["Level"] = 115,
+			["ID"] = 159458,
+			["Level"] = 120,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:159462:6111:::::::50:250::16:5:6530:6516:6513:1528:4786::::|h[Footbomb Championship Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:159458::::::::50:251::16:5:6536:6516:6515:1533:4786:1:28:1255:::|h[Seal of the Regal Loa]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 174044,
@@ -86,12 +83,15 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:172200:3368:::::::50:250::5:8:4823:1808:6572:6578:6579:6515:1502:4786::::|h[Sk'shuul Vaz]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 25114,
-			["Level"] = 34,
+			["ID"] = 176801,
+			["Level"] = 81,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:25114::::::::50:250::2:2:6655:1680:2:28:1065:9:30:::|h[Doomsayer's Mace of the Quickblade]|h|r",
+			["Link"] = "|cff1eff00|Hitem:176801::::::::51:251:::3:6908:6652:1708:2:28:1707:9:51:::|h[Unburdened Hammer of the Aurora]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Rÿkah-Frostmane",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

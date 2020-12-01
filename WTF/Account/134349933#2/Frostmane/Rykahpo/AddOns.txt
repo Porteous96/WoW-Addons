@@ -28,7 +28,7 @@ WorldQuestParty: disabled
 BigWigs_WrathOfTheLichKing: enabled
 Azeroth Auto Pilot: disabled
 OPie: disabled
-AdventureGuideSavedInstances: disabled
+AdventureGuideSavedInstances: enabled
 RaiderIO_DB_US_H: disabled
 RaiderIO_DB_US_A: disabled
 RaiderIO_DB_TW_H: disabled
@@ -141,3 +141,4 @@ ElvUI_SLE: enabled
 AAP-EasternKingdoms: enabled
 AAP-Shadowlands: enabled
 ElvUI_QuestXP: disabled
+LittleWigs_Legion: enabled

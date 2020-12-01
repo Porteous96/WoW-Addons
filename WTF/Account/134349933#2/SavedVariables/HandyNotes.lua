@@ -50,7 +50,7 @@ HandyNotesDB = {
 		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
 		["Preacherino - Tarren Mill"] = "Preacherino - Tarren Mill",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
@@ -60,7 +60,7 @@ HandyNotesDB = {
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Sulivan - Tarren Mill"] = "Sulivan - Tarren Mill",
-		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Swobuswagins - Tarren Mill"] = "Swobuswagins - Tarren Mill",
 		["Bertybots - Kazzak"] = "Bertybots - Kazzak",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
@@ -169,7 +169,7 @@ HandyNotesDB = {
 		},
 		["Rykahpriest - Frostmane"] = {
 		},
-		["Advboi - Grim Batol"] = {
+		["Préach - Tarren Mill"] = {
 		},
 		["Preachez - Tarren Mill"] = {
 		},
@@ -189,7 +189,7 @@ HandyNotesDB = {
 		},
 		["Sulivan - Tarren Mill"] = {
 		},
-		["Préach - Tarren Mill"] = {
+		["Advboi - Grim Batol"] = {
 		},
 		["Swobuswagins - Tarren Mill"] = {
 		},
@@ -270,7 +270,7 @@ HandyNotes_HandyNotesDB = {
 		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
 		["Preacherino - Tarren Mill"] = "Preacherino - Tarren Mill",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
@@ -280,7 +280,7 @@ HandyNotes_HandyNotesDB = {
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Sulivan - Tarren Mill"] = "Sulivan - Tarren Mill",
-		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Swobuswagins - Tarren Mill"] = "Swobuswagins - Tarren Mill",
 		["Bertybots - Kazzak"] = "Bertybots - Kazzak",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
@@ -389,7 +389,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Rykahpriest - Frostmane"] = {
 		},
-		["Advboi - Grim Batol"] = {
+		["Préach - Tarren Mill"] = {
 		},
 		["Preachez - Tarren Mill"] = {
 		},
@@ -409,7 +409,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Sulivan - Tarren Mill"] = {
 		},
-		["Préach - Tarren Mill"] = {
+		["Advboi - Grim Batol"] = {
 		},
 		["Swobuswagins - Tarren Mill"] = {
 		},

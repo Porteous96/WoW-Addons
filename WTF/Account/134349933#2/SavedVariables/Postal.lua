@@ -52,8 +52,8 @@ Postal3DB = {
 				"Rykahpoo|Frostmane|Alliance|50|DRUID", -- [47]
 				"Rykahpow|Frostmane|Alliance|100|WARRIOR", -- [48]
 				"Rykahpo|Doomhammer|Alliance|20|MAGE", -- [49]
-				"Rykahpo|Frostmane|Alliance|50|MAGE", -- [50]
-				"Rykahpriest|Frostmane|Alliance|43|PRIEST", -- [51]
+				"Rykahpo|Frostmane|Alliance|60|MAGE", -- [50]
+				"Rykahpriest|Frostmane|Alliance|47|PRIEST", -- [51]
 				"Rykahshaman|Frostmane|Alliance|27|SHAMAN", -- [52]
 				"Rykahthree|Frostmane|Alliance|10|MAGE", -- [53]
 				"Rykahtony|Frostmane|Alliance|110|WARLOCK", -- [54]
@@ -127,8 +127,8 @@ Postal3DB = {
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
 		["Mastarace - Kazzak"] = "Mastarace - Kazzak",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
@@ -254,9 +254,9 @@ Postal3DB = {
 		["Rykkahpo - Frostmane"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Bankypo|Frostmane|Alliance", -- [1]
-					"Rykahhpo|Frostmane|Alliance", -- [2]
-					"Rykahpoh|Frostmane|Alliance", -- [3]
+					"Rykahpoh|Frostmane|Alliance", -- [1]
+					"Bankypo|Frostmane|Alliance", -- [2]
+					"Rykahhpo|Frostmane|Alliance", -- [3]
 				},
 			},
 		},
@@ -401,6 +401,8 @@ Postal3DB = {
 		},
 		["Rykahpriest - Frostmane"] = {
 		},
+		["Advboi - Grim Batol"] = {
+		},
 		["Préach - Tarren Mill"] = {
 			["BlackBook"] = {
 				["recent"] = {
@@ -420,8 +422,6 @@ Postal3DB = {
 					"Toutsweet|Tarren Mill|Horde", -- [14]
 				},
 			},
-		},
-		["Advboi - Grim Batol"] = {
 		},
 		["Preachez - Tarren Mill"] = {
 			["BlackBook"] = {
@@ -445,8 +445,8 @@ Postal3DB = {
 		["Rykahpo - Frostmane"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Demondalle|Frostmane|Alliance", -- [1]
-					"Bankypo|Frostmane|Alliance", -- [2]
+					"Bankypo|Frostmane|Alliance", -- [1]
+					"Demondalle|Frostmane|Alliance", -- [2]
 					"Rykahhpo|Frostmane|Alliance", -- [3]
 					"Rykkahpo|Frostmane|Alliance", -- [4]
 					"Rykahpodh|Frostmane|Alliance", -- [5]

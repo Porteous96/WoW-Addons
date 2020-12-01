@@ -26,15 +26,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["classe"] = "WARLOCK",
 							["aID"] = "1303-0B6989C0",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005127,
-							["damage_taken"] = 0.005127,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 0.005127,
-							["on_hold"] = false,
+							["damage_taken"] = 0.005127,
 							["last_event"] = 0,
 							["nome"] = "Bankypo",
 							["spec"] = 265,
@@ -43,11 +44,10 @@ _detalhes_database = {
 							["end_time"] = 1605728841,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1605728841,
 							["serial"] = "Player-1303-0B6989C0",
-							["friendlyfire_total"] = 0,
+							["classe"] = "WARLOCK",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -59,17 +59,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["last_event"] = 0,
 							["aID"] = "",
+							["last_event"] = 0,
+							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001012,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 0.001012,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["ownerName"] = "Bankypo",
 							["nome"] = "Infectious Zombie <Bankypo>",
 							["spells"] = {
@@ -77,15 +76,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 871.001012,
+							["friendlyfire"] = {
+							},
 							["end_time"] = 1605728841,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 871.001012,
 							["start_time"] = 1605728841,
 							["serial"] = "Vehicle-0-1465-0-9388-165542-0000357A46",
-							["classe"] = "PET",
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -101,33 +101,33 @@ _detalhes_database = {
 							},
 							["targets"] = {
 							},
-							["healing_from"] = {
-							},
+							["healing_taken"] = 0.008088,
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
+							["healing_from"] = {
 							},
-							["healing_taken"] = 0.008088,
+							["classe"] = "WARLOCK",
 							["totalover"] = 0.008088,
 							["total_without_pet"] = 0.008088,
 							["totalover_without_pet"] = 0.008088,
 							["start_time"] = 0,
-							["classe"] = "WARLOCK",
+							["aID"] = "1303-0B6989C0",
 							["total"] = 0.008088,
 							["heal_enemy_amt"] = 0,
-							["aID"] = "1303-0B6989C0",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
 							["nome"] = "Bankypo",
 							["targets_absorbs"] = {
 							},
 							["grupo"] = true,
-							["spec"] = 265,
+							["serial"] = "Player-1303-0B6989C0",
 							["heal_enemy"] = {
 							},
-							["serial"] = "Player-1303-0B6989C0",
+							["spec"] = 265,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
@@ -219,8 +219,8 @@ _detalhes_database = {
 				},
 				["playing_solo"] = true,
 				["totals"] = {
-					-0.2061650000463425, -- [1]
-					-0.0936230000000573, -- [2]
+					-0.2261850000465433, -- [1]
+					-0.1567870000000573, -- [2]
 					{
 						-0.02726399999999885, -- [1]
 						[0] = -0.007741999999999999,
@@ -277,9 +277,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "19:47:22",
-				["end_time"] = 2688.979,
-				["combat_id"] = 3,
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -299,6 +296,9 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
+				["end_time"] = 2688.979,
+				["combat_id"] = 3,
+				["data_inicio"] = "19:47:22",
 				["overall_added"] = true,
 				["frags"] = {
 				},
@@ -409,7 +409,7 @@ _detalhes_database = {
 			}, -- [1]
 		},
 	},
-	["last_version"] = "v9.0.1.7950",
+	["last_version"] = "v9.0.1.7908",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -420,7 +420,7 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1606760147,
+		["nextreset"] = 1608056210,
 		["last_version"] = 12,
 	},
 	["last_instance_id"] = 0,
@@ -508,14 +508,14 @@ _detalhes_database = {
 				[146739] = 172,
 				[324183] = true,
 				[196711] = true,
-				[317488] = 317485,
-				[75] = true,
 				[227847] = 50622,
+				[75] = true,
+				[317488] = 317485,
 				[199672] = 1943,
 				[227518] = true,
-				[222031] = 199547,
-				[85739] = 44949,
 				[190411] = 44949,
+				[85739] = 44949,
+				[222031] = 199547,
 				[201428] = true,
 				[147833] = 3411,
 				[199667] = 44949,
@@ -551,12 +551,7 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -564,8 +559,9 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -74.9996948242188,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -577,19 +573,23 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["font_size"] = 10,
 			["x"] = 11.0000076293945,
 			["font_face"] = "Friz Quadrata TT",
-			["y"] = -74.9996948242188,
 			["use_spark"] = true,
-			["author"] = "Details! Team",
+			["font_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -674,19 +674,19 @@ _detalhes_database = {
 			["author"] = "Details! Team",
 		},
 	},
-	["cached_talents"] = {
-	},
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "21",
+	["last_day"] = "01",
+	["cached_talents"] = {
+	},
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
-	["last_realversion"] = 144,
+	["last_realversion"] = 143,
 	["combat_id"] = 3,
 	["savedStyles"] = {
 	},
@@ -694,7 +694,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 488,
+	["combat_counter"] = 502,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -716,16 +716,17 @@ _detalhes_database = {
 					["pets"] = {
 						"Infectious Zombie <Bankypo>", -- [1]
 					},
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["damage_taken"] = 0.008138,
-					["classe"] = "WARLOCK",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008138,
 					["aID"] = "1303-0B6989C0",
 					["dps_started"] = false,
 					["end_time"] = 1605728842,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["tipo"] = 1,
 					["nome"] = "Bankypo",
 					["spells"] = {
@@ -738,17 +739,59 @@ _detalhes_database = {
 					["spec"] = 265,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1605728839,
 					["serial"] = "Player-1303-0B6989C0",
-					["friendlyfire_total"] = 0,
+					["classe"] = "WARLOCK",
 				}, -- [1]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 0.003192,
+					["total_without_pet"] = 0.003192,
+					["total"] = 0.003192,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1303-0B6989C0",
+					["totalabsorb"] = 0.003192,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.003192,
+					["healing_taken"] = 0.003192,
+					["end_time"] = 1606062718,
+					["spec"] = 265,
+					["targets_overheal"] = {
+					},
+					["nome"] = "Bankypo",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["aID"] = "1303-0B6989C0",
+					["totaldenied"] = 0.003192,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["classe"] = "WARLOCK",
+					["start_time"] = 1606062715,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [1]
 			},
 		}, -- [2]
 		{
@@ -814,7 +857,7 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 480,
 		["totals"] = {
-			871.0116469999999, -- [1]
+			871.002672, -- [1]
 			0, -- [2]
 			{
 				0, -- [1]
@@ -906,7 +949,7 @@ _detalhes_database = {
 	["force_font_outline"] = "",
 	["local_instances_config"] = {
 		{
-			["modo"] = 2,
+			["segment"] = 0,
 			["sub_attribute"] = 1,
 			["sub_atributo_last"] = {
 				1, -- [1]
@@ -919,7 +962,6 @@ _detalhes_database = {
 			["isLocked"] = true,
 			["snap"] = {
 			},
-			["segment"] = 0,
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
@@ -939,7 +981,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 355,
+		["logons"] = 369,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,
@@ -957,9 +999,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-1303-0B92CAA1"] = 264,
 		["Player-1303-0B6989C0"] = 265,
-		["Player-1316-0B79E6EE"] = 251,
-		["Player-1303-0BAF53CF"] = 270,
 	},
 }

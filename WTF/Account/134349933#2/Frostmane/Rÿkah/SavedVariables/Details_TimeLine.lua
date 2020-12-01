@@ -3,26 +3,26 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "00:16:54",
 			["date_start"] = "00:16:33",
+			["date_end"] = "00:16:54",
 			["name"] = "Carapace of N'Zoth",
 			["total_time"] = 21,
 		}, -- [1]
 		{
-			["date_end"] = "00:15:32",
 			["date_start"] = "00:12:15",
+			["date_end"] = "00:15:32",
 			["name"] = "Carapace of N'Zoth",
 			["total_time"] = 197.0059999999994,
 		}, -- [2]
 		{
-			["date_end"] = "00:10:50",
 			["date_start"] = "00:09:14",
+			["date_end"] = "00:10:50",
 			["name"] = "Carapace of N'Zoth",
 			["total_time"] = 96.94900000000052,
 		}, -- [3]
 		{
-			["date_end"] = "23:46:35",
 			["date_start"] = "23:42:31",
+			["date_end"] = "23:46:35",
 			["name"] = "Wrathion",
 			["total_time"] = 244.8400000000002,
 		}, -- [4]
@@ -62,14 +62,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[313362] = {
-				{
-					18.45999999999913, -- [1]
-					"Fury of N'Zoth", -- [2]
-					313362, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[315947] = {
 				{
 					2.734000000000378, -- [1]
@@ -85,6 +77,14 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Rÿkah", -- [5]
 				}, -- [2]
+			},
+			[313362] = {
+				{
+					18.45999999999913, -- [1]
+					"Fury of N'Zoth", -- [2]
+					313362, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 		}, -- [1]
 		{
@@ -308,35 +308,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[307008] = {
-				{
-					19.52200000000084, -- [1]
-					"Gaze of Madness", -- [2]
-					307008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					75.8040000000019, -- [1]
-					"Gaze of Madness", -- [2]
-					307008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					137.376000000002, -- [1]
-					"Gaze of Madness", -- [2]
-					307008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-			},
-			[224729] = {
-				{
-					94.6780000000017, -- [1]
-					"Nightmare Antigen", -- [2]
-					224729, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bulseye-Kilrogg", -- [5]
-				}, -- [1]
-			},
 			[306971] = {
 				{
 					4.645000000000437, -- [1]
@@ -398,6 +369,35 @@ DetailsTimeLineDB = {
 					306971, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [10]
+			},
+			[224729] = {
+				{
+					94.6780000000017, -- [1]
+					"Nightmare Antigen", -- [2]
+					224729, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bulseye-Kilrogg", -- [5]
+				}, -- [1]
+			},
+			[307008] = {
+				{
+					19.52200000000084, -- [1]
+					"Gaze of Madness", -- [2]
+					307008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					75.8040000000019, -- [1]
+					"Gaze of Madness", -- [2]
+					307008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					137.376000000002, -- [1]
+					"Gaze of Madness", -- [2]
+					307008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
 			},
 		}, -- [2]
 		{
@@ -505,43 +505,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[307008] = {
-				{
-					17.95800000000054, -- [1]
-					"Gaze of Madness", -- [2]
-					307008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					75.86000000000058, -- [1]
-					"Gaze of Madness", -- [2]
-					307008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[224729] = {
-				{
-					73.61499999999978, -- [1]
-					"Nightmare Antigen", -- [2]
-					224729, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Alethebul-Darkspear", -- [5]
-				}, -- [1]
-				{
-					73.61499999999978, -- [1]
-					"Nightmare Antigen", -- [2]
-					224729, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bulseye-Kilrogg", -- [5]
-				}, -- [2]
-				{
-					73.61499999999978, -- [1]
-					"Nightmare Antigen", -- [2]
-					224729, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bulseye-Kilrogg", -- [5]
-				}, -- [3]
-			},
 			[306971] = {
 				{
 					4.479999999999563, -- [1]
@@ -567,6 +530,43 @@ DetailsTimeLineDB = {
 					306971, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
+			},
+			[224729] = {
+				{
+					73.61499999999978, -- [1]
+					"Nightmare Antigen", -- [2]
+					224729, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Alethebul-Darkspear", -- [5]
+				}, -- [1]
+				{
+					73.61499999999978, -- [1]
+					"Nightmare Antigen", -- [2]
+					224729, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bulseye-Kilrogg", -- [5]
+				}, -- [2]
+				{
+					73.61499999999978, -- [1]
+					"Nightmare Antigen", -- [2]
+					224729, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bulseye-Kilrogg", -- [5]
+				}, -- [3]
+			},
+			[307008] = {
+				{
+					17.95800000000054, -- [1]
+					"Gaze of Madness", -- [2]
+					307008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					75.86000000000058, -- [1]
+					"Gaze of Madness", -- [2]
+					307008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
 			},
 		}, -- [3]
 		{
@@ -855,14 +855,21 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[205984] = {
+			[214167] = {
 				{
-					46.55400000000009, -- [1]
+					78.05199999999968, -- [1]
 					"Star Augur Etraeus", -- [2]
-					205984, -- [3]
+					214167, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Rÿkah", -- [5]
 				}, -- [1]
+				{
+					109.3549999999996, -- [1]
+					"Star Augur Etraeus", -- [2]
+					214167, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Hethrir-DunModr", -- [5]
+				}, -- [2]
 			},
 			[61353] = {
 				{
@@ -886,21 +893,13 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[214167] = {
+			[206517] = {
 				{
-					78.05199999999968, -- [1]
+					104.3409999999994, -- [1]
 					"Star Augur Etraeus", -- [2]
-					214167, -- [3]
+					206517, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Rÿkah", -- [5]
 				}, -- [1]
-				{
-					109.3549999999996, -- [1]
-					"Star Augur Etraeus", -- [2]
-					214167, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Hethrir-DunModr", -- [5]
-				}, -- [2]
 			},
 			[205649] = {
 				{
@@ -1165,12 +1164,13 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[206517] = {
+			[205984] = {
 				{
-					104.3409999999994, -- [1]
+					46.55400000000009, -- [1]
 					"Star Augur Etraeus", -- [2]
-					206517, -- [3]
+					205984, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Rÿkah", -- [5]
 				}, -- [1]
 			},
 		}, -- [5]
@@ -1425,6 +1425,14 @@ DetailsTimeLineDB = {
 					"Rÿkah", -- [5]
 				}, -- [7]
 			},
+			[206936] = {
+				{
+					36.79300000000058, -- [1]
+					"Coronal Ejection", -- [2]
+					206936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
 			[205984] = {
 				{
 					42.74300000000039, -- [1]
@@ -1432,14 +1440,6 @@ DetailsTimeLineDB = {
 					205984, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Rÿkah", -- [5]
-				}, -- [1]
-			},
-			[206936] = {
-				{
-					36.79300000000058, -- [1]
-					"Coronal Ejection", -- [2]
-					206936, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
 		}, -- [6]
@@ -1917,79 +1917,11 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-			[213148] = {
+			[213182] = {
 				{
-					93.05400000000009, -- [1]
+					102.047, -- [1]
 					"Spellblade Aluriel", -- [2]
-					213148, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Hethrir-DunModr", -- [5]
-				}, -- [1]
-				{
-					102.0299999999998, -- [1]
-					"Spellblade Aluriel", -- [2]
-					213148, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kaltosan-Elune", -- [5]
-				}, -- [2]
-				{
-					102.3110000000002, -- [1]
-					"Spellblade Aluriel", -- [2]
-					213148, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rÿkah", -- [5]
-				}, -- [3]
-				{
-					102.3110000000002, -- [1]
-					"Spellblade Aluriel", -- [2]
-					213148, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Nyouma-Elune", -- [5]
-				}, -- [4]
-				{
-					102.3110000000002, -- [1]
-					"Spellblade Aluriel", -- [2]
-					213148, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Hethrir-DunModr", -- [5]
-				}, -- [5]
-				{
-					102.3110000000002, -- [1]
-					"Spellblade Aluriel", -- [2]
-					213148, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Esushi-Elune", -- [5]
-				}, -- [6]
-			},
-			[216389] = {
-				{
-					0.1300000000001091, -- [1]
-					"Spellblade Aluriel", -- [2]
-					216389, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[213083] = {
-				{
-					78.41699999999992, -- [1]
-					"Icy Enchantment", -- [2]
-					213083, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[212530] = {
-				{
-					31.02700000000004, -- [1]
-					"Spellblade Aluriel", -- [2]
-					212530, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[213867] = {
-				{
-					75.17799999999988, -- [1]
-					"Spellblade Aluriel", -- [2]
-					213867, -- [3]
+					213182, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -2015,6 +1947,38 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Rÿkah", -- [5]
 				}, -- [3]
+			},
+			[213083] = {
+				{
+					78.41699999999992, -- [1]
+					"Icy Enchantment", -- [2]
+					213083, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[212530] = {
+				{
+					31.02700000000004, -- [1]
+					"Spellblade Aluriel", -- [2]
+					212530, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[213867] = {
+				{
+					75.17799999999988, -- [1]
+					"Spellblade Aluriel", -- [2]
+					213867, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[216389] = {
+				{
+					0.1300000000001091, -- [1]
+					"Spellblade Aluriel", -- [2]
+					216389, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 			[213796] = {
 				{
@@ -2058,13 +2022,49 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[213182] = {
+			[213148] = {
 				{
-					102.047, -- [1]
+					93.05400000000009, -- [1]
 					"Spellblade Aluriel", -- [2]
-					213182, -- [3]
+					213148, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Hethrir-DunModr", -- [5]
 				}, -- [1]
+				{
+					102.0299999999998, -- [1]
+					"Spellblade Aluriel", -- [2]
+					213148, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kaltosan-Elune", -- [5]
+				}, -- [2]
+				{
+					102.3110000000002, -- [1]
+					"Spellblade Aluriel", -- [2]
+					213148, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rÿkah", -- [5]
+				}, -- [3]
+				{
+					102.3110000000002, -- [1]
+					"Spellblade Aluriel", -- [2]
+					213148, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Nyouma-Elune", -- [5]
+				}, -- [4]
+				{
+					102.3110000000002, -- [1]
+					"Spellblade Aluriel", -- [2]
+					213148, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Hethrir-DunModr", -- [5]
+				}, -- [5]
+				{
+					102.3110000000002, -- [1]
+					"Spellblade Aluriel", -- [2]
+					213148, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Esushi-Elune", -- [5]
+				}, -- [6]
 			},
 		}, -- [9]
 		{
@@ -2166,31 +2166,19 @@ DetailsTimeLineDB = {
 					"Rÿkah", -- [5]
 				}, -- [10]
 			},
-			[259187] = {
+			[314309] = {
 				{
-					13.77800000000025, -- [1]
-					"Yazma", -- [2]
-					259187, -- [3]
+					17.83899999999994, -- [1]
+					"Urg'roth, Breaker of Heroes", -- [2]
+					314309, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					55.08799999999974, -- [1]
-					"Yazma", -- [2]
-					259187, -- [3]
+					37.23600000000079, -- [1]
+					"Urg'roth, Breaker of Heroes", -- [2]
+					314309, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-				{
-					96.3819999999996, -- [1]
-					"Yazma", -- [2]
-					259187, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					137.6149999999998, -- [1]
-					"Yazma", -- [2]
-					259187, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
 			},
 			[250096] = {
 				{
@@ -2224,19 +2212,31 @@ DetailsTimeLineDB = {
 					"Rÿkah", -- [5]
 				}, -- [3]
 			},
-			[314309] = {
+			[259187] = {
 				{
-					17.83899999999994, -- [1]
-					"Urg'roth, Breaker of Heroes", -- [2]
-					314309, -- [3]
+					13.77800000000025, -- [1]
+					"Yazma", -- [2]
+					259187, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					37.23600000000079, -- [1]
-					"Urg'roth, Breaker of Heroes", -- [2]
-					314309, -- [3]
+					55.08799999999974, -- [1]
+					"Yazma", -- [2]
+					259187, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+				{
+					96.3819999999996, -- [1]
+					"Yazma", -- [2]
+					259187, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					137.6149999999998, -- [1]
+					"Yazma", -- [2]
+					259187, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
 			},
 		}, -- [10]
 		{
@@ -2758,6 +2758,66 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
+			[30989] = {
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Zealot", -- [2]
+					30989, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rÿkah", -- [5]
+				}, -- [1]
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Zealot", -- [2]
+					30989, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rÿkah", -- [5]
+				}, -- [2]
+			},
+			[30470] = {
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Savage", -- [2]
+					30470, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Savage", -- [2]
+					30470, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[3391] = {
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Brawler", -- [2]
+					3391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Brawler", -- [2]
+					3391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[15496] = {
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Reaver", -- [2]
+					15496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Hellfire Training Dummy", -- [5]
+				}, -- [1]
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Reaver", -- [2]
+					15496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Hellfire Training Dummy", -- [5]
+				}, -- [2]
+			},
 			[16856] = {
 				{
 					1.889999999999873, -- [1]
@@ -2794,66 +2854,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Shattered Hand Gladiator", -- [5]
 				}, -- [5]
-			},
-			[15496] = {
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Reaver", -- [2]
-					15496, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Hellfire Training Dummy", -- [5]
-				}, -- [1]
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Reaver", -- [2]
-					15496, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Hellfire Training Dummy", -- [5]
-				}, -- [2]
-			},
-			[3391] = {
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Brawler", -- [2]
-					3391, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Brawler", -- [2]
-					3391, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[30470] = {
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Savage", -- [2]
-					30470, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Savage", -- [2]
-					30470, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[30989] = {
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Zealot", -- [2]
-					30989, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rÿkah", -- [5]
-				}, -- [1]
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Zealot", -- [2]
-					30989, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rÿkah", -- [5]
-				}, -- [2]
 			},
 		}, -- [24]
 		{
@@ -2874,6 +2874,66 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
+			[30989] = {
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Zealot", -- [2]
+					30989, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rÿkah", -- [5]
+				}, -- [1]
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Zealot", -- [2]
+					30989, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rÿkah", -- [5]
+				}, -- [2]
+			},
+			[30470] = {
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Savage", -- [2]
+					30470, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Savage", -- [2]
+					30470, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[3391] = {
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Brawler", -- [2]
+					3391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Brawler", -- [2]
+					3391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[15496] = {
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Reaver", -- [2]
+					15496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Hellfire Training Dummy", -- [5]
+				}, -- [1]
+				{
+					1.889999999999873, -- [1]
+					"Shattered Hand Reaver", -- [2]
+					15496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Hellfire Training Dummy", -- [5]
+				}, -- [2]
+			},
 			[16856] = {
 				{
 					1.889999999999873, -- [1]
@@ -2910,66 +2970,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Shattered Hand Gladiator", -- [5]
 				}, -- [5]
-			},
-			[15496] = {
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Reaver", -- [2]
-					15496, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Hellfire Training Dummy", -- [5]
-				}, -- [1]
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Reaver", -- [2]
-					15496, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Hellfire Training Dummy", -- [5]
-				}, -- [2]
-			},
-			[3391] = {
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Brawler", -- [2]
-					3391, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Brawler", -- [2]
-					3391, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[30470] = {
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Savage", -- [2]
-					30470, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Savage", -- [2]
-					30470, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[30989] = {
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Zealot", -- [2]
-					30989, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rÿkah", -- [5]
-				}, -- [1]
-				{
-					1.889999999999873, -- [1]
-					"Shattered Hand Zealot", -- [2]
-					30989, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rÿkah", -- [5]
-				}, -- [2]
 			},
 		}, -- [25]
 		{
@@ -3340,55 +3340,19 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [7]
 			},
-			[306290] = {
+			[308044] = {
 				{
-					103.7349999999997, -- [1]
+					44.42599999999948, -- [1]
 					"Maut", -- [2]
-					306290, -- [3]
+					308044, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					111.1840000000002, -- [1]
+					204.4870000000001, -- [1]
 					"Maut", -- [2]
-					306290, -- [3]
+					308044, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-				{
-					118.4119999999994, -- [1]
-					"Maut", -- [2]
-					306290, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					125.8049999999994, -- [1]
-					"Maut", -- [2]
-					306290, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					133.0749999999998, -- [1]
-					"Maut", -- [2]
-					306290, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					140.8519999999999, -- [1]
-					"Maut", -- [2]
-					306290, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					148, -- [1]
-					"Maut", -- [2]
-					306290, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					155.1750000000002, -- [1]
-					"Maut", -- [2]
-					306290, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
 			},
 			[308158] = {
 				{
@@ -3470,14 +3434,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [13]
 			},
-			[305722] = {
-				{
-					99.66199999999935, -- [1]
-					"Maut", -- [2]
-					305722, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[308903] = {
 				{
 					13.32600000000002, -- [1]
@@ -3510,19 +3466,63 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 			},
-			[308044] = {
+			[305722] = {
 				{
-					44.42599999999948, -- [1]
+					99.66199999999935, -- [1]
 					"Maut", -- [2]
-					308044, -- [3]
+					305722, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[306290] = {
+				{
+					103.7349999999997, -- [1]
+					"Maut", -- [2]
+					306290, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					204.4870000000001, -- [1]
+					111.1840000000002, -- [1]
 					"Maut", -- [2]
-					308044, -- [3]
+					306290, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+				{
+					118.4119999999994, -- [1]
+					"Maut", -- [2]
+					306290, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					125.8049999999994, -- [1]
+					"Maut", -- [2]
+					306290, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					133.0749999999998, -- [1]
+					"Maut", -- [2]
+					306290, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					140.8519999999999, -- [1]
+					"Maut", -- [2]
+					306290, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					148, -- [1]
+					"Maut", -- [2]
+					306290, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					155.1750000000002, -- [1]
+					"Maut", -- [2]
+					306290, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
 			},
 		}, -- [35]
 		{
@@ -3678,11 +3678,11 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 			},
-			[305722] = {
+			[308044] = {
 				{
-					81.98700000000008, -- [1]
+					44.85000000000036, -- [1]
 					"Maut", -- [2]
-					305722, -- [3]
+					308044, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -3700,11 +3700,11 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[308044] = {
+			[305722] = {
 				{
-					44.85000000000036, -- [1]
+					81.98700000000008, -- [1]
 					"Maut", -- [2]
-					308044, -- [3]
+					305722, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -4221,20 +4221,6 @@ DetailsTimeLineDB = {
 					"Merren", -- [5]
 				}, -- [5]
 			},
-			[307725] = {
-				{
-					52.75500000000011, -- [1]
-					"Prophet Skitra", -- [2]
-					307725, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					151.2349999999997, -- [1]
-					"Prophet Skitra", -- [2]
-					307725, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
 			[313208] = {
 				{
 					31.45899999999983, -- [1]
@@ -4447,6 +4433,20 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [35]
 			},
+			[307725] = {
+				{
+					52.75500000000011, -- [1]
+					"Prophet Skitra", -- [2]
+					307725, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					151.2349999999997, -- [1]
+					"Prophet Skitra", -- [2]
+					307725, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
 		}, -- [37]
 		{
 			[306995] = {
@@ -4456,78 +4456,6 @@ DetailsTimeLineDB = {
 					306995, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-			},
-			[307974] = {
-				{
-					237.5020000000004, -- [1]
-					"Wrathion", -- [2]
-					307974, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					295.8290000000002, -- [1]
-					"Wrathion", -- [2]
-					307974, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[306111] = {
-				{
-					14.03900000000022, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					38.3130000000001, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					84.49400000000014, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					108.8120000000004, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					229.2460000000001, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					248.654, -- [1]
-					"Wrathion", -- [2]
-					306111, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-			},
-			[306735] = {
-				{
-					68.44100000000026, -- [1]
-					"Wrathion", -- [2]
-					306735, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					145.0370000000003, -- [1]
-					"Wrathion", -- [2]
-					306735, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					282.4540000000002, -- [1]
-					"Wrathion", -- [2]
-					306735, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
 			},
 			[307017] = {
 				{
@@ -4548,32 +4476,6 @@ DetailsTimeLineDB = {
 					307017, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
-			},
-			[312266] = {
-				{
-					173.4460000000004, -- [1]
-					"Ashwalker Assassin", -- [2]
-					312266, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					174.7190000000001, -- [1]
-					"Ashwalker Assassin", -- [2]
-					312266, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					174.7190000000001, -- [1]
-					"Ashwalker Assassin", -- [2]
-					312266, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					174.7190000000001, -- [1]
-					"Ashwalker Assassin", -- [2]
-					312266, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
 			},
 			[305978] = {
 				{
@@ -4675,6 +4577,26 @@ DetailsTimeLineDB = {
 					"Rÿkah", -- [5]
 				}, -- [14]
 			},
+			[306735] = {
+				{
+					68.44100000000026, -- [1]
+					"Wrathion", -- [2]
+					306735, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					145.0370000000003, -- [1]
+					"Wrathion", -- [2]
+					306735, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					282.4540000000002, -- [1]
+					"Wrathion", -- [2]
+					306735, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
 			[306289] = {
 				{
 					49.86900000000014, -- [1]
@@ -4694,6 +4616,84 @@ DetailsTimeLineDB = {
 					306289, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
+			},
+			[312266] = {
+				{
+					173.4460000000004, -- [1]
+					"Ashwalker Assassin", -- [2]
+					312266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					174.7190000000001, -- [1]
+					"Ashwalker Assassin", -- [2]
+					312266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					174.7190000000001, -- [1]
+					"Ashwalker Assassin", -- [2]
+					312266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					174.7190000000001, -- [1]
+					"Ashwalker Assassin", -- [2]
+					312266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[306111] = {
+				{
+					14.03900000000022, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					38.3130000000001, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					84.49400000000014, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					108.8120000000004, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					229.2460000000001, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					248.654, -- [1]
+					"Wrathion", -- [2]
+					306111, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[307974] = {
+				{
+					237.5020000000004, -- [1]
+					"Wrathion", -- [2]
+					307974, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					295.8290000000002, -- [1]
+					"Wrathion", -- [2]
+					307974, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
 			},
 		}, -- [38]
 		{
@@ -4725,26 +4725,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-			[257278] = {
-				{
-					8.505000000001019, -- [1]
-					"Harlan Sweete", -- [2]
-					257278, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					24.3080000000009, -- [1]
-					"Harlan Sweete", -- [2]
-					257278, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					42.51699999999983, -- [1]
-					"Harlan Sweete", -- [2]
-					257278, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-			},
 			[257458] = {
 				{
 					94.34799999999814, -- [1]
@@ -4752,6 +4732,46 @@ DetailsTimeLineDB = {
 					257458, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
+			},
+			[257402] = {
+				{
+					55.42900000000009, -- [1]
+					"Harlan Sweete", -- [2]
+					257402, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[257314] = {
+				{
+					82.21199999999953, -- [1]
+					"Irontide Grenadier", -- [2]
+					257314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tampopochan-Lightbringer", -- [5]
+				}, -- [1]
+				{
+					102.8250000000007, -- [1]
+					"Irontide Grenadier", -- [2]
+					257314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kaaraa-Silvermoon", -- [5]
+				}, -- [2]
+			},
+			[314411] = {
+				{
+					11.06399999999849, -- [1]
+					"Voidweaver Mal'thir", -- [2]
+					314411, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rÿkah", -- [5]
+				}, -- [1]
+				{
+					32.15799999999945, -- [1]
+					"Voidweaver Mal'thir", -- [2]
+					314411, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Гюнзис-Галакронд", -- [5]
+				}, -- [2]
 			},
 			[314406] = {
 				{
@@ -4776,45 +4796,25 @@ DetailsTimeLineDB = {
 					"Гюнзис-Галакронд", -- [5]
 				}, -- [3]
 			},
-			[314411] = {
+			[257278] = {
 				{
-					11.06399999999849, -- [1]
-					"Voidweaver Mal'thir", -- [2]
-					314411, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rÿkah", -- [5]
-				}, -- [1]
-				{
-					32.15799999999945, -- [1]
-					"Voidweaver Mal'thir", -- [2]
-					314411, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Гюнзис-Галакронд", -- [5]
-				}, -- [2]
-			},
-			[257314] = {
-				{
-					82.21199999999953, -- [1]
-					"Irontide Grenadier", -- [2]
-					257314, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Tampopochan-Lightbringer", -- [5]
-				}, -- [1]
-				{
-					102.8250000000007, -- [1]
-					"Irontide Grenadier", -- [2]
-					257314, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Kaaraa-Silvermoon", -- [5]
-				}, -- [2]
-			},
-			[257402] = {
-				{
-					55.42900000000009, -- [1]
+					8.505000000001019, -- [1]
 					"Harlan Sweete", -- [2]
-					257402, -- [3]
+					257278, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
+				{
+					24.3080000000009, -- [1]
+					"Harlan Sweete", -- [2]
+					257278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					42.51699999999983, -- [1]
+					"Harlan Sweete", -- [2]
+					257278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
 			},
 		}, -- [39]
 		{
@@ -4872,35 +4872,25 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 			},
-			[256358] = {
+			[256405] = {
 				{
-					14.45300000000134, -- [1]
+					24.65199999999823, -- [1]
 					"Trothak", -- [2]
-					256358, -- [3]
+					256405, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Гюнзис-Галакронд", -- [5]
 				}, -- [1]
 				{
-					35.50300000000061, -- [1]
+					52.16200000000026, -- [1]
 					"Trothak", -- [2]
-					256358, -- [3]
+					256405, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Tampopochan-Lightbringer", -- [5]
 				}, -- [2]
 				{
-					70.3159999999989, -- [1]
+					80.09200000000055, -- [1]
 					"Trothak", -- [2]
-					256358, -- [3]
+					256405, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Kaaraa-Silvermoon", -- [5]
 				}, -- [3]
-				{
-					91.34899999999834, -- [1]
-					"Trothak", -- [2]
-					256358, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Ahrimyn-Magtheridon", -- [5]
-				}, -- [4]
 			},
 			[256552] = {
 				{
@@ -5460,25 +5450,35 @@ DetailsTimeLineDB = {
 					"Kaaraa-Silvermoon", -- [5]
 				}, -- [44]
 			},
-			[256405] = {
+			[256358] = {
 				{
-					24.65199999999823, -- [1]
+					14.45300000000134, -- [1]
 					"Trothak", -- [2]
-					256405, -- [3]
+					256358, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Гюнзис-Галакронд", -- [5]
 				}, -- [1]
 				{
-					52.16200000000026, -- [1]
+					35.50300000000061, -- [1]
 					"Trothak", -- [2]
-					256405, -- [3]
+					256358, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Tampopochan-Lightbringer", -- [5]
 				}, -- [2]
 				{
-					80.09200000000055, -- [1]
+					70.3159999999989, -- [1]
 					"Trothak", -- [2]
-					256405, -- [3]
+					256358, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Kaaraa-Silvermoon", -- [5]
 				}, -- [3]
+				{
+					91.34899999999834, -- [1]
+					"Trothak", -- [2]
+					256358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Ahrimyn-Magtheridon", -- [5]
+				}, -- [4]
 			},
 		}, -- [40]
 		{
@@ -5562,14 +5562,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-			[256589] = {
-				{
-					17.52700000000186, -- [1]
-					"Captain Raoul", -- [2]
-					256589, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[264608] = {
 				{
 					26.97600000000239, -- [1]
@@ -5597,6 +5589,14 @@ DetailsTimeLineDB = {
 					265168, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+			},
+			[256589] = {
+				{
+					17.52700000000186, -- [1]
+					"Captain Raoul", -- [2]
+					256589, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 		}, -- [41]
 		{
@@ -5817,11 +5817,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [42]
 		{
-			[267299] = {
+			[267311] = {
 				{
-					63.97399999999834, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267299, -- [3]
+					87.20000000000073, -- [1]
+					"Manifestation of the Deep", -- [2]
+					267311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -5841,19 +5841,25 @@ DetailsTimeLineDB = {
 					"Elbaja-Antonidas", -- [5]
 				}, -- [2]
 			},
-			[267548] = {
+			[267310] = {
 				{
-					24.4419999999991, -- [1]
-					"Unknown", -- [2]
-					267548, -- [3]
+					84.51699999999983, -- [1]
+					"Manifestation of the Deep", -- [2]
+					267310, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-			},
-			[267311] = {
 				{
-					87.20000000000073, -- [1]
+					87.45899999999892, -- [1]
 					"Manifestation of the Deep", -- [2]
-					267311, -- [3]
+					267310, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[267360] = {
+				{
+					24.42499999999927, -- [1]
+					"Vol'zith the Whisperer", -- [2]
+					267360, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -5969,25 +5975,19 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [16]
 			},
-			[267310] = {
+			[267548] = {
 				{
-					84.51699999999983, -- [1]
-					"Manifestation of the Deep", -- [2]
-					267310, -- [3]
+					24.4419999999991, -- [1]
+					"Unknown", -- [2]
+					267548, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-				{
-					87.45899999999892, -- [1]
-					"Manifestation of the Deep", -- [2]
-					267310, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
 			},
-			[267360] = {
+			[267299] = {
 				{
-					24.42499999999927, -- [1]
+					63.97399999999834, -- [1]
 					"Vol'zith the Whisperer", -- [2]
-					267360, -- [3]
+					267299, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -6124,14 +6124,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-			[267830] = {
-				{
-					23.73500000000058, -- [1]
-					"Galecaller Faye", -- [2]
-					267830, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[267818] = {
 				{
 					25.73600000000079, -- [1]
@@ -6145,6 +6137,14 @@ DetailsTimeLineDB = {
 					267818, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+			},
+			[267830] = {
+				{
+					23.73500000000058, -- [1]
+					"Galecaller Faye", -- [2]
+					267830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 		}, -- [45]
 		{
@@ -6219,6 +6219,29 @@ DetailsTimeLineDB = {
 					"Âlö-DunModr", -- [5]
 				}, -- [1]
 			},
+			[265366] = {
+				{
+					67.27600000000166, -- [1]
+					"Aqualing", -- [2]
+					265366, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xasy-Antonidas", -- [5]
+				}, -- [1]
+			},
+			[264101] = {
+				{
+					19.03299999999945, -- [1]
+					"Aqu'sirr", -- [2]
+					264101, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					61.97999999999956, -- [1]
+					"Aqualing", -- [2]
+					264101, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
 			[265001] = {
 				{
 					49.06899999999951, -- [1]
@@ -6241,29 +6264,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Rÿkah", -- [5]
 				}, -- [3]
-			},
-			[264101] = {
-				{
-					19.03299999999945, -- [1]
-					"Aqu'sirr", -- [2]
-					264101, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					61.97999999999956, -- [1]
-					"Aqualing", -- [2]
-					264101, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[265366] = {
-				{
-					67.27600000000166, -- [1]
-					"Aqualing", -- [2]
-					265366, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Xasy-Antonidas", -- [5]
-				}, -- [1]
 			},
 		}, -- [46]
 		{
@@ -6960,11 +6960,11 @@ DetailsTimeLineDB = {
 					"Rÿkah", -- [5]
 				}, -- [8]
 			},
-			[257348] = {
+			[257326] = {
 				{
-					23.40099999999802, -- [1]
+					27.8169999999991, -- [1]
 					"Chopper Redhook", -- [2]
-					257348, -- [3]
+					257326, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -6991,11 +6991,11 @@ DetailsTimeLineDB = {
 					"Xasy-Antonidas", -- [5]
 				}, -- [3]
 			},
-			[257326] = {
+			[257348] = {
 				{
-					27.8169999999991, -- [1]
+					23.40099999999802, -- [1]
 					"Chopper Redhook", -- [2]
-					257326, -- [3]
+					257348, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -7133,34 +7133,6 @@ DetailsTimeLineDB = {
 					"Trippin-Antonidas", -- [5]
 				}, -- [10]
 			},
-			[209443] = {
-				{
-					14.6299999999992, -- [1]
-					"Xavius", -- [2]
-					209443, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[207830] = {
-				{
-					28.22499999999945, -- [1]
-					"Corruption Horror", -- [2]
-					207830, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					28.22499999999945, -- [1]
-					"Corruption Horror", -- [2]
-					207830, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					28.22499999999945, -- [1]
-					"Corruption Horror", -- [2]
-					207830, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-			},
 			[224649] = {
 				{
 					19.55699999999979, -- [1]
@@ -7260,6 +7232,34 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Rÿkah", -- [5]
 				}, -- [14]
+			},
+			[207830] = {
+				{
+					28.22499999999945, -- [1]
+					"Corruption Horror", -- [2]
+					207830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					28.22499999999945, -- [1]
+					"Corruption Horror", -- [2]
+					207830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					28.22499999999945, -- [1]
+					"Corruption Horror", -- [2]
+					207830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[209443] = {
+				{
+					14.6299999999992, -- [1]
+					"Xavius", -- [2]
+					209443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 		}, -- [52]
 		{
@@ -7510,77 +7510,133 @@ DetailsTimeLineDB = {
 					"Hamona-Dalaran", -- [5]
 				}, -- [5]
 			},
-			[208929] = {
+			[223423] = {
 				{
-					87.03000000000065, -- [1]
-					"Corruptor Tentacle", -- [2]
-					208929, -- [3]
+					0.4840000000003784, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Aulek-Archimonde", -- [5]
 				}, -- [1]
 				{
-					87.03000000000065, -- [1]
-					"Corruptor Tentacle", -- [2]
-					208929, -- [3]
+					0.4840000000003784, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Альвица-ВечнаяПесня", -- [5]
 				}, -- [2]
 				{
-					92.14300000000003, -- [1]
-					"Corruptor Tentacle", -- [2]
-					208929, -- [3]
+					0.4840000000003784, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Hamona-Dalaran", -- [5]
 				}, -- [3]
 				{
-					92.14300000000003, -- [1]
-					"Corruptor Tentacle", -- [2]
-					208929, -- [3]
+					6.559000000000197, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Trippin-Antonidas", -- [5]
 				}, -- [4]
 				{
-					97.53999999999996, -- [1]
-					"Corruptor Tentacle", -- [2]
-					208929, -- [3]
+					7.769000000000233, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Rapemie-Hyjal", -- [5]
 				}, -- [5]
 				{
-					97.53999999999996, -- [1]
-					"Corruptor Tentacle", -- [2]
-					208929, -- [3]
+					7.769000000000233, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Rÿkah", -- [5]
 				}, -- [6]
 				{
-					103.0190000000002, -- [1]
-					"Corruptor Tentacle", -- [2]
-					208929, -- [3]
+					7.769000000000233, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Hamona-Dalaran", -- [5]
 				}, -- [7]
 				{
-					103.0190000000002, -- [1]
-					"Corruptor Tentacle", -- [2]
-					208929, -- [3]
+					11.4340000000002, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Rapemie-Hyjal", -- [5]
 				}, -- [8]
 				{
-					108.0349999999999, -- [1]
-					"Corruptor Tentacle", -- [2]
-					208929, -- [3]
+					11.4340000000002, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Альвица-ВечнаяПесня", -- [5]
 				}, -- [9]
 				{
-					108.0349999999999, -- [1]
-					"Corruptor Tentacle", -- [2]
-					208929, -- [3]
+					12.63100000000031, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Aulek-Archimonde", -- [5]
 				}, -- [10]
+				{
+					12.63100000000031, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					12.63100000000031, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					28.38700000000063, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					28.38700000000063, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					28.38700000000063, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					29.60500000000047, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					29.60500000000047, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					29.60500000000047, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					29.60500000000047, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					29.61999999999989, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					29.61999999999989, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
 			},
 			[209387] = {
 				{
@@ -7951,133 +8007,77 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [11]
 			},
-			[223423] = {
+			[208929] = {
 				{
-					0.4840000000003784, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
+					87.03000000000065, -- [1]
+					"Corruptor Tentacle", -- [2]
+					208929, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Aulek-Archimonde", -- [5]
 				}, -- [1]
 				{
-					0.4840000000003784, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
+					87.03000000000065, -- [1]
+					"Corruptor Tentacle", -- [2]
+					208929, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Альвица-ВечнаяПесня", -- [5]
 				}, -- [2]
 				{
-					0.4840000000003784, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
+					92.14300000000003, -- [1]
+					"Corruptor Tentacle", -- [2]
+					208929, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Hamona-Dalaran", -- [5]
 				}, -- [3]
 				{
-					6.559000000000197, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
+					92.14300000000003, -- [1]
+					"Corruptor Tentacle", -- [2]
+					208929, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Trippin-Antonidas", -- [5]
 				}, -- [4]
 				{
-					7.769000000000233, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
+					97.53999999999996, -- [1]
+					"Corruptor Tentacle", -- [2]
+					208929, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Rapemie-Hyjal", -- [5]
 				}, -- [5]
 				{
-					7.769000000000233, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
+					97.53999999999996, -- [1]
+					"Corruptor Tentacle", -- [2]
+					208929, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Rÿkah", -- [5]
 				}, -- [6]
 				{
-					7.769000000000233, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
+					103.0190000000002, -- [1]
+					"Corruptor Tentacle", -- [2]
+					208929, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Hamona-Dalaran", -- [5]
 				}, -- [7]
 				{
-					11.4340000000002, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
+					103.0190000000002, -- [1]
+					"Corruptor Tentacle", -- [2]
+					208929, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Rapemie-Hyjal", -- [5]
 				}, -- [8]
 				{
-					11.4340000000002, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
+					108.0349999999999, -- [1]
+					"Corruptor Tentacle", -- [2]
+					208929, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Альвица-ВечнаяПесня", -- [5]
 				}, -- [9]
 				{
-					12.63100000000031, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
+					108.0349999999999, -- [1]
+					"Corruptor Tentacle", -- [2]
+					208929, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Aulek-Archimonde", -- [5]
 				}, -- [10]
-				{
-					12.63100000000031, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					12.63100000000031, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					28.38700000000063, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
-				{
-					28.38700000000063, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [14]
-				{
-					28.38700000000063, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [15]
-				{
-					29.60500000000047, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
-				{
-					29.60500000000047, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [17]
-				{
-					29.60500000000047, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [18]
-				{
-					29.60500000000047, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [19]
-				{
-					29.61999999999989, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [20]
-				{
-					29.61999999999989, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [21]
 			},
 		}, -- [54]
 		{
@@ -8102,56 +8102,6 @@ DetailsTimeLineDB = {
 					215443, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-			},
-			[223423] = {
-				{
-					34.88599999999951, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					34.88599999999951, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					34.88599999999951, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					34.88599999999951, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					34.88599999999951, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					34.88599999999951, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					34.88599999999951, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					34.88599999999951, -- [1]
-					"Tainted Bloodpetal", -- [2]
-					223423, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
 			},
 			[214348] = {
 				{
@@ -8336,6 +8286,56 @@ DetailsTimeLineDB = {
 					213123, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [29]
+			},
+			[223423] = {
+				{
+					34.88599999999951, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					34.88599999999951, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					34.88599999999951, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					34.88599999999951, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					34.88599999999951, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					34.88599999999951, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					34.88599999999951, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					34.88599999999951, -- [1]
+					"Tainted Bloodpetal", -- [2]
+					223423, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
 			},
 		}, -- [55]
 		{
@@ -8541,33 +8541,25 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [8]
 			},
-			[204767] = {
+			[214497] = {
 				{
-					53.0600000000004, -- [1]
-					"Shade of Taerar", -- [2]
-					204767, -- [3]
+					7.40900000000056, -- [1]
+					"Diseased Rift", -- [2]
+					214497, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					53.0600000000004, -- [1]
-					"Shade of Taerar", -- [2]
-					204767, -- [3]
+					19.52400000000034, -- [1]
+					"Nightmare Rift", -- [2]
+					214497, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-			},
-			[203827] = {
 				{
-					42.42900000000009, -- [1]
-					"Corrupted Mushroom", -- [2]
-					203827, -- [3]
+					59.5560000000005, -- [1]
+					"Shadowy Rift", -- [2]
+					214497, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					42.42900000000009, -- [1]
-					"Corrupted Mushroom", -- [2]
-					203827, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
+				}, -- [3]
 			},
 			[203028] = {
 				{
@@ -8597,25 +8589,33 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[214497] = {
+			[203827] = {
 				{
-					7.40900000000056, -- [1]
-					"Diseased Rift", -- [2]
-					214497, -- [3]
+					42.42900000000009, -- [1]
+					"Corrupted Mushroom", -- [2]
+					203827, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					19.52400000000034, -- [1]
-					"Nightmare Rift", -- [2]
-					214497, -- [3]
+					42.42900000000009, -- [1]
+					"Corrupted Mushroom", -- [2]
+					203827, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+			},
+			[204767] = {
 				{
-					59.5560000000005, -- [1]
-					"Shadowy Rift", -- [2]
-					214497, -- [3]
+					53.0600000000004, -- [1]
+					"Shade of Taerar", -- [2]
+					204767, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
+				}, -- [1]
+				{
+					53.0600000000004, -- [1]
+					"Shade of Taerar", -- [2]
+					204767, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
 			},
 		}, -- [56]
 		{
@@ -8747,19 +8747,19 @@ DetailsTimeLineDB = {
 					"Rÿkah", -- [5]
 				}, -- [1]
 			},
-			[212258] = {
-				{
-					16.75999999999976, -- [1]
-					"Gul'dan", -- [2]
-					212258, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[211439] = {
 				{
 					94.88099999999986, -- [1]
 					"The Demon Within", -- [2]
 					211439, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[212258] = {
+				{
+					16.75999999999976, -- [1]
+					"Gul'dan", -- [2]
+					212258, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -9086,14 +9086,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[213238] = {
-				{
-					27.32900000000018, -- [1]
-					"Tichondrius", -- [2]
-					213238, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[208230] = {
 				{
 					20.02300000000014, -- [1]
@@ -9101,6 +9093,14 @@ DetailsTimeLineDB = {
 					208230, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Rÿkah", -- [5]
+				}, -- [1]
+			},
+			[213238] = {
+				{
+					27.32900000000018, -- [1]
+					"Tichondrius", -- [2]
+					213238, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
 		}, -- [62]
@@ -9537,14 +9537,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[206557] = {
-				{
-					21.16600000000017, -- [1]
-					"Trilliax", -- [2]
-					206557, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[206641] = {
 				{
 					9.804000000000087, -- [1]
@@ -9560,6 +9552,14 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Rÿkah", -- [5]
 				}, -- [2]
+			},
+			[206557] = {
+				{
+					21.16600000000017, -- [1]
+					"Trilliax", -- [2]
+					206557, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 		}, -- [66]
 		{
@@ -9642,420 +9642,13 @@ DetailsTimeLineDB = {
 		}, -- [68]
 	},
 	["useicons"] = true,
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-			["Wolfing-Minahonda"] = {
-				{
-					71.8109999999997, -- [1]
-					"Tankertorben", -- [2]
-					102342, -- [3]
-				}, -- [1]
-				{
-					87.58100000000013, -- [1]
-					"Wolfing-Minahonda", -- [2]
-					22812, -- [3]
-				}, -- [2]
-			},
-			["Enomed-Darkspear"] = {
-				{
-					18.65900000000147, -- [1]
-					"Enomed-Darkspear", -- [2]
-					198589, -- [3]
-				}, -- [1]
-				{
-					78.65600000000086, -- [1]
-					"Enomed-Darkspear", -- [2]
-					198589, -- [3]
-				}, -- [2]
-				{
-					139.8629999999994, -- [1]
-					"Enomed-Darkspear", -- [2]
-					198589, -- [3]
-				}, -- [3]
-			},
-			["Tankertorben"] = {
-				{
-					19.5580000000009, -- [1]
-					"Tankertorben", -- [2]
-					48792, -- [3]
-				}, -- [1]
-				{
-					59.17100000000028, -- [1]
-					"Tankertorben", -- [2]
-					48707, -- [3]
-				}, -- [2]
-				{
-					69.77299999999923, -- [1]
-					"Tankertorben", -- [2]
-					55233, -- [3]
-				}, -- [3]
-				{
-					119.1900000000005, -- [1]
-					"Tankertorben", -- [2]
-					48707, -- [3]
-				}, -- [4]
-			},
-			["Rÿkah"] = {
-				{
-					41.09699999999975, -- [1]
-					"Rÿkah", -- [2]
-					55233, -- [3]
-				}, -- [1]
-				{
-					52.09399999999914, -- [1]
-					"Rÿkah", -- [2]
-					48792, -- [3]
-				}, -- [2]
-				{
-					73.61599999999999, -- [1]
-					"Rÿkah", -- [2]
-					48707, -- [3]
-				}, -- [3]
-				{
-					96.91399999999885, -- [1]
-					"Rÿkah", -- [2]
-					55233, -- [3]
-				}, -- [4]
-				{
-					160.3570000000018, -- [1]
-					"Rÿkah", -- [2]
-					48707, -- [3]
-				}, -- [5]
-				{
-					170.1689999999999, -- [1]
-					"Rÿkah", -- [2]
-					55233, -- [3]
-				}, -- [6]
-			},
-			["Alethebul-Darkspear"] = {
-				{
-					119.6990000000023, -- [1]
-					"Horrific Hemorrhage", -- [2]
-					122470, -- [3]
-				}, -- [1]
-				{
-					134.639000000001, -- [1]
-					"Alethebul-Darkspear", -- [2]
-					243435, -- [3]
-				}, -- [2]
-				{
-					134.9410000000007, -- [1]
-					"Alethebul-Darkspear", -- [2]
-					122783, -- [3]
-				}, -- [3]
-			},
-			["Stassie-Silvermoon"] = {
-				{
-					17.54600000000028, -- [1]
-					"Stassie-Silvermoon", -- [2]
-					633, -- [3]
-				}, -- [1]
-			},
-			["Slyxhmsterez-Sylvanas"] = {
-				{
-					128.9400000000005, -- [1]
-					"Slyxhmsterez-Sylvanas", -- [2]
-					5277, -- [3]
-				}, -- [1]
-			},
-			["Ellunelf-Silvermoon"] = {
-				{
-					72.40900000000147, -- [1]
-					"Tankertorben", -- [2]
-					47788, -- [3]
-				}, -- [1]
-				{
-					86.43399999999929, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [2]
-				{
-					88.04900000000089, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [3]
-				{
-					89.67100000000028, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [4]
-				{
-					91.3010000000013, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [5]
-				{
-					92.91300000000228, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [6]
-			},
-		}, -- [2]
-		{
-			["Wolfing-Minahonda"] = {
-				{
-					13.51200000000063, -- [1]
-					"Tankertorben", -- [2]
-					102342, -- [3]
-				}, -- [1]
-				{
-					37.20499999999993, -- [1]
-					"Wolfing-Minahonda", -- [2]
-					22812, -- [3]
-				}, -- [2]
-			},
-			["Enomed-Darkspear"] = {
-				{
-					42.67499999999927, -- [1]
-					"Enomed-Darkspear", -- [2]
-					198589, -- [3]
-				}, -- [1]
-				{
-					43.19599999999991, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					196718, -- [3]
-				}, -- [2]
-			},
-			["Tankertorben"] = {
-				{
-					55.04999999999927, -- [1]
-					"Tankertorben", -- [2]
-					48707, -- [3]
-				}, -- [1]
-				{
-					55.38500000000022, -- [1]
-					"Tankertorben", -- [2]
-					48792, -- [3]
-				}, -- [2]
-			},
-			["Rÿkah"] = {
-				{
-					48.90699999999924, -- [1]
-					"Rÿkah", -- [2]
-					55233, -- [3]
-				}, -- [1]
-				{
-					57.1299999999992, -- [1]
-					"Rÿkah", -- [2]
-					48707, -- [3]
-				}, -- [2]
-			},
-			["Bulseye-Kilrogg"] = {
-				{
-					74.5669999999991, -- [1]
-					"Bulseye-Kilrogg", -- [2]
-					109304, -- [3]
-				}, -- [1]
-			},
-			["Vürless-DunModr"] = {
-				{
-					70.11000000000058, -- [1]
-					"Vürless-DunModr", -- [2]
-					104773, -- [3]
-				}, -- [1]
-			},
-			["Ellunelf-Silvermoon"] = {
-				{
-					67.89699999999903, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [1]
-				{
-					69.46199999999953, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [2]
-				{
-					71.02399999999943, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [3]
-				{
-					72.60399999999936, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [4]
-				{
-					74.20399999999972, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [5]
-			},
-		}, -- [3]
-		{
-			["Ellunelf-Silvermoon"] = {
-				{
-					112.8029999999999, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [1]
-				{
-					114.2980000000007, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [2]
-				{
-					115.7970000000005, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [3]
-				{
-					117.3040000000001, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [4]
-				{
-					118.7920000000013, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64844, -- [3]
-				}, -- [5]
-				{
-					190.2250000000004, -- [1]
-					"Ellunelf-Silvermoon", -- [2]
-					47788, -- [3]
-				}, -- [6]
-				{
-					233.2610000000004, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					265202, -- [3]
-				}, -- [7]
-			},
-			["Tankertorben"] = {
-				{
-					28.11700000000019, -- [1]
-					"Tankertorben", -- [2]
-					55233, -- [3]
-				}, -- [1]
-				{
-					114.3999999999996, -- [1]
-					"Tankertorben", -- [2]
-					48792, -- [3]
-				}, -- [2]
-				{
-					116.7620000000006, -- [1]
-					"Tankertorben", -- [2]
-					48707, -- [3]
-				}, -- [3]
-			},
-			["Stassie-Silvermoon"] = {
-				{
-					2.399000000001252, -- [1]
-					"Stassie-Silvermoon", -- [2]
-					184662, -- [3]
-				}, -- [1]
-				{
-					51.42000000000007, -- [1]
-					"Stassie-Silvermoon", -- [2]
-					633, -- [3]
-				}, -- [2]
-				{
-					212.889000000001, -- [1]
-					"Stassie-Silvermoon", -- [2]
-					184662, -- [3]
-				}, -- [3]
-			},
-			["Bulseye-Kilrogg"] = {
-				{
-					153.384, -- [1]
-					"Bulseye-Kilrogg", -- [2]
-					109304, -- [3]
-				}, -- [1]
-			},
-			["Enomed-Darkspear"] = {
-				{
-					83.9359999999997, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					196718, -- [3]
-				}, -- [1]
-				{
-					109.6640000000007, -- [1]
-					"Enomed-Darkspear", -- [2]
-					198589, -- [3]
-				}, -- [2]
-			},
-			["Slyxhmsterez-Sylvanas"] = {
-				{
-					48.81500000000051, -- [1]
-					"Slyxhmsterez-Sylvanas", -- [2]
-					31224, -- [3]
-				}, -- [1]
-				{
-					74.81999999999971, -- [1]
-					"Slyxhmsterez-Sylvanas", -- [2]
-					1856, -- [3]
-				}, -- [2]
-			},
-			["Rÿkah"] = {
-				{
-					97.0580000000009, -- [1]
-					"Rÿkah", -- [2]
-					55233, -- [3]
-				}, -- [1]
-				{
-					113.7520000000004, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					51052, -- [3]
-				}, -- [2]
-				{
-					232.8580000000002, -- [1]
-					"Rÿkah", -- [2]
-					55233, -- [3]
-				}, -- [3]
-				{
-					234.6700000000001, -- [1]
-					"Rÿkah", -- [2]
-					48707, -- [3]
-				}, -- [4]
-			},
-			["Alethebul-Darkspear"] = {
-				{
-					46.43000000000029, -- [1]
-					"Wrathion", -- [2]
-					122470, -- [3]
-				}, -- [1]
-				{
-					230.8829999999998, -- [1]
-					"Wrathion", -- [2]
-					122470, -- [3]
-				}, -- [2]
-			},
-			["Wolfing-Minahonda"] = {
-				{
-					31.3130000000001, -- [1]
-					"Rÿkah", -- [2]
-					102342, -- [3]
-				}, -- [1]
-				{
-					42.66899999999987, -- [1]
-					"Wolfing-Minahonda", -- [2]
-					22812, -- [3]
-				}, -- [2]
-				{
-					113.1409999999996, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					740, -- [3]
-				}, -- [3]
-				{
-					215.5210000000006, -- [1]
-					"Tankertorben", -- [2]
-					102342, -- [3]
-				}, -- [4]
-				{
-					227.973, -- [1]
-					"Wolfing-Minahonda", -- [2]
-					22812, -- [3]
-				}, -- [5]
-			},
-		}, -- [4]
-	},
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 			["Wolfing-Minahonda"] = {
@@ -10101,49 +9694,6 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
-			["Slyxhmsterez-Sylvanas"] = {
-				{
-					["time"] = 15.95100000000093,
-					["events"] = {
-						{
-							true, -- [1]
-							307012, -- [2]
-							551, -- [3]
-							1606004206.307, -- [4]
-							504, -- [5]
-							"Gaze of Madness", -- [6]
-							nil, -- [7]
-							32, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							307012, -- [2]
-							601, -- [3]
-							1606004207.317, -- [4]
-							332, -- [5]
-							"Gaze of Madness", -- [6]
-							nil, -- [7]
-							32, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-							true, -- [1]
-							316307, -- [2]
-							2244, -- [3]
-							1606004208.835, -- [4]
-							1, -- [5]
-							"Gaze of Madness", -- [6]
-							nil, -- [7]
-							32, -- [8]
-							false, -- [9]
-							1054, -- [10]
-						}, -- [3]
-					},
-				}, -- [1]
-			},
 			["Vürless-DunModr"] = {
 				{
 					["time"] = 5.75,
@@ -10183,6 +9733,49 @@ DetailsTimeLineDB = {
 							1, -- [8]
 							false, -- [9]
 							4250, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				{
+					["time"] = 15.95100000000093,
+					["events"] = {
+						{
+							true, -- [1]
+							307012, -- [2]
+							551, -- [3]
+							1606004206.307, -- [4]
+							504, -- [5]
+							"Gaze of Madness", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							307012, -- [2]
+							601, -- [3]
+							1606004207.317, -- [4]
+							332, -- [5]
+							"Gaze of Madness", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							316307, -- [2]
+							2244, -- [3]
+							1606004208.835, -- [4]
+							1, -- [5]
+							"Gaze of Madness", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							1054, -- [10]
 						}, -- [3]
 					},
 				}, -- [1]
@@ -11617,17 +11210,17 @@ DetailsTimeLineDB = {
 					["source"] = "Fury of N'Zoth",
 					["active"] = false,
 				},
-				[315954] = {
-					185.6590000000015, -- [1]
-					185.6590000000015, -- [2]
+				[306973] = {
+					124.6780000000017, -- [1]
+					136.6930000000011, -- [2]
 					["stacks"] = {
 					},
 					["source"] = "Fury of N'Zoth",
 					["active"] = false,
 				},
-				[306973] = {
-					124.6780000000017, -- [1]
-					136.6930000000011, -- [2]
+				[315954] = {
+					185.6590000000015, -- [1]
+					185.6590000000015, -- [2]
 					["stacks"] = {
 					},
 					["source"] = "Fury of N'Zoth",
@@ -12427,25 +12020,416 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
+	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+			["Wolfing-Minahonda"] = {
+				{
+					71.8109999999997, -- [1]
+					"Tankertorben", -- [2]
+					102342, -- [3]
+				}, -- [1]
+				{
+					87.58100000000013, -- [1]
+					"Wolfing-Minahonda", -- [2]
+					22812, -- [3]
+				}, -- [2]
+			},
+			["Enomed-Darkspear"] = {
+				{
+					18.65900000000147, -- [1]
+					"Enomed-Darkspear", -- [2]
+					198589, -- [3]
+				}, -- [1]
+				{
+					78.65600000000086, -- [1]
+					"Enomed-Darkspear", -- [2]
+					198589, -- [3]
+				}, -- [2]
+				{
+					139.8629999999994, -- [1]
+					"Enomed-Darkspear", -- [2]
+					198589, -- [3]
+				}, -- [3]
+			},
+			["Tankertorben"] = {
+				{
+					19.5580000000009, -- [1]
+					"Tankertorben", -- [2]
+					48792, -- [3]
+				}, -- [1]
+				{
+					59.17100000000028, -- [1]
+					"Tankertorben", -- [2]
+					48707, -- [3]
+				}, -- [2]
+				{
+					69.77299999999923, -- [1]
+					"Tankertorben", -- [2]
+					55233, -- [3]
+				}, -- [3]
+				{
+					119.1900000000005, -- [1]
+					"Tankertorben", -- [2]
+					48707, -- [3]
+				}, -- [4]
+			},
+			["Rÿkah"] = {
+				{
+					41.09699999999975, -- [1]
+					"Rÿkah", -- [2]
+					55233, -- [3]
+				}, -- [1]
+				{
+					52.09399999999914, -- [1]
+					"Rÿkah", -- [2]
+					48792, -- [3]
+				}, -- [2]
+				{
+					73.61599999999999, -- [1]
+					"Rÿkah", -- [2]
+					48707, -- [3]
+				}, -- [3]
+				{
+					96.91399999999885, -- [1]
+					"Rÿkah", -- [2]
+					55233, -- [3]
+				}, -- [4]
+				{
+					160.3570000000018, -- [1]
+					"Rÿkah", -- [2]
+					48707, -- [3]
+				}, -- [5]
+				{
+					170.1689999999999, -- [1]
+					"Rÿkah", -- [2]
+					55233, -- [3]
+				}, -- [6]
+			},
+			["Alethebul-Darkspear"] = {
+				{
+					119.6990000000023, -- [1]
+					"Horrific Hemorrhage", -- [2]
+					122470, -- [3]
+				}, -- [1]
+				{
+					134.639000000001, -- [1]
+					"Alethebul-Darkspear", -- [2]
+					243435, -- [3]
+				}, -- [2]
+				{
+					134.9410000000007, -- [1]
+					"Alethebul-Darkspear", -- [2]
+					122783, -- [3]
+				}, -- [3]
+			},
+			["Stassie-Silvermoon"] = {
+				{
+					17.54600000000028, -- [1]
+					"Stassie-Silvermoon", -- [2]
+					633, -- [3]
+				}, -- [1]
+			},
+			["Ellunelf-Silvermoon"] = {
+				{
+					72.40900000000147, -- [1]
+					"Tankertorben", -- [2]
+					47788, -- [3]
+				}, -- [1]
+				{
+					86.43399999999929, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [2]
+				{
+					88.04900000000089, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [3]
+				{
+					89.67100000000028, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [4]
+				{
+					91.3010000000013, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [5]
+				{
+					92.91300000000228, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [6]
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				{
+					128.9400000000005, -- [1]
+					"Slyxhmsterez-Sylvanas", -- [2]
+					5277, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["Wolfing-Minahonda"] = {
+				{
+					13.51200000000063, -- [1]
+					"Tankertorben", -- [2]
+					102342, -- [3]
+				}, -- [1]
+				{
+					37.20499999999993, -- [1]
+					"Wolfing-Minahonda", -- [2]
+					22812, -- [3]
+				}, -- [2]
+			},
+			["Enomed-Darkspear"] = {
+				{
+					42.67499999999927, -- [1]
+					"Enomed-Darkspear", -- [2]
+					198589, -- [3]
+				}, -- [1]
+				{
+					43.19599999999991, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					196718, -- [3]
+				}, -- [2]
+			},
+			["Tankertorben"] = {
+				{
+					55.04999999999927, -- [1]
+					"Tankertorben", -- [2]
+					48707, -- [3]
+				}, -- [1]
+				{
+					55.38500000000022, -- [1]
+					"Tankertorben", -- [2]
+					48792, -- [3]
+				}, -- [2]
+			},
+			["Rÿkah"] = {
+				{
+					48.90699999999924, -- [1]
+					"Rÿkah", -- [2]
+					55233, -- [3]
+				}, -- [1]
+				{
+					57.1299999999992, -- [1]
+					"Rÿkah", -- [2]
+					48707, -- [3]
+				}, -- [2]
+			},
+			["Ellunelf-Silvermoon"] = {
+				{
+					67.89699999999903, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [1]
+				{
+					69.46199999999953, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [2]
+				{
+					71.02399999999943, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [3]
+				{
+					72.60399999999936, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [4]
+				{
+					74.20399999999972, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [5]
+			},
+			["Vürless-DunModr"] = {
+				{
+					70.11000000000058, -- [1]
+					"Vürless-DunModr", -- [2]
+					104773, -- [3]
+				}, -- [1]
+			},
+			["Bulseye-Kilrogg"] = {
+				{
+					74.5669999999991, -- [1]
+					"Bulseye-Kilrogg", -- [2]
+					109304, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Ellunelf-Silvermoon"] = {
+				{
+					112.8029999999999, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [1]
+				{
+					114.2980000000007, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [2]
+				{
+					115.7970000000005, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [3]
+				{
+					117.3040000000001, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [4]
+				{
+					118.7920000000013, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64844, -- [3]
+				}, -- [5]
+				{
+					190.2250000000004, -- [1]
+					"Ellunelf-Silvermoon", -- [2]
+					47788, -- [3]
+				}, -- [6]
+				{
+					233.2610000000004, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					265202, -- [3]
+				}, -- [7]
+			},
+			["Tankertorben"] = {
+				{
+					28.11700000000019, -- [1]
+					"Tankertorben", -- [2]
+					55233, -- [3]
+				}, -- [1]
+				{
+					114.3999999999996, -- [1]
+					"Tankertorben", -- [2]
+					48792, -- [3]
+				}, -- [2]
+				{
+					116.7620000000006, -- [1]
+					"Tankertorben", -- [2]
+					48707, -- [3]
+				}, -- [3]
+			},
+			["Stassie-Silvermoon"] = {
+				{
+					2.399000000001252, -- [1]
+					"Stassie-Silvermoon", -- [2]
+					184662, -- [3]
+				}, -- [1]
+				{
+					51.42000000000007, -- [1]
+					"Stassie-Silvermoon", -- [2]
+					633, -- [3]
+				}, -- [2]
+				{
+					212.889000000001, -- [1]
+					"Stassie-Silvermoon", -- [2]
+					184662, -- [3]
+				}, -- [3]
+			},
+			["Bulseye-Kilrogg"] = {
+				{
+					153.384, -- [1]
+					"Bulseye-Kilrogg", -- [2]
+					109304, -- [3]
+				}, -- [1]
+			},
+			["Enomed-Darkspear"] = {
+				{
+					83.9359999999997, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					196718, -- [3]
+				}, -- [1]
+				{
+					109.6640000000007, -- [1]
+					"Enomed-Darkspear", -- [2]
+					198589, -- [3]
+				}, -- [2]
+			},
+			["Slyxhmsterez-Sylvanas"] = {
+				{
+					48.81500000000051, -- [1]
+					"Slyxhmsterez-Sylvanas", -- [2]
+					31224, -- [3]
+				}, -- [1]
+				{
+					74.81999999999971, -- [1]
+					"Slyxhmsterez-Sylvanas", -- [2]
+					1856, -- [3]
+				}, -- [2]
+			},
+			["Rÿkah"] = {
+				{
+					97.0580000000009, -- [1]
+					"Rÿkah", -- [2]
+					55233, -- [3]
+				}, -- [1]
+				{
+					113.7520000000004, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					51052, -- [3]
+				}, -- [2]
+				{
+					232.8580000000002, -- [1]
+					"Rÿkah", -- [2]
+					55233, -- [3]
+				}, -- [3]
+				{
+					234.6700000000001, -- [1]
+					"Rÿkah", -- [2]
+					48707, -- [3]
+				}, -- [4]
+			},
+			["Alethebul-Darkspear"] = {
+				{
+					46.43000000000029, -- [1]
+					"Wrathion", -- [2]
+					122470, -- [3]
+				}, -- [1]
+				{
+					230.8829999999998, -- [1]
+					"Wrathion", -- [2]
+					122470, -- [3]
+				}, -- [2]
+			},
+			["Wolfing-Minahonda"] = {
+				{
+					31.3130000000001, -- [1]
+					"Rÿkah", -- [2]
+					102342, -- [3]
+				}, -- [1]
+				{
+					42.66899999999987, -- [1]
+					"Wolfing-Minahonda", -- [2]
+					22812, -- [3]
+				}, -- [2]
+				{
+					113.1409999999996, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					740, -- [3]
+				}, -- [3]
+				{
+					215.5210000000006, -- [1]
+					"Tankertorben", -- [2]
+					102342, -- [3]
+				}, -- [4]
+				{
+					227.973, -- [1]
+					"Wolfing-Minahonda", -- [2]
+					22812, -- [3]
+				}, -- [5]
+			},
+		}, -- [4]
+	},
 	["BossSpellCast"] = {
 		{
-			["Wrathion"] = {
-				{
-					19.91800000000148, -- [1]
-					"Wrathion", -- [2]
-					311980, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			["Gaze of Madness"] = {
-				{
-					3.43500000000131, -- [1]
-					"Gaze of Madness", -- [2]
-					307008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			["Fury of N'Zoth"] = {
 				{
 					1.470000000001164, -- [1]
@@ -12480,51 +12464,24 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 			},
-		}, -- [1]
-		{
-			["Wrathion"] = {
-				{
-					194.8520000000008, -- [1]
-					"Wrathion", -- [2]
-					311980, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					197.0059999999994, -- [1]
-					"Wrathion", -- [2]
-					311980, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			["Nightmare Antigen"] = {
-				{
-					94.6780000000017, -- [1]
-					"Nightmare Antigen", -- [2]
-					224729, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bulseye-Kilrogg", -- [5]
-				}, -- [1]
-			},
 			["Gaze of Madness"] = {
 				{
-					19.52200000000084, -- [1]
+					3.43500000000131, -- [1]
 					"Gaze of Madness", -- [2]
 					307008, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-				{
-					75.8040000000019, -- [1]
-					"Gaze of Madness", -- [2]
-					307008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					137.376000000002, -- [1]
-					"Gaze of Madness", -- [2]
-					307008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
 			},
+			["Wrathion"] = {
+				{
+					19.91800000000148, -- [1]
+					"Wrathion", -- [2]
+					311980, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
 			["Fury of N'Zoth"] = {
 				{
 					4.645000000000437, -- [1]
@@ -12787,53 +12744,51 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [41]
 			},
-		}, -- [2]
-		{
+			["Nightmare Antigen"] = {
+				{
+					94.6780000000017, -- [1]
+					"Nightmare Antigen", -- [2]
+					224729, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bulseye-Kilrogg", -- [5]
+				}, -- [1]
+			},
+			["Gaze of Madness"] = {
+				{
+					19.52200000000084, -- [1]
+					"Gaze of Madness", -- [2]
+					307008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					75.8040000000019, -- [1]
+					"Gaze of Madness", -- [2]
+					307008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					137.376000000002, -- [1]
+					"Gaze of Madness", -- [2]
+					307008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
 			["Wrathion"] = {
 				{
-					96.94900000000052, -- [1]
+					194.8520000000008, -- [1]
 					"Wrathion", -- [2]
 					311980, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-			},
-			["Nightmare Antigen"] = {
 				{
-					73.61499999999978, -- [1]
-					"Nightmare Antigen", -- [2]
-					224729, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Alethebul-Darkspear", -- [5]
-				}, -- [1]
-				{
-					73.61499999999978, -- [1]
-					"Nightmare Antigen", -- [2]
-					224729, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bulseye-Kilrogg", -- [5]
-				}, -- [2]
-				{
-					73.61499999999978, -- [1]
-					"Nightmare Antigen", -- [2]
-					224729, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bulseye-Kilrogg", -- [5]
-				}, -- [3]
-			},
-			["Gaze of Madness"] = {
-				{
-					17.95800000000054, -- [1]
-					"Gaze of Madness", -- [2]
-					307008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					75.86000000000058, -- [1]
-					"Gaze of Madness", -- [2]
-					307008, -- [3]
+					197.0059999999994, -- [1]
+					"Wrathion", -- [2]
+					311980, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
+		}, -- [2]
+		{
 			["Fury of N'Zoth"] = {
 				{
 					4.479999999999563, -- [1]
@@ -12950,49 +12905,53 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [18]
 			},
-		}, -- [3]
-		{
-			["Crackling Shard"] = {
+			["Nightmare Antigen"] = {
 				{
-					207.1900000000005, -- [1]
-					"Crackling Shard", -- [2]
-					307017, -- [3]
+					73.61499999999978, -- [1]
+					"Nightmare Antigen", -- [2]
+					224729, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			["Ashwalker Assassin"] = {
-				{
-					171.6980000000003, -- [1]
-					"Ashwalker Assassin", -- [2]
-					312266, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
+					"Alethebul-Darkspear", -- [5]
 				}, -- [1]
 				{
-					172.5120000000006, -- [1]
-					"Ashwalker Assassin", -- [2]
-					312266, -- [3]
+					73.61499999999978, -- [1]
+					"Nightmare Antigen", -- [2]
+					224729, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bulseye-Kilrogg", -- [5]
 				}, -- [2]
 				{
-					172.9200000000001, -- [1]
-					"Ashwalker Assassin", -- [2]
-					312266, -- [3]
+					73.61499999999978, -- [1]
+					"Nightmare Antigen", -- [2]
+					224729, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bulseye-Kilrogg", -- [5]
 				}, -- [3]
-				{
-					172.9200000000001, -- [1]
-					"Ashwalker Assassin", -- [2]
-					312266, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					187.5450000000001, -- [1]
-					"Ashwalker Assassin", -- [2]
-					314373, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Ellunelf-Silvermoon", -- [5]
-				}, -- [5]
 			},
+			["Gaze of Madness"] = {
+				{
+					17.95800000000054, -- [1]
+					"Gaze of Madness", -- [2]
+					307008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					75.86000000000058, -- [1]
+					"Gaze of Madness", -- [2]
+					307008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			["Wrathion"] = {
+				{
+					96.94900000000052, -- [1]
+					"Wrathion", -- [2]
+					311980, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
 			["Wrathion"] = {
 				{
 					8.586999999999534, -- [1]
@@ -13156,6 +13115,47 @@ DetailsTimeLineDB = {
 					306111, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [25]
+			},
+			["Ashwalker Assassin"] = {
+				{
+					171.6980000000003, -- [1]
+					"Ashwalker Assassin", -- [2]
+					312266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					172.5120000000006, -- [1]
+					"Ashwalker Assassin", -- [2]
+					312266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					172.9200000000001, -- [1]
+					"Ashwalker Assassin", -- [2]
+					312266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					172.9200000000001, -- [1]
+					"Ashwalker Assassin", -- [2]
+					312266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					187.5450000000001, -- [1]
+					"Ashwalker Assassin", -- [2]
+					314373, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Ellunelf-Silvermoon", -- [5]
+				}, -- [5]
+			},
+			["Crackling Shard"] = {
+				{
+					207.1900000000005, -- [1]
+					"Crackling Shard", -- [2]
+					307017, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 		}, -- [4]
 	},

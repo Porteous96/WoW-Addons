@@ -2,12 +2,12 @@
 DataStoreDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
-		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
+		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
@@ -32,7 +32,7 @@ DataStoreDB = {
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 	},
 	["global"] = {
 		["Guilds"] = {
@@ -70,11 +70,10 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Kivis Hörna",
 			},
-			["Default.Frostmane.Rÿkah"] = {
-				["guildName"] = "Velvet",
+			["Default.Frostmane.Rykahshaman"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Frostmane.Blissard"] = {
+			["Default.Defias Brotherhood.Mechaboost"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Doomhammer.Rykahpo"] = {
@@ -88,7 +87,8 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Velvet",
 			},
-			["Default.Frostmane.Rykahshaman"] = {
+			["Default.Frostmane.Rÿkah"] = {
+				["guildName"] = "Velvet",
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Bankypo"] = {
@@ -107,7 +107,6 @@ DataStoreDB = {
 			},
 			["Default.Frostmane.Rykahhpo"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Velvet",
 			},
 			["Default.Sylvanas.Mechaboost"] = {
 				["faction"] = "Alliance",
@@ -116,7 +115,7 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Velvet",
 			},
-			["Default.Defias Brotherhood.Mechaboost"] = {
+			["Default.Frostmane.Blissard"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Frostmane.Rykahpriest"] = {
@@ -125,10 +124,10 @@ DataStoreDB = {
 			["Default.Frostmane.Advboi"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Frostmane.Rykahthree"] = {
+			["Default.Frostmane.Rykahpow"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Frostmane.Rykahpow"] = {
+			["Default.Frostmane.Rykahthree"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Silvermoon.Mechaboost"] = {

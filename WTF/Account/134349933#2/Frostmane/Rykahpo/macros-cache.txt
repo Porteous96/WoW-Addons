@@ -2,6 +2,7 @@ VER 3 0100000000000025 "Arcane Power" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Arcane Power
 /use 13
+/use 14
 END
 VER 3 010000000000001C "Blizzard" "INV_MISC_QUESTIONMARK"
 #showtooltip

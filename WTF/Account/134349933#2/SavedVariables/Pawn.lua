@@ -104,10 +104,10 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST3"] = {
 			["IconTexturePath"] = 136207,
 			["PerCharacterOptions"] = {
-				["Swobuswagins-Tarren Mill"] = {
+				["Rykahpriest-Frostmane"] = {
 					["Visible"] = true,
 				},
-				["Rykahpriest-Frostmane"] = {
+				["Swobuswagins-Tarren Mill"] = {
 					["Visible"] = true,
 				},
 			},
@@ -128,7 +128,7 @@ PawnCommon = {
 				["Xpreach-Tarren Mill"] = {
 					["Visible"] = true,
 				},
-				["Rykahpo-Doomhammer"] = {
+				["Rykahboost-Turalyon"] = {
 					["Visible"] = true,
 				},
 				["Preachx-Tarren Mill"] = {
@@ -140,7 +140,7 @@ PawnCommon = {
 				["Advboi-Grim Batol"] = {
 					["Visible"] = true,
 				},
-				["Rykahboost-Turalyon"] = {
+				["Rykahpo-Doomhammer"] = {
 					["Visible"] = true,
 				},
 			},
@@ -257,10 +257,10 @@ PawnCommon = {
 				["Rykahmonk-Kazzak"] = {
 					["Visible"] = true,
 				},
-				["Rykah-Frostmane"] = {
+				["Rykahpoh-Frostmane"] = {
 					["Visible"] = true,
 				},
-				["Rykahpoh-Frostmane"] = {
+				["Rykah-Frostmane"] = {
 					["Visible"] = true,
 				},
 			},
@@ -524,9 +524,6 @@ PawnCommon = {
 				["Rykahdk-Frostmane"] = {
 					["Visible"] = true,
 				},
-				["Rÿkah-Frostmane"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "ff4d6b",
 			["LocalizedName"] = "Death Knight: Blood",
@@ -740,6 +737,9 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT2"] = {
 			["IconTexturePath"] = 135773,
 			["PerCharacterOptions"] = {
+				["Rÿkah-Frostmane"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff4d6b",
 			["LocalizedName"] = "Death Knight: Frost",
@@ -860,10 +860,10 @@ PawnCommon = {
 		["\"MrRobot\":MONK3"] = {
 			["IconTexturePath"] = 608953,
 			["PerCharacterOptions"] = {
-				["Advboi-Frostmane"] = {
+				["Chuggernuts-Tarren Mill"] = {
 					["Visible"] = true,
 				},
-				["Chuggernuts-Tarren Mill"] = {
+				["Advboi-Frostmane"] = {
 					["Visible"] = true,
 				},
 				["Rykahboost-Aggramar"] = {

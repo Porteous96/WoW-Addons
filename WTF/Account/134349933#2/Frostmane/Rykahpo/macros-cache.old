@@ -1,3 +1,8 @@
+VER 3 0100000000000025 "Arcane Power" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Arcane Power
+/use 13
+END
 VER 3 010000000000001C "Blizzard" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@cursor] Blizzard
@@ -58,6 +63,11 @@ VER 3 0100000000000003 "MacOrb" "SPELL_FROST_FROZENORB"
 /petattack
 /petassist
 END
+VER 3 0100000000000026 "Mana Gem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Mana Gem
+/cast Conjure Mana Gem
+END
 VER 3 0100000000000020 "Meteor" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@cursor] Meteor
@@ -75,20 +85,10 @@ VER 3 010000000000000B "Polymorph" "SPELL_NATURE_POLYMORPH"
 /petpassive
 /petfollow
 END
-VER 3 0100000000000024 "Scorch" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/target [@mouseover, exists, nodead, harm]
-/cast Scorch
-/targetlasttarget
-END
 VER 3 010000000000001B "Slow Fall" "INV_MISC_QUESTIONMARK"
 /cast [modifier:shift, target=player] Slow Fall; [help, target=mouseover, exists] Slow Fall; Slow Fall;
 END
 VER 3 0100000000000022 "Trinket 2" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 14
-END
-VER 3 0100000000000023 "trinket1" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use 13
 END

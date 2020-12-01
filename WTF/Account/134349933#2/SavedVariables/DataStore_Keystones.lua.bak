@@ -25,18 +25,13 @@ DataStore_KeystonesDB = {
 				["lastUpdate"] = 1604786424,
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["currentKeystone"] = {
-					["keystoneLevel"] = 16,
-					["name"] = "Waycrest Manor",
-					["texture"] = 2178742,
-				},
-				["lastUpdate"] = 1606005580,
+				["lastUpdate"] = 1606171927,
 			},
 		},
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 3,
-			["NextWeeklyReset"] = "2020-11-25",
+			["NextWeeklyReset"] = "2020-12-02",
 		},
 	},
 }

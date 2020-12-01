@@ -36,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:113237::::::::47:258::11:2:3631:6700:2:28:1764:9:47:::|h[Blademoon Leggings]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 107315,
-			["Level"] = 49,
-			["Link"] = "|cff1eff00|Hitem:107315::::::::44:258::11:1:3631:2:28:1764:9:44:::|h[Karabor Sage Treads]|h|r",
+			["ID"] = 58994,
+			["Level"] = 56,
+			["Link"] = "|cff0070dd|Hitem:58994::::::::48:258::11:2:3631:6697:2:28:1793:9:48:::|h[Trogg-Slayer Boots]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 113233,
@@ -57,32 +57,32 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:117990::::::::47:258::11:1:6691:2:28:1764:9:47:::|h[Maa'run's Prescient Eye]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 128169,
-			["Level"] = 49,
+			["ID"] = 117990,
+			["Level"] = 54,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff00ccff|Hitem:128169::::::::43:258:::1:582::::|h[Signet of the Third Fleet]|h|r",
+			["Link"] = "|cff0070dd|Hitem:117990::::::::47:258::11:1:6691:2:9:47:28:1764:::|h[Maa'run's Prescient Eye]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122362,
-			["Level"] = 54,
+			["Level"] = 56,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122362::::::::47:258:::1:582::::|h[Discerning Eye of the Beast]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::48:258:::1:582::::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122362,
-			["Level"] = 52,
+			["Level"] = 54,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122362::::::::46:258:::1:582::::|h[Discerning Eye of the Beast]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122362::::::::47:258:::1:582::::|h[Discerning Eye of the Beast]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 54,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::47:258:::1:583::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 56,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::48:258:::1:583::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 113172,
-			["Level"] = 52,
-			["Link"] = "|cff0070dd|Hitem:113172::::::::46:258::11:1:6691:2:28:1764:9:46:::|h[Karabor Arcanist Wand]|h|r",
+			["ID"] = 58984,
+			["Level"] = 56,
+			["Link"] = "|cff1eff00|Hitem:58984::::::::48:258::11:1:3631:2:28:1793:9:48:::|h[Stonesplinter Staff]|h|r",
 		}, -- [16]
 	},
 	["LastKeybindingsSet"] = 1,
