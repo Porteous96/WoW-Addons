@@ -52,7 +52,7 @@ Postal3DB = {
 		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
 		["Mastarace - Kazzak"] = "Mastarace - Kazzak",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
@@ -62,7 +62,7 @@ Postal3DB = {
 		["Mechaboost - Defias Brotherhood"] = "Mechaboost - Defias Brotherhood",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Sulivan - Tarren Mill"] = "Sulivan - Tarren Mill",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Swobuswagins - Tarren Mill"] = "Swobuswagins - Tarren Mill",
 		["Bertybots - Kazzak"] = "Bertybots - Kazzak",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
@@ -134,7 +134,7 @@ Postal3DB = {
 				"Rykah|Frostmane|Alliance|42|MONK", -- [57]
 				"Rykkahpo|Frostmane|Alliance|50|ROGUE", -- [58]
 				"Ryykahpo|Frostmane|Alliance|66|SHAMAN", -- [59]
-				"Rÿkah|Frostmane|Alliance|50|DEATHKNIGHT", -- [60]
+				"Rÿkah|Frostmane|Alliance|60|DEATHKNIGHT", -- [60]
 				"Slywithapet|Frostmane|Alliance|1|HUNTER", -- [61]
 				"Spacegoatss|Frostmane|Alliance|110|PALADIN", -- [62]
 				"Sulivan|Tarren Mill|Horde|110|WARLOCK", -- [63]
@@ -409,25 +409,7 @@ Postal3DB = {
 		},
 		["Rykahpo - Doomhammer"] = {
 		},
-		["Préach - Tarren Mill"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Xpreach|Tarren Mill|Horde", -- [1]
-					"Meticulous|Tarren Mill|Horde", -- [2]
-					"Preacho|Tarren Mill|Horde", -- [3]
-					"Sulivan|Tarren Mill|Horde", -- [4]
-					"Preech|Tarren Mill|Horde", -- [5]
-					"Preách|Tarren Mill|Horde", -- [6]
-					"Preachez|Tarren Mill|Horde", -- [7]
-					"Preacherino|Tarren Mill|Horde", -- [8]
-					"Chuggernuts|Tarren Mill|Horde", -- [9]
-					"Swobuswagins|Tarren Mill|Horde", -- [10]
-					"Piroen|Tarren Mill|Horde", -- [11]
-					"Sulivan-Tarren Mill|Tarren Mill|Horde", -- [12]
-					"Swagimus|Tarren Mill|Horde", -- [13]
-					"Toutsweet|Tarren Mill|Horde", -- [14]
-				},
-			},
+		["Advboi - Grim Batol"] = {
 		},
 		["Preachez - Tarren Mill"] = {
 			["BlackBook"] = {
@@ -511,7 +493,25 @@ Postal3DB = {
 				},
 			},
 		},
-		["Advboi - Grim Batol"] = {
+		["Préach - Tarren Mill"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Xpreach|Tarren Mill|Horde", -- [1]
+					"Meticulous|Tarren Mill|Horde", -- [2]
+					"Preacho|Tarren Mill|Horde", -- [3]
+					"Sulivan|Tarren Mill|Horde", -- [4]
+					"Preech|Tarren Mill|Horde", -- [5]
+					"Preách|Tarren Mill|Horde", -- [6]
+					"Preachez|Tarren Mill|Horde", -- [7]
+					"Preacherino|Tarren Mill|Horde", -- [8]
+					"Chuggernuts|Tarren Mill|Horde", -- [9]
+					"Swobuswagins|Tarren Mill|Horde", -- [10]
+					"Piroen|Tarren Mill|Horde", -- [11]
+					"Sulivan-Tarren Mill|Tarren Mill|Horde", -- [12]
+					"Swagimus|Tarren Mill|Horde", -- [13]
+					"Toutsweet|Tarren Mill|Horde", -- [14]
+				},
+			},
 		},
 		["Swobuswagins - Tarren Mill"] = {
 			["BlackBook"] = {

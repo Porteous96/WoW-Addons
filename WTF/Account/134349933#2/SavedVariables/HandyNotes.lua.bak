@@ -49,8 +49,8 @@ HandyNotesDB = {
 		["Chuggernuts - Tarren Mill"] = "Chuggernuts - Tarren Mill",
 		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
 		["Preacherino - Tarren Mill"] = "Preacherino - Tarren Mill",
-		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
@@ -167,9 +167,9 @@ HandyNotesDB = {
 		},
 		["Preacherino - Tarren Mill"] = {
 		},
-		["Préach - Tarren Mill"] = {
-		},
 		["Advboi - Grim Batol"] = {
+		},
+		["Préach - Tarren Mill"] = {
 		},
 		["Preachez - Tarren Mill"] = {
 		},
@@ -259,8 +259,8 @@ HandyNotes_HandyNotesDB = {
 		["Chuggernuts - Tarren Mill"] = "Chuggernuts - Tarren Mill",
 		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
 		["Preacherino - Tarren Mill"] = "Preacherino - Tarren Mill",
-		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
 		["Rykahhpo - Frostmane"] = "Rykahhpo - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
@@ -283,9 +283,9 @@ HandyNotes_HandyNotesDB = {
 	["global"] = {
 		[942] = {
 			[47473427] = {
-				["icon"] = 1,
 				["title"] = "",
 				["cont"] = false,
+				["icon"] = 1,
 				["desc"] = "",
 			},
 		},
@@ -387,9 +387,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Preacherino - Tarren Mill"] = {
 		},
-		["Préach - Tarren Mill"] = {
-		},
 		["Advboi - Grim Batol"] = {
+		},
+		["Préach - Tarren Mill"] = {
 		},
 		["Preachez - Tarren Mill"] = {
 		},

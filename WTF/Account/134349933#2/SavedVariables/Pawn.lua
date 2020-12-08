@@ -80,10 +80,10 @@ PawnCommon = {
 				["Mechaboost-Defias Brotherhood"] = {
 					["Visible"] = true,
 				},
-				["Mechaboost-Silvermoon"] = {
+				["Mechaboost-Sylvanas"] = {
 					["Visible"] = true,
 				},
-				["Mechaboost-Sylvanas"] = {
+				["Mechaboost-Silvermoon"] = {
 					["Visible"] = true,
 				},
 				["Morallygrey-Frostmane"] = {
@@ -128,7 +128,10 @@ PawnCommon = {
 				["Xpreach-Tarren Mill"] = {
 					["Visible"] = true,
 				},
-				["Rykahboost-Turalyon"] = {
+				["Advboi-Grim Batol"] = {
+					["Visible"] = true,
+				},
+				["Rykahpo-Doomhammer"] = {
 					["Visible"] = true,
 				},
 				["Preachx-Tarren Mill"] = {
@@ -137,10 +140,7 @@ PawnCommon = {
 				["Rcumplus-Aggramar"] = {
 					["Visible"] = true,
 				},
-				["Advboi-Grim Batol"] = {
-					["Visible"] = true,
-				},
-				["Rykahpo-Doomhammer"] = {
+				["Rykahboost-Turalyon"] = {
 					["Visible"] = true,
 				},
 			},
@@ -235,11 +235,11 @@ PawnCommon = {
 				["CritRating"] = 8.2,
 				["HasteRating"] = 8.91,
 				["MasteryRating"] = 9.66,
-				["Versatility"] = 9.07,
+				["IsCrossbow"] = -1000000,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
 				["Is2HAxe"] = -1000000,
-				["IsCrossbow"] = -1000000,
+				["Versatility"] = 9.07,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
@@ -247,8 +247,8 @@ PawnCommon = {
 				["Intellect"] = 4.25,
 				["IsMace"] = -1000000,
 				["Is2HSword"] = -1000000,
-				["IsShield"] = -1000000,
 				["IsAxe"] = -1000000,
+				["IsShield"] = -1000000,
 			},
 		},
 		["\"MrRobot\":MONK1"] = {
@@ -257,10 +257,10 @@ PawnCommon = {
 				["Rykahmonk-Kazzak"] = {
 					["Visible"] = true,
 				},
-				["Rykahpoh-Frostmane"] = {
+				["Rykah-Frostmane"] = {
 					["Visible"] = true,
 				},
-				["Rykah-Frostmane"] = {
+				["Rykahpoh-Frostmane"] = {
 					["Visible"] = true,
 				},
 			},
@@ -362,18 +362,18 @@ PawnCommon = {
 		["Rykahpo - Arcane - Patchwerk (Raidbots)"] = {
 			["IconTexturePath"] = 135932,
 			["Values"] = {
-				["Intellect"] = 4.19,
+				["Intellect"] = 2.74,
 				["IsFist"] = -1000000,
 				["Is2HMace"] = -1000000,
 				["IsMace"] = -1000000,
-				["CritRating"] = 3.16,
-				["HasteRating"] = 2.54,
-				["MasteryRating"] = 3.22,
-				["IsCrossbow"] = -1000000,
+				["CritRating"] = 0.96,
+				["HasteRating"] = 0.81,
+				["MasteryRating"] = 1,
+				["Versatility"] = 0.91,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
 				["Is2HAxe"] = -1000000,
-				["Versatility"] = 3.23,
+				["IsShield"] = -1000000,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
@@ -381,8 +381,8 @@ PawnCommon = {
 				["IsOffHand"] = -1000000,
 				["IsWarglaive"] = -1000000,
 				["Is2HSword"] = -1000000,
-				["IsShield"] = -1000000,
 				["IsAxe"] = -1000000,
+				["IsCrossbow"] = -1000000,
 			},
 			["Color"] = "3ec6ea",
 			["ClassID"] = 8,
@@ -521,6 +521,9 @@ PawnCommon = {
 				["Preacherino-Tarren Mill"] = {
 					["Visible"] = true,
 				},
+				["Rÿkah-Frostmane"] = {
+					["Visible"] = true,
+				},
 				["Rykahdk-Frostmane"] = {
 					["Visible"] = true,
 				},
@@ -584,26 +587,23 @@ PawnCommon = {
 			["UnenchantedColor"] = "957552",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = 135932,
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
-				["Preachx-Tarren Mill"] = {
-					["Visible"] = true,
-				},
-				["Xpreach-Tarren Mill"] = {
+				["Preech-Tarren Mill"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "3fc7eb",
-			["LocalizedName"] = "Mage: Arcane",
-			["ClassID"] = 8,
+			["Color"] = "a330c9",
+			["LocalizedName"] = "Demon Hunter: Vengeance",
+			["ClassID"] = 12,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "2f95b0",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "7a2496",
+			["SpecID"] = 2,
 		},
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
@@ -737,9 +737,6 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT2"] = {
 			["IconTexturePath"] = 135773,
 			["PerCharacterOptions"] = {
-				["Rÿkah-Frostmane"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "ff4d6b",
 			["LocalizedName"] = "Death Knight: Frost",
@@ -770,23 +767,26 @@ PawnCommon = {
 			["UnenchantedColor"] = "0054a6",
 			["SpecID"] = 3,
 		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = 135932,
 			["PerCharacterOptions"] = {
-				["Preech-Tarren Mill"] = {
+				["Preachx-Tarren Mill"] = {
+					["Visible"] = true,
+				},
+				["Xpreach-Tarren Mill"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "a330c9",
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["ClassID"] = 12,
+			["Color"] = "3fc7eb",
+			["LocalizedName"] = "Mage: Arcane",
+			["ClassID"] = 8,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "7a2496",
-			["SpecID"] = 2,
+			["UnenchantedColor"] = "2f95b0",
+			["SpecID"] = 1,
 		},
 		["\"MrRobot\":DEATHKNIGHT3"] = {
 			["IconTexturePath"] = 135775,
@@ -860,13 +860,13 @@ PawnCommon = {
 		["\"MrRobot\":MONK3"] = {
 			["IconTexturePath"] = 608953,
 			["PerCharacterOptions"] = {
-				["Chuggernuts-Tarren Mill"] = {
-					["Visible"] = true,
-				},
 				["Advboi-Frostmane"] = {
 					["Visible"] = true,
 				},
 				["Rykahboost-Aggramar"] = {
+					["Visible"] = true,
+				},
+				["Chuggernuts-Tarren Mill"] = {
 					["Visible"] = true,
 				},
 			},

@@ -24,160 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"|cff71d5ff|Hspell:20582:0|h[Quickness]|h|r ON ANAL!!", -- [1]
-			"Dennonhunter-GrimBatol", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dennonhunter-GrimBatol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			100, -- [11]
-			"Player-1303-0170FCEC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDennonhunter-GrimBatol|r",
-			[51] = 1604094966,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"hey guys. thanks for the inv :)", -- [1]
-			"Holypepega-GrimBatol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			104, -- [11]
-			"Player-1303-0B282C66", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolypepega|r",
-			[51] = 1604095021,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
-		{
-			"heyo", -- [1]
-			"Thekrowi-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			106, -- [11]
-			"Player-1303-0B62DAAA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Thekrowi|r",
-			[51] = 1604095029,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
-			"welcome", -- [1]
-			"Devereux-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			108, -- [11]
-			"Player-1303-0B699C33", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edDevereux|r",
-			[51] = 1604095049,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
-		{
-			"anal|cffff8000|Hitem:19019:2673:::::::50:253:::::::|h[Thunderfury, Blessed Blade of the Windseeker]|h|r", -- [1]
-			"Oslak-Frostmane", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Oslak-Frostmane", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			109, -- [11]
-			"Player-1303-0B68160D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Oslak|r",
-			[51] = 1604095053,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"welcome", -- [1]
-			"Rykahpoh-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			113, -- [11]
-			"Player-1303-0B698695", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Rykahpoh|r",
-			[51] = 1604095065,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [6]
-		{
-			"whale cum", -- [1]
-			"Slyxhmstræz-Frostmane", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			114, -- [11]
-			"Player-1303-0B796DB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edSlyxhmstræz|r",
-			[51] = 1604095073,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
-		{
 			"hæhæhæ", -- [1]
 			"Rykahpoh-Frostmane", -- [2]
 			"", -- [3]
@@ -198,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Rykahpoh|r",
 			[51] = 1604095083,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
+		}, -- [1]
 		{
 			"håhåhå", -- [1]
 			"Slyxhmstræz-Frostmane", -- [2]
@@ -220,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edSlyxhmstræz|r",
 			[51] = 1604095088,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
+		}, -- [2]
 		{
 			"I always think that when I'm just writing welcome sly xD", -- [1]
 			"Thekrowi-Frostmane", -- [2]
@@ -242,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Thekrowi|r",
 			[51] = 1604095104,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
+		}, -- [3]
 		{
 			"dont encourage him", -- [1]
 			"Rykahpoh-Frostmane", -- [2]
@@ -264,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Rykahpoh|r",
 			[51] = 1604095140,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
+		}, -- [4]
 		{
 			"what will happen if I do? :p", -- [1]
 			"Thekrowi-Frostmane", -- [2]
@@ -286,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Thekrowi|r",
 			[51] = 1604095161,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
+		}, -- [5]
 		{
 			"he'll say more stuff that isnt funny", -- [1]
 			"Rykahpoh-Frostmane", -- [2]
@@ -308,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Rykahpoh|r",
 			[51] = 1604095175,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
+		}, -- [6]
 		{
 			"is that true sly? :p", -- [1]
 			"Thekrowi-Frostmane", -- [2]
@@ -330,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Thekrowi|r",
 			[51] = 1604095189,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
+		}, -- [7]
 		{
 			"lol xD", -- [1]
 			"Thekrowi-Frostmane", -- [2]
@@ -352,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Thekrowi|r",
 			[51] = 1604095201,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
+		}, -- [8]
 		{
 			"Granokk anyone?", -- [1]
 			"Pwsnopp-Frostmane", -- [2]
@@ -374,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcPwsnopp|r",
 			[51] = 1604095202,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [9]
 		{
 			"you insulted him :o", -- [1]
 			"Thekrowi-Frostmane", -- [2]
@@ -396,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Thekrowi|r",
 			[51] = 1604095206,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
+		}, -- [10]
 		{
 			"he deserves it", -- [1]
 			"Rykahpoh-Frostmane", -- [2]
@@ -418,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Rykahpoh|r",
 			[51] = 1604095212,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
+		}, -- [11]
 		{
 			"made him cry", -- [1]
 			"Devereux-Frostmane", -- [2]
@@ -440,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDevereux|r",
 			[51] = 1604095215,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
+		}, -- [12]
 		{
 			"he is off to write a letter", -- [1]
 			"Devereux-Frostmane", -- [2]
@@ -462,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDevereux|r",
 			[51] = 1604095240,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
+		}, -- [13]
 		{
 			"Anal nerve", -- [1]
 			"Oslak-Frostmane", -- [2]
@@ -484,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Oslak|r",
 			[51] = 1604095287,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [14]
 		{
 			"Rare Mount Club (Frostmane/Aggra/Grim Batol) is looking for sociable active players to join us! We're a friendly guild of levellers/die hard mount hunters & raiders alike. We aim to do guild mount achieves, mount farm & chill. /w for inv!", -- [1]
 			"Lycheeboba-GrimBatol", -- [2]
@@ -506,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLycheeboba-GrimBatol|r",
 			[51] = 1604165858,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [15]
 		{
 			"wont even log in on first day", -- [1]
 			"Mokaakashiya-Aggra(Português)", -- [2]
@@ -528,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mokaakashiya-Aggra(Português)|r",
 			[51] = 1604349166,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [16]
 		{
 			"does this server havea pvp discord?", -- [1]
 			"Claynxi-GrimBatol", -- [2]
@@ -550,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeClaynxi-GrimBatol|r",
 			[51] = 1604349174,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [17]
 		{
 			"first day, second... etc xD", -- [1]
 			"Snoowy-GrimBatol", -- [2]
@@ -572,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaSnoowy-GrimBatol|r",
 			[51] = 1604349185,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [18]
 		{
 			"found something to do", -- [1]
 			"Kuntrum-Frostmane", -- [2]
@@ -594,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kuntrum|r",
 			[51] = 1604349185,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
+		}, -- [19]
 		{
 			"till event starts :P", -- [1]
 			"Kuntrum-Frostmane", -- [2]
@@ -616,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kuntrum|r",
 			[51] = 1604349189,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:485:Player-1303-0B972AC2:1:11:4:20:4294967295:4294967295:4294967295:4294967295|h[Halls of Stone]|h|r!", -- [1]
 			"Dârkmonk-Frostmane", -- [2]
@@ -638,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dârkmonk|r",
 			[51] = 1604529815,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [28]
+		}, -- [21]
 		{
 			"Oblivion Community sells -- M+10-23 in time, specific key & armorstack available! Mythic Jaina + mount 350k. 12/12 ny'alotha with VIP,PL and specific bosses runs! /w me for more info.", -- [1]
 			"Clem-Frostmane", -- [2]
@@ -660,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaClem|r",
 			[51] = 1604781868,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [22]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12826:Player-1303-0B640A90:1:11:7:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Atal'Dazar]|h|r!", -- [1]
 			"Maaldi-Frostmane", -- [2]
@@ -682,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMaaldi|r",
 			[51] = 1604781933,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
+		}, -- [23]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12825:Player-1303-0B640A90:1:11:7:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Atal'Dazar]|h|r!", -- [1]
 			"Maaldi-Frostmane", -- [2]
@@ -704,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMaaldi|r",
 			[51] = 1604781933,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12824:Player-1303-0B640A90:1:11:7:20:4294967295:4294967295:4294967295:4294967295|h[Atal'Dazar]|h|r!", -- [1]
 			"Maaldi-Frostmane", -- [2]
@@ -726,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMaaldi|r",
 			[51] = 1604781933,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [32]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12881:Player-1303-0B973F51:1:11:7:20:4294967295:4294967295:4294967295:4294967295|h[War is Hell]|h|r!", -- [1]
 			"Luces-Frostmane", -- [2]
@@ -748,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Luces|r",
 			[51] = 1604781954,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
+		}, -- [26]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13737:Player-1303-0B973F51:1:11:7:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: War is Hell]|h|r!", -- [1]
 			"Luces-Frostmane", -- [2]
@@ -770,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Luces|r",
 			[51] = 1604781954,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
+		}, -- [27]
 		{
 			"we got the big bag ", -- [1]
 			"|Kq100|k", -- [2]
@@ -792,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605132470,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [35]
+		}, -- [28]
 		{
 			"ayy nice", -- [1]
 			"|Kq100|k", -- [2]
@@ -814,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605132487,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [36]
+		}, -- [29]
 		{
 			"im gonna do the event tomorrow", -- [1]
 			"|Kq100|k", -- [2]
@@ -836,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Neaop|r",
 			[51] = 1605132506,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [37]
+		}, -- [30]
 		{
 			"AH mount plx", -- [1]
 			"Gazston-Frostmane", -- [2]
@@ -858,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edGazston|r",
 			[51] = 1605826407,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [38]
+		}, -- [31]
 		{
 			"vou passar a citar as mensagens trocadas entre mim e o padreka ", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -880,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605826413,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [32]
 		{
 			"right click report", -- [1]
 			"Loom-Frostmane", -- [2]
@@ -902,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLoom|r",
 			[51] = 1605826420,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [33]
 		{
 			"conheces o Duo-aggra(Portugues) ? ", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -924,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605826441,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [34]
 		{
 			"mas quem crl é o padreka e quem crl quer saber?", -- [1]
 			"Hæze-GrimBatol", -- [2]
@@ -946,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hæze-GrimBatol|r",
 			[51] = 1605826442,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [35]
 		{
 			"Padreka : Eu juro que ouvi flar desse gajo\"", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -968,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605826460,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [36]
 		{
 			"deve ser a tua prima", -- [1]
 			"Sentupai-Aggra(Português)", -- [2]
@@ -990,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Sentupai-Aggra(Português)|r",
 			[51] = 1605826473,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [37]
 		{
 			"men, ninguém quer saber dos teus problemas", -- [1]
 			"Hæze-GrimBatol", -- [2]
@@ -1012,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hæze-GrimBatol|r",
 			[51] = 1605826476,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [38]
 		{
 			"Eu : \" Acabou de me ofender no chat\"", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1034,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605826476,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [39]
 		{
 			"virgem ofendida", -- [1]
 			"Hæze-GrimBatol", -- [2]
@@ -1056,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hæze-GrimBatol|r",
 			[51] = 1605826489,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [40]
 		{
 			"Padreka : vou averiguar a situaçºao", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1078,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605826502,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [41]
 		{
 			"Ignore function is to use I would say ...", -- [1]
 			"Thamathar-Aggra(Português)", -- [2]
@@ -1100,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Thamathar-Aggra(Português)|r",
 			[51] = 1605826505,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [42]
 		{
 			"ai o narcissista com dpr no ego :(", -- [1]
 			"Esperta-Frostmane", -- [2]
@@ -1122,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Esperta|r",
 			[51] = 1605826510,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [43]
 		{
 			"best thing on online games hehe", -- [1]
 			"Thamathar-Aggra(Português)", -- [2]
@@ -1144,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Thamathar-Aggra(Português)|r",
 			[51] = 1605826515,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [44]
 		{
 			"Padreka : Mas quem és tu ? \"", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1166,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605826519,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [45]
 		{
 			"Padreka: \"tens um bom nome \" mas nós conhecemo-nos ?", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1188,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605826547,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [46]
 		{
 			"While vaginas are just one part of the vulva, many people say “vagina” when they really mean the vulva. But the vulva has a lot more going on than just the vagina.", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1210,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605912934,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [47]
 		{
 			"see learn that kids", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1232,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605912951,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [48]
 		{
 			"they need pleasure women do huh", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1254,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605912965,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [49]
 		{
 			"you know all this yet you still never seen one irl", -- [1]
 			"Rykahpoh-Frostmane", -- [2]
@@ -1276,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Rykahpoh|r",
 			[51] = 1605912977,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [50]
 		{
 			"No 2 vulvas look exactly the same, but they’re made up of the same basic parts.", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1298,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605912982,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [51]
 		{
 			"LabiaThe labia (lips) are folds of skin around your vaginal opening. The labia majora (outer lips) are usually fleshy and covered with pubic hair.", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1320,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605912995,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [52]
 		{
 			"i was wondering who'd finally say that", -- [1]
 			"Lìlìth-GrimBatol", -- [2]
@@ -1342,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLìlìth-GrimBatol|r",
 			[51] = 1605912996,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [53]
 		{
 			"The labia minora (inner lips) are inside your outer lips. They begin at your clitoris and end under the opening to your vagina.", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1364,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605913012,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [54]
 		{
 			"Labia can be short or long, wrinkled or smooth. Often one lip is longer than the other. ", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1386,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605913027,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [55]
 		{
 			"you will ace this test dude, good luck!", -- [1]
 			"Mobbebob-Frostmane", -- [2]
@@ -1408,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcMobbebob|r",
 			[51] = 1605913041,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [56]
 		{
 			"Fallopian tubesThe fallopian tubes are 2 narrow tubes. They carry eggs from your ovaries to your uterus. Sperm travels through them to try to fertilize your egg.", -- [1]
 			"Ragæ-GrimBatol", -- [2]
@@ -1430,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Ragæ-GrimBatol|r",
 			[51] = 1605913048,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [57]
 		{
 			"we have cookies, masks and toilet roll", -- [1]
 			"Morgarna-GrimBatol", -- [2]
@@ -1452,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMorgarna-GrimBatol|r",
 			[51] = 1605971237,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [58]
 		{
 			"<Exempt> New mythic progression raiding guild looking for DPS (Mage/DH/Hunter/Warr) to complete our raid team for Shadowlands. Raiding Wed & Thurs 20:00 - 23:00 ST. Socials more than welcome too :)", -- [1]
 			"Meleph-Frostmane", -- [2]
@@ -1474,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMeleph|r",
 			[51] = 1606170615,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [59]
 		{
 			"Estás cansado de não estar na mesma guild que eu? <Os Marretas> estão a recrutar, E os nossos padrões nunca foram tão baixos! Inscreve-te hoje e recebe vantagens de nível de guild e uma namorada grátis! (A namorada poderá ser um pet).", -- [1]
 			"Tsulong-Aggra(Português)", -- [2]
@@ -1496,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tsulong-Aggra(Português)|r",
 			[51] = 1606170619,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [60]
 		{
 			"yes", -- [1]
 			"Divinesuck-Frostmane", -- [2]
@@ -1518,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDivinesuck|r",
 			[51] = 1606170636,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [61]
 		{
 			"WTS |cffa335ee|Hitem:184783::::::::50:102::1:4:6652:6935:1472:6646:1:28:2044:::|h[Muirnne's Stormforged Signet]|h|r", -- [1]
 			"Feraldina-GrimBatol", -- [2]
@@ -1540,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Feraldina-GrimBatol|r",
 			[51] = 1606335532,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [62]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14627:Player-1303-0B68CEAF:1:11:25:20:4294967295:4294967295:4294967295:4294967295|h[Choosing Your Purpose]|h|r!", -- [1]
 			"Rushuna-Frostmane", -- [2]
@@ -1562,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Rushuna|r",
 			[51] = 1606335541,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [63]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14772:Player-1303-0B692309:1:11:25:20:4294967295:4294967295:4294967295:4294967295|h[Caught in a Bat Romance]|h|r!", -- [1]
 			"Faiot-Frostmane", -- [2]
@@ -1584,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Faiot|r",
 			[51] = 1606335546,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [64]
 		{
 			"night fae intro quest is fun though", -- [1]
 			"Kuntrum-Frostmane", -- [2]
@@ -1606,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kuntrum|r",
 			[51] = 1606335557,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [65]
 		{
 			"give me that sweet gold ngh", -- [1]
 			"Bitoque-Frostmane", -- [2]
@@ -1628,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Bitoque|r",
 			[51] = 1606335560,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [66]
 		{
 			"WTS |cffa335ee|Hitem:163574::::::::60:102:::::::|h[Chewed-On Reins of the Terrified Pack Mule]|h|r|cffa335ee|Hitem:163573::::::::60:102:::::::|h[Goldenmane's Reins]|h|r", -- [1]
 			"Azerren-Frostmane", -- [2]
@@ -1650,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Azerren|r",
 			[51] = 1606335564,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [67]
 		{
 			"necros are good for any class?", -- [1]
 			"Kuntrum-Frostmane", -- [2]
@@ -1672,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kuntrum|r",
 			[51] = 1606335577,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [68]
 		{
 			"LF someone to trade darkmoon cards!", -- [1]
 			"Azerren-Frostmane", -- [2]
@@ -1694,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Azerren|r",
 			[51] = 1606335589,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [69]
 		{
 			"bm monk", -- [1]
 			"Rykahpoh-Frostmane", -- [2]
@@ -1716,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Rykahpoh|r",
 			[51] = 1606335592,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [70]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14776:Player-1303-0B686A6E:1:11:25:20:4294967295:4294967295:4294967295:4294967295|h[For the Hoarder!]|h|r!", -- [1]
 			"Dåhîd-Frostmane", -- [2]
@@ -1738,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDåhîd|r",
 			[51] = 1606335600,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [71]
 		{
 			"meh", -- [1]
 			"Kuntrum-Frostmane", -- [2]
@@ -1760,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kuntrum|r",
 			[51] = 1606335600,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [72]
 		{
 			"warriors?", -- [1]
 			"Kuntrum-Frostmane", -- [2]
@@ -1782,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kuntrum|r",
 			[51] = 1606335606,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [73]
 		{
 			"not sure of any others", -- [1]
 			"Rykahpoh-Frostmane", -- [2]
@@ -1804,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Rykahpoh|r",
 			[51] = 1606335620,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [74]
 		{
 			"what?", -- [1]
 			"Prue-Frostmane", -- [2]
@@ -1826,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPrue|r",
 			[51] = 1606335621,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [75]
 		{
 			"WTB |cffa335ee|Hitem:184797::::::::60:261:::::::|h[Zink's Subtle Shank]|h|r", -- [1]
 			"Ihavekameltå-Frostmane", -- [2]
@@ -1848,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Ihavekameltå|r",
 			[51] = 1606417316,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [76]
 		{
 			":(", -- [1]
 			"Sparksnlava-Frostmane", -- [2]
@@ -1870,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSparksnlava|r",
 			[51] = 1606417322,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [77]
 		{
 			"giving free +10 main stat enchants on bracers in hall of shapes oribos", -- [1]
 			"Ticklenuts-GrimBatol", -- [2]
@@ -1892,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTicklenuts-GrimBatol|r",
 			[51] = 1606417325,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [78]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14374:Player-1303-0B4ED5A0:1:11:27:20:4294967295:4294967295:4294967295:4294967295|h[Couple's Therapy]|h|r!", -- [1]
 			"Volrather-Frostmane", -- [2]
@@ -1914,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaVolrather|r",
 			[51] = 1606516444,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+		}, -- [79]
 		{
 			":O", -- [1]
 			"Prue-Frostmane", -- [2]
@@ -1936,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cPrue|r",
 			[51] = 1606608883,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [80]
 		{
 			"isn't it 5?", -- [1]
 			"Depletor-GrimBatol", -- [2]
@@ -1958,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDepletor-GrimBatol|r",
 			[51] = 1606685971,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [81]
 		{
 			"10 since mop lol", -- [1]
 			"Xèn-Frostmane", -- [2]
@@ -1980,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Xèn|r",
 			[51] = 1606685977,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [82]
 		{
 			"and 30 per day", -- [1]
 			"Depletor-GrimBatol", -- [2]
@@ -2002,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDepletor-GrimBatol|r",
 			[51] = 1606685979,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [83]
 		{
 			"I thought it was 5 aswell but my mates telling me 10", -- [1]
 			"Idealism-Frostmane", -- [2]
@@ -2024,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Idealism|r",
 			[51] = 1606685980,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [84]
 		{
 			"It's a cap per day?", -- [1]
 			"Idealism-Frostmane", -- [2]
@@ -2046,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Idealism|r",
 			[51] = 1606685994,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [85]
 		{
 			"no", -- [1]
 			"Xèn-Frostmane", -- [2]
@@ -2068,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Xèn|r",
 			[51] = 1606686000,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [86]
 		{
 			"cap of what?", -- [1]
 			"Elonar-GrimBatol", -- [2]
@@ -2090,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Elonar-GrimBatol|r",
 			[51] = 1606686005,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [87]
 		{
 			"i think they changed it to 5", -- [1]
 			"Lotherrach-GrimBatol", -- [2]
@@ -2112,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lotherrach-GrimBatol|r",
 			[51] = 1606686008,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [88]
 		{
 			"was 10 befor", -- [1]
 			"Lotherrach-GrimBatol", -- [2]
@@ -2134,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Lotherrach-GrimBatol|r",
 			[51] = 1606686010,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [89]
 		{
 			"Its 10 now, was 5", -- [1]
 			"Ðox-Frostmane", -- [2]
@@ -2156,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ðox|r",
 			[51] = 1606686018,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [90]
 		{
 			"How many dungeons/hour can you run?", -- [1]
 			"Idealism-Frostmane", -- [2]
@@ -2178,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Idealism|r",
 			[51] = 1606686019,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [91]
 		{
 			"it was 10 ever since MOP you can do 10 runs per hours", -- [1]
 			"Xèn-Frostmane", -- [2]
@@ -2200,6 +2046,160 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Xèn|r",
 			[51] = 1606686021,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"WTS|cff0070dd|Hitem:173096::::::::60:62::13:::::|h[Darkmoon Deck: Indomitable]|h|r|cff0070dd|Hitem:173087::::::::60:62::13:::::|h[Darkmoon Deck: Voracity]|h|r", -- [1]
+			"Hagge-GrimBatol", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hagge-GrimBatol", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-1303-07C51B00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaHagge-GrimBatol|r",
+			[51] = 1606763673,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14759:Player-1303-0B9CFCF3:1:12:2:20:4294967295:4294967295:4294967295:4294967295|h[It's Coming Back to Me...]|h|r!", -- [1]
+			"Sqwert-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sqwert-Frostmane", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			511, -- [11]
+			"Player-1303-0B9CFCF3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Sqwert|r",
+			[51] = 1606911593,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"WTB |cffffffff|Hitem:173160::::::::60:71:::::::|h[Missive of Haste]|h|r|cffffffff|Hitem:173161::::::::60:71:::::::|h[Missive of Critical Strike]|h|r 2k each", -- [1]
+			"Yzuil-Aggra(Português)", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yzuil-Aggra(Português)", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			515, -- [11]
+			"Player-1303-0BA88781", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cYzuil-Aggra(Português)|r",
+			[51] = 1606911600,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"morning", -- [1]
+			"Mixbreed-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			98, -- [11]
+			"Player-1303-0B664C48", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mixbreed|r",
+			[51] = 1606993070,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"anyone for hopecrusher?", -- [1]
+			"Krowi-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-1303-0B62E475", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Krowi|r",
+			[51] = 1607203909,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"can drop mount", -- [1]
+			"Krowi-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			15, -- [11]
+			"Player-1303-0B62E475", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Krowi|r",
+			[51] = 1607203913,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"Might aswell save the last renown quest for next week then", -- [1]
+			"Klauslicious-Frostmane", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			206, -- [11]
+			"Player-1303-0B62620A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Klauslicious|r",
+			[51] = 1607375343,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 }

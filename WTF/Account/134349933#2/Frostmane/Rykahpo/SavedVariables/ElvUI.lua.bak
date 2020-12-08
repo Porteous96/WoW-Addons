@@ -1,1416 +1,1416 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cw Coldaras oh sorry", -- [1]
-		"/cw Coldaras my cat is being annoying", -- [2]
-		"/cw Coldaras we didnt pick up the kyrian dude", -- [3]
-		"/cw Coldaras this game sucks", -- [4]
-		"/cw Coldaras 2 secs", -- [5]
-		"/cw Coldaras need to reload", -- [6]
-		"/reload", -- [7]
-		"/cw Coldaras it says you're offline", -- [8]
-		"/cw Coldaras i cant see your hp", -- [9]
-		"/i where are we to take him", -- [10]
-		"/i it says its here tho", -- [11]
-		"/i lets run around", -- [12]
-		"/i ye", -- [13]
-		"/i dunno", -- [14]
-		"/i does it say its here for you?", -- [15]
-		"/i ah well", -- [16]
-		"/i game sucks", -- [17]
-		"/i do we just go?", -- [18]
-		"/i sure", -- [19]
-		"/i think we can relog together?", -- [20]
+		"/p bigger dot on them", -- [1]
+		"/p either aoe dot or big single target dot", -- [2]
+		"/p its my bis for this ilvl by a mile", -- [3]
+		"/cheer", -- [4]
+		"/p 7k!", -- [5]
+		"/p 8l!", -- [6]
+		"/p go little gnome", -- [7]
+		"/p actually op", -- [8]
+		"/p let me try", -- [9]
+		"/p shit spec", -- [10]
+		"/p first combust of shadowlands", -- [11]
+		"/p hopefully my last", -- [12]
+		"/p same dude", -- [13]
+		"/p oh yeh", -- [14]
+		"/p probs loads of broken trinkets for us to test", -- [15]
+		"/p wait", -- [16]
+		"/p i wanted to say", -- [17]
+		"/p you're in oribos!", -- [18]
+		"/p but yeah", -- [19]
+		"/p good night my dude", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"Used to have a cat so I know the tendencies", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"thats when you'd take over me", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1417, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3146, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770238,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607390962,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [1]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14370:Player-1303-0B63D4B5:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r!", -- [1]
-			"Nëko-Frostmane", -- [2]
+			"then next 40 secs", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nëko-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1429, -- [11]
-			"Player-1303-0B63D4B5", -- [12]
+			3147, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nëko|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607390965,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [2]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14410:Player-1303-0B63D4B5:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Halls of Atonement]|h|r!", -- [1]
-			"Nëko-Frostmane", -- [2]
+			"i need my legendary", -- [1]
+			"Slyxhmsterez-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nëko-Frostmane", -- [5]
+			"Slyxhmsterez-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1430, -- [11]
-			"Player-1303-0B63D4B5", -- [12]
+			3148, -- [11]
+			"Player-1597-0E7F2F3A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nëko|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
+			[51] = 1607390977,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [3]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14411:Player-1303-0B63D4B5:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Halls of Atonement]|h|r!", -- [1]
-			"Nëko-Frostmane", -- [2]
+			"shadowstrike is 26% of my dmg there", -- [1]
+			"Slyxhmsterez-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nëko-Frostmane", -- [5]
+			"Slyxhmsterez-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1431, -- [11]
-			"Player-1303-0B63D4B5", -- [12]
+			3149, -- [11]
+			"Player-1597-0E7F2F3A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Nëko|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
+			[51] = 1607390987,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [4]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14411:Player-1303-0B6849B2:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Halls of Atonement]|h|r!", -- [1]
-			"Nayka-Frostmane", -- [2]
+			"let me find someone to come hero me", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nayka-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1432, -- [11]
-			"Player-1303-0B6849B2", -- [12]
+			3150, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Nayka|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607390990,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [5]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14370:Player-1303-0B627DD4:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r!", -- [1]
-			"Negan-Frostmane", -- [2]
+			"and i'll show you", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Negan-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1433, -- [11]
-			"Player-1303-0B627DD4", -- [12]
+			3151, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Negan|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607390992,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [6]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14410:Player-1303-0B627DD4:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Halls of Atonement]|h|r!", -- [1]
-			"Negan-Frostmane", -- [2]
+			"ok", -- [1]
+			"Slyxhmsterez-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Negan-Frostmane", -- [5]
+			"Slyxhmsterez-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1434, -- [11]
-			"Player-1303-0B627DD4", -- [12]
+			3152, -- [11]
+			"Player-1597-0E7F2F3A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Negan|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
+			[51] = 1607390997,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [7]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14411:Player-1303-0B627DD4:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Halls of Atonement]|h|r!", -- [1]
-			"Negan-Frostmane", -- [2]
+			"|cff71d5ff|Hspell:340090:0|h[Akaari's Soul Fragment]|h|r", -- [1]
+			"Slyxhmsterez-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Negan-Frostmane", -- [5]
+			"Slyxhmsterez-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1435, -- [11]
-			"Player-1303-0B627DD4", -- [12]
+			3153, -- [11]
+			"Player-1597-0E7F2F3A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Negan|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
+			[51] = 1607391005,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [8]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14370:Player-1303-0B695F74:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r!", -- [1]
-			"Taryadel-Frostmane", -- [2]
+			"legendary will be huge dps", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Taryadel-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1436, -- [11]
-			"Player-1303-0B695F74", -- [12]
+			3154, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Taryadel|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391005,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [9]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14410:Player-1303-0B695F74:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Halls of Atonement]|h|r!", -- [1]
-			"Taryadel-Frostmane", -- [2]
+			"wow", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Taryadel-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1437, -- [11]
-			"Player-1303-0B695F74", -- [12]
+			3155, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Taryadel|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391010,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [10]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14411:Player-1303-0B695F74:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Halls of Atonement]|h|r!", -- [1]
-			"Taryadel-Frostmane", -- [2]
+			"wtf", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Taryadel-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1438, -- [11]
-			"Player-1303-0B695F74", -- [12]
+			3156, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Taryadel|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391011,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [11]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14370:Player-1303-0B628AA1:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r!", -- [1]
-			"Reselda-Frostmane", -- [2]
+			"no one here", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Reselda-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1439, -- [11]
-			"Player-1303-0B628AA1", -- [12]
+			3157, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeReselda|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391056,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [12]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14410:Player-1303-0B628AA1:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Halls of Atonement]|h|r!", -- [1]
-			"Reselda-Frostmane", -- [2]
+			"so assuming i did 50k with shadowstrike, thats gonna do 12.5k ", -- [1]
+			"Slyxhmsterez-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Reselda-Frostmane", -- [5]
+			"Slyxhmsterez-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1440, -- [11]
-			"Player-1303-0B628AA1", -- [12]
+			3158, -- [11]
+			"Player-1597-0E7F2F3A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeReselda|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
+			[51] = 1607391058,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [13]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14411:Player-1303-0B628AA1:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Halls of Atonement]|h|r!", -- [1]
-			"Reselda-Frostmane", -- [2]
+			"here", -- [1]
+			"Slyxhmsterez-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Reselda-Frostmane", -- [5]
+			"Slyxhmsterez-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1441, -- [11]
-			"Player-1303-0B628AA1", -- [12]
+			3159, -- [11]
+			"Player-1597-0E7F2F3A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeReselda|r",
-			[51] = 1606770293,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
+			[51] = 1607391076,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [14]
 		{
-			"Any doing mythics?", -- [1]
-			"Phantasyx-Frostmane", -- [2]
+			"oh", -- [1]
+			"Slyxhmsterez-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhmsterez-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1452, -- [11]
-			"Player-1303-0B698559", -- [12]
+			3160, -- [11]
+			"Player-1597-0E7F2F3A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Phantasyx|r",
-			[51] = 1606770333,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffef367Slyxhmsterez-Sylvanas|r",
+			[51] = 1607391083,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [15]
 		{
-			"I can go", -- [1]
-			"Amze-Aggra(Português)", -- [2]
+			"they're all horde :(", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1456, -- [11]
-			"Player-1303-0BAD3D47", -- [12]
+			3161, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Amze|r",
-			[51] = 1606770349,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391091,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [16]
 		{
-			"we didnt pick up the kyrian dude", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"log your mage lmao ", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1457, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3162, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770367,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391098,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [17]
 		{
-			"can any1 cod me", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"we can go boralus", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1459, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3163, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770382,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391102,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [18]
 		{
-			"10 lightless silk", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"coming to you", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1460, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3169, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770387,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391141,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [19]
 		{
-			"weird shit", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"lol i still got azerite powers", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1461, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3173, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770388,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391166,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [20]
 		{
-			"need it urgently", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"lets goo", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1462, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3174, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770389,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391168,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [21]
 		{
-			"yeah", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"easy game", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1463, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3175, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770391,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391172,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [22]
 		{
-			"just put ur price", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"ok so do timer again", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1464, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3176, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770391,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391177,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [23]
 		{
-			"5k", -- [1]
-			"Taryadel-Frostmane", -- [2]
+			"when do i hero", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1466, -- [11]
-			"Player-1303-0B695F74", -- [12]
+			3177, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Taryadel|r",
-			[51] = 1606770401,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391178,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [24]
 		{
-			"6k", -- [1]
-			"Demondalle-Frostmane", -- [2]
+			"and pop hero at like 1", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1467, -- [11]
-			"Player-1303-0B65B0F5", -- [12]
+			3178, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demondalle|r",
-			[51] = 1606770412,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391182,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [25]
 		{
-			"i mean 5k for each one", -- [1]
-			"Taryadel-Frostmane", -- [2]
+			"aight", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1468, -- [11]
-			"Player-1303-0B695F74", -- [12]
+			3179, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Taryadel|r",
-			[51] = 1606770420,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391185,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [26]
 		{
-			"6k for each one and a fee of 10k", -- [1]
-			"Demondalle-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14412:Player-1303-0B556DC0:1:12:8:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Mists of Tirna Scithe]|h|r!", -- [1]
+			"Kurova-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Kurova-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1471, -- [11]
-			"Player-1303-0B65B0F5", -- [12]
+			3181, -- [11]
+			"Player-1303-0B556DC0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demondalle|r",
-			[51] = 1606770440,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff006fdcKurova|r",
+			[51] = 1607391195,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [27]
 		{
-			"uhh", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:1311:Player-1303-0B8AA60E:1:12:8:20:4294967295:4294967295:4294967295:4294967295|h[Medium Rare]|h|r!", -- [1]
+			"Bombomo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Bombomo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1475, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3182, -- [11]
+			"Player-1303-0B8AA60E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770448,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffefefeBombomo|r",
+			[51] = 1607391228,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [28]
 		{
-			"here he is", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"that's illegal ", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1476, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3183, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770450,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391229,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [29]
 		{
-			"yeah ", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"but now im spent", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1477, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3184, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770453,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391233,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [30]
 		{
-			"this game sucks", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"but yeah", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1478, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3185, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770456,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391238,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [31]
 		{
-			"I also add another 20k for the mail...you know, delivery chages cost", -- [1]
-			"Taryadel-Frostmane", -- [2]
+			"12k burst ", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1479, -- [11]
-			"Player-1303-0B695F74", -- [12]
+			3186, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Taryadel|r",
-			[51] = 1606770461,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391241,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [32]
 		{
-			"charges*", -- [1]
-			"Taryadel-Frostmane", -- [2]
+			"thats crazy", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1480, -- [11]
-			"Player-1303-0B695F74", -- [12]
+			3187, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Taryadel|r",
-			[51] = 1606770466,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391244,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [33]
 		{
-			"k", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"holy shit", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1481, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3188, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770471,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391246,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [34]
 		{
-			"CoD it", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"whats the cd on it", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1482, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3189, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770472,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391252,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [35]
 		{
-			"What?", -- [1]
-			"Stimul-Frostmane", -- [2]
+			"5 mins", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1484, -- [11]
-			"Player-1303-0B698628", -- [12]
+			3190, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cStimul|r",
-			[51] = 1606770502,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391257,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [36]
 		{
-			"u serious? :D", -- [1]
-			"Stimul-Frostmane", -- [2]
+			"so u can tripple hero in a fight", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1487, -- [11]
-			"Player-1303-0B698628", -- [12]
+			3191, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cStimul|r",
-			[51] = 1606770517,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391266,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [37]
 		{
-			"2 secs ", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"but it's reduced with |cff71d5ff|Hspell:314791:0|h[Shifting Power]|h|r", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1488, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3192, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770517,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391269,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [38]
 		{
-			"need to reload", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"yeah", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1489, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3193, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770519,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391271,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [39]
 		{
-			"Sure", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"if its really long", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1490, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3194, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770532,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391283,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [40]
 		{
-			"yea why not", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"wtf thats op", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1491, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3195, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770537,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391287,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [41]
 		{
-			"CoD it", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"omg font", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1492, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3196, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770539,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391300,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [42]
 		{
-			"fk i only have 5, shall we say 100k ?", -- [1]
-			"Demondalle-Frostmane", -- [2]
+			"here we go", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1493, -- [11]
-			"Player-1303-0B65B0F5", -- [12]
+			3197, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Demondalle|r",
-			[51] = 1606770540,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391314,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [43]
 		{
-			"it says you're offline", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"omg look at him go", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1494, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3198, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770544,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391330,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [44]
 		{
-			"i just wont accept it :D thats all", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"sad i did same as my rogue", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1495, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3199, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770545,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391352,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [45]
 		{
-			"i cant see your hp", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"and i fucked entire combo", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1496, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3200, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770547,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391356,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [46]
 		{
-			"weird stuf", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"scaling tho", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1497, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3201, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770552,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391356,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [47]
 		{
-			"I thought maybe u rich boy", -- [1]
-			"Stimul-Frostmane", -- [2]
+			"scaling is fucked", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1500, -- [11]
-			"Player-1303-0B698628", -- [12]
+			3202, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cStimul|r",
-			[51] = 1606770560,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391360,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [48]
 		{
-			"Stimul he is not you :D", -- [1]
-			"Alenpfhon-Frostmane", -- [2]
+			"and azerite traits", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1505, -- [11]
-			"Player-1303-0B627575", -- [12]
+			3203, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Alenpfhon|r",
-			[51] = 1606770585,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391373,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [49]
 		{
-			"anyone for mythic +0? I am a tank", -- [1]
-			"Amze-Aggra(Português)", -- [2]
+			"aw man I miss your gear", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1506, -- [11]
-			"Player-1303-0BAD3D47", -- [12]
+			3204, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Amze|r",
-			[51] = 1606770588,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391375,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [50]
 		{
-			"srsly ", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"|cffa335ee|Hitem:168989::168640::::::60:62::23:7:4779:4802:6515:1479:4786:6473:6470::::|h[Hyperthread Wristwraps]|h|r :(", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1507, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3205, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770595,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391381,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [51]
 		{
-			"any1 got 10 of lightless silk?", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"facts", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1508, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3206, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770599,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391386,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [52]
 		{
-			"|cff1eff00|Hitem:173204::::::::58:103:::::::|h[Lightless Silk]|h|r 12x", -- [1]
-			"Alenpfhon-Frostmane", -- [2]
+			"|cffa335ee|Hitem:180117::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::|h[Empyreal Ordnance]|h|r", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1510, -- [11]
-			"Player-1303-0B627575", -- [12]
+			3207, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Alenpfhon|r",
-			[51] = 1606770607,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391408,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [53]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14303:Player-1303-0BA49D70:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Explore Bastion]|h|r!", -- [1]
-			"Keigeil-Frostmane", -- [2]
+			"this works like font", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Keigeil-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1511, -- [11]
-			"Player-1303-0BA49D70", -- [12]
+			3208, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeKeigeil|r",
-			[51] = 1606770616,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391411,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [54]
 		{
-			"can u CoD me?", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"uhh nice", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1512, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3209, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770618,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391425,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [55]
 		{
-			"i got 2x", -- [1]
-			"Amze-Aggra(Português)", -- [2]
+			"puts a dot on them for 12 secs", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1513, -- [11]
-			"Player-1303-0BAD3D47", -- [12]
+			3210, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Amze|r",
-			[51] = 1606770618,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391426,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [56]
 		{
-			"for a AH price?", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"then I get big int", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1514, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3211, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770622,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391429,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [57]
 		{
-			"im far far away", -- [1]
-			"Alenpfhon-Frostmane", -- [2]
+			"but I just use it with my burst", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1515, -- [11]
-			"Player-1303-0B627575", -- [12]
+			3212, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Alenpfhon|r",
-			[51] = 1606770624,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391434,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [58]
 		{
-			"Use mail", -- [1]
-			"Upaljach-Frostmane", -- [2]
+			"but what if only 1 target", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1519, -- [11]
-			"Player-1303-0B635D39", -- [12]
+			3213, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Upaljach|r",
-			[51] = 1606770630,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391435,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [59]
 		{
-			"from my mailbox", -- [1]
-			"Alenpfhon-Frostmane", -- [2]
+			"cba waiting", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1520, -- [11]
-			"Player-1303-0B627575", -- [12]
+			3214, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Alenpfhon|r",
-			[51] = 1606770634,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391436,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [60]
 		{
-			"|cff1eff00|Hitem:173204::::::::60:262:::::::|h[Lightless Silk]|h|r 36x but cant right now", -- [1]
-			"Laralee-Frostmane", -- [2]
+			"the same", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1521, -- [11]
-			"Player-1303-0B62FD76", -- [12]
+			3215, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcLaralee|r",
-			[51] = 1606770635,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391439,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [61]
 		{
-			"I can get you £10 off £15 spend at Ubereats", -- [1]
-			"Notoriosbig-Frostmane", -- [2]
+			"bigger dot on them", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1522, -- [11]
-			"Player-1303-0B62ADE3", -- [12]
+			3216, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Notoriosbig|r",
-			[51] = 1606770637,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391441,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [62]
 		{
-			"make sure the place doesnt overcharge first tho", -- [1]
-			"Notoriosbig-Frostmane", -- [2]
+			"crazy", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1523, -- [11]
-			"Player-1303-0B62ADE3", -- [12]
+			3217, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Notoriosbig|r",
-			[51] = 1606770645,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391448,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [63]
 		{
-			"where are we to take him", -- [1]
+			"either aoe dot or big single target dot", -- [1]
 			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1420,7 +1420,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1533, -- [11]
+			3218, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1428,99 +1428,99 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770704,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[51] = 1607391455,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [64]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14783:Player-1303-0B64BB37:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Level 60]|h|r!", -- [1]
-			"Terael-Frostmane", -- [2]
+			"its my bis for this ilvl by a mile", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Terael-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1534, -- [11]
-			"Player-1303-0B64BB37", -- [12]
+			3219, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Terael|r",
-			[51] = 1606770704,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391460,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [65]
 		{
-			"gz", -- [1]
-			"Thanilia-Frostmane", -- [2]
+			"nice", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1535, -- [11]
-			"Player-1303-0B697344", -- [12]
+			3220, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Thanilia|r",
-			[51] = 1606770709,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391469,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [66]
 		{
-			"to the quest thing", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"aight check this dps now", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1536, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3221, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770710,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391475,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [67]
 		{
-			"ta", -- [1]
-			"Terael-Frostmane", -- [2]
+			"7k!", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1537, -- [11]
-			"Player-1303-0B64BB37", -- [12]
+			3223, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Terael|r",
-			[51] = 1606770717,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391505,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [68]
 		{
-			"it says its here tho", -- [1]
+			"8l!", -- [1]
 			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1530,7 +1530,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1538, -- [11]
+			3224, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1538,121 +1538,121 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770722,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[51] = 1607391509,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [69]
 		{
-			":clap:", -- [1]
-			"Notoriosbig-Frostmane", -- [2]
+			"go little gnome", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1540, -- [11]
-			"Player-1303-0B62ADE3", -- [12]
+			3225, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Notoriosbig|r",
-			[51] = 1606770727,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391517,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [70]
 		{
-			"...", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"thats dumb", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1541, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3226, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770732,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391518,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [71]
 		{
-			"lets run around", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"lol", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1543, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3227, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770741,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391520,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [72]
 		{
-			"kill him or?", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"actually op", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1545, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3228, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770752,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391523,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [73]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14659:Player-1303-0B56056F:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Handling His Henchmen]|h|r!", -- [1]
-			"Deemon-Frostmane", -- [2]
+			"let me try ", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Deemon-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1546, -- [11]
-			"Player-1303-0B56056F", -- [12]
+			3229, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeDeemon|r",
-			[51] = 1606770753,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391530,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [74]
 		{
-			"ye", -- [1]
+			"shit spec", -- [1]
 			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1662,7 +1662,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1547, -- [11]
+			3230, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1670,363 +1670,363 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770754,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[51] = 1607391580,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [75]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14325:Player-1303-0B634653:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Spires of Ascension]|h|r!", -- [1]
-			"Dûmpling-Frostmane", -- [2]
+			"haha", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dûmpling-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1553, -- [11]
-			"Player-1303-0B634653", -- [12]
+			3231, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00fe97Dûmpling|r",
-			[51] = 1606770819,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391583,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [76]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14659:Player-1303-0B69853C:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Handling His Henchmen]|h|r!", -- [1]
-			"Arieli-Frostmane", -- [2]
+			"wtf", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Arieli-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1554, -- [11]
-			"Player-1303-0B69853C", -- [12]
+			3232, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaArieli|r",
-			[51] = 1606770820,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391584,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [77]
 		{
-			"Guess we need to relog potentially?", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"first combust of shadowlands", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1555, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3233, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770822,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391593,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [78]
 		{
-			"dunno", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"xd", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1557, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3234, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770827,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391601,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [79]
 		{
-			"What is this shit |cff71d5ff|Hmawpower:1252|h[Thread of Beads]|h|r", -- [1]
-			"Phantasyx-Frostmane", -- [2]
+			"hopefully my last", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1558, -- [11]
-			"Player-1303-0B698559", -- [12]
+			3235, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Phantasyx|r",
-			[51] = 1606770831,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391606,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [80]
 		{
-			"does it say its here for you?", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"aight i need bed", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1559, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3237, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770856,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391609,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [81]
 		{
-			"its what makes torghast rofl", -- [1]
-			"Notoriosbig-Frostmane", -- [2]
+			"same dude", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1561, -- [11]
-			"Player-1303-0B62ADE3", -- [12]
+			3238, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Notoriosbig|r",
-			[51] = 1606770859,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391612,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [82]
 		{
-			"Yeah", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"the science grp will be back", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1562, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3240, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770859,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391622,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [83]
 		{
-			"xD", -- [1]
-			"Notoriosbig-Frostmane", -- [2]
+			"oh yeh", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1563, -- [11]
-			"Player-1303-0B62ADE3", -- [12]
+			3241, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Notoriosbig|r",
-			[51] = 1606770859,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391630,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [84]
 		{
-			"big golden questionmark is here", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"probs loads of broken trinkets for us to test", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1564, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3242, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770868,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391637,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [85]
 		{
-			"ah well", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"facts", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1565, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3243, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770870,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391643,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [86]
 		{
-			"game sucks", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"aight night <3", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1566, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3246, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770872,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391646,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [87]
 		{
-			"I had 6 available at 1 point xD", -- [1]
-			"Notoriosbig-Frostmane", -- [2]
+			"wait", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1567, -- [11]
-			"Player-1303-0B62ADE3", -- [12]
+			3247, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Notoriosbig|r",
-			[51] = 1606770879,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391651,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [88]
 		{
-			"Why is that a green one", -- [1]
-			"Phantasyx-Frostmane", -- [2]
+			"you're in oribos!", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1569, -- [11]
-			"Player-1303-0B698559", -- [12]
+			3249, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Phantasyx|r",
-			[51] = 1606770887,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391655,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [89]
 		{
-			"lets try relog?", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"i wanted to say ", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1570, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3256, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770902,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391679,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [90]
 		{
-			"cuz it wont stop u getting 1 shot", -- [1]
-			"Notoriosbig-Frostmane", -- [2]
+			"you're in oribos!", -- [1]
+			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Rykahpo-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1571, -- [11]
-			"Player-1303-0B62ADE3", -- [12]
+			3257, -- [11]
+			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Notoriosbig|r",
-			[51] = 1606770902,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaRykahpo|r",
+			[51] = 1607391682,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [91]
 		{
-			"do we just go?", -- [1]
+			"but yeah", -- [1]
 			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2036,7 +2036,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1572, -- [11]
+			3258, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2044,33 +2044,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770903,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[51] = 1607391703,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [92]
 		{
-			"sure", -- [1]
-			"Rykahpo-Frostmane", -- [2]
+			"wtf", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rykahpo-Frostmane", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1573, -- [11]
-			"Player-1303-0B699A5B", -- [12]
+			3259, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770905,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391705,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [93]
 		{
-			"think we can relog together?", -- [1]
+			"good night my dude", -- [1]
 			"Rykahpo-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2080,7 +2080,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1574, -- [11]
+			3260, -- [11]
 			"Player-1303-0B699A5B", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2088,118 +2088,118 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3ec6eaRykahpo|r",
-			[51] = 1606770913,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[51] = 1607391707,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [94]
 		{
-			"and u need the gcd", -- [1]
-			"Notoriosbig-Frostmane", -- [2]
+			"cant even commit dead", -- [1]
+			"Slyxhamstrez-Frostmane", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Slyxhamstrez-Frostmane", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1575, -- [11]
-			"Player-1303-0B62ADE3", -- [12]
+			3261, -- [11]
+			"Player-1303-0B693972", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Notoriosbig|r",
-			[51] = 1606770913,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaSlyxhamstrez|r",
+			[51] = 1607391711,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [95]
 		{
-			"Maybe you should do it", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"Honestly i'm very sad.. it's my first time to play WoW and everyone is decline the mythic apply cause my item lvl is 168 and no experience..how am i suppose to get some if none is letting me in ? -.-", -- [1]
+			"Kkthxbyee-GrimBatol", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"1. General - Oribos", -- [4]
+			"Kkthxbyee-GrimBatol", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Oribos", -- [9]
 			0, -- [10]
-			1576, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3272, -- [11]
+			"Player-1303-0B80F848", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770919,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			true, -- [17]
+			[52] = "|cfffef367Kkthxbyee-GrimBatol|r",
+			[51] = 1607391782,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [96]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14845:Player-1303-0B67F3D5:1:11:30:20:4294967295:4294967295:4294967295:4294967295|h[Adventures: A Step in the Right Direction]|h|r!", -- [1]
-			"Adórabelle-Frostmane", -- [2]
+			"LFM to random hc :D ", -- [1]
+			"Vrimme-Frostmane", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Adórabelle-Frostmane", -- [5]
+			"2. Trade - City", -- [4]
+			"Vrimme-Frostmane", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1577, -- [11]
-			"Player-1303-0B67F3D5", -- [12]
+			3277, -- [11]
+			"Player-1303-0BB46EB3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Adórabelle|r",
-			[51] = 1606770919,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			true, -- [17]
+			[52] = "|cffc59a6cVrimme|r",
+			[51] = 1607391811,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [97]
 		{
-			"and cant use if silenced or stunned", -- [1]
-			"Notoriosbig-Frostmane", -- [2]
+			"hey mate! try making your own groups instead", -- [1]
+			"Kkthxbyee-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Kkthxbyee-GrimBatol", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1578, -- [11]
-			"Player-1303-0B62ADE3", -- [12]
+			3279, -- [11]
+			"Player-1303-0B80F848", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Notoriosbig|r",
-			[51] = 1606770922,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffef367Kkthxbyee-GrimBatol|r",
+			[51] = 1607391821,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [98]
 		{
-			"since you got the npc on you", -- [1]
-			"Coldaras-Frostmane", -- [2]
+			"being a new player is hard in this game", -- [1]
+			"Kkthxbyee-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Coldaras-Frostmane", -- [5]
+			"Kkthxbyee-GrimBatol", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1579, -- [11]
-			"Player-1303-0B5678E6", -- [12]
+			3282, -- [11]
+			"Player-1303-0B80F848", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc31d39Coldaras|r",
-			[51] = 1606770925,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cfffef367Kkthxbyee-GrimBatol|r",
+			[51] = 1607391829,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [99]
 	},
 }

@@ -80,10 +80,10 @@ PawnCommon = {
 				["Mechaboost-Sylvanas"] = {
 					["Visible"] = true,
 				},
-				["Mechaboost-Defias Brotherhood"] = {
+				["Morallygrey-Frostmane"] = {
 					["Visible"] = true,
 				},
-				["Morallygrey-Frostmane"] = {
+				["Mechaboost-Defias Brotherhood"] = {
 					["Visible"] = true,
 				},
 				["Mechaboost-Silvermoon"] = {
@@ -128,9 +128,6 @@ PawnCommon = {
 				["Xpreach-Tarren Mill"] = {
 					["Visible"] = true,
 				},
-				["Rykahboost-Turalyon"] = {
-					["Visible"] = true,
-				},
 				["Rykahpo-Doomhammer"] = {
 					["Visible"] = true,
 				},
@@ -138,6 +135,9 @@ PawnCommon = {
 					["Visible"] = true,
 				},
 				["Rcumplus-Aggramar"] = {
+					["Visible"] = true,
+				},
+				["Rykahboost-Turalyon"] = {
 					["Visible"] = true,
 				},
 				["Advboi-Grim Batol"] = {
@@ -225,11 +225,11 @@ PawnCommon = {
 				["CritRating"] = 8.2,
 				["HasteRating"] = 8.91,
 				["MasteryRating"] = 9.66,
-				["Versatility"] = 9.07,
+				["IsCrossbow"] = -1000000,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
 				["Is2HAxe"] = -1000000,
-				["IsShield"] = -1000000,
+				["IsAxe"] = -1000000,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
@@ -237,8 +237,8 @@ PawnCommon = {
 				["IsOffHand"] = -1000000,
 				["IsWarglaive"] = -1000000,
 				["Is2HSword"] = -1000000,
-				["IsAxe"] = -1000000,
-				["IsCrossbow"] = -1000000,
+				["IsShield"] = -1000000,
+				["Versatility"] = 9.07,
 			},
 			["Color"] = "3ec5e9",
 			["ClassID"] = 8,
@@ -376,23 +376,23 @@ PawnCommon = {
 				["IsFist"] = -1000000,
 				["Is2HMace"] = -1000000,
 				["IsWarglaive"] = -1000000,
-				["CritRating"] = 3.16,
-				["HasteRating"] = 2.54,
-				["MasteryRating"] = 3.22,
+				["CritRating"] = 0.96,
+				["HasteRating"] = 0.81,
+				["MasteryRating"] = 1,
 				["IsCrossbow"] = -1000000,
 				["IsPolearm"] = -1000000,
 				["IsGun"] = -1000000,
 				["Is2HAxe"] = -1000000,
-				["IsShield"] = -1000000,
+				["Versatility"] = 0.91,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
 				["IsLeather"] = -1000000,
-				["Intellect"] = 4.19,
+				["Intellect"] = 2.74,
 				["IsMace"] = -1000000,
 				["Is2HSword"] = -1000000,
 				["IsAxe"] = -1000000,
-				["Versatility"] = 3.23,
+				["IsShield"] = -1000000,
 			},
 		},
 		["Frostaoe"] = {
@@ -563,6 +563,24 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "6566b2",
 		},
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
+			["PerCharacterOptions"] = {
+				["Preech-Tarren Mill"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "a330c9",
+			["ClassID"] = 12,
+			["LocalizedName"] = "Demon Hunter: Vengeance",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "7a2496",
+		},
 		["\"MrRobot\":MAGE1"] = {
 			["IconTexturePath"] = 135932,
 			["PerCharacterOptions"] = {
@@ -583,24 +601,6 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "2f95b0",
-		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
-			["PerCharacterOptions"] = {
-				["Preech-Tarren Mill"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "a330c9",
-			["ClassID"] = 12,
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "7a2496",
 		},
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
@@ -737,9 +737,6 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT2"] = {
 			["IconTexturePath"] = 135773,
 			["PerCharacterOptions"] = {
-				["Rÿkah-Frostmane"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "ff4d6b",
 			["ClassID"] = 6,
@@ -789,6 +786,9 @@ PawnCommon = {
 			["IconTexturePath"] = 135770,
 			["PerCharacterOptions"] = {
 				["Preacherino-Tarren Mill"] = {
+					["Visible"] = true,
+				},
+				["Rÿkah-Frostmane"] = {
 					["Visible"] = true,
 				},
 				["Rykahdk-Frostmane"] = {

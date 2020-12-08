@@ -166,12 +166,7 @@ _detalhes_database = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["enabled"] = false,
 			["arrow_size"] = 10,
 			["font_size"] = 10,
@@ -182,7 +177,7 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["use_spark"] = true,
 			["y"] = -74.9996948242188,
@@ -199,7 +194,12 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["point"] = "TOPLEFT",
 			["row_height"] = 20,
 			["scale"] = 1,
@@ -292,24 +292,17 @@ _detalhes_database = {
 			},
 		},
 	},
-	["on_death_menu"] = true,
-	["combat_counter"] = 1276,
-	["last_encounter"] = "The Lich King",
-	["cd_tracker"] = {
-		["enabled"] = false,
-		["cds_enabled"] = {
-		},
-		["show_conditions"] = {
-			["only_inside_instance"] = true,
-			["only_in_group"] = true,
-		},
-		["pos"] = {
-		},
-	},
 	["benchmark_db"] = {
 		["frame"] = {
 		},
 	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1608056090,
+		["last_version"] = 12,
+	},
+	["on_death_menu"] = true,
+	["combat_counter"] = 1292,
+	["last_encounter"] = "The Lich King",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -330,7 +323,7 @@ _detalhes_database = {
 	},
 	["force_font_outline"] = "",
 	["character_data"] = {
-		["logons"] = 154,
+		["logons"] = 162,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -459,15 +452,22 @@ _detalhes_database = {
 			},
 		},
 	},
-	["last_day"] = "30",
+	["last_day"] = "08",
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["nick_tag_cache"] = {
-		["nextreset"] = 1608056090,
-		["last_version"] = 12,
+	["cd_tracker"] = {
+		["enabled"] = false,
+		["cds_enabled"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["pos"] = {
+		},
 	},
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {

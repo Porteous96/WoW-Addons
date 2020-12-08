@@ -2210,6 +2210,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Serpentrix",
 		},
+		[70410] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Darkfallen Archmage",
+		},
 		[69899] = {
 			["school"] = 8,
 			["token"] = {
@@ -2218,13 +2226,6 @@ EncounterDetailsDB = {
 				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Kor'kron Primalist",
-		},
-		[71943] = {
-			["school"] = 96,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Prince Keleseth",
 		},
 		[69904] = {
 			["school"] = 64,
@@ -2243,13 +2244,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Railmaster Rocketspark",
 		},
-		[70410] = {
-			["school"] = 64,
+		[71943] = {
+			["school"] = 96,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Darkfallen Archmage",
+			["source"] = "Prince Keleseth",
 		},
 		[70985] = {
 			["school"] = 32,
@@ -2560,13 +2560,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Earthen Wall Totem",
 		},
-		[198376] = {
+		[69167] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archdruid Glaidalis",
+			["source"] = "Scourgelord Tyrannus",
 		},
 		[257460] = {
 			["school"] = 4,
@@ -2576,15 +2578,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[70189] = {
-			["school"] = 8,
+		[198376] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Spire Gargoyle",
+			["source"] = "Archdruid Glaidalis",
 		},
 		[51750] = {
 			["school"] = 1,
@@ -2595,15 +2595,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Ymiron",
 		},
-		[69167] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[70189] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Scourgelord Tyrannus",
+			["source"] = "Spire Gargoyle",
 		},
 		[59824] = {
 			["school"] = 1,

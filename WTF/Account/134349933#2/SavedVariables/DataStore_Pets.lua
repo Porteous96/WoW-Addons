@@ -2,19 +2,19 @@
 DataStore_PetsDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
-		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
-		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
 		["Blissard - Frostmane"] = "Blissard - Frostmane",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
@@ -29,10 +29,10 @@ DataStore_PetsDB = {
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
-		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
 	},
 	["global"] = {
 		["Reference"] = {
@@ -230,12 +230,12 @@ DataStore_PetsDB = {
 				[184480] = 91823,
 				[177222] = 143811,
 				[142029] = 71200,
-				[35239] = 20472,
+				[139933] = 70452,
 				[155838] = 77221,
 				[279213] = 143189,
 				[103125] = 55215,
-				[96571] = 52226,
 				[341825] = 174181,
+				[96571] = 52226,
 				[173532] = 86715,
 				[176137] = 88222,
 				[139934] = 70453,
@@ -294,7 +294,7 @@ DataStore_PetsDB = {
 				[280334] = 143818,
 				[65358] = 34364,
 				[137568] = 69649,
-				[139933] = 70452,
+				[35239] = 20472,
 				[134895] = 68468,
 				[170272] = 88103,
 				[254197] = 128119,
@@ -315,24 +315,41 @@ DataStore_PetsDB = {
 					10683, -- [1]
 				},
 			},
-			["Default.Frostmane.Blissard"] = {
-				["lastUpdate"] = 1600977656,
+			["Default.Frostmane.Rykahshaman"] = {
+				["lastUpdate"] = 1603923248,
+				["CRITTER"] = {
+					285843, -- [1]
+				},
 			},
-			["Default.Defias Brotherhood.Mechaboost"] = {
-				["lastUpdate"] = 1594773075,
+			["Default.Frostmane.Rÿkah"] = {
+				["lastUpdate"] = 1607218666,
+				["CRITTER"] = {
+					288890, -- [1]
+					288895, -- [2]
+					301029, -- [3]
+					177219, -- [4]
+					315221, -- [5]
+					177222, -- [6]
+					315231, -- [7]
+					288889, -- [8]
+					42609, -- [9]
+					288916, -- [10]
+					288910, -- [11]
+					301015, -- [12]
+				},
 			},
 			["Default.Doomhammer.Rykahpo"] = {
 				["lastUpdate"] = 1602626358,
 			},
 			["Default.Frostmane.Rykkahpo"] = {
-				["lastUpdate"] = 1606760150,
+				["lastUpdate"] = 1607458219,
 				["CRITTER"] = {
 					69452, -- [1]
 					164212, -- [2]
 				},
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1606774869,
+				["lastUpdate"] = 1607466937,
 				["CRITTER"] = {
 					179831, -- [1]
 					248240, -- [2]
@@ -572,14 +589,11 @@ DataStore_PetsDB = {
 					173532, -- [236]
 				},
 			},
-			["Default.Frostmane.Rykahshaman"] = {
-				["lastUpdate"] = 1603923248,
-				["CRITTER"] = {
-					285843, -- [1]
-				},
+			["Default.Frostmane.Blissard"] = {
+				["lastUpdate"] = 1600977656,
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1606782546,
+				["lastUpdate"] = 1607458012,
 			},
 			["Default.Frostmane.Rykahwar"] = {
 				["lastUpdate"] = 1605827287,
@@ -594,7 +608,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Frostmane.Rykahhpo"] = {
-				["lastUpdate"] = 1606760191,
+				["lastUpdate"] = 1607458288,
 				["CRITTER"] = {
 					69452, -- [1]
 					100684, -- [2]
@@ -624,28 +638,17 @@ DataStore_PetsDB = {
 					139934, -- [8]
 				},
 			},
-			["Default.Frostmane.Rÿkah"] = {
-				["lastUpdate"] = 1606782313,
-				["CRITTER"] = {
-					288890, -- [1]
-					288895, -- [2]
-					301029, -- [3]
-					177219, -- [4]
-					315221, -- [5]
-					177222, -- [6]
-					315231, -- [7]
-					288889, -- [8]
-					42609, -- [9]
-					288916, -- [10]
-					288910, -- [11]
-					301015, -- [12]
-				},
+			["Default.Defias Brotherhood.Mechaboost"] = {
+				["lastUpdate"] = 1594773075,
 			},
 			["Default.Frostmane.Rykahpriest"] = {
 				["lastUpdate"] = 1606080857,
 			},
 			["Default.Frostmane.Advboi"] = {
 				["lastUpdate"] = 1602628683,
+			},
+			["Default.Frostmane.Rykahthree"] = {
+				["lastUpdate"] = 1602709343,
 			},
 			["Default.Frostmane.Rykahpow"] = {
 				["lastUpdate"] = 1599917000,
@@ -655,9 +658,6 @@ DataStore_PetsDB = {
 					16450, -- [3]
 					15999, -- [4]
 				},
-			},
-			["Default.Frostmane.Rykahthree"] = {
-				["lastUpdate"] = 1602709343,
 			},
 			["Default.Silvermoon.Mechaboost"] = {
 				["lastUpdate"] = 1594901078,
@@ -703,7 +703,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1597588061,
 			},
 			["Default.Frostmane.Rykahpoh"] = {
-				["lastUpdate"] = 1606760060,
+				["lastUpdate"] = 1607458335,
 				["CRITTER"] = {
 					225200, -- [1]
 					229102, -- [2]

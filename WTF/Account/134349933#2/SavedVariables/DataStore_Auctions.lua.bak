@@ -2,19 +2,19 @@
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
 		["Rykahboost - Turalyon"] = "Rykahboost - Turalyon",
-		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
+		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
 		["Rykahpoh - Frostmane"] = "Rykahpoh - Frostmane",
 		["Rykahdruid - Frostmane"] = "Rykahdruid - Frostmane",
 		["Blissard - Frostmane"] = "Blissard - Frostmane",
-		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
-		["Rykahpoa - Frostmane"] = "Rykahpoa - Frostmane",
+		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpow - Frostmane"] = "Rykahpow - Frostmane",
 		["Rykahpodh - Frostmane"] = "Rykahpodh - Frostmane",
 		["Advboi - Frostmane"] = "Advboi - Frostmane",
 		["Rykahpodh - Kazzak"] = "Rykahpodh - Kazzak",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
+		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
 		["Rykahwar - Frostmane"] = "Rykahwar - Frostmane",
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
-		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Rykahpoo - Frostmane"] = "Rykahpoo - Frostmane",
 		["Rykahshaman - Frostmane"] = "Rykahshaman - Frostmane",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
@@ -29,15 +29,15 @@ DataStore_AuctionsDB = {
 		["Slywithapet - Frostmane"] = "Slywithapet - Frostmane",
 		["Rykah - Frostmane"] = "Rykah - Frostmane",
 		["Rykahpo - Doomhammer"] = "Rykahpo - Doomhammer",
-		["Bankypo - Frostmane"] = "Bankypo - Frostmane",
+		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
 		["Rykahtwo - Frostmane"] = "Rykahtwo - Frostmane",
 		["Mechaboost - Silvermoon"] = "Mechaboost - Silvermoon",
-		["Rykahboost - Aggramar"] = "Rykahboost - Aggramar",
+		["Rykahpala - Frostmane"] = "Rykahpala - Frostmane",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmane.Rÿkah"] = {
-				["lastUpdate"] = 1606782356,
+				["lastUpdate"] = 1607216592,
 			},
 			["Default.Grim Batol.Advboi"] = {
 				["lastUpdate"] = 1602177014,
@@ -49,25 +49,9 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1594773423,
 			},
 			["Default.Frostmane.Rykahpo"] = {
-				["lastUpdate"] = 1606770745,
+				["lastUpdate"] = 1607388148,
 				["Auctions"] = {
-					"0|132514|6|||3078900|", -- [1]
-					"0|133576|33|||39900|", -- [2]
-					"0|178149|1|||29900|", -- [3]
-					"0|179314|2|||172000|", -- [4]
-					"0|173037|4|||389900|", -- [5]
-					"0|183738|4|||17639900|", -- [6]
-					"0|38682|364|||11600|", -- [7]
-					"0|173033|86|||657700|", -- [8]
-					"0|173039|1|||89900|", -- [9]
-					"0|171441|3|||120000|", -- [10]
-					"0|152497|63|||20000|", -- [11]
-					"0|173204|102|||267800|", -- [12]
-					"0|173038|2|||9700|", -- [13]
-					"0|172936|1|||504500|", -- [14]
-					"0|172055|2|||24900|", -- [15]
-					"0|172054|22|||37500|", -- [16]
-					"0|173192|1|||17800|", -- [17]
+					"0|172230|12|||169500|", -- [1]
 				},
 				["lastVisitDate"] = "2020/08/21 23:29",
 			},
@@ -78,32 +62,23 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1594773113,
 			},
 			["Default.Frostmane.Bankypo"] = {
-				["lastUpdate"] = 1606761129,
+				["lastUpdate"] = 1607458190,
 				["Auctions"] = {
-					"0|168314|30|||69800|", -- [1]
-					"0|72094|200|||150000|", -- [2]
-					"0|21844|3|||971000|", -- [3]
-					"0|3371|41|||29000|", -- [4]
-					"0|8949|20|||1370400|", -- [5]
-					"0|9179|11|||550000|", -- [6]
-					"0|53010|39|||30000|", -- [7]
-					"0|38682|105|||11600|", -- [8]
-					"0|76086|4|||199500|", -- [9]
-					"0|76084|3|||5006600|", -- [10]
-					"0|87526|1|||18396900|", -- [11]
-					"0|3770|4|||115600|", -- [12]
-					"0|13462|4|||200000|", -- [13]
-					"0|90655|1|||424990000|", -- [14]
-					"0|2835|141|||9800|", -- [15]
-					"0|168303|40|||16500|", -- [16]
-					"0|14047|200|||10000|", -- [17]
-					"0|7912|17|||7900|", -- [18]
-					"0|3576|200|||21500|", -- [19]
-					"0|1080|4|||380000|", -- [20]
-					"0|174890|3|||504800|", -- [21]
-					"0|76089|36|||65400|", -- [22]
-					"0|52327|5|||80000|", -- [23]
-					"0|72103|200|||302200|", -- [24]
+					"0|21844|3|||967000|", -- [1]
+					"0|152631|7|||2100|", -- [2]
+					"0|22644|4|||16100|", -- [3]
+					"0|8949|20|||1350400|", -- [4]
+					"0|9179|11|||498000|", -- [5]
+					"0|109076|100|||145000|", -- [6]
+					"0|172049|81|||599600|", -- [7]
+					"0|152497|38|||100000|", -- [8]
+					"0|3770|4|||50000|", -- [9]
+					"0|13462|4|||820900|", -- [10]
+					"0|173192|1|||17700|", -- [11]
+					"0|95416|1|||600006300|", -- [12]
+					"0|124115|200|||31100|", -- [13]
+					"0|76089|36|||40000|", -- [14]
+					"0|72103|117|||900000|", -- [15]
 				},
 				["lastVisitDate"] = "2020/10/04 21:29",
 			},

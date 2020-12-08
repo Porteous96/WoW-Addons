@@ -1001,6 +1001,14 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
+			["Primavera-Un'Goro"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Primavera-Un'Goro",
+				["overall"] = {
+				},
+			},
 			["Merren"] = {
 				["deaths"] = {
 				},
@@ -1008,14 +1016,6 @@ DeathGraphsDBDeaths = {
 				["name"] = "Merren",
 				["overall"] = {
 				},
-			},
-			["Devilmáster-Madmortem"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Devilmáster-Madmortem",
 			},
 			["Lízzie"] = {
 				["deaths"] = {
@@ -1073,13 +1073,13 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 			},
-			["Primavera-Un'Goro"] = {
+			["Devilmáster-Madmortem"] = {
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
-				["name"] = "Primavera-Un'Goro",
 				["overall"] = {
 				},
+				["name"] = "Devilmáster-Madmortem",
 			},
 			["Bacard"] = {
 				["deaths"] = {
@@ -2269,13 +2269,13 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Fiearstyle-Aman'thul",
 			},
-			["Merren"] = {
-				["class"] = "WARLOCK",
+			["Coldaras"] = {
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Merren",
+				["name"] = "Coldaras",
 			},
 			["Queroth-Silvermoon"] = {
 				["class"] = "WARRIOR",
@@ -2285,6 +2285,22 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Queroth-Silvermoon",
 			},
+			["Janiecz-BurningBlade"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Janiecz-BurningBlade",
+				["class"] = "DRUID",
+			},
+			["Cérbérus"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cérbérus",
+			},
 			["Santto"] = {
 				["class"] = "MONK",
 				["deaths"] = {
@@ -2292,22 +2308,6 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 				},
 				["name"] = "Santto",
-			},
-			["Coldaras"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Coldaras",
-			},
-			["Katsika"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Katsika",
 			},
 			["Krowi"] = {
 				["class"] = "PALADIN",
@@ -2317,13 +2317,13 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Krowi",
 			},
-			["Cérbérus"] = {
+			["Merren"] = {
 				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
 				["overall"] = {
 				},
-				["name"] = "Cérbérus",
+				["name"] = "Merren",
 			},
 			["Rocktan-Antonidas"] = {
 				["class"] = "ROGUE",
@@ -2381,13 +2381,13 @@ DeathGraphsDBDeaths = {
 				["name"] = "Bòòst",
 				["class"] = "PRIEST",
 			},
-			["Janiecz-BurningBlade"] = {
-				["overall"] = {
-				},
+			["Katsika"] = {
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["name"] = "Janiecz-BurningBlade",
-				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["name"] = "Katsika",
 			},
 			["Kanishka"] = {
 				["class"] = "MONK",
@@ -2436,9 +2436,9 @@ DeathGraphsDBDeaths = {
 			["killed"] = true,
 		},
 		["player_db"] = {
-			["Jisho-Ravencrest"] = {
-				["name"] = "Jisho-Ravencrest",
-				["class"] = "DRUID",
+			["Suddenee-Ravencrest"] = {
+				["name"] = "Suddenee-Ravencrest",
+				["class"] = "HUNTER",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -2452,9 +2452,9 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Suddenee-Ravencrest"] = {
-				["name"] = "Suddenee-Ravencrest",
-				["class"] = "HUNTER",
+			["Nåjd-Ravencrest"] = {
+				["name"] = "Nåjd-Ravencrest",
+				["class"] = "SHAMAN",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -2468,9 +2468,9 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Nåjd-Ravencrest"] = {
-				["name"] = "Nåjd-Ravencrest",
-				["class"] = "SHAMAN",
+			["Jisho-Ravencrest"] = {
+				["name"] = "Jisho-Ravencrest",
+				["class"] = "DRUID",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -2901,13 +2901,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
 			["Imatumi-Dalaran"] = {
 				["encounters"] = 2,
 				["points"] = 190,
@@ -2919,6 +2912,13 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 				["class"] = "PRIEST",
+			},
+			["Xycon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
 			},
 			["Totemdalle"] = {
 				["encounters"] = 1,
@@ -3028,12 +3028,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Xycon"] = {
+			["Mærine-Silvermoon"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
 			["Sitré-Silvermoon"] = {
 				["encounters"] = 2,
@@ -4581,24 +4581,17 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Imatumi-Dalaran"] = {
+			["Mærine-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Merren"] = {
 				["encounters"] = 2,
 				["points"] = 200,
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Mærine-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
@@ -4608,6 +4601,13 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 				["class"] = "MONK",
+			},
+			["Imatumi-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 			["Sitré-Silvermoon"] = {
 				["encounters"] = 1,
@@ -4879,19 +4879,19 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
 			["Thomassan-Thunderhorn"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "MAGE",
-			},
-			["Eldraen-Silvermoon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
 			},
 			["Devereux"] = {
 				["encounters"] = 2,
@@ -4921,12 +4921,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Imatumi-Dalaran"] = {
+			["Xycon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
+				["class"] = "MONK",
 			},
 			["Zethak"] = {
 				["encounters"] = 2,
@@ -4954,12 +4954,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Xycon"] = {
+			["Mærine-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
 			["Alloe"] = {
 				["encounters"] = 2,
@@ -5034,12 +5034,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Mærine-Silvermoon"] = {
+			["Imatumi-Dalaran"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["Sitré-Silvermoon"] = {
 				["encounters"] = 1,
@@ -5084,12 +5084,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Trunkenbolt-Madmortem"] = {
+			["Eldraen-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
 			["Iamnotjamie-Silvermoon"] = {
 				["encounters"] = 1,
@@ -7255,19 +7255,24 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Imatumi-Dalaran"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
 			["Mærine-Silvermoon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "DRUID",
 				["deaths"] = {
 				},
+			},
+			["Xycon"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						72.69100000000026, -- [2]
+						"Scorching Blister (DoT) |cFFFF33334,247|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MONK",
 			},
 			["Azráel-Madmortem"] = {
 				["encounters"] = 1,
@@ -7318,17 +7323,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Xycon"] = {
+			["Imatumi-Dalaran"] = {
 				["encounters"] = 1,
-				["points"] = 90,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						1, -- [1]
-						72.69100000000026, -- [2]
-						"Scorching Blister (DoT) |cFFFF33334,247|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "MONK",
+				["class"] = "PRIEST",
 			},
 			["Sitré-Silvermoon"] = {
 				["encounters"] = 1,
@@ -7658,19 +7658,19 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
+			["Eldraen-Silvermoon"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
 			["Thomassan-Thunderhorn"] = {
 				["encounters"] = 2,
 				["points"] = 200,
 				["deaths"] = {
 				},
 				["class"] = "MAGE",
-			},
-			["Trunkenbolt-Madmortem"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
 			},
 			["Thanilia"] = {
 				["encounters"] = 1,
@@ -7873,12 +7873,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Eldraen-Silvermoon"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Trunkenbolt-Madmortem"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Iamnotjamie-Silvermoon"] = {
 				["encounters"] = 1,
@@ -8371,19 +8371,19 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Xycon"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
 			["Imatumi-Dalaran"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "PRIEST",
+			},
+			["Mærine-Silvermoon"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
 			},
 			["Lixariah-Aegwynn"] = {
 				["encounters"] = 1,
@@ -8432,12 +8432,12 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Mærine-Silvermoon"] = {
+			["Xycon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
 			["Sitré-Silvermoon"] = {
 				["encounters"] = 1,

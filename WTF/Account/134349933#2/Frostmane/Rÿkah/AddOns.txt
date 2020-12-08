@@ -4,7 +4,7 @@ BigWigs_Plugins: enabled
 ElvUI_EverySecondCounts: disabled
 Azeroth Auto Pilot: disabled
 LittleWigs: enabled
-AAP-Core: enabled
+AAP-Core: disabled
 DugisGuideViewerZ: disabled
 Auctionator: disabled
 AzeriteTooltip: enabled
@@ -135,3 +135,4 @@ RaiderIO_DB_KR_A: disabled
 ComboPointsRedux: disabled
 ComboPointsRedux_Options: disabled
 ElvUI_QuestXP: disabled
+Plater: disabled

@@ -3,14 +3,14 @@ PawnOptions = {
 	["LastVersion"] = 2.0406,
 	["ItemLevels"] = {
 		{
-			["ID"] = 178693,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:178693::::::::60:62::2:5:6806:6652:7193:1485:4785:1:28:748:::|h[Cocoonsilk Cowl]|h|r",
+			["ID"] = 178759,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178759::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Depraved Physician's Mask]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 180115,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:180115::::::::60:62::2:5:6806:6652:7194:1485:4785:1:28:748:::|h[Azure-Venom Choker]|h|r",
+			["ID"] = 178707,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178707::::::::60:62::23:5:6807:6652:6935:1498:6646:1:28:749:::|h[Trailspinner Pendant]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 178803,
@@ -19,9 +19,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 179335,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:179335::::::::60:62::2:4:6806:6652:1485:4785:1:28:2044:::|h[Manastorm's Magnificent Threads]|h|r",
+			["ID"] = 173241,
+			["Level"] = 190,
+			["Link"] = "|cffffffff|Hitem:173241::::::::60:62::63:2:6716:1487::::|h[Grim-Veiled Robe]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 184788,
@@ -39,9 +39,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:178756::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::|h[Stradama's Misplaced Slippers]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 178782,
-			["Level"] = 171,
-			["Link"] = "|cff0070dd|Hitem:178782::::::::60:62::2:5:6806:6652:7193:1485:4785:1:28:748:::|h[Necropolis Lord's Shackles]|h|r",
+			["ID"] = 178704,
+			["Level"] = 184,
+			["Link"] = "|cffa335ee|Hitem:178704::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::|h[Deathshackle Wristwraps]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 178705,
@@ -61,16 +61,16 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179355::::::::60:64::23:5:6807:6652:6935:1498:6646:1:28:2044:::|h[Death God's Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 178849,
-			["Level"] = 184,
+			["ID"] = 173069,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:178849::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::|h[Overflowing Anima Cage]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173069::::::::60:62::13:::::|h[Darkmoon Deck: Putrescence]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 178849,
-			["Level"] = 184,
+			["ID"] = 173069,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:178849::::::::60:64::23:4:6807:6652:1498:6646:1:28:749:::|h[Overflowing Anima Cage]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173069::::::::60:63::13:::::|h[Darkmoon Deck: Putrescence]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 179349,

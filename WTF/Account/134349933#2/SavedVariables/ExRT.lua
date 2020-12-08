@@ -1,9 +1,11 @@
 
 VExRT = {
 	["BattleRes"] = {
-		["Top"] = 105.5559158325195,
+		["enabled"] = true,
 		["Strata"] = "HIGH",
+		["fix"] = true,
 		["Left"] = 791.3330688476562,
+		["Top"] = 105.5559158325195,
 	},
 	["ProfileKeys"] = {
 		["Rykahboost-Turalyon"] = "default",
@@ -192,12 +194,12 @@ VExRT = {
 			[1413] = "Hoptallus",
 			[1898] = "Vexallus",
 			[1901] = "Tavarok",
-			[1941] = "Rokmar the Crackler",
+			[2345] = "Il'gynoth, Corruption Reborn",
 			[1894] = "Kael'thas Sunstrider",
-			[2284] = "Grong the Revenant",
+			[1655] = "Magmolatus",
 			[1895] = "Priestess Delrissa",
 			[2356] = "Ventunax",
-			[481] = "Maleki the Pallid",
+			[2303] = "Orgozoa",
 			[1412] = "Ook-Ook",
 			[2257] = "Tussle Tonks",
 			[2258] = "K.U.-J.0.",
@@ -217,7 +219,7 @@ VExRT = {
 			[2272] = "King Rastakhan",
 			[1426] = "Instructor Chillheart",
 			[1938] = "Warchief Kargath Bladefist",
-			[1429] = "Lilian Voss",
+			[1940] = "Quagmirran",
 			[2276] = "Mekkatorque",
 			[1685] = "Soulbinder Nyami",
 			[1652] = "Roltall",
@@ -225,8 +227,8 @@ VExRT = {
 			[1653] = "Slave Watcher Crushto",
 			[2281] = "Lady Jaina Proudmoore",
 			[1654] = "Gug'rokk",
-			[1430] = "Darkmaster Gandling",
-			[1144] = "Hogger",
+			[1941] = "Rokmar the Crackler",
+			[2284] = "Grong the Revenant",
 			[2285] = "Jadefire Masters",
 			[1145] = "Lord Overheat",
 			[479] = "Baroness Anastari",
@@ -245,7 +247,7 @@ VExRT = {
 			[1180] = "High Priestess Kilnara",
 			[1919] = "Aeonus",
 			[2357] = "Kin-Tara",
-			[1920] = "Chrono Lord Deja",
+			[481] = "Maleki the Pallid",
 			[2304] = "Lady Ashvane",
 			[1921] = "Temporus",
 			[2362] = "Grand Proctor Beryllia",
@@ -285,9 +287,9 @@ VExRT = {
 			[587] = "Kresh",
 			[1939] = "Mennu the Betrayer",
 			[1957] = "Opera Hall",
-			[2343] = "Drest'agath",
+			[1429] = "Lilian Voss",
 			[588] = "Lord Pythas",
-			[2345] = "Il'gynoth, Corruption Reborn",
+			[1430] = "Darkmaster Gandling",
 			[1686] = "Vigilant Kaathar",
 			[2382] = "Globgrog",
 			[589] = "Skum",
@@ -308,7 +310,7 @@ VExRT = {
 			[2363] = "General Kaal",
 			[2364] = "Kul'tharok",
 			[2365] = "Gorechop",
-			[2366] = "Xav the Unfallen",
+			[1185] = "Majordomo Staghelm",
 			[1441] = "Xin the Weaponmaster",
 			[1200] = "Baleroc",
 			[722] = "Ayamiss the Hunter",
@@ -341,12 +343,12 @@ VExRT = {
 			[2396] = "Mueh'zala",
 			[2397] = "Ingra Maloch",
 			[1713] = "Kromog, Legend of the Mountain",
-			[1715] = "Rocketspark and Borka",
+			[1204] = "Lord Rhyolith",
 			[2400] = "Dealer Xy'exa",
 			[2401] = "Halkias, the Sin-Stained Goliath",
 			[1203] = "Ragnaros",
 			[2403] = "High Adjudicator Aleez",
-			[2404] = "Mordretha",
+			[1715] = "Rocketspark and Borka",
 			[366] = "Captain Kromcrush",
 			[1205] = "Shannox",
 			[1972] = "Hadronox",
@@ -399,7 +401,7 @@ VExRT = {
 			[1935] = "Blood Guard Porung",
 			[1996] = "Maiden of Grief",
 			[1866] = "Gul'dan",
-			[1204] = "Lord Rhyolith",
+			[2404] = "Mordretha",
 			[709] = "The Prophet Skeram",
 			[1998] = "Sjonnir the Ironshaper",
 			[2390] = "Nalthor the Rimebinder",
@@ -407,7 +409,7 @@ VExRT = {
 			[363] = "Stomper Kreeg",
 			[1444] = "Dark Shaman Koranthal",
 			[1442] = "Trial of the King",
-			[1185] = "Majordomo Staghelm",
+			[1696] = "Oregorger the Devourer",
 			[1746] = "Witherbark",
 			[2002] = "Meathook",
 			[2361] = "Executor Tarvold",
@@ -416,19 +418,19 @@ VExRT = {
 			[2004] = "Salram the Fleshcrafter",
 			[1749] = "Fleshrender Nok'gar",
 			[2005] = "Mal'ganis",
-			[1940] = "Quagmirran",
-			[1696] = "Oregorger the Devourer",
+			[2343] = "Drest'agath",
+			[2366] = "Xav the Unfallen",
 			[1428] = "Rattlegore",
 			[1679] = "Bonemaw",
 			[712] = "Fankriss the Unyielding",
 			[1418] = "Wise Mari",
 			[1927] = "Laj",
 			[482] = "Magistrate Barthilas",
-			[2303] = "Orgozoa",
+			[1920] = "Chrono Lord Deja",
 			[1693] = "Hans'gar & Franzok",
 			[591] = "Verdan the Everliving",
 			[1405] = "Striker Ga'dok",
-			[1655] = "Magmolatus",
+			[1144] = "Hogger",
 			[2280] = "Stormwall Blockade",
 			[2271] = "Opulence",
 			[1502] = "Commander Vo'jak",
@@ -2426,6 +2428,55 @@ VExRT = {
 				"^2397^2^1606691859^54^1^5^160.51^", -- [1268]
 				"^2392^2^1606692269^66^1^5^160.51^", -- [1269]
 				"^2393^2^1606692553^56^1^5^160.68^", -- [1270]
+				"^2357^2^1606858255^54^1^5^170.06^", -- [1271]
+				"^2356^2^1606858679^41^1^5^168.19^", -- [1272]
+				"^2358^2^1606858940^83^1^5^168.39^", -- [1273]
+				"^2359^2^1606859159^153^0^5^168.39^Watermoss-Ravencrest", -- [1274]
+				"^2391^2^1606922885^56^1^5^127.30^", -- [1275]
+				"^2366^2^1606923200^73^1^5^114.67^", -- [1276]
+				"^2365^2^1606923499^42^1^5^141.62^", -- [1277]
+				"^2364^2^1606923843^63^1^5^141.62^", -- [1278]
+				"^2404^2^1606923970^57^1^5^141.62^", -- [1279]
+				"^2395^23^1606936203^53^1^5^178.00^", -- [1280]
+				"^2394^23^1606936669^64^1^5^178.00^", -- [1281]
+				"^2400^23^1606937121^68^1^5^178.27^", -- [1282]
+				"^2396^23^1606937263^2^0^5^178.00^", -- [1283]
+				"^2396^23^1606937374^125^1^5^178.20^Maredsous", -- [1284]
+				"^2397^23^1606938024^76^1^5^178.88^", -- [1285]
+				"^2392^23^1606938442^73^1^5^179.28^", -- [1286]
+				"^2393^23^1606938764^105^1^5^179.69^", -- [1287]
+				"^2391^23^1606940061^78^1^5^178.69^", -- [1288]
+				"^2364^23^1606940449^82^1^5^177.97^", -- [1289]
+				"^2365^23^1606940797^60^1^5^177.97^", -- [1290]
+				"^2366^23^1606941116^74^1^5^179.29^", -- [1291]
+				"^2404^23^1606941251^155^1^5^179.34^Khidr", -- [1292]
+				"^2382^23^1606941835^38^1^5^178.75^", -- [1293]
+				"^2384^23^1606942119^120^1^5^178.75^", -- [1294]
+				"^2385^23^1606942459^79^1^5^179.16^", -- [1295]
+				"^2386^23^1606942688^103^1^5^179.42^", -- [1296]
+				"^2387^23^1606943338^44^1^5^181.12^", -- [1297]
+				"^2388^23^1606943713^41^1^5^180.56^", -- [1298]
+				"^2389^23^1606944107^49^1^5^180.77^", -- [1299]
+				"^2390^23^1606944209^104^1^5^180.77^Khidr", -- [1300]
+				"^2394^1^1606999933^25^1^5^182.44^Rykahpo", -- [1301]
+				"^2394^1^1607000441^27^1^5^176.46^", -- [1302]
+				"^2394^1^1607000910^23^1^5^177.69^", -- [1303]
+				"^2401^1^1607097079^62^1^5^133.31^", -- [1304]
+				"^2380^1^1607097323^32^1^5^121.84^", -- [1305]
+				"^2403^1^1607097481^48^1^5^124.46^", -- [1306]
+				"^2381^1^1607097619^47^1^5^119.25^", -- [1307]
+				"^2357^23^1607163825^53^1^5^177.09^", -- [1308]
+				"^2356^23^1607164251^69^1^5^177.96^Rykahpo", -- [1309]
+				"^2358^23^1607164520^105^1^5^178.42^", -- [1310]
+				"^2359^23^1607164801^156^1^5^178.62^", -- [1311]
+				"^2360^23^1607165655^74^1^5^180.59^", -- [1312]
+				"^2361^23^1607166086^40^1^5^180.59^", -- [1313]
+				"^2362^23^1607166197^91^1^5^180.83^", -- [1314]
+				"^2363^23^1607166675^83^1^5^178.58^", -- [1315]
+				"^2401^23^1607167442^108^1^5^177.22^Swippy-Aszune", -- [1316]
+				"^2380^23^1607167792^69^1^5^177.22^", -- [1317]
+				"^2403^23^1607167996^59^1^5^177.22^", -- [1318]
+				"^2381^23^1607168181^109^1^5^178.58^Rykahpo", -- [1319]
 			},
 			["Advboi"] = {
 			},
@@ -2577,10 +2628,12 @@ VExRT = {
 	["ExCD2"] = {
 		["enabled"] = true,
 		["gnGUIDs"] = {
+			["Squiusmi-DunModr"] = 62,
 			["Gartnerius-GrimBatol"] = 577,
 			["Frostbrand-ArgentDawn"] = 260,
 			["Talløn-Ysondre"] = 70,
 			["Amlugx-BurningLegion"] = 105,
+			["Määg-Ravencrest"] = 267,
 			["Vais-Silvermoon"] = 102,
 			["Klynex-DunModr"] = 258,
 			["Lierenyeye-Outland"] = 254,
@@ -2594,6 +2647,7 @@ VExRT = {
 			["Bazingo-KhazModan"] = 254,
 			["Babøulinet-Ysondre"] = 250,
 			["Gokucide-Draenor"] = 72,
+			["Эхчетохех-Гордунни"] = 254,
 			["Zethak"] = 581,
 			["Kuntrum"] = 253,
 			["Hellokittý"] = 105,
@@ -2602,12 +2656,17 @@ VExRT = {
 			["Eriis-Sylvanas"] = 267,
 			["Svirfx-BurningLegion"] = 264,
 			["Larkir-Shadowsong"] = 70,
+			["Azuilan-Silvermoon"] = 577,
 			["Кардыныч-Борейскаятундра"] = 267,
+			["Fipso-Baelgun"] = 267,
 			["Watchmedot-Sylvanas"] = 265,
 			["Crazygril-Ravencrest"] = 261,
 			["Amiraja-DieAldor"] = 264,
+			["Diekay-Silvermoon"] = 251,
 			["Arìa-Mannoroth"] = 261,
 			["Illidansoul-Blackmoore"] = 581,
+			["Ðarkarrow"] = 253,
+			["Elonar-Quel'Thalas"] = 102,
 			["Akurya-Blackrock"] = 66,
 			["Furyans-Silvermoon"] = 72,
 			["Vykojená-Drak'thul"] = 256,
@@ -2616,27 +2675,36 @@ VExRT = {
 			["Spitzo-Ravencrest"] = 256,
 			["Clélónna-Blade'sEdge"] = 257,
 			["Mammøuth-KhazModan"] = 263,
+			["Eddur-Draenor"] = 252,
 			["Kiowi-Sylvanas"] = 261,
+			["Dôllrên-Un'Goro"] = 261,
 			["Munder-TheMaelstrom"] = 251,
 			["Yngvid-Vol'jin"] = 64,
 			["Setain-Magtheridon"] = 261,
 			["Darulan-ArgentDawn"] = 105,
+			["Irsael-Elune"] = 64,
 			["Фадиезминор-Гордунни"] = 268,
+			["Watermoss-Ravencrest"] = 264,
 			["Zuillói-DunModr"] = 261,
 			["Baitedhealin-Ravencrest"] = 270,
 			["Kazuko-Nagrand"] = 64,
 			["Kazúmi"] = 64,
 			["Isotissi-Ravencrest"] = 103,
 			["Ariyu-Hellfire"] = 254,
+			["Pallaka"] = 66,
 			["Tueton-Silvermoon"] = 250,
 			["Askari-Ravencrest"] = 253,
 			["Pande-Blackrock"] = 265,
 			["Eminencea"] = 258,
 			["Dotboi-Kazzak"] = 267,
+			["Ресторийя-Гордунни"] = 105,
+			["Notthegoat-Aggra(Português)"] = 261,
 			["Тритметр-Гордунни"] = 261,
 			["Menelith-Ysondre"] = 261,
+			["Tëth-Hyjal"] = 269,
 			["Artello-BurningLegion"] = 64,
 			["Вульфдэт-Гордунни"] = 252,
+			["Lolgirl-ShatteredHalls"] = 577,
 			["Zorandis-TwistingNether"] = 577,
 			["Dísapera-Silvermoon"] = 261,
 			["Biggestdeeps-Silvermoon"] = 105,
@@ -2644,7 +2712,9 @@ VExRT = {
 			["Lilpump-Sylvanas"] = 261,
 			["Veyl-Outland"] = 258,
 			["Azythas-Ragnaros"] = 258,
+			["Bigape-Silvermoon"] = 264,
 			["Amx"] = 266,
+			["Отецсвета-Гордунни"] = 66,
 			["Moldí-ArgentDawn"] = 104,
 			["Dolip-Ysondre"] = 261,
 			["Solr-Stormscale"] = 253,
@@ -2653,118 +2723,214 @@ VExRT = {
 			["Молтанис-Ревущийфьорд"] = 577,
 			["Gevien-ArgentDawn"] = 261,
 			["Junkfoo-Archimonde"] = 261,
+			["Clandestia-Silvermoon"] = 64,
 			["Иллюминели-Гордунни"] = 256,
 			["Thïøx-Arathi"] = 105,
+			["Dedeusaviciu-Outland"] = 251,
 			["Øgy-Ysondre"] = 102,
 			["Rafic-Exodar"] = 65,
 			["Eazzuy-Ravencrest"] = 72,
 			["Хестраес-Гордунни"] = 251,
 			["Halloww-Ravencrest"] = 261,
 			["Saikane-Silvermoon"] = 252,
+			["Sonjung-Antonidas"] = 262,
 			["Fabnabski"] = 63,
 			["Gault-DieAldor"] = 70,
 			["Kwanah-Malygos"] = 66,
 			["Artikuna-Drak'thul"] = 256,
 			["Thesiuss-Ravencrest"] = 71,
+			["Maslan-Silvermoon"] = 257,
 			["Arâmîs-DieAldor"] = 104,
 			["Lauy-Antonidas"] = 269,
 			["Blâf-Archimonde"] = 267,
 			["Eradann-TwistingNether"] = 66,
 			["Fenhir-Magtheridon"] = 70,
 			["Virolosi-GrimBatol"] = 254,
+			["Soyla-Ravencrest"] = 72,
+			["Enygamy"] = 581,
 			["Dûdûs-Blackmoore"] = 103,
 			["Ngubu-Ravencrest"] = 71,
 			["Jumpnoob-Ysondre"] = 105,
+			["Tranzylvania"] = 252,
+			["Коллекшн-Гордунни"] = 252,
+			["Shaktia-Vek'nilash"] = 103,
 			["Thodreas-Outland"] = 262,
+			["Альфиечка-Дракономор"] = 105,
+			["Swippy-Aszune"] = 102,
+			["Nefire-Turalyon"] = 256,
+			["Wildjeew-Nemesis"] = 254,
+			["Kyrfax-Hyjal"] = 72,
+			["Petitwill-Dalaran"] = 62,
 			["Sigis-Hellscream"] = 70,
+			["Krashna"] = 263,
 			["Граундвхарю-Гордунни"] = 264,
 			["Lenela-Shadowsong"] = 63,
+			["Khyne-Dalaran"] = 270,
 			["Lilikasha-Bloodhoof"] = 72,
+			["Maredsous"] = 256,
+			["Bòòst"] = 257,
 			["Szro-Blackrock"] = 261,
 			["Kîrox-Antonidas"] = 253,
+			["Getmeout-Ravencrest"] = 264,
+			["Näth-DunModr"] = 261,
+			["Olafsen-Antonidas"] = 254,
+			["Мактоша-ЧерныйШрам"] = 252,
+			["Lhea-Dalaran"] = 253,
 			["Noupe-Ravencrest"] = 258,
 			["Constantíné-Blade'sEdge"] = 581,
 			["Miller-Antonidas"] = 63,
+			["Powerdin"] = 66,
+			["Фаллера-Гордунни"] = 70,
+			["Варрмашина-Гордунни"] = 71,
+			["Khidr"] = 265,
+			["Coldaras"] = 251,
 			["Shìrá-KulTiras"] = 258,
 			["Duash-ArgentDawn"] = 258,
+			["Fordan-Nagrand"] = 252,
 			["Yanastase-Elune"] = 64,
 			["Jkwm-Sanguino"] = 258,
 			["Holydmt-Darksorrow"] = 70,
+			["Гекада-ТкачСмерти"] = 258,
+			["Dreothal-Silvermoon"] = 104,
+			["Lízzie"] = 73,
+			["Nahåj"] = 64,
+			["Регалим-Гордунни"] = 257,
+			["Íst-Varimathras"] = 62,
 			["Pwrdbygød-Silvermoon"] = 252,
 			["Реталог-Гордунни"] = 254,
+			["Mad-Stormreaver"] = 261,
 			["Valborg-Kilrogg"] = 577,
+			["Rexam-Thunderhorn"] = 267,
+			["Yodarr-Draenor"] = 261,
+			["Глофинде-Гордунни"] = 258,
+			["Wazaru-Ravencrest"] = 253,
+			["Helioris-Ravencrest"] = 70,
+			["Shadfreddy-Ravencrest"] = 267,
+			["Metrixos-Arthas"] = 102,
 			["Loldunno-Blackmoore"] = 104,
 			["Iamxippie-ChamberofAspects"] = 64,
 			["Ghargantua-DunModr"] = 66,
 			["Rathul-Aggra(Português)"] = 258,
+			["Pistabacsii-Ragnaros"] = 268,
 			["Altairx"] = 268,
 			["Santto"] = 270,
 			["Veloxea-Outland"] = 269,
 			["Merren"] = 267,
+			["Енвейжн-Гордунни"] = 261,
 			["Mazequin-Malfurion"] = 258,
+			["Newgate-Silvermoon"] = 71,
+			["Kesopriest-Outland"] = 258,
+			["Warcel-GrimBatol"] = 266,
+			["Питлил-Голдринн"] = 64,
+			["Slyxhamstrez"] = 63,
+			["Tinkerclock-ArgentDawn"] = 62,
 			["Ihazcookiess-Nagrand"] = 63,
+			["Tchikitta-Ysondre"] = 577,
+			["Shinessa-Blackrock"] = 261,
 			["Shrukiv-Alonsus"] = 105,
-			["Smackdown-Terenas"] = 264,
 			["Lipsnurse-Silvermoon"] = 102,
+			["Blyatmanx-Outland"] = 254,
+			["Pill-Pozzodell'Eternità"] = 258,
+			["Smackdown-Terenas"] = 264,
+			["Champyks-DunModr"] = 261,
+			["Arihyoshaman-Arathor"] = 264,
 			["Shadodevil"] = 71,
+			["Jointser-Sen'jin"] = 263,
 			["Neriya-Darksorrow"] = 105,
 			["Brotherlayto-Draenor"] = 70,
+			["Frostration-Aszune"] = 64,
 			["Pringlesdose-Antonidas"] = 253,
+			["Rhíno-Kazzak"] = 70,
+			["Joledingo-Archimonde"] = 264,
 			["Этодедунада-Гордунни"] = 256,
+			["Марктреум-Галакронд"] = 65,
 			["Urbris-Ravencrest"] = 104,
 			["Lotherius-Silvermoon"] = 254,
 			["Nezarec-ArgentDawn"] = 266,
+			["Ashezs-Outland"] = 254,
 			["Ârex-Antonidas"] = 270,
 			["Evertude-Dalvengyr"] = 102,
+			["Shotz-Moonglade"] = 254,
+			["Gasparet-Exodar"] = 64,
 			["Keltael-Blackmoore"] = 254,
 			["Ekeltion-Ravencrest"] = 263,
 			["Elizeei-Eonar"] = 66,
+			["Archifel"] = 581,
+			["Khäz-GrimBatol"] = 71,
+			["Amathara-Silvermoon"] = 65,
+			["Häröilijä-Stormscale"] = 261,
+			["Xurô-Aegwynn"] = 261,
+			["Bloblorrd-Eonar"] = 62,
+			["Shivsilver-Ragnaros"] = 261,
+			["Chö-LesSentinelles"] = 64,
 			["Bokîto-Silvermoon"] = 72,
+			["Dansa-EmeraldDream"] = 102,
+			["Reecicle-Darkspear"] = 73,
+			["Trya"] = 265,
 			["Xanthas-Silvermoon"] = 252,
+			["Wratchy-TarrenMill"] = 62,
 			["Slyxhmsterez-Sylvanas"] = 261,
+			["Арутасу-Гордунни"] = 65,
+			["Soulshift-Draenor"] = 258,
 			["Mograin-Exodar"] = 252,
+			["Katsumise-Uldaman"] = 258,
+			["Syanà-Silvermoon"] = 104,
+			["Frostdreew-Drak'thul"] = 103,
 			["Marcelao-EmeraldDream"] = 66,
 			["Aitan-Medivh"] = 64,
 			["Maedhors-Pozzodell'Eternità"] = 62,
-			["Вирна-Седогрив"] = 70,
-			["Hygrofyt-Wildhammer"] = 264,
-			["Lisette-Aegwynn"] = 261,
 			["Blubit-Silvermoon"] = 257,
+			["Вирна-Седогрив"] = 70,
+			["Pilouflerou-MarécagedeZangar"] = 263,
+			["Alewen"] = 64,
+			["Örezza-ConseildesOmbres"] = 265,
+			["Tenkeboksen-Silvermoon"] = 71,
+			["Lisette-Aegwynn"] = 261,
+			["Fio-Ravencrest"] = 261,
+			["Ormbyxan-Ravencrest"] = 253,
+			["Двакаса-ЧерныйШрам"] = 251,
 			["Serethia-Silvermoon"] = 65,
+			["Altrus-DunModr"] = 265,
+			["Adanir-Draenor"] = 252,
+			["Skadá-Antonidas"] = 66,
+			["Tyzen-Outland"] = 251,
 			["Zenoris-Hyjal"] = 65,
+			["Saviora-Bronzebeard"] = 270,
 			["Torpmage-ArgentDawn"] = 64,
 			["Sálía-DieAldor"] = 264,
 			["Mollice-Blackmoore"] = 262,
-			["Dejavu-AzjolNerub"] = 577,
-			["Gorgoleon-Silvermoon"] = 105,
 			["Ilni-Ragnaros"] = 269,
-			["Olddevbless-ArgentDawn"] = 66,
-			["Dreothal-Silvermoon"] = 104,
-			["Rykahpo"] = 62,
-			["Khäz-GrimBatol"] = 71,
 			["Skreek-Lothar"] = 254,
+			["Сиквоях-Гордунни"] = 581,
+			["Gorgoleon-Silvermoon"] = 105,
+			["Orgul-Blackhand"] = 254,
+			["Olddevbless-ArgentDawn"] = 66,
+			["Döhboo-Elune"] = 577,
+			["Chevrøtine-Hyjal"] = 72,
+			["Msaphrodite-Outland"] = 264,
+			["Barbardilla-DunModr"] = 65,
 			["Bergoglio-KirinTor"] = 258,
 			["Vrack-Sargeras"] = 262,
-			["Wazaru-Ravencrest"] = 253,
+			["Kazzik"] = 72,
 			["Tovr-ArgentDawn"] = 261,
-			["Lízzie"] = 73,
+			["Keanufreeze-Eredar"] = 63,
 			["Rawtofu-Doomhammer"] = 105,
-			["Qais-EmeraldDream"] = 71,
-			["Barbardilla-DunModr"] = 65,
+			["Helloqt-Draenor"] = 254,
 			["Preecest-Silvermoon"] = 256,
-			["Ormbyxan-Ravencrest"] = 253,
+			["Elskÿ-Suramar"] = 105,
+			["Leynz-DunModr"] = 577,
 			["Kilboi-Gilneas"] = 71,
 			["Palomitero-DunModr"] = 70,
-			["Avocadò-Kazzak"] = 251,
+			["Nøas-Dalaran"] = 253,
 			["Shalzin-Ragnaros"] = 70,
-			["Näth-DunModr"] = 261,
-			["Арутасу-Гордунни"] = 65,
-			["Tahar-Stormscale"] = 71,
-			["Rhíno-Kazzak"] = 70,
-			["Aimbox-Doomhammer"] = 254,
-			["Altrus-DunModr"] = 265,
+			["Balast-Silvermoon"] = 71,
+			["Skyden-Ysondre"] = 64,
+			["Berold-Doomhammer"] = 71,
+			["Cubidus-Hyjal"] = 70,
+			["Grieks-Archimonde"] = 254,
+			["Forsaken-Aggra(Português)"] = 64,
 			["Mbsw-Hellscream"] = 71,
-			["Chö-LesSentinelles"] = 64,
+			["Adonaise"] = 105,
 			["Horohukei-Ysondre"] = 105,
 			["Aleem-Blackrock"] = 269,
 			["Bdiscsm-Silvermoon"] = 256,
@@ -2772,87 +2938,87 @@ VExRT = {
 			["Dreàmy-Draenor"] = 258,
 			["Skaffli-Antonidas"] = 267,
 			["Crowb-Kazzak"] = 261,
-			["Arihyoshaman-Arathor"] = 264,
-			["Adanir-Draenor"] = 252,
-			["Saviora-Bronzebeard"] = 270,
-			["Grieks-Archimonde"] = 254,
+			["Виллт-Дракономор"] = 253,
+			["Râgñâr-Blackmoore"] = 264,
+			["Natago-Ravencrest"] = 71,
 			["Séria-Vol'jin"] = 72,
-			["Aergen-Ravencrest"] = 258,
-			["Archifel"] = 581,
+			["Шизикспушкой-Гордунни"] = 254,
+			["Tenzima-CultedelaRivenoire"] = 62,
+			["Trinket"] = 102,
 			["Antiatus-Silvermoon"] = 261,
 			["Salemov-Ravencrest"] = 250,
-			["Shinessa-Blackrock"] = 261,
-			["Msaphrodite-Outland"] = 264,
-			["Chevrøtine-Hyjal"] = 72,
-			["Kaan-Outland"] = 71,
+			["Qais-EmeraldDream"] = 71,
 			["Ihatedwarfss-Silvermoon"] = 64,
-			["Heavypetting-Outland"] = 253,
-			["Tinkerclock-ArgentDawn"] = 62,
-			["Tyzen-Outland"] = 251,
-			["Orgul-Blackhand"] = 254,
-			["Champyks-DunModr"] = 261,
+			["Fz-Bloodhoof"] = 253,
+			["Kaan-Outland"] = 71,
+			["Aergen-Ravencrest"] = 258,
+			["Kearnen-Arathi"] = 63,
+			["Dejavu-AzjolNerub"] = 577,
+			["Mechlord-Doomhammer"] = 265,
+			["Zeezee-Frostmourne"] = 105,
+			["Themysto-Ambossar"] = 577,
 			["Nyzze-Stormscale"] = 261,
 			["Merked-Karazhan"] = 261,
 			["Ürawar-Dalaran"] = 72,
-			["Åke-Ghostlands"] = 252,
-			["Frostration-Aszune"] = 64,
-			["Blyatmanx-Outland"] = 254,
+			["Hygrofyt-Wildhammer"] = 264,
+			["Blackhexers-Antonidas"] = 267,
+			["Aimbox-Doomhammer"] = 254,
 			["Bowselecta-Lightning'sBlade"] = 254,
 			["Okodor-Kazzak"] = 251,
 			["Argvid-Outland"] = 63,
-			["Питлил-Голдринн"] = 64,
-			["Örezza-ConseildesOmbres"] = 265,
-			["Tchikitta-Ysondre"] = 577,
-			["Amathara-Silvermoon"] = 65,
-			["Joledingo-Archimonde"] = 264,
-			["Xurô-Aegwynn"] = 261,
+			["Tahar-Stormscale"] = 71,
+			["Cowsgogrr-Silvermoon"] = 258,
+			["Шундар-Гордунни"] = 64,
+			["Talx-Ragnaros"] = 258,
+			["Azss-Ysondre"] = 64,
+			["Loramus-Ragnaros"] = 577,
 			["Tøasti-Ysondre"] = 254,
 			["Myltorky-Sylvanas"] = 72,
 			["Dåhîd"] = 63,
 			["Огнезия-Гордунни"] = 63,
-			["Ashezs-Outland"] = 254,
 			["Rinodan"] = 263,
-			["Pilouflerou-MarécagedeZangar"] = 263,
-			["Rexam-Thunderhorn"] = 267,
+			["Metaflum"] = 104,
+			["Bhoo-Ravencrest"] = 261,
+			["Shadowbewbs-GrimBatol"] = 266,
 			["Skaíripa-Eitrigg"] = 260,
-			["Katsumise-Uldaman"] = 258,
-			["Tenkeboksen-Silvermoon"] = 71,
-			["Metrixos-Arthas"] = 102,
-			["Bloblorrd-Eonar"] = 62,
-			["Cowsgogrr-Silvermoon"] = 258,
+			["Yshina-Archimonde"] = 251,
 			["Moredøts-Blackrock"] = 265,
-			["Енвейжн-Гордунни"] = 261,
-			["Skyden-Ysondre"] = 64,
-			["Cubidus-Hyjal"] = 70,
-			["Syanà-Silvermoon"] = 104,
-			["Râgñâr-Blackmoore"] = 264,
-			["Balast-Silvermoon"] = 71,
-			["Keanufreeze-Eredar"] = 63,
-			["Mechlord-Doomhammer"] = 265,
-			["Kearnen-Arathi"] = 63,
-			["Adonaise"] = 105,
+			["Methistos"] = 577,
+			["Rykahpo"] = 62,
+			["Krixo-Bronzebeard"] = 265,
+			["Lundario"] = 70,
+			["Satlash"] = 261,
+			["Lulux-Shattrath"] = 254,
+			["Gaspack-Ragnaros"] = 269,
+			["Åke-Ghostlands"] = 252,
+			["Lollipoplick-Blackhand"] = 577,
+			["Heavypetting-Outland"] = 253,
+			["Athenna-TwistingNether"] = 251,
+			["Gazey-Moonglade"] = 270,
+			["Neíre-TwistingNether"] = 258,
+			["Leonos-Aggra(Português)"] = 66,
 			["Zodaar-Uldaman"] = 70,
-			["Сиквоях-Гордунни"] = 581,
-			["Mad-Stormreaver"] = 261,
+			["Tyrass-Sunstrider"] = 102,
+			["Sigvarda-Dalaran"] = 71,
 			["Baurora-Eonar"] = 62,
 			["Mzula-Xavius"] = 63,
-			["Helloqt-Draenor"] = 254,
+			["Avocadò-Kazzak"] = 251,
 			["Науми-Гордунни"] = 64,
 			["Superrobj"] = 73,
 			["Zevelna-Silvermoon"] = 102,
-			["Helioris-Ravencrest"] = 70,
-			["Íst-Varimathras"] = 62,
-			["Dansa-EmeraldDream"] = 102,
-			["Wratchy-TarrenMill"] = 62,
+			["Ubiets-Ravencrest"] = 577,
+			["Джанитс-СвежевательДуш"] = 260,
+			["Lunéx-Anub'arak"] = 63,
+			["Annouk-Anub'arak"] = 254,
 			["Skorpin-ArgentDawn"] = 261,
 			["Demondalle"] = 577,
 			["Xânäks-CultedelaRivenoire"] = 72,
-			["Azss-Ysondre"] = 64,
+			["Моломур-Галакронд"] = 105,
 			["Feinnon-Aggramar"] = 105,
 			["Delmocca-Silvermoon"] = 256,
 			["Kunglaos-Darkspear"] = 269,
-			["Powerdin"] = 66,
-			["Gasparet-Exodar"] = 64,
+			["Strongwind-Nagrand"] = 63,
+			["Imbacrap"] = 103,
 		},
 		["userDB"] = {
 		},
@@ -3124,14 +3290,14 @@ VExRT = {
 			[192058] = true,
 			[1022] = true,
 			[204150] = true,
-			[31821] = true,
+			[31884] = true,
 			[62618] = true,
 			[98008] = true,
 			[116849] = true,
 			[119381] = true,
-			[408] = true,
+			[31821] = true,
 			[20608] = true,
-			[31884] = true,
+			[408] = true,
 			[20484] = true,
 			[161642] = true,
 			[205369] = true,
@@ -5060,20 +5226,21 @@ VExRT = {
 	["Inspect"] = {
 		["Soulbinds"] = {
 			["Dreothal-Silvermoon"] = "1606267304:3:1:322721:279-1-1",
-			["Lízzie-Frostmane"] = "1606527363:1:7:328266:49-2-2:329786",
 			["Archifel-Frostmane"] = "1606519613:2:8:331586:150-1-1:331576",
-			["Merren-Frostmane"] = "1606576797:3:1:322721:174-4-1:342270",
-			["Santto-Frostmane"] = "1606572655:4:4:323074:31-1-1:323091",
-			["Maredsous-Frostmane"] = "1606339951:2:8:331586:115-1-1:331576",
-			["Superrobj-Frostmane"] = "1606430634:1:7:328266:0",
+			["Merren-Frostmane"] = "1607168181:3:2:319217:222-3-2:220-4-1",
 			["Blâf-Archimonde"] = "1606566160:1:7:328266:168-3-0:329777",
-			["Wtbhealing-Silvermoon"] = "1606249922:1:7:328266:87-1-1",
-			["Науми-Гордунни"] = "1606570636:3:1:322721:38-1-1",
-			["Eqel-BurningBlade"] = "1606313576:4:4:323074:147-1-1",
-			["Powerdin-Frostmane"] = "1606522496:1:7:328266:216-1-1",
 			["Slyxhmsterez-Sylvanas"] = "1606339951:3:1:322721:246-1-1",
 			["Eminencea-Frostmane"] = "1606572655:1:7:328266:115-4-1:328261",
-			["Rykahpo-Frostmane"] = "1606692553:3:1:322721:51-4-1:342270",
+			["Rykahpo-Frostmane"] = "1607168181:3:1:322721:51-4-1:342270",
+			["Науми-Гордунни"] = "1606570636:3:1:322721:38-1-1",
+			["Lízzie-Frostmane"] = "1606527363:1:7:328266:49-2-2:329786",
+			["Maredsous-Frostmane"] = "1606944209:2:8:331586:115-3-1:331576",
+			["Superrobj-Frostmane"] = "1606430634:1:7:328266:0",
+			["Wtbhealing-Silvermoon"] = "1606249922:1:7:328266:87-1-1",
+			["Eqel-BurningBlade"] = "1606313576:4:4:323074:147-1-1",
+			["Powerdin-Frostmane"] = "1606522496:1:7:328266:216-1-1",
+			["Santto-Frostmane"] = "1606572655:4:4:323074:31-1-1:323091",
+			["Альфиечка-Дракономор"] = "1607168181:3:1:322721:279-3-1:342270",
 			["Dåhîd-Frostmane"] = "1606430634:3:1:322721:38-1-1:342270",
 		},
 	},
@@ -5153,13 +5320,13 @@ VExRT = {
 	["WhoPulled"] = {
 	},
 	["Addon"] = {
-		["IconMiniMapTop"] = -78.69535298633052,
-		["Version"] = 4390,
-		["IconMiniMapLeft"] = -66.66558121369962,
-		["PreVersion"] = 4390,
-		["Timer"] = 0.1,
-		["Scale"] = 1.07,
 		["IconMiniMapHide"] = true,
+		["Version"] = 4390,
+		["Scale"] = 1.07,
+		["IconMiniMapTop"] = -78.69535298633052,
+		["Timer"] = 0.1,
+		["PreVersion"] = 4390,
+		["IconMiniMapLeft"] = -66.66558121369962,
 	},
 	["RaidCheck"] = {
 		["FlaskExp"] = 1,
@@ -5171,12 +5338,21 @@ VExRT = {
 		["ReadyCheckFrameOnlyRL"] = true,
 		["ReadyCheckLeft"] = 312.7768859863281,
 	},
+	["Profiles"] = {
+	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
 		["fightsNum"] = 2,
 		["optionsPositionsDist"] = true,
 		["optionsHealingGraph"] = true,
 		["trackingDamageSpells"] = {
+		},
+	},
+	["Profile"] = "default",
+	["LootLink"] = {
+	},
+	["RaidGroups"] = {
+		["profiles"] = {
 		},
 	},
 	["LootHistory"] = {
@@ -5496,6 +5672,105 @@ VExRT = {
 			"1606773971#0#2222#0#Dreothal-Silvermoon#11#1#item:184312::::::::60:62::::1:28:2125:::", -- [313]
 			"1606774195#0#2222#0#Dreothal-Silvermoon#11#1#item:184395::::::::60:62::::1:28:2098:::", -- [314]
 			"1606774629#0#2222#0#Rykahpo#8#1#item:181794::::::::60:62::::1:28:2125:::", -- [315]
+			"1606858314#2357#2285#2#Reecicle-Darkspear#1#1#item:180115::::::::60:62::2:5:6806:6652:7193:1485:4785:1:28:748:::", -- [316]
+			"1606858722#2356#2285#2#Leynz-DunModr#12#1#item:180095::::::::60:62::2:4:6806:6652:1485:4785:1:28:748:::", -- [317]
+			"1606859024#2358#2285#2#Rykahpo#8#1#item:180117::::::::60:62::2:4:6806:6652:1485:4785:1:28:748:::", -- [318]
+			"1606859776#0#2222#0#Rykahpo#8#1#item:184395::::::::60:62::::1:28:2098:::", -- [319]
+			"1606861752#0#2222#0#Rykahpo#8#1#item:183067::::::::60:62::::1:28:2125:::", -- [320]
+			"1606920116#0#2162#167#Rykahpo#8#1#item:183281::::::::60:62::9::1:28:709:::", -- [321]
+			"1606922944#2391#2293#2#Leonos-Aggra(Português)#2#1#item:178871::::::::60:62::2:5:6806:6652:7194:1485:4785:1:28:748:::", -- [322]
+			"1606923275#2366#2293#2#Rykahpo#8#1#item:178789::::::::60:62::2:4:6806:6652:1485:4785:1:28:748:::", -- [323]
+			"1606923548#2365#2293#2#Bigape-Silvermoon#7#1#item:178869::::::::60:62::2:5:6806:6652:7194:1485:4785:1:28:748:::", -- [324]
+			"1606923909#2364#2293#2#Määg-Ravencrest#9#1#item:178792::::::::60:62::2:4:6806:6652:1485:4785:1:28:748:::", -- [325]
+			"1606923910#2364#2293#2#Rykahpo#8#1#item:178792::::::::60:62::2:4:6806:6652:1485:4785:1:28:748:::", -- [326]
+			"1606924031#2404#2293#2#Bigape-Silvermoon#7#1#item:178811::::::::60:62::2:4:6806:6652:1485:4785:1:28:748:::", -- [327]
+			"1606924031#2404#2293#2#Leonos-Aggra(Português)#2#1#item:178867::::::::60:62::2:4:6806:6652:1485:4785:1:28:748:::", -- [328]
+			"1606936265#2395#2291#23#Merren#9#1#item:179322::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [329]
+			"1606936751#2394#2291#23#Maredsous#5#1#item:179339::::::::60:62::23:4:6807:6652:1498:6646:1:28:2044:::", -- [330]
+			"1606937030#0#2291#23#Zethak#12#1#item:172097::::::::60:62:::::::", -- [331]
+			"1606937038#0#2291#23#Zethak#12#1#item:172097::::::::60:62:::::::", -- [332]
+			"1606937201#2400#2291#23#Khidr#9#1#item:179343::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::", -- [333]
+			"1606937509#2396#2291#23#Zethak#12#1#item:179355::::::::60:62::23:5:6807:6652:7194:1498:6646:1:28:2044:::", -- [334]
+			"1606937510#2396#2291#23#Maredsous#5#1#item:182138::::::::60:62::23:2:1511:7245:2:28:2044:37:4:::", -- [335]
+			"1606937511#2396#2291#23#Maredsous#5#1#item:179355::::::::60:62::23:5:6807:40:7193:1498:6646:1:28:2044:::", -- [336]
+			"1606938102#2397#2290#23#Rykahpo#8#1#item:178704::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::", -- [337]
+			"1606938109#2397#2290#23#Khidr#9#1#item:178704::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::", -- [338]
+			"1606938517#2392#2290#23#Zethak#12#1#item:178707::::::::60:62::23:5:6807:6652:7194:1498:6646:1:28:749:::", -- [339]
+			"1606938521#2392#2290#23#Maredsous#5#1#item:178707::::::::60:62::23:5:6807:6652:6935:1498:6646:1:28:749:::", -- [340]
+			"1606938590#0#2290#23#Zethak#12#1#item:172097::::::::60:62:::::::", -- [341]
+			"1606938734#0#2290#23#Zethak#12#1#item:172097::::::::60:62:::::::", -- [342]
+			"1606938739#0#2290#23#Zethak#12#1#item:172097::::::::60:62:::::::", -- [343]
+			"1606938871#2393#2290#23#Zethak#12#1#item:178699::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::", -- [344]
+			"1606938871#2393#2290#23#Zethak#12#1#item:182384::::::::60:62::23:2:1511:7245:2:28:749:37:4:::", -- [345]
+			"1606938875#2393#2290#23#Merren#9#1#item:178714::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [346]
+			"1606940141#2391#2293#23#Rykahpo#8#1#item:183197::::::::60:62::23:2:1511:7245:2:28:749:37:4:::", -- [347]
+			"1606940143#2391#2293#23#Khidr#9#1#item:178871::::::::60:62::23:5:6807:6652:7194:1498:6646:1:28:749:::", -- [348]
+			"1606940533#2364#2293#23#Zethak#12#1#item:178805::::::::60:62::23:5:6807:6652:7194:1498:6646:1:28:749:::", -- [349]
+			"1606940534#2364#2293#23#Khidr#9#1#item:183375::::::::60:62::23::1:28:749:::", -- [350]
+			"1606940862#2365#2293#23#Khidr#9#1#item:178806::::::::60:62::23:5:6807:6652:7194:1498:6646:1:28:749:::", -- [351]
+			"1606941195#2366#2293#23#Khidr#9#1#item:178789::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [352]
+			"1606941416#2404#2293#23#Rykahpo#8#1#item:178872::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::", -- [353]
+			"1606941421#2404#2293#23#Maredsous#5#1#item:178872::::::::60:62::23:5:6807:6652:7194:1498:6646:1:28:749:::", -- [354]
+			"1606941877#2382#2289#23#Merren#9#1#item:178753::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [355]
+			"1606942241#2384#2289#23#Rykahpo#8#1#item:178759::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::", -- [356]
+			"1606942539#2385#2289#23#Merren#9#1#item:178933::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::", -- [357]
+			"1606942793#2386#2289#23#Zethak#12#1#item:178754::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [358]
+			"1606942800#2386#2289#23#Maredsous#5#1#item:178761::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [359]
+			"1606943385#2387#2286#23#Khidr#9#1#item:178732::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::", -- [360]
+			"1606943386#2387#2286#23#Merren#9#1#item:178736::::::::60:62::23:5:6807:6652:7194:1498:6646:1:28:749:::", -- [361]
+			"1606943767#2388#2286#23#Maredsous#5#1#item:178740::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [362]
+			"1606944157#2389#2286#23#Rykahpo#8#1#item:181738::::::::60:62::23:2:1511:7245:2:28:749:37:4:::", -- [363]
+			"1606944158#2389#2286#23#Merren#9#1#item:178772::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [364]
+			"1606944317#2390#2286#23#Rykahpo#8#1#item:178781::::::::60:62::23:5:6807:41:7194:1498:6646:1:28:749:::", -- [365]
+			"1606944318#2390#2286#23#Maredsous#5#1#item:178781::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::", -- [366]
+			"1606990419#0#2222#0#Rykahpo#8#1#item:181426::::::::60:62::25:5:6652:7194:1472:5852:6616:1:28:2060:::", -- [367]
+			"1606993719#0#2222#0#Rykahpo#8#1#item:184395::::::::60:62::::1:28:2098:::", -- [368]
+			"1606993784#0#2222#0#Rykahpo#8#1#item:184312::::::::60:62::::1:28:2125:::", -- [369]
+			"1606999972#2394#2291#1#Shadfreddy-Ravencrest#9#1#item:179339::::::::60:62::1:3:6805:1472:4785:1:28:2044:::", -- [370]
+			"1606999984#2394#2291#1#Fipso-Baelgun#9#1#item:183369::::::::60:62::1::1:28:2044:::", -- [371]
+			"1606999984#2394#2291#1#Rykahpo#8#1#item:179335::::::::60:62::1:4:6805:6652:1472:4785:1:28:2044:::", -- [372]
+			"1607000486#2394#2291#1#Squiusmi-DunModr#8#1#item:179335::::::::60:62::1:4:6805:6652:1472:4785:1:28:2044:::", -- [373]
+			"1607000948#2394#2291#1#Shadfreddy-Ravencrest#9#1#item:183369::::::::60:62::1::1:28:2044:::", -- [374]
+			"1607000952#2394#2291#1#Azuilan-Silvermoon#12#1#item:183216::::::::60:62::1::1:28:2044:::", -- [375]
+			"1607000953#2394#2291#1#Azuilan-Silvermoon#12#1#item:179336::::::::60:62::1:4:6805:6652:1472:4785:1:28:2044:::", -- [376]
+			"1607004180#0#1191#0#Lolgirl-ShatteredHalls#12#1#item:117013::::::::60:62::::1:28:755:::", -- [377]
+			"1607004631#0#1191#0#Шизикспушкой-Гордунни#3#1#item:117016::::::::60:62::::1:28:755:::", -- [378]
+			"1607004726#0#1191#0#Frostdreew-Drak'thul#11#1#item:117013::::::::60:62::::1:28:755:::", -- [379]
+			"1607006992#0#1#0#Rykahpo#8#1#item:166438::::::::60:62::::1:28:733:::", -- [380]
+			"1607036982#0#2222#0#Rykahpo#8#1#item:183986::::::::60:62::::1:28:746:::", -- [381]
+			"1607037673#0#2222#0#Rykahpo#8#1#item:180874::::::::60:62::::1:28:2060:::", -- [382]
+			"1607094790#0#2222#0#Rykahpo#8#2#item:180008::::::::60:62:::::::", -- [383]
+			"1607094790#0#2222#0#Rykahpo#8#1#item:180008::::::::60:62:::::::", -- [384]
+			"1607094853#0#2222#0#Rykahpo#8#2#item:180008::::::::60:62:::::::", -- [385]
+			"1607097146#2401#2287#1#Lundario#2#1#item:178818::::::::60:62::17:3:7217:6771:6652:2:28:747:9:52:::", -- [386]
+			"1607097358#2380#2287#1#Pallaka#2#1#item:178812::::::::60:62::17:4:7217:6771:6652:7193:2:28:747:9:55:::", -- [387]
+			"1607097530#2403#2287#1#Imbacrap#11#1#item:178832::::::::60:62::1:4:6805:6652:1472:4785:1:28:747:::", -- [388]
+			"1607097530#2403#2287#1#Satlash#4#1#item:178832::::::::60:62::17:3:7217:6771:6652:2:28:747:9:59:::", -- [389]
+			"1607097669#2381#2287#1#Rykahpo#8#1#item:183275::::::::60:62::1::1:28:747:::", -- [390]
+			"1607097669#2381#2287#1#Rykahpo#8#1#item:178831::::::::60:62::1:4:6805:6652:1472:4785:1:28:747:::", -- [391]
+			"1607097674#2381#2287#1#Lundario#2#1#item:178824::::::::60:62::17:4:7217:6771:6652:7193:2:28:747:9:53:::", -- [392]
+			"1607163880#2357#2285#23#Zethak#12#1#item:180103::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [393]
+			"1607164336#2356#2285#23#Rykahpo#8#1#item:181389::::::::60:62::23:2:1511:7245:2:28:749:37:4:::", -- [394]
+			"1607164336#2356#2285#23#Rykahpo#8#1#item:180102::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [395]
+			"1607164631#2358#2285#23#Merren#9#1#item:180117::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [396]
+			"1607164961#2359#2285#23#Zethak#12#1#item:180108::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [397]
+			"1607164961#2359#2285#23#Zethak#12#1#item:183054::::::::60:62::::1:28:749:::", -- [398]
+			"1607164961#2359#2285#23#Merren#9#1#item:180098::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [399]
+			"1607165731#2360#2284#23#Methistos#12#1#item:178848::::::::60:62::23:5:6807:6652:7193:1498:6646:1:28:749:::", -- [400]
+			"1607166129#2361#2284#23#Zethak#12#1#item:178851::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [401]
+			"1607166290#2362#2284#23#Zethak#12#1#item:178847::::::::60:62::23:5:6807:43:7193:1498:6646:1:28:749:::", -- [402]
+			"1607166777#2363#2284#23#Methistos#12#1#item:178857::::::::60:62::23:4:6807:6652:1498:6646:1:28:2044:::", -- [403]
+			"1607166780#2363#2284#23#Rykahpo#8#1#item:178856::::::::60:62::23:4:6807:6652:1498:6646:1:28:2044:::", -- [404]
+			"1607167583#2401#2287#23#Merren#9#1#item:178827::::::::60:62::23:5:6807:6652:7194:1498:6646:1:28:749:::", -- [405]
+			"1607167614#2401#2287#23#Swippy-Aszune#11#1#item:178827::::::::60:62::23:5:6807:6652:7194:1498:6646:1:28:749:::", -- [406]
+			"1607167864#2380#2287#23#Альфиечка-Дракономор#11#1#item:178825::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [407]
+			"1607167974#0#2287#23#Swippy-Aszune#11#1#item:180595::::::::60:62:::::::", -- [408]
+			"1607168057#2403#2287#23#Альфиечка-Дракономор#11#1#item:178828::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [409]
+			"1607168291#2381#2287#23#Zethak#12#1#item:178823::::::::60:62::23:5:6807:6652:7194:1498:6646:1:28:749:::", -- [410]
+			"1607168297#2381#2287#23#Merren#9#1#item:182751::::::::60:62::23:2:1511:7245:2:28:749:37:4:::", -- [411]
+			"1607168307#2381#2287#23#Swippy-Aszune#11#1#item:178829::::::::60:62::23:4:6807:6652:1498:6646:1:28:749:::", -- [412]
+			"1607202850#0#2222#0#Rykahpo#8#1#item:180008::::::::60:62:::::::", -- [413]
+			"1607372521#0#2222#0#Rykahpo#8#2#item:184519::::::::60:62:::::::", -- [414]
 		},
 		["bossNames"] = {
 			[2358] = "Oryphrion",
@@ -5543,6 +5818,7 @@ VExRT = {
 			[2114] = "Soulbound Goliath",
 		},
 		["instanceNames"] = {
+			"Kalimdor", -- [1]
 			[571] = "Northrend",
 			[2284] = "Sanguine Depths",
 			[2162] = "Torghast, Tower of the Damned",
@@ -5561,15 +5837,6 @@ VExRT = {
 			[2286] = "The Necrotic Wake",
 			[2287] = "Halls of Atonement",
 		},
-	},
-	["Profile"] = "default",
-	["LootLink"] = {
-	},
-	["RaidGroups"] = {
-		["profiles"] = {
-		},
-	},
-	["Profiles"] = {
 	},
 	["Logging"] = {
 	},
@@ -6778,13 +7045,49 @@ VExRT = {
 	},
 	["Note"] = {
 		["BlackNames"] = {
-			[5] = "-1",
-			[6] = "Drest'agath DPS Timings",
+			"All Tactics", -- [1]
+			"Role Specific", -- [2]
+			"All Tactics", -- [3]
+			"Role Specific", -- [4]
+			"All Tactics", -- [5]
+			"Role Specific", -- [6]
+			"All Tactics", -- [7]
+			"Role Specific", -- [8]
+			"All Tactics", -- [9]
+			"Role Specifc", -- [10]
+			"All Tactics", -- [11]
+			"Role Specific", -- [12]
+			"All Tactics - Stavros/Frieda/Niklaus", -- [13]
+			"Role Specific - Stavros/Frieda/Niklaus", -- [14]
+			"All Tactics", -- [15]
+			"Role Specific", -- [16]
+			"All Tactics", -- [17]
+			"Role Specific", -- [18]
+			"All Tactics", -- [19]
+			"Role Specific", -- [20]
 		},
 		["Strata"] = "DIALOG",
 		["AutoLoad"] = {
-			[5] = 2328,
-			[6] = 2343,
+			2398, -- [1]
+			2398, -- [2]
+			2418, -- [3]
+			2418, -- [4]
+			2402, -- [5]
+			2402, -- [6]
+			2383, -- [7]
+			2383, -- [8]
+			2405, -- [9]
+			2405, -- [10]
+			2406, -- [11]
+			2406, -- [12]
+			2412, -- [13]
+			2412, -- [14]
+			2399, -- [15]
+			2399, -- [16]
+			2417, -- [17]
+			2417, -- [18]
+			2407, -- [19]
+			2407, -- [20]
 		},
 		["Left"] = 4.074100971221924,
 		["HideOutsideRaid"] = true,
@@ -6792,31 +7095,82 @@ VExRT = {
 		["OnlyPromoted"] = true,
 		["Fix"] = true,
 		["ScaleBack"] = 20,
-		["Text1"] = "STACK ON {star} (88%) ROSS\nSTACK ON {circle} (70%) MINTY/GORDO\n\nP2 Harvesters #1 - KILL\nP2 Harvesters #2 - Immunities\nP2 Harvesters #3  - Group Soak TOILET/SQUIGG\n\nEvoke #1 - Double Darkness & Gordo AM\nEvoke #2 - Revival\nEvoke #3 - Aura Mastery & Gordo Wings\nEvoke #4 - Tranquillity & Rally\n\nP2 Paranoia #1 - STACK - DEMON/AHUGEDISC\nP2 Paranoia #2 - STACK - ANDY (During) GUNDAMIN (After beam)\n\nSP Bomb #1: Medsy 1, Diz 2\nSP Bomb #2: Bigjon 1, Rykah 2, Leosta 3\nSP Bomb #3: Yhera 1, Vojjin 2, Consumable 3\nSP Bomb #4: Tj 1, Woodsey 2, Fira 3\n\nP3 Harvesters #1: GROUP SOAK & Barrier\n\nEvoke #5 (LEFT): Aura Mastery (G) & Revival\nEvoke #6 (RIGHT): Aura Mastery (R)\n\nP3 Paranoia #1: Barrier & Darkness/Rally\n--- use end of Para/start of Anguish cast",
+		["Text1"] = "Two phase fight. Fight boss, then play hide&seek during ||cffff00ffP2||r.\n\n||cffff00ffPhase 1||r:  \n||cffff9933HIDE||r behind ||cffF8FF64pillar||r during ||cff00ffffEarsplitting Shriek||r.\n||cffff9933RUN OUT||r with ||cff00ffffEcholocation||r.\n{T}{tank}||cffF8FF64Tanks:||r  ||cffff9933FACE||r ||cffF8FF64boss||r away (||cff00ffffBlind Swipe||r)\n{tank} ||cffF8FF64TANK SWAP||r on ||cff00ffffExanguinating Bite||r.{/T}\n\n||cffff00ffPhase 2||r:\n||cffff9933RUN AWAY||r as a group from ||cffF8FF64boss||r around the room. \n||cffff9933DODGE||r ||cff00ffffSonar Disks||r. ||cffE30101STAY OUT OF LOS||r to avoid ||cff00ffffEarsplitting Shriek||r.\n||cffff9933STAY AWAY||r from ||cffF8FF64boss||r or be instantly killed.",
 		["OptionsFormatting"] = true,
-		["DefName"] = "MYTHIC NZOTH",
-		["LastUpdateName"] = "Tjwarlock-Ravencrest",
+		["DefName"] = "Shriekwing",
+		["LastUpdateName"] = "Rykahpo-Frostmane",
+		["enabled"] = true,
 		["Scale"] = 114,
-		["LastUpdateTime"] = 1598812885,
+		["LastUpdateTime"] = 1607465296,
 		["Width"] = 363.1973876953125,
 		["Top"] = 641.0118408203125,
 		["BlackLastUpdateName"] = {
-			[5] = "Rykahpo-Frostmane",
-			[6] = "Rykahpo-Frostmane",
+			"Rykahpo-Frostmane", -- [1]
+			"Rykahpo-Frostmane", -- [2]
+			"Rykahpo-Frostmane", -- [3]
+			"Rykahpo-Frostmane", -- [4]
+			"Rykahpo-Frostmane", -- [5]
+			"Rykahpo-Frostmane", -- [6]
+			"Rykahpo-Frostmane", -- [7]
+			"Rykahpo-Frostmane", -- [8]
+			"Rykahpo-Frostmane", -- [9]
+			"Rykahpo-Frostmane", -- [10]
+			"Rykahpo-Frostmane", -- [11]
+			"Rykahpo-Frostmane", -- [12]
+			"Rykahpo-Frostmane", -- [13]
+			"Rykahpo-Frostmane", -- [14]
+			"Rykahpo-Frostmane", -- [15]
+			"Rykahpo-Frostmane", -- [16]
+			"Rykahpo-Frostmane", -- [17]
+			"Rykahpo-Frostmane", -- [18]
+			"Rykahpo-Frostmane", -- [19]
+			"Rykahpo-Frostmane", -- [20]
 		},
 		["BlackLastUpdateTime"] = {
-			[5] = 1592159393,
-			[6] = 1588616784,
+			1607465418, -- [1]
+			1607465203, -- [2]
+			1607465430, -- [3]
+			1607465469, -- [4]
+			1607465847, -- [5]
+			1607465855, -- [6]
+			1607465965, -- [7]
+			1607465972, -- [8]
+			1607465867, -- [9]
+			1607465876, -- [10]
+			1607465980, -- [11]
+			1607466003, -- [12]
+			1607465890, -- [13]
+			1607465924, -- [14]
+			1607466031, -- [15]
+			1607466040, -- [16]
+			1607466047, -- [17]
+			1607466054, -- [18]
+			1607466061, -- [19]
+			1607466068, -- [20]
 		},
 		["Alpha"] = 100,
 		["Height"] = 390.2113647460938,
 		["Black"] = {
-			"", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Interrupts\nAdd 1 - Htzone, Cka, Oxywen\nAdd 2 - Sylx, Black, Archi\nAdd 3 - Rykah, Dahid, Dark\n\n\nBalls\nBall 1 - Dahid, Tony, Santo\nBall 2 - Dark, Jhelica, Ahuge\nBall 3 - Chicken, Sabchev, Kimmy\nBall 4 - Kuntrum, Rykah, Archi", -- [5]
-			"{time:0:06} 2 {spell:309961}next to boss to 10%\n{time:0:23} melee =  {spell:311551} {cross} ranged = {spell:298424}\n{time:0:50} {spell:32182}{spell:80353} when buffs are up\n{time:1:0} no buff = kill {spell:298424}\n{time:1:20} melee = 2nd {spell:309713}{diamond}\n{time:1:20} ranged = {spell:298424} then {spell:309713}\n{time:1:50} melee = 3rd {spell:309713}{skull}\n{time:1:55} ranged = 2 new {spell:298424}\n{time:2:25} melee = {spell:309961} and {spell:309713}{circle} near entrance\n{time:3:30} ranged = 2 {spell:298424}{triangle} in the back Melee = {spell:309961}{cross}\n{time:3:59} melee = {spell:309713}{star} + left {spell:309961} range stack up\n{time:4:20} {spell:309713}{star} + 2 {spell:309961} \n{time:5:10} ranged = 2x {spell:298424} and {spell:309961} closer to the entrance\n{time:5:15} melee = {spell:309713}{moon}\n{time:5:40} ranged = {spell:298424}{cross} and {spell:309961} near the boss\n{time:6:30} melee = {spell:309961} ranged = {spell:298424}\n{time:6:45} melee = {spell:309713} {square} by boss\n{time:7:40} no buff = {spell:309713} by boss\n\n{spell:62618}{spell:97462} ~1.10 {cross}\n{spell:31821}{spell:97462} ~2.40{star}{skull}{circle}\n{spell:98008}{spell:196718} ~3.40@{cross}\n{spell:31821}{spell:97462}{spell:108280}~5.40{skull}{circle}{moon}\n{spell:62618}{spell:97462} ~6.30{moon}\n{spell:98008}{spell:196718} ~7.20{moon}", -- [6]
+			"Two phase fight. Fight boss, then play hide&seek during ||cffff00ffP2||r.\n\n||cffff00ffPhase 1||r:  \n||cffff9933HIDE||r behind ||cffF8FF64pillar||r during ||cff00ffffEarsplitting Shriek||r.\n||cffff9933RUN OUT||r with ||cff00ffffEcholocation||r.\n{tank}||cffF8FF64Tanks:||r  ||cffff9933FACE||r ||cffF8FF64boss||r away (||cff00ffffBlind Swipe||r)\n{tank} ||cffF8FF64TANK SWAP||r on ||cff00ffffExanguinating Bite||r.\n\n||cffff00ffPhase 2||r:\n||cffff9933RUN AWAY||r as a group from ||cffF8FF64boss||r around the room. \n||cffff9933DODGE||r ||cff00ffffSonar Disks||r. ||cffE30101STAY OUT OF LOS||r to avoid ||cff00ffffEarsplitting Shriek||r.\n||cffff9933STAY AWAY||r from ||cffF8FF64boss||r or be instantly killed.", -- [1]
+			"Two phase fight. Fight boss, then play hide&seek during ||cffff00ffP2||r.\n\n||cffff00ffPhase 1||r:  \n||cffff9933HIDE||r behind ||cffF8FF64pillar||r during ||cff00ffffEarsplitting Shriek||r.\n||cffff9933RUN OUT||r with ||cff00ffffEcholocation||r.\n{T}{tank}||cffF8FF64Tanks:||r  ||cffff9933FACE||r ||cffF8FF64boss||r away (||cff00ffffBlind Swipe||r)\n{tank} ||cffF8FF64TANK SWAP||r on ||cff00ffffExanguinating Bite||r.{/T}\n\n||cffff00ffPhase 2||r:\n||cffff9933RUN AWAY||r as a group from ||cffF8FF64boss||r around the room. \n||cffff9933DODGE||r ||cff00ffffSonar Disks||r. ||cffE30101STAY OUT OF LOS||r to avoid ||cff00ffffEarsplitting Shriek||r.\n||cffff9933STAY AWAY||r from ||cffF8FF64boss||r or be instantly killed.", -- [2]
+			"Three phase fight, with 3 unique pets of Huntsman to deal with.\n\n||cffff00ffWhole Fight||r: \n||cffff9933RUN OUT||r and spread with ||cff00ffffSinseeker||r.\n||cffff9933LOOSE SPREAD||r to lower damage from ||cff00ffffSpreadshot||r.\n\n||cffff00ffPhase 1 (Margore Phase)||r: \n||cffff9933GROUP SOAK||r  ||cff00ffffVicious Lunge||r.\n{tank}||cffF8FF64Tanks:||r  ||cffff9933SWAP ON||r ||cff00ff003-4||r stacks of ||cff00ffffJagged Claws||r.\n\n||cffff00ffPhase 2 (Barghast Phase)||r: \nOn ||cff00ffffShades of Barghast||r, ||cffff9933USE CCs||r to lock down. ||cffff9933KILL||r ||cffF8FF64Shades||r ~||cff00ff0020||r stacks.\n{tank}||cffF8FF64Tanks:||r ||cffff9933SEPARATE||r ||cffF8FF64Barghast||r from ||cffF8FF64boss||r. ||cffff9933DEFENSIVE CD||r on ||cff00ffffRip Soul||r.\n{healer}||cffF8FF64Healers:||r ||cffff9933HEAL UP||r ||cffF8FF64Rip Soul add||r before it reaches ||cffF8FF64boss||r.\n\n||cffff00ffPhase 3 (Hecutis Phase)||r: \n||cffff9933RUN OUT||r if afflicted by  ||cff00ffffPetrifying Howl||r.\n{tank}||cffF8FF64Tanks:||r  ||cffff9933MOVE||r ||cffF8FF64Hecutis||r to remove ||cff00ffffCrushing Stone||r stacks.", -- [3]
+			"Three phase fight, with 3 unique pets of Huntsman to deal with.\n\n||cffff00ffWhole Fight||r: \n||cffff9933RUN OUT||r and spread with ||cff00ffffSinseeker||r.\n||cffff9933LOOSE SPREAD||r to lower damage from ||cff00ffffSpreadshot||r.\n\n||cffff00ffPhase 1 (Margore Phase)||r: \n||cffff9933GROUP SOAK||r  ||cff00ffffVicious Lunge||r.\n{T}{tank}||cffF8FF64Tanks:||r  ||cffff9933SWAP ON||r ||cff00ff003-4||r stacks of ||cff00ffffJagged Claws||r.{/T}\n\n||cffff00ffPhase 2 (Barghast Phase)||r: \nOn ||cff00ffffShades of Barghast||r, ||cffff9933USE CCs||r to lock down. ||cffff9933KILL||r ||cffF8FF64Shades||r ~||cff00ff0020||r stacks.\n{T}{tank}||cffF8FF64Tanks:||r ||cffff9933SEPARATE||r ||cffF8FF64Barghast||r from ||cffF8FF64boss||r. ||cffff9933DEFENSIVE CD||r on ||cff00ffffRip Soul||r.{/T} \n{H}{healer} ||cffF8FF64Healers:||r ||cffff9933HEAL UP||r ||cffF8FF64Rip Soul add||r before it reaches ||cffF8FF64boss||r.{/H}\n\n||cffff00ffPhase 3 (Hecutis Phase)||r: \n||cffff9933RUN OUT||r if afflicted by  ||cff00ffffPetrifying Howl||r.\n{T}{tank}||cffF8FF64Tanks:||r  ||cffff9933MOVE||r ||cffF8FF64Hecutis||r to remove ||cff00ffffCrushing Stone||r stacks.{/T}", -- [4]
+			"Two phase heavy add fight. Fight ends when Kael'thas is ||cff00ff00100%||r healed.\n\n||cffff00ffPhase 1 (Add Phase)||r: \n||cffff9933KILL||r priority: ||cffF8FF64Infusers||r > ||cffF8FF64Occultist||r > ||cffF8FF64Vanquisher||r > ||cffF8FF64Assassin||r > ||cffF8FF64Fiend||r > ||cffF8FF64Darithos||r.\n||cffff9933RUN OUT||r with ||cff00ffffCrimson Flurry||r. ||cffff9933BURST||r ||cffF8FF64Assassin||r ||cff00ff00@30%||r health.\n||cffff9933KICK||r ||cff00ffffVulgar Brand||r (||cffF8FF64Occultist||r). ||cffff9933LOOSELY SPREAD||r during ||cffF8FF64Fiends||r.\n\n{tank}||cffF8FF64Tanks:||r  ||cffff9933TANK||r ||cffF8FF64Vanquishers||r & ||cffff9933SWAP ON||r ||cff00ff003||r stacks of ||cff00ffffReverberation||r.\n{healer}||cffF8FF64Healers:||r ||cffff9933HEAL UP||r ||cffF8FF64Essence Fonts||r on ground on ||cffF8FF64Occultist||r death.\n{healer} ||cffff9933PICK UP||r ||cff00ffffInfuser's Boon||r orbs for ||cff00ff00+50%||r healing & ||cffff9933HEAL||r ||cffF8FF64Kael'thas||r.\n\n||cffff00ffPhase 2 (@45%, 90%)||r: \n||cffff9933LOOSE STACK||r behind ||cffF8FF64Shade of Kael'thas||r.\n||cffff9933DODGE||r ||cff00ffffBlazing Surge||r frontal @||cff00ff00100||r energy.\n||cffff9933RUN OUT & GROUP SOAK||r ||cff00ffffEmber Blast||r to split damage. \n{dps}||cffff9933STUN & KILL||r ||cffF8FF64Reborn Phoenix||r adds.\n\n{tank}||cffF8FF64Tanks:||r  ||cffff9933TANK||r ||cffF8FF64Shade of Kael'thas||r @ edge of room and ||cffff9933SLOWLY KITE||r.\n{tank} ||cffff9933SWAP ON||r ||cff00ff003||r stacks of ||cff00ffffFiery Strike||r.", -- [5]
+			"cffff00ffPhase 1 (Add Phase)||r: \n||cffff9933KILL||r priority: ||cffF8FF64Infusers||r > ||cffF8FF64Occultist||r > ||cffF8FF64Vanquisher||r > ||cffF8FF64Assassin||r > ||cffF8FF64Fiend||r > ||cffF8FF64Darithos||r.\n||cffff9933RUN OUT||r with ||cff00ffffCrimson Flurry||r. ||cffff9933BURST||r ||cffF8FF64Assassin||r ||cff00ff00@30%||r health.\n||cffff9933KICK||r ||cff00ffffVulgar Brand||r (||cffF8FF64Occultist||r). ||cffff9933LOOSELY SPREAD||r during ||cffF8FF64Fiends||r.\n\n{T}{tank}||cffF8FF64Tanks:||r  ||cffff9933TANK||r ||cffF8FF64Vanquishers||r & ||cffff9933SWAP ON||r ||cff00ff003||r stacks of ||cff00ffffReverberation||r.{/T}\n{H}{healer}||cffF8FF64Healers:||r ||cffff9933HEAL UP||r ||cffF8FF64Essence Fonts||r on ground on ||cffF8FF64Occultist||r death.\n{healer} ||cffff9933PICK UP||r ||cff00ffffInfuser's Boon||r orbs for ||cff00ff00+50%||r healing & ||cffff9933HEAL||r ||cffF8FF64Kael'thas||r.{/H}\n\n||cffff00ffPhase 2 (@45%, 90%)||r: \n||cffff9933LOOSE STACK||r behind ||cffF8FF64Shade of Kael'thas||r.\n||cffff9933DODGE||r ||cff00ffffBlazing Surge||r frontal @||cff00ff00100||r energy.\n||cffff9933RUN OUT & GROUP SOAK||r ||cff00ffffEmber Blast||r to split damage. \n{dps}||cffff9933STUN & KILL||r ||cffF8FF64Reborn Phoenix||r adds.\n\n{T}{tank}||cffF8FF64Tanks:||r  ||cffff9933TANK||r ||cffF8FF64Shade of Kael'thas||r @ edge of room and ||cffff9933SLOWLY KITE||r.\n{tank} ||cffff9933SWAP ON||r ||cff00ff003||r stacks of ||cff00ffffFiery Strike||r.{/T}", -- [6]
+			"One phase fight, with a variety of spread & stack mechanics.\n\n||cffff00ffWhole Fight||r:  \n||cffff9933SPREAD OUT||r ||cff00ff00~10||r yards to avoid extra AoE damage.\n||cffff9933DODGE||r ||cff00ffffVolatile Miasma||r random frontal.\n||cffff9933STACK||r on ||cff00ff00~2||r ||cffF8FF64teammates||r on ||cff00ffffGluttonous Miasma||r to be healed.\n||cffff9933RUN AWAY||r from ||cffF8FF64boss||r for ||cff00ffffExpunge||r.\n\n{healer}||cffF8FF64Healers:||r ||cffF8FF64Allies||r with ||cff00ffffGluttonous Miasma||r cannot be healed.\n{tank}||cffF8FF64Tanks:||r  ||cffff9933TANK SWAP||r on ||cff00ffffGrowing Hunger||r, around ||cff00ff005||r stacks.\n{tank}||cffff9933SOAK||r ||cffF8FF64blue orbs||r on ground while not tanking.", -- [7]
+			"One phase fight, with a variety of spread & stack mechanics.\n\n||cffff00ffWhole Fight||r:  \n||cffff9933SPREAD OUT||r ||cff00ff00~10||r yards to avoid extra AoE damage.\n||cffff9933DODGE||r ||cff00ffffVolatile Miasma||r random frontal.\n||cffff9933STACK||r on ||cff00ff00~2||r ||cffF8FF64teammates||r on ||cff00ffffGluttonous Miasma||r to be healed.\n||cffff9933RUN AWAY||r from ||cffF8FF64boss||r for ||cff00ffffExpunge||r.\n\n{H}{healer}||cffF8FF64Healers:||r ||cffF8FF64Allies||r with ||cff00ffffGluttonous Miasma||r cannot be healed.{/H}\n{T}{tank}||cffF8FF64Tanks:||r  ||cffff9933TANK SWAP||r on ||cff00ffffGrowing Hunger||r, around ||cff00ff005||r stacks.\n{tank}||cffff9933SOAK||r ||cffF8FF64blue orbs||r on ground while not tanking.{/T}", -- [8]
+			"Three phase fight. Unique mechanic for each phase to survive the fight.\n\n||cffff00ffWhole Fight||r: \n||cffff9933DODGE||r ||cff00ffffStasis Traps||r. \n||cffff9933DROP||r ||cff00ffffDimensional Tear||r wormhole away from other target.\n{tank}||cffF8FF64Tanks:||r  ||cffff9933TANK SWAP||r on ||cff00ffffGlyph of Destruction||r and ||cffff9933RUN||r bomb debuff out.\n\n||cffff00ffPhase 1 (100-70%)||r: \n||cffff9933USE WORMHOLE||r and ||cffff9933RUN||r from your ||cffF8FF64fixated add||r (||cff00ffffCrystal of Phantasms||r).\n\n||cffff00ffPhase 2 (70%-40%)||r: \n||cffff9933CARRY AND DROP OFF||r ||cffF8FF64blue seeds||r on opposite side of room.\n||cffff9933USE WORMHOLE||r to travel quickly ||cffE30101seed detonates||r.\n{healer}||cffF8FF64Healers:||r ||cffff9933SPOT HEAL||r ||cffF8FF64players carrying seeds||r.\n\n||cffff00ffPhase 3 (40%-0%)||r: \n||cff00ffffEdge of Annihilation||r pulls raid in and deals ||cffE30101lethal damage||r.\nTo prevent, ||cffff9933DROP WORMHOLES||r behind the raid & in front of the boss, making a loop.", -- [9]
+			"Three phase fight. Unique mechanic for each phase to survive the fight.\n\n||cffff00ffWhole Fight||r: \n||cffff9933DODGE||r ||cff00ffffStasis Traps||r. \n||cffff9933DROP||r ||cff00ffffDimensional Tear||r wormhole away from other target.\n{T}{tank}||cffF8FF64Tanks:||r  ||cffff9933TANK SWAP||r on ||cff00ffffGlyph of Destruction||r and ||cffff9933RUN||r bomb debuff out.{/T}\n\n||cffff00ffPhase 1 (100-70%)||r: \n||cffff9933USE WORMHOLE||r and ||cffff9933RUN||r from your ||cffF8FF64fixated add||r (||cff00ffffCrystal of Phantasms||r).\n\n||cffff00ffPhase 2 (70%-40%)||r: \n||cffff9933CARRY AND DROP OFF||r ||cffF8FF64blue seeds||r on opposite side of room.\n||cffff9933USE WORMHOLE||r to travel quickly ||cffE30101seed detonates||r.\n{H}{healer}||cffF8FF64Healers:||r ||cffff9933SPOT HEAL||r ||cffF8FF64players carrying seeds||r.{/H}\n\n||cffff00ffPhase 3 (40%-0%)||r: \n||cff00ffffEdge of Annihilation||r pulls raid in and deals ||cffE30101lethal damage||r.\nTo prevent, ||cffff9933DROP WORMHOLES||r behind the raid & in front of the boss, making a loop.", -- [10]
+			"Multi-phase boss, based on ||cff00ffffFocus Anima||r ability. Prevent anima levels of 4 containers in room from hitting 100% to prevent a raid wipe.\n\n||cffF8FF64Boss||r will cast ||cff00ffffFocus Anima||r on containers, increasing how fast they fill.\n||cffff9933RELEASE ANIMA||r of container before and after it's ||cff00ffffFocus Anima||r, and anytime it goes above 33% otherwise.\n\n{icon:3684826} ||cff00ffffContainer of Desire||r (Tank Container):\n{tank}||cffF8FF64Tanks:||r ||cffff9933TANK SWAP||r on ||cff00ff002-3||r stacks of ||cff00ffffExpose||r (||cff00ff000-33%||r), 1-2 stacks of Expose (||cff00ff0033-100%||r). ||cffff9933RUN OUT||r with ||cff00ffffWarped Desires||r (||cff00ff0066-100%||r).\n\n{icon:3684825} ||cff00ffffContainer of Bottled Anima||r:\n||cff00ff000-33%||r: ||cffff9933SOAK||r red circles. ||cff00ff0033-66%||r: ||cffff9933AVOID||r blood pools that spawn.\n||cff00ff0036-100%||r: ||cffff9933SOAK||r additional red circles that spawn from initial soaks.\n\n{icon:3684828} ||cff00ffffContainer of Sin||r:\n||cff00ff000-33%||r: ||cffF8FF64Marked players||r ||cffff9933SOAK||r blood orbs.\n||cff00ff0033-100%||r: ||cffff9933AVOID||r blood beams from orbs.\n\n{icon:3684827} ||cff00ffffContainer of Concentrated Anima||r:\n||cff00ff000-33%||r: ||cffff9933RUN OUT||r with ||cff00ffffConcentrated Anima||r. Spawns 1 of 2 ||cffF8FF64adds||r:\n   ||cffF8FF64Conjured Manifestation||r: ||cffff9933KICK||r ||cff00ffffCondemn||r.\n   ||cffF8FF64Harnessed Specter||r: ||cffff9933KILL||r. {tank}||cffF8FF64Tanks:||r ||cffff9933MOVE||r to tank these.\n||cff00ff0033-66%||r: ||cffff9933SPREAD OUT||r, as||cff00ffff Concentrated Anima||r targets are now rooted.\n||cff00ff0066-100%%||r: ||cffff9933DODGE||r blood orbs that spawn from explosions.", -- [11]
+			"Multi-phase boss, based on ||cff00ffffFocus Anima||r ability. Prevent anima levels of 4 containers in room from hitting 100% to prevent a raid wipe.\n\n||cffF8FF64Boss||r will cast ||cff00ffffFocus Anima||r on containers, increasing how fast they fill.\n||cffff9933RELEASE ANIMA||r of container before and after it's ||cff00ffffFocus Anima||r, and anytime it goes above 33% otherwise.\n\n{icon:3684826} ||cff00ffffContainer of Desire||r (Tank Container):\n{T}{tank}||cffF8FF64Tanks:||r ||cffff9933TANK SWAP||r on ||cff00ff002-3||r stacks of ||cff00ffffExpose||r (||cff00ff000-33%||r), 1-2 stacks of Expose (||cff00ff0033-100%||r). ||cffff9933RUN OUT||r with ||cff00ffffWarped Desires||r (||cff00ff0066-100%||r).{/T}\n\n{icon:3684825} ||cff00ffffContainer of Bottled Anima||r:\n||cff00ff000-33%||r: ||cffff9933SOAK||r red circles. ||cff00ff0033-66%||r: ||cffff9933AVOID||r blood pools that spawn.\n||cff00ff0036-100%||r: ||cffff9933SOAK||r additional red circles that spawn from initial soaks.\n\n{icon:3684828} ||cff00ffffContainer of Sin||r:\n||cff00ff000-33%||r: ||cffF8FF64Marked players||r ||cffff9933SOAK||r blood orbs.\n||cff00ff0033-100%||r: ||cffff9933AVOID||r blood beams from orbs.\n\n{icon:3684827} ||cff00ffffContainer of Concentrated Anima||r:\n||cff00ff000-33%||r: ||cffff9933RUN OUT||r with ||cff00ffffConcentrated Anima||r. Spawns 1 of 2 ||cffF8FF64adds||r:\n   ||cffF8FF64Conjured Manifestation||r: ||cffff9933KICK||r ||cff00ffffCondemn||r.\n   ||cffF8FF64Harnessed Specter||r: ||cffff9933KILL||r. {T}{tank}||cffF8FF64Tanks:||r ||cffff9933MOVE||r to tank these.{/T}\n||cff00ff0033-66%||r: ||cffff9933SPREAD OUT||r, as||cff00ffff Concentrated Anima||r targets are now rooted.\n||cff00ff0066-100%%||r: ||cffff9933DODGE||r blood orbs that spawn from explosions.", -- [12]
+			"3 boss, 3 phase, 3 intermission boss fight. Each time a boss dies, the remaining bosses gain an additional ability.\n\n||cffff00ffWhole Fight||r:\nEvery time a ||cffF8FF64boss||r hits ||cff00ff0050%||r health, the raid has to enter ||cffff00ffDANCE PHASE||r:\n||cffff9933STAND IN YOUR DANCE SPOT||r marked by the ||cffF8FF64light beam||r.\n||cffff9933MOVE||r according to the boss's dance instructions.\n{tank}||cffF8FF64Tanks:||r  ||cffff9933TANK SWAP||r on ||cff00ff002||r stacks of ||cff00ffffDuelist's Riposte||r.\n\n||cffff00ffPhase 1 (All Bosses Alive)||r:\n||cffff9933KILL||r ||cffF8FF64Stavros||r. ||cffff9933KICK||r ||cffF8FF64Frieda's||r ||cff00ffffDreadbolt Volley||r.\n||cffff9933FOCUS AND NUKE||r ||cffF8FF64Dutiful Attendant||r.\n||cffff9933RUN OUT||r with your partner on ||cff00ffffDark Recital||r (||cffff00ffP1||r only).\n{tank}||cffF8FF64Tanks:||r ||cffF8FF64Stavros tank||r face ||cffF8FF64Stavros||r toward edge of room for ||cff00ffffEvasive Lunge||r.\n\n||cffff00ffPhase 2 (Stavros Dead)||r:\n||cffff9933KILL||r ||cffF8FF64Frieda||r. All of ||cffff00ffP1||r mechanics plus...\n||cffff9933SPREAD OUT||r for ||cff00ffffPrideful Eruption||r (||cffff00ffP2||r only).\n||cffff9933GATHER & AoE||r ||cffF8FF64Dredger Servant||r adds.\n\n||cffff00ffPhase 2 (Stavros & Frieda Dead)||r:\n||cffff9933KILL||r ||cffF8FF64Niklaus||r. All of ||cffff00ffP2||r mechanics plus...\n||cffff9933FOCUS DOWN||r ||cffF8FF64Veteran Stoneguard||r add.\n{tank}||cffF8FF64Tanks:||r  ||cffff9933SEPARATE||r ||cffF8FF64Veteran Stoneguard||r from ||cffF8FF64boss & adds||r to prevent enrage. ", -- [13]
+			"3 boss, 3 phase, 3 intermission boss fight. Each time a boss dies, the remaining bosses gain an additional ability.\n\n||cffff00ffWhole Fight||r:\nEvery time a ||cffF8FF64boss||r hits ||cff00ff0050%||r health, the raid has to enter ||cffff00ffDANCE PHASE||r:\n||cffff9933STAND IN YOUR DANCE SPOT||r marked by the ||cffF8FF64light beam||r.\n||cffff9933MOVE||r according to the boss's dance instructions.\n{T}{tank}||cffF8FF64Tanks:||r  ||cffff9933TANK SWAP||r on ||cff00ff002||r stacks of ||cff00ffffDuelist's Riposte||r.{/T}\n\n||cffff00ffPhase 1 (All Bosses Alive)||r:\n||cffff9933KILL||r ||cffF8FF64Stavros||r. ||cffff9933KICK||r ||cffF8FF64Frieda's||r ||cff00ffffDreadbolt Volley||r.\n||cffff9933FOCUS AND NUKE||r ||cffF8FF64Dutiful Attendant||r.\n||cffff9933RUN OUT||r with your partner on ||cff00ffffDark Recital||r (||cffff00ffP1||r only).\n{T}{tank}||cffF8FF64Tanks:||r ||cffF8FF64Stavros tank||r face ||cffF8FF64Stavros||r toward edge of room for ||cff00ffffEvasive Lunge||r.{/T}\n\n||cffff00ffPhase 2 (Stavros Dead)||r:\n||cffff9933KILL||r ||cffF8FF64Frieda||r. All of ||cffff00ffP1||r mechanics plus...\n||cffff9933SPREAD OUT||r for ||cff00ffffPrideful Eruption||r (||cffff00ffP2||r only).\n||cffff9933GATHER & AoE||r ||cffF8FF64Dredger Servant||r adds.\n\n||cffff00ffPhase 2 (Stavros & Frieda Dead)||r:\n||cffff9933KILL||r ||cffF8FF64Niklaus||r. All of ||cffff00ffP2||r mechanics plus...\n||cffff9933FOCUS DOWN||r ||cffF8FF64Veteran Stoneguard||r add.\n{T}{tank}||cffF8FF64Tanks:||r  ||cffff9933SEPARATE||r ||cffF8FF64Veteran Stoneguard||r from ||cffF8FF64boss & adds||r to prevent enrage. {/T}", -- [14]
+			"One phase DPS check boss. Kill before 5th charge or raid wipes.\n\n||cff00ffffChain Link||r: ||cffff9933STACK||r within ||cff00ff0012 yards||r of your partner or ||cffE30101DIE INSTANTLY||r.\n||cffF8FF64Melee||r ||cffff9933RUN AWAY||r during ||cff00ffffDestructive Stomp||r.\n||cffF8FF64Ranged||r ||cffff9933STAND||r near edge of room as much as possible, dodging ||cff00ffffFalling Rubble||r.\n||cff00ff003-4||r ||cffF8FF64ranged||r ||cffff9933SOAK||r ||cff00ffffChain Slam||r AoE circle.\n\n{tank}||cffF8FF64Tanks:||r ||cffff9933STACK||r within ||cff00ff005 yards||r due to ||cff00ffffGiant Fists||r.\n{tank}||cffff9933TANK||r ||cffF8FF64boss||r at least ||cff00ff0020 yards||r from pillars to prevent early destruction.\n{tank} ||cff00ff00@100||r energy, ||cffF8FF64boss||r will charge active tank. ||cffff9933RUN||r behind pillar to destroy.", -- [15]
+			"One phase DPS check boss. Kill before 5th charge or raid wipes.\n\n||cff00ffffChain Link||r: ||cffff9933STACK||r within ||cff00ff0012 yards||r of your partner or ||cffE30101DIE INSTANTLY||r.\n||cffF8FF64Melee||r ||cffff9933RUN AWAY||r during ||cff00ffffDestructive Stomp||r.\n||cffF8FF64Ranged||r ||cffff9933STAND||r near edge of room as much as possible, dodging ||cff00ffffFalling Rubble||r.\n||cff00ff003-4||r ||cffF8FF64ranged||r ||cffff9933SOAK||r ||cff00ffffChain Slam||r AoE circle.\n\n{T}{tank}||cffF8FF64Tanks:||r ||cffff9933STACK||r within ||cff00ff005 yards||r due to ||cff00ffffGiant Fists||r.\n{tank}||cffff9933TANK||r ||cffF8FF64boss||r at least ||cff00ff0020 yards||r from pillars to prevent early destruction.\n{tank} ||cff00ff00@100||r energy, ||cffF8FF64boss||r will charge active tank. ||cffff9933RUN||r behind pillar to destroy.{/T}", -- [16]
+			"Three phase encounter with intermissions between phases. Fight both bosses individually, then together.\n\n||cffff00ffPhase 1 (General Kaal)||r: \nManage Bleeds & AoE Soaking:\n1. ||cffff9933RUN OUT||r with ||cff00ffffWicked Blade||r, bouncing glaive with your ||cffF8FF64ally||r. \n2. ||cffff9933SOAK||r ||cff00ffffCrystalize||r to remove bleed left by ||cff00ffffWicked Blade||r.\n3. ||cffff9933GROUP SOAK||r ||cff00ffffPulverizing Meteor||r AoE on ||cffF8FF64allies||r who soaked ||cff00ffffCrystalize||r.\n||cffff9933CLEAVE DOWN||r ||cffF8FF64Stone Legion Goliath||r. ||cffff9933FOCUS KILL||r it at  ||cff00ff0020%||r health.\n{tank}||cffF8FF64Tanks:||r ||cffff9933CLEAR STACKS||r of ||cff00ffffSerrated Swipe||r with ||cff00ffffCrystalize||r around ||cff00ff003||r stacks.\n\n||cffff00ffIntermission 1||r: \n||cffff9933DODGE||r swirleys, ||cffff9933KILL||r ||cffF8FF64gargoyle adds||r.\n||cffff9933COLLECT||r anima orbs &||cffff9933 DELIVER||r to ||cffF8FF64Prince Renethel||r.\n\n||cffff00ffPhase 2 (General Grashaal)||r: \n||cffff9933DODGE||r ||cff00ffffSeismic Upheaval||r AoE circles.\nContinue to ||cffff9933RUN OUT||r with ||cff00ffffWicked Blade||r, bouncing glaive with your ||cffF8FF64ally||r. \n||cffff9933RUN OUT||r with ||cff00ffffReverberating Eruption||r, dropping off AoE circle at ||cffF8FF64edge of room||r.\nFor each ||cff00ffffReverberating Eruption||r cast, ||cffF8FF641 player||r ||cffff9933SOAK||r each AoE circle to prevent raid-wide damage.\n{tank}||cffF8FF64Tanks:||r ||cffff9933TANK SWAP||r on ||cff00ff001-2||r stacks of ||cff00ffffStonefist||r. \n{tank}||cffff9933FACE||r boss away from edge to prevent being knocked off.\n\n||cffff00ffIntermission 2||r: Same as Intermission 1. \n\n||cffff00ffPhase 3 (General Both)||r: \nSame as Phase 1 & 2, but with all mechanics simultaneously.", -- [17]
+			"Three phase encounter with intermissions between phases. Fight both bosses individually, then together.\n\n||cffff00ffPhase 1 (General Kaal)||r: \nManage Bleeds & AoE Soaking:\n1. ||cffff9933RUN OUT||r with ||cff00ffffWicked Blade||r, bouncing glaive with your ||cffF8FF64ally||r. \n2. ||cffff9933SOAK||r ||cff00ffffCrystalize||r to remove bleed left by ||cff00ffffWicked Blade||r.\n3. ||cffff9933GROUP SOAK||r ||cff00ffffPulverizing Meteor||r AoE on ||cffF8FF64allies||r who soaked ||cff00ffffCrystalize||r.\n||cffff9933CLEAVE DOWN||r ||cffF8FF64Stone Legion Goliath||r. ||cffff9933FOCUS KILL||r it at  ||cff00ff0020%||r health.\n{T}{tank}||cffF8FF64Tanks:||r ||cffff9933CLEAR STACKS||r of ||cff00ffffSerrated Swipe||r with ||cff00ffffCrystalize||r around ||cff00ff003||r stacks.{/T}\n\n||cffff00ffIntermission 1||r: \n||cffff9933DODGE||r swirleys, ||cffff9933KILL||r ||cffF8FF64gargoyle adds||r.\n||cffff9933COLLECT||r anima orbs &||cffff9933 DELIVER||r to ||cffF8FF64Prince Renethel||r.\n\n||cffff00ffPhase 2 (General Grashaal)||r: \n||cffff9933DODGE||r ||cff00ffffSeismic Upheaval||r AoE circles.\nContinue to ||cffff9933RUN OUT||r with ||cff00ffffWicked Blade||r, bouncing glaive with your ||cffF8FF64ally||r. \n||cffff9933RUN OUT||r with ||cff00ffffReverberating Eruption||r, dropping off AoE circle at ||cffF8FF64edge of room||r.\nFor each ||cff00ffffReverberating Eruption||r cast, ||cffF8FF641 player||r ||cffff9933SOAK||r each AoE circle to prevent raid-wide damage.\n{T}{tank}||cffF8FF64Tanks:||r ||cffff9933TANK SWAP||r on ||cff00ff001-2||r stacks of ||cff00ffffStonefist||r. \n{tank}||cffff9933FACE||r boss away from edge to prevent being knocked off.{/T}\n\n||cffff00ffIntermission 2||r: Same as Intermission 1. \n\n||cffff00ffPhase 3 (General Both)||r: \nSame as Phase 1 & 2, but with all mechanics simultaneously.", -- [18]
+			"Three phase fight with intermissions.\n\n||cffff00ffPhase 1 (100-70%)||r: \n||cff00ff00@100||r energy, ||cffF8FF64boss||r cuts off 1/3 of the room. ||cffff9933DODGE||r. \nPhase before running out of space.\n||cffff9933RUN OUT||r with ||cff00ffffNight Hunter||r. ||cffff9933GROUP SOAK||r ||cff00ffffNight Hunter||r charge path.\n||cffff9933REDUCE||r ||cff00ffffBurden of Sins||r stacks to your assigned # using ||cff00ffffCleansing Pain||r frontal.\n||cffff9933SWAP AND KILL||r ||cffF8FF64Echo of Sin adds||r.\n||cffff9933POSITION WITH BACK TO WALL||r on ||cff00ffffBlood Price||r.\n||cffff9933REDUCE||r ||cff00ffffBurden of Sins||r stacks to ||cff00ff002 or less||r before transition.\n\n||cffff00ffIntermission||r: \n||cffff9933RUN TO BOSS||r in center in time or die. \n\n||cffff00ffPhase 2 (70-40%)||r: \nNew add: ||cffF8FF64Remornia||r. \n||cffff9933RUN OUT & SPREAD||r with ||cff00ffffImpale||r.\n||cff00ff00@100||r energy, ||cffff9933SPREAD & DODGE||r ||cff00ffffMassacre||r red beams on ground.\n||cffff9933SWAP AND KILL||r ||cffF8FF64Crimson Cabalists||r. ||cffF8FF64RANGED||r ||cffff9933FOCUS||r ||cffF8FF64Cabalists||r on platforms.\n||cffff9933RUN AWAY or USE BLOOD MIRROR||r to escape from ||cff00ffffHand of Destruction||r.\n\n{tank}||cffF8FF64Tanks:||r ||cffff9933KEEP REMORNIA STACKED||r as much as possible for cleave.\n{tank} ||cffff9933FACE||r ||cffF8FF64boss's||r ||cff00ffffWracking Pain||r frontal toward ||cffF8FF64Cabalists adds||r. \n{tank} ||cffff9933TANK SWAP||r on ||cff00ff005-6||r stacks of ||cff00ffffCarnage||r or ||cff00ff001||r stack of ||cff00ffffWracking Pain||r. \n\n||cffff00ffPhase 3 (40-0%)||r:\n||cffff9933STACK||r with your back towards safe areas of the room for ||cff00ffffShattering Pain||r. \n||cffff9933RUN AWAY||r to escape from ||cff00ffffHand of Destruction||r.\n||cffff9933RUN OUT||r with ||cff00ffffFatal Finesse||r. ||cffff9933SOAK||r red orb left behind to reduce AoE explosion. \n||cffff9933SPREAD & DODGE||r ||cff00ffffMassacre||r red beams on ground.\n||cffff9933DODGE||r ||cff00ffffRavage||r and ||cffff9933ROTATE||r as a raid to safe spots. \n{tank}||cffF8FF64Tanks:||r ||cffff9933TANK SWAP||r on ||cff00ff004-6||r stacks of ||cff00ffffScorn||r. \n{tank} Keep rotating the raid to safe positions after ||cff00ffffRavage||r.", -- [19]
+			"Three phase fight with intermissions.\n\n||cffff00ffPhase 1 (100-70%)||r: \n||cff00ff00@100||r energy, ||cffF8FF64boss||r cuts off 1/3 of the room. ||cffff9933DODGE||r. \nPhase before running out of space.\n||cffff9933RUN OUT||r with ||cff00ffffNight Hunter||r. ||cffff9933GROUP SOAK||r ||cff00ffffNight Hunter||r charge path.\n||cffff9933REDUCE||r ||cff00ffffBurden of Sins||r stacks to your assigned # using ||cff00ffffCleansing Pain||r frontal.\n||cffff9933SWAP AND KILL||r ||cffF8FF64Echo of Sin adds||r.\n||cffff9933POSITION WITH BACK TO WALL||r on ||cff00ffffBlood Price||r.\n||cffff9933REDUCE||r ||cff00ffffBurden of Sins||r stacks to ||cff00ff002 or less||r before transition.\n\n||cffff00ffIntermission||r: \n||cffff9933RUN TO BOSS||r in center in time or die. \n\n||cffff00ffPhase 2 (70-40%)||r: \nNew add: ||cffF8FF64Remornia||r. \n||cffff9933RUN OUT & SPREAD||r with ||cff00ffffImpale||r.\n||cff00ff00@100||r energy, ||cffff9933SPREAD & DODGE||r ||cff00ffffMassacre||r red beams on ground.\n||cffff9933SWAP AND KILL||r ||cffF8FF64Crimson Cabalists||r. ||cffF8FF64RANGED||r ||cffff9933FOCUS||r ||cffF8FF64Cabalists||r on platforms.\n||cffff9933RUN AWAY or USE BLOOD MIRROR||r to escape from ||cff00ffffHand of Destruction||r.\n\n{T}{tank}||cffF8FF64Tanks:||r ||cffff9933KEEP REMORNIA STACKED||r as much as possible for cleave.\n{tank} ||cffff9933FACE||r ||cffF8FF64boss's||r ||cff00ffffWracking Pain||r frontal toward ||cffF8FF64Cabalists adds||r. \n{tank} ||cffff9933TANK SWAP||r on ||cff00ff005-6||r stacks of {icon:132155}||cff00ffffCarnage||r or ||cff00ff001||r stack of {icon:3528313}||cff00ffffWracking Pain||r. {/T}\n\n||cffff00ffPhase 3 (40-0%)||r:\n||cffff9933STACK||r with your back towards safe areas of the room for ||cff00ffffShattering Pain||r. \n||cffff9933RUN AWAY||r to escape from ||cff00ffffHand of Destruction||r.\n||cffff9933RUN OUT||r with ||cff00ffffFatal Finesse||r. ||cffff9933SOAK||r red orb left behind to reduce AoE explosion. \n||cffff9933SPREAD & DODGE||r ||cff00ffffMassacre||r red beams on ground.\n||cffff9933DODGE||r ||cff00ffffRavage||r and ||cffff9933ROTATE||r as a raid to safe spots. \n{T}{tank}||cffF8FF64Tanks:||r ||cffff9933TANK SWAP||r on ||cff00ff004-6||r stacks of {icon:136214}||cff00ffffScorn||r.\n{tank} Keep rotating the raid to safe positions after ||cff00ffffRavage||r.{/T}", -- [20]
 		},
 		["FontSize"] = 14,
 		["SelfText"] = "",

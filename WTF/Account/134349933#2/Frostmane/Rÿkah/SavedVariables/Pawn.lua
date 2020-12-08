@@ -1,11 +1,14 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0406,
+	["LastPlayerFullName"] = "Rÿkah-Frostmane",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 165459,
-			["Level"] = 120,
-			["Link"] = "|cffa335ee|Hitem:165459::::::::50:250::23:5:5845:1527:4786:6508:4775::::|h[Wardenguard's Greathelm]|h|r",
+			["ID"] = 178812,
+			["Level"] = 128,
+			["Link"] = "|cff0070dd|Hitem:178812::::::::56:250::17:4:7217:6771:6652:7194:2:28:747:9:56:::|h[Wing Commander's Helmet]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 158075,
@@ -13,9 +16,9 @@ PawnOptions = {
 			["Link"] = "|cffe6cc80|Hitem:158075::::::::50:250::11:4:4932:4933:6316:1552::::|h[Heart of Azeroth]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 174166,
-			["Level"] = 115,
-			["Link"] = "|cffa335ee|Hitem:174166::::::::50:250::3:5:4822:1487:4786:6506:4775::::|h[Pauldrons of Infinite Darkness]|h|r",
+			["ID"] = 178697,
+			["Level"] = 146,
+			["Link"] = "|cff0070dd|Hitem:178697::::::::59:250::17:3:7217:6771:6652:2:28:747:9:59:::|h[Prankster's Pauldrons]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -24,53 +27,53 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:166578::::::::50:250::23:5:5845:1527:4786:6507:4775::::|h[Wardenguard's Breastplate]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 159434,
-			["Level"] = 125,
-			["Link"] = "|cffa335ee|Hitem:159434::::::::50:250::35:9:6530:4802:6578:6579:6494:6613:6515:1538:4786::::|h[Cannoneer's Toolbelt]|h|r",
+			["ID"] = 181202,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:181202::::::::60:250::74:5:6652:7193:1472:5852:6616:1:28:2060:::|h[Ember-Scarred Girdle]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 165461,
-			["Level"] = 115,
-			["Link"] = "|cffa335ee|Hitem:165461::::::::50:250::23:4:5845:6516:1527:4786::::|h[Wardenguard's Legplates]|h|r",
+			["ID"] = 175663,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:175663::::::::59:252::11:1:6707:2:28:1707:9:59:::|h[Grove Warden's Greaves]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 159679,
-			["Level"] = 115,
-			["Link"] = "|cffa335ee|Hitem:159679::::::::50:250::35:7:5007:6578:6579:6551:6515:1528:4786::::|h[Sabatons of Rampaging Elements]|h|r",
+			["ID"] = 184515,
+			["Level"] = 140,
+			["Link"] = "|cff0070dd|Hitem:184515::::::::58:252::11:1:6706:2:28:747:9:58:::|h[Sacred Grove Sabatons]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 159449,
-			["Level"] = 125,
-			["Link"] = "|cffa335ee|Hitem:159449::::::::50:250::35:7:6530:6578:6579:6561:6513:1538:4786::::|h[Soulwarped Vambraces]|h|r",
+			["ID"] = 175676,
+			["Level"] = 138,
+			["Link"] = "|cff1eff00|Hitem:175676::::::::59:252::11:1:6707:2:28:1707:9:59:::|h[Grove Warden's Vambraces]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 159421,
-			["Level"] = 130,
-			["Link"] = "|cffa335ee|Hitem:159421::::::::50:250::35:4:6536:6513:1543:4786::::|h[Gauntlets of Total Subservience]|h|r",
+			["ID"] = 180910,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:180910::::::::60:250::11:3:7195:1472:6616:1:28:1707:::|h[Dread Sentinel's Ebony Grips]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 159458,
-			["Level"] = 120,
+			["ID"] = 178781,
+			["Level"] = 140,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:159458::::::::50:250::16:5:6536:6516:6515:1533:4786:1:28:1255:::|h[Seal of the Regal Loa]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178781::::::::58:252::17:4:7217:6771:6652:7193:2:28:747:9:58:::|h[Ritual Commander's Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 159458,
-			["Level"] = 120,
+			["ID"] = 178781,
+			["Level"] = 140,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:159458::::::::50:251::16:5:6536:6516:6515:1533:4786:1:28:1255:::|h[Seal of the Regal Loa]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178781::::::::58:252::17:4:7217:6771:6652:7193:2:9:58:28:747:::|h[Ritual Commander's Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 174044,
-			["Level"] = 100,
+			["ID"] = 173096,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:174044::::::::50:250::3:4:4822:6515:1487:4786::::|h[Humming Black Dragonscale]|h|r",
+			["Link"] = "|cff0070dd|Hitem:173096::::::::60:250::13:::::|h[Darkmoon Deck: Indomitable]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 158712,
-			["Level"] = 100,
+			["ID"] = 183851,
+			["Level"] = 138,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:158712::::::::50:250::16:4:5005:6515:1513:4786::::|h[Rezan's Gleaming Eye]|h|r",
+			["Link"] = "|cff1eff00|Hitem:183851::::::::60:252::11:1:6707:2:28:1707:9:59:::|h[Withergrove Shardling]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 169223,
@@ -78,20 +81,17 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:169223::::::::50:250::11:2:6279:1472::::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 172200,
-			["Level"] = 115,
-			["Link"] = "|cffa335ee|Hitem:172200:3368:::::::50:250::5:8:4823:1808:6572:6578:6579:6515:1502:4786::::|h[Sk'shuul Vaz]|h|r",
+			["ID"] = 181222,
+			["Level"] = 155,
+			["Link"] = "|cff0070dd|Hitem:181222::::::::60:250::74:4:6652:1472:5852:6616:1:28:2060:::|h[Darkwing Rebel's Halberd]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 176801,
-			["Level"] = 81,
+			["ID"] = 178711,
+			["Level"] = 140,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff1eff00|Hitem:176801::::::::51:251:::3:6908:6652:1708:2:28:1707:9:51:::|h[Unburdened Hammer of the Aurora]|h|r",
+			["Link"] = "|cff0070dd|Hitem:178711:3368:::::::58:252::17:3:7217:6771:6652:2:9:58:28:747:::|h[Axe of the Deadgrove]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Rÿkah-Frostmane",
 	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {

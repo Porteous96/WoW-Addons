@@ -62,7 +62,7 @@ Postal3DB = {
 				"Rykah|Frostmane|Alliance|42|MONK", -- [57]
 				"Rykkahpo|Frostmane|Alliance|50|ROGUE", -- [58]
 				"Ryykahpo|Frostmane|Alliance|66|SHAMAN", -- [59]
-				"Rÿkah|Frostmane|Alliance|50|DEATHKNIGHT", -- [60]
+				"Rÿkah|Frostmane|Alliance|60|DEATHKNIGHT", -- [60]
 				"Slywithapet|Frostmane|Alliance|1|HUNTER", -- [61]
 				"Spacegoatss|Frostmane|Alliance|110|PALADIN", -- [62]
 				"Sulivan|Tarren Mill|Horde|110|WARLOCK", -- [63]
@@ -127,8 +127,8 @@ Postal3DB = {
 		["Mechaboost - Sylvanas"] = "Mechaboost - Sylvanas",
 		["Chatmademe - Kazzak"] = "Chatmademe - Kazzak",
 		["Rykahpriest - Frostmane"] = "Rykahpriest - Frostmane",
-		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Préach - Tarren Mill"] = "Préach - Tarren Mill",
+		["Advboi - Grim Batol"] = "Advboi - Grim Batol",
 		["Preachez - Tarren Mill"] = "Preachez - Tarren Mill",
 		["Mastarace - Kazzak"] = "Mastarace - Kazzak",
 		["Rykahpo - Frostmane"] = "Rykahpo - Frostmane",
@@ -401,8 +401,6 @@ Postal3DB = {
 		},
 		["Rykahpriest - Frostmane"] = {
 		},
-		["Advboi - Grim Batol"] = {
-		},
 		["Préach - Tarren Mill"] = {
 			["BlackBook"] = {
 				["recent"] = {
@@ -422,6 +420,8 @@ Postal3DB = {
 					"Toutsweet|Tarren Mill|Horde", -- [14]
 				},
 			},
+		},
+		["Advboi - Grim Batol"] = {
 		},
 		["Preachez - Tarren Mill"] = {
 			["BlackBook"] = {

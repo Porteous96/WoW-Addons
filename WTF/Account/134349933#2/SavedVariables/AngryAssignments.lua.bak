@@ -105,12 +105,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 3882441674,
 		["Contents"] = "1,2 Left\n3,4 Right\n\nSogudh+Midiv+Shuffle+Menter+Oreo in portals",
 	},
-	[131065804] = {
-		["Updated"] = 1512594595,
-		["Name"] = "10. Aggramar",
-		["Id"] = 131065804,
-		["UpdateId"] = 1724939894,
-		["Contents"] = "{square} Piroen\n{triangle} Kloggy\n{Diamond} Sasha\n{Cross} Broken\n{star} Paramond\n{skull} Azu",
+	[2899825551] = {
+		["Updated"] = 1512680675,
+		["Name"] = "04. Hasabel",
+		["Id"] = 2899825551,
+		["UpdateId"] = 4187489131,
+		["Contents"] = "Platforms Up\nKris, Atiste, D3, Preach, Toe, Rewpat, Viri, Lester, Javi\n\nGreen orbs\nViridian, Atiste, Lester",
 	},
 	[456827320] = {
 		["Updated"] = 1490902306,
@@ -119,19 +119,19 @@ AngryAssign_Pages = {
 		["UpdateId"] = 3386932980,
 		["Contents"] = "P3 |cff4e96f7|Htalent:21963|h[Wind Rush Totem]|h|r\n1. bigtea\n2. Repwhy",
 	},
-	[664152245] = {
-		["Updated"] = 1499286458,
-		["Name"] = "Goroth",
-		["Id"] = 664152245,
-		["UpdateId"] = 3265387240,
-		["Contents"] = "Range Solo:\nFinal\nToe\nPreach\nInfinity",
+	[131065804] = {
+		["Updated"] = 1512594595,
+		["Name"] = "10. Aggramar",
+		["Id"] = 131065804,
+		["UpdateId"] = 1724939894,
+		["Contents"] = "{square} Piroen\n{triangle} Kloggy\n{Diamond} Sasha\n{Cross} Broken\n{star} Paramond\n{skull} Azu",
 	},
-	[96253929] = {
-		["Updated"] = 1474569233,
-		["Name"] = "HC-Dragons",
-		["Id"] = 96253929,
-		["UpdateId"] = 2230784549,
-		["Contents"] = "Swap on ~7ish stacks\n\nYsondre\n- Blasts a target, creates bloom, 1 player needs to stand on to not spawn adds.\n- Roots players in void zone, dispell and move out.\n\nEmeriss\n- Infection debuff, stay 10 yd away from ppl for 1.5 min.\n- Spawns adds, interrupt EVERY cast and kill them.\n- While flying; Dying adds spawns mushrooms that explode.\n\nLethon\n- Spawns adds from players, kill before they reach boss or boss heals. \n- Falling things do aoe damage, run out of it. \n- While flying; Targets player with debuff, after 10 sec spreads to 3 closest ppl and slows 10%.\n\nLeft   1,3,5\nRight 2,4,6",
+	[388952079] = {
+		["Updated"] = 1512679838,
+		["Name"] = "Shadowlord Iskar",
+		["Id"] = 388952079,
+		["UpdateId"] = 3418406217,
+		["Contents"] = "Focused Blast\n1. Frub Rally + Neo Smoke\n2. Soguud Rally + Xar Smoke\n3. Viski Devo\n4. Atiste Barrier",
 	},
 	[806454698] = {
 		["Updated"] = 1506540203,
@@ -175,12 +175,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 2674938560,
 		["Contents"] = "Look for the bare necessities\nThe simple bare necessities\nForget about your worries and your strife\nI mean the bare necessities\nOld Mother Nature's recipes\nThat brings the bare necessities of life\n\nWherever I wander, wherever I roam\nI couldn't be fonder of my big home\nThe bees are buzzin' in the tree\nTo make some honey just for me\nWhen you look under the rocks and plants\nAnd take a glance at the fancy ants\nThen maybe try a few\n[Interlude 1]\n(You eat ants!?)\nHaha, you better believe it\nYou're going to love the way they tickle\n(Mowgli, watch out!)\n\nThe bare necessities of life will come to you\nThey'll come to you!\n\nLook for the bare necessities\nThe simple bare necessities\nForget about your worries and your strife\nI mean the bare necessities\nThat's why a bear can rest at ease\nWith just the bare necessities of life\n\nNow when you pick a pawpaw\nOr a prickly pear\nAnd you prick a raw paw\nNext time beware\nDon't pick the prickly pear by the paw\nWhen you pick a pear\nTry to use the claw\nBut you don't need to use the claw\nWhen you pick a pear of the big pawpaw\n\nHave I given you a clue?\n(Golly, thanks Baloo!)\n(Pawpaw, hah! Of all the silly gibberish)\nC'mon Baggy, get with the beat!\n\n\nSo just try and relax, yeah cool it\nFall apart in my backyard\nCause let me tell you something little britches\nIf you act like that bee acts, uh uh\nYou're working too hard\n\n\nAnd don't spend your time lookin' around\nFor something you want that can't be found\nWhen you find out you can live without it\nAnd go along not thinkin' about it\nI'll tell you something true",
 	},
-	[2879943139] = {
-		["Updated"] = 1512331168,
-		["Name"] = "Sisters",
-		["Id"] = 2879943139,
-		["UpdateId"] = 4155950492,
-		["Contents"] = "{moon} Kloggy Javi Piro\n{triangle} Preach repwat Rulaaru\nMelee 1st Group: Tank D3 Nups Rain\nMelee 2nd Group: Tank Menter lester\n{cross} Koffie Chruemel Broken\n{Square} Faramond Azuriel Toe Hamrabe",
+	[1430642891] = {
+		["Updated"] = 1489006375,
+		["Name"] = "Spellblade",
+		["Id"] = 1430642891,
+		["UpdateId"] = 828345064,
+		["Contents"] = "{skull} ,Repwat, Faramond Piroen, Preach\n\n{Circle} testor, franky, Javinsane, Almarac\n\nInterupts:\n{star}: Almarac+ Piroen\n{circle}: Javinsane+ Testor\n{diamond}: Preach+ frankhy\n{triangle}: Faramond+ veri\n{moon}: Rewpat+ Soguhd\n{square}: Grip in",
 	},
 	[417139697] = {
 		["Updated"] = 1511988266,
@@ -196,12 +196,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 2799609945,
 		["Contents"] = "Life LOOK AT THE FUCKING SPREADSHEET\nSpirit LOOK AT THE FUCKING SPREADSHEET",
 	},
-	[2016611904] = {
-		["Updated"] = 1474577007,
-		["Name"] = "HC-Cenarius",
-		["Id"] = 2016611904,
-		["UpdateId"] = 3810366640,
-		["Contents"] = "Top left - Wisps\nTop right - Ancient\n\nAdd Spawns\n1. >Wisps<, Ancient, Dragon\n2. >Wisps<, Sisters, Dragon\n3. >Sister<, Sisters, Ancient\n4. >Dragon<, Dragon, Whisps\n5. >Ancient<, Ancient, Sister",
+	[2761381556] = {
+		["Updated"] = 1512333260,
+		["Name"] = "Fallen Avatar",
+		["Id"] = 2761381556,
+		["UpdateId"] = 2620248412,
+		["Contents"] = "1 Viridian, Broken, Lester, Nups\n2 Viridian, Hamrabe, Lester, Repawt\n3 Viridian, Preach, Lester, Menter\n4 Viridian, Bigtea, Lester, Nups+menter\n5 Viridian, Broken, Lester, Repawt\n\n1st beams\nL - Piroen - Azuriel - Hamrabe - Broken\nR - Almakawaii - Fara - Kloggy - Repwat\n\n2nd beams\nL - Preach - Koffie - Piroen - Azuriel\nR - Javi - Chruemel - Almakawaii - Fara\n\n3rd Beam\nL - Hamrabe - Broken - Preach - koffie \nR - Kloggy - Repwat - Javi - Chruemel\n\n4th Beam\nL - Piroen - Azuriel - Hamrabe - Broken\nR - Almakawaii - Fara - Kloggy - Repwat\n\n5th Beam\nL - Preach - koffie - Piroen - Azuriel\nR - Javi - Chruemel - Almakawaii - Fara\n\n{diamond} Piro, Javinsane, Menter\n{cross} Almakawaii, Hamrabe, Viridian\n{skull} Preach, Fara, Nups\n{Square} Rewpat, Kloggy, Finda\n2nd\n{diamond}Shade, Piro, Javi, Menter\n{skull} Preach, Para, Hamrabe, Rewpat\n3rd\n{skull}Shade,Hamrabe,Preach,piro,Kris{square}\n4th shade\n\nDark Marks\n{Square}Left Leg Rogues Finda Viridian\n{Triangle} Right Leg Menter Rogues Nups\n{Diamond} Ranged",
 	},
 	[2036034885] = {
 		["Updated"] = 1477597857,
@@ -210,12 +210,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 1983528417,
 		["Contents"] = ">Whisp<, Tree, Drake\n>Whisp<, Sister, Drake(+Whisp) \n>Tree<, Sister, Sister(+Whisp)\n>Whisp<, Drake, Drake(+Tree)",
 	},
-	[2761381556] = {
-		["Updated"] = 1512333260,
-		["Name"] = "Fallen Avatar",
-		["Id"] = 2761381556,
-		["UpdateId"] = 2620248412,
-		["Contents"] = "1 Viridian, Broken, Lester, Nups\n2 Viridian, Hamrabe, Lester, Repawt\n3 Viridian, Preach, Lester, Menter\n4 Viridian, Bigtea, Lester, Nups+menter\n5 Viridian, Broken, Lester, Repawt\n\n1st beams\nL - Piroen - Azuriel - Hamrabe - Broken\nR - Almakawaii - Fara - Kloggy - Repwat\n\n2nd beams\nL - Preach - Koffie - Piroen - Azuriel\nR - Javi - Chruemel - Almakawaii - Fara\n\n3rd Beam\nL - Hamrabe - Broken - Preach - koffie \nR - Kloggy - Repwat - Javi - Chruemel\n\n4th Beam\nL - Piroen - Azuriel - Hamrabe - Broken\nR - Almakawaii - Fara - Kloggy - Repwat\n\n5th Beam\nL - Preach - koffie - Piroen - Azuriel\nR - Javi - Chruemel - Almakawaii - Fara\n\n{diamond} Piro, Javinsane, Menter\n{cross} Almakawaii, Hamrabe, Viridian\n{skull} Preach, Fara, Nups\n{Square} Rewpat, Kloggy, Finda\n2nd\n{diamond}Shade, Piro, Javi, Menter\n{skull} Preach, Para, Hamrabe, Rewpat\n3rd\n{skull}Shade,Hamrabe,Preach,piro,Kris{square}\n4th shade\n\nDark Marks\n{Square}Left Leg Rogues Finda Viridian\n{Triangle} Right Leg Menter Rogues Nups\n{Diamond} Ranged",
+	[2016611904] = {
+		["Updated"] = 1474577007,
+		["Name"] = "HC-Cenarius",
+		["Id"] = 2016611904,
+		["UpdateId"] = 3810366640,
+		["Contents"] = "Top left - Wisps\nTop right - Ancient\n\nAdd Spawns\n1. >Wisps<, Ancient, Dragon\n2. >Wisps<, Sisters, Dragon\n3. >Sister<, Sisters, Ancient\n4. >Dragon<, Dragon, Whisps\n5. >Ancient<, Ancient, Sister",
 	},
 	[3757350532] = {
 		["Updated"] = 1501792631,
@@ -224,12 +224,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 1028280572,
 		["Contents"] = "Go to the outer lane when orb on you",
 	},
-	[1430642891] = {
-		["Updated"] = 1489006375,
-		["Name"] = "Spellblade",
-		["Id"] = 1430642891,
-		["UpdateId"] = 828345064,
-		["Contents"] = "{skull} ,Repwat, Faramond Piroen, Preach\n\n{Circle} testor, franky, Javinsane, Almarac\n\nInterupts:\n{star}: Almarac+ Piroen\n{circle}: Javinsane+ Testor\n{diamond}: Preach+ frankhy\n{triangle}: Faramond+ veri\n{moon}: Rewpat+ Soguhd\n{square}: Grip in",
+	[2879943139] = {
+		["Updated"] = 1512331168,
+		["Name"] = "Sisters",
+		["Id"] = 2879943139,
+		["UpdateId"] = 4155950492,
+		["Contents"] = "{moon} Kloggy Javi Piro\n{triangle} Preach repwat Rulaaru\nMelee 1st Group: Tank D3 Nups Rain\nMelee 2nd Group: Tank Menter lester\n{cross} Koffie Chruemel Broken\n{Square} Faramond Azuriel Toe Hamrabe",
 	},
 	[615536176] = {
 		["Updated"] = 1497469886,
@@ -245,19 +245,19 @@ AngryAssign_Pages = {
 		["UpdateId"] = 3954882453,
 		["Contents"] = "Purple{diamond}Nups,frub ,almarac ,Repway, Viridian, Bigtea\nBlue{square}Piroen, Preach,Thalyon Awesome , lester, uisge, \nOrange{circle}Javi,Menter ,Kloggy, Atiste, Mayden, final",
 	},
-	[388952079] = {
-		["Updated"] = 1512679838,
-		["Name"] = "Shadowlord Iskar",
-		["Id"] = 388952079,
-		["UpdateId"] = 3418406217,
-		["Contents"] = "Focused Blast\n1. Frub Rally + Neo Smoke\n2. Soguud Rally + Xar Smoke\n3. Viski Devo\n4. Atiste Barrier",
+	[96253929] = {
+		["Updated"] = 1474569233,
+		["Name"] = "HC-Dragons",
+		["Id"] = 96253929,
+		["UpdateId"] = 2230784549,
+		["Contents"] = "Swap on ~7ish stacks\n\nYsondre\n- Blasts a target, creates bloom, 1 player needs to stand on to not spawn adds.\n- Roots players in void zone, dispell and move out.\n\nEmeriss\n- Infection debuff, stay 10 yd away from ppl for 1.5 min.\n- Spawns adds, interrupt EVERY cast and kill them.\n- While flying; Dying adds spawns mushrooms that explode.\n\nLethon\n- Spawns adds from players, kill before they reach boss or boss heals. \n- Falling things do aoe damage, run out of it. \n- While flying; Targets player with debuff, after 10 sec spreads to 3 closest ppl and slows 10%.\n\nLeft   1,3,5\nRight 2,4,6",
 	},
-	[2899825551] = {
-		["Updated"] = 1512680675,
-		["Name"] = "04. Hasabel",
-		["Id"] = 2899825551,
-		["UpdateId"] = 4187489131,
-		["Contents"] = "Platforms Up\nKris, Atiste, D3, Preach, Toe, Rewpat, Viri, Lester, Javi\n\nGreen orbs\nViridian, Atiste, Lester",
+	[664152245] = {
+		["Updated"] = 1499286458,
+		["Name"] = "Goroth",
+		["Id"] = 664152245,
+		["UpdateId"] = 3265387240,
+		["Contents"] = "Range Solo:\nFinal\nToe\nPreach\nInfinity",
 	},
 }
 AngryAssign_Categories = {
